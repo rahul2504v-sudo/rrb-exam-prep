@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { Navbar } from '@/components/layout/Navbar';
+import { LanguageProvider } from '@/lib/LanguageContext';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -15,17 +16,25 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
-        <main className="min-h-screen pt-16">
-          {children}
-        </main>
-        <footer className="bg-gray-900 text-gray-400 py-8 mt-16">
-          <div className="max-w-6xl mx-auto px-4 text-center text-sm">
-            <p>RRB Exam Prep — Free mock tests for RRB NTPC & Group D 2026</p>
-            <p className="mt-1">Not affiliated with Railway Recruitment Board. For educational practice only.</p>
-          </div>
-        </footer>
+        <LanguageProvider>
+          <Navbar />
+          <main className="min-h-screen pt-16">
+            {children}
+          </main>
+          <Footer />
+        </LanguageProvider>
       </body>
     </html>
+  );
+}
+
+function Footer() {
+  return (
+    <footer className="bg-gray-900 text-gray-400 py-8 mt-16">
+      <div className="max-w-6xl mx-auto px-4 text-center text-sm">
+        <p>RRB Exam Prep — Free mock tests for RRB NTPC & Group D 2026</p>
+        <p className="mt-1">Not affiliated with Railway Recruitment Board. For educational practice only.</p>
+      </div>
+    </footer>
   );
 }

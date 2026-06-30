@@ -10,6 +10,8 @@ import { saveSession } from '@/lib/storage';
 import { formatTime, shuffleArray } from '@/lib/utils';
 import { Question, TestSession, AnsweredQuestion, SectionBreakdown, TopicBreakdown } from '@/types';
 import { Clock, ChevronLeft, ChevronRight, Flag, CheckCircle, XCircle, AlertCircle, Send } from 'lucide-react';
+import { useLanguage } from '@/lib/LanguageContext';
+import { TranslationKey } from '@/lib/translations';
 
 export default function QuizPage() {
   const params = useParams();
@@ -17,6 +19,7 @@ export default function QuizPage() {
   const slug = params.slug as string;
   const type = params.type as string;
   const paramId = params.id as string;
+  const { t } = useLanguage();
 
   const exam = examList.find(e => e.slug === slug);
 
@@ -32,7 +35,7 @@ export default function QuizPage() {
   const questionStartTimes = useRef<Record<string, number>>({});
 
   const isMock = type === 'mock';
-  const testName = isMock ? 'Full Length Mock Test' : 'Topic Practice';
+  const testName = isMock ? t('fullMock') : t('topicPractice');
 
   // Load questions
   useEffect(() => {
@@ -180,7 +183,7 @@ export default function QuizPage() {
     return (
       <div className="max-w-4xl mx-auto px-4 py-20 text-center">
         <div className="animate-spin w-8 h-8 border-4 border-rail-navy border-t-transparent rounded-full mx-auto" />
-        <p className="text-gray-500 mt-4">Loading questions...</p>
+        <p className="text-gray-500 mt-4">{t('loading')}</p>
       </div>
     );
   }
@@ -189,10 +192,10 @@ export default function QuizPage() {
     return (
       <div className="max-w-4xl mx-auto px-4 py-20 text-center">
         <AlertCircle className="w-12 h-12 text-gray-400 mx-auto mb-4" />
-        <h2 className="text-xl font-bold text-gray-900">No questions found</h2>
-        <p className="text-gray-500 mt-2">This topic may not have questions yet.</p>
+        <h2 className="text-xl font-bold text-gray-900">{t('noQuestions')}</h2>
+        <p className="text-gray-500 mt-2">{t('noQuestionsDesc')}</p>
         <Link href={`/exam/${slug}`} className="text-rail-navy hover:underline mt-4 inline-block">
-          ← Back to Exam
+          {t('backToExams')}
         </Link>
       </div>
     );
@@ -200,7 +203,7 @@ export default function QuizPage() {
 
   // Results view
   if (isSubmitted && session) {
-    return <ResultsView session={session} questions={questions} examId={exam.id} />;
+    return <ResultsView session={session} questions={questions} examId={exam.id} t={t} />;
   }
 
   const currentQuestion = questions[currentIndex];
@@ -213,7 +216,7 @@ export default function QuizPage() {
         <div className="flex items-center justify-between">
           <div>
             <Link href={`/exam/${slug}`} className="text-sm text-gray-500 hover:text-rail-navy">
-              ← Back
+              {t('backToExams')}
             </Link>
             <h1 className="font-semibold text-gray-900">{testName}</h1>
           </div>
@@ -228,14 +231,14 @@ export default function QuizPage() {
             )}
             
             <div className="text-sm text-gray-500">
-              {answeredCount}/{questions.length} answered
+              {answeredCount}/{questions.length} {t('answered')}
             </div>
 
             <button
               onClick={() => setShowPalette(!showPalette)}
               className="text-sm text-rail-navy font-medium hover:underline"
             >
-              {showPalette ? 'Hide' : 'Palette'}
+              {showPalette ? t('hide') : t('palette')}
             </button>
           </div>
         </div>
@@ -299,7 +302,7 @@ export default function QuizPage() {
               className="flex items-center gap-1 px-4 py-2 text-sm font-medium text-gray-700 
                        bg-white rounded-lg border hover:bg-gray-50 disabled:opacity-30"
             >
-              <ChevronLeft className="w-4 h-4" /> Previous
+              <ChevronLeft className="w-4 h-4" /> {t('previous')}
             </button>
 
             {currentIndex < questions.length - 1 ? (
@@ -308,7 +311,7 @@ export default function QuizPage() {
                 className="flex items-center gap-1 px-4 py-2 text-sm font-medium text-white 
                          bg-rail-navy rounded-lg hover:bg-blue-900"
               >
-                Next <ChevronRight className="w-4 h-4" />
+                {t('next')} <ChevronRight className="w-4 h-4" />
               </button>
             ) : (
               <button
@@ -316,7 +319,7 @@ export default function QuizPage() {
                 className="flex items-center gap-2 px-6 py-2.5 text-sm font-bold text-white 
                          bg-green-600 rounded-lg hover:bg-green-700 shadow-md"
               >
-                <Send className="w-4 h-4" /> Submit Test
+                <Send className="w-4 h-4" /> {t('submitTest')}
               </button>
             )}
           </div>
@@ -326,7 +329,7 @@ export default function QuizPage() {
         {showPalette && (
           <div className="hidden lg:block w-64 flex-shrink-0">
             <div className="card sticky top-36">
-              <h4 className="font-semibold text-sm text-gray-700 mb-3">Questions</h4>
+              <h4 className="font-semibold text-sm text-gray-700 mb-3">{t('questions')}</h4>
               <div className="grid grid-cols-5 gap-1.5">
                 {questions.map((q, idx) => {
                   const isAnswered = answers[q.id] !== null;
@@ -348,10 +351,10 @@ export default function QuizPage() {
               
               <div className="mt-4 space-y-1.5 text-xs">
                 <div className="flex items-center gap-2">
-                  <span className="w-3 h-3 rounded bg-green-100" /> Answered ({answeredCount})
+                  <span className="w-3 h-3 rounded bg-green-100" /> {t('answered')} ({answeredCount})
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="w-3 h-3 rounded bg-gray-100" /> Not Answered ({questions.length - answeredCount})
+                  <span className="w-3 h-3 rounded bg-gray-100" /> {t('skipped')} ({questions.length - answeredCount})
                 </div>
               </div>
 
@@ -359,7 +362,7 @@ export default function QuizPage() {
                 onClick={handleSubmit}
                 className="w-full mt-4 btn-primary text-sm py-2"
               >
-                Submit Test
+                {t('submitTest')}
               </button>
             </div>
           </div>
@@ -370,7 +373,7 @@ export default function QuizPage() {
 }
 
 // Results component (inline)
-function ResultsView({ session, questions, examId }: { session: TestSession; questions: Question[]; examId: string }) {
+function ResultsView({ session, questions, examId, t }: { session: TestSession; questions: Question[]; examId: string; t: (key: TranslationKey) => string }) {
   const router = useRouter();
   const percentage = Math.round((session.correctAnswers / session.totalQuestions) * 100);
   const scoreColor = percentage >= 70 ? 'text-green-600' : percentage >= 40 ? 'text-yellow-600' : 'text-red-600';
@@ -378,7 +381,7 @@ function ResultsView({ session, questions, examId }: { session: TestSession; que
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold text-gray-900 mb-6">Test Results</h1>
+      <h1 className="text-2xl font-bold text-gray-900 mb-6">{t('testResults')}</h1>
 
       {/* Score Card */}
       <div className="card mb-6">
@@ -393,19 +396,19 @@ function ResultsView({ session, questions, examId }: { session: TestSession; que
           <div className="flex-1 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
             <div>
               <div className="text-2xl font-bold text-green-600">{session.correctAnswers}</div>
-              <div className="text-xs text-gray-500">Correct</div>
+              <div className="text-xs text-gray-500">{t('correct')}</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-red-600">{session.wrongAnswers}</div>
-              <div className="text-xs text-gray-500">Wrong</div>
+              <div className="text-xs text-gray-500">{t('wrong')}</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-gray-400">{session.skipped}</div>
-              <div className="text-xs text-gray-500">Skipped</div>
+              <div className="text-xs text-gray-500">{t('skipped')}</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-gray-700">{formatTime(session.timeTaken)}</div>
-              <div className="text-xs text-gray-500">Time</div>
+              <div className="text-xs text-gray-500">{t('time')}</div>
             </div>
           </div>
         </div>
@@ -414,7 +417,7 @@ function ResultsView({ session, questions, examId }: { session: TestSession; que
       {/* Topic Breakdown */}
       {session.topicBreakdown && session.topicBreakdown.length > 0 && (
         <div className="card mb-6">
-          <h3 className="font-bold text-gray-900 mb-4">Topic-wise Performance</h3>
+          <h3 className="font-bold text-gray-900 mb-4">{t('topicPerformance')}</h3>
           <div className="space-y-3">
             {session.topicBreakdown.map(tb => (
               <div key={tb.topicId}>
@@ -438,7 +441,7 @@ function ResultsView({ session, questions, examId }: { session: TestSession; que
 
       {/* Question Review */}
       <div className="card mb-6">
-        <h3 className="font-bold text-gray-900 mb-4">Question Review</h3>
+        <h3 className="font-bold text-gray-900 mb-4">{t('questionReview')}</h3>
         <div className="space-y-4">
           {questions.map((q, idx) => {
             const answer = session.questions.find(a => a.questionId === q.id);
@@ -483,7 +486,7 @@ function ResultsView({ session, questions, examId }: { session: TestSession; que
 
                     {!isCorrect && (
                       <div className="mt-2 p-3 bg-white rounded border border-gray-200">
-                        <p className="text-sm font-medium text-gray-700">Explanation:</p>
+                        <p className="text-sm font-medium text-gray-700">{t('explanation')}:</p>
                         <p className="text-sm text-gray-600 mt-1">{q.explanation}</p>
                       </div>
                     )}
@@ -501,19 +504,19 @@ function ResultsView({ session, questions, examId }: { session: TestSession; que
           onClick={() => router.push(`/exam/${examId}`)}
           className="btn-secondary text-sm"
         >
-          Back to Exam
+          {t('backToExams')}
         </button>
         <button
           onClick={() => window.location.reload()}
           className="btn-primary text-sm"
         >
-          Retake Test
+          {t('retake')}
         </button>
         <button
           onClick={() => router.push('/results')}
           className="btn-secondary text-sm"
         >
-          View All Results
+          {t('viewAllResults')}
         </button>
       </div>
     </div>
