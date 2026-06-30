@@ -34,7 +34,7 @@ export default function HomePage() {
             Built from actual syllabus and previous year patterns.
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-sm">
-            <span className="bg-white/10 rounded-full px-4 py-2">500+ Questions</span>
+            <span className="bg-white/10 rounded-full px-4 py-2">1000+ Questions</span>
             <span className="bg-white/10 rounded-full px-4 py-2">Full-Length Mocks</span>
             <span className="bg-white/10 rounded-full px-4 py-2">Detailed Solutions</span>
             <span className="bg-white/10 rounded-full px-4 py-2">Track Progress</span>
@@ -108,7 +108,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-3xl font-bold text-rail-navy">293+</div>
+              <div className="text-3xl font-bold text-rail-navy">1000+</div>
               <div className="text-sm text-gray-600 mt-1">Practice Questions</div>
             </div>
             <div>

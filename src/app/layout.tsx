@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'RRB Exam Prep - NTPC & Group D 2026 Mock Tests',
-  description: 'Free topic-wise practice and full-length mock tests for RRB NTPC and Group D 2026 exams. 500+ questions with detailed explanations.',
+  description: 'Free topic-wise practice and full-length mock tests for RRB NTPC and Group D 2026 exams. 1000+ questions with detailed explanations.',
   keywords: 'RRB NTPC mock test, RRB Group D practice, railway exam preparation, NTPC 2026, Group D 2026, free mock tests',
 };
 
