@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { examList } from '@/data/exams';
-import { getQuestionsByExam, getQuestionsByTopic, getQuestionsBySubject } from '@/data/allQuestions';
+import { loadTopicQuestions, loadSubjectQuestions, loadExamQuestions } from '@/data/questionLoader';
 import { generateMockTest, calculateScore, calculateTopicBreakdown } from '@/lib/quiz';
 import { saveSession } from '@/lib/storage';
 import { formatTime, shuffleArray } from '@/lib/utils';
@@ -19,7 +19,8 @@ export default function QuizPage() {
   const slug = params.slug as string;
   const type = params.type as string;
   const paramId = params.id as string;
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const lang = (language === 'hi' ? 'hi' : 'en') as 'en' | 'hi';
 
   const exam = examList.find(e => e.slug === slug);
 
@@ -39,58 +40,59 @@ export default function QuizPage() {
 
   // Load questions
   useEffect(() => {
-    let selectedQuestions: Question[] = [];
+    async function loadQuestions() {
+      let selectedQuestions: Question[] = [];
 
-    if (isMock) {
-      // Full mock test
-      const allQs = getQuestionsByExam(exam?.id || '');
-      const sections = exam?.pattern.sections || [];
-      const distribution = sections.map(s => ({
-        subjectId: `${exam?.id}-${s.name.toLowerCase().replace(/\s+/g, '-')}`,
-        count: s.questionCount,
-      }));
-
-      // Map section names to actual subject IDs
-      const subjectMap: Record<string, string> = {};
-      if (exam) {
-        exam.subjects.forEach(sub => {
-          const key = sub.slug;
-          subjectMap[sub.name.toLowerCase()] = sub.id;
-        });
-      }
-
-      // Distribute questions by subject
-      for (const section of exam?.pattern.sections || []) {
-        const subjectId = Object.entries(subjectMap).find(
-          ([name]) => section.name.toLowerCase().includes(name)
-        )?.[1];
-
-        if (subjectId) {
-          const pool = allQs.filter(q => q.subjectId === subjectId);
-          const picked = shuffleArray(pool).slice(0, section.questionCount);
-          selectedQuestions.push(...picked);
+      if (isMock) {
+        // Full mock test - load all exam questions
+        const allQs = await loadExamQuestions(exam?.id || '', lang);
+        
+        // Build subject map from exam subjects
+        const subjectMap: Record<string, string> = {};
+        if (exam) {
+          exam.subjects.forEach(sub => {
+            subjectMap[sub.name.toLowerCase()] = sub.id;
+          });
         }
-      }
-      selectedQuestions = shuffleArray(selectedQuestions);
-      setTimeLeft((exam?.pattern.durationMinutes || 90) * 60);
-    } else {
-      // Topic-wise practice
-      selectedQuestions = shuffleArray(getQuestionsByTopic(exam?.id || '', paramId));
-      if (selectedQuestions.length === 0) {
-        selectedQuestions = getQuestionsBySubject(exam?.id || '', paramId);
-      }
-      setTimeLeft(9999); // No timer for practice
-    }
 
-    setQuestions(selectedQuestions);
+        // Distribute questions by subject per exam pattern
+        for (const section of exam?.pattern.sections || []) {
+          const subjectId = Object.entries(subjectMap).find(
+            ([name]) => section.name.toLowerCase().includes(name)
+          )?.[1];
+
+          if (subjectId) {
+            const pool = allQs.filter(q => q.subjectId === subjectId);
+            const picked = shuffleArray(pool).slice(0, section.questionCount);
+            selectedQuestions.push(...picked);
+          }
+        }
+        selectedQuestions = shuffleArray(selectedQuestions);
+        setTimeLeft((exam?.pattern.durationMinutes || 90) * 60);
+      } else {
+        // Topic-wise practice - load specific topic
+        // Extract subjectId from topicId (format: examId-subjectId-topicName)
+        const topicParts = paramId.split('-');
+        const subjectId = topicParts.slice(0, -1).join('-'); // everything except last part
+        selectedQuestions = shuffleArray(await loadTopicQuestions(exam?.id || '', subjectId, paramId, lang));
+        if (selectedQuestions.length === 0) {
+          // Try loading as subject
+          selectedQuestions = shuffleArray(await loadSubjectQuestions(exam?.id || '', paramId, lang));
+        }
+        setTimeLeft(9999);
+      }
+
+      setQuestions(selectedQuestions);
+      
+      const initialAnswers: Record<string, string | null> = {};
+      selectedQuestions.forEach(q => { initialAnswers[q.id] = null; });
+      setAnswers(initialAnswers);
+      
+      setLoading(false);
+    }
     
-    // Initialize answers
-    const initialAnswers: Record<string, string | null> = {};
-    selectedQuestions.forEach(q => { initialAnswers[q.id] = null; });
-    setAnswers(initialAnswers);
-    
-    setLoading(false);
-  }, [exam, slug, type, paramId, isMock]);
+    loadQuestions();
+  }, [exam, slug, type, paramId, isMock, lang]);
 
   // Timer
   useEffect(() => {

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "groupd-m-0001",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Find the LCM of 12, 15, and 20.",
+      "options": ["30", "40", "60", "120"],
+      "explanation": "12 = 2^2 x 3, 15 = 3 x 5, 20 = 2^2 x 5. LCM = 2^2 x 3 x 5 = 60."
+    },
+    "hi": {
+      "question": "12, 15 और 20 का LCM ज्ञात करें।",
+      "options": ["30", "40", "60", "120"],
+      "explanation": "12 = 2^2 × 3, 15 = 3 × 5, 20 = 2^2 × 5। LCM = 2^2 × 3 × 5 = 60।"
+    }
+  },
+  {
+    "id": "groupd-m-0002",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "The product of two numbers is 2160 and their HCF is 12. Find their LCM.",
+      "options": ["120", "150", "180", "200"],
+      "explanation": "Product of numbers = HCF x LCM. So LCM = 2160 / 12 = 180."
+    },
+    "hi": {
+      "question": "दो संख्याओं का गुणनफल 2160 है और उनका HCF 12 है। उनका LCM ज्ञात करें।",
+      "options": ["120", "150", "180", "200"],
+      "explanation": "संख्याओं का गुणनफल = HCF × LCM। इसलिए LCM = 2160 / 12 = 180।"
+    }
+  },
+  {
+    "id": "groupd-m-0003",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The HCF of two numbers is 16 and their LCM is 160. If one number is 32, find the other.",
+      "options": ["60", "72", "80", "96"],
+      "explanation": "Product = HCF x LCM = 16 x 160 = 2560. Other number = 2560 / 32 = 80."
+    },
+    "hi": {
+      "question": "दो संख्याओं का HCF 16 और LCM 160 है। यदि एक संख्या 32 है, तो दूसरी संख्या ज्ञात करें।",
+      "options": ["60", "72", "80", "96"],
+      "explanation": "गुणनफल = HCF × LCM = 16 × 160 = 2560। दूसरी संख्या = 2560 / 32 = 80।"
+    }
+  },
+  {
+    "id": "groupd-m-0004",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Find the HCF of 4/9, 8/18, and 12/27.",
+      "options": ["2/9", "4/9", "12/27", "4/3"],
+      "explanation": "All three fractions reduce to 4/9. So their HCF is 4/9."
+    },
+    "hi": {
+      "question": "4/9, 8/18 और 12/27 का HCF ज्ञात करें।",
+      "options": ["2/9", "4/9", "12/27", "4/3"],
+      "explanation": "तीनों भिन्न 4/9 में सरल हो जाती हैं। इसलिए इनका HCF 4/9 है।"
+    }
+  },
+  {
+    "id": "groupd-m-0005",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the greatest number that will divide 43, 91, and 183 leaving the same remainder in each case?",
+      "options": ["4", "7", "13", "16"],
+      "explanation": "Required number = HCF of differences. 91-43=48, 183-91=92, 183-43=140. HCF(48,92,140) = 4."
+    },
+    "hi": {
+      "question": "वह सबसे बड़ी संख्या क्या है जो 43, 91 और 183 को विभाजित करने पर प्रत्येक में समान शेषफल देती है?",
+      "options": ["4", "7", "13", "16"],
+      "explanation": "अभीष्ट संख्या = अंतरों का HCF। 91-43=48, 183-91=92, 183-43=140। HCF(48,92,140) = 4।"
+    }
+  },
+  {
+    "id": "groupd-m-0006",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Three bells ring at intervals of 12, 15, and 18 minutes. If they ring together at 10:00 AM, when will they next ring together?",
+      "options": ["10:30 AM", "11:00 AM", "1:00 PM", "1:30 PM"],
+      "explanation": "LCM of 12, 15, 18 = 180 minutes = 3 hours. 10:00 AM + 3 hrs = 1:00 PM."
+    },
+    "hi": {
+      "question": "तीन घंटियां 12, 15 और 18 मिनट के अंतराल पर बजती हैं। यदि वे सुबह 10:00 बजे एक साथ बजती हैं, तो अगली बार एक साथ कब बजेंगी?",
+      "options": ["सुबह 10:30", "सुबह 11:00", "दोपहर 1:00", "दोपहर 1:30"],
+      "explanation": "12, 15, 18 का LCM = 180 मिनट = 3 घंटे। सुबह 10:00 + 3 घंटे = दोपहर 1:00।"
+    }
+  },
+  {
+    "id": "groupd-m-0007",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Find the smallest 4-digit number which is divisible by 18, 24, and 32.",
+      "options": ["1008", "1056", "1152", "1184"],
+      "explanation": "LCM of 18, 24, 32 = 288. Smallest 4-digit multiple = 288 x 4 = 1152."
+    },
+    "hi": {
+      "question": "सबसे छोटी 4-अंकीय संख्या ज्ञात करें जो 18, 24 और 32 से विभाज्य हो।",
+      "options": ["1008", "1056", "1152", "1184"],
+      "explanation": "18, 24, 32 का LCM = 288। सबसे छोटा 4-अंकीय गुणज = 288 × 4 = 1152।"
+    }
+  }
+]

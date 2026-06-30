@@ -3,9 +3,9 @@
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { examList } from '@/data/exams';
-import { getQuestionsByTopic } from '@/data/allQuestions';
 import { BookOpen, Clock, ArrowRight, Play, Target, AlertCircle } from 'lucide-react';
 import { useLanguage } from '@/lib/LanguageContext';
+import { Subject } from '@/types';
 
 export default function ExamPage() {
   const params = useParams();
@@ -57,7 +57,7 @@ export default function ExamPage() {
         <div className="lg:col-span-2 space-y-6">
           <h2 className="text-xl font-bold text-gray-900">{t('topicPractice')}</h2>
 
-          {exam.subjects.map((subject) => (
+          {exam.subjects.map((subject: Subject) => (
             <div key={subject.id} className="card">
               <h3 className="font-bold text-lg text-gray-900 mb-4 flex items-center gap-2">
                 <BookOpen className="w-5 h-5 text-rail-navy" />
@@ -67,9 +67,7 @@ export default function ExamPage() {
                 </span>
               </h3>
               <div className="grid sm:grid-cols-2 gap-2">
-                {subject.topics.map((topic) => {
-                  const count = getQuestionsByTopic(exam.id, topic.id).length;
-                  return (
+                {subject.topics.map((topic) => (
                     <Link key={topic.id} href={`/quiz/${exam.slug}/topic/${topic.id}`}
                       className="flex items-center justify-between p-3 rounded-lg border border-gray-100 
                                hover:border-rail-navy hover:bg-blue-50/50 transition-all group">
@@ -77,12 +75,10 @@ export default function ExamPage() {
                         {topic.name}
                       </span>
                       <span className="flex items-center gap-1.5 text-xs text-gray-400">
-                        <span className="bg-gray-100 px-2 py-0.5 rounded-full">{count} {t('questions')}</span>
                         <ArrowRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                       </span>
                     </Link>
-                  );
-                })}
+                ))}
               </div>
             </div>
           ))}

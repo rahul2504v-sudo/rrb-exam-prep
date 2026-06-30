@@ -1,0 +1,130 @@
+[
+  {
+    "id": "ntpc-m-0001",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The sum of first 50 natural numbers is:",
+      "options": ["1225", "1275", "1325", "1250"],
+      "explanation": "Sum of first n natural numbers = n(n+1)/2 = 50 × 51 / 2 = 2550 / 2 = 1275."
+    },
+    "hi": {
+      "question": "प्रथम 50 प्राकृतिक संख्याओं का योग क्या है?",
+      "options": ["1225", "1275", "1325", "1250"],
+      "explanation": "प्रथम n प्राकृतिक संख्याओं का योग = n(n+1)/2 = 50 × 51 / 2 = 2550 / 2 = 1275।"
+    }
+  },
+  {
+    "id": "ntpc-m-0002",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "If 7^12 is divided by 5, what is the remainder?",
+      "options": ["1", "2", "3", "4"],
+      "explanation": "7 mod 5 = 2. So 7^12 mod 5 = 2^12 mod 5. The cycle of 2^n mod 5 is: 2, 4, 3, 1 (repeats every 4). 12 mod 4 = 0, so the remainder is the 4th value in the cycle = 1."
+    },
+    "hi": {
+      "question": "यदि 7^12 को 5 से विभाजित किया जाए, तो शेषफल क्या होगा?",
+      "options": ["1", "2", "3", "4"],
+      "explanation": "7 mod 5 = 2। इसलिए 7^12 mod 5 = 2^12 mod 5। 2^n mod 5 का चक्र: 2, 4, 3, 1 (हर 4 पर दोहराता है)। 12 mod 4 = 0, इसलिए शेषफल चक्र का चौथा मान = 1।"
+    }
+  },
+  {
+    "id": "ntpc-m-0003",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "How many numbers between 200 and 600 (inclusive) are divisible by 4, 5, and 6?",
+      "options": ["5", "6", "7", "8"],
+      "explanation": "LCM of 4, 5, 6 = 60. Multiples of 60 between 200 and 600 (inclusive): 240, 300, 360, 420, 480, 540, 600. That is 7 numbers."
+    },
+    "hi": {
+      "question": "200 और 600 (दोनों सम्मिलित) के बीच कितनी संख्याएँ 4, 5 और 6 से विभाज्य हैं?",
+      "options": ["5", "6", "7", "8"],
+      "explanation": "4, 5, 6 का ल.स. = 60। 200 और 600 के बीच 60 के गुणज: 240, 300, 360, 420, 480, 540, 600। कुल 7 संख्याएँ।"
+    }
+  },
+  {
+    "id": "ntpc-m-0004",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Find the unit digit of 7^95.",
+      "options": ["7", "9", "3", "1"],
+      "explanation": "Cycle of unit digit of 7^n: 7, 9, 3, 1 (period 4). 95 mod 4 = 3, so unit digit is the 3rd in the cycle = 3."
+    },
+    "hi": {
+      "question": "7^95 का इकाई अंक ज्ञात कीजिए।",
+      "options": ["7", "9", "3", "1"],
+      "explanation": "7^n के इकाई अंक का चक्र: 7, 9, 3, 1 (अवधि 4)। 95 mod 4 = 3, इसलिए इकाई अंक चक्र का तीसरा = 3।"
+    }
+  },
+  {
+    "id": "ntpc-m-0005",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How many prime numbers are there between 30 and 60?",
+      "options": ["6", "7", "8", "9"],
+      "explanation": "Primes between 30 and 60: 31, 37, 41, 43, 47, 53, 59. Total = 7."
+    },
+    "hi": {
+      "question": "30 और 60 के बीच कितनी अभाज्य संख्याएँ हैं?",
+      "options": ["6", "7", "8", "9"],
+      "explanation": "30 और 60 के बीच अभाज्य संख्याएँ: 31, 37, 41, 43, 47, 53, 59। कुल = 7।"
+    }
+  },
+  {
+    "id": "ntpc-m-0006",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Find the remainder when 2^50 is divided by 7.",
+      "options": ["1", "2", "4", "5"],
+      "explanation": "Cycle of 2^n mod 7: 2, 4, 1 (period 3). 50 mod 3 = 2, so remainder = 4."
+    },
+    "hi": {
+      "question": "2^50 को 7 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
+      "options": ["1", "2", "4", "5"],
+      "explanation": "2^n mod 7 का चक्र: 2, 4, 1 (अवधि 3)। 50 mod 3 = 2, इसलिए शेषफल = 4।"
+    }
+  },
+  {
+    "id": "ntpc-m-0007",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "What is the sum of all two-digit numbers that are divisible by 7?",
+      "options": ["735", "728", "714", "721"],
+      "explanation": "First two-digit multiple of 7 is 14, last is 98. Number of terms = (98-14)/7 + 1 = 13. Sum = n/2 × (first + last) = 13/2 × 112 = 13 × 56 = 728."
+    },
+    "hi": {
+      "question": "7 से विभाज्य सभी दो-अंकीय संख्याओं का योग क्या है?",
+      "options": ["735", "728", "714", "721"],
+      "explanation": "7 का पहला दो-अंकीय गुणज 14 है, अंतिम 98 है। पदों की संख्या = (98-14)/7 + 1 = 13। योग = n/2 × (प्रथम + अंतिम) = 13/2 × 112 = 13 × 56 = 728।"
+    }
+  },
+  {
+    "id": "ntpc-m-0008",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "If a number is divided by 56, the remainder is 29. What will be the remainder when the same number is divided by 8?",
+      "options": ["3", "5", "7", "1"],
+      "explanation": "Let N = 56k + 29. Dividing by 8: 56k/8 = 7k (integer). 29/8 = 3 remainder 5. So the remainder is 5."
+    },
+    "hi": {
+      "question": "यदि किसी संख्या को 56 से विभाजित करने पर शेषफल 29 आता है, तो उसी संख्या को 8 से विभाजित करने पर शेषफल क्या होगा?",
+      "options": ["3", "5", "7", "1"],
+      "explanation": "मान लीजिए N = 56k + 29। 8 से विभाजित करने पर: 56k/8 = 7k (पूर्णांक)। 29/8 = 3 शेषफल 5। इसलिए शेषफल 5 है।"
+    }
+  }
+]

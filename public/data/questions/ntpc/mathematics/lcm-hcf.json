@@ -1,0 +1,130 @@
+[
+  {
+    "id": "ntpc-m-0001",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The LCM of two numbers is 1200. Which of the following CANNOT be their HCF?",
+      "options": ["600", "500", "400", "200"],
+      "explanation": "HCF must divide LCM exactly. 1200/500 = 2.4 (not an integer), while 1200/600=2, 1200/400=3, 1200/200=6 are all integers. So 500 cannot be the HCF."
+    },
+    "hi": {
+      "question": "दो संख्याओं का ल.स. 1200 है। निम्नलिखित में से कौन-सा उनका म.स. नहीं हो सकता?",
+      "options": ["600", "500", "400", "200"],
+      "explanation": "म.स. को ल.स. को पूर्णतः विभाजित करना चाहिए। 1200/500 = 2.4 (पूर्णांक नहीं), जबकि 1200/600=2, 1200/400=3, 1200/200=6 सभी पूर्णांक हैं। इसलिए 500 म.स. नहीं हो सकता।"
+    }
+  },
+  {
+    "id": "ntpc-m-0002",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2022,
+    "en": {
+      "question": "Find the HCF of 2/3, 4/5, and 6/7.",
+      "options": ["2/105", "1/105", "2/35", "1/35"],
+      "explanation": "HCF of fractions = HCF(numerators) / LCM(denominators). HCF(2,4,6) = 2. LCM(3,5,7) = 105. So HCF = 2/105."
+    },
+    "hi": {
+      "question": "2/3, 4/5 और 6/7 का म.स. ज्ञात कीजिए।",
+      "options": ["2/105", "1/105", "2/35", "1/35"],
+      "explanation": "भिन्नों का म.स. = अंशों का म.स. / हरों का ल.स.। म.स.(2,4,6) = 2। ल.स.(3,5,7) = 105। इसलिए म.स. = 2/105।"
+    }
+  },
+  {
+    "id": "ntpc-m-0003",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Three bells ring at intervals of 9, 12, and 15 minutes respectively. If they all ring together at 6:00 AM, at what time will they next ring together?",
+      "options": ["8:00 AM", "9:00 AM", "7:00 AM", "10:00 AM"],
+      "explanation": "LCM of 9, 12, 15 = 180 minutes = 3 hours. They will ring together again at 6:00 AM + 3 hours = 9:00 AM."
+    },
+    "hi": {
+      "question": "तीन घंटियाँ क्रमशः 9, 12 और 15 मिनट के अंतराल पर बजती हैं। यदि वे सभी सुबह 6:00 बजे एक साथ बजती हैं, तो वे अगली बार एक साथ कब बजेंगी?",
+      "options": ["सुबह 8:00", "सुबह 9:00", "सुबह 7:00", "सुबह 10:00"],
+      "explanation": "9, 12, 15 का ल.स. = 180 मिनट = 3 घंटे। वे पुनः सुबह 6:00 + 3 घंटे = सुबह 9:00 बजे एक साथ बजेंगी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0004",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The product of two numbers is 4107 and their HCF is 37. Find the LCM.",
+      "options": ["111", "121", "131", "141"],
+      "explanation": "LCM = Product / HCF = 4107 / 37 = 111."
+    },
+    "hi": {
+      "question": "दो संख्याओं का गुणनफल 4107 है और उनका म.स. 37 है। ल.स. ज्ञात कीजिए।",
+      "options": ["111", "121", "131", "141"],
+      "explanation": "ल.स. = गुणनफल / म.स. = 4107 / 37 = 111।"
+    }
+  },
+  {
+    "id": "ntpc-m-0005",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Three bells toll at intervals of 12, 16, and 24 seconds respectively. If they all toll together at 10:00 AM, when will they toll together next?",
+      "options": ["10:00:48 AM", "10:00:56 AM", "10:00:36 AM", "10:01:00 AM"],
+      "explanation": "LCM of 12, 16, 24 = 48. They toll together every 48 seconds. Next toll: 10:00:48 AM."
+    },
+    "hi": {
+      "question": "तीन घंटियाँ क्रमशः 12, 16 और 24 सेकंड के अंतराल पर बजती हैं। यदि वे सभी सुबह 10:00 बजे एक साथ बजती हैं, तो वे अगली बार एक साथ कब बजेंगी?",
+      "options": ["सुबह 10:00:48", "सुबह 10:00:56", "सुबह 10:00:36", "सुबह 10:01:00"],
+      "explanation": "12, 16, 24 का ल.स. = 48। वे हर 48 सेकंड पर एक साथ बजती हैं। अगली बार: सुबह 10:00:48।"
+    }
+  },
+  {
+    "id": "ntpc-m-0006",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Find the HCF of 0.63, 1.05, and 2.1.",
+      "options": ["0.21", "0.42", "0.63", "0.07"],
+      "explanation": "Multiply by 100: 63, 105, 210. HCF(63, 105, 210) = 21. Divide by 100: 0.21."
+    },
+    "hi": {
+      "question": "0.63, 1.05 और 2.1 का म.स. ज्ञात कीजिए।",
+      "options": ["0.21", "0.42", "0.63", "0.07"],
+      "explanation": "100 से गुणा करें: 63, 105, 210। म.स.(63, 105, 210) = 21। 100 से भाग दें: 0.21।"
+    }
+  },
+  {
+    "id": "ntpc-m-0007",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The HCF and LCM of two numbers are 12 and 924 respectively. If one number is 84, find the other.",
+      "options": ["132", "144", "120", "156"],
+      "explanation": "Product = HCF × LCM = 12 × 924 = 11088. Other number = 11088 / 84 = 132."
+    },
+    "hi": {
+      "question": "दो संख्याओं का म.स. और ल.स. क्रमशः 12 और 924 हैं। यदि एक संख्या 84 है, तो दूसरी संख्या ज्ञात कीजिए।",
+      "options": ["132", "144", "120", "156"],
+      "explanation": "गुणनफल = म.स. × ल.स. = 12 × 924 = 11088। दूसरी संख्या = 11088 / 84 = 132।"
+    }
+  },
+  {
+    "id": "ntpc-m-0008",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2022,
+    "en": {
+      "question": "Find the greatest number that will divide 43, 91, and 183 so as to leave the same remainder in each case.",
+      "options": ["4", "8", "12", "16"],
+      "explanation": "Differences: 91-43=48, 183-91=92, 183-43=140. HCF of 48, 92, 140 = 4."
+    },
+    "hi": {
+      "question": "वह सबसे बड़ी संख्या ज्ञात कीजिए जो 43, 91 और 183 को विभाजित करने पर प्रत्येक स्थिति में समान शेषफल दे।",
+      "options": ["4", "8", "12", "16"],
+      "explanation": "अंतर: 91-43=48, 183-91=92, 183-43=140। 48, 92, 140 का म.स. = 4।"
+    }
+  }
+]
