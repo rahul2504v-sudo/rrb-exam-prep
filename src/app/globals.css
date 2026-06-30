@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+  .dark body {
+    @apply bg-gray-950 text-gray-100;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-rail-navy hover:bg-blue-900 text-white font-semibold py-3 px-6 
+           rounded-lg transition-all duration-200 shadow-md hover:shadow-lg 
+           active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply bg-white hover:bg-gray-50 text-rail-navy font-semibold py-3 px-6 
+           rounded-lg border-2 border-rail-navy transition-all duration-200 
+           active:scale-95;
+  }
+  .btn-danger {
+    @apply bg-rail-red hover:bg-red-700 text-white font-semibold py-3 px-6 
+           rounded-lg transition-all duration-200 shadow-md active:scale-95;
+  }
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-100 p-6 
+           hover:shadow-md transition-shadow duration-200;
+  }
+  .option-btn {
+    @apply w-full text-left p-4 rounded-lg border-2 border-gray-200 
+           hover:border-rail-navy hover:bg-blue-50 transition-all duration-150
+           font-medium;
+  }
+  .option-btn-selected {
+    @apply border-rail-navy bg-blue-50;
+  }
+  .option-btn-correct {
+    @apply border-green-500 bg-green-50 text-green-800;
+  }
+  .option-btn-incorrect {
+    @apply border-red-500 bg-red-50 text-red-800;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
+
+/* Timer pulse animation */
+@keyframes pulse-warning {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+.timer-warning {
+  animation: pulse-warning 1s ease-in-out infinite;
+}
