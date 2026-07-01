@@ -1,5 +1,5 @@
 export type TranslationKey =
-  | 'home' | 'ntpc' | 'groupD' | 'results' | 'appName'
+  | 'home' | 'ntpc' | 'groupD' | 'results' | 'exams' | 'appName'
   | 'heroTitle' | 'heroSubtitle' | 'heroDesc'
   | 'tagQuestions' | 'tagMocks' | 'tagSolutions' | 'tagProgress'
   | 'whyPractice' | 'featureTimer' | 'featureTimerDesc'
@@ -26,8 +26,8 @@ type Translations = Record<TranslationKey, string>;
 
 export const translations: Record<string, Translations> = {
   en: {
-    home: 'Home', ntpc: 'NTPC', groupD: 'Group D', results: 'Results',
-    appName: 'RRB Exam Prep',
+    home: 'Home', exams: 'Exams', ntpc: 'NTPC', groupD: 'Group D', results: 'Results',
+    appName: 'PrepxCore',
     heroTitle: 'RRB Exam Preparation', heroSubtitle: 'NTPC & Group D 2026',
     heroDesc: 'Free mock tests, topic-wise practice, and detailed explanations. Built from actual syllabus and previous year patterns.',
     tagQuestions: '10,000+ Questions', tagMocks: 'Full-Length Mocks',
@@ -55,7 +55,7 @@ export const translations: Record<string, Translations> = {
   },
 
   hi: {
-    home: 'होम', ntpc: 'NTPC', groupD: 'ग्रुप D', results: 'परिणाम',
+    home: 'होम', exams: 'Exams', ntpc: 'NTPC', groupD: 'ग्रुप D', results: 'परिणाम',
     appName: 'RRB परीक्षा तैयारी',
     heroTitle: 'RRB परीक्षा तैयारी', heroSubtitle: 'NTPC और ग्रुप D 2026',
     heroDesc: 'मुफ्त मॉक टेस्ट, टॉपिक-वार प्रैक्टिस और विस्तृत व्याख्या। वास्तविक सिलेबस और पिछले वर्षों के पैटर्न पर आधारित।',
@@ -84,7 +84,7 @@ export const translations: Record<string, Translations> = {
   },
 
   bn: {
-    home: 'হোম', ntpc: 'NTPC', groupD: 'গ্রুপ D', results: 'ফলাফল',
+    home: 'হোম', exams: 'Exams', ntpc: 'NTPC', groupD: 'গ্রুপ D', results: 'ফলাফল',
     appName: 'RRB পরীক্ষা প্রস্তুতি',
     heroTitle: 'RRB পরীক্ষা প্রস্তুতি', heroSubtitle: 'NTPC ও গ্রুপ D ২০২৬',
     heroDesc: 'ফ্রি মক টেস্ট, টপিক-ভিত্তিক অনুশীলন এবং বিস্তারিত ব্যাখ্যা। প্রকৃত সিলেবাস এবং পূর্ববর্তী বছরের প্যাটার্নের উপর ভিত্তি করে তৈরি।',
@@ -113,7 +113,7 @@ export const translations: Record<string, Translations> = {
   },
 
   te: {
-    home: 'హోమ్', ntpc: 'NTPC', groupD: 'గ్రూప్ D', results: 'ఫలితాలు',
+    home: 'హోమ్', exams: 'Exams', ntpc: 'NTPC', groupD: 'గ్రూప్ D', results: 'ఫలితాలు',
     appName: 'RRB పరీక్ష తయారీ',
     heroTitle: 'RRB పరీక్ష తయారీ', heroSubtitle: 'NTPC & గ్రూప్ D 2026',
     heroDesc: 'ఉచిత మాక్ టెస్ట్‌లు, టాపిక్ వారీ ప్రాక్టీస్ మరియు వివరణాత్మక వివరణలు. వాస్తవ సిలబస్ మరియు గత సంవత్సరాల ప్యాటర్న్ ఆధారంగా.',
@@ -142,7 +142,7 @@ export const translations: Record<string, Translations> = {
   },
 
   ta: {
-    home: 'முகப்பு', ntpc: 'NTPC', groupD: 'குரூப் D', results: 'முடிவுகள்',
+    home: 'முகப்பு', exams: 'Exams', ntpc: 'NTPC', groupD: 'குரூப் D', results: 'முடிவுகள்',
     appName: 'RRB தேர்வு தயாரிப்பு',
     heroTitle: 'RRB தேர்வு தயாரிப்பு', heroSubtitle: 'NTPC & குரூப் D 2026',
     heroDesc: 'இலவச மாக் டெஸ்ட்கள், தலைப்பு வாரியான பயிற்சி மற்றும் விரிவான விளக்கங்கள். உண்மையான பாடத்திட்டம் மற்றும் முந்தைய ஆண்டு முறைகளின் அடிப்படையில்.',
@@ -171,7 +171,7 @@ export const translations: Record<string, Translations> = {
   },
 
   mr: {
-    home: 'होम', ntpc: 'NTPC', groupD: 'ग्रुप D', results: 'निकाल',
+    home: 'होम', exams: 'Exams', ntpc: 'NTPC', groupD: 'ग्रुप D', results: 'निकाल',
     appName: 'RRB परीक्षा तयारी',
     heroTitle: 'RRB परीक्षा तयारी', heroSubtitle: 'NTPC आणि ग्रुप D 2026',
     heroDesc: 'मोफत मॉक टेस्ट, टॉपिक-निहाय सराव आणि तपशीलवार स्पष्टीकरण. प्रत्यक्ष अभ्यासक्रम आणि मागील वर्षांच्या पॅटर्नवर आधारित.',
@@ -200,7 +200,7 @@ export const translations: Record<string, Translations> = {
   },
 
   gu: {
-    home: 'હોમ', ntpc: 'NTPC', groupD: 'ગ્રુપ D', results: 'પરિણામો',
+    home: 'હોમ', exams: 'Exams', ntpc: 'NTPC', groupD: 'ગ્રુપ D', results: 'પરિણામો',
     appName: 'RRB પરીક્ષા તૈયારી',
     heroTitle: 'RRB પરીક્ષા તૈયારી', heroSubtitle: 'NTPC અને ગ્રુપ D 2026',
     heroDesc: 'મફત મોક ટેસ્ટ, ટોપિક-વાઇઝ પ્રેક્ટિસ અને વિગતવાર સમજૂતી. વાસ્તવિક સિલેબસ અને પાછલા વર્ષોના પેટર્ન પર આધારિત.',
@@ -229,7 +229,7 @@ export const translations: Record<string, Translations> = {
   },
 
   kn: {
-    home: 'ಮುಖಪುಟ', ntpc: 'NTPC', groupD: 'ಗ್ರೂಪ್ D', results: 'ಫಲಿತಾಂಶಗಳು',
+    home: 'ಮುಖಪುಟ', exams: 'Exams', ntpc: 'NTPC', groupD: 'ಗ್ರೂಪ್ D', results: 'ಫಲಿತಾಂಶಗಳು',
     appName: 'RRB ಪರೀಕ್ಷಾ ತಯಾರಿ',
     heroTitle: 'RRB ಪರೀಕ್ಷಾ ತಯಾರಿ', heroSubtitle: 'NTPC & ಗ್ರೂಪ್ D 2026',
     heroDesc: 'ಉಚಿತ ಮಾಕ್ ಟೆಸ್ಟ್‌ಗಳು, ವಿಷಯವಾರು ಅಭ್ಯಾಸ ಮತ್ತು ವಿವರವಾದ ವಿವರಣೆಗಳು. ನೈಜ ಪಠ್ಯಕ್ರಮ ಮತ್ತು ಹಿಂದಿನ ವರ್ಷಗಳ ಮಾದರಿಯ ಆಧಾರದ ಮೇಲೆ.',
@@ -258,7 +258,7 @@ export const translations: Record<string, Translations> = {
   },
 
   ml: {
-    home: 'ഹോം', ntpc: 'NTPC', groupD: 'ഗ്രൂപ്പ് D', results: 'ഫലങ്ങൾ',
+    home: 'ഹോം', exams: 'Exams', ntpc: 'NTPC', groupD: 'ഗ്രൂപ്പ് D', results: 'ഫലങ്ങൾ',
     appName: 'RRB പരീക്ഷാ തയ്യാറെടുപ്പ്',
     heroTitle: 'RRB പരീക്ഷാ തയ്യാറെടുപ്പ്', heroSubtitle: 'NTPC & ഗ്രൂപ്പ് D 2026',
     heroDesc: 'സൗജന്യ മോക്ക് ടെസ്റ്റുകൾ, വിഷയാടിസ്ഥാന പരിശീലനം, വിശദമായ വിശദീകരണങ്ങൾ. യഥാർത്ഥ സിലബസും മുൻവർഷ പാറ്റേണുകളും അടിസ്ഥാനമാക്കി.',
@@ -287,7 +287,7 @@ export const translations: Record<string, Translations> = {
   },
 
   as: {
-    home: 'হোম', ntpc: 'NTPC', groupD: 'গ্ৰুপ D', results: 'ফলাফল',
+    home: 'হোম', exams: 'Exams', ntpc: 'NTPC', groupD: 'গ্ৰুপ D', results: 'ফলাফল',
     appName: 'RRB পৰীক্ষা প্ৰস্তুতি',
     heroTitle: 'RRB পৰীক্ষা প্ৰস্তুতি', heroSubtitle: 'NTPC আৰু গ্ৰুপ D ২০২৬',
     heroDesc: 'বিনামূলীয়া মক টেষ্ট, বিষয়ভিত্তিক অনুশীলন আৰু বিশদ ব্যাখ্যা। প্ৰকৃত পাঠ্যক্ৰম আৰু পূৰ্বৱৰ্তী বছৰৰ আৰ্হিৰ ওপৰত আধাৰিত।',
@@ -316,7 +316,7 @@ export const translations: Record<string, Translations> = {
   },
 
   kok: {
-    home: 'होम', ntpc: 'NTPC', groupD: 'ग्रुप D', results: 'निकाल',
+    home: 'होम', exams: 'Exams', ntpc: 'NTPC', groupD: 'ग्रुप D', results: 'निकाल',
     appName: 'RRB परिक्षेची तयारी',
     heroTitle: 'RRB परिक्षेची तयारी', heroSubtitle: 'NTPC आणि ग्रुप D 2026',
     heroDesc: 'फुकट मॉक टेस्ट, विशयानुसार सराव आणि तपशीलवार स्पश्टीकरण. खरे अभ्यासक्रम आणि फाटल्या वर्सांच्या पॅटर्नाचेर आधारीत.',
@@ -345,7 +345,7 @@ export const translations: Record<string, Translations> = {
   },
 
   mni: {
-    home: 'হোম', ntpc: 'NTPC', groupD: 'গ্ৰুপ D', results: 'ফলাফল',
+    home: 'হোম', exams: 'Exams', ntpc: 'NTPC', groupD: 'গ্ৰুপ D', results: 'ফলাফল',
     appName: 'RRB পরীক্ষা প্রস্তুতি',
     heroTitle: 'RRB পরীক্ষা প্রস্তুতি', heroSubtitle: 'NTPC অমদি গ্ৰুপ D ২০২৬',
     heroDesc: 'ফ্ৰী মক টেস্ট, তোপিক-ৱারি অনুশীলন অমদি বিশদ ব্যাখ্যা। অচোবা সিলেবস অমদি মমাংগী চহীগী প্যাটার্নগী মথক্তা য়ুম্ফম ওইবা।',
@@ -374,7 +374,7 @@ export const translations: Record<string, Translations> = {
   },
 
   or: {
-    home: 'ହୋମ୍', ntpc: 'NTPC', groupD: 'ଗ୍ରୁପ୍ D', results: 'ଫଳାଫଳ',
+    home: 'ହୋମ୍', exams: 'Exams', ntpc: 'NTPC', groupD: 'ଗ୍ରୁପ୍ D', results: 'ଫଳାଫଳ',
     appName: 'RRB ପରୀକ୍ଷା ପ୍ରସ୍ତୁତି',
     heroTitle: 'RRB ପରୀକ୍ଷା ପ୍ରସ୍ତୁତି', heroSubtitle: 'NTPC ଓ ଗ୍ରୁପ୍ D ୨୦୨୬',
     heroDesc: 'ମାଗଣା ମକ୍ ଟେଷ୍ଟ, ବିଷୟଭିତ୍ତିକ ଅଭ୍ୟାସ ଏବଂ ବିସ୍ତୃତ ବ୍ୟାଖ୍ୟା। ପ୍ରକୃତ ପାଠ୍ୟକ୍ରମ ଏବଂ ପୂର୍ବ ବର୍ଷର ପ୍ୟାଟର୍ନ ଉପରେ ଆଧାରିତ।',
@@ -403,7 +403,7 @@ export const translations: Record<string, Translations> = {
   },
 
   pa: {
-    home: 'ਹੋਮ', ntpc: 'NTPC', groupD: 'ਗਰੁੱਪ D', results: 'ਨਤੀਜੇ',
+    home: 'ਹੋਮ', exams: 'Exams', ntpc: 'NTPC', groupD: 'ਗਰੁੱਪ D', results: 'ਨਤੀਜੇ',
     appName: 'RRB ਇਮਤਿਹਾਨ ਤਿਆਰੀ',
     heroTitle: 'RRB ਇਮਤਿਹਾਨ ਤਿਆਰੀ', heroSubtitle: 'NTPC ਅਤੇ ਗਰੁੱਪ D 2026',
     heroDesc: 'ਮੁਫ਼ਤ ਮੌਕ ਟੈਸਟ, ਵਿਸ਼ਾ-ਵਾਰ ਅਭਿਆਸ ਅਤੇ ਵਿਸਤ੍ਰਿਤ ਵਿਆਖਿਆ। ਅਸਲ ਸਿਲੇਬਸ ਅਤੇ ਪਿਛਲੇ ਸਾਲਾਂ ਦੇ ਪੈਟਰਨ \'ਤੇ ਆਧਾਰਿਤ।',
@@ -432,7 +432,7 @@ export const translations: Record<string, Translations> = {
   },
 
   ur: {
-    home: 'ہوم', ntpc: 'NTPC', groupD: 'گروپ D', results: 'نتائج',
+    home: 'ہوم', exams: 'Exams', ntpc: 'NTPC', groupD: 'گروپ D', results: 'نتائج',
     appName: 'RRB امتحان کی تیاری',
     heroTitle: 'RRB امتحان کی تیاری', heroSubtitle: 'NTPC اور گروپ D 2026',
     heroDesc: 'مفت موک ٹیسٹ، موضوع وار مشق اور تفصیلی وضاحت۔ حقیقی نصاب اور پچھلے سالوں کے پیٹرن پر مبنی۔',

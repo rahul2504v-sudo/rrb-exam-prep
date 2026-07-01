@@ -1,19 +1,13 @@
 {
-  "name": "RRB Exam Prep - NTPC & Group D 2026",
-  "short_name": "RRB Exam Prep",
-  "description": "Free mock tests for RRB NTPC & Group D 2026. 10,000+ bilingual questions.",
+  "name": "PrepxCore — Exam Preparation Platform",
+  "short_name": "PrepxCore",
+  "description": "Free mock tests for RRB NTPC, Group D 2026, and more competitive exams.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#1a237e",
-  "theme_color": "#1a237e",
-  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
   "icons": [
-    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "/icons/icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
-    { "src": "/icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
-  ],
-  "categories": ["education", "productivity"],
-  "lang": "en",
-  "dir": "ltr"
+    { "src": "/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" },
+    { "src": "/icon-512.svg", "sizes": "512x512", "type": "image/svg+xml" }
+  ]
 }
