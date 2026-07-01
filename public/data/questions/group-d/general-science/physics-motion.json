@@ -5,50 +5,50 @@
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the SI unit of force?",
+      "question": "What is the SI unit of speed?",
       "options": [
-        "Joule",
-        "Newton",
-        "Watt",
-        "Pascal"
+        "m/s²",
+        "m/s",
+        "km/h",
+        "cm/s"
       ],
-      "explanation": "The SI unit of force is Newton (N). 1 Newton = 1 kg.m/s^2."
+      "explanation": "Speed = distance/time, so its SI unit is meter per second (m/s)."
     },
     "hi": {
-      "question": "बल की SI इकाई क्या है?",
+      "question": "गति (speed) की SI इकाई क्या है?",
       "options": [
-        "जूल",
-        "न्यूटन",
-        "वॉट",
-        "पास्कल"
+        "m/s²",
+        "m/s",
+        "km/h",
+        "cm/s"
       ],
-      "explanation": "बल की SI इकाई न्यूटन (N) है। 1 न्यूटन = 1 kg.m/s^2।"
+      "explanation": "गति = दूरी/समय, इसलिए इसकी SI इकाई मीटर प्रति सेकंड (m/s) है।"
     }
   },
   {
     "id": "gdspm-0087",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "Newton's first law of motion is also known as:",
+      "question": "Which of the following is a vector quantity?",
       "options": [
-        "Law of acceleration",
-        "Law of inertia",
-        "Law of action-reaction",
-        "Law of gravitation"
+        "Speed",
+        "Distance",
+        "Velocity",
+        "Time"
       ],
-      "explanation": "Newton's first law states that an object stays at rest or in uniform motion unless acted upon by a force. This is called the Law of Inertia."
+      "explanation": "Velocity has both magnitude and direction, making it a vector quantity. Speed, distance, and time are scalars."
     },
     "hi": {
-      "question": "न्यूटन का गति का पहला नियम किस नाम से भी जाना जाता है?",
+      "question": "निम्नलिखित में से कौन सी सदिश राशि है?",
       "options": [
-        "त्वरण का नियम",
-        "जड़त्व का नियम",
-        "क्रिया-प्रतिक्रिया का नियम",
-        "गुरुत्वाकर्षण का नियम"
+        "चाल",
+        "दूरी",
+        "वेग",
+        "समय"
       ],
-      "explanation": "न्यूटन का पहला नियम कहता है कि कोई वस्तु तब तक स्थिर या एकसमान गति में रहती है जब तक उस पर कोई बल न लगाया जाए। इसे जड़त्व का नियम कहते हैं।"
+      "explanation": "वेग में परिमाण और दिशा दोनों होते हैं, इसलिए यह सदिश राशि है। चाल, दूरी और समय अदिश राशियाँ हैं।"
     }
   },
   {
@@ -57,2546 +57,2546 @@
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "A car accelerates from rest to 20 m/s in 5 seconds. What is its acceleration?",
+      "question": "A car travels 100 km in 2 hours. What is its average speed?",
       "options": [
-        "2 m/s^2",
-        "4 m/s^2",
-        "5 m/s^2",
-        "10 m/s^2"
+        "25 km/h",
+        "50 km/h",
+        "75 km/h",
+        "100 km/h"
       ],
-      "explanation": "Using a = (v-u)/t = (20-0)/5 = 4 m/s^2."
+      "explanation": "Average speed = Total distance / Total time = 100 km / 2 h = 50 km/h."
     },
     "hi": {
-      "question": "एक कार 5 सेकंड में स्थिर अवस्था से 20 m/s तक त्वरित होती है। इसका त्वरण क्या है?",
+      "question": "एक कार 2 घंटे में 100 km चलती है। इसकी औसत चाल क्या है?",
       "options": [
-        "2 m/s^2",
-        "4 m/s^2",
-        "5 m/s^2",
-        "10 m/s^2"
+        "25 km/h",
+        "50 km/h",
+        "75 km/h",
+        "100 km/h"
       ],
-      "explanation": "a = (v-u)/t = (20-0)/5 = 4 m/s^2।"
+      "explanation": "औसत चाल = कुल दूरी / कुल समय = 100 km / 2 h = 50 km/h।"
     }
   },
   {
     "id": "gdspm-0089",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "The slope of a velocity-time graph gives:",
+      "question": "What does the slope of a distance-time graph represent?",
       "options": [
-        "Distance",
-        "Displacement",
+        "Speed",
         "Acceleration",
-        "Speed"
+        "Displacement",
+        "Force"
       ],
-      "explanation": "The slope of a velocity-time graph represents acceleration. A horizontal line means zero acceleration."
+      "explanation": "The slope of a distance-time graph gives the speed of the object."
     },
     "hi": {
-      "question": "वेग-समय ग्राफ की ढलान क्या दर्शाती है?",
+      "question": "दूरी-समय ग्राफ का ढलान क्या दर्शाता है?",
       "options": [
-        "दूरी",
-        "विस्थापन",
+        "चाल",
         "त्वरण",
-        "चाल"
+        "विस्थापन",
+        "बल"
       ],
-      "explanation": "वेग-समय ग्राफ की ढलान त्वरण को दर्शाती है। क्षैतिज रेखा शून्य त्वरण दर्शाती है।"
+      "explanation": "दूरी-समय ग्राफ का ढलान वस्तु की चाल दर्शाता है।"
     }
   },
   {
     "id": "gdspm-0090",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "A body moves with uniform velocity. Which of the following is true?",
+      "question": "What is the acceleration of a freely falling body near Earth's surface?",
       "options": [
-        "Acceleration is constant",
-        "Acceleration is zero",
-        "Acceleration is increasing",
-        "Acceleration is decreasing"
+        "0 m/s²",
+        "4.9 m/s²",
+        "8.9 m/s²",
+        "9.8 m/s²"
       ],
-      "explanation": "Uniform velocity means constant speed and direction, so acceleration is zero."
+      "explanation": "Acceleration due to gravity (g) near the Earth's surface is approximately 9.8 m/s²."
     },
     "hi": {
-      "question": "एक पिंड एकसमान वेग से गति करता है। निम्नलिखित में से कौन सा सत्य है?",
+      "question": "पृथ्वी की सतह के पास स्वतंत्र रूप से गिरती वस्तु का त्वरण कितना होता है?",
       "options": [
-        "त्वरण स्थिर है",
-        "त्वरण शून्य है",
-        "त्वरण बढ़ रहा है",
-        "त्वरण घट रहा है"
+        "0 m/s²",
+        "4.9 m/s²",
+        "8.9 m/s²",
+        "9.8 m/s²"
       ],
-      "explanation": "एकसमान वेग का अर्थ है स्थिर चाल और दिशा, इसलिए त्वरण शून्य है।"
+      "explanation": "पृथ्वी की सतह के पास गुरुत्वीय त्वरण (g) लगभग 9.8 m/s² होता है।"
     }
   },
   {
     "id": "gdspm-0091",
-    "correctOption": "B",
-    "difficulty": "hard",
+    "correctOption": "C",
+    "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "A train moving at 30 m/s is brought to rest in 10 seconds. What is the distance covered?",
+      "question": "A train moving at 72 km/h is brought to rest in 20 seconds. What is its retardation?",
       "options": [
-        "100 m",
-        "150 m",
-        "200 m",
-        "300 m"
+        "0.5 m/s²",
+        "0.8 m/s²",
+        "1 m/s²",
+        "2 m/s²"
       ],
-      "explanation": "a = (0-30)/10 = -3 m/s^2. Using v^2 = u^2 + 2as: 0 = 900 + 2(-3)s => s = 150 m."
+      "explanation": "72 km/h = 72 × 5/18 = 20 m/s. a = (v-u)/t = (0-20)/20 = -1 m/s². Retardation = 1 m/s²."
     },
     "hi": {
-      "question": "30 m/s से चलती ट्रेन 10 सेकंड में रुकती है। तय की गई दूरी क्या है?",
+      "question": "72 km/h की गति से चलती एक रेलगाड़ी 20 सेकंड में रुकती है। इसका मंदन कितना है?",
       "options": [
-        "100 m",
-        "150 m",
-        "200 m",
-        "300 m"
+        "0.5 m/s²",
+        "0.8 m/s²",
+        "1 m/s²",
+        "2 m/s²"
       ],
-      "explanation": "a = (0-30)/10 = -3 m/s^2। v^2 = u^2 + 2as: 0 = 900 + 2(-3)s => s = 150 m।"
+      "explanation": "72 km/h = 72 × 5/18 = 20 m/s। a = (v-u)/t = (0-20)/20 = -1 m/s²। मंदन = 1 m/s²।"
     }
   },
   {
     "id": "gdspm-0092",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "easy",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "The area under a speed-time graph represents:",
+      "question": "Which equation of motion relates initial velocity, acceleration, and displacement?",
       "options": [
-        "Acceleration",
-        "Velocity",
-        "Distance travelled",
-        "Force"
+        "v² = u² + 2as",
+        "v = u + at",
+        "s = ut + ½at²",
+        "F = ma"
       ],
-      "explanation": "The area under a speed-time graph gives the distance travelled by the object."
+      "explanation": "v² = u² + 2as relates final velocity (v), initial velocity (u), acceleration (a), and displacement (s)."
     },
     "hi": {
-      "question": "चाल-समय ग्राफ के नीचे का क्षेत्रफल क्या दर्शाता है?",
+      "question": "गति का कौन सा समीकरण प्रारंभिक वेग, त्वरण और विस्थापन से संबंधित है?",
       "options": [
-        "त्वरण",
-        "वेग",
-        "तय की गई दूरी",
-        "बल"
+        "v² = u² + 2as",
+        "v = u + at",
+        "s = ut + ½at²",
+        "F = ma"
       ],
-      "explanation": "चाल-समय ग्राफ के नीचे का क्षेत्रफल वस्तु द्वारा तय की गई दूरी दर्शाता है।"
+      "explanation": "v² = u² + 2as अंतिम वेग (v), प्रारंभिक वेग (u), त्वरण (a) और विस्थापन (s) से संबंधित है।"
     }
   },
   {
     "id": "gdspm-0093",
-    "correctOption": "C",
-    "difficulty": "easy",
+    "correctOption": "B",
+    "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the SI unit of pressure?",
+      "question": "A body starts from rest and accelerates at 2 m/s² for 10 seconds. What distance does it cover?",
       "options": [
-        "Newton",
-        "Joule",
-        "Pascal",
-        "Watt"
+        "50 m",
+        "100 m",
+        "150 m",
+        "200 m"
       ],
-      "explanation": "The SI unit of pressure is Pascal (Pa). 1 Pascal = 1 Newton per square metre (N/m^2)."
+      "explanation": "Using s = ut + ½at² = 0 × 10 + ½ × 2 × 100 = 100 m."
     },
     "hi": {
-      "question": "दाब की SI इकाई क्या है?",
+      "question": "एक वस्तु विराम से 2 m/s² त्वरण से 10 सेकंड तक चलती है। यह कितनी दूरी तय करती है?",
       "options": [
-        "न्यूटन",
-        "जूल",
-        "पास्कल",
-        "वॉट"
+        "50 m",
+        "100 m",
+        "150 m",
+        "200 m"
       ],
-      "explanation": "दाब की SI इकाई पास्कल (Pa) है। 1 पास्कल = 1 न्यूटन प्रति वर्ग मीटर (N/m^2)।"
+      "explanation": "s = ut + ½at² = 0 × 10 + ½ × 2 × 100 = 100 m।"
     }
   },
   {
     "id": "gdspm-0094",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "Which of the following is a vector quantity?",
+      "question": "A ball is thrown vertically upward with a velocity of 20 m/s. What is the maximum height reached? (g = 10 m/s²)",
       "options": [
-        "Velocity",
-        "Speed",
-        "Distance",
-        "Mass"
+        "10 m",
+        "15 m",
+        "20 m",
+        "20 m"
       ],
-      "explanation": "Velocity has both magnitude and direction, making it a vector. Speed, distance and mass are scalar quantities."
+      "explanation": "At max height, v = 0. Using v² = u² - 2gh: 0 = 400 - 20h, h = 20 m."
     },
     "hi": {
-      "question": "निम्नलिखित में से कौन सी सदिश राशि है?",
+      "question": "एक गेंद 20 m/s के वेग से ऊर्ध्वाधर ऊपर फेंकी जाती है। अधिकतम ऊंचाई कितनी होगी? (g = 10 m/s²)",
       "options": [
-        "वेग",
-        "चाल",
-        "दूरी",
-        "द्रव्यमान"
+        "10 m",
+        "15 m",
+        "20 m",
+        "20 m"
       ],
-      "explanation": "वेग में परिमाण और दिशा दोनों होते हैं, इसलिए यह सदिश है। चाल, दूरी और द्रव्यमान अदिश राशियाँ हैं।"
+      "explanation": "अधिकतम ऊंचाई पर v = 0। v² = u² - 2gh से: 0 = 400 - 20h, h = 20 m।"
     }
   },
   {
     "id": "gdspm-0095",
     "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "What is the SI unit of displacement?",
+      "question": "What is the shortest distance between the initial and final position called?",
       "options": [
-        "Kilometre",
-        "Centimetre",
-        "Metre",
-        "Foot"
+        "Speed",
+        "Distance",
+        "Displacement",
+        "Velocity"
       ],
-      "explanation": "Displacement is measured in metres (m) in the SI system. It is the shortest distance between initial and final positions."
+      "explanation": "Displacement is the shortest distance between initial and final position with direction."
     },
     "hi": {
-      "question": "विस्थापन की SI इकाई क्या है?",
+      "question": "प्रारंभिक और अंतिम स्थिति के बीच की न्यूनतम दूरी को क्या कहते हैं?",
       "options": [
-        "किलोमीटर",
-        "सेंटीमीटर",
-        "मीटर",
-        "फुट"
+        "चाल",
+        "दूरी",
+        "विस्थापन",
+        "वेग"
       ],
-      "explanation": "विस्थापन SI प्रणाली में मीटर (m) में मापा जाता है। यह प्रारंभिक और अंतिम स्थिति के बीच न्यूनतम दूरी है।"
+      "explanation": "विस्थापन प्रारंभिक और अंतिम स्थिति के बीच की दिशा सहित न्यूनतम दूरी है।"
     }
   },
   {
     "id": "gdspm-0096",
     "correctOption": "B",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "The rate of change of velocity is called:",
+      "question": "A body is said to be in uniform motion if it covers:",
       "options": [
-        "Speed",
-        "Acceleration",
-        "Momentum",
-        "Force"
+        "Equal distance in unequal time",
+        "Equal distance in equal time intervals",
+        "Unequal distance in equal time",
+        "Zero distance"
       ],
-      "explanation": "Acceleration is defined as the rate of change of velocity with respect to time. a = (v-u)/t."
+      "explanation": "Uniform motion means equal distances covered in equal intervals of time."
     },
     "hi": {
-      "question": "वेग परिवर्तन की दर को क्या कहते हैं?",
+      "question": "कोई वस्तु एकसमान गति में तब कही जाती है जब वह तय करे:",
       "options": [
-        "चाल",
-        "त्वरण",
-        "संवेग",
-        "बल"
+        "असमान समय में समान दूरी",
+        "समान समय अंतराल में समान दूरी",
+        "समान समय में असमान दूरी",
+        "शून्य दूरी"
       ],
-      "explanation": "त्वरण समय के सापेक्ष वेग परिवर्तन की दर है। a = (v-u)/t।"
+      "explanation": "एकसमान गति का अर्थ है समान समय अंतराल में समान दूरी तय करना।"
     }
   },
   {
     "id": "gdspm-0097",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Which equation of motion is v = u + at?",
+      "question": "A car travels 30 km at 40 km/h and next 30 km at 60 km/h. What is the average speed?",
       "options": [
-        "Third equation",
-        "Second equation",
-        "Fourth equation",
-        "First equation"
+        "48 km/h",
+        "50 km/h",
+        "52 km/h",
+        "55 km/h"
       ],
-      "explanation": "v = u + at is the first equation of motion, relating final velocity, initial velocity, acceleration and time."
+      "explanation": "t1 = 30/40 = 0.75 h, t2 = 30/60 = 0.5 h. Avg speed = 60/1.25 = 48 km/h."
     },
     "hi": {
-      "question": "v = u + at गति का कौन सा समीकरण है?",
+      "question": "एक कार 30 km, 40 km/h पर और अगले 30 km, 60 km/h पर चलती है। औसत चाल क्या है?",
       "options": [
-        "तीसरा समीकरण",
-        "दूसरा समीकरण",
-        "चौथा समीकरण",
-        "पहला समीकरण"
+        "48 km/h",
+        "50 km/h",
+        "52 km/h",
+        "55 km/h"
       ],
-      "explanation": "v = u + at गति का पहला समीकरण है, जो अंतिम वेग, प्रारंभिक वेग, त्वरण और समय को जोड़ता है।"
+      "explanation": "t1 = 30/40 = 0.75 h, t2 = 30/60 = 0.5 h। औसत चाल = 60/1.25 = 48 km/h।"
     }
   },
   {
     "id": "gdspm-0098",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A body starts from rest and moves with uniform acceleration of 2 m/s^2 for 5 s. What is the distance covered?",
+      "question": "The area under a velocity-time graph gives:",
       "options": [
-        "10 m",
-        "20 m",
-        "25 m",
-        "50 m"
+        "Acceleration",
+        "Speed",
+        "Velocity",
+        "Displacement"
       ],
-      "explanation": "s = ut + (1/2)at^2 = 0 + (1/2)(2)(25) = 25 m."
+      "explanation": "The area under a velocity-time graph represents the displacement (or distance traveled)."
     },
     "hi": {
-      "question": "एक पिंड स्थिरावस्था से 2 m/s^2 के एकसमान त्वरण से 5 s तक चलता है। तय दूरी कितनी है?",
+      "question": "वेग-समय ग्राफ के नीचे का क्षेत्रफल देता है:",
       "options": [
-        "10 m",
-        "20 m",
-        "25 m",
-        "50 m"
+        "त्वरण",
+        "चाल",
+        "वेग",
+        "विस्थापन"
       ],
-      "explanation": "s = ut + (1/2)at^2 = 0 + (1/2)(2)(25) = 25 m।"
+      "explanation": "वेग-समय ग्राफ के नीचे का क्षेत्रफल विस्थापन (या तय की गई दूरी) दर्शाता है।"
     }
   },
   {
     "id": "gdspm-0099",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "When a body moves in a circular path with constant speed, it has:",
+      "question": "A particle moves in a circle of radius 7 m at constant speed. After one complete revolution, its displacement is:",
       "options": [
-        "Centripetal acceleration",
-        "Zero acceleration",
-        "Constant velocity",
-        "No force acting on it"
+        "44 m",
+        "14 m",
+        "0 m",
+        "7 m"
       ],
-      "explanation": "In uniform circular motion, the direction changes continuously, producing centripetal acceleration towards the centre."
+      "explanation": "After one complete revolution, the particle returns to its starting point, so displacement = 0."
     },
     "hi": {
-      "question": "जब कोई पिंड वृत्ताकार पथ पर स्थिर चाल से गति करता है, तो उसमें:",
+      "question": "एक कण 7 m त्रिज्या के वृत्त में स्थिर चाल से चलता है। एक पूर्ण चक्कर के बाद इसका विस्थापन है:",
       "options": [
-        "अभिकेंद्रीय त्वरण",
-        "शून्य त्वरण",
-        "स्थिर वेग",
-        "कोई बल कार्य नहीं करता"
+        "44 m",
+        "14 m",
+        "0 m",
+        "7 m"
       ],
-      "explanation": "एकसमान वृत्तीय गति में दिशा लगातार बदलती है, जिससे केंद्र की ओर अभिकेंद्रीय त्वरण उत्पन्न होता है।"
+      "explanation": "एक पूर्ण चक्कर के बाद कण अपने प्रारंभिक बिंदु पर लौटता है, इसलिए विस्थापन = 0।"
     }
   },
   {
     "id": "gdspm-0100",
     "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "A car travels 100 m in 5 seconds. What is its average speed in km/h?",
+      "question": "A car moving at 20 m/s stops after applying brakes with a deceleration of 5 m/s². What is the stopping distance?",
       "options": [
-        "36 km/h",
-        "72 km/h",
-        "54 km/h",
-        "90 km/h"
+        "20 m",
+        "40 m",
+        "60 m",
+        "80 m"
       ],
-      "explanation": "Average speed = 100/5 = 20 m/s. Converting: 20 x (18/5) = 72 km/h."
+      "explanation": "v² = u² + 2as: 0 = 400 + 2(-5)s → 0 = 400 - 10s → s = 40 m."
     },
     "hi": {
-      "question": "एक कार 5 सेकंड में 100 m चलती है। इसकी औसत चाल km/h में कितनी है?",
+      "question": "20 m/s से चलती कार 5 m/s² मंदन से ब्रेक लगाने पर रुकती है। रुकने की दूरी कितनी है?",
       "options": [
-        "36 km/h",
-        "72 km/h",
-        "54 km/h",
-        "90 km/h"
+        "20 m",
+        "40 m",
+        "60 m",
+        "80 m"
       ],
-      "explanation": "औसत चाल = 100/5 = 20 m/s। रूपांतरण: 20 x (18/5) = 72 km/h।"
+      "explanation": "v² = u² + 2as: 0 = 400 + 2(-5)s → 0 = 400 - 10s → s = 40 m।"
     }
   },
   {
     "id": "gdspm-0101",
-    "correctOption": "D",
+    "correctOption": "A",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "The distance-time graph for a stationary object is:",
+      "question": "What is the rate of change of velocity called?",
       "options": [
-        "A curved line",
-        "A straight sloping line",
-        "A zigzag line",
-        "A straight line parallel to time axis"
+        "Acceleration",
+        "Speed",
+        "Momentum",
+        "Force"
       ],
-      "explanation": "For a stationary object, distance does not change with time, so the graph is a horizontal straight line parallel to the time axis."
+      "explanation": "Acceleration is defined as the rate of change of velocity with respect to time."
     },
     "hi": {
-      "question": "स्थिर वस्तु के लिए दूरी-समय ग्राफ कैसा होता है?",
+      "question": "वेग परिवर्तन की दर को क्या कहते हैं?",
       "options": [
-        "एक वक्र रेखा",
-        "एक सीधी ढलानदार रेखा",
-        "एक टेढ़ी-मेढ़ी रेखा",
-        "समय अक्ष के समांतर एक सीधी रेखा"
+        "त्वरण",
+        "चाल",
+        "संवेग",
+        "बल"
       ],
-      "explanation": "स्थिर वस्तु के लिए दूरी समय के साथ नहीं बदलती, इसलिए ग्राफ समय अक्ष के समांतर क्षैतिज सीधी रेखा होता है।"
+      "explanation": "त्वरण को समय के सापेक्ष वेग परिवर्तन की दर के रूप में परिभाषित किया जाता है।"
     }
   },
   {
     "id": "gdspm-0102",
-    "correctOption": "C",
+    "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "What does the odometer of a vehicle measure?",
+      "question": "Which of the following has units of m/s²?",
       "options": [
         "Speed",
         "Velocity",
-        "Distance travelled",
+        "Distance",
         "Acceleration"
       ],
-      "explanation": "An odometer measures the total distance travelled by a vehicle."
+      "explanation": "Acceleration = change in velocity/time = (m/s)/s = m/s²."
     },
     "hi": {
-      "question": "वाहन का ओडोमीटर क्या मापता है?",
+      "question": "निम्नलिखित में से किसकी इकाई m/s² है?",
       "options": [
         "चाल",
         "वेग",
-        "तय की गई दूरी",
+        "दूरी",
         "त्वरण"
       ],
-      "explanation": "ओडोमीटर वाहन द्वारा तय की गई कुल दूरी मापता है।"
+      "explanation": "त्वरण = वेग में परिवर्तन/समय = (m/s)/s = m/s²।"
     }
   },
   {
     "id": "gdspm-0103",
-    "correctOption": "A",
+    "correctOption": "B",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "A ball is thrown vertically upward with velocity 20 m/s. What is the maximum height reached? (g=10 m/s^2)",
+      "question": "A stone is dropped from a bridge and hits the water after 3 seconds. How high is the bridge? (g = 10 m/s²)",
       "options": [
-        "20 m",
-        "40 m",
-        "10 m",
-        "30 m"
+        "30 m",
+        "45 m",
+        "60 m",
+        "90 m"
       ],
-      "explanation": "At max height v=0. v^2 = u^2 - 2gh. 0 = 400 - 20h. h = 20 m."
+      "explanation": "h = ½gt² = ½ × 10 × 9 = 45 m."
     },
     "hi": {
-      "question": "एक गेंद 20 m/s से ऊर्ध्वाधर ऊपर फेंकी जाती है। अधिकतम ऊंचाई? (g=10 m/s^2)",
+      "question": "एक पत्थर पुल से गिराया जाता है और 3 सेकंड बाद पानी से टकराता है। पुल कितना ऊंचा है? (g = 10 m/s²)",
       "options": [
-        "20 m",
-        "40 m",
-        "10 m",
-        "30 m"
+        "30 m",
+        "45 m",
+        "60 m",
+        "90 m"
       ],
-      "explanation": "अधिकतम ऊंचाई पर v=0। v^2 = u^2 - 2gh। 0 = 400 - 20h। h = 20 m।"
+      "explanation": "h = ½gt² = ½ × 10 × 9 = 45 m।"
     }
   },
   {
     "id": "gdspm-0104",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "The numerical ratio of displacement to distance is always:",
+      "question": "What type of motion is exhibited by a pendulum?",
       "options": [
-        "Greater than 1",
-        "Less than or equal to 1",
-        "Equal to zero",
-        "Greater than 2"
+        "Rectilinear motion",
+        "Circular motion",
+        "Oscillatory motion",
+        "Rotatory motion"
       ],
-      "explanation": "Displacement is the shortest path, so displacement <= distance. Hence the ratio is always <= 1."
+      "explanation": "A pendulum moves back and forth about a mean position, exhibiting oscillatory (periodic) motion."
     },
     "hi": {
-      "question": "विस्थापन और दूरी का संख्यात्मक अनुपात हमेशा:",
+      "question": "लोलक किस प्रकार की गति प्रदर्शित करता है?",
       "options": [
-        "1 से अधिक",
-        "1 से कम या बराबर",
-        "शून्य के बराबर",
-        "2 से अधिक"
+        "रेखीय गति",
+        "वृत्तीय गति",
+        "दोलन गति",
+        "घूर्णन गति"
       ],
-      "explanation": "विस्थापन न्यूनतम पथ है, इसलिए विस्थापन <= दूरी। अतः अनुपात हमेशा <= 1 होता है।"
+      "explanation": "लोलक अपनी माध्य स्थिति के इधर-उधर गति करता है, जो दोलन (आवर्त) गति है।"
     }
   },
   {
     "id": "gdspm-0105",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "A train 100 m long crosses a pole in 5 seconds. What is its speed?",
+      "question": "A bus decreases its speed from 80 km/h to 60 km/h in 5 seconds. Find acceleration.",
       "options": [
-        "10 m/s",
-        "15 m/s",
-        "20 m/s",
-        "25 m/s"
+        "-1.11 m/s²",
+        "1.11 m/s²",
+        "-4 m/s²",
+        "4 m/s²"
       ],
-      "explanation": "Speed = distance/time = 100/5 = 20 m/s."
+      "explanation": "80 km/h = 22.22 m/s, 60 km/h = 16.67 m/s. a = (16.67-22.22)/5 = -1.11 m/s²."
     },
     "hi": {
-      "question": "100 m लंबी ट्रेन एक खंभे को 5 सेकंड में पार करती है। इसकी चाल क्या है?",
+      "question": "एक बस 5 सेकंड में अपनी चाल 80 km/h से घटाकर 60 km/h करती है। त्वरण ज्ञात करें।",
       "options": [
-        "10 m/s",
-        "15 m/s",
-        "20 m/s",
-        "25 m/s"
+        "-1.11 m/s²",
+        "1.11 m/s²",
+        "-4 m/s²",
+        "4 m/s²"
       ],
-      "explanation": "चाल = दूरी/समय = 100/5 = 20 m/s।"
+      "explanation": "80 km/h = 22.22 m/s, 60 km/h = 16.67 m/s। a = (16.67-22.22)/5 = -1.11 m/s²।"
     }
   },
   {
     "id": "gdspm-0106",
     "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Which of these is NOT a unit of speed?",
+      "question": "Speedometer in a vehicle measures:",
       "options": [
-        "m/s",
-        "km/h",
-        "cm/s",
-        "kg m/s"
+        "Average speed",
+        "Distance traveled",
+        "Acceleration",
+        "Instantaneous speed"
       ],
-      "explanation": "kg m/s is the unit of momentum. m/s, km/h, and cm/s are all units of speed."
+      "explanation": "A speedometer measures the instantaneous speed of a vehicle at any given moment."
     },
     "hi": {
-      "question": "इनमें से कौन चाल की इकाई नहीं है?",
+      "question": "वाहन में स्पीडोमीटर मापता है:",
       "options": [
-        "m/s",
-        "km/h",
-        "cm/s",
-        "kg m/s"
+        "औसत चाल",
+        "तय की गई दूरी",
+        "त्वरण",
+        "तात्कालिक चाल"
       ],
-      "explanation": "kg m/s संवेग की इकाई है। m/s, km/h और cm/s चाल की इकाइयाँ हैं।"
+      "explanation": "स्पीडोमीटर किसी भी क्षण वाहन की तात्कालिक चाल मापता है।"
     }
   },
   {
     "id": "gdspm-0107",
     "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "If a body covers equal distances in equal intervals of time, its motion is:",
+      "question": "A body is thrown vertically upward with velocity u. Time to reach maximum height is:",
       "options": [
-        "Non-uniform",
-        "Uniform",
-        "Accelerated",
-        "Retarded"
+        "u/g",
+        "u/g",
+        "2u/g",
+        "u²/2g"
       ],
-      "explanation": "Uniform motion means equal distances are covered in equal intervals of time."
+      "explanation": "At max height v=0. From v = u - gt: 0 = u - gt → t = u/g."
     },
     "hi": {
-      "question": "यदि कोई पिंड समान समयांतराल में समान दूरी तय करता है, तो उसकी गति:",
+      "question": "एक वस्तु को वेग u से ऊर्ध्वाधर ऊपर फेंका जाता है। अधिकतम ऊंचाई तक पहुंचने का समय है:",
       "options": [
-        "असमान",
-        "एकसमान",
-        "त्वरित",
-        "मंदित"
+        "u/g",
+        "u/g",
+        "2u/g",
+        "u²/2g"
       ],
-      "explanation": "एकसमान गति का अर्थ है समान समयांतराल में समान दूरी तय करना।"
+      "explanation": "अधिकतम ऊंचाई पर v=0। v = u - gt से: 0 = u - gt → t = u/g।"
     }
   },
   {
     "id": "gdspm-0108",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A stone is dropped from a cliff and reaches the ground in 3 s. Height of cliff? (g=10 m/s^2)",
+      "question": "Which quantity is measured by an odometer in a vehicle?",
       "options": [
-        "45 m",
-        "30 m",
-        "90 m",
-        "15 m"
+        "Speed",
+        "Time",
+        "Distance",
+        "Acceleration"
       ],
-      "explanation": "h = (1/2)gt^2 = (1/2)(10)(9) = 45 m."
+      "explanation": "An odometer measures the total distance traveled by a vehicle."
     },
     "hi": {
-      "question": "एक पत्थर चट्टान से गिराया जाता है और 3 s में जमीन पर पहुंचता है। चट्टान की ऊंचाई? (g=10 m/s^2)",
+      "question": "वाहन में ओडोमीटर कौन सी राशि मापता है?",
       "options": [
-        "45 m",
-        "30 m",
-        "90 m",
-        "15 m"
+        "चाल",
+        "समय",
+        "दूरी",
+        "त्वरण"
       ],
-      "explanation": "h = (1/2)gt^2 = (1/2)(10)(9) = 45 m।"
+      "explanation": "ओडोमीटर वाहन द्वारा तय की गई कुल दूरी मापता है।"
     }
   },
   {
     "id": "gdspm-0109",
-    "correctOption": "C",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A car accelerates from 36 km/h to 72 km/h in 10 seconds. What distance does it cover?",
+      "options": [
+        "150 m",
+        "100 m",
+        "200 m",
+        "50 m"
+      ],
+      "explanation": "u=10 m/s, v=20 m/s, a=1 m/s². s = ut + ½at² = 10×10 + ½×1×100 = 150 m."
+    },
+    "hi": {
+      "question": "एक कार 10 सेकंड में 36 km/h से 72 km/h तक त्वरित होती है। यह कितनी दूरी तय करती है?",
+      "options": [
+        "150 m",
+        "100 m",
+        "200 m",
+        "50 m"
+      ],
+      "explanation": "u=10 m/s, v=20 m/s, a=1 m/s²। s = ut + ½at² = 10×10 + ½×1×100 = 150 m।"
+    }
+  },
+  {
+    "id": "gdspm-0110",
+    "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
       "question": "Negative acceleration is also called:",
       "options": [
         "Uniform acceleration",
         "Zero acceleration",
-        "Retardation",
-        "Instantaneous acceleration"
+        "Positive acceleration",
+        "Retardation"
       ],
-      "explanation": "Negative acceleration means velocity is decreasing with time. It is also called retardation or deceleration."
+      "explanation": "Negative acceleration (decrease in velocity) is called retardation or deceleration."
     },
     "hi": {
-      "question": "ऋणात्मक त्वरण को क्या कहते हैं?",
+      "question": "ऋणात्मक त्वरण को यह भी कहा जाता है:",
       "options": [
         "एकसमान त्वरण",
         "शून्य त्वरण",
-        "मंदन",
-        "तात्क्षणिक त्वरण"
+        "धनात्मक त्वरण",
+        "मंदन"
       ],
-      "explanation": "ऋणात्मक त्वरण का अर्थ है समय के साथ वेग में कमी। इसे मंदन भी कहते हैं।"
-    }
-  },
-  {
-    "id": "gdspm-0110",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "In SI system, the unit of acceleration is:",
-      "options": [
-        "m/s",
-        "m/s^2",
-        "km/h^2",
-        "cm/s"
-      ],
-      "explanation": "Acceleration = change in velocity / time. Its SI unit is metre per second squared (m/s^2)."
-    },
-    "hi": {
-      "question": "SI प्रणाली में त्वरण की इकाई क्या है?",
-      "options": [
-        "m/s",
-        "m/s^2",
-        "km/h^2",
-        "cm/s"
-      ],
-      "explanation": "त्वरण = वेग में परिवर्तन / समय। इसकी SI इकाई मीटर प्रति सेकंड वर्ग (m/s^2) है।"
+      "explanation": "ऋणात्मक त्वरण (वेग में कमी) को मंदन या अवत्वरण कहा जाता है।"
     }
   },
   {
     "id": "gdspm-0111",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "The speedometer of a vehicle measures:",
+      "question": "A body travels 200 cm in first 2 seconds and 220 cm in next 4 seconds. What is the velocity at the end of 7th second?",
       "options": [
-        "Average speed",
-        "Distance",
-        "Acceleration",
-        "Instantaneous speed"
+        "10 cm/s",
+        "10 cm/s",
+        "20 cm/s",
+        "15 cm/s"
       ],
-      "explanation": "A speedometer shows the instantaneous speed of the vehicle at any given moment."
+      "explanation": "Using s = ut + ½at² for both intervals. u = 115 cm/s, a = -15 cm/s². v = u + at = 115 - 15×7 = 10 cm/s."
     },
     "hi": {
-      "question": "वाहन का स्पीडोमीटर क्या मापता है?",
+      "question": "एक वस्तु पहले 2 सेकंड में 200 cm और अगले 4 सेकंड में 220 cm चलती है। 7वें सेकंड के अंत में वेग क्या है?",
       "options": [
-        "औसत चाल",
-        "दूरी",
-        "त्वरण",
-        "तात्क्षणिक चाल"
+        "10 cm/s",
+        "10 cm/s",
+        "20 cm/s",
+        "15 cm/s"
       ],
-      "explanation": "स्पीडोमीटर किसी भी क्षण वाहन की तात्क्षणिक चाल दिखाता है।"
+      "explanation": "दोनों अंतरालों के लिए s = ut + ½at²। u = 115 cm/s, a = -15 cm/s²। v = u + at = 115 - 15×7 = 10 cm/s।"
     }
   },
   {
     "id": "gdspm-0112",
     "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A particle moves in a circle of radius 7 m at 11 m/s. Its angular velocity is:",
+      "question": "The motion of Earth around the Sun is an example of:",
       "options": [
-        "7/11 rad/s",
-        "11/2 rad/s",
-        "11/7 rad/s",
-        "77 rad/s"
+        "Rectilinear motion",
+        "Oscillatory motion",
+        "Circular motion",
+        "Random motion"
       ],
-      "explanation": "Angular velocity omega = v/r = 11/7 rad/s."
+      "explanation": "Earth revolves around the Sun in a nearly circular path, exhibiting circular (orbital) motion."
     },
     "hi": {
-      "question": "एक कण 7 m त्रिज्या के वृत्त में 11 m/s से घूमता है। इसका कोणीय वेग:",
+      "question": "सूर्य के चारों ओर पृथ्वी की गति किसका उदाहरण है?",
       "options": [
-        "7/11 rad/s",
-        "11/2 rad/s",
-        "11/7 rad/s",
-        "77 rad/s"
+        "रेखीय गति",
+        "दोलन गति",
+        "वृत्तीय गति",
+        "यादृच्छिक गति"
       ],
-      "explanation": "कोणीय वेग omega = v/r = 11/7 rad/s।"
+      "explanation": "पृथ्वी सूर्य के चारों ओर लगभग वृत्ताकार पथ पर घूमती है, जो वृत्तीय (कक्षीय) गति है।"
     }
   },
   {
     "id": "gdspm-0113",
     "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "Which law states that an object at rest stays at rest unless acted upon by an external force?",
+      "question": "A bullet fired into a target loses half its velocity after penetrating 3 cm. How much further will it penetrate?",
       "options": [
-        "Newton's First Law",
-        "Newton's Second Law",
-        "Newton's Third Law",
-        "Law of Conservation of Energy"
+        "1 cm",
+        "2 cm",
+        "3 cm",
+        "4 cm"
       ],
-      "explanation": "Newton's First Law of Motion, also called the Law of Inertia, states that a body remains in its state of rest or uniform motion unless a net external force acts on it."
+      "explanation": "Using v² = u² - 2as, first: (u/2)² = u² - 2a×3 → a = u²/8. Second: 0 = (u/2)² - 2(u²/8)s → s = 1 cm."
     },
     "hi": {
-      "question": "कौन सा नियम कहता है कि स्थिर वस्तु तब तक स्थिर रहती है जब तक बाहरी बल न लगे?",
+      "question": "लक्ष्य में दागी गई गोली 3 cm घुसने के बाद अपना आधा वेग खोती है। वह और कितनी दूर घुसेगी?",
       "options": [
-        "न्यूटन का पहला नियम",
-        "न्यूटन का दूसरा नियम",
-        "न्यूटन का तीसरा नियम",
-        "ऊर्जा संरक्षण का नियम"
+        "1 cm",
+        "2 cm",
+        "3 cm",
+        "4 cm"
       ],
-      "explanation": "न्यूटन का गति का पहला नियम, जिसे जड़त्व का नियम भी कहते हैं, कहता है कि पिंड अपनी स्थिर या एकसमान गति की अवस्था में तब तक रहता है जब तक कोई बाहरी बल न लगे।"
+      "explanation": "v² = u² - 2as से: (u/2)² = u² - 2a×3 → a = u²/8। फिर: 0 = (u/2)² - 2(u²/8)s → s = 1 cm।"
     }
   },
   {
     "id": "gdspm-0114",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A body moving with 10 m/s accelerates at 2 m/s^2 for 4 s. Final velocity is:",
+      "question": "Which of these is NOT a scalar quantity?",
       "options": [
-        "14 m/s",
-        "18 m/s",
-        "20 m/s",
-        "16 m/s"
+        "Mass",
+        "Time",
+        "Temperature",
+        "Displacement"
       ],
-      "explanation": "v = u + at = 10 + 2(4) = 18 m/s."
+      "explanation": "Displacement has both magnitude and direction, making it a vector quantity."
     },
     "hi": {
-      "question": "10 m/s से चलता पिंड 2 m/s^2 से 4 s तक त्वरित होता है। अंतिम वेग:",
+      "question": "इनमें से कौन सी अदिश राशि नहीं है?",
       "options": [
-        "14 m/s",
-        "18 m/s",
-        "20 m/s",
-        "16 m/s"
+        "द्रव्यमान",
+        "समय",
+        "तापमान",
+        "विस्थापन"
       ],
-      "explanation": "v = u + at = 10 + 2(4) = 18 m/s।"
+      "explanation": "विस्थापन में परिमाण और दिशा दोनों होते हैं, जो इसे सदिश राशि बनाता है।"
     }
   },
   {
     "id": "gdspm-0115",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "What is the time period of a simple pendulum?",
+      "question": "A car covers the first half of the distance at 40 km/h and the second half at 60 km/h. Average speed is:",
       "options": [
-        "T = 2pi(g/l)",
-        "T = 2pi(lg)",
-        "T = 2pi sqrt(l/g)",
-        "T = pi sqrt(l/g)"
+        "50 km/h",
+        "48 km/h",
+        "52 km/h",
+        "45 km/h"
       ],
-      "explanation": "The time period of a simple pendulum is T = 2pi sqrt(l/g), where l is length and g is acceleration due to gravity."
+      "explanation": "For equal distances: avg speed = 2v₁v₂/(v₁+v₂) = 2×40×60/(40+60) = 4800/100 = 48 km/h."
     },
     "hi": {
-      "question": "सरल लोलक का आवर्तकाल क्या है?",
+      "question": "एक कार आधी दूरी 40 km/h और शेष आधी दूरी 60 km/h से तय करती है। औसत चाल है:",
       "options": [
-        "T = 2pi(g/l)",
-        "T = 2pi(lg)",
-        "T = 2pi sqrt(l/g)",
-        "T = pi sqrt(l/g)"
+        "50 km/h",
+        "48 km/h",
+        "52 km/h",
+        "45 km/h"
       ],
-      "explanation": "सरल लोलक का आवर्तकाल T = 2pi sqrt(l/g) है, जहां l लंबाई और g गुरुत्वीय त्वरण है।"
+      "explanation": "समान दूरी के लिए: औसत चाल = 2v₁v₂/(v₁+v₂) = 2×40×60/(40+60) = 4800/100 = 48 km/h।"
     }
   },
   {
     "id": "gdspm-0116",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Centripetal force always acts:",
+      "question": "What does a horizontal line on a velocity-time graph indicate?",
       "options": [
-        "Tangentially",
-        "Outward from centre",
-        "In the direction of motion",
-        "Towards the centre"
+        "Constant acceleration",
+        "Zero velocity",
+        "Constant velocity",
+        "Increasing velocity"
       ],
-      "explanation": "Centripetal force always acts towards the centre of the circular path. It keeps the body moving in a circle."
+      "explanation": "A horizontal line on a v-t graph means velocity is not changing, i.e., constant velocity (zero acceleration)."
     },
     "hi": {
-      "question": "अभिकेंद्रीय बल हमेशा किस दिशा में कार्य करता है?",
+      "question": "वेग-समय ग्राफ पर क्षैतिज रेखा क्या इंगित करती है?",
       "options": [
-        "स्पर्शरेखीय",
-        "केंद्र से बाहर",
-        "गति की दिशा में",
-        "केंद्र की ओर"
+        "स्थिर त्वरण",
+        "शून्य वेग",
+        "स्थिर वेग",
+        "बढ़ता वेग"
       ],
-      "explanation": "अभिकेंद्रीय बल हमेशा वृत्ताकार पथ के केंद्र की ओर कार्य करता है। यह पिंड को वृत्त में गतिमान रखता है।"
+      "explanation": "v-t ग्राफ पर क्षैतिज रेखा का अर्थ है वेग नहीं बदल रहा, अर्थात स्थिर वेग (शून्य त्वरण)।"
     }
   },
   {
     "id": "gdspm-0117",
     "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Two cars A and B start from the same point. A moves at 40 km/h north, B at 30 km/h east. Distance between them after 2 hours?",
+      "question": "A train 100 m long passes a pole in 5 seconds. Its speed in km/h is:",
       "options": [
-        "100 km",
-        "70 km",
-        "50 km",
-        "140 km"
+        "72 km/h",
+        "36 km/h",
+        "20 km/h",
+        "50 km/h"
       ],
-      "explanation": "Distance by A = 80 km north; B = 60 km east. Using Pythagoras: sqrt(80^2 + 60^2) = sqrt(6400+3600) = 100 km."
+      "explanation": "Speed = distance/time = 100/5 = 20 m/s = 20 × 18/5 = 72 km/h."
     },
     "hi": {
-      "question": "दो कार A और B एक बिंदु से चलती हैं। A 40 km/h उत्तर, B 30 km/h पूर्व। 2 घंटे बाद उनके बीच दूरी?",
+      "question": "100 m लंबी रेलगाड़ी 5 सेकंड में एक खंभा पार करती है। इसकी चाल km/h में है:",
       "options": [
-        "100 km",
-        "70 km",
-        "50 km",
-        "140 km"
+        "72 km/h",
+        "36 km/h",
+        "20 km/h",
+        "50 km/h"
       ],
-      "explanation": "A की दूरी = 80 km उत्तर; B = 60 km पूर्व। पाइथागोरस: sqrt(80^2 + 60^2) = 100 km।"
+      "explanation": "चाल = दूरी/समय = 100/5 = 20 m/s = 20 × 18/5 = 72 km/h।"
     }
   },
   {
     "id": "gdspm-0118",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "What happens to the time period of a pendulum if its length is doubled?",
+      "question": "The time period of a simple pendulum depends on:",
       "options": [
-        "Remains same",
-        "Increases by sqrt(2) times",
-        "Doubles",
-        "Halves"
+        "Mass of bob",
+        "Amplitude",
+        "Temperature",
+        "Length of string"
       ],
-      "explanation": "T is proportional to sqrt(l). If l becomes 2l, T becomes sqrt(2) times the original."
+      "explanation": "T = 2π√(L/g). Time period depends on the length of the string and acceleration due to gravity."
     },
     "hi": {
-      "question": "यदि लोलक की लंबाई दोगुनी कर दी जाए तो आवर्तकाल पर क्या प्रभाव पड़ता है?",
+      "question": "सरल लोलक का आवर्तकाल निर्भर करता है:",
       "options": [
-        "समान रहता है",
-        "sqrt(2) गुना बढ़ जाता है",
-        "दोगुना हो जाता है",
-        "आधा हो जाता है"
+        "गोलक का द्रव्यमान",
+        "आयाम",
+        "तापमान",
+        "डोरी की लंबाई"
       ],
-      "explanation": "T, sqrt(l) के समानुपाती है। यदि l दोगुना हो, तो T मूल का sqrt(2) गुना हो जाता है।"
+      "explanation": "T = 2π√(L/g)। आवर्तकाल डोरी की लंबाई और गुरुत्वीय त्वरण पर निर्भर करता है।"
     }
   },
   {
     "id": "gdspm-0119",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "An athlete runs 200 m in 25 s. Average speed in m/s?",
+      "question": "A particle starts from rest with uniform acceleration a. Its velocity after n seconds is v. The displacement in the last 2 seconds is:",
       "options": [
-        "4 m/s",
-        "6 m/s",
-        "8 m/s",
-        "10 m/s"
+        "2v(n-1)/n",
+        "2v(n-1)/n",
+        "v(n+1)/n",
+        "v(n-1)/n"
       ],
-      "explanation": "Average speed = total distance / total time = 200/25 = 8 m/s."
+      "explanation": "v = an, so a = v/n. Displacement in last 2s = sₙ - sₙ₋₂ = ½a[n²-(n-2)²] = ½(v/n)(4n-4) = 2v(n-1)/n."
     },
     "hi": {
-      "question": "एक धावक 25 s में 200 m दौड़ता है। औसत चाल m/s में?",
+      "question": "एक कण विराम से एकसमान त्वरण a से शुरू होता है। n सेकंड बाद इसका वेग v है। अंतिम 2 सेकंड में विस्थापन है:",
       "options": [
-        "4 m/s",
-        "6 m/s",
-        "8 m/s",
-        "10 m/s"
+        "2v(n-1)/n",
+        "2v(n-1)/n",
+        "v(n+1)/n",
+        "v(n-1)/n"
       ],
-      "explanation": "औसत चाल = कुल दूरी / कुल समय = 200/25 = 8 m/s।"
+      "explanation": "v = an, अतः a = v/n। अंतिम 2s में विस्थापन = sₙ - sₙ₋₂ = ½a[n²-(n-2)²] = ½(v/n)(4n-4) = 2v(n-1)/n।"
     }
   },
   {
     "id": "gdspm-0120",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "The velocity-time graph for uniform acceleration is:",
+      "question": "What is the SI unit of acceleration?",
       "options": [
-        "Horizontal line",
-        "Curved line",
-        "Parabola",
-        "Straight line with constant slope"
+        "m/s",
+        "m/s²",
+        "m/s²",
+        "km/h²"
       ],
-      "explanation": "For uniform acceleration, velocity changes at a constant rate, giving a straight line with constant slope on a v-t graph."
+      "explanation": "Acceleration = change in velocity/time → SI unit = (m/s)/s = m/s²."
     },
     "hi": {
-      "question": "एकसमान त्वरण के लिए वेग-समय ग्राफ कैसा होता है?",
+      "question": "त्वरण की SI इकाई क्या है?",
       "options": [
-        "क्षैतिज रेखा",
-        "वक्र रेखा",
-        "परवलय",
-        "स्थिर ढलान वाली सीधी रेखा"
+        "m/s",
+        "m/s²",
+        "m/s²",
+        "km/h²"
       ],
-      "explanation": "एकसमान त्वरण में वेग स्थिर दर से बदलता है, जिससे v-t ग्राफ पर स्थिर ढलान वाली सीधी रेखा बनती है।"
+      "explanation": "त्वरण = वेग में परिवर्तन/समय → SI इकाई = (m/s)/s = m/s²।"
     }
   },
   {
     "id": "gdspm-0121",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "1 km/h is equal to:",
+      "question": "A stone is thrown upward. It rises to a height of 20 m. With what velocity was it thrown? (g=10 m/s²)",
       "options": [
-        "5/18 m/s",
-        "18/5 m/s",
-        "10/36 m/s",
-        "3.6 m/s"
+        "20 m/s",
+        "10 m/s",
+        "15 m/s",
+        "25 m/s"
       ],
-      "explanation": "To convert m/s to km/h multiply by 18/5. So 1 km/h = 1000/3600 = 5/18 m/s."
+      "explanation": "v² = u² - 2gh. At max height v=0. 0 = u² - 2×10×20 → u² = 400 → u = 20 m/s."
     },
     "hi": {
-      "question": "1 km/h किसके बराबर होता है?",
+      "question": "एक पत्थर ऊपर फेंका जाता है। यह 20 m ऊंचाई तक जाता है। इसे किस वेग से फेंका गया? (g=10 m/s²)",
       "options": [
-        "5/18 m/s",
-        "18/5 m/s",
-        "10/36 m/s",
-        "3.6 m/s"
+        "20 m/s",
+        "10 m/s",
+        "15 m/s",
+        "25 m/s"
       ],
-      "explanation": "m/s से km/h में बदलने के लिए 18/5 से गुणा करें। इसलिए 1 km/h = 1000/3600 = 5/18 m/s।"
+      "explanation": "v² = u² - 2gh। अधिकतम ऊंचाई पर v=0। 0 = u² - 2×10×20 → u² = 400 → u = 20 m/s।"
     }
   },
   {
     "id": "gdspm-0122",
-    "correctOption": "C",
+    "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Which of the following is an example of non-uniform motion?",
+      "question": "Motion of a butterfly is an example of:",
       "options": [
-        "A fan rotating at constant speed",
-        "Earth moving around the Sun",
-        "A car moving in heavy traffic",
-        "A clock's second hand"
+        "Uniform motion",
+        "Circular motion",
+        "Oscillatory motion",
+        "Random motion"
       ],
-      "explanation": "A car in heavy traffic has varying speed (stopping and accelerating), which is non-uniform motion."
+      "explanation": "A butterfly moves in an unpredictable, irregular path — this is random motion."
     },
     "hi": {
-      "question": "निम्नलिखित में से कौन असमान गति का उदाहरण है?",
+      "question": "तितली की गति किसका उदाहरण है?",
       "options": [
-        "स्थिर गति से घूमता पंखा",
-        "सूर्य के चारों ओर पृथ्वी की गति",
-        "भारी ट्रैफिक में चलती कार",
-        "घड़ी की सेकंड सुई"
+        "एकसमान गति",
+        "वृत्तीय गति",
+        "दोलन गति",
+        "यादृच्छिक गति"
       ],
-      "explanation": "भारी ट्रैफिक में कार की चाल बदलती रहती है (रुकना और त्वरित होना), जो असमान गति है।"
+      "explanation": "तितली अप्रत्याशित, अनियमित पथ पर चलती है — यह यादृच्छिक गति है।"
     }
   },
   {
     "id": "gdspm-0123",
-    "correctOption": "A",
+    "correctOption": "B",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "A bus starting from rest attains 36 km/h in 10 s. Acceleration?",
+      "question": "Two cars A and B are moving in the same direction at 40 km/h and 50 km/h. Relative speed of B w.r.t. A is:",
       "options": [
-        "1 m/s^2",
-        "2 m/s^2",
-        "3.6 m/s^2",
-        "0.5 m/s^2"
+        "90 km/h",
+        "10 km/h",
+        "45 km/h",
+        "5 km/h"
       ],
-      "explanation": "v = 36 x 5/18 = 10 m/s. a = (v-u)/t = (10-0)/10 = 1 m/s^2."
+      "explanation": "When moving in same direction, relative speed = difference of speeds = 50 - 40 = 10 km/h."
     },
     "hi": {
-      "question": "एक बस स्थिरावस्था से 10 s में 36 km/h की चाल प्राप्त करती है। त्वरण?",
+      "question": "दो कार A और B एक ही दिशा में 40 km/h और 50 km/h से चल रही हैं। A के सापेक्ष B की आपेक्षिक चाल है:",
       "options": [
-        "1 m/s^2",
-        "2 m/s^2",
-        "3.6 m/s^2",
-        "0.5 m/s^2"
+        "90 km/h",
+        "10 km/h",
+        "45 km/h",
+        "5 km/h"
       ],
-      "explanation": "v = 36 x 5/18 = 10 m/s। a = (v-u)/t = (10-0)/10 = 1 m/s^2।"
+      "explanation": "समान दिशा में, आपेक्षिक चाल = चालों का अंतर = 50 - 40 = 10 km/h।"
     }
   },
   {
     "id": "gdspm-0124",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A body goes from A to B at 40 km/h and returns at 60 km/h. Average speed?",
+      "question": "A straight line inclined to time axis in a distance-time graph indicates:",
       "options": [
-        "50 km/h",
-        "48 km/h",
-        "52 km/h",
-        "45 km/h"
+        "Body at rest",
+        "Uniform acceleration",
+        "Uniform speed",
+        "Non-uniform motion"
       ],
-      "explanation": "Average speed = 2v1v2/(v1+v2) = 2(40)(60)/(40+60) = 4800/100 = 48 km/h."
+      "explanation": "A straight line (linear) in a distance-time graph indicates constant/uniform speed."
     },
     "hi": {
-      "question": "एक पिंड A से B 40 km/h से जाता है और 60 km/h से लौटता है। औसत चाल?",
+      "question": "दूरी-समय ग्राफ में समय अक्ष पर झुकी सीधी रेखा इंगित करती है:",
       "options": [
-        "50 km/h",
-        "48 km/h",
-        "52 km/h",
-        "45 km/h"
+        "वस्तु विराम में",
+        "एकसमान त्वरण",
+        "एकसमान चाल",
+        "असमान गति"
       ],
-      "explanation": "औसत चाल = 2v1v2/(v1+v2) = 2(40)(60)/(40+60) = 4800/100 = 48 km/h।"
+      "explanation": "दूरी-समय ग्राफ में सीधी रेखा स्थिर/एकसमान चाल दर्शाती है।"
     }
   },
   {
     "id": "gdspm-0125",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "A freely falling body experiences:",
+      "question": "A body falls from rest. The ratio of distances traveled in 1st, 2nd, and 3rd seconds is:",
       "options": [
-        "Uniform velocity",
-        "Zero acceleration",
-        "Variable acceleration",
-        "Uniform acceleration due to gravity"
+        "1:3:5",
+        "1:2:3",
+        "1:4:9",
+        "1:1:1"
       ],
-      "explanation": "A freely falling body experiences uniform acceleration of g = 9.8 m/s^2 (ignoring air resistance)."
+      "explanation": "sₙ = g(2n-1)/2. For n=1,2,3: s₁:s₂:s₃ = 1:3:5 (Galileo's law of odd numbers)."
     },
     "hi": {
-      "question": "मुक्त रूप से गिरता पिंड अनुभव करता है:",
+      "question": "एक वस्तु विराम से गिरती है। पहले, दूसरे और तीसरे सेकंड में तय दूरियों का अनुपात है:",
       "options": [
-        "एकसमान वेग",
-        "शून्य त्वरण",
-        "परिवर्तनशील त्वरण",
-        "गुरुत्व के कारण एकसमान त्वरण"
+        "1:3:5",
+        "1:2:3",
+        "1:4:9",
+        "1:1:1"
       ],
-      "explanation": "मुक्त रूप से गिरता पिंड g = 9.8 m/s^2 का एकसमान त्वरण अनुभव करता है (वायु प्रतिरोध नगण्य)।"
+      "explanation": "sₙ = g(2n-1)/2। n=1,2,3 के लिए: s₁:s₂:s₃ = 1:3:5 (गैलीलियो का विषम संख्या नियम)।"
     }
   },
   {
     "id": "gdspm-0126",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A 150 m long train crosses a 350 m bridge in 25 s. Speed of train in km/h?",
+      "question": "Which of the following is the correct formula for speed?",
       "options": [
-        "72 km/h",
-        "54 km/h",
-        "90 km/h",
-        "60 km/h"
+        "Speed = Time/Distance",
+        "Speed = Distance × Time",
+        "Speed = Acceleration/Time",
+        "Speed = Distance/Time"
       ],
-      "explanation": "Total distance = 150 + 350 = 500 m. Speed = 500/25 = 20 m/s = 20 x 18/5 = 72 km/h."
+      "explanation": "Speed is defined as distance traveled per unit time: Speed = Distance/Time."
     },
     "hi": {
-      "question": "150 m लंबी ट्रेन 350 m का पुल 25 s में पार करती है। ट्रेन की चाल km/h में?",
+      "question": "चाल का सही सूत्र निम्नलिखित में से कौन सा है?",
       "options": [
-        "72 km/h",
-        "54 km/h",
-        "90 km/h",
-        "60 km/h"
+        "चाल = समय/दूरी",
+        "चाल = दूरी × समय",
+        "चाल = त्वरण/समय",
+        "चाल = दूरी/समय"
       ],
-      "explanation": "कुल दूरी = 150 + 350 = 500 m। चाल = 500/25 = 20 m/s = 20 x 18/5 = 72 km/h।"
+      "explanation": "चाल को प्रति इकाई समय में तय दूरी के रूप में परिभाषित किया जाता है: चाल = दूरी/समय।"
     }
   },
   {
     "id": "gdspm-0127",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "What is the formula for centripetal acceleration?",
+      "question": "A racing car has uniform acceleration of 4 m/s². What distance will it cover in 10 s after start?",
       "options": [
-        "a = r/v^2",
-        "a = rv",
-        "a = v^2/r",
-        "a = v/r^2"
+        "100 m",
+        "200 m",
+        "300 m",
+        "400 m"
       ],
-      "explanation": "Centripetal acceleration a_c = v^2/r, where v is speed and r is radius of the circular path."
+      "explanation": "s = ut + ½at² = 0 + ½ × 4 × 100 = 200 m."
     },
     "hi": {
-      "question": "अभिकेंद्रीय त्वरण का सूत्र क्या है?",
+      "question": "एक रेसिंग कार का एकसमान त्वरण 4 m/s² है। शुरू होने के 10 s बाद यह कितनी दूरी तय करेगी?",
       "options": [
-        "a = r/v^2",
-        "a = rv",
-        "a = v^2/r",
-        "a = v/r^2"
+        "100 m",
+        "200 m",
+        "300 m",
+        "400 m"
       ],
-      "explanation": "अभिकेंद्रीय त्वरण a_c = v^2/r, जहां v चाल और r वृत्ताकार पथ की त्रिज्या है।"
+      "explanation": "s = ut + ½at² = 0 + ½ × 4 × 100 = 200 m।"
     }
   },
   {
     "id": "gdspm-0128",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A cyclist covers 30 km in first 2 hours and 40 km in next 2 hours. Average speed?",
+      "question": "If a body moves with constant velocity, its acceleration is:",
       "options": [
-        "15 km/h",
-        "17.5 km/h",
-        "20 km/h",
-        "35 km/h"
+        "Maximum",
+        "Variable",
+        "Zero",
+        "Infinite"
       ],
-      "explanation": "Total distance = 70 km, total time = 4 h. Average speed = 70/4 = 17.5 km/h."
+      "explanation": "Acceleration = rate of change of velocity. If velocity is constant, change = 0, so acceleration = 0."
     },
     "hi": {
-      "question": "एक साइकिल चालक पहले 2 घंटे में 30 km और अगले 2 घंटे में 40 km तय करता है। औसत चाल?",
+      "question": "यदि कोई वस्तु स्थिर वेग से चलती है, तो इसका त्वरण है:",
       "options": [
-        "15 km/h",
-        "17.5 km/h",
-        "20 km/h",
-        "35 km/h"
+        "अधिकतम",
+        "परिवर्तनशील",
+        "शून्य",
+        "अनंत"
       ],
-      "explanation": "कुल दूरी = 70 km, कुल समय = 4 h। औसत चाल = 70/4 = 17.5 km/h।"
+      "explanation": "त्वरण = वेग परिवर्तन की दर। यदि वेग स्थिर है, परिवर्तन = 0, अतः त्वरण = 0।"
     }
   },
   {
     "id": "gdspm-0129",
     "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "The second equation of motion is:",
+      "question": "A train travels at 60 km/h for 0.5 h, at 30 km/h for next 0.25 h and at 70 km/h for next 0.75 h. Average speed is:",
       "options": [
-        "s = ut + 1/2 at^2",
-        "v = u + at",
-        "v^2 = u^2 + 2as",
-        "F = ma"
+        "59 km/h",
+        "53 km/h",
+        "50 km/h",
+        "60 km/h"
       ],
-      "explanation": "The second equation of motion is s = ut + (1/2)at^2, giving the distance covered."
+      "explanation": "d1=30, d2=7.5, d3=52.5. Total d=90 km, total t=1.5 h. Avg speed = 90/1.5 = 60 km/h."
     },
     "hi": {
-      "question": "गति का दूसरा समीकरण कौन सा है?",
+      "question": "एक रेलगाड़ी 0.5 h के लिए 60 km/h, अगले 0.25 h के लिए 30 km/h और अगले 0.75 h के लिए 70 km/h चलती है। औसत चाल है:",
       "options": [
-        "s = ut + 1/2 at^2",
-        "v = u + at",
-        "v^2 = u^2 + 2as",
-        "F = ma"
+        "59 km/h",
+        "53 km/h",
+        "50 km/h",
+        "60 km/h"
       ],
-      "explanation": "गति का दूसरा समीकरण s = ut + (1/2)at^2 है, जो तय की गई दूरी बताता है।"
+      "explanation": "d1=30, d2=7.5, d3=52.5। कुल d=90 km, कुल t=1.5 h। औसत चाल = 90/1.5 = 60 km/h।"
     }
   },
   {
     "id": "gdspm-0130",
     "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "In uniform circular motion, which quantity remains constant?",
+      "question": "The motion of a child on a swing is:",
       "options": [
-        "Velocity",
-        "Acceleration",
-        "Displacement",
-        "Speed"
+        "Rectilinear",
+        "Circular",
+        "Rotatory",
+        "Periodic/Oscillatory"
       ],
-      "explanation": "In uniform circular motion, speed remains constant but velocity changes due to changing direction."
+      "explanation": "A swing moves back and forth repeatedly — this is periodic (oscillatory) motion."
     },
     "hi": {
-      "question": "एकसमान वृत्तीय गति में कौन सी राशि स्थिर रहती है?",
+      "question": "झूले पर बच्चे की गति है:",
       "options": [
-        "वेग",
-        "त्वरण",
-        "विस्थापन",
-        "चाल"
+        "रेखीय",
+        "वृत्तीय",
+        "घूर्णन",
+        "आवर्ती/दोलन"
       ],
-      "explanation": "एकसमान वृत्तीय गति में चाल स्थिर रहती है लेकिन दिशा बदलने से वेग बदलता है।"
+      "explanation": "झूला बार-बार आगे-पीछे चलता है — यह आवर्ती (दोलन) गति है।"
     }
   },
   {
     "id": "gdspm-0131",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "What is the shape of a distance-time graph for uniform motion?",
+      "question": "Two balls are dropped from the same height at an interval of 2 seconds. The separation between them 3 seconds after the second ball is dropped is: (g=10 m/s²)",
       "options": [
-        "Curve",
-        "Horizontal line",
-        "Straight line with positive slope",
-        "Parabola"
+        "40 m",
+        "80 m",
+        "20 m",
+        "60 m"
       ],
-      "explanation": "For uniform motion, distance increases uniformly with time, giving a straight line with positive slope."
+      "explanation": "Ball 1 has fallen for 5s: h1=½×10×25=125m. Ball 2 for 3s: h2=½×10×9=45m. Separation=80m."
     },
     "hi": {
-      "question": "एकसमान गति के लिए दूरी-समय ग्राफ का आकार क्या है?",
+      "question": "दो गेंदें 2 सेकंड के अंतराल पर समान ऊंचाई से गिराई जाती हैं। दूसरी गेंद गिरने के 3 सेकंड बाद उनके बीच की दूरी है: (g=10 m/s²)",
       "options": [
-        "वक्र",
-        "क्षैतिज रेखा",
-        "धनात्मक ढलान वाली सीधी रेखा",
-        "परवलय"
+        "40 m",
+        "80 m",
+        "20 m",
+        "60 m"
       ],
-      "explanation": "एकसमान गति में दूरी समय के साथ एकसमान रूप से बढ़ती है, जो धनात्मक ढलान वाली सीधी रेखा बनाती है।"
+      "explanation": "गेंद 1, 5s तक गिरी: h1=½×10×25=125m। गेंद 2, 3s तक: h2=½×10×9=45m। अंतर=80m।"
     }
   },
   {
     "id": "gdspm-0132",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A stone falls from a height of 80 m. Time to reach ground? (g=10 m/s^2)",
+      "question": "The numerical ratio of displacement to distance is always:",
       "options": [
-        "2 s",
-        "4 s",
-        "8 s",
-        "16 s"
+        "> 1",
+        "= 1",
+        "≤ 1",
+        "< 0"
       ],
-      "explanation": "h = (1/2)gt^2. 80 = (1/2)(10)t^2. t^2 = 16. t = 4 s."
+      "explanation": "Displacement is always ≤ distance, so displacement/distance ≤ 1."
     },
     "hi": {
-      "question": "80 m ऊंचाई से एक पत्थर गिरता है। जमीन पर पहुंचने में समय? (g=10 m/s^2)",
+      "question": "विस्थापन और दूरी का संख्यात्मक अनुपात हमेशा होता है:",
       "options": [
-        "2 s",
-        "4 s",
-        "8 s",
-        "16 s"
+        "> 1",
+        "= 1",
+        "≤ 1",
+        "< 0"
       ],
-      "explanation": "h = (1/2)gt^2। 80 = (1/2)(10)t^2। t^2 = 16। t = 4 s।"
+      "explanation": "विस्थापन हमेशा ≤ दूरी होता है, इसलिए विस्थापन/दूरी ≤ 1।"
     }
   },
   {
     "id": "gdspm-0133",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "The third equation of motion is:",
+      "question": "A stone tied to a string is whirled in a circle. If the string breaks, the stone flies off:",
       "options": [
-        "s = ut + 1/2 at^2",
-        "v = u + at",
-        "F = ma",
-        "v^2 = u^2 + 2as"
+        "Tangentially",
+        "Radially outward",
+        "Radially inward",
+        "In a spiral"
       ],
-      "explanation": "The third equation of motion is v^2 = u^2 + 2as, relating final velocity to initial velocity, acceleration and displacement."
+      "explanation": "When the string breaks, the stone continues along the tangent due to inertia (Newton's first law)."
     },
     "hi": {
-      "question": "गति का तीसरा समीकरण कौन सा है?",
+      "question": "एक पत्थर डोरी से बंधा वृत्त में घुमाया जाता है। यदि डोरी टूट जाए, तो पत्थर उड़ता है:",
       "options": [
-        "s = ut + 1/2 at^2",
-        "v = u + at",
-        "F = ma",
-        "v^2 = u^2 + 2as"
+        "स्पर्शरेखीय",
+        "त्रिज्यतः बाहर",
+        "त्रिज्यतः अंदर",
+        "सर्पिल में"
       ],
-      "explanation": "गति का तीसरा समीकरण v^2 = u^2 + 2as है, जो अंतिम वेग को प्रारंभिक वेग, त्वरण और विस्थापन से जोड़ता है।"
+      "explanation": "डोरी टूटने पर पत्थर जड़त्व (न्यूटन का पहला नियम) के कारण स्पर्शरेखा के अनुदिश चलता रहता है।"
     }
   },
   {
     "id": "gdspm-0134",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A bus retards at 5 m/s^2 and stops in 4 s. Initial speed?",
+      "question": "1 km/h is equal to:",
       "options": [
-        "10 m/s",
-        "15 m/s",
-        "20 m/s",
-        "25 m/s"
+        "5/18 m/s",
+        "18/5 m/s",
+        "3.6 m/s",
+        "5/18 m/s"
       ],
-      "explanation": "v = u + at. 0 = u + (-5)(4). u = 20 m/s."
+      "explanation": "1 km/h = 1000 m / 3600 s = 5/18 m/s."
     },
     "hi": {
-      "question": "एक बस 5 m/s^2 से मंदित होकर 4 s में रुकती है। प्रारंभिक चाल?",
+      "question": "1 km/h बराबर है:",
       "options": [
-        "10 m/s",
-        "15 m/s",
-        "20 m/s",
-        "25 m/s"
+        "5/18 m/s",
+        "18/5 m/s",
+        "3.6 m/s",
+        "5/18 m/s"
       ],
-      "explanation": "v = u + at। 0 = u + (-5)(4)। u = 20 m/s।"
+      "explanation": "1 km/h = 1000 m / 3600 s = 5/18 m/s।"
     }
   },
   {
     "id": "gdspm-0135",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Momentum is the product of:",
+      "question": "A ball is dropped from a height of 80 m. Time taken to reach the ground is: (g=10 m/s²)",
       "options": [
-        "Mass and velocity",
-        "Mass and acceleration",
-        "Force and time",
-        "Mass and displacement"
+        "2 s",
+        "4 s",
+        "6 s",
+        "8 s"
       ],
-      "explanation": "Momentum p = mv, where m is mass and v is velocity. It is a vector quantity."
+      "explanation": "h = ½gt² → 80 = ½ × 10 × t² → t² = 16 → t = 4 s."
     },
     "hi": {
-      "question": "संवेग किसका गुणनफल है?",
+      "question": "80 m ऊंचाई से एक गेंद गिराई जाती है। जमीन तक पहुंचने में लगा समय है: (g=10 m/s²)",
       "options": [
-        "द्रव्यमान और वेग",
-        "द्रव्यमान और त्वरण",
-        "बल और समय",
-        "द्रव्यमान और विस्थापन"
+        "2 s",
+        "4 s",
+        "6 s",
+        "8 s"
       ],
-      "explanation": "संवेग p = mv, जहां m द्रव्यमान और v वेग है। यह एक सदिश राशि है।"
+      "explanation": "h = ½gt² → 80 = ½ × 10 × t² → t² = 16 → t = 4 s।"
     }
   },
   {
     "id": "gdspm-0136",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "The SI unit of momentum is:",
+      "question": "Which graph represents a body at rest in a distance-time graph?",
       "options": [
-        "kg m/s^2",
-        "kg m/s",
-        "N s",
-        "kg m^2/s"
+        "Straight inclined line",
+        "Curved line",
+        "Horizontal line parallel to time axis",
+        "Vertical line"
       ],
-      "explanation": "Momentum = mass x velocity. Its SI unit is kg m/s, which is equivalent to N s."
+      "explanation": "A horizontal line parallel to time axis shows distance is not changing — body is at rest."
     },
     "hi": {
-      "question": "संवेग की SI इकाई क्या है?",
+      "question": "दूरी-समय ग्राफ में कौन सा ग्राफ विरामावस्था में वस्तु दर्शाता है?",
       "options": [
-        "kg m/s^2",
-        "kg m/s",
-        "N s",
-        "kg m^2/s"
+        "झुकी सीधी रेखा",
+        "वक्र रेखा",
+        "समय अक्ष के समांतर क्षैतिज रेखा",
+        "ऊर्ध्वाधर रेखा"
       ],
-      "explanation": "संवेग = द्रव्यमान x वेग। इसकी SI इकाई kg m/s है, जो N s के तुल्य है।"
+      "explanation": "समय अक्ष के समांतर क्षैतिज रेखा दर्शाती है कि दूरी नहीं बदल रही — वस्तु विराम में है।"
     }
   },
   {
     "id": "gdspm-0137",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "hard",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "A 2 kg ball moving at 3 m/s hits a wall and rebounds at 2 m/s. Change in momentum?",
+      "question": "A body moving with uniform acceleration travels 84 m in first 6 s and 180 m in next 5 s. Initial velocity is:",
       "options": [
-        "2 kg m/s",
-        "5 kg m/s",
-        "10 kg m/s",
-        "6 kg m/s"
+        "4 m/s",
+        "6 m/s",
+        "2 m/s",
+        "8 m/s"
       ],
-      "explanation": "Initial p = 2x3 = 6; final p = 2x(-2) = -4. Change = 6-(-4) = 10 kg m/s."
+      "explanation": "s=ut+½at²: 84=6u+18a, s₆₋₁₁=11u+60.5a-84=180→11u+60.5a=264. Solving: u=4 m/s."
     },
     "hi": {
-      "question": "2 kg की गेंद 3 m/s से दीवार से टकराकर 2 m/s से लौटती है। संवेग में परिवर्तन?",
+      "question": "एकसमान त्वरण से चलती वस्तु पहले 6 s में 84 m और अगले 5 s में 180 m चलती है। प्रारंभिक वेग है:",
       "options": [
-        "2 kg m/s",
-        "5 kg m/s",
-        "10 kg m/s",
-        "6 kg m/s"
+        "4 m/s",
+        "6 m/s",
+        "2 m/s",
+        "8 m/s"
       ],
-      "explanation": "प्रारंभिक p = 2x3 = 6; अंतिम p = 2x(-2) = -4। परिवर्तन = 6-(-4) = 10 kg m/s।"
+      "explanation": "s=ut+½at²: 84=6u+18a, s₆₋₁₁=11u+60.5a-84=180→11u+60.5a=264। हल: u=4 m/s।"
     }
   },
   {
     "id": "gdspm-0138",
     "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Inertia of a body depends on its:",
+      "question": "A body travels equal distances in equal intervals of time. Its motion is:",
       "options": [
-        "Velocity",
-        "Shape",
-        "Temperature",
-        "Mass"
+        "Non-uniform",
+        "Accelerated",
+        "Retarded",
+        "Uniform"
       ],
-      "explanation": "Inertia is the tendency of a body to resist change in its state. It depends directly on the mass of the body."
+      "explanation": "Equal distances in equal time intervals is the definition of uniform motion."
     },
     "hi": {
-      "question": "किसी पिंड का जड़त्व किस पर निर्भर करता है?",
+      "question": "एक वस्तु समान समय अंतराल में समान दूरी तय करती है। इसकी गति है:",
       "options": [
-        "वेग",
-        "आकार",
-        "तापमान",
-        "द्रव्यमान"
+        "असमान",
+        "त्वरित",
+        "मंदित",
+        "एकसमान"
       ],
-      "explanation": "जड़त्व पिंड की अपनी अवस्था में परिवर्तन का विरोध करने की प्रवृत्ति है। यह सीधे पिंड के द्रव्यमान पर निर्भर करता है।"
+      "explanation": "समान समय अंतराल में समान दूरी एकसमान गति की परिभाषा है।"
     }
   },
   {
     "id": "gdspm-0139",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "A force of 20 N acts on a body of mass 4 kg. Acceleration produced is:",
+      "question": "A car moving at 54 km/h stops in 3 s after applying brakes. Its retardation is:",
       "options": [
-        "5 m/s^2",
-        "4 m/s^2",
-        "20 m/s^2",
-        "80 m/s^2"
+        "3 m/s²",
+        "5 m/s²",
+        "2 m/s²",
+        "10 m/s²"
       ],
-      "explanation": "F = ma. a = F/m = 20/4 = 5 m/s^2."
+      "explanation": "54 km/h = 15 m/s. a = (0-15)/3 = -5 m/s². Retardation = 5 m/s²."
     },
     "hi": {
-      "question": "20 N का बल 4 kg द्रव्यमान पर लगता है। उत्पन्न त्वरण:",
+      "question": "54 km/h से चलती कार ब्रेक लगाने पर 3 s में रुकती है। इसका मंदन है:",
       "options": [
-        "5 m/s^2",
-        "4 m/s^2",
-        "20 m/s^2",
-        "80 m/s^2"
+        "3 m/s²",
+        "5 m/s²",
+        "2 m/s²",
+        "10 m/s²"
       ],
-      "explanation": "F = ma। a = F/m = 20/4 = 5 m/s^2।"
+      "explanation": "54 km/h = 15 m/s। a = (0-15)/3 = -5 m/s²। मंदन = 5 m/s²।"
     }
   },
   {
     "id": "gdspm-0140",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A 5 kg object experiences a force that changes its velocity from 2 m/s to 8 m/s in 3 s. Force is:",
+      "question": "The slope of velocity-time graph gives:",
       "options": [
-        "5 N",
-        "10 N",
-        "15 N",
-        "20 N"
+        "Distance",
+        "Speed",
+        "Acceleration",
+        "Displacement"
       ],
-      "explanation": "a = (8-2)/3 = 2 m/s^2. F = ma = 5 x 2 = 10 N."
+      "explanation": "Slope of v-t graph = Δv/Δt = acceleration."
     },
     "hi": {
-      "question": "5 kg की वस्तु पर बल लगता है जो 3 s में वेग 2 m/s से 8 m/s कर देता है। बल:",
+      "question": "वेग-समय ग्राफ का ढलान देता है:",
       "options": [
-        "5 N",
-        "10 N",
-        "15 N",
-        "20 N"
+        "दूरी",
+        "चाल",
+        "त्वरण",
+        "विस्थापन"
       ],
-      "explanation": "a = (8-2)/3 = 2 m/s^2। F = ma = 5 x 2 = 10 N।"
+      "explanation": "v-t ग्राफ का ढलान = Δv/Δt = त्वरण।"
     }
   },
   {
     "id": "gdspm-0141",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Why do we jerk wet clothes before spreading them?",
+      "question": "If a ball thrown vertically upward takes 6 s to return to the thrower, the maximum height is: (g=10)",
       "options": [
-        "To remove colour",
-        "To create friction",
-        "Due to inertia of rest (water droplets continue moving)",
-        "To increase weight"
+        "45 m",
+        "90 m",
+        "30 m",
+        "60 m"
       ],
-      "explanation": "When clothes are jerked, the cloth stops but water droplets continue moving due to inertia of motion and get separated."
+      "explanation": "Time up = 3 s. u = g×t = 30 m/s. h = u²/2g = 900/20 = 45 m."
     },
     "hi": {
-      "question": "गीले कपड़े सुखाने से पहले झटका क्यों दिया जाता है?",
+      "question": "यदि ऊपर फेंकी गई गेंद वापस आने में 6 s लेती है, तो अधिकतम ऊंचाई है: (g=10)",
       "options": [
-        "रंग हटाने के लिए",
-        "घर्षण बनाने के लिए",
-        "विराम जड़त्व के कारण (पानी की बूंदें गति में रहती हैं)",
-        "वजन बढ़ाने के लिए"
+        "45 m",
+        "90 m",
+        "30 m",
+        "60 m"
       ],
-      "explanation": "जब कपड़े को झटका दिया जाता है, कपड़ा रुक जाता है लेकिन पानी की बूंदें गति के जड़त्व से चलती रहती हैं और अलग हो जाती हैं।"
+      "explanation": "ऊपर जाने का समय = 3 s। u = g×t = 30 m/s। h = u²/2g = 900/20 = 45 m।"
     }
   },
   {
     "id": "gdspm-0142",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "When a bus takes a sharp turn, passengers feel pushed outward. This is due to:",
+      "question": "The time period of a seconds pendulum is:",
       "options": [
-        "Inertia of direction",
-        "Gravity",
-        "Centripetal force",
-        "Friction"
+        "1 second",
+        "0.5 second",
+        "4 seconds",
+        "2 seconds"
       ],
-      "explanation": "Due to inertia of direction, the body resists change in direction and tends to continue in a straight line."
+      "explanation": "A seconds pendulum has a time period of 2 seconds (1 second for each swing)."
     },
     "hi": {
-      "question": "जब बस तीव्र मोड़ लेती है तो यात्री बाहर की ओर धकेले जाते हैं। इसका कारण:",
+      "question": "सेकंड लोलक का आवर्तकाल होता है:",
       "options": [
-        "दिशा का जड़त्व",
-        "गुरुत्वाकर्षण",
-        "अभिकेंद्रीय बल",
-        "घर्षण"
+        "1 सेकंड",
+        "0.5 सेकंड",
+        "4 सेकंड",
+        "2 सेकंड"
       ],
-      "explanation": "दिशा के जड़त्व के कारण, शरीर दिशा परिवर्तन का विरोध करता है और सीधी रेखा में चलता रहना चाहता है।"
+      "explanation": "सेकंड लोलक का आवर्तकाल 2 सेकंड होता है (प्रत्येक दोलन के लिए 1 सेकंड)।"
     }
   },
   {
     "id": "gdspm-0143",
     "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "A 1200 kg car moving at 25 m/s is brought to rest in 5 s. Braking force?",
+      "question": "A particle covers half the distance with speed v₁ and the other half with speed v₂. Average speed is:",
       "options": [
-        "3000 N",
-        "6000 N",
-        "12000 N",
-        "24000 N"
+        "(v₁+v₂)/2",
+        "2v₁v₂/(v₁+v₂)",
+        "√(v₁v₂)",
+        "v₁+v₂"
       ],
-      "explanation": "a = (0-25)/5 = -5 m/s^2. F = ma = 1200 x 5 = 6000 N (magnitude)."
+      "explanation": "For equal distances: t₁ = s/v₁, t₂ = s/v₂. Avg = 2s/(s/v₁+s/v₂) = 2v₁v₂/(v₁+v₂)."
     },
     "hi": {
-      "question": "1200 kg की कार 25 m/s से चलकर 5 s में रुकती है। ब्रेकिंग बल?",
+      "question": "एक कण आधी दूरी v₁ चाल से और शेष आधी v₂ चाल से तय करता है। औसत चाल है:",
       "options": [
-        "3000 N",
-        "6000 N",
-        "12000 N",
-        "24000 N"
+        "(v₁+v₂)/2",
+        "2v₁v₂/(v₁+v₂)",
+        "√(v₁v₂)",
+        "v₁+v₂"
       ],
-      "explanation": "a = (0-25)/5 = -5 m/s^2। F = ma = 1200 x 5 = 6000 N (परिमाण)।"
+      "explanation": "समान दूरियों के लिए: t₁ = s/v₁, t₂ = s/v₂। औसत = 2s/(s/v₁+s/v₂) = 2v₁v₂/(v₁+v₂)।"
     }
   },
   {
     "id": "gdspm-0144",
     "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Rate of change of momentum is equal to:",
+      "question": "A train 200 m long crosses a bridge 300 m long in 25 seconds. Speed of train is:",
       "options": [
-        "Work done",
-        "Kinetic energy",
-        "Force applied",
-        "Impulse"
+        "10 m/s",
+        "15 m/s",
+        "20 m/s",
+        "25 m/s"
       ],
-      "explanation": "Force = rate of change of momentum (Newton's second law): F = dp/dt."
+      "explanation": "Total distance = 200 + 300 = 500 m. Speed = 500/25 = 20 m/s."
     },
     "hi": {
-      "question": "संवेग परिवर्तन की दर किसके बराबर होती है?",
+      "question": "200 m लंबी रेलगाड़ी 300 m लंबे पुल को 25 सेकंड में पार करती है। रेलगाड़ी की चाल है:",
       "options": [
-        "किया गया कार्य",
-        "गतिज ऊर्जा",
-        "लगाया गया बल",
-        "आवेग"
+        "10 m/s",
+        "15 m/s",
+        "20 m/s",
+        "25 m/s"
       ],
-      "explanation": "बल = संवेग परिवर्तन की दर (न्यूटन का दूसरा नियम): F = dp/dt।"
+      "explanation": "कुल दूरी = 200 + 300 = 500 m। चाल = 500/25 = 20 m/s।"
     }
   },
   {
     "id": "gdspm-0145",
-    "correctOption": "D",
+    "correctOption": "A",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Which of the following has more inertia?",
+      "question": "If a body moves with uniform speed in a circle, its velocity is:",
       "options": [
-        "A tennis ball",
-        "A football",
-        "A cricket ball",
-        "A bowling ball"
+        "Changing",
+        "Constant",
+        "Zero",
+        "Maximum"
       ],
-      "explanation": "Inertia depends on mass. The bowling ball has the greatest mass, hence the greatest inertia."
+      "explanation": "Though speed is constant, direction changes continuously in circular motion, so velocity (a vector) changes."
     },
     "hi": {
-      "question": "निम्नलिखित में से किसमें अधिक जड़त्व है?",
+      "question": "यदि कोई वस्तु वृत्त में एकसमान चाल से चलती है, तो इसका वेग है:",
       "options": [
-        "टेनिस गेंद",
-        "फुटबॉल",
-        "क्रिकेट गेंद",
-        "बॉलिंग गेंद"
+        "बदलता हुआ",
+        "स्थिर",
+        "शून्य",
+        "अधिकतम"
       ],
-      "explanation": "जड़त्व द्रव्यमान पर निर्भर करता है। बॉलिंग गेंद का द्रव्यमान सबसे अधिक है, इसलिए इसका जड़त्व सबसे अधिक है।"
+      "explanation": "यद्यपि चाल स्थिर है, वृत्तीय गति में दिशा लगातार बदलती है, इसलिए वेग (सदिश) बदलता है।"
     }
   },
   {
     "id": "gdspm-0146",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "A cricket ball of mass 0.15 kg moves at 20 m/s and is caught. Impulse imparted?",
+      "question": "A body starts from rest with acceleration 2 m/s². Distance covered in 5th second is:",
       "options": [
-        "3 N s",
-        "6 N s",
-        "1.5 N s",
-        "0.3 N s"
+        "18 m",
+        "16 m",
+        "8 m",
+        "9 m"
       ],
-      "explanation": "Impulse = change in momentum = mv - 0 = 0.15 x 20 = 3 N s."
+      "explanation": "sₙ = u + a(2n-1)/2 = 0 + 2(9)/2 = 9 m."
     },
     "hi": {
-      "question": "0.15 kg की क्रिकेट गेंद 20 m/s से चलकर पकड़ी जाती है। दिया गया आवेग?",
+      "question": "एक वस्तु विराम से 2 m/s² त्वरण से शुरू होती है। 5वें सेकंड में तय दूरी है:",
       "options": [
-        "3 N s",
-        "6 N s",
-        "1.5 N s",
-        "0.3 N s"
+        "18 m",
+        "16 m",
+        "8 m",
+        "9 m"
       ],
-      "explanation": "आवेग = संवेग परिवर्तन = mv - 0 = 0.15 x 20 = 3 N s।"
+      "explanation": "sₙ = u + a(2n-1)/2 = 0 + 2(9)/2 = 9 m।"
     }
   },
   {
     "id": "gdspm-0147",
     "correctOption": "B",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "A person sitting in a moving bus is at rest relative to:",
+      "question": "Which of these is an example of non-uniform motion?",
       "options": [
-        "Trees outside",
-        "The bus driver",
-        "Road",
-        "Poles on the road"
+        "Hour hand of a clock",
+        "A bus in city traffic",
+        "Earth's rotation",
+        "A satellite in orbit"
       ],
-      "explanation": "Relative to the bus driver (who is also on the bus), the passenger is at rest. Motion is relative."
+      "explanation": "A bus in city traffic keeps stopping and starting, covering unequal distances in equal times — non-uniform motion."
     },
     "hi": {
-      "question": "चलती बस में बैठा व्यक्ति किसके सापेक्ष विराम में है?",
+      "question": "इनमें से कौन सी असमान गति का उदाहरण है?",
       "options": [
-        "बाहर के पेड़",
-        "बस चालक",
-        "सड़क",
-        "सड़क के खंभे"
+        "घड़ी की घंटे की सुई",
+        "शहर के यातायात में बस",
+        "पृथ्वी का घूर्णन",
+        "कक्षा में उपग्रह"
       ],
-      "explanation": "बस चालक (जो बस में ही है) के सापेक्ष, यात्री विराम में है। गति सापेक्ष है।"
+      "explanation": "शहर के यातायात में बस रुकती और चलती रहती है, समान समय में असमान दूरी तय करती है — असमान गति।"
     }
   },
   {
     "id": "gdspm-0148",
     "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "A bullet of mass 50 g hits a wall at 100 m/s and embeds. If it stops in 0.02 s, force on wall?",
+      "question": "Two cars start from same point. Car A at 40 km/h north, Car B at 30 km/h east. After 2 hours, distance between them:",
       "options": [
-        "100 N",
-        "150 N",
-        "250 N",
-        "500 N"
+        "100 km",
+        "50 km",
+        "100 km",
+        "70 km"
       ],
-      "explanation": "F = m(v-u)/t = 0.05(0-100)/0.02 = 0.05(-100)/0.02 = -250 N. Magnitude = 250 N."
+      "explanation": "A: 80 km north, B: 60 km east. Distance = √(80²+60²) = √(6400+3600) = √10000 = 100 km."
     },
     "hi": {
-      "question": "50 g की गोली 100 m/s से दीवार में घुसकर 0.02 s में रुकती है। दीवार पर बल?",
+      "question": "समान बिंदु से दो कारें: A 40 km/h उत्तर, B 30 km/h पूर्व। 2 घंटे बाद उनके बीच दूरी:",
       "options": [
-        "100 N",
-        "150 N",
-        "250 N",
-        "500 N"
+        "100 km",
+        "50 km",
+        "100 km",
+        "70 km"
       ],
-      "explanation": "F = m(v-u)/t = 0.05(0-100)/0.02 = 0.05(-100)/0.02 = -250 N। परिमाण = 250 N।"
+      "explanation": "A: 80 km उत्तर, B: 60 km पूर्व। दूरी = √(80²+60²) = √(6400+3600) = √10000 = 100 km।"
     }
   },
   {
     "id": "gdspm-0149",
-    "correctOption": "D",
+    "correctOption": "A",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "If no external force acts on a system, the total momentum:",
+      "question": "What is the minimum number of unequal forces whose vector sum can be zero?",
       "options": [
-        "Increases",
-        "Decreases",
-        "Becomes zero",
-        "Remains constant"
+        "3",
+        "2",
+        "4",
+        "5"
       ],
-      "explanation": "According to the law of conservation of momentum, total momentum of an isolated system remains constant."
+      "explanation": "Minimum 3 unequal coplanar forces can sum to zero (closed triangle)."
     },
     "hi": {
-      "question": "यदि किसी निकाय पर कोई बाहरी बल न लगे, तो कुल संवेग:",
+      "question": "असमान बलों की न्यूनतम संख्या कितनी है जिनका सदिश योग शून्य हो सके?",
       "options": [
-        "बढ़ता है",
-        "घटता है",
-        "शून्य हो जाता है",
-        "स्थिर रहता है"
+        "3",
+        "2",
+        "4",
+        "5"
       ],
-      "explanation": "संवेग संरक्षण के नियम के अनुसार, पृथक निकाय का कुल संवेग स्थिर रहता है।"
+      "explanation": "न्यूनतम 3 असमान समतलीय बलों का योग शून्य हो सकता है (बंद त्रिभुज)।"
     }
   },
   {
     "id": "gdspm-0150",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "A rocket works on the principle of:",
+      "question": "A body is projected upward with velocity 40 m/s. Distance traveled in the 6th second is: (g=10)",
       "options": [
-        "Newton's first law",
-        "Conservation of momentum",
-        "Conservation of energy",
-        "Archimedes principle"
+        "10 m",
+        "0 m",
+        "5 m",
+        "15 m"
       ],
-      "explanation": "A rocket works on the principle of conservation of momentum. The exhaust gases go downward and the rocket moves upward."
+      "explanation": "Time of flight = 8s. At t=4s, max height. 6th second is during descent. s₆ = 40 - 5(11) = -15 → 15 m down."
     },
     "hi": {
-      "question": "रॉकेट किस सिद्धांत पर कार्य करता है?",
+      "question": "एक वस्तु 40 m/s वेग से ऊपर प्रक्षेपित की जाती है। 6वें सेकंड में तय दूरी है: (g=10)",
       "options": [
-        "न्यूटन का पहला नियम",
-        "संवेग संरक्षण",
-        "ऊर्जा संरक्षण",
-        "आर्किमिडीज़ का सिद्धांत"
+        "10 m",
+        "0 m",
+        "5 m",
+        "15 m"
       ],
-      "explanation": "रॉकेट संवेग संरक्षण के सिद्धांत पर कार्य करता है। निकास गैसें नीचे जाती हैं और रॉकेट ऊपर उठता है।"
+      "explanation": "उड़ान काल = 8s। t=4s पर अधिकतम ऊंचाई। 6वां सेकंड नीचे आते समय। s₆ = 40 - 5(11) = -15 → 15 m नीचे।"
     }
   },
   {
     "id": "gdspm-0151",
-    "correctOption": "A",
+    "correctOption": "B",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "What does NOT change when a force is applied?",
+      "question": "Displacement can be zero even when distance is not zero. This statement is:",
       "options": [
-        "Mass",
-        "Velocity",
-        "Momentum",
-        "Acceleration"
+        "False",
+        "True",
+        "Sometimes true",
+        "Never true"
       ],
-      "explanation": "Mass is an intrinsic property and does not change when a force is applied (at non-relativistic speeds). Velocity, momentum and acceleration can change."
+      "explanation": "If a body returns to starting point (e.g., a full circle), distance ≠ 0 but displacement = 0."
     },
     "hi": {
-      "question": "बल लगाने पर क्या नहीं बदलता?",
+      "question": "विस्थापन शून्य हो सकता है जबकि दूरी शून्य न हो। यह कथन:",
       "options": [
-        "द्रव्यमान",
-        "वेग",
-        "संवेग",
-        "त्वरण"
+        "असत्य",
+        "सत्य",
+        "कभी-कभी सत्य",
+        "कभी सत्य नहीं"
       ],
-      "explanation": "द्रव्यमान एक आंतरिक गुण है और बल लगाने पर नहीं बदलता (गैर-सापेक्ष वेगों पर)। वेग, संवेग और त्वरण बदल सकते हैं।"
+      "explanation": "यदि वस्तु प्रारंभ बिंदु पर लौट आए (जैसे पूर्ण वृत्त), दूरी ≠ 0 लेकिन विस्थापन = 0।"
     }
   },
   {
     "id": "gdspm-0152",
     "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "A coin placed on a card covering a glass falls into the glass when card is flicked. This demonstrates:",
+      "question": "A cyclist moving at 18 km/h speeds up to 36 km/h in 5 s. Acceleration is:",
       "options": [
-        "Gravity",
-        "Friction",
-        "Inertia of rest",
-        "Centripetal force"
+        "0.5 m/s²",
+        "2 m/s²",
+        "1 m/s²",
+        "3 m/s²"
       ],
-      "explanation": "The coin stays at rest due to inertia when the card is quickly removed, and falls into the glass."
+      "explanation": "u=5 m/s, v=10 m/s. a = (10-5)/5 = 1 m/s²."
     },
     "hi": {
-      "question": "गिलास पर रखे कार्ड पर सिक्का रखकर कार्ड झटकने पर सिक्का गिलास में गिरता है। यह प्रदर्शित करता है:",
+      "question": "18 km/h से चलता साइकिल सवार 5 s में 36 km/h तक तेज होता है। त्वरण है:",
       "options": [
-        "गुरुत्वाकर्षण",
-        "घर्षण",
-        "विराम जड़त्व",
-        "अभिकेंद्रीय बल"
+        "0.5 m/s²",
+        "2 m/s²",
+        "1 m/s²",
+        "3 m/s²"
       ],
-      "explanation": "कार्ड को तेजी से हटाने पर सिक्का जड़त्व के कारण स्थिर रहता है और गिलास में गिर जाता है।"
+      "explanation": "u=5 m/s, v=10 m/s। a = (10-5)/5 = 1 m/s²।"
     }
   },
   {
     "id": "gdspm-0153",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A force of 100 N produces an acceleration of 5 m/s^2 on mass m1 and 10 m/s^2 on m2 when applied separately. If both masses are tied together, acceleration?",
+      "question": "A car is moving on a circular track. Its motion is:",
       "options": [
-        "3 m/s^2",
-        "3.33 m/s^2",
-        "15 m/s^2",
-        "2 m/s^2"
+        "Accelerated",
+        "Uniform velocity",
+        "At rest",
+        "Constant velocity"
       ],
-      "explanation": "m1=100/5=20 kg; m2=100/10=10 kg. Total mass=30 kg. a=F/m=100/30=3.33 m/s^2."
+      "explanation": "Direction changes continuously in circular motion, so velocity changes — there is centripetal acceleration."
     },
     "hi": {
-      "question": "100 N का बल अलग-अलग m1 पर 5 m/s^2 और m2 पर 10 m/s^2 त्वरण देता है। दोनों को बांधने पर त्वरण?",
+      "question": "एक कार वृत्ताकार पथ पर चल रही है। इसकी गति है:",
       "options": [
-        "3 m/s^2",
-        "3.33 m/s^2",
-        "15 m/s^2",
-        "2 m/s^2"
+        "त्वरित",
+        "एकसमान वेग",
+        "विराम में",
+        "स्थिर वेग"
       ],
-      "explanation": "m1=100/5=20 kg; m2=100/10=10 kg। कुल द्रव्यमान=30 kg। a=F/m=100/30=3.33 m/s^2।"
+      "explanation": "वृत्तीय गति में दिशा लगातार बदलती है, इसलिए वेग बदलता है — अभिकेंद्रीय त्वरण होता है।"
     }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "id": "gdspm-0154",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "SI unit of speed?",
+      "question": "A ball thrown vertically returns to the ground after 10 s. The initial velocity is: (g=10)",
       "options": [
-        "km/hr",
-        "m/s",
-        "m/s²",
-        "cm/s"
+        "25 m/s",
+        "100 m/s",
+        "10 m/s",
+        "50 m/s"
       ],
-      "explanation": "Speed = distance/time. SI unit is meter/second."
+      "explanation": "Time up = 5 s. u = g × t_up = 10 × 5 = 50 m/s."
     },
     "hi": {
-      "question": "चाल का SI मात्रक?",
+      "question": "ऊपर फेंकी गेंद 10 s बाद जमीन पर लौटती है। प्रारंभिक वेग है: (g=10)",
       "options": [
-        "km/hr",
-        "m/s",
-        "m/s²",
-        "cm/s"
+        "25 m/s",
+        "100 m/s",
+        "10 m/s",
+        "50 m/s"
       ],
-      "explanation": "चाल = दूरी/समय। SI मात्रक मीटर/सेकंड।"
-    },
-    "id": "gdspm-0154"
+      "explanation": "ऊपर जाने का समय = 5 s। u = g × t_up = 10 × 5 = 50 m/s।"
+    }
   },
   {
+    "id": "gdspm-0155",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The final velocity of a freely falling body from height h is:",
+      "options": [
+        "v = gt",
+        "v = √(2gh)",
+        "v = gh",
+        "v = h/t"
+      ],
+      "explanation": "Using v² = u² + 2gh with u = 0: v² = 2gh → v = √(2gh)."
+    },
+    "hi": {
+      "question": "h ऊंचाई से स्वतंत्र रूप से गिरती वस्तु का अंतिम वेग है:",
+      "options": [
+        "v = gt",
+        "v = √(2gh)",
+        "v = gh",
+        "v = h/t"
+      ],
+      "explanation": "v² = u² + 2gh, u = 0 के साथ: v² = 2gh → v = √(2gh)।"
+    }
+  },
+  {
+    "id": "gdspm-0156",
     "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "A car accelerates 0→20 m/s in 5s. Acceleration?",
+      "question": "A body moves 10 m in first 3 s and 18 m in next 2 s with uniform acceleration. Initial velocity is:",
       "options": [
-        "5 m/s²",
-        "2 m/s²",
-        "4 m/s²",
-        "10 m/s²"
+        "4 m/s",
+        "2 m/s",
+        "1 m/s",
+        "3 m/s"
       ],
-      "explanation": "a=(v-u)/t=(20-0)/5=4 m/s²."
+      "explanation": "s₁=10=3u+½a×9, s₃₋₅=28=5u+½a×25. Solving: u=1 m/s, a=2 m/s²."
     },
     "hi": {
-      "question": "कार 5से में 0→20 मी/से। त्वरण?",
+      "question": "एक वस्तु एकसमान त्वरण से पहले 3 s में 10 m और अगले 2 s में 18 m चलती है। प्रारंभिक वेग है:",
       "options": [
-        "5 m/s²",
-        "2 m/s²",
-        "4 m/s²",
-        "10 m/s²"
+        "4 m/s",
+        "2 m/s",
+        "1 m/s",
+        "3 m/s"
       ],
-      "explanation": "a=(v-u)/t=20/5=4 मी/से²।"
-    },
-    "id": "gdspm-0155"
+      "explanation": "s₁=10=3u+½a×9, s₃₋₅=28=5u+½a×25। हल: u=1 m/s, a=2 m/s²।"
+    }
   },
   {
+    "id": "gdspm-0157",
     "correctOption": "A",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Distance covered by a body in unit time is?",
+      "question": "Motion of moon around Earth is:",
       "options": [
-        "Speed",
-        "Velocity",
-        "Displacement",
-        "Acceleration"
+        "Uniform circular motion",
+        "Linear motion",
+        "Random motion",
+        "Oscillatory motion"
       ],
-      "explanation": "Speed = distance/time. Scalar quantity."
+      "explanation": "The moon revolves around Earth in a nearly circular orbit at nearly constant speed — uniform circular motion."
     },
     "hi": {
-      "question": "इकाई समय में तय दूरी कहलाती है?",
+      "question": "पृथ्वी के चारों ओर चंद्रमा की गति है:",
       "options": [
-        "Speed",
-        "Velocity",
-        "Displacement",
-        "Acceleration"
+        "एकसमान वृत्तीय गति",
+        "रेखीय गति",
+        "यादृच्छिक गति",
+        "दोलन गति"
       ],
-      "explanation": "चाल = दूरी/समय। अदिश राशि।"
-    },
-    "id": "gdspm-0156"
+      "explanation": "चंद्रमा लगभग वृत्ताकार कक्षा में लगभग स्थिर चाल से पृथ्वी की परिक्रमा करता है — एकसमान वृत्तीय गति।"
+    }
   },
   {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "id": "gdspm-0158",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Negative acceleration is called?",
+      "question": "A bus increases its speed from 36 km/h to 72 km/h in 20 s. Distance covered is:",
       "options": [
-        "Retardation",
-        "Inertia",
-        "Momentum",
-        "Velocity"
+        "200 m",
+        "150 m",
+        "400 m",
+        "300 m"
       ],
-      "explanation": "When velocity decreases, acceleration is negative = retardation/deceleration."
+      "explanation": "u=10 m/s, v=20 m/s, a=0.5 m/s². s = (v²-u²)/(2a) = (400-100)/1 = 300 m."
     },
     "hi": {
-      "question": "ऋणात्मक त्वरण कहलाता है?",
+      "question": "एक बस 20 s में अपनी चाल 36 km/h से 72 km/h करती है। तय दूरी है:",
       "options": [
-        "Retardation",
-        "Inertia",
-        "Momentum",
-        "Velocity"
+        "200 m",
+        "150 m",
+        "400 m",
+        "300 m"
       ],
-      "explanation": "जब वेग घटता है, त्वरण ऋणात्मक = मंदन।"
-    },
-    "id": "gdspm-0157"
+      "explanation": "u=10 m/s, v=20 m/s, a=0.5 m/s²। s = (v²-u²)/(2a) = (400-100)/1 = 300 m।"
+    }
   },
   {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI unit of speed?",
-      "options": [
-        "m/s",
-        "cm/s",
-        "km/hr",
-        "m/s²"
-      ],
-      "explanation": "Speed = distance/time. SI unit is meter/second."
-    },
-    "hi": {
-      "question": "चाल का SI मात्रक?",
-      "options": [
-        "m/s",
-        "cm/s",
-        "km/hr",
-        "m/s²"
-      ],
-      "explanation": "चाल = दूरी/समय। SI मात्रक मीटर/सेकंड।"
-    },
-    "id": "gdspm-0158"
-  },
-  {
+    "id": "gdspm-0159",
     "correctOption": "B",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "A car accelerates 0→20 m/s in 5s. Acceleration?",
+      "question": "What is the distance-time graph for a stationary object?",
       "options": [
-        "10 m/s²",
-        "4 m/s²",
+        "Inclined straight line",
+        "Horizontal straight line",
+        "Parabola",
+        "Vertical line"
+      ],
+      "explanation": "For a stationary object, distance remains constant over time — a horizontal straight line parallel to time axis."
+    },
+    "hi": {
+      "question": "स्थिर वस्तु के लिए दूरी-समय ग्राफ कैसा होता है?",
+      "options": [
+        "झुकी सीधी रेखा",
+        "क्षैतिज सीधी रेखा",
+        "परवलय",
+        "ऊर्ध्वाधर रेखा"
+      ],
+      "explanation": "स्थिर वस्तु के लिए समय के साथ दूरी स्थिर रहती है — समय अक्ष के समांतर क्षैतिज सीधी रेखा।"
+    }
+  },
+  {
+    "id": "gdspm-0160",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "From the top of a tower 100 m high, a stone is dropped. Simultaneously another is thrown up at 25 m/s. When do they meet? (g=10)",
+      "options": [
+        "2 s",
+        "3 s",
+        "4 s",
+        "5 s"
+      ],
+      "explanation": "Stone 1: h₁=100-½gt². Stone 2: h₂=25t-½gt². Meeting: 100-5t²=25t-5t² → t=4s."
+    },
+    "hi": {
+      "question": "100 m ऊंचे टॉवर से एक पत्थर गिराया जाता है। साथ ही दूसरा 25 m/s से ऊपर फेंका जाता है। वे कब मिलेंगे? (g=10)",
+      "options": [
+        "2 s",
+        "3 s",
+        "4 s",
+        "5 s"
+      ],
+      "explanation": "पत्थर 1: h₁=100-½gt²। पत्थर 2: h₂=25t-½gt²। मिलन: 100-5t²=25t-5t² → t=4s।"
+    }
+  },
+  {
+    "id": "gdspm-0161",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which equation is known as the position-velocity relation?",
+      "options": [
+        "v² = u² + 2as",
+        "v = u + at",
+        "s = ut + ½at²",
+        "F = ma"
+      ],
+      "explanation": "v² = u² + 2as relates velocity and position (displacement), known as position-velocity relation."
+    },
+    "hi": {
+      "question": "कौन सा समीकरण स्थिति-वेग संबंध कहलाता है?",
+      "options": [
+        "v² = u² + 2as",
+        "v = u + at",
+        "s = ut + ½at²",
+        "F = ma"
+      ],
+      "explanation": "v² = u² + 2as वेग और स्थिति (विस्थापन) से संबंधित है, स्थिति-वेग संबंध कहलाता है।"
+    }
+  },
+  {
+    "id": "gdspm-0162",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A train moving at 90 km/h is brought to rest in 1 minute. Retardation is:",
+      "options": [
+        "0.25 m/s²",
+        "0.5 m/s²",
+        "0.75 m/s²",
+        "0.42 m/s²"
+      ],
+      "explanation": "90 km/h = 25 m/s. a = (0-25)/60 = -0.417 ≈ -0.42 m/s²."
+    },
+    "hi": {
+      "question": "90 km/h से चलती रेलगाड़ी 1 मिनट में रुकती है। मंदन है:",
+      "options": [
+        "0.25 m/s²",
+        "0.5 m/s²",
+        "0.75 m/s²",
+        "0.42 m/s²"
+      ],
+      "explanation": "90 km/h = 25 m/s। a = (0-25)/60 = -0.417 ≈ -0.42 m/s²।"
+    }
+  },
+  {
+    "id": "gdspm-0163",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The speed of a freely falling body after 10 seconds is: (g = 9.8 m/s²)",
+      "options": [
+        "49 m/s",
+        "98 m/s",
+        "9.8 m/s",
+        "196 m/s"
+      ],
+      "explanation": "v = u + gt = 0 + 9.8 × 10 = 98 m/s."
+    },
+    "hi": {
+      "question": "10 सेकंड बाद स्वतंत्र रूप से गिरती वस्तु की चाल है: (g = 9.8 m/s²)",
+      "options": [
+        "49 m/s",
+        "98 m/s",
+        "9.8 m/s",
+        "196 m/s"
+      ],
+      "explanation": "v = u + gt = 0 + 9.8 × 10 = 98 m/s।"
+    }
+  },
+  {
+    "id": "gdspm-0164",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A body covers 12 m in 2nd second and 20 m in 4th second. Acceleration is:",
+      "options": [
         "2 m/s²",
+        "3 m/s²",
+        "4 m/s²",
         "5 m/s²"
       ],
-      "explanation": "a=(v-u)/t=(20-0)/5=4 m/s²."
+      "explanation": "s₂ = u + a(3)/2 = 12, s₄ = u + a(7)/2 = 20. Subtracting: 2a = 8 → a = 4 m/s²."
     },
     "hi": {
-      "question": "कार 5से में 0→20 मी/से। त्वरण?",
+      "question": "एक वस्तु दूसरे सेकंड में 12 m और चौथे सेकंड में 20 m तय करती है। त्वरण है:",
       "options": [
-        "10 m/s²",
-        "4 m/s²",
         "2 m/s²",
+        "3 m/s²",
+        "4 m/s²",
         "5 m/s²"
       ],
-      "explanation": "a=(v-u)/t=20/5=4 मी/से²।"
-    },
-    "id": "gdspm-0159"
+      "explanation": "s₂ = u + a(3)/2 = 12, s₄ = u + a(7)/2 = 20। घटाने पर: 2a = 8 → a = 4 m/s²।"
+    }
   },
   {
+    "id": "gdspm-0165",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "When a body moves along a circular path, its direction changes at:",
+      "options": [
+        "Every point",
+        "Starting point",
+        "Ending point",
+        "Never changes"
+      ],
+      "explanation": "In circular motion, direction changes continuously at every point along the path."
+    },
+    "hi": {
+      "question": "जब कोई वस्तु वृत्ताकार पथ पर चलती है, इसकी दिशा बदलती है:",
+      "options": [
+        "हर बिंदु पर",
+        "प्रारंभ बिंदु पर",
+        "अंत बिंदु पर",
+        "कभी नहीं बदलती"
+      ],
+      "explanation": "वृत्तीय गति में पथ के हर बिंदु पर दिशा लगातार बदलती रहती है।"
+    }
+  },
+  {
+    "id": "gdspm-0166",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A car starts from rest. It covers 30 m in 3 s. Acceleration is:",
+      "options": [
+        "3.33 m/s²",
+        "5 m/s²",
+        "10 m/s²",
+        "6.67 m/s²"
+      ],
+      "explanation": "s = ut + ½at² → 30 = 0 + ½ × a × 9 → a = 60/9 = 6.67 m/s²."
+    },
+    "hi": {
+      "question": "एक कार विराम से शुरू होती है। यह 3 s में 30 m तय करती है। त्वरण है:",
+      "options": [
+        "3.33 m/s²",
+        "5 m/s²",
+        "10 m/s²",
+        "6.67 m/s²"
+      ],
+      "explanation": "s = ut + ½at² → 30 = 0 + ½ × a × 9 → a = 60/9 = 6.67 m/s²।"
+    }
+  },
+  {
+    "id": "gdspm-0167",
     "correctOption": "B",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Distance covered by a body in unit time is?",
+      "question": "Which of the following does NOT have direction?",
       "options": [
         "Velocity",
         "Speed",
+        "Acceleration",
+        "Displacement"
+      ],
+      "explanation": "Speed is a scalar quantity — it has only magnitude, no direction."
+    },
+    "hi": {
+      "question": "निम्नलिखित में से किसमें दिशा नहीं होती?",
+      "options": [
+        "वेग",
+        "चाल",
+        "त्वरण",
+        "विस्थापन"
+      ],
+      "explanation": "चाल एक अदिश राशि है — इसमें केवल परिमाण होता है, दिशा नहीं।"
+    }
+  },
+  {
+    "id": "gdspm-0168",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A body is thrown upward with velocity 30 m/s. Distance traveled in last second of ascent is: (g=10)",
+      "options": [
+        "10 m",
+        "15 m",
+        "5 m",
+        "20 m"
+      ],
+      "explanation": "Time to max = 3s. Last sec is 3rd sec: distance = u - g(2n-1)/2 = 30-5(5) = 5 m."
+    },
+    "hi": {
+      "question": "एक वस्तु 30 m/s से ऊपर फेंकी जाती है। ऊपर जाते समय अंतिम सेकंड में दूरी: (g=10)",
+      "options": [
+        "10 m",
+        "15 m",
+        "5 m",
+        "20 m"
+      ],
+      "explanation": "अधिकतम तक समय = 3s। अंतिम सेकंड तीसरा: दूरी = u - g(2n-1)/2 = 30-5(5) = 5 m।"
+    }
+  },
+  {
+    "id": "gdspm-0169",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The motion of a top spinning about its axis is:",
+      "options": [
+        "Rotatory motion",
+        "Translatory motion",
+        "Oscillatory motion",
+        "Linear motion"
+      ],
+      "explanation": "A top spins about its own axis — this is rotatory (rotational) motion."
+    },
+    "hi": {
+      "question": "अपनी धुरी पर घूमते लट्टू की गति है:",
+      "options": [
+        "घूर्णन गति",
+        "स्थानांतरीय गति",
+        "दोलन गति",
+        "रेखीय गति"
+      ],
+      "explanation": "लट्टू अपनी धुरी पर घूमता है — यह घूर्णन गति है।"
+    }
+  },
+  {
+    "id": "gdspm-0170",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A stone falls from a balloon at height 300 m. The balloon rises at 10 m/s. Time to hit ground: (g=10)",
+      "options": [
+        "6 s",
+        "7.5 s",
+        "8 s",
+        "8.84 s"
+      ],
+      "explanation": "Initial velocity = -10 m/s (upward). 300 = -10t + ½×10×t² → 5t² - 10t - 300 = 0 → t = 8.84 s."
+    },
+    "hi": {
+      "question": "300 m ऊंचाई पर गुब्बारे से पत्थर गिरता है। गुब्बारा 10 m/s से ऊपर जा रहा है। जमीन तक समय: (g=10)",
+      "options": [
+        "6 s",
+        "7.5 s",
+        "8 s",
+        "8.84 s"
+      ],
+      "explanation": "प्रारंभिक वेग = -10 m/s (ऊपर)। 300 = -10t + ½×10×t² → 5t² - 10t - 300 = 0 → t = 8.84 s।"
+    }
+  },
+  {
+    "id": "gdspm-0171",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "In the equation v = u + at, 'a' represents:",
+      "options": [
+        "Amplitude",
+        "Acceleration",
+        "Area",
+        "Atomic mass"
+      ],
+      "explanation": "In v = u + at, 'a' is uniform acceleration. This is the first equation of motion."
+    },
+    "hi": {
+      "question": "समीकरण v = u + at में, 'a' दर्शाता है:",
+      "options": [
+        "आयाम",
+        "त्वरण",
+        "क्षेत्रफल",
+        "परमाणु द्रव्यमान"
+      ],
+      "explanation": "v = u + at में, 'a' एकसमान त्वरण है। यह गति का पहला समीकरण है।"
+    }
+  },
+  {
+    "id": "gdspm-0172",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A body starts from rest with acceleration a. The ratio of distances in 1st, 2nd, 3rd seconds is:",
+      "options": [
+        "1:2:3",
+        "1:4:9",
+        "1:3:5",
+        "1:1:1"
+      ],
+      "explanation": "For uniform acceleration from rest: s₁:s₂:s₃ = 1:3:5 (Galileo's law of odd numbers)."
+    },
+    "hi": {
+      "question": "एक वस्तु विराम से त्वरण a से शुरू होती है। पहले, दूसरे, तीसरे सेकंड में दूरियों का अनुपात:",
+      "options": [
+        "1:2:3",
+        "1:4:9",
+        "1:3:5",
+        "1:1:1"
+      ],
+      "explanation": "विराम से एकसमान त्वरण के लिए: s₁:s₂:s₃ = 1:3:5 (गैलीलियो का विषम संख्या नियम)।"
+    }
+  },
+  {
+    "id": "gdspm-0173",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The rate of change of displacement is called:",
+      "options": [
+        "Velocity",
+        "Speed",
+        "Acceleration",
+        "Force"
+      ],
+      "explanation": "Velocity = rate of change of displacement (a vector quantity)."
+    },
+    "hi": {
+      "question": "विस्थापन परिवर्तन की दर को कहते हैं:",
+      "options": [
+        "वेग",
+        "चाल",
+        "त्वरण",
+        "बल"
+      ],
+      "explanation": "वेग = विस्थापन परिवर्तन की दर (एक सदिश राशि)।"
+    }
+  },
+  {
+    "id": "gdspm-0174",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A man walks 4 km east then 3 km north. His displacement is:",
+      "options": [
+        "7 km",
+        "1 km",
+        "12 km",
+        "5 km"
+      ],
+      "explanation": "Displacement = √(4²+3²) = √25 = 5 km (using Pythagoras theorem)."
+    },
+    "hi": {
+      "question": "एक आदमी 4 km पूर्व फिर 3 km उत्तर चलता है। उसका विस्थापन है:",
+      "options": [
+        "7 km",
+        "1 km",
+        "12 km",
+        "5 km"
+      ],
+      "explanation": "विस्थापन = √(4²+3²) = √25 = 5 km (पाइथागोरस प्रमेय द्वारा)।"
+    }
+  },
+  {
+    "id": "gdspm-0175",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The acceleration of a body moving with uniform velocity is:",
+      "options": [
+        "Constant",
+        "Zero",
+        "Increasing",
+        "Decreasing"
+      ],
+      "explanation": "If velocity is uniform (constant), there is no change in velocity → acceleration = 0."
+    },
+    "hi": {
+      "question": "एकसमान वेग से चलती वस्तु का त्वरण है:",
+      "options": [
+        "स्थिर",
+        "शून्य",
+        "बढ़ता हुआ",
+        "घटता हुआ"
+      ],
+      "explanation": "यदि वेग एकसमान (स्थिर) है, वेग में कोई परिवर्तन नहीं → त्वरण = 0।"
+    }
+  },
+  {
+    "id": "gdspm-0176",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A particle moves with uniform acceleration. If its velocities at times t₁ and t₂ are v₁ and v₂, average velocity is:",
+      "options": [
+        "(v₁+v₂)/t₂",
+        "v₁+v₂",
+        "(v₁+v₂)/2",
+        "√(v₁v₂)"
+      ],
+      "explanation": "For uniform acceleration, average velocity = (initial velocity + final velocity)/2 = (v₁+v₂)/2."
+    },
+    "hi": {
+      "question": "एक कण एकसमान त्वरण से चलता है। यदि t₁ और t₂ समय पर वेग v₁ और v₂ हैं, औसत वेग है:",
+      "options": [
+        "(v₁+v₂)/t₂",
+        "v₁+v₂",
+        "(v₁+v₂)/2",
+        "√(v₁v₂)"
+      ],
+      "explanation": "एकसमान त्वरण के लिए, औसत वेग = (प्रारंभिक वेग + अंतिम वेग)/2 = (v₁+v₂)/2।"
+    }
+  },
+  {
+    "id": "gdspm-0177",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "18 km/h in m/s is:",
+      "options": [
+        "5 m/s",
+        "10 m/s",
+        "15 m/s",
+        "20 m/s"
+      ],
+      "explanation": "18 × 5/18 = 5 m/s."
+    },
+    "hi": {
+      "question": "18 km/h, m/s में है:",
+      "options": [
+        "5 m/s",
+        "10 m/s",
+        "15 m/s",
+        "20 m/s"
+      ],
+      "explanation": "18 × 5/18 = 5 m/s।"
+    }
+  },
+  {
+    "id": "gdspm-0178",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "In the equation s = ut + ½at², if a = 0, then s = :",
+      "options": [
+        "at",
+        "½ut",
+        "0",
+        "ut"
+      ],
+      "explanation": "If a = 0, then s = ut + 0 = ut (uniform velocity, no acceleration)."
+    },
+    "hi": {
+      "question": "समीकरण s = ut + ½at² में, यदि a = 0, तो s = :",
+      "options": [
+        "at",
+        "½ut",
+        "0",
+        "ut"
+      ],
+      "explanation": "यदि a = 0, तो s = ut + 0 = ut (एकसमान वेग, शून्य त्वरण)।"
+    }
+  },
+  {
+    "id": "gdspm-0179",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which of these has only magnitude and no direction?",
+      "options": [
+        "Velocity",
+        "Distance",
         "Displacement",
         "Acceleration"
       ],
-      "explanation": "Speed = distance/time. Scalar quantity."
+      "explanation": "Distance is a scalar quantity — it has only magnitude."
     },
     "hi": {
-      "question": "इकाई समय में तय दूरी कहलाती है?",
+      "question": "इनमें से किसमें केवल परिमाण है और दिशा नहीं?",
       "options": [
-        "Velocity",
-        "Speed",
-        "Displacement",
-        "Acceleration"
+        "वेग",
+        "दूरी",
+        "विस्थापन",
+        "त्वरण"
       ],
-      "explanation": "चाल = दूरी/समय। अदिश राशि।"
-    },
-    "id": "gdspm-0160"
+      "explanation": "दूरी एक अदिश राशि है — इसमें केवल परिमाण होता है।"
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Negative acceleration is called?",
-      "options": [
-        "Momentum",
-        "Retardation",
-        "Velocity",
-        "Inertia"
-      ],
-      "explanation": "When velocity decreases, acceleration is negative = retardation/deceleration."
-    },
-    "hi": {
-      "question": "ऋणात्मक त्वरण कहलाता है?",
-      "options": [
-        "Momentum",
-        "Retardation",
-        "Velocity",
-        "Inertia"
-      ],
-      "explanation": "जब वेग घटता है, त्वरण ऋणात्मक = मंदन।"
-    },
-    "id": "gdspm-0161"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI unit of speed?",
-      "options": [
-        "km/hr",
-        "m/s",
-        "cm/s",
-        "m/s²"
-      ],
-      "explanation": "Speed = distance/time. SI unit is meter/second."
-    },
-    "hi": {
-      "question": "चाल का SI मात्रक?",
-      "options": [
-        "km/hr",
-        "m/s",
-        "cm/s",
-        "m/s²"
-      ],
-      "explanation": "चाल = दूरी/समय। SI मात्रक मीटर/सेकंड।"
-    },
-    "id": "gdspm-0162"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A car accelerates 0→20 m/s in 5s. Acceleration?",
-      "options": [
-        "5 m/s²",
-        "2 m/s²",
-        "4 m/s²",
-        "10 m/s²"
-      ],
-      "explanation": "a=(v-u)/t=(20-0)/5=4 m/s²."
-    },
-    "hi": {
-      "question": "कार 5से में 0→20 मी/से। त्वरण?",
-      "options": [
-        "5 m/s²",
-        "2 m/s²",
-        "4 m/s²",
-        "10 m/s²"
-      ],
-      "explanation": "a=(v-u)/t=20/5=4 मी/से²।"
-    },
-    "id": "gdspm-0163"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Distance covered by a body in unit time is?",
-      "options": [
-        "Acceleration",
-        "Velocity",
-        "Displacement",
-        "Speed"
-      ],
-      "explanation": "Speed = distance/time. Scalar quantity."
-    },
-    "hi": {
-      "question": "इकाई समय में तय दूरी कहलाती है?",
-      "options": [
-        "Acceleration",
-        "Velocity",
-        "Displacement",
-        "Speed"
-      ],
-      "explanation": "चाल = दूरी/समय। अदिश राशि।"
-    },
-    "id": "gdspm-0164"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Negative acceleration is called?",
-      "options": [
-        "Velocity",
-        "Momentum",
-        "Retardation",
-        "Inertia"
-      ],
-      "explanation": "When velocity decreases, acceleration is negative = retardation/deceleration."
-    },
-    "hi": {
-      "question": "ऋणात्मक त्वरण कहलाता है?",
-      "options": [
-        "Velocity",
-        "Momentum",
-        "Retardation",
-        "Inertia"
-      ],
-      "explanation": "जब वेग घटता है, त्वरण ऋणात्मक = मंदन।"
-    },
-    "id": "gdspm-0165"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI unit of speed?",
-      "options": [
-        "m/s²",
-        "cm/s",
-        "m/s",
-        "km/hr"
-      ],
-      "explanation": "Speed = distance/time. SI unit is meter/second."
-    },
-    "hi": {
-      "question": "चाल का SI मात्रक?",
-      "options": [
-        "m/s²",
-        "cm/s",
-        "m/s",
-        "km/hr"
-      ],
-      "explanation": "चाल = दूरी/समय। SI मात्रक मीटर/सेकंड।"
-    },
-    "id": "gdspm-0166"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A car accelerates 0→20 m/s in 5s. Acceleration?",
-      "options": [
-        "5 m/s²",
-        "10 m/s²",
-        "2 m/s²",
-        "4 m/s²"
-      ],
-      "explanation": "a=(v-u)/t=(20-0)/5=4 m/s²."
-    },
-    "hi": {
-      "question": "कार 5से में 0→20 मी/से। त्वरण?",
-      "options": [
-        "5 m/s²",
-        "10 m/s²",
-        "2 m/s²",
-        "4 m/s²"
-      ],
-      "explanation": "a=(v-u)/t=20/5=4 मी/से²।"
-    },
-    "id": "gdspm-0167"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Distance covered by a body in unit time is?",
-      "options": [
-        "Acceleration",
-        "Speed",
-        "Velocity",
-        "Displacement"
-      ],
-      "explanation": "Speed = distance/time. Scalar quantity."
-    },
-    "hi": {
-      "question": "इकाई समय में तय दूरी कहलाती है?",
-      "options": [
-        "Acceleration",
-        "Speed",
-        "Velocity",
-        "Displacement"
-      ],
-      "explanation": "चाल = दूरी/समय। अदिश राशि।"
-    },
-    "id": "gdspm-0168"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Negative acceleration is called?",
-      "options": [
-        "Inertia",
-        "Momentum",
-        "Velocity",
-        "Retardation"
-      ],
-      "explanation": "When velocity decreases, acceleration is negative = retardation/deceleration."
-    },
-    "hi": {
-      "question": "ऋणात्मक त्वरण कहलाता है?",
-      "options": [
-        "Inertia",
-        "Momentum",
-        "Velocity",
-        "Retardation"
-      ],
-      "explanation": "जब वेग घटता है, त्वरण ऋणात्मक = मंदन।"
-    },
-    "id": "gdspm-0169"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI unit of speed?",
-      "options": [
-        "cm/s",
-        "km/hr",
-        "m/s²",
-        "m/s"
-      ],
-      "explanation": "Speed = distance/time. SI unit is meter/second."
-    },
-    "hi": {
-      "question": "चाल का SI मात्रक?",
-      "options": [
-        "cm/s",
-        "km/hr",
-        "m/s²",
-        "m/s"
-      ],
-      "explanation": "चाल = दूरी/समय। SI मात्रक मीटर/सेकंड।"
-    },
-    "id": "gdspm-0170"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A car accelerates 0→20 m/s in 5s. Acceleration?",
-      "options": [
-        "5 m/s²",
-        "10 m/s²",
-        "4 m/s²",
-        "2 m/s²"
-      ],
-      "explanation": "a=(v-u)/t=(20-0)/5=4 m/s²."
-    },
-    "hi": {
-      "question": "कार 5से में 0→20 मी/से। त्वरण?",
-      "options": [
-        "5 m/s²",
-        "10 m/s²",
-        "4 m/s²",
-        "2 m/s²"
-      ],
-      "explanation": "a=(v-u)/t=20/5=4 मी/से²।"
-    },
-    "id": "gdspm-0171"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Distance covered by a body in unit time is?",
-      "options": [
-        "Acceleration",
-        "Displacement",
-        "Velocity",
-        "Speed"
-      ],
-      "explanation": "Speed = distance/time. Scalar quantity."
-    },
-    "hi": {
-      "question": "इकाई समय में तय दूरी कहलाती है?",
-      "options": [
-        "Acceleration",
-        "Displacement",
-        "Velocity",
-        "Speed"
-      ],
-      "explanation": "चाल = दूरी/समय। अदिश राशि।"
-    },
-    "id": "gdspm-0172"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Negative acceleration is called?",
-      "options": [
-        "Momentum",
-        "Inertia",
-        "Velocity",
-        "Retardation"
-      ],
-      "explanation": "When velocity decreases, acceleration is negative = retardation/deceleration."
-    },
-    "hi": {
-      "question": "ऋणात्मक त्वरण कहलाता है?",
-      "options": [
-        "Momentum",
-        "Inertia",
-        "Velocity",
-        "Retardation"
-      ],
-      "explanation": "जब वेग घटता है, त्वरण ऋणात्मक = मंदन।"
-    },
-    "id": "gdspm-0173"
-  },
-  {
+    "id": "gdspm-0180",
     "correctOption": "C",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "If + means ×, - means +, × means ÷, then 24 + 2 - 10 = ?",
+      "question": "A body falling from rest covers 7/16 of total height in last second. Total time of fall is:",
       "options": [
-        "38",
-        "34",
-        "58",
-        "14"
+        "2 s",
+        "3 s",
+        "4 s",
+        "5 s"
       ],
-      "explanation": "After substitution: 24×2+10 = 58."
+      "explanation": "s_last = ½g(2n-1). Total = ½gn². Ratio = (2n-1)/n² = 7/16. Solving n=4."
     },
     "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 24 + 2 - 10 = ?",
+      "question": "विराम से गिरती वस्तु अंतिम सेकंड में कुल ऊंचाई का 7/16 तय करती है। गिरने का कुल समय है:",
       "options": [
-        "38",
-        "34",
-        "58",
-        "14"
+        "2 s",
+        "3 s",
+        "4 s",
+        "5 s"
       ],
-      "explanation": "प्रतिस्थापन के बाद: 24×2+10 = 58।"
-    },
-    "id": "gdspm-0174"
+      "explanation": "s_last = ½g(2n-1)। कुल = ½gn²। अनुपात = (2n-1)/n² = 7/16। हल करने पर n=4।"
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "A",
-        "Cannot determine",
-        "E",
-        "C"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "A",
-        "Cannot determine",
-        "E",
-        "C"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdspm-0175"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Complete series: 14, 21, 28, ?",
-      "options": [
-        "49",
-        "42",
-        "35",
-        "42"
-      ],
-      "explanation": "AP with d=7. Next = 35."
-    },
-    "hi": {
-      "question": "श्रृंखला पूरी करें: 14, 21, 28, ?",
-      "options": [
-        "49",
-        "42",
-        "35",
-        "42"
-      ],
-      "explanation": "समांतर श्रेणी, d=7। अगला = 35।"
-    },
-    "id": "gdspm-0176"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If + means ×, - means +, × means ÷, then 25 + 2 - 12 = ?",
-      "options": [
-        "62",
-        "38",
-        "13",
-        "37"
-      ],
-      "explanation": "After substitution: 25×2+12 = 62."
-    },
-    "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 25 + 2 - 12 = ?",
-      "options": [
-        "62",
-        "38",
-        "13",
-        "37"
-      ],
-      "explanation": "प्रतिस्थापन के बाद: 25×2+12 = 62।"
-    },
-    "id": "gdspm-0177"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "A",
-        "E",
-        "Cannot determine",
-        "C"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "A",
-        "E",
-        "Cannot determine",
-        "C"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdspm-0178"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "E",
-        "A",
-        "Cannot determine",
-        "C"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "E",
-        "A",
-        "Cannot determine",
-        "C"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdspm-0179"
-  },
-  {
+    "id": "gdspm-0181",
     "correctOption": "A",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Complete series: 15, 25, 35, ?",
+      "question": "What is the velocity-time graph for uniformly accelerated motion starting from rest?",
       "options": [
-        "45",
-        "55",
-        "65",
-        "45"
+        "Straight line through origin",
+        "Horizontal line",
+        "Parabola",
+        "Hyperbola"
       ],
-      "explanation": "AP with d=10. Next = 45."
+      "explanation": "For uniform acceleration from rest, v = at. This is a straight line passing through the origin."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 15, 25, 35, ?",
+      "question": "विराम से शुरू एकसमान त्वरित गति का वेग-समय ग्राफ कैसा होता है?",
       "options": [
-        "45",
-        "55",
-        "65",
-        "45"
+        "मूल बिंदु से गुजरती सीधी रेखा",
+        "क्षैतिज रेखा",
+        "परवलय",
+        "अतिपरवलय"
       ],
-      "explanation": "समांतर श्रेणी, d=10। अगला = 45।"
-    },
-    "id": "gdspm-0180"
+      "explanation": "विराम से एकसमान त्वरण के लिए, v = at। यह मूल बिंदु से गुजरने वाली सीधी रेखा है।"
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Complete series: 14, 17, 20, ?",
-      "options": [
-        "29",
-        "26",
-        "23",
-        "42"
-      ],
-      "explanation": "AP with d=3. Next = 23."
-    },
-    "hi": {
-      "question": "श्रृंखला पूरी करें: 14, 17, 20, ?",
-      "options": [
-        "29",
-        "26",
-        "23",
-        "42"
-      ],
-      "explanation": "समांतर श्रेणी, d=3। अगला = 23।"
-    },
-    "id": "gdspm-0181"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Complete series: 14, 18, 22, ?",
-      "options": [
-        "30",
-        "42",
-        "34",
-        "26"
-      ],
-      "explanation": "AP with d=4. Next = 26."
-    },
-    "hi": {
-      "question": "श्रृंखला पूरी करें: 14, 18, 22, ?",
-      "options": [
-        "30",
-        "42",
-        "34",
-        "26"
-      ],
-      "explanation": "समांतर श्रेणी, d=4। अगला = 26।"
-    },
-    "id": "gdspm-0182"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If + means ×, - means +, × means ÷, then 30 + 2 - 10 = ?",
-      "options": [
-        "40",
-        "50",
-        "20",
-        "70"
-      ],
-      "explanation": "After substitution: 30×2+10 = 70."
-    },
-    "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 30 + 2 - 10 = ?",
-      "options": [
-        "40",
-        "50",
-        "20",
-        "70"
-      ],
-      "explanation": "प्रतिस्थापन के बाद: 30×2+10 = 70।"
-    },
-    "id": "gdspm-0183"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If + means ×, - means +, × means ÷, then 19 + 2 - 8 = ?",
-      "options": [
-        "11",
-        "30",
-        "46",
-        "27"
-      ],
-      "explanation": "After substitution: 19×2+8 = 46."
-    },
-    "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 19 + 2 - 8 = ?",
-      "options": [
-        "11",
-        "30",
-        "46",
-        "27"
-      ],
-      "explanation": "प्रतिस्थापन के बाद: 19×2+8 = 46।"
-    },
-    "id": "gdspm-0184"
-  },
-  {
+    "id": "gdspm-0182",
     "correctOption": "D",
     "difficulty": "hard",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "Two trains 120 m and 80 m long run in opposite directions at 42 km/h and 30 km/h. Time to cross:",
       "options": [
-        "C",
-        "E",
-        "A",
-        "Cannot determine"
+        "8 s",
+        "12 s",
+        "15 s",
+        "10 s"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "Rel speed = 42+30 = 72 km/h = 20 m/s. Total length = 200 m. Time = 200/20 = 10 s."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "120 m और 80 m लंबी दो रेलगाड़ियां 42 km/h और 30 km/h से विपरीत दिशा में चलती हैं। पार करने का समय:",
       "options": [
-        "C",
-        "E",
-        "A",
-        "Cannot determine"
+        "8 s",
+        "12 s",
+        "15 s",
+        "10 s"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "आपेक्षिक चाल = 42+30 = 72 km/h = 20 m/s। कुल लंबाई = 200 m। समय = 200/20 = 10 s।"
+    }
+  },
+  {
+    "id": "gdspm-0183",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A train covers 60 km in 1 hour. Its speed in m/s is:",
+      "options": [
+        "10 m/s",
+        "16.67 m/s",
+        "20 m/s",
+        "25 m/s"
+      ],
+      "explanation": "Speed = 60 km/h = 60 × 5/18 = 16.67 m/s."
     },
-    "id": "gdspm-0185"
+    "hi": {
+      "question": "एक रेलगाड़ी 1 घंटे में 60 km चलती है। m/s में इसकी चाल है:",
+      "options": [
+        "10 m/s",
+        "16.67 m/s",
+        "20 m/s",
+        "25 m/s"
+      ],
+      "explanation": "चाल = 60 km/h = 60 × 5/18 = 16.67 m/s।"
+    }
+  },
+  {
+    "id": "gdspm-0184",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A body moving with uniform acceleration travels 20 m in 2nd second and 28 m in 4th second. Initial velocity:",
+      "options": [
+        "5 m/s",
+        "10 m/s",
+        "14 m/s",
+        "8 m/s"
+      ],
+      "explanation": "s₂=u+a(3)/2=20, s₄=u+a(7)/2=28. Subtract: 2a=8→a=4. Then u+6=20→u=14 m/s."
+    },
+    "hi": {
+      "question": "एकसमान त्वरण से चलती वस्तु दूसरे सेकंड में 20 m और चौथे सेकंड में 28 m चलती है। प्रारंभिक वेग:",
+      "options": [
+        "5 m/s",
+        "10 m/s",
+        "14 m/s",
+        "8 m/s"
+      ],
+      "explanation": "s₂=u+a(3)/2=20, s₄=u+a(7)/2=28। घटाएं: 2a=8→a=4। फिर u+6=20→u=14 m/s।"
+    }
+  },
+  {
+    "id": "gdspm-0185",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The SI unit of displacement is:",
+      "options": [
+        "Metre (m)",
+        "Kilometre (km)",
+        "Centimetre (cm)",
+        "Foot"
+      ],
+      "explanation": "Displacement is a length measurement, and its SI unit is the metre (m)."
+    },
+    "hi": {
+      "question": "विस्थापन की SI इकाई है:",
+      "options": [
+        "मीटर (m)",
+        "किलोमीटर (km)",
+        "सेंटीमीटर (cm)",
+        "फुट"
+      ],
+      "explanation": "विस्थापन एक लंबाई माप है, और इसकी SI इकाई मीटर (m) है।"
+    }
   }
 ]

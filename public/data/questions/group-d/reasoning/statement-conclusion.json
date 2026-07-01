@@ -468,32 +468,6 @@
     }
   },
   {
-    "id": "gdrsc-0019",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
     "id": "gdrsc-0020",
     "correctOption": "C",
     "difficulty": "medium",
@@ -515,84 +489,6 @@
         "Cannot say",
         "Yes, it follows",
         "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: True. Elected government implies elections."
-    }
-  },
-  {
-    "id": "gdrsc-0021",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is taller than Ram.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Contradicts premises."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is taller than Ram.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts premises."
-    }
-  },
-  {
-    "id": "gdrsc-0022",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "gdrsc-0023",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: Elections are held in India.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: True. Elected government implies elections."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: Elections are held in India.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
       ],
       "explanation": "निष्कर्ष: True. Elected government implies elections."
     }
@@ -624,292 +520,6 @@
     }
   },
   {
-    "id": "gdrsc-0025",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is taller than Ram.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Contradicts premises."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is taller than Ram.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts premises."
-    }
-  },
-  {
-    "id": "gdrsc-0026",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: All countries are democratic.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. Overgeneralization."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: All countries are democratic.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. Overgeneralization."
-    }
-  },
-  {
-    "id": "gdrsc-0027",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: All flying things are birds.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. All birds fly ≠ all fliers are birds."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: All flying things are birds.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. All birds fly ≠ all fliers are birds."
-    }
-  },
-  {
-    "id": "gdrsc-0028",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has a monarchy.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Democracies don't have monarchs."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has a monarchy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Democracies don't have monarchs."
-    }
-  },
-  {
-    "id": "gdrsc-0029",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: All countries are democratic.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. Overgeneralization."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: All countries are democratic.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. Overgeneralization."
-    }
-  },
-  {
-    "id": "gdrsc-0030",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is taller than Ram.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. Contradicts premises."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is taller than Ram.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts premises."
-    }
-  },
-  {
-    "id": "gdrsc-0031",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Ram is the tallest.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: True. Ram > Shyam > Hari, so Ram is tallest."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Ram is the tallest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: True. Ram > Shyam > Hari, so Ram is tallest."
-    }
-  },
-  {
-    "id": "gdrsc-0032",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Some students failed.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. Statement says all passed."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Some students failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says all passed."
-    }
-  },
-  {
-    "id": "gdrsc-0033",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "gdrsc-0034",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Some students failed.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Statement says all passed."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Some students failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says all passed."
-    }
-  },
-  {
-    "id": "gdrsc-0035",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
     "id": "gdrsc-0036",
     "correctOption": "C",
     "difficulty": "hard",
@@ -933,58 +543,6 @@
         "No, it does not follow"
       ],
       "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
-  },
-  {
-    "id": "gdrsc-0037",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot flies.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot flies.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    }
-  },
-  {
-    "id": "gdrsc-0038",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
     }
   },
   {
@@ -1040,2785 +598,1979 @@
     }
   },
   {
-    "id": "gdrsc-0041",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "gdrsc-0042",
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
-  },
-  {
-    "id": "gdrsc-0043",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has an elected government.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. India is democratic → has elected government."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has an elected government.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. India is democratic → has elected government."
-    }
-  },
-  {
-    "id": "gdrsc-0044",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Ram is the tallest.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: True. Ram > Shyam > Hari, so Ram is tallest."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Ram is the tallest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: True. Ram > Shyam > Hari, so Ram is tallest."
-    }
-  },
-  {
-    "id": "gdrsc-0045",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "gdrsc-0046",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "gdrsc-0047",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
-  },
-  {
-    "id": "gdrsc-0048",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Toppers got high marks.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: Probable. Passing doesn't guarantee high marks, but likely."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Toppers got high marks.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: Probable. Passing doesn't guarantee high marks, but likely."
-    }
-  },
-  {
-    "id": "gdrsc-0049",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: All flying things are birds.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. All birds fly ≠ all fliers are birds."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: All flying things are birds.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. All birds fly ≠ all fliers are birds."
-    }
-  },
-  {
-    "id": "gdrsc-0050",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: All flying things are birds.\nDoes the conclusion follow?",
+      "question": "What is 7 × 23?",
       "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
+        "30",
+        "161",
+        "146",
+        "162"
       ],
-      "explanation": "Conclusion: False. All birds fly ≠ all fliers are birds."
+      "explanation": "7×23 = 161."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: All flying things are birds.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "7 × 23 = ?",
       "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
+        "30",
+        "161",
+        "146",
+        "162"
       ],
-      "explanation": "निष्कर्ष: False. All birds fly ≠ all fliers are birds."
-    }
+      "explanation": "7×23 = 161।"
+    },
+    "id": "gdrsc-0041"
   },
   {
-    "id": "gdrsc-0051",
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Ram is the tallest.\nDoes the conclusion follow?",
+      "question": "What is 47 × 6?",
       "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
+        "273",
+        "295",
+        "53",
+        "282"
       ],
-      "explanation": "Conclusion: True. Ram > Shyam > Hari, so Ram is tallest."
+      "explanation": "47×6 = 282."
     },
     "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Ram is the tallest.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "47 × 6 = ?",
       "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
+        "273",
+        "295",
+        "53",
+        "282"
       ],
-      "explanation": "निष्कर्ष: True. Ram > Shyam > Hari, so Ram is tallest."
-    }
-  },
-  {
-    "id": "gdrsc-0052",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is the shortest.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: True. Hari < Shyam < Ram."
+      "explanation": "47×6 = 282।"
     },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is the shortest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: True. Hari < Shyam < Ram."
-    }
+    "id": "gdrsc-0042"
   },
   {
-    "id": "gdrsc-0053",
     "correctOption": "D",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Toppers got high marks.\nDoes the conclusion follow?",
+      "question": "What is 37 × 20?",
       "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
+        "733",
+        "746",
+        "57",
+        "740"
       ],
-      "explanation": "Conclusion: Probable. Passing doesn't guarantee high marks, but likely."
+      "explanation": "37×20 = 740."
     },
     "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Toppers got high marks.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "37 × 20 = ?",
       "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
+        "733",
+        "746",
+        "57",
+        "740"
       ],
-      "explanation": "निष्कर्ष: Probable. Passing doesn't guarantee high marks, but likely."
-    }
+      "explanation": "37×20 = 740।"
+    },
+    "id": "gdrsc-0043"
   },
   {
-    "id": "gdrsc-0054",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has a monarchy.\nDoes the conclusion follow?",
+      "question": "What is 8 × 39?",
       "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
+        "47",
+        "312",
+        "310",
+        "323"
       ],
-      "explanation": "Conclusion: False. Democracies don't have monarchs."
+      "explanation": "8×39 = 312."
     },
     "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has a monarchy.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "8 × 39 = ?",
       "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
+        "47",
+        "312",
+        "310",
+        "323"
       ],
-      "explanation": "निष्कर्ष: False. Democracies don't have monarchs."
-    }
+      "explanation": "8×39 = 312।"
+    },
+    "id": "gdrsc-0044"
   },
   {
-    "id": "gdrsc-0055",
-    "correctOption": "C",
-    "difficulty": "medium",
+    "correctOption": "A",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot cannot fly.\nDoes the conclusion follow?",
+      "question": "What is 15 × 27?",
       "options": [
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows"
+        "405",
+        "42",
+        "399",
+        "423"
       ],
-      "explanation": "Conclusion: False. Contradicts."
+      "explanation": "15×27 = 405."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot cannot fly.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "15 × 27 = ?",
       "options": [
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows"
+        "405",
+        "42",
+        "399",
+        "423"
       ],
-      "explanation": "निष्कर्ष: False. Contradicts."
-    }
+      "explanation": "15×27 = 405।"
+    },
+    "id": "gdrsc-0045"
   },
   {
-    "id": "gdrsc-0056",
-    "correctOption": "D",
-    "difficulty": "medium",
+    "correctOption": "A",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
+      "question": "What is 20 × 36?",
       "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
+        "720",
+        "56",
+        "732",
+        "718"
       ],
-      "explanation": "Conclusion: False. No data about average."
+      "explanation": "20×36 = 720."
     },
     "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "20 × 36 = ?",
       "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
+        "720",
+        "56",
+        "732",
+        "718"
       ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
+      "explanation": "20×36 = 720।"
+    },
+    "id": "gdrsc-0046"
   },
   {
-    "id": "gdrsc-0057",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
+      "question": "What is 30 × 19?",
       "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
+        "583",
+        "570",
+        "562",
+        "49"
       ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
+      "explanation": "30×19 = 570."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "30 × 19 = ?",
       "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
+        "583",
+        "570",
+        "562",
+        "49"
       ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
-    "id": "gdrsc-0058",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
+      "explanation": "30×19 = 570।"
     },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
+    "id": "gdrsc-0047"
   },
   {
-    "id": "gdrsc-0059",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has a monarchy.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Democracies don't have monarchs."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has a monarchy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Democracies don't have monarchs."
-    }
-  },
-  {
-    "id": "gdrsc-0060",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has a monarchy.\nDoes the conclusion follow?",
+      "question": "What is 45 × 37?",
       "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
+        "1652",
+        "1665",
+        "82",
+        "1670"
       ],
-      "explanation": "Conclusion: False. Democracies don't have monarchs."
+      "explanation": "45×37 = 1665."
     },
     "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has a monarchy.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "45 × 37 = ?",
       "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
+        "1652",
+        "1665",
+        "82",
+        "1670"
       ],
-      "explanation": "निष्कर्ष: False. Democracies don't have monarchs."
-    }
+      "explanation": "45×37 = 1665।"
+    },
+    "id": "gdrsc-0048"
   },
   {
-    "id": "gdrsc-0061",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
+      "question": "What is 24 × 15?",
       "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
+        "348",
+        "360",
+        "369",
+        "39"
       ],
-      "explanation": "Conclusion: False. No data about average."
+      "explanation": "24×15 = 360."
     },
     "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "24 × 15 = ?",
       "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
+        "348",
+        "360",
+        "369",
+        "39"
       ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
+      "explanation": "24×15 = 360।"
+    },
+    "id": "gdrsc-0049"
   },
   {
-    "id": "gdrsc-0062",
     "correctOption": "C",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
+      "question": "What is 44 × 37?",
       "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
+        "1639",
+        "81",
+        "1628",
+        "1622"
       ],
-      "explanation": "Conclusion: False. No data about average."
+      "explanation": "44×37 = 1628."
     },
     "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "44 × 37 = ?",
       "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
+        "1639",
+        "81",
+        "1628",
+        "1622"
       ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "gdrsc-0063",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot flies.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: True. Deductive: All birds fly, parrot is bird → parrot flies."
+      "explanation": "44×37 = 1628।"
     },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot flies.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    }
+    "id": "gdrsc-0050"
   },
   {
-    "id": "gdrsc-0064",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot cannot fly.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. Contradicts."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot cannot fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts."
-    }
-  },
-  {
-    "id": "gdrsc-0065",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot cannot fly.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. Contradicts."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot cannot fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts."
-    }
-  },
-  {
-    "id": "gdrsc-0066",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: All countries are democratic.\nDoes the conclusion follow?",
+      "question": "What is 34 × 37?",
       "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
+        "1243",
+        "1258",
+        "1273",
+        "71"
       ],
-      "explanation": "Conclusion: False. Overgeneralization."
+      "explanation": "34×37 = 1258."
     },
     "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: All countries are democratic.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "34 × 37 = ?",
       "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
+        "1243",
+        "1258",
+        "1273",
+        "71"
       ],
-      "explanation": "निष्कर्ष: False. Overgeneralization."
-    }
-  },
-  {
-    "id": "gdrsc-0067",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. No data about average."
+      "explanation": "34×37 = 1258।"
     },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
+    "id": "gdrsc-0051"
   },
   {
-    "id": "gdrsc-0068",
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Ram is the tallest.\nDoes the conclusion follow?",
+      "question": "What is 33 × 9?",
       "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
+        "297",
+        "288",
+        "310",
+        "42"
       ],
-      "explanation": "Conclusion: True. Ram > Shyam > Hari, so Ram is tallest."
+      "explanation": "33×9 = 297."
     },
     "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Ram is the tallest.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "33 × 9 = ?",
       "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
+        "297",
+        "288",
+        "310",
+        "42"
       ],
-      "explanation": "निष्कर्ष: True. Ram > Shyam > Hari, so Ram is tallest."
-    }
+      "explanation": "33×9 = 297।"
+    },
+    "id": "gdrsc-0052"
   },
   {
-    "id": "gdrsc-0069",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 40 × 13?",
+      "options": [
+        "520",
+        "537",
+        "53",
+        "511"
+      ],
+      "explanation": "40×13 = 520."
+    },
+    "hi": {
+      "question": "40 × 13 = ?",
+      "options": [
+        "520",
+        "537",
+        "53",
+        "511"
+      ],
+      "explanation": "40×13 = 520।"
+    },
+    "id": "gdrsc-0053"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 20 × 31?",
+      "options": [
+        "620",
+        "610",
+        "51",
+        "625"
+      ],
+      "explanation": "20×31 = 620."
+    },
+    "hi": {
+      "question": "20 × 31 = ?",
+      "options": [
+        "620",
+        "610",
+        "51",
+        "625"
+      ],
+      "explanation": "20×31 = 620।"
+    },
+    "id": "gdrsc-0054"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 40 × 22?",
+      "options": [
+        "876",
+        "62",
+        "883",
+        "880"
+      ],
+      "explanation": "40×22 = 880."
+    },
+    "hi": {
+      "question": "40 × 22 = ?",
+      "options": [
+        "876",
+        "62",
+        "883",
+        "880"
+      ],
+      "explanation": "40×22 = 880।"
+    },
+    "id": "gdrsc-0055"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 20 × 16?",
+      "options": [
+        "313",
+        "336",
+        "36",
+        "320"
+      ],
+      "explanation": "20×16 = 320."
+    },
+    "hi": {
+      "question": "20 × 16 = ?",
+      "options": [
+        "313",
+        "336",
+        "36",
+        "320"
+      ],
+      "explanation": "20×16 = 320।"
+    },
+    "id": "gdrsc-0056"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 7 × 39?",
+      "options": [
+        "46",
+        "285",
+        "271",
+        "273"
+      ],
+      "explanation": "7×39 = 273."
+    },
+    "hi": {
+      "question": "7 × 39 = ?",
+      "options": [
+        "46",
+        "285",
+        "271",
+        "273"
+      ],
+      "explanation": "7×39 = 273।"
+    },
+    "id": "gdrsc-0057"
+  },
+  {
     "correctOption": "C",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
+      "question": "What is 48 × 38?",
       "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
+        "1836",
+        "1817",
+        "1824",
+        "86"
       ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
+      "explanation": "48×38 = 1824."
     },
     "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "48 × 38 = ?",
       "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
+        "1836",
+        "1817",
+        "1824",
+        "86"
       ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
+      "explanation": "48×38 = 1824।"
+    },
+    "id": "gdrsc-0058"
   },
   {
-    "id": "gdrsc-0070",
-    "correctOption": "A",
-    "difficulty": "medium",
+    "correctOption": "C",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot flies.\nDoes the conclusion follow?",
+      "question": "What is 19 × 6?",
       "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
+        "127",
+        "107",
+        "114",
+        "25"
       ],
-      "explanation": "Conclusion: True. Deductive: All birds fly, parrot is bird → parrot flies."
+      "explanation": "19×6 = 114."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot flies.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "19 × 6 = ?",
       "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
+        "127",
+        "107",
+        "114",
+        "25"
       ],
-      "explanation": "निष्कर्ष: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    }
-  },
-  {
-    "id": "gdrsc-0071",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot cannot fly.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Contradicts."
+      "explanation": "19×6 = 114।"
     },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot cannot fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts."
-    }
+    "id": "gdrsc-0059"
   },
   {
-    "id": "gdrsc-0072",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: Elections are held in India.\nDoes the conclusion follow?",
+      "question": "What is 19 × 10?",
       "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
+        "175",
+        "190",
+        "198",
+        "29"
       ],
-      "explanation": "Conclusion: True. Elected government implies elections."
+      "explanation": "19×10 = 190."
     },
     "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: Elections are held in India.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "19 × 10 = ?",
       "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
+        "175",
+        "190",
+        "198",
+        "29"
       ],
-      "explanation": "निष्कर्ष: True. Elected government implies elections."
-    }
-  },
-  {
-    "id": "gdrsc-0073",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Ram is the tallest.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: True. Ram > Shyam > Hari, so Ram is tallest."
+      "explanation": "19×10 = 190।"
     },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Ram is the tallest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: True. Ram > Shyam > Hari, so Ram is tallest."
-    }
+    "id": "gdrsc-0060"
   },
   {
-    "id": "gdrsc-0074",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Toppers got high marks.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: Probable. Passing doesn't guarantee high marks, but likely."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Toppers got high marks.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: Probable. Passing doesn't guarantee high marks, but likely."
-    }
-  },
-  {
-    "id": "gdrsc-0075",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "gdrsc-0076",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is the shortest.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: True. Hari < Shyam < Ram."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is the shortest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: True. Hari < Shyam < Ram."
-    }
-  },
-  {
-    "id": "gdrsc-0077",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "gdrsc-0078",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Some students failed.\nDoes the conclusion follow?",
+      "question": "What is 39 × 32?",
       "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
+        "71",
+        "1248",
+        "1249",
+        "1233"
       ],
-      "explanation": "Conclusion: False. Statement says all passed."
+      "explanation": "39×32 = 1248."
     },
     "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Some students failed.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "39 × 32 = ?",
       "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
+        "71",
+        "1248",
+        "1249",
+        "1233"
       ],
-      "explanation": "निष्कर्ष: False. Statement says all passed."
-    }
+      "explanation": "39×32 = 1248।"
+    },
+    "id": "gdrsc-0061"
   },
   {
-    "id": "gdrsc-0079",
-    "correctOption": "D",
-    "difficulty": "medium",
+    "correctOption": "A",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
+      "question": "What is 45 × 10?",
       "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
+        "450",
+        "449",
+        "55",
+        "468"
       ],
-      "explanation": "Conclusion: True. All passed = no failure."
+      "explanation": "45×10 = 450."
     },
     "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "45 × 10 = ?",
       "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
+        "450",
+        "449",
+        "55",
+        "468"
       ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
+      "explanation": "45×10 = 450।"
+    },
+    "id": "gdrsc-0062"
   },
   {
-    "id": "gdrsc-0080",
-    "correctOption": "C",
-    "difficulty": "medium",
+    "correctOption": "A",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: All countries are democratic.\nDoes the conclusion follow?",
+      "question": "What is 50 × 18?",
       "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say"
+        "900",
+        "68",
+        "887",
+        "920"
       ],
-      "explanation": "Conclusion: False. Overgeneralization."
+      "explanation": "50×18 = 900."
     },
     "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: All countries are democratic.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "50 × 18 = ?",
       "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say"
+        "900",
+        "68",
+        "887",
+        "920"
       ],
-      "explanation": "निष्कर्ष: False. Overgeneralization."
-    }
-  },
-  {
-    "id": "gdrsc-0081",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is taller than Ram.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Contradicts premises."
+      "explanation": "50×18 = 900।"
     },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is taller than Ram.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts premises."
-    }
+    "id": "gdrsc-0063"
   },
   {
-    "id": "gdrsc-0082",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
+      "question": "What is 24 × 18?",
       "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say"
+        "440",
+        "432",
+        "424",
+        "42"
       ],
-      "explanation": "Conclusion: False. No data about average."
+      "explanation": "24×18 = 432."
     },
     "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "24 × 18 = ?",
       "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say"
+        "440",
+        "432",
+        "424",
+        "42"
       ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "gdrsc-0083",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: All flying things are birds.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. All birds fly ≠ all fliers are birds."
+      "explanation": "24×18 = 432।"
     },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: All flying things are birds.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. All birds fly ≠ all fliers are birds."
-    }
+    "id": "gdrsc-0064"
   },
   {
-    "id": "gdrsc-0084",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "gdrsc-0085",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot flies.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot flies.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    }
-  },
-  {
-    "id": "gdrsc-0086",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Ram is the tallest.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: True. Ram > Shyam > Hari, so Ram is tallest."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Ram is the tallest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: True. Ram > Shyam > Hari, so Ram is tallest."
-    }
-  },
-  {
-    "id": "gdrsc-0087",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
+      "question": "What is 5 × 14?",
       "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say"
+        "57",
+        "70",
+        "19",
+        "88"
       ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
+      "explanation": "5×14 = 70."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "5 × 14 = ?",
       "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say"
+        "57",
+        "70",
+        "19",
+        "88"
       ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
+      "explanation": "5×14 = 70।"
+    },
+    "id": "gdrsc-0065"
   },
   {
-    "id": "gdrsc-0088",
-    "correctOption": "A",
-    "difficulty": "medium",
+    "correctOption": "D",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot cannot fly.\nDoes the conclusion follow?",
+      "question": "What is 43 × 36?",
       "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
+        "79",
+        "1542",
+        "1554",
+        "1548"
       ],
-      "explanation": "Conclusion: False. Contradicts."
+      "explanation": "43×36 = 1548."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot cannot fly.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "43 × 36 = ?",
       "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
+        "79",
+        "1542",
+        "1554",
+        "1548"
       ],
-      "explanation": "निष्कर्ष: False. Contradicts."
-    }
-  },
-  {
-    "id": "gdrsc-0089",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: All countries are democratic.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. Overgeneralization."
+      "explanation": "43×36 = 1548।"
     },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: All countries are democratic.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. Overgeneralization."
-    }
+    "id": "gdrsc-0066"
   },
   {
-    "id": "gdrsc-0090",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
-  },
-  {
-    "id": "gdrsc-0091",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is taller than Ram.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. Contradicts premises."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is taller than Ram.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts premises."
-    }
-  },
-  {
-    "id": "gdrsc-0092",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "gdrsc-0093",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
+      "question": "What is 47 × 13?",
       "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows"
+        "608",
+        "611",
+        "60",
+        "612"
       ],
-      "explanation": "Conclusion: True. All passed = no failure."
+      "explanation": "47×13 = 611."
     },
     "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "47 × 13 = ?",
       "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows"
+        "608",
+        "611",
+        "60",
+        "612"
       ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
+      "explanation": "47×13 = 611।"
+    },
+    "id": "gdrsc-0067"
   },
   {
-    "id": "gdrsc-0094",
     "correctOption": "C",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: Elections are held in India.\nDoes the conclusion follow?",
+      "question": "What is 9 × 29?",
       "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say"
+        "38",
+        "280",
+        "261",
+        "249"
       ],
-      "explanation": "Conclusion: True. Elected government implies elections."
+      "explanation": "9×29 = 261."
     },
     "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: Elections are held in India.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "9 × 29 = ?",
       "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say"
+        "38",
+        "280",
+        "261",
+        "249"
       ],
-      "explanation": "निष्कर्ष: True. Elected government implies elections."
-    }
+      "explanation": "9×29 = 261।"
+    },
+    "id": "gdrsc-0068"
   },
   {
-    "id": "gdrsc-0095",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot cannot fly.\nDoes the conclusion follow?",
+      "question": "What is 45 × 29?",
       "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
+        "1298",
+        "1305",
+        "74",
+        "1314"
       ],
-      "explanation": "Conclusion: False. Contradicts."
+      "explanation": "45×29 = 1305."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot cannot fly.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "45 × 29 = ?",
       "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
+        "1298",
+        "1305",
+        "74",
+        "1314"
       ],
-      "explanation": "निष्कर्ष: False. Contradicts."
-    }
+      "explanation": "45×29 = 1305।"
+    },
+    "id": "gdrsc-0069"
   },
   {
-    "id": "gdrsc-0096",
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is the shortest.\nDoes the conclusion follow?",
+      "question": "What is 44 × 8?",
       "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
+        "367",
+        "340",
+        "52",
+        "352"
       ],
-      "explanation": "Conclusion: True. Hari < Shyam < Ram."
+      "explanation": "44×8 = 352."
     },
     "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is the shortest.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "44 × 8 = ?",
       "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
+        "367",
+        "340",
+        "52",
+        "352"
       ],
-      "explanation": "निष्कर्ष: True. Hari < Shyam < Ram."
-    }
-  },
-  {
-    "id": "gdrsc-0097",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is taller than Ram.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. Contradicts premises."
+      "explanation": "44×8 = 352।"
     },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is taller than Ram.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts premises."
-    }
+    "id": "gdrsc-0070"
   },
   {
-    "id": "gdrsc-0098",
     "correctOption": "D",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Toppers got high marks.\nDoes the conclusion follow?",
+      "question": "What is 16 × 12?",
       "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
+        "188",
+        "204",
+        "28",
+        "192"
       ],
-      "explanation": "Conclusion: Probable. Passing doesn't guarantee high marks, but likely."
+      "explanation": "16×12 = 192."
     },
     "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Toppers got high marks.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "16 × 12 = ?",
       "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
+        "188",
+        "204",
+        "28",
+        "192"
       ],
-      "explanation": "निष्कर्ष: Probable. Passing doesn't guarantee high marks, but likely."
-    }
+      "explanation": "16×12 = 192।"
+    },
+    "id": "gdrsc-0071"
   },
   {
-    "id": "gdrsc-0099",
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is the shortest.\nDoes the conclusion follow?",
+      "question": "What is 29 × 28?",
       "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
+        "812",
+        "57",
+        "824",
+        "810"
       ],
-      "explanation": "Conclusion: True. Hari < Shyam < Ram."
+      "explanation": "29×28 = 812."
     },
     "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is the shortest.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "29 × 28 = ?",
       "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
+        "812",
+        "57",
+        "824",
+        "810"
       ],
-      "explanation": "निष्कर्ष: True. Hari < Shyam < Ram."
-    }
+      "explanation": "29×28 = 812।"
+    },
+    "id": "gdrsc-0072"
   },
   {
-    "id": "gdrsc-0100",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Some students failed.\nDoes the conclusion follow?",
+      "question": "What is 7 × 30?",
       "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
+        "196",
+        "210",
+        "230",
+        "37"
       ],
-      "explanation": "Conclusion: False. Statement says all passed."
+      "explanation": "7×30 = 210."
     },
     "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Some students failed.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "7 × 30 = ?",
       "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
+        "196",
+        "210",
+        "230",
+        "37"
       ],
-      "explanation": "निष्कर्ष: False. Statement says all passed."
-    }
-  },
-  {
-    "id": "gdrsc-0101",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: All countries are democratic.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Overgeneralization."
+      "explanation": "7×30 = 210।"
     },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: All countries are democratic.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Overgeneralization."
-    }
+    "id": "gdrsc-0073"
   },
   {
-    "id": "gdrsc-0102",
     "correctOption": "C",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: Elections are held in India.\nDoes the conclusion follow?",
+      "question": "What is 37 × 26?",
       "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
+        "982",
+        "63",
+        "962",
+        "958"
       ],
-      "explanation": "Conclusion: True. Elected government implies elections."
+      "explanation": "37×26 = 962."
     },
     "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: Elections are held in India.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "37 × 26 = ?",
       "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
+        "982",
+        "63",
+        "962",
+        "958"
       ],
-      "explanation": "निष्कर्ष: True. Elected government implies elections."
-    }
+      "explanation": "37×26 = 962।"
+    },
+    "id": "gdrsc-0074"
   },
   {
-    "id": "gdrsc-0103",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 6 × 26?",
+      "options": [
+        "156",
+        "152",
+        "171",
+        "32"
+      ],
+      "explanation": "6×26 = 156."
+    },
+    "hi": {
+      "question": "6 × 26 = ?",
+      "options": [
+        "156",
+        "152",
+        "171",
+        "32"
+      ],
+      "explanation": "6×26 = 156।"
+    },
+    "id": "gdrsc-0075"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 33 × 24?",
+      "options": [
+        "788",
+        "57",
+        "800",
+        "792"
+      ],
+      "explanation": "33×24 = 792."
+    },
+    "hi": {
+      "question": "33 × 24 = ?",
+      "options": [
+        "788",
+        "57",
+        "800",
+        "792"
+      ],
+      "explanation": "33×24 = 792।"
+    },
+    "id": "gdrsc-0076"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 45 × 12?",
+      "options": [
+        "540",
+        "546",
+        "532",
+        "57"
+      ],
+      "explanation": "45×12 = 540."
+    },
+    "hi": {
+      "question": "45 × 12 = ?",
+      "options": [
+        "540",
+        "546",
+        "532",
+        "57"
+      ],
+      "explanation": "45×12 = 540।"
+    },
+    "id": "gdrsc-0077"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 49 × 32?",
+      "options": [
+        "1570",
+        "1568",
+        "1555",
+        "81"
+      ],
+      "explanation": "49×32 = 1568."
+    },
+    "hi": {
+      "question": "49 × 32 = ?",
+      "options": [
+        "1570",
+        "1568",
+        "1555",
+        "81"
+      ],
+      "explanation": "49×32 = 1568।"
+    },
+    "id": "gdrsc-0078"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 14 × 4?",
+      "options": [
+        "56",
+        "52",
+        "66",
+        "18"
+      ],
+      "explanation": "14×4 = 56."
+    },
+    "hi": {
+      "question": "14 × 4 = ?",
+      "options": [
+        "56",
+        "52",
+        "66",
+        "18"
+      ],
+      "explanation": "14×4 = 56।"
+    },
+    "id": "gdrsc-0079"
+  },
+  {
     "correctOption": "C",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is the shortest.\nDoes the conclusion follow?",
+      "question": "What is 23 × 4?",
       "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
+        "27",
+        "77",
+        "92",
+        "98"
       ],
-      "explanation": "Conclusion: True. Hari < Shyam < Ram."
+      "explanation": "23×4 = 92."
     },
     "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is the shortest.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "23 × 4 = ?",
       "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
+        "27",
+        "77",
+        "92",
+        "98"
       ],
-      "explanation": "निष्कर्ष: True. Hari < Shyam < Ram."
-    }
+      "explanation": "23×4 = 92।"
+    },
+    "id": "gdrsc-0080"
   },
   {
-    "id": "gdrsc-0104",
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot cannot fly.\nDoes the conclusion follow?",
+      "question": "What is 23 × 39?",
       "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
+        "897",
+        "62",
+        "909",
+        "893"
       ],
-      "explanation": "Conclusion: False. Contradicts."
+      "explanation": "23×39 = 897."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot cannot fly.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "23 × 39 = ?",
       "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
+        "897",
+        "62",
+        "909",
+        "893"
       ],
-      "explanation": "निष्कर्ष: False. Contradicts."
-    }
+      "explanation": "23×39 = 897।"
+    },
+    "id": "gdrsc-0081"
   },
   {
-    "id": "gdrsc-0105",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 42 × 11?",
+      "options": [
+        "53",
+        "467",
+        "454",
+        "462"
+      ],
+      "explanation": "42×11 = 462."
+    },
+    "hi": {
+      "question": "42 × 11 = ?",
+      "options": [
+        "53",
+        "467",
+        "454",
+        "462"
+      ],
+      "explanation": "42×11 = 462।"
+    },
+    "id": "gdrsc-0082"
+  },
+  {
     "correctOption": "A",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Toppers got high marks.\nDoes the conclusion follow?",
+      "question": "What is 30 × 40?",
       "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say"
+        "1200",
+        "1189",
+        "70",
+        "1201"
       ],
-      "explanation": "Conclusion: Probable. Passing doesn't guarantee high marks, but likely."
+      "explanation": "30×40 = 1200."
     },
     "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Toppers got high marks.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "30 × 40 = ?",
       "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say"
+        "1200",
+        "1189",
+        "70",
+        "1201"
       ],
-      "explanation": "निष्कर्ष: Probable. Passing doesn't guarantee high marks, but likely."
-    }
-  },
-  {
-    "id": "gdrsc-0106",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot cannot fly.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Contradicts."
+      "explanation": "30×40 = 1200।"
     },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot cannot fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts."
-    }
+    "id": "gdrsc-0083"
   },
   {
-    "id": "gdrsc-0107",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
-  },
-  {
-    "id": "gdrsc-0108",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "gdrsc-0109",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot flies.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot flies.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    }
-  },
-  {
-    "id": "gdrsc-0110",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is the shortest.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: True. Hari < Shyam < Ram."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is the shortest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: True. Hari < Shyam < Ram."
-    }
-  },
-  {
-    "id": "gdrsc-0111",
     "correctOption": "C",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is taller than Ram.\nDoes the conclusion follow?",
+      "question": "What is 50 × 37?",
       "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
+        "1836",
+        "1869",
+        "1850",
+        "87"
       ],
-      "explanation": "Conclusion: False. Contradicts premises."
+      "explanation": "50×37 = 1850."
     },
     "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is taller than Ram.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "50 × 37 = ?",
       "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
+        "1836",
+        "1869",
+        "1850",
+        "87"
       ],
-      "explanation": "निष्कर्ष: False. Contradicts premises."
-    }
-  },
-  {
-    "id": "gdrsc-0112",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: All countries are democratic.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Overgeneralization."
+      "explanation": "50×37 = 1850।"
     },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: All countries are democratic.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Overgeneralization."
-    }
+    "id": "gdrsc-0084"
   },
   {
-    "id": "gdrsc-0113",
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
+      "question": "What is 20 × 10?",
       "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
+        "186",
+        "209",
+        "30",
+        "200"
       ],
-      "explanation": "Conclusion: True. All passed = no failure."
+      "explanation": "20×10 = 200."
     },
     "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "20 × 10 = ?",
       "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
+        "186",
+        "209",
+        "30",
+        "200"
       ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
+      "explanation": "20×10 = 200।"
+    },
+    "id": "gdrsc-0085"
   },
   {
-    "id": "gdrsc-0114",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 48 × 23?",
+      "options": [
+        "1105",
+        "1100",
+        "71",
+        "1104"
+      ],
+      "explanation": "48×23 = 1104."
+    },
+    "hi": {
+      "question": "48 × 23 = ?",
+      "options": [
+        "1105",
+        "1100",
+        "71",
+        "1104"
+      ],
+      "explanation": "48×23 = 1104।"
+    },
+    "id": "gdrsc-0086"
+  },
+  {
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
+      "question": "What is 32 × 22?",
       "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
+        "689",
+        "704",
+        "705",
+        "54"
       ],
-      "explanation": "Conclusion: True. All passed = no failure."
+      "explanation": "32×22 = 704."
     },
     "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "32 × 22 = ?",
       "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
+        "689",
+        "704",
+        "705",
+        "54"
       ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
+      "explanation": "32×22 = 704।"
+    },
+    "id": "gdrsc-0087"
   },
   {
-    "id": "gdrsc-0115",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 41 × 17?",
+      "options": [
+        "58",
+        "703",
+        "683",
+        "697"
+      ],
+      "explanation": "41×17 = 697."
+    },
+    "hi": {
+      "question": "41 × 17 = ?",
+      "options": [
+        "58",
+        "703",
+        "683",
+        "697"
+      ],
+      "explanation": "41×17 = 697।"
+    },
+    "id": "gdrsc-0088"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 16 × 20?",
+      "options": [
+        "36",
+        "315",
+        "328",
+        "320"
+      ],
+      "explanation": "16×20 = 320."
+    },
+    "hi": {
+      "question": "16 × 20 = ?",
+      "options": [
+        "36",
+        "315",
+        "328",
+        "320"
+      ],
+      "explanation": "16×20 = 320।"
+    },
+    "id": "gdrsc-0089"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 35 × 13?",
+      "options": [
+        "48",
+        "475",
+        "455",
+        "445"
+      ],
+      "explanation": "35×13 = 455."
+    },
+    "hi": {
+      "question": "35 × 13 = ?",
+      "options": [
+        "48",
+        "475",
+        "455",
+        "445"
+      ],
+      "explanation": "35×13 = 455।"
+    },
+    "id": "gdrsc-0090"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 35 × 17?",
+      "options": [
+        "586",
+        "600",
+        "52",
+        "595"
+      ],
+      "explanation": "35×17 = 595."
+    },
+    "hi": {
+      "question": "35 × 17 = ?",
+      "options": [
+        "586",
+        "600",
+        "52",
+        "595"
+      ],
+      "explanation": "35×17 = 595।"
+    },
+    "id": "gdrsc-0091"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 9 × 9?",
+      "options": [
+        "18",
+        "90",
+        "78",
+        "81"
+      ],
+      "explanation": "9×9 = 81."
+    },
+    "hi": {
+      "question": "9 × 9 = ?",
+      "options": [
+        "18",
+        "90",
+        "78",
+        "81"
+      ],
+      "explanation": "9×9 = 81।"
+    },
+    "id": "gdrsc-0092"
+  },
+  {
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: All flying things are birds.\nDoes the conclusion follow?",
+      "question": "What is 11 × 18?",
       "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows"
+        "198",
+        "196",
+        "29",
+        "217"
       ],
-      "explanation": "Conclusion: False. All birds fly ≠ all fliers are birds."
+      "explanation": "11×18 = 198."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: All flying things are birds.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "11 × 18 = ?",
       "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows"
+        "198",
+        "196",
+        "29",
+        "217"
       ],
-      "explanation": "निष्कर्ष: False. All birds fly ≠ all fliers are birds."
-    }
+      "explanation": "11×18 = 198।"
+    },
+    "id": "gdrsc-0093"
   },
   {
-    "id": "gdrsc-0116",
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot flies.\nDoes the conclusion follow?",
+      "question": "What is 11 × 26?",
       "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
+        "286",
+        "298",
+        "37",
+        "282"
       ],
-      "explanation": "Conclusion: True. Deductive: All birds fly, parrot is bird → parrot flies."
+      "explanation": "11×26 = 286."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot flies.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "11 × 26 = ?",
       "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
+        "286",
+        "298",
+        "37",
+        "282"
       ],
-      "explanation": "निष्कर्ष: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    }
-  },
-  {
-    "id": "gdrsc-0117",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has an elected government.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. India is democratic → has elected government."
+      "explanation": "11×26 = 286।"
     },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has an elected government.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. India is democratic → has elected government."
-    }
+    "id": "gdrsc-0094"
   },
   {
-    "id": "gdrsc-0118",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "gdrsc-0119",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Some students failed.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Statement says all passed."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Some students failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says all passed."
-    }
-  },
-  {
-    "id": "gdrsc-0120",
     "correctOption": "C",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
+      "question": "What is 24 × 5?",
       "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
+        "137",
+        "29",
+        "120",
+        "108"
       ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
+      "explanation": "24×5 = 120."
     },
     "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "24 × 5 = ?",
       "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
+        "137",
+        "29",
+        "120",
+        "108"
       ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
-  },
-  {
-    "id": "gdrsc-0121",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is taller than Ram.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Contradicts premises."
+      "explanation": "24×5 = 120।"
     },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is taller than Ram.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts premises."
-    }
+    "id": "gdrsc-0095"
   },
   {
-    "id": "gdrsc-0122",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: Elections are held in India.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: True. Elected government implies elections."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: Elections are held in India.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: True. Elected government implies elections."
-    }
-  },
-  {
-    "id": "gdrsc-0123",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has an elected government.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: True. India is democratic → has elected government."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has an elected government.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: True. India is democratic → has elected government."
-    }
-  },
-  {
-    "id": "gdrsc-0124",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "gdrsc-0125",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot flies.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot flies.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    }
-  },
-  {
-    "id": "gdrsc-0126",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Toppers got high marks.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: Probable. Passing doesn't guarantee high marks, but likely."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Toppers got high marks.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: Probable. Passing doesn't guarantee high marks, but likely."
-    }
-  },
-  {
-    "id": "gdrsc-0127",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "gdrsc-0128",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
-    "id": "gdrsc-0129",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
-    "id": "gdrsc-0130",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "gdrsc-0131",
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot flies.\nDoes the conclusion follow?",
+      "question": "What is 34 × 26?",
       "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
+        "884",
+        "881",
+        "893",
+        "60"
       ],
-      "explanation": "Conclusion: True. Deductive: All birds fly, parrot is bird → parrot flies."
+      "explanation": "34×26 = 884."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot flies.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "34 × 26 = ?",
       "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
+        "884",
+        "881",
+        "893",
+        "60"
       ],
-      "explanation": "निष्कर्ष: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    }
+      "explanation": "34×26 = 884।"
+    },
+    "id": "gdrsc-0096"
   },
   {
-    "id": "gdrsc-0132",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 15 × 14?",
+      "options": [
+        "210",
+        "29",
+        "205",
+        "227"
+      ],
+      "explanation": "15×14 = 210."
+    },
+    "hi": {
+      "question": "15 × 14 = ?",
+      "options": [
+        "210",
+        "29",
+        "205",
+        "227"
+      ],
+      "explanation": "15×14 = 210।"
+    },
+    "id": "gdrsc-0097"
+  },
+  {
     "correctOption": "C",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has an elected government.\nDoes the conclusion follow?",
+      "question": "What is 13 × 26?",
       "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say"
+        "355",
+        "323",
+        "338",
+        "39"
       ],
-      "explanation": "Conclusion: True. India is democratic → has elected government."
+      "explanation": "13×26 = 338."
     },
     "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has an elected government.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "13 × 26 = ?",
       "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say"
+        "355",
+        "323",
+        "338",
+        "39"
       ],
-      "explanation": "निष्कर्ष: True. India is democratic → has elected government."
-    }
+      "explanation": "13×26 = 338।"
+    },
+    "id": "gdrsc-0098"
   },
   {
-    "id": "gdrsc-0133",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 10 × 28?",
+      "options": [
+        "280",
+        "38",
+        "273",
+        "286"
+      ],
+      "explanation": "10×28 = 280."
+    },
+    "hi": {
+      "question": "10 × 28 = ?",
+      "options": [
+        "280",
+        "38",
+        "273",
+        "286"
+      ],
+      "explanation": "10×28 = 280।"
+    },
+    "id": "gdrsc-0099"
+  },
+  {
     "correctOption": "C",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
+      "question": "What is 7 × 19?",
       "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
+        "121",
+        "26",
+        "133",
+        "141"
       ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
+      "explanation": "7×19 = 133."
     },
     "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "7 × 19 = ?",
       "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
+        "121",
+        "26",
+        "133",
+        "141"
       ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
+      "explanation": "7×19 = 133।"
+    },
+    "id": "gdrsc-0100"
   },
   {
-    "id": "gdrsc-0134",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: All flying things are birds.\nDoes the conclusion follow?",
+      "question": "What is 23 × 32?",
       "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
+        "748",
+        "736",
+        "55",
+        "728"
       ],
-      "explanation": "Conclusion: False. All birds fly ≠ all fliers are birds."
+      "explanation": "23×32 = 736."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: All flying things are birds.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "23 × 32 = ?",
       "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
+        "748",
+        "736",
+        "55",
+        "728"
       ],
-      "explanation": "निष्कर्ष: False. All birds fly ≠ all fliers are birds."
-    }
+      "explanation": "23×32 = 736।"
+    },
+    "id": "gdrsc-0101"
   },
   {
-    "id": "gdrsc-0135",
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
+      "question": "What is 42 × 16?",
       "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
+        "667",
+        "58",
+        "683",
+        "672"
       ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
+      "explanation": "42×16 = 672."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "42 × 16 = ?",
       "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
+        "667",
+        "58",
+        "683",
+        "672"
       ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
-    "id": "gdrsc-0136",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: All countries are democratic.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. Overgeneralization."
+      "explanation": "42×16 = 672।"
     },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: All countries are democratic.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. Overgeneralization."
-    }
+    "id": "gdrsc-0102"
   },
   {
-    "id": "gdrsc-0137",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: All countries are democratic.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Overgeneralization."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: All countries are democratic.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Overgeneralization."
-    }
-  },
-  {
-    "id": "gdrsc-0138",
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
+      "question": "What is 40 × 19?",
       "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
+        "748",
+        "774",
+        "59",
+        "760"
       ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
+      "explanation": "40×19 = 760."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "40 × 19 = ?",
       "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
+        "748",
+        "774",
+        "59",
+        "760"
       ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
-    "id": "gdrsc-0139",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: All flying things are birds.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. All birds fly ≠ all fliers are birds."
+      "explanation": "40×19 = 760।"
     },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: All flying things are birds.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. All birds fly ≠ all fliers are birds."
-    }
+    "id": "gdrsc-0103"
   },
   {
-    "id": "gdrsc-0140",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Some students failed.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Statement says all passed."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Some students failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says all passed."
-    }
-  },
-  {
-    "id": "gdrsc-0141",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "gdrsc-0142",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is taller than Ram.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Contradicts premises."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is taller than Ram.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts premises."
-    }
-  },
-  {
-    "id": "gdrsc-0143",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "gdrsc-0144",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: All flying things are birds.\nDoes the conclusion follow?",
+      "question": "What is 18 × 5?",
       "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
+        "77",
+        "90",
+        "93",
+        "23"
       ],
-      "explanation": "Conclusion: False. All birds fly ≠ all fliers are birds."
+      "explanation": "18×5 = 90."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: All flying things are birds.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "18 × 5 = ?",
       "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
+        "77",
+        "90",
+        "93",
+        "23"
       ],
-      "explanation": "निष्कर्ष: False. All birds fly ≠ all fliers are birds."
-    }
-  },
-  {
-    "id": "gdrsc-0145",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Ram is the tallest.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: True. Ram > Shyam > Hari, so Ram is tallest."
+      "explanation": "18×5 = 90।"
     },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Ram is the tallest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: True. Ram > Shyam > Hari, so Ram is tallest."
-    }
+    "id": "gdrsc-0104"
   },
   {
-    "id": "gdrsc-0146",
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
+      "question": "What is 8 × 24?",
       "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
+        "192",
+        "208",
+        "32",
+        "189"
       ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
+      "explanation": "8×24 = 192."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "8 × 24 = ?",
       "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
+        "192",
+        "208",
+        "32",
+        "189"
       ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
+      "explanation": "8×24 = 192।"
+    },
+    "id": "gdrsc-0105"
   },
   {
-    "id": "gdrsc-0147",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot flies.\nDoes the conclusion follow?",
+      "question": "What is 22 × 37?",
       "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
+        "833",
+        "814",
+        "59",
+        "810"
       ],
-      "explanation": "Conclusion: True. Deductive: All birds fly, parrot is bird → parrot flies."
+      "explanation": "22×37 = 814."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot flies.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "22 × 37 = ?",
       "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
+        "833",
+        "814",
+        "59",
+        "810"
       ],
-      "explanation": "निष्कर्ष: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    }
+      "explanation": "22×37 = 814।"
+    },
+    "id": "gdrsc-0106"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 46 × 26?",
+      "options": [
+        "1208",
+        "1196",
+        "72",
+        "1195"
+      ],
+      "explanation": "46×26 = 1196."
+    },
+    "hi": {
+      "question": "46 × 26 = ?",
+      "options": [
+        "1208",
+        "1196",
+        "72",
+        "1195"
+      ],
+      "explanation": "46×26 = 1196।"
+    },
+    "id": "gdrsc-0107"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 27 × 17?",
+      "options": [
+        "459",
+        "455",
+        "44",
+        "472"
+      ],
+      "explanation": "27×17 = 459."
+    },
+    "hi": {
+      "question": "27 × 17 = ?",
+      "options": [
+        "459",
+        "455",
+        "44",
+        "472"
+      ],
+      "explanation": "27×17 = 459।"
+    },
+    "id": "gdrsc-0108"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 11 × 19?",
+      "options": [
+        "209",
+        "30",
+        "217",
+        "201"
+      ],
+      "explanation": "11×19 = 209."
+    },
+    "hi": {
+      "question": "11 × 19 = ?",
+      "options": [
+        "209",
+        "30",
+        "217",
+        "201"
+      ],
+      "explanation": "11×19 = 209।"
+    },
+    "id": "gdrsc-0109"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 6 × 40?",
+      "options": [
+        "254",
+        "46",
+        "235",
+        "240"
+      ],
+      "explanation": "6×40 = 240."
+    },
+    "hi": {
+      "question": "6 × 40 = ?",
+      "options": [
+        "254",
+        "46",
+        "235",
+        "240"
+      ],
+      "explanation": "6×40 = 240।"
+    },
+    "id": "gdrsc-0110"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 11 × 14?",
+      "options": [
+        "154",
+        "167",
+        "25",
+        "143"
+      ],
+      "explanation": "11×14 = 154."
+    },
+    "hi": {
+      "question": "11 × 14 = ?",
+      "options": [
+        "154",
+        "167",
+        "25",
+        "143"
+      ],
+      "explanation": "11×14 = 154।"
+    },
+    "id": "gdrsc-0111"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 25 × 4?",
+      "options": [
+        "100",
+        "29",
+        "92",
+        "108"
+      ],
+      "explanation": "25×4 = 100."
+    },
+    "hi": {
+      "question": "25 × 4 = ?",
+      "options": [
+        "100",
+        "29",
+        "92",
+        "108"
+      ],
+      "explanation": "25×4 = 100।"
+    },
+    "id": "gdrsc-0112"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 16 × 31?",
+      "options": [
+        "482",
+        "47",
+        "497",
+        "496"
+      ],
+      "explanation": "16×31 = 496."
+    },
+    "hi": {
+      "question": "16 × 31 = ?",
+      "options": [
+        "482",
+        "47",
+        "497",
+        "496"
+      ],
+      "explanation": "16×31 = 496।"
+    },
+    "id": "gdrsc-0113"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 22 × 12?",
+      "options": [
+        "261",
+        "275",
+        "264",
+        "34"
+      ],
+      "explanation": "22×12 = 264."
+    },
+    "hi": {
+      "question": "22 × 12 = ?",
+      "options": [
+        "261",
+        "275",
+        "264",
+        "34"
+      ],
+      "explanation": "22×12 = 264।"
+    },
+    "id": "gdrsc-0114"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 18 × 36?",
+      "options": [
+        "648",
+        "54",
+        "652",
+        "639"
+      ],
+      "explanation": "18×36 = 648."
+    },
+    "hi": {
+      "question": "18 × 36 = ?",
+      "options": [
+        "648",
+        "54",
+        "652",
+        "639"
+      ],
+      "explanation": "18×36 = 648।"
+    },
+    "id": "gdrsc-0115"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 30 × 39?",
+      "options": [
+        "69",
+        "1158",
+        "1170",
+        "1186"
+      ],
+      "explanation": "30×39 = 1170."
+    },
+    "hi": {
+      "question": "30 × 39 = ?",
+      "options": [
+        "69",
+        "1158",
+        "1170",
+        "1186"
+      ],
+      "explanation": "30×39 = 1170।"
+    },
+    "id": "gdrsc-0116"
   }
 ]

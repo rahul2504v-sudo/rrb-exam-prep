@@ -520,32 +520,6 @@
     }
   },
   {
-    "id": "gdrvd-0021",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A − B.",
-      "options": [
-        "Red, Blue, Green",
-        "∅",
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green, Square"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A − B ज्ञात करें।",
-      "options": [
-        "Red, Blue, Green",
-        "∅",
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green, Square"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
-    }
-  },
-  {
     "id": "gdrvd-0022",
     "correctOption": "B",
     "difficulty": "medium",
@@ -650,58 +624,6 @@
     }
   },
   {
-    "id": "gdrvd-0026",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∪ B.",
-      "options": [
-        "∅",
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow, Eagle",
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∪ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow, Eagle",
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "gdrvd-0027",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∩ B.",
-      "options": [
-        "∅ (empty)",
-        "∅",
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow, Eagle"
-      ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∩ B ज्ञात करें।",
-      "options": [
-        "∅ (empty)",
-        "∅",
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow, Eagle"
-      ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
-    }
-  },
-  {
     "id": "gdrvd-0028",
     "correctOption": "C",
     "difficulty": "easy",
@@ -777,58 +699,6 @@
         "40"
       ],
       "explanation": "केवल B = 40"
-    }
-  },
-  {
-    "id": "gdrvd-0031",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∩ B.",
-      "options": [
-        "∅ (empty)",
-        "∅",
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow, Eagle"
-      ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∩ B ज्ञात करें।",
-      "options": [
-        "∅ (empty)",
-        "∅",
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow, Eagle"
-      ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "gdrvd-0032",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∪ B.",
-      "options": [
-        "∅",
-        "['Eagle', 'Snake', 'Fish']",
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)",
-        "Dog, Cat, Cow, Eagle"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∪ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "['Eagle', 'Snake', 'Fish']",
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)",
-        "Dog, Cat, Cow, Eagle"
-      ],
-      "explanation": "Union includes everything from both sets."
     }
   },
   {
@@ -910,32 +780,6 @@
     }
   },
   {
-    "id": "gdrvd-0036",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∪ B.",
-      "options": [
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)",
-        "∅",
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∪ B ज्ञात करें।",
-      "options": [
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)",
-        "∅",
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
     "id": "gdrvd-0037",
     "correctOption": "D",
     "difficulty": "medium",
@@ -959,32 +803,6 @@
         "Square, Circle, Triangle"
       ],
       "explanation": "B minus A removes A items; remaining are different categories."
-    }
-  },
-  {
-    "id": "gdrvd-0038",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A − B.",
-      "options": [
-        "Red, Blue, Green",
-        "∅",
-        "Red, Blue, Green, Square",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A − B ज्ञात करें।",
-      "options": [
-        "Red, Blue, Green",
-        "∅",
-        "Red, Blue, Green, Square",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
     }
   },
   {
@@ -1066,84 +884,6 @@
     }
   },
   {
-    "id": "gdrvd-0042",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∪ B.",
-      "options": [
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "['Guitar', 'Piano', 'Flute']",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∪ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "['Guitar', 'Piano', 'Flute']",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "gdrvd-0043",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find B − A.",
-      "options": [
-        "∅",
-        "['Square', 'Circle', 'Triangle']",
-        "Square, Circle, Triangle",
-        "Red, Blue, Green, Square"
-      ],
-      "explanation": "B minus A removes A items; remaining are different categories."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। B − A ज्ञात करें।",
-      "options": [
-        "∅",
-        "['Square', 'Circle', 'Triangle']",
-        "Square, Circle, Triangle",
-        "Red, Blue, Green, Square"
-      ],
-      "explanation": "B minus A removes A items; remaining are different categories."
-    }
-  },
-  {
-    "id": "gdrvd-0044",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∪ B.",
-      "options": [
-        "Dog, Cat, Cow, Eagle",
-        "∅",
-        "['Eagle', 'Snake', 'Fish']",
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∪ B ज्ञात करें।",
-      "options": [
-        "Dog, Cat, Cow, Eagle",
-        "∅",
-        "['Eagle', 'Snake', 'Fish']",
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
     "id": "gdrvd-0045",
     "correctOption": "A",
     "difficulty": "medium",
@@ -1196,84 +936,6 @@
     }
   },
   {
-    "id": "gdrvd-0047",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A ∩ B.",
-      "options": [
-        "∅ (empty)",
-        "Red, Blue, Green, Square",
-        "['Square', 'Circle', 'Triangle']",
-        "∅"
-      ],
-      "explanation": "Set A = Colors, Set B = रंगका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A ∩ B ज्ञात करें।",
-      "options": [
-        "∅ (empty)",
-        "Red, Blue, Green, Square",
-        "['Square', 'Circle', 'Triangle']",
-        "∅"
-      ],
-      "explanation": "Set A = Colors, Set B = रंगका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "gdrvd-0048",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A ∩ B.",
-      "options": [
-        "∅ (empty)",
-        "Red, Blue, Green, Square",
-        "∅",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "Set A = Colors, Set B = रंगका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A ∩ B ज्ञात करें।",
-      "options": [
-        "∅ (empty)",
-        "Red, Blue, Green, Square",
-        "∅",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "Set A = Colors, Set B = रंगका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "gdrvd-0049",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∩ B.",
-      "options": [
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "∅ (empty)",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∩ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "∅ (empty)",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    }
-  },
-  {
     "id": "gdrvd-0050",
     "correctOption": "D",
     "difficulty": "medium",
@@ -1300,58 +962,6 @@
     }
   },
   {
-    "id": "gdrvd-0051",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∩ B.",
-      "options": [
-        "∅ (empty)",
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∩ B ज्ञात करें।",
-      "options": [
-        "∅ (empty)",
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "gdrvd-0052",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A ∪ B.",
-      "options": [
-        "All items from both sets (Red, Blue, Green, Square, Circle, Triangle)",
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green, Square",
-        "∅"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A ∪ B ज्ञात करें।",
-      "options": [
-        "All items from both sets (Red, Blue, Green, Square, Circle, Triangle)",
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green, Square",
-        "∅"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
     "id": "gdrvd-0053",
     "correctOption": "D",
     "difficulty": "medium",
@@ -1375,58 +985,6 @@
         "37"
       ],
       "explanation": "समुच्चय सिद्धांत से: कम से कम दो समूहों में = 37"
-    }
-  },
-  {
-    "id": "gdrvd-0054",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∩ B.",
-      "options": [
-        "∅ (empty)",
-        "∅",
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']"
-      ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∩ B ज्ञात करें।",
-      "options": [
-        "∅ (empty)",
-        "∅",
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']"
-      ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "gdrvd-0055",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∪ B.",
-      "options": [
-        "∅",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "Cricket, Football, Hockey, Guitar",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∪ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "Cricket, Football, Hockey, Guitar",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Union includes everything from both sets."
     }
   },
   {
@@ -1508,58 +1066,6 @@
     }
   },
   {
-    "id": "gdrvd-0059",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∩ B.",
-      "options": [
-        "∅ (empty)",
-        "Cricket, Football, Hockey, Guitar",
-        "∅",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∩ B ज्ञात करें।",
-      "options": [
-        "∅ (empty)",
-        "Cricket, Football, Hockey, Guitar",
-        "∅",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "gdrvd-0060",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∪ B.",
-      "options": [
-        "∅",
-        "['Guitar', 'Piano', 'Flute']",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∪ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "['Guitar', 'Piano', 'Flute']",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
     "id": "gdrvd-0061",
     "correctOption": "A",
     "difficulty": "medium",
@@ -1609,58 +1115,6 @@
         "74"
       ],
       "explanation": "केवल B = 24"
-    }
-  },
-  {
-    "id": "gdrvd-0063",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A − B.",
-      "options": [
-        "Rose, Lily, Lotus, Mango",
-        "Rose, Lily, Lotus",
-        "∅",
-        "['Mango', 'Apple', 'Banana']"
-      ],
-      "explanation": "A minus B removes B items; only Flowers remain."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A − B ज्ञात करें।",
-      "options": [
-        "Rose, Lily, Lotus, Mango",
-        "Rose, Lily, Lotus",
-        "∅",
-        "['Mango', 'Apple', 'Banana']"
-      ],
-      "explanation": "A minus B removes B items; only Flowers remain."
-    }
-  },
-  {
-    "id": "gdrvd-0064",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find B − A.",
-      "options": [
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green, Square",
-        "Square, Circle, Triangle",
-        "∅"
-      ],
-      "explanation": "B minus A removes A items; remaining are different categories."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। B − A ज्ञात करें।",
-      "options": [
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green, Square",
-        "Square, Circle, Triangle",
-        "∅"
-      ],
-      "explanation": "B minus A removes A items; remaining are different categories."
     }
   },
   {
@@ -1742,58 +1196,6 @@
     }
   },
   {
-    "id": "gdrvd-0068",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A − B.",
-      "options": [
-        "Rose, Lily, Lotus, Mango",
-        "['Mango', 'Apple', 'Banana']",
-        "∅",
-        "Rose, Lily, Lotus"
-      ],
-      "explanation": "A minus B removes B items; only Flowers remain."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A − B ज्ञात करें।",
-      "options": [
-        "Rose, Lily, Lotus, Mango",
-        "['Mango', 'Apple', 'Banana']",
-        "∅",
-        "Rose, Lily, Lotus"
-      ],
-      "explanation": "A minus B removes B items; only Flowers remain."
-    }
-  },
-  {
-    "id": "gdrvd-0069",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∩ B.",
-      "options": [
-        "['Mango', 'Apple', 'Banana']",
-        "∅",
-        "Rose, Lily, Lotus, Mango",
-        "∅ (empty)"
-      ],
-      "explanation": "Set A = Flowers, Set B = फूलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∩ B ज्ञात करें।",
-      "options": [
-        "['Mango', 'Apple', 'Banana']",
-        "∅",
-        "Rose, Lily, Lotus, Mango",
-        "∅ (empty)"
-      ],
-      "explanation": "Set A = Flowers, Set B = फूलका/की complement. No common elements."
-    }
-  },
-  {
     "id": "gdrvd-0070",
     "correctOption": "B",
     "difficulty": "medium",
@@ -1869,84 +1271,6 @@
         "10"
       ],
       "explanation": "समुच्चय सिद्धांत से: ठीक दो समूहों में = 13"
-    }
-  },
-  {
-    "id": "gdrvd-0073",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∩ B.",
-      "options": [
-        "Cricket, Football, Hockey, Guitar",
-        "∅ (empty)",
-        "['Guitar', 'Piano', 'Flute']",
-        "∅"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∩ B ज्ञात करें।",
-      "options": [
-        "Cricket, Football, Hockey, Guitar",
-        "∅ (empty)",
-        "['Guitar', 'Piano', 'Flute']",
-        "∅"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "gdrvd-0074",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∩ B.",
-      "options": [
-        "∅ (empty)",
-        "∅",
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']"
-      ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∩ B ज्ञात करें।",
-      "options": [
-        "∅ (empty)",
-        "∅",
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']"
-      ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "gdrvd-0075",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∩ B.",
-      "options": [
-        "['Eagle', 'Snake', 'Fish']",
-        "∅",
-        "Dog, Cat, Cow, Eagle",
-        "∅ (empty)"
-      ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∩ B ज्ञात करें।",
-      "options": [
-        "['Eagle', 'Snake', 'Fish']",
-        "∅",
-        "Dog, Cat, Cow, Eagle",
-        "∅ (empty)"
-      ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
     }
   },
   {
@@ -2054,188 +1378,6 @@
     }
   },
   {
-    "id": "gdrvd-0080",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∪ B.",
-      "options": [
-        "Dog, Cat, Cow, Eagle",
-        "∅",
-        "['Eagle', 'Snake', 'Fish']",
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∪ B ज्ञात करें।",
-      "options": [
-        "Dog, Cat, Cow, Eagle",
-        "∅",
-        "['Eagle', 'Snake', 'Fish']",
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "gdrvd-0081",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A − B.",
-      "options": [
-        "Cricket, Football, Hockey, Guitar",
-        "['Guitar', 'Piano', 'Flute']",
-        "∅",
-        "Cricket, Football, Hockey"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A − B ज्ञात करें।",
-      "options": [
-        "Cricket, Football, Hockey, Guitar",
-        "['Guitar', 'Piano', 'Flute']",
-        "∅",
-        "Cricket, Football, Hockey"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
-    }
-  },
-  {
-    "id": "gdrvd-0082",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A − B.",
-      "options": [
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow, Eagle",
-        "∅",
-        "Dog, Cat, Cow"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A − B ज्ञात करें।",
-      "options": [
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow, Eagle",
-        "∅",
-        "Dog, Cat, Cow"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
-    }
-  },
-  {
-    "id": "gdrvd-0083",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∩ B.",
-      "options": [
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow, Eagle",
-        "∅ (empty)",
-        "∅"
-      ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∩ B ज्ञात करें।",
-      "options": [
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow, Eagle",
-        "∅ (empty)",
-        "∅"
-      ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "gdrvd-0084",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find B − A.",
-      "options": [
-        "Red, Blue, Green, Square",
-        "['Square', 'Circle', 'Triangle']",
-        "∅",
-        "Square, Circle, Triangle"
-      ],
-      "explanation": "B minus A removes A items; remaining are different categories."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। B − A ज्ञात करें।",
-      "options": [
-        "Red, Blue, Green, Square",
-        "['Square', 'Circle', 'Triangle']",
-        "∅",
-        "Square, Circle, Triangle"
-      ],
-      "explanation": "B minus A removes A items; remaining are different categories."
-    }
-  },
-  {
-    "id": "gdrvd-0085",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A ∩ B.",
-      "options": [
-        "∅ (empty)",
-        "Red, Blue, Green, Square",
-        "∅",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "Set A = Colors, Set B = रंगका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A ∩ B ज्ञात करें।",
-      "options": [
-        "∅ (empty)",
-        "Red, Blue, Green, Square",
-        "∅",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "Set A = Colors, Set B = रंगका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "gdrvd-0086",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A − B.",
-      "options": [
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']",
-        "∅",
-        "Dog, Cat, Cow"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A − B ज्ञात करें।",
-      "options": [
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']",
-        "∅",
-        "Dog, Cat, Cow"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
-    }
-  },
-  {
     "id": "gdrvd-0087",
     "correctOption": "B",
     "difficulty": "easy",
@@ -2314,32 +1456,6 @@
     }
   },
   {
-    "id": "gdrvd-0090",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∩ B.",
-      "options": [
-        "['Mango', 'Apple', 'Banana']",
-        "∅ (empty)",
-        "∅",
-        "Rose, Lily, Lotus, Mango"
-      ],
-      "explanation": "Set A = Flowers, Set B = फूलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∩ B ज्ञात करें।",
-      "options": [
-        "['Mango', 'Apple', 'Banana']",
-        "∅ (empty)",
-        "∅",
-        "Rose, Lily, Lotus, Mango"
-      ],
-      "explanation": "Set A = Flowers, Set B = फूलका/की complement. No common elements."
-    }
-  },
-  {
     "id": "gdrvd-0091",
     "correctOption": "B",
     "difficulty": "easy",
@@ -2366,32 +1482,6 @@
     }
   },
   {
-    "id": "gdrvd-0092",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∪ B.",
-      "options": [
-        "∅",
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)",
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∪ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)",
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
     "id": "gdrvd-0093",
     "correctOption": "B",
     "difficulty": "medium",
@@ -2415,32 +1505,6 @@
         "38"
       ],
       "explanation": "समुच्चय सिद्धांत से: ठीक दो समूहों में = 36"
-    }
-  },
-  {
-    "id": "gdrvd-0094",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∪ B.",
-      "options": [
-        "['Mango', 'Apple', 'Banana']",
-        "∅",
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "Rose, Lily, Lotus, Mango"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∪ B ज्ञात करें।",
-      "options": [
-        "['Mango', 'Apple', 'Banana']",
-        "∅",
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "Rose, Lily, Lotus, Mango"
-      ],
-      "explanation": "Union includes everything from both sets."
     }
   },
   {
@@ -2496,58 +1560,6 @@
     }
   },
   {
-    "id": "gdrvd-0097",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∪ B.",
-      "options": [
-        "['Guitar', 'Piano', 'Flute']",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "Cricket, Football, Hockey, Guitar",
-        "∅"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∪ B ज्ञात करें।",
-      "options": [
-        "['Guitar', 'Piano', 'Flute']",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "Cricket, Football, Hockey, Guitar",
-        "∅"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "gdrvd-0098",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∪ B.",
-      "options": [
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "['Mango', 'Apple', 'Banana']",
-        "Rose, Lily, Lotus, Mango",
-        "∅"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∪ B ज्ञात करें।",
-      "options": [
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "['Mango', 'Apple', 'Banana']",
-        "Rose, Lily, Lotus, Mango",
-        "∅"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
     "id": "gdrvd-0099",
     "correctOption": "A",
     "difficulty": "easy",
@@ -2597,58 +1609,6 @@
         "44"
       ],
       "explanation": "केवल B = 35"
-    }
-  },
-  {
-    "id": "gdrvd-0101",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A − B.",
-      "options": [
-        "Dog, Cat, Cow",
-        "∅",
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A − B ज्ञात करें।",
-      "options": [
-        "Dog, Cat, Cow",
-        "∅",
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
-    }
-  },
-  {
-    "id": "gdrvd-0102",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∪ B.",
-      "options": [
-        "∅",
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "Rose, Lily, Lotus, Mango",
-        "['Mango', 'Apple', 'Banana']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∪ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "Rose, Lily, Lotus, Mango",
-        "['Mango', 'Apple', 'Banana']"
-      ],
-      "explanation": "Union includes everything from both sets."
     }
   },
   {
@@ -2704,110 +1664,6 @@
     }
   },
   {
-    "id": "gdrvd-0105",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A ∩ B.",
-      "options": [
-        "Red, Blue, Green, Square",
-        "∅ (empty)",
-        "∅",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "Set A = Colors, Set B = रंगका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A ∩ B ज्ञात करें।",
-      "options": [
-        "Red, Blue, Green, Square",
-        "∅ (empty)",
-        "∅",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "Set A = Colors, Set B = रंगका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "gdrvd-0106",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∩ B.",
-      "options": [
-        "['Guitar', 'Piano', 'Flute']",
-        "∅ (empty)",
-        "∅",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∩ B ज्ञात करें।",
-      "options": [
-        "['Guitar', 'Piano', 'Flute']",
-        "∅ (empty)",
-        "∅",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "gdrvd-0107",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∩ B.",
-      "options": [
-        "Dog, Cat, Cow, Eagle",
-        "∅ (empty)",
-        "∅",
-        "['Eagle', 'Snake', 'Fish']"
-      ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∩ B ज्ञात करें।",
-      "options": [
-        "Dog, Cat, Cow, Eagle",
-        "∅ (empty)",
-        "∅",
-        "['Eagle', 'Snake', 'Fish']"
-      ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "gdrvd-0108",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find B − A.",
-      "options": [
-        "Red, Blue, Green, Square",
-        "Square, Circle, Triangle",
-        "∅",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "B minus A removes A items; remaining are different categories."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। B − A ज्ञात करें।",
-      "options": [
-        "Red, Blue, Green, Square",
-        "Square, Circle, Triangle",
-        "∅",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "B minus A removes A items; remaining are different categories."
-    }
-  },
-  {
     "id": "gdrvd-0109",
     "correctOption": "D",
     "difficulty": "easy",
@@ -2860,32 +1716,6 @@
     }
   },
   {
-    "id": "gdrvd-0111",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A − B.",
-      "options": [
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green, Square",
-        "Red, Blue, Green",
-        "∅"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A − B ज्ञात करें।",
-      "options": [
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green, Square",
-        "Red, Blue, Green",
-        "∅"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
-    }
-  },
-  {
     "id": "gdrvd-0112",
     "correctOption": "A",
     "difficulty": "easy",
@@ -2909,32 +1739,6 @@
         "11"
       ],
       "explanation": "A और B दोनों = 16"
-    }
-  },
-  {
-    "id": "gdrvd-0113",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A − B.",
-      "options": [
-        "Cricket, Football, Hockey",
-        "Cricket, Football, Hockey, Guitar",
-        "['Guitar', 'Piano', 'Flute']",
-        "∅"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A − B ज्ञात करें।",
-      "options": [
-        "Cricket, Football, Hockey",
-        "Cricket, Football, Hockey, Guitar",
-        "['Guitar', 'Piano', 'Flute']",
-        "∅"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
     }
   },
   {
@@ -3016,32 +1820,6 @@
     }
   },
   {
-    "id": "gdrvd-0117",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A − B.",
-      "options": [
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green",
-        "Red, Blue, Green, Square",
-        "∅"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A − B ज्ञात करें।",
-      "options": [
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green",
-        "Red, Blue, Green, Square",
-        "∅"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
-    }
-  },
-  {
     "id": "gdrvd-0118",
     "correctOption": "C",
     "difficulty": "easy",
@@ -3091,58 +1869,6 @@
         "42"
       ],
       "explanation": "समुच्चय सिद्धांत से: ठीक दो समूहों में = 43"
-    }
-  },
-  {
-    "id": "gdrvd-0120",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∪ B.",
-      "options": [
-        "∅",
-        "Rose, Lily, Lotus, Mango",
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "['Mango', 'Apple', 'Banana']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∪ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "Rose, Lily, Lotus, Mango",
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "['Mango', 'Apple', 'Banana']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "gdrvd-0121",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A − B.",
-      "options": [
-        "∅",
-        "Red, Blue, Green",
-        "Red, Blue, Green, Square",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A − B ज्ञात करें।",
-      "options": [
-        "∅",
-        "Red, Blue, Green",
-        "Red, Blue, Green, Square",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
     }
   },
   {
@@ -3198,32 +1924,6 @@
     }
   },
   {
-    "id": "gdrvd-0124",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∩ B.",
-      "options": [
-        "['Mango', 'Apple', 'Banana']",
-        "Rose, Lily, Lotus, Mango",
-        "∅ (empty)",
-        "∅"
-      ],
-      "explanation": "Set A = Flowers, Set B = फूलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∩ B ज्ञात करें।",
-      "options": [
-        "['Mango', 'Apple', 'Banana']",
-        "Rose, Lily, Lotus, Mango",
-        "∅ (empty)",
-        "∅"
-      ],
-      "explanation": "Set A = Flowers, Set B = फूलका/की complement. No common elements."
-    }
-  },
-  {
     "id": "gdrvd-0125",
     "correctOption": "B",
     "difficulty": "easy",
@@ -3247,58 +1947,6 @@
         "25"
       ],
       "explanation": "केवल A = 28"
-    }
-  },
-  {
-    "id": "gdrvd-0126",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∪ B.",
-      "options": [
-        "∅",
-        "['Guitar', 'Piano', 'Flute']",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∪ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "['Guitar', 'Piano', 'Flute']",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "gdrvd-0127",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A − B.",
-      "options": [
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "Cricket, Football, Hockey",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A − B ज्ञात करें।",
-      "options": [
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "Cricket, Football, Hockey",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
     }
   },
   {
@@ -3328,32 +1976,6 @@
     }
   },
   {
-    "id": "gdrvd-0129",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A − B.",
-      "options": [
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green",
-        "Red, Blue, Green, Square",
-        "∅"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A − B ज्ञात करें।",
-      "options": [
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green",
-        "Red, Blue, Green, Square",
-        "∅"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
-    }
-  },
-  {
     "id": "gdrvd-0130",
     "correctOption": "B",
     "difficulty": "medium",
@@ -3377,32 +1999,6 @@
         "39"
       ],
       "explanation": "समुच्चय सिद्धांत से: केवल एक समूह में = 36"
-    }
-  },
-  {
-    "id": "gdrvd-0131",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∪ B.",
-      "options": [
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "∅",
-        "['Mango', 'Apple', 'Banana']",
-        "Rose, Lily, Lotus, Mango"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∪ B ज्ञात करें।",
-      "options": [
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "∅",
-        "['Mango', 'Apple', 'Banana']",
-        "Rose, Lily, Lotus, Mango"
-      ],
-      "explanation": "Union includes everything from both sets."
     }
   },
   {
@@ -3481,32 +2077,6 @@
         "51"
       ],
       "explanation": "समुच्चय सिद्धांत से: केवल एक समूह में = 51"
-    }
-  },
-  {
-    "id": "gdrvd-0135",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∩ B.",
-      "options": [
-        "['Guitar', 'Piano', 'Flute']",
-        "∅",
-        "∅ (empty)",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∩ B ज्ञात करें।",
-      "options": [
-        "['Guitar', 'Piano', 'Flute']",
-        "∅",
-        "∅ (empty)",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
     }
   },
   {
@@ -3640,32 +2210,6 @@
     }
   },
   {
-    "id": "gdrvd-0141",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∩ B.",
-      "options": [
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow, Eagle",
-        "∅",
-        "∅ (empty)"
-      ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∩ B ज्ञात करें।",
-      "options": [
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow, Eagle",
-        "∅",
-        "∅ (empty)"
-      ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
-    }
-  },
-  {
     "id": "gdrvd-0142",
     "correctOption": "D",
     "difficulty": "medium",
@@ -3689,58 +2233,6 @@
         "20"
       ],
       "explanation": "समुच्चय सिद्धांत से: कम से कम दो समूहों में = 20"
-    }
-  },
-  {
-    "id": "gdrvd-0143",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∪ B.",
-      "options": [
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']",
-        "∅",
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∪ B ज्ञात करें।",
-      "options": [
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']",
-        "∅",
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "gdrvd-0144",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A − B.",
-      "options": [
-        "∅",
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow",
-        "Dog, Cat, Cow, Eagle"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A − B ज्ञात करें।",
-      "options": [
-        "∅",
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow",
-        "Dog, Cat, Cow, Eagle"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
     }
   },
   {
@@ -3822,29 +2314,289 @@
     }
   },
   {
-    "id": "gdrvd-0148",
-    "correctOption": "A",
-    "difficulty": "medium",
+    "correctOption": "B",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∩ B.",
+      "question": "What is 15 × 3?",
       "options": [
-        "∅ (empty)",
-        "['Eagle', 'Snake', 'Fish']",
-        "∅",
-        "Dog, Cat, Cow, Eagle"
+        "55",
+        "45",
+        "18",
+        "31"
       ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
+      "explanation": "15×3 = 45."
     },
     "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∩ B ज्ञात करें।",
+      "question": "15 × 3 = ?",
       "options": [
-        "∅ (empty)",
-        "['Eagle', 'Snake', 'Fish']",
-        "∅",
-        "Dog, Cat, Cow, Eagle"
+        "55",
+        "45",
+        "18",
+        "31"
       ],
-      "explanation": "Set A = Mammals, Set B = स्तनधारीका/की complement. No common elements."
-    }
+      "explanation": "15×3 = 45।"
+    },
+    "id": "gdrvd-0148"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 45 × 30?",
+      "options": [
+        "1355",
+        "1343",
+        "1350",
+        "75"
+      ],
+      "explanation": "45×30 = 1350."
+    },
+    "hi": {
+      "question": "45 × 30 = ?",
+      "options": [
+        "1355",
+        "1343",
+        "1350",
+        "75"
+      ],
+      "explanation": "45×30 = 1350।"
+    },
+    "id": "gdrvd-0149"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 27 × 19?",
+      "options": [
+        "46",
+        "500",
+        "514",
+        "513"
+      ],
+      "explanation": "27×19 = 513."
+    },
+    "hi": {
+      "question": "27 × 19 = ?",
+      "options": [
+        "46",
+        "500",
+        "514",
+        "513"
+      ],
+      "explanation": "27×19 = 513।"
+    },
+    "id": "gdrvd-0150"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 27 × 34?",
+      "options": [
+        "918",
+        "929",
+        "909",
+        "61"
+      ],
+      "explanation": "27×34 = 918."
+    },
+    "hi": {
+      "question": "27 × 34 = ?",
+      "options": [
+        "918",
+        "929",
+        "909",
+        "61"
+      ],
+      "explanation": "27×34 = 918।"
+    },
+    "id": "gdrvd-0151"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 42 × 37?",
+      "options": [
+        "1554",
+        "1542",
+        "1573",
+        "79"
+      ],
+      "explanation": "42×37 = 1554."
+    },
+    "hi": {
+      "question": "42 × 37 = ?",
+      "options": [
+        "1554",
+        "1542",
+        "1573",
+        "79"
+      ],
+      "explanation": "42×37 = 1554।"
+    },
+    "id": "gdrvd-0152"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 24 × 35?",
+      "options": [
+        "59",
+        "840",
+        "833",
+        "859"
+      ],
+      "explanation": "24×35 = 840."
+    },
+    "hi": {
+      "question": "24 × 35 = ?",
+      "options": [
+        "59",
+        "840",
+        "833",
+        "859"
+      ],
+      "explanation": "24×35 = 840।"
+    },
+    "id": "gdrvd-0153"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 8 × 40?",
+      "options": [
+        "312",
+        "320",
+        "48",
+        "329"
+      ],
+      "explanation": "8×40 = 320."
+    },
+    "hi": {
+      "question": "8 × 40 = ?",
+      "options": [
+        "312",
+        "320",
+        "48",
+        "329"
+      ],
+      "explanation": "8×40 = 320।"
+    },
+    "id": "gdrvd-0154"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 15 × 16?",
+      "options": [
+        "226",
+        "240",
+        "256",
+        "31"
+      ],
+      "explanation": "15×16 = 240."
+    },
+    "hi": {
+      "question": "15 × 16 = ?",
+      "options": [
+        "226",
+        "240",
+        "256",
+        "31"
+      ],
+      "explanation": "15×16 = 240।"
+    },
+    "id": "gdrvd-0155"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 22 × 16?",
+      "options": [
+        "348",
+        "352",
+        "38",
+        "367"
+      ],
+      "explanation": "22×16 = 352."
+    },
+    "hi": {
+      "question": "22 × 16 = ?",
+      "options": [
+        "348",
+        "352",
+        "38",
+        "367"
+      ],
+      "explanation": "22×16 = 352।"
+    },
+    "id": "gdrvd-0156"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 48 × 16?",
+      "options": [
+        "781",
+        "755",
+        "768",
+        "64"
+      ],
+      "explanation": "48×16 = 768."
+    },
+    "hi": {
+      "question": "48 × 16 = ?",
+      "options": [
+        "781",
+        "755",
+        "768",
+        "64"
+      ],
+      "explanation": "48×16 = 768।"
+    },
+    "id": "gdrvd-0157"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 48 × 28?",
+      "options": [
+        "76",
+        "1364",
+        "1344",
+        "1341"
+      ],
+      "explanation": "48×28 = 1344."
+    },
+    "hi": {
+      "question": "48 × 28 = ?",
+      "options": [
+        "76",
+        "1364",
+        "1344",
+        "1341"
+      ],
+      "explanation": "48×28 = 1344।"
+    },
+    "id": "gdrvd-0158"
   }
 ]

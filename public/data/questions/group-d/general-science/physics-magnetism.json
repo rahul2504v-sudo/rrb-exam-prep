@@ -5,248 +5,170 @@
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "A freely suspended magnet always aligns in which direction?",
+      "question": "A freely suspended bar magnet always aligns in which direction?",
       "options": [
         "East-West",
         "North-South",
-        "North-East",
-        "North-West"
+        "Random",
+        "Vertical"
       ],
-      "explanation": "A freely suspended bar magnet aligns in North-South direction due to Earth's magnetic field."
+      "explanation": "Magnet aligns along Earth's magnetic N-S direction."
     },
     "hi": {
-      "question": "स्वतंत्र रूप से लटका चुंबक हमेशा किस दिशा में संरेखित होता है?",
+      "question": "स्वतंत्र लटका चुंबक हमेशा किस दिशा में रुकता है?",
       "options": [
         "पूर्व-पश्चिम",
         "उत्तर-दक्षिण",
-        "उत्तर-पूर्व",
-        "उत्तर-पश्चिम"
+        "यादृच्छिक",
+        "ऊर्ध्वाधर"
       ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण लटका चुंबक उत्तर-दक्षिण दिशा में संरेखित होता है।"
+      "explanation": "चुंबक पृथ्वी की चुंबकीय N-S दिशा में संरेखित होता है।"
     }
   },
   {
     "id": "gdspm-0002",
     "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "Which is a natural magnet?",
+      "question": "Magnetic field lines emerge from which pole?",
       "options": [
-        "Bar magnet",
-        "Horseshoe magnet",
-        "Magnetite (Lodestone)",
-        "Electromagnet"
+        "South pole",
+        "Both poles",
+        "North pole",
+        "None"
       ],
-      "explanation": "Magnetite (Fe3O4), also called lodestone, is a naturally occurring magnetic mineral."
+      "explanation": "Field lines go from North to South outside the magnet."
     },
     "hi": {
-      "question": "प्राकृतिक चुंबक कौन सा है?",
+      "question": "चुंबकीय क्षेत्र रेखाएं किस ध्रुव से निकलती हैं?",
       "options": [
-        "बार चुंबक",
-        "नाल चुंबक",
-        "मैग्नेटाइट (लोडस्टोन)",
-        "विद्युत चुंबक"
+        "दक्षिण ध्रुव",
+        "दोनों",
+        "उत्तर ध्रुव",
+        "कोई नहीं"
       ],
-      "explanation": "मैग्नेटाइट (Fe3O4), जिसे लोडस्टोन भी कहते हैं, प्राकृतिक रूप से पाया जाने वाला चुंबकीय खनिज है।"
+      "explanation": "रेखाएं चुंबक के बाहर N से S की ओर जाती हैं।"
     }
   },
   {
     "id": "gdspm-0003",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "Direction of magnetic field around straight conductor is given by:",
+      "question": "SI unit of magnetic field strength:",
       "options": [
-        "Fleming's left hand rule",
-        "Right hand thumb rule",
-        "Fleming's right hand rule",
-        "Ohm's law"
+        "Tesla",
+        "Gauss",
+        "Weber",
+        "Henry"
       ],
-      "explanation": "Right Hand Thumb Rule: thumb in current direction, curled fingers show magnetic field."
+      "explanation": "Magnetic flux density B is measured in Tesla (T)."
     },
     "hi": {
-      "question": "सीधे चालक के चारों ओर चुंबकीय क्षेत्र की दिशा किस नियम से दी जाती है?",
+      "question": "चुंबकीय क्षेत्र की SI इकाई:",
       "options": [
-        "फ्लेमिंग का बायां हाथ नियम",
-        "दायां हाथ अंगूठा नियम",
-        "फ्लेमिंग का दायां हाथ नियम",
-        "ओम का नियम"
+        "टेस्ला",
+        "गॉस",
+        "वेबर",
+        "हेनरी"
       ],
-      "explanation": "दायां हाथ अंगूठा नियम: अंगूठा धारा की दिशा में, मुड़ी उंगलियां चुंबकीय क्षेत्र दिखाती हैं।"
+      "explanation": "B की इकाई टेस्ला (T)।"
     }
   },
   {
     "id": "gdspm-0004",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Fleming's left hand rule finds direction of:",
-      "options": [
-        "Magnetic field",
-        "Current",
-        "Force on current-carrying conductor in magnetic field",
-        "Induced current"
-      ],
-      "explanation": "Left hand rule gives direction of force (motion) on conductor in magnetic field. Used in motors."
-    },
-    "hi": {
-      "question": "फ्लेमिंग का बायां हाथ नियम किसकी दिशा बताता है?",
-      "options": [
-        "चुंबकीय क्षेत्र",
-        "धारा",
-        "चुंबकीय क्षेत्र में धारावाही चालक पर बल",
-        "प्रेरित धारा"
-      ],
-      "explanation": "बायां हाथ नियम चुंबकीय क्षेत्र में चालक पर बल (गति) की दिशा बताता है। मोटरों में प्रयुक्त।"
-    }
-  },
-  {
-    "id": "gdspm-0005",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2023,
-    "en": {
-      "question": "Main difference between AC and DC:",
-      "options": [
-        "AC has higher voltage",
-        "DC has higher current",
-        "AC changes direction periodically, DC flows one way",
-        "AC is safer than DC"
-      ],
-      "explanation": "AC reverses direction periodically (50 Hz in India). DC flows in one direction only."
-    },
-    "hi": {
-      "question": "AC और DC में मुख्य अंतर:",
-      "options": [
-        "AC का वोल्टेज अधिक",
-        "DC की धारा अधिक",
-        "AC दिशा समय-समय पर बदलता है, DC एक दिशा में बहता है",
-        "AC, DC से सुरक्षित है"
-      ],
-      "explanation": "AC समय-समय पर दिशा बदलता है (भारत में 50 Hz)। DC केवल एक दिशा में बहता है।"
-    }
-  },
-  {
-    "id": "gdspm-0006",
-    "correctOption": "C",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "Electric generator works on principle of:",
+      "question": "A solenoid with current behaves like a:",
       "options": [
-        "Magnetic effect",
-        "Heating effect",
-        "Electromagnetic induction",
-        "Chemical effect"
+        "Capacitor",
+        "Resistor",
+        "Diode",
+        "Bar magnet"
       ],
-      "explanation": "Generator converts mechanical energy to electrical using electromagnetic induction (Faraday's law)."
+      "explanation": "Solenoid (coil with current) produces magnetic field like a bar magnet."
     },
     "hi": {
-      "question": "विद्युत जनरेटर किस सिद्धांत पर काम करता है?",
+      "question": "धारावाही परिनालिका व्यवहार करती है:",
       "options": [
-        "चुंबकीय प्रभाव",
-        "तापीय प्रभाव",
-        "विद्युत चुम्बकीय प्रेरण",
-        "रासायनिक प्रभाव"
+        "संधारित्र",
+        "प्रतिरोधक",
+        "डायोड",
+        "छड़ चुंबक जैसा"
       ],
-      "explanation": "जनरेटर विद्युत चुम्बकीय प्रेरण (फैराडे का नियम) द्वारा यांत्रिक ऊर्जा को विद्युत में बदलता है।"
-    }
-  },
-  {
-    "id": "gdspm-0007",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2023,
-    "en": {
-      "question": "Colour of earth wire in domestic circuit?",
-      "options": [
-        "Red",
-        "Black",
-        "Green",
-        "Blue"
-      ],
-      "explanation": "Earth wire is green (or green-yellow). Live is red/brown, neutral is black/blue."
-    },
-    "hi": {
-      "question": "घरेलू सर्किट में अर्थ तार का रंग?",
-      "options": [
-        "लाल",
-        "काला",
-        "हरा",
-        "नीला"
-      ],
-      "explanation": "अर्थ तार हरा (या हरा-पीला) होता है। लाइव लाल/भूरा, न्यूट्रल काला/नीला।"
+      "explanation": "परिनालिका छड़ चुंबक जैसा चुंबकीय क्षेत्र उत्पन्न करती है।"
     }
   },
   {
     "id": "gdspm-0008",
     "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "The SI unit of magnetic field strength is:",
+      "question": "Which of these is a natural magnet?",
       "options": [
-        "Weber",
-        "Henry",
-        "Gauss",
-        "Tesla"
+        "Bar magnet",
+        "Horseshoe magnet",
+        "Electromagnet",
+        "Magnetite (lodestone)"
       ],
-      "explanation": "Magnetic field strength (B) is measured in Tesla (T). 1 T = 1 N/(A m)."
+      "explanation": "Magnetite (Fe₃O₄) is a naturally occurring magnetic mineral."
     },
     "hi": {
-      "question": "चुंबकीय क्षेत्र की SI इकाई:",
+      "question": "प्राकृतिक चुंबक कौन:",
       "options": [
-        "वेबर",
-        "हेनरी",
-        "गाउस",
-        "टेस्ला"
+        "छड़ चुंबक",
+        "नाल चुंबक",
+        "विद्युत चुंबक",
+        "मैग्नेटाइट (लोडस्टोन)"
       ],
-      "explanation": "चुंबकीय क्षेत्र (B) टेस्ला (T) में मापा जाता है। 1 T = 1 N/(A m)।"
+      "explanation": "मैग्नेटाइट (Fe₃O₄) प्राकृतिक चुंबकीय खनिज है।"
     }
   },
   {
     "id": "gdspm-0009",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Like poles of magnets:",
+      "question": "The strength of magnetic field inside a long solenoid is:",
       "options": [
-        "Repel each other",
-        "Attract each other",
-        "No interaction",
-        "Sometimes attract"
+        "Zero",
+        "Uniform",
+        "Decreasing",
+        "Varying"
       ],
-      "explanation": "Like poles (N-N or S-S) repel each other. Unlike poles (N-S) attract each other."
+      "explanation": "Inside ideal long solenoid, B = μ₀nI (uniform)."
     },
     "hi": {
-      "question": "चुंबक के समान ध्रुव:",
+      "question": "लंबी परिनालिका के अंदर चुंबकीय क्षेत्र:",
       "options": [
-        "एक-दूसरे को प्रतिकर्षित",
-        "एक-दूसरे को आकर्षित",
-        "कोई अंतःक्रिया नहीं",
-        "कभी-कभी आकर्षित"
+        "शून्य",
+        "एकसमान",
+        "घटता",
+        "परिवर्ती"
       ],
-      "explanation": "समान ध्रुव (N-N या S-S) एक-दूसरे को प्रतिकर्षित करते हैं। विपरीत ध्रुव (N-S) आकर्षित करते हैं।"
+      "explanation": "आदर्श लंबी परिनालिका में B = μ₀nI (एकसमान)।"
     }
   },
   {
     "id": "gdspm-0010",
     "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "An electromagnet is a:",
+      "question": "Electromagnet is a:",
       "options": [
         "Permanent magnet",
         "Natural magnet",
         "Temporary magnet",
-        "Non-magnetic material"
+        "Non-magnetic"
       ],
-      "explanation": "An electromagnet is a temporary magnet that works only when current flows through its coil."
+      "explanation": "Electromagnet: magnetic only when current flows (temporary)."
     },
     "hi": {
       "question": "विद्युत चुंबक है:",
@@ -254,2349 +176,2427 @@
         "स्थायी चुंबक",
         "प्राकृतिक चुंबक",
         "अस्थायी चुंबक",
-        "अचुंबकीय पदार्थ"
+        "अचुंबकीय"
       ],
-      "explanation": "विद्युत चुंबक एक अस्थायी चुंबक है जो केवल तब कार्य करता है जब कुंडली में धारा बहती है।"
-    }
-  },
-  {
-    "id": "gdspm-0011",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Frequency of AC mains in India is:",
-      "options": [
-        "60 Hz",
-        "50 Hz",
-        "100 Hz",
-        "25 Hz"
-      ],
-      "explanation": "The frequency of alternating current in Indian domestic supply is 50 Hz."
-    },
-    "hi": {
-      "question": "भारत में AC मेन्स की आवृत्ति:",
-      "options": [
-        "60 Hz",
-        "50 Hz",
-        "100 Hz",
-        "25 Hz"
-      ],
-      "explanation": "भारतीय घरेलू आपूर्ति में प्रत्यावर्ती धारा की आवृत्ति 50 Hz है।"
+      "explanation": "विद्युत चुंबक केवल धारा प्रवाहित होने पर चुंबकीय।"
     }
   },
   {
     "id": "gdspm-0012",
     "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Faraday's law is related to:",
+      "question": "Two magnetic field lines never:",
       "options": [
-        "Heating effect of current",
-        "Magnetic effect of current",
-        "Chemical effect of current",
-        "Electromagnetic induction"
+        "Curve",
+        "Start from N",
+        "End at S",
+        "Intersect each other"
       ],
-      "explanation": "Faraday's law of electromagnetic induction explains how changing magnetic field induces emf in a coil."
+      "explanation": "Field lines never intersect (unique direction at each point)."
     },
     "hi": {
-      "question": "फैराडे का नियम किससे संबंधित है?",
+      "question": "दो चुंबकीय क्षेत्र रेखाएं कभी नहीं:",
       "options": [
-        "धारा का ऊष्मीय प्रभाव",
-        "धारा का चुंबकीय प्रभाव",
-        "धारा का रासायनिक प्रभाव",
-        "विद्युत चुंबकीय प्रेरण"
+        "मुड़ती",
+        "N से शुरू",
+        "S पर खत्म",
+        "एक-दूसरे को काटती"
       ],
-      "explanation": "फैराडे का विद्युत चुंबकीय प्रेरण का नियम बताता है कि बदलता चुंबकीय क्षेत्र कुंडली में विद्युत वाहक बल प्रेरित करता है।"
-    }
-  },
-  {
-    "id": "gdspm-0013",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "The magnetic field inside a solenoid is:",
-      "options": [
-        "Uniform",
-        "Zero",
-        "Varying",
-        "Non-uniform"
-      ],
-      "explanation": "The magnetic field inside a current-carrying solenoid is uniform and parallel to its axis."
-    },
-    "hi": {
-      "question": "सोलेनॉइड के अंदर चुंबकीय क्षेत्र:",
-      "options": [
-        "एकसमान",
-        "शून्य",
-        "परिवर्तनशील",
-        "असमान"
-      ],
-      "explanation": "धारावाही सोलेनॉइड के अंदर चुंबकीय क्षेत्र एकसमान और अक्ष के समांतर होता है।"
+      "explanation": "क्षेत्र रेखाएं कभी नहीं काटती (प्रत्येक बिंदु पर अद्वितीय दिशा)।"
     }
   },
   {
     "id": "gdspm-0014",
     "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Which is NOT a magnetic material?",
+      "question": "Earth's magnetic South pole is near geographic:",
       "options": [
-        "Iron",
-        "Nickel",
-        "Copper",
-        "Cobalt"
+        "South pole",
+        "Equator",
+        "North pole",
+        "Tropic"
       ],
-      "explanation": "Copper is non-magnetic. Iron, nickel, and cobalt are ferromagnetic materials."
+      "explanation": "Magnetic S pole is near geographic North pole (and vice versa)."
     },
     "hi": {
-      "question": "कौन चुंबकीय पदार्थ नहीं है?",
+      "question": "पृथ्वी का चुंबकीय दक्षिण ध्रुव भौगोलिक:",
       "options": [
-        "लोहा",
-        "निकल",
-        "तांबा",
-        "कोबाल्ट"
+        "दक्षिण ध्रुव",
+        "भूमध्य रेखा",
+        "उत्तर ध्रुव",
+        "कर्क रेखा"
       ],
-      "explanation": "तांबा अचुंबकीय है। लोहा, निकल और कोबाल्ट लौह-चुंबकीय पदार्थ हैं।"
+      "explanation": "चुंबकीय S, भौगोलिक N के पास (और इसका उल्टा)।"
     }
   },
   {
     "id": "gdspm-0015",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "An electric motor converts:",
+      "question": "If current in a straight wire is upward, magnetic field lines around it are:",
       "options": [
-        "Mechanical energy to electrical",
-        "Electrical energy to mechanical",
-        "Heat to electrical",
-        "Light to mechanical"
+        "Anticlockwise (from above)",
+        "Clockwise",
+        "Straight",
+        "Radial"
       ],
-      "explanation": "An electric motor converts electrical energy into mechanical energy (rotation)."
+      "explanation": "Right-hand thumb rule: thumb up → anticlockwise field."
     },
     "hi": {
-      "question": "विद्युत मोटर किसे परिवर्तित करती है?",
+      "question": "सीधे तार में ऊपर धारा। चुंबकीय क्षेत्र रेखाएं (ऊपर से):",
       "options": [
-        "यांत्रिक से विद्युत",
-        "विद्युत से यांत्रिक",
-        "ऊष्मा से विद्युत",
-        "प्रकाश से यांत्रिक"
+        "वामावर्त",
+        "दक्षिणावर्त",
+        "सीधी",
+        "त्रिज्यीय"
       ],
-      "explanation": "विद्युत मोटर विद्युत ऊर्जा को यांत्रिक ऊर्जा (घूर्णन) में बदलती है।"
+      "explanation": "दायां हाथ अंगूठा नियम: ऊपर → वामावर्त।"
     }
   },
   {
     "id": "gdspm-0016",
     "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "A compass needle points north because:",
+      "question": "Soft iron is used in electromagnet core because it has:",
       "options": [
-        "It is lightweight",
-        "It is magnetized",
-        "Of gravity",
-        "Earth behaves like a giant magnet"
+        "High retentivity",
+        "Low permeability",
+        "High coercivity",
+        "High permeability, low retentivity"
       ],
-      "explanation": "Earth has its own magnetic field with magnetic south near geographic north. The compass needle (a small magnet) aligns with it."
+      "explanation": "Soft iron: easily magnetized/demagnetized (low hysteresis)."
     },
     "hi": {
-      "question": "कम्पास सुई उत्तर दिशा बताती है क्योंकि:",
+      "question": "विद्युत चुंबक में नर्म लोहा:",
       "options": [
-        "वह हल्की है",
-        "वह चुंबकित है",
-        "गुरुत्व के कारण",
-        "पृथ्वी एक विशाल चुंबक की तरह व्यवहार करती है"
+        "उच्च धारणशीलता",
+        "कम पारगम्यता",
+        "उच्च निग्राहिता",
+        "उच्च पारगम्यता, कम धारणशीलता"
       ],
-      "explanation": "पृथ्वी का अपना चुंबकीय क्षेत्र है, चुंबकीय दक्षिण भौगोलिक उत्तर के पास। कम्पास सुई (छोटा चुंबक) इससे संरेखित होती है।"
-    }
-  },
-  {
-    "id": "gdspm-0017",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Fleming's right hand rule is used for:",
-      "options": [
-        "Electric generator",
-        "Electric motor",
-        "Voltmeter",
-        "Ammeter"
-      ],
-      "explanation": "Fleming's right hand rule gives direction of induced current in a generator."
-    },
-    "hi": {
-      "question": "फ्लेमिंग का दायां हाथ नियम किसके लिए प्रयुक्त?",
-      "options": [
-        "विद्युत जनरेटर",
-        "विद्युत मोटर",
-        "वोल्टमीटर",
-        "एमीटर"
-      ],
-      "explanation": "फ्लेमिंग का दायां हाथ नियम जनरेटर में प्रेरित धारा की दिशा बताता है।"
+      "explanation": "नर्म लोहा: आसानी से चुंबकित/विचुंबकित।"
     }
   },
   {
     "id": "gdspm-0018",
     "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "Magnetic field lines are:",
+      "question": "Oersted discovered that electric current produces:",
       "options": [
-        "Straight parallel lines",
-        "Intersecting",
-        "Closed curves",
-        "Open curves"
+        "Heat",
+        "Light",
+        "Magnetic field",
+        "Sound"
       ],
-      "explanation": "Magnetic field lines always form closed loops, going from N to S outside and S to N inside the magnet."
+      "explanation": "Oersted: current-carrying wire deflects compass needle → magnetic effect."
     },
     "hi": {
-      "question": "चुंबकीय क्षेत्र रेखाएं:",
+      "question": "ओर्स्टेड ने खोजा कि धारा उत्पन्न करती है:",
       "options": [
-        "सीधी समांतर",
-        "प्रतिच्छेदी",
-        "बंद वक्र",
-        "खुले वक्र"
+        "ऊष्मा",
+        "प्रकाश",
+        "चुंबकीय क्षेत्र",
+        "ध्वनि"
       ],
-      "explanation": "चुंबकीय क्षेत्र रेखाएं हमेशा बंद लूप बनाती हैं, बाहर N से S और अंदर S से N।"
+      "explanation": "ओर्स्टेड: धारावाही तार कंपास सुई विक्षेपित करता है।"
     }
   },
   {
     "id": "gdspm-0019",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "The core of an electromagnet is made of:",
+      "question": "Magnetic field at centre of a circular current loop is:",
       "options": [
-        "Copper",
-        "Soft iron",
-        "Steel",
-        "Aluminum"
+        "Directly proportional to current",
+        "Inversely proportional",
+        "Independent of current",
+        "Zero"
       ],
-      "explanation": "Soft iron is used because it has high permeability and low retentivity — it magnetizes and demagnetizes easily."
+      "explanation": "B = μ₀I/2R ∝ I (at centre)."
     },
     "hi": {
-      "question": "विद्युत चुंबक का क्रोड किसका बना होता है?",
+      "question": "वृत्ताकार धारा लूप के केंद्र पर चुंबकीय क्षेत्र:",
       "options": [
-        "तांबा",
-        "नरम लोहा",
-        "इस्पात",
-        "एल्युमिनियम"
+        "धारा के समानुपाती",
+        "व्युत्क्रमानुपाती",
+        "धारा पर निर्भर नहीं",
+        "शून्य"
       ],
-      "explanation": "नरम लोहा उच्च पारगम्यता और कम धारणशीलता के कारण प्रयुक्त — आसानी से चुंबकित और विचुंबकित होता है।"
+      "explanation": "B = μ₀I/2R ∝ I।"
     }
   },
   {
     "id": "gdspm-0020",
     "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "The device that works on magnetic effect of current is:",
+      "question": "Which material is used for permanent magnet?",
       "options": [
-        "Heater",
-        "Fuse",
-        "Lamp",
-        "Electric bell"
+        "Soft iron",
+        "Copper",
+        "Aluminium",
+        "Steel (Alnico)"
       ],
-      "explanation": "An electric bell uses an electromagnet, which works on the magnetic effect of electric current."
+      "explanation": "Steel/alloys like Alnico have high retentivity and coercivity."
     },
     "hi": {
-      "question": "धारा के चुंबकीय प्रभाव पर कार्य करने वाली युक्ति:",
+      "question": "स्थायी चुंबक के लिए:",
       "options": [
-        "हीटर",
-        "फ्यूज",
-        "लैंप",
-        "विद्युत घंटी"
+        "नर्म लोहा",
+        "तांबा",
+        "एल्युमिनियम",
+        "स्टील (अल्निको)"
       ],
-      "explanation": "विद्युत घंटी विद्युत चुंबक का उपयोग करती है, जो धारा के चुंबकीय प्रभाव पर काम करता है।"
+      "explanation": "स्टील/अल्निको: उच्च धारणशीलता और निग्राहिता।"
     }
   },
   {
     "id": "gdspm-0021",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "To increase strength of electromagnet, one should:",
-      "options": [
-        "Increase number of turns in coil",
-        "Decrease current",
-        "Use copper core",
-        "Use AC supply"
-      ],
-      "explanation": "Strength of electromagnet increases with more turns (N) and more current (I). B is proportional to NI."
-    },
-    "hi": {
-      "question": "विद्युत चुंबक की शक्ति बढ़ाने के लिए:",
-      "options": [
-        "कुंडली में लपेट बढ़ाएं",
-        "धारा घटाएं",
-        "तांबे का क्रोड",
-        "AC आपूर्ति"
-      ],
-      "explanation": "विद्युत चुंबक की शक्ति अधिक लपेटों (N) और अधिक धारा (I) से बढ़ती है। B, NI के समानुपाती।"
-    }
-  },
-  {
-    "id": "gdspm-0022",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Which rule determines direction of force on conductor in magnetic field?",
-      "options": [
-        "Right hand thumb rule",
-        "Fleming's right hand rule",
-        "Fleming's left hand rule",
-        "Maxwell's corkscrew rule"
-      ],
-      "explanation": "Fleming's left hand rule: Forefinger=field, Middle finger=current, Thumb=force (motion)."
-    },
-    "hi": {
-      "question": "चुंबकीय क्षेत्र में चालक पर बल की दिशा कौन सा नियम?",
-      "options": [
-        "दायां अंगूठा नियम",
-        "फ्लेमिंग का दायां हाथ",
-        "फ्लेमिंग का बायां हाथ",
-        "मैक्सवेल का कॉर्कस्क्रू"
-      ],
-      "explanation": "फ्लेमिंग का बायां हाथ: तर्जनी=क्षेत्र, मध्यमा=धारा, अंगूठा=बल (गति)।"
-    }
-  },
-  {
-    "id": "gdspm-0023",
     "correctOption": "B",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "An AC generator uses ___ to transfer current to external circuit.",
+      "question": "A circular loop of radius r carries current I. Magnetic field at centre:",
       "options": [
-        "Commutator",
-        "Slip rings",
-        "Brushes only",
-        "Permanent magnet"
+        "μ₀I/r",
+        "μ₀I/2r",
+        "μ₀I/4r",
+        "μ₀I²/2r"
       ],
-      "explanation": "AC generators use slip rings to transfer alternating current; DC generators use split-ring commutator."
+      "explanation": "B_centre = μ₀I/2R."
     },
     "hi": {
-      "question": "AC जनरेटर बाहरी परिपथ में धारा भेजने के लिए ___ उपयोग करता है।",
+      "question": "r त्रिज्या, I धारा। केंद्र पर चुंबकीय क्षेत्र:",
       "options": [
-        "दिक्परिवर्तक",
-        "स्लिप रिंग",
-        "केवल ब्रश",
-        "स्थायी चुंबक"
+        "μ₀I/r",
+        "μ₀I/2r",
+        "μ₀I/4r",
+        "μ₀I²/2r"
       ],
-      "explanation": "AC जनरेटर प्रत्यावर्ती धारा भेजने के लिए स्लिप रिंग; DC में स्प्लिट-रिंग दिक्परिवर्तक।"
-    }
-  },
-  {
-    "id": "gdspm-0024",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Lines of magnetic field:",
-      "options": [
-        "Intersect at poles",
-        "Are parallel to each other",
-        "Start from S pole",
-        "Never intersect each other"
-      ],
-      "explanation": "Magnetic field lines never intersect. If they did, it would mean two directions at one point, which is impossible."
-    },
-    "hi": {
-      "question": "चुंबकीय क्षेत्र रेखाएं:",
-      "options": [
-        "ध्रुवों पर काटती हैं",
-        "एक-दूसरे के समांतर",
-        "S ध्रुव से शुरू",
-        "कभी एक-दूसरे को नहीं काटतीं"
-      ],
-      "explanation": "चुंबकीय क्षेत्र रेखाएं कभी प्रतिच्छेद नहीं करतीं। यदि करें तो एक बिंदु पर दो दिशाएं, जो असंभव।"
+      "explanation": "B = μ₀I/2R।"
     }
   },
   {
     "id": "gdspm-0025",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "The strength of magnetic field is maximum at:",
+      "question": "Force on a current-carrying conductor in magnetic field is maximum when angle is:",
       "options": [
-        "Poles",
-        "Centre",
-        "Anywhere uniform",
-        "Equator of magnet"
+        "0°",
+        "90°",
+        "45°",
+        "180°"
       ],
-      "explanation": "Magnetic field is strongest at the poles where field lines are most concentrated."
+      "explanation": "F = BIL·sinθ. Maximum at θ = 90°."
     },
     "hi": {
-      "question": "चुंबकीय क्षेत्र की शक्ति अधिकतम कहां?",
+      "question": "चुंबकीय क्षेत्र में धारावाही चालक पर अधिकतम बल किस कोण पर:",
       "options": [
-        "ध्रुवों पर",
-        "केंद्र पर",
-        "हर जगह समान",
-        "चुंबक की भूमध्य रेखा"
+        "0°",
+        "90°",
+        "45°",
+        "180°"
       ],
-      "explanation": "ध्रुवों पर चुंबकीय क्षेत्र सबसे प्रबल जहां क्षेत्र रेखाएं सबसे सघन।"
+      "explanation": "F = BIL·sinθ, θ=90° पर अधिकतम।"
     }
   },
   {
     "id": "gdspm-0026",
     "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Transformer works on principle of:",
+      "question": "Which device uses electromagnetic induction?",
       "options": [
-        "Ohm's law",
-        "Joule's law",
-        "Mutual induction",
-        "Self induction"
+        "Motor",
+        "Heater",
+        "Generator",
+        "Bulb"
       ],
-      "explanation": "Transformer works on mutual induction: changing current in primary induces voltage in secondary."
+      "explanation": "Generator/alternator works on EMI (Faraday's law)."
     },
     "hi": {
-      "question": "ट्रांसफार्मर किस सिद्धांत पर कार्य करता है?",
+      "question": "विद्युत चुंबकीय प्रेरण पर आधारित:",
       "options": [
-        "ओम का नियम",
-        "जूल का नियम",
-        "अन्योन्य प्रेरण",
-        "स्वप्रेरण"
+        "मोटर",
+        "हीटर",
+        "जनरेटर",
+        "बल्ब"
       ],
-      "explanation": "ट्रांसफार्मर अन्योन्य प्रेरण पर: प्राथमिक में बदलती धारा, द्वितीयक में वोल्टेज प्रेरित करती है।"
-    }
-  },
-  {
-    "id": "gdspm-0027",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A step-up transformer has 100 turns primary, 1000 turns secondary. Input 220 V, output?",
-      "options": [
-        "22 V",
-        "2200 V",
-        "110 V",
-        "220 V"
-      ],
-      "explanation": "Vs/Vp=Ns/Np. Vs=220x1000/100=2200 V."
-    },
-    "hi": {
-      "question": "स्टेप-अप ट्रांसफार्मर: 100 लपेट प्राथमिक, 1000 द्वितीयक। निवेश 220 V, निर्गत?",
-      "options": [
-        "22 V",
-        "2200 V",
-        "110 V",
-        "220 V"
-      ],
-      "explanation": "Vs=220x1000/100=2200 V।"
+      "explanation": "जनरेटर EMI (फैराडे नियम) पर कार्य करता है।"
     }
   },
   {
     "id": "gdspm-0028",
     "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Earth's magnetic south pole is near:",
+      "question": "Like poles of magnets:",
       "options": [
-        "Geographic south pole",
-        "Equator",
-        "India",
-        "Geographic north pole"
+        "Attract",
+        "Merge",
+        "No effect",
+        "Repel"
       ],
-      "explanation": "Earth's magnetic south pole is near the geographic north pole, which is why compass north points north."
+      "explanation": "Like poles (N-N or S-S) repel each other."
     },
     "hi": {
-      "question": "पृथ्वी का चुंबकीय दक्षिण ध्रुव किसके निकट है?",
+      "question": "चुंबक के समान ध्रुव:",
       "options": [
-        "भौगोलिक दक्षिण ध्रुव",
-        "भूमध्य रेखा",
-        "भारत",
-        "भौगोलिक उत्तर ध्रुव"
+        "आकर्षित",
+        "मिल जाते",
+        "कोई प्रभाव नहीं",
+        "प्रतिकर्षित"
       ],
-      "explanation": "पृथ्वी का चुंबकीय दक्षिण ध्रुव भौगोलिक उत्तर ध्रुव के निकट है, इसलिए कम्पास उत्तर दिशा दिखाता है।"
+      "explanation": "समान ध्रुव (N-N या S-S) प्रतिकर्षित करते हैं।"
     }
   },
   {
     "id": "gdspm-0029",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "A DC motor uses:",
+      "question": "Magnetic field inside a toroidal solenoid is:",
       "options": [
-        "Split ring commutator",
-        "Slip rings",
-        "No commutator",
-        "Both slip rings and commutator"
+        "Zero",
+        "Uniform",
+        "Varying",
+        "Radial"
       ],
-      "explanation": "DC motor uses split ring commutator to reverse current direction every half rotation, keeping rotation continuous."
+      "explanation": "Toroid: B = μ₀NI/2πr (uniform along circular path)."
     },
     "hi": {
-      "question": "DC मोटर उपयोग करती है:",
+      "question": "टोरॉइड परिनालिका में चुंबकीय क्षेत्र:",
       "options": [
-        "स्प्लिट रिंग दिक्परिवर्तक",
-        "स्लिप रिंग",
-        "कोई दिक्परिवर्तक नहीं",
-        "स्लिप रिंग और दिक्परिवर्तक दोनों"
+        "शून्य",
+        "एकसमान",
+        "परिवर्ती",
+        "त्रिज्यीय"
       ],
-      "explanation": "DC मोटर प्रत्येक आधे घूर्णन पर धारा दिशा बदलने के लिए स्प्लिट रिंग दिक्परिवर्तक का उपयोग करती है।"
+      "explanation": "टोरॉइड: B = μ₀NI/2πr।"
     }
   },
   {
     "id": "gdspm-0030",
     "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "The unit of magnetic flux is:",
+      "question": "An electromagnet is used in:",
       "options": [
-        "Tesla",
-        "Henry",
-        "Weber",
-        "Gauss"
+        "Thermometer",
+        "Barometer",
+        "Electric bell",
+        "Lactometer"
       ],
-      "explanation": "Magnetic flux is measured in Weber (Wb). 1 Wb = 1 T x m^2."
+      "explanation": "Electric bell uses electromagnet to strike the gong."
     },
     "hi": {
-      "question": "चुंबकीय फ्लक्स की इकाई:",
+      "question": "विद्युत चुंबक प्रयुक्त:",
       "options": [
-        "टेस्ला",
-        "हेनरी",
-        "वेबर",
-        "गाउस"
+        "थर्मामीटर",
+        "बैरोमीटर",
+        "विद्युत घंटी",
+        "लैक्टोमीटर"
       ],
-      "explanation": "चुंबकीय फ्लक्स वेबर (Wb) में मापा जाता है। 1 Wb = 1 T x m^2।"
+      "explanation": "विद्युत घंटी विद्युत चुंबक का उपयोग करती है।"
     }
   },
   {
     "id": "gdspm-0031",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "A current-carrying circular loop behaves like:",
+      "question": "The force on a charge q moving with velocity v in magnetic field B is:",
       "options": [
-        "A straight wire",
-        "A bar magnet",
-        "A capacitor",
-        "A resistor"
+        "F = q(v × B)",
+        "F = qv/B",
+        "F = qB/v",
+        "F = qvB²"
       ],
-      "explanation": "A current-carrying circular loop produces a magnetic field similar to a small bar magnet."
+      "explanation": "Lorentz force: F = q(v × B)."
     },
     "hi": {
-      "question": "धारावाही वृत्ताकार लूप किसकी तरह व्यवहार करता है?",
+      "question": "चुंबकीय क्षेत्र B में v वेग से चलते q आवेश पर बल:",
       "options": [
-        "सीधा तार",
-        "बार चुंबक",
-        "संधारित्र",
-        "प्रतिरोधक"
+        "F = q(v × B)",
+        "F = qv/B",
+        "F = qB/v",
+        "F = qvB²"
       ],
-      "explanation": "धारावाही वृत्ताकार लूप एक छोटे बार चुंबक जैसा चुंबकीय क्षेत्र उत्पन्न करता है।"
+      "explanation": "लोरेंत्ज़ बल: F = q(v × B)।"
     }
   },
   {
     "id": "gdspm-0032",
     "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Magnetic keepers are used to:",
+      "question": "Steel is used for permanent magnets because of its:",
       "options": [
-        "Increase magnetic strength",
-        "Change polarity",
-        "Make electromagnets",
-        "Prevent self-demagnetization"
+        "Low coercivity",
+        "Low retentivity",
+        "Low permeability",
+        "High retentivity and coercivity"
       ],
-      "explanation": "Magnetic keepers (soft iron bars) placed across poles prevent loss of magnetism in permanent magnets."
+      "explanation": "Steel: once magnetized, retains magnetism (high retentivity, high coercivity)."
     },
     "hi": {
-      "question": "चुंबकीय कीपर का उपयोग:",
+      "question": "स्थायी चुंबक में स्टील:",
       "options": [
-        "चुंबकीय शक्ति बढ़ाने",
-        "ध्रुवता बदलने",
-        "विद्युत चुंबक बनाने",
-        "स्वतः विचुंबकन रोकने"
+        "कम निग्राहिता",
+        "कम धारणशीलता",
+        "कम पारगम्यता",
+        "उच्च धारणशीलता और निग्राहिता"
       ],
-      "explanation": "चुंबकीय कीपर (नरम लोहे की पट्टी) ध्रुवों पर रखकर स्थायी चुंबकों में चुंबकत्व हानि रोकते हैं।"
+      "explanation": "स्टील: चुंबकित होकर चुंबकत्व बनाए रखता है।"
     }
   },
   {
     "id": "gdspm-0033",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "A solenoid has 500 turns, length 0.5 m, current 2 A. Magnetic field inside? (mu0=4 pi x 10^-7)",
+      "question": "A rectangular coil of 100 turns, area 0.1 m² rotates in 0.5 T field at 10 rad/s. Maximum induced EMF:",
       "options": [
-        "2.51 x 10^-3 T",
-        "5.02 x 10^-3 T",
-        "1.26 x 10^-3 T",
-        "7.54 x 10^-4 T"
+        "5 V",
+        "50 V",
+        "100 V",
+        "500 V"
       ],
-      "explanation": "B=mu0 n I=mu0(N/L)I=4pix10^-7x1000x2=2.51x10^-3 T."
+      "explanation": "ε_max = NBAω = 100×0.5×0.1×10 = 50 V."
     },
     "hi": {
-      "question": "500 लपेट, 0.5 m, 2 A सोलेनॉइड। अंदर चुंबकीय क्षेत्र?",
+      "question": "100 फेरे, 0.1 m², 0.5 T, 10 rad/s। अधिकतम EMF:",
       "options": [
-        "2.51 x 10^-3 T",
-        "5.02 x 10^-3 T",
-        "1.26 x 10^-3 T",
-        "7.54 x 10^-4 T"
+        "5 V",
+        "50 V",
+        "100 V",
+        "500 V"
       ],
-      "explanation": "B=μ0 n I=4πx10^-7x1000x2=2.51x10^-3 T।"
+      "explanation": "ε_max = NBAω = 100×0.5×0.1×10 = 50 V।"
     }
   },
   {
     "id": "gdspm-0034",
     "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "AC is preferred over DC for transmission because:",
+      "question": "A magnet can be demagnetized by:",
       "options": [
-        "It is cheaper to generate",
-        "It has less loss",
-        "It can be stepped up/down easily",
-        "It is safer"
+        "Cooling",
+        "Keeping in water",
+        "Heating or hammering",
+        "Polishing"
       ],
-      "explanation": "AC voltage can be easily stepped up (for transmission) and stepped down (for use) with transformers."
+      "explanation": "Heating above Curie temperature or mechanical shock demagnetizes."
     },
     "hi": {
-      "question": "संचरण के लिए AC को DC से अधिक पसंद क्यों?",
+      "question": "चुंबक विचुंबकित होता है:",
       "options": [
-        "सस्ता उत्पादन",
-        "कम हानि",
-        "आसानी से स्टेप-अप/डाउन",
-        "सुरक्षित"
+        "ठंडा करने",
+        "पानी में रखने",
+        "गर्म करने या हथौड़े से",
+        "पॉलिश करने"
       ],
-      "explanation": "AC वोल्टेज ट्रांसफार्मर से आसानी से बढ़ाया (संचरण) और घटाया (उपयोग) जा सकता है।"
-    }
-  },
-  {
-    "id": "gdspm-0035",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Lenz's law gives:",
-      "options": [
-        "Magnitude of induced emf",
-        "Direction of induced current",
-        "Force on conductor",
-        "Magnetic field strength"
-      ],
-      "explanation": "Lenz's law: induced current opposes the change that produced it. It gives direction of induced current."
-    },
-    "hi": {
-      "question": "लेंज का नियम बताता है:",
-      "options": [
-        "प्रेरित विद्युत वाहक बल का परिमाण",
-        "प्रेरित धारा की दिशा",
-        "चालक पर बल",
-        "चुंबकीय क्षेत्र शक्ति"
-      ],
-      "explanation": "लेंज का नियम: प्रेरित धारा उस परिवर्तन का विरोध करती है जिसने उसे उत्पन्न किया। यह दिशा बताता है।"
-    }
-  },
-  {
-    "id": "gdspm-0036",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Which can be used to make a permanent magnet?",
-      "options": [
-        "Soft iron",
-        "Copper",
-        "Aluminum",
-        "Steel"
-      ],
-      "explanation": "Steel has high retentivity (retains magnetism), making it suitable for permanent magnets. Soft iron is for temporary."
-    },
-    "hi": {
-      "question": "स्थायी चुंबक बनाने के लिए क्या उपयुक्त है?",
-      "options": [
-        "नरम लोहा",
-        "तांबा",
-        "एल्युमिनियम",
-        "इस्पात"
-      ],
-      "explanation": "इस्पात की उच्च धारणशीलता (चुंबकत्व बनाए रखना) इसे स्थायी चुंबक के लिए उपयुक्त बनाती है।"
-    }
-  },
-  {
-    "id": "gdspm-0037",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "An electric motor rotates because:",
-      "options": [
-        "Current-carrying coil experiences force in magnetic field",
-        "Coil is heated",
-        "Magnetic field is uniform",
-        "Coil is made of iron"
-      ],
-      "explanation": "The current-carrying coil placed in magnetic field experiences torque (force couple), causing rotation."
-    },
-    "hi": {
-      "question": "विद्युत मोटर घूमती है क्योंकि:",
-      "options": [
-        "धारावाही कुंडली चुंबकीय क्षेत्र में बल अनुभव करती है",
-        "कुंडली गर्म होती है",
-        "चुंबकीय क्षेत्र एकसमान है",
-        "कुंडली लोहे की है"
-      ],
-      "explanation": "चुंबकीय क्षेत्र में रखी धारावाही कुंडली बल-आघूर्ण अनुभव करती है, जिससे घूर्णन होता है।"
+      "explanation": "क्यूरी ताप से ऊपर गर्म करने या यांत्रिक आघात से विचुंबकन।"
     }
   },
   {
     "id": "gdspm-0038",
     "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "The magnetic field lines outside a magnet go from:",
+      "question": "Magnetic field due to a straight current-carrying wire at a point is inversely proportional to:",
       "options": [
-        "South to North",
-        "Any direction",
-        "North to South",
-        "Center to poles"
+        "Current",
+        "Square of distance",
+        "Distance",
+        "Square root of distance"
       ],
-      "explanation": "Outside a magnet, field lines travel from North pole to South pole. Inside, they go from South to North."
+      "explanation": "B = μ₀I/2πr ∝ 1/r."
     },
     "hi": {
-      "question": "चुंबक के बाहर चुंबकीय क्षेत्र रेखाएं जाती हैं:",
+      "question": "सीधे धारावाही तार का चुंबकीय क्षेत्र व्युत्क्रमानुपाती:",
       "options": [
-        "दक्षिण से उत्तर",
-        "किसी भी दिशा",
-        "उत्तर से दक्षिण",
-        "केंद्र से ध्रुव"
+        "धारा",
+        "दूरी का वर्ग",
+        "दूरी",
+        "दूरी का वर्गमूल"
       ],
-      "explanation": "चुंबक के बाहर क्षेत्र रेखाएं उत्तर ध्रुव से दक्षिण ध्रुव तक। अंदर दक्षिण से उत्तर की ओर।"
-    }
-  },
-  {
-    "id": "gdspm-0039",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "50 turns coil radius 5 cm carries 3 A. Magnetic field at centre? (mu0=4pi x 10^-7)",
-      "options": [
-        "3.77 x 10^-4 T",
-        "1.88 x 10^-3 T",
-        "9.42 x 10^-4 T",
-        "7.54 x 10^-4 T"
-      ],
-      "explanation": "B=mu0NI/(2r)=4pix10^-7x50x3/(2x0.05)=18.85x10^-4=1.88x10^-3 T."
-    },
-    "hi": {
-      "question": "50 लपेट, त्रिज्या 5 cm, 3 A कुंडली। केंद्र पर चुंबकीय क्षेत्र?",
-      "options": [
-        "3.77x10^-4",
-        "1.88x10^-3",
-        "9.42x10^-4",
-        "7.54x10^-4"
-      ],
-      "explanation": "B=μ0NI/(2r)=4πx10^-7x50x3/(0.1)=1.88x10^-3 T।"
+      "explanation": "B ∝ 1/r।"
     }
   },
   {
     "id": "gdspm-0040",
     "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Dynamo is another name for:",
+      "question": "Curie temperature is the temperature above which:",
       "options": [
-        "Motor",
-        "Transformer",
-        "Battery",
-        "DC generator"
+        "Resistance becomes zero",
+        "Metal melts",
+        "Magnet becomes stronger",
+        "Ferromagnetic material becomes paramagnetic"
       ],
-      "explanation": "A dynamo is a DC generator that converts mechanical energy to DC electrical energy."
+      "explanation": "Above Curie temp, ferromagnets lose permanent magnetism."
     },
     "hi": {
-      "question": "डायनेमो किसका दूसरा नाम है?",
+      "question": "क्यूरी तापमान से ऊपर:",
       "options": [
-        "मोटर",
-        "ट्रांसफार्मर",
-        "बैटरी",
-        "DC जनरेटर"
+        "प्रतिरोध शून्य",
+        "धातु पिघलती",
+        "चुंबक मजबूत",
+        "लौह चुंबकीय पदार्थ अनुचुंबकीय हो जाता"
       ],
-      "explanation": "डायनेमो एक DC जनरेटर है जो यांत्रिक ऊर्जा को DC विद्युत ऊर्जा में बदलता है।"
-    }
-  },
-  {
-    "id": "gdspm-0041",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Angle of dip at magnetic equator is:",
-      "options": [
-        "0 degrees",
-        "45 degrees",
-        "90 degrees",
-        "60 degrees"
-      ],
-      "explanation": "At magnetic equator, the Earth's magnetic field is horizontal, so angle of dip = 0 degrees."
-    },
-    "hi": {
-      "question": "चुंबकीय भूमध्य रेखा पर नति कोण:",
-      "options": [
-        "0 डिग्री",
-        "45 डिग्री",
-        "90 डिग्री",
-        "60 डिग्री"
-      ],
-      "explanation": "चुंबकीय भूमध्य रेखा पर पृथ्वी का क्षेत्र क्षैतिज होता है, इसलिए नति कोण 0°।"
+      "explanation": "क्यूरी ताप से ऊपर स्थायी चुंबकत्व समाप्त।"
     }
   },
   {
     "id": "gdspm-0042",
     "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Angle of dip at magnetic poles is:",
+      "question": "Magnetic field lines inside a bar magnet go from:",
       "options": [
-        "0 degrees",
-        "45 degrees",
-        "90 degrees",
-        "180 degrees"
+        "N to S",
+        "Center to poles",
+        "S to N",
+        "Circular"
       ],
-      "explanation": "At magnetic poles, Earth's field is vertical, so a freely suspended magnet dips at 90 degrees."
+      "explanation": "Inside magnet, lines go from South to North pole."
     },
     "hi": {
-      "question": "चुंबकीय ध्रुवों पर नति कोण:",
+      "question": "छड़ चुंबक के अंदर क्षेत्र रेखाएं:",
       "options": [
-        "0 डिग्री",
-        "45 डिग्री",
-        "90 डिग्री",
-        "180 डिग्री"
+        "N से S",
+        "केंद्र से ध्रुव",
+        "S से N",
+        "वृत्ताकार"
       ],
-      "explanation": "चुंबकीय ध्रुवों पर पृथ्वी का क्षेत्र ऊर्ध्वाधर, मुक्त चुंबक 90° पर झुकता है।"
-    }
-  },
-  {
-    "id": "gdspm-0043",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "How can a permanent magnet be demagnetized?",
-      "options": [
-        "Keeping in magnetic field",
-        "Heating strongly",
-        "Placing near iron",
-        "Cooling"
-      ],
-      "explanation": "Heating a magnet strongly disrupts the alignment of domains, causing demagnetization. Hammering also does this."
-    },
-    "hi": {
-      "question": "स्थायी चुंबक को विचुंबकित कैसे करें?",
-      "options": [
-        "चुंबकीय क्षेत्र में रखकर",
-        "जोर से गर्म करके",
-        "लोहे के पास रखकर",
-        "ठंडा करके"
-      ],
-      "explanation": "तेज गर्म करने से डोमेन संरेखण बिगड़ता है, विचुंबकन होता है। हथौड़े से पीटने पर भी।"
+      "explanation": "चुंबक के अंदर रेखाएं S से N।"
     }
   },
   {
     "id": "gdspm-0044",
     "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Eddy currents are used in:",
+      "question": "Which metal is NOT attracted by a magnet?",
       "options": [
-        "Transformer",
-        "Motor",
-        "Generator",
-        "Induction furnace"
+        "Iron",
+        "Nickel",
+        "Cobalt",
+        "Copper"
       ],
-      "explanation": "Eddy currents produce heat and are useful in induction furnaces for melting metals. They cause losses in transformers."
+      "explanation": "Copper is diamagnetic; not attracted. Fe, Ni, Co are ferromagnetic."
     },
     "hi": {
-      "question": "भंवर धाराओं का उपयोग:",
+      "question": "चुंबक से आकर्षित नहीं:",
       "options": [
-        "ट्रांसफार्मर",
-        "मोटर",
-        "जनरेटर",
-        "प्रेरण भट्टी"
+        "लोहा",
+        "निकल",
+        "कोबाल्ट",
+        "तांबा"
       ],
-      "explanation": "भंवर धाराएं ऊष्मा उत्पन्न करती हैं और धातु पिघलाने के लिए प्रेरण भट्टी में उपयोगी। ट्रांसफार्मर में हानि।"
+      "explanation": "तांबा प्रतिचुंबकीय; आकर्षित नहीं। Fe, Ni, Co लौह चुंबकीय।"
     }
   },
   {
     "id": "gdspm-0045",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "The material used for fuse wire is:",
+      "question": "The magnetic flux through a coil changes from 10 Wb to 0 in 0.5 s. Induced EMF (50 turns):",
       "options": [
-        "Alloy of tin and lead",
-        "Copper",
-        "Silver",
-        "Iron"
+        "500 V",
+        "1000 V",
+        "100 V",
+        "50 V"
       ],
-      "explanation": "Fuse wire is made of alloy of tin and lead which has low melting point and appropriate resistivity."
+      "explanation": "ε = NΔΦ/Δt = 50×10/0.5 = 1000 V."
     },
     "hi": {
-      "question": "फ्यूज तार किसका बना होता है?",
+      "question": "10 Wb से 0, 0.5 s में। 50 फेरे, प्रेरित EMF:",
       "options": [
-        "टिन और सीसे की मिश्रधातु",
-        "तांबा",
-        "चांदी",
-        "लोहा"
+        "500 V",
+        "1000 V",
+        "100 V",
+        "50 V"
       ],
-      "explanation": "फ्यूज तार टिन-सीसे की मिश्रधातु का, जिसका कम गलनांक और उपयुक्त प्रतिरोधकता।"
+      "explanation": "ε = 50×10/0.5 = 1000 V।"
     }
   },
   {
     "id": "gdspm-0046",
     "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Short circuit occurs when:",
+      "question": "The region around a magnet where its influence is felt:",
       "options": [
-        "Current is too low",
-        "Resistance is high",
-        "Live and neutral wires come in direct contact",
-        "Earthing is proper"
+        "Electric field",
+        "Gravitational field",
+        "Magnetic field",
+        "Nuclear field"
       ],
-      "explanation": "Short circuit: live and neutral wires touch directly, creating a low-resistance path and very high current."
+      "explanation": "Space around a magnet where magnetic force acts = magnetic field."
     },
     "hi": {
-      "question": "शॉर्ट सर्किट कब होता है?",
+      "question": "चुंबक के चारों ओर प्रभाव क्षेत्र:",
       "options": [
-        "धारा बहुत कम",
-        "प्रतिरोध अधिक",
-        "लाइव और न्यूट्रल तार सीधे संपर्क में",
-        "अर्थिंग सही हो"
+        "विद्युत क्षेत्र",
+        "गुरुत्व क्षेत्र",
+        "चुंबकीय क्षेत्र",
+        "नाभिकीय क्षेत्र"
       ],
-      "explanation": "शॉर्ट सर्किट: लाइव-न्यूट्रल सीधा संपर्क, कम प्रतिरोध पथ, बहुत उच्च धारा।"
+      "explanation": "चुंबक के चारों ओर चुंबकीय बल का क्षेत्र।"
     }
   },
   {
     "id": "gdspm-0047",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Overloading occurs when:",
+      "question": "A moving charge in a magnetic field experiences maximum force when it moves:",
       "options": [
-        "Voltage is too high",
-        "Too many appliances connected to same socket",
-        "No earthing",
-        "Fuse is removed"
+        "Perpendicular to field",
+        "Parallel to field",
+        "At 45°",
+        "At 60°"
       ],
-      "explanation": "Overloading: drawing more current than the circuit rating by connecting too many high-power appliances."
+      "explanation": "F = qvB sinθ. Max at θ = 90°."
     },
     "hi": {
-      "question": "अतिभारण कब होता है?",
+      "question": "चुंबकीय क्षेत्र में गतिमान आवेश पर अधिकतम बल:",
       "options": [
-        "अधिक वोल्टेज",
-        "एक सॉकेट पर बहुत से उपकरण",
-        "अर्थिंग नहीं",
-        "फ्यूज हटा दिया"
+        "क्षेत्र के लंबवत",
+        "क्षेत्र के समांतर",
+        "45° पर",
+        "60° पर"
       ],
-      "explanation": "अतिभारण: कई उच्च शक्ति उपकरणों से सर्किट रेटिंग से अधिक धारा खींचना।"
-    }
-  },
-  {
-    "id": "gdspm-0048",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Live wire is at a potential of:",
-      "options": [
-        "0 V",
-        "110 V",
-        "-220 V",
-        "220 V (in India)"
-      ],
-      "explanation": "In Indian domestic supply, live wire is at 220 V AC relative to neutral (0 V)."
-    },
-    "hi": {
-      "question": "लाइव तार का विभव:",
-      "options": [
-        "0 V",
-        "110 V",
-        "-220 V",
-        "220 V (भारत में)"
-      ],
-      "explanation": "भारतीय आपूर्ति में लाइव तार न्यूट्रल (0 V) के सापेक्ष 220 V AC पर।"
+      "explanation": "F = qvB sinθ, θ=90° पर अधिकतम।"
     }
   },
   {
     "id": "gdspm-0049",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Two bar magnets placed 10 cm apart repel with force F. Distance doubled, force becomes:",
-      "options": [
-        "F/8",
-        "F/4",
-        "F/2",
-        "F"
-      ],
-      "explanation": "Magnetic force F is proportional to 1/r^3 for dipoles. Distance doubled: F'=F/8."
-    },
-    "hi": {
-      "question": "10 cm दूर दो चुंबक बल F से प्रतिकर्षित। दूरी दोगुनी, बल:",
-      "options": [
-        "F/8",
-        "F/4",
-        "F/2",
-        "F"
-      ],
-      "explanation": "चुंबकीय बल, द्विध्रुवों के लिए 1/r^3 के समानुपाती। दूरी दोगुनी: F'=F/8।"
-    }
-  },
-  {
-    "id": "gdspm-0050",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "The magnetic effect of current was discovered by:",
-      "options": [
-        "Faraday",
-        "Fleming",
-        "Oersted",
-        "Ampere"
-      ],
-      "explanation": "Hans Christian Oersted discovered that electric current produces magnetic field in 1820."
-    },
-    "hi": {
-      "question": "धारा का चुंबकीय प्रभाव किसने खोजा?",
-      "options": [
-        "फैराडे",
-        "फ्लेमिंग",
-        "ओर्स्टेड",
-        "एम्पियर"
-      ],
-      "explanation": "हैंस क्रिश्चियन ओर्स्टेड ने 1820 में खोजा कि विद्युत धारा चुंबकीय क्षेत्र उत्पन्न करती है।"
-    }
-  },
-  {
-    "id": "gdspm-0051",
     "correctOption": "B",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Induced emf in a coil depends on:",
+      "question": "If number of turns in a solenoid is doubled (same current), magnetic field:",
       "options": [
-        "Resistance of coil",
-        "Rate of change of magnetic flux",
-        "Temperature",
-        "Length of coil"
+        "Halved",
+        "Doubled",
+        "Remains same",
+        "Quadrupled"
       ],
-      "explanation": "Faraday's law: induced emf = -N(dphi/dt). It depends on rate of change of magnetic flux."
+      "explanation": "B = μ₀nI ∝ n (turns per unit length)."
     },
     "hi": {
-      "question": "कुंडली में प्रेरित विद्युत वाहक बल निर्भर:",
+      "question": "परिनालिका में फेरे दोगुने, चुंबकीय क्षेत्र:",
       "options": [
-        "कुंडली प्रतिरोध",
-        "चुंबकीय फ्लक्स परिवर्तन दर",
-        "तापमान",
-        "कुंडली लंबाई"
+        "आधा",
+        "दोगुना",
+        "समान",
+        "चौगुना"
       ],
-      "explanation": "फैराडे: प्रेरित विद्युत वाहक बल = -N(dφ/dt)। चुंबकीय फ्लक्स परिवर्तन दर पर निर्भर।"
+      "explanation": "B ∝ n।"
     }
   },
   {
     "id": "gdspm-0052",
     "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "In India, domestic power supply is:",
+      "question": "Magnetic field is measured in:",
       "options": [
-        "110 V DC",
-        "220 V DC",
-        "110 V AC, 60 Hz",
-        "220 V AC, 50 Hz"
+        "Weber",
+        "Henry",
+        "Farad",
+        "Tesla or Gauss"
       ],
-      "explanation": "Indian domestic supply: 220 V, 50 Hz AC. USA uses 110 V, 60 Hz."
+      "explanation": "B unit: Tesla (SI), Gauss (CGS). 1 T = 10⁴ G."
     },
     "hi": {
-      "question": "भारत में घरेलू विद्युत आपूर्ति:",
+      "question": "चुंबकीय क्षेत्र मापा जाता है:",
       "options": [
-        "110 V DC",
-        "220 V DC",
-        "110 V AC, 60 Hz",
-        "220 V AC, 50 Hz"
+        "वेबर",
+        "हेनरी",
+        "फैरड",
+        "टेस्ला या गॉस"
       ],
-      "explanation": "भारतीय घरेलू आपूर्ति: 220 V, 50 Hz AC। USA में 110 V, 60 Hz।"
-    }
-  },
-  {
-    "id": "gdspm-0053",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Galvanometer is used to detect:",
-      "options": [
-        "Small electric currents",
-        "Voltage",
-        "Resistance",
-        "Power"
-      ],
-      "explanation": "A galvanometer detects small currents. It works on the magnetic effect of current."
-    },
-    "hi": {
-      "question": "गैल्वेनोमीटर किसका पता लगाता है?",
-      "options": [
-        "छोटी विद्युत धारा",
-        "वोल्टेज",
-        "प्रतिरोध",
-        "शक्ति"
-      ],
-      "explanation": "गैल्वेनोमीटर छोटी धाराओं का पता लगाता है। धारा के चुंबकीय प्रभाव पर कार्य करता है।"
+      "explanation": "B इकाई: टेस्ला (SI), गॉस (CGS)।"
     }
   },
   {
     "id": "gdspm-0054",
     "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A straight wire 0.5 m carrying 10 A in 2 T field at 90°. Force?",
+      "question": "Which is not a magnetic material?",
       "options": [
-        "5 N",
-        "20 N",
-        "10 N",
-        "2.5 N"
+        "Iron",
+        "Cobalt",
+        "Aluminium",
+        "Nickel"
       ],
-      "explanation": "F=BIL sin(theta)=2x10x0.5x1=10 N."
+      "explanation": "Al is paramagnetic but not strongly magnetic like Fe, Ni, Co."
     },
     "hi": {
-      "question": "0.5 m तार, 10 A, 2 T क्षेत्र, 90° पर। बल?",
+      "question": "चुंबकीय पदार्थ नहीं:",
       "options": [
-        "5 N",
-        "20 N",
-        "10 N",
-        "2.5 N"
+        "लोहा",
+        "कोबाल्ट",
+        "एल्युमिनियम",
+        "निकल"
       ],
-      "explanation": "F=BIL sin(θ)=2x10x0.5x1=10 N।"
+      "explanation": "Al अनुचुंबकीय; Fe, Ni, Co जैसा प्रबल नहीं।"
     }
   },
   {
     "id": "gdspm-0055",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "MRI machines used in hospitals work on the principle of:",
-      "options": [
-        "Electric induction",
-        "Nuclear Magnetic Resonance",
-        "Ultrasound",
-        "X-ray"
-      ],
-      "explanation": "MRI (Magnetic Resonance Imaging) uses strong magnetic fields and radio waves (NMR principle)."
-    },
-    "hi": {
-      "question": "अस्पतालों में MRI मशीन किस सिद्धांत पर?",
-      "options": [
-        "विद्युत प्रेरण",
-        "नाभिकीय चुंबकीय अनुनाद",
-        "अल्ट्रासाउंड",
-        "एक्स-रे"
-      ],
-      "explanation": "MRI प्रबल चुंबकीय क्षेत्र और रेडियो तरंगों (NMR सिद्धांत) का उपयोग करता है।"
-    }
-  },
-  {
-    "id": "gdspm-0056",
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A coil of 100 turns, flux changes from 0.02 to 0.01 Wb in 0.5 s. Induced emf?",
-      "options": [
-        "0.5 V",
-        "1 V",
-        "4 V",
-        "2 V"
-      ],
-      "explanation": "emf=-N(dphi/dt)=-100(-0.01/0.5)=100x0.02=2 V."
-    },
-    "hi": {
-      "question": "100 लपेट, फ्लक्स 0.02 से 0.01 Wb 0.5 s में। प्रेरित विद्युत वाहक बल?",
-      "options": [
-        "0.5 V",
-        "1 V",
-        "4 V",
-        "2 V"
-      ],
-      "explanation": "emf=-100(-0.01/0.5)=2 V।"
-    }
-  },
-  {
-    "id": "gdspm-0057",
     "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Which metal is best for making electromagnet core?",
-      "options": [
-        "Soft iron",
-        "Steel",
-        "Alnico",
-        "Copper"
-      ],
-      "explanation": "Soft iron has high permeability and low retentivity, ideal for electromagnet cores."
-    },
-    "hi": {
-      "question": "विद्युत चुंबक क्रोड के लिए सर्वोत्तम धातु?",
-      "options": [
-        "नरम लोहा",
-        "इस्पात",
-        "अलनिको",
-        "तांबा"
-      ],
-      "explanation": "नरम लोहे की उच्च पारगम्यता और कम धारणशीलता, विद्युत चुंबक क्रोड के लिए आदर्श।"
-    }
-  },
-  {
-    "id": "gdspm-0058",
-    "correctOption": "C",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "A transformer has 500 primary turns, 50 secondary. Input 220 V, output?",
+      "question": "If a magnet is moved into a coil, the induced current direction is given by:",
       "options": [
-        "2200 V",
-        "110 V",
-        "22 V",
-        "11 V"
+        "Lenz's law",
+        "Ohm's law",
+        "Coulomb's law",
+        "Ampere's law"
       ],
-      "explanation": "Vs/Vp=Ns/Np. Vs=220x50/500=22 V (step-down)."
+      "explanation": "Lenz's law: induced current opposes the motion of magnet."
     },
     "hi": {
-      "question": "ट्रांसफार्मर: 500 प्राथमिक, 50 द्वितीयक। निवेश 220 V, निर्गत?",
+      "question": "कुंडली में चुंबक डालने पर धारा दिशा:",
       "options": [
-        "2200 V",
-        "110 V",
-        "22 V",
-        "11 V"
+        "लेंज का नियम",
+        "ओम का नियम",
+        "कूलॉम का नियम",
+        "एम्पीयर का नियम"
       ],
-      "explanation": "Vs=220x50/500=22 V (स्टेप-डाउन)।"
-    }
-  },
-  {
-    "id": "gdspm-0059",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Electromagnetic induction was discovered by:",
-      "options": [
-        "Oersted",
-        "Michael Faraday",
-        "Ampere",
-        "Maxwell"
-      ],
-      "explanation": "Michael Faraday discovered electromagnetic induction in 1831. Oersted discovered magnetic effect."
-    },
-    "hi": {
-      "question": "विद्युत चुंबकीय प्रेरण की खोज:",
-      "options": [
-        "ओर्स्टेड",
-        "माइकल फैराडे",
-        "एम्पियर",
-        "मैक्सवेल"
-      ],
-      "explanation": "माइकल फैराडे ने 1831 में विद्युत चुंबकीय प्रेरण की खोज की। ओर्स्टेड ने चुंबकीय प्रभाव।"
+      "explanation": "लेंज नियम: प्रेरित धारा चुंबक गति का विरोध करती है।"
     }
   },
   {
     "id": "gdspm-0060",
     "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "An electric motor uses ___ to reverse current direction.",
+      "question": "Magnetic materials that are strongly attracted by magnets:",
       "options": [
-        "Slip rings",
-        "Brushes",
-        "Core",
-        "Split ring commutator"
+        "Diamagnetic",
+        "Paramagnetic",
+        "Non-magnetic",
+        "Ferromagnetic"
       ],
-      "explanation": "Split ring commutator reverses current in the coil every half rotation to maintain continuous rotation."
+      "explanation": "Fe, Ni, Co are ferromagnetic (strong attraction)."
     },
     "hi": {
-      "question": "मोटर में धारा दिशा बदलने के लिए:",
+      "question": "चुंबक से प्रबल आकर्षित पदार्थ:",
       "options": [
-        "स्लिप रिंग",
-        "ब्रश",
-        "क्रोड",
-        "स्प्लिट रिंग दिक्परिवर्तक"
+        "प्रतिचुंबकीय",
+        "अनुचुंबकीय",
+        "अचुंबकीय",
+        "लौह चुंबकीय"
       ],
-      "explanation": "स्प्लिट रिंग दिक्परिवर्तक प्रत्येक आधे घूर्णन पर कुंडली में धारा दिशा बदलता है।"
+      "explanation": "Fe, Ni, Co लौह चुंबकीय।"
     }
   },
   {
     "id": "gdspm-0061",
-    "correctOption": "A",
-    "difficulty": "hard",
+    "correctOption": "D",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Magnetic moment of a current loop of area 0.1 m^2 with 5 A current and 50 turns?",
+      "question": "A freely suspended magnet aligns in which direction?",
       "options": [
-        "25 A m^2",
-        "0.5 A m^2",
-        "2.5 A m^2",
-        "50 A m^2"
+        "Any",
+        "East-West",
+        "North-East",
+        "North-South"
       ],
-      "explanation": "M=NAI=50x0.1x5=25 A m^2."
+      "explanation": "Due to Earth's magnetic field, a freely suspended bar magnet points North-South."
     },
     "hi": {
-      "question": "0.1 m^2, 5 A, 50 लपेट लूप का चुंबकीय आघूर्ण?",
+      "question": "स्वतंत्र चुंबक किस दिशा में रुकता है?",
       "options": [
-        "25 A m^2",
-        "0.5 A m^2",
-        "2.5 A m^2",
-        "50 A m^2"
+        "Any",
+        "East-West",
+        "North-East",
+        "North-South"
       ],
-      "explanation": "M=NAI=50x0.1x5=25 A m^2।"
-    }
-  },
-  {
-    "id": "gdspm-0062",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "The neutral wire is at:",
-      "options": [
-        "220 V",
-        "110 V",
-        "0 V (Earth potential)",
-        "-220 V"
-      ],
-      "explanation": "Neutral wire is earthed at the substation and is at zero potential (same as earth)."
-    },
-    "hi": {
-      "question": "न्यूट्रल तार किस विभव पर?",
-      "options": [
-        "220 V",
-        "110 V",
-        "0 V (पृथ्वी विभव)",
-        "-220 V"
-      ],
-      "explanation": "न्यूट्रल तार उपकेंद्र पर अर्थित होता है और शून्य विभव पर होता है।"
+      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण स्वतंत्र चुंबक उत्तर-दक्षिण दिशा में रुकता है।"
     }
   },
   {
     "id": "gdspm-0063",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A 100 W bulb used 5 hours daily. Monthly (30 days) cost at Rs 5/unit?",
+      "question": "A current-carrying solenoid behaves like a?",
       "options": [
-        "Rs 50",
-        "Rs 75",
-        "Rs 100",
-        "Rs 150"
+        "Bar magnet",
+        "Diode",
+        "Resistor",
+        "Capacitor"
       ],
-      "explanation": "Daily=0.1x5=0.5 kWh. Monthly=15 kWh. Cost=15x5=Rs 75."
+      "explanation": "A solenoid with current produces a magnetic field similar to a bar magnet."
     },
     "hi": {
-      "question": "100 W बल्ब 5 घंटे/दिन, 30 दिन, Rs 5/यूनिट। खर्च?",
+      "question": "धारावाही परिनालिका किसकी तरह व्यवहार करती है?",
       "options": [
-        "रु 50",
-        "रु 75",
-        "रु 100",
-        "रु 150"
+        "Bar magnet",
+        "Diode",
+        "Resistor",
+        "Capacitor"
       ],
-      "explanation": "दैनिक=0.5 kWh। मासिक=15 kWh। खर्च=15x5=रु 75।"
+      "explanation": "धारावाही परिनालिका एक छड़ चुंबक के समान चुंबकीय क्षेत्र उत्पन्न करती है।"
     }
   },
   {
     "id": "gdspm-0064",
-    "correctOption": "D",
-    "difficulty": "easy",
+    "correctOption": "A",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "The shape of magnetic field lines around a straight current-carrying wire is:",
+      "question": "Who discovered the relationship between electricity and magnetism?",
       "options": [
-        "Straight lines",
-        "Elliptical",
-        "Rectangular",
-        "Concentric circles"
+        "Hans Christian Oersted",
+        "James Maxwell",
+        "Andre Ampere",
+        "Michael Faraday"
       ],
-      "explanation": "Magnetic field lines around a straight current-carrying conductor form concentric circles."
+      "explanation": "Oersted discovered in 1820 that electric current produces a magnetic field."
     },
     "hi": {
-      "question": "सीधे धारावाही तार के चारों ओर क्षेत्र रेखाएं:",
+      "question": "विद्युत और चुंबकत्व के संबंध की खोज किसने की?",
       "options": [
-        "सीधी रेखाएं",
-        "दीर्घवृत्तीय",
-        "आयताकार",
-        "समकेंद्रीय वृत्त"
+        "Hans Christian Oersted",
+        "James Maxwell",
+        "Andre Ampere",
+        "Michael Faraday"
       ],
-      "explanation": "सीधे धारावाही चालक के चारों ओर समकेंद्रीय वृत्त बनते हैं।"
+      "explanation": "ओर्स्टेड ने 1820 में खोजा कि विद्युत धारा चुंबकीय क्षेत्र उत्पन्न करती है।"
     }
   },
   {
     "id": "gdspm-0065",
-    "correctOption": "A",
-    "difficulty": "easy",
+    "correctOption": "C",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A moving coil galvanometer can be converted to ammeter by connecting:",
+      "question": "Freely suspended magnet points?",
       "options": [
-        "Low resistance in parallel (shunt)",
-        "High resistance in series",
-        "Low resistance in series",
-        "High resistance in parallel"
+        "East-West",
+        "Up-Down",
+        "North-South",
+        "Any"
       ],
-      "explanation": "A shunt (low resistance) in parallel bypasses most current, protecting the galvanometer."
+      "explanation": "Earth magnetic field aligns magnet N-S."
     },
     "hi": {
-      "question": "गैल्वेनोमीटर को एमीटर में बदलने के लिए:",
+      "question": "स्वतंत्र चुंबक दिशा?",
       "options": [
-        "समांतर में कम प्रतिरोध (शंट)",
-        "श्रेणी में उच्च प्रतिरोध",
-        "श्रेणी में कम प्रतिरोध",
-        "समांतर में उच्च प्रतिरोध"
+        "East-West",
+        "Up-Down",
+        "North-South",
+        "Any"
       ],
-      "explanation": "शंट (कम प्रतिरोध) समांतर में अधिकांश धारा बायपास कर गैल्वेनोमीटर बचाता है।"
+      "explanation": "पृथ्वी का चुंबकीय क्षेत्र N-S दिशा में संरेखित करता है।"
     }
   },
   {
+    "id": "gdspm-0066",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Magnetic field lines emerge from?",
+      "options": [
+        "North pole",
+        "South pole",
+        "Center",
+        "Both"
+      ],
+      "explanation": "Lines exit N pole, enter S pole outside magnet."
+    },
+    "hi": {
+      "question": "चुंबकीय क्षेत्र रेखाएं निकलती हैं?",
+      "options": [
+        "North pole",
+        "South pole",
+        "Center",
+        "Both"
+      ],
+      "explanation": "रेखाएं चुंबक के बाहर N से निकलकर S में प्रवेश करती हैं।"
+    }
+  },
+  {
+    "id": "gdspm-0067",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solenoid with current acts like?",
+      "options": [
+        "Diode",
+        "Bar magnet",
+        "Resistor",
+        "Capacitor"
+      ],
+      "explanation": "Current-carrying solenoid = electromagnet (bar magnet)."
+    },
+    "hi": {
+      "question": "धारावाही परिनालिका जैसी?",
+      "options": [
+        "Diode",
+        "Bar magnet",
+        "Resistor",
+        "Capacitor"
+      ],
+      "explanation": "धारावाही परिनालिका = विद्युत चुंबक (छड़ चुंबक जैसी)।"
+    }
+  },
+  {
+    "id": "gdspm-0068",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Freely suspended magnet aligns?",
+      "question": "Electricity-magnetism link discovered by?",
       "options": [
-        "Any direction",
-        "East-West",
-        "North-South",
-        "North-East"
+        "Maxwell",
+        "Faraday",
+        "Oersted",
+        "Ampere"
       ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
+      "explanation": "Oersted (1820): current produces magnetic field."
     },
     "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
+      "question": "विद्युत-चुंबकत्व संबंध खोज?",
       "options": [
-        "Any direction",
-        "East-West",
-        "North-South",
-        "North-East"
+        "Maxwell",
+        "Faraday",
+        "Oersted",
+        "Ampere"
       ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0066"
+      "explanation": "ओर्स्टेड (1820): धारा चुंबकीय क्षेत्र उत्पन्न करती है।"
+    }
   },
   {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "North-South",
-        "Any direction",
-        "North-East",
-        "East-West"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "North-South",
-        "Any direction",
-        "North-East",
-        "East-West"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0067"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "North-South",
-        "East-West",
-        "North-East",
-        "Any direction"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "North-South",
-        "East-West",
-        "North-East",
-        "Any direction"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0068"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "Any direction",
-        "North-East",
-        "East-West",
-        "North-South"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "Any direction",
-        "North-East",
-        "East-West",
-        "North-South"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0069"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "East-West",
-        "Any direction",
-        "North-East",
-        "North-South"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "East-West",
-        "Any direction",
-        "North-East",
-        "North-South"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0070"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "Any direction",
-        "North-South",
-        "East-West",
-        "North-East"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "Any direction",
-        "North-South",
-        "East-West",
-        "North-East"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0071"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "East-West",
-        "North-South",
-        "North-East",
-        "Any direction"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "East-West",
-        "North-South",
-        "North-East",
-        "Any direction"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0072"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "North-East",
-        "East-West",
-        "Any direction",
-        "North-South"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "North-East",
-        "East-West",
-        "Any direction",
-        "North-South"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0073"
-  },
-  {
+    "id": "gdspm-0069",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Freely suspended magnet aligns?",
+      "question": "Freely suspended magnet points?",
       "options": [
-        "Any direction",
-        "North-East",
+        "East-West",
+        "Any",
         "North-South",
-        "East-West"
+        "Up-Down"
       ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
+      "explanation": "Earth magnetic field aligns magnet N-S."
     },
     "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
+      "question": "स्वतंत्र चुंबक दिशा?",
       "options": [
-        "Any direction",
-        "North-East",
+        "East-West",
+        "Any",
         "North-South",
-        "East-West"
+        "Up-Down"
       ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0074"
+      "explanation": "पृथ्वी का चुंबकीय क्षेत्र N-S दिशा में संरेखित करता है।"
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "North-East",
-        "North-South",
-        "East-West",
-        "Any direction"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "North-East",
-        "North-South",
-        "East-West",
-        "Any direction"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0075"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "Any direction",
-        "North-South",
-        "East-West",
-        "North-East"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "Any direction",
-        "North-South",
-        "East-West",
-        "North-East"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0076"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "North-South",
-        "Any direction",
-        "North-East",
-        "East-West"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "North-South",
-        "Any direction",
-        "North-East",
-        "East-West"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0077"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "North-South",
-        "North-East",
-        "East-West",
-        "Any direction"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "North-South",
-        "North-East",
-        "East-West",
-        "Any direction"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0078"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "Any direction",
-        "North-East",
-        "East-West",
-        "North-South"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "Any direction",
-        "North-East",
-        "East-West",
-        "North-South"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0079"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "East-West",
-        "North-South",
-        "Any direction",
-        "North-East"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "East-West",
-        "North-South",
-        "Any direction",
-        "North-East"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0080"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "North-East",
-        "Any direction",
-        "North-South",
-        "East-West"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "North-East",
-        "Any direction",
-        "North-South",
-        "East-West"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0081"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "North-East",
-        "Any direction",
-        "East-West",
-        "North-South"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "North-East",
-        "Any direction",
-        "East-West",
-        "North-South"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0082"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "North-South",
-        "Any direction",
-        "East-West",
-        "North-East"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "North-South",
-        "Any direction",
-        "East-West",
-        "North-East"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0083"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "North-East",
-        "North-South",
-        "East-West",
-        "Any direction"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "North-East",
-        "North-South",
-        "East-West",
-        "Any direction"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0084"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Freely suspended magnet aligns?",
-      "options": [
-        "Any direction",
-        "North-East",
-        "East-West",
-        "North-South"
-      ],
-      "explanation": "Due to Earth's magnetic field, aligns N-S."
-    },
-    "hi": {
-      "question": "स्वतंत्र चुंबक रुकता है?",
-      "options": [
-        "Any direction",
-        "North-East",
-        "East-West",
-        "North-South"
-      ],
-      "explanation": "पृथ्वी के चुंबकीय क्षेत्र के कारण N-S दिशा में।"
-    },
-    "id": "gdspm-0085"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "A",
-        "Cannot determine",
-        "C",
-        "E"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "A",
-        "Cannot determine",
-        "C",
-        "E"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdspm-0086"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Complete series: 14, 16, 18, ?",
-      "options": [
-        "42",
-        "24",
-        "22",
-        "20"
-      ],
-      "explanation": "AP with d=2. Next = 20."
-    },
-    "hi": {
-      "question": "श्रृंखला पूरी करें: 14, 16, 18, ?",
-      "options": [
-        "42",
-        "24",
-        "22",
-        "20"
-      ],
-      "explanation": "समांतर श्रेणी, d=2। अगला = 20।"
-    },
-    "id": "gdspm-0087"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Complete series: 4, 10, 16, ?",
-      "options": [
-        "28",
-        "12",
-        "34",
-        "22"
-      ],
-      "explanation": "AP with d=6. Next = 22."
-    },
-    "hi": {
-      "question": "श्रृंखला पूरी करें: 4, 10, 16, ?",
-      "options": [
-        "28",
-        "12",
-        "34",
-        "22"
-      ],
-      "explanation": "समांतर श्रेणी, d=6। अगला = 22।"
-    },
-    "id": "gdspm-0088"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Complete series: 3, 13, 23, ?",
-      "options": [
-        "53",
-        "9",
-        "33",
-        "43"
-      ],
-      "explanation": "AP with d=10. Next = 33."
-    },
-    "hi": {
-      "question": "श्रृंखला पूरी करें: 3, 13, 23, ?",
-      "options": [
-        "53",
-        "9",
-        "33",
-        "43"
-      ],
-      "explanation": "समांतर श्रेणी, d=10। अगला = 33।"
-    },
-    "id": "gdspm-0089"
-  },
-  {
+    "id": "gdspm-0070",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "If + means ×, - means +, × means ÷, then 7 + 2 - 5 = ?",
+      "question": "Magnetic field lines emerge from?",
       "options": [
-        "2",
-        "9",
-        "12",
-        "19"
+        "Center",
+        "South pole",
+        "Both",
+        "North pole"
       ],
-      "explanation": "After substitution: 7×2+5 = 19."
+      "explanation": "Lines exit N pole, enter S pole outside magnet."
     },
     "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 7 + 2 - 5 = ?",
+      "question": "चुंबकीय क्षेत्र रेखाएं निकलती हैं?",
       "options": [
-        "2",
-        "9",
-        "12",
-        "19"
+        "Center",
+        "South pole",
+        "Both",
+        "North pole"
       ],
-      "explanation": "प्रतिस्थापन के बाद: 7×2+5 = 19।"
-    },
-    "id": "gdspm-0090"
+      "explanation": "रेखाएं चुंबक के बाहर N से निकलकर S में प्रवेश करती हैं।"
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Complete series: 16, 17, 18, ?",
-      "options": [
-        "20",
-        "19",
-        "48",
-        "21"
-      ],
-      "explanation": "AP with d=1. Next = 19."
-    },
-    "hi": {
-      "question": "श्रृंखला पूरी करें: 16, 17, 18, ?",
-      "options": [
-        "20",
-        "19",
-        "48",
-        "21"
-      ],
-      "explanation": "समांतर श्रेणी, d=1। अगला = 19।"
-    },
-    "id": "gdspm-0091"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "A",
-        "Cannot determine",
-        "C",
-        "E"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "A",
-        "Cannot determine",
-        "C",
-        "E"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdspm-0092"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "C",
-        "E",
-        "A",
-        "Cannot determine"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "C",
-        "E",
-        "A",
-        "Cannot determine"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdspm-0093"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Complete series: 15, 23, 31, ?",
-      "options": [
-        "45",
-        "47",
-        "39",
-        "55"
-      ],
-      "explanation": "AP with d=8. Next = 39."
-    },
-    "hi": {
-      "question": "श्रृंखला पूरी करें: 15, 23, 31, ?",
-      "options": [
-        "45",
-        "47",
-        "39",
-        "55"
-      ],
-      "explanation": "समांतर श्रेणी, d=8। अगला = 39।"
-    },
-    "id": "gdspm-0094"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Complete series: 8, 18, 28, ?",
-      "options": [
-        "48",
-        "38",
-        "24",
-        "58"
-      ],
-      "explanation": "AP with d=10. Next = 38."
-    },
-    "hi": {
-      "question": "श्रृंखला पूरी करें: 8, 18, 28, ?",
-      "options": [
-        "48",
-        "38",
-        "24",
-        "58"
-      ],
-      "explanation": "समांतर श्रेणी, d=10। अगला = 38।"
-    },
-    "id": "gdspm-0095"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Complete series: 8, 16, 24, ?",
-      "options": [
-        "48",
-        "40",
-        "24",
-        "32"
-      ],
-      "explanation": "AP with d=8. Next = 32."
-    },
-    "hi": {
-      "question": "श्रृंखला पूरी करें: 8, 16, 24, ?",
-      "options": [
-        "48",
-        "40",
-        "24",
-        "32"
-      ],
-      "explanation": "समांतर श्रेणी, d=8। अगला = 32।"
-    },
-    "id": "gdspm-0096"
-  },
-  {
+    "id": "gdspm-0071",
     "correctOption": "A",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 10, 17, 24, ?",
+      "question": "Solenoid with current acts like?",
       "options": [
-        "31",
-        "45",
-        "30",
-        "38"
+        "Bar magnet",
+        "Diode",
+        "Capacitor",
+        "Resistor"
       ],
-      "explanation": "AP with d=7. Next = 31."
+      "explanation": "Current-carrying solenoid = electromagnet (bar magnet)."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 10, 17, 24, ?",
+      "question": "धारावाही परिनालिका जैसी?",
       "options": [
-        "31",
-        "45",
-        "30",
-        "38"
+        "Bar magnet",
+        "Diode",
+        "Capacitor",
+        "Resistor"
       ],
-      "explanation": "समांतर श्रेणी, d=7। अगला = 31।"
-    },
-    "id": "gdspm-0097"
+      "explanation": "धारावाही परिनालिका = विद्युत चुंबक (छड़ चुंबक जैसी)।"
+    }
   },
   {
+    "id": "gdspm-0072",
     "correctOption": "B",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "Electricity-magnetism link discovered by?",
       "options": [
-        "A",
-        "Cannot determine",
-        "E",
-        "C"
+        "Faraday",
+        "Oersted",
+        "Maxwell",
+        "Ampere"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "Oersted (1820): current produces magnetic field."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "विद्युत-चुंबकत्व संबंध खोज?",
       "options": [
-        "A",
-        "Cannot determine",
-        "E",
-        "C"
+        "Faraday",
+        "Oersted",
+        "Maxwell",
+        "Ampere"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdspm-0098"
+      "explanation": "ओर्स्टेड (1820): धारा चुंबकीय क्षेत्र उत्पन्न करती है।"
+    }
   },
   {
+    "id": "gdspm-0073",
     "correctOption": "D",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "Freely suspended magnet points?",
       "options": [
-        "A",
-        "E",
-        "C",
-        "Cannot determine"
+        "Any",
+        "East-West",
+        "Up-Down",
+        "North-South"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "Earth magnetic field aligns magnet N-S."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "स्वतंत्र चुंबक दिशा?",
       "options": [
-        "A",
-        "E",
-        "C",
-        "Cannot determine"
+        "Any",
+        "East-West",
+        "Up-Down",
+        "North-South"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdspm-0099"
+      "explanation": "पृथ्वी का चुंबकीय क्षेत्र N-S दिशा में संरेखित करता है।"
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
+    "id": "gdspm-0074",
+    "correctOption": "C",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 15, 20, 25, ?",
+      "question": "Magnetic field lines emerge from?",
       "options": [
-        "40",
-        "30",
-        "35",
-        "45"
+        "South pole",
+        "Center",
+        "North pole",
+        "Both"
       ],
-      "explanation": "AP with d=5. Next = 30."
+      "explanation": "Lines exit N pole, enter S pole outside magnet."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 15, 20, 25, ?",
+      "question": "चुंबकीय क्षेत्र रेखाएं निकलती हैं?",
       "options": [
-        "40",
-        "30",
-        "35",
-        "45"
+        "South pole",
+        "Center",
+        "North pole",
+        "Both"
       ],
-      "explanation": "समांतर श्रेणी, d=5। अगला = 30।"
+      "explanation": "रेखाएं चुंबक के बाहर N से निकलकर S में प्रवेश करती हैं।"
+    }
+  },
+  {
+    "id": "gdspm-0075",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solenoid with current acts like?",
+      "options": [
+        "Resistor",
+        "Diode",
+        "Bar magnet",
+        "Capacitor"
+      ],
+      "explanation": "Current-carrying solenoid = electromagnet (bar magnet)."
     },
-    "id": "gdspm-0100"
+    "hi": {
+      "question": "धारावाही परिनालिका जैसी?",
+      "options": [
+        "Resistor",
+        "Diode",
+        "Bar magnet",
+        "Capacitor"
+      ],
+      "explanation": "धारावाही परिनालिका = विद्युत चुंबक (छड़ चुंबक जैसी)।"
+    }
+  },
+  {
+    "id": "gdspm-0076",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Electricity-magnetism link discovered by?",
+      "options": [
+        "Maxwell",
+        "Oersted",
+        "Ampere",
+        "Faraday"
+      ],
+      "explanation": "Oersted (1820): current produces magnetic field."
+    },
+    "hi": {
+      "question": "विद्युत-चुंबकत्व संबंध खोज?",
+      "options": [
+        "Maxwell",
+        "Oersted",
+        "Ampere",
+        "Faraday"
+      ],
+      "explanation": "ओर्स्टेड (1820): धारा चुंबकीय क्षेत्र उत्पन्न करती है।"
+    }
+  },
+  {
+    "id": "gdspm-0077",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Freely suspended magnet points?",
+      "options": [
+        "Up-Down",
+        "North-South",
+        "East-West",
+        "Any"
+      ],
+      "explanation": "Earth magnetic field aligns magnet N-S."
+    },
+    "hi": {
+      "question": "स्वतंत्र चुंबक दिशा?",
+      "options": [
+        "Up-Down",
+        "North-South",
+        "East-West",
+        "Any"
+      ],
+      "explanation": "पृथ्वी का चुंबकीय क्षेत्र N-S दिशा में संरेखित करता है।"
+    }
+  },
+  {
+    "id": "gdspm-0078",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Magnetic field lines emerge from?",
+      "options": [
+        "Both",
+        "Center",
+        "South pole",
+        "North pole"
+      ],
+      "explanation": "Lines exit N pole, enter S pole outside magnet."
+    },
+    "hi": {
+      "question": "चुंबकीय क्षेत्र रेखाएं निकलती हैं?",
+      "options": [
+        "Both",
+        "Center",
+        "South pole",
+        "North pole"
+      ],
+      "explanation": "रेखाएं चुंबक के बाहर N से निकलकर S में प्रवेश करती हैं।"
+    }
+  },
+  {
+    "id": "gdspm-0079",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solenoid with current acts like?",
+      "options": [
+        "Capacitor",
+        "Diode",
+        "Resistor",
+        "Bar magnet"
+      ],
+      "explanation": "Current-carrying solenoid = electromagnet (bar magnet)."
+    },
+    "hi": {
+      "question": "धारावाही परिनालिका जैसी?",
+      "options": [
+        "Capacitor",
+        "Diode",
+        "Resistor",
+        "Bar magnet"
+      ],
+      "explanation": "धारावाही परिनालिका = विद्युत चुंबक (छड़ चुंबक जैसी)।"
+    }
+  },
+  {
+    "id": "gdspm-0080",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Electricity-magnetism link discovered by?",
+      "options": [
+        "Faraday",
+        "Maxwell",
+        "Ampere",
+        "Oersted"
+      ],
+      "explanation": "Oersted (1820): current produces magnetic field."
+    },
+    "hi": {
+      "question": "विद्युत-चुंबकत्व संबंध खोज?",
+      "options": [
+        "Faraday",
+        "Maxwell",
+        "Ampere",
+        "Oersted"
+      ],
+      "explanation": "ओर्स्टेड (1820): धारा चुंबकीय क्षेत्र उत्पन्न करती है।"
+    }
+  },
+  {
+    "id": "gdspm-0081",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Freely suspended magnet points?",
+      "options": [
+        "North-South",
+        "Any",
+        "East-West",
+        "Up-Down"
+      ],
+      "explanation": "Earth magnetic field aligns magnet N-S."
+    },
+    "hi": {
+      "question": "स्वतंत्र चुंबक दिशा?",
+      "options": [
+        "North-South",
+        "Any",
+        "East-West",
+        "Up-Down"
+      ],
+      "explanation": "पृथ्वी का चुंबकीय क्षेत्र N-S दिशा में संरेखित करता है।"
+    }
+  },
+  {
+    "id": "gdspm-0082",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Magnetic field lines emerge from?",
+      "options": [
+        "Both",
+        "North pole",
+        "Center",
+        "South pole"
+      ],
+      "explanation": "Lines exit N pole, enter S pole outside magnet."
+    },
+    "hi": {
+      "question": "चुंबकीय क्षेत्र रेखाएं निकलती हैं?",
+      "options": [
+        "Both",
+        "North pole",
+        "Center",
+        "South pole"
+      ],
+      "explanation": "रेखाएं चुंबक के बाहर N से निकलकर S में प्रवेश करती हैं।"
+    }
+  },
+  {
+    "id": "gdspm-0083",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solenoid with current acts like?",
+      "options": [
+        "Resistor",
+        "Bar magnet",
+        "Diode",
+        "Capacitor"
+      ],
+      "explanation": "Current-carrying solenoid = electromagnet (bar magnet)."
+    },
+    "hi": {
+      "question": "धारावाही परिनालिका जैसी?",
+      "options": [
+        "Resistor",
+        "Bar magnet",
+        "Diode",
+        "Capacitor"
+      ],
+      "explanation": "धारावाही परिनालिका = विद्युत चुंबक (छड़ चुंबक जैसी)।"
+    }
+  },
+  {
+    "id": "gdspm-0084",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Electricity-magnetism link discovered by?",
+      "options": [
+        "Oersted",
+        "Maxwell",
+        "Faraday",
+        "Ampere"
+      ],
+      "explanation": "Oersted (1820): current produces magnetic field."
+    },
+    "hi": {
+      "question": "विद्युत-चुंबकत्व संबंध खोज?",
+      "options": [
+        "Oersted",
+        "Maxwell",
+        "Faraday",
+        "Ampere"
+      ],
+      "explanation": "ओर्स्टेड (1820): धारा चुंबकीय क्षेत्र उत्पन्न करती है।"
+    }
+  },
+  {
+    "id": "gdspm-0085",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Freely suspended magnet points?",
+      "options": [
+        "North-South",
+        "Up-Down",
+        "East-West",
+        "Any"
+      ],
+      "explanation": "Earth magnetic field aligns magnet N-S."
+    },
+    "hi": {
+      "question": "स्वतंत्र चुंबक दिशा?",
+      "options": [
+        "North-South",
+        "Up-Down",
+        "East-West",
+        "Any"
+      ],
+      "explanation": "पृथ्वी का चुंबकीय क्षेत्र N-S दिशा में संरेखित करता है।"
+    }
+  },
+  {
+    "id": "gdspm-0086",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Magnetic field lines emerge from?",
+      "options": [
+        "Both",
+        "Center",
+        "North pole",
+        "South pole"
+      ],
+      "explanation": "Lines exit N pole, enter S pole outside magnet."
+    },
+    "hi": {
+      "question": "चुंबकीय क्षेत्र रेखाएं निकलती हैं?",
+      "options": [
+        "Both",
+        "Center",
+        "North pole",
+        "South pole"
+      ],
+      "explanation": "रेखाएं चुंबक के बाहर N से निकलकर S में प्रवेश करती हैं।"
+    }
+  },
+  {
+    "id": "gdspm-0087",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solenoid with current acts like?",
+      "options": [
+        "Diode",
+        "Resistor",
+        "Bar magnet",
+        "Capacitor"
+      ],
+      "explanation": "Current-carrying solenoid = electromagnet (bar magnet)."
+    },
+    "hi": {
+      "question": "धारावाही परिनालिका जैसी?",
+      "options": [
+        "Diode",
+        "Resistor",
+        "Bar magnet",
+        "Capacitor"
+      ],
+      "explanation": "धारावाही परिनालिका = विद्युत चुंबक (छड़ चुंबक जैसी)।"
+    }
+  },
+  {
+    "id": "gdspm-0088",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Electricity-magnetism link discovered by?",
+      "options": [
+        "Faraday",
+        "Ampere",
+        "Oersted",
+        "Maxwell"
+      ],
+      "explanation": "Oersted (1820): current produces magnetic field."
+    },
+    "hi": {
+      "question": "विद्युत-चुंबकत्व संबंध खोज?",
+      "options": [
+        "Faraday",
+        "Ampere",
+        "Oersted",
+        "Maxwell"
+      ],
+      "explanation": "ओर्स्टेड (1820): धारा चुंबकीय क्षेत्र उत्पन्न करती है।"
+    }
+  },
+  {
+    "id": "gdspm-0089",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Freely suspended magnet points?",
+      "options": [
+        "East-West",
+        "North-South",
+        "Any",
+        "Up-Down"
+      ],
+      "explanation": "Earth magnetic field aligns magnet N-S."
+    },
+    "hi": {
+      "question": "स्वतंत्र चुंबक दिशा?",
+      "options": [
+        "East-West",
+        "North-South",
+        "Any",
+        "Up-Down"
+      ],
+      "explanation": "पृथ्वी का चुंबकीय क्षेत्र N-S दिशा में संरेखित करता है।"
+    }
+  },
+  {
+    "id": "gdspm-0090",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Magnetic field lines emerge from?",
+      "options": [
+        "South pole",
+        "Center",
+        "Both",
+        "North pole"
+      ],
+      "explanation": "Lines exit N pole, enter S pole outside magnet."
+    },
+    "hi": {
+      "question": "चुंबकीय क्षेत्र रेखाएं निकलती हैं?",
+      "options": [
+        "South pole",
+        "Center",
+        "Both",
+        "North pole"
+      ],
+      "explanation": "रेखाएं चुंबक के बाहर N से निकलकर S में प्रवेश करती हैं।"
+    }
+  },
+  {
+    "id": "gdspm-0091",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solenoid with current acts like?",
+      "options": [
+        "Diode",
+        "Resistor",
+        "Bar magnet",
+        "Capacitor"
+      ],
+      "explanation": "Current-carrying solenoid = electromagnet (bar magnet)."
+    },
+    "hi": {
+      "question": "धारावाही परिनालिका जैसी?",
+      "options": [
+        "Diode",
+        "Resistor",
+        "Bar magnet",
+        "Capacitor"
+      ],
+      "explanation": "धारावाही परिनालिका = विद्युत चुंबक (छड़ चुंबक जैसी)।"
+    }
+  },
+  {
+    "id": "gdspm-0092",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Electricity-magnetism link discovered by?",
+      "options": [
+        "Maxwell",
+        "Oersted",
+        "Ampere",
+        "Faraday"
+      ],
+      "explanation": "Oersted (1820): current produces magnetic field."
+    },
+    "hi": {
+      "question": "विद्युत-चुंबकत्व संबंध खोज?",
+      "options": [
+        "Maxwell",
+        "Oersted",
+        "Ampere",
+        "Faraday"
+      ],
+      "explanation": "ओर्स्टेड (1820): धारा चुंबकीय क्षेत्र उत्पन्न करती है।"
+    }
+  },
+  {
+    "id": "gdspm-0093",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Freely suspended magnet points?",
+      "options": [
+        "Up-Down",
+        "North-South",
+        "Any",
+        "East-West"
+      ],
+      "explanation": "Earth magnetic field aligns magnet N-S."
+    },
+    "hi": {
+      "question": "स्वतंत्र चुंबक दिशा?",
+      "options": [
+        "Up-Down",
+        "North-South",
+        "Any",
+        "East-West"
+      ],
+      "explanation": "पृथ्वी का चुंबकीय क्षेत्र N-S दिशा में संरेखित करता है।"
+    }
+  },
+  {
+    "id": "gdspm-0094",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Magnetic field lines emerge from?",
+      "options": [
+        "Center",
+        "Both",
+        "South pole",
+        "North pole"
+      ],
+      "explanation": "Lines exit N pole, enter S pole outside magnet."
+    },
+    "hi": {
+      "question": "चुंबकीय क्षेत्र रेखाएं निकलती हैं?",
+      "options": [
+        "Center",
+        "Both",
+        "South pole",
+        "North pole"
+      ],
+      "explanation": "रेखाएं चुंबक के बाहर N से निकलकर S में प्रवेश करती हैं।"
+    }
+  },
+  {
+    "id": "gdspm-0095",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solenoid with current acts like?",
+      "options": [
+        "Diode",
+        "Capacitor",
+        "Bar magnet",
+        "Resistor"
+      ],
+      "explanation": "Current-carrying solenoid = electromagnet (bar magnet)."
+    },
+    "hi": {
+      "question": "धारावाही परिनालिका जैसी?",
+      "options": [
+        "Diode",
+        "Capacitor",
+        "Bar magnet",
+        "Resistor"
+      ],
+      "explanation": "धारावाही परिनालिका = विद्युत चुंबक (छड़ चुंबक जैसी)।"
+    }
+  },
+  {
+    "id": "gdspm-0096",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Electricity-magnetism link discovered by?",
+      "options": [
+        "Oersted",
+        "Maxwell",
+        "Ampere",
+        "Faraday"
+      ],
+      "explanation": "Oersted (1820): current produces magnetic field."
+    },
+    "hi": {
+      "question": "विद्युत-चुंबकत्व संबंध खोज?",
+      "options": [
+        "Oersted",
+        "Maxwell",
+        "Ampere",
+        "Faraday"
+      ],
+      "explanation": "ओर्स्टेड (1820): धारा चुंबकीय क्षेत्र उत्पन्न करती है।"
+    }
+  },
+  {
+    "id": "gdspm-0097",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Freely suspended magnet points?",
+      "options": [
+        "North-South",
+        "Up-Down",
+        "Any",
+        "East-West"
+      ],
+      "explanation": "Earth magnetic field aligns magnet N-S."
+    },
+    "hi": {
+      "question": "स्वतंत्र चुंबक दिशा?",
+      "options": [
+        "North-South",
+        "Up-Down",
+        "Any",
+        "East-West"
+      ],
+      "explanation": "पृथ्वी का चुंबकीय क्षेत्र N-S दिशा में संरेखित करता है।"
+    }
+  },
+  {
+    "id": "gdspm-0098",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Magnetic field lines emerge from?",
+      "options": [
+        "Both",
+        "North pole",
+        "South pole",
+        "Center"
+      ],
+      "explanation": "Lines exit N pole, enter S pole outside magnet."
+    },
+    "hi": {
+      "question": "चुंबकीय क्षेत्र रेखाएं निकलती हैं?",
+      "options": [
+        "Both",
+        "North pole",
+        "South pole",
+        "Center"
+      ],
+      "explanation": "रेखाएं चुंबक के बाहर N से निकलकर S में प्रवेश करती हैं।"
+    }
+  },
+  {
+    "id": "gdspm-0099",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solenoid with current acts like?",
+      "options": [
+        "Resistor",
+        "Diode",
+        "Capacitor",
+        "Bar magnet"
+      ],
+      "explanation": "Current-carrying solenoid = electromagnet (bar magnet)."
+    },
+    "hi": {
+      "question": "धारावाही परिनालिका जैसी?",
+      "options": [
+        "Resistor",
+        "Diode",
+        "Capacitor",
+        "Bar magnet"
+      ],
+      "explanation": "धारावाही परिनालिका = विद्युत चुंबक (छड़ चुंबक जैसी)।"
+    }
+  },
+  {
+    "id": "gdspm-0100",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Electricity-magnetism link discovered by?",
+      "options": [
+        "Faraday",
+        "Ampere",
+        "Maxwell",
+        "Oersted"
+      ],
+      "explanation": "Oersted (1820): current produces magnetic field."
+    },
+    "hi": {
+      "question": "विद्युत-चुंबकत्व संबंध खोज?",
+      "options": [
+        "Faraday",
+        "Ampere",
+        "Maxwell",
+        "Oersted"
+      ],
+      "explanation": "ओर्स्टेड (1820): धारा चुंबकीय क्षेत्र उत्पन्न करती है।"
+    }
+  },
+  {
+    "id": "gdspm-0101",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Freely suspended magnet points?",
+      "options": [
+        "Up-Down",
+        "East-West",
+        "North-South",
+        "Any"
+      ],
+      "explanation": "Earth magnetic field aligns magnet N-S."
+    },
+    "hi": {
+      "question": "स्वतंत्र चुंबक दिशा?",
+      "options": [
+        "Up-Down",
+        "East-West",
+        "North-South",
+        "Any"
+      ],
+      "explanation": "पृथ्वी का चुंबकीय क्षेत्र N-S दिशा में संरेखित करता है।"
+    }
+  },
+  {
+    "id": "gdspm-0102",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Magnetic field lines emerge from?",
+      "options": [
+        "Both",
+        "South pole",
+        "Center",
+        "North pole"
+      ],
+      "explanation": "Lines exit N pole, enter S pole outside magnet."
+    },
+    "hi": {
+      "question": "चुंबकीय क्षेत्र रेखाएं निकलती हैं?",
+      "options": [
+        "Both",
+        "South pole",
+        "Center",
+        "North pole"
+      ],
+      "explanation": "रेखाएं चुंबक के बाहर N से निकलकर S में प्रवेश करती हैं।"
+    }
+  },
+  {
+    "id": "gdspm-0103",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solenoid with current acts like?",
+      "options": [
+        "Diode",
+        "Capacitor",
+        "Bar magnet",
+        "Resistor"
+      ],
+      "explanation": "Current-carrying solenoid = electromagnet (bar magnet)."
+    },
+    "hi": {
+      "question": "धारावाही परिनालिका जैसी?",
+      "options": [
+        "Diode",
+        "Capacitor",
+        "Bar magnet",
+        "Resistor"
+      ],
+      "explanation": "धारावाही परिनालिका = विद्युत चुंबक (छड़ चुंबक जैसी)।"
+    }
+  },
+  {
+    "id": "gdspm-0104",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Electricity-magnetism link discovered by?",
+      "options": [
+        "Faraday",
+        "Oersted",
+        "Ampere",
+        "Maxwell"
+      ],
+      "explanation": "Oersted (1820): current produces magnetic field."
+    },
+    "hi": {
+      "question": "विद्युत-चुंबकत्व संबंध खोज?",
+      "options": [
+        "Faraday",
+        "Oersted",
+        "Ampere",
+        "Maxwell"
+      ],
+      "explanation": "ओर्स्टेड (1820): धारा चुंबकीय क्षेत्र उत्पन्न करती है।"
+    }
+  },
+  {
+    "id": "gdspm-0105",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Freely suspended magnet points?",
+      "options": [
+        "East-West",
+        "North-South",
+        "Up-Down",
+        "Any"
+      ],
+      "explanation": "Earth magnetic field aligns magnet N-S."
+    },
+    "hi": {
+      "question": "स्वतंत्र चुंबक दिशा?",
+      "options": [
+        "East-West",
+        "North-South",
+        "Up-Down",
+        "Any"
+      ],
+      "explanation": "पृथ्वी का चुंबकीय क्षेत्र N-S दिशा में संरेखित करता है।"
+    }
+  },
+  {
+    "id": "gdspm-0106",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Magnetic field lines emerge from?",
+      "options": [
+        "Both",
+        "North pole",
+        "Center",
+        "South pole"
+      ],
+      "explanation": "Lines exit N pole, enter S pole outside magnet."
+    },
+    "hi": {
+      "question": "चुंबकीय क्षेत्र रेखाएं निकलती हैं?",
+      "options": [
+        "Both",
+        "North pole",
+        "Center",
+        "South pole"
+      ],
+      "explanation": "रेखाएं चुंबक के बाहर N से निकलकर S में प्रवेश करती हैं।"
+    }
+  },
+  {
+    "id": "gdspm-0107",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solenoid with current acts like?",
+      "options": [
+        "Capacitor",
+        "Diode",
+        "Resistor",
+        "Bar magnet"
+      ],
+      "explanation": "Current-carrying solenoid = electromagnet (bar magnet)."
+    },
+    "hi": {
+      "question": "धारावाही परिनालिका जैसी?",
+      "options": [
+        "Capacitor",
+        "Diode",
+        "Resistor",
+        "Bar magnet"
+      ],
+      "explanation": "धारावाही परिनालिका = विद्युत चुंबक (छड़ चुंबक जैसी)।"
+    }
+  },
+  {
+    "id": "gdspm-0108",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Electricity-magnetism link discovered by?",
+      "options": [
+        "Ampere",
+        "Oersted",
+        "Faraday",
+        "Maxwell"
+      ],
+      "explanation": "Oersted (1820): current produces magnetic field."
+    },
+    "hi": {
+      "question": "विद्युत-चुंबकत्व संबंध खोज?",
+      "options": [
+        "Ampere",
+        "Oersted",
+        "Faraday",
+        "Maxwell"
+      ],
+      "explanation": "ओर्स्टेड (1820): धारा चुंबकीय क्षेत्र उत्पन्न करती है।"
+    }
+  },
+  {
+    "id": "gdspm-0109",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Freely suspended magnet points?",
+      "options": [
+        "Up-Down",
+        "East-West",
+        "North-South",
+        "Any"
+      ],
+      "explanation": "Earth magnetic field aligns magnet N-S."
+    },
+    "hi": {
+      "question": "स्वतंत्र चुंबक दिशा?",
+      "options": [
+        "Up-Down",
+        "East-West",
+        "North-South",
+        "Any"
+      ],
+      "explanation": "पृथ्वी का चुंबकीय क्षेत्र N-S दिशा में संरेखित करता है।"
+    }
+  },
+  {
+    "id": "gdspm-0110",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Magnetic field lines emerge from?",
+      "options": [
+        "Both",
+        "North pole",
+        "South pole",
+        "Center"
+      ],
+      "explanation": "Lines exit N pole, enter S pole outside magnet."
+    },
+    "hi": {
+      "question": "चुंबकीय क्षेत्र रेखाएं निकलती हैं?",
+      "options": [
+        "Both",
+        "North pole",
+        "South pole",
+        "Center"
+      ],
+      "explanation": "रेखाएं चुंबक के बाहर N से निकलकर S में प्रवेश करती हैं।"
+    }
+  },
+  {
+    "id": "gdspm-0111",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solenoid with current acts like?",
+      "options": [
+        "Diode",
+        "Capacitor",
+        "Resistor",
+        "Bar magnet"
+      ],
+      "explanation": "Current-carrying solenoid = electromagnet (bar magnet)."
+    },
+    "hi": {
+      "question": "धारावाही परिनालिका जैसी?",
+      "options": [
+        "Diode",
+        "Capacitor",
+        "Resistor",
+        "Bar magnet"
+      ],
+      "explanation": "धारावाही परिनालिका = विद्युत चुंबक (छड़ चुंबक जैसी)।"
+    }
+  },
+  {
+    "id": "gdspm-0112",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Electricity-magnetism link discovered by?",
+      "options": [
+        "Faraday",
+        "Ampere",
+        "Oersted",
+        "Maxwell"
+      ],
+      "explanation": "Oersted (1820): current produces magnetic field."
+    },
+    "hi": {
+      "question": "विद्युत-चुंबकत्व संबंध खोज?",
+      "options": [
+        "Faraday",
+        "Ampere",
+        "Oersted",
+        "Maxwell"
+      ],
+      "explanation": "ओर्स्टेड (1820): धारा चुंबकीय क्षेत्र उत्पन्न करती है।"
+    }
+  },
+  {
+    "id": "gdspm-0113",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Freely suspended magnet points?",
+      "options": [
+        "Up-Down",
+        "East-West",
+        "North-South",
+        "Any"
+      ],
+      "explanation": "Earth magnetic field aligns magnet N-S."
+    },
+    "hi": {
+      "question": "स्वतंत्र चुंबक दिशा?",
+      "options": [
+        "Up-Down",
+        "East-West",
+        "North-South",
+        "Any"
+      ],
+      "explanation": "पृथ्वी का चुंबकीय क्षेत्र N-S दिशा में संरेखित करता है।"
+    }
+  },
+  {
+    "id": "gdspm-0114",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Magnetic field lines emerge from?",
+      "options": [
+        "North pole",
+        "Center",
+        "Both",
+        "South pole"
+      ],
+      "explanation": "Lines exit N pole, enter S pole outside magnet."
+    },
+    "hi": {
+      "question": "चुंबकीय क्षेत्र रेखाएं निकलती हैं?",
+      "options": [
+        "North pole",
+        "Center",
+        "Both",
+        "South pole"
+      ],
+      "explanation": "रेखाएं चुंबक के बाहर N से निकलकर S में प्रवेश करती हैं।"
+    }
+  },
+  {
+    "id": "gdspm-0115",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solenoid with current acts like?",
+      "options": [
+        "Capacitor",
+        "Bar magnet",
+        "Resistor",
+        "Diode"
+      ],
+      "explanation": "Current-carrying solenoid = electromagnet (bar magnet)."
+    },
+    "hi": {
+      "question": "धारावाही परिनालिका जैसी?",
+      "options": [
+        "Capacitor",
+        "Bar magnet",
+        "Resistor",
+        "Diode"
+      ],
+      "explanation": "धारावाही परिनालिका = विद्युत चुंबक (छड़ चुंबक जैसी)।"
+    }
+  },
+  {
+    "id": "gdspm-0116",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Electricity-magnetism link discovered by?",
+      "options": [
+        "Faraday",
+        "Maxwell",
+        "Ampere",
+        "Oersted"
+      ],
+      "explanation": "Oersted (1820): current produces magnetic field."
+    },
+    "hi": {
+      "question": "विद्युत-चुंबकत्व संबंध खोज?",
+      "options": [
+        "Faraday",
+        "Maxwell",
+        "Ampere",
+        "Oersted"
+      ],
+      "explanation": "ओर्स्टेड (1820): धारा चुंबकीय क्षेत्र उत्पन्न करती है।"
+    }
+  },
+  {
+    "id": "gdspm-0117",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Freely suspended magnet points?",
+      "options": [
+        "Any",
+        "Up-Down",
+        "East-West",
+        "North-South"
+      ],
+      "explanation": "Earth magnetic field aligns magnet N-S."
+    },
+    "hi": {
+      "question": "स्वतंत्र चुंबक दिशा?",
+      "options": [
+        "Any",
+        "Up-Down",
+        "East-West",
+        "North-South"
+      ],
+      "explanation": "पृथ्वी का चुंबकीय क्षेत्र N-S दिशा में संरेखित करता है।"
+    }
+  },
+  {
+    "id": "gdspm-0118",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Magnetic field lines emerge from?",
+      "options": [
+        "South pole",
+        "Both",
+        "North pole",
+        "Center"
+      ],
+      "explanation": "Lines exit N pole, enter S pole outside magnet."
+    },
+    "hi": {
+      "question": "चुंबकीय क्षेत्र रेखाएं निकलती हैं?",
+      "options": [
+        "South pole",
+        "Both",
+        "North pole",
+        "Center"
+      ],
+      "explanation": "रेखाएं चुंबक के बाहर N से निकलकर S में प्रवेश करती हैं।"
+    }
+  },
+  {
+    "id": "gdspm-0119",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solenoid with current acts like?",
+      "options": [
+        "Diode",
+        "Bar magnet",
+        "Capacitor",
+        "Resistor"
+      ],
+      "explanation": "Current-carrying solenoid = electromagnet (bar magnet)."
+    },
+    "hi": {
+      "question": "धारावाही परिनालिका जैसी?",
+      "options": [
+        "Diode",
+        "Bar magnet",
+        "Capacitor",
+        "Resistor"
+      ],
+      "explanation": "धारावाही परिनालिका = विद्युत चुंबक (छड़ चुंबक जैसी)।"
+    }
+  },
+  {
+    "id": "gdspm-0120",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Electricity-magnetism link discovered by?",
+      "options": [
+        "Faraday",
+        "Ampere",
+        "Oersted",
+        "Maxwell"
+      ],
+      "explanation": "Oersted (1820): current produces magnetic field."
+    },
+    "hi": {
+      "question": "विद्युत-चुंबकत्व संबंध खोज?",
+      "options": [
+        "Faraday",
+        "Ampere",
+        "Oersted",
+        "Maxwell"
+      ],
+      "explanation": "ओर्स्टेड (1820): धारा चुंबकीय क्षेत्र उत्पन्न करती है।"
+    }
+  },
+  {
+    "id": "gdspm-0121",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Freely suspended magnet points?",
+      "options": [
+        "Up-Down",
+        "Any",
+        "East-West",
+        "North-South"
+      ],
+      "explanation": "Earth magnetic field aligns magnet N-S."
+    },
+    "hi": {
+      "question": "स्वतंत्र चुंबक दिशा?",
+      "options": [
+        "Up-Down",
+        "Any",
+        "East-West",
+        "North-South"
+      ],
+      "explanation": "पृथ्वी का चुंबकीय क्षेत्र N-S दिशा में संरेखित करता है।"
+    }
+  },
+  {
+    "id": "gdspm-0122",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Magnetic field lines emerge from?",
+      "options": [
+        "Center",
+        "Both",
+        "North pole",
+        "South pole"
+      ],
+      "explanation": "Lines exit N pole, enter S pole outside magnet."
+    },
+    "hi": {
+      "question": "चुंबकीय क्षेत्र रेखाएं निकलती हैं?",
+      "options": [
+        "Center",
+        "Both",
+        "North pole",
+        "South pole"
+      ],
+      "explanation": "रेखाएं चुंबक के बाहर N से निकलकर S में प्रवेश करती हैं।"
+    }
+  },
+  {
+    "id": "gdspm-0123",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solenoid with current acts like?",
+      "options": [
+        "Resistor",
+        "Bar magnet",
+        "Diode",
+        "Capacitor"
+      ],
+      "explanation": "Current-carrying solenoid = electromagnet (bar magnet)."
+    },
+    "hi": {
+      "question": "धारावाही परिनालिका जैसी?",
+      "options": [
+        "Resistor",
+        "Bar magnet",
+        "Diode",
+        "Capacitor"
+      ],
+      "explanation": "धारावाही परिनालिका = विद्युत चुंबक (छड़ चुंबक जैसी)।"
+    }
+  },
+  {
+    "id": "gdspm-0124",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Electricity-magnetism link discovered by?",
+      "options": [
+        "Oersted",
+        "Ampere",
+        "Maxwell",
+        "Faraday"
+      ],
+      "explanation": "Oersted (1820): current produces magnetic field."
+    },
+    "hi": {
+      "question": "विद्युत-चुंबकत्व संबंध खोज?",
+      "options": [
+        "Oersted",
+        "Ampere",
+        "Maxwell",
+        "Faraday"
+      ],
+      "explanation": "ओर्स्टेड (1820): धारा चुंबकीय क्षेत्र उत्पन्न करती है।"
+    }
+  },
+  {
+    "id": "gdspm-0125",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Freely suspended magnet points?",
+      "options": [
+        "East-West",
+        "North-South",
+        "Any",
+        "Up-Down"
+      ],
+      "explanation": "Earth magnetic field aligns magnet N-S."
+    },
+    "hi": {
+      "question": "स्वतंत्र चुंबक दिशा?",
+      "options": [
+        "East-West",
+        "North-South",
+        "Any",
+        "Up-Down"
+      ],
+      "explanation": "पृथ्वी का चुंबकीय क्षेत्र N-S दिशा में संरेखित करता है।"
+    }
   }
 ]

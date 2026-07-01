@@ -1408,32 +1408,6 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Father 59, son 15. After how many years father twice son age?",
-      "options": [
-        "15",
-        "44",
-        "74",
-        "29"
-      ],
-      "explanation": "59+x=2(15+x). 59+x=30+2x. x=29."
-    },
-    "hi": {
-      "question": "पिता 59, पुत्र 15। कितने वर्ष बाद पिता पुत्र से दोगुना?",
-      "options": [
-        "15",
-        "44",
-        "74",
-        "29"
-      ],
-      "explanation": "59+x=2(15+x)। x=29 वर्ष।"
-    },
-    "id": "nmap-0055"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
       "question": "Father 31, son 15. After how many years father twice son age?",
       "options": [
         "16",
@@ -1690,32 +1664,6 @@
     "id": "nmap-0065"
   },
   {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Father 43, son 9. After how many years father twice son age?",
-      "options": [
-        "34",
-        "9",
-        "25",
-        "52"
-      ],
-      "explanation": "43+x=2(9+x). 43+x=18+2x. x=25."
-    },
-    "hi": {
-      "question": "पिता 43, पुत्र 9। कितने वर्ष बाद पिता पुत्र से दोगुना?",
-      "options": [
-        "34",
-        "9",
-        "25",
-        "52"
-      ],
-      "explanation": "43+x=2(9+x)। x=25 वर्ष।"
-    },
-    "id": "nmap-0066"
-  },
-  {
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
@@ -1846,32 +1794,6 @@
     "id": "nmap-0071"
   },
   {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Father 54, son 13. After how many years father twice son age?",
-      "options": [
-        "67",
-        "13",
-        "28",
-        "41"
-      ],
-      "explanation": "54+x=2(13+x). 54+x=26+2x. x=28."
-    },
-    "hi": {
-      "question": "पिता 54, पुत्र 13। कितने वर्ष बाद पिता पुत्र से दोगुना?",
-      "options": [
-        "67",
-        "13",
-        "28",
-        "41"
-      ],
-      "explanation": "54+x=2(13+x)। x=28 वर्ष।"
-    },
-    "id": "nmap-0072"
-  },
-  {
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
@@ -1922,32 +1844,6 @@
       "explanation": "50+x=2(18+x)। x=14 वर्ष।"
     },
     "id": "nmap-0074"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Father 43, son 8. After how many years father twice son age?",
-      "options": [
-        "27",
-        "51",
-        "8",
-        "35"
-      ],
-      "explanation": "43+x=2(8+x). 43+x=16+2x. x=27."
-    },
-    "hi": {
-      "question": "पिता 43, पुत्र 8। कितने वर्ष बाद पिता पुत्र से दोगुना?",
-      "options": [
-        "27",
-        "51",
-        "8",
-        "35"
-      ],
-      "explanation": "43+x=2(8+x)। x=27 वर्ष।"
-    },
-    "id": "nmap-0075"
   },
   {
     "correctOption": "D",
@@ -2598,5 +2494,109 @@
       "explanation": "80×9/100=72।"
     },
     "id": "nmap-0100"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 7 × 39?",
+      "options": [
+        "281",
+        "271",
+        "273",
+        "46"
+      ],
+      "explanation": "7×39 = 273."
+    },
+    "hi": {
+      "question": "7 × 39 = ?",
+      "options": [
+        "281",
+        "271",
+        "273",
+        "46"
+      ],
+      "explanation": "7×39 = 273।"
+    },
+    "id": "nmap-0101"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 20 × 15?",
+      "options": [
+        "35",
+        "300",
+        "317",
+        "297"
+      ],
+      "explanation": "20×15 = 300."
+    },
+    "hi": {
+      "question": "20 × 15 = ?",
+      "options": [
+        "35",
+        "300",
+        "317",
+        "297"
+      ],
+      "explanation": "20×15 = 300।"
+    },
+    "id": "nmap-0102"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 5 × 8?",
+      "options": [
+        "13",
+        "40",
+        "30",
+        "49"
+      ],
+      "explanation": "5×8 = 40."
+    },
+    "hi": {
+      "question": "5 × 8 = ?",
+      "options": [
+        "13",
+        "40",
+        "30",
+        "49"
+      ],
+      "explanation": "5×8 = 40।"
+    },
+    "id": "nmap-0103"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 40 × 30?",
+      "options": [
+        "1211",
+        "1186",
+        "70",
+        "1200"
+      ],
+      "explanation": "40×30 = 1200."
+    },
+    "hi": {
+      "question": "40 × 30 = ?",
+      "options": [
+        "1211",
+        "1186",
+        "70",
+        "1200"
+      ],
+      "explanation": "40×30 = 1200।"
+    },
+    "id": "nmap-0104"
   }
 ]

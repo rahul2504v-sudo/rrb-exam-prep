@@ -1,54 +1,54 @@
 [
   {
     "id": "gdscabs-0001",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "Which is a strong acid?",
+      "question": "Acids taste:",
       "options": [
-        "Acetic acid",
-        "Citric acid",
-        "Hydrochloric acid",
-        "Carbonic acid"
+        "Sweet",
+        "Sour",
+        "Bitter",
+        "Salty"
       ],
-      "explanation": "HCl completely dissociates in water. Acetic, citric, carbonic are weak acids."
+      "explanation": "Acids have sour taste (e.g., citric acid in lemon, acetic acid in vinegar)."
     },
     "hi": {
-      "question": "कौन सा प्रबल अम्ल है?",
+      "question": "अम्ल का स्वाद:",
       "options": [
-        "एसिटिक अम्ल",
-        "सिट्रिक अम्ल",
-        "हाइड्रोक्लोरिक अम्ल",
-        "कार्बोनिक अम्ल"
+        "मीठा",
+        "खट्टा",
+        "कड़वा",
+        "नमकीन"
       ],
-      "explanation": "HCl पानी में पूर्णतः वियोजित होता है। एसिटिक, सिट्रिक, कार्बोनिक दुर्बल अम्ल हैं।"
+      "explanation": "अम्ल खट्टे होते हैं (नींबू में साइट्रिक, सिरका में एसिटिक)।"
     }
   },
   {
     "id": "gdscabs-0002",
     "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "pH value of neutral solution?",
+      "question": "Bases taste:",
       "options": [
-        "0",
-        "1",
-        "7",
-        "14"
+        "Sour",
+        "Sweet",
+        "Bitter",
+        "Salty"
       ],
-      "explanation": "Neutral solution has pH 7. Pure water is neutral. Below 7 acidic, above 7 basic."
+      "explanation": "Bases are bitter and feel soapy/slippery."
     },
     "hi": {
-      "question": "उदासीन विलयन का pH मान?",
+      "question": "क्षार का स्वाद:",
       "options": [
-        "0",
-        "1",
-        "7",
-        "14"
+        "खट्टा",
+        "मीठा",
+        "कड़वा",
+        "नमकीन"
       ],
-      "explanation": "उदासीन विलयन का pH 7 होता है। शुद्ध पानी उदासीन है। 7 से कम अम्लीय, अधिक क्षारीय।"
+      "explanation": "क्षार कड़वे और साबुन जैसे चिकने।"
     }
   },
   {
@@ -57,1375 +57,1375 @@
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "HCl has a pH of approximately:",
+      "question": "pH scale ranges from:",
       "options": [
-        "1",
-        "7",
-        "10",
-        "14"
+        "0 to 14",
+        "1 to 10",
+        "0 to 7",
+        "7 to 14"
       ],
-      "explanation": "HCl is a strong acid with pH ~1. Lower pH = higher acidity."
+      "explanation": "pH = -log[H⁺]. Scale: 0 (strongly acidic) to 14 (strongly basic)."
     },
     "hi": {
-      "question": "HCl का pH लगभग कितना होता है?",
+      "question": "pH पैमाना परास:",
       "options": [
-        "1",
-        "7",
-        "10",
-        "14"
+        "0 से 14",
+        "1 से 10",
+        "0 से 7",
+        "7 से 14"
       ],
-      "explanation": "HCl प्रबल अम्ल है जिसका pH ~1 होता है। कम pH = अधिक अम्लीयता।"
+      "explanation": "pH: 0 (प्रबल अम्लीय) से 14 (प्रबल क्षारीय)।"
     }
   },
   {
     "id": "gdscabs-0004",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2023,
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Turmeric turns ____ in basic solution.",
+      "question": "pH of pure water at 25°C is:",
       "options": [
-        "Blue",
-        "Red",
-        "Yellow",
-        "Green"
+        "0",
+        "1",
+        "14",
+        "7"
       ],
-      "explanation": "Turmeric (natural indicator) turns reddish-brown in basic solutions, yellow in acidic."
+      "explanation": "Water: [H⁺]=[OH⁻]=10⁻⁷ → pH=7 (neutral)."
     },
     "hi": {
-      "question": "क्षारीय विलयन में हल्दी ____ हो जाती है।",
+      "question": "25°C पर शुद्ध पानी का pH:",
       "options": [
-        "नीली",
-        "लाल",
-        "पीली",
-        "हरी"
+        "0",
+        "1",
+        "14",
+        "7"
       ],
-      "explanation": "हल्दी (प्राकृतिक सूचक) क्षारीय विलयन में लाल-भूरी, अम्लीय में पीली हो जाती है।"
+      "explanation": "पानी उदासीन: pH=7।"
     }
   },
   {
     "id": "gdscabs-0005",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "Baking soda used in fire extinguishers because:",
+      "question": "Litmus turns ___ in acid:",
       "options": [
-        "Cools fire",
-        "Produces CO2 cutting oxygen",
-        "Produces water",
-        "Absorbs heat"
+        "Blue",
+        "Red",
+        "Green",
+        "No change"
       ],
-      "explanation": "NaHCO3 releases CO2 which blankets fire, cutting oxygen supply."
+      "explanation": "Blue litmus turns red in acidic solution."
     },
     "hi": {
-      "question": "बेकिंग सोडा अग्निशामक में उपयोग होता है क्योंकि:",
+      "question": "अम्ल में लिटमस:",
       "options": [
-        "आग ठंडी करता है",
-        "CO2 उत्पन्न कर ऑक्सीजन की आपूर्ति रोकता है",
-        "पानी उत्पन्न करता है",
-        "ऊष्मा अवशोषित करता है"
+        "नीला",
+        "लाल",
+        "हरा",
+        "कोई परिवर्तन नहीं"
       ],
-      "explanation": "NaHCO3 CO2 छोड़ता है जो आग पर परत बनाकर ऑक्सीजन की आपूर्ति रोकता है।"
+      "explanation": "नीला लिटमस अम्ल में लाल।"
     }
   },
   {
     "id": "gdscabs-0006",
-    "correctOption": "A",
-    "difficulty": "medium",
+    "correctOption": "C",
+    "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "Bleaching powder is chemically:",
+      "question": "Litmus turns ___ in base:",
       "options": [
-        "CaOCl2",
-        "CaCO3",
-        "Ca(OH)2",
-        "CaSO4"
+        "Red",
+        "No change",
+        "Blue",
+        "Yellow"
       ],
-      "explanation": "Bleaching powder is calcium oxychloride (CaOCl2)."
+      "explanation": "Red litmus turns blue in basic solution."
     },
     "hi": {
-      "question": "ब्लीचिंग पाउडर रासायनिक रूप से क्या है?",
+      "question": "क्षार में लिटमस:",
       "options": [
-        "CaOCl2",
-        "CaCO3",
-        "Ca(OH)2",
-        "CaSO4"
+        "लाल",
+        "कोई परिवर्तन नहीं",
+        "नीला",
+        "पीला"
       ],
-      "explanation": "ब्लीचिंग पाउडर कैल्शियम ऑक्सीक्लोराइड (CaOCl2) है।"
+      "explanation": "लाल लिटमस क्षार में नीला।"
     }
   },
   {
     "id": "gdscabs-0007",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "medium",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "Plaster of Paris formula:",
+      "question": "pH of blood is approximately:",
       "options": [
-        "CaSO4.H2O",
-        "CaSO4.1/2 H2O",
-        "CaSO4.2H2O",
-        "CaSO4"
+        "7.4 (slightly basic)",
+        "7.0",
+        "6.8",
+        "8.0"
       ],
-      "explanation": "POP is CaSO4.1/2 H2O (calcium sulphate hemihydrate), made by heating gypsum."
+      "explanation": "Blood pH: 7.35-7.45, maintained by buffer system."
     },
     "hi": {
-      "question": "प्लास्टर ऑफ पेरिस का सूत्र:",
+      "question": "रक्त का pH लगभग:",
       "options": [
-        "CaSO4.H2O",
-        "CaSO4.1/2 H2O",
-        "CaSO4.2H2O",
-        "CaSO4"
+        "7.4 (थोड़ा क्षारीय)",
+        "7.0",
+        "6.8",
+        "8.0"
       ],
-      "explanation": "POP CaSO4.1/2 H2O (कैल्शियम सल्फेट हेमीहाइड्रेट) है।"
+      "explanation": "रक्त pH: 7.35-7.45।"
     }
   },
   {
     "id": "gdscabs-0008",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "Washing soda is chemically:",
+      "question": "Common salt (NaCl) is formed by reaction of:",
       "options": [
-        "Sodium bicarbonate",
-        "Sodium carbonate decahydrate",
-        "Sodium chloride",
-        "Sodium hydroxide"
+        "Acid + Acid",
+        "Base + Base",
+        "Salt + Water",
+        "Acid + Base (NaOH + HCl)"
       ],
-      "explanation": "Washing soda = Na2CO3.10H2O, used for removing water hardness and in glass/soap."
+      "explanation": "NaOH + HCl → NaCl + H₂O (neutralization)."
     },
     "hi": {
-      "question": "धोने का सोडा रासायनिक रूप से क्या है?",
+      "question": "साधारण नमक (NaCl) बनता है:",
       "options": [
-        "सोडियम बाइकार्बोनेट",
-        "सोडियम कार्बोनेट डेकाहाइड्रेट",
-        "सोडियम क्लोराइड",
-        "सोडियम हाइड्रॉक्साइड"
+        "अम्ल + अम्ल",
+        "क्षार + क्षार",
+        "लवण + पानी",
+        "अम्ल + क्षार (NaOH + HCl)"
       ],
-      "explanation": "धोने का सोडा = Na2CO3.10H2O, पानी की कठोरता दूर करने और कांच/साबुन में उपयोग।"
+      "explanation": "उदासीनीकरण अभिक्रिया।"
     }
   },
   {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "id": "gdscabs-0009",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "pH of pure water?",
+      "question": "Which is a strong acid?",
       "options": [
-        "7",
-        "0",
-        "1",
-        "14"
+        "Acetic acid",
+        "Hydrochloric acid (HCl)",
+        "Citric acid",
+        "Carbonic acid"
       ],
-      "explanation": "Pure water is neutral, pH = 7."
+      "explanation": "HCl, H₂SO₄, HNO₃ are strong acids (completely dissociate)."
     },
     "hi": {
-      "question": "शुद्ध पानी का pH?",
+      "question": "प्रबल अम्ल:",
       "options": [
-        "7",
-        "0",
-        "1",
-        "14"
+        "एसिटिक अम्ल",
+        "HCl (हाइड्रोक्लोरिक)",
+        "साइट्रिक अम्ल",
+        "कार्बोनिक अम्ल"
       ],
-      "explanation": "शुद्ध पानी उदासीन, pH = 7।"
-    },
-    "id": "gdscabs-0009"
+      "explanation": "HCl, H₂SO₄, HNO₃ प्रबल अम्ल।"
+    }
   },
   {
+    "id": "gdscabs-0010",
     "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Gas from Zn + dilute HCl?",
+      "question": "Phenolphthalein in basic solution is:",
       "options": [
-        "Chlorine",
-        "Nitrogen",
-        "Hydrogen",
-        "Oxygen"
+        "Colourless",
+        "Red",
+        "Pink",
+        "Blue"
       ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
+      "explanation": "Phenolphthalein: colourless in acid, pink in base."
     },
     "hi": {
-      "question": "Zn + तनु HCl से कौन सी गैस?",
+      "question": "क्षार में फिनॉल्फ्थलीन:",
       "options": [
-        "Chlorine",
-        "Nitrogen",
-        "Hydrogen",
-        "Oxygen"
+        "रंगहीन",
+        "लाल",
+        "गुलाबी",
+        "नीला"
       ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "id": "gdscabs-0010"
+      "explanation": "क्षार में गुलाबी, अम्ल में रंगहीन।"
+    }
   },
   {
+    "id": "gdscabs-0011",
     "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "pH of pure water?",
+      "question": "Acid + Metal →",
       "options": [
-        "7",
-        "1",
-        "14",
-        "0"
+        "Salt + Hydrogen gas",
+        "Salt + Water",
+        "Salt + Oxygen",
+        "Base + Hydrogen"
       ],
-      "explanation": "Pure water is neutral, pH = 7."
+      "explanation": "Metal + Acid → Salt + H₂↑ (e.g., Zn + 2HCl → ZnCl₂ + H₂)."
     },
     "hi": {
-      "question": "शुद्ध पानी का pH?",
+      "question": "अम्ल + धातु →",
       "options": [
-        "7",
-        "1",
-        "14",
-        "0"
+        "लवण + हाइड्रोजन",
+        "लवण + पानी",
+        "लवण + ऑक्सीजन",
+        "क्षार + हाइड्रोजन"
       ],
-      "explanation": "शुद्ध पानी उदासीन, pH = 7।"
-    },
-    "id": "gdscabs-0011"
+      "explanation": "Zn + 2HCl → ZnCl₂ + H₂।"
+    }
   },
   {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Gas from Zn + dilute HCl?",
-      "options": [
-        "Hydrogen",
-        "Oxygen",
-        "Nitrogen",
-        "Chlorine"
-      ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "hi": {
-      "question": "Zn + तनु HCl से कौन सी गैस?",
-      "options": [
-        "Hydrogen",
-        "Oxygen",
-        "Nitrogen",
-        "Chlorine"
-      ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "id": "gdscabs-0012"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "pH of pure water?",
-      "options": [
-        "14",
-        "0",
-        "7",
-        "1"
-      ],
-      "explanation": "Pure water is neutral, pH = 7."
-    },
-    "hi": {
-      "question": "शुद्ध पानी का pH?",
-      "options": [
-        "14",
-        "0",
-        "7",
-        "1"
-      ],
-      "explanation": "शुद्ध पानी उदासीन, pH = 7।"
-    },
-    "id": "gdscabs-0013"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Gas from Zn + dilute HCl?",
-      "options": [
-        "Hydrogen",
-        "Chlorine",
-        "Nitrogen",
-        "Oxygen"
-      ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "hi": {
-      "question": "Zn + तनु HCl से कौन सी गैस?",
-      "options": [
-        "Hydrogen",
-        "Chlorine",
-        "Nitrogen",
-        "Oxygen"
-      ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "id": "gdscabs-0014"
-  },
-  {
+    "id": "gdscabs-0012",
     "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "pH of pure water?",
+      "question": "Baking soda is:",
       "options": [
-        "0",
-        "1",
-        "14",
+        "NaCl",
+        "CaCO₃",
+        "NaOH",
+        "NaHCO₃ (sodium bicarbonate)"
+      ],
+      "explanation": "Baking soda = NaHCO₃ (used as antacid, in cooking)."
+    },
+    "hi": {
+      "question": "बेकिंग सोडा:",
+      "options": [
+        "NaCl",
+        "CaCO₃",
+        "NaOH",
+        "NaHCO₃ (सोडियम बाइकार्बोनेट)"
+      ],
+      "explanation": "खाने का सोडा = NaHCO₃।"
+    }
+  },
+  {
+    "id": "gdscabs-0013",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Washing soda is:",
+      "options": [
+        "NaHCO₃",
+        "Na₂CO₃·10H₂O",
+        "NaOH",
+        "Ca(OH)₂"
+      ],
+      "explanation": "Washing soda = sodium carbonate decahydrate."
+    },
+    "hi": {
+      "question": "धोने का सोडा:",
+      "options": [
+        "NaHCO₃",
+        "Na₂CO₃·10H₂O",
+        "NaOH",
+        "Ca(OH)₂"
+      ],
+      "explanation": "धोने का सोडा = सोडियम कार्बोनेट डेकाहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdscabs-0014",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Bleaching powder formula:",
+      "options": [
+        "NaCl",
+        "NaOH",
+        "CaOCl₂",
+        "CaCO₃"
+      ],
+      "explanation": "Bleaching powder = CaOCl₂ (calcium oxychloride)."
+    },
+    "hi": {
+      "question": "ब्लीचिंग पाउडर सूत्र:",
+      "options": [
+        "NaCl",
+        "NaOH",
+        "CaOCl₂",
+        "CaCO₃"
+      ],
+      "explanation": "विरंजक चूर्ण = CaOCl₂।"
+    }
+  },
+  {
+    "id": "gdscabs-0015",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Plaster of Paris formula:",
+      "options": [
+        "CaSO₄·½H₂O",
+        "CaSO₄·2H₂O",
+        "CaO",
+        "Ca(OH)₂"
+      ],
+      "explanation": "POP = CaSO₄·½H₂O (calcium sulfate hemihydrate)."
+    },
+    "hi": {
+      "question": "प्लास्टर ऑफ पेरिस:",
+      "options": [
+        "CaSO₄·½H₂O",
+        "CaSO₄·2H₂O",
+        "CaO",
+        "Ca(OH)₂"
+      ],
+      "explanation": "POP = CaSO₄·½H₂O।"
+    }
+  },
+  {
+    "id": "gdscabs-0016",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Antacids contain:",
+      "options": [
+        "Acid",
+        "Salt only",
+        "Sugar",
+        "Base (mild) like Mg(OH)₂ or NaHCO₃"
+      ],
+      "explanation": "Antacids neutralize excess stomach acid (HCl)."
+    },
+    "hi": {
+      "question": "एंटासिड में:",
+      "options": [
+        "अम्ल",
+        "केवल लवण",
+        "चीनी",
+        "क्षार जैसे Mg(OH)₂ या NaHCO₃"
+      ],
+      "explanation": "एंटासिड अतिरिक्त अम्ल उदासीन करते हैं।"
+    }
+  },
+  {
+    "id": "gdscabs-0017",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "pH of acid rain is:",
+      "options": [
+        "~7",
+        "< 5.6",
+        "> 7",
+        "Exactly 7"
+      ],
+      "explanation": "Acid rain: pH < 5.6 due to SO₂ and NOₓ dissolving in rainwater."
+    },
+    "hi": {
+      "question": "अम्ल वर्षा का pH:",
+      "options": [
+        "~7",
+        "< 5.6",
+        "> 7",
+        "ठीक 7"
+      ],
+      "explanation": "SO₂, NOₓ से अम्लीय वर्षा।"
+    }
+  },
+  {
+    "id": "gdscabs-0018",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Acid + Base → Salt + Water is called:",
+      "options": [
+        "Hydrolysis",
+        "Oxidation",
+        "Neutralization",
+        "Reduction"
+      ],
+      "explanation": "Neutralization: H⁺ + OH⁻ → H₂O."
+    },
+    "hi": {
+      "question": "अम्ल + क्षार → लवण + पानी:",
+      "options": [
+        "जल अपघटन",
+        "ऑक्सीकरण",
+        "उदासीनीकरण",
+        "अपचयन"
+      ],
+      "explanation": "H⁺ + OH⁻ → H₂O।"
+    }
+  },
+  {
+    "id": "gdscabs-0019",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Methyl orange is ___ in acid:",
+      "options": [
+        "Red",
+        "Yellow",
+        "Blue",
+        "Colourless"
+      ],
+      "explanation": "Methyl orange: red in acid, yellow in base."
+    },
+    "hi": {
+      "question": "अम्ल में मिथाइल ऑरेंज:",
+      "options": [
+        "लाल",
+        "पीला",
+        "नीला",
+        "रंगहीन"
+      ],
+      "explanation": "अम्ल में लाल, क्षार में पीला।"
+    }
+  },
+  {
+    "id": "gdscabs-0020",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Slaked lime is:",
+      "options": [
+        "CaO",
+        "CaCO₃",
+        "NaCl",
+        "Ca(OH)₂"
+      ],
+      "explanation": "Slaked lime = Ca(OH)₂ (calcium hydroxide)."
+    },
+    "hi": {
+      "question": "बुझा चूना:",
+      "options": [
+        "CaO",
+        "CaCO₃",
+        "NaCl",
+        "Ca(OH)₂"
+      ],
+      "explanation": "बुझा चूना = Ca(OH)₂।"
+    }
+  },
+  {
+    "id": "gdscabs-0021",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Quick lime is:",
+      "options": [
+        "Ca(OH)₂",
+        "CaO",
+        "CaCO₃",
+        "CaSO₄"
+      ],
+      "explanation": "Quick lime = CaO (calcium oxide)."
+    },
+    "hi": {
+      "question": "बिना बुझा चूना:",
+      "options": [
+        "Ca(OH)₂",
+        "CaO",
+        "CaCO₃",
+        "CaSO₄"
+      ],
+      "explanation": "बिना बुझा चूना = CaO।"
+    }
+  },
+  {
+    "id": "gdscabs-0022",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Vinegar contains:",
+      "options": [
+        "Citric acid",
+        "Lactic acid",
+        "Acetic acid (5-8%)",
+        "Formic acid"
+      ],
+      "explanation": "Vinegar = 5-8% acetic acid (CH₃COOH) in water."
+    },
+    "hi": {
+      "question": "सिरका में:",
+      "options": [
+        "साइट्रिक अम्ल",
+        "लैक्टिक अम्ल",
+        "एसिटिक अम्ल (5-8%)",
+        "फॉर्मिक अम्ल"
+      ],
+      "explanation": "5-8% एसिटिक अम्ल।"
+    }
+  },
+  {
+    "id": "gdscabs-0023",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Acid + Carbonate/Hydrogencarbonate →",
+      "options": [
+        "Salt + CO₂ + H₂O",
+        "Salt + H₂",
+        "Base + CO₂",
+        "No reaction"
+      ],
+      "explanation": "Na₂CO₃ + 2HCl → 2NaCl + CO₂ + H₂O."
+    },
+    "hi": {
+      "question": "अम्ल + कार्बोनेट/बाइकार्बोनेट →",
+      "options": [
+        "लवण + CO₂ + H₂O",
+        "लवण + H₂",
+        "क्षार + CO₂",
+        "अभिक्रिया नहीं"
+      ],
+      "explanation": "CO₂ गैस उत्पन्न।"
+    }
+  },
+  {
+    "id": "gdscabs-0024",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Lemon contains:",
+      "options": [
+        "Acetic acid",
+        "Lactic acid",
+        "Tartaric acid",
+        "Citric acid"
+      ],
+      "explanation": "Citrus fruits (lemon, orange) contain citric acid."
+    },
+    "hi": {
+      "question": "नींबू में:",
+      "options": [
+        "एसिटिक अम्ल",
+        "लैक्टिक अम्ल",
+        "टार्टरिक अम्ल",
+        "साइट्रिक अम्ल"
+      ],
+      "explanation": "साइट्रिक अम्ल।"
+    }
+  },
+  {
+    "id": "gdscabs-0025",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "pH of gastric acid in stomach:",
+      "options": [
+        "~7",
+        "~1.5-3.5",
+        "~5",
+        "~10"
+      ],
+      "explanation": "Stomach HCl: pH ~1.5-3.5 (strongly acidic for digestion)."
+    },
+    "hi": {
+      "question": "आमाशय में जठर रस का pH:",
+      "options": [
+        "~7",
+        "~1.5-3.5",
+        "~5",
+        "~10"
+      ],
+      "explanation": "HCl से pH 1.5-3.5।"
+    }
+  },
+  {
+    "id": "gdscabs-0026",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is used in soda-acid fire extinguisher?",
+      "options": [
+        "Only acid",
+        "Only base",
+        "NaHCO₃ + H₂SO₄",
+        "Water"
+      ],
+      "explanation": "Soda-acid: NaHCO₃ + H₂SO₄ → CO₂ (extinguishes fire)."
+    },
+    "hi": {
+      "question": "सोडा-अम्ल अग्निशामक में:",
+      "options": [
+        "केवल अम्ल",
+        "केवल क्षार",
+        "NaHCO₃ + H₂SO₄",
+        "पानी"
+      ],
+      "explanation": "CO₂ गैस आग बुझाती है।"
+    }
+  },
+  {
+    "id": "gdscabs-0027",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Gypsum formula:",
+      "options": [
+        "CaSO₄·2H₂O",
+        "CaSO₄·½H₂O",
+        "CaO",
+        "CaCO₃"
+      ],
+      "explanation": "Gypsum = CaSO₄·2H₂O (calcium sulfate dihydrate)."
+    },
+    "hi": {
+      "question": "जिप्सम सूत्र:",
+      "options": [
+        "CaSO₄·2H₂O",
+        "CaSO₄·½H₂O",
+        "CaO",
+        "CaCO₃"
+      ],
+      "explanation": "CaSO₄·2H₂O।"
+    }
+  },
+  {
+    "id": "gdscabs-0028",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Curd contains:",
+      "options": [
+        "Citric acid",
+        "Acetic acid",
+        "Oxalic acid",
+        "Lactic acid"
+      ],
+      "explanation": "Lactic acid (from fermentation of milk by bacteria)."
+    },
+    "hi": {
+      "question": "दही में:",
+      "options": [
+        "साइट्रिक",
+        "एसिटिक",
+        "ऑक्जैलिक",
+        "लैक्टिक अम्ल"
+      ],
+      "explanation": "लैक्टिक अम्ल।"
+    }
+  },
+  {
+    "id": "gdscabs-0029",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "NaOH is commonly known as:",
+      "options": [
+        "Baking soda",
+        "Caustic soda",
+        "Washing soda",
+        "Lime water"
+      ],
+      "explanation": "NaOH = caustic soda (strong base)."
+    },
+    "hi": {
+      "question": "NaOH का सामान्य नाम:",
+      "options": [
+        "बेकिंग सोडा",
+        "कास्टिक सोडा",
+        "धोने का सोडा",
+        "चूना पानी"
+      ],
+      "explanation": "कास्टिक सोडा।"
+    }
+  },
+  {
+    "id": "gdscabs-0030",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Nettle sting contains:",
+      "options": [
+        "Acetic acid",
+        "Citric acid",
+        "Methanoic acid (formic acid)",
+        "Lactic acid"
+      ],
+      "explanation": "Nettle leaves inject formic (methanoic) acid causing irritation."
+    },
+    "hi": {
+      "question": "बिच्छू बूटी के डंक में:",
+      "options": [
+        "एसिटिक",
+        "साइट्रिक",
+        "मिथेनॉइक (फॉर्मिक) अम्ल",
+        "लैक्टिक"
+      ],
+      "explanation": "फॉर्मिक अम्ल से जलन।"
+    }
+  },
+  {
+    "id": "gdscabs-0031",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Water of crystallisation of CuSO₄·5H₂O:",
+      "options": [
+        "5",
+        "2",
+        "7",
+        "10"
+      ],
+      "explanation": "Blue vitriol (CuSO₄·5H₂O) has 5 water molecules."
+    },
+    "hi": {
+      "question": "CuSO₄·5H₂O में क्रिस्टलन जल:",
+      "options": [
+        "5",
+        "2",
+        "7",
+        "10"
+      ],
+      "explanation": "नीला थोथा: 5 जल अणु।"
+    }
+  },
+  {
+    "id": "gdscabs-0032",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Tooth decay starts when pH of mouth goes below:",
+      "options": [
+        "7.0",
+        "6.5",
+        "6.0",
+        "5.5"
+      ],
+      "explanation": "pH < 5.5 → acid produced by bacteria dissolves enamel."
+    },
+    "hi": {
+      "question": "दंत क्षय तब जब मुंह का pH:",
+      "options": [
+        "7.0",
+        "6.5",
+        "6.0",
+        "5.5 से नीचे"
+      ],
+      "explanation": "जीवाणु द्वारा अम्ल इनेमल घोलता है।"
+    }
+  },
+  {
+    "id": "gdscabs-0033",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Indicators are substances that change ___ in acid/base:",
+      "options": [
+        "Temperature",
+        "Colour",
+        "Taste",
+        "Weight"
+      ],
+      "explanation": "Indicators (litmus, phenolphthalein, methyl orange) change color."
+    },
+    "hi": {
+      "question": "सूचक वे पदार्थ जो अम्ल/क्षार में ___ बदलते हैं:",
+      "options": [
+        "तापमान",
+        "रंग",
+        "स्वाद",
+        "भार"
+      ],
+      "explanation": "लिटमस, फिनॉल्फ्थलीन रंग बदलते हैं।"
+    }
+  },
+  {
+    "id": "gdscabs-0034",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Acids produce ___ ions in water:",
+      "options": [
+        "OH⁻",
+        "O²⁻",
+        "H⁺ (or H₃O⁺)",
+        "Cl⁻"
+      ],
+      "explanation": "Arrhenius: acid gives H⁺ (proton) in aqueous solution."
+    },
+    "hi": {
+      "question": "अम्ल जल में ___ आयन देते हैं:",
+      "options": [
+        "OH⁻",
+        "O²⁻",
+        "H⁺ (या H₃O⁺)",
+        "Cl⁻"
+      ],
+      "explanation": "अरहीनियस: अम्ल H⁺ देता है।"
+    }
+  },
+  {
+    "id": "gdscabs-0035",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Bases produce ___ ions in water:",
+      "options": [
+        "OH⁻",
+        "H⁺",
+        "Na⁺",
+        "Cl⁻"
+      ],
+      "explanation": "Arrhenius: base gives OH⁻ (hydroxide) in aqueous solution."
+    },
+    "hi": {
+      "question": "क्षार जल में ___ आयन देते हैं:",
+      "options": [
+        "OH⁻",
+        "H⁺",
+        "Na⁺",
+        "Cl⁻"
+      ],
+      "explanation": "क्षार OH⁻ देता है।"
+    }
+  },
+  {
+    "id": "gdscabs-0036",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is amphoteric?",
+      "options": [
+        "HCl",
+        "NaOH",
+        "NaCl",
+        "Al₂O₃ (aluminium oxide)"
+      ],
+      "explanation": "Amphoteric: reacts with both acid and base (Al₂O₃, ZnO)."
+    },
+    "hi": {
+      "question": "उभयधर्मी कौन:",
+      "options": [
+        "HCl",
+        "NaOH",
+        "NaCl",
+        "Al₂O₃"
+      ],
+      "explanation": "Al₂O₃, ZnO: दोनों से अभिक्रिया।"
+    }
+  },
+  {
+    "id": "gdscabs-0037",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "pH of milk of magnesia:",
+      "options": [
+        "~3",
+        "~10",
+        "~7",
+        "~2"
+      ],
+      "explanation": "Milk of magnesia = Mg(OH)₂ suspension → pH ~10 (basic)."
+    },
+    "hi": {
+      "question": "मिल्क ऑफ मैग्नीशिया का pH:",
+      "options": [
+        "~3",
+        "~10",
+        "~7",
+        "~2"
+      ],
+      "explanation": "Mg(OH)₂ क्षारीय, pH ~10।"
+    }
+  },
+  {
+    "id": "gdscabs-0038",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Pickle (achaar) does not spoil because of:",
+      "options": [
+        "Sugar",
+        "Salt only",
+        "Acid (vinegar) + salt preserves",
+        "Oil only"
+      ],
+      "explanation": "Acid + salt prevent microbial growth in pickles."
+    },
+    "hi": {
+      "question": "अचार खराब नहीं होता:",
+      "options": [
+        "चीनी",
+        "केवल नमक",
+        "अम्ल (सिरका) + नमक",
+        "केवल तेल"
+      ],
+      "explanation": "अम्ल + नमक जीवाणु रोकते हैं।"
+    }
+  },
+  {
+    "id": "gdscabs-0039",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Universal indicator gives ___ in neutral solution:",
+      "options": [
+        "Green",
+        "Red",
+        "Blue",
+        "Purple"
+      ],
+      "explanation": "Universal indicator: green at pH 7 (neutral)."
+    },
+    "hi": {
+      "question": "उदासीन विलयन में सार्वत्रिक सूचक:",
+      "options": [
+        "हरा",
+        "लाल",
+        "नीला",
+        "बैंगनी"
+      ],
+      "explanation": "pH 7 पर हरा।"
+    }
+  },
+  {
+    "id": "gdscabs-0040",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Weak acid example:",
+      "options": [
+        "HCl",
+        "H₂SO₄",
+        "HNO₃",
+        "CH₃COOH (acetic acid)"
+      ],
+      "explanation": "Acetic acid partially dissociates (weak). HCl, H₂SO₄, HNO₃ are strong."
+    },
+    "hi": {
+      "question": "दुर्बल अम्ल:",
+      "options": [
+        "HCl",
+        "H₂SO₄",
+        "HNO₃",
+        "CH₃COOH (एसिटिक)"
+      ],
+      "explanation": "एसिटिक आंशिक वियोजन।"
+    }
+  },
+  {
+    "id": "gdscabs-0041",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Water of crystallisation of Na₂CO₃·10H₂O:",
+      "options": [
+        "5",
+        "10",
+        "2",
         "7"
       ],
-      "explanation": "Pure water is neutral, pH = 7."
+      "explanation": "Washing soda (Na₂CO₃·10H₂O) has 10 water molecules."
     },
     "hi": {
-      "question": "शुद्ध पानी का pH?",
+      "question": "Na₂CO₃·10H₂O का क्रिस्टलन जल:",
       "options": [
-        "0",
-        "1",
-        "14",
+        "5",
+        "10",
+        "2",
         "7"
       ],
-      "explanation": "शुद्ध पानी उदासीन, pH = 7।"
-    },
-    "id": "gdscabs-0015"
+      "explanation": "धोने का सोडा: 10 जल अणु।"
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Gas from Zn + dilute HCl?",
-      "options": [
-        "Oxygen",
-        "Nitrogen",
-        "Chlorine",
-        "Hydrogen"
-      ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "hi": {
-      "question": "Zn + तनु HCl से कौन सी गैस?",
-      "options": [
-        "Oxygen",
-        "Nitrogen",
-        "Chlorine",
-        "Hydrogen"
-      ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "id": "gdscabs-0016"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "pH of pure water?",
-      "options": [
-        "7",
-        "0",
-        "1",
-        "14"
-      ],
-      "explanation": "Pure water is neutral, pH = 7."
-    },
-    "hi": {
-      "question": "शुद्ध पानी का pH?",
-      "options": [
-        "7",
-        "0",
-        "1",
-        "14"
-      ],
-      "explanation": "शुद्ध पानी उदासीन, pH = 7।"
-    },
-    "id": "gdscabs-0017"
-  },
-  {
+    "id": "gdscabs-0042",
     "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Gas from Zn + dilute HCl?",
+      "question": "A solution with pH 9 is:",
       "options": [
-        "Chlorine",
-        "Nitrogen",
-        "Hydrogen",
-        "Oxygen"
+        "Acidic",
+        "Neutral",
+        "Basic",
+        "Amphoteric"
       ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
+      "explanation": "pH > 7 → basic/alkaline."
     },
     "hi": {
-      "question": "Zn + तनु HCl से कौन सी गैस?",
+      "question": "pH 9 विलयन:",
       "options": [
-        "Chlorine",
-        "Nitrogen",
-        "Hydrogen",
-        "Oxygen"
+        "अम्लीय",
+        "उदासीन",
+        "क्षारीय",
+        "उभयधर्मी"
       ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "id": "gdscabs-0018"
+      "explanation": "pH>7 → क्षारीय।"
+    }
   },
   {
+    "id": "gdscabs-0043",
     "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "pH of pure water?",
-      "options": [
-        "7",
-        "1",
-        "14",
-        "0"
-      ],
-      "explanation": "Pure water is neutral, pH = 7."
-    },
-    "hi": {
-      "question": "शुद्ध पानी का pH?",
-      "options": [
-        "7",
-        "1",
-        "14",
-        "0"
-      ],
-      "explanation": "शुद्ध पानी उदासीन, pH = 7।"
-    },
-    "id": "gdscabs-0019"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Gas from Zn + dilute HCl?",
-      "options": [
-        "Chlorine",
-        "Hydrogen",
-        "Nitrogen",
-        "Oxygen"
-      ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "hi": {
-      "question": "Zn + तनु HCl से कौन सी गैस?",
-      "options": [
-        "Chlorine",
-        "Hydrogen",
-        "Nitrogen",
-        "Oxygen"
-      ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "id": "gdscabs-0020"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "pH of pure water?",
-      "options": [
-        "1",
-        "14",
-        "7",
-        "0"
-      ],
-      "explanation": "Pure water is neutral, pH = 7."
-    },
-    "hi": {
-      "question": "शुद्ध पानी का pH?",
-      "options": [
-        "1",
-        "14",
-        "7",
-        "0"
-      ],
-      "explanation": "शुद्ध पानी उदासीन, pH = 7।"
-    },
-    "id": "gdscabs-0021"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Gas from Zn + dilute HCl?",
-      "options": [
-        "Chlorine",
-        "Hydrogen",
-        "Nitrogen",
-        "Oxygen"
-      ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "hi": {
-      "question": "Zn + तनु HCl से कौन सी गैस?",
-      "options": [
-        "Chlorine",
-        "Hydrogen",
-        "Nitrogen",
-        "Oxygen"
-      ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "id": "gdscabs-0022"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "pH of pure water?",
-      "options": [
-        "7",
-        "1",
-        "14",
-        "0"
-      ],
-      "explanation": "Pure water is neutral, pH = 7."
-    },
-    "hi": {
-      "question": "शुद्ध पानी का pH?",
-      "options": [
-        "7",
-        "1",
-        "14",
-        "0"
-      ],
-      "explanation": "शुद्ध पानी उदासीन, pH = 7।"
-    },
-    "id": "gdscabs-0023"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Gas from Zn + dilute HCl?",
-      "options": [
-        "Nitrogen",
-        "Oxygen",
-        "Chlorine",
-        "Hydrogen"
-      ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "hi": {
-      "question": "Zn + तनु HCl से कौन सी गैस?",
-      "options": [
-        "Nitrogen",
-        "Oxygen",
-        "Chlorine",
-        "Hydrogen"
-      ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "id": "gdscabs-0024"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "pH of pure water?",
-      "options": [
-        "1",
-        "14",
-        "7",
-        "0"
-      ],
-      "explanation": "Pure water is neutral, pH = 7."
-    },
-    "hi": {
-      "question": "शुद्ध पानी का pH?",
-      "options": [
-        "1",
-        "14",
-        "7",
-        "0"
-      ],
-      "explanation": "शुद्ध पानी उदासीन, pH = 7।"
-    },
-    "id": "gdscabs-0025"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Gas from Zn + dilute HCl?",
-      "options": [
-        "Hydrogen",
-        "Nitrogen",
-        "Chlorine",
-        "Oxygen"
-      ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "hi": {
-      "question": "Zn + तनु HCl से कौन सी गैस?",
-      "options": [
-        "Hydrogen",
-        "Nitrogen",
-        "Chlorine",
-        "Oxygen"
-      ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "id": "gdscabs-0026"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "pH of pure water?",
-      "options": [
-        "1",
-        "14",
-        "7",
-        "0"
-      ],
-      "explanation": "Pure water is neutral, pH = 7."
-    },
-    "hi": {
-      "question": "शुद्ध पानी का pH?",
-      "options": [
-        "1",
-        "14",
-        "7",
-        "0"
-      ],
-      "explanation": "शुद्ध पानी उदासीन, pH = 7।"
-    },
-    "id": "gdscabs-0027"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Gas from Zn + dilute HCl?",
-      "options": [
-        "Nitrogen",
-        "Oxygen",
-        "Chlorine",
-        "Hydrogen"
-      ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "hi": {
-      "question": "Zn + तनु HCl से कौन सी गैस?",
-      "options": [
-        "Nitrogen",
-        "Oxygen",
-        "Chlorine",
-        "Hydrogen"
-      ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑"
-    },
-    "id": "gdscabs-0028"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Complete series: 19, 29, 39, ?",
-      "options": [
-        "59",
-        "57",
-        "69",
-        "49"
-      ],
-      "explanation": "AP with d=10. Next = 49."
-    },
-    "hi": {
-      "question": "श्रृंखला पूरी करें: 19, 29, 39, ?",
-      "options": [
-        "59",
-        "57",
-        "69",
-        "49"
-      ],
-      "explanation": "समांतर श्रेणी, d=10। अगला = 49।"
-    },
-    "id": "gdscabs-0029"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "A",
-        "Cannot determine",
-        "C",
-        "E"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "A",
-        "Cannot determine",
-        "C",
-        "E"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdscabs-0030"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Complete series: 10, 16, 22, ?",
-      "options": [
-        "28",
-        "34",
-        "40",
-        "30"
-      ],
-      "explanation": "AP with d=6. Next = 28."
-    },
-    "hi": {
-      "question": "श्रृंखला पूरी करें: 10, 16, 22, ?",
-      "options": [
-        "28",
-        "34",
-        "40",
-        "30"
-      ],
-      "explanation": "समांतर श्रेणी, d=6। अगला = 28।"
-    },
-    "id": "gdscabs-0031"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "Cannot determine",
-        "E",
-        "A",
-        "C"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "Cannot determine",
-        "E",
-        "A",
-        "C"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdscabs-0032"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Complete series: 15, 20, 25, ?",
-      "options": [
-        "30",
-        "45",
-        "40",
-        "35"
-      ],
-      "explanation": "AP with d=5. Next = 30."
-    },
-    "hi": {
-      "question": "श्रृंखला पूरी करें: 15, 20, 25, ?",
-      "options": [
-        "30",
-        "45",
-        "40",
-        "35"
-      ],
-      "explanation": "समांतर श्रेणी, d=5। अगला = 30।"
-    },
-    "id": "gdscabs-0033"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "Cannot determine",
-        "E",
-        "C",
-        "A"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "Cannot determine",
-        "E",
-        "C",
-        "A"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdscabs-0034"
-  },
-  {
-    "correctOption": "D",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "If + means ×, - means +, × means ÷, then 20 + 2 - 14 = ?",
+      "question": "Chlor-alkali process produces:",
       "options": [
-        "34",
-        "6",
-        "26",
-        "54"
+        "NaOH, Cl₂, H₂",
+        "NaCl, H₂O",
+        "Only NaOH",
+        "CaOCl₂"
       ],
-      "explanation": "After substitution: 20×2+14 = 54."
+      "explanation": "Electrolysis of brine (NaCl): 2NaCl+2H₂O→2NaOH+Cl₂+H₂."
     },
     "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 20 + 2 - 14 = ?",
+      "question": "क्लोर-क्षार प्रक्रम उत्पाद:",
       "options": [
-        "34",
-        "6",
-        "26",
-        "54"
+        "NaOH, Cl₂, H₂",
+        "NaCl, H₂O",
+        "केवल NaOH",
+        "CaOCl₂"
       ],
-      "explanation": "प्रतिस्थापन के बाद: 20×2+14 = 54।"
-    },
-    "id": "gdscabs-0035"
+      "explanation": "नमकीन का विद्युत अपघटन।"
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
+    "id": "gdscabs-0044",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "Strong base example:",
       "options": [
-        "E",
-        "Cannot determine",
-        "A",
-        "C"
+        "NH₄OH",
+        "Mg(OH)₂",
+        "Al(OH)₃",
+        "NaOH"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "NaOH, KOH fully dissociate → strong bases."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "प्रबल क्षार:",
       "options": [
-        "E",
-        "Cannot determine",
-        "A",
-        "C"
+        "NH₄OH",
+        "Mg(OH)₂",
+        "Al(OH)₃",
+        "NaOH"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdscabs-0036"
+      "explanation": "NaOH, KOH पूर्ण वियोजन।"
+    }
   },
   {
+    "id": "gdscabs-0045",
     "correctOption": "B",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "If + means ×, - means +, × means ÷, then 18 + 2 - 15 = ?",
+      "question": "pH of a solution changes from 5 to 3. [H⁺] increases by factor:",
       "options": [
-        "3",
-        "51",
-        "21",
-        "33"
+        "2",
+        "100",
+        "10",
+        "1000"
       ],
-      "explanation": "After substitution: 18×2+15 = 51."
+      "explanation": "ΔpH=2 → [H⁺] ratio=10²=100 times more acidic."
     },
     "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 18 + 2 - 15 = ?",
+      "question": "pH 5→3, [H⁺] कितने गुना बढ़ा:",
       "options": [
-        "3",
-        "51",
-        "21",
-        "33"
+        "2",
+        "100",
+        "10",
+        "1000"
       ],
-      "explanation": "प्रतिस्थापन के बाद: 18×2+15 = 51।"
-    },
-    "id": "gdscabs-0037"
+      "explanation": "10² = 100 गुना।"
+    }
   },
   {
+    "id": "gdscabs-0046",
     "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "If + means ×, - means +, × means ÷, then 20 + 2 - 14 = ?",
+      "question": "Acetic acid is found in:",
       "options": [
-        "6",
-        "26",
-        "54",
-        "34"
+        "Lemon",
+        "Curd",
+        "Vinegar",
+        "Nettle"
       ],
-      "explanation": "After substitution: 20×2+14 = 54."
+      "explanation": "Vinegar = 5-8% acetic acid."
     },
     "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 20 + 2 - 14 = ?",
+      "question": "एसिटिक अम्ल पाया जाता है:",
       "options": [
-        "6",
-        "26",
-        "54",
-        "34"
+        "नींबू",
+        "दही",
+        "सिरका",
+        "बिच्छू बूटी"
       ],
-      "explanation": "प्रतिस्थापन के बाद: 20×2+14 = 54।"
-    },
-    "id": "gdscabs-0038"
+      "explanation": "सिरका।"
+    }
   },
   {
+    "id": "gdscabs-0047",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Acid rain is mainly due to:",
+      "options": [
+        "SO₂ and NOₓ",
+        "CO₂",
+        "O₂",
+        "N₂"
+      ],
+      "explanation": "SO₂ + NOₓ dissolve in rain → H₂SO₄ + HNO₃ (acid rain)."
+    },
+    "hi": {
+      "question": "अम्ल वर्षा मुख्यतः:",
+      "options": [
+        "SO₂ और NOₓ",
+        "CO₂",
+        "O₂",
+        "N₂"
+      ],
+      "explanation": "SO₂ + NOₓ।"
+    }
+  },
+  {
+    "id": "gdscabs-0048",
     "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "pH of lemon juice is about:",
+      "options": [
+        "7",
+        "8",
+        "5",
+        "2.2"
+      ],
+      "explanation": "Lemon juice is highly acidic (citric acid) → pH ~2.2."
+    },
+    "hi": {
+      "question": "नींबू रस का pH:",
+      "options": [
+        "7",
+        "8",
+        "5",
+        "2.2"
+      ],
+      "explanation": "साइट्रिक अम्ल, अत्यधिक अम्लीय।"
+    }
+  },
+  {
+    "id": "gdscabs-0049",
+    "correctOption": "B",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "If + means ×, - means +, × means ÷, then 28 + 2 - 9 = ?",
+      "question": "Olfactory indicators change:",
       "options": [
-        "47",
-        "19",
-        "37",
-        "65"
+        "Colour",
+        "Smell/Odour",
+        "State",
+        "pH"
       ],
-      "explanation": "After substitution: 28×2+9 = 65."
+      "explanation": "Olfactory: e.g., onion, vanilla, clove oil — smell changes in acid/base."
     },
     "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 28 + 2 - 9 = ?",
+      "question": "घ्राण सूचक बदलते हैं:",
       "options": [
-        "47",
-        "19",
-        "37",
-        "65"
+        "रंग",
+        "गंध",
+        "अवस्था",
+        "pH"
       ],
-      "explanation": "प्रतिस्थापन के बाद: 28×2+9 = 65।"
-    },
-    "id": "gdscabs-0039"
+      "explanation": "प्याज, वैनिला, लौंग तेल।"
+    }
   },
   {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
+    "id": "gdscabs-0050",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "Brass is an alloy of:",
       "options": [
-        "Cannot determine",
-        "A",
-        "E",
-        "C"
+        "Fe, C",
+        "Cu, Sn",
+        "Cu, Zn",
+        "Al, Cu"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "Brass = copper (Cu) + zinc (Zn)."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "पीतल मिश्रधातु:",
       "options": [
-        "Cannot determine",
-        "A",
-        "E",
-        "C"
+        "Fe, C",
+        "Cu, Sn",
+        "Cu, Zn",
+        "Al, Cu"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdscabs-0040"
+      "explanation": "Cu + Zn।"
+    }
   },
   {
     "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 14, 19, 24, ?",
+      "question": "What is 24 × 18?",
       "options": [
-        "42",
-        "29",
-        "39",
-        "34"
-      ],
-      "explanation": "AP with d=5. Next = 29."
-    },
-    "hi": {
-      "question": "श्रृंखला पूरी करें: 14, 19, 24, ?",
-      "options": [
-        "42",
-        "29",
-        "39",
-        "34"
-      ],
-      "explanation": "समांतर श्रेणी, d=5। अगला = 29।"
-    },
-    "id": "gdscabs-0041"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Complete series: 18, 21, 24, ?",
-      "options": [
-        "33",
-        "27",
-        "54",
-        "30"
-      ],
-      "explanation": "AP with d=3. Next = 27."
-    },
-    "hi": {
-      "question": "श्रृंखला पूरी करें: 18, 21, 24, ?",
-      "options": [
-        "33",
-        "27",
-        "54",
-        "30"
-      ],
-      "explanation": "समांतर श्रेणी, d=3। अगला = 27।"
-    },
-    "id": "gdscabs-0042"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Complete series: 14, 20, 26, ?",
-      "options": [
-        "32",
-        "38",
-        "44",
+        "439",
+        "432",
+        "428",
         "42"
       ],
-      "explanation": "AP with d=6. Next = 32."
+      "explanation": "24×18 = 432."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 14, 20, 26, ?",
+      "question": "24 × 18 = ?",
       "options": [
-        "32",
-        "38",
-        "44",
+        "439",
+        "432",
+        "428",
         "42"
       ],
-      "explanation": "समांतर श्रेणी, d=6। अगला = 32।"
-    },
-    "id": "gdscabs-0043"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "Cannot determine",
-        "C",
-        "E",
-        "A"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "Cannot determine",
-        "C",
-        "E",
-        "A"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdscabs-0044"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "E",
-        "C",
-        "Cannot determine",
-        "A"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "E",
-        "C",
-        "Cannot determine",
-        "A"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdscabs-0045"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "E",
-        "A",
-        "C",
-        "Cannot determine"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "E",
-        "A",
-        "C",
-        "Cannot determine"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdscabs-0046"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "E",
-        "Cannot determine",
-        "A",
-        "C"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "E",
-        "Cannot determine",
-        "A",
-        "C"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdscabs-0047"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If + means ×, - means +, × means ÷, then 11 + 2 - 8 = ?",
-      "options": [
-        "30",
-        "3",
-        "19",
-        "14"
-      ],
-      "explanation": "After substitution: 11×2+8 = 30."
-    },
-    "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 11 + 2 - 8 = ?",
-      "options": [
-        "30",
-        "3",
-        "19",
-        "14"
-      ],
-      "explanation": "प्रतिस्थापन के बाद: 11×2+8 = 30।"
-    },
-    "id": "gdscabs-0048"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Complete series: 9, 12, 15, ?",
-      "options": [
-        "21",
-        "18",
-        "24",
-        "27"
-      ],
-      "explanation": "AP with d=3. Next = 18."
-    },
-    "hi": {
-      "question": "श्रृंखला पूरी करें: 9, 12, 15, ?",
-      "options": [
-        "21",
-        "18",
-        "24",
-        "27"
-      ],
-      "explanation": "समांतर श्रेणी, d=3। अगला = 18।"
-    },
-    "id": "gdscabs-0049"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "E",
-        "A",
-        "Cannot determine",
-        "C"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "E",
-        "A",
-        "Cannot determine",
-        "C"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdscabs-0050"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Complete series: 16, 17, 18, ?",
-      "options": [
-        "19",
-        "21",
-        "48",
-        "20"
-      ],
-      "explanation": "AP with d=1. Next = 19."
-    },
-    "hi": {
-      "question": "श्रृंखला पूरी करें: 16, 17, 18, ?",
-      "options": [
-        "19",
-        "21",
-        "48",
-        "20"
-      ],
-      "explanation": "समांतर श्रेणी, d=1। अगला = 19।"
+      "explanation": "24×18 = 432।"
     },
     "id": "gdscabs-0051"
   },
   {
-    "correctOption": "D",
-    "difficulty": "medium",
+    "correctOption": "B",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "If + means ×, - means +, × means ÷, then 12 + 2 - 6 = ?",
+      "question": "What is 48 × 3?",
       "options": [
-        "18",
-        "6",
-        "18",
-        "30"
+        "147",
+        "144",
+        "138",
+        "51"
       ],
-      "explanation": "After substitution: 12×2+6 = 30."
+      "explanation": "48×3 = 144."
     },
     "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 12 + 2 - 6 = ?",
+      "question": "48 × 3 = ?",
       "options": [
-        "18",
-        "6",
-        "18",
-        "30"
+        "147",
+        "144",
+        "138",
+        "51"
       ],
-      "explanation": "प्रतिस्थापन के बाद: 12×2+6 = 30।"
+      "explanation": "48×3 = 144।"
     },
     "id": "gdscabs-0052"
   },
   {
     "correctOption": "A",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "What is 49 × 8?",
       "options": [
-        "Cannot determine",
-        "A",
-        "E",
-        "C"
+        "392",
+        "396",
+        "384",
+        "57"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "49×8 = 392."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "49 × 8 = ?",
       "options": [
-        "Cannot determine",
-        "A",
-        "E",
-        "C"
+        "392",
+        "396",
+        "384",
+        "57"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "49×8 = 392।"
     },
     "id": "gdscabs-0053"
   },
   {
-    "correctOption": "A",
-    "difficulty": "hard",
+    "correctOption": "D",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "What is 31 × 24?",
       "options": [
-        "Cannot determine",
-        "A",
-        "E",
-        "C"
+        "732",
+        "750",
+        "55",
+        "744"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "31×24 = 744."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "31 × 24 = ?",
       "options": [
-        "Cannot determine",
-        "A",
-        "E",
-        "C"
+        "732",
+        "750",
+        "55",
+        "744"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "31×24 = 744।"
     },
     "id": "gdscabs-0054"
   },
   {
-    "correctOption": "A",
-    "difficulty": "hard",
+    "correctOption": "D",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "What is 8 × 32?",
       "options": [
-        "Cannot determine",
-        "E",
-        "A",
-        "C"
+        "250",
+        "40",
+        "275",
+        "256"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "8×32 = 256."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "8 × 32 = ?",
       "options": [
-        "Cannot determine",
-        "E",
-        "A",
-        "C"
+        "250",
+        "40",
+        "275",
+        "256"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "8×32 = 256।"
     },
     "id": "gdscabs-0055"
   },
@@ -1434,76 +1434,76 @@
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 4, 6, 8, ?",
+      "question": "What is 43 × 16?",
       "options": [
-        "14",
-        "12",
-        "10",
-        "12"
+        "693",
+        "59",
+        "688",
+        "683"
       ],
-      "explanation": "AP with d=2. Next = 10."
+      "explanation": "43×16 = 688."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 4, 6, 8, ?",
+      "question": "43 × 16 = ?",
       "options": [
-        "14",
-        "12",
-        "10",
-        "12"
+        "693",
+        "59",
+        "688",
+        "683"
       ],
-      "explanation": "समांतर श्रेणी, d=2। अगला = 10।"
+      "explanation": "43×16 = 688।"
     },
     "id": "gdscabs-0056"
   },
   {
-    "correctOption": "C",
-    "difficulty": "hard",
+    "correctOption": "D",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "What is 17 × 31?",
       "options": [
-        "E",
-        "C",
-        "Cannot determine",
-        "A"
+        "514",
+        "544",
+        "48",
+        "527"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "17×31 = 527."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "17 × 31 = ?",
       "options": [
-        "E",
-        "C",
-        "Cannot determine",
-        "A"
+        "514",
+        "544",
+        "48",
+        "527"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "17×31 = 527।"
     },
     "id": "gdscabs-0057"
   },
   {
-    "correctOption": "C",
-    "difficulty": "hard",
+    "correctOption": "D",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "What is 32 × 33?",
       "options": [
-        "A",
-        "E",
-        "Cannot determine",
-        "C"
+        "1041",
+        "1076",
+        "65",
+        "1056"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "32×33 = 1056."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "32 × 33 = ?",
       "options": [
-        "A",
-        "E",
-        "Cannot determine",
-        "C"
+        "1041",
+        "1076",
+        "65",
+        "1056"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "32×33 = 1056।"
     },
     "id": "gdscabs-0058"
   },
@@ -1512,362 +1512,336 @@
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 8, 16, 24, ?",
+      "question": "What is 20 × 16?",
       "options": [
-        "32",
-        "40",
-        "24",
-        "48"
+        "320",
+        "318",
+        "36",
+        "322"
       ],
-      "explanation": "AP with d=8. Next = 32."
+      "explanation": "20×16 = 320."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 8, 16, 24, ?",
+      "question": "20 × 16 = ?",
       "options": [
-        "32",
-        "40",
-        "24",
-        "48"
+        "320",
+        "318",
+        "36",
+        "322"
       ],
-      "explanation": "समांतर श्रेणी, d=8। अगला = 32।"
+      "explanation": "20×16 = 320।"
     },
     "id": "gdscabs-0059"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 18 × 7?",
+      "options": [
+        "114",
+        "126",
+        "127",
+        "25"
+      ],
+      "explanation": "18×7 = 126."
+    },
+    "hi": {
+      "question": "18 × 7 = ?",
+      "options": [
+        "114",
+        "126",
+        "127",
+        "25"
+      ],
+      "explanation": "18×7 = 126।"
+    },
+    "id": "gdscabs-0060"
   },
   {
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 7, 15, 23, ?",
+      "question": "What is 13 × 12?",
       "options": [
-        "31",
-        "47",
-        "39",
-        "21"
+        "156",
+        "25",
+        "147",
+        "168"
       ],
-      "explanation": "AP with d=8. Next = 31."
+      "explanation": "13×12 = 156."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 7, 15, 23, ?",
+      "question": "13 × 12 = ?",
       "options": [
-        "31",
-        "47",
-        "39",
-        "21"
+        "156",
+        "25",
+        "147",
+        "168"
       ],
-      "explanation": "समांतर श्रेणी, d=8। अगला = 31।"
-    },
-    "id": "gdscabs-0060"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If + means ×, - means +, × means ÷, then 22 + 2 - 9 = ?",
-      "options": [
-        "31",
-        "35",
-        "53",
-        "13"
-      ],
-      "explanation": "After substitution: 22×2+9 = 53."
-    },
-    "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 22 + 2 - 9 = ?",
-      "options": [
-        "31",
-        "35",
-        "53",
-        "13"
-      ],
-      "explanation": "प्रतिस्थापन के बाद: 22×2+9 = 53।"
+      "explanation": "13×12 = 156।"
     },
     "id": "gdscabs-0061"
   },
   {
-    "correctOption": "A",
-    "difficulty": "medium",
+    "correctOption": "B",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "If + means ×, - means +, × means ÷, then 17 + 2 - 6 = ?",
+      "question": "What is 37 × 18?",
       "options": [
-        "40",
-        "11",
-        "28",
-        "23"
+        "651",
+        "666",
+        "672",
+        "55"
       ],
-      "explanation": "After substitution: 17×2+6 = 40."
+      "explanation": "37×18 = 666."
     },
     "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 17 + 2 - 6 = ?",
+      "question": "37 × 18 = ?",
       "options": [
-        "40",
-        "11",
-        "28",
-        "23"
+        "651",
+        "666",
+        "672",
+        "55"
       ],
-      "explanation": "प्रतिस्थापन के बाद: 17×2+6 = 40।"
+      "explanation": "37×18 = 666।"
     },
     "id": "gdscabs-0062"
   },
   {
     "correctOption": "C",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "If + means ×, - means +, × means ÷, then 20 + 2 - 12 = ?",
+      "question": "What is 7 × 21?",
       "options": [
-        "32",
-        "8",
-        "52",
-        "28"
+        "152",
+        "28",
+        "147",
+        "143"
       ],
-      "explanation": "After substitution: 20×2+12 = 52."
+      "explanation": "7×21 = 147."
     },
     "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 20 + 2 - 12 = ?",
+      "question": "7 × 21 = ?",
       "options": [
-        "32",
-        "8",
-        "52",
-        "28"
+        "152",
+        "28",
+        "147",
+        "143"
       ],
-      "explanation": "प्रतिस्थापन के बाद: 20×2+12 = 52।"
+      "explanation": "7×21 = 147।"
     },
     "id": "gdscabs-0063"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 11 × 9?",
+      "options": [
+        "99",
+        "20",
+        "87",
+        "115"
+      ],
+      "explanation": "11×9 = 99."
+    },
+    "hi": {
+      "question": "11 × 9 = ?",
+      "options": [
+        "99",
+        "20",
+        "87",
+        "115"
+      ],
+      "explanation": "11×9 = 99।"
+    },
+    "id": "gdscabs-0064"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 47 × 11?",
+      "options": [
+        "517",
+        "58",
+        "537",
+        "505"
+      ],
+      "explanation": "47×11 = 517."
+    },
+    "hi": {
+      "question": "47 × 11 = ?",
+      "options": [
+        "517",
+        "58",
+        "537",
+        "505"
+      ],
+      "explanation": "47×11 = 517।"
+    },
+    "id": "gdscabs-0065"
   },
   {
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 5, 8, 11, ?",
+      "question": "What is 8 × 17?",
       "options": [
-        "15",
-        "17",
-        "14",
-        "20"
+        "25",
+        "123",
+        "136",
+        "147"
       ],
-      "explanation": "AP with d=3. Next = 14."
+      "explanation": "8×17 = 136."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 5, 8, 11, ?",
+      "question": "8 × 17 = ?",
       "options": [
-        "15",
-        "17",
-        "14",
-        "20"
+        "25",
+        "123",
+        "136",
+        "147"
       ],
-      "explanation": "समांतर श्रेणी, d=3। अगला = 14।"
+      "explanation": "8×17 = 136।"
     },
-    "id": "gdscabs-0064"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "A",
-        "E",
-        "Cannot determine",
-        "C"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "A",
-        "E",
-        "Cannot determine",
-        "C"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdscabs-0065"
+    "id": "gdscabs-0066"
   },
   {
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 5, 11, 17, ?",
+      "question": "What is 42 × 39?",
       "options": [
-        "29",
-        "35",
-        "15",
-        "23"
+        "1643",
+        "1633",
+        "81",
+        "1638"
       ],
-      "explanation": "AP with d=6. Next = 23."
+      "explanation": "42×39 = 1638."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 5, 11, 17, ?",
+      "question": "42 × 39 = ?",
       "options": [
-        "29",
-        "35",
-        "15",
-        "23"
+        "1643",
+        "1633",
+        "81",
+        "1638"
       ],
-      "explanation": "समांतर श्रेणी, d=6। अगला = 23।"
-    },
-    "id": "gdscabs-0066"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "A",
-        "E",
-        "Cannot determine",
-        "C"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "A",
-        "E",
-        "Cannot determine",
-        "C"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "42×39 = 1638।"
     },
     "id": "gdscabs-0067"
   },
   {
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "If + means ×, - means +, × means ÷, then 19 + 2 - 4 = ?",
+      "question": "What is 50 × 28?",
       "options": [
-        "42",
-        "23",
-        "15",
-        "34"
+        "1400",
+        "1385",
+        "1401",
+        "78"
       ],
-      "explanation": "After substitution: 19×2+4 = 42."
+      "explanation": "50×28 = 1400."
     },
     "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 19 + 2 - 4 = ?",
+      "question": "50 × 28 = ?",
       "options": [
-        "42",
-        "23",
-        "15",
-        "34"
+        "1400",
+        "1385",
+        "1401",
+        "78"
       ],
-      "explanation": "प्रतिस्थापन के बाद: 19×2+4 = 42।"
+      "explanation": "50×28 = 1400।"
     },
     "id": "gdscabs-0068"
   },
   {
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 17, 22, 27, ?",
+      "question": "What is 25 × 11?",
       "options": [
-        "42",
-        "32",
-        "51",
-        "37"
+        "36",
+        "261",
+        "282",
+        "275"
       ],
-      "explanation": "AP with d=5. Next = 32."
+      "explanation": "25×11 = 275."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 17, 22, 27, ?",
+      "question": "25 × 11 = ?",
       "options": [
-        "42",
-        "32",
-        "51",
-        "37"
+        "36",
+        "261",
+        "282",
+        "275"
       ],
-      "explanation": "समांतर श्रेणी, d=5। अगला = 32।"
+      "explanation": "25×11 = 275।"
     },
     "id": "gdscabs-0069"
   },
   {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "E",
-        "Cannot determine",
-        "A",
-        "C"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "E",
-        "Cannot determine",
-        "A",
-        "C"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdscabs-0070"
-  },
-  {
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 12, 14, 16, ?",
+      "question": "What is 14 × 11?",
       "options": [
-        "18",
-        "20",
-        "22",
-        "36"
+        "152",
+        "25",
+        "169",
+        "154"
       ],
-      "explanation": "AP with d=2. Next = 18."
+      "explanation": "14×11 = 154."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 12, 14, 16, ?",
+      "question": "14 × 11 = ?",
       "options": [
-        "18",
-        "20",
-        "22",
-        "36"
+        "152",
+        "25",
+        "169",
+        "154"
       ],
-      "explanation": "समांतर श्रेणी, d=2। अगला = 18।"
+      "explanation": "14×11 = 154।"
     },
     "id": "gdscabs-0071"
   },
   {
-    "correctOption": "A",
-    "difficulty": "medium",
+    "correctOption": "C",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "If + means ×, - means +, × means ÷, then 18 + 2 - 4 = ?",
+      "question": "What is 20 × 39?",
       "options": [
-        "40",
-        "22",
-        "32",
-        "14"
+        "59",
+        "792",
+        "780",
+        "774"
       ],
-      "explanation": "After substitution: 18×2+4 = 40."
+      "explanation": "20×39 = 780."
     },
     "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 18 + 2 - 4 = ?",
+      "question": "20 × 39 = ?",
       "options": [
-        "40",
-        "22",
-        "32",
-        "14"
+        "59",
+        "792",
+        "780",
+        "774"
       ],
-      "explanation": "प्रतिस्थापन के बाद: 18×2+4 = 40।"
+      "explanation": "20×39 = 780।"
     },
     "id": "gdscabs-0072"
   },
@@ -1876,128 +1850,128 @@
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 2, 11, 20, ?",
+      "question": "What is 14 × 10?",
       "options": [
-        "29",
-        "47",
-        "38",
-        "6"
+        "140",
+        "125",
+        "24",
+        "155"
       ],
-      "explanation": "AP with d=9. Next = 29."
+      "explanation": "14×10 = 140."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 2, 11, 20, ?",
+      "question": "14 × 10 = ?",
       "options": [
-        "29",
-        "47",
-        "38",
-        "6"
+        "140",
+        "125",
+        "24",
+        "155"
       ],
-      "explanation": "समांतर श्रेणी, d=9। अगला = 29।"
+      "explanation": "14×10 = 140।"
     },
     "id": "gdscabs-0073"
   },
   {
-    "correctOption": "C",
-    "difficulty": "hard",
+    "correctOption": "D",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "What is 47 × 40?",
       "options": [
-        "C",
-        "E",
-        "Cannot determine",
-        "A"
+        "1889",
+        "1867",
+        "87",
+        "1880"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "47×40 = 1880."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "47 × 40 = ?",
       "options": [
-        "C",
-        "E",
-        "Cannot determine",
-        "A"
+        "1889",
+        "1867",
+        "87",
+        "1880"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "47×40 = 1880।"
     },
     "id": "gdscabs-0074"
   },
   {
-    "correctOption": "D",
-    "difficulty": "hard",
+    "correctOption": "A",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "What is 37 × 22?",
       "options": [
-        "E",
-        "C",
-        "A",
-        "Cannot determine"
+        "814",
+        "829",
+        "59",
+        "809"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "37×22 = 814."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "37 × 22 = ?",
       "options": [
-        "E",
-        "C",
-        "A",
-        "Cannot determine"
+        "814",
+        "829",
+        "59",
+        "809"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "37×22 = 814।"
     },
     "id": "gdscabs-0075"
   },
   {
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 15, 19, 23, ?",
+      "question": "What is 18 × 39?",
       "options": [
-        "31",
-        "45",
-        "27",
-        "35"
+        "714",
+        "702",
+        "57",
+        "692"
       ],
-      "explanation": "AP with d=4. Next = 27."
+      "explanation": "18×39 = 702."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 15, 19, 23, ?",
+      "question": "18 × 39 = ?",
       "options": [
-        "31",
-        "45",
-        "27",
-        "35"
+        "714",
+        "702",
+        "57",
+        "692"
       ],
-      "explanation": "समांतर श्रेणी, d=4। अगला = 27।"
+      "explanation": "18×39 = 702।"
     },
     "id": "gdscabs-0076"
   },
   {
-    "correctOption": "A",
-    "difficulty": "medium",
+    "correctOption": "B",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "If + means ×, - means +, × means ÷, then 21 + 2 - 14 = ?",
+      "question": "What is 11 × 39?",
       "options": [
-        "56",
-        "35",
-        "28",
-        "7"
+        "50",
+        "429",
+        "415",
+        "446"
       ],
-      "explanation": "After substitution: 21×2+14 = 56."
+      "explanation": "11×39 = 429."
     },
     "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 21 + 2 - 14 = ?",
+      "question": "11 × 39 = ?",
       "options": [
-        "56",
-        "35",
-        "28",
-        "7"
+        "50",
+        "429",
+        "415",
+        "446"
       ],
-      "explanation": "प्रतिस्थापन के बाद: 21×2+14 = 56।"
+      "explanation": "11×39 = 429।"
     },
     "id": "gdscabs-0077"
   },
@@ -2006,388 +1980,388 @@
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 8, 12, 16, ?",
+      "question": "What is 19 × 17?",
       "options": [
-        "28",
-        "24",
-        "20",
-        "24"
+        "338",
+        "319",
+        "323",
+        "36"
       ],
-      "explanation": "AP with d=4. Next = 20."
+      "explanation": "19×17 = 323."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 8, 12, 16, ?",
+      "question": "19 × 17 = ?",
       "options": [
-        "28",
-        "24",
-        "20",
-        "24"
+        "338",
+        "319",
+        "323",
+        "36"
       ],
-      "explanation": "समांतर श्रेणी, d=4। अगला = 20।"
+      "explanation": "19×17 = 323।"
     },
     "id": "gdscabs-0078"
   },
   {
-    "correctOption": "A",
-    "difficulty": "hard",
+    "correctOption": "B",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "What is 23 × 37?",
       "options": [
-        "Cannot determine",
-        "E",
-        "A",
-        "C"
+        "845",
+        "851",
+        "857",
+        "60"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "23×37 = 851."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "23 × 37 = ?",
       "options": [
-        "Cannot determine",
-        "E",
-        "A",
-        "C"
+        "845",
+        "851",
+        "857",
+        "60"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "23×37 = 851।"
     },
     "id": "gdscabs-0079"
   },
   {
-    "correctOption": "B",
-    "difficulty": "medium",
+    "correctOption": "A",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "If + means ×, - means +, × means ÷, then 7 + 2 - 7 = ?",
+      "question": "What is 30 × 32?",
       "options": [
-        "7",
-        "21",
-        "14",
-        "0"
+        "960",
+        "978",
+        "947",
+        "62"
       ],
-      "explanation": "After substitution: 7×2+7 = 21."
+      "explanation": "30×32 = 960."
     },
     "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 7 + 2 - 7 = ?",
+      "question": "30 × 32 = ?",
       "options": [
-        "7",
-        "21",
-        "14",
-        "0"
+        "960",
+        "978",
+        "947",
+        "62"
       ],
-      "explanation": "प्रतिस्थापन के बाद: 7×2+7 = 21।"
+      "explanation": "30×32 = 960।"
     },
     "id": "gdscabs-0080"
   },
   {
-    "correctOption": "C",
-    "difficulty": "hard",
+    "correctOption": "B",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "What is 42 × 36?",
       "options": [
-        "C",
-        "A",
-        "Cannot determine",
-        "E"
+        "1530",
+        "1512",
+        "78",
+        "1499"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "42×36 = 1512."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "42 × 36 = ?",
       "options": [
-        "C",
-        "A",
-        "Cannot determine",
-        "E"
+        "1530",
+        "1512",
+        "78",
+        "1499"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "42×36 = 1512।"
     },
     "id": "gdscabs-0081"
   },
   {
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 9, 13, 17, ?",
+      "question": "What is 42 × 34?",
       "options": [
-        "21",
-        "25",
-        "29",
-        "27"
+        "1418",
+        "76",
+        "1436",
+        "1428"
       ],
-      "explanation": "AP with d=4. Next = 21."
+      "explanation": "42×34 = 1428."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 9, 13, 17, ?",
+      "question": "42 × 34 = ?",
       "options": [
-        "21",
-        "25",
-        "29",
-        "27"
+        "1418",
+        "76",
+        "1436",
+        "1428"
       ],
-      "explanation": "समांतर श्रेणी, d=4। अगला = 21।"
+      "explanation": "42×34 = 1428।"
     },
     "id": "gdscabs-0082"
   },
   {
-    "correctOption": "C",
-    "difficulty": "hard",
+    "correctOption": "D",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "What is 24 × 25?",
       "options": [
-        "E",
-        "C",
-        "Cannot determine",
-        "A"
+        "49",
+        "601",
+        "598",
+        "600"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "24×25 = 600."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "24 × 25 = ?",
       "options": [
-        "E",
-        "C",
-        "Cannot determine",
-        "A"
+        "49",
+        "601",
+        "598",
+        "600"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "24×25 = 600।"
     },
     "id": "gdscabs-0083"
   },
   {
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 7, 10, 13, ?",
+      "question": "What is 9 × 23?",
       "options": [
-        "16",
-        "22",
-        "21",
-        "19"
+        "202",
+        "215",
+        "207",
+        "32"
       ],
-      "explanation": "AP with d=3. Next = 16."
+      "explanation": "9×23 = 207."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 7, 10, 13, ?",
+      "question": "9 × 23 = ?",
       "options": [
-        "16",
-        "22",
-        "21",
-        "19"
+        "202",
+        "215",
+        "207",
+        "32"
       ],
-      "explanation": "समांतर श्रेणी, d=3। अगला = 16।"
+      "explanation": "9×23 = 207।"
     },
     "id": "gdscabs-0084"
   },
   {
-    "correctOption": "B",
-    "difficulty": "hard",
+    "correctOption": "D",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "What is 45 × 5?",
       "options": [
-        "C",
-        "Cannot determine",
-        "E",
-        "A"
+        "50",
+        "215",
+        "237",
+        "225"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "45×5 = 225."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "45 × 5 = ?",
       "options": [
-        "C",
-        "Cannot determine",
-        "E",
-        "A"
+        "50",
+        "215",
+        "237",
+        "225"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "45×5 = 225।"
     },
     "id": "gdscabs-0085"
   },
   {
-    "correctOption": "A",
-    "difficulty": "hard",
+    "correctOption": "D",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "What is 5 × 3?",
       "options": [
-        "Cannot determine",
-        "A",
-        "C",
-        "E"
+        "8",
+        "24",
+        "4",
+        "15"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "5×3 = 15."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "5 × 3 = ?",
       "options": [
-        "Cannot determine",
-        "A",
-        "C",
-        "E"
+        "8",
+        "24",
+        "4",
+        "15"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "5×3 = 15।"
     },
     "id": "gdscabs-0086"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "Cannot determine",
-        "A",
-        "E",
-        "C"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "Cannot determine",
-        "A",
-        "E",
-        "C"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdscabs-0087"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "A",
-        "Cannot determine",
-        "E",
-        "C"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "A",
-        "Cannot determine",
-        "E",
-        "C"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdscabs-0088"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If + means ×, - means +, × means ÷, then 9 + 2 - 5 = ?",
-      "options": [
-        "14",
-        "23",
-        "4",
-        "13"
-      ],
-      "explanation": "After substitution: 9×2+5 = 23."
-    },
-    "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 9 + 2 - 5 = ?",
-      "options": [
-        "14",
-        "23",
-        "4",
-        "13"
-      ],
-      "explanation": "प्रतिस्थापन के बाद: 9×2+5 = 23।"
-    },
-    "id": "gdscabs-0089"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "Cannot determine",
-        "A",
-        "C",
-        "E"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "Cannot determine",
-        "A",
-        "C",
-        "E"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdscabs-0090"
   },
   {
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 19, 20, 21, ?",
+      "question": "What is 38 × 7?",
       "options": [
-        "23",
-        "24",
-        "22",
-        "57"
+        "45",
+        "281",
+        "266",
+        "261"
       ],
-      "explanation": "AP with d=1. Next = 22."
+      "explanation": "38×7 = 266."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 19, 20, 21, ?",
+      "question": "38 × 7 = ?",
       "options": [
-        "23",
-        "24",
-        "22",
-        "57"
+        "45",
+        "281",
+        "266",
+        "261"
       ],
-      "explanation": "समांतर श्रेणी, d=1। अगला = 22।"
+      "explanation": "38×7 = 266।"
+    },
+    "id": "gdscabs-0087"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 16 × 23?",
+      "options": [
+        "387",
+        "39",
+        "358",
+        "368"
+      ],
+      "explanation": "16×23 = 368."
+    },
+    "hi": {
+      "question": "16 × 23 = ?",
+      "options": [
+        "387",
+        "39",
+        "358",
+        "368"
+      ],
+      "explanation": "16×23 = 368।"
+    },
+    "id": "gdscabs-0088"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 27 × 19?",
+      "options": [
+        "513",
+        "46",
+        "505",
+        "517"
+      ],
+      "explanation": "27×19 = 513."
+    },
+    "hi": {
+      "question": "27 × 19 = ?",
+      "options": [
+        "513",
+        "46",
+        "505",
+        "517"
+      ],
+      "explanation": "27×19 = 513।"
+    },
+    "id": "gdscabs-0089"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 19 × 19?",
+      "options": [
+        "38",
+        "361",
+        "354",
+        "368"
+      ],
+      "explanation": "19×19 = 361."
+    },
+    "hi": {
+      "question": "19 × 19 = ?",
+      "options": [
+        "38",
+        "361",
+        "354",
+        "368"
+      ],
+      "explanation": "19×19 = 361।"
+    },
+    "id": "gdscabs-0090"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 22 × 28?",
+      "options": [
+        "616",
+        "609",
+        "50",
+        "620"
+      ],
+      "explanation": "22×28 = 616."
+    },
+    "hi": {
+      "question": "22 × 28 = ?",
+      "options": [
+        "616",
+        "609",
+        "50",
+        "620"
+      ],
+      "explanation": "22×28 = 616।"
     },
     "id": "gdscabs-0091"
   },
   {
     "correctOption": "B",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "What is 15 × 24?",
       "options": [
-        "C",
-        "Cannot determine",
-        "E",
-        "A"
+        "376",
+        "360",
+        "357",
+        "39"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "15×24 = 360."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "15 × 24 = ?",
       "options": [
-        "C",
-        "Cannot determine",
-        "E",
-        "A"
+        "376",
+        "360",
+        "357",
+        "39"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "15×24 = 360।"
     },
     "id": "gdscabs-0092"
   },
@@ -2396,206 +2370,180 @@
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 13, 20, 27, ?",
+      "question": "What is 50 × 24?",
       "options": [
-        "34",
-        "39",
-        "41",
-        "48"
+        "1200",
+        "74",
+        "1219",
+        "1191"
       ],
-      "explanation": "AP with d=7. Next = 34."
+      "explanation": "50×24 = 1200."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 13, 20, 27, ?",
+      "question": "50 × 24 = ?",
       "options": [
-        "34",
-        "39",
-        "41",
-        "48"
+        "1200",
+        "74",
+        "1219",
+        "1191"
       ],
-      "explanation": "समांतर श्रेणी, d=7। अगला = 34।"
+      "explanation": "50×24 = 1200।"
     },
     "id": "gdscabs-0093"
   },
   {
     "correctOption": "A",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "What is 31 × 10?",
       "options": [
-        "Cannot determine",
-        "E",
-        "C",
-        "A"
+        "310",
+        "301",
+        "41",
+        "319"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "31×10 = 310."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "31 × 10 = ?",
       "options": [
-        "Cannot determine",
-        "E",
-        "C",
-        "A"
+        "310",
+        "301",
+        "41",
+        "319"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "31×10 = 310।"
     },
     "id": "gdscabs-0094"
   },
   {
-    "correctOption": "A",
-    "difficulty": "medium",
+    "correctOption": "D",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "If + means ×, - means +, × means ÷, then 21 + 2 - 5 = ?",
+      "question": "What is 8 × 8?",
       "options": [
-        "47",
-        "37",
         "16",
-        "26"
+        "76",
+        "61",
+        "64"
       ],
-      "explanation": "After substitution: 21×2+5 = 47."
+      "explanation": "8×8 = 64."
     },
     "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 21 + 2 - 5 = ?",
+      "question": "8 × 8 = ?",
       "options": [
-        "47",
-        "37",
         "16",
-        "26"
+        "76",
+        "61",
+        "64"
       ],
-      "explanation": "प्रतिस्थापन के बाद: 21×2+5 = 47।"
+      "explanation": "8×8 = 64।"
     },
     "id": "gdscabs-0095"
   },
   {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If + means ×, - means +, × means ÷, then 14 + 2 - 3 = ?",
-      "options": [
-        "31",
-        "17",
-        "25",
-        "11"
-      ],
-      "explanation": "After substitution: 14×2+3 = 31."
-    },
-    "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 14 + 2 - 3 = ?",
-      "options": [
-        "31",
-        "17",
-        "25",
-        "11"
-      ],
-      "explanation": "प्रतिस्थापन के बाद: 14×2+3 = 31।"
-    },
-    "id": "gdscabs-0096"
-  },
-  {
     "correctOption": "C",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "If + means ×, - means +, × means ÷, then 20 + 2 - 9 = ?",
+      "question": "What is 11 × 24?",
       "options": [
-        "29",
-        "11",
-        "49",
-        "31"
+        "251",
+        "35",
+        "264",
+        "273"
       ],
-      "explanation": "After substitution: 20×2+9 = 49."
+      "explanation": "11×24 = 264."
     },
     "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 20 + 2 - 9 = ?",
+      "question": "11 × 24 = ?",
       "options": [
-        "29",
-        "11",
-        "49",
-        "31"
+        "251",
+        "35",
+        "264",
+        "273"
       ],
-      "explanation": "प्रतिस्थापन के बाद: 20×2+9 = 49।"
+      "explanation": "11×24 = 264।"
     },
     "id": "gdscabs-0097"
   },
   {
-    "correctOption": "C",
+    "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 18, 26, 34, ?",
+      "question": "What is 15 × 12?",
       "options": [
-        "50",
-        "58",
-        "42",
-        "54"
+        "27",
+        "168",
+        "187",
+        "180"
       ],
-      "explanation": "AP with d=8. Next = 42."
+      "explanation": "15×12 = 180."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 18, 26, 34, ?",
+      "question": "15 × 12 = ?",
       "options": [
-        "50",
-        "58",
-        "42",
-        "54"
+        "27",
+        "168",
+        "187",
+        "180"
       ],
-      "explanation": "समांतर श्रेणी, d=8। अगला = 42।"
+      "explanation": "15×12 = 180।"
     },
     "id": "gdscabs-0098"
   },
   {
-    "correctOption": "D",
-    "difficulty": "hard",
+    "correctOption": "B",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "What is 18 × 34?",
       "options": [
-        "E",
-        "A",
-        "C",
-        "Cannot determine"
+        "616",
+        "612",
+        "52",
+        "607"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "18×34 = 612."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "18 × 34 = ?",
       "options": [
-        "E",
-        "A",
-        "C",
-        "Cannot determine"
+        "616",
+        "612",
+        "52",
+        "607"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "18×34 = 612।"
     },
     "id": "gdscabs-0099"
   },
   {
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Complete series: 12, 22, 32, ?",
+      "question": "What is 36 × 20?",
       "options": [
-        "42",
-        "36",
-        "52",
-        "62"
+        "712",
+        "56",
+        "720",
+        "723"
       ],
-      "explanation": "AP with d=10. Next = 42."
+      "explanation": "36×20 = 720."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 12, 22, 32, ?",
+      "question": "36 × 20 = ?",
       "options": [
-        "42",
-        "36",
-        "52",
-        "62"
+        "712",
+        "56",
+        "720",
+        "723"
       ],
-      "explanation": "समांतर श्रेणी, d=10। अगला = 42।"
+      "explanation": "36×20 = 720।"
     },
     "id": "gdscabs-0100"
   }

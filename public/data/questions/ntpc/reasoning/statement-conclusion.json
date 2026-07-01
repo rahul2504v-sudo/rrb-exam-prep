@@ -1955,32 +1955,6 @@
     }
   },
   {
-    "id": "nrsc-0079",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Some students failed.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. Statement says all passed."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Some students failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says all passed."
-    }
-  },
-  {
     "id": "nrsc-0080",
     "correctOption": "A",
     "difficulty": "medium",
@@ -2033,32 +2007,6 @@
     }
   },
   {
-    "id": "nrsc-0082",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: All countries are democratic.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Overgeneralization."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: All countries are democratic.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Overgeneralization."
-    }
-  },
-  {
     "id": "nrsc-0083",
     "correctOption": "D",
     "difficulty": "medium",
@@ -2082,110 +2030,6 @@
         "No, it does not follow"
       ],
       "explanation": "निष्कर्ष: False. Contradicts premises."
-    }
-  },
-  {
-    "id": "nrsc-0084",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is taller than Ram.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Contradicts premises."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is taller than Ram.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts premises."
-    }
-  },
-  {
-    "id": "nrsc-0085",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: All countries are democratic.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Overgeneralization."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: All countries are democratic.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Overgeneralization."
-    }
-  },
-  {
-    "id": "nrsc-0086",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "nrsc-0087",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Some students failed.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. Statement says all passed."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Some students failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says all passed."
     }
   },
   {
@@ -2215,58 +2059,6 @@
     }
   },
   {
-    "id": "nrsc-0089",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has an elected government.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. India is democratic → has elected government."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has an elected government.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. India is democratic → has elected government."
-    }
-  },
-  {
-    "id": "nrsc-0090",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is taller than Ram.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. Contradicts premises."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is taller than Ram.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts premises."
-    }
-  },
-  {
     "id": "nrsc-0091",
     "correctOption": "C",
     "difficulty": "medium",
@@ -2290,32 +2082,6 @@
         "Yes, it follows"
       ],
       "explanation": "निष्कर्ष: False. Democracies don't have monarchs."
-    }
-  },
-  {
-    "id": "nrsc-0092",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
     }
   },
   {
@@ -2345,32 +2111,6 @@
     }
   },
   {
-    "id": "nrsc-0094",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has a monarchy.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Democracies don't have monarchs."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has a monarchy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Democracies don't have monarchs."
-    }
-  },
-  {
     "id": "nrsc-0095",
     "correctOption": "B",
     "difficulty": "medium",
@@ -2394,344 +2134,6 @@
         "Possibly follows"
       ],
       "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
-    "id": "nrsc-0096",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Ram is the tallest.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: True. Ram > Shyam > Hari, so Ram is tallest."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Ram is the tallest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: True. Ram > Shyam > Hari, so Ram is tallest."
-    }
-  },
-  {
-    "id": "nrsc-0097",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has a monarchy.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. Democracies don't have monarchs."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has a monarchy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. Democracies don't have monarchs."
-    }
-  },
-  {
-    "id": "nrsc-0098",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
-    "id": "nrsc-0099",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "nrsc-0100",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Some students failed.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Statement says all passed."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Some students failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says all passed."
-    }
-  },
-  {
-    "id": "nrsc-0101",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot cannot fly.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Contradicts."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot cannot fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts."
-    }
-  },
-  {
-    "id": "nrsc-0102",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Ram is the tallest.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. Ram > Shyam > Hari, so Ram is tallest."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Ram is the tallest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. Ram > Shyam > Hari, so Ram is tallest."
-    }
-  },
-  {
-    "id": "nrsc-0103",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
-    "id": "nrsc-0104",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has an elected government.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: True. India is democratic → has elected government."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has an elected government.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: True. India is democratic → has elected government."
-    }
-  },
-  {
-    "id": "nrsc-0105",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot cannot fly.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Contradicts."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot cannot fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts."
-    }
-  },
-  {
-    "id": "nrsc-0106",
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Toppers got high marks.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: Probable. Passing doesn't guarantee high marks, but likely."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Toppers got high marks.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: Probable. Passing doesn't guarantee high marks, but likely."
-    }
-  },
-  {
-    "id": "nrsc-0107",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is taller than Ram.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Contradicts premises."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is taller than Ram.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts premises."
-    }
-  },
-  {
-    "id": "nrsc-0108",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Some students failed.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Statement says all passed."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Some students failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says all passed."
     }
   },
   {
@@ -2761,266 +2163,6 @@
     }
   },
   {
-    "id": "nrsc-0110",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot cannot fly.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Contradicts."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot cannot fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts."
-    }
-  },
-  {
-    "id": "nrsc-0111",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: All countries are democratic.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. Overgeneralization."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: All countries are democratic.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. Overgeneralization."
-    }
-  },
-  {
-    "id": "nrsc-0112",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
-  },
-  {
-    "id": "nrsc-0113",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "nrsc-0114",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "nrsc-0115",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has an elected government.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. India is democratic → has elected government."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has an elected government.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. India is democratic → has elected government."
-    }
-  },
-  {
-    "id": "nrsc-0116",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "nrsc-0117",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has a monarchy.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. Democracies don't have monarchs."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has a monarchy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. Democracies don't have monarchs."
-    }
-  },
-  {
-    "id": "nrsc-0118",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "nrsc-0119",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot cannot fly.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Contradicts."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot cannot fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts."
-    }
-  },
-  {
     "id": "nrsc-0120",
     "correctOption": "A",
     "difficulty": "medium",
@@ -3044,136 +2186,6 @@
         "Cannot say"
       ],
       "explanation": "निष्कर्ष: False. All birds fly ≠ all fliers are birds."
-    }
-  },
-  {
-    "id": "nrsc-0121",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot flies.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot flies.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    }
-  },
-  {
-    "id": "nrsc-0122",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Some students failed.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Statement says all passed."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Some students failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says all passed."
-    }
-  },
-  {
-    "id": "nrsc-0123",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "nrsc-0124",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "nrsc-0125",
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
     }
   },
   {
@@ -3203,162 +2215,6 @@
     }
   },
   {
-    "id": "nrsc-0127",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "nrsc-0128",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: Elections are held in India.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: True. Elected government implies elections."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: Elections are held in India.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: True. Elected government implies elections."
-    }
-  },
-  {
-    "id": "nrsc-0129",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "nrsc-0130",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot flies.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot flies.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    }
-  },
-  {
-    "id": "nrsc-0131",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot flies.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot flies.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    }
-  },
-  {
-    "id": "nrsc-0132",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
     "id": "nrsc-0133",
     "correctOption": "D",
     "difficulty": "medium",
@@ -3385,2083 +2241,289 @@
     }
   },
   {
-    "id": "nrsc-0134",
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
-  },
-  {
-    "id": "nrsc-0135",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Ram is the tallest.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. Ram > Shyam > Hari, so Ram is tallest."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Ram is the tallest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. Ram > Shyam > Hari, so Ram is tallest."
-    }
-  },
-  {
-    "id": "nrsc-0136",
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
-  },
-  {
-    "id": "nrsc-0137",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot cannot fly.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. Contradicts."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot cannot fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts."
-    }
-  },
-  {
-    "id": "nrsc-0138",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Toppers got high marks.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: Probable. Passing doesn't guarantee high marks, but likely."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Toppers got high marks.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: Probable. Passing doesn't guarantee high marks, but likely."
-    }
-  },
-  {
-    "id": "nrsc-0139",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "nrsc-0140",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "nrsc-0141",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Some students failed.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Statement says all passed."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Some students failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says all passed."
-    }
-  },
-  {
-    "id": "nrsc-0142",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has a monarchy.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Democracies don't have monarchs."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has a monarchy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Democracies don't have monarchs."
-    }
-  },
-  {
-    "id": "nrsc-0143",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "nrsc-0144",
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has an elected government.\nDoes the conclusion follow?",
+      "question": "What is 23 × 11?",
       "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
+        "253",
+        "270",
+        "34",
+        "240"
       ],
-      "explanation": "Conclusion: True. India is democratic → has elected government."
+      "explanation": "23×11 = 253."
     },
     "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has an elected government.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "23 × 11 = ?",
       "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows"
+        "253",
+        "270",
+        "34",
+        "240"
       ],
-      "explanation": "निष्कर्ष: True. India is democratic → has elected government."
-    }
+      "explanation": "23×11 = 253।"
+    },
+    "id": "nrsc-0134"
   },
   {
-    "id": "nrsc-0145",
     "correctOption": "D",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
+      "question": "What is 22 × 26?",
       "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
+        "580",
+        "48",
+        "562",
+        "572"
       ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
+      "explanation": "22×26 = 572."
     },
     "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "22 × 26 = ?",
       "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
+        "580",
+        "48",
+        "562",
+        "572"
       ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
-  },
-  {
-    "id": "nrsc-0146",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: All countries are democratic.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Overgeneralization."
+      "explanation": "22×26 = 572।"
     },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: All countries are democratic.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Overgeneralization."
-    }
+    "id": "nrsc-0135"
   },
   {
-    "id": "nrsc-0147",
     "correctOption": "C",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: Elections are held in India.\nDoes the conclusion follow?",
+      "question": "What is 14 × 10?",
       "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say"
+        "24",
+        "160",
+        "140",
+        "133"
       ],
-      "explanation": "Conclusion: True. Elected government implies elections."
+      "explanation": "14×10 = 140."
     },
     "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: Elections are held in India.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "14 × 10 = ?",
       "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say"
+        "24",
+        "160",
+        "140",
+        "133"
       ],
-      "explanation": "निष्कर्ष: True. Elected government implies elections."
-    }
-  },
-  {
-    "id": "nrsc-0148",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is taller than Ram.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. Contradicts premises."
+      "explanation": "14×10 = 140।"
     },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is taller than Ram.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts premises."
-    }
+    "id": "nrsc-0136"
   },
   {
-    "id": "nrsc-0149",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "nrsc-0150",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: All countries are democratic.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. Overgeneralization."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: All countries are democratic.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. Overgeneralization."
-    }
-  },
-  {
-    "id": "nrsc-0151",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Some students failed.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. Statement says all passed."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Some students failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says all passed."
-    }
-  },
-  {
-    "id": "nrsc-0152",
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
+      "question": "What is 42 × 26?",
       "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
+        "1092",
+        "68",
+        "1095",
+        "1078"
       ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
+      "explanation": "42×26 = 1092."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "42 × 26 = ?",
       "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
+        "1092",
+        "68",
+        "1095",
+        "1078"
       ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
+      "explanation": "42×26 = 1092।"
+    },
+    "id": "nrsc-0137"
   },
   {
-    "id": "nrsc-0153",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 26 × 34?",
+      "options": [
+        "899",
+        "60",
+        "884",
+        "881"
+      ],
+      "explanation": "26×34 = 884."
+    },
+    "hi": {
+      "question": "26 × 34 = ?",
+      "options": [
+        "899",
+        "60",
+        "884",
+        "881"
+      ],
+      "explanation": "26×34 = 884।"
+    },
+    "id": "nrsc-0138"
+  },
+  {
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot cannot fly.\nDoes the conclusion follow?",
+      "question": "What is 48 × 6?",
       "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
+        "284",
+        "300",
+        "54",
+        "288"
       ],
-      "explanation": "Conclusion: False. Contradicts."
+      "explanation": "48×6 = 288."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot cannot fly.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "48 × 6 = ?",
       "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
+        "284",
+        "300",
+        "54",
+        "288"
       ],
-      "explanation": "निष्कर्ष: False. Contradicts."
-    }
-  },
-  {
-    "id": "nrsc-0154",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
+      "explanation": "48×6 = 288।"
     },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
+    "id": "nrsc-0139"
   },
   {
-    "id": "nrsc-0155",
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Some students failed.\nDoes the conclusion follow?",
+      "question": "What is 43 × 29?",
       "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
+        "1247",
+        "72",
+        "1249",
+        "1239"
       ],
-      "explanation": "Conclusion: False. Statement says all passed."
+      "explanation": "43×29 = 1247."
     },
     "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Some students failed.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "43 × 29 = ?",
       "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
+        "1247",
+        "72",
+        "1249",
+        "1239"
       ],
-      "explanation": "निष्कर्ष: False. Statement says all passed."
-    }
+      "explanation": "43×29 = 1247।"
+    },
+    "id": "nrsc-0140"
   },
   {
-    "id": "nrsc-0156",
-    "correctOption": "B",
-    "difficulty": "hard",
+    "correctOption": "D",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
+      "question": "What is 45 × 18?",
       "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
+        "809",
+        "63",
+        "828",
+        "810"
       ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
+      "explanation": "45×18 = 810."
     },
     "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "45 × 18 = ?",
       "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
+        "809",
+        "63",
+        "828",
+        "810"
       ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
+      "explanation": "45×18 = 810।"
+    },
+    "id": "nrsc-0141"
   },
   {
-    "id": "nrsc-0157",
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: Elections are held in India.\nDoes the conclusion follow?",
+      "question": "What is 18 × 4?",
       "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
+        "72",
+        "88",
+        "22",
+        "57"
       ],
-      "explanation": "Conclusion: True. Elected government implies elections."
+      "explanation": "18×4 = 72."
     },
     "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: Elections are held in India.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "18 × 4 = ?",
       "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
+        "72",
+        "88",
+        "22",
+        "57"
       ],
-      "explanation": "निष्कर्ष: True. Elected government implies elections."
-    }
-  },
-  {
-    "id": "nrsc-0158",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Toppers got high marks.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: Probable. Passing doesn't guarantee high marks, but likely."
+      "explanation": "18×4 = 72।"
     },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Toppers got high marks.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: Probable. Passing doesn't guarantee high marks, but likely."
-    }
+    "id": "nrsc-0142"
   },
   {
-    "id": "nrsc-0159",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "nrsc-0160",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
-    "id": "nrsc-0161",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "nrsc-0162",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot cannot fly.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Contradicts."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot cannot fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts."
-    }
-  },
-  {
-    "id": "nrsc-0163",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has a monarchy.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Democracies don't have monarchs."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has a monarchy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Democracies don't have monarchs."
-    }
-  },
-  {
-    "id": "nrsc-0164",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: All countries are democratic.\nDoes the conclusion follow?",
+      "question": "What is 12 × 17?",
       "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
+        "203",
+        "204",
+        "29",
+        "216"
       ],
-      "explanation": "Conclusion: False. Overgeneralization."
+      "explanation": "12×17 = 204."
     },
     "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: All countries are democratic.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "12 × 17 = ?",
       "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
+        "203",
+        "204",
+        "29",
+        "216"
       ],
-      "explanation": "निष्कर्ष: False. Overgeneralization."
-    }
-  },
-  {
-    "id": "nrsc-0165",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has a monarchy.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. Democracies don't have monarchs."
+      "explanation": "12×17 = 204।"
     },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has a monarchy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. Democracies don't have monarchs."
-    }
+    "id": "nrsc-0143"
   },
   {
-    "id": "nrsc-0166",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "nrsc-0167",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has a monarchy.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. Democracies don't have monarchs."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has a monarchy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. Democracies don't have monarchs."
-    }
-  },
-  {
-    "id": "nrsc-0168",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
-    "id": "nrsc-0169",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
-    "id": "nrsc-0170",
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: All flying things are birds.\nDoes the conclusion follow?",
+      "question": "What is 18 × 25?",
       "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
+        "459",
+        "447",
+        "43",
+        "450"
       ],
-      "explanation": "Conclusion: False. All birds fly ≠ all fliers are birds."
+      "explanation": "18×25 = 450."
     },
     "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: All flying things are birds.\nक्या निष्कर्ष अनुसरण करता है?",
+      "question": "18 × 25 = ?",
       "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
+        "459",
+        "447",
+        "43",
+        "450"
       ],
-      "explanation": "निष्कर्ष: False. All birds fly ≠ all fliers are birds."
-    }
-  },
-  {
-    "id": "nrsc-0171",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
+      "explanation": "18×25 = 450।"
     },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
-    "id": "nrsc-0172",
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Toppers got high marks.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: Probable. Passing doesn't guarantee high marks, but likely."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Toppers got high marks.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: Probable. Passing doesn't guarantee high marks, but likely."
-    }
-  },
-  {
-    "id": "nrsc-0173",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Ram is the tallest.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: True. Ram > Shyam > Hari, so Ram is tallest."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Ram is the tallest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: True. Ram > Shyam > Hari, so Ram is tallest."
-    }
-  },
-  {
-    "id": "nrsc-0174",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is taller than Ram.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. Contradicts premises."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is taller than Ram.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts premises."
-    }
-  },
-  {
-    "id": "nrsc-0175",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
-    "id": "nrsc-0176",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is taller than Ram.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Contradicts premises."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is taller than Ram.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts premises."
-    }
-  },
-  {
-    "id": "nrsc-0177",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is the shortest.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: True. Hari < Shyam < Ram."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is the shortest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: True. Hari < Shyam < Ram."
-    }
-  },
-  {
-    "id": "nrsc-0178",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has a monarchy.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. Democracies don't have monarchs."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has a monarchy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. Democracies don't have monarchs."
-    }
-  },
-  {
-    "id": "nrsc-0179",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "nrsc-0180",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: Elections are held in India.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: True. Elected government implies elections."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: Elections are held in India.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: True. Elected government implies elections."
-    }
-  },
-  {
-    "id": "nrsc-0181",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
-    "id": "nrsc-0182",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: Elections are held in India.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: True. Elected government implies elections."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: Elections are held in India.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: True. Elected government implies elections."
-    }
-  },
-  {
-    "id": "nrsc-0183",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
-  },
-  {
-    "id": "nrsc-0184",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: All countries are democratic.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: False. Overgeneralization."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: All countries are democratic.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: False. Overgeneralization."
-    }
-  },
-  {
-    "id": "nrsc-0185",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: All flying things are birds.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. All birds fly ≠ all fliers are birds."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: All flying things are birds.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. All birds fly ≠ all fliers are birds."
-    }
-  },
-  {
-    "id": "nrsc-0186",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "nrsc-0187",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
-    "id": "nrsc-0188",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is the shortest.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: True. Hari < Shyam < Ram."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is the shortest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: True. Hari < Shyam < Ram."
-    }
-  },
-  {
-    "id": "nrsc-0189",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
-  },
-  {
-    "id": "nrsc-0190",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Some students failed.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Statement says all passed."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Some students failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says all passed."
-    }
-  },
-  {
-    "id": "nrsc-0191",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
-    "id": "nrsc-0192",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is the shortest.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "Conclusion: True. Hari < Shyam < Ram."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is the shortest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows"
-      ],
-      "explanation": "निष्कर्ष: True. Hari < Shyam < Ram."
-    }
-  },
-  {
-    "id": "nrsc-0193",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot flies.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot flies.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. Deductive: All birds fly, parrot is bird → parrot flies."
-    }
-  },
-  {
-    "id": "nrsc-0194",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has a monarchy.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Democracies don't have monarchs."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has a monarchy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Democracies don't have monarchs."
-    }
-  },
-  {
-    "id": "nrsc-0195",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "nrsc-0196",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "nrsc-0197",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Some birds do not fly.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Statement says ALL birds fly."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Some birds do not fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Statement says ALL birds fly."
-    }
-  },
-  {
-    "id": "nrsc-0198",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is the shortest.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. Hari < Shyam < Ram."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is the shortest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. Hari < Shyam < Ram."
-    }
-  },
-  {
-    "id": "nrsc-0199",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All birds fly. Parrot is a bird.\nConclusion: Parrot cannot fly.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: False. Contradicts."
-    },
-    "hi": {
-      "question": "कथन: सभी पक्षी उड़ते हैं। तोता एक पक्षी है।\nनिष्कर्ष: Parrot cannot fly.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "No, it does not follow",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts."
-    }
-  },
-  {
-    "id": "nrsc-0200",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Toppers got high marks.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: Probable. Passing doesn't guarantee high marks, but likely."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Toppers got high marks.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: Probable. Passing doesn't guarantee high marks, but likely."
-    }
-  },
-  {
-    "id": "nrsc-0201",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "nrsc-0202",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Shyam's height is average.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. No data about average."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Shyam's height is average.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. No data about average."
-    }
-  },
-  {
-    "id": "nrsc-0203",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
-  },
-  {
-    "id": "nrsc-0204",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has a monarchy.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: False. Democracies don't have monarchs."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has a monarchy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: False. Democracies don't have monarchs."
-    }
-  },
-  {
-    "id": "nrsc-0205",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: Toppers got high marks.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: Probable. Passing doesn't guarantee high marks, but likely."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: Toppers got high marks.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: Probable. Passing doesn't guarantee high marks, but likely."
-    }
-  },
-  {
-    "id": "nrsc-0206",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is the shortest.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. Hari < Shyam < Ram."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is the shortest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Yes, it follows",
-        "Cannot say",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. Hari < Shyam < Ram."
-    }
-  },
-  {
-    "id": "nrsc-0207",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is taller than Ram.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: False. Contradicts premises."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is taller than Ram.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Possibly follows",
-        "No, it does not follow",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: False. Contradicts premises."
-    }
-  },
-  {
-    "id": "nrsc-0208",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows"
-      ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
-  },
-  {
-    "id": "nrsc-0209",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: India is a democratic country. Democracies have elected governments.\nConclusion: India has an elected government.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. India is democratic → has elected government."
-    },
-    "hi": {
-      "question": "कथन: भारत एक लोकतांत्रिक देश है। लोकतंत्रों में निर्वाचित सरकार होती है।\nनिष्कर्ष: India has an elected government.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. India is democratic → has elected government."
-    }
-  },
-  {
-    "id": "nrsc-0210",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: The exam was easy.\nDoes the conclusion follow?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "Conclusion: Probable. 100% pass rate suggests ease, but not conclusive."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: The exam was easy.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "No, it does not follow",
-        "Yes, it follows",
-        "Possibly follows",
-        "Cannot say"
-      ],
-      "explanation": "निष्कर्ष: Probable. 100% pass rate suggests ease, but not conclusive."
-    }
-  },
-  {
-    "id": "nrsc-0211",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: All students passed the exam.\nConclusion: No student failed.\nDoes the conclusion follow?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. All passed = no failure."
-    },
-    "hi": {
-      "question": "कथन: सभी छात्र परीक्षा में उत्तीर्ण हुए।\nनिष्कर्ष: No student failed.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Yes, it follows",
-        "Cannot say",
-        "Possibly follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. All passed = no failure."
-    }
-  },
-  {
-    "id": "nrsc-0212",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Hari is the shortest.\nDoes the conclusion follow?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. Hari < Shyam < Ram."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Hari is the shortest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Cannot say",
-        "Possibly follows",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. Hari < Shyam < Ram."
-    }
-  },
-  {
-    "id": "nrsc-0213",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statement: Ram is taller than Shyam, and Shyam is taller than Hari.\nConclusion: Ram is the tallest.\nDoes the conclusion follow?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "Conclusion: True. Ram > Shyam > Hari, so Ram is tallest."
-    },
-    "hi": {
-      "question": "कथन: राम, श्याम से लंबा है और श्याम, हरि से लंबा है।\nनिष्कर्ष: Ram is the tallest.\nक्या निष्कर्ष अनुसरण करता है?",
-      "options": [
-        "Possibly follows",
-        "Cannot say",
-        "Yes, it follows",
-        "No, it does not follow"
-      ],
-      "explanation": "निष्कर्ष: True. Ram > Shyam > Hari, so Ram is tallest."
-    }
+    "id": "nrsc-0144"
   }
 ]

@@ -364,32 +364,6 @@
     }
   },
   {
-    "id": "gdrs-0093",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some C are not A.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion follows. B⊆C, B∩A=∅ ∴ B are in C but not in A"
-    },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are not A.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। B⊆C, B∩A=∅ ∴ B are in C but not in A"
-    }
-  },
-  {
     "id": "gdrs-0094",
     "correctOption": "A",
     "difficulty": "hard",
@@ -416,32 +390,6 @@
     }
   },
   {
-    "id": "gdrs-0095",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some C are not A.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion follows. B⊆C, B∩A=∅ ∴ B are in C but not in A"
-    },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are not A.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। B⊆C, B∩A=∅ ∴ B are in C but not in A"
-    }
-  },
-  {
     "id": "gdrs-0096",
     "correctOption": "D",
     "difficulty": "medium",
@@ -465,32 +413,6 @@
         "Does not follow (False)"
       ],
       "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
-    }
-  },
-  {
-    "id": "gdrs-0097",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some A are C.",
-      "options": [
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion does NOT follow. Cannot determine; A and C may be separate"
-    },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
-      "options": [
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine; A and C may be separate"
     }
   },
   {
@@ -521,32 +443,6 @@
   },
   {
     "id": "gdrs-0099",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: No A is C.",
-      "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. We know some A are C"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
-      "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। We know some A are C"
-    }
-  },
-  {
-    "id": "gdrs-0100",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
@@ -624,84 +520,6 @@
     }
   },
   {
-    "id": "gdrs-0103",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "Conclusion follows. Some A are C = Some C are A"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। Some A are C = Some C are A"
-    }
-  },
-  {
-    "id": "gdrs-0104",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some B are not A.",
-      "options": [
-        "Follows (True)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion does NOT follow. All A are B, some B may not be A but not necessarily"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some B are not A.",
-      "options": [
-        "Follows (True)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। All A are B, some B may not be A but not necessarily"
-    }
-  },
-  {
-    "id": "gdrs-0105",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
-      "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Cannot be determined"
-      ],
-      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Cannot be determined"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
-    }
-  },
-  {
     "id": "gdrs-0106",
     "correctOption": "A",
     "difficulty": "medium",
@@ -754,32 +572,6 @@
     }
   },
   {
-    "id": "gdrs-0108",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: All C are A.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. C contains B which is not in A"
-    },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: All C are A.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। C contains B which is not in A"
-    }
-  },
-  {
     "id": "gdrs-0109",
     "correctOption": "D",
     "difficulty": "medium",
@@ -803,110 +595,6 @@
         "Does not follow (False)"
       ],
       "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine"
-    }
-  },
-  {
-    "id": "gdrs-0110",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: All C are A.",
-      "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. C contains B which is not in A"
-    },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: All C are A.",
-      "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। C contains B which is not in A"
-    }
-  },
-  {
-    "id": "gdrs-0111",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
-      "options": [
-        "Follows in some cases",
-        "Follows (True)",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Follows in some cases",
-        "Follows (True)",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
-    }
-  },
-  {
-    "id": "gdrs-0112",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: No A is C.",
-      "options": [
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion does NOT follow. A⊆C, so some A are C"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
-      "options": [
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। A⊆C, so some A are C"
-    }
-  },
-  {
-    "id": "gdrs-0113",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "Conclusion does NOT follow. Only some A are B, not all"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Only some A are B, not all"
     }
   },
   {
@@ -936,136 +624,6 @@
     }
   },
   {
-    "id": "gdrs-0115",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some B are not A.",
-      "options": [
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. All A are B, some B may not be A but not necessarily"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some B are not A.",
-      "options": [
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। All A are B, some B may not be A but not necessarily"
-    }
-  },
-  {
-    "id": "gdrs-0116",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: No C is A.",
-      "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Cannot be determined"
-      ],
-      "explanation": "Conclusion does NOT follow. C could contain non-B elements that are A"
-    },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: No C is A.",
-      "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Cannot be determined"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। C could contain non-B elements that are A"
-    }
-  },
-  {
-    "id": "gdrs-0117",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
-    }
-  },
-  {
-    "id": "gdrs-0118",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: All A are C.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "Conclusion does NOT follow. Only some A are B, not all"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Only some A are B, not all"
-    }
-  },
-  {
-    "id": "gdrs-0119",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: Some C are A.",
-      "options": [
-        "Cannot be determined",
-        "Follows (True)",
-        "Possible but not definite",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion is possible but not necessarily true. A⊆B, B∩C≠∅. A may or may not overlap C"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Cannot be determined",
-        "Follows (True)",
-        "Possible but not definite",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A⊆B, B∩C≠∅. A may or may not overlap C"
-    }
-  },
-  {
     "id": "gdrs-0120",
     "correctOption": "B",
     "difficulty": "medium",
@@ -1089,32 +647,6 @@
         "Does not follow (False)"
       ],
       "explanation": "निष्कर्ष अनुसरण करता है। A∩B≠∅, B⊆C ∴ A∩C≠∅"
-    }
-  },
-  {
-    "id": "gdrs-0121",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
     }
   },
   {
@@ -1144,370 +676,6 @@
     }
   },
   {
-    "id": "gdrs-0123",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: All C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. C contains B which is not in A"
-    },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: All C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। C contains B which is not in A"
-    }
-  },
-  {
-    "id": "gdrs-0124",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: No A is C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)",
-        "Cannot be determined"
-      ],
-      "explanation": "Conclusion does NOT follow. A⊆C, so some A are C"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)",
-        "Cannot be determined"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। A⊆C, so some A are C"
-    }
-  },
-  {
-    "id": "gdrs-0125",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: All A are C.",
-      "options": [
-        "Cannot be determined",
-        "Follows (True)",
-        "Follows in some cases",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion follows. A⊆B⊆C ∴ A⊆C"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Cannot be determined",
-        "Follows (True)",
-        "Follows in some cases",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A⊆B⊆C ∴ A⊆C"
-    }
-  },
-  {
-    "id": "gdrs-0126",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: All A are C.",
-      "options": [
-        "Cannot be determined",
-        "Follows (True)",
-        "Follows in some cases",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion does NOT follow. Only some A are B, not all"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Cannot be determined",
-        "Follows (True)",
-        "Follows in some cases",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Only some A are B, not all"
-    }
-  },
-  {
-    "id": "gdrs-0127",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
-      "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
-    }
-  },
-  {
-    "id": "gdrs-0128",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: No C is A.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. C could contain non-B elements that are A"
-    },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: No C is A.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। C could contain non-B elements that are A"
-    }
-  },
-  {
-    "id": "gdrs-0129",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
-      "options": [
-        "Follows in some cases",
-        "Follows (True)",
-        "Does not follow (False)",
-        "Cannot be determined"
-      ],
-      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Follows in some cases",
-        "Follows (True)",
-        "Does not follow (False)",
-        "Cannot be determined"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
-    }
-  },
-  {
-    "id": "gdrs-0130",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some A are not C.",
-      "options": [
-        "Follows (True)",
-        "Cannot be determined",
-        "Possible but not definite",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion is possible but not necessarily true. A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some A are not C.",
-      "options": [
-        "Follows (True)",
-        "Cannot be determined",
-        "Possible but not definite",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
-    }
-  },
-  {
-    "id": "gdrs-0131",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
-    }
-  },
-  {
-    "id": "gdrs-0132",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: No A is C.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. We know some A are C"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। We know some A are C"
-    }
-  },
-  {
-    "id": "gdrs-0133",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some A are C.",
-      "options": [
-        "Follows (True)",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows in some cases"
-      ],
-      "explanation": "Conclusion does NOT follow. Cannot determine; A and C may be separate"
-    },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
-      "options": [
-        "Follows (True)",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows in some cases"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine; A and C may be separate"
-    }
-  },
-  {
-    "id": "gdrs-0134",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Follows (True)",
-        "Cannot be determined",
-        "Follows in some cases"
-      ],
-      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Follows (True)",
-        "Cannot be determined",
-        "Follows in some cases"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
-    }
-  },
-  {
-    "id": "gdrs-0135",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
-    }
-  },
-  {
-    "id": "gdrs-0136",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some A are not C.",
-      "options": [
-        "Cannot be determined",
-        "Possible but not definite",
-        "Follows (True)",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion is possible but not necessarily true. A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some A are not C.",
-      "options": [
-        "Cannot be determined",
-        "Possible but not definite",
-        "Follows (True)",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
-    }
-  },
-  {
     "id": "gdrs-0137",
     "correctOption": "A",
     "difficulty": "hard",
@@ -1534,2291 +702,1849 @@
     }
   },
   {
-    "id": "gdrs-0138",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
-      "options": [
-        "Follows in some cases",
-        "Follows (True)",
-        "Does not follow (False)",
-        "Cannot be determined"
-      ],
-      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Follows in some cases",
-        "Follows (True)",
-        "Does not follow (False)",
-        "Cannot be determined"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
-    }
-  },
-  {
-    "id": "gdrs-0139",
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some A are C.",
+      "question": "What is 18 × 33?",
       "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
+        "584",
+        "607",
+        "51",
+        "594"
       ],
-      "explanation": "Conclusion follows. A∩B≠∅, B⊆C ∴ A∩C≠∅"
+      "explanation": "18×33 = 594."
     },
     "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "question": "18 × 33 = ?",
       "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
+        "584",
+        "607",
+        "51",
+        "594"
       ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A∩B≠∅, B⊆C ∴ A∩C≠∅"
-    }
+      "explanation": "18×33 = 594।"
+    },
+    "id": "gdrs-0138"
   },
   {
-    "id": "gdrs-0140",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 29 × 18?",
+      "options": [
+        "522",
+        "518",
+        "47",
+        "537"
+      ],
+      "explanation": "29×18 = 522."
+    },
+    "hi": {
+      "question": "29 × 18 = ?",
+      "options": [
+        "522",
+        "518",
+        "47",
+        "537"
+      ],
+      "explanation": "29×18 = 522।"
+    },
+    "id": "gdrs-0139"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 5 × 20?",
+      "options": [
+        "116",
+        "25",
+        "100",
+        "96"
+      ],
+      "explanation": "5×20 = 100."
+    },
+    "hi": {
+      "question": "5 × 20 = ?",
+      "options": [
+        "116",
+        "25",
+        "100",
+        "96"
+      ],
+      "explanation": "5×20 = 100।"
+    },
+    "id": "gdrs-0140"
+  },
+  {
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: No A is C.",
+      "question": "What is 34 × 8?",
       "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
+        "277",
+        "272",
+        "42",
+        "270"
       ],
-      "explanation": "Conclusion does NOT follow. Some A could be C"
+      "explanation": "34×8 = 272."
     },
     "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: No A is C.",
+      "question": "34 × 8 = ?",
       "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
+        "277",
+        "272",
+        "42",
+        "270"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A could be C"
-    }
-  },
-  {
-    "id": "gdrs-0141",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some A are C.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion does NOT follow. Cannot determine; A and C may be separate"
+      "explanation": "34×8 = 272।"
     },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine; A and C may be separate"
-    }
+    "id": "gdrs-0141"
   },
   {
-    "id": "gdrs-0142",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: No C is A.",
-      "options": [
-        "Does not follow (False)",
-        "Follows (True)",
-        "Cannot be determined",
-        "Follows in some cases"
-      ],
-      "explanation": "Conclusion does NOT follow. C could contain non-B elements that are A"
-    },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: No C is A.",
-      "options": [
-        "Does not follow (False)",
-        "Follows (True)",
-        "Cannot be determined",
-        "Follows in some cases"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। C could contain non-B elements that are A"
-    }
-  },
-  {
-    "id": "gdrs-0143",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
-    }
-  },
-  {
-    "id": "gdrs-0144",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some A are C.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion does NOT follow. Cannot determine; A and C may be separate"
-    },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine; A and C may be separate"
-    }
-  },
-  {
-    "id": "gdrs-0145",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: No C is A.",
-      "options": [
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion does NOT follow. C could contain non-B elements that are A"
-    },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: No C is A.",
-      "options": [
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। C could contain non-B elements that are A"
-    }
-  },
-  {
-    "id": "gdrs-0146",
     "correctOption": "C",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some C are A.",
+      "question": "What is 5 × 33?",
       "options": [
-        "Cannot be determined",
-        "Follows (True)",
-        "Does not follow (False)",
-        "Follows in some cases"
+        "38",
+        "175",
+        "165",
+        "159"
       ],
-      "explanation": "Conclusion does NOT follow. Cannot determine"
+      "explanation": "5×33 = 165."
     },
     "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some C are A.",
+      "question": "5 × 33 = ?",
       "options": [
-        "Cannot be determined",
-        "Follows (True)",
-        "Does not follow (False)",
-        "Follows in some cases"
+        "38",
+        "175",
+        "165",
+        "159"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine"
-    }
+      "explanation": "5×33 = 165।"
+    },
+    "id": "gdrs-0142"
   },
   {
-    "id": "gdrs-0147",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 7 × 9?",
+      "options": [
+        "16",
+        "78",
+        "63",
+        "55"
+      ],
+      "explanation": "7×9 = 63."
+    },
+    "hi": {
+      "question": "7 × 9 = ?",
+      "options": [
+        "16",
+        "78",
+        "63",
+        "55"
+      ],
+      "explanation": "7×9 = 63।"
+    },
+    "id": "gdrs-0143"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 17 × 29?",
+      "options": [
+        "493",
+        "488",
+        "497",
+        "46"
+      ],
+      "explanation": "17×29 = 493."
+    },
+    "hi": {
+      "question": "17 × 29 = ?",
+      "options": [
+        "493",
+        "488",
+        "497",
+        "46"
+      ],
+      "explanation": "17×29 = 493।"
+    },
+    "id": "gdrs-0144"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 9 × 3?",
+      "options": [
+        "12",
+        "39",
+        "12",
+        "27"
+      ],
+      "explanation": "9×3 = 27."
+    },
+    "hi": {
+      "question": "9 × 3 = ?",
+      "options": [
+        "12",
+        "39",
+        "12",
+        "27"
+      ],
+      "explanation": "9×3 = 27।"
+    },
+    "id": "gdrs-0145"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 20 × 25?",
+      "options": [
+        "45",
+        "517",
+        "486",
+        "500"
+      ],
+      "explanation": "20×25 = 500."
+    },
+    "hi": {
+      "question": "20 × 25 = ?",
+      "options": [
+        "45",
+        "517",
+        "486",
+        "500"
+      ],
+      "explanation": "20×25 = 500।"
+    },
+    "id": "gdrs-0146"
+  },
+  {
     "correctOption": "B",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: Some C are A.",
+      "question": "What is 33 × 9?",
       "options": [
-        "Cannot be determined",
-        "Possible but not definite",
-        "Does not follow (False)",
-        "Follows (True)"
+        "289",
+        "297",
+        "301",
+        "42"
       ],
-      "explanation": "Conclusion is possible but not necessarily true. A⊆B, B∩C≠∅. A may or may not overlap C"
+      "explanation": "33×9 = 297."
     },
     "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "question": "33 × 9 = ?",
       "options": [
-        "Cannot be determined",
-        "Possible but not definite",
-        "Does not follow (False)",
-        "Follows (True)"
+        "289",
+        "297",
+        "301",
+        "42"
       ],
-      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A⊆B, B∩C≠∅. A may or may not overlap C"
-    }
-  },
-  {
-    "id": "gdrs-0148",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: No A is C.",
-      "options": [
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion does NOT follow. Some A could be C"
+      "explanation": "33×9 = 297।"
     },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: No A is C.",
-      "options": [
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A could be C"
-    }
+    "id": "gdrs-0147"
   },
   {
-    "id": "gdrs-0149",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: No A is C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. We know some A are C"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। We know some A are C"
-    }
-  },
-  {
-    "id": "gdrs-0150",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
-      "options": [
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
-    }
-  },
-  {
-    "id": "gdrs-0151",
     "correctOption": "C",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some A are C.",
+      "question": "What is 24 × 26?",
       "options": [
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)",
-        "Does not follow (False)"
+        "50",
+        "614",
+        "624",
+        "631"
       ],
-      "explanation": "Conclusion follows. A∩B≠∅, B⊆C ∴ A∩C≠∅"
+      "explanation": "24×26 = 624."
     },
     "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "question": "24 × 26 = ?",
       "options": [
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)",
-        "Does not follow (False)"
+        "50",
+        "614",
+        "624",
+        "631"
       ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A∩B≠∅, B⊆C ∴ A∩C≠∅"
-    }
-  },
-  {
-    "id": "gdrs-0152",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
+      "explanation": "24×26 = 624।"
     },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
-    }
+    "id": "gdrs-0148"
   },
   {
-    "id": "gdrs-0153",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
-    }
-  },
-  {
-    "id": "gdrs-0154",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
-      "options": [
-        "Follows (True)",
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases"
-      ],
-      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Follows (True)",
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
-    }
-  },
-  {
-    "id": "gdrs-0155",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some A are C.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined"
-      ],
-      "explanation": "Conclusion follows. A∩B≠∅, B⊆C ∴ A∩C≠∅"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A∩B≠∅, B⊆C ∴ A∩C≠∅"
-    }
-  },
-  {
-    "id": "gdrs-0156",
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: No C is A.",
+      "question": "What is 44 × 10?",
       "options": [
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)",
-        "Does not follow (False)"
+        "450",
+        "54",
+        "428",
+        "440"
       ],
-      "explanation": "Conclusion does NOT follow. C could contain non-B elements that are A"
+      "explanation": "44×10 = 440."
     },
     "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: No C is A.",
+      "question": "44 × 10 = ?",
       "options": [
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)",
-        "Does not follow (False)"
+        "450",
+        "54",
+        "428",
+        "440"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। C could contain non-B elements that are A"
-    }
-  },
-  {
-    "id": "gdrs-0157",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some C are A.",
-      "options": [
-        "Cannot be determined",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. Cannot determine"
+      "explanation": "44×10 = 440।"
     },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Cannot be determined",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine"
-    }
+    "id": "gdrs-0149"
   },
   {
-    "id": "gdrs-0158",
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "question": "What is 36 × 23?",
       "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
+        "818",
+        "833",
+        "59",
+        "828"
       ],
-      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
+      "explanation": "36×23 = 828."
     },
     "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "question": "36 × 23 = ?",
       "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
+        "818",
+        "833",
+        "59",
+        "828"
       ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
-    }
-  },
-  {
-    "id": "gdrs-0159",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: All C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Follows (True)",
-        "Cannot be determined",
-        "Follows in some cases"
-      ],
-      "explanation": "Conclusion does NOT follow. C contains B which is not in A"
+      "explanation": "36×23 = 828।"
     },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: All C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Follows (True)",
-        "Cannot be determined",
-        "Follows in some cases"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। C contains B which is not in A"
-    }
+    "id": "gdrs-0150"
   },
   {
-    "id": "gdrs-0160",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: Some A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Possible but not definite",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion is possible but not necessarily true. Possible if the B that are C include A"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: Some A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Possible but not definite",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। Possible if the B that are C include A"
-    }
-  },
-  {
-    "id": "gdrs-0161",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: All C are A.",
+      "question": "What is 50 × 6?",
       "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
+        "56",
+        "300",
+        "308",
+        "293"
       ],
-      "explanation": "Conclusion does NOT follow. C contains B which is not in A"
+      "explanation": "50×6 = 300."
     },
     "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: All C are A.",
+      "question": "50 × 6 = ?",
       "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
+        "56",
+        "300",
+        "308",
+        "293"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। C contains B which is not in A"
-    }
-  },
-  {
-    "id": "gdrs-0162",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
+      "explanation": "50×6 = 300।"
     },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
-    }
+    "id": "gdrs-0151"
   },
   {
-    "id": "gdrs-0163",
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some A are C.",
+      "question": "What is 13 × 39?",
       "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)",
-        "Follows in some cases"
+        "507",
+        "508",
+        "52",
+        "504"
       ],
-      "explanation": "Conclusion does NOT follow. Cannot determine; A and C may be separate"
+      "explanation": "13×39 = 507."
     },
     "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "question": "13 × 39 = ?",
       "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)",
-        "Follows in some cases"
+        "507",
+        "508",
+        "52",
+        "504"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine; A and C may be separate"
-    }
+      "explanation": "13×39 = 507।"
+    },
+    "id": "gdrs-0152"
   },
   {
-    "id": "gdrs-0164",
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: All A are C.",
+      "question": "What is 22 × 6?",
       "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
+        "28",
+        "123",
+        "139",
+        "132"
       ],
-      "explanation": "Conclusion follows. A⊆B⊆C ∴ A⊆C"
+      "explanation": "22×6 = 132."
     },
     "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
+      "question": "22 × 6 = ?",
       "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
+        "28",
+        "123",
+        "139",
+        "132"
       ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A⊆B⊆C ∴ A⊆C"
-    }
-  },
-  {
-    "id": "gdrs-0165",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: No A is C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined"
-      ],
-      "explanation": "Conclusion does NOT follow. A⊆C, so some A are C"
+      "explanation": "22×6 = 132।"
     },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। A⊆C, so some A are C"
-    }
+    "id": "gdrs-0153"
   },
   {
-    "id": "gdrs-0166",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
-      "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
-    }
-  },
-  {
-    "id": "gdrs-0167",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: All A are C.",
-      "options": [
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion follows. A⊆B⊆C ∴ A⊆C"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A⊆B⊆C ∴ A⊆C"
-    }
-  },
-  {
-    "id": "gdrs-0168",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some C are not A.",
-      "options": [
-        "Follows (True)",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined"
-      ],
-      "explanation": "Conclusion follows. B⊆C, B∩A=∅ ∴ B are in C but not in A"
-    },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are not A.",
-      "options": [
-        "Follows (True)",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। B⊆C, B∩A=∅ ∴ B are in C but not in A"
-    }
-  },
-  {
-    "id": "gdrs-0169",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: All A are C.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "Conclusion follows. A⊆B⊆C ∴ A⊆C"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A⊆B⊆C ∴ A⊆C"
-    }
-  },
-  {
-    "id": "gdrs-0170",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some A are C.",
+      "question": "What is 43 × 21?",
       "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
+        "64",
+        "903",
+        "888",
+        "919"
       ],
-      "explanation": "Conclusion does NOT follow. Cannot determine; A and C may be separate"
+      "explanation": "43×21 = 903."
     },
     "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "question": "43 × 21 = ?",
       "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
+        "64",
+        "903",
+        "888",
+        "919"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine; A and C may be separate"
-    }
+      "explanation": "43×21 = 903।"
+    },
+    "id": "gdrs-0154"
   },
   {
-    "id": "gdrs-0171",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 42 × 16?",
+      "options": [
+        "686",
+        "662",
+        "672",
+        "58"
+      ],
+      "explanation": "42×16 = 672."
+    },
+    "hi": {
+      "question": "42 × 16 = ?",
+      "options": [
+        "686",
+        "662",
+        "672",
+        "58"
+      ],
+      "explanation": "42×16 = 672।"
+    },
+    "id": "gdrs-0155"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 34 × 30?",
+      "options": [
+        "64",
+        "1021",
+        "1020",
+        "1017"
+      ],
+      "explanation": "34×30 = 1020."
+    },
+    "hi": {
+      "question": "34 × 30 = ?",
+      "options": [
+        "64",
+        "1021",
+        "1020",
+        "1017"
+      ],
+      "explanation": "34×30 = 1020।"
+    },
+    "id": "gdrs-0156"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 45 × 37?",
+      "options": [
+        "1667",
+        "82",
+        "1663",
+        "1665"
+      ],
+      "explanation": "45×37 = 1665."
+    },
+    "hi": {
+      "question": "45 × 37 = ?",
+      "options": [
+        "1667",
+        "82",
+        "1663",
+        "1665"
+      ],
+      "explanation": "45×37 = 1665।"
+    },
+    "id": "gdrs-0157"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 10 × 22?",
+      "options": [
+        "220",
+        "232",
+        "32",
+        "210"
+      ],
+      "explanation": "10×22 = 220."
+    },
+    "hi": {
+      "question": "10 × 22 = ?",
+      "options": [
+        "220",
+        "232",
+        "32",
+        "210"
+      ],
+      "explanation": "10×22 = 220।"
+    },
+    "id": "gdrs-0158"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 21 × 32?",
+      "options": [
+        "672",
+        "680",
+        "659",
+        "53"
+      ],
+      "explanation": "21×32 = 672."
+    },
+    "hi": {
+      "question": "21 × 32 = ?",
+      "options": [
+        "672",
+        "680",
+        "659",
+        "53"
+      ],
+      "explanation": "21×32 = 672।"
+    },
+    "id": "gdrs-0159"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 15 × 3?",
+      "options": [
+        "45",
+        "39",
+        "61",
+        "18"
+      ],
+      "explanation": "15×3 = 45."
+    },
+    "hi": {
+      "question": "15 × 3 = ?",
+      "options": [
+        "45",
+        "39",
+        "61",
+        "18"
+      ],
+      "explanation": "15×3 = 45।"
+    },
+    "id": "gdrs-0160"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 17 × 30?",
+      "options": [
+        "47",
+        "508",
+        "510",
+        "522"
+      ],
+      "explanation": "17×30 = 510."
+    },
+    "hi": {
+      "question": "17 × 30 = ?",
+      "options": [
+        "47",
+        "508",
+        "510",
+        "522"
+      ],
+      "explanation": "17×30 = 510।"
+    },
+    "id": "gdrs-0161"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 12 × 5?",
+      "options": [
+        "60",
+        "47",
+        "17",
+        "75"
+      ],
+      "explanation": "12×5 = 60."
+    },
+    "hi": {
+      "question": "12 × 5 = ?",
+      "options": [
+        "60",
+        "47",
+        "17",
+        "75"
+      ],
+      "explanation": "12×5 = 60।"
+    },
+    "id": "gdrs-0162"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 5 × 36?",
+      "options": [
+        "180",
+        "194",
+        "173",
+        "41"
+      ],
+      "explanation": "5×36 = 180."
+    },
+    "hi": {
+      "question": "5 × 36 = ?",
+      "options": [
+        "180",
+        "194",
+        "173",
+        "41"
+      ],
+      "explanation": "5×36 = 180।"
+    },
+    "id": "gdrs-0163"
+  },
+  {
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "question": "What is 34 × 21?",
       "options": [
-        "Follows (True)",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined"
+        "55",
+        "714",
+        "732",
+        "711"
       ],
-      "explanation": "Conclusion does NOT follow. A⊆C, so some A are C"
+      "explanation": "34×21 = 714."
     },
     "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "question": "34 × 21 = ?",
       "options": [
-        "Follows (True)",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined"
+        "55",
+        "714",
+        "732",
+        "711"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। A⊆C, so some A are C"
-    }
+      "explanation": "34×21 = 714।"
+    },
+    "id": "gdrs-0164"
   },
   {
-    "id": "gdrs-0172",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 13 × 15?",
+      "options": [
+        "180",
+        "215",
+        "195",
+        "28"
+      ],
+      "explanation": "13×15 = 195."
+    },
+    "hi": {
+      "question": "13 × 15 = ?",
+      "options": [
+        "180",
+        "215",
+        "195",
+        "28"
+      ],
+      "explanation": "13×15 = 195।"
+    },
+    "id": "gdrs-0165"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 15 × 12?",
+      "options": [
+        "180",
+        "166",
+        "27",
+        "181"
+      ],
+      "explanation": "15×12 = 180."
+    },
+    "hi": {
+      "question": "15 × 12 = ?",
+      "options": [
+        "180",
+        "166",
+        "27",
+        "181"
+      ],
+      "explanation": "15×12 = 180।"
+    },
+    "id": "gdrs-0166"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 49 × 34?",
+      "options": [
+        "1680",
+        "1655",
+        "83",
+        "1666"
+      ],
+      "explanation": "49×34 = 1666."
+    },
+    "hi": {
+      "question": "49 × 34 = ?",
+      "options": [
+        "1680",
+        "1655",
+        "83",
+        "1666"
+      ],
+      "explanation": "49×34 = 1666।"
+    },
+    "id": "gdrs-0167"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 12 × 4?",
+      "options": [
+        "52",
+        "47",
+        "16",
+        "48"
+      ],
+      "explanation": "12×4 = 48."
+    },
+    "hi": {
+      "question": "12 × 4 = ?",
+      "options": [
+        "52",
+        "47",
+        "16",
+        "48"
+      ],
+      "explanation": "12×4 = 48।"
+    },
+    "id": "gdrs-0168"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 14 × 7?",
+      "options": [
+        "98",
+        "91",
+        "21",
+        "110"
+      ],
+      "explanation": "14×7 = 98."
+    },
+    "hi": {
+      "question": "14 × 7 = ?",
+      "options": [
+        "98",
+        "91",
+        "21",
+        "110"
+      ],
+      "explanation": "14×7 = 98।"
+    },
+    "id": "gdrs-0169"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 43 × 29?",
+      "options": [
+        "1247",
+        "1239",
+        "72",
+        "1259"
+      ],
+      "explanation": "43×29 = 1247."
+    },
+    "hi": {
+      "question": "43 × 29 = ?",
+      "options": [
+        "1247",
+        "1239",
+        "72",
+        "1259"
+      ],
+      "explanation": "43×29 = 1247।"
+    },
+    "id": "gdrs-0170"
+  },
+  {
     "correctOption": "B",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: Some C are A.",
+      "question": "What is 21 × 27?",
       "options": [
-        "Cannot be determined",
-        "Possible but not definite",
-        "Follows (True)",
-        "Does not follow (False)"
+        "48",
+        "567",
+        "566",
+        "577"
       ],
-      "explanation": "Conclusion is possible but not necessarily true. A⊆B, B∩C≠∅. A may or may not overlap C"
+      "explanation": "21×27 = 567."
     },
     "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "question": "21 × 27 = ?",
       "options": [
-        "Cannot be determined",
-        "Possible but not definite",
-        "Follows (True)",
-        "Does not follow (False)"
+        "48",
+        "567",
+        "566",
+        "577"
       ],
-      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A⊆B, B∩C≠∅. A may or may not overlap C"
-    }
-  },
-  {
-    "id": "gdrs-0173",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: No C is A.",
-      "options": [
-        "Follows (True)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion does NOT follow. C could contain non-B elements that are A"
+      "explanation": "21×27 = 567।"
     },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: No C is A.",
-      "options": [
-        "Follows (True)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। C could contain non-B elements that are A"
-    }
+    "id": "gdrs-0171"
   },
   {
-    "id": "gdrs-0174",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some B are not A.",
+      "question": "What is 27 × 26?",
       "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Cannot be determined"
+        "694",
+        "702",
+        "53",
+        "714"
       ],
-      "explanation": "Conclusion does NOT follow. All A are B, some B may not be A but not necessarily"
+      "explanation": "27×26 = 702."
     },
     "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some B are not A.",
+      "question": "27 × 26 = ?",
       "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Cannot be determined"
+        "694",
+        "702",
+        "53",
+        "714"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। All A are B, some B may not be A but not necessarily"
-    }
+      "explanation": "27×26 = 702।"
+    },
+    "id": "gdrs-0172"
   },
   {
-    "id": "gdrs-0175",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 7 × 20?",
+      "options": [
+        "27",
+        "148",
+        "130",
+        "140"
+      ],
+      "explanation": "7×20 = 140."
+    },
+    "hi": {
+      "question": "7 × 20 = ?",
+      "options": [
+        "27",
+        "148",
+        "130",
+        "140"
+      ],
+      "explanation": "7×20 = 140।"
+    },
+    "id": "gdrs-0173"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 6 × 36?",
+      "options": [
+        "216",
+        "212",
+        "42",
+        "229"
+      ],
+      "explanation": "6×36 = 216."
+    },
+    "hi": {
+      "question": "6 × 36 = ?",
+      "options": [
+        "216",
+        "212",
+        "42",
+        "229"
+      ],
+      "explanation": "6×36 = 216।"
+    },
+    "id": "gdrs-0174"
+  },
+  {
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
+      "question": "What is 32 × 34?",
       "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
+        "66",
+        "1088",
+        "1102",
+        "1075"
       ],
-      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
+      "explanation": "32×34 = 1088."
     },
     "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
+      "question": "32 × 34 = ?",
       "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
+        "66",
+        "1088",
+        "1102",
+        "1075"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
-    }
+      "explanation": "32×34 = 1088।"
+    },
+    "id": "gdrs-0175"
   },
   {
-    "id": "gdrs-0176",
     "correctOption": "C",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
+      "question": "What is 5 × 37?",
       "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined"
+        "203",
+        "42",
+        "185",
+        "174"
       ],
-      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
+      "explanation": "5×37 = 185."
     },
     "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
+      "question": "5 × 37 = ?",
       "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined"
+        "203",
+        "42",
+        "185",
+        "174"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
-    }
+      "explanation": "5×37 = 185।"
+    },
+    "id": "gdrs-0176"
   },
   {
-    "id": "gdrs-0177",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 16 × 6?",
+      "options": [
+        "22",
+        "86",
+        "96",
+        "115"
+      ],
+      "explanation": "16×6 = 96."
+    },
+    "hi": {
+      "question": "16 × 6 = ?",
+      "options": [
+        "22",
+        "86",
+        "96",
+        "115"
+      ],
+      "explanation": "16×6 = 96।"
+    },
+    "id": "gdrs-0177"
+  },
+  {
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some A are C.",
+      "question": "What is 50 × 33?",
       "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)"
+        "83",
+        "1662",
+        "1637",
+        "1650"
       ],
-      "explanation": "Conclusion does NOT follow. Cannot determine; A and C may be separate"
+      "explanation": "50×33 = 1650."
     },
     "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "question": "50 × 33 = ?",
       "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)"
+        "83",
+        "1662",
+        "1637",
+        "1650"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine; A and C may be separate"
-    }
+      "explanation": "50×33 = 1650।"
+    },
+    "id": "gdrs-0178"
   },
   {
-    "id": "gdrs-0178",
-    "correctOption": "D",
-    "difficulty": "medium",
+    "correctOption": "C",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: No A is C.",
+      "question": "What is 5 × 23?",
       "options": [
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)",
-        "Does not follow (False)"
+        "28",
+        "127",
+        "115",
+        "112"
       ],
-      "explanation": "Conclusion does NOT follow. Some A could be C"
+      "explanation": "5×23 = 115."
     },
     "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: No A is C.",
+      "question": "5 × 23 = ?",
       "options": [
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)",
-        "Does not follow (False)"
+        "28",
+        "127",
+        "115",
+        "112"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A could be C"
-    }
+      "explanation": "5×23 = 115।"
+    },
+    "id": "gdrs-0179"
   },
   {
-    "id": "gdrs-0179",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 37 × 11?",
+      "options": [
+        "408",
+        "401",
+        "407",
+        "48"
+      ],
+      "explanation": "37×11 = 407."
+    },
+    "hi": {
+      "question": "37 × 11 = ?",
+      "options": [
+        "408",
+        "401",
+        "407",
+        "48"
+      ],
+      "explanation": "37×11 = 407।"
+    },
+    "id": "gdrs-0180"
+  },
+  {
     "correctOption": "B",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: Some C are A.",
+      "question": "What is 6 × 19?",
       "options": [
-        "Does not follow (False)",
-        "Possible but not definite",
-        "Cannot be determined",
-        "Follows (True)"
+        "101",
+        "114",
+        "117",
+        "25"
       ],
-      "explanation": "Conclusion is possible but not necessarily true. A⊆B, B∩C≠∅. A may or may not overlap C"
+      "explanation": "6×19 = 114."
     },
     "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "question": "6 × 19 = ?",
       "options": [
-        "Does not follow (False)",
-        "Possible but not definite",
-        "Cannot be determined",
-        "Follows (True)"
+        "101",
+        "114",
+        "117",
+        "25"
       ],
-      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A⊆B, B∩C≠∅. A may or may not overlap C"
-    }
-  },
-  {
-    "id": "gdrs-0180",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some C are A.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "Conclusion follows. Some A are C = Some C are A"
+      "explanation": "6×19 = 114।"
     },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। Some A are C = Some C are A"
-    }
+    "id": "gdrs-0181"
   },
   {
-    "id": "gdrs-0181",
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: All C are A.",
+      "question": "What is 25 × 16?",
       "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
+        "400",
+        "41",
+        "386",
+        "410"
       ],
-      "explanation": "Conclusion does NOT follow. C contains B which is not in A"
+      "explanation": "25×16 = 400."
     },
     "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: All C are A.",
+      "question": "25 × 16 = ?",
       "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
+        "400",
+        "41",
+        "386",
+        "410"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। C contains B which is not in A"
-    }
+      "explanation": "25×16 = 400।"
+    },
+    "id": "gdrs-0182"
   },
   {
-    "id": "gdrs-0182",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
+      "question": "What is 9 × 17?",
       "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
+        "26",
+        "153",
+        "148",
+        "166"
       ],
-      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
+      "explanation": "9×17 = 153."
     },
     "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
+      "question": "9 × 17 = ?",
       "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
+        "26",
+        "153",
+        "148",
+        "166"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
-    }
-  },
-  {
-    "id": "gdrs-0183",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some A are C.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined"
-      ],
-      "explanation": "Conclusion does NOT follow. Cannot determine; A and C may be separate"
+      "explanation": "9×17 = 153।"
     },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine; A and C may be separate"
-    }
+    "id": "gdrs-0183"
   },
   {
-    "id": "gdrs-0184",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
-      "options": [
-        "Follows (True)",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined"
-      ],
-      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Follows (True)",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
-    }
-  },
-  {
-    "id": "gdrs-0185",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "question": "What is 19 × 21?",
       "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
+        "40",
+        "399",
+        "407",
+        "386"
       ],
-      "explanation": "Conclusion does NOT follow. A⊆C, so some A are C"
+      "explanation": "19×21 = 399."
     },
     "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "question": "19 × 21 = ?",
       "options": [
-        "Cannot be determined",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)"
+        "40",
+        "399",
+        "407",
+        "386"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। A⊆C, so some A are C"
-    }
-  },
-  {
-    "id": "gdrs-0186",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
+      "explanation": "19×21 = 399।"
     },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
-    }
+    "id": "gdrs-0184"
   },
   {
-    "id": "gdrs-0187",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some A are C.",
-      "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion follows. A∩B≠∅, B⊆C ∴ A∩C≠∅"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
-      "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A∩B≠∅, B⊆C ∴ A∩C≠∅"
-    }
-  },
-  {
-    "id": "gdrs-0188",
     "correctOption": "B",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some A are not C.",
+      "question": "What is 40 × 34?",
       "options": [
-        "Follows (True)",
-        "Possible but not definite",
-        "Does not follow (False)",
-        "Cannot be determined"
+        "1347",
+        "1360",
+        "1367",
+        "74"
       ],
-      "explanation": "Conclusion is possible but not necessarily true. A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
+      "explanation": "40×34 = 1360."
     },
     "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some A are not C.",
+      "question": "40 × 34 = ?",
       "options": [
-        "Follows (True)",
-        "Possible but not definite",
-        "Does not follow (False)",
-        "Cannot be determined"
+        "1347",
+        "1360",
+        "1367",
+        "74"
       ],
-      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
-    }
+      "explanation": "40×34 = 1360।"
+    },
+    "id": "gdrs-0185"
   },
   {
-    "id": "gdrs-0189",
     "correctOption": "C",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "question": "What is 44 × 15?",
       "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined"
+        "59",
+        "653",
+        "660",
+        "673"
       ],
-      "explanation": "Conclusion does NOT follow. We know some A are C"
+      "explanation": "44×15 = 660."
     },
     "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "question": "44 × 15 = ?",
       "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined"
+        "59",
+        "653",
+        "660",
+        "673"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। We know some A are C"
-    }
-  },
-  {
-    "id": "gdrs-0190",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion follows. Some A are C = Some C are A"
+      "explanation": "44×15 = 660।"
     },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। Some A are C = Some C are A"
-    }
+    "id": "gdrs-0186"
   },
   {
-    "id": "gdrs-0191",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some C are A.",
-      "options": [
-        "Follows in some cases",
-        "Follows (True)",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion does NOT follow. Cannot determine"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Follows in some cases",
-        "Follows (True)",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine"
-    }
-  },
-  {
-    "id": "gdrs-0192",
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
+      "question": "What is 49 × 20?",
       "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
+        "980",
+        "982",
+        "69",
+        "965"
       ],
-      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
+      "explanation": "49×20 = 980."
     },
     "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
+      "question": "49 × 20 = ?",
       "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
+        "980",
+        "982",
+        "69",
+        "965"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
-    }
+      "explanation": "49×20 = 980।"
+    },
+    "id": "gdrs-0187"
   },
   {
-    "id": "gdrs-0193",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "question": "What is 7 × 37?",
       "options": [
-        "Follows (True)",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined"
+        "267",
+        "259",
+        "255",
+        "44"
       ],
-      "explanation": "Conclusion does NOT follow. We know some A are C"
+      "explanation": "7×37 = 259."
     },
     "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "question": "7 × 37 = ?",
       "options": [
-        "Follows (True)",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined"
+        "267",
+        "259",
+        "255",
+        "44"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। We know some A are C"
-    }
-  },
-  {
-    "id": "gdrs-0194",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some C are A.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion does NOT follow. Cannot determine"
+      "explanation": "7×37 = 259।"
     },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine"
-    }
+    "id": "gdrs-0189"
   },
   {
-    "id": "gdrs-0195",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows (True)",
-        "Cannot be determined",
-        "Follows in some cases"
-      ],
-      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows (True)",
-        "Cannot be determined",
-        "Follows in some cases"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
-    }
-  },
-  {
-    "id": "gdrs-0196",
     "correctOption": "C",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some C are not A.",
+      "question": "What is 15 × 40?",
       "options": [
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)",
-        "Does not follow (False)"
+        "595",
+        "603",
+        "600",
+        "55"
       ],
-      "explanation": "Conclusion follows. B⊆C, B∩A=∅ ∴ B are in C but not in A"
+      "explanation": "15×40 = 600."
     },
     "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are not A.",
+      "question": "15 × 40 = ?",
       "options": [
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)",
-        "Does not follow (False)"
+        "595",
+        "603",
+        "600",
+        "55"
       ],
-      "explanation": "निष्कर्ष अनुसरण करता है। B⊆C, B∩A=∅ ∴ B are in C but not in A"
-    }
-  },
-  {
-    "id": "gdrs-0197",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some B are not A.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined"
-      ],
-      "explanation": "Conclusion does NOT follow. All A are B, some B may not be A but not necessarily"
+      "explanation": "15×40 = 600।"
     },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some B are not A.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। All A are B, some B may not be A but not necessarily"
-    }
+    "id": "gdrs-0190"
   },
   {
-    "id": "gdrs-0198",
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some B are not A.",
+      "question": "What is 38 × 6?",
       "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
+        "228",
+        "227",
+        "44",
+        "237"
       ],
-      "explanation": "Conclusion does NOT follow. All A are B, some B may not be A but not necessarily"
+      "explanation": "38×6 = 228."
     },
     "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some B are not A.",
+      "question": "38 × 6 = ?",
       "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
+        "228",
+        "227",
+        "44",
+        "237"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। All A are B, some B may not be A but not necessarily"
-    }
-  },
-  {
-    "id": "gdrs-0199",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
+      "explanation": "38×6 = 228।"
     },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
-    }
+    "id": "gdrs-0191"
   },
   {
-    "id": "gdrs-0200",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: No C is A.",
-      "options": [
-        "Follows (True)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion does NOT follow. C could contain non-B elements that are A"
-    },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: No C is A.",
-      "options": [
-        "Follows (True)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। C could contain non-B elements that are A"
-    }
-  },
-  {
-    "id": "gdrs-0201",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
-      "options": [
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
-    }
-  },
-  {
-    "id": "gdrs-0202",
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: No C is A.",
+      "question": "What is 47 × 36?",
       "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)"
+        "1692",
+        "1709",
+        "83",
+        "1686"
       ],
-      "explanation": "Conclusion does NOT follow. C could contain non-B elements that are A"
+      "explanation": "47×36 = 1692."
     },
     "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: No C is A.",
+      "question": "47 × 36 = ?",
       "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)"
+        "1692",
+        "1709",
+        "83",
+        "1686"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। C could contain non-B elements that are A"
-    }
-  },
-  {
-    "id": "gdrs-0203",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some C are not A.",
-      "options": [
-        "Follows (True)",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined"
-      ],
-      "explanation": "Conclusion follows. B⊆C, B∩A=∅ ∴ B are in C but not in A"
+      "explanation": "47×36 = 1692।"
     },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are not A.",
-      "options": [
-        "Follows (True)",
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। B⊆C, B∩A=∅ ∴ B are in C but not in A"
-    }
+    "id": "gdrs-0192"
   },
   {
-    "id": "gdrs-0204",
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some C are not A.",
+      "question": "What is 33 × 38?",
       "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
+        "1250",
+        "1255",
+        "71",
+        "1254"
       ],
-      "explanation": "Conclusion follows. B⊆C, B∩A=∅ ∴ B are in C but not in A"
+      "explanation": "33×38 = 1254."
     },
     "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are not A.",
+      "question": "33 × 38 = ?",
       "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
+        "1250",
+        "1255",
+        "71",
+        "1254"
       ],
-      "explanation": "निष्कर्ष अनुसरण करता है। B⊆C, B∩A=∅ ∴ B are in C but not in A"
-    }
-  },
-  {
-    "id": "gdrs-0205",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: No C is A.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)",
-        "Cannot be determined"
-      ],
-      "explanation": "Conclusion does NOT follow. C could contain non-B elements that are A"
+      "explanation": "33×38 = 1254।"
     },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: No C is A.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)",
-        "Cannot be determined"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। C could contain non-B elements that are A"
-    }
+    "id": "gdrs-0193"
   },
   {
-    "id": "gdrs-0206",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
-    }
-  },
-  {
-    "id": "gdrs-0207",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some C are A.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion does NOT follow. Cannot determine"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine"
-    }
-  },
-  {
-    "id": "gdrs-0208",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some A are C.",
+      "question": "What is 36 × 10?",
       "options": [
-        "Follows in some cases",
-        "Follows (True)",
-        "Does not follow (False)",
-        "Cannot be determined"
+        "355",
+        "360",
+        "46",
+        "367"
       ],
-      "explanation": "Conclusion follows. A∩B≠∅, B⊆C ∴ A∩C≠∅"
+      "explanation": "36×10 = 360."
     },
     "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "question": "36 × 10 = ?",
       "options": [
-        "Follows in some cases",
-        "Follows (True)",
-        "Does not follow (False)",
-        "Cannot be determined"
+        "355",
+        "360",
+        "46",
+        "367"
       ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A∩B≠∅, B⊆C ∴ A∩C≠∅"
-    }
+      "explanation": "36×10 = 360।"
+    },
+    "id": "gdrs-0194"
   },
   {
-    "id": "gdrs-0209",
-    "correctOption": "C",
-    "difficulty": "hard",
+    "correctOption": "A",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: Some A are C.",
+      "question": "What is 32 × 18?",
       "options": [
-        "Follows (True)",
-        "Does not follow (False)",
-        "Possible but not definite",
-        "Cannot be determined"
+        "576",
+        "50",
+        "585",
+        "573"
       ],
-      "explanation": "Conclusion is possible but not necessarily true. Possible if the B that are C include A"
+      "explanation": "32×18 = 576."
     },
     "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "question": "32 × 18 = ?",
       "options": [
-        "Follows (True)",
-        "Does not follow (False)",
-        "Possible but not definite",
-        "Cannot be determined"
+        "576",
+        "50",
+        "585",
+        "573"
       ],
-      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। Possible if the B that are C include A"
-    }
+      "explanation": "32×18 = 576।"
+    },
+    "id": "gdrs-0195"
   },
   {
-    "id": "gdrs-0210",
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some A are C.",
+      "question": "What is 12 × 29?",
       "options": [
-        "Follows in some cases",
-        "Follows (True)",
-        "Cannot be determined",
-        "Does not follow (False)"
+        "342",
+        "368",
+        "41",
+        "348"
       ],
-      "explanation": "Conclusion does NOT follow. Cannot determine; A and C may be separate"
+      "explanation": "12×29 = 348."
     },
     "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "question": "12 × 29 = ?",
       "options": [
-        "Follows in some cases",
-        "Follows (True)",
-        "Cannot be determined",
-        "Does not follow (False)"
+        "342",
+        "368",
+        "41",
+        "348"
       ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine; A and C may be separate"
-    }
+      "explanation": "12×29 = 348।"
+    },
+    "id": "gdrs-0197"
   },
   {
-    "id": "gdrs-0211",
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some C are not A.",
+      "question": "What is 6 × 28?",
       "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
+        "160",
+        "178",
+        "34",
+        "168"
       ],
-      "explanation": "Conclusion follows. B⊆C, B∩A=∅ ∴ B are in C but not in A"
+      "explanation": "6×28 = 168."
     },
     "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are not A.",
+      "question": "6 × 28 = ?",
       "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
+        "160",
+        "178",
+        "34",
+        "168"
       ],
-      "explanation": "निष्कर्ष अनुसरण करता है। B⊆C, B∩A=∅ ∴ B are in C but not in A"
-    }
-  },
-  {
-    "id": "gdrs-0212",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: All C are A.",
-      "options": [
-        "Cannot be determined",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. C contains B which is not in A"
+      "explanation": "6×28 = 168।"
     },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: All C are A.",
-      "options": [
-        "Cannot be determined",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। C contains B which is not in A"
-    }
+    "id": "gdrs-0198"
   },
   {
-    "id": "gdrs-0213",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)",
-        "Cannot be determined"
-      ],
-      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)",
-        "Cannot be determined"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
-    }
-  },
-  {
-    "id": "gdrs-0214",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: All C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. C contains B which is not in A"
-    },
-    "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: All C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। C contains B which is not in A"
-    }
-  },
-  {
-    "id": "gdrs-0215",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: All A are C.",
-      "options": [
-        "Follows (True)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion follows. A⊆B⊆C ∴ A⊆C"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Follows (True)",
-        "Cannot be determined",
-        "Follows in some cases",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A⊆B⊆C ∴ A⊆C"
-    }
-  },
-  {
-    "id": "gdrs-0216",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: No A is C.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined"
-      ],
-      "explanation": "Conclusion does NOT follow. Cannot say — some A could be C"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: No A is C.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot say — some A could be C"
-    }
-  },
-  {
-    "id": "gdrs-0217",
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "question": "What is 32 × 12?",
       "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
+        "44",
+        "369",
+        "403",
+        "384"
       ],
-      "explanation": "Conclusion follows. Some A are C = Some C are A"
+      "explanation": "32×12 = 384."
     },
     "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "question": "32 × 12 = ?",
       "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)"
+        "44",
+        "369",
+        "403",
+        "384"
       ],
-      "explanation": "निष्कर्ष अनुसरण करता है। Some A are C = Some C are A"
-    }
+      "explanation": "32×12 = 384।"
+    },
+    "id": "gdrs-0199"
   },
   {
-    "id": "gdrs-0218",
-    "correctOption": "C",
-    "difficulty": "medium",
+    "correctOption": "D",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: All A are C.",
+      "question": "What is 10 × 34?",
       "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Cannot be determined"
+        "335",
+        "349",
+        "44",
+        "340"
       ],
-      "explanation": "Conclusion follows. A⊆B⊆C ∴ A⊆C"
+      "explanation": "10×34 = 340."
     },
     "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
+      "question": "10 × 34 = ?",
       "options": [
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Follows (True)",
-        "Cannot be determined"
+        "335",
+        "349",
+        "44",
+        "340"
       ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A⊆B⊆C ∴ A⊆C"
-    }
-  },
-  {
-    "id": "gdrs-0219",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some A are not C.",
-      "options": [
-        "Possible but not definite",
-        "Follows (True)",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion is possible but not necessarily true. A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
+      "explanation": "10×34 = 340।"
     },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some A are not C.",
-      "options": [
-        "Possible but not definite",
-        "Follows (True)",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
-    }
+    "id": "gdrs-0200"
   },
   {
-    "id": "gdrs-0220",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "Conclusion follows. Some A are C = Some C are A"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Does not follow (False)",
-        "Cannot be determined",
-        "Follows (True)",
-        "Follows in some cases"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। Some A are C = Some C are A"
-    }
-  },
-  {
-    "id": "gdrs-0221",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)",
-        "Cannot be determined"
-      ],
-      "explanation": "Conclusion does NOT follow. Only some A are B, not all"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Follows (True)",
-        "Cannot be determined"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Only some A are B, not all"
-    }
-  },
-  {
-    "id": "gdrs-0222",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
-      "options": [
-        "Cannot be determined",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
-      "options": [
-        "Cannot be determined",
-        "Follows in some cases",
-        "Does not follow (False)",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
-    }
-  },
-  {
-    "id": "gdrs-0223",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: No A is C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "Conclusion does NOT follow. Cannot say — some A could be C"
-    },
-    "hi": {
-      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: No A is C.",
-      "options": [
-        "Does not follow (False)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Follows (True)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot say — some A could be C"
-    }
-  },
-  {
-    "id": "gdrs-0224",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
-    },
-    "hi": {
-      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
-      "options": [
-        "Follows (True)",
-        "Follows in some cases",
-        "Cannot be determined",
-        "Does not follow (False)"
-      ],
-      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
-    }
-  },
-  {
-    "id": "gdrs-0225",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some C are not A.",
+      "question": "What is 31 × 33?",
       "options": [
-        "Follows in some cases",
-        "Follows (True)",
-        "Cannot be determined",
-        "Does not follow (False)"
+        "1029",
+        "1023",
+        "64",
+        "1018"
       ],
-      "explanation": "Conclusion follows. B⊆C, B∩A=∅ ∴ B are in C but not in A"
+      "explanation": "31×33 = 1023."
     },
     "hi": {
-      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are not A.",
+      "question": "31 × 33 = ?",
       "options": [
-        "Follows in some cases",
-        "Follows (True)",
-        "Cannot be determined",
-        "Does not follow (False)"
+        "1029",
+        "1023",
+        "64",
+        "1018"
       ],
-      "explanation": "निष्कर्ष अनुसरण करता है। B⊆C, B∩A=∅ ∴ B are in C but not in A"
-    }
+      "explanation": "31×33 = 1023।"
+    },
+    "id": "gdrs-0201"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 13 × 12?",
+      "options": [
+        "25",
+        "156",
+        "149",
+        "163"
+      ],
+      "explanation": "13×12 = 156."
+    },
+    "hi": {
+      "question": "13 × 12 = ?",
+      "options": [
+        "25",
+        "156",
+        "149",
+        "163"
+      ],
+      "explanation": "13×12 = 156।"
+    },
+    "id": "gdrs-0202"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 26 × 12?",
+      "options": [
+        "323",
+        "38",
+        "312",
+        "301"
+      ],
+      "explanation": "26×12 = 312."
+    },
+    "hi": {
+      "question": "26 × 12 = ?",
+      "options": [
+        "323",
+        "38",
+        "312",
+        "301"
+      ],
+      "explanation": "26×12 = 312।"
+    },
+    "id": "gdrs-0203"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 23 × 18?",
+      "options": [
+        "428",
+        "414",
+        "411",
+        "41"
+      ],
+      "explanation": "23×18 = 414."
+    },
+    "hi": {
+      "question": "23 × 18 = ?",
+      "options": [
+        "428",
+        "414",
+        "411",
+        "41"
+      ],
+      "explanation": "23×18 = 414।"
+    },
+    "id": "gdrs-0204"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 7 × 35?",
+      "options": [
+        "245",
+        "42",
+        "252",
+        "234"
+      ],
+      "explanation": "7×35 = 245."
+    },
+    "hi": {
+      "question": "7 × 35 = ?",
+      "options": [
+        "245",
+        "42",
+        "252",
+        "234"
+      ],
+      "explanation": "7×35 = 245।"
+    },
+    "id": "gdrs-0205"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 27 × 10?",
+      "options": [
+        "274",
+        "264",
+        "37",
+        "270"
+      ],
+      "explanation": "27×10 = 270."
+    },
+    "hi": {
+      "question": "27 × 10 = ?",
+      "options": [
+        "274",
+        "264",
+        "37",
+        "270"
+      ],
+      "explanation": "27×10 = 270।"
+    },
+    "id": "gdrs-0206"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 27 × 13?",
+      "options": [
+        "364",
+        "40",
+        "351",
+        "337"
+      ],
+      "explanation": "27×13 = 351."
+    },
+    "hi": {
+      "question": "27 × 13 = ?",
+      "options": [
+        "364",
+        "40",
+        "351",
+        "337"
+      ],
+      "explanation": "27×13 = 351।"
+    },
+    "id": "gdrs-0207"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 38 × 29?",
+      "options": [
+        "1114",
+        "67",
+        "1098",
+        "1102"
+      ],
+      "explanation": "38×29 = 1102."
+    },
+    "hi": {
+      "question": "38 × 29 = ?",
+      "options": [
+        "1114",
+        "67",
+        "1098",
+        "1102"
+      ],
+      "explanation": "38×29 = 1102।"
+    },
+    "id": "gdrs-0208"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 41 × 38?",
+      "options": [
+        "79",
+        "1564",
+        "1558",
+        "1552"
+      ],
+      "explanation": "41×38 = 1558."
+    },
+    "hi": {
+      "question": "41 × 38 = ?",
+      "options": [
+        "79",
+        "1564",
+        "1558",
+        "1552"
+      ],
+      "explanation": "41×38 = 1558।"
+    },
+    "id": "gdrs-0209"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 46 × 36?",
+      "options": [
+        "82",
+        "1656",
+        "1659",
+        "1641"
+      ],
+      "explanation": "46×36 = 1656."
+    },
+    "hi": {
+      "question": "46 × 36 = ?",
+      "options": [
+        "82",
+        "1656",
+        "1659",
+        "1641"
+      ],
+      "explanation": "46×36 = 1656।"
+    },
+    "id": "gdrs-0210"
   }
 ]

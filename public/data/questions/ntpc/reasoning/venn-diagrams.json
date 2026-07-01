@@ -2214,32 +2214,6 @@
     }
   },
   {
-    "id": "nrvd-0089",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find B − A.",
-      "options": [
-        "∅",
-        "['Square', 'Circle', 'Triangle']",
-        "Square, Circle, Triangle",
-        "Red, Blue, Green, Square"
-      ],
-      "explanation": "B minus A removes A items; remaining are different categories."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। B − A ज्ञात करें।",
-      "options": [
-        "∅",
-        "['Square', 'Circle', 'Triangle']",
-        "Square, Circle, Triangle",
-        "Red, Blue, Green, Square"
-      ],
-      "explanation": "B minus A removes A items; remaining are different categories."
-    }
-  },
-  {
     "id": "nrvd-0090",
     "correctOption": "D",
     "difficulty": "medium",
@@ -2292,32 +2266,6 @@
     }
   },
   {
-    "id": "nrvd-0092",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A − B.",
-      "options": [
-        "['Guitar', 'Piano', 'Flute']",
-        "Cricket, Football, Hockey",
-        "Cricket, Football, Hockey, Guitar",
-        "∅"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A − B ज्ञात करें।",
-      "options": [
-        "['Guitar', 'Piano', 'Flute']",
-        "Cricket, Football, Hockey",
-        "Cricket, Football, Hockey, Guitar",
-        "∅"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
-    }
-  },
-  {
     "id": "nrvd-0093",
     "correctOption": "C",
     "difficulty": "easy",
@@ -2341,32 +2289,6 @@
         "63"
       ],
       "explanation": "न तो A न ही B = 16"
-    }
-  },
-  {
-    "id": "nrvd-0094",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A ∪ B.",
-      "options": [
-        "∅",
-        "Red, Blue, Green, Square",
-        "['Square', 'Circle', 'Triangle']",
-        "All items from both sets (Red, Blue, Green, Square, Circle, Triangle)"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A ∪ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "Red, Blue, Green, Square",
-        "['Square', 'Circle', 'Triangle']",
-        "All items from both sets (Red, Blue, Green, Square, Circle, Triangle)"
-      ],
-      "explanation": "Union includes everything from both sets."
     }
   },
   {
@@ -2500,32 +2422,6 @@
     }
   },
   {
-    "id": "nrvd-0100",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∪ B.",
-      "options": [
-        "Cricket, Football, Hockey, Guitar",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "∅",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∪ B ज्ञात करें।",
-      "options": [
-        "Cricket, Football, Hockey, Guitar",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "∅",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
     "id": "nrvd-0101",
     "correctOption": "B",
     "difficulty": "medium",
@@ -2656,58 +2552,6 @@
     }
   },
   {
-    "id": "nrvd-0106",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∪ B.",
-      "options": [
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "['Guitar', 'Piano', 'Flute']",
-        "∅",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∪ B ज्ञात करें।",
-      "options": [
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "['Guitar', 'Piano', 'Flute']",
-        "∅",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "nrvd-0107",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A − B.",
-      "options": [
-        "Rose, Lily, Lotus",
-        "∅",
-        "Rose, Lily, Lotus, Mango",
-        "['Mango', 'Apple', 'Banana']"
-      ],
-      "explanation": "A minus B removes B items; only Flowers remain."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A − B ज्ञात करें।",
-      "options": [
-        "Rose, Lily, Lotus",
-        "∅",
-        "Rose, Lily, Lotus, Mango",
-        "['Mango', 'Apple', 'Banana']"
-      ],
-      "explanation": "A minus B removes B items; only Flowers remain."
-    }
-  },
-  {
     "id": "nrvd-0108",
     "correctOption": "D",
     "difficulty": "medium",
@@ -2760,58 +2604,6 @@
     }
   },
   {
-    "id": "nrvd-0110",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A − B.",
-      "options": [
-        "Rose, Lily, Lotus, Mango",
-        "∅",
-        "Rose, Lily, Lotus",
-        "['Mango', 'Apple', 'Banana']"
-      ],
-      "explanation": "A minus B removes B items; only Flowers remain."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A − B ज्ञात करें।",
-      "options": [
-        "Rose, Lily, Lotus, Mango",
-        "∅",
-        "Rose, Lily, Lotus",
-        "['Mango', 'Apple', 'Banana']"
-      ],
-      "explanation": "A minus B removes B items; only Flowers remain."
-    }
-  },
-  {
-    "id": "nrvd-0111",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A − B.",
-      "options": [
-        "['Mango', 'Apple', 'Banana']",
-        "Rose, Lily, Lotus, Mango",
-        "∅",
-        "Rose, Lily, Lotus"
-      ],
-      "explanation": "A minus B removes B items; only Flowers remain."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A − B ज्ञात करें।",
-      "options": [
-        "['Mango', 'Apple', 'Banana']",
-        "Rose, Lily, Lotus, Mango",
-        "∅",
-        "Rose, Lily, Lotus"
-      ],
-      "explanation": "A minus B removes B items; only Flowers remain."
-    }
-  },
-  {
     "id": "nrvd-0112",
     "correctOption": "A",
     "difficulty": "easy",
@@ -2838,32 +2630,6 @@
     }
   },
   {
-    "id": "nrvd-0113",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∪ B.",
-      "options": [
-        "['Guitar', 'Piano', 'Flute']",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "∅",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∪ B ज्ञात करें।",
-      "options": [
-        "['Guitar', 'Piano', 'Flute']",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "∅",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
     "id": "nrvd-0114",
     "correctOption": "A",
     "difficulty": "easy",
@@ -2887,32 +2653,6 @@
         "35"
       ],
       "explanation": "न तो A न ही B = 30"
-    }
-  },
-  {
-    "id": "nrvd-0115",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∩ B.",
-      "options": [
-        "∅",
-        "['Mango', 'Apple', 'Banana']",
-        "∅ (empty)",
-        "Rose, Lily, Lotus, Mango"
-      ],
-      "explanation": "Set A = Flowers, Set B = फूलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∩ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "['Mango', 'Apple', 'Banana']",
-        "∅ (empty)",
-        "Rose, Lily, Lotus, Mango"
-      ],
-      "explanation": "Set A = Flowers, Set B = फूलका/की complement. No common elements."
     }
   },
   {
@@ -3020,32 +2760,6 @@
     }
   },
   {
-    "id": "nrvd-0120",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A − B.",
-      "options": [
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow",
-        "∅"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A − B ज्ञात करें।",
-      "options": [
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow",
-        "∅"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
-    }
-  },
-  {
     "id": "nrvd-0121",
     "correctOption": "B",
     "difficulty": "easy",
@@ -3098,58 +2812,6 @@
     }
   },
   {
-    "id": "nrvd-0123",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find B − A.",
-      "options": [
-        "∅",
-        "['Square', 'Circle', 'Triangle']",
-        "Square, Circle, Triangle",
-        "Red, Blue, Green, Square"
-      ],
-      "explanation": "B minus A removes A items; remaining are different categories."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। B − A ज्ञात करें।",
-      "options": [
-        "∅",
-        "['Square', 'Circle', 'Triangle']",
-        "Square, Circle, Triangle",
-        "Red, Blue, Green, Square"
-      ],
-      "explanation": "B minus A removes A items; remaining are different categories."
-    }
-  },
-  {
-    "id": "nrvd-0124",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∩ B.",
-      "options": [
-        "Rose, Lily, Lotus, Mango",
-        "∅ (empty)",
-        "['Mango', 'Apple', 'Banana']",
-        "∅"
-      ],
-      "explanation": "Set A = Flowers, Set B = फूलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∩ B ज्ञात करें।",
-      "options": [
-        "Rose, Lily, Lotus, Mango",
-        "∅ (empty)",
-        "['Mango', 'Apple', 'Banana']",
-        "∅"
-      ],
-      "explanation": "Set A = Flowers, Set B = फूलका/की complement. No common elements."
-    }
-  },
-  {
     "id": "nrvd-0125",
     "correctOption": "C",
     "difficulty": "easy",
@@ -3173,32 +2835,6 @@
         "17"
       ],
       "explanation": "A और B दोनों = 12"
-    }
-  },
-  {
-    "id": "nrvd-0126",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A − B.",
-      "options": [
-        "['Guitar', 'Piano', 'Flute']",
-        "Cricket, Football, Hockey",
-        "∅",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A − B ज्ञात करें।",
-      "options": [
-        "['Guitar', 'Piano', 'Flute']",
-        "Cricket, Football, Hockey",
-        "∅",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
     }
   },
   {
@@ -3228,84 +2864,6 @@
     }
   },
   {
-    "id": "nrvd-0128",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∩ B.",
-      "options": [
-        "∅",
-        "['Mango', 'Apple', 'Banana']",
-        "∅ (empty)",
-        "Rose, Lily, Lotus, Mango"
-      ],
-      "explanation": "Set A = Flowers, Set B = फूलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∩ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "['Mango', 'Apple', 'Banana']",
-        "∅ (empty)",
-        "Rose, Lily, Lotus, Mango"
-      ],
-      "explanation": "Set A = Flowers, Set B = फूलका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "nrvd-0129",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A − B.",
-      "options": [
-        "∅",
-        "['Guitar', 'Piano', 'Flute']",
-        "Cricket, Football, Hockey, Guitar",
-        "Cricket, Football, Hockey"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A − B ज्ञात करें।",
-      "options": [
-        "∅",
-        "['Guitar', 'Piano', 'Flute']",
-        "Cricket, Football, Hockey, Guitar",
-        "Cricket, Football, Hockey"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
-    }
-  },
-  {
-    "id": "nrvd-0130",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A − B.",
-      "options": [
-        "Cricket, Football, Hockey",
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A − B ज्ञात करें।",
-      "options": [
-        "Cricket, Football, Hockey",
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
-    }
-  },
-  {
     "id": "nrvd-0131",
     "correctOption": "B",
     "difficulty": "easy",
@@ -3329,32 +2887,6 @@
         "66"
       ],
       "explanation": "केवल A = 30"
-    }
-  },
-  {
-    "id": "nrvd-0132",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∩ B.",
-      "options": [
-        "Cricket, Football, Hockey, Guitar",
-        "∅",
-        "['Guitar', 'Piano', 'Flute']",
-        "∅ (empty)"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∩ B ज्ञात करें।",
-      "options": [
-        "Cricket, Football, Hockey, Guitar",
-        "∅",
-        "['Guitar', 'Piano', 'Flute']",
-        "∅ (empty)"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
     }
   },
   {
@@ -3407,32 +2939,6 @@
         "55"
       ],
       "explanation": "समुच्चय सिद्धांत से: केवल एक समूह में = 55"
-    }
-  },
-  {
-    "id": "nrvd-0135",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A − B.",
-      "options": [
-        "∅",
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green",
-        "Red, Blue, Green, Square"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A − B ज्ञात करें।",
-      "options": [
-        "∅",
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green",
-        "Red, Blue, Green, Square"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
     }
   },
   {
@@ -3514,32 +3020,6 @@
     }
   },
   {
-    "id": "nrvd-0139",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A − B.",
-      "options": [
-        "Dog, Cat, Cow",
-        "∅",
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow, Eagle"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A − B ज्ञात करें।",
-      "options": [
-        "Dog, Cat, Cow",
-        "∅",
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow, Eagle"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
-    }
-  },
-  {
     "id": "nrvd-0140",
     "correctOption": "C",
     "difficulty": "medium",
@@ -3618,110 +3098,6 @@
     }
   },
   {
-    "id": "nrvd-0143",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∪ B.",
-      "options": [
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "Rose, Lily, Lotus, Mango",
-        "['Mango', 'Apple', 'Banana']",
-        "∅"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∪ B ज्ञात करें।",
-      "options": [
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "Rose, Lily, Lotus, Mango",
-        "['Mango', 'Apple', 'Banana']",
-        "∅"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "nrvd-0144",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∪ B.",
-      "options": [
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "Cricket, Football, Hockey, Guitar",
-        "∅",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∪ B ज्ञात करें।",
-      "options": [
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "Cricket, Football, Hockey, Guitar",
-        "∅",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "nrvd-0145",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∪ B.",
-      "options": [
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "['Mango', 'Apple', 'Banana']",
-        "Rose, Lily, Lotus, Mango",
-        "∅"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∪ B ज्ञात करें।",
-      "options": [
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "['Mango', 'Apple', 'Banana']",
-        "Rose, Lily, Lotus, Mango",
-        "∅"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "nrvd-0146",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A − B.",
-      "options": [
-        "∅",
-        "['Guitar', 'Piano', 'Flute']",
-        "Cricket, Football, Hockey",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A − B ज्ञात करें।",
-      "options": [
-        "∅",
-        "['Guitar', 'Piano', 'Flute']",
-        "Cricket, Football, Hockey",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
-    }
-  },
-  {
     "id": "nrvd-0147",
     "correctOption": "A",
     "difficulty": "easy",
@@ -3774,32 +3150,6 @@
     }
   },
   {
-    "id": "nrvd-0149",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A ∩ B.",
-      "options": [
-        "∅ (empty)",
-        "['Square', 'Circle', 'Triangle']",
-        "∅",
-        "Red, Blue, Green, Square"
-      ],
-      "explanation": "Set A = Colors, Set B = रंगका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A ∩ B ज्ञात करें।",
-      "options": [
-        "∅ (empty)",
-        "['Square', 'Circle', 'Triangle']",
-        "∅",
-        "Red, Blue, Green, Square"
-      ],
-      "explanation": "Set A = Colors, Set B = रंगका/की complement. No common elements."
-    }
-  },
-  {
     "id": "nrvd-0150",
     "correctOption": "D",
     "difficulty": "easy",
@@ -3823,136 +3173,6 @@
         "18"
       ],
       "explanation": "केवल A = 18"
-    }
-  },
-  {
-    "id": "nrvd-0151",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∪ B.",
-      "options": [
-        "Rose, Lily, Lotus, Mango",
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "['Mango', 'Apple', 'Banana']",
-        "∅"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∪ B ज्ञात करें।",
-      "options": [
-        "Rose, Lily, Lotus, Mango",
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "['Mango', 'Apple', 'Banana']",
-        "∅"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "nrvd-0152",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A − B.",
-      "options": [
-        "Cricket, Football, Hockey",
-        "['Guitar', 'Piano', 'Flute']",
-        "Cricket, Football, Hockey, Guitar",
-        "∅"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A − B ज्ञात करें।",
-      "options": [
-        "Cricket, Football, Hockey",
-        "['Guitar', 'Piano', 'Flute']",
-        "Cricket, Football, Hockey, Guitar",
-        "∅"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
-    }
-  },
-  {
-    "id": "nrvd-0153",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∪ B.",
-      "options": [
-        "Rose, Lily, Lotus, Mango",
-        "∅",
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "['Mango', 'Apple', 'Banana']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∪ B ज्ञात करें।",
-      "options": [
-        "Rose, Lily, Lotus, Mango",
-        "∅",
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "['Mango', 'Apple', 'Banana']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "nrvd-0154",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∩ B.",
-      "options": [
-        "Cricket, Football, Hockey, Guitar",
-        "∅ (empty)",
-        "∅",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∩ B ज्ञात करें।",
-      "options": [
-        "Cricket, Football, Hockey, Guitar",
-        "∅ (empty)",
-        "∅",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "nrvd-0155",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A − B.",
-      "options": [
-        "['Guitar', 'Piano', 'Flute']",
-        "Cricket, Football, Hockey, Guitar",
-        "Cricket, Football, Hockey",
-        "∅"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A − B ज्ञात करें।",
-      "options": [
-        "['Guitar', 'Piano', 'Flute']",
-        "Cricket, Football, Hockey, Guitar",
-        "Cricket, Football, Hockey",
-        "∅"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
     }
   },
   {
@@ -3982,58 +3202,6 @@
     }
   },
   {
-    "id": "nrvd-0157",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∩ B.",
-      "options": [
-        "∅ (empty)",
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∩ B ज्ञात करें।",
-      "options": [
-        "∅ (empty)",
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "nrvd-0158",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A − B.",
-      "options": [
-        "Dog, Cat, Cow, Eagle",
-        "Dog, Cat, Cow",
-        "∅",
-        "['Eagle', 'Snake', 'Fish']"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A − B ज्ञात करें।",
-      "options": [
-        "Dog, Cat, Cow, Eagle",
-        "Dog, Cat, Cow",
-        "∅",
-        "['Eagle', 'Snake', 'Fish']"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
-    }
-  },
-  {
     "id": "nrvd-0159",
     "correctOption": "C",
     "difficulty": "easy",
@@ -4057,32 +3225,6 @@
         "12"
       ],
       "explanation": "A और B दोनों = 11"
-    }
-  },
-  {
-    "id": "nrvd-0160",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∩ B.",
-      "options": [
-        "['Guitar', 'Piano', 'Flute']",
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "∅ (empty)"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∩ B ज्ञात करें।",
-      "options": [
-        "['Guitar', 'Piano', 'Flute']",
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "∅ (empty)"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
     }
   },
   {
@@ -4138,110 +3280,6 @@
     }
   },
   {
-    "id": "nrvd-0163",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A ∪ B.",
-      "options": [
-        "Red, Blue, Green, Square",
-        "All items from both sets (Red, Blue, Green, Square, Circle, Triangle)",
-        "∅",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A ∪ B ज्ञात करें।",
-      "options": [
-        "Red, Blue, Green, Square",
-        "All items from both sets (Red, Blue, Green, Square, Circle, Triangle)",
-        "∅",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "nrvd-0164",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∩ B.",
-      "options": [
-        "Rose, Lily, Lotus, Mango",
-        "['Mango', 'Apple', 'Banana']",
-        "∅",
-        "∅ (empty)"
-      ],
-      "explanation": "Set A = Flowers, Set B = फूलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∩ B ज्ञात करें।",
-      "options": [
-        "Rose, Lily, Lotus, Mango",
-        "['Mango', 'Apple', 'Banana']",
-        "∅",
-        "∅ (empty)"
-      ],
-      "explanation": "Set A = Flowers, Set B = फूलका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "nrvd-0165",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∪ B.",
-      "options": [
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∪ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "nrvd-0166",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∪ B.",
-      "options": [
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "∅",
-        "Rose, Lily, Lotus, Mango",
-        "['Mango', 'Apple', 'Banana']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∪ B ज्ञात करें।",
-      "options": [
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "∅",
-        "Rose, Lily, Lotus, Mango",
-        "['Mango', 'Apple', 'Banana']"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
     "id": "nrvd-0167",
     "correctOption": "C",
     "difficulty": "easy",
@@ -4294,32 +3332,6 @@
     }
   },
   {
-    "id": "nrvd-0169",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A − B.",
-      "options": [
-        "∅",
-        "Red, Blue, Green",
-        "Red, Blue, Green, Square",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A − B ज्ञात करें।",
-      "options": [
-        "∅",
-        "Red, Blue, Green",
-        "Red, Blue, Green, Square",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
-    }
-  },
-  {
     "id": "nrvd-0170",
     "correctOption": "B",
     "difficulty": "easy",
@@ -4343,32 +3355,6 @@
         "53"
       ],
       "explanation": "A और B दोनों = 11"
-    }
-  },
-  {
-    "id": "nrvd-0171",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A − B.",
-      "options": [
-        "∅",
-        "Cricket, Football, Hockey",
-        "['Guitar', 'Piano', 'Flute']",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A − B ज्ञात करें।",
-      "options": [
-        "∅",
-        "Cricket, Football, Hockey",
-        "['Guitar', 'Piano', 'Flute']",
-        "Cricket, Football, Hockey, Guitar"
-      ],
-      "explanation": "A minus B removes B items; only Sports remain."
     }
   },
   {
@@ -4473,58 +3459,6 @@
         "62"
       ],
       "explanation": "केवल B = 36"
-    }
-  },
-  {
-    "id": "nrvd-0176",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A − B.",
-      "options": [
-        "Red, Blue, Green",
-        "['Square', 'Circle', 'Triangle']",
-        "∅",
-        "Red, Blue, Green, Square"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A − B ज्ञात करें।",
-      "options": [
-        "Red, Blue, Green",
-        "['Square', 'Circle', 'Triangle']",
-        "∅",
-        "Red, Blue, Green, Square"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
-    }
-  },
-  {
-    "id": "nrvd-0177",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∪ B.",
-      "options": [
-        "Cricket, Football, Hockey, Guitar",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "['Guitar', 'Piano', 'Flute']",
-        "∅"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∪ B ज्ञात करें।",
-      "options": [
-        "Cricket, Football, Hockey, Guitar",
-        "All items from both sets (Cricket, Football, Hockey, Guitar, Piano, Flute)",
-        "['Guitar', 'Piano', 'Flute']",
-        "∅"
-      ],
-      "explanation": "Union includes everything from both sets."
     }
   },
   {
@@ -4684,32 +3618,6 @@
     }
   },
   {
-    "id": "nrvd-0184",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A − B.",
-      "options": [
-        "Red, Blue, Green, Square",
-        "∅",
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A − B ज्ञात करें।",
-      "options": [
-        "Red, Blue, Green, Square",
-        "∅",
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green"
-      ],
-      "explanation": "A minus B removes B items; only Colors remain."
-    }
-  },
-  {
     "id": "nrvd-0185",
     "correctOption": "A",
     "difficulty": "medium",
@@ -4736,110 +3644,6 @@
     }
   },
   {
-    "id": "nrvd-0186",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∪ B.",
-      "options": [
-        "∅",
-        "Rose, Lily, Lotus, Mango",
-        "['Mango', 'Apple', 'Banana']",
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∪ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "Rose, Lily, Lotus, Mango",
-        "['Mango', 'Apple', 'Banana']",
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "nrvd-0187",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A − B.",
-      "options": [
-        "Rose, Lily, Lotus, Mango",
-        "∅",
-        "['Mango', 'Apple', 'Banana']",
-        "Rose, Lily, Lotus"
-      ],
-      "explanation": "A minus B removes B items; only Flowers remain."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A − B ज्ञात करें।",
-      "options": [
-        "Rose, Lily, Lotus, Mango",
-        "∅",
-        "['Mango', 'Apple', 'Banana']",
-        "Rose, Lily, Lotus"
-      ],
-      "explanation": "A minus B removes B items; only Flowers remain."
-    }
-  },
-  {
-    "id": "nrvd-0188",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∪ B.",
-      "options": [
-        "['Mango', 'Apple', 'Banana']",
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "∅",
-        "Rose, Lily, Lotus, Mango"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∪ B ज्ञात करें।",
-      "options": [
-        "['Mango', 'Apple', 'Banana']",
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "∅",
-        "Rose, Lily, Lotus, Mango"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "nrvd-0189",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find B − A.",
-      "options": [
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green, Square",
-        "Square, Circle, Triangle",
-        "∅"
-      ],
-      "explanation": "B minus A removes A items; remaining are different categories."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। B − A ज्ञात करें।",
-      "options": [
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green, Square",
-        "Square, Circle, Triangle",
-        "∅"
-      ],
-      "explanation": "B minus A removes A items; remaining are different categories."
-    }
-  },
-  {
     "id": "nrvd-0190",
     "correctOption": "A",
     "difficulty": "easy",
@@ -4863,32 +3667,6 @@
         "60"
       ],
       "explanation": "केवल B = 29"
-    }
-  },
-  {
-    "id": "nrvd-0191",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A − B.",
-      "options": [
-        "['Mango', 'Apple', 'Banana']",
-        "∅",
-        "Rose, Lily, Lotus, Mango",
-        "Rose, Lily, Lotus"
-      ],
-      "explanation": "A minus B removes B items; only Flowers remain."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A − B ज्ञात करें।",
-      "options": [
-        "['Mango', 'Apple', 'Banana']",
-        "∅",
-        "Rose, Lily, Lotus, Mango",
-        "Rose, Lily, Lotus"
-      ],
-      "explanation": "A minus B removes B items; only Flowers remain."
     }
   },
   {
@@ -4941,32 +3719,6 @@
         "21"
       ],
       "explanation": "A और B दोनों = 25"
-    }
-  },
-  {
-    "id": "nrvd-0194",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find B − A.",
-      "options": [
-        "Red, Blue, Green, Square",
-        "Square, Circle, Triangle",
-        "∅",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "B minus A removes A items; remaining are different categories."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। B − A ज्ञात करें।",
-      "options": [
-        "Red, Blue, Green, Square",
-        "Square, Circle, Triangle",
-        "∅",
-        "['Square', 'Circle', 'Triangle']"
-      ],
-      "explanation": "B minus A removes A items; remaining are different categories."
     }
   },
   {
@@ -5074,58 +3826,6 @@
     }
   },
   {
-    "id": "nrvd-0199",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Cricket, Football, Hockey} (Sports). B = {Guitar, Piano, Flute} (non-sports). Find A ∩ B.",
-      "options": [
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "∅ (empty)",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    },
-    "hi": {
-      "question": "A = {क्रिकेट, फुटबॉल, हॉकी} (खेल)। B = {गिटार, पियानो, बांसुरी}। A ∩ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "Cricket, Football, Hockey, Guitar",
-        "∅ (empty)",
-        "['Guitar', 'Piano', 'Flute']"
-      ],
-      "explanation": "Set A = Sports, Set B = खेलका/की complement. No common elements."
-    }
-  },
-  {
-    "id": "nrvd-0200",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Rose, Lily, Lotus} (Flowers). B = {Mango, Apple, Banana} (non-flowers). Find A ∪ B.",
-      "options": [
-        "['Mango', 'Apple', 'Banana']",
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "∅",
-        "Rose, Lily, Lotus, Mango"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {गुलाब, लिली, कमल} (फूल)। B = {आम, सेब, केला}। A ∪ B ज्ञात करें।",
-      "options": [
-        "['Mango', 'Apple', 'Banana']",
-        "All items from both sets (Rose, Lily, Lotus, Mango, Apple, Banana)",
-        "∅",
-        "Rose, Lily, Lotus, Mango"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
     "id": "nrvd-0201",
     "correctOption": "A",
     "difficulty": "easy",
@@ -5175,84 +3875,6 @@
         "30"
       ],
       "explanation": "केवल B = 27"
-    }
-  },
-  {
-    "id": "nrvd-0203",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Red, Blue, Green} (Colors). B = {Square, Circle, Triangle} (non-colors). Find A ∪ B.",
-      "options": [
-        "∅",
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green, Square",
-        "All items from both sets (Red, Blue, Green, Square, Circle, Triangle)"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {लाल, नीला, हरा} (रंग)। B = {वर्ग, वृत्त, त्रिभुज}। A ∪ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "['Square', 'Circle', 'Triangle']",
-        "Red, Blue, Green, Square",
-        "All items from both sets (Red, Blue, Green, Square, Circle, Triangle)"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "nrvd-0204",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A − B.",
-      "options": [
-        "Dog, Cat, Cow",
-        "∅",
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A − B ज्ञात करें।",
-      "options": [
-        "Dog, Cat, Cow",
-        "∅",
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
-    }
-  },
-  {
-    "id": "nrvd-0205",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A − B.",
-      "options": [
-        "∅",
-        "Dog, Cat, Cow",
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow, Eagle"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A − B ज्ञात करें।",
-      "options": [
-        "∅",
-        "Dog, Cat, Cow",
-        "['Eagle', 'Snake', 'Fish']",
-        "Dog, Cat, Cow, Eagle"
-      ],
-      "explanation": "A minus B removes B items; only Mammals remain."
     }
   },
   {
@@ -5331,58 +3953,6 @@
         "119"
       ],
       "explanation": "समुच्चय सिद्धांत से: केवल एक समूह में = 124"
-    }
-  },
-  {
-    "id": "nrvd-0209",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∪ B.",
-      "options": [
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)",
-        "['Eagle', 'Snake', 'Fish']",
-        "∅",
-        "Dog, Cat, Cow, Eagle"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∪ B ज्ञात करें।",
-      "options": [
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)",
-        "['Eagle', 'Snake', 'Fish']",
-        "∅",
-        "Dog, Cat, Cow, Eagle"
-      ],
-      "explanation": "Union includes everything from both sets."
-    }
-  },
-  {
-    "id": "nrvd-0210",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A = {Dog, Cat, Cow} (Mammals). B = {Eagle, Snake, Fish} (non-mammals). Find A ∪ B.",
-      "options": [
-        "∅",
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']",
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)"
-      ],
-      "explanation": "Union includes everything from both sets."
-    },
-    "hi": {
-      "question": "A = {कुत्ता, बिल्ली, गाय} (स्तनधारी)। B = {गरुड़, सांप, मछली}। A ∪ B ज्ञात करें।",
-      "options": [
-        "∅",
-        "Dog, Cat, Cow, Eagle",
-        "['Eagle', 'Snake', 'Fish']",
-        "All items from both sets (Dog, Cat, Cow, Eagle, Snake, Fish)"
-      ],
-      "explanation": "Union includes everything from both sets."
     }
   },
   {

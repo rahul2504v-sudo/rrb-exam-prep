@@ -5,24 +5,24 @@
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "What does CPU stand for in computers?",
+      "question": "What does CPU stand for?",
       "options": [
         "Central Processing Unit",
         "Computer Personal Unit",
         "Central Program Utility",
         "Core Processing Unit"
       ],
-      "explanation": "CPU stands for Central Processing Unit, the primary component that performs instructions and processes data."
+      "explanation": "CPU stands for Central Processing Unit, the primary component that executes instructions and processes data in a computer."
     },
     "hi": {
-      "question": "कंप्यूटर में CPU का पूरा नाम क्या है?",
+      "question": "CPU का पूरा नाम क्या है?",
       "options": [
         "सेंट्रल प्रोसेसिंग यूनिट",
         "कंप्यूटर पर्सनल यूनिट",
         "सेंट्रल प्रोग्राम यूटिलिटी",
         "कोर प्रोसेसिंग यूनिट"
       ],
-      "explanation": "CPU का अर्थ सेंट्रल प्रोसेसिंग यूनिट है।"
+      "explanation": "CPU का अर्थ सेंट्रल प्रोसेसिंग यूनिट, कंप्यूटर में निर्देशों को निष्पादित करने वाला मुख्य घटक।"
     }
   },
   {
@@ -38,7 +38,7 @@
         "Unified Resource Link",
         "Universal Reading Language"
       ],
-      "explanation": "URL stands for Uniform Resource Locator, the address of a webpage or file on the internet."
+      "explanation": "URL stands for Uniform Resource Locator — the web address used to access resources on the internet."
     },
     "hi": {
       "question": "URL का पूरा नाम क्या है?",
@@ -48,193 +48,349 @@
         "यूनिफाइड रिसोर्स लिंक",
         "यूनिवर्सल रीडिंग लैंग्वेज"
       ],
-      "explanation": "URL = यूनिफॉर्म रिसोर्स लोकेटर, इंटरनेट पर वेबपेज का पता।"
+      "explanation": "URL का अर्थ यूनिफॉर्म रिसोर्स लोकेटर — इंटरनेट पर संसाधनों तक पहुंचने का वेब पता।"
     }
   },
   {
     "id": "ngact-0003",
     "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Which of the following is an example of an operating system?",
-      "options": [
-        "Microsoft Word",
-        "Google Chrome",
-        "Linux",
-        "Adobe Photoshop"
-      ],
-      "explanation": "Linux is an open-source operating system. Microsoft Word is a word processor, Chrome is a browser."
-    },
-    "hi": {
-      "question": "निम्न में से कौन ऑपरेटिंग सिस्टम का उदाहरण है?",
-      "options": [
-        "माइक्रोसॉफ्ट वर्ड",
-        "गूगल क्रोम",
-        "लिनक्स",
-        "एडोबी फोटोशॉप"
-      ],
-      "explanation": "लिनक्स ओपन-सोर्स ऑपरेटिंग सिस्टम है।"
-    }
-  },
-  {
-    "id": "ngact-0004",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "First-generation computers used which technology?",
-      "options": [
-        "Transistors",
-        "Integrated Circuits",
-        "Vacuum Tubes",
-        "Microprocessors"
-      ],
-      "explanation": "First-generation computers (1940-1956) used vacuum tubes. ENIAC is a famous example."
-    },
-    "hi": {
-      "question": "पहली पीढ़ी के कंप्यूटर किस तकनीक पर आधारित थे?",
-      "options": [
-        "ट्रांज़िस्टर",
-        "एकीकृत सर्किट",
-        "वैक्यूम ट्यूब",
-        "माइक्रोप्रोसेसर"
-      ],
-      "explanation": "पहली पीढ़ी (1940-1956) वैक्यूम ट्यूब, ENIAC प्रसिद्ध उदाहरण।"
-    }
-  },
-  {
-    "id": "ngact-0005",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "What is the full form of RAM in computers?",
-      "options": [
-        "Read Access Memory",
-        "Random Access Memory",
-        "Remote Access Memory",
-        "Read and Modify"
-      ],
-      "explanation": "RAM stands for Random Access Memory, the primary volatile memory of a computer."
-    },
-    "hi": {
-      "question": "कंप्यूटर में RAM का पूरा नाम?",
-      "options": [
-        "रीड एक्सेस मेमोरी",
-        "रैंडम एक्सेस मेमोरी",
-        "रिमोट एक्सेस मेमोरी",
-        "रीड एंड मॉडिफाई"
-      ],
-      "explanation": "RAM = रैंडम एक्सेस मेमोरी, कंप्यूटर की प्राथमिक अस्थायी मेमोरी।"
-    }
-  },
-  {
-    "id": "ngact-0006",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "The keyboard shortcut Ctrl+C is used for which operation?",
-      "options": [
-        "Cut",
-        "Copy",
-        "Paste",
-        "Close"
-      ],
-      "explanation": "Ctrl+C is for Copy. Ctrl+X is Cut, Ctrl+V is Paste."
-    },
-    "hi": {
-      "question": "Ctrl+C कीबोर्ड शॉर्टकट किसके लिए है?",
-      "options": [
-        "कट",
-        "कॉपी",
-        "पेस्ट",
-        "बंद करें"
-      ],
-      "explanation": "Ctrl+C = कॉपी, Ctrl+X = कट, Ctrl+V = पेस्ट।"
-    }
-  },
-  {
-    "id": "ngact-0007",
-    "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
       "question": "Which of the following is an input device?",
       "options": [
         "Monitor",
-        "Scanner",
         "Printer",
+        "Keyboard",
         "Speaker"
       ],
-      "explanation": "A scanner is an input device that captures images or text into digital format."
+      "explanation": "Keyboard is an input device used to enter data into a computer. Monitor, printer, and speaker are output devices."
     },
     "hi": {
-      "question": "निम्न में से इनपुट डिवाइस कौन-सी है?",
+      "question": "निम्नलिखित में से कौन इनपुट डिवाइस है?",
       "options": [
         "मॉनिटर",
-        "स्कैनर",
         "प्रिंटर",
+        "कीबोर्ड",
         "स्पीकर"
       ],
-      "explanation": "स्कैनर इनपुट डिवाइस, छवियों को डिजिटल में बदलता है।"
+      "explanation": "कीबोर्ड कंप्यूटर में डेटा दर्ज करने का इनपुट डिवाइस। मॉनिटर, प्रिंटर, स्पीकर आउटपुट डिवाइस।"
+    }
+  },
+  {
+    "id": "ngact-0004",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which generation of computers used vacuum tubes?",
+      "options": [
+        "Second",
+        "Third",
+        "Fourth",
+        "First"
+      ],
+      "explanation": "First generation computers (1940-1956) used vacuum tubes. They were large, expensive, and consumed significant power. ENIAC is an example."
+    },
+    "hi": {
+      "question": "कंप्यूटर की कौन सी पीढ़ी में वैक्यूम ट्यूब का उपयोग हुआ?",
+      "options": [
+        "दूसरी",
+        "तीसरी",
+        "चौथी",
+        "पहली"
+      ],
+      "explanation": "पहली पीढ़ी (1940-1956) में वैक्यूम ट्यूब। ENIAC इसका उदाहरण।"
+    }
+  },
+  {
+    "id": "ngact-0005",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the full form of RAM?",
+      "options": [
+        "Random Access Memory",
+        "Read Access Memory",
+        "Rapid Application Memory",
+        "Random Application Module"
+      ],
+      "explanation": "RAM stands for Random Access Memory. It is volatile memory that temporarily stores data and programs currently being used by the CPU."
+    },
+    "hi": {
+      "question": "RAM का पूरा नाम क्या है?",
+      "options": [
+        "रैंडम एक्सेस मेमोरी",
+        "रीड एक्सेस मेमोरी",
+        "रैपिड एप्लीकेशन मेमोरी",
+        "रैंडम एप्लीकेशन मॉड्यूल"
+      ],
+      "explanation": "RAM = रैंडम एक्सेस मेमोरी, अस्थायी डेटा संग्रहण करने वाली अस्थिर मेमोरी।"
+    }
+  },
+  {
+    "id": "ngact-0006",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the binary equivalent of decimal number 10?",
+      "options": [
+        "1001",
+        "1010",
+        "1100",
+        "1110"
+      ],
+      "explanation": "The binary equivalent of decimal 10 is 1010. Binary uses only 0 and 1 digits (base-2 numeral system)."
+    },
+    "hi": {
+      "question": "दशमलव संख्या 10 का बाइनरी समतुल्य क्या है?",
+      "options": [
+        "1001",
+        "1010",
+        "1100",
+        "1110"
+      ],
+      "explanation": "10 का बाइनरी समतुल्य 1010 है। बाइनरी में केवल 0 और 1 अंक (आधार-2)।"
+    }
+  },
+  {
+    "id": "ngact-0007",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which protocol is used to send emails?",
+      "options": [
+        "FTP",
+        "HTTP",
+        "SMTP",
+        "TCP"
+      ],
+      "explanation": "SMTP (Simple Mail Transfer Protocol) is used to send emails. POP3 and IMAP are used to receive emails."
+    },
+    "hi": {
+      "question": "ईमेल भेजने के लिए कौन सा प्रोटोकॉल उपयोग होता है?",
+      "options": [
+        "FTP",
+        "HTTP",
+        "SMTP",
+        "TCP"
+      ],
+      "explanation": "SMTP (सिंपल मेल ट्रांसफर प्रोटोकॉल) ईमेल भेजने के लिए। POP3 और IMAP ईमेल प्राप्त करने के लिए।"
     }
   },
   {
     "id": "ngact-0008",
-    "correctOption": "B",
-    "difficulty": "medium",
+    "correctOption": "D",
+    "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "A firewall in computer networks is used for which purpose?",
+      "question": "Microsoft Word is an example of?",
       "options": [
-        "File storage",
-        "Network security",
-        "Data compression",
-        "Software installation"
+        "Operating System",
+        "Programming Language",
+        "Web Browser",
+        "Word Processing Software"
       ],
-      "explanation": "A firewall monitors and controls incoming/outgoing network traffic based on security rules."
+      "explanation": "Microsoft Word is a word processing software used for creating, editing, and formatting text documents."
     },
     "hi": {
-      "question": "कंप्यूटर नेटवर्क में फ़ायरवॉल का उपयोग?",
+      "question": "माइक्रोसॉफ्ट वर्ड किसका उदाहरण है?",
       "options": [
-        "फ़ाइल भंडारण",
-        "नेटवर्क सुरक्षा",
-        "डेटा संपीड़न",
-        "सॉफ्टवेयर स्थापना"
+        "ऑपरेटिंग सिस्टम",
+        "प्रोग्रामिंग भाषा",
+        "वेब ब्राउज़र",
+        "वर्ड प्रोसेसिंग सॉफ्टवेयर"
       ],
-      "explanation": "फ़ायरवॉल सुरक्षा नियमों से नेटवर्क ट्रैफ़िक नियंत्रित करता है।"
+      "explanation": "MS Word टेक्स्ट दस्तावेज़ बनाने और संपादित करने का वर्ड प्रोसेसिंग सॉफ्टवेयर।"
     }
   },
   {
     "id": "ngact-0009",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2023,
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Which was the first widely used web search engine?",
+      "question": "Which of the following is a volatile memory?",
       "options": [
-        "Google",
-        "Yahoo",
-        "Archie",
-        "Bing"
+        "RAM",
+        "ROM",
+        "Hard Disk",
+        "CD-ROM"
       ],
-      "explanation": "Archie, created in 1990, is considered the first search engine. Google later became dominant."
+      "explanation": "RAM is volatile memory — it loses stored data when power is turned off. ROM, hard disk, and CD-ROM are non-volatile."
     },
     "hi": {
-      "question": "पहला व्यापक वेब सर्च इंजन कौन-सा था?",
+      "question": "निम्न में से कौन अस्थिर मेमोरी है?",
       "options": [
-        "गूगल",
-        "याहू",
-        "आर्ची",
-        "बिंग"
+        "RAM",
+        "ROM",
+        "हार्ड डिस्क",
+        "CD-ROM"
       ],
-      "explanation": "आर्ची (1990) पहला सर्च इंजन, बाद में गूगल प्रमुख।"
+      "explanation": "RAM अस्थिर मेमोरी — बिजली बंद होने पर डेटा खो देती है। ROM, हार्ड डिस्क स्थिर।"
     }
   },
   {
     "id": "ngact-0010",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Who is considered the father of the World Wide Web?",
+      "options": [
+        "Bill Gates",
+        "Tim Berners-Lee",
+        "Vint Cerf",
+        "Steve Jobs"
+      ],
+      "explanation": "Tim Berners-Lee invented the World Wide Web in 1989 while working at CERN. He developed HTML, HTTP, and URLs."
+    },
+    "hi": {
+      "question": "वर्ल्ड वाइड वेब के जनक किसे माना जाता है?",
+      "options": [
+        "बिल गेट्स",
+        "टिम बर्नर्स-ली",
+        "विंट सर्फ",
+        "स्टीव जॉब्स"
+      ],
+      "explanation": "टिम बर्नर्स-ली ने 1989 में CERN में वर्ल्ड वाइड वेब का आविष्कार किया। HTML, HTTP, URL विकसित किए।"
+    }
+  },
+  {
+    "id": "ngact-0011",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which of the following is a search engine?",
+      "options": [
+        "Windows",
+        "MS Excel",
+        "Google",
+        "Adobe Photoshop"
+      ],
+      "explanation": "Google is a search engine used to find information on the internet. Windows is an OS, Excel is spreadsheet, Photoshop is editing software."
+    },
+    "hi": {
+      "question": "निम्न में से कौन सर्च इंजन है?",
+      "options": [
+        "विंडोज",
+        "MS एक्सेल",
+        "गूगल",
+        "एडोबी फोटोशॉप"
+      ],
+      "explanation": "गूगल इंटरनेट पर जानकारी खोजने का सर्च इंजन।"
+    }
+  },
+  {
+    "id": "ngact-0012",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the full form of PDF?",
+      "options": [
+        "Printable Document Format",
+        "Personal Data File",
+        "Public Document File",
+        "Portable Document Format"
+      ],
+      "explanation": "PDF stands for Portable Document Format, developed by Adobe. It preserves document formatting across different devices."
+    },
+    "hi": {
+      "question": "PDF का पूरा नाम क्या है?",
+      "options": [
+        "प्रिंटेबल डॉक्यूमेंट फॉर्मेट",
+        "पर्सनल डेटा फाइल",
+        "पब्लिक डॉक्यूमेंट फाइल",
+        "पोर्टेबल डॉक्यूमेंट फॉर्मेट"
+      ],
+      "explanation": "PDF = पोर्टेबल डॉक्यूमेंट फॉर्मेट, एडोबी द्वारा विकसित।"
+    }
+  },
+  {
+    "id": "ngact-0013",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is a 'firewall' in computer networking?",
+      "options": [
+        "Security system that monitors and controls network traffic",
+        "Hardware to boost internet speed",
+        "Software to create documents",
+        "A type of virus"
+      ],
+      "explanation": "A firewall is a network security system that monitors and controls incoming/outgoing traffic based on predetermined security rules."
+    },
+    "hi": {
+      "question": "कंप्यूटर नेटवर्किंग में 'फायरवॉल' क्या है?",
+      "options": [
+        "नेटवर्क ट्रैफिक की निगरानी और नियंत्रण की सुरक्षा प्रणाली",
+        "इंटरनेट स्पीड बढ़ाने का हार्डवेयर",
+        "दस्तावेज़ बनाने का सॉफ्टवेयर",
+        "एक प्रकार का वायरस"
+      ],
+      "explanation": "फायरवॉल पूर्व निर्धारित सुरक्षा नियमों के आधार पर नेटवर्क ट्रैफिक की निगरानी करने वाली सुरक्षा प्रणाली।"
+    }
+  },
+  {
+    "id": "ngact-0014",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which of the following is an operating system?",
+      "options": [
+        "MS Word",
+        "Linux",
+        "Google Chrome",
+        "Adobe Reader"
+      ],
+      "explanation": "Linux is an open-source operating system. MS Word, Chrome, and Adobe Reader are application software."
+    },
+    "hi": {
+      "question": "निम्न में से कौन ऑपरेटिंग सिस्टम है?",
+      "options": [
+        "MS वर्ड",
+        "लिनक्स",
+        "गूगल क्रोम",
+        "एडोबी रीडर"
+      ],
+      "explanation": "लिनक्स ओपन-सोर्स ऑपरेटिंग सिस्टम। वर्ड, क्रोम, रीडर एप्लिकेशन सॉफ्टवेयर।"
+    }
+  },
+  {
+    "id": "ngact-0015",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the full form of ISP?",
+      "options": [
+        "Internet Service Protocol",
+        "International Service Provider",
+        "Internet Service Provider",
+        "Internal Security Protocol"
+      ],
+      "explanation": "ISP stands for Internet Service Provider — a company that provides internet access to customers (e.g., Jio, Airtel, BSNL)."
+    },
+    "hi": {
+      "question": "ISP का पूरा नाम क्या है?",
+      "options": [
+        "इंटरनेट सर्विस प्रोटोकॉल",
+        "इंटरनेशनल सर्विस प्रोवाइडर",
+        "इंटरनेट सेवा प्रदाता",
+        "इंटरनल सिक्योरिटी प्रोटोकॉल"
+      ],
+      "explanation": "ISP = इंटरनेट सेवा प्रदाता (जियो, एयरटेल, BSNL)।"
+    }
+  },
+  {
+    "id": "ngact-0016",
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2024,
@@ -243,2230 +399,2204 @@
       "options": [
         "Random Only Memory",
         "Read Only Module",
-        "Random Operating Memory",
+        "Rapid Output Memory",
         "Read Only Memory"
       ],
-      "explanation": "ROM = Read Only Memory. It stores firmware and is non-volatile."
+      "explanation": "ROM stands for Read Only Memory. It is non-volatile memory that stores firmware and boot instructions."
     },
     "hi": {
       "question": "ROM का पूरा नाम क्या है?",
       "options": [
         "रैंडम ओनली मेमोरी",
         "रीड ओनली मॉड्यूल",
-        "रैंडम ऑपरेटिंग मेमोरी",
+        "रैपिड आउटपुट मेमोरी",
         "रीड ओनली मेमोरी"
       ],
-      "explanation": "ROM = रीड ओनली मेमोरी, फर्मवेयर भंडारण, अ-अस्थायी।"
+      "explanation": "ROM = रीड ओनली मेमोरी, फर्मवेयर और बूट निर्देश संग्रहीत करने वाली स्थिर मेमोरी।"
     }
   },
   {
-    "id": "ngact-0011",
-    "correctOption": "B",
+    "id": "ngact-0017",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "Who is known as the father of computers?",
+      "question": "Which of the following is a programming language?",
       "options": [
-        "Alan Turing",
-        "Charles Babbage",
-        "John von Neumann",
-        "Bill Gates"
+        "Python",
+        "Windows",
+        "Photoshop",
+        "Chrome"
       ],
-      "explanation": "Charles Babbage designed the Analytical Engine and is considered the father of computers."
+      "explanation": "Python is a high-level programming language. Windows is an OS, Photoshop is image editing software, Chrome is a browser."
     },
     "hi": {
-      "question": "कंप्यूटर का जनक किसे कहा जाता है?",
+      "question": "निम्न में से कौन प्रोग्रामिंग भाषा है?",
       "options": [
-        "एलन ट्यूरिंग",
-        "चार्ल्स बैबेज",
-        "जॉन वॉन न्यूमैन",
-        "बिल गेट्स"
+        "पायथन",
+        "विंडोज",
+        "फोटोशॉप",
+        "क्रोम"
       ],
-      "explanation": "चार्ल्स बैबेज ने एनालिटिकल इंजन डिज़ाइन किया, कंप्यूटर के जनक।"
+      "explanation": "पायथन उच्च-स्तरीय प्रोग्रामिंग भाषा।"
     }
   },
   {
-    "id": "ngact-0012",
-    "correctOption": "A",
+    "id": "ngact-0018",
+    "correctOption": "B",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "What does HTTP stand for?",
+      "question": "What does 'phishing' refer to in cybersecurity?",
       "options": [
-        "HyperText Transfer Protocol",
-        "High Tech Transfer Protocol",
-        "HyperText Transmission Program",
-        "High Transfer Text Protocol"
+        "A type of firewall",
+        "Fraudulent attempt to obtain sensitive information",
+        "A programming technique",
+        "Encrypting data"
       ],
-      "explanation": "HTTP = HyperText Transfer Protocol, the foundation of data communication on the World Wide Web."
+      "explanation": "Phishing is a cyber attack where attackers disguise as trustworthy entities to steal sensitive data like passwords and credit card numbers."
     },
     "hi": {
-      "question": "HTTP का पूरा नाम?",
+      "question": "साइबर सुरक्षा में 'फिशिंग' क्या है?",
       "options": [
-        "हाइपरटेक्स्ट ट्रांसफर प्रोटोकॉल",
-        "हाई टेक ट्रांसफर प्रोटोकॉल",
-        "हाइपरटेक्स्ट ट्रांसमिशन प्रोग्राम",
-        "हाई ट्रांसफर टेक्स्ट प्रोटोकॉल"
+        "एक प्रकार का फायरवॉल",
+        "संवेदनशील जानकारी प्राप्त करने का धोखाधड़ी प्रयास",
+        "प्रोग्रामिंग तकनीक",
+        "डेटा एन्क्रिप्ट करना"
       ],
-      "explanation": "HTTP = हाइपरटेक्स्ट ट्रांसफर प्रोटोकॉल, वेब डेटा संचार का आधार।"
+      "explanation": "फिशिंग वह हमला है जहां हमलावर विश्वसनीय संस्था बनकर पासवर्ड जैसी जानकारी चुराते हैं।"
     }
   },
   {
-    "id": "ngact-0013",
+    "id": "ngact-0019",
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "Which of these is a programming language?",
+      "question": "What is the function of an operating system?",
       "options": [
-        "Windows",
-        "Linux",
-        "Python",
-        "Chrome"
+        "Only to browse the internet",
+        "Only to create documents",
+        "Manage hardware and software resources",
+        "Only to play games"
       ],
-      "explanation": "Python is a high-level programming language. Windows is an OS, Chrome is a browser."
+      "explanation": "An operating system manages computer hardware and software resources and provides common services for computer programs."
     },
     "hi": {
-      "question": "इनमें से प्रोग्रामिंग भाषा कौन-सी है?",
+      "question": "ऑपरेटिंग सिस्टम का कार्य क्या है?",
       "options": [
-        "विंडोज",
-        "लिनक्स",
-        "पायथन",
-        "क्रोम"
+        "केवल इंटरनेट ब्राउज़ करना",
+        "केवल दस्तावेज़ बनाना",
+        "हार्डवेयर और सॉफ्टवेयर संसाधनों का प्रबंधन",
+        "केवल गेम खेलना"
       ],
-      "explanation": "पायथन उच्च-स्तरीय प्रोग्रामिंग भाषा। विंडोज OS, क्रोम ब्राउज़र।"
+      "explanation": "OS हार्डवेयर-सॉफ्टवेयर संसाधनों का प्रबंधन करता है और प्रोग्रामों के लिए सेवाएं प्रदान करता है।"
     }
   },
   {
-    "id": "ngact-0014",
+    "id": "ngact-0020",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the full form of PDF?",
+      "question": "1 Kilobyte (KB) equals how many bytes?",
       "options": [
-        "Print Document Format",
-        "Public Data Format",
-        "Personal Document File",
-        "Portable Document Format"
+        "100 bytes",
+        "512 bytes",
+        "1000 bytes",
+        "1024 bytes"
       ],
-      "explanation": "PDF = Portable Document Format, developed by Adobe, used for document exchange."
+      "explanation": "1 Kilobyte = 1024 bytes (2^10 bytes). This is because computers use binary (base-2) numbering."
     },
     "hi": {
-      "question": "PDF का पूरा नाम?",
+      "question": "1 किलोबाइट (KB) कितने बाइट के बराबर है?",
       "options": [
-        "प्रिंट डॉक्यूमेंट फॉर्मेट",
-        "पब्लिक डेटा फॉर्मेट",
-        "पर्सनल डॉक्यूमेंट फाइल",
-        "पोर्टेबल डॉक्यूमेंट फॉर्मेट"
+        "100 बाइट",
+        "512 बाइट",
+        "1000 बाइट",
+        "1024 बाइट"
       ],
-      "explanation": "PDF = पोर्टेबल डॉक्यूमेंट फॉर्मेट, एडोबी द्वारा विकसित।"
+      "explanation": "1 KB = 1024 बाइट (2^10), क्योंकि कंप्यूटर बाइनरी (आधार-2) का उपयोग करते हैं।"
     }
   },
   {
-    "id": "ngact-0015",
-    "correctOption": "B",
+    "id": "ngact-0021",
+    "correctOption": "A",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "Who invented the World Wide Web (WWW)?",
+      "question": "What is blockchain technology primarily used for?",
       "options": [
-        "Bill Gates",
-        "Tim Berners-Lee",
-        "Vint Cerf",
-        "Steve Jobs"
+        "Decentralized digital ledger",
+        "Creating websites",
+        "Video editing",
+        "Word processing"
       ],
-      "explanation": "Tim Berners-Lee invented the World Wide Web in 1989 while working at CERN."
+      "explanation": "Blockchain is a decentralized, distributed digital ledger that records transactions across many computers securely and transparently."
     },
     "hi": {
-      "question": "वर्ल्ड वाइड वेब (WWW) का आविष्कार किसने किया?",
+      "question": "ब्लॉकचेन तकनीक मुख्यतः किसके लिए उपयोग होती है?",
       "options": [
-        "बिल गेट्स",
-        "टिम बर्नर्स-ली",
-        "विंट सर्फ",
-        "स्टीव जॉब्स"
+        "विकेंद्रीकृत डिजिटल बहीखाता",
+        "वेबसाइट बनाना",
+        "वीडियो संपादन",
+        "वर्ड प्रोसेसिंग"
       ],
-      "explanation": "टिम बर्नर्स-ली ने 1989 में CERN में WWW का आविष्कार किया।"
+      "explanation": "ब्लॉकचेन विकेंद्रीकृत डिजिटल बहीखाता जो लेन-देन सुरक्षित और पारदर्शी रूप से रिकॉर्ड करता है।"
     }
   },
   {
-    "id": "ngact-0016",
+    "id": "ngact-0022",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which of the following is NOT an input device?",
+      "options": [
+        "Mouse",
+        "Monitor",
+        "Scanner",
+        "Microphone"
+      ],
+      "explanation": "Monitor is an output device that displays information. Mouse, scanner, and microphone are input devices."
+    },
+    "hi": {
+      "question": "निम्न में से कौन इनपुट डिवाइस नहीं है?",
+      "options": [
+        "माउस",
+        "मॉनिटर",
+        "स्कैनर",
+        "माइक्रोफोन"
+      ],
+      "explanation": "मॉनिटर आउटपुट डिवाइस। माउस, स्कैनर, माइक्रोफोन इनपुट डिवाइस।"
+    }
+  },
+  {
+    "id": "ngact-0023",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What does HTTP stand for?",
+      "options": [
+        "Hyper Text Transfer Program",
+        "High Tech Transfer Protocol",
+        "Hyper Text Transfer Protocol",
+        "Hyper Tool Transfer Protocol"
+      ],
+      "explanation": "HTTP stands for Hyper Text Transfer Protocol. It is the foundation of data communication on the World Wide Web."
+    },
+    "hi": {
+      "question": "HTTP का पूरा नाम क्या है?",
+      "options": [
+        "हाइपर टेक्स्ट ट्रांसफर प्रोग्राम",
+        "हाई टेक ट्रांसफर प्रोटोकॉल",
+        "हाइपर टेक्स्ट ट्रांसफर प्रोटोकॉल",
+        "हाइपर टूल ट्रांसफर प्रोटोकॉल"
+      ],
+      "explanation": "HTTP = हाइपर टेक्स्ट ट्रांसफर प्रोटोकॉल, वेब पर डेटा संचार का मूल आधार।"
+    }
+  },
+  {
+    "id": "ngact-0024",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the full form of AI?",
+      "options": [
+        "Advanced Interface",
+        "Automated Integration",
+        "Analog Intelligence",
+        "Artificial Intelligence"
+      ],
+      "explanation": "AI stands for Artificial Intelligence — the simulation of human intelligence in machines programmed to think and learn."
+    },
+    "hi": {
+      "question": "AI का पूरा नाम क्या है?",
+      "options": [
+        "एडवांस्ड इंटरफेस",
+        "ऑटोमेटेड इंटीग्रेशन",
+        "एनालॉग इंटेलिजेंस",
+        "कृत्रिम बुद्धिमत्ता"
+      ],
+      "explanation": "AI = कृत्रिम बुद्धिमत्ता — सोचने और सीखने के लिए प्रोग्राम की गई मशीनों में मानव बुद्धि का अनुकरण।"
+    }
+  },
+  {
+    "id": "ngact-0025",
     "correctOption": "A",
     "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which key combination is used to copy selected text?",
+      "options": [
+        "Ctrl + C",
+        "Ctrl + V",
+        "Ctrl + X",
+        "Ctrl + Z"
+      ],
+      "explanation": "Ctrl + C is the shortcut to copy selected text. Ctrl + V is paste, Ctrl + X is cut, and Ctrl + Z is undo."
+    },
+    "hi": {
+      "question": "चयनित टेक्स्ट को कॉपी करने के लिए कौन से की का संयोजन उपयोग होता है?",
+      "options": [
+        "Ctrl + C",
+        "Ctrl + V",
+        "Ctrl + X",
+        "Ctrl + Z"
+      ],
+      "explanation": "Ctrl + C = कॉपी। Ctrl + V = पेस्ट, Ctrl + X = कट, Ctrl + Z = पूर्ववत।"
+    }
+  },
+  {
+    "id": "ngact-0026",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the main function of an antivirus software?",
+      "options": [
+        "Speed up internet",
+        "Detect and remove malware",
+        "Create documents",
+        "Edit photos"
+      ],
+      "explanation": "Antivirus software detects, prevents, and removes malicious software (malware) including viruses, worms, and trojans from computers."
+    },
+    "hi": {
+      "question": "एंटीवायरस सॉफ्टवेयर का मुख्य कार्य क्या है?",
+      "options": [
+        "इंटरनेट तेज़ करना",
+        "मैलवेयर का पता लगाना और हटाना",
+        "दस्तावेज़ बनाना",
+        "फोटो संपादित करना"
+      ],
+      "explanation": "एंटीवायरस वायरस, वर्म्स, ट्रोजन जैसे दुर्भावनापूर्ण सॉफ्टवेयर का पता लगाकर हटाता है।"
+    }
+  },
+  {
+    "id": "ngact-0027",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is 'cloud computing'?",
+      "options": [
+        "Computing on a local machine only",
+        "Storing data on physical drives",
+        "Delivery of computing services over the internet",
+        "A weather prediction system"
+      ],
+      "explanation": "Cloud computing delivers computing services (servers, storage, databases, networking, software) over the internet on a pay-as-you-go basis."
+    },
+    "hi": {
+      "question": "'क्लाउड कंप्यूटिंग' क्या है?",
+      "options": [
+        "केवल स्थानीय मशीन पर कंप्यूटिंग",
+        "भौतिक ड्राइव पर डेटा भंडारण",
+        "इंटरनेट पर कंप्यूटिंग सेवाओं की डिलीवरी",
+        "मौसम भविष्यवाणी प्रणाली"
+      ],
+      "explanation": "क्लाउड कंप्यूटिंग इंटरनेट पर सर्वर, स्टोरेज, डेटाबेस, सॉफ्टवेयर जैसी सेवाएं प्रदान करती है।"
+    }
+  },
+  {
+    "id": "ngact-0028",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which of the following is a web browser?",
+      "options": [
+        "Windows",
+        "MS PowerPoint",
+        "Java",
+        "Mozilla Firefox"
+      ],
+      "explanation": "Mozilla Firefox is a web browser used to access the internet. Windows is an OS, PowerPoint is presentation software, Java is a programming language."
+    },
+    "hi": {
+      "question": "निम्न में से कौन वेब ब्राउज़र है?",
+      "options": [
+        "विंडोज",
+        "MS पॉवरपॉइंट",
+        "जावा",
+        "मोज़िला फायरफॉक्स"
+      ],
+      "explanation": "मोज़िला फायरफॉक्स वेब ब्राउज़र।"
+    }
+  },
+  {
+    "id": "ngact-0029",
+    "correctOption": "A",
+    "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
       "question": "What does LAN stand for?",
       "options": [
         "Local Area Network",
         "Large Area Network",
-        "Long Access Network",
-        "Linked Area Node"
+        "Long Area Network",
+        "Legal Area Network"
       ],
-      "explanation": "LAN = Local Area Network, connecting computers within a limited area like an office."
+      "explanation": "LAN stands for Local Area Network — a network connecting computers within a limited area such as a home, office, or building."
     },
     "hi": {
-      "question": "LAN का पूरा नाम?",
+      "question": "LAN का पूरा नाम क्या है?",
       "options": [
         "लोकल एरिया नेटवर्क",
         "लार्ज एरिया नेटवर्क",
-        "लॉन्ग एक्सेस नेटवर्क",
-        "लिंक्ड एरिया नोड"
+        "लॉन्ग एरिया नेटवर्क",
+        "लीगल एरिया नेटवर्क"
       ],
-      "explanation": "LAN = लोकल एरिया नेटवर्क, सीमित क्षेत्र में कंप्यूटर जोड़ता है।"
+      "explanation": "LAN = लोकल एरिया नेटवर्क, सीमित क्षेत्र (घर, कार्यालय) में कंप्यूटरों को जोड़ने वाला नेटवर्क।"
     }
   },
   {
-    "id": "ngact-0017",
+    "id": "ngact-0030",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is 'machine learning'?",
+      "options": [
+        "Learning how to operate machines",
+        "Subset of AI where systems learn from data",
+        "Repairing computers",
+        "Typing skills"
+      ],
+      "explanation": "Machine learning is a subset of AI where computer systems learn and improve from experience without being explicitly programmed."
+    },
+    "hi": {
+      "question": "'मशीन लर्निंग' क्या है?",
+      "options": [
+        "मशीनें चलाना सीखना",
+        "AI की उपशाखा जहां सिस्टम डेटा से सीखते हैं",
+        "कंप्यूटर की मरम्मत",
+        "टाइपिंग कौशल"
+      ],
+      "explanation": "मशीन लर्निंग AI की शाखा जहां सिस्टम बिना स्पष्ट प्रोग्रामिंग के अनुभव से सीखते हैं।"
+    }
+  },
+  {
+    "id": "ngact-0031",
     "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which of the following is an email service?",
+      "options": [
+        "Instagram",
+        "WhatsApp",
+        "Gmail",
+        "YouTube"
+      ],
+      "explanation": "Gmail is an email service by Google. Instagram, WhatsApp, and YouTube are social media and messaging platforms."
+    },
+    "hi": {
+      "question": "निम्न में से कौन ईमेल सेवा है?",
+      "options": [
+        "इंस्टाग्राम",
+        "व्हाट्सएप",
+        "जीमेल",
+        "यूट्यूब"
+      ],
+      "explanation": "जीमेल गूगल की ईमेल सेवा।"
+    }
+  },
+  {
+    "id": "ngact-0032",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "1 GB (Gigabyte) equals how many MB (Megabytes)?",
+      "question": "What is the full form of IP in 'IP address'?",
       "options": [
-        "100 MB",
-        "512 MB",
-        "1024 MB",
-        "2048 MB"
+        "Internet Process",
+        "Internal Protocol",
+        "Integrated Protocol",
+        "Internet Protocol"
       ],
-      "explanation": "1 GB = 1024 MB (in binary). 1 TB = 1024 GB."
+      "explanation": "IP stands for Internet Protocol — a set of rules governing the format of data sent over the internet or local network."
     },
     "hi": {
-      "question": "1 GB (गीगाबाइट) = कितने MB (मेगाबाइट)?",
+      "question": "'IP पता' में IP का पूरा नाम क्या है?",
       "options": [
-        "100 MB",
-        "512 MB",
-        "1024 MB",
-        "2048 MB"
+        "इंटरनेट प्रोसेस",
+        "इंटरनल प्रोटोकॉल",
+        "इंटीग्रेटेड प्रोटोकॉल",
+        "इंटरनेट प्रोटोकॉल"
       ],
-      "explanation": "1 GB = 1024 MB (बाइनरी में)। 1 TB = 1024 GB।"
+      "explanation": "IP = इंटरनेट प्रोटोकॉल, इंटरनेट पर भेजे गए डेटा के प्रारूप को नियंत्रित करने वाले नियम।"
     }
   },
   {
-    "id": "ngact-0018",
-    "correctOption": "D",
+    "id": "ngact-0033",
+    "correctOption": "A",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "What does SQL stand for?",
+      "question": "What is the IT Act 2000 in India primarily about?",
       "options": [
-        "Simple Query Language",
-        "Structured Question Language",
-        "Sequential Query Logic",
-        "Structured Query Language"
+        "Legal recognition of electronic transactions and cybersecurity",
+        "Internet speed regulation",
+        "Computer manufacturing",
+        "Tax on software"
       ],
-      "explanation": "SQL = Structured Query Language, used for managing and manipulating relational databases."
+      "explanation": "The Information Technology Act, 2000 provides legal recognition to electronic transactions and addresses cybercrime and e-commerce in India."
     },
     "hi": {
-      "question": "SQL का पूरा नाम?",
+      "question": "भारत में IT अधिनियम 2000 मुख्यतः किसके बारे में है?",
       "options": [
-        "सिंपल क्वेरी लैंग्वेज",
-        "स्ट्रक्चर्ड क्वेश्चन लैंग्वेज",
-        "सीक्वेंशियल क्वेरी लॉजिक",
-        "स्ट्रक्चर्ड क्वेरी लैंग्वेज"
+        "इलेक्ट्रॉनिक लेन-देन की कानूनी मान्यता और साइबर सुरक्षा",
+        "इंटरनेट गति नियमन",
+        "कंप्यूटर निर्माण",
+        "सॉफ्टवेयर पर कर"
       ],
-      "explanation": "SQL = स्ट्रक्चर्ड क्वेरी लैंग्वेज, डेटाबेस प्रबंधन के लिए।"
+      "explanation": "IT अधिनियम 2000 इलेक्ट्रॉनिक लेन-देन को कानूनी मान्यता और साइबर अपराधों को संबोधित करता है।"
     }
   },
   {
-    "id": "ngact-0019",
+    "id": "ngact-0034",
     "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "Which device is used to convert digital signals to analog for telephone lines?",
+      "question": "Which device is used to connect a computer to the internet via telephone line?",
       "options": [
         "Router",
         "Modem",
         "Switch",
         "Hub"
       ],
-      "explanation": "A modem (Modulator-Demodulator) converts digital to analog signals and vice versa."
+      "explanation": "A modem (modulator-demodulator) converts digital signals from a computer to analog signals for telephone lines and vice versa."
     },
     "hi": {
-      "question": "डिजिटल सिग्नल को एनालॉग में बदलने वाला उपकरण?",
+      "question": "टेलीफोन लाइन से कंप्यूटर को इंटरनेट से जोड़ने के लिए कौन सा उपकरण उपयोग होता है?",
       "options": [
         "राउटर",
         "मॉडम",
         "स्विच",
         "हब"
       ],
-      "explanation": "मॉडम (मॉड्यूलेटर-डीमॉड्यूलेटर) सिग्नल रूपांतरण करता है।"
-    }
-  },
-  {
-    "id": "ngact-0020",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Who is the founder of Microsoft?",
-      "options": [
-        "Bill Gates and Paul Allen",
-        "Steve Jobs",
-        "Mark Zuckerberg",
-        "Larry Page"
-      ],
-      "explanation": "Microsoft was founded by Bill Gates and Paul Allen in 1975."
-    },
-    "hi": {
-      "question": "माइक्रोसॉफ्ट के संस्थापक कौन हैं?",
-      "options": [
-        "बिल गेट्स और पॉल एलन",
-        "स्टीव जॉब्स",
-        "मार्क ज़करबर्ग",
-        "लैरी पेज"
-      ],
-      "explanation": "बिल गेट्स और पॉल एलन ने 1975 में माइक्रोसॉफ्ट की स्थापना की।"
-    }
-  },
-  {
-    "id": "ngact-0021",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2023,
-    "en": {
-      "question": "What is cloud computing?",
-      "options": [
-        "Computing using satellites",
-        "Computing on airplanes",
-        "Delivering computing services over the internet",
-        "Computing using weather data"
-      ],
-      "explanation": "Cloud computing delivers servers, storage, databases, networking, software over the internet."
-    },
-    "hi": {
-      "question": "क्लाउड कंप्यूटिंग क्या है?",
-      "options": [
-        "उपग्रहों से कंप्यूटिंग",
-        "हवाई जहाज़ पर कंप्यूटिंग",
-        "इंटरनेट पर कंप्यूटिंग सेवाएँ",
-        "मौसम डेटा से कंप्यूटिंग"
-      ],
-      "explanation": "क्लाउड कंप्यूटिंग इंटरनेट पर सर्वर, स्टोरेज, सॉफ्टवेयर सेवाएँ।"
-    }
-  },
-  {
-    "id": "ngact-0022",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "What is the brain of the computer?",
-      "options": [
-        "RAM",
-        "Hard Disk",
-        "Monitor",
-        "CPU"
-      ],
-      "explanation": "The CPU (Central Processing Unit) is called the brain of the computer."
-    },
-    "hi": {
-      "question": "कंप्यूटर का मस्तिष्क क्या है?",
-      "options": [
-        "RAM",
-        "हार्ड डिस्क",
-        "मॉनिटर",
-        "CPU"
-      ],
-      "explanation": "CPU (सेंट्रल प्रोसेसिंग यूनिट) कंप्यूटर का मस्तिष्क।"
-    }
-  },
-  {
-    "id": "ngact-0023",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "What does 'www' in a website address stand for?",
-      "options": [
-        "World Wide Web",
-        "World Wide Web",
-        "Web Wide World",
-        "Wide World Web"
-      ],
-      "explanation": "www = World Wide Web, a system of interlinked hypertext documents accessed via the internet."
-    },
-    "hi": {
-      "question": "वेबसाइट पते में 'www' का अर्थ?",
-      "options": [
-        "वर्ल्ड वाइड वेब",
-        "वर्ल्ड वाइड वेब",
-        "वेब वाइड वर्ल्ड",
-        "वाइड वर्ल्ड वेब"
-      ],
-      "explanation": "www = वर्ल्ड वाइड वेब, इंटरनेट पर परस्पर जुड़े हाइपरटेक्स्ट दस्तावेज़।"
-    }
-  },
-  {
-    "id": "ngact-0024",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2023,
-    "en": {
-      "question": "What is the purpose of an IP address?",
-      "options": [
-        "Unique identification of a device on a network",
-        "To encrypt data",
-        "To store passwords",
-        "To display web pages"
-      ],
-      "explanation": "An IP (Internet Protocol) address uniquely identifies each device on a network."
-    },
-    "hi": {
-      "question": "IP पते का उद्देश्य क्या है?",
-      "options": [
-        "नेटवर्क पर डिवाइस की अद्वितीय पहचान",
-        "डेटा एन्क्रिप्ट करना",
-        "पासवर्ड संग्रहीत करना",
-        "वेब पेज दिखाना"
-      ],
-      "explanation": "IP पता नेटवर्क पर प्रत्येक डिवाइस की अद्वितीय पहचान।"
-    }
-  },
-  {
-    "id": "ngact-0025",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Which key is used to refresh a web page?",
-      "options": [
-        "F1",
-        "F3",
-        "F5",
-        "F7"
-      ],
-      "explanation": "F5 refreshes the current web page. Ctrl+R also works."
-    },
-    "hi": {
-      "question": "वेब पेज रिफ्रेश करने के लिए कौन-सी कुंजी?",
-      "options": [
-        "F1",
-        "F3",
-        "F5",
-        "F7"
-      ],
-      "explanation": "F5 से वेब पेज रिफ्रेश, Ctrl+R भी।"
-    }
-  },
-  {
-    "id": "ngact-0026",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Which language is used to create web pages?",
-      "options": [
-        "Python",
-        "Java",
-        "C++",
-        "HTML"
-      ],
-      "explanation": "HTML (HyperText Markup Language) is the standard language for creating web pages."
-    },
-    "hi": {
-      "question": "वेब पेज बनाने की भाषा?",
-      "options": [
-        "पायथन",
-        "जावा",
-        "C++",
-        "HTML"
-      ],
-      "explanation": "HTML (हाइपरटेक्स्ट मार्कअप लैंग्वेज) वेब पेजों की मानक भाषा।"
-    }
-  },
-  {
-    "id": "ngact-0027",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2023,
-    "en": {
-      "question": "What is phishing?",
-      "options": [
-        "A type of fishing game",
-        "A cyber attack to steal sensitive information",
-        "A programming technique",
-        "A data compression method"
-      ],
-      "explanation": "Phishing is a cybercrime where attackers pose as legitimate entities to steal personal data."
-    },
-    "hi": {
-      "question": "फिशिंग क्या है?",
-      "options": [
-        "मछली पकड़ने का खेल",
-        "संवेदनशील जानकारी चुराने का साइबर हमला",
-        "प्रोग्रामिंग तकनीक",
-        "डेटा संपीड़न विधि"
-      ],
-      "explanation": "फिशिंग साइबर अपराध, धोखाधड़ी से व्यक्तिगत डेटा चुराना।"
-    }
-  },
-  {
-    "id": "ngact-0028",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "What is the full form of Wi-Fi?",
-      "options": [
-        "Wireless Fidelity",
-        "Wireless Finder",
-        "Wide Frequency",
-        "Wireless Firewall"
-      ],
-      "explanation": "Wi-Fi = Wireless Fidelity, a technology for wireless local area networking."
-    },
-    "hi": {
-      "question": "Wi-Fi का पूरा नाम?",
-      "options": [
-        "वायरलेस फिडेलिटी",
-        "वायरलेस फाइंडर",
-        "वाइड फ्रीक्वेंसी",
-        "वायरलेस फायरवॉल"
-      ],
-      "explanation": "Wi-Fi = वायरलेस फिडेलिटी, बेतार नेटवर्किंग तकनीक।"
-    }
-  },
-  {
-    "id": "ngact-0029",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Who founded Apple Inc.?",
-      "options": [
-        "Bill Gates",
-        "Mark Zuckerberg",
-        "Steve Jobs, Steve Wozniak and Ronald Wayne",
-        "Larry Page"
-      ],
-      "explanation": "Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in 1976."
-    },
-    "hi": {
-      "question": "Apple Inc. की स्थापना किसने की?",
-      "options": [
-        "बिल गेट्स",
-        "मार्क ज़करबर्ग",
-        "स्टीव जॉब्स, स्टीव वोज़नियाक और रोनाल्ड वेन",
-        "लैरी पेज"
-      ],
-      "explanation": "Apple की स्थापना स्टीव जॉब्स, वोज़नियाक और वेन ने 1976 में की।"
-    }
-  },
-  {
-    "id": "ngact-0030",
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2023,
-    "en": {
-      "question": "What is cryptography?",
-      "options": [
-        "The study of caves",
-        "Writing in secret codes",
-        "Map making",
-        "The practice of secure communication"
-      ],
-      "explanation": "Cryptography is the science of securing communication through encryption and decryption."
-    },
-    "hi": {
-      "question": "क्रिप्टोग्राफी क्या है?",
-      "options": [
-        "गुफाओं का अध्ययन",
-        "गुप्त कोड में लेखन",
-        "मानचित्र बनाना",
-        "सुरक्षित संचार का विज्ञान"
-      ],
-      "explanation": "क्रिप्टोग्राफी एन्क्रिप्शन द्वारा सुरक्षित संचार का विज्ञान।"
-    }
-  },
-  {
-    "id": "ngact-0031",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "What is a computer virus?",
-      "options": [
-        "A biological virus",
-        "A malicious software program",
-        "A hardware component",
-        "A networking cable"
-      ],
-      "explanation": "A computer virus is malicious software that replicates and spreads to other computers."
-    },
-    "hi": {
-      "question": "कंप्यूटर वायरस क्या है?",
-      "options": [
-        "जैविक विषाणु",
-        "दुर्भावनापूर्ण सॉफ्टवेयर",
-        "हार्डवेयर घटक",
-        "नेटवर्किंग केबल"
-      ],
-      "explanation": "कंप्यूटर वायरस दुर्भावनापूर्ण सॉफ्टवेयर, स्वयं की प्रतियाँ बनाकर फैलता है।"
-    }
-  },
-  {
-    "id": "ngact-0032",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Which company developed the Android operating system?",
-      "options": [
-        "Google",
-        "Apple",
-        "Microsoft",
-        "Samsung"
-      ],
-      "explanation": "Android was developed by Android Inc. (acquired by Google in 2005). It's based on Linux."
-    },
-    "hi": {
-      "question": "एंड्रॉइड ऑपरेटिंग सिस्टम किसने विकसित किया?",
-      "options": [
-        "गूगल",
-        "Apple",
-        "माइक्रोसॉफ्ट",
-        "सैमसंग"
-      ],
-      "explanation": "एंड्रॉइड Inc. द्वारा विकसित (2005 में गूगल ने खरीदा), लिनक्स आधारित।"
-    }
-  },
-  {
-    "id": "ngact-0033",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2023,
-    "en": {
-      "question": "What is blockchain technology?",
-      "options": [
-        "A type of chain factory",
-        "A distributed ledger technology",
-        "A programming language",
-        "A social media platform"
-      ],
-      "explanation": "Blockchain is a decentralized, distributed ledger that records transactions across many computers."
-    },
-    "hi": {
-      "question": "ब्लॉकचेन तकनीक क्या है?",
-      "options": [
-        "एक प्रकार का चेन कारखाना",
-        "विकेंद्रीकृत खाता-बही तकनीक",
-        "प्रोग्रामिंग भाषा",
-        "सोशल मीडिया प्लेटफॉर्म"
-      ],
-      "explanation": "ब्लॉकचेन विकेंद्रीकृत वितरित खाता-बही, कई कंप्यूटरों पर लेन-देन दर्ज।"
-    }
-  },
-  {
-    "id": "ngact-0034",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "What does GUI stand for?",
-      "options": [
-        "General User Interface",
-        "Graphical Unified Interface",
-        "Global User Integration",
-        "Graphical User Interface"
-      ],
-      "explanation": "GUI = Graphical User Interface, allows users to interact with devices using visual elements."
-    },
-    "hi": {
-      "question": "GUI का पूरा नाम?",
-      "options": [
-        "जनरल यूज़र इंटरफ़ेस",
-        "ग्राफिकल यूनिफाइड इंटरफ़ेस",
-        "ग्लोबल यूज़र इंटीग्रेशन",
-        "ग्राफिकल यूज़र इंटरफ़ेस"
-      ],
-      "explanation": "GUI = ग्राफिकल यूज़र इंटरफ़ेस, दृश्य तत्वों से उपयोगकर्ता संपर्क।"
+      "explanation": "मॉडम डिजिटल सिग्नल को एनालॉग में बदलता है।"
     }
   },
   {
     "id": "ngact-0035",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the main function of an operating system?",
+      "question": "Which of the following is NOT an operating system?",
       "options": [
-        "Edit documents",
-        "Manage hardware and software resources",
-        "Browse internet",
-        "Play games"
+        "Ubuntu",
+        "macOS",
+        "Oracle",
+        "Android"
       ],
-      "explanation": "The OS manages computer hardware, software resources, and provides common services for programs."
+      "explanation": "Oracle is a database management system, not an OS. Ubuntu, macOS, and Android are operating systems."
     },
     "hi": {
-      "question": "ऑपरेटिंग सिस्टम का मुख्य कार्य?",
+      "question": "निम्न में से कौन ऑपरेटिंग सिस्टम नहीं है?",
       "options": [
-        "दस्तावेज़ संपादन",
-        "हार्डवेयर-सॉफ्टवेयर संसाधन प्रबंधन",
-        "इंटरनेट ब्राउज़िंग",
-        "खेल खेलना"
+        "उबंटू",
+        "macOS",
+        "ओरेकल",
+        "एंड्रॉइड"
       ],
-      "explanation": "OS हार्डवेयर-सॉफ्टवेयर संसाधनों का प्रबंधन करता है।"
+      "explanation": "ओरेकल डेटाबेस प्रबंधन प्रणाली। उबंटू, macOS, एंड्रॉइड OS हैं।"
     }
   },
   {
     "id": "ngact-0036",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "Who is known as the father of artificial intelligence?",
+      "question": "What is 'IoT'?",
       "options": [
-        "John McCarthy",
-        "Alan Turing",
-        "Geoffrey Hinton",
-        "Marvin Minsky"
+        "Internet of Telephones",
+        "Integration of Technology",
+        "Input Output Transfer",
+        "Internet of Things"
       ],
-      "explanation": "John McCarthy coined the term 'Artificial Intelligence' in 1956 and organized the Dartmouth Conference."
+      "explanation": "IoT (Internet of Things) refers to the network of physical objects embedded with sensors and software to connect and exchange data."
     },
     "hi": {
-      "question": "कृत्रिम बुद्धिमत्ता (AI) का जनक किसे कहते हैं?",
+      "question": "IoT क्या है?",
       "options": [
-        "जॉन मैकार्थी",
-        "एलन ट्यूरिंग",
-        "जेफ्री हिंटन",
-        "मार्विन मिंस्की"
+        "इंटरनेट ऑफ टेलीफोन्स",
+        "इंटीग्रेशन ऑफ टेक्नोलॉजी",
+        "इनपुट आउटपुट ट्रांसफर",
+        "इंटरनेट ऑफ थिंग्स"
       ],
-      "explanation": "जॉन मैकार्थी ने 1956 में 'Artificial Intelligence' शब्द गढ़ा।"
+      "explanation": "IoT भौतिक वस्तुओं का नेटवर्क जो सेंसर से डेटा का आदान-प्रदान करता है।"
     }
   },
   {
     "id": "ngact-0037",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the file extension of a Microsoft Word document?",
+      "question": "Which of the following has the largest storage capacity?",
       "options": [
-        ".pdf",
-        ".txt",
-        ".docx",
-        ".html"
+        "Terabyte (TB)",
+        "Gigabyte (GB)",
+        "Megabyte (MB)",
+        "Kilobyte (KB)"
       ],
-      "explanation": ".docx is the default file extension for Microsoft Word documents (since Office 2007)."
+      "explanation": "Terabyte (TB = 1024 GB) has the largest capacity among the options. 1 TB > 1 GB > 1 MB > 1 KB."
     },
     "hi": {
-      "question": "माइक्रोसॉफ्ट वर्ड दस्तावेज़ का फ़ाइल एक्सटेंशन?",
+      "question": "निम्न में से सबसे बड़ी भंडारण क्षमता किसकी है?",
       "options": [
-        ".pdf",
-        ".txt",
-        ".docx",
-        ".html"
+        "टेराबाइट (TB)",
+        "गीगाबाइट (GB)",
+        "मेगाबाइट (MB)",
+        "किलोबाइट (KB)"
       ],
-      "explanation": ".docx माइक्रोसॉफ्ट वर्ड का डिफ़ॉल्ट एक्सटेंशन (Office 2007 से)।"
+      "explanation": "1 TB = 1024 GB, सबसे बड़ी क्षमता।"
     }
   },
   {
     "id": "ngact-0038",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the shortcut for 'undo' in most applications?",
+      "question": "What does 'www' stand for?",
       "options": [
-        "Ctrl+U",
-        "Ctrl+Y",
-        "Ctrl+Z",
-        "Ctrl+Z"
+        "World Wide Web",
+        "World Wide Web",
+        "World Weather Watch",
+        "Western Wide Web"
       ],
-      "explanation": "Ctrl+Z is the universal shortcut for undo. Ctrl+Y is redo."
+      "explanation": "WWW stands for World Wide Web — a system of interlinked hypertext documents accessed via the internet."
     },
     "hi": {
-      "question": "'अनडू' का शॉर्टकट क्या है?",
+      "question": "'www' का पूरा नाम क्या है?",
       "options": [
-        "Ctrl+U",
-        "Ctrl+Y",
-        "Ctrl+Z",
-        "Ctrl+Z"
+        "वर्ल्ड वाइड वेब",
+        "वर्ल्ड वाइड वेब",
+        "वर्ल्ड वेदर वॉच",
+        "वेस्टर्न वाइड वेब"
       ],
-      "explanation": "Ctrl+Z अनडू का सार्वभौमिक शॉर्टकट। Ctrl+Y रीडू।"
+      "explanation": "WWW = वर्ल्ड वाइड वेब।"
     }
   },
   {
     "id": "ngact-0039",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "What does VPN stand for?",
+      "question": "Who invented the first mechanical computer?",
       "options": [
-        "Virtual Private Network",
-        "Virtual Private Network",
-        "Very Personal Network",
-        "Visual Protocol Network"
+        "Alan Turing",
+        "John von Neumann",
+        "Charles Babbage",
+        "Blaise Pascal"
       ],
-      "explanation": "VPN = Virtual Private Network, creates a secure encrypted connection over the internet."
+      "explanation": "Charles Babbage invented the first mechanical computer (Difference Engine and Analytical Engine) and is considered the 'Father of Computers'."
     },
     "hi": {
-      "question": "VPN का पूरा नाम?",
+      "question": "पहला यांत्रिक कंप्यूटर किसने बनाया?",
       "options": [
-        "वर्चुअल प्राइवेट नेटवर्क",
-        "वर्चुअल प्राइवेट नेटवर्क",
-        "वेरी पर्सनल नेटवर्क",
-        "विज़ुअल प्रोटोकॉल नेटवर्क"
+        "एलन ट्यूरिंग",
+        "जॉन वॉन न्यूमैन",
+        "चार्ल्स बैबेज",
+        "ब्लेज़ पास्कल"
       ],
-      "explanation": "VPN = वर्चुअल प्राइवेट नेटवर्क, इंटरनेट पर एन्क्रिप्टेड कनेक्शन।"
+      "explanation": "चार्ल्स बैबेज ने डिफरेंस इंजन और एनालिटिकल इंजन बनाया, 'कंप्यूटर के जनक'।"
     }
   },
   {
     "id": "ngact-0040",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "Which of the following is a search engine?",
+      "question": "Which MS Office application is used for creating presentations?",
       "options": [
-        "Google",
-        "Facebook",
-        "WhatsApp",
-        "Instagram"
+        "MS Word",
+        "MS Excel",
+        "MS Access",
+        "MS PowerPoint"
       ],
-      "explanation": "Google is the world's most popular search engine. Others are social media platforms."
+      "explanation": "MS PowerPoint is used for creating presentations with slides containing text, images, animations, and multimedia."
     },
     "hi": {
-      "question": "इनमें से सर्च इंजन कौन-सा है?",
+      "question": "प्रेज़ेंटेशन बनाने के लिए कौन सा MS Office एप्लिकेशन उपयोग होता है?",
       "options": [
-        "गूगल",
-        "फेसबुक",
-        "व्हाट्सएप",
-        "इंस्टाग्राम"
+        "MS वर्ड",
+        "MS एक्सेल",
+        "MS एक्सेस",
+        "MS पॉवरपॉइंट"
       ],
-      "explanation": "गूगल विश्व का सबसे लोकप्रिय सर्च इंजन।"
+      "explanation": "MS पॉवरपॉइंट स्लाइड प्रेज़ेंटेशन बनाने के लिए।"
     }
   },
   {
     "id": "ngact-0041",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "What does IoT stand for?",
+      "question": "Which of the following is NOT a social media platform?",
       "options": [
-        "Internet of Technology",
-        "Integration of Things",
-        "Internet of Things",
-        "Input Output Transfer"
+        "Linux",
+        "Facebook",
+        "Instagram",
+        "Twitter/X"
       ],
-      "explanation": "IoT = Internet of Things, a network of physical devices connected to the internet."
+      "explanation": "Linux is an operating system. Facebook, Instagram, and Twitter/X are social media platforms."
     },
     "hi": {
-      "question": "IoT का पूरा नाम?",
+      "question": "निम्न में से कौन सोशल मीडिया प्लेटफॉर्म नहीं है?",
       "options": [
-        "इंटरनेट ऑफ टेक्नोलॉजी",
-        "इंटीग्रेशन ऑफ थिंग्स",
-        "इंटरनेट ऑफ थिंग्स",
-        "इनपुट आउटपुट ट्रांसफर"
+        "लिनक्स",
+        "फेसबुक",
+        "इंस्टाग्राम",
+        "ट्विटर/X"
       ],
-      "explanation": "IoT = इंटरनेट ऑफ थिंग्स, इंटरनेट से जुड़े भौतिक उपकरणों का नेटवर्क।"
+      "explanation": "लिनक्स ऑपरेटिंग सिस्टम। फेसबुक, इंस्टाग्राम, X सोशल मीडिया।"
     }
   },
   {
     "id": "ngact-0042",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "Which programming language is known as the 'language of the web'?",
+      "question": "What does 'open source software' mean?",
       "options": [
-        "Python",
-        "C",
-        "Java",
-        "JavaScript"
+        "Software that is free of cost only",
+        "Software whose source code is freely available",
+        "Software without any bugs",
+        "Software that works without internet"
       ],
-      "explanation": "JavaScript is the primary scripting language for web browsers, often called the language of the web."
+      "explanation": "Open source software has source code that anyone can inspect, modify, and enhance. Linux, Python, and Firefox are examples."
     },
     "hi": {
-      "question": "'वेब की भाषा' कौन-सी प्रोग्रामिंग भाषा है?",
+      "question": "'ओपन सोर्स सॉफ्टवेयर' का क्या अर्थ है?",
       "options": [
-        "पायथन",
-        "C",
-        "जावा",
-        "जावास्क्रिप्ट"
+        "मुफ्त सॉफ्टवेयर",
+        "जिसका सोर्स कोड स्वतंत्र रूप से उपलब्ध हो",
+        "बिना त्रुटि वाला सॉफ्टवेयर",
+        "बिना इंटरनेट चलने वाला सॉफ्टवेयर"
       ],
-      "explanation": "जावास्क्रिप्ट वेब ब्राउज़र की प्राथमिक स्क्रिप्टिंग भाषा।"
+      "explanation": "ओपन सोर्स सॉफ्टवेयर का कोड सबके लिए उपलब्ध। लिनक्स, पायथन, फायरफॉक्स।"
     }
   },
   {
     "id": "ngact-0043",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "How many bits are there in 1 byte?",
+      "question": "What is the most common type of computer port for connecting peripherals currently?",
       "options": [
-        "4",
-        "8",
-        "16",
-        "32"
+        "Serial Port",
+        "Parallel Port",
+        "USB (Universal Serial Bus)",
+        "PS/2 Port"
       ],
-      "explanation": "1 byte = 8 bits. A bit is the smallest unit of data in computing."
+      "explanation": "USB (Universal Serial Bus) is the most widely used port for connecting peripherals like keyboard, mouse, printer, and storage devices."
     },
     "hi": {
-      "question": "1 बाइट में कितने बिट होते हैं?",
+      "question": "वर्तमान में पेरिफेरल जोड़ने के लिए सबसे सामान्य कंप्यूटर पोर्ट कौन सा है?",
       "options": [
-        "4",
-        "8",
-        "16",
-        "32"
+        "सीरियल पोर्ट",
+        "पैरेलल पोर्ट",
+        "USB (यूनिवर्सल सीरियल बस)",
+        "PS/2 पोर्ट"
       ],
-      "explanation": "1 बाइट = 8 बिट, बिट डेटा की सबसे छोटी इकाई।"
+      "explanation": "USB कीबोर्ड, माउस, प्रिंटर, स्टोरेज डिवाइस जोड़ने के लिए सबसे व्यापक पोर्ट।"
     }
   },
   {
     "id": "ngact-0044",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the full form of GPS?",
+      "question": "What is the function of a 'router' in a network?",
       "options": [
-        "Global Positioning System",
-        "General Positioning Service",
-        "Global Positioning Service",
-        "Geographical Positioning System"
+        "Scanning documents",
+        "Printing files",
+        "Storing data",
+        "Forwarding data packets between networks"
       ],
-      "explanation": "GPS = Global Positioning System, a satellite-based navigation system."
+      "explanation": "A router forwards data packets between computer networks, directing traffic and ensuring data reaches its destination."
     },
     "hi": {
-      "question": "GPS का पूरा नाम?",
+      "question": "नेटवर्क में 'राउटर' का कार्य क्या है?",
       "options": [
-        "ग्लोबल पोज़िशनिंग सिस्टम",
-        "जनरल पोज़िशनिंग सर्विस",
-        "ग्लोबल पोज़िशनिंग सर्विस",
-        "ज्योग्राफिकल पोज़िशनिंग सिस्टम"
+        "दस्तावेज़ स्कैन करना",
+        "फाइल प्रिंट करना",
+        "डेटा भंडारण",
+        "नेटवर्कों के बीच डेटा पैकेट अग्रेषित करना"
       ],
-      "explanation": "GPS = ग्लोबल पोज़िशनिंग सिस्टम, उपग्रह आधारित नेविगेशन।"
+      "explanation": "राउटर नेटवर्कों के बीच डेटा पैकेट अग्रेषित करता है।"
     }
   },
   {
     "id": "ngact-0045",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "What is open-source software?",
+      "question": "What is the primary purpose of 'Data Encryption'?",
       "options": [
-        "Software that is free of cost",
-        "Software that opens automatically",
-        "Software with publicly accessible source code",
-        "Software for opening files"
+        "Protect data by converting it into unreadable code",
+        "Speed up data transfer",
+        "Compress files",
+        "Delete unwanted data"
       ],
-      "explanation": "Open-source software has source code that anyone can inspect, modify, and enhance."
+      "explanation": "Encryption converts readable data (plaintext) into an unreadable format (ciphertext) to prevent unauthorized access."
     },
     "hi": {
-      "question": "ओपन-सोर्स सॉफ्टवेयर क्या है?",
+      "question": "'डेटा एन्क्रिप्शन' का प्राथमिक उद्देश्य क्या है?",
       "options": [
-        "मुफ्त सॉफ्टवेयर",
-        "स्वतः खुलने वाला सॉफ्टवेयर",
-        "सार्वजनिक स्रोत कोड वाला सॉफ्टवेयर",
-        "फाइल खोलने का सॉफ्टवेयर"
+        "डेटा को अपठनीय कोड में बदलकर सुरक्षित करना",
+        "डेटा स्थानांतरण तेज़ करना",
+        "फाइलें संपीड़ित करना",
+        "अनावश्यक डेटा हटाना"
       ],
-      "explanation": "ओपन-सोर्स का स्रोत कोड सार्वजनिक, कोई भी निरीक्षण-संशोधन कर सकता है।"
+      "explanation": "एन्क्रिप्शन डेटा को अपठनीय प्रारूप में बदलकर अनधिकृत पहुंच रोकता है।"
     }
   },
   {
     "id": "ngact-0046",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "What does 'http' at the beginning of a URL indicate?",
+      "question": "Which of these is an output device?",
       "options": [
-        "The website is secure",
-        "The page is loading",
-        "The browser type",
-        "The protocol used for communication"
+        "Scanner",
+        "Printer",
+        "Keyboard",
+        "Mouse"
       ],
-      "explanation": "http indicates HyperText Transfer Protocol, the protocol for transferring web pages."
+      "explanation": "A printer is an output device that produces a hard copy of digital documents. Scanner, keyboard, and mouse are input devices."
     },
     "hi": {
-      "question": "URL में 'http' क्या दर्शाता है?",
+      "question": "इनमें से कौन आउटपुट डिवाइस है?",
       "options": [
-        "वेबसाइट सुरक्षित है",
-        "पेज लोड हो रहा है",
-        "ब्राउज़र प्रकार",
-        "संचार के लिए प्रयुक्त प्रोटोकॉल"
+        "स्कैनर",
+        "प्रिंटर",
+        "कीबोर्ड",
+        "माउस"
       ],
-      "explanation": "http हाइपरटेक्स्ट ट्रांसफर प्रोटोकॉल, वेब पेज स्थानांतरण।"
+      "explanation": "प्रिंटर आउटपुट डिवाइस, दस्तावेज़ों की हार्ड कॉपी बनाता है।"
     }
   },
   {
     "id": "ngact-0047",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "Which company developed the Windows operating system?",
+      "question": "What is the full form of 'Wi-Fi'?",
       "options": [
-        "Apple",
-        "Microsoft",
-        "IBM",
-        "Google"
+        "Wireless Fidelity",
+        "Wired Fiber",
+        "Wireless Finder",
+        "Wide Frequency"
       ],
-      "explanation": "Microsoft developed Windows, first released in 1985 as a graphical OS shell for MS-DOS."
+      "explanation": "Wi-Fi stands for Wireless Fidelity. It is a technology that uses radio waves to provide wireless high-speed internet connections."
     },
     "hi": {
-      "question": "विंडोज ऑपरेटिंग सिस्टम किसने विकसित किया?",
+      "question": "Wi-Fi का पूरा नाम क्या है?",
       "options": [
-        "Apple",
-        "माइक्रोसॉफ्ट",
-        "IBM",
-        "गूगल"
+        "वायरलेस फिडेलिटी",
+        "वायर्ड फाइबर",
+        "वायरलेस फाइंडर",
+        "वाइड फ्रीक्वेंसी"
       ],
-      "explanation": "माइक्रोसॉफ्ट ने विंडोज विकसित किया, 1985 में पहला रिलीज़।"
+      "explanation": "Wi-Fi = वायरलेस फिडेलिटी, रेडियो तरंगों से वायरलेस इंटरनेट।"
     }
   },
   {
     "id": "ngact-0048",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "What is machine learning?",
+      "question": "What is 'quantum computing'?",
       "options": [
-        "A subset of AI where computers learn from data",
-        "Learning to operate machines",
-        "Learning about machines",
-        "A type of hardware"
+        "Computing using mechanical parts",
+        "Computing using solar energy",
+        "Computing on mobile phones",
+        "Computing using quantum mechanical phenomena like superposition"
       ],
-      "explanation": "Machine learning is a subset of AI where systems learn from data without explicit programming."
+      "explanation": "Quantum computing uses quantum bits (qubits) that can exist in multiple states simultaneously, vastly outperforming classical computers for certain problems."
     },
     "hi": {
-      "question": "मशीन लर्निंग क्या है?",
+      "question": "'क्वांटम कंप्यूटिंग' क्या है?",
       "options": [
-        "AI का उपसमूह, डेटा से सीखना",
-        "मशीनें चलाना सीखना",
-        "मशीनों के बारे में सीखना",
-        "एक प्रकार का हार्डवेयर"
+        "यांत्रिक भागों से कंप्यूटिंग",
+        "सौर ऊर्जा से कंप्यूटिंग",
+        "मोबाइल पर कंप्यूटिंग",
+        "क्वांटम यांत्रिक घटनाओं जैसे सुपरपोज़िशन का उपयोग"
       ],
-      "explanation": "मशीन लर्निंग AI का उपसमूह, बिना स्पष्ट प्रोग्रामिंग के डेटा से सीखना।"
+      "explanation": "क्वांटम कंप्यूटिंग क्यूबिट का उपयोग करती है जो एक साथ कई अवस्थाओं में रह सकते हैं।"
     }
   },
   {
     "id": "ngact-0049",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "What is an email?",
+      "question": "In MS Excel, what symbol does every formula start with?",
       "options": [
-        "Emergency mail",
-        "Express mail",
-        "Electronic mail",
-        "Encrypted mail"
+        "=",
+        "+",
+        "@",
+        "#"
       ],
-      "explanation": "Email = Electronic mail, a method of exchanging digital messages over the internet."
+      "explanation": "Every formula in MS Excel begins with the equals sign (=). For example: =SUM(A1:A10)."
     },
     "hi": {
-      "question": "ईमेल क्या है?",
+      "question": "MS Excel में हर फॉर्मूला किस चिह्न से शुरू होता है?",
       "options": [
-        "आपातकालीन डाक",
-        "एक्सप्रेस डाक",
-        "इलेक्ट्रॉनिक डाक",
-        "एन्क्रिप्टेड डाक"
+        "=",
+        "+",
+        "@",
+        "#"
       ],
-      "explanation": "ईमेल = इलेक्ट्रॉनिक डाक, इंटरनेट पर डिजिटल संदेश भेजना।"
+      "explanation": "एक्सेल में हर फॉर्मूला = से शुरू होता है। जैसे =SUM(A1:A10)।"
     }
   },
   {
     "id": "ngact-0050",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "Who is the CEO of Tesla and SpaceX?",
+      "question": "What is 'Big Data'?",
       "options": [
-        "Jeff Bezos",
-        "Bill Gates",
-        "Mark Zuckerberg",
-        "Elon Musk"
+        "Data stored in big files",
+        "Extremely large datasets analyzed computationally",
+        "Data from large companies only",
+        "Any data above 1 GB"
       ],
-      "explanation": "Elon Musk is the CEO of Tesla (electric vehicles) and SpaceX (space exploration)."
+      "explanation": "Big Data refers to extremely large and complex datasets that cannot be processed by traditional data processing applications."
     },
     "hi": {
-      "question": "टेस्ला और SpaceX के CEO कौन हैं?",
+      "question": "'बिग डेटा' क्या है?",
       "options": [
-        "जेफ बेज़ोस",
-        "बिल गेट्स",
-        "मार्क ज़करबर्ग",
-        "एलन मस्क"
+        "बड़ी फाइलों में डेटा",
+        "कम्प्यूटेशनल विश्लेषित अत्यधिक बड़े डेटासेट",
+        "केवल बड़ी कंपनियों का डेटा",
+        "1 GB से ऊपर का कोई भी डेटा"
       ],
-      "explanation": "एलन मस्क टेस्ला और SpaceX के CEO।"
+      "explanation": "बिग डेटा पारंपरिक तरीकों से प्रोसेस न हो सकने वाले अत्यधिक बड़े डेटासेट।"
     }
   },
   {
     "id": "ngact-0051",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "What is the difference between HTTP and HTTPS?",
+      "question": "What is the function of 'BIOS' in a computer?",
       "options": [
-        "No difference",
-        "HTTPS is secure (encrypted), HTTP is not",
-        "HTTP is faster",
-        "HTTPS uses different ports"
+        "Managing email",
+        "Browsing internet",
+        "Initializing hardware during boot process",
+        "Editing documents"
       ],
-      "explanation": "HTTPS = HTTP + SSL/TLS encryption, making data transfer secure. HTTP is unencrypted."
+      "explanation": "BIOS (Basic Input/Output System) initializes and tests hardware components during startup and loads the operating system."
     },
     "hi": {
-      "question": "HTTP और HTTPS में अंतर?",
+      "question": "कंप्यूटर में 'BIOS' का कार्य क्या है?",
       "options": [
-        "कोई अंतर नहीं",
-        "HTTPS एन्क्रिप्टेड (सुरक्षित), HTTP नहीं",
-        "HTTP तेज़ है",
-        "HTTPS अलग पोर्ट"
+        "ईमेल प्रबंधन",
+        "इंटरनेट ब्राउज़िंग",
+        "बूट प्रक्रिया में हार्डवेयर आरंभ करना",
+        "दस्तावेज़ संपादन"
       ],
-      "explanation": "HTTPS = HTTP + SSL/TLS एन्क्रिप्शन, सुरक्षित डेटा स्थानांतरण।"
+      "explanation": "BIOS स्टार्टअप पर हार्डवेयर का परीक्षण करता है और OS लोड करता है।"
     }
   },
   {
     "id": "ngact-0052",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "Which device is used to print documents on paper?",
+      "question": "Which of these is a spreadsheet software?",
       "options": [
-        "Printer",
-        "Scanner",
-        "Monitor",
-        "Keyboard"
+        "MS Word",
+        "Notepad",
+        "Photoshop",
+        "MS Excel"
       ],
-      "explanation": "A printer produces hard copies (paper printouts) of digital documents."
+      "explanation": "MS Excel is a spreadsheet software used for data organization, calculations, charts, and analysis."
     },
     "hi": {
-      "question": "कागज पर दस्तावेज़ प्रिंट करने का उपकरण?",
+      "question": "इनमें से कौन स्प्रेडशीट सॉफ्टवेयर है?",
       "options": [
-        "प्रिंटर",
-        "स्कैनर",
-        "मॉनिटर",
-        "कीबोर्ड"
+        "MS वर्ड",
+        "नोटपैड",
+        "फोटोशॉप",
+        "MS एक्सेल"
       ],
-      "explanation": "प्रिंटर डिजिटल दस्तावेज़ों की कागज पर प्रतियाँ बनाता है।"
+      "explanation": "MS एक्सेल डेटा संगठन, गणना और विश्लेषण के लिए स्प्रेडशीट सॉफ्टवेयर।"
     }
   },
   {
     "id": "ngact-0053",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the main purpose of an antivirus software?",
+      "question": "Which is the most widely used web server software?",
       "options": [
-        "Speed up computer",
-        "Manage files",
-        "Detect and remove malware",
-        "Browse internet"
+        "Apache",
+        "Linux",
+        "Oracle",
+        "Safari"
       ],
-      "explanation": "Antivirus software detects, prevents, and removes malware (viruses, worms, trojans)."
+      "explanation": "Apache HTTP Server is the most widely used web server software globally. Nginx and Microsoft IIS are other popular web servers."
     },
     "hi": {
-      "question": "एंटीवायरस सॉफ्टवेयर का मुख्य उद्देश्य?",
+      "question": "सबसे व्यापक रूप से उपयोग किया जाने वाला वेब सर्वर सॉफ्टवेयर कौन सा है?",
       "options": [
-        "कंप्यूटर तेज़ करना",
-        "फ़ाइलें प्रबंधित करना",
-        "मैलवेयर पहचानना-हटाना",
-        "इंटरनेट ब्राउज़ करना"
+        "अपाचे",
+        "लिनक्स",
+        "ओरेकल",
+        "सफारी"
       ],
-      "explanation": "एंटीवायरस वायरस, वर्म, ट्रोजन जैसे मैलवेयर हटाता है।"
+      "explanation": "अपाचे HTTP सर्वर वैश्विक स्तर पर सबसे व्यापक वेब सर्वर।"
     }
   },
   {
     "id": "ngact-0054",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "What is 5G technology?",
+      "question": "What is '5G' technology?",
       "options": [
-        "5 GB storage",
-        "5 Graphics cards",
-        "5th Generation computer",
-        "5th Generation mobile network"
+        "Fifth version of Google",
+        "Fifth generation mobile network technology",
+        "5 Gigabyte storage",
+        "Five-core processor"
       ],
-      "explanation": "5G is the 5th generation mobile network offering higher speed, lower latency, and more capacity."
+      "explanation": "5G is the fifth generation of cellular network technology, offering higher speeds, lower latency, and greater capacity than 4G."
     },
     "hi": {
       "question": "5G तकनीक क्या है?",
       "options": [
-        "5 GB भंडारण",
-        "5 ग्राफिक्स कार्ड",
-        "5वीं पीढ़ी का कंप्यूटर",
-        "5वीं पीढ़ी का मोबाइल नेटवर्क"
+        "गूगल का पांचवां संस्करण",
+        "पांचवीं पीढ़ी की मोबाइल नेटवर्क तकनीक",
+        "5 गीगाबाइट स्टोरेज",
+        "पांच-कोर प्रोसेसर"
       ],
-      "explanation": "5G उच्च गति, कम विलंबता वाली 5वीं पीढ़ी का मोबाइल नेटवर्क।"
+      "explanation": "5G उच्च गति, कम विलंबता और अधिक क्षमता वाली सेलुलर नेटवर्क की पांचवीं पीढ़ी।"
     }
   },
   {
     "id": "ngact-0055",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "Which of the following is an output device?",
+      "question": "What is the function of 'Ctrl + V' shortcut?",
       "options": [
-        "Keyboard",
-        "Monitor",
-        "Mouse",
-        "Scanner"
+        "Copy",
+        "Cut",
+        "Paste",
+        "Undo"
       ],
-      "explanation": "A monitor is an output device that displays visual information from the computer."
+      "explanation": "Ctrl + V is the paste shortcut. It pastes previously copied or cut content at the cursor position."
     },
     "hi": {
-      "question": "इनमें से आउटपुट डिवाइस कौन-सी है?",
+      "question": "'Ctrl + V' शॉर्टकट का कार्य क्या है?",
       "options": [
-        "कीबोर्ड",
-        "मॉनिटर",
-        "माउस",
-        "स्कैनर"
+        "कॉपी",
+        "कट",
+        "पेस्ट",
+        "पूर्ववत"
       ],
-      "explanation": "मॉनिटर आउटपुट डिवाइस, कंप्यूटर से दृश्य जानकारी दिखाता है।"
+      "explanation": "Ctrl + V = पेस्ट, पहले कॉपी या कट की गई सामग्री चिपकाता है।"
     }
   },
   {
     "id": "ngact-0056",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the full form of USB?",
+      "question": "What is 'cryptocurrency'?",
       "options": [
-        "Universal Serial Bus",
-        "United Serial Bus",
-        "Universal System Bus",
-        "Unique Serial Bus"
+        "Encrypted emails",
+        "Secret military codes",
+        "Hidden internet files",
+        "Digital currency using cryptography for security"
       ],
-      "explanation": "USB = Universal Serial Bus, a standard for connecting devices to computers."
+      "explanation": "Cryptocurrency is a digital or virtual currency secured by cryptography, operating on decentralized blockchain technology. Bitcoin is the first."
     },
     "hi": {
-      "question": "USB का पूरा नाम?",
+      "question": "'क्रिप्टोकरेंसी' क्या है?",
       "options": [
-        "यूनिवर्सल सीरियल बस",
-        "यूनाइटेड सीरियल बस",
-        "यूनिवर्सल सिस्टम बस",
-        "यूनिक सीरियल बस"
+        "एन्क्रिप्टेड ईमेल",
+        "गुप्त सैन्य कोड",
+        "छिपी इंटरनेट फाइलें",
+        "सुरक्षा के लिए क्रिप्टोग्राफी का उपयोग करने वाली डिजिटल मुद्रा"
       ],
-      "explanation": "USB = यूनिवर्सल सीरियल बस, उपकरणों को कंप्यूटर से जोड़ने का मानक।"
+      "explanation": "क्रिप्टोकरेंसी ब्लॉकचेन पर संचालित डिजिटल मुद्रा। बिटकॉइन पहली।"
     }
   },
   {
     "id": "ngact-0057",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "Who created the Linux kernel?",
+      "question": "What is the primary goal of 'Digital India' program?",
       "options": [
-        "Bill Gates",
-        "Steve Jobs",
-        "Linus Torvalds",
-        "Tim Berners-Lee"
+        "Transform India into a digitally empowered society",
+        "Sell computers to everyone",
+        "Increase mobile phone prices",
+        "Ban internet in rural areas"
       ],
-      "explanation": "Linus Torvalds created the Linux kernel in 1991 while a student at the University of Helsinki."
+      "explanation": "Digital India aims to transform India into a digitally empowered society and knowledge economy with universal digital literacy."
     },
     "hi": {
-      "question": "लिनक्स कर्नेल किसने बनाया?",
+      "question": "'डिजिटल इंडिया' कार्यक्रम का प्राथमिक लक्ष्य क्या है?",
       "options": [
-        "बिल गेट्स",
-        "स्टीव जॉब्स",
-        "लिनस टॉर्वाल्ड्स",
-        "टिम बर्नर्स-ली"
+        "भारत को डिजिटल रूप से सशक्त समाज में बदलना",
+        "सभी को कंप्यूटर बेचना",
+        "मोबाइल कीमतें बढ़ाना",
+        "ग्रामीण क्षेत्रों में इंटरनेट पर प्रतिबंध"
       ],
-      "explanation": "लिनस टॉर्वाल्ड्स ने 1991 में हेलसिंकी विश्वविद्यालय में लिनक्स कर्नेल बनाया।"
+      "explanation": "डिजिटल इंडिया का लक्ष्य भारत को डिजिटल रूप से सशक्त समाज बनाना।"
     }
   },
   {
     "id": "ngact-0058",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the full form of CD?",
+      "question": "Which is the most popular mobile operating system?",
       "options": [
-        "Computer Disk",
-        "Compact Drive",
-        "Circular Disk",
-        "Compact Disc"
+        "Windows Phone",
+        "Android",
+        "BlackBerry OS",
+        "KaiOS"
       ],
-      "explanation": "CD = Compact Disc, an optical storage medium developed by Philips and Sony in 1982."
+      "explanation": "Android (by Google) is the most popular mobile OS globally, with over 70% market share. iOS (Apple) is second."
     },
     "hi": {
-      "question": "CD का पूरा नाम?",
+      "question": "सबसे लोकप्रिय मोबाइल ऑपरेटिंग सिस्टम कौन सा है?",
       "options": [
-        "कंप्यूटर डिस्क",
-        "कॉम्पैक्ट ड्राइव",
-        "सर्कुलर डिस्क",
-        "कॉम्पैक्ट डिस्क"
+        "विंडोज फोन",
+        "एंड्रॉइड",
+        "ब्लैकबेरी OS",
+        "काईOS"
       ],
-      "explanation": "CD = कॉम्पैक्ट डिस्क, फिलिप्स और सोनी द्वारा 1982 में विकसित।"
+      "explanation": "एंड्रॉइड (गूगल) 70%+ बाजार हिस्सेदारी। iOS (एप्पल) दूसरा।"
     }
   },
   {
     "id": "ngact-0059",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "What is a spreadsheet software example?",
+      "question": "What does 'URL' beginning with 'https' indicate?",
       "options": [
-        "Notepad",
-        "Microsoft Excel",
-        "Photoshop",
-        "Word"
+        "The website is faster",
+        "The website has more content",
+        "The connection is secure and encrypted",
+        "The website is down"
       ],
-      "explanation": "Microsoft Excel is spreadsheet software used for data organization, calculations, and analysis."
+      "explanation": "HTTPS (Hyper Text Transfer Protocol Secure) indicates the website uses SSL/TLS encryption for secure data transfer."
     },
     "hi": {
-      "question": "स्प्रेडशीट सॉफ्टवेयर का उदाहरण?",
+      "question": "'https' से शुरू URL क्या इंगित करता है?",
       "options": [
-        "नोटपैड",
-        "माइक्रोसॉफ्ट एक्सेल",
-        "फोटोशॉप",
-        "वर्ड"
+        "वेबसाइट तेज़ है",
+        "वेबसाइट में अधिक सामग्री है",
+        "कनेक्शन सुरक्षित और एन्क्रिप्टेड है",
+        "वेबसाइट बंद है"
       ],
-      "explanation": "एक्सेल स्प्रेडशीट सॉफ्टवेयर, डेटा संगठन और गणना के लिए।"
+      "explanation": "HTTPS इंगित करता है कि वेबसाइट SSL/TLS एन्क्रिप्शन का उपयोग करती है।"
     }
   },
   {
     "id": "ngact-0060",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "What does API stand for?",
+      "question": "What is the role of 'GPU' in a computer?",
       "options": [
-        "Application Programming Interface",
-        "Application Process Integration",
-        "Automated Program Interface",
-        "Advanced Programming Interface"
+        "Managing files",
+        "Controlling keyboard",
+        "Running operating system",
+        "Rendering graphics and images"
       ],
-      "explanation": "API = Application Programming Interface, allowing different software applications to communicate."
+      "explanation": "GPU (Graphics Processing Unit) specializes in rendering images, video, and animations. It is essential for gaming, video editing, and AI workloads."
     },
     "hi": {
-      "question": "API का पूरा नाम?",
+      "question": "कंप्यूटर में 'GPU' की भूमिका क्या है?",
       "options": [
-        "एप्लीकेशन प्रोग्रामिंग इंटरफ़ेस",
-        "एप्लीकेशन प्रोसेस इंटीग्रेशन",
-        "ऑटोमेटेड प्रोग्राम इंटरफ़ेस",
-        "एडवांस्ड प्रोग्रामिंग इंटरफ़ेस"
+        "फाइल प्रबंधन",
+        "कीबोर्ड नियंत्रण",
+        "OS चलाना",
+        "ग्राफिक्स और चित्र रेंडर करना"
       ],
-      "explanation": "API = एप्लीकेशन प्रोग्रामिंग इंटरफ़ेस, सॉफ्टवेयर के बीच संचार।"
+      "explanation": "GPU ग्राफिक्स, वीडियो और एनिमेशन रेंडर करता है। गेमिंग और AI के लिए आवश्यक।"
     }
   },
   {
     "id": "ngact-0061",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "Which key is used to delete characters to the left of the cursor?",
+      "question": "Which device is both input and output?",
       "options": [
-        "Delete",
-        "Insert",
-        "Backspace",
-        "Enter"
+        "Touchscreen",
+        "Keyboard",
+        "Printer",
+        "Scanner"
       ],
-      "explanation": "Backspace deletes characters to the left. Delete removes characters to the right."
+      "explanation": "A touchscreen is both input (touch) and output (display) device. Keyboard is only input, printer/scanner are output/input only."
     },
     "hi": {
-      "question": "कर्सर के बाएँ अक्षर हटाने की कुंजी?",
+      "question": "कौन सा उपकरण इनपुट और आउटपुट दोनों है?",
       "options": [
-        "डिलीट",
-        "इन्सर्ट",
-        "बैकस्पेस",
-        "एंटर"
+        "टचस्क्रीन",
+        "कीबोर्ड",
+        "प्रिंटर",
+        "स्कैनर"
       ],
-      "explanation": "बैकस्पेस बाएँ का अक्षर हटाता है, डिलीट दाएँ का।"
+      "explanation": "टचस्क्रीन इनपुट (स्पर्श) और आउटपुट (प्रदर्शन) दोनों।"
     }
   },
   {
     "id": "ngact-0062",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "What is an algorithm?",
+      "question": "What is the full form of 'SQL'?",
       "options": [
-        "A type of computer",
-        "A programming language",
-        "A hardware device",
-        "A step-by-step procedure to solve a problem"
+        "Standard Query Language",
+        "Structured Query Language",
+        "Simple Query Language",
+        "System Query Language"
       ],
-      "explanation": "An algorithm is a finite sequence of well-defined instructions to solve a problem or perform a task."
+      "explanation": "SQL stands for Structured Query Language, used for managing and manipulating relational databases."
     },
     "hi": {
-      "question": "एल्गोरिदम क्या है?",
+      "question": "SQL का पूरा नाम क्या है?",
       "options": [
-        "एक प्रकार का कंप्यूटर",
-        "प्रोग्रामिंग भाषा",
-        "हार्डवेयर उपकरण",
-        "समस्या हल करने की चरणबद्ध प्रक्रिया"
+        "स्टैंडर्ड क्वेरी लैंग्वेज",
+        "स्ट्रक्चर्ड क्वेरी लैंग्वेज",
+        "सिंपल क्वेरी लैंग्वेज",
+        "सिस्टम क्वेरी लैंग्वेज"
       ],
-      "explanation": "एल्गोरिदम समस्या समाधान की सुपरिभाषित चरण-दर-चरण विधि।"
+      "explanation": "SQL = स्ट्रक्चर्ड क्वेरी लैंग्वेज, रिलेशनल डेटाबेस प्रबंधन के लिए।"
     }
   },
   {
     "id": "ngact-0063",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "What is the full form of AI?",
+      "question": "What is 'ransomware'?",
       "options": [
-        "Automated Intelligence",
-        "Artificial Intelligence",
-        "Advanced Integration",
-        "Automated Integration"
+        "A type of antivirus",
+        "A hardware component",
+        "Malware that encrypts files and demands payment",
+        "Free software"
       ],
-      "explanation": "AI = Artificial Intelligence, the simulation of human intelligence in machines."
+      "explanation": "Ransomware is malicious software that encrypts victim's files and demands payment (ransom) to restore access."
     },
     "hi": {
-      "question": "AI का पूरा नाम?",
+      "question": "'रैनसमवेयर' क्या है?",
       "options": [
-        "ऑटोमेटेड इंटेलिजेंस",
-        "आर्टिफिशियल इंटेलिजेंस",
-        "एडवांस्ड इंटीग्रेशन",
-        "ऑटोमेटेड इंटीग्रेशन"
+        "एक एंटीवायरस",
+        "हार्डवेयर घटक",
+        "फाइलें एन्क्रिप्ट कर भुगतान मांगने वाला मैलवेयर",
+        "मुफ्त सॉफ्टवेयर"
       ],
-      "explanation": "AI = आर्टिफिशियल इंटेलिजेंस (कृत्रिम बुद्धिमत्ता)।"
+      "explanation": "रैनसमवेयर फाइलों को एन्क्रिप्ट कर फिरौती मांगता है।"
     }
   },
   {
     "id": "ngact-0064",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "Which of these is a web browser?",
+      "question": "Which is the brain of the computer?",
       "options": [
-        "Mozilla Firefox",
-        "Windows",
-        "Linux",
-        "Android"
+        "RAM",
+        "Hard Disk",
+        "Motherboard",
+        "CPU"
       ],
-      "explanation": "Mozilla Firefox is a web browser. Windows, Linux are OS; Android is a mobile OS."
+      "explanation": "The CPU (Central Processing Unit) is called the brain of the computer as it executes all instructions and processes data."
     },
     "hi": {
-      "question": "इनमें से वेब ब्राउज़र कौन-सा है?",
+      "question": "कंप्यूटर का मस्तिष्क कौन सा है?",
       "options": [
-        "मोज़िला फ़ायरफ़ॉक्स",
-        "विंडोज",
-        "लिनक्स",
-        "एंड्रॉइड"
+        "RAM",
+        "हार्ड डिस्क",
+        "मदरबोर्ड",
+        "CPU"
       ],
-      "explanation": "फ़ायरफ़ॉक्स वेब ब्राउज़र, अन्य OS हैं।"
+      "explanation": "CPU को कंप्यूटर का मस्तिष्क कहते हैं, सभी निर्देश निष्पादित करता है।"
     }
   },
   {
     "id": "ngact-0065",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "What does SSD stand for?",
+      "question": "What is the function of 'DNS' in internet?",
       "options": [
-        "Super Speed Drive",
-        "System Storage Device",
-        "Solid State Drive",
-        "Secure Storage Disk"
+        "Converts domain names to IP addresses",
+        "Sends emails",
+        "Creates websites",
+        "Edits documents"
       ],
-      "explanation": "SSD = Solid State Drive, a storage device using flash memory, faster than HDD."
+      "explanation": "DNS (Domain Name System) translates human-readable domain names (e.g., google.com) into machine-readable IP addresses."
     },
     "hi": {
-      "question": "SSD का पूरा नाम?",
+      "question": "इंटरनेट में 'DNS' का कार्य क्या है?",
       "options": [
-        "सुपर स्पीड ड्राइव",
-        "सिस्टम स्टोरेज डिवाइस",
-        "सॉलिड स्टेट ड्राइव",
-        "सिक्योर स्टोरेज डिस्क"
+        "डोमेन नामों को IP पतों में बदलना",
+        "ईमेल भेजना",
+        "वेबसाइट बनाना",
+        "दस्तावेज़ संपादित करना"
       ],
-      "explanation": "SSD = सॉलिड स्टेट ड्राइव, फ्लैश मेमोरी भंडारण, HDD से तेज़।"
+      "explanation": "DNS मानव-पठनीय डोमेन नाम को मशीन-पठनीय IP पते में बदलता है।"
     }
   },
   {
     "id": "ngact-0066",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "Who co-founded Google?",
+      "question": "What is an 'algorithm' in computing?",
       "options": [
-        "Bill Gates and Steve Ballmer",
-        "Steve Jobs and Steve Wozniak",
-        "Mark Zuckerberg and Eduardo Saverin",
-        "Larry Page and Sergey Brin"
+        "A type of computer",
+        "Step-by-step procedure for solving a problem",
+        "A programming language",
+        "A hardware component"
       ],
-      "explanation": "Google was founded by Larry Page and Sergey Brin in 1998 while at Stanford University."
+      "explanation": "An algorithm is a finite sequence of well-defined instructions to solve a problem or perform a computation."
     },
     "hi": {
-      "question": "गूगल के सह-संस्थापक कौन हैं?",
+      "question": "कंप्यूटिंग में 'एल्गोरिदम' क्या है?",
       "options": [
-        "बिल गेट्स और स्टीव बाल्मर",
-        "स्टीव जॉब्स और वोज़नियाक",
-        "मार्क ज़करबर्ग और एडुआर्डो सेवरिन",
-        "लैरी पेज और सर्गेई ब्रिन"
+        "एक प्रकार का कंप्यूटर",
+        "समस्या हल करने की चरण-दर-चरण प्रक्रिया",
+        "प्रोग्रामिंग भाषा",
+        "हार्डवेयर घटक"
       ],
-      "explanation": "लैरी पेज और सर्गेई ब्रिन ने 1998 में स्टैनफोर्ड में गूगल की स्थापना।"
+      "explanation": "एल्गोरिदम किसी समस्या को हल करने के निर्देशों का क्रम।"
     }
   },
   {
     "id": "ngact-0067",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the function of Ctrl+P in most applications?",
+      "question": "What is the storage capacity of a standard DVD?",
       "options": [
-        "Copy",
-        "Print",
-        "Paste",
-        "Save"
+        "700 MB",
+        "1.44 MB",
+        "4.7 GB",
+        "25 GB"
       ],
-      "explanation": "Ctrl+P opens the print dialog box in most applications."
+      "explanation": "A standard single-layer DVD holds 4.7 GB of data. A CD holds 700 MB and a Blu-ray disc holds 25 GB."
     },
     "hi": {
-      "question": "Ctrl+P का कार्य?",
+      "question": "मानक DVD की भंडारण क्षमता कितनी होती है?",
       "options": [
-        "कॉपी",
-        "प्रिंट",
-        "पेस्ट",
-        "सेव"
+        "700 MB",
+        "1.44 MB",
+        "4.7 GB",
+        "25 GB"
       ],
-      "explanation": "Ctrl+P प्रिंट डायलॉग खोलता है।"
+      "explanation": "मानक DVD = 4.7 GB। CD = 700 MB, ब्लू-रे = 25 GB।"
     }
   },
   {
     "id": "ngact-0068",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the difference between RAM and ROM?",
+      "question": "What is the full form of 'HTML'?",
       "options": [
-        "RAM is volatile, ROM is non-volatile",
-        "Both are same",
-        "ROM is volatile",
-        "RAM stores data permanently"
+        "Hyper Text Makeup Language",
+        "High Tech Markup Language",
+        "Hyper Tool Markup Language",
+        "Hyper Text Markup Language"
       ],
-      "explanation": "RAM loses data when power is off (volatile), ROM retains data (non-volatile/firmware)."
+      "explanation": "HTML stands for Hyper Text Markup Language — the standard language for creating web pages and web applications."
     },
     "hi": {
-      "question": "RAM और ROM में अंतर?",
+      "question": "HTML का पूरा नाम क्या है?",
       "options": [
-        "RAM अस्थायी, ROM स्थायी",
-        "दोनों समान",
-        "ROM अस्थायी",
-        "RAM स्थायी भंडारण"
+        "हाइपर टेक्स्ट मेकअप लैंग्वेज",
+        "हाई टेक मार्कअप लैंग्वेज",
+        "हाइपर टूल मार्कअप लैंग्वेज",
+        "हाइपर टेक्स्ट मार्कअप लैंग्वेज"
       ],
-      "explanation": "RAM बिजली बंद होने पर डेटा खोती है, ROM बनाए रखती है।"
+      "explanation": "HTML = हाइपर टेक्स्ट मार्कअप लैंग्वेज, वेब पेज बनाने की मानक भाषा।"
     }
   },
   {
     "id": "ngact-0069",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "What is the full form of JPEG?",
+      "question": "What is the purpose of 'virtual reality' (VR)?",
       "options": [
-        "Joint Picture Expert Group",
-        "Joint Photographic Expert Graphics",
-        "Joint Photographic Experts Group",
-        "Joint Program Expert Group"
+        "Create a simulated immersive environment",
+        "Speed up internet",
+        "Create spreadsheets",
+        "Delete viruses"
       ],
-      "explanation": "JPEG = Joint Photographic Experts Group, a commonly used image compression format."
+      "explanation": "Virtual Reality (VR) creates a simulated immersive environment that users can interact with using special headsets and controllers."
     },
     "hi": {
-      "question": "JPEG का पूरा नाम?",
+      "question": "'वर्चुअल रियलिटी' (VR) का उद्देश्य क्या है?",
       "options": [
-        "जॉइंट पिक्चर एक्सपर्ट ग्रुप",
-        "जॉइंट फोटोग्राफिक एक्सपर्ट ग्राफिक्स",
-        "जॉइंट फोटोग्राफिक एक्सपर्ट्स ग्रुप",
-        "जॉइंट प्रोग्राम एक्सपर्ट ग्रुप"
+        "सिम्युलेटेड इमर्सिव वातावरण बनाना",
+        "इंटरनेट तेज़ करना",
+        "स्प्रेडशीट बनाना",
+        "वायरस हटाना"
       ],
-      "explanation": "JPEG = जॉइंट फोटोग्राफिक एक्सपर्ट्स ग्रुप, छवि संपीड़न प्रारूप।"
+      "explanation": "VR एक सिम्युलेटेड इमर्सिव वातावरण बनाता है जिसमें उपयोगकर्ता हेडसेट से इंटरैक्ट करते हैं।"
     }
   },
   {
     "id": "ngact-0070",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "What is a social media platform?",
+      "question": "Which of these is a programming language used for web development?",
       "options": [
-        "Microsoft Word",
-        "Excel",
         "Photoshop",
-        "Facebook"
+        "JavaScript",
+        "Excel",
+        "PowerPoint"
       ],
-      "explanation": "Facebook is a social media platform for connecting and sharing content online."
+      "explanation": "JavaScript is a programming language primarily used for creating interactive effects within web browsers."
     },
     "hi": {
-      "question": "सोशल मीडिया प्लेटफॉर्म कौन-सा है?",
+      "question": "वेब डेवलपमेंट के लिए कौन सी प्रोग्रामिंग भाषा है?",
       "options": [
-        "माइक्रोसॉफ्ट वर्ड",
-        "एक्सेल",
         "फोटोशॉप",
-        "फेसबुक"
+        "जावास्क्रिप्ट",
+        "एक्सेल",
+        "पॉवरपॉइंट"
       ],
-      "explanation": "फेसबुक सोशल मीडिया प्लेटफॉर्म।"
+      "explanation": "जावास्क्रिप्ट वेब ब्राउज़रों में इंटरैक्टिव प्रभाव बनाने की प्रोग्रामिंग भाषा।"
     }
   },
   {
     "id": "ngact-0071",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the purpose of an IP address version 4 (IPv4)?",
+      "question": "What is 'spam' in email context?",
       "options": [
-        "Store files",
-        "Identify devices on a network",
-        "Speed up internet",
-        "Block websites"
+        "Important messages",
+        "Encrypted messages",
+        "Unsolicited bulk messages",
+        "Government emails"
       ],
-      "explanation": "IPv4 uses 32-bit addresses to identify devices on a network (e.g., 192.168.1.1)."
+      "explanation": "Spam refers to unsolicited, unwanted bulk email messages, typically sent for advertising, phishing, or spreading malware."
     },
     "hi": {
-      "question": "IPv4 का उद्देश्य?",
+      "question": "ईमेल में 'स्पैम' क्या है?",
       "options": [
-        "फ़ाइलें संग्रहीत करना",
-        "नेटवर्क पर उपकरणों की पहचान",
-        "इंटरनेट तेज़ करना",
-        "वेबसाइट ब्लॉक करना"
+        "महत्वपूर्ण संदेश",
+        "एन्क्रिप्टेड संदेश",
+        "अवांछित बल्क संदेश",
+        "सरकारी ईमेल"
       ],
-      "explanation": "IPv4 32-बिट पते से नेटवर्क उपकरणों की पहचान करता है।"
+      "explanation": "स्पैम अवांछित बल्क ईमेल, आमतौर पर विज्ञापन या फिशिंग के लिए।"
     }
   },
   {
     "id": "ngact-0072",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "What is quantum computing?",
+      "question": "What is the role of a 'database management system' (DBMS)?",
       "options": [
-        "Computing using quantum bits (qubits)",
-        "Computing using light",
-        "Computing for quantum physics",
-        "Classical computing"
+        "Managing internet connection",
+        "Creating images",
+        "Editing videos",
+        "Storing, retrieving, and managing data"
       ],
-      "explanation": "Quantum computing uses qubits that can exist in multiple states simultaneously, unlike classical bits."
+      "explanation": "DBMS is software that stores, retrieves, and manages data in databases. MySQL, PostgreSQL, and Oracle are popular DBMS."
     },
     "hi": {
-      "question": "क्वांटम कंप्यूटिंग क्या है?",
+      "question": "'डेटाबेस प्रबंधन प्रणाली' (DBMS) की भूमिका क्या है?",
       "options": [
-        "क्वांटम बिट्स (क्यूबिट्स) से कंप्यूटिंग",
-        "प्रकाश से कंप्यूटिंग",
-        "क्वांटम भौतिकी के लिए कंप्यूटिंग",
-        "शास्त्रीय कंप्यूटिंग"
+        "इंटरनेट कनेक्शन प्रबंधन",
+        "चित्र बनाना",
+        "वीडियो संपादन",
+        "डेटा भंडारण, पुनर्प्राप्ति और प्रबंधन"
       ],
-      "explanation": "क्वांटम कंप्यूटिंग क्यूबिट्स का उपयोग, एक साथ कई अवस्थाओं में रह सकते हैं।"
+      "explanation": "DBMS डेटाबेस में डेटा संग्रहीत और प्रबंधित करता है। MySQL, PostgreSQL।"
     }
   },
   {
     "id": "ngact-0073",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the shortcut for 'Save' in most applications?",
+      "question": "Which of these is a cloud storage service?",
       "options": [
-        "Ctrl+P",
-        "Ctrl+S",
-        "Ctrl+S",
-        "Ctrl+V"
+        "Google Drive",
+        "MS Word",
+        "Windows",
+        "Adobe Reader"
       ],
-      "explanation": "Ctrl+S saves the current document in most applications."
+      "explanation": "Google Drive is a cloud storage service that allows users to store files online and access them from any device. Others are iCloud, Dropbox, OneDrive."
     },
     "hi": {
-      "question": "'सेव' का शॉर्टकट?",
+      "question": "इनमें से कौन क्लाउड स्टोरेज सेवा है?",
       "options": [
-        "Ctrl+P",
-        "Ctrl+S",
-        "Ctrl+S",
-        "Ctrl+V"
+        "गूगल ड्राइव",
+        "MS वर्ड",
+        "विंडोज",
+        "एडोबी रीडर"
       ],
-      "explanation": "Ctrl+S दस्तावेज़ सेव करता है।"
+      "explanation": "गूगल ड्राइव ऑनलाइन फाइल भंडारण सेवा। iCloud, ड्रॉपबॉक्स, वनड्राइव भी।"
     }
   },
   {
     "id": "ngact-0074",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the function of a router?",
+      "question": "What does 'SaaS' stand for in cloud computing?",
       "options": [
-        "To print documents",
-        "To store data",
-        "To display images",
-        "To forward data packets between networks"
+        "Server as a Service",
+        "Software as a Service",
+        "Storage as a Service",
+        "Security as a Service"
       ],
-      "explanation": "A router connects networks and forwards data packets between them."
+      "explanation": "SaaS (Software as a Service) delivers software applications over the internet on a subscription basis. Gmail, Office 365 are examples."
     },
     "hi": {
-      "question": "राउटर का कार्य?",
+      "question": "क्लाउड कंप्यूटिंग में 'SaaS' का पूरा नाम क्या है?",
       "options": [
-        "दस्तावेज़ प्रिंट करना",
-        "डेटा संग्रहीत करना",
-        "छवियाँ दिखाना",
-        "नेटवर्क के बीच डेटा पैकेट भेजना"
+        "सर्वर एज़ अ सर्विस",
+        "सॉफ्टवेयर एज़ अ सर्विस",
+        "स्टोरेज एज़ अ सर्विस",
+        "सिक्योरिटी एज़ अ सर्विस"
       ],
-      "explanation": "राउटर नेटवर्क जोड़ता और डेटा पैकेट अग्रेषित करता है।"
+      "explanation": "SaaS इंटरनेट पर सब्सक्रिप्शन आधार पर सॉफ्टवेयर प्रदान करता है।"
     }
   },
   {
     "id": "ngact-0075",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "What is the full form of BIOS?",
+      "question": "What technology does 'QR code' use?",
       "options": [
-        "Basic Input Output Software",
-        "Basic Input Output System",
-        "Binary Input Output System",
-        "Basic Integrated Operating System"
+        "Magnetic stripe",
+        "RFID",
+        "2D barcode (optical scanning)",
+        "Bluetooth"
       ],
-      "explanation": "BIOS = Basic Input Output System, firmware that initializes hardware during boot."
+      "explanation": "QR (Quick Response) code is a two-dimensional barcode that stores information and can be read by smartphone cameras or scanners."
     },
     "hi": {
-      "question": "BIOS का पूरा नाम?",
+      "question": "QR कोड किस तकनीक का उपयोग करता है?",
       "options": [
-        "बेसिक इनपुट आउटपुट सॉफ्टवेयर",
-        "बेसिक इनपुट आउटपुट सिस्टम",
-        "बाइनरी इनपुट आउटपुट सिस्टम",
-        "बेसिक इंटीग्रेटेड ऑपरेटिंग सिस्टम"
+        "चुंबकीय पट्टी",
+        "RFID",
+        "2D बारकोड (ऑप्टिकल स्कैनिंग)",
+        "ब्लूटूथ"
       ],
-      "explanation": "BIOS = बेसिक इनपुट आउटपुट सिस्टम, बूट के दौरान हार्डवेयर आरंभ।"
+      "explanation": "QR कोड द्वि-आयामी बारकोड, स्मार्टफोन कैमरे से पढ़ा जा सकता है।"
     }
   },
   {
     "id": "ngact-0076",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "Which of these is NOT an operating system?",
+      "question": "Which of the following is an email protocol for receiving emails?",
       "options": [
-        "Microsoft Word",
-        "Windows",
-        "macOS",
-        "Ubuntu"
+        "SMTP",
+        "FTP",
+        "HTTP",
+        "POP3"
       ],
-      "explanation": "Microsoft Word is a word processor application, not an operating system."
+      "explanation": "POP3 (Post Office Protocol 3) is used to receive/download emails from a mail server. IMAP is another receiving protocol."
     },
     "hi": {
-      "question": "इनमें से ऑपरेटिंग सिस्टम कौन नहीं है?",
+      "question": "निम्न में से कौन ईमेल प्राप्त करने का प्रोटोकॉल है?",
       "options": [
-        "माइक्रोसॉफ्ट वर्ड",
-        "विंडोज",
-        "macOS",
-        "उबंटू"
+        "SMTP",
+        "FTP",
+        "HTTP",
+        "POP3"
       ],
-      "explanation": "माइक्रोसॉफ्ट वर्ड एप्लीकेशन है, OS नहीं।"
+      "explanation": "POP3 ईमेल प्राप्त करने का प्रोटोकॉल। IMAP भी प्राप्ति के लिए।"
     }
   },
   {
     "id": "ngact-0077",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "What does 'CC' in email stand for?",
+      "question": "What is the full form of 'MAC' in MAC address?",
       "options": [
-        "Copy Center",
-        "Computer Copy",
-        "Carbon Copy",
-        "Central Copy"
+        "Media Access Control",
+        "Machine Access Code",
+        "Multiple Access Control",
+        "Media Authentication Code"
       ],
-      "explanation": "CC = Carbon Copy, sends a copy of the email to additional recipients visible to all."
+      "explanation": "MAC stands for Media Access Control. It is a unique hardware identifier assigned to network interfaces."
     },
     "hi": {
-      "question": "ईमेल में 'CC' का अर्थ?",
+      "question": "MAC पते में MAC का पूरा नाम क्या है?",
       "options": [
-        "कॉपी सेंटर",
-        "कंप्यूटर कॉपी",
-        "कार्बन कॉपी",
-        "सेंट्रल कॉपी"
+        "मीडिया एक्सेस कंट्रोल",
+        "मशीन एक्सेस कोड",
+        "मल्टीपल एक्सेस कंट्रोल",
+        "मीडिया ऑथेंटिकेशन कोड"
       ],
-      "explanation": "CC = कार्बन कॉपी, अन्य प्राप्तकर्ताओं को ईमेल की प्रति।"
+      "explanation": "MAC = मीडिया एक्सेस कंट्रोल, नेटवर्क इंटरफेस का अद्वितीय पहचानकर्ता।"
     }
   },
   {
     "id": "ngact-0078",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "What is a cookie in web browsing?",
+      "question": "What is a 'botnet'?",
       "options": [
-        "A type of snack",
-        "A virus",
-        "A pop-up ad",
-        "A small piece of data stored by websites"
+        "A type of robot",
+        "Network of compromised computers controlled remotely",
+        "Internet speed booster",
+        "A search engine"
       ],
-      "explanation": "Cookies are small text files websites store on your browser to remember preferences and sessions."
+      "explanation": "A botnet is a network of private computers infected with malware and controlled as a group without owners' knowledge for malicious purposes."
     },
     "hi": {
-      "question": "वेब ब्राउज़िंग में कुकी क्या है?",
+      "question": "'बॉटनेट' क्या है?",
       "options": [
-        "एक प्रकार का नाश्ता",
-        "वायरस",
-        "पॉप-अप विज्ञापन",
-        "वेबसाइट द्वारा संग्रहीत छोटा डेटा"
+        "एक प्रकार का रोबोट",
+        "दूर से नियंत्रित संक्रमित कंप्यूटरों का नेटवर्क",
+        "इंटरनेट स्पीड बूस्टर",
+        "सर्च इंजन"
       ],
-      "explanation": "कुकी वेबसाइट द्वारा ब्राउज़र पर संग्रहीत छोटी टेक्स्ट फ़ाइलें।"
+      "explanation": "बॉटनेट मैलवेयर से संक्रमित गुप्त रूप से नियंत्रित कंप्यूटरों का नेटवर्क।"
     }
   },
   {
     "id": "ngact-0079",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the full form of HTML?",
+      "question": "Which shortcut is used to undo an action?",
       "options": [
-        "HyperText Markup Language",
-        "HyperText Markup Language",
-        "HighText Markup Language",
-        "HyperText Machine Language"
+        "Ctrl + Y",
+        "Ctrl + S",
+        "Ctrl + Z",
+        "Ctrl + P"
       ],
-      "explanation": "HTML = HyperText Markup Language, the standard for creating web pages."
+      "explanation": "Ctrl + Z is the undo shortcut. Ctrl + Y is redo, Ctrl + S is save, Ctrl + P is print."
     },
     "hi": {
-      "question": "HTML का पूरा नाम?",
+      "question": "किसी क्रिया को पूर्ववत (undo) करने के लिए कौन सा शॉर्टकट है?",
       "options": [
-        "हाइपरटेक्स्ट मार्कअप लैंग्वेज",
-        "हाइपरटेक्स्ट मार्कअप लैंग्वेज",
-        "हाईटेक्स्ट मार्कअप लैंग्वेज",
-        "हाइपरटेक्स्ट मशीन लैंग्वेज"
+        "Ctrl + Y",
+        "Ctrl + S",
+        "Ctrl + Z",
+        "Ctrl + P"
       ],
-      "explanation": "HTML = हाइपरटेक्स्ट मार्कअप लैंग्वेज।"
+      "explanation": "Ctrl + Z = पूर्ववत। Ctrl + Y = पुनः करें, Ctrl + S = सहेजें, Ctrl + P = प्रिंट।"
     }
   },
   {
     "id": "ngact-0080",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "Which programming language is used for iOS app development?",
+      "question": "What is the function of a 'firewall'?",
       "options": [
-        "Swift",
-        "Kotlin",
-        "Java",
-        "C#"
+        "Increase processing speed",
+        "Cool down the computer",
+        "Store passwords",
+        "Monitor and filter network traffic"
       ],
-      "explanation": "Swift is Apple's programming language for iOS, macOS, watchOS development."
+      "explanation": "A firewall monitors and filters incoming and outgoing network traffic based on security rules, protecting against unauthorized access."
     },
     "hi": {
-      "question": "iOS ऐप विकास की भाषा?",
+      "question": "'फायरवॉल' का कार्य क्या है?",
       "options": [
-        "स्विफ्ट",
-        "कोटलिन",
-        "जावा",
-        "C#"
+        "प्रोसेसिंग स्पीड बढ़ाना",
+        "कंप्यूटर ठंडा करना",
+        "पासवर्ड संग्रहीत करना",
+        "नेटवर्क ट्रैफिक की निगरानी और फ़िल्टर करना"
       ],
-      "explanation": "स्विफ्ट Apple की iOS/macOS विकास भाषा।"
+      "explanation": "फायरवॉल सुरक्षा नियमों के आधार पर नेटवर्क ट्रैफिक की निगरानी करता है।"
     }
   },
   {
     "id": "ngact-0081",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "What is the primary function of a database management system (DBMS)?",
+      "question": "Which Indian IT company has the highest market capitalization?",
       "options": [
-        "Edit images",
-        "Browse internet",
-        "Store, retrieve, and manage data",
-        "Play multimedia"
+        "Tata Consultancy Services (TCS)",
+        "Infosys",
+        "Wipro",
+        "HCL Technologies"
       ],
-      "explanation": "DBMS efficiently stores, retrieves, and manages structured data (e.g., MySQL, Oracle)."
+      "explanation": "TCS is India's largest IT company by market capitalization and revenue. It is part of the Tata Group."
     },
     "hi": {
-      "question": "DBMS का प्राथमिक कार्य?",
+      "question": "किस भारतीय IT कंपनी का सबसे अधिक बाजार पूंजीकरण है?",
       "options": [
-        "छवि संपादन",
-        "इंटरनेट ब्राउज़िंग",
-        "डेटा भंडारण, पुनर्प्राप्ति और प्रबंधन",
-        "मल्टीमीडिया चलाना"
+        "टाटा कंसल्टेंसी सर्विसेज (TCS)",
+        "इन्फोसिस",
+        "विप्रो",
+        "HCL टेक्नोलॉजीज"
       ],
-      "explanation": "DBMS संरचित डेटा का भंडारण-प्रबंधन (MySQL, Oracle)।"
+      "explanation": "TCS राजस्व और बाजार पूंजीकरण में भारत की सबसे बड़ी IT कंपनी।"
     }
   },
   {
     "id": "ngact-0082",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "What is a touch screen?",
+      "question": "What type of software is Google Chrome?",
       "options": [
-        "A screen that cannot be touched",
-        "A screen for watching movies only",
-        "A protective screen guard",
-        "A display that responds to touch input"
+        "Operating System",
+        "Web Browser",
+        "Word Processor",
+        "Antivirus"
       ],
-      "explanation": "A touch screen allows users to interact directly with what is displayed by touching the screen."
+      "explanation": "Google Chrome is a web browser developed by Google, used to access and view websites on the internet."
     },
     "hi": {
-      "question": "टच स्क्रीन क्या है?",
+      "question": "गूगल क्रोम किस प्रकार का सॉफ्टवेयर है?",
       "options": [
-        "छूने न देने वाली स्क्रीन",
-        "केवल फिल्म देखने की स्क्रीन",
-        "सुरक्षात्मक स्क्रीन गार्ड",
-        "स्पर्श से संचालित होने वाला डिस्प्ले"
+        "ऑपरेटिंग सिस्टम",
+        "वेब ब्राउज़र",
+        "वर्ड प्रोसेसर",
+        "एंटीवायरस"
       ],
-      "explanation": "टच स्क्रीन स्पर्श से सीधे संपर्क करने वाला डिस्प्ले।"
+      "explanation": "गूगल क्रोम वेबसाइटें देखने का वेब ब्राउज़र।"
     }
   },
   {
     "id": "ngact-0083",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "Which Indian IT company is headquartered in Bengaluru and known as the 'IT Capital'?",
+      "question": "What does 'GPS' stand for?",
       "options": [
-        "TCS",
-        "Infosys",
-        "Wipro",
-        "HCL"
+        "Global Processing System",
+        "General Positioning Service",
+        "Global Positioning System",
+        "Geographic Processing Service"
       ],
-      "explanation": "Infosys is headquartered in Bengaluru, which is called India's Silicon Valley/IT Capital."
+      "explanation": "GPS stands for Global Positioning System — a satellite-based navigation system providing location and time information."
     },
     "hi": {
-      "question": "बेंगलुरु मुख्यालय वाली 'IT राजधानी' कंपनी?",
+      "question": "GPS का पूरा नाम क्या है?",
       "options": [
-        "TCS",
-        "इन्फोसिस",
-        "विप्रो",
-        "HCL"
+        "ग्लोबल प्रोसेसिंग सिस्टम",
+        "जनरल पोज़िशनिंग सर्विस",
+        "ग्लोबल पोज़िशनिंग सिस्टम",
+        "जियोग्राफिक प्रोसेसिंग सर्विस"
       ],
-      "explanation": "इन्फोसिस बेंगलुरु में, जिसे भारत की सिलिकॉन वैली कहते हैं।"
+      "explanation": "GPS = ग्लोबल पोज़िशनिंग सिस्टम, उपग्रह आधारित स्थान निर्धारण प्रणाली।"
     }
   },
   {
     "id": "ngact-0084",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "hard",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "What is the difference between a compiler and an interpreter?",
+      "question": "What is the main advantage of SSD over HDD?",
       "options": [
-        "Compiler translates entire code at once, interpreter line-by-line",
-        "No difference",
-        "Interpreter is faster",
-        "Compiler only works on Windows"
+        "Higher storage capacity",
+        "Lower cost",
+        "More durable mechanically",
+        "Faster read/write speeds"
       ],
-      "explanation": "Compiler converts entire source code to machine code before execution; interpreter executes line by line."
+      "explanation": "SSD (Solid State Drive) is significantly faster than HDD with no moving parts, resulting in faster boot times and file access."
     },
     "hi": {
-      "question": "कंपाइलर और इंटरप्रेटर में अंतर?",
+      "question": "HDD की तुलना में SSD का मुख्य लाभ क्या है?",
       "options": [
-        "कंपाइलर पूरा कोड एक साथ, इंटरप्रेटर पंक्ति-दर-पंक्ति",
-        "कोई अंतर नहीं",
-        "इंटरप्रेटर तेज़",
-        "कंपाइलर केवल विंडोज पर"
+        "अधिक भंडारण क्षमता",
+        "कम लागत",
+        "यांत्रिक रूप से टिकाऊ",
+        "तेज़ पढ़ने/लिखने की गति"
       ],
-      "explanation": "कंपाइलर पूरा कोड मशीन कोड में बदलता है, इंटरप्रेटर लाइन-बाय-लाइन।"
+      "explanation": "SSD में कोई चल भाग नहीं, तेज़ बूट और फाइल एक्सेस।"
     }
   },
   {
     "id": "ngact-0085",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the most common output device of a computer?",
+      "question": "Which key is used to refresh a webpage?",
       "options": [
-        "Keyboard",
-        "Mouse",
-        "Monitor",
-        "Scanner"
+        "F5",
+        "F1",
+        "F12",
+        "Esc"
       ],
-      "explanation": "The monitor (screen) is the most common output device displaying visual information."
+      "explanation": "F5 is the standard key to refresh/reload a webpage in most web browsers."
     },
     "hi": {
-      "question": "कंप्यूटर का सबसे आम आउटपुट डिवाइस?",
+      "question": "वेबपेज रिफ्रेश करने के लिए कौन सी की उपयोग होती है?",
       "options": [
-        "कीबोर्ड",
-        "माउस",
-        "मॉनिटर",
-        "स्कैनर"
+        "F5",
+        "F1",
+        "F12",
+        "Esc"
       ],
-      "explanation": "मॉनिटर सबसे आम आउटपुट डिवाइस।"
+      "explanation": "F5 वेबपेज रिफ्रेश/रीलोड करने की मानक की।"
     }
   },
   {
     "id": "ngact-0086",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Who won the 2024 T20 World Cup?",
+      "question": "What is an 'IP address'?",
       "options": [
-        "Australia",
-        "England",
-        "South Africa",
-        "India"
+        "Internet Personal address",
+        "Unique numerical label assigned to each device on a network",
+        "Input Process address",
+        "Internal Protocol address"
       ],
-      "explanation": "India won the 2024 ICC T20 World Cup defeating South Africa in the final."
+      "explanation": "An IP address is a unique numerical identifier assigned to every device connected to a computer network using the Internet Protocol."
     },
     "hi": {
-      "question": "2024 T20 विश्व कप किसने जीता?",
+      "question": "IP पता क्या है?",
       "options": [
-        "Australia",
-        "England",
-        "South Africa",
-        "India"
+        "इंटरनेट पर्सनल पता",
+        "नेटवर्क पर प्रत्येक डिवाइस का अद्वितीय संख्यात्मक लेबल",
+        "इनपुट प्रोसेस पता",
+        "इंटरनल प्रोटोकॉल पता"
       ],
-      "explanation": "भारत ने फाइनल में दक्षिण अफ्रीका को हराकर 2024 T20 विश्व कप जीता।"
+      "explanation": "IP पता नेटवर्क पर प्रत्येक डिवाइस का अद्वितीय पहचानकर्ता।"
     }
   },
   {
     "id": "ngact-0087",
     "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "G20 Summit 2024 was held in which country?",
+      "question": "What is the 'Dark Web'?",
       "options": [
-        "Indonesia",
-        "South Africa",
-        "Brazil",
-        "India"
+        "A website with black background",
+        "Part of internet not indexed by search engines requiring special software",
+        "Illegal websites only",
+        "Slow internet connection"
       ],
-      "explanation": "G20 Summit 2024 was held in Rio de Janeiro, Brazil."
+      "explanation": "The Dark Web is an encrypted part of the internet not indexed by search engines, accessible only through special browsers like Tor."
     },
     "hi": {
-      "question": "G20 शिखर सम्मेलन 2024 किस देश में हुआ?",
+      "question": "'डार्क वेब' क्या है?",
       "options": [
-        "Indonesia",
-        "South Africa",
-        "Brazil",
-        "India"
+        "काले बैकग्राउंड वाली वेबसाइट",
+        "सर्च इंजन द्वारा अनुक्रमित न होने वाला विशेष सॉफ्टवेयर से सुलभ इंटरनेट भाग",
+        "केवल अवैध वेबसाइटें",
+        "धीमा इंटरनेट"
       ],
-      "explanation": "G20 2024 रियो डी जनेरियो, ब्राजील में आयोजित हुआ।"
+      "explanation": "डार्क वेब Tor जैसे विशेष ब्राउज़र से सुलभ एन्क्रिप्टेड इंटरनेट भाग।"
     }
   },
   {
     "id": "ngact-0088",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "ISRO's Aditya-L1 mission studies?",
+      "question": "Which of these is NOT a programming language?",
       "options": [
-        "Sun",
-        "Mars",
-        "Venus",
-        "Moon"
+        "Java",
+        "Python",
+        "C++",
+        "HTML"
       ],
-      "explanation": "Aditya-L1 is India's first solar mission to study the Sun's corona."
+      "explanation": "HTML (Hyper Text Markup Language) is a markup language, NOT a programming language. It structures content but cannot perform logic."
     },
     "hi": {
-      "question": "ISRO का आदित्य-L1 मिशन किसका अध्ययन करता है?",
+      "question": "इनमें से कौन प्रोग्रामिंग भाषा नहीं है?",
       "options": [
-        "Sun",
-        "Mars",
-        "Venus",
-        "Moon"
+        "जावा",
+        "पायथन",
+        "C++",
+        "HTML"
       ],
-      "explanation": "आदित्य-L1 सूर्य के कोरोना का अध्ययन करने वाला भारत का पहला सौर मिशन है।"
+      "explanation": "HTML मार्कअप भाषा, प्रोग्रामिंग नहीं। यह सामग्री संरचित करती है, तर्क नहीं कर सकती।"
     }
   },
   {
     "id": "ngact-0089",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Which Indian state has the longest coastline?",
+      "question": "What is 'Net Neutrality'?",
       "options": [
-        "Maharashtra",
-        "Tamil Nadu",
-        "Gujarat",
-        "Kerala"
+        "Principle that ISPs should treat all internet data equally",
+        "Network of neutral countries",
+        "Internet without any rules",
+        "Server neutrality"
       ],
-      "explanation": "Gujarat has the longest coastline among Indian states at about 1,600 km."
+      "explanation": "Net neutrality is the principle that internet service providers must treat all data equally without discriminating or charging differently."
     },
     "hi": {
-      "question": "किस भारतीय राज्य की सबसे लंबी तटरेखा है?",
+      "question": "'नेट न्यूट्रैलिटी' क्या है?",
       "options": [
-        "Maharashtra",
-        "Tamil Nadu",
-        "Gujarat",
-        "Kerala"
+        "ISP द्वारा सभी डेटा को समान रूप से व्यवहार करने का सिद्धांत",
+        "तटस्थ देशों का नेटवर्क",
+        "बिना नियमों का इंटरनेट",
+        "सर्वर न्यूट्रैलिटी"
       ],
-      "explanation": "गुजरात की तटरेखा लगभग 1,600 किमी के साथ सबसे लंबी है।"
+      "explanation": "नेट न्यूट्रैलिटी ISP द्वारा बिना भेदभाव सभी डेटा को समान व्यवहार का सिद्धांत।"
     }
   },
   {
     "id": "ngact-0090",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "Which Mughal emperor built the Taj Mahal?",
+      "question": "Which company developed the 'Windows' operating system?",
       "options": [
-        "Jahangir",
-        "Aurangzeb",
-        "Akbar",
-        "Shah Jahan"
+        "Apple",
+        "Microsoft",
+        "Google",
+        "IBM"
       ],
-      "explanation": "Shah Jahan built Taj Mahal in memory of his wife Mumtaz Mahal in Agra (1632-1653)."
+      "explanation": "Microsoft developed the Windows OS. The first version (Windows 1.0) was released in 1985."
     },
     "hi": {
-      "question": "ताजमहल किस मुगल बादशाह ने बनवाया?",
+      "question": "'विंडोज' ऑपरेटिंग सिस्टम किस कंपनी ने विकसित किया?",
       "options": [
-        "Jahangir",
-        "Aurangzeb",
-        "Akbar",
-        "Shah Jahan"
+        "एप्पल",
+        "माइक्रोसॉफ्ट",
+        "गूगल",
+        "IBM"
       ],
-      "explanation": "शाहजहां ने अपनी पत्नी मुमताज महल की याद में ताजमहल बनवाया (1632-1653)।"
+      "explanation": "माइक्रोसॉफ्ट ने विंडोज विकसित किया। पहला संस्करण 1985 में।"
     }
   },
   {
     "id": "ngact-0091",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "India's first nuclear test was code-named?",
+      "question": "What does 'CC' mean in email?",
       "options": [
-        "Smiling Buddha",
-        "Operation Vijay",
-        "Agni",
-        "Shakti"
+        "Confidential Copy",
+        "Complete Copy",
+        "Carbon Copy",
+        "Central Copy"
       ],
-      "explanation": "India's first nuclear test \"Smiling Buddha\" was conducted on 18 May 1974 at Pokhran."
+      "explanation": "CC stands for Carbon Copy. It sends a copy of the email to additional recipients visible to all."
     },
     "hi": {
-      "question": "भारत का पहला परमाणु परीक्षण किस कोड नाम से हुआ?",
+      "question": "ईमेल में 'CC' का क्या अर्थ है?",
       "options": [
-        "Smiling Buddha",
-        "Operation Vijay",
-        "Agni",
-        "Shakti"
+        "कॉन्फिडेंशियल कॉपी",
+        "कम्प्लीट कॉपी",
+        "कार्बन कॉपी",
+        "सेंट्रल कॉपी"
       ],
-      "explanation": "भारत का पहला परमाणु परीक्षण 18 मई 1974 को पोखरण में \"स्माइलिंग बुद्धा\" नाम से हुआ।"
+      "explanation": "CC = कार्बन कॉपी, सभी को दिखने वाले अतिरिक्त प्राप्तकर्ता।"
     }
   },
   {
     "id": "ngact-0092",
-    "correctOption": "C",
+    "correctOption": "D",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Paris Agreement is related to?",
+      "question": "Which of the following is a video conferencing software?",
       "options": [
-        "Nuclear Weapons",
-        "Trade",
-        "Climate Change",
-        "Space"
+        "MS Excel",
+        "Adobe Photoshop",
+        "Notepad",
+        "Zoom"
       ],
-      "explanation": "Paris Agreement (2015) aims to limit global warming to well below 2°C above pre-industrial levels."
+      "explanation": "Zoom is a popular video conferencing software. Other examples include Microsoft Teams, Google Meet, and Cisco Webex."
     },
     "hi": {
-      "question": "पेरिस समझौता किससे संबंधित है?",
+      "question": "निम्न में से कौन वीडियो कॉन्फ्रेंसिंग सॉफ्टवेयर है?",
       "options": [
-        "Nuclear Weapons",
-        "Trade",
-        "Climate Change",
-        "Space"
+        "MS एक्सेल",
+        "एडोबी फोटोशॉप",
+        "नोटपैड",
+        "ज़ूम"
       ],
-      "explanation": "पेरिस समझौता (2015) ग्लोबल वार्मिंग को 2°C से नीचे सीमित करने का लक्ष्य रखता है।"
+      "explanation": "ज़ूम वीडियो कॉन्फ्रेंसिंग सॉफ्टवेयर। टीम्स, मीट, वेबेक्स भी।"
     }
   },
   {
     "id": "ngact-0093",
     "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "Lok Sabha has how many elected members?",
+      "question": "What is the significance of 'Aadhaar' in digital India?",
       "options": [
-        "543",
-        "540",
-        "545",
-        "550"
+        "12-digit unique biometric identity number",
+        "Tax identification number",
+        "Passport number",
+        "Driving license number"
       ],
-      "explanation": "Lok Sabha has 543 elected members + 2 Anglo-Indian nominated = 545 total seats."
+      "explanation": "Aadhaar is a 12-digit unique identity number based on biometric data, serving as proof of identity and address across India."
     },
     "hi": {
-      "question": "लोकसभा में कितने निर्वाचित सदस्य हैं?",
+      "question": "डिजिटल इंडिया में 'आधार' का क्या महत्व है?",
       "options": [
-        "543",
-        "540",
-        "545",
-        "550"
+        "12-अंकीय अद्वितीय बायोमेट्रिक पहचान संख्या",
+        "कर पहचान संख्या",
+        "पासपोर्ट नंबर",
+        "ड्राइविंग लाइसेंस नंबर"
       ],
-      "explanation": "लोकसभा में 543 निर्वाचित + 2 एंग्लो-इंडियन मनोनीत = कुल 545 सीटें।"
+      "explanation": "आधार बायोमेट्रिक डेटा पर आधारित 12-अंकीय अद्वितीय पहचान।"
     }
   },
   {
     "id": "ngact-0094",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "What is the full form of BIOS?",
+      "question": "What does 'BCC' in email stand for?",
       "options": [
-        "Basic Integrated Operating System",
-        "Binary Integrated Output System",
-        "Basic Input Output System",
-        "Binary Input Output System"
+        "Basic Carbon Copy",
+        "Blind Carbon Copy",
+        "Backup Carbon Copy",
+        "Bulk Carbon Copy"
       ],
-      "explanation": "BIOS = Basic Input/Output System, firmware that initializes hardware during booting."
+      "explanation": "BCC stands for Blind Carbon Copy. Recipients added in BCC are not visible to other recipients."
     },
     "hi": {
-      "question": "BIOS का पूरा नाम क्या है?",
+      "question": "ईमेल में 'BCC' का पूरा नाम क्या है?",
       "options": [
-        "Basic Integrated Operating System",
-        "Binary Integrated Output System",
-        "Basic Input Output System",
-        "Binary Input Output System"
+        "बेसिक कार्बन कॉपी",
+        "ब्लाइंड कार्बन कॉपी",
+        "बैकअप कार्बन कॉपी",
+        "बल्क कार्बन कॉपी"
       ],
-      "explanation": "BIOS = Basic Input/Output System, बूटिंग के दौरान हार्डवेयर आरंभ करने वाला फर्मवेयर।"
+      "explanation": "BCC = ब्लाइंड कार्बन कॉपी, अन्य प्राप्तकर्ताओं को दिखाई नहीं देता।"
     }
   },
   {
     "id": "ngact-0095",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "World Environment Day is celebrated on?",
+      "question": "What is 'USB' type-C?",
       "options": [
-        "June 5",
-        "March 21",
-        "July 1",
-        "April 22"
+        "A new operating system",
+        "A programming language",
+        "A reversible connector standard for data and power",
+        "A cloud service"
       ],
-      "explanation": "World Environment Day is celebrated on June 5 every year since 1974."
+      "explanation": "USB Type-C is a 24-pin reversible connector standard for transmitting data, video, and power. It is now common in smartphones and laptops."
     },
     "hi": {
-      "question": "विश्व पर्यावरण दिवस कब मनाया जाता है?",
+      "question": "USB टाइप-C क्या है?",
       "options": [
-        "June 5",
-        "March 21",
-        "July 1",
-        "April 22"
+        "नया ऑपरेटिंग सिस्टम",
+        "प्रोग्रामिंग भाषा",
+        "डेटा और पावर के लिए रिवर्सिबल कनेक्टर मानक",
+        "क्लाउड सेवा"
       ],
-      "explanation": "विश्व पर्यावरण दिवस 1974 से हर साल 5 जून को मनाया जाता है।"
+      "explanation": "USB-C डेटा, वीडियो और पावर के लिए रिवर्सिबल कनेक्टर।"
+    }
+  },
+  {
+    "id": "ngact-0096",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the role of 'cache memory' in a computer?",
+      "options": [
+        "Permanent storage",
+        "Managing network",
+        "Running OS",
+        "High-speed temporary storage to speed up CPU"
+      ],
+      "explanation": "Cache memory is small, ultra-fast memory that stores frequently accessed data and instructions to reduce CPU access time."
+    },
+    "hi": {
+      "question": "कंप्यूटर में 'कैश मेमोरी' की भूमिका क्या है?",
+      "options": [
+        "स्थायी भंडारण",
+        "नेटवर्क प्रबंधन",
+        "OS चलाना",
+        "CPU को गति देने के लिए उच्च गति अस्थायी भंडारण"
+      ],
+      "explanation": "कैश मेमोरी बार-बार उपयोग होने वाले डेटा का अति-तेज़ अस्थायी भंडारण।"
+    }
+  },
+  {
+    "id": "ngact-0097",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which of these is an example of an Operating System?",
+      "options": [
+        "Ubuntu",
+        "MS Word",
+        "Java",
+        "Python"
+      ],
+      "explanation": "Ubuntu is a Linux-based operating system. MS Word is an application, Java and Python are programming languages."
+    },
+    "hi": {
+      "question": "इनमें से कौन ऑपरेटिंग सिस्टम का उदाहरण है?",
+      "options": [
+        "उबंटू",
+        "MS वर्ड",
+        "जावा",
+        "पायथन"
+      ],
+      "explanation": "उबंटू लिनक्स-आधारित OS। वर्ड एप, जावा-पायथन भाषाएं।"
+    }
+  },
+  {
+    "id": "ngact-0098",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is a 'cookie' in web browsing?",
+      "options": [
+        "A type of virus",
+        "Small text file stored by websites on user's computer",
+        "A browser extension",
+        "An encryption method"
+      ],
+      "explanation": "A cookie is a small text file stored on a user's computer by a website to remember preferences, login status, and browsing activity."
+    },
+    "hi": {
+      "question": "वेब ब्राउज़िंग में 'कुकी' क्या है?",
+      "options": [
+        "एक वायरस",
+        "वेबसाइट द्वारा उपयोगकर्ता के कंप्यूटर पर संग्रहीत छोटी टेक्स्ट फाइल",
+        "ब्राउज़र एक्सटेंशन",
+        "एन्क्रिप्शन विधि"
+      ],
+      "explanation": "कुकी वेबसाइट द्वारा प्राथमिकताएं याद रखने के लिए संग्रहीत छोटी फाइल।"
+    }
+  },
+  {
+    "id": "ngact-0099",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is 'edge computing'?",
+      "options": [
+        "Computing only on Microsoft Edge browser",
+        "Computing at the network edge near data source",
+        "Computing with sharp-edged devices",
+        "Outdated computing method"
+      ],
+      "explanation": "Edge computing brings computation and data storage closer to data sources (IoT devices, sensors) to reduce latency and bandwidth use."
+    },
+    "hi": {
+      "question": "'एज कंप्यूटिंग' क्या है?",
+      "options": [
+        "केवल Edge ब्राउज़र पर कंप्यूटिंग",
+        "डेटा स्रोत के पास नेटवर्क एज पर कंप्यूटिंग",
+        "तेज़ धार वाले उपकरणों से कंप्यूटिंग",
+        "पुरानी कंप्यूटिंग पद्धति"
+      ],
+      "explanation": "एज कंप्यूटिंग डेटा स्रोतों के करीब गणना लाती है, विलंबता कम करती है।"
+    }
+  },
+  {
+    "id": "ngact-0100",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What does 'IoT' mean in technology?",
+      "options": [
+        "Internet of Telephones",
+        "Integration of Technology",
+        "Input-Output Transfer",
+        "Internet of Things"
+      ],
+      "explanation": "IoT (Internet of Things) refers to the network of physical devices, vehicles, appliances embedded with sensors and connectivity to exchange data."
+    },
+    "hi": {
+      "question": "प्रौद्योगिकी में 'IoT' का क्या अर्थ है?",
+      "options": [
+        "इंटरनेट ऑफ टेलीफोन्स",
+        "इंटीग्रेशन ऑफ टेक्नोलॉजी",
+        "इनपुट-आउटपुट ट्रांसफर",
+        "इंटरनेट ऑफ थिंग्स"
+      ],
+      "explanation": "IoT सेंसर युक्त भौतिक उपकरणों का इंटरनेट से जुड़ा नेटवर्क।"
     }
   }
 ]

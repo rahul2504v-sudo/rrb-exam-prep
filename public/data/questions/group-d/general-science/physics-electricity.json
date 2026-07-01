@@ -5,50 +5,50 @@
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the SI unit of electric current?",
+      "question": "SI unit of electric current is:",
       "options": [
         "Volt",
         "Ampere",
         "Ohm",
         "Watt"
       ],
-      "explanation": "SI unit of electric current is Ampere (A). It measures flow of electric charge per unit time."
+      "explanation": "Current (I) is measured in Amperes (A). 1 A = 1 C/s."
     },
     "hi": {
-      "question": "विद्युत धारा की SI इकाई क्या है?",
+      "question": "विद्युत धारा की SI इकाई:",
       "options": [
         "वोल्ट",
-        "एम्पियर",
+        "एम्पीयर",
         "ओम",
         "वॉट"
       ],
-      "explanation": "विद्युत धारा की SI इकाई एम्पियर (A) है। यह प्रति इकाई समय विद्युत आवेश प्रवाह मापती है।"
+      "explanation": "धारा एम्पीयर (A) में मापी जाती है।"
     }
   },
   {
     "id": "gdspe-0002",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "Ohm's law states the relationship between:",
+      "question": "Ohm's law states: V =",
       "options": [
-        "V = IR",
-        "P = VI",
-        "W = VQ",
-        "E = mc^2"
+        "R/I",
+        "P/I",
+        "IR",
+        "I+R"
       ],
-      "explanation": "Ohm's law: V = IR (voltage = current x resistance) at constant temperature."
+      "explanation": "V = I × R (Ohm's law)."
     },
     "hi": {
-      "question": "ओम का नियम किसके बीच संबंध बताता है?",
+      "question": "ओम का नियम: V =",
       "options": [
-        "V = IR",
-        "P = VI",
-        "W = VQ",
-        "E = mc^2"
+        "R/I",
+        "P/I",
+        "IR",
+        "I+R"
       ],
-      "explanation": "ओम का नियम: V = IR (वोल्टेज = धारा x प्रतिरोध) स्थिर तापमान पर।"
+      "explanation": "V = I × R।"
     }
   },
   {
@@ -57,24 +57,24 @@
     "difficulty": "medium",
     "sourceYear": 2024,
     "en": {
-      "question": "Wire resistance 10 ohm, cut into two halves. Each half resistance?",
+      "question": "A bulb rated 100W-220V. Its resistance is:",
       "options": [
-        "5 ohm",
-        "10 ohm",
-        "20 ohm",
-        "2.5 ohm"
+        "484 Ω",
+        "220 Ω",
+        "100 Ω",
+        "44 Ω"
       ],
-      "explanation": "R = rho x L/A. When length halved, resistance halved: 10/2 = 5 ohm."
+      "explanation": "P=V²/R → R=220²/100=48400/100=484 Ω."
     },
     "hi": {
-      "question": "तार का प्रतिरोध 10 ओम, दो बराबर भागों में काटा। प्रत्येक का प्रतिरोध?",
+      "question": "100W-220V बल्ब का प्रतिरोध:",
       "options": [
-        "5 ओम",
-        "10 ओम",
-        "20 ओम",
-        "2.5 ओम"
+        "484 Ω",
+        "220 Ω",
+        "100 Ω",
+        "44 Ω"
       ],
-      "explanation": "R = rho x L/A। लंबाई आधी होने पर प्रतिरोध आधा: 10/2 = 5 ओम।"
+      "explanation": "R=220²/100=484 Ω।"
     }
   },
   {
@@ -83,2520 +83,2520 @@
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "Two resistors 6 ohm and 3 ohm in series. Equivalent resistance?",
+      "question": "Unit of electric power:",
       "options": [
-        "2 ohm",
-        "3 ohm",
-        "6 ohm",
-        "9 ohm"
+        "Ampere",
+        "Volt",
+        "Ohm",
+        "Watt"
       ],
-      "explanation": "Series: Rs = R1 + R2 = 6 + 3 = 9 ohm."
+      "explanation": "Electric power P = VI, unit = Watt (W)."
     },
     "hi": {
-      "question": "6 ओम और 3 ओम के दो प्रतिरोधक श्रेणीक्रम में। तुल्य प्रतिरोध?",
+      "question": "विद्युत शक्ति की इकाई:",
       "options": [
-        "2 ओम",
-        "3 ओम",
-        "6 ओम",
-        "9 ओम"
+        "एम्पीयर",
+        "वोल्ट",
+        "ओम",
+        "वॉट"
       ],
-      "explanation": "श्रेणीक्रम: Rs = R1 + R2 = 6 + 3 = 9 ओम।"
+      "explanation": "विद्युत शक्ति = VI, इकाई वॉट (W)।"
     }
   },
   {
     "id": "gdspe-0005",
-    "correctOption": "C",
-    "difficulty": "medium",
+    "correctOption": "B",
+    "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "Two 6 ohm resistors in parallel. Equivalent resistance?",
+      "question": "Resistivity depends on:",
       "options": [
-        "12 ohm",
-        "6 ohm",
-        "3 ohm",
-        "1.5 ohm"
+        "Length",
+        "Material/nature",
+        "Area",
+        "Shape"
       ],
-      "explanation": "1/Rp = 1/6 + 1/6 = 2/6. Rp = 3 ohm. For n equal: Rp = R/n."
+      "explanation": "ρ depends on material and temperature, not dimensions."
     },
     "hi": {
-      "question": "6 ओम के दो प्रतिरोधक समांतरक्रम में। तुल्य प्रतिरोध?",
+      "question": "प्रतिरोधकता निर्भर:",
       "options": [
-        "12 ओम",
-        "6 ओम",
-        "3 ओम",
-        "1.5 ओम"
+        "लंबाई",
+        "पदार्थ/प्रकृति",
+        "क्षेत्रफल",
+        "आकार"
       ],
-      "explanation": "1/Rp = 1/6 + 1/6 = 2/6। Rp = 3 ओम। n समान के लिए: Rp = R/n।"
+      "explanation": "ρ पदार्थ और तापमान पर निर्भर, न कि विमाओं पर।"
     }
   },
   {
     "id": "gdspe-0006",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
-    "sourceYear": 2023,
+    "sourceYear": 2024,
     "en": {
-      "question": "Bulb rated 220 V, 100 W. Current drawn?",
+      "question": "Three resistors 2Ω, 3Ω, 6Ω in parallel. Equivalent resistance:",
       "options": [
-        "0.22 A",
-        "0.45 A",
-        "2.2 A",
-        "4.5 A"
+        "11 Ω",
+        "6 Ω",
+        "1 Ω",
+        "0.5 Ω"
       ],
-      "explanation": "I = P/V = 100/220 = 0.45 A approximately."
+      "explanation": "1/R=1/2+1/3+1/6=3/6+2/6+1/6=6/6=1 → R=1 Ω."
     },
     "hi": {
-      "question": "बल्ब रेटिंग 220 V, 100 W। खींची गई धारा?",
+      "question": "2Ω,3Ω,6Ω समांतर। तुल्य प्रतिरोध:",
       "options": [
-        "0.22 A",
-        "0.45 A",
-        "2.2 A",
-        "4.5 A"
+        "11 Ω",
+        "6 Ω",
+        "1 Ω",
+        "0.5 Ω"
       ],
-      "explanation": "I = P/V = 100/220 = लगभग 0.45 A।"
+      "explanation": "1/R=1/2+1/3+1/6=1 → R=1 Ω।"
     }
   },
   {
     "id": "gdspe-0007",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "What is the function of an electric fuse?",
+      "question": "Fuse wire is made of material with:",
       "options": [
-        "Increase current",
-        "Break circuit when excessive current flows",
-        "Regulate voltage",
-        "Store electric charge"
+        "Low melting point",
+        "High melting point",
+        "High resistance only",
+        "Low resistance"
       ],
-      "explanation": "A fuse melts and breaks circuit when current exceeds rated value, protecting appliances."
+      "explanation": "Fuse wire: low melting point alloy (tin-lead) melts on overcurrent."
     },
     "hi": {
-      "question": "विद्युत फ्यूज का कार्य क्या है?",
+      "question": "फ्यूज तार:",
       "options": [
-        "धारा बढ़ाना",
-        "अत्यधिक धारा प्रवाहित होने पर सर्किट तोड़ना",
-        "वोल्टेज नियंत्रित करना",
-        "विद्युत आवेश संग्रहित करना"
+        "कम गलनांक",
+        "उच्च गलनांक",
+        "केवल उच्च प्रतिरोध",
+        "कम प्रतिरोध"
       ],
-      "explanation": "फ्यूज पिघलकर सर्किट तोड़ता है जब धारा रेटेड मान से अधिक हो, उपकरणों की रक्षा करता है।"
+      "explanation": "फ्यूज तार: कम गलनांक मिश्र धातु, अतिधारा पर पिघलती है।"
     }
   },
   {
     "id": "gdspe-0008",
-    "correctOption": "B",
-    "difficulty": "hard",
+    "correctOption": "D",
+    "difficulty": "easy",
     "sourceYear": 2024,
     "en": {
-      "question": "Heat in 5 ohm resistor with 2 A for 1 minute?",
+      "question": "The commercial unit of electrical energy is:",
       "options": [
-        "600 J",
-        "1200 J",
-        "1800 J",
-        "2400 J"
+        "Joule",
+        "Watt",
+        "Volt",
+        "kWh (kilowatt-hour)"
       ],
-      "explanation": "H = I^2 R t = 4 x 5 x 60 = 1200 J."
+      "explanation": "1 kWh = 3.6×10⁶ J. Electricity bills use kWh."
     },
     "hi": {
-      "question": "5 ओम प्रतिरोधक में 2 A धारा 1 मिनट तक। उत्पन्न ऊष्मा?",
+      "question": "विद्युत ऊर्जा की वाणिज्यिक इकाई:",
       "options": [
-        "600 J",
-        "1200 J",
-        "1800 J",
-        "2400 J"
+        "जूल",
+        "वॉट",
+        "वोल्ट",
+        "kWh (किलोवॉट-घंटा)"
       ],
-      "explanation": "H = I^2 R t = 4 x 5 x 60 = 1200 J।"
+      "explanation": "1 kWh = 3.6×10⁶ J।"
     }
   },
   {
     "id": "gdspe-0009",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "The SI unit of electric charge is:",
+      "question": "If a wire of resistance R is stretched to double its length, new resistance:",
       "options": [
-        "Ampere",
-        "Volt",
-        "Coulomb",
-        "Ohm"
+        "2R",
+        "4R",
+        "R/2",
+        "R"
       ],
-      "explanation": "Electric charge is measured in Coulombs (C). 1 C = charge of ~6.25x10^18 electrons."
+      "explanation": "R∝L² (volume constant). L→2L, R→4R."
     },
     "hi": {
-      "question": "विद्युत आवेश की SI इकाई:",
+      "question": "R प्रतिरोध का तार खींचकर लंबाई दोगुनी। नया प्रतिरोध:",
       "options": [
-        "एम्पियर",
-        "वोल्ट",
-        "कूलाम",
-        "ओम"
+        "2R",
+        "4R",
+        "R/2",
+        "R"
       ],
-      "explanation": "विद्युत आवेश कूलाम (C) में मापा जाता है। 1 C = ~6.25x10^18 इलेक्ट्रॉनों का आवेश।"
+      "explanation": "R∝L² → 4R।"
     }
   },
   {
     "id": "gdspe-0010",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "The SI unit of potential difference is:",
+      "question": "1 kilowatt (kW) =",
       "options": [
-        "Volt",
-        "Ampere",
-        "Ohm",
-        "Watt"
+        "10 W",
+        "100 W",
+        "1000 W",
+        "10000 W"
       ],
-      "explanation": "Potential difference (voltage) is measured in Volts (V). 1 V = 1 J/C."
+      "explanation": "1 kW = 1000 W."
     },
     "hi": {
-      "question": "विभवांतर की SI इकाई:",
+      "question": "1 किलोवॉट =",
       "options": [
-        "वोल्ट",
-        "एम्पियर",
-        "ओम",
-        "वॉट"
+        "10 W",
+        "100 W",
+        "1000 W",
+        "10000 W"
       ],
-      "explanation": "विभवांतर (वोल्टेज) वोल्ट (V) में मापा जाता है। 1 V = 1 J/C।"
+      "explanation": "1 kW = 1000 W।"
     }
   },
   {
     "id": "gdspe-0011",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "SI unit of resistance is:",
+      "question": "A current of 5 A flows through 10 Ω for 2 minutes. Heat produced:",
       "options": [
-        "Volt",
-        "Ampere",
-        "Coulomb",
-        "Ohm"
+        "30000 J",
+        "600 J",
+        "3000 J",
+        "1000 J"
       ],
-      "explanation": "Resistance is measured in Ohms (Ω). 1 Ω = 1 V/A."
+      "explanation": "H=I²Rt=25×10×120=30000 J."
     },
     "hi": {
-      "question": "प्रतिरोध की SI इकाई:",
+      "question": "5 A, 10 Ω, 2 मिनट। उत्पन्न ऊष्मा:",
       "options": [
-        "वोल्ट",
-        "एम्पियर",
-        "कूलाम",
-        "ओम"
+        "30000 J",
+        "600 J",
+        "3000 J",
+        "1000 J"
       ],
-      "explanation": "प्रतिरोध ओम (Ω) में मापा जाता है। 1 Ω = 1 V/A।"
+      "explanation": "H=25×10×120=30000 J।"
     }
   },
   {
     "id": "gdspe-0012",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "Three 3 ohm resistors in parallel. Equivalent resistance?",
+      "question": "Electric current is a flow of:",
       "options": [
-        "9 ohm",
-        "1 ohm",
-        "3 ohm",
-        "0.33 ohm"
+        "Atoms",
+        "Molecules",
+        "Protons",
+        "Electrons"
       ],
-      "explanation": "Rp=R/n=3/3=1 ohm. Or: 1/Rp=1/3+1/3+1/3=3/3=1, Rp=1 ohm."
+      "explanation": "Current = flow of electrons in a conductor."
     },
     "hi": {
-      "question": "तीन 3 ओम प्रतिरोधक समांतरक्रम में। तुल्य प्रतिरोध?",
+      "question": "विद्युत धारा प्रवाह है:",
       "options": [
-        "9 ओम",
-        "1 ओम",
-        "3 ओम",
-        "0.33 ओम"
+        "परमाणु",
+        "अणु",
+        "प्रोटॉन",
+        "इलेक्ट्रॉन"
       ],
-      "explanation": "Rp=R/n=3/3=1 ओम। या: 1/Rp=1/3+1/3+1/3=1, Rp=1 ओम।"
+      "explanation": "धारा = चालक में इलेक्ट्रॉनों का प्रवाह।"
     }
   },
   {
     "id": "gdspe-0013",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Electric power is calculated as:",
+      "question": "Two bulbs 60W and 100W in series. Which glows brighter?",
       "options": [
-        "P = I/R",
-        "P = V/R",
-        "P = VI",
-        "P = I^2/V"
+        "100W",
+        "60W",
+        "Both same",
+        "Neither"
       ],
-      "explanation": "Electric power P = V x I = I^2 R = V^2/R. The basic formula is P = VI."
+      "explanation": "In series, higher resistance (60W has R=806Ω vs 100W=484Ω) gets more voltage → brighter."
     },
     "hi": {
-      "question": "विद्युत शक्ति की गणना:",
+      "question": "60W और 100W बल्ब श्रेणी में। कौन तेज:",
       "options": [
-        "P = I/R",
-        "P = V/R",
-        "P = VI",
-        "P = I^2/V"
+        "100W",
+        "60W",
+        "समान",
+        "कोई नहीं"
       ],
-      "explanation": "विद्युत शक्ति P = V x I = I^2 R = V^2/R। मूल सूत्र P = VI है।"
+      "explanation": "श्रेणी में उच्च प्रतिरोध (60W) पर अधिक वोल्टेज → तेज।"
     }
   },
   {
     "id": "gdspe-0014",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A heater draws 5 A from 220 V. Its power is:",
+      "question": "Voltmeter is always connected in:",
       "options": [
-        "44 W",
-        "220 W",
-        "550 W",
-        "1100 W"
+        "Series",
+        "Either",
+        "Parallel",
+        "Not connected"
       ],
-      "explanation": "P = V x I = 220 x 5 = 1100 W."
+      "explanation": "Voltmeter measures potential difference → connected in parallel."
     },
     "hi": {
-      "question": "हीटर 220 V से 5 A खींचता है। शक्ति:",
+      "question": "वोल्टमीटर जोड़ा जाता है:",
       "options": [
-        "44 W",
-        "220 W",
-        "550 W",
-        "1100 W"
+        "श्रेणी में",
+        "कहीं भी",
+        "समांतर",
+        "नहीं जोड़ा"
       ],
-      "explanation": "P = 220 x 5 = 1100 W।"
+      "explanation": "वोल्टमीटर विभवांतर मापता है → समांतर जोड़ा जाता है।"
     }
   },
   {
     "id": "gdspe-0015",
     "correctOption": "A",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Ohm's law is valid for:",
+      "question": "Ammeter is connected in:",
       "options": [
-        "Metallic conductors at constant temperature",
-        "Semiconductors",
-        "Electrolytes",
-        "All materials"
+        "Series",
+        "Parallel",
+        "Either",
+        "Not connected"
       ],
-      "explanation": "Ohm's law (V=IR) holds for metallic conductors at constant temperature. Semiconductors and electrolytes are non-ohmic."
+      "explanation": "Ammeter measures current → connected in series."
     },
     "hi": {
-      "question": "ओम का नियम किसके लिए मान्य है?",
+      "question": "अमीटर जोड़ा जाता है:",
       "options": [
-        "स्थिर ताप पर धात्विक चालक",
-        "अर्धचालक",
-        "विद्युत अपघट्य",
-        "सभी पदार्थ"
+        "श्रेणी में",
+        "समांतर",
+        "कहीं भी",
+        "नहीं जोड़ा"
       ],
-      "explanation": "ओम का नियम (V=IR) स्थिर ताप पर धात्विक चालकों के लिए मान्य। अर्धचालक और विद्युत अपघट्य अन-ओमीय।"
+      "explanation": "अमीटर धारा मापता है → श्रेणी में जोड़ा जाता है।"
     }
   },
   {
     "id": "gdspe-0016",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Two 100 ohm resistors in parallel across 200 V. Total current?",
+      "question": "Electric power P in terms of V and I:",
       "options": [
-        "1 A",
-        "4 A",
-        "2 A",
-        "8 A"
+        "P=V+I",
+        "P=V/I",
+        "P=I/V",
+        "P=VI"
       ],
-      "explanation": "Rp=100/2=50 ohm. I=V/R=200/50=4 A."
+      "explanation": "P = V × I."
     },
     "hi": {
-      "question": "दो 100 ओम समांतर में 200 V पर। कुल धारा?",
+      "question": "V और I के पदों में शक्ति:",
       "options": [
-        "1 A",
-        "4 A",
-        "2 A",
-        "8 A"
+        "P=V+I",
+        "P=V/I",
+        "P=I/V",
+        "P=VI"
       ],
-      "explanation": "Rp=50 ओम। I=200/50=4 A।"
+      "explanation": "P = V × I।"
     }
   },
   {
     "id": "gdspe-0017",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Resistivity depends on:",
+      "question": "Nichrome is used in heating elements because of:",
       "options": [
-        "Length",
-        "Cross-sectional area",
-        "Nature of material",
-        "Both length and area"
+        "Low resistance",
+        "High resistivity and melting point",
+        "Low cost",
+        "Light weight"
       ],
-      "explanation": "Resistivity (rho) is a material property and depends only on the nature and temperature of the material, not on dimensions."
+      "explanation": "Nichrome: high resistivity, high melting point, doesn't oxidize easily."
     },
     "hi": {
-      "question": "प्रतिरोधकता निर्भर करती है:",
+      "question": "नाइक्रोम तापन तत्व में प्रयुक्त:",
       "options": [
-        "लंबाई",
-        "अनुप्रस्थ क्षेत्रफल",
-        "पदार्थ की प्रकृति",
-        "लंबाई और क्षेत्रफल दोनों"
+        "कम प्रतिरोध",
+        "उच्च प्रतिरोधकता और गलनांक",
+        "कम कीमत",
+        "हल्का वजन"
       ],
-      "explanation": "प्रतिरोधकता (ρ) पदार्थ का गुण है, केवल पदार्थ की प्रकृति और तापमान पर निर्भर, आयामों पर नहीं।"
+      "explanation": "उच्च प्रतिरोधकता, उच्च गलनांक, ऑक्सीकरण नहीं।"
     }
   },
   {
     "id": "gdspe-0018",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "An electric bulb rated 100 W, 220 V. Its resistance is:",
+      "question": "If current through a resistor is doubled, heat produced becomes:",
       "options": [
-        "220 ohm",
-        "100 ohm",
-        "2.2 ohm",
-        "484 ohm"
+        "Double",
+        "Same",
+        "Four times",
+        "Half"
       ],
-      "explanation": "R = V^2/P = 220^2/100 = 48400/100 = 484 ohm."
+      "explanation": "H∝I². I→2I → H→4H."
     },
     "hi": {
-      "question": "100 W, 220 V का बल्ब। प्रतिरोध:",
+      "question": "धारा दोगुनी, उत्पन्न ऊष्मा:",
       "options": [
-        "220 ओम",
-        "100 ओम",
-        "2.2 ओम",
-        "484 ओम"
+        "दोगुनी",
+        "समान",
+        "चार गुना",
+        "आधी"
       ],
-      "explanation": "R = 220^2/100 = 484 ओम।"
+      "explanation": "H∝I² → 4 गुना।"
     }
   },
   {
     "id": "gdspe-0019",
     "correctOption": "A",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Joule's law of heating: H =",
+      "question": "SI unit of resistance:",
       "options": [
-        "I^2 R t",
-        "V I t",
-        "I R t",
-        "V^2 R t"
+        "Ohm (Ω)",
+        "Volt",
+        "Ampere",
+        "Watt"
       ],
-      "explanation": "Joule's law: Heat produced H = I^2 R t (in joules). Also equals V I t = V^2 t/R."
+      "explanation": "R = V/I. Unit = Volt/Ampere = Ohm (Ω)."
     },
     "hi": {
-      "question": "जूल का ऊष्मा नियम: H =",
+      "question": "प्रतिरोध की SI इकाई:",
       "options": [
-        "I^2 R t",
-        "V I t",
-        "I R t",
-        "V^2 R t"
+        "ओम (Ω)",
+        "वोल्ट",
+        "एम्पीयर",
+        "वॉट"
       ],
-      "explanation": "जूल का नियम: उत्पन्न ऊष्मा H = I^2 R t (जूल में)। V I t = V^2 t/R भी।"
+      "explanation": "Ω = V/A।"
     }
   },
   {
     "id": "gdspe-0020",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "Nichrome is used in heating elements because it has:",
+      "question": "A 100 W bulb runs 10 hrs/day. Monthly (30 days) energy in kWh:",
       "options": [
-        "Low resistivity and low melting point",
-        "High resistivity and high melting point",
-        "Low resistivity and high melting point",
-        "High resistivity and low melting point"
+        "100",
+        "10",
+        "1",
+        "30"
       ],
-      "explanation": "Nichrome (Ni-Cr alloy) has high resistivity and high melting point, making it ideal for heating elements."
+      "explanation": "E=0.1×10×30=30 kWh (units)."
     },
     "hi": {
-      "question": "नाइक्रोम हीटिंग एलिमेंट में उपयोग क्यों?",
+      "question": "100W बल्ब 10 घंटे/दिन। 30 दिन में kWh:",
       "options": [
-        "कम प्रतिरोधकता, कम गलनांक",
-        "उच्च प्रतिरोधकता, उच्च गलनांक",
-        "कम प्रतिरोधकता, उच्च गलनांक",
-        "उच्च प्रतिरोधकता, कम गलनांक"
+        "100",
+        "10",
+        "1",
+        "30"
       ],
-      "explanation": "नाइक्रोम (Ni-Cr मिश्रधातु) की उच्च प्रतिरोधकता और उच्च गलनांक इसे हीटिंग एलिमेंट के लिए आदर्श बनाते हैं।"
+      "explanation": "E=0.1×10×30=30 kWh।"
     }
   },
   {
     "id": "gdspe-0021",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "In a series circuit, current:",
+      "question": "Good conductors have ___ resistivity:",
       "options": [
-        "Divides among components",
-        "Is different for each component",
-        "Remains same throughout",
-        "Is zero"
+        "High",
+        "Low",
+        "Zero",
+        "Infinite"
       ],
-      "explanation": "In a series circuit, the same current flows through all components connected in series."
+      "explanation": "Copper, silver, etc. have very low resistivity (< 10⁻⁸ Ω·m)."
     },
     "hi": {
-      "question": "श्रेणीक्रम परिपथ में धारा:",
+      "question": "अच्छे चालकों की प्रतिरोधकता:",
       "options": [
-        "घटकों में बंटती है",
-        "प्रत्येक के लिए भिन्न",
-        "सभी में समान",
-        "शून्य"
+        "उच्च",
+        "निम्न",
+        "शून्य",
+        "अनंत"
       ],
-      "explanation": "श्रेणीक्रम में सभी घटकों से समान धारा प्रवाहित होती है।"
+      "explanation": "तांबा, चांदी: बहुत कम प्रतिरोधकता।"
     }
   },
   {
     "id": "gdspe-0022",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "In a parallel circuit, voltage:",
+      "question": "Resistance of a conductor is directly proportional to:",
       "options": [
-        "Divides",
-        "Is different",
-        "Is zero for some",
-        "Remains same across each branch"
+        "Area",
+        "Conductivity",
+        "Length",
+        "Temperature always"
       ],
-      "explanation": "In parallel circuits, voltage across each branch is the same as the source voltage."
+      "explanation": "R=ρL/A → R∝L."
     },
     "hi": {
-      "question": "समांतरक्रम परिपथ में वोल्टेज:",
+      "question": "चालक का प्रतिरोध समानुपाती:",
       "options": [
-        "बंटता है",
-        "भिन्न होता है",
-        "कुछ में शून्य",
-        "प्रत्येक शाखा में समान"
+        "क्षेत्रफल",
+        "चालकता",
+        "लंबाई",
+        "हमेशा तापमान"
       ],
-      "explanation": "समांतरक्रम में प्रत्येक शाखा में वोल्टेज स्रोत वोल्टेज के समान होता है।"
+      "explanation": "R=ρL/A → R∝L।"
     }
   },
   {
     "id": "gdspe-0023",
     "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "10 C of charge passes in 5 s. Current?",
+      "question": "Potential difference is measured in:",
       "options": [
-        "2 A",
-        "0.5 A",
-        "10 A",
-        "50 A"
+        "Volt",
+        "Ampere",
+        "Ohm",
+        "Joule"
       ],
-      "explanation": "I = Q/t = 10/5 = 2 A."
+      "explanation": "V unit = Volt."
     },
     "hi": {
-      "question": "5 s में 10 C आवेश गुजरता है। धारा?",
+      "question": "विभवांतर मापा जाता है:",
       "options": [
-        "2 A",
-        "0.5 A",
-        "10 A",
-        "50 A"
+        "वोल्ट",
+        "एम्पीयर",
+        "ओम",
+        "जूल"
       ],
-      "explanation": "I = Q/t = 10/5 = 2 A।"
+      "explanation": "V की इकाई वोल्ट।"
     }
   },
   {
     "id": "gdspe-0024",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Two resistors 4 ohm, 8 ohm in parallel with 6 ohm in series across 12 V. Total current?",
+      "question": "Two 10Ω resistors in parallel. Equivalent resistance:",
       "options": [
-        "1 A",
-        "1.5 A",
-        "2 A",
-        "3 A"
+        "20 Ω",
+        "10 Ω",
+        "0 Ω",
+        "5 Ω"
       ],
-      "explanation": "Parallel: 1/Rp=1/4+1/8=3/8, Rp=8/3. Total R=6+8/3=26/3=8.67 ohm. I=12/(26/3)=36/26=1.38 A."
+      "explanation": "R_eq=10/2=5 Ω (equal resistors in parallel)."
     },
     "hi": {
-      "question": "4, 8 ओम समांतर + 6 ओम श्रेणी, 12 V पर। कुल धारा?",
+      "question": "दो 10Ω समांतर। तुल्य प्रतिरोध:",
       "options": [
-        "1 A",
-        "1.5 A",
-        "2 A",
-        "3 A"
+        "20 Ω",
+        "10 Ω",
+        "0 Ω",
+        "5 Ω"
       ],
-      "explanation": "Rp=8/3, R_कुल=26/3। I=12/(26/3)=36/26=1.38≈1.5 A।"
+      "explanation": "R_eq=10/2=5 Ω।"
     }
   },
   {
     "id": "gdspe-0025",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "An ammeter is connected in ___ with the circuit.",
+      "question": "Electric heater works on principle of:",
       "options": [
-        "Parallel",
-        "Across",
-        "Series",
-        "Either way"
+        "Magnetic effect",
+        "Heating effect of current",
+        "Chemical effect",
+        "Photoelectric effect"
       ],
-      "explanation": "An ammeter is connected in series to measure current flowing through the circuit."
+      "explanation": "Joule heating: H = I²Rt."
     },
     "hi": {
-      "question": "एमीटर परिपथ में ___ जोड़ा जाता है।",
+      "question": "विद्युत हीटर सिद्धांत:",
       "options": [
-        "समांतरक्रम",
-        "आरपार",
-        "श्रेणीक्रम",
-        "किसी भी प्रकार"
+        "चुंबकीय प्रभाव",
+        "धारा का तापीय प्रभाव",
+        "रासायनिक प्रभाव",
+        "प्रकाश विद्युत प्रभाव"
       ],
-      "explanation": "एमीटर परिपथ में बहने वाली धारा मापने के लिए श्रेणीक्रम में जोड़ा जाता है।"
+      "explanation": "जूल तापन: H = I²Rt।"
     }
   },
   {
     "id": "gdspe-0026",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Voltmeter is always connected in:",
+      "question": "If R₁=3Ω and R₂=6Ω in parallel, equivalent resistance:",
       "options": [
-        "Series",
-        "Across the resistor being bypassed",
-        "In line",
-        "Parallel"
+        "9 Ω",
+        "3 Ω",
+        "2 Ω",
+        "1 Ω"
       ],
-      "explanation": "A voltmeter measures potential difference and is connected in parallel across the component."
+      "explanation": "1/R=1/3+1/6=3/6=1/2 → R=2 Ω."
     },
     "hi": {
-      "question": "वोल्टमीटर हमेशा ___ जोड़ा जाता है।",
+      "question": "3Ω और 6Ω समांतर। तुल्य प्रतिरोध:",
       "options": [
-        "श्रेणीक्रम",
-        "बायपास में",
-        "लाइन में",
-        "समांतरक्रम"
+        "9 Ω",
+        "3 Ω",
+        "2 Ω",
+        "1 Ω"
       ],
-      "explanation": "वोल्टमीटर विभवांतर मापता है और घटक के समांतरक्रम में जोड़ा जाता है।"
+      "explanation": "1/R=1/3+1/6=1/2 → R=2 Ω।"
     }
   },
   {
     "id": "gdspe-0027",
     "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A wire of resistance 20 ohm stretched to double its length. New resistance?",
+      "question": "Which is a semiconductor?",
       "options": [
-        "80 ohm",
-        "40 ohm",
-        "20 ohm",
-        "10 ohm"
+        "Silicon",
+        "Copper",
+        "Silver",
+        "Iron"
       ],
-      "explanation": "Volume constant: A2=A1/2. R=rho L/A. New R=rho(2L)/(A/2)=4rho L/A=4x20=80 ohm."
+      "explanation": "Silicon (Si) and Germanium (Ge) are semiconductors."
     },
     "hi": {
-      "question": "20 ओम का तार खींचकर लंबाई दोगुनी। नया प्रतिरोध?",
+      "question": "अर्धचालक कौन:",
       "options": [
-        "80 ओम",
-        "40 ओम",
-        "20 ओम",
-        "10 ओम"
+        "सिलिकॉन",
+        "तांबा",
+        "चांदी",
+        "लोहा"
       ],
-      "explanation": "आयतन स्थिर: A2=A1/2। R=ρ(2L)/(A/2)=4ρL/A=80 ओम।"
+      "explanation": "सिलिकॉन और जर्मेनियम अर्धचालक हैं।"
     }
   },
   {
     "id": "gdspe-0028",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "A good conductor has:",
+      "question": "In series combination of resistors, total resistance:",
       "options": [
-        "High resistivity",
-        "Low resistivity",
-        "Zero resistance at room temp",
-        "No free electrons"
+        "Decreases",
+        "Remains same",
+        "Is minimum",
+        "Increases (sum)"
       ],
-      "explanation": "Good conductors like copper have very low resistivity (~1.7x10^-8 ohm-m)."
+      "explanation": "R_s = R₁ + R₂ + ... (sum of individual resistances)."
     },
     "hi": {
-      "question": "अच्छे चालक की:",
+      "question": "श्रेणी संयोजन में कुल प्रतिरोध:",
       "options": [
-        "उच्च प्रतिरोधकता",
-        "कम प्रतिरोधकता",
-        "कमरे के ताप पर शून्य प्रतिरोध",
-        "कोई मुक्त इलेक्ट्रॉन नहीं"
+        "घटता",
+        "समान",
+        "न्यूनतम",
+        "बढ़ता (योग)"
       ],
-      "explanation": "तांबा जैसे अच्छे चालकों की प्रतिरोधकता बहुत कम (~1.7x10^-8 ओम-मी) होती है।"
+      "explanation": "R_s = R₁ + R₂ + ...।"
     }
   },
   {
     "id": "gdspe-0029",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "An electric iron of 750 W used 2 hours daily. Energy in 30 days?",
+      "question": "EMF stands for:",
       "options": [
-        "15 kWh",
-        "30 kWh",
-        "45 kWh",
-        "90 kWh"
+        "Electric Magnetic Force",
+        "Electromotive Force",
+        "Energy Magnetic Field",
+        "Electric Motion Force"
       ],
-      "explanation": "Daily=750x2=1500 Wh=1.5 kWh. Monthly=1.5x30=45 kWh."
+      "explanation": "EMF = Electromotive Force (drives current in circuit)."
     },
     "hi": {
-      "question": "750 W की इस्त्री 2 घंटे/दिन। 30 दिन में ऊर्जा?",
+      "question": "EMF का पूर्ण रूप:",
       "options": [
-        "15 kWh",
-        "30 kWh",
-        "45 kWh",
-        "90 kWh"
+        "Electric Magnetic Force",
+        "Electromotive Force",
+        "Energy Magnetic Field",
+        "Electric Motion Force"
       ],
-      "explanation": "दैनिक=750x2=1.5 kWh। मासिक=1.5x30=45 kWh।"
+      "explanation": "EMF = विद्युत वाहक बल।"
     }
   },
   {
     "id": "gdspe-0030",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "1 kWh is also called:",
+      "question": "If a 12V battery sends 2A current, resistance is:",
       "options": [
-        "1 unit",
-        "1 B.O.T. unit",
-        "Board of Trade unit",
-        "All of these"
+        "24 Ω",
+        "0.17 Ω",
+        "6 Ω",
+        "3 Ω"
       ],
-      "explanation": "1 kWh = 1 unit = 1 Board of Trade (B.O.T.) unit. It is the commercial unit of electrical energy."
+      "explanation": "R=V/I=12/2=6 Ω."
     },
     "hi": {
-      "question": "1 kWh को कहते हैं:",
+      "question": "12V बैटरी, 2A धारा। प्रतिरोध:",
       "options": [
-        "1 यूनिट",
-        "1 B.O.T. यूनिट",
-        "बोर्ड ऑफ ट्रेड यूनिट",
-        "ये सभी"
+        "24 Ω",
+        "0.17 Ω",
+        "6 Ω",
+        "3 Ω"
       ],
-      "explanation": "1 kWh = 1 यूनिट = 1 B.O.T. यूनिट। यह विद्युत ऊर्जा की व्यापारिक इकाई है।"
+      "explanation": "R=12/2=6 Ω।"
     }
   },
   {
     "id": "gdspe-0031",
     "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A 12 V battery sends 2 A through a 5 ohm resistor. Heat in 30 s?",
+      "question": "In a dry cell, energy conversion is:",
       "options": [
-        "600 J",
-        "120 J",
-        "300 J",
-        "150 J"
+        "Chemical → Electrical",
+        "Electrical → Chemical",
+        "Mechanical → Electrical",
+        "Heat → Electrical"
       ],
-      "explanation": "H=I^2Rt=4x5x30=600 J."
+      "explanation": "Dry cell/battery: chemical energy → electrical energy."
     },
     "hi": {
-      "question": "12 V बैटरी 5 ओम में 2 A भेजती है। 30 s में ऊष्मा?",
+      "question": "शुष्क सेल में ऊर्जा रूपांतरण:",
       "options": [
-        "600 J",
-        "120 J",
-        "300 J",
-        "150 J"
+        "रासायनिक → विद्युत",
+        "विद्युत → रासायनिक",
+        "यांत्रिक → विद्युत",
+        "ऊष्मा → विद्युत"
       ],
-      "explanation": "H=4x5x30=600 J।"
+      "explanation": "शुष्क सेल: रासायनिक → विद्युत।"
     }
   },
   {
     "id": "gdspe-0032",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "The resistance of a conductor increases with:",
+      "question": "If radius of a wire is halved, resistance becomes:",
       "options": [
-        "Decrease in length",
-        "Increase in temperature",
-        "Decrease in resistivity",
-        "Increase in area"
+        "Half",
+        "Double",
+        "4 times",
+        "16 times"
       ],
-      "explanation": "For metals, resistance increases with temperature because atomic vibrations increase, obstructing electron flow."
+      "explanation": "R∝1/A∝1/r². r→r/2 → R→4R."
     },
     "hi": {
-      "question": "चालक का प्रतिरोध किससे बढ़ता है?",
+      "question": "तार की त्रिज्या आधी। प्रतिरोध:",
       "options": [
-        "लंबाई घटने",
-        "तापमान बढ़ने",
-        "प्रतिरोधकता घटने",
-        "क्षेत्रफल बढ़ने"
+        "आधा",
+        "दोगुना",
+        "4 गुना",
+        "16 गुना"
       ],
-      "explanation": "धातुओं में तापमान बढ़ने पर परमाणु कंपन बढ़ते हैं, इलेक्ट्रॉन प्रवाह बाधित होता है, प्रतिरोध बढ़ता है।"
+      "explanation": "R∝1/r² → 4 गुना।"
     }
   },
   {
     "id": "gdspe-0033",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A 220 V, 60 W and 220 V, 100 W bulb in series across 440 V. Which blows?",
+      "question": "AC current changes direction:",
       "options": [
-        "100 W first",
-        "Both together",
-        "60 W first",
-        "Neither"
+        "Once",
+        "Periodically",
+        "Never",
+        "Randomly"
       ],
-      "explanation": "R60=220^2/60=807; R100=220^2/100=484. Voltage across 60W=440x807/1291=275V>220V. 60W blows."
+      "explanation": "Alternating current (AC) reverses direction periodically (50 Hz in India)."
     },
     "hi": {
-      "question": "220V,60W और 220V,100W बल्ब श्रेणी में 440V पर। कौन फ्यूज?",
+      "question": "AC धारा दिशा बदलती है:",
       "options": [
-        "100W पहले",
-        "दोनों साथ",
-        "60W पहले",
-        "कोई नहीं"
+        "एक बार",
+        "आवर्ती रूप से",
+        "कभी नहीं",
+        "यादृच्छिक"
       ],
-      "explanation": "R60=807, R100=484। 60W बल्ब पर वोल्टेज=275V>220V। 60W फ्यूज होगा।"
+      "explanation": "प्रत्यावर्ती धारा आवर्ती रूप से दिशा बदलती है (भारत में 50 Hz)।"
     }
   },
   {
     "id": "gdspe-0034",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Which has the least resistivity?",
+      "question": "1 electron volt (eV) is equal to:",
       "options": [
-        "Nichrome",
-        "Constantan",
-        "Manganin",
-        "Silver"
+        "1 J",
+        "1.6×10¹⁹ J",
+        "1.6×10⁻¹⁹ J",
+        "3.6×10⁶ J"
       ],
-      "explanation": "Silver has the lowest resistivity (~1.6x10^-8 ohm-m) among metals, making it the best conductor."
+      "explanation": "1 eV = charge of electron × 1V = 1.6×10⁻¹⁹ J."
     },
     "hi": {
-      "question": "सबसे कम प्रतिरोधकता किसकी?",
+      "question": "1 इलेक्ट्रॉन वोल्ट (eV) =",
       "options": [
-        "नाइक्रोम",
-        "कांस्टेंटन",
-        "मैंगनिन",
-        "चांदी"
+        "1 J",
+        "1.6×10¹⁹ J",
+        "1.6×10⁻¹⁹ J",
+        "3.6×10⁶ J"
       ],
-      "explanation": "चांदी की प्रतिरोधकता सबसे कम (~1.6x10^-8 Ω-m), सर्वोत्तम चालक।"
+      "explanation": "1 eV = 1.6×10⁻¹⁹ C × 1V = 1.6×10⁻¹⁹ J।"
     }
   },
   {
     "id": "gdspe-0035",
     "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "Two 60 W, 220 V bulbs in series across 220 V. Total power?",
+      "question": "In parallel combination, voltage across each resistor is:",
       "options": [
-        "30 W",
-        "60 W",
-        "120 W",
-        "15 W"
+        "Same",
+        "Different",
+        "Zero",
+        "Sum of all"
       ],
-      "explanation": "Each bulb gets 110 V. P=V^2/R. Since V halved, each P=60/4=15 W. Total=30 W."
+      "explanation": "In parallel, all branches have same potential difference."
     },
     "hi": {
-      "question": "दो 60W,220V बल्ब श्रेणी में 220V पर। कुल शक्ति?",
+      "question": "समांतर संयोजन में प्रत्येक प्रतिरोध पर वोल्टेज:",
       "options": [
-        "30 W",
-        "60 W",
-        "120 W",
-        "15 W"
+        "समान",
+        "अलग-अलग",
+        "शून्य",
+        "सभी का योग"
       ],
-      "explanation": "प्रत्येक को 110V। P=V^2/R, आधे V पर P=60/4=15W। कुल=30 W।"
+      "explanation": "समांतर में सभी शाखाओं पर समान विभवांतर।"
     }
   },
   {
     "id": "gdspe-0036",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "Electric current is defined as:",
+      "question": "A heater coil of 100 Ω takes 4 A. Power consumed:",
       "options": [
-        "Flow of voltage",
-        "Rate of flow of charge",
-        "Flow of resistance",
-        "Rate of energy flow"
+        "400 W",
+        "25 W",
+        "800 W",
+        "1600 W"
       ],
-      "explanation": "I = Q/t. Current is the rate at which electric charge flows through a conductor."
+      "explanation": "P=I²R=16×100=1600 W."
     },
     "hi": {
-      "question": "विद्युत धारा की परिभाषा:",
+      "question": "100 Ω की कुंडली 4 A लेती है। शक्ति:",
       "options": [
-        "वोल्टेज का प्रवाह",
-        "आवेश प्रवाह की दर",
-        "प्रतिरोध का प्रवाह",
-        "ऊर्जा प्रवाह की दर"
+        "400 W",
+        "25 W",
+        "800 W",
+        "1600 W"
       ],
-      "explanation": "I = Q/t। धारा, चालक से विद्युत आवेश के प्रवाह की दर है।"
+      "explanation": "P=16×100=1600 W।"
     }
   },
   {
     "id": "gdspe-0037",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A resistor has colour code Red, Red, Orange, Gold. Resistance?",
+      "question": "Good insulators have:",
       "options": [
-        "2200 +/-5%",
-        "22k +/-5%",
-        "22k +/-5%",
-        "220 ohm +/-5%"
+        "Low resistivity",
+        "High resistivity",
+        "Low cost",
+        "High density"
       ],
-      "explanation": "Red=2, Red=2, Orange=10^3 => 22x1000=22000=22k ohm. Gold=+/-5%."
+      "explanation": "Insulators have very high resistivity (rubber ~10¹³ Ω·m)."
     },
     "hi": {
-      "question": "रंग कोड: लाल, लाल, नारंगी, सुनहरा। प्रतिरोध?",
+      "question": "अच्छे कुचालकों की प्रतिरोधकता:",
       "options": [
-        "2200 +/-5%",
-        "22k +/-5%",
-        "22k +/-5%",
-        "220 ओम +/-5%"
+        "निम्न",
+        "उच्च",
+        "कम कीमत",
+        "उच्च घनत्व"
       ],
-      "explanation": "22x10^3=22000=22k ओम। सुनहरा=+/-5%।"
+      "explanation": "कुचालकों की प्रतिरोधकता बहुत उच्च।"
     }
   },
   {
     "id": "gdspe-0038",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "A fuse wire should have:",
+      "question": "If four 2Ω resistors in series, total resistance:",
       "options": [
-        "High resistance, high melting point",
-        "Low resistance, high melting point",
-        "High resistance, low melting point",
-        "Low melting point and appropriate rating"
+        "2 Ω",
+        "4 Ω",
+        "8 Ω",
+        "0.5 Ω"
       ],
-      "explanation": "A fuse wire has low melting point so it melts and breaks the circuit when current exceeds the safe limit."
+      "explanation": "R=2+2+2+2=8 Ω."
     },
     "hi": {
-      "question": "फ्यूज तार में होना चाहिए:",
+      "question": "चार 2Ω श्रेणी में। कुल प्रतिरोध:",
       "options": [
-        "उच्च प्रतिरोध, उच्च गलनांक",
-        "कम प्रतिरोध, उच्च गलनांक",
-        "उच्च प्रतिरोध, कम गलनांक",
-        "कम गलनांक और उपयुक्त रेटिंग"
+        "2 Ω",
+        "4 Ω",
+        "8 Ω",
+        "0.5 Ω"
       ],
-      "explanation": "फ्यूज तार का गलनांक कम होता है ताकि असुरक्षित धारा पर पिघलकर परिपथ तोड़ दे।"
+      "explanation": "R=2+2+2+2=8 Ω।"
     }
   },
   {
     "id": "gdspe-0039",
     "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A motor takes 5 A from 220 V line. Output is 825 W. Efficiency?",
+      "question": "Electric bell works on:",
       "options": [
-        "75%",
-        "100%",
-        "50%",
-        "90%"
+        "Magnetic effect of current",
+        "Heating effect",
+        "Chemical effect",
+        "Photoelectric"
       ],
-      "explanation": "Input=220x5=1100 W. Output=825 W. Efficiency=825/1100x100=75%."
+      "explanation": "Electric bell uses electromagnet (magnetic effect)."
     },
     "hi": {
-      "question": "मोटर 220V से 5A लेती है, निर्गत 825W। दक्षता?",
+      "question": "विद्युत घंटी कार्य करती है:",
       "options": [
-        "75%",
-        "100%",
-        "50%",
-        "90%"
+        "धारा का चुंबकीय प्रभाव",
+        "तापीय प्रभाव",
+        "रासायनिक प्रभाव",
+        "प्रकाश विद्युत"
       ],
-      "explanation": "निवेश=1100 W। दक्षता=825/1100x100=75%।"
+      "explanation": "विद्युत घंटी विद्युत चुंबक (चुंबकीय प्रभाव) से कार्य करती है।"
     }
   },
   {
     "id": "gdspe-0040",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Superconductors have:",
+      "question": "Kilowatt-hour is unit of:",
       "options": [
-        "High resistance at low temp",
-        "Zero resistance at very low temp",
-        "Infinite resistance",
-        "Same as normal conductors"
+        "Power",
+        "Current",
+        "Voltage",
+        "Energy"
       ],
-      "explanation": "Superconductors show zero electrical resistance when cooled below critical temperature."
+      "explanation": "kWh = Energy = Power × Time."
     },
     "hi": {
-      "question": "अतिचालकों में:",
+      "question": "किलोवॉट-घंटा इकाई है:",
       "options": [
-        "निम्न ताप पर उच्च प्रतिरोध",
-        "अति निम्न ताप पर शून्य प्रतिरोध",
-        "अनंत प्रतिरोध",
-        "सामान्य चालकों जैसा"
+        "शक्ति",
+        "धारा",
+        "वोल्टेज",
+        "ऊर्जा"
       ],
-      "explanation": "अतिचालक क्रांतिक तापमान से नीचे शून्य विद्युत प्रतिरोध दिखाते हैं।"
+      "explanation": "kWh = ऊर्जा।"
     }
   },
   {
     "id": "gdspe-0041",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "Three 60 W bulbs in parallel across 220 V. Total current?",
+      "question": "Resistivity of a conductor ___ with temperature:",
       "options": [
-        "0.27 A",
-        "0.54 A",
-        "0.82 A",
-        "1.64 A"
+        "Decreases",
+        "Increases",
+        "Remains same",
+        "Becomes zero"
       ],
-      "explanation": "Each: I=60/220=0.273 A. Total=3x0.273=0.819≈0.82 A."
+      "explanation": "For conductors, ρ increases with temperature (positive temp coefficient)."
     },
     "hi": {
-      "question": "तीन 60W बल्ब समांतर में 220V पर। कुल धारा?",
+      "question": "तापमान बढ़ने पर चालक की प्रतिरोधकता:",
       "options": [
-        "0.27 A",
-        "0.54 A",
-        "0.82 A",
-        "1.64 A"
+        "घटती",
+        "बढ़ती",
+        "समान",
+        "शून्य"
       ],
-      "explanation": "प्रत्येक: 60/220=0.273 A। कुल=0.82 A।"
+      "explanation": "चालकों की ρ तापमान से बढ़ती है।"
     }
   },
   {
     "id": "gdspe-0042",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "The resistivity of a wire is independent of:",
+      "question": "Three resistors 4Ω, 8Ω, 12Ω in parallel with 24V battery. Total current:",
       "options": [
-        "Temperature",
-        "Nature of material",
-        "Impurities",
-        "Length and cross-sectional area"
+        "2 A",
+        "6 A",
+        "11 A",
+        "1 A"
       ],
-      "explanation": "Resistivity is a material property; it does NOT depend on length or cross-sectional area of the wire."
+      "explanation": "1/R=1/4+1/8+1/12=6/24+3/24+2/24=11/24 → R=24/11. I=24/(24/11)=11 A."
     },
     "hi": {
-      "question": "तार की प्रतिरोधकता किस पर निर्भर नहीं?",
+      "question": "4,8,12Ω समांतर, 24V। कुल धारा:",
       "options": [
-        "तापमान",
-        "पदार्थ की प्रकृति",
-        "अशुद्धियां",
-        "लंबाई और अनुप्रस्थ क्षेत्रफल"
+        "2 A",
+        "6 A",
+        "11 A",
+        "1 A"
       ],
-      "explanation": "प्रतिरोधकता पदार्थ का गुण है; यह तार की लंबाई या क्षेत्रफल पर निर्भर नहीं।"
+      "explanation": "R_eq=24/11, I=24/(24/11)=11 A।"
     }
   },
   {
     "id": "gdspe-0043",
     "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A 6V battery connected to 2 ohm and 4 ohm in series. Voltage across 4 ohm?",
+      "question": "An ideal ammeter has ___ resistance:",
       "options": [
-        "4 V",
-        "2 V",
-        "6 V",
-        "3 V"
+        "Zero",
+        "High",
+        "Infinite",
+        "1 Ω"
       ],
-      "explanation": "Total R=6 ohm. I=6/6=1 A. Voltage across 4 ohm=1x4=4 V."
+      "explanation": "Ammeter should have zero resistance to not affect circuit current."
     },
     "hi": {
-      "question": "6V बैटरी, 2 और 4 ओम श्रेणी में। 4 ओम पर वोल्टेज?",
+      "question": "आदर्श अमीटर का प्रतिरोध:",
       "options": [
-        "4 V",
-        "2 V",
-        "6 V",
-        "3 V"
+        "शून्य",
+        "उच्च",
+        "अनंत",
+        "1 Ω"
       ],
-      "explanation": "R_कुल=6, I=1 A। 4 ओम पर V=4 V।"
+      "explanation": "अमीटर का प्रतिरोध शून्य होना चाहिए।"
     }
   },
   {
     "id": "gdspe-0044",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Electric heater works on the principle of:",
+      "question": "A wire of resistance 20 Ω is cut into 5 equal parts and connected in parallel. Equivalent:",
       "options": [
-        "Ohm's law",
-        "Joule's heating effect",
-        "Electromagnetic induction",
-        "Peltier effect"
+        "20 Ω",
+        "100 Ω",
+        "4 Ω",
+        "0.8 Ω"
       ],
-      "explanation": "Electric heaters use Joule's heating effect (H=I^2Rt) to convert electrical energy to heat."
+      "explanation": "Each part=4Ω. 1/R=5/4 → R=0.8 Ω."
     },
     "hi": {
-      "question": "विद्युत हीटर किस सिद्धांत पर कार्य करता है?",
+      "question": "20 Ω तार 5 भागों में काटकर समांतर जोड़ा। तुल्य:",
       "options": [
-        "ओम का नियम",
-        "जूल का ऊष्मीय प्रभाव",
-        "विद्युत चुंबकीय प्रेरण",
-        "पेल्टियर प्रभाव"
+        "20 Ω",
+        "100 Ω",
+        "4 Ω",
+        "0.8 Ω"
       ],
-      "explanation": "हीटर विद्युत ऊर्जा को ऊष्मा में बदलने के लिए जूल के ऊष्मीय प्रभाव (H=I^2Rt) का उपयोग करते हैं।"
+      "explanation": "प्रत्येक=4Ω, R_eq=0.8 Ω।"
     }
   },
   {
     "id": "gdspe-0045",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "200 J of heat is produced each second in a 8 ohm resistor. Current?",
+      "question": "Coulomb is the SI unit of:",
       "options": [
-        "25 A",
-        "10 A",
-        "5 A",
-        "2.5 A"
+        "Current",
+        "Electric charge",
+        "Potential",
+        "Power"
       ],
-      "explanation": "H=I^2Rt. 200=I^2x8x1. I^2=25. I=5 A."
+      "explanation": "1 Coulomb = charge of ~6.25×10¹⁸ electrons."
     },
     "hi": {
-      "question": "8 ओम प्रतिरोधक में 200 J/s ऊष्मा। धारा?",
+      "question": "कूलॉम SI इकाई है:",
       "options": [
-        "25 A",
-        "10 A",
-        "5 A",
-        "2.5 A"
+        "धारा",
+        "विद्युत आवेश",
+        "विभव",
+        "शक्ति"
       ],
-      "explanation": "200=I^2x8x1। I^2=25। I=5 A।"
+      "explanation": "1 कूलॉम = ~6.25×10¹⁸ इलेक्ट्रॉनों का आवेश।"
     }
   },
   {
     "id": "gdspe-0046",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Which is a safety device in electric circuits?",
-      "options": [
-        "Ammeter",
-        "Voltmeter",
-        "Rheostat",
-        "Fuse"
-      ],
-      "explanation": "A fuse is a safety device that protects circuits from excessive current by melting and breaking the circuit."
-    },
-    "hi": {
-      "question": "विद्युत परिपथ में सुरक्षा युक्ति:",
-      "options": [
-        "एमीटर",
-        "वोल्टमीटर",
-        "धारा नियंत्रक",
-        "फ्यूज"
-      ],
-      "explanation": "फ्यूज एक सुरक्षा युक्ति है जो अत्यधिक धारा से परिपथ को पिघलकर तोड़कर बचाती है।"
-    }
-  },
-  {
-    "id": "gdspe-0047",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If current through a resistor is doubled, heat produced becomes:",
-      "options": [
-        "4 times",
-        "2 times",
-        "Same",
-        "Half"
-      ],
-      "explanation": "H = I^2 R t. If I -> 2I, H -> 4H."
-    },
-    "hi": {
-      "question": "यदि धारा दोगुनी, ऊष्मा:",
-      "options": [
-        "4 गुना",
-        "2 गुना",
-        "समान",
-        "आधी"
-      ],
-      "explanation": "H = I^2 R t। I -> 2I, तो H -> 4H।"
-    }
-  },
-  {
-    "id": "gdspe-0048",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "The resistance of an ideal ammeter is:",
-      "options": [
-        "Infinity",
-        "Zero",
-        "Very high",
-        "Equal to circuit resistance"
-      ],
-      "explanation": "An ideal ammeter has zero resistance so it doesn't affect the current it measures."
-    },
-    "hi": {
-      "question": "आदर्श एमीटर का प्रतिरोध:",
-      "options": [
-        "अनंत",
-        "शून्य",
-        "बहुत अधिक",
-        "परिपथ प्रतिरोध के बराबर"
-      ],
-      "explanation": "आदर्श एमीटर का प्रतिरोध शून्य होता है ताकि मापी जाने वाली धारा प्रभावित न हो।"
-    }
-  },
-  {
-    "id": "gdspe-0049",
     "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "The resistance of an ideal voltmeter is:",
+      "question": "An ideal voltmeter has ___ resistance:",
       "options": [
         "Zero",
-        "Equal to component",
-        "Infinite",
-        "Very low"
+        "Low",
+        "Infinite/very high",
+        "1 Ω"
       ],
-      "explanation": "An ideal voltmeter has infinite resistance so it draws no current from the circuit."
+      "explanation": "Voltmeter should have very high (ideally infinite) resistance to draw minimal current."
     },
     "hi": {
       "question": "आदर्श वोल्टमीटर का प्रतिरोध:",
       "options": [
         "शून्य",
-        "घटक के बराबर",
-        "अनंत",
-        "बहुत कम"
+        "निम्न",
+        "अनंत/बहुत उच्च",
+        "1 Ω"
       ],
-      "explanation": "आदर्श वोल्टमीटर का प्रतिरोध अनंत होता है ताकि परिपथ से कोई धारा न खींचे।"
+      "explanation": "वोल्टमीटर का प्रतिरोध बहुत उच्च होना चाहिए।"
+    }
+  },
+  {
+    "id": "gdspe-0047",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "In India, domestic AC supply frequency is:",
+      "options": [
+        "50 Hz",
+        "60 Hz",
+        "100 Hz",
+        "25 Hz"
+      ],
+      "explanation": "Indian AC mains: 220V, 50 Hz."
+    },
+    "hi": {
+      "question": "भारत में घरेलू AC आवृत्ति:",
+      "options": [
+        "50 Hz",
+        "60 Hz",
+        "100 Hz",
+        "25 Hz"
+      ],
+      "explanation": "भारत में: 220V, 50 Hz।"
+    }
+  },
+  {
+    "id": "gdspe-0048",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "If R₁ and R₂ are in series, current through them is:",
+      "options": [
+        "Different",
+        "R₁>R₂",
+        "Depends on R",
+        "Same in both"
+      ],
+      "explanation": "In series, same current flows through all components."
+    },
+    "hi": {
+      "question": "R₁ और R₂ श्रेणी में। धारा:",
+      "options": [
+        "अलग",
+        "R₁>R₂",
+        "R पर निर्भर",
+        "दोनों में समान"
+      ],
+      "explanation": "श्रेणी में सभी में समान धारा।"
+    }
+  },
+  {
+    "id": "gdspe-0049",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which device converts mechanical energy to electrical?",
+      "options": [
+        "Motor",
+        "Generator/Dynamo",
+        "Battery",
+        "Heater"
+      ],
+      "explanation": "Generator/dynamo: mechanical → electrical energy."
+    },
+    "hi": {
+      "question": "यांत्रिक ऊर्जा → विद्युत ऊर्जा:",
+      "options": [
+        "मोटर",
+        "जनरेटर/डायनेमो",
+        "बैटरी",
+        "हीटर"
+      ],
+      "explanation": "जनरेटर: यांत्रिक → विद्युत।"
     }
   },
   {
     "id": "gdspe-0050",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "Two resistors in series: 3 ohm and 6 ohm across 18 V. Current?",
+      "question": "A 200V-1000W heater is used on 100V. Power consumed:",
       "options": [
-        "6 A",
-        "3 A",
-        "1 A",
-        "2 A"
+        "1000 W",
+        "500 W",
+        "250 W",
+        "2000 W"
       ],
-      "explanation": "Rs=3+6=9 ohm. I=18/9=2 A."
+      "explanation": "R=200²/1000=40Ω. P=100²/40=250 W."
     },
     "hi": {
-      "question": "3 और 6 ओम श्रेणी में 18 V पर। धारा?",
+      "question": "200V-1000W हीटर 100V पर। शक्ति:",
       "options": [
-        "6 A",
-        "3 A",
-        "1 A",
-        "2 A"
+        "1000 W",
+        "500 W",
+        "250 W",
+        "2000 W"
       ],
-      "explanation": "Rs=9, I=18/9=2 A।"
+      "explanation": "R=40Ω, P=100²/40=250 W।"
     }
   },
   {
     "id": "gdspe-0051",
     "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A copper wire of 1 m, area 2x10^-6 m^2 has resistance 8.5x10^-3 ohm. Resistivity?",
+      "question": "Joule's law of heating: H =",
       "options": [
-        "1.7x10^-8 ohm-m",
-        "3.4x10^-8",
-        "8.5x10^-8",
-        "1.7x10^-6"
+        "I²Rt",
+        "VIt",
+        "IR",
+        "P/t"
       ],
-      "explanation": "rho=RA/L=8.5x10^-3x2x10^-6/1=1.7x10^-8 ohm-m."
+      "explanation": "H = I²Rt = VIt = V²t/R."
     },
     "hi": {
-      "question": "1 m तांबे का तार, क्षेत्र 2x10^-6 m^2, R=8.5x10^-3। प्रतिरोधकता?",
+      "question": "जूल का तापन नियम: H =",
       "options": [
-        "1.7x10^-8",
-        "3.4x10^-8",
-        "8.5x10^-8",
-        "1.7x10^-6"
+        "I²Rt",
+        "VIt",
+        "IR",
+        "P/t"
       ],
-      "explanation": "ρ=8.5x10^-3x2x10^-6=1.7x10^-8 Ω-m।"
+      "explanation": "H = I²Rt।"
     }
   },
   {
     "id": "gdspe-0052",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "The V-I graph for an ohmic conductor is:",
+      "question": "A 12Ω and 6Ω in parallel with 12V. Current through 6Ω:",
       "options": [
-        "Curved",
-        "Straight line through origin",
-        "Horizontal line",
-        "Parabola"
+        "1 A",
+        "3 A",
+        "0.5 A",
+        "2 A"
       ],
-      "explanation": "For ohmic materials (V=IR), the V-I graph is a straight line passing through origin."
+      "explanation": "In parallel, V same. I=V/R=12/6=2 A."
     },
     "hi": {
-      "question": "ओमीय चालक का V-I ग्राफ:",
+      "question": "12Ω और 6Ω समांतर, 12V। 6Ω में धारा:",
       "options": [
-        "वक्र",
-        "मूल बिंदु से सीधी रेखा",
-        "क्षैतिज रेखा",
-        "परवलय"
+        "1 A",
+        "3 A",
+        "0.5 A",
+        "2 A"
       ],
-      "explanation": "ओमीय पदार्थों (V=IR) का V-I ग्राफ मूल बिंदु से गुजरती सीधी रेखा है।"
+      "explanation": "I=12/6=2 A।"
     }
   },
   {
     "id": "gdspe-0053",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A 12 V car battery supplies 150 A to starter motor for 0.8 s. Energy?",
+      "question": "Household wiring is done in:",
       "options": [
-        "960 J",
-        "1200 J",
-        "1440 J",
-        "1800 J"
+        "Series",
+        "Parallel",
+        "Both",
+        "Neither"
       ],
-      "explanation": "P=12x150=1800 W. E=P t=1800x0.8=1440 J."
+      "explanation": "Parallel: each appliance gets full voltage, independent operation."
     },
     "hi": {
-      "question": "12 V कार बैटरी 150 A, 0.8 s देती है। ऊर्जा?",
+      "question": "घरेलू वायरिंग:",
       "options": [
-        "960 J",
-        "1200 J",
-        "1440 J",
-        "1800 J"
+        "श्रेणी",
+        "समांतर",
+        "दोनों",
+        "कोई नहीं"
       ],
-      "explanation": "P=12x150=1800 W। E=1800x0.8=1440 J।"
+      "explanation": "समांतर: प्रत्येक उपकरण को पूर्ण वोल्टेज, स्वतंत्र संचालन।"
     }
   },
   {
     "id": "gdspe-0054",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Which represents electrical energy consumed?",
+      "question": "If length of a wire is doubled, its resistivity:",
       "options": [
-        "VIt",
-        "I^2Rt",
-        "V^2t/R",
-        "All of these"
+        "Doubles",
+        "Halves",
+        "Remains same",
+        "Becomes 4 times"
       ],
-      "explanation": "Electrical energy = VIt = I^2Rt = V^2t/R. All three expressions are equivalent."
+      "explanation": "Resistivity is material property, independent of dimensions."
     },
     "hi": {
-      "question": "विद्युत ऊर्जा खपत दर्शाता है:",
+      "question": "तार की लंबाई दोगुनी। प्रतिरोधकता:",
       "options": [
-        "VIt",
-        "I^2Rt",
-        "V^2t/R",
-        "ये सभी"
+        "दोगुनी",
+        "आधी",
+        "समान",
+        "4 गुना"
       ],
-      "explanation": "विद्युत ऊर्जा = VIt = I^2Rt = V^2t/R। तीनों समतुल्य हैं।"
+      "explanation": "प्रतिरोधकता पदार्थ गुण है, विमाओं पर निर्भर नहीं।"
     }
   },
   {
     "id": "gdspe-0055",
     "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "Three resistors 2, 3, 6 ohm in parallel across a cell. Equivalent resistance?",
+      "question": "Electric potential is a:",
       "options": [
-        "1 ohm",
-        "6 ohm",
-        "11 ohm",
-        "1.5 ohm"
+        "Scalar quantity",
+        "Vector quantity",
+        "Tensor",
+        "Both"
       ],
-      "explanation": "1/Rp=1/2+1/3+1/6=3/6+2/6+1/6=6/6=1. Rp=1 ohm."
+      "explanation": "Electric potential (V) is a scalar quantity."
     },
     "hi": {
-      "question": "2, 3, 6 ओम समांतर में। तुल्य प्रतिरोध?",
+      "question": "विद्युत विभव है:",
       "options": [
-        "1 ओम",
-        "6 ओम",
-        "11 ओम",
-        "1.5 ओम"
+        "अदिश राशि",
+        "सदिश राशि",
+        "टेंसर",
+        "दोनों"
       ],
-      "explanation": "1/Rp=1/2+1/3+1/6=1। Rp=1 ओम।"
+      "explanation": "विद्युत विभव अदिश राशि है।"
     }
   },
   {
     "id": "gdspe-0056",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "A dry cell converts ___ energy to electrical energy.",
+      "question": "Two wires of same material, diameter ratio 1:2, resistance ratio:",
       "options": [
-        "Mechanical",
-        "Chemical",
-        "Thermal",
-        "Light"
+        "1:2",
+        "2:1",
+        "1:4",
+        "4:1"
       ],
-      "explanation": "A dry cell (battery) converts chemical energy stored in it into electrical energy."
+      "explanation": "R∝1/A∝1/d². R₁/R₂=d₂²/d₁²=4/1=4:1."
     },
     "hi": {
-      "question": "शुष्क सेल ___ ऊर्जा को विद्युत ऊर्जा में बदलती है।",
+      "question": "समान पदार्थ, व्यास अनुपात 1:2। प्रतिरोध अनुपात:",
       "options": [
-        "यांत्रिक",
-        "रासायनिक",
-        "तापीय",
-        "प्रकाश"
+        "1:2",
+        "2:1",
+        "1:4",
+        "4:1"
       ],
-      "explanation": "शुष्क सेल (बैटरी) इसमें संचित रासायनिक ऊर्जा को विद्युत ऊर्जा में बदलती है।"
+      "explanation": "R₁/R₂=4:1।"
     }
   },
   {
     "id": "gdspe-0057",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "If a wire of resistance R is cut into 5 equal parts and connected in parallel, equivalent resistance?",
+      "question": "Which colour wire is used for earthing?",
       "options": [
-        "R",
-        "R/5",
-        "R/25",
-        "5R"
+        "Red",
+        "Green",
+        "Black",
+        "Blue"
       ],
-      "explanation": "Each=R/5. Parallel: 1/Rp=5/(R/5)=25/R. Rp=R/25."
+      "explanation": "Green (or green-yellow) is standard for earthing/ground wire."
     },
     "hi": {
-      "question": "R प्रतिरोध का तार 5 भागों में काटकर समांतर जोड़ें। तुल्य?",
+      "question": "अर्थिंग तार का रंग:",
       "options": [
-        "R",
-        "R/5",
-        "R/25",
-        "5R"
+        "लाल",
+        "हरा",
+        "काला",
+        "नीला"
       ],
-      "explanation": "प्रत्येक=R/5। समांतर: Rp=R/25।"
+      "explanation": "हरा (या हरा-पीला) अर्थिंग तार के लिए मानक।"
     }
   },
   {
     "id": "gdspe-0058",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "Earthing is used to:",
+      "question": "5A current flows through 20Ω for 1 minute. Heat in calories: (1 cal=4.2 J)",
       "options": [
-        "Increase voltage",
-        "Decrease current",
-        "Improve efficiency",
-        "Protect from electric shock"
+        "6000 cal",
+        "30000 cal",
+        "7142 cal",
+        "1200 cal"
       ],
-      "explanation": "Earthing provides a low-resistance path for leakage current to ground, protecting users from shock."
+      "explanation": "H=25×20×60=30000 J=30000/4.2≈7142 cal."
     },
     "hi": {
-      "question": "अर्थिंग का उपयोग:",
+      "question": "5A, 20Ω, 1 मिनट। ऊष्मा कैलोरी में:",
       "options": [
-        "वोल्टेज बढ़ाने",
-        "धारा घटाने",
-        "दक्षता सुधारने",
-        "विद्युत झटके से बचाव"
+        "6000 cal",
+        "30000 cal",
+        "7142 cal",
+        "1200 cal"
       ],
-      "explanation": "अर्थिंग लीकेज धारा को जमीन तक कम-प्रतिरोध पथ देती है, उपयोगकर्ता को झटके से बचाती है।"
+      "explanation": "H=30000/4.2≈7142 cal।"
     }
   },
   {
     "id": "gdspe-0059",
     "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "Two heaters marked 220V, 500W and 220V, 800W in series across 220V. Which produces more heat?",
+      "question": "The device that maintains potential difference is:",
       "options": [
-        "500 W heater (higher resistance)",
-        "800 W heater",
-        "Both equally",
-        "Cannot be determined"
+        "Battery/Cell",
+        "Resistor",
+        "Capacitor",
+        "Switch"
       ],
-      "explanation": "In series, I same. H=I^2Rt. Higher R gives more heat. 500W has higher R(96.8 vs 60.5 ohm)."
+      "explanation": "Battery/cell provides and maintains potential difference (EMF)."
     },
     "hi": {
-      "question": "220V,500W और 220V,800W हीटर श्रेणी में 220V पर। कौन अधिक ऊष्मा?",
+      "question": "विभवांतर बनाए रखने वाली युक्ति:",
       "options": [
-        "500W (उच्च प्रतिरोध)",
-        "800W",
-        "दोनों समान",
-        "निर्धारित नहीं"
+        "बैटरी/सेल",
+        "प्रतिरोधक",
+        "संधारित्र",
+        "स्विच"
       ],
-      "explanation": "श्रेणी में समान I। अधिक R अधिक ऊष्मा। 500W का R=96.8 > 60.5 ओम।"
+      "explanation": "बैटरी/सेल विभवांतर (EMF) प्रदान करती है।"
     }
   },
   {
     "id": "gdspe-0060",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "MCB stands for:",
+      "question": "If a 60W, 220V bulb and 100W, 220V bulb are in parallel, total power:",
       "options": [
-        "Main Circuit Board",
-        "Miniature Circuit Breaker",
-        "Maximum Current Breaker",
-        "Magnetic Circuit Breaker"
+        "37.5 W",
+        "100 W",
+        "60 W",
+        "160 W"
       ],
-      "explanation": "MCB = Miniature Circuit Breaker. It automatically switches off during overload or short circuit."
+      "explanation": "In parallel, each gets rated voltage. P_total = 60+100=160 W."
     },
     "hi": {
-      "question": "MCB का पूर्ण रूप:",
+      "question": "60W-220V और 100W-220V बल्ब समांतर। कुल शक्ति:",
       "options": [
-        "मेन सर्किट बोर्ड",
-        "मिनिएचर सर्किट ब्रेकर",
-        "मैक्सिमम करंट ब्रेकर",
-        "मैग्नेटिक सर्किट ब्रेकर"
+        "37.5 W",
+        "100 W",
+        "60 W",
+        "160 W"
       ],
-      "explanation": "MCB = मिनिएचर सर्किट ब्रेकर। ओवरलोड या शॉर्ट सर्किट पर स्वतः बंद हो जाता है।"
+      "explanation": "P=60+100=160 W।"
     }
   },
   {
     "id": "gdspe-0061",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A 220V, 100W bulb glows dimly at 110V. Power consumed?",
+      "question": "Insulators have ___ electrons:",
       "options": [
-        "100 W",
-        "50 W",
-        "25 W",
-        "12.5 W"
+        "Free",
+        "No free",
+        "Excess",
+        "Few"
       ],
-      "explanation": "R=V^2/P=484. At 110V: P=V^2/R=12100/484=25 W."
+      "explanation": "Insulators have tightly bound electrons, no free electrons to conduct."
     },
     "hi": {
-      "question": "220V,100W बल्ब 110V पर मंद जलता है। खपत शक्ति?",
+      "question": "कुचालकों में इलेक्ट्रॉन:",
       "options": [
-        "100 W",
-        "50 W",
-        "25 W",
-        "12.5 W"
+        "मुक्त",
+        "कोई मुक्त नहीं",
+        "अतिरिक्त",
+        "कुछ"
       ],
-      "explanation": "R=484। 110V पर: P=12100/484=25 W।"
+      "explanation": "कुचालकों में कोई मुक्त इलेक्ट्रॉन नहीं।"
     }
   },
   {
     "id": "gdspe-0062",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Which instrument measures electric current?",
+      "question": "An electric iron of 750W runs 2h daily. Monthly (30 days) cost at Rs 5/unit:",
       "options": [
-        "Voltmeter",
-        "Barometer",
-        "Thermometer",
-        "Ammeter"
+        "Rs 112",
+        "Rs 150",
+        "Rs 225",
+        "Rs 75"
       ],
-      "explanation": "An ammeter measures electric current. It is connected in series and has very low resistance."
+      "explanation": "E=0.75×2×30=45 kWh. Cost=45×5=Rs 225."
     },
     "hi": {
-      "question": "विद्युत धारा कौन सा उपकरण मापता है?",
+      "question": "750W इस्तरी 2 घंटे/दिन। 30 दिन, Rs 5/यूनिट:",
       "options": [
-        "वोल्टमीटर",
-        "बैरोमीटर",
-        "थर्मामीटर",
-        "एमीटर"
+        "Rs 112",
+        "Rs 150",
+        "Rs 225",
+        "Rs 75"
       ],
-      "explanation": "एमीटर विद्युत धारा मापता है। श्रेणीक्रम में जुड़ता है, बहुत कम प्रतिरोध।"
+      "explanation": "E=45 kWh, लागत=Rs 225।"
     }
   },
   {
     "id": "gdspe-0063",
     "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "A 4 ohm and 12 ohm parallel, then 4 ohm series, across 10 V. Current from battery?",
+      "question": "MCB stands for:",
       "options": [
-        "0.5 A",
-        "1 A",
-        "2 A",
-        "2.5 A"
+        "Miniature Circuit Breaker",
+        "Main Current Breaker",
+        "Mini Current Box",
+        "Main Circuit Board"
       ],
-      "explanation": "Parallel 4||12=3 ohm. Total=3+4=7 ohm. I=10/7=1.43 A."
+      "explanation": "MCB = Miniature Circuit Breaker (safety device)."
     },
     "hi": {
-      "question": "4||12 फिर 4 श्रेणी, 10V पर। बैटरी से धारा?",
+      "question": "MCB का पूर्ण रूप:",
       "options": [
-        "0.5 A",
-        "1 A",
-        "2 A",
-        "2.5 A"
+        "Miniature Circuit Breaker",
+        "Main Current Breaker",
+        "Mini Current Box",
+        "Main Circuit Board"
       ],
-      "explanation": "4||12=3, कुल=7। I=10/7≈1.43 A।"
+      "explanation": "MCB = लघु परिपथ विच्छेदक।"
     }
   },
   {
     "id": "gdspe-0064",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Electric current in metals is due to flow of:",
+      "question": "In a circuit V=12V, I=0.5A, resistance is:",
       "options": [
-        "Protons",
-        "Free electrons",
-        "Neutrons",
-        "Ions"
+        "6 Ω",
+        "12.5 Ω",
+        "0.04 Ω",
+        "24 Ω"
       ],
-      "explanation": "In metals, electric current is due to the flow of free electrons (negatively charged)."
+      "explanation": "R=V/I=12/0.5=24 Ω."
     },
     "hi": {
-      "question": "धातुओं में विद्युत धारा किसके प्रवाह से?",
+      "question": "V=12V, I=0.5A। प्रतिरोध:",
       "options": [
-        "प्रोटॉन",
-        "मुक्त इलेक्ट्रॉन",
-        "न्यूट्रॉन",
-        "आयन"
+        "6 Ω",
+        "12.5 Ω",
+        "0.04 Ω",
+        "24 Ω"
       ],
-      "explanation": "धातुओं में मुक्त इलेक्ट्रॉनों (ऋणावेशित) के प्रवाह से विद्युत धारा बहती है।"
+      "explanation": "R=12/0.5=24 Ω।"
     }
   },
   {
     "id": "gdspe-0065",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "Resistance of a wire at 0°C is 10 ohm. At 100°C, temp coefficient 0.004/°C, resistance?",
+      "question": "The direction of conventional current is:",
       "options": [
-        "14 ohm",
-        "40 ohm",
-        "14 ohm",
-        "10.4 ohm"
+        "Electron flow",
+        "Positive to negative",
+        "Negative to positive",
+        "Random"
       ],
-      "explanation": "Rt=R0(1+alpha t)=10(1+0.004x100)=10(1.4)=14 ohm."
+      "explanation": "Conventional current: + to - (opposite to electron flow)."
     },
     "hi": {
-      "question": "0°C पर R=10 ओम, ताप गुणांक 0.004/°C। 100°C पर R?",
+      "question": "पारंपरिक धारा की दिशा:",
       "options": [
-        "14 ओम",
-        "40 ओम",
-        "14 ओम",
-        "10.4 ओम"
+        "इलेक्ट्रॉन प्रवाह",
+        "धनात्मक से ऋणात्मक",
+        "ऋणात्मक से धनात्मक",
+        "यादृच्छिक"
       ],
-      "explanation": "Rt=10(1+0.004x100)=14 ओम।"
+      "explanation": "पारंपरिक धारा: + से - (इलेक्ट्रॉन प्रवाह के विपरीत)।"
     }
   },
   {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Ohm's law: V = ?",
-      "options": [
-        "I+R",
-        "R/I",
-        "I/R",
-        "IR"
-      ],
-      "explanation": "V = I × R (Voltage = Current × Resistance)."
-    },
-    "hi": {
-      "question": "ओम का नियम: V = ?",
-      "options": [
-        "I+R",
-        "R/I",
-        "I/R",
-        "IR"
-      ],
-      "explanation": "V = I × R (वोल्टता = धारा × प्रतिरोध)।"
-    },
-    "id": "gdspe-0066"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI unit of electric current?",
-      "options": [
-        "Watt",
-        "Ohm",
-        "Volt",
-        "Ampere"
-      ],
-      "explanation": "Current measured in Amperes (A)."
-    },
-    "hi": {
-      "question": "विद्युत धारा का SI मात्रक?",
-      "options": [
-        "Watt",
-        "Ohm",
-        "Volt",
-        "Ampere"
-      ],
-      "explanation": "धारा एम्पियर (A) में मापी जाती है।"
-    },
-    "id": "gdspe-0067"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Resistance of a conductor depends on?",
-      "options": [
-        "Shape only",
-        "Length and area",
-        "Color only",
-        "Weight"
-      ],
-      "explanation": "R = ρL/A. Depends on length, area, material."
-    },
-    "hi": {
-      "question": "चालक का प्रतिरोध निर्भर करता है?",
-      "options": [
-        "Shape only",
-        "Length and area",
-        "Color only",
-        "Weight"
-      ],
-      "explanation": "R = ρL/A। लंबाई, क्षेत्रफल, पदार्थ पर निर्भर।"
-    },
-    "id": "gdspe-0068"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Ohm's law: V = ?",
-      "options": [
-        "I/R",
-        "I+R",
-        "R/I",
-        "IR"
-      ],
-      "explanation": "V = I × R (Voltage = Current × Resistance)."
-    },
-    "hi": {
-      "question": "ओम का नियम: V = ?",
-      "options": [
-        "I/R",
-        "I+R",
-        "R/I",
-        "IR"
-      ],
-      "explanation": "V = I × R (वोल्टता = धारा × प्रतिरोध)।"
-    },
-    "id": "gdspe-0069"
-  },
-  {
+    "id": "gdspe-0066",
     "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "difficulty": "hard",
+    "sourceYear": 2024,
     "en": {
-      "question": "SI unit of electric current?",
+      "question": "Resistance of a conductor at 0°C is 10Ω. At 100°C (α=0.004/°C):",
       "options": [
-        "Ohm",
-        "Watt",
-        "Ampere",
-        "Volt"
+        "10 Ω",
+        "10.4 Ω",
+        "14 Ω",
+        "40 Ω"
       ],
-      "explanation": "Current measured in Amperes (A)."
+      "explanation": "R=R₀(1+αΔT)=10(1+0.004×100)=10×1.4=14 Ω."
     },
     "hi": {
-      "question": "विद्युत धारा का SI मात्रक?",
+      "question": "0°C पर 10Ω, 100°C पर (α=0.004/°C):",
       "options": [
-        "Ohm",
-        "Watt",
-        "Ampere",
-        "Volt"
+        "10 Ω",
+        "10.4 Ω",
+        "14 Ω",
+        "40 Ω"
       ],
-      "explanation": "धारा एम्पियर (A) में मापी जाती है।"
-    },
-    "id": "gdspe-0070"
+      "explanation": "R=10(1+0.004×100)=14 Ω।"
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Resistance of a conductor depends on?",
-      "options": [
-        "Shape only",
-        "Color only",
-        "Length and area",
-        "Weight"
-      ],
-      "explanation": "R = ρL/A. Depends on length, area, material."
-    },
-    "hi": {
-      "question": "चालक का प्रतिरोध निर्भर करता है?",
-      "options": [
-        "Shape only",
-        "Color only",
-        "Length and area",
-        "Weight"
-      ],
-      "explanation": "R = ρL/A। लंबाई, क्षेत्रफल, पदार्थ पर निर्भर।"
-    },
-    "id": "gdspe-0071"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Ohm's law: V = ?",
-      "options": [
-        "I+R",
-        "I/R",
-        "R/I",
-        "IR"
-      ],
-      "explanation": "V = I × R (Voltage = Current × Resistance)."
-    },
-    "hi": {
-      "question": "ओम का नियम: V = ?",
-      "options": [
-        "I+R",
-        "I/R",
-        "R/I",
-        "IR"
-      ],
-      "explanation": "V = I × R (वोल्टता = धारा × प्रतिरोध)।"
-    },
-    "id": "gdspe-0072"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI unit of electric current?",
-      "options": [
-        "Watt",
-        "Volt",
-        "Ampere",
-        "Ohm"
-      ],
-      "explanation": "Current measured in Amperes (A)."
-    },
-    "hi": {
-      "question": "विद्युत धारा का SI मात्रक?",
-      "options": [
-        "Watt",
-        "Volt",
-        "Ampere",
-        "Ohm"
-      ],
-      "explanation": "धारा एम्पियर (A) में मापी जाती है।"
-    },
-    "id": "gdspe-0073"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Resistance of a conductor depends on?",
-      "options": [
-        "Shape only",
-        "Color only",
-        "Length and area",
-        "Weight"
-      ],
-      "explanation": "R = ρL/A. Depends on length, area, material."
-    },
-    "hi": {
-      "question": "चालक का प्रतिरोध निर्भर करता है?",
-      "options": [
-        "Shape only",
-        "Color only",
-        "Length and area",
-        "Weight"
-      ],
-      "explanation": "R = ρL/A। लंबाई, क्षेत्रफल, पदार्थ पर निर्भर।"
-    },
-    "id": "gdspe-0074"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Ohm's law: V = ?",
-      "options": [
-        "R/I",
-        "IR",
-        "I/R",
-        "I+R"
-      ],
-      "explanation": "V = I × R (Voltage = Current × Resistance)."
-    },
-    "hi": {
-      "question": "ओम का नियम: V = ?",
-      "options": [
-        "R/I",
-        "IR",
-        "I/R",
-        "I+R"
-      ],
-      "explanation": "V = I × R (वोल्टता = धारा × प्रतिरोध)।"
-    },
-    "id": "gdspe-0075"
-  },
-  {
+    "id": "gdspe-0067",
     "correctOption": "A",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "SI unit of electric current?",
+      "question": "A switch is always connected in the ___ wire:",
       "options": [
-        "Ampere",
-        "Ohm",
-        "Watt",
-        "Volt"
+        "Live/Phase",
+        "Neutral",
+        "Earth",
+        "Any"
       ],
-      "explanation": "Current measured in Amperes (A)."
+      "explanation": "Switch must be on live wire; off cuts power to device."
     },
     "hi": {
-      "question": "विद्युत धारा का SI मात्रक?",
+      "question": "स्विच हमेशा ___ तार में:",
       "options": [
-        "Ampere",
-        "Ohm",
-        "Watt",
-        "Volt"
+        "लाइव/फेज",
+        "न्यूट्रल",
+        "अर्थ",
+        "कोई भी"
       ],
-      "explanation": "धारा एम्पियर (A) में मापी जाती है।"
-    },
-    "id": "gdspe-0076"
+      "explanation": "स्विच लाइव तार पर; बंद करने से उपकरण को बिजली नहीं।"
+    }
   },
   {
+    "id": "gdspe-0068",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Charge on one electron is:",
+      "options": [
+        "1 C",
+        "1.6×10¹⁹ C",
+        "-1 C",
+        "-1.6×10⁻¹⁹ C"
+      ],
+      "explanation": "e = -1.6×10⁻¹⁹ C (negative charge)."
+    },
+    "hi": {
+      "question": "एक इलेक्ट्रॉन पर आवेश:",
+      "options": [
+        "1 C",
+        "1.6×10¹⁹ C",
+        "-1 C",
+        "-1.6×10⁻¹⁹ C"
+      ],
+      "explanation": "e = -1.6×10⁻¹⁹ C।"
+    }
+  },
+  {
+    "id": "gdspe-0069",
     "correctOption": "B",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Resistance of a conductor depends on?",
+      "question": "Good conductor of electricity:",
       "options": [
-        "Weight",
-        "Length and area",
-        "Color only",
-        "Shape only"
+        "Rubber",
+        "Silver",
+        "Wood",
+        "Plastic"
       ],
-      "explanation": "R = ρL/A. Depends on length, area, material."
+      "explanation": "Silver has the lowest resistivity (best conductor)."
     },
     "hi": {
-      "question": "चालक का प्रतिरोध निर्भर करता है?",
+      "question": "विद्युत का अच्छा चालक:",
       "options": [
-        "Weight",
-        "Length and area",
-        "Color only",
-        "Shape only"
+        "रबर",
+        "चांदी",
+        "लकड़ी",
+        "प्लास्टिक"
       ],
-      "explanation": "R = ρL/A। लंबाई, क्षेत्रफल, पदार्थ पर निर्भर।"
-    },
-    "id": "gdspe-0077"
+      "explanation": "चांदी सबसे कम प्रतिरोधकता (सर्वोत्तम चालक)।"
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Ohm's law: V = ?",
-      "options": [
-        "I+R",
-        "IR",
-        "I/R",
-        "R/I"
-      ],
-      "explanation": "V = I × R (Voltage = Current × Resistance)."
-    },
-    "hi": {
-      "question": "ओम का नियम: V = ?",
-      "options": [
-        "I+R",
-        "IR",
-        "I/R",
-        "R/I"
-      ],
-      "explanation": "V = I × R (वोल्टता = धारा × प्रतिरोध)।"
-    },
-    "id": "gdspe-0078"
-  },
-  {
+    "id": "gdspe-0070",
     "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "SI unit of electric current?",
+      "question": "If 2A flows through a wire for 5 minutes, charge transferred:",
       "options": [
-        "Ohm",
-        "Watt",
-        "Ampere",
-        "Volt"
+        "10 C",
+        "120 C",
+        "600 C",
+        "300 C"
       ],
-      "explanation": "Current measured in Amperes (A)."
+      "explanation": "Q=I×t=2×300=600 C."
     },
     "hi": {
-      "question": "विद्युत धारा का SI मात्रक?",
+      "question": "2A, 5 मिनट। स्थानांतरित आवेश:",
       "options": [
-        "Ohm",
-        "Watt",
-        "Ampere",
-        "Volt"
+        "10 C",
+        "120 C",
+        "600 C",
+        "300 C"
       ],
-      "explanation": "धारा एम्पियर (A) में मापी जाती है।"
-    },
-    "id": "gdspe-0079"
+      "explanation": "Q=2×300=600 C।"
+    }
   },
   {
+    "id": "gdspe-0071",
     "correctOption": "A",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Resistance of a conductor depends on?",
+      "question": "LED stands for:",
       "options": [
-        "Length and area",
-        "Color only",
-        "Shape only",
-        "Weight"
+        "Light Emitting Diode",
+        "Low Energy Device",
+        "Light Energy Diode",
+        "Long Emitting Diode"
       ],
-      "explanation": "R = ρL/A. Depends on length, area, material."
+      "explanation": "LED = Light Emitting Diode (efficient light source)."
     },
     "hi": {
-      "question": "चालक का प्रतिरोध निर्भर करता है?",
+      "question": "LED का पूर्ण रूप:",
       "options": [
-        "Length and area",
-        "Color only",
-        "Shape only",
-        "Weight"
+        "Light Emitting Diode",
+        "Low Energy Device",
+        "Light Energy Diode",
+        "Long Emitting Diode"
       ],
-      "explanation": "R = ρL/A। लंबाई, क्षेत्रफल, पदार्थ पर निर्भर।"
-    },
-    "id": "gdspe-0080"
+      "explanation": "LED = प्रकाश उत्सर्जक डायोड।"
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Ohm's law: V = ?",
-      "options": [
-        "I+R",
-        "IR",
-        "R/I",
-        "I/R"
-      ],
-      "explanation": "V = I × R (Voltage = Current × Resistance)."
-    },
-    "hi": {
-      "question": "ओम का नियम: V = ?",
-      "options": [
-        "I+R",
-        "IR",
-        "R/I",
-        "I/R"
-      ],
-      "explanation": "V = I × R (वोल्टता = धारा × प्रतिरोध)।"
-    },
-    "id": "gdspe-0081"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI unit of electric current?",
-      "options": [
-        "Watt",
-        "Ampere",
-        "Ohm",
-        "Volt"
-      ],
-      "explanation": "Current measured in Amperes (A)."
-    },
-    "hi": {
-      "question": "विद्युत धारा का SI मात्रक?",
-      "options": [
-        "Watt",
-        "Ampere",
-        "Ohm",
-        "Volt"
-      ],
-      "explanation": "धारा एम्पियर (A) में मापी जाती है।"
-    },
-    "id": "gdspe-0082"
-  },
-  {
+    "id": "gdspe-0072",
     "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
+    "difficulty": "medium",
+    "sourceYear": 2024,
     "en": {
-      "question": "Resistance of a conductor depends on?",
+      "question": "A wire has resistance 16Ω. Cut into 4 equal parts. Each part resistance:",
       "options": [
-        "Weight",
-        "Shape only",
-        "Color only",
-        "Length and area"
+        "16 Ω",
+        "64 Ω",
+        "1 Ω",
+        "4 Ω"
       ],
-      "explanation": "R = ρL/A. Depends on length, area, material."
+      "explanation": "R∝L. Each part = 16/4 = 4 Ω."
     },
     "hi": {
-      "question": "चालक का प्रतिरोध निर्भर करता है?",
+      "question": "16Ω तार 4 भागों में काटा। प्रत्येक का प्रतिरोध:",
       "options": [
-        "Weight",
-        "Shape only",
-        "Color only",
-        "Length and area"
+        "16 Ω",
+        "64 Ω",
+        "1 Ω",
+        "4 Ω"
       ],
-      "explanation": "R = ρL/A। लंबाई, क्षेत्रफल, पदार्थ पर निर्भर।"
-    },
-    "id": "gdspe-0083"
+      "explanation": "प्रत्येक = 16/4 = 4 Ω।"
+    }
   },
   {
+    "id": "gdspe-0073",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Short circuit occurs when:",
+      "options": [
+        "Open circuit",
+        "Live and neutral connect directly",
+        "Low voltage",
+        "High resistance"
+      ],
+      "explanation": "Short circuit: live wire directly touches neutral, low resistance → high current."
+    },
+    "hi": {
+      "question": "शॉर्ट सर्किट तब:",
+      "options": [
+        "खुला परिपथ",
+        "लाइव और न्यूट्रल सीधे जुड़ें",
+        "कम वोल्टेज",
+        "उच्च प्रतिरोध"
+      ],
+      "explanation": "लाइव-न्यूट्रल सीधा संपर्क → कम प्रतिरोध → उच्च धारा।"
+    }
+  },
+  {
+    "id": "gdspe-0074",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Resistance of a cylinder depends inversely on:",
+      "options": [
+        "Length",
+        "Resistivity",
+        "Cross-sectional area",
+        "Temperature"
+      ],
+      "explanation": "R=ρL/A → R∝1/A."
+    },
+    "hi": {
+      "question": "बेलन का प्रतिरोध व्युत्क्रमानुपाती:",
+      "options": [
+        "लंबाई",
+        "प्रतिरोधकता",
+        "अनुप्रस्थ क्षेत्रफल",
+        "तापमान"
+      ],
+      "explanation": "R∝1/A।"
+    }
+  },
+  {
+    "id": "gdspe-0075",
     "correctOption": "A",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Ohm's law: V = ?",
+      "question": "Filament of bulb is made of:",
       "options": [
-        "IR",
-        "R/I",
-        "I+R",
-        "I/R"
+        "Tungsten",
+        "Copper",
+        "Nichrome",
+        "Aluminium"
       ],
-      "explanation": "V = I × R (Voltage = Current × Resistance)."
+      "explanation": "Tungsten: high melting point (3422°C), high resistivity."
     },
     "hi": {
-      "question": "ओम का नियम: V = ?",
+      "question": "बल्ब का तंतु:",
       "options": [
-        "IR",
-        "R/I",
-        "I+R",
-        "I/R"
+        "टंगस्टन",
+        "तांबा",
+        "नाइक्रोम",
+        "एल्युमिनियम"
       ],
-      "explanation": "V = I × R (वोल्टता = धारा × प्रतिरोध)।"
-    },
-    "id": "gdspe-0084"
+      "explanation": "टंगस्टन: उच्च गलनांक (3422°C), उच्च प्रतिरोधकता।"
+    }
   },
   {
+    "id": "gdspe-0076",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "If charge of 120C passes in 1 minute, current:",
+      "options": [
+        "120 A",
+        "60 A",
+        "1 A",
+        "2 A"
+      ],
+      "explanation": "I=Q/t=120/60=2 A."
+    },
+    "hi": {
+      "question": "1 मिनट में 120C आवेश। धारा:",
+      "options": [
+        "120 A",
+        "60 A",
+        "1 A",
+        "2 A"
+      ],
+      "explanation": "I=120/60=2 A।"
+    }
+  },
+  {
+    "id": "gdspe-0077",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Electric motor converts:",
+      "options": [
+        "Electrical → Heat",
+        "Electrical → Mechanical",
+        "Mechanical → Electrical",
+        "Chemical → Electrical"
+      ],
+      "explanation": "Motor: electrical energy → mechanical (rotational) energy."
+    },
+    "hi": {
+      "question": "विद्युत मोटर रूपांतरण:",
+      "options": [
+        "विद्युत → ऊष्मा",
+        "विद्युत → यांत्रिक",
+        "यांत्रिक → विद्युत",
+        "रासायनिक → विद्युत"
+      ],
+      "explanation": "मोटर: विद्युत → यांत्रिक।"
+    }
+  },
+  {
+    "id": "gdspe-0078",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "If 2A, 4A, and 6A enter a junction in different wires, leaving current:",
+      "options": [
+        "6 A",
+        "8 A",
+        "12 A",
+        "10 A"
+      ],
+      "explanation": "KCL: total entering = total leaving = 2+4+6 = 12 A."
+    },
+    "hi": {
+      "question": "2A,4A,6A जंक्शन में प्रवेश। निर्गत धारा:",
+      "options": [
+        "6 A",
+        "8 A",
+        "12 A",
+        "10 A"
+      ],
+      "explanation": "KCL: 2+4+6=12 A।"
+    }
+  },
+  {
+    "id": "gdspe-0079",
     "correctOption": "A",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "SI unit of electric current?",
+      "question": "Which material is used for fuse wire?",
       "options": [
-        "Ampere",
-        "Ohm",
-        "Volt",
-        "Watt"
+        "Tin-lead alloy",
+        "Copper",
+        "Tungsten",
+        "Silver"
       ],
-      "explanation": "Current measured in Amperes (A)."
+      "explanation": "Fuse: low melting point alloy (tin + lead)."
     },
     "hi": {
-      "question": "विद्युत धारा का SI मात्रक?",
+      "question": "फ्यूज तार की सामग्री:",
       "options": [
-        "Ampere",
-        "Ohm",
-        "Volt",
-        "Watt"
+        "टिन-सीसा मिश्रधातु",
+        "तांबा",
+        "टंगस्टन",
+        "चांदी"
       ],
-      "explanation": "धारा एम्पियर (A) में मापी जाती है।"
-    },
-    "id": "gdspe-0085"
+      "explanation": "कम गलनांक मिश्रधातु (टिन + सीसा)।"
+    }
   },
   {
+    "id": "gdspe-0080",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A battery of 6V sends 0.5A through a resistor for 2 min. Energy:",
+      "options": [
+        "6 J",
+        "3 J",
+        "180 J",
+        "360 J"
+      ],
+      "explanation": "E=VIt=6×0.5×120=360 J."
+    },
+    "hi": {
+      "question": "6V, 0.5A, 2 मिनट। ऊर्जा:",
+      "options": [
+        "6 J",
+        "3 J",
+        "180 J",
+        "360 J"
+      ],
+      "explanation": "E=6×0.5×120=360 J।"
+    }
+  },
+  {
+    "id": "gdspe-0081",
     "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If + means ×, - means +, × means ÷, then 30 + 2 - 5 = ?",
-      "options": [
-        "55",
-        "65",
-        "25",
-        "35"
-      ],
-      "explanation": "After substitution: 30×2+5 = 65."
-    },
-    "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 30 + 2 - 5 = ?",
-      "options": [
-        "55",
-        "65",
-        "25",
-        "35"
-      ],
-      "explanation": "प्रतिस्थापन के बाद: 30×2+5 = 65।"
-    },
-    "id": "gdspe-0086"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If + means ×, - means +, × means ÷, then 27 + 2 - 7 = ?",
-      "options": [
-        "61",
-        "34",
-        "20",
-        "47"
-      ],
-      "explanation": "After substitution: 27×2+7 = 61."
-    },
-    "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 27 + 2 - 7 = ?",
-      "options": [
-        "61",
-        "34",
-        "20",
-        "47"
-      ],
-      "explanation": "प्रतिस्थापन के बाद: 27×2+7 = 61।"
-    },
-    "id": "gdspe-0087"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "E",
-        "A",
-        "C",
-        "Cannot determine"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "E",
-        "A",
-        "C",
-        "Cannot determine"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdspe-0088"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "A",
-        "Cannot determine",
-        "E",
-        "C"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "A",
-        "Cannot determine",
-        "E",
-        "C"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdspe-0089"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If + means ×, - means +, × means ÷, then 26 + 2 - 7 = ?",
-      "options": [
-        "19",
-        "45",
-        "33",
-        "59"
-      ],
-      "explanation": "After substitution: 26×2+7 = 59."
-    },
-    "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 26 + 2 - 7 = ?",
-      "options": [
-        "19",
-        "45",
-        "33",
-        "59"
-      ],
-      "explanation": "प्रतिस्थापन के बाद: 26×2+7 = 59।"
-    },
-    "id": "gdspe-0090"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If + means ×, - means +, × means ÷, then 21 + 2 - 4 = ?",
-      "options": [
-        "25",
-        "38",
-        "17",
-        "46"
-      ],
-      "explanation": "After substitution: 21×2+4 = 46."
-    },
-    "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 21 + 2 - 4 = ?",
-      "options": [
-        "25",
-        "38",
-        "17",
-        "46"
-      ],
-      "explanation": "प्रतिस्थापन के बाद: 21×2+4 = 46।"
-    },
-    "id": "gdspe-0091"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "A",
-        "E",
-        "C",
-        "Cannot determine"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "A",
-        "E",
-        "C",
-        "Cannot determine"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdspe-0092"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "C",
-        "Cannot determine",
-        "E",
-        "A"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "C",
-        "Cannot determine",
-        "E",
-        "A"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdspe-0093"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "C",
-        "E",
-        "A",
-        "Cannot determine"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "C",
-        "E",
-        "A",
-        "Cannot determine"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdspe-0094"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If + means ×, - means +, × means ÷, then 28 + 2 - 9 = ?",
-      "options": [
-        "47",
-        "37",
-        "65",
-        "19"
-      ],
-      "explanation": "After substitution: 28×2+9 = 65."
-    },
-    "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 28 + 2 - 9 = ?",
-      "options": [
-        "47",
-        "37",
-        "65",
-        "19"
-      ],
-      "explanation": "प्रतिस्थापन के बाद: 28×2+9 = 65।"
-    },
-    "id": "gdspe-0095"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "C",
-        "E",
-        "Cannot determine",
-        "A"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "C",
-        "E",
-        "Cannot determine",
-        "A"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdspe-0096"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
-      "options": [
-        "E",
-        "A",
-        "Cannot determine",
-        "C"
-      ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
-    },
-    "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
-      "options": [
-        "E",
-        "A",
-        "Cannot determine",
-        "C"
-      ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
-    },
-    "id": "gdspe-0097"
-  },
-  {
-    "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "Complete series: 5, 8, 11, ?",
+      "question": "Earth wire is connected to:",
       "options": [
-        "17",
-        "20",
-        "14",
-        "15"
+        "Live wire",
+        "Ground",
+        "Neutral",
+        "Appliance body"
       ],
-      "explanation": "AP with d=3. Next = 14."
+      "explanation": "Earth wire connects appliance body to ground for safety."
     },
     "hi": {
-      "question": "श्रृंखला पूरी करें: 5, 8, 11, ?",
+      "question": "अर्थ तार जुड़ा है:",
       "options": [
-        "17",
-        "20",
-        "14",
-        "15"
+        "लाइव तार",
+        "जमीन/भूमि",
+        "न्यूट्रल",
+        "उपकरण बॉडी"
       ],
-      "explanation": "समांतर श्रेणी, d=3। अगला = 14।"
-    },
-    "id": "gdspe-0098"
+      "explanation": "अर्थ तार सुरक्षा के लिए उपकरण बॉडी को जमीन से जोड़ता है।"
+    }
   },
   {
+    "id": "gdspe-0082",
     "correctOption": "C",
     "difficulty": "medium",
-    "sourceYear": 2025,
+    "sourceYear": 2024,
     "en": {
-      "question": "If + means ×, - means +, × means ÷, then 26 + 2 - 7 = ?",
+      "question": "If a 10Ω wire is stretched to 3 times its length, new resistance:",
       "options": [
-        "45",
-        "33",
-        "59",
-        "19"
+        "30 Ω",
+        "10 Ω",
+        "90 Ω",
+        "3.33 Ω"
       ],
-      "explanation": "After substitution: 26×2+7 = 59."
+      "explanation": "R∝L² (volume constant). R'=10×9=90 Ω."
     },
     "hi": {
-      "question": "यदि + का अर्थ ×, - का अर्थ +, तो 26 + 2 - 7 = ?",
+      "question": "10Ω तार 3 गुना लंबाई तक खींचा। नया प्रतिरोध:",
       "options": [
-        "45",
-        "33",
-        "59",
-        "19"
+        "30 Ω",
+        "10 Ω",
+        "90 Ω",
+        "3.33 Ω"
       ],
-      "explanation": "प्रतिस्थापन के बाद: 26×2+7 = 59।"
-    },
-    "id": "gdspe-0099"
+      "explanation": "R'=10×9=90 Ω।"
+    }
   },
   {
+    "id": "gdspe-0083",
     "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
+    "difficulty": "easy",
+    "sourceYear": 2024,
     "en": {
-      "question": "5 people sit in a row. A sits left of B. C sits right of D. E sits at one end. Who sits in middle?",
+      "question": "Alternating current is produced by:",
       "options": [
-        "Cannot determine",
-        "C",
-        "E",
-        "A"
+        "AC generator",
+        "Battery",
+        "Solar cell",
+        "Thermocouple"
       ],
-      "explanation": "Without knowing exact positions, the middle person cannot be determined from given information."
+      "explanation": "AC generator (alternator) produces alternating current."
     },
     "hi": {
-      "question": "5 लोग पंक्ति में बैठे। A, B के बाएं। C, D के दाएं। E एक छोर पर। बीच में कौन?",
+      "question": "प्रत्यावर्ती धारा उत्पन्न होती है:",
       "options": [
-        "Cannot determine",
-        "C",
-        "E",
-        "A"
+        "AC जनरेटर",
+        "बैटरी",
+        "सौर सेल",
+        "थर्मोकपल"
       ],
-      "explanation": "बिना सटीक स्थिति के, दी गई जानकारी से मध्य का व्यक्ति निर्धारित नहीं किया जा सकता।"
+      "explanation": "AC जनरेटर (आल्टरनेटर) प्रत्यावर्ती धारा उत्पन्न करता है।"
+    }
+  },
+  {
+    "id": "gdspe-0084",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A bulb marked 100W-250V. Its resistance:",
+      "options": [
+        "2.5 Ω",
+        "250 Ω",
+        "100 Ω",
+        "625 Ω"
+      ],
+      "explanation": "R=V²/P=250²/100=62500/100=625 Ω."
     },
-    "id": "gdspe-0100"
+    "hi": {
+      "question": "100W-250V बल्ब का प्रतिरोध:",
+      "options": [
+        "2.5 Ω",
+        "250 Ω",
+        "100 Ω",
+        "625 Ω"
+      ],
+      "explanation": "R=250²/100=625 Ω।"
+    }
+  },
+  {
+    "id": "gdspe-0085",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A resistor with colored bands is called:",
+      "options": [
+        "Variable resistor",
+        "Carbon resistor",
+        "Wire wound",
+        "Rheostat"
+      ],
+      "explanation": "Carbon resistors use color codes to indicate resistance value."
+    },
+    "hi": {
+      "question": "रंग पट्टी वाला प्रतिरोधक:",
+      "options": [
+        "परिवर्ती प्रतिरोधक",
+        "कार्बन प्रतिरोधक",
+        "तार कुंडलित",
+        "धारा नियंत्रक"
+      ],
+      "explanation": "कार्बन प्रतिरोधक रंग कोड से प्रतिरोध दर्शाते हैं।"
+    }
+  },
+  {
+    "id": "gdspe-0086",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "In a house, a 60W fan runs 15h, 100W TV 5h, 200W fridge 10h daily. Monthly energy (30 days):",
+      "options": [
+        "150 kWh",
+        "240 kWh",
+        "117 kWh",
+        "90 kWh"
+      ],
+      "explanation": "Daily: 0.06×15+0.1×5+0.2×10=0.9+0.5+2=3.4 kWh. Monthly: 3.4×30=102 kWh. Wait: 3.9 kWh daily. Monthly=117 kWh."
+    },
+    "hi": {
+      "question": "60W पंखा 15h, 100W TV 5h, 200W फ्रिज 10h। 30 दिन की ऊर्जा:",
+      "options": [
+        "150 kWh",
+        "240 kWh",
+        "117 kWh",
+        "90 kWh"
+      ],
+      "explanation": "दैनिक=3.9 kWh, मासिक=117 kWh।"
+    }
+  },
+  {
+    "id": "gdspe-0087",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Resistance of an ideal voltmeter should be:",
+      "options": [
+        "Very high",
+        "Very low",
+        "Zero",
+        "1 Ω"
+      ],
+      "explanation": "High resistance ensures voltmeter draws negligible current."
+    },
+    "hi": {
+      "question": "आदर्श वोल्टमीटर का प्रतिरोध:",
+      "options": [
+        "बहुत उच्च",
+        "बहुत कम",
+        "शून्य",
+        "1 Ω"
+      ],
+      "explanation": "उच्च प्रतिरोध से नगण्य धारा खिंचती है।"
+    }
+  },
+  {
+    "id": "gdspe-0088",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "If 1.6A current flows in a wire, electrons per second: (e=1.6×10⁻¹⁹)",
+      "options": [
+        "1.6×10¹⁹",
+        "1×10⁻¹⁹",
+        "1",
+        "10¹⁹"
+      ],
+      "explanation": "n=I/e=1.6/1.6×10⁻¹⁹=10¹⁹ electrons/s."
+    },
+    "hi": {
+      "question": "1.6A धारा। इलेक्ट्रॉन/सेकंड:",
+      "options": [
+        "1.6×10¹⁹",
+        "1×10⁻¹⁹",
+        "1",
+        "10¹⁹"
+      ],
+      "explanation": "n=1.6/1.6×10⁻¹⁹=10¹⁹।"
+    }
+  },
+  {
+    "id": "gdspe-0089",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Nichrome is an alloy of:",
+      "options": [
+        "Copper, Zinc",
+        "Nickel, Chromium",
+        "Iron, Carbon",
+        "Lead, Tin"
+      ],
+      "explanation": "Nichrome = Nickel + Chromium (sometimes + Iron)."
+    },
+    "hi": {
+      "question": "नाइक्रोम मिश्रधातु:",
+      "options": [
+        "तांबा, जस्ता",
+        "निकल, क्रोमियम",
+        "लोहा, कार्बन",
+        "सीसा, टिन"
+      ],
+      "explanation": "नाइक्रोम = निकल + क्रोमियम।"
+    }
+  },
+  {
+    "id": "gdspe-0090",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Two wires A and B: same length, A has double diameter of B. R_A/R_B:",
+      "options": [
+        "2:1",
+        "1:2",
+        "1:4",
+        "4:1"
+      ],
+      "explanation": "R∝1/d². R_A/R_B = (d_B/d_A)² = 1/4."
+    },
+    "hi": {
+      "question": "A का व्यास B से दोगुना, समान लंबाई। R_A/R_B:",
+      "options": [
+        "2:1",
+        "1:2",
+        "1:4",
+        "4:1"
+      ],
+      "explanation": "R_A/R_B=1/4।"
+    }
+  },
+  {
+    "id": "gdspe-0091",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "In case of electric shock, the body acts as a:",
+      "options": [
+        "Conductor",
+        "Insulator",
+        "Semiconductor",
+        "Capacitor"
+      ],
+      "explanation": "Human body (mostly water) conducts electricity → shock risk."
+    },
+    "hi": {
+      "question": "बिजली के झटके में शरीर:",
+      "options": [
+        "चालक",
+        "कुचालक",
+        "अर्धचालक",
+        "संधारित्र"
+      ],
+      "explanation": "मानव शरीर (ज्यादातर पानी) विद्युत चालक है।"
+    }
+  },
+  {
+    "id": "gdspe-0092",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Two bulbs: 25W-220V and 100W-220V in series with 440V. Which blows first?",
+      "options": [
+        "100W",
+        "Neither",
+        "Both",
+        "25W"
+      ],
+      "explanation": "25W has R=1936Ω, 100W R=484Ω. 25W gets ~352V > 220V rating → blows."
+    },
+    "hi": {
+      "question": "25W और 100W बल्ब 440V पर श्रेणी में। कौन फुंकेगा:",
+      "options": [
+        "100W",
+        "कोई नहीं",
+        "दोनों",
+        "25W"
+      ],
+      "explanation": "25W को ~352V मिलेगा > 220V रेटिंग → फुंकेगा।"
+    }
+  },
+  {
+    "id": "gdspe-0093",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The material with zero resistivity is called:",
+      "options": [
+        "Conductor",
+        "Superconductor",
+        "Insulator",
+        "Semiconductor"
+      ],
+      "explanation": "Superconductors have zero resistance below critical temperature."
+    },
+    "hi": {
+      "question": "शून्य प्रतिरोधकता वाला पदार्थ:",
+      "options": [
+        "चालक",
+        "अतिचालक",
+        "कुचालक",
+        "अर्धचालक"
+      ],
+      "explanation": "अतिचालक: क्रांतिक तापमान से नीचे शून्य प्रतिरोध।"
+    }
+  },
+  {
+    "id": "gdspe-0094",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "In an electric circuit, a resistor of 4Ω has 2A current. Voltage across it:",
+      "options": [
+        "2 V",
+        "0.5 V",
+        "8 V",
+        "6 V"
+      ],
+      "explanation": "V=IR=2×4=8 V."
+    },
+    "hi": {
+      "question": "4Ω प्रतिरोधक, 2A। वोल्टेज:",
+      "options": [
+        "2 V",
+        "0.5 V",
+        "8 V",
+        "6 V"
+      ],
+      "explanation": "V=2×4=8 V।"
+    }
+  },
+  {
+    "id": "gdspe-0095",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Overloading occurs when:",
+      "options": [
+        "Too many appliances draw high current",
+        "Voltage is low",
+        "Fuse blows",
+        "Switch is off"
+      ],
+      "explanation": "Overloading = current exceeds rated capacity of circuit."
+    },
+    "hi": {
+      "question": "अतिभारण तब:",
+      "options": [
+        "बहुत से उपकरण उच्च धारा लें",
+        "कम वोल्टेज",
+        "फ्यूज उड़े",
+        "स्विच बंद हो"
+      ],
+      "explanation": "अतिभारण = परिपथ की रेटेड क्षमता से अधिक धारा।"
+    }
+  },
+  {
+    "id": "gdspe-0096",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "1 kWh = ___ joules:",
+      "options": [
+        "1000",
+        "3600",
+        "1000000",
+        "3.6×10⁶"
+      ],
+      "explanation": "1 kWh = 1000 W × 3600 s = 3.6×10⁶ J."
+    },
+    "hi": {
+      "question": "1 kWh = ___ जूल:",
+      "options": [
+        "1000",
+        "3600",
+        "1000000",
+        "3.6×10⁶"
+      ],
+      "explanation": "1 kWh = 1000×3600 = 3.6×10⁶ J।"
+    }
+  },
+  {
+    "id": "gdspe-0097",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The positive terminal of a dry cell is:",
+      "options": [
+        "Zinc can",
+        "Carbon rod",
+        "Electrolyte",
+        "Iron"
+      ],
+      "explanation": "Carbon rod (with MnO₂) is the positive terminal/cathode."
+    },
+    "hi": {
+      "question": "शुष्क सेल का धन टर्मिनल:",
+      "options": [
+        "जस्ता कैन",
+        "कार्बन छड़",
+        "विद्युत अपघट्य",
+        "लोहा"
+      ],
+      "explanation": "कार्बन छड़ धन टर्मिनल/कैथोड।"
+    }
+  },
+  {
+    "id": "gdspe-0098",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "An electric heater of 1500W is used 3h/day. Cost for April (30 days) at Rs 6/unit:",
+      "options": [
+        "Rs 450",
+        "Rs 540",
+        "Rs 810",
+        "Rs 270"
+      ],
+      "explanation": "E=1.5×3×30=135 kWh. Cost=135×6=Rs 810."
+    },
+    "hi": {
+      "question": "1500W हीटर 3 घंटे/दिन। अप्रैल (30 दिन), Rs 6/यूनिट:",
+      "options": [
+        "Rs 450",
+        "Rs 540",
+        "Rs 810",
+        "Rs 270"
+      ],
+      "explanation": "E=135 kWh, लागत=Rs 810।"
+    }
+  },
+  {
+    "id": "gdspe-0099",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Variable resistance is called:",
+      "options": [
+        "Rheostat",
+        "Resistor",
+        "Fuse",
+        "Capacitor"
+      ],
+      "explanation": "Rheostat (variable resistor) can change resistance."
+    },
+    "hi": {
+      "question": "परिवर्ती प्रतिरोध:",
+      "options": [
+        "धारा नियंत्रक/रियोस्टेट",
+        "प्रतिरोधक",
+        "फ्यूज",
+        "संधारित्र"
+      ],
+      "explanation": "रियोस्टेट प्रतिरोध बदल सकता है।"
+    }
+  },
+  {
+    "id": "gdspe-0100",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "If a wire's diameter is doubled (same length, same material), resistance becomes:",
+      "options": [
+        "Double",
+        "Half",
+        "Same",
+        "One-fourth"
+      ],
+      "explanation": "R∝1/d². d→2d, R→R/4."
+    },
+    "hi": {
+      "question": "तार का व्यास दोगुना। प्रतिरोध:",
+      "options": [
+        "दोगुना",
+        "आधा",
+        "समान",
+        "एक चौथाई"
+      ],
+      "explanation": "R∝1/d² → R/4।"
+    }
   }
 ]
