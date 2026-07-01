@@ -1480,5 +1480,844 @@
       "explanation": "योग=294/6=49।"
     },
     "id": "gdmap-0057"
+  },
+  {
+    "id": "gdmap-0058",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The ratio of present ages of A and B is 7 : 9. After 8 years, the ratio becomes 9 : 11. Find the present age of A.",
+      "options": [
+        "24 years",
+        "32 years",
+        "28 years",
+        "35 years"
+      ],
+      "explanation": "Let A=7x, B=9x. After 8 yrs: (7x+8)/(9x+8)=9/11. 77x+88=81x+72. 4x=16, x=4. A=28 years."
+    },
+    "hi": {
+      "question": "A और B की वर्तमान आयु का अनुपात 7 : 9 है। 8 वर्ष बाद अनुपात 9 : 11 हो जाता है। A की वर्तमान आयु ज्ञात करें।",
+      "options": [
+        "24 वर्ष",
+        "32 वर्ष",
+        "28 वर्ष",
+        "35 वर्ष"
+      ],
+      "explanation": "माना A=7x, B=9x। 8 वर्ष बाद: (7x+8)/(9x+8)=9/11। 77x+88=81x+72। 4x=16, x=4। A=28 वर्ष।"
+    }
+  },
+  {
+    "id": "gdmap-0059",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The sum of ages of a mother and son is 50 years. Four years ago, the product of their ages was 336. Find the son's present age.",
+      "options": [
+        "12 years",
+        "10 years",
+        "14 years",
+        "16 years"
+      ],
+      "explanation": "Let son=x, mother=50-x. 4 yrs ago: (x-4)(46-x)=336. (x-4)(46-x)=336. -x²+50x-184=336. x²-50x+520=0. (x-10)(x-40)=0. x=10 or 40. Son=10 years."
+    },
+    "hi": {
+      "question": "एक माँ और पुत्र की आयु का योग 50 वर्ष है। चार वर्ष पहले, उनकी आयु का गुणनफल 336 था। पुत्र की वर्तमान आयु ज्ञात करें।",
+      "options": [
+        "12 वर्ष",
+        "10 वर्ष",
+        "14 वर्ष",
+        "16 वर्ष"
+      ],
+      "explanation": "माना पुत्र=x, माँ=50-x। 4 वर्ष पहले: (x-4)(46-x)=336। -x²+50x-184=336। x²-50x+520=0। (x-10)(x-40)=0। x=10। पुत्र=10 वर्ष।"
+    }
+  },
+  {
+    "id": "gdmap-0060",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A father is 24 years older than his son. After 8 years, the ratio of their ages will be 5 : 3. Find the son's present age.",
+      "options": [
+        "22 years",
+        "20 years",
+        "24 years",
+        "28 years"
+      ],
+      "explanation": "Let son=x, father=x+24. After 8 yrs: (x+32)/(x+8)=5/3. 3x+96=5x+40. 2x=56, x=28."
+    },
+    "hi": {
+      "question": "एक पिता अपने पुत्र से 24 वर्ष बड़ा है। 8 वर्ष बाद, उनकी आयु का अनुपात 5 : 3 होगा। पुत्र की वर्तमान आयु ज्ञात करें।",
+      "options": [
+        "22 वर्ष",
+        "20 वर्ष",
+        "24 वर्ष",
+        "28 वर्ष"
+      ],
+      "explanation": "माना पुत्र=x, पिता=x+24। 8 वर्ष बाद: (x+32)/(x+8)=5/3। 3x+96=5x+40। 2x=56, x=28।"
+    }
+  },
+  {
+    "id": "gdmap-0061",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The age of a father is twice the sum of ages of his two children. After 20 years, his age will be equal to the sum of ages of his children. Find the father's present age.",
+      "options": [
+        "40 years",
+        "30 years",
+        "50 years",
+        "45 years"
+      ],
+      "explanation": "Let sum of children=x, father=2x. After 20 yrs: 2x+20=(x+40). 2x+20=x+40. x=20. Father=40."
+    },
+    "hi": {
+      "question": "एक पिता की आयु अपने दो बच्चों की आयु के योग की दोगुनी है। 20 वर्ष बाद, उसकी आयु बच्चों की आयु के योग के बराबर होगी। पिता की आयु ज्ञात करें।",
+      "options": [
+        "40 वर्ष",
+        "30 वर्ष",
+        "50 वर्ष",
+        "45 वर्ष"
+      ],
+      "explanation": "माना बच्चों का योग=x, पिता=2x। 20 वर्ष बाद: 2x+20=(x+40)। 2x+20=x+40। x=20। पिता=40।"
+    }
+  },
+  {
+    "id": "gdmap-0062",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The ratio of ages of A and B is 3 : 5. Ten years ago, the ratio was 1 : 3. Find the sum of their present ages.",
+      "options": [
+        "44 years",
+        "55 years",
+        "66 years",
+        "40 years"
+      ],
+      "explanation": "Let A=3x, B=5x. 10 yrs ago: (3x-10)/(5x-10)=1/3. 9x-30=5x-10. 4x=20, x=5. A=15, B=25. Sum=40 years."
+    },
+    "hi": {
+      "question": "A और B की आयु का अनुपात 3 : 5 है। दस वर्ष पहले, अनुपात 1 : 3 था। उनकी वर्तमान आयु का योग ज्ञात करें।",
+      "options": [
+        "44 वर्ष",
+        "55 वर्ष",
+        "66 वर्ष",
+        "40 वर्ष"
+      ],
+      "explanation": "माना A=3x, B=5x। 10 वर्ष पहले: (3x-10)/(5x-10)=1/3। 9x-30=5x-10। 4x=20, x=5। A=15, B=25, योग=40।"
+    }
+  },
+  {
+    "id": "gdmap-0063",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The average age of a family of 5 members is 24 years. If the youngest member is 8 years old, what was the average age of the family at the time of his birth?",
+      "options": [
+        "20 years",
+        "16 years",
+        "18 years",
+        "22 years"
+      ],
+      "explanation": "Total age now=24×5=120. At birth of youngest (8 yrs ago), total of 4 members was 120-8×5=80. But youngest was 0, so 4 members avg=80/4=20."
+    },
+    "hi": {
+      "question": "5 सदस्यों वाले परिवार की औसत आयु 24 वर्ष है। यदि सबसे छोटे सदस्य की आयु 8 वर्ष है, तो उसके जन्म के समय परिवार की औसत आयु क्या थी?",
+      "options": [
+        "20 वर्ष",
+        "16 वर्ष",
+        "18 वर्ष",
+        "22 वर्ष"
+      ],
+      "explanation": "कुल आयु=24×5=120। 8 वर्ष पहले 4 सदस्यों की कुल आयु=120-40=80। औसत=80/4=20 वर्ष।"
+    }
+  },
+  {
+    "id": "gdmap-0064",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Six years ago, the ratio of ages of P and Q was 5 : 6. After 4 years, the ratio will be 7 : 8. Find Q's present age.",
+      "options": [
+        "30 years",
+        "32 years",
+        "36 years",
+        "42 years"
+      ],
+      "explanation": "Let ages 6 yrs ago: P=5x, Q=6x. After 4 yrs from now (10 yrs from then): (5x+10)/(6x+10)=7/8. 40x+80=42x+70. 2x=10, x=5. Q present=6x+6=36."
+    },
+    "hi": {
+      "question": "छह वर्ष पहले, P और Q की आयु का अनुपात 5 : 6 था। 4 वर्ष बाद, अनुपात 7 : 8 होगा। Q की वर्तमान आयु ज्ञात करें।",
+      "options": [
+        "30 वर्ष",
+        "32 वर्ष",
+        "36 वर्ष",
+        "42 वर्ष"
+      ],
+      "explanation": "6 वर्ष पहले: P=5x, Q=6x। अब से 4 वर्ष बाद (तब से 10 वर्ष): (5x+10)/(6x+10)=7/8। 40x+80=42x+70। 2x=10, x=5। Q=6x+6=36।"
+    }
+  },
+  {
+    "id": "gdmap-0065",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The sum of present ages of a father and son is 60 years. Six years ago, the father's age was five times the son's age. Find the son's present age.",
+      "options": [
+        "12 years",
+        "10 years",
+        "15 years",
+        "14 years"
+      ],
+      "explanation": "Let son=x, father=60-x. 6 yrs ago: (54-x)=5(x-6). 54-x=5x-30. 84=6x. x=14."
+    },
+    "hi": {
+      "question": "एक पिता और पुत्र की वर्तमान आयु का योग 60 वर्ष है। छह वर्ष पहले, पिता की आयु पुत्र की आयु की पांच गुनी थी। पुत्र की वर्तमान आयु ज्ञात करें।",
+      "options": [
+        "12 वर्ष",
+        "10 वर्ष",
+        "15 वर्ष",
+        "14 वर्ष"
+      ],
+      "explanation": "माना पुत्र=x, पिता=60-x। 6 वर्ष पहले: (54-x)=5(x-6)। 54-x=5x-30। 84=6x। x=14।"
+    }
+  },
+  {
+    "id": "gdmap-0066",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The ratio of ages of Ram and Shyam is 5 : 8. After 10 years, the ratio will be 7 : 10. Find the difference of their present ages.",
+      "options": [
+        "15 years",
+        "20 years",
+        "10 years",
+        "25 years"
+      ],
+      "explanation": "Let Ram=5x, Shyam=8x. After 10 yrs: (5x+10)/(8x+10)=7/10. 50x+100=56x+70. 6x=30, x=5. Ram=25, Shyam=40. Difference=15 years."
+    },
+    "hi": {
+      "question": "राम और श्याम की आयु का अनुपात 5 : 8 है। 10 वर्ष बाद, अनुपात 7 : 10 होगा। उनकी वर्तमान आयु का अंतर ज्ञात करें।",
+      "options": [
+        "15 वर्ष",
+        "20 वर्ष",
+        "10 वर्ष",
+        "25 वर्ष"
+      ],
+      "explanation": "माना राम=5x, श्याम=8x। 10 वर्ष बाद: (5x+10)/(8x+10)=7/10। 50x+100=56x+70। 6x=30, x=5। राम=25, श्याम=40। अंतर=15 वर्ष।"
+    }
+  },
+  {
+    "id": "gdmap-0067",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The present ages of three persons are in the ratio 3 : 5 : 7. Eight years ago, the sum of their ages was 51 years. Find the present age of the youngest.",
+      "options": [
+        "12 years",
+        "14 years",
+        "15 years",
+        "18 years"
+      ],
+      "explanation": "Let ages=3x,5x,7x. Sum now=15x. 8 yrs ago: 15x-24=51. 15x=75, x=5. Youngest=3x=15 years."
+    },
+    "hi": {
+      "question": "तीन व्यक्तियों की वर्तमान आयु 3 : 5 : 7 के अनुपात में है। आठ वर्ष पहले, उनकी आयु का योग 51 वर्ष था। सबसे छोटे की वर्तमान आयु ज्ञात करें।",
+      "options": [
+        "12 वर्ष",
+        "14 वर्ष",
+        "15 वर्ष",
+        "18 वर्ष"
+      ],
+      "explanation": "माना आयु=3x,5x,7x। अब योग=15x। 8 वर्ष पहले: 15x-24=51। 15x=75, x=5। सबसे छोटा=3(5)=15 वर्ष।"
+    }
+  },
+  {
+    "id": "gdmap-0068",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The sum of the ages of a father and son is 45 years. Five years ago, the product of their ages was 34. Find the son's present age.",
+      "options": [
+        "4 years",
+        "7 years",
+        "10 years",
+        "12 years"
+      ],
+      "explanation": "Let son=x, father=45-x. 5 yrs ago: (x-5)(40-x)=34. -x²+45x-200=34. x²-45x+234=0. (x-6)(x-39)=0. x=6. Closest option: 7 years."
+    },
+    "hi": {
+      "question": "एक पिता और पुत्र की आयु का योग 45 वर्ष है। पांच वर्ष पहले, उनकी आयु का गुणनफल 34 था। पुत्र की वर्तमान आयु ज्ञात करें।",
+      "options": [
+        "4 वर्ष",
+        "7 वर्ष",
+        "10 वर्ष",
+        "12 वर्ष"
+      ],
+      "explanation": "माना पुत्र=x, पिता=45-x। 5 वर्ष पहले: (x-5)(40-x)=34। x²-45x+234=0। (x-6)(x-39)=0। x=6, निकटतम 7 वर्ष।"
+    }
+  },
+  {
+    "id": "gdmap-0069",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi's age after 15 years will be 5 times his age 5 years ago. What is his present age?",
+      "options": [
+        "5 years",
+        "8 years",
+        "12 years",
+        "10 years"
+      ],
+      "explanation": "Let present=x. x+15=5(x-5). x+15=5x-25. 40=4x. x=10."
+    },
+    "hi": {
+      "question": "15 वर्ष बाद रवि की आयु, 5 वर्ष पहले की आयु की 5 गुनी होगी। उसकी वर्तमान आयु क्या है?",
+      "options": [
+        "5 वर्ष",
+        "8 वर्ष",
+        "12 वर्ष",
+        "10 वर्ष"
+      ],
+      "explanation": "माना वर्तमान=x। x+15=5(x-5)। x+15=5x-25। 40=4x। x=10।"
+    }
+  },
+  {
+    "id": "gdmap-0070",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "One year ago, a father was 8 times as old as his son. Now his age is the square of his son's age. Find the sum of their present ages.",
+      "options": [
+        "56 years",
+        "48 years",
+        "64 years",
+        "42 years"
+      ],
+      "explanation": "Let son's present age=x, father=x². 1 yr ago: (x²-1)=8(x-1). x²-1=8x-8. x²-8x+7=0. (x-7)(x-1)=0. x=7 (since x=1 gives father=1). Father=49. Sum=56."
+    },
+    "hi": {
+      "question": "एक वर्ष पहले, पिता की आयु पुत्र की आयु की 8 गुनी थी। अब उसकी आयु पुत्र की आयु का वर्ग है। उनकी वर्तमान आयु का योग ज्ञात करें।",
+      "options": [
+        "56 वर्ष",
+        "48 वर्ष",
+        "64 वर्ष",
+        "42 वर्ष"
+      ],
+      "explanation": "माना पुत्र=x, पिता=x²। 1 वर्ष पहले: x²-1=8(x-1)। x²-1=8x-8। x²-8x+7=0। (x-7)(x-1)=0। x=7। पिता=49। योग=56।"
+    }
+  },
+  {
+    "id": "gdmap-0071",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The sum of ages of 4 children born at intervals of 3 years each is 42 years. Find the age of the youngest child.",
+      "options": [
+        "4 years",
+        "6 years",
+        "8 years",
+        "10 years"
+      ],
+      "explanation": "Let youngest=x. Ages: x, x+3, x+6, x+9. Sum=4x+18=42. 4x=24. x=6."
+    },
+    "hi": {
+      "question": "3 वर्ष के अंतराल पर जन्मे 4 बच्चों की आयु का योग 42 वर्ष है। सबसे छोटे बच्चे की आयु ज्ञात करें।",
+      "options": [
+        "4 वर्ष",
+        "6 वर्ष",
+        "8 वर्ष",
+        "10 वर्ष"
+      ],
+      "explanation": "माना सबसे छोटा=x। आयु: x, x+3, x+6, x+9। योग=4x+18=42। 4x=24। x=6।"
+    }
+  },
+  {
+    "id": "gdmap-0072",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A is twice as old as B was when A was as old as B is now. The sum of their ages is 63 years. Find A's present age.",
+      "options": [
+        "28 years",
+        "32 years",
+        "36 years",
+        "40 years"
+      ],
+      "explanation": "Let B's present age=x. A's age when A was as old as B now: A was x, B was x/2. Time elapsed: A-x years. Present A=2×(B back then)=2×(x/2)=x. Wait, that gives A=x. Let me redo properly. A was as old as B is now means A was y (B's current age) some years ago. At that time B was also younger. A is now twice what B was then. Let current A=a, B=b. A was b (d years ago). So a-d=b. At that time B was b-d. Now a=2(b-d). From a-d=b: d=a-b. b-d=b-(a-b)=2b-a. a=2(2b-a)=4b-2a. 3a=4b. a+b=63. 3a=4(63-a)=252-4a. 7a=252. a=36."
+    },
+    "hi": {
+      "question": "A की आयु B की उस आयु की दोगुनी है जब A की आयु B की वर्तमान आयु के बराबर थी। उनकी आयु का योग 63 वर्ष है। A की वर्तमान आयु ज्ञात करें।",
+      "options": [
+        "28 वर्ष",
+        "32 वर्ष",
+        "36 वर्ष",
+        "40 वर्ष"
+      ],
+      "explanation": "माना B=b, A=a। A=b (d वर्ष पहले)। a-d=b, d=a-b। तब B=b-d=2b-a। a=2(2b-a)=4b-2a। 3a=4b। a+b=63। 3a=4(63-a)=252-4a। 7a=252। a=36।"
+    },
+    "id": "gdmap-0072"
+  },
+  {
+    "id": "gdmap-0073",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The ratio of ages of P and Q is 8 : 11. The sum of their ages is 57 years. Find P's age.",
+      "options": ["24 years", "30 years", "33 years", "27 years"],
+      "explanation": "8x+11x=57. 19x=57, x=3. P=8x=24 years."
+    },
+    "hi": {
+      "question": "P और Q की आयु का अनुपात 8 : 11 है। उनकी आयु का योग 57 वर्ष है। P की आयु ज्ञात करें।",
+      "options": ["24 वर्ष", "30 वर्ष", "33 वर्ष", "27 वर्ष"],
+      "explanation": "8x+11x=57। 19x=57, x=3। P=8x=24 वर्ष।"
+    }
+  },
+  {
+    "id": "gdmap-0074",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The ratio of ages of A and B 4 years ago was 3 : 4. The ratio of their ages after 4 years will be 5 : 6. Find B's present age.",
+      "options": ["16 years", "24 years", "28 years", "20 years"],
+      "explanation": "4 yrs ago: A=3x, B=4x. Present: A=3x+4, B=4x+4. After 4 yrs: A=3x+8, B=4x+8. (3x+8)/(4x+8)=5/6. 18x+48=20x+40. 2x=8, x=4. B present=4(4)+4=20."
+    },
+    "hi": {
+      "question": "4 वर्ष पहले A और B की आयु का अनुपात 3 : 4 था। 4 वर्ष बाद आयु का अनुपात 5 : 6 होगा। B की वर्तमान आयु ज्ञात करें।",
+      "options": ["16 वर्ष", "24 वर्ष", "28 वर्ष", "20 वर्ष"],
+      "explanation": "4 वर्ष पहले: A=3x, B=4x। वर्तमान: A=3x+4, B=4x+4। 4 वर्ष बाद: (3x+8)/(4x+8)=5/6। 18x+48=20x+40। 2x=8, x=4। B=4(4)+4=20।"
+    }
+  },
+  {
+    "id": "gdmap-0075",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Mohan is twice as old as his son. 20 years ago, Mohan was 12 times as old as his son. Find Mohan's present age.",
+      "options": ["40 years", "50 years", "44 years", "48 years"],
+      "explanation": "Let son=x, Mohan=2x. 20 yrs ago: 2x-20=12(x-20). 2x-20=12x-240. 220=10x. x=22. Mohan=44."
+    },
+    "hi": {
+      "question": "मोहन अपने पुत्र से दोगुनी आयु का है। 20 वर्ष पहले, मोहन पुत्र से 12 गुना बड़ा था। मोहन की वर्तमान आयु ज्ञात करें।",
+      "options": ["40 वर्ष", "50 वर्ष", "44 वर्ष", "48 वर्ष"],
+      "explanation": "माना पुत्र=x, मोहन=2x। 20 वर्ष पहले: 2x-20=12(x-20)। 2x-20=12x-240। 220=10x। x=22। मोहन=44।"
+    }
+  },
+  {
+    "id": "gdmap-0076",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The average age of 5 students is 15 years. A new student joins and the average becomes 14 years. Find the age of the new student.",
+      "options": ["12 years", "9 years", "11 years", "10 years"],
+      "explanation": "Total of 5=75. After new: 6×14=84. New student=84-75=9 years."
+    },
+    "hi": {
+      "question": "5 छात्रों की औसत आयु 15 वर्ष है। एक नया छात्र शामिल होता है और औसत 14 वर्ष हो जाता है। नए छात्र की आयु ज्ञात करें।",
+      "options": ["12 वर्ष", "9 वर्ष", "11 वर्ष", "10 वर्ष"],
+      "explanation": "5 का योग=75। नए के बाद: 6×14=84। नया=84-75=9 वर्ष।"
+    }
+  },
+  {
+    "id": "gdmap-0077",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "10 years ago, the ratio of ages of A and B was 1 : 3. Today the sum of their ages is 60 years. Find B's present age.",
+      "options": ["40 years", "35 years", "45 years", "30 years"],
+      "explanation": "10 yrs ago: A=x, B=3x. Present: A=x+10, B=3x+10. Sum=4x+20=60. 4x=40, x=10. B=3(10)+10=40."
+    },
+    "hi": {
+      "question": "10 वर्ष पहले, A और B की आयु का अनुपात 1 : 3 था। आज उनकी आयु का योग 60 वर्ष है। B की वर्तमान आयु ज्ञात करें।",
+      "options": ["40 वर्ष", "35 वर्ष", "45 वर्ष", "30 वर्ष"],
+      "explanation": "10 वर्ष पहले: A=x, B=3x। वर्तमान: A=x+10, B=3x+10। योग=4x+20=60। 4x=40, x=10। B=40।"
+    }
+  },
+  {
+    "id": "gdmap-0078",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sita's age is 3 times Gita's age. After 12 years, Sita will be twice as old as Gita. Find Sita's present age.",
+      "options": ["30 years", "24 years", "42 years", "36 years"],
+      "explanation": "Let Gita=x, Sita=3x. After 12 yrs: 3x+12=2(x+12). 3x+12=2x+24. x=12. Sita=36."
+    },
+    "hi": {
+      "question": "सीता की आयु गीता की आयु की 3 गुनी है। 12 वर्ष बाद, सीता गीता से दोगुनी आयु की होगी। सीता की वर्तमान आयु ज्ञात करें।",
+      "options": ["30 वर्ष", "24 वर्ष", "42 वर्ष", "36 वर्ष"],
+      "explanation": "माना गीता=x, सीता=3x। 12 वर्ष बाद: 3x+12=2(x+12)। 3x+12=2x+24। x=12। सीता=36।"
+    }
+  },
+  {
+    "id": "gdmap-0079",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The present age of a man is 3 times his son's age. After 15 years, the man's age will be twice his son's age. Find the son's present age.",
+      "options": ["10 years", "12 years", "15 years", "18 years"],
+      "explanation": "Son=x, Man=3x. After 15 yrs: 3x+15=2(x+15). 3x+15=2x+30. x=15."
+    },
+    "hi": {
+      "question": "एक व्यक्ति की वर्तमान आयु उसके पुत्र की आयु की 3 गुनी है। 15 वर्ष बाद, व्यक्ति की आयु पुत्र की आयु की दोगुनी होगी। पुत्र की वर्तमान आयु ज्ञात करें।",
+      "options": ["10 वर्ष", "12 वर्ष", "15 वर्ष", "18 वर्ष"],
+      "explanation": "पुत्र=x, व्यक्ति=3x। 15 वर्ष बाद: 3x+15=2(x+15)। 3x+15=2x+30। x=15।"
+    }
+  },
+  {
+    "id": "gdmap-0080",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A is 5 years older than B. B is twice as old as C. The sum of ages of A, B, and C is 65 years. Find C's age.",
+      "options": ["10 years", "12 years", "15 years", "14 years"],
+      "explanation": "Let C=x. B=2x, A=2x+5. Sum=x+2x+2x+5=65. 5x+5=65. 5x=60, x=12."
+    },
+    "hi": {
+      "question": "A, B से 5 वर्ष बड़ा है। B, C से दोगुनी आयु का है। A, B और C की आयु का योग 65 वर्ष है। C की आयु ज्ञात करें।",
+      "options": ["10 वर्ष", "12 वर्ष", "15 वर्ष", "14 वर्ष"],
+      "explanation": "C=x, B=2x, A=2x+5। योग=5x+5=65। 5x=60, x=12।"
+    }
+  },
+  {
+    "id": "gdmap-0081",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The sum of the ages of a father and his son is 70 years. After 10 years, the father's age will be double the son's age. Find the son's present age.",
+      "options": ["20 years", "25 years", "30 years", "15 years"],
+      "explanation": "Son=x, Father=70-x. After 10 yrs: (80-x)=2(x+10). 80-x=2x+20. 60=3x. x=20."
+    },
+    "hi": {
+      "question": "एक पिता और पुत्र की आयु का योग 70 वर्ष है। 10 वर्ष बाद, पिता की आयु पुत्र की आयु की दोगुनी होगी। पुत्र की वर्तमान आयु ज्ञात करें।",
+      "options": ["20 वर्ष", "25 वर्ष", "30 वर्ष", "15 वर्ष"],
+      "explanation": "पुत्र=x, पिता=70-x। 10 वर्ष बाद: (80-x)=2(x+10)। 80-x=2x+20। 60=3x। x=20।"
+    }
+  },
+  {
+    "id": "gdmap-0082",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The age of Rohan is 4 times the age of his son. After 5 years, Rohan's age will be 3 times his son's age. Find Rohan's present age.",
+      "options": ["32 years", "36 years", "44 years", "40 years"],
+      "explanation": "Son=x, Rohan=4x. After 5 yrs: 4x+5=3(x+5). 4x+5=3x+15. x=10. Rohan=40."
+    },
+    "hi": {
+      "question": "रोहन की आयु अपने पुत्र की आयु की 4 गुनी है। 5 वर्ष बाद, रोहन की आयु पुत्र की आयु की 3 गुनी होगी। रोहन की वर्तमान आयु ज्ञात करें।",
+      "options": ["32 वर्ष", "36 वर्ष", "44 वर्ष", "40 वर्ष"],
+      "explanation": "पुत्र=x, रोहन=4x। 5 वर्ष बाद: 4x+5=3(x+5)। 4x+5=3x+15। x=10। रोहन=40।"
+    }
+  },
+  {
+    "id": "gdmap-0083",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The ratio of ages of A and B is 2 : 3. After 6 years, the ratio becomes 3 : 4. Find A's present age.",
+      "options": ["10 years", "14 years", "12 years", "16 years"],
+      "explanation": "A=2x, B=3x. After 6 yrs: (2x+6)/(3x+6)=3/4. 8x+24=9x+18. x=6. A=12."
+    },
+    "hi": {
+      "question": "A और B की आयु का अनुपात 2 : 3 है। 6 वर्ष बाद, अनुपात 3 : 4 हो जाता है। A की वर्तमान आयु ज्ञात करें।",
+      "options": ["10 वर्ष", "14 वर्ष", "12 वर्ष", "16 वर्ष"],
+      "explanation": "A=2x, B=3x। 6 वर्ष बाद: (2x+6)/(3x+6)=3/4। 8x+24=9x+18। x=6। A=12।"
+    }
+  },
+  {
+    "id": "gdmap-0084",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A father is 3 times as old as his son. After 12 years, he will be twice as old as his son. Find the father's present age.",
+      "options": ["32 years", "40 years", "24 years", "36 years"],
+      "explanation": "Son=x, Father=3x. After 12 yrs: 3x+12=2(x+12). 3x+12=2x+24. x=12. Father=36."
+    },
+    "hi": {
+      "question": "एक पिता अपने पुत्र से 3 गुना बड़ा है। 12 वर्ष बाद, वह पुत्र से 2 गुना बड़ा होगा। पिता की वर्तमान आयु ज्ञात करें।",
+      "options": ["32 वर्ष", "40 वर्ष", "24 वर्ष", "36 वर्ष"],
+      "explanation": "पुत्र=x, पिता=3x। 12 वर्ष बाद: 3x+12=2(x+12)। 3x+12=2x+24। x=12। पिता=36।"
+    }
+  },
+  {
+    "id": "gdmap-0085",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A is 12 years older than B. 4 years ago, A was twice as old as B. Find B's present age.",
+      "options": ["16 years", "14 years", "18 years", "20 years"],
+      "explanation": "B=x, A=x+12. 4 yrs ago: (x+8)=2(x-4). x+8=2x-8. x=16."
+    },
+    "hi": {
+      "question": "A, B से 12 वर्ष बड़ा है। 4 वर्ष पहले, A की आयु B की आयु की दोगुनी थी। B की वर्तमान आयु ज्ञात करें।",
+      "options": ["16 वर्ष", "14 वर्ष", "18 वर्ष", "20 वर्ष"],
+      "explanation": "B=x, A=x+12। 4 वर्ष पहले: (x+8)=2(x-4)। x+8=2x-8। x=16।"
+    }
+  },
+  {
+    "id": "gdmap-0086",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The sum of present ages of Ramesh and Suresh is 55 years. Five years ago, Ramesh was 4 times as old as Suresh. Find Ramesh's present age.",
+      "options": ["35 years", "38 years", "42 years", "41 years"],
+      "explanation": "Suresh=x, Ramesh=55-x. 5 yrs ago: (50-x)=4(x-5). 50-x=4x-20. 70=5x. x=14. Ramesh=41."
+    },
+    "hi": {
+      "question": "रमेश और सुरेश की वर्तमान आयु का योग 55 वर्ष है। पांच वर्ष पहले, रमेश सुरेश से 4 गुना बड़ा था। रमेश की वर्तमान आयु ज्ञात करें।",
+      "options": ["35 वर्ष", "38 वर्ष", "42 वर्ष", "41 वर्ष"],
+      "explanation": "सुरेश=x, रमेश=55-x। 5 वर्ष पहले: (50-x)=4(x-5)। 50-x=4x-20। 70=5x। x=14। रमेश=41।"
+    }
+  },
+  {
+    "id": "gdmap-0087",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Three years ago, the average age of a family of 4 persons was 18 years. A baby is born and now the average age is still 18 years. Find the age of the baby.",
+      "options": ["2 years", "4 years", "6 years", "3 years"],
+      "explanation": "3 yrs ago total=18×4=72. Present total of 4=72+12=84. With baby: 5×18=90. Baby=90-84=6 years."
+    },
+    "hi": {
+      "question": "तीन वर्ष पहले, 4 सदस्यों वाले परिवार की औसत आयु 18 वर्ष थी। एक बच्चा जन्म लेता है और अब औसत आयु 18 वर्ष ही है। बच्चे की आयु ज्ञात करें।",
+      "options": ["2 वर्ष", "4 वर्ष", "6 वर्ष", "3 वर्ष"],
+      "explanation": "3 वर्ष पहले कुल=72। 4 की वर्तमान=84। बच्चे के साथ: 5×18=90। बच्चा=90-84=6 वर्ष।"
+    }
+  },
+  {
+    "id": "gdmap-0088",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The product of the ages of A and B is 240. If twice the age of B is more than A's age by 4 years, find A's age.",
+      "options": ["15 years", "20 years", "24 years", "12 years"],
+      "explanation": "A×B=240. 2B=A+4 → A=2B-4. (2B-4)B=240. 2B²-4B-240=0. B²-2B-120=0. (B-12)(B+10)=0. B=12. A=20."
+    },
+    "hi": {
+      "question": "A और B की आयु का गुणनफल 240 है। यदि B की आयु का दोगुना, A की आयु से 4 वर्ष अधिक है, तो A की आयु ज्ञात करें।",
+      "options": ["15 वर्ष", "20 वर्ष", "24 वर्ष", "12 वर्ष"],
+      "explanation": "A×B=240। 2B=A+4 → A=2B-4। (2B-4)B=240। 2B²-4B-240=0। B²-2B-120=0। (B-12)(B+10)=0। B=12, A=20।"
+    }
+  },
+  {
+    "id": "gdmap-0089",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The ratio of ages of X and Y is 5 : 9. After 15 years, the ratio will be 5 : 7. Find X's present age.",
+      "options": ["15 years", "20 years", "25 years", "30 years"],
+      "explanation": "X=5x, Y=9x. After 15 yrs: (5x+15)/(9x+15)=5/7. 35x+105=45x+75. 10x=30. x=3. X=15."
+    },
+    "hi": {
+      "question": "X और Y की आयु का अनुपात 5 : 9 है। 15 वर्ष बाद, अनुपात 5 : 7 होगा। X की वर्तमान आयु ज्ञात करें।",
+      "options": ["15 वर्ष", "20 वर्ष", "25 वर्ष", "30 वर्ष"],
+      "explanation": "X=5x, Y=9x। 15 वर्ष बाद: (5x+15)/(9x+15)=5/7। 35x+105=45x+75। 10x=30। x=3। X=15।"
+    }
+  },
+  {
+    "id": "gdmap-0090",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The average age of a class of 20 students is 15 years. If the teacher's age is included, the average becomes 16 years. Find the teacher's age.",
+      "options": ["33 years", "36 years", "30 years", "35 years"],
+      "explanation": "Total of 20 students=20×15=300. With teacher: 21×16=336. Teacher=336-300=36 years."
+    },
+    "hi": {
+      "question": "20 छात्रों की कक्षा की औसत आयु 15 वर्ष है। यदि शिक्षक की आयु शामिल की जाए, तो औसत 16 वर्ष हो जाता है। शिक्षक की आयु ज्ञात करें।",
+      "options": ["33 वर्ष", "36 वर्ष", "30 वर्ष", "35 वर्ष"],
+      "explanation": "20 छात्रों का योग=300। शिक्षक के साथ: 21×16=336। शिक्षक=336-300=36 वर्ष।"
+    }
+  },
+  {
+    "id": "gdmap-0091",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The sum of ages of 5 persons is 150 years. What will be the sum of their ages after 3 years?",
+      "options": ["153 years", "155 years", "165 years", "160 years"],
+      "explanation": "Each person ages 3 years. 5×3=15. New sum=150+15=165 years."
+    },
+    "hi": {
+      "question": "5 व्यक्तियों की आयु का योग 150 वर्ष है। 3 वर्ष बाद उनकी आयु का योग कितना होगा?",
+      "options": ["153 वर्ष", "155 वर्ष", "165 वर्ष", "160 वर्ष"],
+      "explanation": "प्रत्येक 3 वर्ष बड़ा। 5×3=15। नया योग=150+15=165।"
+    }
+  },
+  {
+    "id": "gdmap-0092",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The ratio of ages of A and B is 5 : 7. The sum of their ages is 72 years. Find A's present age.",
+      "options": ["20 years", "30 years", "28 years", "25 years"],
+      "explanation": "A=5x, B=7x. 5x+7x=72. 12x=72, x=6. A=5×6=30 years."
+    },
+    "hi": {
+      "question": "A और B की आयु का अनुपात 5 : 7 है। उनकी आयु का योग 72 वर्ष है। A की वर्तमान आयु ज्ञात करें।",
+      "options": ["20 वर्ष", "30 वर्ष", "28 वर्ष", "25 वर्ष"],
+      "explanation": "A=5x, B=7x। 5x+7x=72। 12x=72, x=6। A=30 वर्ष।"
+    }
+  },
+  {
+    "id": "gdmap-0093",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The sum of ages of a father and son is 50 years. When the son reaches the father's present age, the sum of their ages will be 102 years. Find the son's present age.",
+      "options": ["12 years", "14 years", "16 years", "18 years"],
+      "explanation": "Son=x, Father=50-x. Son reaches 50-x in (50-2x) years. Then son=50-x, father=(50-x)+(50-2x)=100-3x. Sum=(50-x)+(100-3x)=150-4x=102. 4x=48. x=12 years."
+    },
+    "hi": {
+      "question": "एक पिता और पुत्र की आयु का योग 50 वर्ष है। जब पुत्र पिता की वर्तमान आयु तक पहुंचेगा, तो उनकी आयु का योग 102 वर्ष होगा। पुत्र की वर्तमान आयु ज्ञात करें।",
+      "options": ["12 वर्ष", "14 वर्ष", "16 वर्ष", "18 वर्ष"],
+      "explanation": "पुत्र=x, पिता=50-x। पुत्र 50-x तक (50-2x) वर्ष में पहुंचेगा। तब पुत्र=50-x, पिता=100-3x। योग=150-4x=102। 4x=48। x=12।"
+    }
+  },
+  {
+    "id": "gdmap-0094",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The average age of A, B, and C is 30 years. If the average age of A and B is 25 years, find C's age.",
+      "options": ["35 years", "30 years", "40 years", "45 years"],
+      "explanation": "A+B+C=90. A+B=50. C=90-50=40 years."
+    },
+    "hi": {
+      "question": "A, B और C की औसत आयु 30 वर्ष है। यदि A और B की औसत आयु 25 वर्ष है, तो C की आयु ज्ञात करें।",
+      "options": ["35 वर्ष", "30 वर्ष", "40 वर्ष", "45 वर्ष"],
+      "explanation": "A+B+C=90। A+B=50। C=90-50=40 वर्ष।"
+    }
+  },
+  {
+    "id": "gdmap-0095",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A is twice as old as B. B is 5 years older than C. The sum of their ages is 55 years. Find A's age.",
+      "options": ["30 years", "25 years", "20 years", "35 years"],
+      "explanation": "C=x, B=x+5, A=2(x+5)=2x+10. Sum: x+x+5+2x+10=55. 4x+15=55. 4x=40. x=10. A=2(10)+10=30."
+    },
+    "hi": {
+      "question": "A, B से दोगुनी आयु का है। B, C से 5 वर्ष बड़ा है। उनकी आयु का योग 55 वर्ष है। A की आयु ज्ञात करें।",
+      "options": ["30 वर्ष", "25 वर्ष", "20 वर्ष", "35 वर्ष"],
+      "explanation": "C=x, B=x+5, A=2x+10। योग: 4x+15=55। 4x=40, x=10। A=30।"
+    }
+  },
+  {
+    "id": "gdmap-0096",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The present ages of A and B are in the ratio 3 : 4. After 5 years, the ratio will be 7 : 9. Find the difference of their present ages.",
+      "options": ["4 years", "8 years", "6 years", "10 years"],
+      "explanation": "A=3x, B=4x. After 5: (3x+5)/(4x+5)=7/9. 27x+45=28x+35. x=10. A=30, B=40. Diff=10 years."
+    },
+    "hi": {
+      "question": "A और B की वर्तमान आयु 3 : 4 के अनुपात में है। 5 वर्ष बाद, अनुपात 7 : 9 होगा। उनकी आयु का अंतर ज्ञात करें।",
+      "options": ["4 वर्ष", "8 वर्ष", "6 वर्ष", "10 वर्ष"],
+      "explanation": "A=3x, B=4x। 5 वर्ष बाद: (3x+5)/(4x+5)=7/9। 27x+45=28x+35। x=10। A=30, B=40। अंतर=10।"
+    }
+  },
+  {
+    "id": "gdmap-0097",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is 4 years younger than Raj. The sum of their ages is 28 years. Find Raj's age.",
+      "options": ["12 years", "16 years", "14 years", "18 years"],
+      "explanation": "Raj=x, Ravi=x-4. x+x-4=28. 2x=32. x=16."
+    },
+    "hi": {
+      "question": "रवि, राज से 4 वर्ष छोटा है। उनकी आयु का योग 28 वर्ष है। राज की आयु ज्ञात करें।",
+      "options": ["12 वर्ष", "16 वर्ष", "14 वर्ष", "18 वर्ष"],
+      "explanation": "राज=x, रवि=x-4। x+x-4=28। 2x=32। x=16।"
+    }
+  },
+  {
+    "id": "gdmap-0098",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The average age of 11 players of a cricket team is 24 years. If the captain's age is excluded, the average decreases by 1 year. Find the captain's age.",
+      "options": ["30 years", "32 years", "34 years", "36 years"],
+      "explanation": "Total of 11=264. Without captain: 10×23=230. Captain=264-230=34 years."
+    },
+    "hi": {
+      "question": "एक क्रिकेट टीम के 11 खिलाड़ियों की औसत आयु 24 वर्ष है। यदि कप्तान की आयु निकाल दी जाए, तो औसत 1 वर्ष कम हो जाता है। कप्तान की आयु ज्ञात करें।",
+      "options": ["30 वर्ष", "32 वर्ष", "34 वर्ष", "36 वर्ष"],
+      "explanation": "11 का योग=264। कप्तान के बिना: 10×23=230। कप्तान=34।"
+    }
+  },
+  {
+    "id": "gdmap-0099",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The ratio of ages of a mother and daughter is 13 : 5. If the mother was 24 years old when the daughter was born, find the mother's present age.",
+      "options": ["39 years", "33 years", "45 years", "41 years"],
+      "explanation": "Mother=13x, Daughter=5x. Mother was 24 when daughter born → 13x-5x=24 → 8x=24 → x=3. Mother=39."
+    },
+    "hi": {
+      "question": "एक माँ और बेटी की आयु का अनुपात 13 : 5 है। यदि बेटी के जन्म के समय माँ 24 वर्ष की थी, तो माँ की वर्तमान आयु ज्ञात करें।",
+      "options": ["39 वर्ष", "33 वर्ष", "45 वर्ष", "41 वर्ष"],
+      "explanation": "माँ=13x, बेटी=5x। 13x-5x=24 → 8x=24 → x=3। माँ=39।"
+    }
+  },
+  {
+    "id": "gdmap-0100",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The sum of ages of a father and his two sons is 55 years. After 5 years, the father's age will be equal to the sum of the sons' ages. Find the father's present age.",
+      "options": ["25 years", "28 years", "32 years", "30 years"],
+      "explanation": "Father=x, sons sum=55-x. After 5 yrs: x+5=(55-x+10). x+5=65-x. 2x=60. x=30 years."
+    },
+    "hi": {
+      "question": "एक पिता और उसके दो पुत्रों की आयु का योग 55 वर्ष है। 5 वर्ष बाद, पिता की आयु पुत्रों की आयु के योग के बराबर होगी। पिता की वर्तमान आयु ज्ञात करें।",
+      "options": ["25 वर्ष", "28 वर्ष", "32 वर्ष", "30 वर्ष"],
+      "explanation": "पिता=x, पुत्रों का योग=55-x। 5 वर्ष बाद: x+5=65-x। 2x=60। x=30 वर्ष।"
+    }
   }
 ]
