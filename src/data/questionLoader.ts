@@ -28,15 +28,41 @@ function getTopicSlug(examId: string, topicId: string): string {
   return '';
 }
 
-// Load questions from a topic JSON file
+// Find subjectId for a given topicId
+function getSubjectForTopic(examId: string, topicId: string): { subjectId: string; subjectSlug: string } | null {
+  const exam = examList.find(e => e.id === examId);
+  if (!exam) return null;
+  for (const subject of exam.subjects) {
+    const topic = subject.topics.find(t => t.id === topicId);
+    if (topic) return { subjectId: subject.id, subjectSlug: subject.slug };
+  }
+  return null;
+}
+
+// Load questions from a topic JSON file (topicId only — derives subject internally)
 export async function loadTopicQuestions(
   examId: string,
-  subjectId: string,
-  topicId: string,
+  subjectIdOrTopicId: string,
+  topicId?: string,
   lang: 'en' | 'hi' = 'en'
 ): Promise<Question[]> {
-  const subjectSlug = getSubjectSlug(examId, subjectId);
-  const topicSlug = getTopicSlug(examId, topicId);
+  // If topicId is provided, use old signature. Otherwise, derive subject from topicId
+  let actualSubjectId: string;
+  let actualTopicId: string;
+  
+  if (topicId) {
+    actualSubjectId = subjectIdOrTopicId;
+    actualTopicId = topicId;
+  } else {
+    // Called with just (examId, topicId, lang) — derive subject
+    actualTopicId = subjectIdOrTopicId;
+    const info = getSubjectForTopic(examId, actualTopicId);
+    if (!info) return [];
+    actualSubjectId = info.subjectId;
+  }
+  
+  const subjectSlug = getSubjectSlug(examId, actualSubjectId);
+  const topicSlug = getTopicSlug(examId, actualTopicId);
   const path = getTopicPath(examId, subjectSlug, topicSlug);
   
   // Check cache first
@@ -51,7 +77,7 @@ export async function loadTopicQuestions(
   }
 
   return questionCache[path].map(q =>
-    questionFromJSON(q, examId, subjectId, topicId, lang)
+    questionFromJSON(q, examId, actualSubjectId, actualTopicId, lang)
   );
 }
 

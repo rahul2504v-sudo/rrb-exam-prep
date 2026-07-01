@@ -70,13 +70,9 @@ export default function QuizPage() {
         selectedQuestions = shuffleArray(selectedQuestions);
         setTimeLeft((exam?.pattern.durationMinutes || 90) * 60);
       } else {
-        // Topic-wise practice - load specific topic
-        // Extract subjectId from topicId (format: examId-subjectId-topicName)
-        const topicParts = paramId.split('-');
-        const subjectId = topicParts.slice(0, -1).join('-'); // everything except last part
-        selectedQuestions = shuffleArray(await loadTopicQuestions(exam?.id || '', subjectId, paramId, lang));
+        // Topic-wise practice - load from topic JSON
+        selectedQuestions = shuffleArray(await loadTopicQuestions(exam?.id || '', paramId, lang));
         if (selectedQuestions.length === 0) {
-          // Try loading as subject
           selectedQuestions = shuffleArray(await loadSubjectQuestions(exam?.id || '', paramId, lang));
         }
         setTimeLeft(9999);
