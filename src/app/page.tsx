@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { examList } from '@/data/exams';
-import { BookOpen, Clock, Layers, TrendingUp, Award, Zap, ArrowRight, ChevronDown, Bell, Calendar, CheckCircle, Globe, BarChart3, Target, ExternalLink } from 'lucide-react';
+import { BookOpen, Clock, Layers, TrendingUp, Award, Zap, ArrowRight, ChevronDown, Bell, Calendar, CheckCircle, Globe, BarChart3, Target, ExternalLink, Megaphone } from 'lucide-react';
 
 interface BulletinItem {
   name: string;
@@ -20,106 +20,98 @@ export default function HomePage() {
   useEffect(() => {
     fetch('/data/bulletin.json')
       .then(r => r.json())
-      .then(data => setBulletin(data.slice(0, 5)))
+      .then(data => setBulletin(data.slice(0, 6)))
       .catch(() => setBulletin([]));
   }, []);
 
+  const fallbackBulletin = [
+    { name: 'RRB Group D Level 1 CBT', date: 'August 2026', vacancies: '22,195', status: 'Upcoming' },
+    { name: 'RRB NTPC CBT 2 (Graduate)', date: 'July 2026', vacancies: '5,810', status: 'Ongoing' },
+    { name: 'RRB NTPC CBT 2 (UG Level)', date: 'September 2026', vacancies: '3,058', status: 'Upcoming' },
+    { name: 'SSC CGL Tier 2 2026', date: 'October 2026', vacancies: '~8,000', status: 'Upcoming' },
+    { name: 'IBPS PO 2026 Prelims', date: 'October 2026', vacancies: '~5,000', status: 'Expected' },
+  ];
+
+  const displayBulletin = bulletin.length > 0 ? bulletin : fallbackBulletin;
+
   return (
     <div className="bg-white">
-      {/* Hero with Bulletin */}
+      {/* Hero */}
       <section className="relative bg-gradient-to-br from-indigo-600 via-indigo-700 to-purple-800 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-10 left-10 w-72 h-72 bg-white rounded-full blur-3xl" />
           <div className="absolute bottom-10 right-10 w-96 h-96 bg-purple-400 rounded-full blur-3xl" />
         </div>
-        <div className="max-w-6xl mx-auto px-4 py-16 md:py-20 relative z-10">
-          <div className="grid lg:grid-cols-3 gap-8 items-start">
-            {/* Left: Hero */}
-            <div className="lg:col-span-2">
-              <div className="inline-flex items-center gap-2 bg-white/10 rounded-full px-4 py-2 text-sm mb-6 border border-white/10">
-                <Zap className="w-4 h-4" />
-                10,000+ Questions · 1,300+ Sets · 40 Mock Papers
-              </div>
-              <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4">
-                prep<span className="text-yellow-300">X</span>core
-              </h1>
-              <p className="text-xl md:text-2xl text-indigo-200 mb-3 font-light">
-                Your Complete Exam Preparation Platform
-              </p>
-              <p className="text-indigo-200/80 max-w-xl">
-                Free mock tests, topic-wise practice, and detailed analytics for competitive exams. Built for serious aspirants.
-              </p>
-              <div className="flex flex-wrap gap-3 mt-8">
-                <Link href="/exam/ntpc" className="px-6 py-3 bg-white text-indigo-700 font-semibold rounded-xl hover:bg-indigo-50 transition-all shadow-lg hover:shadow-xl">
-                  Start Practicing →
-                </Link>
-                <Link href="#exams" className="px-6 py-3 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 transition-all border border-white/20">
-                  Explore Exams
-                </Link>
-              </div>
-            </div>
-
-            {/* Right: Exam Bulletin */}
-            <div className="lg:col-span-1">
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-5 border border-white/10">
-                <div className="flex items-center gap-2 text-amber-300 font-semibold text-sm mb-3">
-                  <Bell className="w-4 h-4" /> Exam Bulletin
-                </div>
-                {bulletin.length > 0 ? (
-                  <div className="space-y-3">
-                    {bulletin.map((item, i) => (
-                      <a key={i} 
-                        href={item.url || '#'} 
-                        target={item.url ? '_blank' : undefined}
-                        rel="noopener"
-                        className="flex items-start gap-2 p-2 rounded-lg hover:bg-white/10 transition-colors group">
-                        <Calendar className="w-4 h-4 text-amber-400 flex-shrink-0 mt-0.5" />
-                        <div className="min-w-0">
-                          <p className="text-sm font-medium text-white group-hover:text-amber-300 transition-colors truncate">
-                            {item.name}
-                          </p>
-                          <p className="text-xs text-indigo-300">{item.date}</p>
-                          <div className="flex items-center gap-1.5 mt-1">
-                            <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/10 text-white/80">{item.status}</span>
-                            {item.vacancies && <span className="text-[10px] text-indigo-300">{item.vacancies} posts</span>}
-                          </div>
-                        </div>
-                        {item.url && <ExternalLink className="w-3 h-3 text-indigo-400 flex-shrink-0 mt-1 opacity-0 group-hover:opacity-100 transition-opacity" />}
-                      </a>
-                    ))}
-                  </div>
-                ) : (
-                  <div className="space-y-3">
-                    {[
-                      { name: 'RRB Group D CBT', date: 'Aug 2026', vacancies: '22,195', status: 'Upcoming' },
-                      { name: 'RRB NTPC CBT 2 (Grad)', date: 'Jul 2026', vacancies: '5,810', status: 'Ongoing' },
-                      { name: 'RRB NTPC CBT 2 (UG)', date: 'Sep 2026', vacancies: '3,058', status: 'Upcoming' },
-                    ].map((item, i) => (
-                      <div key={i} className="flex items-start gap-2 p-2 rounded-lg hover:bg-white/10 transition-colors">
-                        <Calendar className="w-4 h-4 text-amber-400 flex-shrink-0 mt-0.5" />
-                        <div className="min-w-0">
-                          <p className="text-sm font-medium text-white truncate">{item.name}</p>
-                          <p className="text-xs text-indigo-300">{item.date}</p>
-                          <div className="flex items-center gap-1.5 mt-1">
-                            <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/10 text-white/80">{item.status}</span>
-                            <span className="text-[10px] text-indigo-300">{item.vacancies} posts</span>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                )}
-                <p className="text-[10px] text-indigo-400 mt-3 text-center">Auto-updated from official sources</p>
-              </div>
-            </div>
+        <div className="max-w-6xl mx-auto px-4 py-16 md:py-20 relative z-10 text-center">
+          <div className="inline-flex items-center gap-2 bg-white/10 rounded-full px-4 py-2 text-sm mb-6 border border-white/10">
+            <Zap className="w-4 h-4" />
+            10,000+ Questions · 1,300+ Sets · 40 Mock Papers
+          </div>
+          <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4">
+            prep<span className="text-yellow-300">X</span>core
+          </h1>
+          <p className="text-xl md:text-2xl text-indigo-200 mb-3 font-light">
+            Your Complete Exam Preparation Platform
+          </p>
+          <p className="text-indigo-200/80 max-w-xl mx-auto">
+            Free mock tests, topic-wise practice, and detailed analytics for competitive exams.
+          </p>
+          <div className="flex flex-wrap justify-center gap-3 mt-8">
+            <Link href="/exam/ntpc" className="px-6 py-3 bg-white text-indigo-700 font-semibold rounded-xl hover:bg-indigo-50 transition-all shadow-lg hover:shadow-xl">
+              Start Practicing →
+            </Link>
+            <Link href="#exams" className="px-6 py-3 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 transition-all border border-white/20">
+              Explore Exams
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* Available Exams — Dropdown Style */}
+      {/* Exam Bulletin Panel — below hero */}
+      <section className="max-w-6xl mx-auto px-4 -mt-8 relative z-20">
+        <div className="bg-white rounded-2xl shadow-xl border border-gray-200 p-6">
+          <div className="flex items-center gap-2 mb-4">
+            <Megaphone className="w-5 h-5 text-amber-600" />
+            <h2 className="text-lg font-bold text-gray-900">Exam Bulletin</h2>
+            <span className="text-xs text-gray-400 ml-auto">Auto-updated daily</span>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {displayBulletin.map((item, i) => (
+              <a key={i}
+                href={item.url || '#'}
+                target={item.url ? '_blank' : undefined}
+                rel="noopener"
+                className="flex items-start gap-3 p-3 rounded-xl border border-gray-100 hover:border-amber-200 hover:bg-amber-50/50 transition-all group"
+              >
+                <div className={`w-2 h-2 rounded-full mt-1.5 flex-shrink-0 ${
+                  item.status === 'Ongoing' ? 'bg-green-500' :
+                  item.status === 'Upcoming' ? 'bg-amber-500' :
+                  'bg-blue-500'
+                }`} />
+                <div className="min-w-0 flex-1">
+                  <p className="text-sm font-medium text-gray-800 group-hover:text-indigo-700 transition-colors line-clamp-2">
+                    {item.name}
+                  </p>
+                  <div className="flex items-center gap-2 mt-1.5">
+                    <span className="text-xs text-gray-400 flex items-center gap-1">
+                      <Calendar className="w-3 h-3" />{item.date}
+                    </span>
+                    {item.vacancies && (
+                      <span className="text-xs text-gray-400">{item.vacancies} posts</span>
+                    )}
+                  </div>
+                </div>
+                {item.url && <ExternalLink className="w-3 h-3 text-gray-300 group-hover:text-indigo-500 flex-shrink-0 mt-1 opacity-0 group-hover:opacity-100 transition-opacity" />}
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Available Exams */}
       <section id="exams" className="max-w-6xl mx-auto px-4 py-16">
         <h2 className="text-3xl font-bold text-gray-900 mb-2">Available Exams</h2>
-        <p className="text-gray-500 mb-8">Select an exam to start with topic-wise sets and full-length mock tests</p>
+        <p className="text-gray-500 mb-8">Select an exam to practice topic-wise sets or take full-length mock tests</p>
         
         <div className="space-y-4">
           {examList.map(exam => (
