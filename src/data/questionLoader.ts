@@ -112,26 +112,27 @@ export async function loadTopicSet(examId: string, topicId: string, setIndex: nu
   const topicKey = `${examId}-${getSubjectSlug(examId, info.subjectId)}-${getTopicSlug(examId, topicId)}`;
   const topicSets = sets[topicKey];
   if (!topicSets || setIndex >= topicSets.length) return [];
-  const questionIds = topicSets[setIndex];
-  const allQs = await loadTopicQuestions(examId, topicId, lang);
-  const qMap: Record<string, Question> = {};
-  for (const q of allQs) qMap[q.id] = q;
-  return questionIds.map((id: string) => qMap[id]).filter(Boolean);
+  
+  // Questions are stored inline in the sets now
+  const rawQuestions = topicSets[setIndex];
+  return rawQuestions.map((q: any) => {
+    if (typeof q === 'string') return null; // Legacy string ID (shouldn't happen)
+    return questionFromJSON(q, examId, info.subjectId, topicId, lang);
+  }).filter(Boolean) as Question[];
 }
 
 export async function loadMockPaper(examId: string, paperIndex: number, lang: 'en' | 'hi' = 'en'): Promise<Question[]> {
   const papers = await loadMockIndex(examId);
   if (!papers || paperIndex >= papers.length) return [];
-  const questionIds = papers[paperIndex].questionOrder;
-  const exam = examList.find(e => e.id === examId);
-  if (!exam) return [];
-  const allQs: Record<string, Question> = {};
-  for (const subject of exam.subjects)
-    for (const topic of subject.topics) {
-      const qs = await loadTopicQuestions(examId, topic.id, lang);
-      for (const q of qs) allQs[q.id] = q;
-    }
-  return questionIds.map((id: string) => allQs[id]).filter(Boolean);
+  
+  const paper = papers[paperIndex];
+  const rawQuestions = paper.questionOrder;
+  
+  // Questions are stored inline — derive subject/topic from the first one or just use empty
+  return rawQuestions.map((q: any) => {
+    if (typeof q === 'string') return null;
+    return questionFromJSON(q, examId, examId, examId, lang);
+  }).filter(Boolean) as Question[];
 }
 
 export async function getMockPaperCount(examId: string): Promise<number> {
