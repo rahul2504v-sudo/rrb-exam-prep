@@ -7,7 +7,7 @@ import { BookOpen, Mail, Lock, Eye, EyeOff, ArrowRight } from 'lucide-react'
 
 function LoginForm() {
   const searchParams = useSearchParams()
-  const callbackUrl = searchParams.get('callbackUrl') || '/exam/ntpc'
+  const callbackUrl = searchParams.get('callbackUrl') || '/'
   
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
