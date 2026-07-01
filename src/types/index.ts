@@ -37,6 +37,7 @@ export interface Exam {
   totalVacancies: number;
   pattern: ExamPattern;
   subjects: Subject[];
+  status?: 'ongoing' | 'upcoming' | 'completed' | 'notified';
 }
 
 // Bilingual question format for per-topic JSON files

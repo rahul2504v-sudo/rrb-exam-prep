@@ -87,7 +87,18 @@ export default function HomePage() {
                         {exam.id === 'ntpc' ? '🚂' : '🔧'}
                       </div>
                       <div className="text-left">
-                        <h3 className="font-bold text-lg text-gray-900">{exam.name}</h3>
+                        <h3 className="font-bold text-lg text-gray-900">{exam.name}
+                          {exam.status && (
+                            <span className={`ml-2 text-[10px] px-2 py-0.5 rounded-full font-medium ${
+                              exam.status === 'ongoing' ? 'bg-green-100 text-green-700' :
+                              exam.status === 'upcoming' ? 'bg-amber-100 text-amber-700' :
+                              exam.status === 'notified' ? 'bg-blue-100 text-blue-700' :
+                              'bg-gray-100 text-gray-600'
+                            }`}>
+                              {exam.status === 'ongoing' ? 'Active' : exam.status === 'notified' ? 'New' : exam.status === 'completed' ? 'Completed' : 'Upcoming'}
+                            </span>
+                          )}
+                        </h3>
                         <p className="text-sm text-gray-500">{exam.description}</p>
                       </div>
                     </div>
