@@ -1,7 +1,2212 @@
 [
-  {"id":"groupd-s-0001","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"A gun recoils when fired. This is explained by:","options":["Newton's first law","Newton's second law","Newton's third law","Law of gravitation"],"explanation":"Newton's third law: For every action, there is an equal and opposite reaction."},"hi":{"question":"बंदूक चलाने पर पीछे हटती है। यह किस नियम से समझाया जाता है?","options":["न्यूटन का पहला नियम","न्यूटन का दूसरा नियम","न्यूटन का तीसरा नियम","गुरुत्वाकर्षण का नियम"],"explanation":"न्यूटन का तीसरा नियम: प्रत्येक क्रिया के लिए समान और विपरीत प्रतिक्रिया होती है।"}},
-  {"id":"groupd-s-0002","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"A force of 10 N acts on a mass of 2 kg. What is the acceleration?","options":["2 m/s^2","5 m/s^2","10 m/s^2","20 m/s^2"],"explanation":"Using F = ma: a = F/m = 10/2 = 5 m/s^2."},"hi":{"question":"10 N का बल 2 kg द्रव्यमान पर लगता है। त्वरण क्या है?","options":["2 m/s^2","5 m/s^2","10 m/s^2","20 m/s^2"],"explanation":"F = ma: a = F/m = 10/2 = 5 m/s^2।"}},
-  {"id":"groupd-s-0003","correctOption":"B","difficulty":"easy","sourceYear":2023,"en":{"question":"Why do passengers fall forward when a moving bus stops suddenly?","options":["Due to gravity","Due to inertia of motion","Due to friction","Due to momentum"],"explanation":"Due to inertia of motion, the upper body continues moving forward even when the bus stops."},"hi":{"question":"चलती बस के अचानक रुकने पर यात्री आगे क्यों गिरते हैं?","options":["गुरुत्वाकर्षण के कारण","गति के जड़त्व के कारण","घर्षण के कारण","संवेग के कारण"],"explanation":"गति के जड़त्व के कारण, बस रुकने पर भी शरीर का ऊपरी भाग आगे बढ़ता रहता है।"}},
-  {"id":"groupd-s-0004","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"A bullet of mass 10 g is fired at 400 m/s from a 4 kg gun. Recoil velocity?","options":["0.5 m/s","1.0 m/s","1.5 m/s","2.0 m/s"],"explanation":"By conservation of momentum: 0.01 x 400 = 4 x v. So v = 1 m/s opposite direction."},"hi":{"question":"10 g की गोली 400 m/s से 4 kg की बंदूक से छोड़ी जाती है। प्रतिक्षेप वेग?","options":["0.5 m/s","1.0 m/s","1.5 m/s","2.0 m/s"],"explanation":"संवेग संरक्षण: 0.01 x 400 = 4 x v। इसलिए v = 1 m/s विपरीत दिशा में।"}},
-  {"id":"groupd-s-0005","correctOption":"C","difficulty":"medium","sourceYear":2023,"en":{"question":"The rate of change of momentum is equal to:","options":["Velocity","Acceleration","Force","Impulse"],"explanation":"Newton's second law: Force = rate of change of momentum (F = dp/dt)."},"hi":{"question":"संवेग परिवर्तन की दर किसके बराबर होती है?","options":["वेग","त्वरण","बल","आवेग"],"explanation":"न्यूटन का दूसरा नियम: बल = संवेग परिवर्तन की दर (F = dp/dt)।"}}
+  {
+    "id": "groupd-s-0001",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A gun recoils when fired. This is explained by:",
+      "options": [
+        "Newton's first law",
+        "Newton's second law",
+        "Newton's third law",
+        "Law of gravitation"
+      ],
+      "explanation": "Newton's third law: For every action, there is an equal and opposite reaction."
+    },
+    "hi": {
+      "question": "बंदूक चलाने पर पीछे हटती है। यह किस नियम से समझाया जाता है?",
+      "options": [
+        "न्यूटन का पहला नियम",
+        "न्यूटन का दूसरा नियम",
+        "न्यूटन का तीसरा नियम",
+        "गुरुत्वाकर्षण का नियम"
+      ],
+      "explanation": "न्यूटन का तीसरा नियम: प्रत्येक क्रिया के लिए समान और विपरीत प्रतिक्रिया होती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0002",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A force of 10 N acts on a mass of 2 kg. What is the acceleration?",
+      "options": [
+        "2 m/s^2",
+        "5 m/s^2",
+        "10 m/s^2",
+        "20 m/s^2"
+      ],
+      "explanation": "Using F = ma: a = F/m = 10/2 = 5 m/s^2."
+    },
+    "hi": {
+      "question": "10 N का बल 2 kg द्रव्यमान पर लगता है। त्वरण क्या है?",
+      "options": [
+        "2 m/s^2",
+        "5 m/s^2",
+        "10 m/s^2",
+        "20 m/s^2"
+      ],
+      "explanation": "F = ma: a = F/m = 10/2 = 5 m/s^2।"
+    }
+  },
+  {
+    "id": "groupd-s-0003",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Why do passengers fall forward when a moving bus stops suddenly?",
+      "options": [
+        "Due to gravity",
+        "Due to inertia of motion",
+        "Due to friction",
+        "Due to momentum"
+      ],
+      "explanation": "Due to inertia of motion, the upper body continues moving forward even when the bus stops."
+    },
+    "hi": {
+      "question": "चलती बस के अचानक रुकने पर यात्री आगे क्यों गिरते हैं?",
+      "options": [
+        "गुरुत्वाकर्षण के कारण",
+        "गति के जड़त्व के कारण",
+        "घर्षण के कारण",
+        "संवेग के कारण"
+      ],
+      "explanation": "गति के जड़त्व के कारण, बस रुकने पर भी शरीर का ऊपरी भाग आगे बढ़ता रहता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0004",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A bullet of mass 10 g is fired at 400 m/s from a 4 kg gun. Recoil velocity?",
+      "options": [
+        "0.5 m/s",
+        "1.0 m/s",
+        "1.5 m/s",
+        "2.0 m/s"
+      ],
+      "explanation": "By conservation of momentum: 0.01 x 400 = 4 x v. So v = 1 m/s opposite direction."
+    },
+    "hi": {
+      "question": "10 g की गोली 400 m/s से 4 kg की बंदूक से छोड़ी जाती है। प्रतिक्षेप वेग?",
+      "options": [
+        "0.5 m/s",
+        "1.0 m/s",
+        "1.5 m/s",
+        "2.0 m/s"
+      ],
+      "explanation": "संवेग संरक्षण: 0.01 x 400 = 4 x v। इसलिए v = 1 m/s विपरीत दिशा में।"
+    }
+  },
+  {
+    "id": "groupd-s-0005",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "The rate of change of momentum is equal to:",
+      "options": [
+        "Velocity",
+        "Acceleration",
+        "Force",
+        "Impulse"
+      ],
+      "explanation": "Newton's second law: Force = rate of change of momentum (F = dp/dt)."
+    },
+    "hi": {
+      "question": "संवेग परिवर्तन की दर किसके बराबर होती है?",
+      "options": [
+        "वेग",
+        "त्वरण",
+        "बल",
+        "आवेग"
+      ],
+      "explanation": "न्यूटन का दूसरा नियम: बल = संवेग परिवर्तन की दर (F = dp/dt)।"
+    }
+  },
+  {
+    "id": "groupd-s-0006",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Newton's second law of motion is mathematically expressed as:",
+      "options": [
+        "F = mv",
+        "F = ma",
+        "F = m/v",
+        "F = ma"
+      ],
+      "explanation": "Newton's second law: F = ma, where F is force, m is mass, and a is acceleration."
+    },
+    "hi": {
+      "question": "न्यूटन का दूसरा गति नियम गणितीय रूप में कैसे व्यक्त किया जाता है?",
+      "options": [
+        "F = mv",
+        "F = ma",
+        "F = m/v",
+        "F = ma"
+      ],
+      "explanation": "न्यूटन का दूसरा नियम: F = ma, जहां F बल, m द्रव्यमान और a त्वरण है।"
+    }
+  },
+  {
+    "id": "groupd-s-0007",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which force always opposes relative motion between two surfaces in contact?",
+      "options": [
+        "Gravitational force",
+        "Frictional force",
+        "Magnetic force",
+        "Electrostatic force"
+      ],
+      "explanation": "Frictional force always opposes the relative motion between two surfaces in contact."
+    },
+    "hi": {
+      "question": "कौन सा बल हमेशा संपर्क में दो सतहों के बीच सापेक्ष गति का विरोध करता है?",
+      "options": [
+        "गुरुत्वाकर्षण बल",
+        "घर्षण बल",
+        "चुंबकीय बल",
+        "स्थिरवैद्युत बल"
+      ],
+      "explanation": "घर्षण बल हमेशा संपर्क में दो सतहों के बीच सापेक्ष गति का विरोध करता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0008",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "When a horse pulls a cart, the force that moves the horse forward is:",
+      "options": [
+        "Force exerted by horse on cart",
+        "Force exerted by cart on horse",
+        "Force exerted by ground on horse",
+        "Force of gravity"
+      ],
+      "explanation": "The horse pushes the ground backward; the ground pushes the horse forward (Newton's third law)."
+    },
+    "hi": {
+      "question": "जब घोड़ा गाड़ी खींचता है, तो घोड़े को आगे बढ़ाने वाला बल है:",
+      "options": [
+        "घोड़े द्वारा गाड़ी पर लगाया बल",
+        "गाड़ी द्वारा घोड़े पर लगाया बल",
+        "जमीन द्वारा घोड़े पर लगाया बल",
+        "गुरुत्वाकर्षण बल"
+      ],
+      "explanation": "घोड़ा जमीन को पीछे धकेलता है; जमीन घोड़े को आगे धकेलती है (न्यूटन का तीसरा नियम)।"
+    }
+  },
+  {
+    "id": "groupd-s-0009",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The SI unit of momentum is:",
+      "options": [
+        "kg m/s",
+        "kg m/s^2",
+        "N/m",
+        "N s^2"
+      ],
+      "explanation": "Momentum = mass x velocity. SI unit = kg x m/s = kg m/s, which is same as N s."
+    },
+    "hi": {
+      "question": "संवेग की SI इकाई क्या है?",
+      "options": [
+        "kg m/s",
+        "kg m/s^2",
+        "N/m",
+        "N s^2"
+      ],
+      "explanation": "संवेग = द्रव्यमान x वेग। SI इकाई = kg x m/s = kg m/s, जो N s के समान है।"
+    }
+  },
+  {
+    "id": "groupd-s-0010",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A constant force of 50 N acts on a body of mass 10 kg initially at rest for 4 seconds. Final velocity?",
+      "options": [
+        "10 m/s",
+        "20 m/s",
+        "5 m/s",
+        "40 m/s"
+      ],
+      "explanation": "a = F/m = 50/10 = 5 m/s^2. v = u + at = 0 + 5(4) = 20 m/s."
+    },
+    "hi": {
+      "question": "50 N का स्थिर बल 10 kg द्रव्यमान पर 4 सेकंड लगता है। प्रारंभिक वेग शून्य। अंतिम वेग?",
+      "options": [
+        "10 m/s",
+        "20 m/s",
+        "5 m/s",
+        "40 m/s"
+      ],
+      "explanation": "a = F/m = 50/10 = 5 m/s^2। v = u + at = 0 + 5(4) = 20 m/s।"
+    }
+  },
+  {
+    "id": "groupd-s-0011",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which is NOT a non-contact force?",
+      "options": [
+        "Gravitational force",
+        "Electrostatic force",
+        "Magnetic force",
+        "Muscular force"
+      ],
+      "explanation": "Muscular force requires physical contact. Gravitational, electrostatic and magnetic forces are non-contact forces."
+    },
+    "hi": {
+      "question": "कौन सा असंपर्क बल नहीं है?",
+      "options": [
+        "गुरुत्वाकर्षण बल",
+        "स्थिरवैद्युत बल",
+        "चुंबकीय बल",
+        "पेशीय बल"
+      ],
+      "explanation": "पेशीय बल के लिए भौतिक संपर्क आवश्यक है। गुरुत्वाकर्षण, स्थिरवैद्युत और चुंबकीय बल असंपर्क बल हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0012",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Impulse is equal to:",
+      "options": [
+        "Force x distance",
+        "Force x velocity",
+        "Force x time",
+        "Mass x acceleration"
+      ],
+      "explanation": "Impulse = Force x time = change in momentum. It is measured in N s or kg m/s."
+    },
+    "hi": {
+      "question": "आवेग किसके बराबर होता है?",
+      "options": [
+        "बल x दूरी",
+        "बल x वेग",
+        "बल x समय",
+        "द्रव्यमान x त्वरण"
+      ],
+      "explanation": "आवेग = बल x समय = संवेग में परिवर्तन। इसे N s या kg m/s में मापा जाता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0013",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 30 g bullet moving at 300 m/s penetrates 10 cm into wood. Average resisting force?",
+      "options": [
+        "13500 N",
+        "1350 N",
+        "27000 N",
+        "6750 N"
+      ],
+      "explanation": "v^2 = u^2 + 2as. 0 = 90000 + 2a(0.1). a = -450000. F = ma = 0.03 x 450000 = 13500 N."
+    },
+    "hi": {
+      "question": "30 g की गोली 300 m/s से चलकर लकड़ी में 10 cm घुसती है। औसत प्रतिरोधी बल?",
+      "options": [
+        "13500 N",
+        "1350 N",
+        "27000 N",
+        "6750 N"
+      ],
+      "explanation": "v^2 = u^2 + 2as। 0 = 90000 + 2a(0.1)। a = -450000। F = ma = 0.03 x 450000 = 13500 N।"
+    }
+  },
+  {
+    "id": "groupd-s-0014",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Static friction is always:",
+      "options": [
+        "Less than kinetic friction",
+        "Greater than kinetic friction",
+        "Equal to kinetic friction",
+        "Zero"
+      ],
+      "explanation": "Static friction is the maximum friction just before motion starts. It is always greater than kinetic (sliding) friction."
+    },
+    "hi": {
+      "question": "स्थैतिक घर्षण हमेशा:",
+      "options": [
+        "गतिज घर्षण से कम",
+        "गतिज घर्षण से अधिक",
+        "गतिज घर्षण के बराबर",
+        "शून्य"
+      ],
+      "explanation": "स्थैतिक घर्षण गति शुरू होने से ठीक पहले का अधिकतम घर्षण है। यह हमेशा गतिज घर्षण से अधिक होता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0015",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A person of mass 60 kg is in a lift moving upward with acceleration 2 m/s^2. Apparent weight? (g=10)",
+      "options": [
+        "600 N",
+        "480 N",
+        "720 N",
+        "120 N"
+      ],
+      "explanation": "Apparent weight = m(g+a) = 60(10+2) = 720 N."
+    },
+    "hi": {
+      "question": "60 kg का व्यक्ति 2 m/s^2 से ऊपर जाती लिफ्ट में है। आभासी भार? (g=10)",
+      "options": [
+        "600 N",
+        "480 N",
+        "720 N",
+        "120 N"
+      ],
+      "explanation": "आभासी भार = m(g+a) = 60(10+2) = 720 N।"
+    }
+  },
+  {
+    "id": "groupd-s-0016",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "An athlete runs some distance before taking a long jump. This is due to:",
+      "options": [
+        "Gravity",
+        "Friction",
+        "Newton's third law",
+        "Inertia of motion"
+      ],
+      "explanation": "Running builds momentum, and due to inertia of motion, the athlete continues forward motion for a longer jump."
+    },
+    "hi": {
+      "question": "एथलीट लंबी कूद से पहले कुछ दूरी दौड़ता है। यह किसके कारण है?",
+      "options": [
+        "गुरुत्वाकर्षण",
+        "घर्षण",
+        "न्यूटन का तीसरा नियम",
+        "गति का जड़त्व"
+      ],
+      "explanation": "दौड़ने से संवेग बनता है और गति के जड़त्व के कारण एथलीट आगे की गति जारी रखता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0017",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which law explains why we are able to walk on the ground?",
+      "options": [
+        "Newton's third law",
+        "Newton's first law",
+        "Newton's second law",
+        "Law of gravitation"
+      ],
+      "explanation": "When we push the ground backward, the ground pushes us forward with an equal force (Newton's third law)."
+    },
+    "hi": {
+      "question": "कौन सा नियम बताता है कि हम जमीन पर कैसे चल पाते हैं?",
+      "options": [
+        "न्यूटन का तीसरा नियम",
+        "न्यूटन का पहला नियम",
+        "न्यूटन का दूसरा नियम",
+        "गुरुत्वाकर्षण का नियम"
+      ],
+      "explanation": "जब हम जमीन को पीछे धकेलते हैं, जमीन हमें समान बल से आगे धकेलती है (न्यूटन का तीसरा नियम)।"
+    }
+  },
+  {
+    "id": "groupd-s-0018",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Two bodies of masses 2 kg and 4 kg have same momentum. Ratio of their kinetic energies?",
+      "options": [
+        "1:2",
+        "2:1",
+        "1:4",
+        "4:1"
+      ],
+      "explanation": "KE = p^2/(2m). For same p, KE is inversely proportional to m. KE1/KE2 = m2/m1 = 4/2 = 2:1."
+    },
+    "hi": {
+      "question": "2 kg और 4 kg के दो पिंडों का संवेग समान है। उनकी गतिज ऊर्जाओं का अनुपात?",
+      "options": [
+        "1:2",
+        "2:1",
+        "1:4",
+        "4:1"
+      ],
+      "explanation": "KE = p^2/(2m)। समान p के लिए, KE, m के व्युत्क्रमानुपाती है। KE1/KE2 = m2/m1 = 4/2 = 2:1।"
+    }
+  },
+  {
+    "id": "groupd-s-0019",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ball bearings are used to:",
+      "options": [
+        "Increase friction",
+        "Increase weight",
+        "Reduce friction",
+        "Increase speed"
+      ],
+      "explanation": "Ball bearings convert sliding friction into rolling friction, which is much smaller, thus reducing overall friction."
+    },
+    "hi": {
+      "question": "बॉल बेयरिंग का उपयोग किसके लिए किया जाता है?",
+      "options": [
+        "घर्षण बढ़ाने",
+        "वजन बढ़ाने",
+        "घर्षण घटाने",
+        "गति बढ़ाने"
+      ],
+      "explanation": "बॉल बेयरिंग सर्पी घर्षण को लोटनिक घर्षण में बदलती है जो बहुत कम होता है, जिससे कुल घर्षण घटता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0020",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "When a net force acts on a body, it produces:",
+      "options": [
+        "Velocity only",
+        "Displacement only",
+        "Pressure",
+        "Acceleration"
+      ],
+      "explanation": "According to Newton's second law, a net external force produces acceleration in the direction of the force."
+    },
+    "hi": {
+      "question": "जब किसी पिंड पर नेट बल लगता है, तो वह उत्पन्न करता है:",
+      "options": [
+        "केवल वेग",
+        "केवल विस्थापन",
+        "दाब",
+        "त्वरण"
+      ],
+      "explanation": "न्यूटन के दूसरे नियम के अनुसार, नेट बाहरी बल, बल की दिशा में त्वरण उत्पन्न करता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0021",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 0.5 kg ball moving at 10 m/s is stopped by a player in 0.1 s. Force applied?",
+      "options": [
+        "50 N",
+        "5 N",
+        "100 N",
+        "500 N"
+      ],
+      "explanation": "Impulse = change in momentum = 0.5(0-10) = -5 kg m/s. F = Impulse/t = 5/0.1 = 50 N."
+    },
+    "hi": {
+      "question": "0.5 kg की गेंद 10 m/s से चलकर खिलाड़ी द्वारा 0.1 s में रोकी जाती है। लगाया बल?",
+      "options": [
+        "50 N",
+        "5 N",
+        "100 N",
+        "500 N"
+      ],
+      "explanation": "आवेग = संवेग परिवर्तन = 0.5(0-10) = -5 kg m/s। F = आवेग/t = 5/0.1 = 50 N।"
+    }
+  },
+  {
+    "id": "groupd-s-0022",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which surface will have the least friction?",
+      "options": [
+        "Rough concrete",
+        "Smooth ice",
+        "Sandpaper",
+        "Carpet"
+      ],
+      "explanation": "Smooth ice has the least surface irregularities, hence the least friction."
+    },
+    "hi": {
+      "question": "किस सतह पर सबसे कम घर्षण होगा?",
+      "options": [
+        "खुरदरा कंक्रीट",
+        "चिकनी बर्फ",
+        "सैंडपेपर",
+        "कालीन"
+      ],
+      "explanation": "चिकनी बर्फ में सतही अनियमितताएं सबसे कम होती हैं, इसलिए घर्षण सबसे कम होता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0023",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 1000 kg vehicle moving at 20 m/s is stopped in 50 m. Braking force?",
+      "options": [
+        "2000 N",
+        "3000 N",
+        "4000 N",
+        "8000 N"
+      ],
+      "explanation": "v^2=u^2+2as. 0=400+2a(50). a=-4 m/s^2. F=ma=1000x4=4000 N."
+    },
+    "hi": {
+      "question": "1000 kg का वाहन 20 m/s से चलकर 50 m में रुकता है। ब्रेकिंग बल?",
+      "options": [
+        "2000 N",
+        "3000 N",
+        "4000 N",
+        "8000 N"
+      ],
+      "explanation": "v^2=u^2+2as। 0=400+2a(50)। a=-4 m/s^2। F=ma=1000x4=4000 N।"
+    }
+  },
+  {
+    "id": "groupd-s-0024",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Action and reaction forces act on:",
+      "options": [
+        "Two different bodies",
+        "Same body",
+        "Always cancel each other",
+        "Depend on mass"
+      ],
+      "explanation": "Action and reaction forces act on two different bodies, which is why they don't cancel each other."
+    },
+    "hi": {
+      "question": "क्रिया और प्रतिक्रिया बल किस पर लगते हैं?",
+      "options": [
+        "दो अलग-अलग पिंडों पर",
+        "एक ही पिंड पर",
+        "हमेशा एक-दूसरे को निरस्त करते हैं",
+        "द्रव्यमान पर निर्भर"
+      ],
+      "explanation": "क्रिया और प्रतिक्रिया बल दो अलग-अलग पिंडों पर लगते हैं, इसलिए ये एक-दूसरे को निरस्त नहीं करते।"
+    }
+  },
+  {
+    "id": "groupd-s-0025",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Lubricants are used to:",
+      "options": [
+        "Increase friction",
+        "Increase heat",
+        "Improve efficiency",
+        "Reduce friction"
+      ],
+      "explanation": "Lubricants like oil and grease create a thin layer between surfaces, reducing friction significantly."
+    },
+    "hi": {
+      "question": "स्नेहक का उपयोग किसके लिए किया जाता है?",
+      "options": [
+        "घर्षण बढ़ाने",
+        "ऊष्मा बढ़ाने",
+        "दक्षता सुधारने",
+        "घर्षण घटाने"
+      ],
+      "explanation": "तेल और ग्रीस जैसे स्नेहक सतहों के बीच पतली परत बनाकर घर्षण काफी कम करते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0026",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 5 kg block is pulled with 20 N force. If friction is 5 N, acceleration is:",
+      "options": [
+        "2 m/s^2",
+        "3 m/s^2",
+        "4 m/s^2",
+        "5 m/s^2"
+      ],
+      "explanation": "Net force = 20 - 5 = 15 N. a = F/m = 15/5 = 3 m/s^2."
+    },
+    "hi": {
+      "question": "5 kg के ब्लॉक को 20 N बल से खींचा जाता है। यदि घर्षण 5 N है, त्वरण:",
+      "options": [
+        "2 m/s^2",
+        "3 m/s^2",
+        "4 m/s^2",
+        "5 m/s^2"
+      ],
+      "explanation": "नेट बल = 20 - 5 = 15 N। a = F/m = 15/5 = 3 m/s^2।"
+    }
+  },
+  {
+    "id": "groupd-s-0027",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which statement about Newton's third law is correct?",
+      "options": [
+        "Action is greater than reaction",
+        "Reaction is greater than action",
+        "Action and reaction are equal and opposite",
+        "Action and reaction act on the same body"
+      ],
+      "explanation": "Newton's third law: For every action, there is an equal and opposite reaction acting on different bodies."
+    },
+    "hi": {
+      "question": "न्यूटन के तीसरे नियम के बारे में कौन सा कथन सही है?",
+      "options": [
+        "क्रिया, प्रतिक्रिया से बड़ी है",
+        "प्रतिक्रिया, क्रिया से बड़ी है",
+        "क्रिया और प्रतिक्रिया समान और विपरीत हैं",
+        "क्रिया और प्रतिक्रिया एक ही पिंड पर लगते हैं"
+      ],
+      "explanation": "न्यूटन का तीसरा नियम: प्रत्येक क्रिया के लिए समान और विपरीत प्रतिक्रिया भिन्न पिंडों पर लगती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0028",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The tendency of a body to remain in its state of rest or uniform motion is called:",
+      "options": [
+        "Inertia",
+        "Force",
+        "Momentum",
+        "Impulse"
+      ],
+      "explanation": "Inertia is the property of a body by which it resists any change in its state of rest or uniform motion."
+    },
+    "hi": {
+      "question": "किसी पिंड की अपनी विराम या एकसमान गति की अवस्था में बने रहने की प्रवृत्ति कहलाती है:",
+      "options": [
+        "जड़त्व",
+        "बल",
+        "संवेग",
+        "आवेग"
+      ],
+      "explanation": "जड़त्व पिंड का वह गुण है जिसके कारण वह अपनी विराम या एकसमान गति की अवस्था में परिवर्तन का विरोध करता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0029",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 2 kg object at rest explodes into two fragments of 1 kg each moving in opposite directions at 6 m/s each. Initial momentum?",
+      "options": [
+        "6 kg m/s",
+        "0 kg m/s",
+        "12 kg m/s",
+        "3 kg m/s"
+      ],
+      "explanation": "Initial momentum was zero (at rest). After explosion: 1(6) + 1(-6) = 0. Momentum is conserved."
+    },
+    "hi": {
+      "question": "2 kg की वस्तु विस्फोट से 1-1 kg के दो टुकड़ों में टूटती है, प्रत्येक 6 m/s से विपरीत दिशा में। प्रारंभिक संवेग?",
+      "options": [
+        "6 kg m/s",
+        "0 kg m/s",
+        "12 kg m/s",
+        "3 kg m/s"
+      ],
+      "explanation": "प्रारंभिक संवेग शून्य था (विरामावस्था)। विस्फोट के बाद: 1(6) + 1(-6) = 0। संवेग संरक्षित रहता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0030",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Rolling friction is generally:",
+      "options": [
+        "Greater than sliding friction",
+        "Equal to sliding friction",
+        "Equal to static friction",
+        "Less than sliding friction"
+      ],
+      "explanation": "Rolling friction is much less than sliding friction because the area of contact is smaller in rolling."
+    },
+    "hi": {
+      "question": "लोटनिक घर्षण आमतौर पर:",
+      "options": [
+        "सर्पी घर्षण से अधिक",
+        "सर्पी घर्षण के बराबर",
+        "स्थैतिक घर्षण के बराबर",
+        "सर्पी घर्षण से कम"
+      ],
+      "explanation": "लोटनिक घर्षण सर्पी घर्षण से बहुत कम होता है क्योंकि लोटन में संपर्क क्षेत्र कम होता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0031",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A force of 100 N acts on a body of 25 kg for 5 s. Change in momentum?",
+      "options": [
+        "100 kg m/s",
+        "250 kg m/s",
+        "500 kg m/s",
+        "20 kg m/s"
+      ],
+      "explanation": "Change in momentum = Impulse = F x t = 100 x 5 = 500 kg m/s."
+    },
+    "hi": {
+      "question": "100 N का बल 25 kg के पिंड पर 5 s तक लगता है। संवेग में परिवर्तन?",
+      "options": [
+        "100 kg m/s",
+        "250 kg m/s",
+        "500 kg m/s",
+        "20 kg m/s"
+      ],
+      "explanation": "संवेग में परिवर्तन = आवेग = F x t = 100 x 5 = 500 kg m/s।"
+    }
+  },
+  {
+    "id": "groupd-s-0032",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A swimmer pushes water backward to move forward. This illustrates:",
+      "options": [
+        "Newton's third law",
+        "Newton's first law",
+        "Newton's second law",
+        "Law of inertia"
+      ],
+      "explanation": "The swimmer pushes water backward (action); water pushes swimmer forward (reaction). Newton's third law."
+    },
+    "hi": {
+      "question": "तैराक पानी को पीछे धकेलकर आगे बढ़ता है। यह दर्शाता है:",
+      "options": [
+        "न्यूटन का तीसरा नियम",
+        "न्यूटन का पहला नियम",
+        "न्यूटन का दूसरा नियम",
+        "जड़त्व का नियम"
+      ],
+      "explanation": "तैराक पानी को पीछे धकेलता है (क्रिया); पानी तैराक को आगे धकेलता है (प्रतिक्रिया)। न्यूटन का तीसरा नियम।"
+    }
+  },
+  {
+    "id": "groupd-s-0033",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 60 kg man stands on a weighing machine in a lift descending with 2 m/s^2. Reading? (g=10)",
+      "options": [
+        "600 N",
+        "480 N",
+        "720 N",
+        "60 N"
+      ],
+      "explanation": "Apparent weight = m(g-a) = 60(10-2) = 480 N."
+    },
+    "hi": {
+      "question": "60 kg का व्यक्ति 2 m/s^2 से नीचे जाती लिफ्ट में तौल मशीन पर खड़ा है। पाठ्यांक? (g=10)",
+      "options": [
+        "600 N",
+        "480 N",
+        "720 N",
+        "60 N"
+      ],
+      "explanation": "आभासी भार = m(g-a) = 60(10-2) = 480 N।"
+    }
+  },
+  {
+    "id": "groupd-s-0034",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Friction is a:",
+      "options": [
+        "Non-contact force",
+        "Conservative force",
+        "Contact force",
+        "Nuclear force"
+      ],
+      "explanation": "Friction is a contact force that acts between two surfaces in physical contact."
+    },
+    "hi": {
+      "question": "घर्षण एक:",
+      "options": [
+        "असंपर्क बल",
+        "संरक्षी बल",
+        "संपर्क बल",
+        "नाभिकीय बल"
+      ],
+      "explanation": "घर्षण एक संपर्क बल है जो भौतिक संपर्क में दो सतहों के बीच कार्य करता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0035",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "When a bus starts suddenly, standing passengers fall backward due to:",
+      "options": [
+        "Inertia of motion",
+        "Gravity",
+        "Friction",
+        "Inertia of rest"
+      ],
+      "explanation": "The lower body moves with the bus but the upper body resists change due to inertia of rest, causing backward fall."
+    },
+    "hi": {
+      "question": "बस के अचानक चलने पर खड़े यात्री पीछे गिरते हैं:",
+      "options": [
+        "गति के जड़त्व से",
+        "गुरुत्वाकर्षण से",
+        "घर्षण से",
+        "विराम के जड़त्व से"
+      ],
+      "explanation": "निचला शरीर बस के साथ चलता है लेकिन ऊपरी शरीर विराम जड़त्व के कारण परिवर्तन का विरोध करता है, जिससे पीछे गिरते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0036",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 10 kg mass on a frictionless surface is pulled by 40 N. A 2 kg mass hangs from it via pulley. Tension in string? (g=10)",
+      "options": [
+        "100/3 N",
+        "20 N",
+        "40 N",
+        "10 N"
+      ],
+      "explanation": "a = 2g/(10+2) = 20/12 = 5/3. T = 2(g-a) = 2(10-5/3) = 2(25/3) = 50/3 N."
+    },
+    "hi": {
+      "question": "10 kg द्रव्यमान घर्षणरहित सतह पर 40 N से खिंचा जाता है। घिरनी से 2 kg लटका है। डोरी में तनाव? (g=10)",
+      "options": [
+        "100/3 N",
+        "20 N",
+        "40 N",
+        "10 N"
+      ],
+      "explanation": "a = 2g/(10+2) = 20/12 = 5/3। T = 2(g-a) = 2(10-5/3) = 2(25/3) = 50/3 N।"
+    }
+  },
+  {
+    "id": "groupd-s-0037",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The force required to keep a body moving with uniform velocity on a frictionless surface is:",
+      "options": [
+        "Equal to its weight",
+        "Zero",
+        "Equal to its mass",
+        "Equal to its momentum"
+      ],
+      "explanation": "On a frictionless surface, no force is needed to maintain uniform velocity (Newton's first law)."
+    },
+    "hi": {
+      "question": "घर्षणरहित सतह पर एकसमान वेग से गतिमान पिंड के लिए आवश्यक बल:",
+      "options": [
+        "उसके भार के बराबर",
+        "शून्य",
+        "उसके द्रव्यमान के बराबर",
+        "उसके संवेग के बराबर"
+      ],
+      "explanation": "घर्षणरहित सतह पर एकसमान वेग बनाए रखने के लिए कोई बल आवश्यक नहीं (न्यूटन का पहला नियम)।"
+    }
+  },
+  {
+    "id": "groupd-s-0038",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 5 N force gives mass m1 an acceleration of 8 m/s^2 and m2 an acceleration of 24 m/s^2. If tied together, acceleration?",
+      "options": [
+        "4 m/s^2",
+        "8 m/s^2",
+        "6 m/s^2",
+        "12 m/s^2"
+      ],
+      "explanation": "m1=5/8=0.625; m2=5/24=0.2083. Total m=0.8333. a=F/m=5/0.8333=6 m/s^2."
+    },
+    "hi": {
+      "question": "5 N बल m1 को 8 m/s^2 और m2 को 24 m/s^2 त्वरण देता है। दोनों बंधे हों तो त्वरण?",
+      "options": [
+        "4 m/s^2",
+        "8 m/s^2",
+        "6 m/s^2",
+        "12 m/s^2"
+      ],
+      "explanation": "m1=5/8=0.625; m2=5/24=0.2083। कुल m=0.8333। a=F/m=5/0.8333=6 m/s^2।"
+    }
+  },
+  {
+    "id": "groupd-s-0039",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Paratroopers use parachutes to land safely. This uses the principle of:",
+      "options": [
+        "Gravity only",
+        "Conservation of momentum",
+        "Newton's second law",
+        "Air resistance (drag force)"
+      ],
+      "explanation": "Parachutes increase air resistance, reducing terminal velocity and ensuring a safe landing."
+    },
+    "hi": {
+      "question": "पैराट्रूपर्स सुरक्षित उतरने के लिए पैराशूट का उपयोग करते हैं। यह किस सिद्धांत पर आधारित है?",
+      "options": [
+        "केवल गुरुत्वाकर्षण",
+        "संवेग संरक्षण",
+        "न्यूटन का दूसरा नियम",
+        "वायु प्रतिरोध (कर्षण बल)"
+      ],
+      "explanation": "पैराशूट वायु प्रतिरोध बढ़ाते हैं, जिससे अंतिम वेग कम होता है और सुरक्षित उतरना संभव होता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0040",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The law of conservation of momentum is based on Newton's:",
+      "options": [
+        "First law",
+        "Second law and third law",
+        "Only first law",
+        "Only third law"
+      ],
+      "explanation": "Conservation of momentum follows from Newton's second law (F=dp/dt) and third law (equal and opposite forces)."
+    },
+    "hi": {
+      "question": "संवेग संरक्षण का नियम न्यूटन के किस नियम पर आधारित है?",
+      "options": [
+        "पहला नियम",
+        "दूसरा और तीसरा नियम",
+        "केवल पहला नियम",
+        "केवल तीसरा नियम"
+      ],
+      "explanation": "संवेग संरक्षण न्यूटन के दूसरे नियम (F=dp/dt) और तीसरे नियम (समान और विपरीत बल) से निकलता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0041",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Two blocks of 3 kg and 2 kg are connected by a string over a frictionless pulley. Acceleration? (g=10)",
+      "options": [
+        "5 m/s^2",
+        "4 m/s^2",
+        "2 m/s^2",
+        "10 m/s^2"
+      ],
+      "explanation": "a = (m1-m2)g/(m1+m2) = (3-2)10/(3+2) = 10/5 = 2 m/s^2."
+    },
+    "hi": {
+      "question": "3 kg और 2 kg के दो ब्लॉक घर्षणरहित घिरनी से जुड़े हैं। त्वरण? (g=10)",
+      "options": [
+        "5 m/s^2",
+        "4 m/s^2",
+        "2 m/s^2",
+        "10 m/s^2"
+      ],
+      "explanation": "a = (m1-m2)g/(m1+m2) = (3-2)10/(3+2) = 10/5 = 2 m/s^2।"
+    }
+  },
+  {
+    "id": "groupd-s-0042",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Friction does NOT depend on:",
+      "options": [
+        "Area of contact",
+        "Nature of surfaces",
+        "Normal reaction",
+        "Material of surfaces"
+      ],
+      "explanation": "Friction is independent of the area of contact (for given normal force). It depends on the nature of surfaces and normal reaction."
+    },
+    "hi": {
+      "question": "घर्षण किस पर निर्भर नहीं करता?",
+      "options": [
+        "संपर्क क्षेत्र",
+        "सतहों की प्रकृति",
+        "अभिलंब प्रतिक्रिया",
+        "सतहों का पदार्थ"
+      ],
+      "explanation": "घर्षण संपर्क क्षेत्र पर निर्भर नहीं करता (दिए गए अभिलंब बल के लिए)। यह सतहों की प्रकृति और अभिलंब प्रतिक्रिया पर निर्भर करता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0043",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A body of mass 4 kg initially at rest is acted upon by 8 N force for 10 s. Final KE?",
+      "options": [
+        "400 J",
+        "800 J",
+        "200 J",
+        "1600 J"
+      ],
+      "explanation": "a=8/4=2. v=0+2(10)=20 m/s. KE=(1/2)mv^2=(1/2)(4)(400)=800 J."
+    },
+    "hi": {
+      "question": "4 kg का पिंड विराम से 8 N बल से 10 s तक कार्यरत। अंतिम KE?",
+      "options": [
+        "400 J",
+        "800 J",
+        "200 J",
+        "1600 J"
+      ],
+      "explanation": "a=8/4=2। v=0+2(10)=20 m/s। KE=(1/2)mv^2=(1/2)(4)(400)=800 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0044",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which physical quantity has the unit N s?",
+      "options": [
+        "Force",
+        "Momentum",
+        "Acceleration",
+        "Impulse"
+      ],
+      "explanation": "Impulse = Force x time. Its unit is N s, which is same as kg m/s."
+    },
+    "hi": {
+      "question": "N s इकाई किस भौतिक राशि की है?",
+      "options": [
+        "बल",
+        "संवेग",
+        "त्वरण",
+        "आवेग"
+      ],
+      "explanation": "आवेग = बल x समय। इसकी इकाई N s है, जो kg m/s के समान है।"
+    }
+  },
+  {
+    "id": "groupd-s-0045",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The CGS unit of force is:",
+      "options": [
+        "Dyne",
+        "Newton",
+        "Pound",
+        "Kilogram weight"
+      ],
+      "explanation": "In CGS system, force is measured in dyne. 1 N = 10^5 dyne."
+    },
+    "hi": {
+      "question": "CGS प्रणाली में बल की इकाई है:",
+      "options": [
+        "डाइन",
+        "न्यूटन",
+        "पाउंड",
+        "किलोग्राम भार"
+      ],
+      "explanation": "CGS प्रणाली में बल डाइन में मापा जाता है। 1 N = 10^5 डाइन।"
+    }
+  },
+  {
+    "id": "groupd-s-0046",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 50 g ball dropped from 10 m rebounds to 5 m. Impulse by ground? (g=10)",
+      "options": [
+        "0.5 N s",
+        "1.0 N s",
+        "1.5 N s",
+        "2.0 N s"
+      ],
+      "explanation": "v1 (down) = sqrt(2gh)=sqrt(200)=14.14. v2 (up) = sqrt(100)=10. Impulse = m(v2-(-v1)) = 0.05(10+14.14)=1.207."
+    },
+    "hi": {
+      "question": "50 g की गेंद 10 m से गिरकर 5 m तक उछलती है। जमीन द्वारा आवेग? (g=10)",
+      "options": [
+        "0.5 N s",
+        "1.0 N s",
+        "1.5 N s",
+        "2.0 N s"
+      ],
+      "explanation": "v1 (नीचे) = sqrt(200)=14.14। v2 (ऊपर) = sqrt(100)=10। आवेग = 0.05(10+14.14)=1.207 N s।"
+    }
+  },
+  {
+    "id": "groupd-s-0047",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A book placed on a table exerts a force on the table. The table exerts an equal force upward. This is:",
+      "options": [
+        "Newton's first law",
+        "Newton's third law",
+        "Newton's second law",
+        "Law of inertia"
+      ],
+      "explanation": "The book presses down (action), table pushes up (reaction). This is Newton's third law."
+    },
+    "hi": {
+      "question": "मेज पर रखी किताब मेज पर बल लगाती है। मेज ऊपर की ओर समान बल लगाती है। यह है:",
+      "options": [
+        "न्यूटन का पहला नियम",
+        "न्यूटन का तीसरा नियम",
+        "न्यूटन का दूसरा नियम",
+        "जड़त्व का नियम"
+      ],
+      "explanation": "किताब नीचे दबाती है (क्रिया), मेज ऊपर धकेलती है (प्रतिक्रिया)। यह न्यूटन का तीसरा नियम है।"
+    }
+  },
+  {
+    "id": "groupd-s-0048",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If the applied force is less than static friction, the body will:",
+      "options": [
+        "Move slowly",
+        "Accelerate",
+        "Remain at rest",
+        "Move uniformly"
+      ],
+      "explanation": "Static friction adjusts to match the applied force up to a maximum limit. If applied force < maximum static friction, body stays at rest."
+    },
+    "hi": {
+      "question": "यदि लगाया गया बल स्थैतिक घर्षण से कम है, तो पिंड:",
+      "options": [
+        "धीरे चलेगा",
+        "त्वरित होगा",
+        "विराम में रहेगा",
+        "एकसमान चलेगा"
+      ],
+      "explanation": "स्थैतिक घर्षण अधिकतम सीमा तक लगाए बल के बराबर हो जाता है। यदि लगाया बल < अधिकतम स्थैतिक घर्षण, पिंड स्थिर रहता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0049",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 0.2 kg ball moves at 15 m/s, hits wall and returns at 10 m/s. Change in momentum?",
+      "options": [
+        "1 kg m/s",
+        "3 kg m/s",
+        "2 kg m/s",
+        "5 kg m/s"
+      ],
+      "explanation": "Initial p = 0.2x15 = 3. Final p = 0.2x(-10) = -2. Change = 3-(-2) = 5 kg m/s."
+    },
+    "hi": {
+      "question": "0.2 kg की गेंद 15 m/s से दीवार से टकराकर 10 m/s से लौटती है। संवेग परिवर्तन?",
+      "options": [
+        "1 kg m/s",
+        "3 kg m/s",
+        "2 kg m/s",
+        "5 kg m/s"
+      ],
+      "explanation": "प्रारंभिक p = 0.2x15 = 3। अंतिम p = 0.2x(-10) = -2। परिवर्तन = 3-(-2) = 5 kg m/s।"
+    }
+  },
+  {
+    "id": "groupd-s-0050",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The force of friction is always directed:",
+      "options": [
+        "Opposite to the direction of motion",
+        "In the direction of motion",
+        "Perpendicular to motion",
+        "Along the normal"
+      ],
+      "explanation": "Friction always opposes relative motion, so it acts in the direction opposite to motion."
+    },
+    "hi": {
+      "question": "घर्षण बल हमेशा किस दिशा में होता है?",
+      "options": [
+        "गति की विपरीत दिशा में",
+        "गति की दिशा में",
+        "गति के लंबवत",
+        "अभिलंब के अनुदिश"
+      ],
+      "explanation": "घर्षण हमेशा सापेक्ष गति का विरोध करता है, इसलिए गति के विपरीत दिशा में कार्य करता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0051",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 2 kg block on 30° incline (frictionless). Acceleration down the plane? (g=10)",
+      "options": [
+        "10 m/s^2",
+        "5 m/s^2",
+        "8.66 m/s^2",
+        "20 m/s^2"
+      ],
+      "explanation": "a = g sin(theta) = 10 x sin(30) = 10 x 0.5 = 5 m/s^2."
+    },
+    "hi": {
+      "question": "30° ढलान पर 2 kg ब्लॉक (घर्षणरहित)। ढलान पर नीचे त्वरण? (g=10)",
+      "options": [
+        "10 m/s^2",
+        "5 m/s^2",
+        "8.66 m/s^2",
+        "20 m/s^2"
+      ],
+      "explanation": "a = g sin(θ) = 10 x sin(30) = 10 x 0.5 = 5 m/s^2।"
+    }
+  },
+  {
+    "id": "groupd-s-0052",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Streamlining is done to reduce:",
+      "options": [
+        "Weight",
+        "Gravity",
+        "Fluid friction (drag)",
+        "Momentum"
+      ],
+      "explanation": "Streamlined shapes allow fluids to flow smoothly over the surface, reducing fluid friction or drag."
+    },
+    "hi": {
+      "question": "धारारेखीय आकृति किसे घटाने के लिए बनाई जाती है?",
+      "options": [
+        "भार",
+        "गुरुत्वाकर्षण",
+        "तरल घर्षण (कर्षण)",
+        "संवेग"
+      ],
+      "explanation": "धारारेखीय आकार तरल को सतह पर सुगमता से बहने देते हैं, जिससे तरल घर्षण या कर्षण घटता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0053",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A force of 1 N is equivalent to:",
+      "options": [
+        "1 kg m/s",
+        "1 g cm/s^2",
+        "1 kg m",
+        "10^5 dyne"
+      ],
+      "explanation": "1 Newton = 10^5 dyne in CGS system. 1 N = 1 kg m/s^2."
+    },
+    "hi": {
+      "question": "1 N बल किसके तुल्य है?",
+      "options": [
+        "1 kg m/s",
+        "1 g cm/s^2",
+        "1 kg m",
+        "10^5 डाइन"
+      ],
+      "explanation": "1 न्यूटन = 10^5 डाइन CGS प्रणाली में। 1 N = 1 kg m/s^2।"
+    }
+  },
+  {
+    "id": "groupd-s-0054",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 500 g ball hits a bat at 20 m/s and returns at 30 m/s in 0.01 s. Average force?",
+      "options": [
+        "2500 N",
+        "1000 N",
+        "500 N",
+        "5000 N"
+      ],
+      "explanation": "Change in momentum = 0.5(30-(-20)) = 25. Force = 25/0.01 = 2500 N."
+    },
+    "hi": {
+      "question": "500 g की गेंद 20 m/s से बल्ले से टकराकर 30 m/s से 0.01 s में लौटती है। औसत बल?",
+      "options": [
+        "2500 N",
+        "1000 N",
+        "500 N",
+        "5000 N"
+      ],
+      "explanation": "संवेग परिवर्तन = 0.5(30-(-20)) = 25। बल = 25/0.01 = 2500 N।"
+    }
+  },
+  {
+    "id": "groupd-s-0055",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The maximum value of static friction is called:",
+      "options": [
+        "Kinetic friction",
+        "Limiting friction",
+        "Rolling friction",
+        "Dynamic friction"
+      ],
+      "explanation": "Limiting friction is the maximum value of static friction just before the body starts moving."
+    },
+    "hi": {
+      "question": "स्थैतिक घर्षण के अधिकतम मान को कहते हैं:",
+      "options": [
+        "गतिज घर्षण",
+        "सीमांत घर्षण",
+        "लोटनिक घर्षण",
+        "गतिक घर्षण"
+      ],
+      "explanation": "सीमांत घर्षण, गति शुरू होने से ठीक पहले स्थैतिक घर्षण का अधिकतम मान है।"
+    }
+  },
+  {
+    "id": "groupd-s-0056",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A bullet of 20 g hits a block of 1.98 kg at 100 m/s and embeds. Combined velocity?",
+      "options": [
+        "2 m/s",
+        "0.5 m/s",
+        "1 m/s",
+        "5 m/s"
+      ],
+      "explanation": "Conservation of momentum: 0.02x100 = (0.02+1.98)v. 2 = 2v. v = 1 m/s."
+    },
+    "hi": {
+      "question": "20 g की गोली 1.98 kg के ब्लॉक में 100 m/s से घुसकर धंस जाती है। संयुक्त वेग?",
+      "options": [
+        "2 m/s",
+        "0.5 m/s",
+        "1 m/s",
+        "5 m/s"
+      ],
+      "explanation": "संवेग संरक्षण: 0.02x100 = (0.02+1.98)v। 2 = 2v। v = 1 m/s।"
+    }
+  },
+  {
+    "id": "groupd-s-0057",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which of the following increases friction?",
+      "options": [
+        "Lubricating",
+        "Using ball bearings",
+        "Streamlining",
+        "Making surfaces rough"
+      ],
+      "explanation": "Rough surfaces have more irregularities, which increases friction between them."
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन घर्षण बढ़ाता है?",
+      "options": [
+        "स्नेहन",
+        "बॉल बेयरिंग का उपयोग",
+        "धारारेखीय बनाना",
+        "सतहों को खुरदरा बनाना"
+      ],
+      "explanation": "खुरदरी सतहों में अधिक अनियमितताएं होती हैं, जो घर्षण बढ़ाती हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0058",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 10 N force acts on a 2 kg body at rest for 3 s. Distance covered?",
+      "options": [
+        "22.5 m",
+        "15 m",
+        "30 m",
+        "45 m"
+      ],
+      "explanation": "a=F/m=10/2=5 m/s^2. s=ut+(1/2)at^2=0+(1/2)(5)(9)=22.5 m."
+    },
+    "hi": {
+      "question": "10 N बल 2 kg पिंड पर 3 s लगता है। तय दूरी?",
+      "options": [
+        "22.5 m",
+        "15 m",
+        "30 m",
+        "45 m"
+      ],
+      "explanation": "a=F/m=10/2=5 m/s^2। s=ut+(1/2)at^2=0+(1/2)(5)(9)=22.5 m।"
+    }
+  },
+  {
+    "id": "groupd-s-0059",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A car of mass 800 kg accelerates from 0 to 20 m/s in 10 s. Force?",
+      "options": [
+        "800 N",
+        "1600 N",
+        "400 N",
+        "3200 N"
+      ],
+      "explanation": "a=(20-0)/10=2 m/s^2. F=ma=800x2=1600 N."
+    },
+    "hi": {
+      "question": "800 kg की कार 10 s में 0 से 20 m/s तक त्वरित होती है। बल?",
+      "options": [
+        "800 N",
+        "1600 N",
+        "400 N",
+        "3200 N"
+      ],
+      "explanation": "a=(20-0)/10=2 m/s^2। F=ma=800x2=1600 N।"
+    }
+  },
+  {
+    "id": "groupd-s-0060",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which force is responsible for the wear and tear of machine parts?",
+      "options": [
+        "Gravitational",
+        "Magnetic",
+        "Frictional",
+        "Electrostatic"
+      ],
+      "explanation": "Friction between moving parts causes wear and tear over time, reducing machine efficiency."
+    },
+    "hi": {
+      "question": "मशीन के भागों के घिसाव के लिए कौन सा बल उत्तरदायी है?",
+      "options": [
+        "गुरुत्वाकर्षण",
+        "चुंबकीय",
+        "घर्षण",
+        "स्थिरवैद्युत"
+      ],
+      "explanation": "गतिमान भागों के बीच घर्षण समय के साथ घिसाव पैदा करता है, मशीन की दक्षता घटाता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0061",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 5 kg block is pushed with 30 N. Coefficient of friction = 0.4. Acceleration? (g=10)",
+      "options": [
+        "4 m/s^2",
+        "6 m/s^2",
+        "10 m/s^2",
+        "2 m/s^2"
+      ],
+      "explanation": "Normal=50 N, friction=0.4x50=20 N. Net F=30-20=10 N. a=10/5=2 m/s^2."
+    },
+    "hi": {
+      "question": "5 kg ब्लॉक 30 N से धकेला जाता है। घर्षण गुणांक = 0.4। त्वरण? (g=10)",
+      "options": [
+        "4 m/s^2",
+        "6 m/s^2",
+        "10 m/s^2",
+        "2 m/s^2"
+      ],
+      "explanation": "अभिलंब=50 N, घर्षण=0.4x50=20 N। नेट F=30-20=10 N। a=10/5=2 m/s^2।"
+    }
+  },
+  {
+    "id": "groupd-s-0062",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Inertia of a body is measured by its:",
+      "options": [
+        "Velocity",
+        "Mass",
+        "Acceleration",
+        "Momentum"
+      ],
+      "explanation": "Mass is the measure of inertia. Greater mass means greater resistance to change in state."
+    },
+    "hi": {
+      "question": "किसी पिंड का जड़त्व किससे मापा जाता है?",
+      "options": [
+        "वेग",
+        "द्रव्यमान",
+        "त्वरण",
+        "संवेग"
+      ],
+      "explanation": "द्रव्यमान जड़त्व का माप है। अधिक द्रव्यमान का अर्थ है अवस्था परिवर्तन का अधिक प्रतिरोध।"
+    }
+  },
+  {
+    "id": "groupd-s-0063",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "When a force of 1 N acts on 1 kg mass, acceleration produced is:",
+      "options": [
+        "1 m/s^2",
+        "10 m/s^2",
+        "0.1 m/s^2",
+        "100 m/s^2"
+      ],
+      "explanation": "By definition: 1 N force produces 1 m/s^2 acceleration on 1 kg mass. a=F/m=1/1=1 m/s^2."
+    },
+    "hi": {
+      "question": "1 N बल 1 kg द्रव्यमान पर लगने पर उत्पन्न त्वरण:",
+      "options": [
+        "1 m/s^2",
+        "10 m/s^2",
+        "0.1 m/s^2",
+        "100 m/s^2"
+      ],
+      "explanation": "परिभाषा से: 1 N बल 1 kg द्रव्यमान पर 1 m/s^2 त्वरण उत्पन्न करता है। a=F/m=1/1=1 m/s^2।"
+    }
+  },
+  {
+    "id": "groupd-s-0064",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The force between two charged particles at rest is called:",
+      "options": [
+        "Magnetic force",
+        "Gravitational force",
+        "Electrostatic force",
+        "Nuclear force"
+      ],
+      "explanation": "Electrostatic (Coulomb) force acts between stationary electric charges."
+    },
+    "hi": {
+      "question": "विरामावस्था में दो आवेशित कणों के बीच बल कहलाता है:",
+      "options": [
+        "चुंबकीय बल",
+        "गुरुत्वाकर्षण बल",
+        "स्थिरवैद्युत बल",
+        "नाभिकीय बल"
+      ],
+      "explanation": "स्थिरवैद्युत (कूलॉम) बल स्थिर विद्युत आवेशों के बीच कार्य करता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0065",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 1 kg ball falls from 20 m. Momentum just before hitting ground? (g=10)",
+      "options": [
+        "10 kg m/s",
+        "14 kg m/s",
+        "40 kg m/s",
+        "20 kg m/s"
+      ],
+      "explanation": "v^2=2gh=2(10)(20)=400. v=20. p=mv=1x20=20 kg m/s."
+    },
+    "hi": {
+      "question": "1 kg गेंद 20 m से गिरती है। जमीन से टकराने से पहले संवेग? (g=10)",
+      "options": [
+        "10 kg m/s",
+        "14 kg m/s",
+        "40 kg m/s",
+        "20 kg m/s"
+      ],
+      "explanation": "v^2=2gh=2(10)(20)=400। v=20। p=mv=1x20=20 kg m/s।"
+    }
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Every action has equal and opposite reaction — which law?",
+      "options": [
+        "Newton's First",
+        "Newton's Third Law",
+        "Newton's Second",
+        "Law of Gravitation"
+      ],
+      "explanation": "Newton's Third Law of Motion."
+    },
+    "hi": {
+      "question": "प्रत्येक क्रिया की समान प्रतिक्रिया — कौन सा नियम?",
+      "options": [
+        "Newton's First",
+        "Newton's Third Law",
+        "Newton's Second",
+        "Law of Gravitation"
+      ],
+      "explanation": "न्यूटन का तृतीय गति नियम।"
+    },
+    "id": "groupd-s-0066"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI unit of force?",
+      "options": [
+        "Watt",
+        "Newton",
+        "Pascal",
+        "Joule"
+      ],
+      "explanation": "F=ma. Unit: Newton = kg·m/s²."
+    },
+    "hi": {
+      "question": "बल का SI मात्रक?",
+      "options": [
+        "Watt",
+        "Newton",
+        "Pascal",
+        "Joule"
+      ],
+      "explanation": "F=ma। मात्रक: न्यूटन।"
+    },
+    "id": "groupd-s-0067"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Inertia depends on?",
+      "options": [
+        "Acceleration",
+        "Mass",
+        "Velocity",
+        "Force"
+      ],
+      "explanation": "Inertia is directly proportional to mass of the object."
+    },
+    "hi": {
+      "question": "जड़त्व किस पर निर्भर करता है?",
+      "options": [
+        "Acceleration",
+        "Mass",
+        "Velocity",
+        "Force"
+      ],
+      "explanation": "जड़त्व वस्तु के द्रव्यमान के समानुपाती होता है।"
+    },
+    "id": "groupd-s-0068"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Every action has equal and opposite reaction — which law?",
+      "options": [
+        "Newton's Second",
+        "Newton's First",
+        "Newton's Third Law",
+        "Law of Gravitation"
+      ],
+      "explanation": "Newton's Third Law of Motion."
+    },
+    "hi": {
+      "question": "प्रत्येक क्रिया की समान प्रतिक्रिया — कौन सा नियम?",
+      "options": [
+        "Newton's Second",
+        "Newton's First",
+        "Newton's Third Law",
+        "Law of Gravitation"
+      ],
+      "explanation": "न्यूटन का तृतीय गति नियम।"
+    },
+    "id": "groupd-s-0069"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI unit of force?",
+      "options": [
+        "Watt",
+        "Newton",
+        "Pascal",
+        "Joule"
+      ],
+      "explanation": "F=ma. Unit: Newton = kg·m/s²."
+    },
+    "hi": {
+      "question": "बल का SI मात्रक?",
+      "options": [
+        "Watt",
+        "Newton",
+        "Pascal",
+        "Joule"
+      ],
+      "explanation": "F=ma। मात्रक: न्यूटन।"
+    },
+    "id": "groupd-s-0070"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Inertia depends on?",
+      "options": [
+        "Mass",
+        "Velocity",
+        "Acceleration",
+        "Force"
+      ],
+      "explanation": "Inertia is directly proportional to mass of the object."
+    },
+    "hi": {
+      "question": "जड़त्व किस पर निर्भर करता है?",
+      "options": [
+        "Mass",
+        "Velocity",
+        "Acceleration",
+        "Force"
+      ],
+      "explanation": "जड़त्व वस्तु के द्रव्यमान के समानुपाती होता है।"
+    },
+    "id": "groupd-s-0071"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Every action has equal and opposite reaction — which law?",
+      "options": [
+        "Law of Gravitation",
+        "Newton's First",
+        "Newton's Third Law",
+        "Newton's Second"
+      ],
+      "explanation": "Newton's Third Law of Motion."
+    },
+    "hi": {
+      "question": "प्रत्येक क्रिया की समान प्रतिक्रिया — कौन सा नियम?",
+      "options": [
+        "Law of Gravitation",
+        "Newton's First",
+        "Newton's Third Law",
+        "Newton's Second"
+      ],
+      "explanation": "न्यूटन का तृतीय गति नियम।"
+    },
+    "id": "groupd-s-0072"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI unit of force?",
+      "options": [
+        "Pascal",
+        "Watt",
+        "Newton",
+        "Joule"
+      ],
+      "explanation": "F=ma. Unit: Newton = kg·m/s²."
+    },
+    "hi": {
+      "question": "बल का SI मात्रक?",
+      "options": [
+        "Pascal",
+        "Watt",
+        "Newton",
+        "Joule"
+      ],
+      "explanation": "F=ma। मात्रक: न्यूटन।"
+    },
+    "id": "groupd-s-0073"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Inertia depends on?",
+      "options": [
+        "Acceleration",
+        "Force",
+        "Mass",
+        "Velocity"
+      ],
+      "explanation": "Inertia is directly proportional to mass of the object."
+    },
+    "hi": {
+      "question": "जड़त्व किस पर निर्भर करता है?",
+      "options": [
+        "Acceleration",
+        "Force",
+        "Mass",
+        "Velocity"
+      ],
+      "explanation": "जड़त्व वस्तु के द्रव्यमान के समानुपाती होता है।"
+    },
+    "id": "groupd-s-0074"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Every action has equal and opposite reaction — which law?",
+      "options": [
+        "Law of Gravitation",
+        "Newton's Second",
+        "Newton's Third Law",
+        "Newton's First"
+      ],
+      "explanation": "Newton's Third Law of Motion."
+    },
+    "hi": {
+      "question": "प्रत्येक क्रिया की समान प्रतिक्रिया — कौन सा नियम?",
+      "options": [
+        "Law of Gravitation",
+        "Newton's Second",
+        "Newton's Third Law",
+        "Newton's First"
+      ],
+      "explanation": "न्यूटन का तृतीय गति नियम।"
+    },
+    "id": "groupd-s-0075"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI unit of force?",
+      "options": [
+        "Watt",
+        "Pascal",
+        "Joule",
+        "Newton"
+      ],
+      "explanation": "F=ma. Unit: Newton = kg·m/s²."
+    },
+    "hi": {
+      "question": "बल का SI मात्रक?",
+      "options": [
+        "Watt",
+        "Pascal",
+        "Joule",
+        "Newton"
+      ],
+      "explanation": "F=ma। मात्रक: न्यूटन।"
+    },
+    "id": "groupd-s-0076"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Inertia depends on?",
+      "options": [
+        "Force",
+        "Velocity",
+        "Acceleration",
+        "Mass"
+      ],
+      "explanation": "Inertia is directly proportional to mass of the object."
+    },
+    "hi": {
+      "question": "जड़त्व किस पर निर्भर करता है?",
+      "options": [
+        "Force",
+        "Velocity",
+        "Acceleration",
+        "Mass"
+      ],
+      "explanation": "जड़त्व वस्तु के द्रव्यमान के समानुपाती होता है।"
+    },
+    "id": "groupd-s-0077"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Every action has equal and opposite reaction — which law?",
+      "options": [
+        "Newton's Third Law",
+        "Newton's First",
+        "Law of Gravitation",
+        "Newton's Second"
+      ],
+      "explanation": "Newton's Third Law of Motion."
+    },
+    "hi": {
+      "question": "प्रत्येक क्रिया की समान प्रतिक्रिया — कौन सा नियम?",
+      "options": [
+        "Newton's Third Law",
+        "Newton's First",
+        "Law of Gravitation",
+        "Newton's Second"
+      ],
+      "explanation": "न्यूटन का तृतीय गति नियम।"
+    },
+    "id": "groupd-s-0078"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI unit of force?",
+      "options": [
+        "Pascal",
+        "Watt",
+        "Joule",
+        "Newton"
+      ],
+      "explanation": "F=ma. Unit: Newton = kg·m/s²."
+    },
+    "hi": {
+      "question": "बल का SI मात्रक?",
+      "options": [
+        "Pascal",
+        "Watt",
+        "Joule",
+        "Newton"
+      ],
+      "explanation": "F=ma। मात्रक: न्यूटन।"
+    },
+    "id": "groupd-s-0079"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Inertia depends on?",
+      "options": [
+        "Force",
+        "Velocity",
+        "Acceleration",
+        "Mass"
+      ],
+      "explanation": "Inertia is directly proportional to mass of the object."
+    },
+    "hi": {
+      "question": "जड़त्व किस पर निर्भर करता है?",
+      "options": [
+        "Force",
+        "Velocity",
+        "Acceleration",
+        "Mass"
+      ],
+      "explanation": "जड़त्व वस्तु के द्रव्यमान के समानुपाती होता है।"
+    },
+    "id": "groupd-s-0080"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Every action has equal and opposite reaction — which law?",
+      "options": [
+        "Newton's Second",
+        "Newton's Third Law",
+        "Newton's First",
+        "Law of Gravitation"
+      ],
+      "explanation": "Newton's Third Law of Motion."
+    },
+    "hi": {
+      "question": "प्रत्येक क्रिया की समान प्रतिक्रिया — कौन सा नियम?",
+      "options": [
+        "Newton's Second",
+        "Newton's Third Law",
+        "Newton's First",
+        "Law of Gravitation"
+      ],
+      "explanation": "न्यूटन का तृतीय गति नियम।"
+    },
+    "id": "groupd-s-0081"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI unit of force?",
+      "options": [
+        "Newton",
+        "Pascal",
+        "Joule",
+        "Watt"
+      ],
+      "explanation": "F=ma. Unit: Newton = kg·m/s²."
+    },
+    "hi": {
+      "question": "बल का SI मात्रक?",
+      "options": [
+        "Newton",
+        "Pascal",
+        "Joule",
+        "Watt"
+      ],
+      "explanation": "F=ma। मात्रक: न्यूटन।"
+    },
+    "id": "groupd-s-0082"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Inertia depends on?",
+      "options": [
+        "Acceleration",
+        "Force",
+        "Mass",
+        "Velocity"
+      ],
+      "explanation": "Inertia is directly proportional to mass of the object."
+    },
+    "hi": {
+      "question": "जड़त्व किस पर निर्भर करता है?",
+      "options": [
+        "Acceleration",
+        "Force",
+        "Mass",
+        "Velocity"
+      ],
+      "explanation": "जड़त्व वस्तु के द्रव्यमान के समानुपाती होता है।"
+    },
+    "id": "groupd-s-0083"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Every action has equal and opposite reaction — which law?",
+      "options": [
+        "Law of Gravitation",
+        "Newton's Second",
+        "Newton's First",
+        "Newton's Third Law"
+      ],
+      "explanation": "Newton's Third Law of Motion."
+    },
+    "hi": {
+      "question": "प्रत्येक क्रिया की समान प्रतिक्रिया — कौन सा नियम?",
+      "options": [
+        "Law of Gravitation",
+        "Newton's Second",
+        "Newton's First",
+        "Newton's Third Law"
+      ],
+      "explanation": "न्यूटन का तृतीय गति नियम।"
+    },
+    "id": "groupd-s-0084"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI unit of force?",
+      "options": [
+        "Pascal",
+        "Joule",
+        "Newton",
+        "Watt"
+      ],
+      "explanation": "F=ma. Unit: Newton = kg·m/s²."
+    },
+    "hi": {
+      "question": "बल का SI मात्रक?",
+      "options": [
+        "Pascal",
+        "Joule",
+        "Newton",
+        "Watt"
+      ],
+      "explanation": "F=ma। मात्रक: न्यूटन।"
+    },
+    "id": "groupd-s-0085"
+  }
 ]

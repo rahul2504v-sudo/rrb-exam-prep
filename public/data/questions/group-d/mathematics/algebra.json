@@ -1,1 +1,1484 @@
-[{"id":"groupd-m-0001","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"If x + 5 = 12, what is the value of x?","options":["5","6","7","8"],"explanation":"x = 12 - 5 = 7."},"hi":{"question":"यदि x + 5 = 12 हो, तो x का मान क्या है?","options":["5","6","7","8"],"explanation":"x = 12 - 5 = 7।"}},{"id":"groupd-m-0002","correctOption":"C","difficulty":"easy","sourceYear":2023,"en":{"question":"If a + b = 10 and a - b = 4, find the value of a.","options":["5","6","7","8"],"explanation":"Adding: (a+b) + (a-b) = 10 + 4, so 2a = 14, a = 7."},"hi":{"question":"यदि a + b = 10 और a - b = 4 हो, तो a का मान ज्ञात करें।","options":["5","6","7","8"],"explanation":"जोड़ने पर: (a+b) + (a-b) = 10 + 4, इसलिए 2a = 14, a = 7।"}},{"id":"groupd-m-0003","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Solve for x: 3x - 7 = 2x + 8","options":["5","10","15","20"],"explanation":"3x - 2x = 8 + 7. x = 15."},"hi":{"question":"x के लिए हल करें: 3x - 7 = 2x + 8","options":["5","10","15","20"],"explanation":"3x - 2x = 8 + 7। x = 15।"}},{"id":"groupd-m-0004","correctOption":"B","difficulty":"medium","sourceYear":2023,"en":{"question":"If x + y = 14 and xy = 48, find the value of x^2 + y^2.","options":["80","100","120","140"],"explanation":"x^2 + y^2 = (x+y)^2 - 2xy = 196 - 96 = 100."},"hi":{"question":"यदि x + y = 14 और xy = 48 हो, तो x^2 + y^2 का मान ज्ञात करें।","options":["80","100","120","140"],"explanation":"x^2 + y^2 = (x+y)^2 - 2xy = 196 - 96 = 100।"}},{"id":"groupd-m-0005","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Find the value of: (a+b)^2 - (a-b)^2","options":["2ab","2(a^2+b^2)","4ab","a^2 + b^2"],"explanation":"(a+b)^2 - (a-b)^2 = (a^2+2ab+b^2) - (a^2-2ab+b^2) = 4ab."},"hi":{"question":"मान ज्ञात करें: (a+b)^2 - (a-b)^2","options":["2ab","2(a^2+b^2)","4ab","a^2 + b^2"],"explanation":"(a+b)^2 - (a-b)^2 = (a^2+2ab+b^2) - (a^2-2ab+b^2) = 4ab।"}},{"id":"groupd-m-0006","correctOption":"B","difficulty":"easy","sourceYear":2023,"en":{"question":"If 2^(x+1) = 64, find x.","options":["4","5","6","7"],"explanation":"64 = 2^6. So x+1 = 6, x = 5."},"hi":{"question":"यदि 2^(x+1) = 64 हो, तो x ज्ञात करें।","options":["4","5","6","7"],"explanation":"64 = 2^6। इसलिए x+1 = 6, x = 5।"}},{"id":"groupd-m-0007","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"If 3x + 4y = 10 and 2x + 3y = 7, find the value of x + y.","options":["2","3","4","5"],"explanation":"Subtract: (3x+4y)-(2x+3y) = 10-7. x+y = 3."},"hi":{"question":"यदि 3x + 4y = 10 और 2x + 3y = 7 हो, तो x + y का मान ज्ञात करें।","options":["2","3","4","5"],"explanation":"घटाने पर: (3x+4y)-(2x+3y) = 10-7। x+y = 3।"}}]
+[
+  {
+    "id": "groupd-m-0001",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "If x + 5 = 12, what is the value of x?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "x = 12 - 5 = 7."
+    },
+    "hi": {
+      "question": "यदि x + 5 = 12 हो, तो x का मान क्या है?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "x = 12 - 5 = 7।"
+    }
+  },
+  {
+    "id": "groupd-m-0002",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "If a + b = 10 and a - b = 4, find the value of a.",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "Adding: (a+b) + (a-b) = 10 + 4, so 2a = 14, a = 7."
+    },
+    "hi": {
+      "question": "यदि a + b = 10 और a - b = 4 हो, तो a का मान ज्ञात करें।",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "जोड़ने पर: (a+b) + (a-b) = 10 + 4, इसलिए 2a = 14, a = 7।"
+    }
+  },
+  {
+    "id": "groupd-m-0003",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Solve for x: 3x - 7 = 2x + 8",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "explanation": "3x - 2x = 8 + 7. x = 15."
+    },
+    "hi": {
+      "question": "x के लिए हल करें: 3x - 7 = 2x + 8",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "explanation": "3x - 2x = 8 + 7। x = 15।"
+    }
+  },
+  {
+    "id": "groupd-m-0004",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "If x + y = 14 and xy = 48, find the value of x^2 + y^2.",
+      "options": [
+        "80",
+        "100",
+        "120",
+        "140"
+      ],
+      "explanation": "x^2 + y^2 = (x+y)^2 - 2xy = 196 - 96 = 100."
+    },
+    "hi": {
+      "question": "यदि x + y = 14 और xy = 48 हो, तो x^2 + y^2 का मान ज्ञात करें।",
+      "options": [
+        "80",
+        "100",
+        "120",
+        "140"
+      ],
+      "explanation": "x^2 + y^2 = (x+y)^2 - 2xy = 196 - 96 = 100।"
+    }
+  },
+  {
+    "id": "groupd-m-0005",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Find the value of: (a+b)^2 - (a-b)^2",
+      "options": [
+        "2ab",
+        "2(a^2+b^2)",
+        "4ab",
+        "a^2 + b^2"
+      ],
+      "explanation": "(a+b)^2 - (a-b)^2 = (a^2+2ab+b^2) - (a^2-2ab+b^2) = 4ab."
+    },
+    "hi": {
+      "question": "मान ज्ञात करें: (a+b)^2 - (a-b)^2",
+      "options": [
+        "2ab",
+        "2(a^2+b^2)",
+        "4ab",
+        "a^2 + b^2"
+      ],
+      "explanation": "(a+b)^2 - (a-b)^2 = (a^2+2ab+b^2) - (a^2-2ab+b^2) = 4ab।"
+    }
+  },
+  {
+    "id": "groupd-m-0006",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "If 2^(x+1) = 64, find x.",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "64 = 2^6. So x+1 = 6, x = 5."
+    },
+    "hi": {
+      "question": "यदि 2^(x+1) = 64 हो, तो x ज्ञात करें।",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "64 = 2^6। इसलिए x+1 = 6, x = 5।"
+    }
+  },
+  {
+    "id": "groupd-m-0007",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "If 3x + 4y = 10 and 2x + 3y = 7, find the value of x + y.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "explanation": "Subtract: (3x+4y)-(2x+3y) = 10-7. x+y = 3."
+    },
+    "hi": {
+      "question": "यदि 3x + 4y = 10 और 2x + 3y = 7 हो, तो x + y का मान ज्ञात करें।",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "explanation": "घटाने पर: (3x+4y)-(2x+3y) = 10-7। x+y = 3।"
+    }
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Car at 39km/hr for 30hrs. Distance?",
+      "options": [
+        "585 km",
+        "1170 km",
+        "2340 km",
+        "69 km"
+      ],
+      "explanation": "Distance=39×30=1170km."
+    },
+    "hi": {
+      "question": "39किमी/घंटा, 30घंटे। दूरी?",
+      "options": [
+        "585 km",
+        "1170 km",
+        "2340 km",
+        "69 km"
+      ],
+      "explanation": "दूरी=1170किमी।"
+    },
+    "id": "groupd-m-0008"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A does work in 50d, B in 18d. Together?",
+      "options": [
+        "68d",
+        "13.2d",
+        "26.4d",
+        "32d"
+      ],
+      "explanation": "1d: 1/50+1/18. Time=13.2d."
+    },
+    "hi": {
+      "question": "A 50दिन, B 18दिन। साथ?",
+      "options": [
+        "68d",
+        "13.2d",
+        "26.4d",
+        "32d"
+      ],
+      "explanation": "1दिन: 1/50+1/18। समय=13.2दिन।"
+    },
+    "id": "groupd-m-0009"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "24% of 210?",
+      "options": [
+        "504",
+        "105",
+        "210",
+        "420"
+      ],
+      "explanation": "210×24/100 = 504."
+    },
+    "hi": {
+      "question": "210 का 24%?",
+      "options": [
+        "504",
+        "105",
+        "210",
+        "420"
+      ],
+      "explanation": "210×24/100 = 504।"
+    },
+    "id": "groupd-m-0010"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A does work in 6d, B in 30d. Together?",
+      "options": [
+        "10.0d",
+        "5d",
+        "24d",
+        "36d"
+      ],
+      "explanation": "1d: 1/6+1/30. Time=5d."
+    },
+    "hi": {
+      "question": "A 6दिन, B 30दिन। साथ?",
+      "options": [
+        "10.0d",
+        "5d",
+        "24d",
+        "36d"
+      ],
+      "explanation": "1दिन: 1/6+1/30। समय=5दिन।"
+    },
+    "id": "groupd-m-0011"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI on Rs.12000 at 5% for 8 yrs?",
+      "options": [
+        "Rs.4800",
+        "Rs.2400",
+        "Rs.12000",
+        "Rs.9600"
+      ],
+      "explanation": "SI=12000×5×8/100=4800.0."
+    },
+    "hi": {
+      "question": "12000 रु. पर 5% से 8 वर्ष सा.ब्याज?",
+      "options": [
+        "Rs.4800",
+        "Rs.2400",
+        "Rs.12000",
+        "Rs.9600"
+      ],
+      "explanation": "सा.ब्याज=12000×5×8/100=4800.0।"
+    },
+    "id": "groupd-m-0012"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 11 and 33?",
+      "options": [
+        "33",
+        "363",
+        "11",
+        "44"
+      ],
+      "explanation": "LCM=11×33/11=33."
+    },
+    "hi": {
+      "question": "11 और 33 का ल.स.?",
+      "options": [
+        "33",
+        "363",
+        "11",
+        "44"
+      ],
+      "explanation": "ल.स.=33।"
+    },
+    "id": "groupd-m-0013"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Buy Rs.140, sell at 18% profit. SP?",
+      "options": [
+        "132",
+        "165.2",
+        "140",
+        "280"
+      ],
+      "explanation": "SP=140×1.18=165.2."
+    },
+    "hi": {
+      "question": "खरीदा 140 रु., 18% लाभ। वि.मू.?",
+      "options": [
+        "132",
+        "165.2",
+        "140",
+        "280"
+      ],
+      "explanation": "वि.मू.=165.2।"
+    },
+    "id": "groupd-m-0014"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Simplify: 14 + 8 × 5",
+      "options": [
+        "110",
+        "46",
+        "560",
+        "27"
+      ],
+      "explanation": "BODMAS: 8×5=40+14=46."
+    },
+    "hi": {
+      "question": "सरल करें: 14 + 8 × 5",
+      "options": [
+        "110",
+        "46",
+        "560",
+        "27"
+      ],
+      "explanation": "BODMAS: 8×5+14=46।"
+    },
+    "id": "groupd-m-0015"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average: 77, 25, 37, 10, 57, 17",
+      "options": [
+        "223",
+        "77",
+        "37.2",
+        "10"
+      ],
+      "explanation": "Sum=223/6=37.2."
+    },
+    "hi": {
+      "question": "औसत: 77, 25, 37, 10, 57, 17",
+      "options": [
+        "223",
+        "77",
+        "37.2",
+        "10"
+      ],
+      "explanation": "योग=223/6=37.2।"
+    },
+    "id": "groupd-m-0016"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A does work in 12d, B in 20d. Together?",
+      "options": [
+        "15.0d",
+        "32d",
+        "8d",
+        "7.5d"
+      ],
+      "explanation": "1d: 1/12+1/20. Time=7.5d."
+    },
+    "hi": {
+      "question": "A 12दिन, B 20दिन। साथ?",
+      "options": [
+        "15.0d",
+        "32d",
+        "8d",
+        "7.5d"
+      ],
+      "explanation": "1दिन: 1/12+1/20। समय=7.5दिन।"
+    },
+    "id": "groupd-m-0017"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 19 and 7?",
+      "options": [
+        "133",
+        "26",
+        "1",
+        "133"
+      ],
+      "explanation": "LCM=19×7/1=133."
+    },
+    "hi": {
+      "question": "19 और 7 का ल.स.?",
+      "options": [
+        "133",
+        "26",
+        "1",
+        "133"
+      ],
+      "explanation": "ल.स.=133।"
+    },
+    "id": "groupd-m-0018"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Buy Rs.70, sell at 23% profit. SP?",
+      "options": [
+        "86.1",
+        "140",
+        "70",
+        "68"
+      ],
+      "explanation": "SP=70×1.23=86.1."
+    },
+    "hi": {
+      "question": "खरीदा 70 रु., 23% लाभ। वि.मू.?",
+      "options": [
+        "86.1",
+        "140",
+        "70",
+        "68"
+      ],
+      "explanation": "वि.मू.=86.1।"
+    },
+    "id": "groupd-m-0019"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average: 12, 26, 28, 38, 30, 63",
+      "options": [
+        "197",
+        "12",
+        "63",
+        "32.8"
+      ],
+      "explanation": "Sum=197/6=32.8."
+    },
+    "hi": {
+      "question": "औसत: 12, 26, 28, 38, 30, 63",
+      "options": [
+        "197",
+        "12",
+        "63",
+        "32.8"
+      ],
+      "explanation": "योग=197/6=32.8।"
+    },
+    "id": "groupd-m-0020"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 24 and 13?",
+      "options": [
+        "1",
+        "312",
+        "312",
+        "37"
+      ],
+      "explanation": "LCM=24×13/1=312."
+    },
+    "hi": {
+      "question": "24 और 13 का ल.स.?",
+      "options": [
+        "1",
+        "312",
+        "312",
+        "37"
+      ],
+      "explanation": "ल.स.=312।"
+    },
+    "id": "groupd-m-0021"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Car at 36km/hr for 17hrs. Distance?",
+      "options": [
+        "53 km",
+        "612 km",
+        "306 km",
+        "1224 km"
+      ],
+      "explanation": "Distance=36×17=612km."
+    },
+    "hi": {
+      "question": "36किमी/घंटा, 17घंटे। दूरी?",
+      "options": [
+        "53 km",
+        "612 km",
+        "306 km",
+        "1224 km"
+      ],
+      "explanation": "दूरी=612किमी।"
+    },
+    "id": "groupd-m-0022"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Buy Rs.120, sell at 27% profit. SP?",
+      "options": [
+        "120",
+        "152.4",
+        "240",
+        "121"
+      ],
+      "explanation": "SP=120×1.27=152.4."
+    },
+    "hi": {
+      "question": "खरीदा 120 रु., 27% लाभ। वि.मू.?",
+      "options": [
+        "120",
+        "152.4",
+        "240",
+        "121"
+      ],
+      "explanation": "वि.मू.=152.4।"
+    },
+    "id": "groupd-m-0023"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average: 24, 34, 51, 61, 66, 41",
+      "options": [
+        "277",
+        "46.2",
+        "66",
+        "24"
+      ],
+      "explanation": "Sum=277/6=46.2."
+    },
+    "hi": {
+      "question": "औसत: 24, 34, 51, 61, 66, 41",
+      "options": [
+        "277",
+        "46.2",
+        "66",
+        "24"
+      ],
+      "explanation": "योग=277/6=46.2।"
+    },
+    "id": "groupd-m-0024"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "21% of 250?",
+      "options": [
+        "500",
+        "250",
+        "125",
+        "525"
+      ],
+      "explanation": "250×21/100 = 525."
+    },
+    "hi": {
+      "question": "250 का 21%?",
+      "options": [
+        "500",
+        "250",
+        "125",
+        "525"
+      ],
+      "explanation": "250×21/100 = 525।"
+    },
+    "id": "groupd-m-0025"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI on Rs.48000 at 22% for 35 yrs?",
+      "options": [
+        "Rs.369600",
+        "Rs.48000",
+        "Rs.184800",
+        "Rs.739200"
+      ],
+      "explanation": "SI=48000×22×35/100=369600.0."
+    },
+    "hi": {
+      "question": "48000 रु. पर 22% से 35 वर्ष सा.ब्याज?",
+      "options": [
+        "Rs.369600",
+        "Rs.48000",
+        "Rs.184800",
+        "Rs.739200"
+      ],
+      "explanation": "सा.ब्याज=48000×22×35/100=369600.0।"
+    },
+    "id": "groupd-m-0026"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A does work in 18d, B in 22d. Together?",
+      "options": [
+        "19.8d",
+        "4d",
+        "40d",
+        "9.9d"
+      ],
+      "explanation": "1d: 1/18+1/22. Time=9.9d."
+    },
+    "hi": {
+      "question": "A 18दिन, B 22दिन। साथ?",
+      "options": [
+        "19.8d",
+        "4d",
+        "40d",
+        "9.9d"
+      ],
+      "explanation": "1दिन: 1/18+1/22। समय=9.9दिन।"
+    },
+    "id": "groupd-m-0027"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 48 and 17?",
+      "options": [
+        "1",
+        "816",
+        "816",
+        "65"
+      ],
+      "explanation": "LCM=48×17/1=816."
+    },
+    "hi": {
+      "question": "48 और 17 का ल.स.?",
+      "options": [
+        "1",
+        "816",
+        "816",
+        "65"
+      ],
+      "explanation": "ल.स.=816।"
+    },
+    "id": "groupd-m-0028"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A does work in 26d, B in 36d. Together?",
+      "options": [
+        "30.2d",
+        "10d",
+        "15.1d",
+        "62d"
+      ],
+      "explanation": "1d: 1/26+1/36. Time=15.1d."
+    },
+    "hi": {
+      "question": "A 26दिन, B 36दिन। साथ?",
+      "options": [
+        "30.2d",
+        "10d",
+        "15.1d",
+        "62d"
+      ],
+      "explanation": "1दिन: 1/26+1/36। समय=15.1दिन।"
+    },
+    "id": "groupd-m-0029"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Car at 28km/hr for 24hrs. Distance?",
+      "options": [
+        "336 km",
+        "52 km",
+        "672 km",
+        "1344 km"
+      ],
+      "explanation": "Distance=28×24=672km."
+    },
+    "hi": {
+      "question": "28किमी/घंटा, 24घंटे। दूरी?",
+      "options": [
+        "336 km",
+        "52 km",
+        "672 km",
+        "1344 km"
+      ],
+      "explanation": "दूरी=672किमी।"
+    },
+    "id": "groupd-m-0030"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A does work in 47d, B in 8d. Together?",
+      "options": [
+        "13.6d",
+        "6.8d",
+        "39d",
+        "55d"
+      ],
+      "explanation": "1d: 1/47+1/8. Time=6.8d."
+    },
+    "hi": {
+      "question": "A 47दिन, B 8दिन। साथ?",
+      "options": [
+        "13.6d",
+        "6.8d",
+        "39d",
+        "55d"
+      ],
+      "explanation": "1दिन: 1/47+1/8। समय=6.8दिन।"
+    },
+    "id": "groupd-m-0031"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Car at 44km/hr for 26hrs. Distance?",
+      "options": [
+        "70 km",
+        "572 km",
+        "2288 km",
+        "1144 km"
+      ],
+      "explanation": "Distance=44×26=1144km."
+    },
+    "hi": {
+      "question": "44किमी/घंटा, 26घंटे। दूरी?",
+      "options": [
+        "70 km",
+        "572 km",
+        "2288 km",
+        "1144 km"
+      ],
+      "explanation": "दूरी=1144किमी।"
+    },
+    "id": "groupd-m-0032"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Car at 30km/hr for 8hrs. Distance?",
+      "options": [
+        "38 km",
+        "120 km",
+        "240 km",
+        "480 km"
+      ],
+      "explanation": "Distance=30×8=240km."
+    },
+    "hi": {
+      "question": "30किमी/घंटा, 8घंटे। दूरी?",
+      "options": [
+        "38 km",
+        "120 km",
+        "240 km",
+        "480 km"
+      ],
+      "explanation": "दूरी=240किमी।"
+    },
+    "id": "groupd-m-0033"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Simplify: 50 + 28 × 7",
+      "options": [
+        "9800",
+        "85",
+        "546",
+        "218"
+      ],
+      "explanation": "BODMAS: 28×7=196+50=218."
+    },
+    "hi": {
+      "question": "सरल करें: 50 + 28 × 7",
+      "options": [
+        "9800",
+        "85",
+        "546",
+        "218"
+      ],
+      "explanation": "BODMAS: 28×7+50=218।"
+    },
+    "id": "groupd-m-0034"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Car at 13km/hr for 39hrs. Distance?",
+      "options": [
+        "253 km",
+        "507 km",
+        "52 km",
+        "1014 km"
+      ],
+      "explanation": "Distance=13×39=507km."
+    },
+    "hi": {
+      "question": "13किमी/घंटा, 39घंटे। दूरी?",
+      "options": [
+        "253 km",
+        "507 km",
+        "52 km",
+        "1014 km"
+      ],
+      "explanation": "दूरी=507किमी।"
+    },
+    "id": "groupd-m-0035"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 47 and 18?",
+      "options": [
+        "846",
+        "846",
+        "1",
+        "65"
+      ],
+      "explanation": "LCM=47×18/1=846."
+    },
+    "hi": {
+      "question": "47 और 18 का ल.स.?",
+      "options": [
+        "846",
+        "846",
+        "1",
+        "65"
+      ],
+      "explanation": "ल.स.=846।"
+    },
+    "id": "groupd-m-0036"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "10% of 270?",
+      "options": [
+        "270",
+        "135",
+        "540",
+        "270"
+      ],
+      "explanation": "270×10/100 = 270."
+    },
+    "hi": {
+      "question": "270 का 10%?",
+      "options": [
+        "270",
+        "135",
+        "540",
+        "270"
+      ],
+      "explanation": "270×10/100 = 270।"
+    },
+    "id": "groupd-m-0037"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Simplify: 28 + 33 × 2",
+      "options": [
+        "1848",
+        "94",
+        "63",
+        "122"
+      ],
+      "explanation": "BODMAS: 33×2=66+28=94."
+    },
+    "hi": {
+      "question": "सरल करें: 28 + 33 × 2",
+      "options": [
+        "1848",
+        "94",
+        "63",
+        "122"
+      ],
+      "explanation": "BODMAS: 33×2+28=94।"
+    },
+    "id": "groupd-m-0038"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI on Rs.28000 at 27% for 9 yrs?",
+      "options": [
+        "Rs.34020",
+        "Rs.136080",
+        "Rs.68040",
+        "Rs.28000"
+      ],
+      "explanation": "SI=28000×27×9/100=68040.0."
+    },
+    "hi": {
+      "question": "28000 रु. पर 27% से 9 वर्ष सा.ब्याज?",
+      "options": [
+        "Rs.34020",
+        "Rs.136080",
+        "Rs.68040",
+        "Rs.28000"
+      ],
+      "explanation": "सा.ब्याज=28000×27×9/100=68040.0।"
+    },
+    "id": "groupd-m-0039"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 26 and 39?",
+      "options": [
+        "13",
+        "78",
+        "65",
+        "1014"
+      ],
+      "explanation": "LCM=26×39/13=78."
+    },
+    "hi": {
+      "question": "26 और 39 का ल.स.?",
+      "options": [
+        "13",
+        "78",
+        "65",
+        "1014"
+      ],
+      "explanation": "ल.स.=78।"
+    },
+    "id": "groupd-m-0040"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Car at 42km/hr for 9hrs. Distance?",
+      "options": [
+        "756 km",
+        "51 km",
+        "378 km",
+        "189 km"
+      ],
+      "explanation": "Distance=42×9=378km."
+    },
+    "hi": {
+      "question": "42किमी/घंटा, 9घंटे। दूरी?",
+      "options": [
+        "756 km",
+        "51 km",
+        "378 km",
+        "189 km"
+      ],
+      "explanation": "दूरी=378किमी।"
+    },
+    "id": "groupd-m-0041"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Buy Rs.440, sell at 6% profit. SP?",
+      "options": [
+        "466.4",
+        "373",
+        "880",
+        "440"
+      ],
+      "explanation": "SP=440×1.06=466.4."
+    },
+    "hi": {
+      "question": "खरीदा 440 रु., 6% लाभ। वि.मू.?",
+      "options": [
+        "466.4",
+        "373",
+        "880",
+        "440"
+      ],
+      "explanation": "वि.मू.=466.4।"
+    },
+    "id": "groupd-m-0042"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Simplify: 25 + 19 × 9",
+      "options": [
+        "396",
+        "4275",
+        "53",
+        "177"
+      ],
+      "explanation": "BODMAS: 19×9=171+25=177."
+    },
+    "hi": {
+      "question": "सरल करें: 25 + 19 × 9",
+      "options": [
+        "396",
+        "4275",
+        "53",
+        "177"
+      ],
+      "explanation": "BODMAS: 19×9+25=177।"
+    },
+    "id": "groupd-m-0043"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI on Rs.28000 at 10% for 34 yrs?",
+      "options": [
+        "Rs.190400",
+        "Rs.47600",
+        "Rs.28000",
+        "Rs.95200"
+      ],
+      "explanation": "SI=28000×10×34/100=95200.0."
+    },
+    "hi": {
+      "question": "28000 रु. पर 10% से 34 वर्ष सा.ब्याज?",
+      "options": [
+        "Rs.190400",
+        "Rs.47600",
+        "Rs.28000",
+        "Rs.95200"
+      ],
+      "explanation": "सा.ब्याज=28000×10×34/100=95200.0।"
+    },
+    "id": "groupd-m-0044"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Simplify: 19 + 40 × 10",
+      "options": [
+        "590",
+        "7600",
+        "419",
+        "69"
+      ],
+      "explanation": "BODMAS: 40×10=400+19=419."
+    },
+    "hi": {
+      "question": "सरल करें: 19 + 40 × 10",
+      "options": [
+        "590",
+        "7600",
+        "419",
+        "69"
+      ],
+      "explanation": "BODMAS: 40×10+19=419।"
+    },
+    "id": "groupd-m-0045"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 23 and 31?",
+      "options": [
+        "713",
+        "1",
+        "713",
+        "54"
+      ],
+      "explanation": "LCM=23×31/1=713."
+    },
+    "hi": {
+      "question": "23 और 31 का ल.स.?",
+      "options": [
+        "713",
+        "1",
+        "713",
+        "54"
+      ],
+      "explanation": "ल.स.=713।"
+    },
+    "id": "groupd-m-0046"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "9% of 290?",
+      "options": [
+        "261",
+        "290",
+        "145",
+        "580"
+      ],
+      "explanation": "290×9/100 = 261."
+    },
+    "hi": {
+      "question": "290 का 9%?",
+      "options": [
+        "261",
+        "290",
+        "145",
+        "580"
+      ],
+      "explanation": "290×9/100 = 261।"
+    },
+    "id": "groupd-m-0047"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average: 24, 6, 76, 75, 59, 42",
+      "options": [
+        "282",
+        "76",
+        "6",
+        "47"
+      ],
+      "explanation": "Sum=282/6=47."
+    },
+    "hi": {
+      "question": "औसत: 24, 6, 76, 75, 59, 42",
+      "options": [
+        "282",
+        "76",
+        "6",
+        "47"
+      ],
+      "explanation": "योग=282/6=47।"
+    },
+    "id": "groupd-m-0048"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Car at 8km/hr for 14hrs. Distance?",
+      "options": [
+        "224 km",
+        "112 km",
+        "56 km",
+        "22 km"
+      ],
+      "explanation": "Distance=8×14=112km."
+    },
+    "hi": {
+      "question": "8किमी/घंटा, 14घंटे। दूरी?",
+      "options": [
+        "224 km",
+        "112 km",
+        "56 km",
+        "22 km"
+      ],
+      "explanation": "दूरी=112किमी।"
+    },
+    "id": "groupd-m-0049"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI on Rs.43000 at 16% for 40 yrs?",
+      "options": [
+        "Rs.137600",
+        "Rs.550400",
+        "Rs.43000",
+        "Rs.275200"
+      ],
+      "explanation": "SI=43000×16×40/100=275200.0."
+    },
+    "hi": {
+      "question": "43000 रु. पर 16% से 40 वर्ष सा.ब्याज?",
+      "options": [
+        "Rs.137600",
+        "Rs.550400",
+        "Rs.43000",
+        "Rs.275200"
+      ],
+      "explanation": "सा.ब्याज=43000×16×40/100=275200.0।"
+    },
+    "id": "groupd-m-0050"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI on Rs.15000 at 15% for 34 yrs?",
+      "options": [
+        "Rs.15000",
+        "Rs.153000",
+        "Rs.76500",
+        "Rs.38250"
+      ],
+      "explanation": "SI=15000×15×34/100=76500.0."
+    },
+    "hi": {
+      "question": "15000 रु. पर 15% से 34 वर्ष सा.ब्याज?",
+      "options": [
+        "Rs.15000",
+        "Rs.153000",
+        "Rs.76500",
+        "Rs.38250"
+      ],
+      "explanation": "सा.ब्याज=15000×15×34/100=76500.0।"
+    },
+    "id": "groupd-m-0051"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Buy Rs.70, sell at 16% profit. SP?",
+      "options": [
+        "70",
+        "81.2",
+        "140",
+        "64"
+      ],
+      "explanation": "SP=70×1.16=81.2."
+    },
+    "hi": {
+      "question": "खरीदा 70 रु., 16% लाभ। वि.मू.?",
+      "options": [
+        "70",
+        "81.2",
+        "140",
+        "64"
+      ],
+      "explanation": "वि.मू.=81.2।"
+    },
+    "id": "groupd-m-0052"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "5% of 410?",
+      "options": [
+        "410",
+        "205",
+        "205",
+        "820"
+      ],
+      "explanation": "410×5/100 = 205."
+    },
+    "hi": {
+      "question": "410 का 5%?",
+      "options": [
+        "410",
+        "205",
+        "205",
+        "820"
+      ],
+      "explanation": "410×5/100 = 205।"
+    },
+    "id": "groupd-m-0053"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI on Rs.17000 at 7% for 24 yrs?",
+      "options": [
+        "Rs.14280",
+        "Rs.57120",
+        "Rs.17000",
+        "Rs.28560"
+      ],
+      "explanation": "SI=17000×7×24/100=28560.0."
+    },
+    "hi": {
+      "question": "17000 रु. पर 7% से 24 वर्ष सा.ब्याज?",
+      "options": [
+        "Rs.14280",
+        "Rs.57120",
+        "Rs.17000",
+        "Rs.28560"
+      ],
+      "explanation": "सा.ब्याज=17000×7×24/100=28560.0।"
+    },
+    "id": "groupd-m-0054"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A does work in 16d, B in 13d. Together?",
+      "options": [
+        "29d",
+        "7.2d",
+        "14.4d",
+        "3d"
+      ],
+      "explanation": "1d: 1/16+1/13. Time=7.2d."
+    },
+    "hi": {
+      "question": "A 16दिन, B 13दिन। साथ?",
+      "options": [
+        "29d",
+        "7.2d",
+        "14.4d",
+        "3d"
+      ],
+      "explanation": "1दिन: 1/16+1/13। समय=7.2दिन।"
+    },
+    "id": "groupd-m-0055"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "30% of 420?",
+      "options": [
+        "420",
+        "210",
+        "1260",
+        "840"
+      ],
+      "explanation": "420×30/100 = 1260."
+    },
+    "hi": {
+      "question": "420 का 30%?",
+      "options": [
+        "420",
+        "210",
+        "1260",
+        "840"
+      ],
+      "explanation": "420×30/100 = 1260।"
+    },
+    "id": "groupd-m-0056"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average: 29, 32, 67, 19, 9, 73",
+      "options": [
+        "9",
+        "229",
+        "38.2",
+        "73"
+      ],
+      "explanation": "Sum=229/6=38.2."
+    },
+    "hi": {
+      "question": "औसत: 29, 32, 67, 19, 9, 73",
+      "options": [
+        "9",
+        "229",
+        "38.2",
+        "73"
+      ],
+      "explanation": "योग=229/6=38.2।"
+    },
+    "id": "groupd-m-0057"
+  }
+]

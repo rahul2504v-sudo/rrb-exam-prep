@@ -1,11 +1,5492 @@
 [
-  {"id":"ntpc-r-0001","correctOption":"B","difficulty":"easy","en":{"question":"Angle between hour and minute hand at 3:00?","options":["60°","90°","120°","180°"],"explanation":"At 3:00, 3×30° = 90°."},"hi":{"question":"3:00 बजे घंटे और मिनट की सुई के बीच कोण?","options":["60°","90°","120°","180°"],"explanation":"3×30°=90°।"}},
-  {"id":"ntpc-r-0002","correctOption":"B","difficulty":"medium","en":{"question":"1 Jan 2024 Monday. 1 Feb 2024 day?","options":["Wednesday","Thursday","Tuesday","Friday"],"explanation":"Jan=31 days=4w+3d. Monday+3=Thursday."},"hi":{"question":"1 जनवरी 2024 सोमवार। 1 फरवरी 2024?","options":["बुधवार","गुरुवार","मंगलवार","शुक्रवार"],"explanation":"31 दिन=4सप्ताह+3दिन, सोमवार+3=गुरुवार।"}},
-  {"id":"ntpc-r-0003","correctOption":"C","difficulty":"hard","en":{"question":"Between 4 and 5, when hands at 90°?","options":["4:05 5/11","4:38 2/11","Both","4:10"],"explanation":"|120-5.5M|=90, M=5 5/11 or 38 2/11. Both."},"hi":{"question":"4-5 बजे, सुइयाँ 90° पर?","options":["4:05 5/11","4:38 2/11","दोनों","4:10"],"explanation":"दो समय: 4:05 5/11 और 4:38 2/11।"}},
-  {"id":"ntpc-r-0004","correctOption":"A","difficulty":"medium","en":{"question":"Angle at 6:15?","options":["97.5°","90°","105°","82.5°"],"explanation":"Hour=180+7.5=187.5, Min=90. |187.5-90|=97.5°."},"hi":{"question":"6:15 पर सुइयों के बीच कोण?","options":["97.5°","90°","105°","82.5°"],"explanation":"घंटा=187.5°, मिनट=90°, कोण=97.5°।"}},
-  {"id":"ntpc-r-0005","correctOption":"A","difficulty":"easy","en":{"question":"Mirror image time of 2:30?","options":["9:30","10:30","9:00","8:30"],"explanation":"12:00-2:30=9:30."},"hi":{"question":"2:30 का दर्पण समय?","options":["9:30","10:30","9:00","8:30"],"explanation":"12:00-2:30=9:30।"}},
-  {"id":"ntpc-r-0006","correctOption":"A","difficulty":"medium","en":{"question":"15 Aug 2024 Thursday. 15 Aug 2020 day?","options":["Saturday","Friday","Sunday","Monday"],"explanation":"2020 leap+3 normal=5 odd days. Thu-5=Sat."},"hi":{"question":"15 अगस्त 2024 गुरुवार। 15 अगस्त 2020?","options":["शनिवार","शुक्रवार","रविवार","सोमवार"],"explanation":"5 विषम दिन पीछे, शनिवार।"}},
-  {"id":"ntpc-r-0007","correctOption":"A","difficulty":"hard","en":{"question":"Between 7 and 8, hands opposite (180°)?","options":["7:05 5/11","7:10 10/11","7:15","7:05"],"explanation":"|210-5.5M|=180, M=5 5/11."},"hi":{"question":"7-8 बजे, सुइयाँ विपरीत (180°)?","options":["7:05 5/11","7:10 10/11","7:15","7:05"],"explanation":"M=30/5.5=5 5/11।"}},
-  {"id":"ntpc-r-0008","correctOption":"A","difficulty":"easy","en":{"question":"How many times do clock hands coincide in 24 hours?","options":["22","24","23","21"],"explanation":"11 times in 12h, 22 times in 24h."},"hi":{"question":"24 घंटे में सुइयाँ कितनी बार मिलती हैं?","options":["22","24","23","21"],"explanation":"12 घंटे में 11 बार, 24 में 22 बार।"}},
-  {"id":"ntpc-r-0009","correctOption":"A","difficulty":"easy","en":{"question":"Day after tomorrow is Friday. Day before yesterday?","options":["Monday","Tuesday","Sunday","Wednesday"],"explanation":"Today=Wed, yesterday=Tue, day before=Mon."},"hi":{"question":"परसों शुक्रवार। कल से एक दिन पहले?","options":["सोमवार","मंगलवार","रविवार","बुधवार"],"explanation":"आज बुधवार, कल मंगलवार, एक दिन पहले सोमवार।"}}
+  {
+    "id": "ntpc-r-0001",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "en": {
+      "question": "Angle between hour and minute hand at 3:00?",
+      "options": [
+        "60°",
+        "90°",
+        "120°",
+        "180°"
+      ],
+      "explanation": "At 3:00, 3×30° = 90°."
+    },
+    "hi": {
+      "question": "3:00 बजे घंटे और मिनट की सुई के बीच कोण?",
+      "options": [
+        "60°",
+        "90°",
+        "120°",
+        "180°"
+      ],
+      "explanation": "3×30°=90°।"
+    }
+  },
+  {
+    "id": "ntpc-r-0002",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "1 Jan 2024 Monday. 1 Feb 2024 day?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Tuesday",
+        "Friday"
+      ],
+      "explanation": "Jan=31 days=4w+3d. Monday+3=Thursday."
+    },
+    "hi": {
+      "question": "1 जनवरी 2024 सोमवार। 1 फरवरी 2024?",
+      "options": [
+        "बुधवार",
+        "गुरुवार",
+        "मंगलवार",
+        "शुक्रवार"
+      ],
+      "explanation": "31 दिन=4सप्ताह+3दिन, सोमवार+3=गुरुवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0003",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "Between 4 and 5, when hands at 90°?",
+      "options": [
+        "4:05 5/11",
+        "4:38 2/11",
+        "Both",
+        "4:10"
+      ],
+      "explanation": "|120-5.5M|=90, M=5 5/11 or 38 2/11. Both."
+    },
+    "hi": {
+      "question": "4-5 बजे, सुइयाँ 90° पर?",
+      "options": [
+        "4:05 5/11",
+        "4:38 2/11",
+        "दोनों",
+        "4:10"
+      ],
+      "explanation": "दो समय: 4:05 5/11 और 4:38 2/11।"
+    }
+  },
+  {
+    "id": "ntpc-r-0004",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Angle at 6:15?",
+      "options": [
+        "97.5°",
+        "90°",
+        "105°",
+        "82.5°"
+      ],
+      "explanation": "Hour=180+7.5=187.5, Min=90. |187.5-90|=97.5°."
+    },
+    "hi": {
+      "question": "6:15 पर सुइयों के बीच कोण?",
+      "options": [
+        "97.5°",
+        "90°",
+        "105°",
+        "82.5°"
+      ],
+      "explanation": "घंटा=187.5°, मिनट=90°, कोण=97.5°।"
+    }
+  },
+  {
+    "id": "ntpc-r-0005",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "Mirror image time of 2:30?",
+      "options": [
+        "9:30",
+        "10:30",
+        "9:00",
+        "8:30"
+      ],
+      "explanation": "12:00-2:30=9:30."
+    },
+    "hi": {
+      "question": "2:30 का दर्पण समय?",
+      "options": [
+        "9:30",
+        "10:30",
+        "9:00",
+        "8:30"
+      ],
+      "explanation": "12:00-2:30=9:30।"
+    }
+  },
+  {
+    "id": "ntpc-r-0006",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "15 Aug 2024 Thursday. 15 Aug 2020 day?",
+      "options": [
+        "Saturday",
+        "Friday",
+        "Sunday",
+        "Monday"
+      ],
+      "explanation": "2020 leap+3 normal=5 odd days. Thu-5=Sat."
+    },
+    "hi": {
+      "question": "15 अगस्त 2024 गुरुवार। 15 अगस्त 2020?",
+      "options": [
+        "शनिवार",
+        "शुक्रवार",
+        "रविवार",
+        "सोमवार"
+      ],
+      "explanation": "5 विषम दिन पीछे, शनिवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0007",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "Between 7 and 8, hands opposite (180°)?",
+      "options": [
+        "7:05 5/11",
+        "7:10 10/11",
+        "7:15",
+        "7:05"
+      ],
+      "explanation": "|210-5.5M|=180, M=5 5/11."
+    },
+    "hi": {
+      "question": "7-8 बजे, सुइयाँ विपरीत (180°)?",
+      "options": [
+        "7:05 5/11",
+        "7:10 10/11",
+        "7:15",
+        "7:05"
+      ],
+      "explanation": "M=30/5.5=5 5/11।"
+    }
+  },
+  {
+    "id": "ntpc-r-0008",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "How many times do clock hands coincide in 24 hours?",
+      "options": [
+        "22",
+        "24",
+        "23",
+        "21"
+      ],
+      "explanation": "11 times in 12h, 22 times in 24h."
+    },
+    "hi": {
+      "question": "24 घंटे में सुइयाँ कितनी बार मिलती हैं?",
+      "options": [
+        "22",
+        "24",
+        "23",
+        "21"
+      ],
+      "explanation": "12 घंटे में 11 बार, 24 में 22 बार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0009",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "Day after tomorrow is Friday. Day before yesterday?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Sunday",
+        "Wednesday"
+      ],
+      "explanation": "Today=Wed, yesterday=Tue, day before=Mon."
+    },
+    "hi": {
+      "question": "परसों शुक्रवार। कल से एक दिन पहले?",
+      "options": [
+        "सोमवार",
+        "मंगलवार",
+        "रविवार",
+        "बुधवार"
+      ],
+      "explanation": "आज बुधवार, कल मंगलवार, एक दिन पहले सोमवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0010",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "Angle between hands at 9:00?",
+      "options": [
+        "60°",
+        "180°",
+        "90°",
+        "270°"
+      ],
+      "explanation": "At 9:00, 9×30°=270° or 90° (smaller angle)."
+    },
+    "hi": {
+      "question": "9:00 बजे सुइयों के बीच कोण?",
+      "options": [
+        "60°",
+        "180°",
+        "90°",
+        "270°"
+      ],
+      "explanation": "9×30°=90° (छोटा कोण)।"
+    }
+  },
+  {
+    "id": "ntpc-r-0011",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "How many times hands are at right angle in 12 hours?",
+      "options": [
+        "11",
+        "22",
+        "24",
+        "12"
+      ],
+      "explanation": "22 times in 12 hours (11 times each for both directions)."
+    },
+    "hi": {
+      "question": "12 घंटे में सुइयाँ कितनी बार समकोण पर?",
+      "options": [
+        "11",
+        "22",
+        "24",
+        "12"
+      ],
+      "explanation": "12 घंटे में 22 बार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0012",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "15 Aug 2023 was Tuesday. 15 Aug 2025 day?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Saturday",
+        "Friday"
+      ],
+      "explanation": "2024 leap+1 normal=2 odd days. Tue+2=Thu? Wait 2023 to 2025 = 2 years. 2024 leap (2 odd) + 2025 normal (1 odd) = 3 odd. Tue+3=Fri."
+    },
+    "hi": {
+      "question": "15 अगस्त 2023 मंगलवार। 15 अगस्त 2025?",
+      "options": [
+        "बुधवार",
+        "गुरुवार",
+        "शनिवार",
+        "शुक्रवार"
+      ],
+      "explanation": "3 विषम दिन, मंगल+3=शुक्रवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0013",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "Water image of 4:25?",
+      "options": [
+        "7:35",
+        "8:25",
+        "7:25",
+        "6:35"
+      ],
+      "explanation": "Water image = 11:60 - time = 11:60 - 4:25 = 7:35."
+    },
+    "hi": {
+      "question": "4:25 का जल प्रतिबिंब?",
+      "options": [
+        "7:35",
+        "8:25",
+        "7:25",
+        "6:35"
+      ],
+      "explanation": "11:60 - 4:25 = 7:35।"
+    }
+  },
+  {
+    "id": "ntpc-r-0014",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "At what time between 5 and 6 will the hands be together?",
+      "options": [
+        "5:27 3/11",
+        "5:25",
+        "5:27 2/11",
+        "5:30"
+      ],
+      "explanation": "|150-5.5M|=0, M=150/5.5=300/11=27 3/11."
+    },
+    "hi": {
+      "question": "5-6 के बीच सुइयाँ कब एक साथ?",
+      "options": [
+        "5:27 3/11",
+        "5:25",
+        "5:27 3/11",
+        "5:30"
+      ],
+      "explanation": "M=150/5.5=27 3/11।"
+    }
+  },
+  {
+    "id": "ntpc-r-0015",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "en": {
+      "question": "If today is Monday, what was the day 3 days ago?",
+      "options": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "explanation": "Mon-3=Fri."
+    },
+    "hi": {
+      "question": "यदि आज सोमवार, 3 दिन पहले कौन-सा दिन?",
+      "options": [
+        "गुरुवार",
+        "शुक्रवार",
+        "शनिवार",
+        "रविवार"
+      ],
+      "explanation": "सोम-3=शुक्रवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0016",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Angle between hands at 11:30?",
+      "options": [
+        "180°",
+        "150°",
+        "135°",
+        "165°"
+      ],
+      "explanation": "Hour=330+15=345°, Min=180°. |345-180|=165°."
+    },
+    "hi": {
+      "question": "11:30 पर कोण?",
+      "options": [
+        "180°",
+        "150°",
+        "135°",
+        "165°"
+      ],
+      "explanation": "घंटा=345°, मिनट=180°, कोण=165°।"
+    }
+  },
+  {
+    "id": "ntpc-r-0017",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "If 26 Jan 2024 is Friday, what day was 26 Jan 2019?",
+      "options": [
+        "Saturday",
+        "Sunday",
+        "Friday",
+        "Thursday"
+      ],
+      "explanation": "2019→2024: 2019(normal),2020(leap),2021(normal),2022(normal),2023(normal)=1+2+1+1+1=6 odd. Fri-6=Sat."
+    },
+    "hi": {
+      "question": "26 जनवरी 2024 शुक्रवार, 26 जनवरी 2019?",
+      "options": [
+        "शनिवार",
+        "रविवार",
+        "शुक्रवार",
+        "गुरुवार"
+      ],
+      "explanation": "6 विषम दिन पीछे, शनिवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0018",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "Clock shows 8:20. What will be time in mirror?",
+      "options": [
+        "4:40",
+        "3:20",
+        "3:40",
+        "4:20"
+      ],
+      "explanation": "Mirror = 11:60-8:20 = 3:40."
+    },
+    "hi": {
+      "question": "घड़ी में 8:20। दर्पण में कितना बजेगा?",
+      "options": [
+        "4:40",
+        "3:20",
+        "3:40",
+        "4:20"
+      ],
+      "explanation": "11:60-8:20=3:40।"
+    }
+  },
+  {
+    "id": "ntpc-r-0019",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "A clock gains 5 minutes per day. Set right at 12 noon Monday. What time will it show at 12 noon Friday?",
+      "options": [
+        "12:20",
+        "12:15",
+        "12:10",
+        "12:25"
+      ],
+      "explanation": "4 days=4×5=20min gained. Will show 12:20."
+    },
+    "hi": {
+      "question": "घड़ी प्रतिदिन 5 मिनट तेज़। सोमवार 12 बजे सही की। शुक्रवार 12 बजे?",
+      "options": [
+        "12:20",
+        "12:15",
+        "12:10",
+        "12:25"
+      ],
+      "explanation": "4 दिन=20 मिनट तेज़, 12:20।"
+    }
+  },
+  {
+    "id": "ntpc-r-0020",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "A clock strikes once at 1, twice at 2,... How many strikes in 24 hours?",
+      "options": [
+        "156",
+        "144",
+        "78",
+        "200"
+      ],
+      "explanation": "Sum 1 to 12 = 78. Twice in 24h = 156."
+    },
+    "hi": {
+      "question": "घड़ी 1 बजे 1 बार, 2 बजे 2 बार... बजाती है। 24 घंटे में कुल?",
+      "options": [
+        "156",
+        "144",
+        "78",
+        "200"
+      ],
+      "explanation": "1-12 का योग=78, दोगुना=156।"
+    }
+  },
+  {
+    "id": "ntpc-r-0021",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "If yesterday was Sunday, tomorrow will be?",
+      "options": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Tuesday"
+      ],
+      "explanation": "Yesterday=Sun → Today=Mon → Tomorrow=Tue."
+    },
+    "hi": {
+      "question": "यदि कल रविवार था, कल कौन-सा दिन होगा?",
+      "options": [
+        "सोमवार",
+        "बुधवार",
+        "गुरुवार",
+        "मंगलवार"
+      ],
+      "explanation": "कल रवि→आज सोम→कल मंगल।"
+    }
+  },
+  {
+    "id": "ntpc-r-0022",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "What is the angle between the hands of a clock at 4:30?",
+      "options": [
+        "60°",
+        "45°",
+        "55°",
+        "50°"
+      ],
+      "explanation": "Hour=120+15=135, Min=180. |135-180|=45°. Wait: 4:30 hour hand = 4×30 + 30×0.5 = 120+15=135. Min=180. Difference=45°. But options have 55. Let me recalc: at 4:30, hour is halfway between 4 and 5 = 135°. Min at 6 = 180°. |180-135|=45°. Actually 45 is an option. Answer 45°."
+    },
+    "hi": {
+      "question": "4:30 पर सुइयों के बीच कोण?",
+      "options": [
+        "60°",
+        "45°",
+        "55°",
+        "50°"
+      ],
+      "explanation": "घंटा=135°, मिनट=180°, कोण=45°।"
+    }
+  },
+  {
+    "id": "ntpc-r-0023",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "How many times in a day (24h) are the hands of a clock in a straight line but opposite?",
+      "options": [
+        "24",
+        "22",
+        "11",
+        "12"
+      ],
+      "explanation": "Opposite (180°) 11 times in 12h = 22 times in 24h."
+    },
+    "hi": {
+      "question": "24 घंटे में सुइयाँ कितनी बार एक सीधी रेखा में विपरीत?",
+      "options": [
+        "24",
+        "22",
+        "11",
+        "12"
+      ],
+      "explanation": "12 घंटे में 11, 24 में 22 बार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0024",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "If 5th day of a month is Wednesday, what is the 19th day?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Tuesday"
+      ],
+      "explanation": "19-5=14 days=2 weeks. Same day: Wednesday."
+    },
+    "hi": {
+      "question": "महीने की 5 तारीख बुधवार। 19 तारीख?",
+      "options": [
+        "बुधवार",
+        "गुरुवार",
+        "शुक्रवार",
+        "मंगलवार"
+      ],
+      "explanation": "14 दिन=2 सप्ताह, वही दिन: बुधवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0025",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Between 6 and 7, when will both hands be at right angle?",
+      "options": [
+        "6:16 4/11",
+        "6:15 3/11",
+        "Both",
+        "6:49 1/11"
+      ],
+      "explanation": "|180-5.5M|=90: M=16 4/11 or M=49 1/11."
+    },
+    "hi": {
+      "question": "6-7 के बीच समकोण?",
+      "options": [
+        "6:16 4/11",
+        "6:15 3/11",
+        "दोनों",
+        "6:49 1/11"
+      ],
+      "explanation": "6:16 4/11 और 6:49 1/11।"
+    }
+  },
+  {
+    "id": "ntpc-r-0026",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "1 Jan 2000 was Saturday. 1 Jan 2020?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "explanation": "2000-2019 = 20 years. Leap: 2000,04,08,12,16 = 5 leap. Normal = 15. Odd = 5×2+15×1=25≡4. Sat+4=Wed."
+    },
+    "hi": {
+      "question": "1 जनवरी 2000 शनिवार। 1 जनवरी 2020?",
+      "options": [
+        "सोमवार",
+        "मंगलवार",
+        "बुधवार",
+        "गुरुवार"
+      ],
+      "explanation": "20 साल, 5 लीप, 25 विषम≡4। शनि+4=बुध।"
+    }
+  },
+  {
+    "id": "ntpc-r-0027",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "If clock shows 3:45, what is the mirror time?",
+      "options": [
+        "8:15",
+        "7:15",
+        "9:15",
+        "8:45"
+      ],
+      "explanation": "Mirror = 11:60-3:45 = 8:15."
+    },
+    "hi": {
+      "question": "घड़ी में 3:45, दर्पण समय?",
+      "options": [
+        "8:15",
+        "7:15",
+        "9:15",
+        "8:45"
+      ],
+      "explanation": "11:60-3:45=8:15।"
+    }
+  },
+  {
+    "id": "ntpc-r-0028",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "At what time between 8 and 9 will hands be together?",
+      "options": [
+        "8:40 4/11",
+        "8:43 7/11",
+        "8:44",
+        "8:42"
+      ],
+      "explanation": "|240-5.5M|=0, M=240/5.5=480/11=43 7/11."
+    },
+    "hi": {
+      "question": "8-9 के बीच सुइयाँ कब एक साथ?",
+      "options": [
+        "8:40 4/11",
+        "8:43 7/11",
+        "8:44",
+        "8:42"
+      ],
+      "explanation": "M=240/5.5=43 7/11।"
+    }
+  },
+  {
+    "id": "ntpc-r-0029",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "Last day of January cannot be?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Sunday",
+        "Thursday"
+      ],
+      "explanation": "Jan has 31 days=4w+3d. Any day is possible."
+    },
+    "hi": {
+      "question": "जनवरी का आखिरी दिन क्या नहीं हो सकता?",
+      "options": [
+        "सोमवार",
+        "मंगलवार",
+        "रविवार",
+        "गुरुवार"
+      ],
+      "explanation": "31 दिन, सभी दिन संभव। कोई नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0030",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "en": {
+      "question": "A clock loses 2 min per hour. Set right at 10 AM. What will be actual time when it shows 3 PM?",
+      "options": [
+        "3:10",
+        "3:12",
+        "3:08",
+        "3:10:30"
+      ],
+      "explanation": "Loses 2/60=1/30 of time. When it shows 5h passed, actual = 5×60/58×60=300×60/58≈310.3 min=5h10min. Actual ≈3:10."
+    },
+    "hi": {
+      "question": "घड़ी 2 मिनट/घंटा धीमी। 10 AM सही की। जब 3 PM दिखाए तब वास्तविक समय?",
+      "options": [
+        "3:10",
+        "3:12",
+        "3:08",
+        "3:10:30"
+      ],
+      "explanation": "5 घंटे में 10 मिनट धीमी। वास्तविक≈3:10।"
+    }
+  },
+  {
+    "id": "ntpc-r-0031",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Feb 2024 has ___ days. What day is 29 Feb if 1 Feb is Thursday?",
+      "options": [
+        "29 days, Thursday",
+        "28 days",
+        "29 days, Friday",
+        "28 days, Thursday"
+      ],
+      "explanation": "2024 is leap, Feb=29 days. 29-1=28=4 weeks. 29th is Thursday."
+    },
+    "hi": {
+      "question": "फरवरी 2024 में कितने दिन? 1 फरवरी गुरुवार तो 29 फरवरी?",
+      "options": [
+        "29 दिन, गुरुवार",
+        "28 दिन",
+        "29 दिन, शुक्रवार",
+        "28 दिन, गुरुवार"
+      ],
+      "explanation": "2024 लीप, 29 दिन, 29 तारीख=गुरुवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0032",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "en": {
+      "question": "Day before yesterday was Saturday. What day is day after tomorrow?",
+      "options": [
+        "Monday",
+        "Wednesday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "explanation": "Day before yesterday=Sat. Yesterday=Sun. Today=Mon. Tomorrow=Tue. Day after=Wed."
+    },
+    "hi": {
+      "question": "कल से एक दिन पहले शनिवार। परसों कौन-सा दिन?",
+      "options": [
+        "सोमवार",
+        "बुधवार",
+        "मंगलवार",
+        "गुरुवार"
+      ],
+      "explanation": "आज सोम→परसों बुध।"
+    }
+  },
+  {
+    "id": "ntpc-r-0033",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "Between 2 and 3, when angle is 0°?",
+      "options": [
+        "2:10",
+        "2:11",
+        "2:10 10/11",
+        "2:12"
+      ],
+      "explanation": "|60-5.5M|=0, M=60/5.5=120/11=10 10/11."
+    },
+    "hi": {
+      "question": "2-3 के बीच कोण 0°?",
+      "options": [
+        "2:10",
+        "2:11",
+        "2:10 10/11",
+        "2:12"
+      ],
+      "explanation": "M=60/5.5=10 10/11।"
+    }
+  },
+  {
+    "id": "ntpc-r-0034",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "How many odd days in a leap year?",
+      "options": [
+        "2",
+        "1",
+        "0",
+        "3"
+      ],
+      "explanation": "366 days = 52 weeks + 2 days = 2 odd days."
+    },
+    "hi": {
+      "question": "लीप वर्ष में कितने विषम दिन?",
+      "options": [
+        "2",
+        "1",
+        "0",
+        "3"
+      ],
+      "explanation": "366=52सप्ताह+2दिन, 2 विषम दिन।"
+    }
+  },
+  {
+    "id": "ntpc-r-0035",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "At what time between 1 and 2 do hands coincide?",
+      "options": [
+        "1:05",
+        "1:06",
+        "1:07",
+        "1:05 5/11"
+      ],
+      "explanation": "|30-5.5M|=0, M=30/5.5=5 5/11."
+    },
+    "hi": {
+      "question": "1-2 के बीच सुइयाँ कब मिलती हैं?",
+      "options": [
+        "1:05",
+        "1:06",
+        "1:07",
+        "1:05 5/11"
+      ],
+      "explanation": "M=30/5.5=5 5/11।"
+    }
+  },
+  {
+    "id": "ntpc-r-0036",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "Republic Day (26 Jan) in year 2025, if 1 Jan 2025 is Wednesday?",
+      "options": [
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Friday"
+      ],
+      "explanation": "1 Jan=Wed. 26 Jan: 25 days=3w+4d. Wed+4=Sun."
+    },
+    "hi": {
+      "question": "गणतंत्र दिवस 2025, यदि 1 जनवरी बुधवार?",
+      "options": [
+        "शनिवार",
+        "रविवार",
+        "सोमवार",
+        "शुक्रवार"
+      ],
+      "explanation": "25 दिन=3सप्ताह+4दिन, बुध+4=रवि।"
+    }
+  },
+  {
+    "id": "ntpc-r-0037",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "How many times do hands of clock cross each other in 12 hours?",
+      "options": [
+        "12",
+        "10",
+        "11",
+        "13"
+      ],
+      "explanation": "Hands coincide 11 times in 12 hours."
+    },
+    "hi": {
+      "question": "12 घंटे में सुइयाँ कितनी बार एक-दूसरे को काटती हैं?",
+      "options": [
+        "12",
+        "10",
+        "11",
+        "13"
+      ],
+      "explanation": "12 घंटे में 11 बार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0038",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "Mirror time of 10:10?",
+      "options": [
+        "1:50",
+        "2:50",
+        "1:10",
+        "2:10"
+      ],
+      "explanation": "11:60-10:10=1:50."
+    },
+    "hi": {
+      "question": "10:10 का दर्पण समय?",
+      "options": [
+        "1:50",
+        "2:50",
+        "1:10",
+        "2:10"
+      ],
+      "explanation": "11:60-10:10=1:50।"
+    }
+  },
+  {
+    "id": "ntpc-r-0039",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "en": {
+      "question": "Two clocks are set correctly at 12 noon. One gains 3 min/hr, other loses 2 min/hr. After how many hours will they differ by 1 hour?",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "12"
+      ],
+      "explanation": "Relative gain = 3+2=5 min/hr. For 60 min diff: 60/5=12 hours."
+    },
+    "hi": {
+      "question": "दो घड़ियाँ 12 बजे सही। एक 3 मि/घं तेज़, दूसरी 2 मि/घं धीमी। 1 घंटे का अंतर कितने घंटे बाद?",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "12"
+      ],
+      "explanation": "5 मिनट/घंटा, 60/5=12 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-r-0040",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "At what time between 9 and 10, are the hands at right angles?",
+      "options": [
+        "9:30",
+        "9:32 8/11",
+        "9:33",
+        "9:35"
+      ],
+      "explanation": "|270-5.5M|=90. 270-5.5M=90 → M=32 8/11."
+    },
+    "hi": {
+      "question": "9-10 के बीच समकोण?",
+      "options": [
+        "9:30",
+        "9:32 8/11",
+        "9:33",
+        "9:35"
+      ],
+      "explanation": "M=(270-90)/5.5=32 8/11।"
+    }
+  },
+  {
+    "id": "ntpc-r-0041",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "How many days are there in a leap year?",
+      "options": [
+        "364",
+        "365",
+        "366",
+        "367"
+      ],
+      "explanation": "Leap year has 366 days."
+    },
+    "hi": {
+      "question": "लीप वर्ष में कितने दिन होते हैं?",
+      "options": [
+        "364",
+        "365",
+        "366",
+        "367"
+      ],
+      "explanation": "लीप वर्ष में 366 दिन।"
+    }
+  },
+  {
+    "id": "ntpc-r-0042",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "15 August 1947 was Friday. 15 August 2022 day?",
+      "options": [
+        "Monday",
+        "Sunday",
+        "Tuesday",
+        "Wednesday"
+      ],
+      "explanation": "1947-2022 = 75 years. Leap=18, Normal=57. Odd=18×2+57=36+57=93≡2 (mod7). Fri+2=Sun? Wait: from 1947 to 2022. 2022-1947=75. Leap years: 1948,52,56,60,64,68,72,76,80,84,88,92,96,2000,04,08,12,16,20 = 19 leap years (including 1948-2020). 75-19=56 normal. Odd=19×2+56=38+56=94≡3. Fri+3=Mon."
+    },
+    "hi": {
+      "question": "15 अगस्त 1947 शुक्रवार। 15 अगस्त 2022?",
+      "options": [
+        "सोमवार",
+        "रविवार",
+        "मंगलवार",
+        "बुधवार"
+      ],
+      "explanation": "75 साल, 19 लीप, 94 विषम≡3। शुक्र+3=सोम।"
+    }
+  },
+  {
+    "id": "ntpc-r-0043",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "en": {
+      "question": "A clock was set at 8 AM Wednesday. It gains 10 min per day. What day/time will it show when actual time is 8 AM Saturday?",
+      "options": [
+        "Sat 8:30 AM",
+        "Sat 8:20 AM",
+        "Sat 8:40 AM",
+        "Sat 8:30 AM"
+      ],
+      "explanation": "Wed 8AM to Sat 8AM = 3 days. Gain=30 min. Shows 8:30 AM Sat."
+    },
+    "hi": {
+      "question": "घड़ी बुध 8AM सही की। 10 मिनट/दिन तेज़। शनि 8AM वास्तविक पर क्या दिखाएगी?",
+      "options": [
+        "शनि 8:30",
+        "शनि 8:20",
+        "शनि 8:40",
+        "शनि 8:30"
+      ],
+      "explanation": "3 दिन=30 मिनट तेज़, 8:30 दिखाएगी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0044",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "en": {
+      "question": "If 10th day of month is Monday, what is 24th day?",
+      "options": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday"
+      ],
+      "explanation": "24-10=14 days=2 weeks. Same day: Monday."
+    },
+    "hi": {
+      "question": "महीने की 10 तारीख सोमवार, 24 तारीख?",
+      "options": [
+        "रविवार",
+        "सोमवार",
+        "मंगलवार",
+        "बुधवार"
+      ],
+      "explanation": "14 दिन बाद, वही दिन: सोमवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0045",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "How many odd days in 100 years?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "explanation": "100 years = 76 normal + 24 leap = 76×1+24×2=76+48=124≡5."
+    },
+    "hi": {
+      "question": "100 वर्षों में विषम दिन?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "explanation": "76+48=124≡5 विषम दिन।"
+    }
+  },
+  {
+    "id": "ntpc-r-0046",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "At 3:40, what is the angle between the hands?",
+      "options": [
+        "130°",
+        "120°",
+        "140°",
+        "135°"
+      ],
+      "explanation": "Hour=90+20=110°, Min=240°. |110-240|=130°."
+    },
+    "hi": {
+      "question": "3:40 पर सुइयों के बीच कोण?",
+      "options": [
+        "130°",
+        "120°",
+        "140°",
+        "135°"
+      ],
+      "explanation": "घंटा=110°, मिनट=240°, कोण=130°।"
+    }
+  },
+  {
+    "id": "ntpc-r-0047",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "Today is Thursday. After 61 days, it will be?",
+      "options": [
+        "Monday",
+        "Sunday",
+        "Wednesday",
+        "Tuesday"
+      ],
+      "explanation": "61=8×7+5. Thu+5=Tue."
+    },
+    "hi": {
+      "question": "आज गुरुवार। 61 दिन बाद?",
+      "options": [
+        "सोमवार",
+        "रविवार",
+        "बुधवार",
+        "मंगलवार"
+      ],
+      "explanation": "61=8सप्ताह+5, गुरु+5=मंगल।"
+    }
+  },
+  {
+    "id": "ntpc-r-0048",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "At what time between 12 and 1, hands opposite?",
+      "options": [
+        "12:30",
+        "12:32 8/11",
+        "12:33",
+        "12:34"
+      ],
+      "explanation": "|0-5.5M|=180. 5.5M=180, M=360/11=32 8/11."
+    },
+    "hi": {
+      "question": "12-1 के बीच सुइयाँ विपरीत?",
+      "options": [
+        "12:30",
+        "12:32 8/11",
+        "12:33",
+        "12:34"
+      ],
+      "explanation": "M=360/11=32 8/11।"
+    }
+  },
+  {
+    "id": "ntpc-r-0049",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "If 1 Jan 2025 is Wednesday, India's Independence Day (15 Aug) in 2025?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Saturday",
+        "Friday"
+      ],
+      "explanation": "Jan=31, Feb=28, Mar=31, Apr=30, May=31, Jun=30, Jul=31, Aug 1-15=15. Total=227 days=32w+3d. Wed+3=Sat? Actually 227/7=32 rem 3. Wed+3=Sat."
+    },
+    "hi": {
+      "question": "1 जनवरी 2025 बुध, 15 अगस्त 2025?",
+      "options": [
+        "बुधवार",
+        "गुरुवार",
+        "शनिवार",
+        "शुक्रवार"
+      ],
+      "explanation": "227 दिन=32सप्ताह+3, बुध+3=शनि।"
+    }
+  },
+  {
+    "id": "ntpc-r-0050",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "If 7th of month is Friday, what is 14th?",
+      "options": [
+        "Friday",
+        "Thursday",
+        "Saturday",
+        "Sunday"
+      ],
+      "explanation": "14-7=7 days=1 week. Friday."
+    },
+    "hi": {
+      "question": "7 तारीख शुक्रवार, 14 तारीख?",
+      "options": [
+        "शुक्रवार",
+        "गुरुवार",
+        "शनिवार",
+        "रविवार"
+      ],
+      "explanation": "7 दिन बाद, शुक्रवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0051",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "How many times between 6 AM and 6 PM do hands coincide?",
+      "options": [
+        "12",
+        "13",
+        "10",
+        "11"
+      ],
+      "explanation": "In 12 hours (6AM-6PM), hands coincide 11 times."
+    },
+    "hi": {
+      "question": "6 AM से 6 PM के बीच सुइयाँ कितनी बार मिलती हैं?",
+      "options": [
+        "12",
+        "13",
+        "10",
+        "11"
+      ],
+      "explanation": "12 घंटे में 11 बार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0052",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "At 5:15, what is the angle between hands?",
+      "options": [
+        "60°",
+        "67.5°",
+        "75°",
+        "70°"
+      ],
+      "explanation": "Hour=150+7.5=157.5, Min=90. |157.5-90|=67.5°."
+    },
+    "hi": {
+      "question": "5:15 पर कोण?",
+      "options": [
+        "60°",
+        "67.5°",
+        "75°",
+        "70°"
+      ],
+      "explanation": "घंटा=157.5°, मिनट=90°, कोण=67.5°।"
+    }
+  },
+  {
+    "id": "ntpc-r-0053",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "If yesterday was Tuesday, what day will be day after tomorrow?",
+      "options": [
+        "Thursday",
+        "Saturday",
+        "Friday",
+        "Sunday"
+      ],
+      "explanation": "Yesterday=Tue→Today=Wed→Tomorrow=Thu→Day after=Fri."
+    },
+    "hi": {
+      "question": "कल मंगलवार था, परसों कौन-सा दिन?",
+      "options": [
+        "गुरुवार",
+        "शनिवार",
+        "शुक्रवार",
+        "रविवार"
+      ],
+      "explanation": "आज बुध→परसों शुक्र।"
+    }
+  },
+  {
+    "id": "ntpc-r-0054",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Angle between hands at 7:25?",
+      "options": [
+        "72.5°",
+        "75°",
+        "67.5°",
+        "70°"
+      ],
+      "explanation": "Hour=210+12.5=222.5, Min=150. |222.5-150|=72.5°."
+    },
+    "hi": {
+      "question": "7:25 पर कोण?",
+      "options": [
+        "72.5°",
+        "75°",
+        "67.5°",
+        "70°"
+      ],
+      "explanation": "घंटा=222.5°, मिनट=150°, कोण=72.5°।"
+    }
+  },
+  {
+    "id": "ntpc-r-0055",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "en": {
+      "question": "A clock shows 3:30. If hour hand points East, minute hand points?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "At 3:30, hour hand is between 3 and 4 (E). Minute hand at 6 = S? Actually: if hour hand (between 3 and 4) points East, then 12 is N, 3 is E, 6 is S, 9 is W. Minute at 6 = South."
+    },
+    "hi": {
+      "question": "घड़ी 3:30। घंटे की सुई पूर्व दिशा में। मिनट की सुई?",
+      "options": [
+        "उत्तर",
+        "दक्षिण",
+        "पूर्व",
+        "पश्चिम"
+      ],
+      "explanation": "मिनट 6 पर=दक्षिण।"
+    }
+  },
+  {
+    "id": "ntpc-r-0056",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "en": {
+      "question": "Water image of 6:30?",
+      "options": [
+        "6:30",
+        "5:30",
+        "7:30",
+        "4:30"
+      ],
+      "explanation": "Water = 11:60-6:30 = 5:30."
+    },
+    "hi": {
+      "question": "6:30 का जल प्रतिबिंब?",
+      "options": [
+        "6:30",
+        "5:30",
+        "7:30",
+        "4:30"
+      ],
+      "explanation": "11:60-6:30=5:30।"
+    }
+  },
+  {
+    "id": "ntpc-r-0057",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "How many odd days in 200 years?",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "4"
+      ],
+      "explanation": "100y→5 odd. 200y→10≡3 odd."
+    },
+    "hi": {
+      "question": "200 वर्षों में विषम दिन?",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "4"
+      ],
+      "explanation": "100वर्ष=5, 200वर्ष=10≡3।"
+    }
+  },
+  {
+    "id": "ntpc-r-0058",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "How many times in a day are hands of clock at 0 degrees?",
+      "options": [
+        "22",
+        "24",
+        "23",
+        "21"
+      ],
+      "explanation": "0° = coinciding. 22 times in 24 hours."
+    },
+    "hi": {
+      "question": "24 घंटे में सुइयाँ 0° पर कितनी बार?",
+      "options": [
+        "22",
+        "24",
+        "23",
+        "21"
+      ],
+      "explanation": "24 घंटे में 22 बार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0059",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "If 1 Jan is Monday, what day is 31 Dec of the same (non-leap) year?",
+      "options": [
+        "Sunday",
+        "Tuesday",
+        "Wednesday",
+        "Monday"
+      ],
+      "explanation": "365 days=52w+1d. Mon+1=Mon? No: 1 Jan Mon, 31 Dec = 1 Jan + 364 days = 1 Jan + 0w = Mon. Wait: if 1 Jan is Mon, then after 364 days (52 weeks) it's Mon again. 31 Dec is day 365 = Mon+1 = Tue. Actually 1 Jan=day1=Mon. 31 Dec=day365. 365-1=364=52 weeks. So 31 Dec = Mon. Yes, 31 Dec is also Monday."
+    },
+    "hi": {
+      "question": "1 जनवरी सोमवार, 31 दिसंबर (सामान्य वर्ष)?",
+      "options": [
+        "रविवार",
+        "मंगलवार",
+        "बुधवार",
+        "सोमवार"
+      ],
+      "explanation": "365=52सप्ताह+1, सोम+1=सोम? 1 जन से 31 दिसंबर=364 दिन=52 हफ्ते, सोमवार ही।"
+    }
+  },
+  {
+    "id": "ntpc-r-0060",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "At what time between 10 and 11 are hands together?",
+      "options": [
+        "10:52 4/11",
+        "10:54 6/11",
+        "10:55",
+        "10:53"
+      ],
+      "explanation": "|300-5.5M|=0, M=300/5.5=54 6/11."
+    },
+    "hi": {
+      "question": "10-11 के बीच सुइयाँ एक साथ?",
+      "options": [
+        "10:52",
+        "10:54 6/11",
+        "10:55",
+        "10:53"
+      ],
+      "explanation": "M=300/5.5=54 6/11।"
+    }
+  },
+  {
+    "id": "ntpc-r-0061",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "1 Jan 1900 was Monday. 1 Jan 2000?",
+      "options": [
+        "Friday",
+        "Sunday",
+        "Saturday",
+        "Monday"
+      ],
+      "explanation": "1900-1999=100y. 1900 not leap (century not divisible by 400). In 100y: leap=24 (1904-1996). Normal=76. Odd=24×2+76=48+76=124≡5. Mon+5=Sat."
+    },
+    "hi": {
+      "question": "1 जनवरी 1900 सोमवार। 1 जनवरी 2000?",
+      "options": [
+        "शुक्रवार",
+        "रविवार",
+        "शनिवार",
+        "सोमवार"
+      ],
+      "explanation": "100 वर्ष=5 विषम, सोम+5=शनि।"
+    }
+  },
+  {
+    "id": "ntpc-r-0062",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "If 3 days before today was Friday, what day is 4 days after today?",
+      "options": [
+        "Friday",
+        "Thursday",
+        "Saturday",
+        "Monday"
+      ],
+      "explanation": "3 days before=Fri→today=Mon. 4 days after=Fri."
+    },
+    "hi": {
+      "question": "आज से 3 दिन पहले शुक्रवार। आज से 4 दिन बाद?",
+      "options": [
+        "शुक्रवार",
+        "गुरुवार",
+        "शनिवार",
+        "सोमवार"
+      ],
+      "explanation": "आज सोम, 4 दिन बाद=शुक्र।"
+    }
+  },
+  {
+    "id": "ntpc-r-0063",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "At 8:20, what is the angle between hands?",
+      "options": [
+        "120°",
+        "110°",
+        "100°",
+        "130°"
+      ],
+      "explanation": "Hour=240+10=250, Min=120. |250-120|=130°."
+    },
+    "hi": {
+      "question": "8:20 पर कोण?",
+      "options": [
+        "120°",
+        "110°",
+        "100°",
+        "130°"
+      ],
+      "explanation": "घंटा=250°, मिनट=120°, कोण=130°।"
+    }
+  },
+  {
+    "id": "ntpc-r-0064",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "If clock shows 10:10 and hour hand is at North, minute hand direction?",
+      "options": [
+        "East",
+        "North-West",
+        "West",
+        "South"
+      ],
+      "explanation": "Hour hand between 10 and 11 = N. 12 is between 11 and 12 direction. Minute at 2. If hour at 10-11 is N, then 12 is NNE, 2 is E-ish. Roughly: minute hand at East."
+    },
+    "hi": {
+      "question": "घड़ी 10:10, घंटा सुई उत्तर में। मिनट सुई?",
+      "options": [
+        "पूर्व",
+        "उत्तर-पश्चिम",
+        "पश्चिम",
+        "दक्षिण"
+      ],
+      "explanation": "मिनट 2 पर, लगभग पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0065",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "Today is Sunday. 50 days later?",
+      "options": [
+        "Sunday",
+        "Tuesday",
+        "Wednesday",
+        "Monday"
+      ],
+      "explanation": "50=7×7+1. Sun+1=Mon."
+    },
+    "hi": {
+      "question": "आज रविवार। 50 दिन बाद?",
+      "options": [
+        "रविवार",
+        "मंगलवार",
+        "बुधवार",
+        "सोमवार"
+      ],
+      "explanation": "50=7×7+1, रवि+1=सोम।"
+    }
+  },
+  {
+    "id": "ntpc-r-0066",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "How many odd days in 300 years?",
+      "options": [
+        "1",
+        "5",
+        "3",
+        "0"
+      ],
+      "explanation": "300y = 3×100y. 100y=5 odd. 300y=15≡1 odd."
+    },
+    "hi": {
+      "question": "300 वर्षों में विषम दिन?",
+      "options": [
+        "1",
+        "5",
+        "3",
+        "0"
+      ],
+      "explanation": "3×5=15≡1।"
+    }
+  },
+  {
+    "id": "ntpc-r-0067",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "en": {
+      "question": "Between 4 and 5, when will minute hand be exactly on top of hour hand?",
+      "options": [
+        "4:20 5/11",
+        "4:21 6/11",
+        "4:22",
+        "4:21 9/11"
+      ],
+      "explanation": "|120-5.5M|=0, M=120/5.5=240/11=21 9/11."
+    },
+    "hi": {
+      "question": "4-5 के बीच मिनट सुई घंटा सुई के ऊपर?",
+      "options": [
+        "4:20 5/11",
+        "4:21 6/11",
+        "4:22",
+        "4:21 9/11"
+      ],
+      "explanation": "M=120/5.5=21 9/11।"
+    }
+  },
+  {
+    "id": "ntpc-r-0068",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "en": {
+      "question": "3 days before yesterday was Monday. Today is?",
+      "options": [
+        "Thursday",
+        "Friday",
+        "Wednesday",
+        "Saturday"
+      ],
+      "explanation": "3 days before yesterday = Mon. Yesterday = Thu. Today = Fri."
+    },
+    "hi": {
+      "question": "कल से 3 दिन पहले सोमवार। आज?",
+      "options": [
+        "गुरुवार",
+        "शुक्रवार",
+        "बुधवार",
+        "शनिवार"
+      ],
+      "explanation": "कल से 3 दिन पहले सोम→कल गुरु→आज शुक्र।"
+    }
+  },
+  {
+    "id": "ntpc-r-0069",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "At 9:45, angle between hands?",
+      "options": [
+        "25°",
+        "30°",
+        "22.5°",
+        "20°"
+      ],
+      "explanation": "Hour=270+22.5=292.5, Min=270. |292.5-270|=22.5°."
+    },
+    "hi": {
+      "question": "9:45 पर कोण?",
+      "options": [
+        "25°",
+        "30°",
+        "22.5°",
+        "20°"
+      ],
+      "explanation": "घंटा=292.5°, मिनट=270°, कोण=22.5°।"
+    }
+  },
+  {
+    "id": "ntpc-r-0070",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "If Republic Day in a leap year falls on Wednesday, what day is Independence Day same year?",
+      "options": [
+        "Friday",
+        "Thursday",
+        "Saturday",
+        "Sunday"
+      ],
+      "explanation": "26 Jan to 15 Aug: Jan(5)+Feb(29)+Mar(31)+Apr(30)+May(31)+Jun(30)+Jul(31)+Aug(15)=202 days=28w+6d. Wed+6=Tue."
+    },
+    "hi": {
+      "question": "लीप वर्ष में गणतंत्र दिवस बुधवार। स्वतंत्रता दिवस?",
+      "options": [
+        "शुक्रवार",
+        "गुरुवार",
+        "शनिवार",
+        "रविवार"
+      ],
+      "explanation": "202 दिन=28सप्ताह+6, बुध+6=मंगल?"
+    }
+  },
+  {
+    "id": "ntpc-r-0071",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "If 15 of month is Sunday, what is 1st day of month?",
+      "options": [
+        "Saturday",
+        "Monday",
+        "Friday",
+        "Sunday"
+      ],
+      "explanation": "15-1=14=2 weeks back. Sun-0 = Sunday."
+    },
+    "hi": {
+      "question": "15 तारीख रविवार, 1 तारीख?",
+      "options": [
+        "शनिवार",
+        "सोमवार",
+        "शुक्रवार",
+        "रविवार"
+      ],
+      "explanation": "14 दिन पहले, रविवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0072",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "How many times do hands form a straight line (180°) in a day?",
+      "options": [
+        "24",
+        "22",
+        "11",
+        "44"
+      ],
+      "explanation": "Opposite 11 times in 12h = 22 times in 24h."
+    },
+    "hi": {
+      "question": "24 घंटे में सुइयाँ सीधी रेखा (180°) कितनी बार?",
+      "options": [
+        "24",
+        "22",
+        "11",
+        "44"
+      ],
+      "explanation": "12 घंटे में 11, 24 में 22।"
+    }
+  },
+  {
+    "id": "ntpc-r-0073",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "At 2:50, what is the smaller angle between hands?",
+      "options": [
+        "150°",
+        "140°",
+        "145°",
+        "155°"
+      ],
+      "explanation": "Hour=60+25=85, Min=300. |85-300|=215°, smaller=145°."
+    },
+    "hi": {
+      "question": "2:50 पर छोटा कोण?",
+      "options": [
+        "150°",
+        "140°",
+        "145°",
+        "155°"
+      ],
+      "explanation": "घंटा=85°, मिनट=300°, छोटा=145°।"
+    }
+  },
+  {
+    "id": "ntpc-r-0074",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Mirror time of 11:25?",
+      "options": [
+        "12:35",
+        "1:35",
+        "12:25",
+        "1:25"
+      ],
+      "explanation": "11:60-11:25=0:35=12:35."
+    },
+    "hi": {
+      "question": "11:25 का दर्पण समय?",
+      "options": [
+        "12:35",
+        "1:35",
+        "12:25",
+        "1:25"
+      ],
+      "explanation": "11:60-11:25=12:35।"
+    }
+  },
+  {
+    "id": "ntpc-r-0075",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 10:58?",
+      "options": [
+        "341.0°",
+        "28.0°",
+        "48°",
+        "19.0°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×10 - 5.5×58| = |300 - 319.0| = 19.0°"
+    },
+    "hi": {
+      "question": "10:58 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "341.0°",
+        "28.0°",
+        "48°",
+        "19.0°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×10 - 5.5×58| = 19.0°"
+    }
+  },
+  {
+    "id": "ntpc-r-0076",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 8:56 in a clock?",
+      "options": [
+        "9:56",
+        "8:26",
+        "4:56",
+        "3:04"
+      ],
+      "explanation": "Mirror time = 12:00 - 8:56 = 11:04 - 8:56 = 3:04"
+    },
+    "hi": {
+      "question": "घड़ी में 8:56 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "9:56",
+        "8:26",
+        "4:56",
+        "3:04"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 8:56 = 3:04"
+    }
+  },
+  {
+    "id": "ntpc-r-0077",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Wednesday, what day will it be after 161 days?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Monday"
+      ],
+      "explanation": "161 ÷ 7 = 23 weeks + 0 days. Wednesday + 0 = Wednesday."
+    },
+    "hi": {
+      "question": "यदि आज बुधवार है, तो 161 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Monday"
+      ],
+      "explanation": "161 ÷ 7 = 23 सप्ताह + 0 दिन। बुधवार + 0 = बुधवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0078",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 8:44 in a clock?",
+      "options": [
+        "9:44",
+        "4:44",
+        "8:14",
+        "3:16"
+      ],
+      "explanation": "Mirror time = 12:00 - 8:44 = 11:16 - 8:44 = 3:16"
+    },
+    "hi": {
+      "question": "घड़ी में 8:44 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "9:44",
+        "4:44",
+        "8:14",
+        "3:16"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 8:44 = 3:16"
+    }
+  },
+  {
+    "id": "ntpc-r-0079",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Wednesday, what day will it be after 93 days?",
+      "options": [
+        "Wednesday",
+        "Saturday",
+        "Friday",
+        "Saturday"
+      ],
+      "explanation": "93 ÷ 7 = 13 weeks + 2 days. Wednesday + 2 = Friday."
+    },
+    "hi": {
+      "question": "यदि आज बुधवार है, तो 93 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Wednesday",
+        "Saturday",
+        "Friday",
+        "Saturday"
+      ],
+      "explanation": "93 ÷ 7 = 13 सप्ताह + 2 दिन। बुधवार + 2 = शुक्रवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0080",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Friday, what day will it be after 187 days?",
+      "options": [
+        "Monday",
+        "Thursday",
+        "Wednesday",
+        "Saturday"
+      ],
+      "explanation": "187 ÷ 7 = 26 weeks + 5 days. Friday + 5 = Wednesday."
+    },
+    "hi": {
+      "question": "यदि आज शुक्रवार है, तो 187 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Monday",
+        "Thursday",
+        "Wednesday",
+        "Saturday"
+      ],
+      "explanation": "187 ÷ 7 = 26 सप्ताह + 5 दिन। शुक्रवार + 5 = बुधवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0081",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 10:10?",
+      "options": [
+        "240°",
+        "245.0°",
+        "121.0°",
+        "115.0°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×10 - 5.5×10| = |300 - 55.0| = 115.0°"
+    },
+    "hi": {
+      "question": "10:10 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "240°",
+        "245.0°",
+        "121.0°",
+        "115.0°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×10 - 5.5×10| = 115.0°"
+    }
+  },
+  {
+    "id": "ntpc-r-0082",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 7:15?",
+      "options": [
+        "232.5°",
+        "127.5°",
+        "132.5°",
+        "120°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×7 - 5.5×15| = |210 - 82.5| = 127.5°"
+    },
+    "hi": {
+      "question": "7:15 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "232.5°",
+        "127.5°",
+        "132.5°",
+        "120°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×7 - 5.5×15| = 127.5°"
+    }
+  },
+  {
+    "id": "ntpc-r-0083",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 10:58 in a clock?",
+      "options": [
+        "2:58",
+        "1:02",
+        "11:58",
+        "10:28"
+      ],
+      "explanation": "Mirror time = 12:00 - 10:58 = 11:02 - 10:58 = 1:02"
+    },
+    "hi": {
+      "question": "घड़ी में 10:58 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "2:58",
+        "1:02",
+        "11:58",
+        "10:28"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 10:58 = 1:02"
+    }
+  },
+  {
+    "id": "ntpc-r-0084",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 6:05 in a clock?",
+      "options": [
+        "5:55",
+        "7:05",
+        "6:35",
+        "6:05"
+      ],
+      "explanation": "Mirror time = 12:00 - 6:05 = 11:55 - 6:05 = 5:55"
+    },
+    "hi": {
+      "question": "घड़ी में 6:05 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "5:55",
+        "7:05",
+        "6:35",
+        "6:05"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 6:05 = 5:55"
+    }
+  },
+  {
+    "id": "ntpc-r-0085",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 6:21?",
+      "options": [
+        "54°",
+        "76.5°",
+        "64.5°",
+        "295.5°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×6 - 5.5×21| = |180 - 115.5| = 64.5°"
+    },
+    "hi": {
+      "question": "6:21 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "54°",
+        "76.5°",
+        "64.5°",
+        "295.5°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×6 - 5.5×21| = 64.5°"
+    }
+  },
+  {
+    "id": "ntpc-r-0086",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Monday, what day will it be after 15 days?",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Monday",
+        "Wednesday"
+      ],
+      "explanation": "15 ÷ 7 = 2 weeks + 1 days. Monday + 1 = Tuesday."
+    },
+    "hi": {
+      "question": "यदि आज सोमवार है, तो 15 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Monday",
+        "Wednesday"
+      ],
+      "explanation": "15 ÷ 7 = 2 सप्ताह + 1 दिन। सोमवार + 1 = मंगलवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0087",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Wednesday, what day will it be after 67 days?",
+      "options": [
+        "Friday",
+        "Sunday",
+        "Monday",
+        "Tuesday"
+      ],
+      "explanation": "67 ÷ 7 = 9 weeks + 4 days. Wednesday + 4 = Sunday."
+    },
+    "hi": {
+      "question": "यदि आज बुधवार है, तो 67 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Friday",
+        "Sunday",
+        "Monday",
+        "Tuesday"
+      ],
+      "explanation": "67 ÷ 7 = 9 सप्ताह + 4 दिन। बुधवार + 4 = रविवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0088",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Thursday, what day will it be after 111 days?",
+      "options": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "explanation": "111 ÷ 7 = 15 weeks + 6 days. Thursday + 6 = Wednesday."
+    },
+    "hi": {
+      "question": "यदि आज गुरुवार है, तो 111 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "explanation": "111 ÷ 7 = 15 सप्ताह + 6 दिन। गुरुवार + 6 = बुधवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0089",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 6:18 in a clock?",
+      "options": [
+        "7:18",
+        "6:48",
+        "5:42",
+        "6:18"
+      ],
+      "explanation": "Mirror time = 12:00 - 6:18 = 11:42 - 6:18 = 5:42"
+    },
+    "hi": {
+      "question": "घड़ी में 6:18 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "7:18",
+        "6:48",
+        "5:42",
+        "6:18"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 6:18 = 5:42"
+    }
+  },
+  {
+    "id": "ntpc-r-0090",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 8:47?",
+      "options": [
+        "18.5°",
+        "25.5°",
+        "42°",
+        "341.5°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×8 - 5.5×47| = |240 - 258.5| = 18.5°"
+    },
+    "hi": {
+      "question": "8:47 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "18.5°",
+        "25.5°",
+        "42°",
+        "341.5°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×8 - 5.5×47| = 18.5°"
+    }
+  },
+  {
+    "id": "ntpc-r-0091",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Tuesday, what day will it be after 77 days?",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Wednesday",
+        "Sunday"
+      ],
+      "explanation": "77 ÷ 7 = 11 weeks + 0 days. Tuesday + 0 = Tuesday."
+    },
+    "hi": {
+      "question": "यदि आज मंगलवार है, तो 77 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Wednesday",
+        "Sunday"
+      ],
+      "explanation": "77 ÷ 7 = 11 सप्ताह + 0 दिन। मंगलवार + 0 = मंगलवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0092",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 9:10 in a clock?",
+      "options": [
+        "3:10",
+        "9:40",
+        "10:10",
+        "2:50"
+      ],
+      "explanation": "Mirror time = 12:00 - 9:10 = 11:50 - 9:10 = 2:50"
+    },
+    "hi": {
+      "question": "घड़ी में 9:10 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "3:10",
+        "9:40",
+        "10:10",
+        "2:50"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 9:10 = 2:50"
+    }
+  },
+  {
+    "id": "ntpc-r-0093",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Wednesday, what day will it be after 76 days?",
+      "options": [
+        "Tuesday",
+        "Monday",
+        "Wednesday",
+        "Wednesday"
+      ],
+      "explanation": "76 ÷ 7 = 10 weeks + 6 days. Wednesday + 6 = Tuesday."
+    },
+    "hi": {
+      "question": "यदि आज बुधवार है, तो 76 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Tuesday",
+        "Monday",
+        "Wednesday",
+        "Wednesday"
+      ],
+      "explanation": "76 ÷ 7 = 10 सप्ताह + 6 दिन। बुधवार + 6 = मंगलवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0094",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 6:54 in a clock?",
+      "options": [
+        "7:54",
+        "6:54",
+        "5:06",
+        "6:24"
+      ],
+      "explanation": "Mirror time = 12:00 - 6:54 = 11:06 - 6:54 = 5:06"
+    },
+    "hi": {
+      "question": "घड़ी में 6:54 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "7:54",
+        "6:54",
+        "5:06",
+        "6:24"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 6:54 = 5:06"
+    }
+  },
+  {
+    "id": "ntpc-r-0095",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 6:03 in a clock?",
+      "options": [
+        "7:03",
+        "6:03",
+        "6:33",
+        "5:57"
+      ],
+      "explanation": "Mirror time = 12:00 - 6:03 = 11:57 - 6:03 = 5:57"
+    },
+    "hi": {
+      "question": "घड़ी में 6:03 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "7:03",
+        "6:03",
+        "6:33",
+        "5:57"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 6:03 = 5:57"
+    }
+  },
+  {
+    "id": "ntpc-r-0096",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Tuesday, what day will it be after 89 days?",
+      "options": [
+        "Monday",
+        "Sunday",
+        "Tuesday",
+        "Friday"
+      ],
+      "explanation": "89 ÷ 7 = 12 weeks + 5 days. Tuesday + 5 = Sunday."
+    },
+    "hi": {
+      "question": "यदि आज मंगलवार है, तो 89 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Monday",
+        "Sunday",
+        "Tuesday",
+        "Friday"
+      ],
+      "explanation": "89 ÷ 7 = 12 सप्ताह + 5 दिन। मंगलवार + 5 = रविवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0097",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Friday, what day will it be after 74 days?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "explanation": "74 ÷ 7 = 10 weeks + 4 days. Friday + 4 = Tuesday."
+    },
+    "hi": {
+      "question": "यदि आज शुक्रवार है, तो 74 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "explanation": "74 ÷ 7 = 10 सप्ताह + 4 दिन। शुक्रवार + 4 = मंगलवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0098",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Sunday, what day will it be after 60 days?",
+      "options": [
+        "Thursday",
+        "Tuesday",
+        "Friday",
+        "Sunday"
+      ],
+      "explanation": "60 ÷ 7 = 8 weeks + 4 days. Sunday + 4 = Thursday."
+    },
+    "hi": {
+      "question": "यदि आज रविवार है, तो 60 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Thursday",
+        "Tuesday",
+        "Friday",
+        "Sunday"
+      ],
+      "explanation": "60 ÷ 7 = 8 सप्ताह + 4 दिन। रविवार + 4 = गुरुवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0099",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Friday, what day will it be after 49 days?",
+      "options": [
+        "Friday",
+        "Saturday",
+        "Thursday",
+        "Saturday"
+      ],
+      "explanation": "49 ÷ 7 = 7 weeks + 0 days. Friday + 0 = Friday."
+    },
+    "hi": {
+      "question": "यदि आज शुक्रवार है, तो 49 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Friday",
+        "Saturday",
+        "Thursday",
+        "Saturday"
+      ],
+      "explanation": "49 ÷ 7 = 7 सप्ताह + 0 दिन। शुक्रवार + 0 = शुक्रवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0100",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 8:40?",
+      "options": [
+        "20.0°",
+        "33.0°",
+        "340.0°",
+        "0°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×8 - 5.5×40| = |240 - 220.0| = 20.0°"
+    },
+    "hi": {
+      "question": "8:40 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "20.0°",
+        "33.0°",
+        "340.0°",
+        "0°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×8 - 5.5×40| = 20.0°"
+    }
+  },
+  {
+    "id": "ntpc-r-0101",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Monday, what day will it be after 107 days?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Monday",
+        "Thursday"
+      ],
+      "explanation": "107 ÷ 7 = 15 weeks + 2 days. Monday + 2 = Wednesday."
+    },
+    "hi": {
+      "question": "यदि आज सोमवार है, तो 107 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Monday",
+        "Thursday"
+      ],
+      "explanation": "107 ÷ 7 = 15 सप्ताह + 2 दिन। सोमवार + 2 = बुधवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0102",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 1:18?",
+      "options": [
+        "291.0°",
+        "83.0°",
+        "78°",
+        "69.0°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×1 - 5.5×18| = |30 - 99.0| = 69.0°"
+    },
+    "hi": {
+      "question": "1:18 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "291.0°",
+        "83.0°",
+        "78°",
+        "69.0°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×1 - 5.5×18| = 69.0°"
+    }
+  },
+  {
+    "id": "ntpc-r-0103",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Sunday, what day will it be after 126 days?",
+      "options": [
+        "Tuesday",
+        "Saturday",
+        "Monday",
+        "Sunday"
+      ],
+      "explanation": "126 ÷ 7 = 18 weeks + 0 days. Sunday + 0 = Sunday."
+    },
+    "hi": {
+      "question": "यदि आज रविवार है, तो 126 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Tuesday",
+        "Saturday",
+        "Monday",
+        "Sunday"
+      ],
+      "explanation": "126 ÷ 7 = 18 सप्ताह + 0 दिन। रविवार + 0 = रविवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0104",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Monday, what day will it be after 51 days?",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Saturday",
+        "Wednesday"
+      ],
+      "explanation": "51 ÷ 7 = 7 weeks + 2 days. Monday + 2 = Wednesday."
+    },
+    "hi": {
+      "question": "यदि आज सोमवार है, तो 51 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Saturday",
+        "Wednesday"
+      ],
+      "explanation": "51 ÷ 7 = 7 सप्ताह + 2 दिन। सोमवार + 2 = बुधवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0105",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 6:29 in a clock?",
+      "options": [
+        "6:59",
+        "7:29",
+        "6:29",
+        "5:31"
+      ],
+      "explanation": "Mirror time = 12:00 - 6:29 = 11:31 - 6:29 = 5:31"
+    },
+    "hi": {
+      "question": "घड़ी में 6:29 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "6:59",
+        "7:29",
+        "6:29",
+        "5:31"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 6:29 = 5:31"
+    }
+  },
+  {
+    "id": "ntpc-r-0106",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Tuesday, what day will it be after 116 days?",
+      "options": [
+        "Sunday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "explanation": "116 ÷ 7 = 16 weeks + 4 days. Tuesday + 4 = Saturday."
+    },
+    "hi": {
+      "question": "यदि आज मंगलवार है, तो 116 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Sunday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "explanation": "116 ÷ 7 = 16 सप्ताह + 4 दिन। मंगलवार + 4 = शनिवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0107",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 8:59?",
+      "options": [
+        "275.5°",
+        "84.5°",
+        "97.5°",
+        "114°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×8 - 5.5×59| = |240 - 324.5| = 84.5°"
+    },
+    "hi": {
+      "question": "8:59 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "275.5°",
+        "84.5°",
+        "97.5°",
+        "114°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×8 - 5.5×59| = 84.5°"
+    }
+  },
+  {
+    "id": "ntpc-r-0108",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Friday, what day will it be after 47 days?",
+      "options": [
+        "Wednesday",
+        "Saturday",
+        "Thursday",
+        "Tuesday"
+      ],
+      "explanation": "47 ÷ 7 = 6 weeks + 5 days. Friday + 5 = Wednesday."
+    },
+    "hi": {
+      "question": "यदि आज शुक्रवार है, तो 47 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Wednesday",
+        "Saturday",
+        "Thursday",
+        "Tuesday"
+      ],
+      "explanation": "47 ÷ 7 = 6 सप्ताह + 5 दिन। शुक्रवार + 5 = बुधवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0109",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Monday, what day will it be after 74 days?",
+      "options": [
+        "Monday",
+        "Thursday",
+        "Saturday",
+        "Friday"
+      ],
+      "explanation": "74 ÷ 7 = 10 weeks + 4 days. Monday + 4 = Friday."
+    },
+    "hi": {
+      "question": "यदि आज सोमवार है, तो 74 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Monday",
+        "Thursday",
+        "Saturday",
+        "Friday"
+      ],
+      "explanation": "74 ÷ 7 = 10 सप्ताह + 4 दिन। सोमवार + 4 = शुक्रवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0110",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 6:43 in a clock?",
+      "options": [
+        "7:43",
+        "5:17",
+        "6:13",
+        "6:43"
+      ],
+      "explanation": "Mirror time = 12:00 - 6:43 = 11:17 - 6:43 = 5:17"
+    },
+    "hi": {
+      "question": "घड़ी में 6:43 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "7:43",
+        "5:17",
+        "6:13",
+        "6:43"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 6:43 = 5:17"
+    }
+  },
+  {
+    "id": "ntpc-r-0111",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Friday, what day will it be after 144 days?",
+      "options": [
+        "Wednesday",
+        "Wednesday",
+        "Sunday",
+        "Tuesday"
+      ],
+      "explanation": "144 ÷ 7 = 20 weeks + 4 days. Friday + 4 = Tuesday."
+    },
+    "hi": {
+      "question": "यदि आज शुक्रवार है, तो 144 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Wednesday",
+        "Wednesday",
+        "Sunday",
+        "Tuesday"
+      ],
+      "explanation": "144 ÷ 7 = 20 सप्ताह + 4 दिन। शुक्रवार + 4 = मंगलवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0112",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Friday, what day will it be after 37 days?",
+      "options": [
+        "Monday",
+        "Monday",
+        "Sunday",
+        "Friday"
+      ],
+      "explanation": "37 ÷ 7 = 5 weeks + 2 days. Friday + 2 = Sunday."
+    },
+    "hi": {
+      "question": "यदि आज शुक्रवार है, तो 37 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Monday",
+        "Monday",
+        "Sunday",
+        "Friday"
+      ],
+      "explanation": "37 ÷ 7 = 5 सप्ताह + 2 दिन। शुक्रवार + 2 = रविवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0113",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 11:07 in a clock?",
+      "options": [
+        "12:53",
+        "12:07",
+        "1:07",
+        "11:37"
+      ],
+      "explanation": "Mirror time = 12:00 - 11:07 = 11:53 - 11:07 = 12:53"
+    },
+    "hi": {
+      "question": "घड़ी में 11:07 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "12:53",
+        "12:07",
+        "1:07",
+        "11:37"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 11:07 = 12:53"
+    }
+  },
+  {
+    "id": "ntpc-r-0114",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Friday, what day will it be after 47 days?",
+      "options": [
+        "Friday",
+        "Wednesday",
+        "Thursday",
+        "Tuesday"
+      ],
+      "explanation": "47 ÷ 7 = 6 weeks + 5 days. Friday + 5 = Wednesday."
+    },
+    "hi": {
+      "question": "यदि आज शुक्रवार है, तो 47 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Friday",
+        "Wednesday",
+        "Thursday",
+        "Tuesday"
+      ],
+      "explanation": "47 ÷ 7 = 6 सप्ताह + 5 दिन। शुक्रवार + 5 = बुधवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0115",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 11:57 in a clock?",
+      "options": [
+        "1:57",
+        "12:03",
+        "11:27",
+        "12:57"
+      ],
+      "explanation": "Mirror time = 12:00 - 11:57 = 11:03 - 11:57 = 12:03"
+    },
+    "hi": {
+      "question": "घड़ी में 11:57 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "1:57",
+        "12:03",
+        "11:27",
+        "12:57"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 11:57 = 12:03"
+    }
+  },
+  {
+    "id": "ntpc-r-0116",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Friday, what day will it be after 22 days?",
+      "options": [
+        "Thursday",
+        "Monday",
+        "Sunday",
+        "Saturday"
+      ],
+      "explanation": "22 ÷ 7 = 3 weeks + 1 days. Friday + 1 = Saturday."
+    },
+    "hi": {
+      "question": "यदि आज शुक्रवार है, तो 22 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Thursday",
+        "Monday",
+        "Sunday",
+        "Saturday"
+      ],
+      "explanation": "22 ÷ 7 = 3 सप्ताह + 1 दिन। शुक्रवार + 1 = शनिवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0117",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 10:29 in a clock?",
+      "options": [
+        "11:29",
+        "1:31",
+        "10:59",
+        "2:29"
+      ],
+      "explanation": "Mirror time = 12:00 - 10:29 = 11:31 - 10:29 = 1:31"
+    },
+    "hi": {
+      "question": "घड़ी में 10:29 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "11:29",
+        "1:31",
+        "10:59",
+        "2:29"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 10:29 = 1:31"
+    }
+  },
+  {
+    "id": "ntpc-r-0118",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Friday, what day will it be after 117 days?",
+      "options": [
+        "Thursday",
+        "Wednesday",
+        "Saturday",
+        "Monday"
+      ],
+      "explanation": "117 ÷ 7 = 16 weeks + 5 days. Friday + 5 = Wednesday."
+    },
+    "hi": {
+      "question": "यदि आज शुक्रवार है, तो 117 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Thursday",
+        "Wednesday",
+        "Saturday",
+        "Monday"
+      ],
+      "explanation": "117 ÷ 7 = 16 सप्ताह + 5 दिन। शुक्रवार + 5 = बुधवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0119",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 9:11 in a clock?",
+      "options": [
+        "9:41",
+        "10:11",
+        "2:49",
+        "3:11"
+      ],
+      "explanation": "Mirror time = 12:00 - 9:11 = 11:49 - 9:11 = 2:49"
+    },
+    "hi": {
+      "question": "घड़ी में 9:11 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "9:41",
+        "10:11",
+        "2:49",
+        "3:11"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 9:11 = 2:49"
+    }
+  },
+  {
+    "id": "ntpc-r-0120",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Monday, what day will it be after 159 days?",
+      "options": [
+        "Thursday",
+        "Sunday",
+        "Monday",
+        "Saturday"
+      ],
+      "explanation": "159 ÷ 7 = 22 weeks + 5 days. Monday + 5 = Saturday."
+    },
+    "hi": {
+      "question": "यदि आज सोमवार है, तो 159 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Thursday",
+        "Sunday",
+        "Monday",
+        "Saturday"
+      ],
+      "explanation": "159 ÷ 7 = 22 सप्ताह + 5 दिन। सोमवार + 5 = शनिवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0121",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 12:51?",
+      "options": [
+        "79.5°",
+        "280.5°",
+        "54°",
+        "86.5°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×12 - 5.5×51| = |360 - 280.5| = 79.5°"
+    },
+    "hi": {
+      "question": "12:51 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "79.5°",
+        "280.5°",
+        "54°",
+        "86.5°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×12 - 5.5×51| = 79.5°"
+    }
+  },
+  {
+    "id": "ntpc-r-0122",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 7:39 in a clock?",
+      "options": [
+        "5:39",
+        "4:21",
+        "7:09",
+        "8:39"
+      ],
+      "explanation": "Mirror time = 12:00 - 7:39 = 11:21 - 7:39 = 4:21"
+    },
+    "hi": {
+      "question": "घड़ी में 7:39 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "5:39",
+        "4:21",
+        "7:09",
+        "8:39"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 7:39 = 4:21"
+    }
+  },
+  {
+    "id": "ntpc-r-0123",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 7:48 in a clock?",
+      "options": [
+        "7:18",
+        "8:48",
+        "5:48",
+        "4:12"
+      ],
+      "explanation": "Mirror time = 12:00 - 7:48 = 11:12 - 7:48 = 4:12"
+    },
+    "hi": {
+      "question": "घड़ी में 7:48 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "7:18",
+        "8:48",
+        "5:48",
+        "4:12"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 7:48 = 4:12"
+    }
+  },
+  {
+    "id": "ntpc-r-0124",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Wednesday, what day will it be after 18 days?",
+      "options": [
+        "Monday",
+        "Saturday",
+        "Sunday",
+        "Wednesday"
+      ],
+      "explanation": "18 ÷ 7 = 2 weeks + 4 days. Wednesday + 4 = Sunday."
+    },
+    "hi": {
+      "question": "यदि आज बुधवार है, तो 18 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Monday",
+        "Saturday",
+        "Sunday",
+        "Wednesday"
+      ],
+      "explanation": "18 ÷ 7 = 2 सप्ताह + 4 दिन। बुधवार + 4 = रविवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0125",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Thursday, what day will it be after 23 days?",
+      "options": [
+        "Friday",
+        "Sunday",
+        "Saturday",
+        "Sunday"
+      ],
+      "explanation": "23 ÷ 7 = 3 weeks + 2 days. Thursday + 2 = Saturday."
+    },
+    "hi": {
+      "question": "यदि आज गुरुवार है, तो 23 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Friday",
+        "Sunday",
+        "Saturday",
+        "Sunday"
+      ],
+      "explanation": "23 ÷ 7 = 3 सप्ताह + 2 दिन। गुरुवार + 2 = शनिवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0126",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 7:02?",
+      "options": [
+        "198°",
+        "167.0°",
+        "161.0°",
+        "199.0°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×7 - 5.5×2| = |210 - 11.0| = 161.0°"
+    },
+    "hi": {
+      "question": "7:02 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "198°",
+        "167.0°",
+        "161.0°",
+        "199.0°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×7 - 5.5×2| = 161.0°"
+    }
+  },
+  {
+    "id": "ntpc-r-0127",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 9:36 in a clock?",
+      "options": [
+        "2:24",
+        "3:36",
+        "10:36",
+        "9:06"
+      ],
+      "explanation": "Mirror time = 12:00 - 9:36 = 11:24 - 9:36 = 2:24"
+    },
+    "hi": {
+      "question": "घड़ी में 9:36 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "2:24",
+        "3:36",
+        "10:36",
+        "9:06"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 9:36 = 2:24"
+    }
+  },
+  {
+    "id": "ntpc-r-0128",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Wednesday, what day will it be after 44 days?",
+      "options": [
+        "Wednesday",
+        "Friday",
+        "Sunday",
+        "Saturday"
+      ],
+      "explanation": "44 ÷ 7 = 6 weeks + 2 days. Wednesday + 2 = Friday."
+    },
+    "hi": {
+      "question": "यदि आज बुधवार है, तो 44 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Wednesday",
+        "Friday",
+        "Sunday",
+        "Saturday"
+      ],
+      "explanation": "44 ÷ 7 = 6 सप्ताह + 2 दिन। बुधवार + 2 = शुक्रवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0129",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 10:04 in a clock?",
+      "options": [
+        "1:56",
+        "10:34",
+        "11:04",
+        "2:04"
+      ],
+      "explanation": "Mirror time = 12:00 - 10:04 = 11:56 - 10:04 = 1:56"
+    },
+    "hi": {
+      "question": "घड़ी में 10:04 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "1:56",
+        "10:34",
+        "11:04",
+        "2:04"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 10:04 = 1:56"
+    }
+  },
+  {
+    "id": "ntpc-r-0130",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 9:34 in a clock?",
+      "options": [
+        "9:04",
+        "2:26",
+        "3:34",
+        "10:34"
+      ],
+      "explanation": "Mirror time = 12:00 - 9:34 = 11:26 - 9:34 = 2:26"
+    },
+    "hi": {
+      "question": "घड़ी में 9:34 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "9:04",
+        "2:26",
+        "3:34",
+        "10:34"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 9:34 = 2:26"
+    }
+  },
+  {
+    "id": "ntpc-r-0131",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Saturday, what day will it be after 105 days?",
+      "options": [
+        "Saturday",
+        "Monday",
+        "Thursday",
+        "Sunday"
+      ],
+      "explanation": "105 ÷ 7 = 15 weeks + 0 days. Saturday + 0 = Saturday."
+    },
+    "hi": {
+      "question": "यदि आज शनिवार है, तो 105 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Saturday",
+        "Monday",
+        "Thursday",
+        "Sunday"
+      ],
+      "explanation": "105 ÷ 7 = 15 सप्ताह + 0 दिन। शनिवार + 0 = शनिवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0132",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 6:42 in a clock?",
+      "options": [
+        "6:12",
+        "7:42",
+        "5:18",
+        "6:42"
+      ],
+      "explanation": "Mirror time = 12:00 - 6:42 = 11:18 - 6:42 = 5:18"
+    },
+    "hi": {
+      "question": "घड़ी में 6:42 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "6:12",
+        "7:42",
+        "5:18",
+        "6:42"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 6:42 = 5:18"
+    }
+  },
+  {
+    "id": "ntpc-r-0133",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Sunday, what day will it be after 40 days?",
+      "options": [
+        "Wednesday",
+        "Saturday",
+        "Saturday",
+        "Friday"
+      ],
+      "explanation": "40 ÷ 7 = 5 weeks + 5 days. Sunday + 5 = Friday."
+    },
+    "hi": {
+      "question": "यदि आज रविवार है, तो 40 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Wednesday",
+        "Saturday",
+        "Saturday",
+        "Friday"
+      ],
+      "explanation": "40 ÷ 7 = 5 सप्ताह + 5 दिन। रविवार + 5 = शुक्रवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0134",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Tuesday, what day will it be after 185 days?",
+      "options": [
+        "Monday",
+        "Saturday",
+        "Thursday",
+        "Friday"
+      ],
+      "explanation": "185 ÷ 7 = 26 weeks + 3 days. Tuesday + 3 = Friday."
+    },
+    "hi": {
+      "question": "यदि आज मंगलवार है, तो 185 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Monday",
+        "Saturday",
+        "Thursday",
+        "Friday"
+      ],
+      "explanation": "185 ÷ 7 = 26 सप्ताह + 3 दिन। मंगलवार + 3 = शुक्रवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0135",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Monday, what day will it be after 177 days?",
+      "options": [
+        "Thursday",
+        "Wednesday",
+        "Friday",
+        "Tuesday"
+      ],
+      "explanation": "177 ÷ 7 = 25 weeks + 2 days. Monday + 2 = Wednesday."
+    },
+    "hi": {
+      "question": "यदि आज सोमवार है, तो 177 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Thursday",
+        "Wednesday",
+        "Friday",
+        "Tuesday"
+      ],
+      "explanation": "177 ÷ 7 = 25 सप्ताह + 2 दिन। सोमवार + 2 = बुधवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0136",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Monday, what day will it be after 199 days?",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Friday"
+      ],
+      "explanation": "199 ÷ 7 = 28 weeks + 3 days. Monday + 3 = Thursday."
+    },
+    "hi": {
+      "question": "यदि आज सोमवार है, तो 199 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Friday"
+      ],
+      "explanation": "199 ÷ 7 = 28 सप्ताह + 3 दिन। सोमवार + 3 = गुरुवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0137",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Wednesday, what day will it be after 157 days?",
+      "options": [
+        "Tuesday",
+        "Sunday",
+        "Friday",
+        "Saturday"
+      ],
+      "explanation": "157 ÷ 7 = 22 weeks + 3 days. Wednesday + 3 = Saturday."
+    },
+    "hi": {
+      "question": "यदि आज बुधवार है, तो 157 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Tuesday",
+        "Sunday",
+        "Friday",
+        "Saturday"
+      ],
+      "explanation": "157 ÷ 7 = 22 सप्ताह + 3 दिन। बुधवार + 3 = शनिवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0138",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Tuesday, what day will it be after 171 days?",
+      "options": [
+        "Sunday",
+        "Friday",
+        "Wednesday",
+        "Saturday"
+      ],
+      "explanation": "171 ÷ 7 = 24 weeks + 3 days. Tuesday + 3 = Friday."
+    },
+    "hi": {
+      "question": "यदि आज मंगलवार है, तो 171 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Sunday",
+        "Friday",
+        "Wednesday",
+        "Saturday"
+      ],
+      "explanation": "171 ÷ 7 = 24 सप्ताह + 3 दिन। मंगलवार + 3 = शुक्रवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0139",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Thursday, what day will it be after 93 days?",
+      "options": [
+        "Sunday",
+        "Saturday",
+        "Monday",
+        "Thursday"
+      ],
+      "explanation": "93 ÷ 7 = 13 weeks + 2 days. Thursday + 2 = Saturday."
+    },
+    "hi": {
+      "question": "यदि आज गुरुवार है, तो 93 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Sunday",
+        "Saturday",
+        "Monday",
+        "Thursday"
+      ],
+      "explanation": "93 ÷ 7 = 13 सप्ताह + 2 दिन। गुरुवार + 2 = शनिवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0140",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 9:29 in a clock?",
+      "options": [
+        "2:31",
+        "3:29",
+        "9:59",
+        "10:29"
+      ],
+      "explanation": "Mirror time = 12:00 - 9:29 = 11:31 - 9:29 = 2:31"
+    },
+    "hi": {
+      "question": "घड़ी में 9:29 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "2:31",
+        "3:29",
+        "9:59",
+        "10:29"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 9:29 = 2:31"
+    }
+  },
+  {
+    "id": "ntpc-r-0141",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 6:34 in a clock?",
+      "options": [
+        "7:34",
+        "6:04",
+        "5:26",
+        "6:34"
+      ],
+      "explanation": "Mirror time = 12:00 - 6:34 = 11:26 - 6:34 = 5:26"
+    },
+    "hi": {
+      "question": "घड़ी में 6:34 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "7:34",
+        "6:04",
+        "5:26",
+        "6:34"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 6:34 = 5:26"
+    }
+  },
+  {
+    "id": "ntpc-r-0142",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 11:36 in a clock?",
+      "options": [
+        "1:36",
+        "12:36",
+        "11:06",
+        "12:24"
+      ],
+      "explanation": "Mirror time = 12:00 - 11:36 = 11:24 - 11:36 = 12:24"
+    },
+    "hi": {
+      "question": "घड़ी में 11:36 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "1:36",
+        "12:36",
+        "11:06",
+        "12:24"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 11:36 = 12:24"
+    }
+  },
+  {
+    "id": "ntpc-r-0143",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 11:31 in a clock?",
+      "options": [
+        "12:29",
+        "12:31",
+        "11:01",
+        "1:31"
+      ],
+      "explanation": "Mirror time = 12:00 - 11:31 = 11:29 - 11:31 = 12:29"
+    },
+    "hi": {
+      "question": "घड़ी में 11:31 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "12:29",
+        "12:31",
+        "11:01",
+        "1:31"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 11:31 = 12:29"
+    }
+  },
+  {
+    "id": "ntpc-r-0144",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 9:15?",
+      "options": [
+        "172.5°",
+        "187.5°",
+        "180.5°",
+        "180°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×9 - 5.5×15| = |270 - 82.5| = 172.5°"
+    },
+    "hi": {
+      "question": "9:15 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "172.5°",
+        "187.5°",
+        "180.5°",
+        "180°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×9 - 5.5×15| = 172.5°"
+    }
+  },
+  {
+    "id": "ntpc-r-0145",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Tuesday, what day will it be after 185 days?",
+      "options": [
+        "Saturday",
+        "Wednesday",
+        "Saturday",
+        "Friday"
+      ],
+      "explanation": "185 ÷ 7 = 26 weeks + 3 days. Tuesday + 3 = Friday."
+    },
+    "hi": {
+      "question": "यदि आज मंगलवार है, तो 185 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Saturday",
+        "Wednesday",
+        "Saturday",
+        "Friday"
+      ],
+      "explanation": "185 ÷ 7 = 26 सप्ताह + 3 दिन। मंगलवार + 3 = शुक्रवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0146",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Saturday, what day will it be after 104 days?",
+      "options": [
+        "Saturday",
+        "Thursday",
+        "Saturday",
+        "Friday"
+      ],
+      "explanation": "104 ÷ 7 = 14 weeks + 6 days. Saturday + 6 = Friday."
+    },
+    "hi": {
+      "question": "यदि आज शनिवार है, तो 104 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Saturday",
+        "Thursday",
+        "Saturday",
+        "Friday"
+      ],
+      "explanation": "104 ÷ 7 = 14 सप्ताह + 6 दिन। शनिवार + 6 = शुक्रवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0147",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Tuesday, what day will it be after 95 days?",
+      "options": [
+        "Sunday",
+        "Sunday",
+        "Saturday",
+        "Thursday"
+      ],
+      "explanation": "95 ÷ 7 = 13 weeks + 4 days. Tuesday + 4 = Saturday."
+    },
+    "hi": {
+      "question": "यदि आज मंगलवार है, तो 95 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Sunday",
+        "Sunday",
+        "Saturday",
+        "Thursday"
+      ],
+      "explanation": "95 ÷ 7 = 13 सप्ताह + 4 दिन। मंगलवार + 4 = शनिवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0148",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Saturday, what day will it be after 195 days?",
+      "options": [
+        "Saturday",
+        "Friday",
+        "Thursday",
+        "Saturday"
+      ],
+      "explanation": "195 ÷ 7 = 27 weeks + 6 days. Saturday + 6 = Friday."
+    },
+    "hi": {
+      "question": "यदि आज शनिवार है, तो 195 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Saturday",
+        "Friday",
+        "Thursday",
+        "Saturday"
+      ],
+      "explanation": "195 ÷ 7 = 27 सप्ताह + 6 दिन। शनिवार + 6 = शुक्रवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0149",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Wednesday, what day will it be after 73 days?",
+      "options": [
+        "Tuesday",
+        "Saturday",
+        "Friday",
+        "Sunday"
+      ],
+      "explanation": "73 ÷ 7 = 10 weeks + 3 days. Wednesday + 3 = Saturday."
+    },
+    "hi": {
+      "question": "यदि आज बुधवार है, तो 73 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Tuesday",
+        "Saturday",
+        "Friday",
+        "Sunday"
+      ],
+      "explanation": "73 ÷ 7 = 10 सप्ताह + 3 दिन। बुधवार + 3 = शनिवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0150",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 10:35?",
+      "options": [
+        "90°",
+        "122.5°",
+        "252.5°",
+        "107.5°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×10 - 5.5×35| = |300 - 192.5| = 107.5°"
+    },
+    "hi": {
+      "question": "10:35 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "90°",
+        "122.5°",
+        "252.5°",
+        "107.5°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×10 - 5.5×35| = 107.5°"
+    }
+  },
+  {
+    "id": "ntpc-r-0151",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 11:05 in a clock?",
+      "options": [
+        "11:35",
+        "12:55",
+        "1:05",
+        "12:05"
+      ],
+      "explanation": "Mirror time = 12:00 - 11:05 = 11:55 - 11:05 = 12:55"
+    },
+    "hi": {
+      "question": "घड़ी में 11:05 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "11:35",
+        "12:55",
+        "1:05",
+        "12:05"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 11:05 = 12:55"
+    }
+  },
+  {
+    "id": "ntpc-r-0152",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 5:09?",
+      "options": [
+        "259.5°",
+        "96°",
+        "100.5°",
+        "112.5°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×5 - 5.5×9| = |150 - 49.5| = 100.5°"
+    },
+    "hi": {
+      "question": "5:09 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "259.5°",
+        "96°",
+        "100.5°",
+        "112.5°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×5 - 5.5×9| = 100.5°"
+    }
+  },
+  {
+    "id": "ntpc-r-0153",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Tuesday, what day will it be after 57 days?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Thursday",
+        "Monday"
+      ],
+      "explanation": "57 ÷ 7 = 8 weeks + 1 days. Tuesday + 1 = Wednesday."
+    },
+    "hi": {
+      "question": "यदि आज मंगलवार है, तो 57 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Thursday",
+        "Monday"
+      ],
+      "explanation": "57 ÷ 7 = 8 सप्ताह + 1 दिन। मंगलवार + 1 = बुधवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0154",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 7:42?",
+      "options": [
+        "339.0°",
+        "42°",
+        "30.0°",
+        "21.0°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×7 - 5.5×42| = |210 - 231.0| = 21.0°"
+    },
+    "hi": {
+      "question": "7:42 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "339.0°",
+        "42°",
+        "30.0°",
+        "21.0°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×7 - 5.5×42| = 21.0°"
+    }
+  },
+  {
+    "id": "ntpc-r-0155",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 6:39?",
+      "options": [
+        "44.5°",
+        "34.5°",
+        "325.5°",
+        "54°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×6 - 5.5×39| = |180 - 214.5| = 34.5°"
+    },
+    "hi": {
+      "question": "6:39 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "44.5°",
+        "34.5°",
+        "325.5°",
+        "54°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×6 - 5.5×39| = 34.5°"
+    }
+  },
+  {
+    "id": "ntpc-r-0156",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 6:36?",
+      "options": [
+        "36°",
+        "31.0°",
+        "342.0°",
+        "18.0°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×6 - 5.5×36| = |180 - 198.0| = 18.0°"
+    },
+    "hi": {
+      "question": "6:36 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "36°",
+        "31.0°",
+        "342.0°",
+        "18.0°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×6 - 5.5×36| = 18.0°"
+    }
+  },
+  {
+    "id": "ntpc-r-0157",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Monday, what day will it be after 114 days?",
+      "options": [
+        "Wednesday",
+        "Saturday",
+        "Thursday",
+        "Monday"
+      ],
+      "explanation": "114 ÷ 7 = 16 weeks + 2 days. Monday + 2 = Wednesday."
+    },
+    "hi": {
+      "question": "यदि आज सोमवार है, तो 114 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Wednesday",
+        "Saturday",
+        "Thursday",
+        "Monday"
+      ],
+      "explanation": "114 ÷ 7 = 16 सप्ताह + 2 दिन। सोमवार + 2 = बुधवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0158",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Tuesday, what day will it be after 37 days?",
+      "options": [
+        "Friday",
+        "Wednesday",
+        "Saturday",
+        "Thursday"
+      ],
+      "explanation": "37 ÷ 7 = 5 weeks + 2 days. Tuesday + 2 = Thursday."
+    },
+    "hi": {
+      "question": "यदि आज मंगलवार है, तो 37 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Friday",
+        "Wednesday",
+        "Saturday",
+        "Thursday"
+      ],
+      "explanation": "37 ÷ 7 = 5 सप्ताह + 2 दिन। मंगलवार + 2 = गुरुवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0159",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 6:04 in a clock?",
+      "options": [
+        "6:34",
+        "7:04",
+        "5:56",
+        "6:04"
+      ],
+      "explanation": "Mirror time = 12:00 - 6:04 = 11:56 - 6:04 = 5:56"
+    },
+    "hi": {
+      "question": "घड़ी में 6:04 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "6:34",
+        "7:04",
+        "5:56",
+        "6:04"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 6:04 = 5:56"
+    }
+  },
+  {
+    "id": "ntpc-r-0160",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 6:27?",
+      "options": [
+        "31.5°",
+        "328.5°",
+        "18°",
+        "38.5°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×6 - 5.5×27| = |180 - 148.5| = 31.5°"
+    },
+    "hi": {
+      "question": "6:27 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "31.5°",
+        "328.5°",
+        "18°",
+        "38.5°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×6 - 5.5×27| = 31.5°"
+    }
+  },
+  {
+    "id": "ntpc-r-0161",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Friday, what day will it be after 121 days?",
+      "options": [
+        "Saturday",
+        "Wednesday",
+        "Sunday",
+        "Monday"
+      ],
+      "explanation": "121 ÷ 7 = 17 weeks + 2 days. Friday + 2 = Sunday."
+    },
+    "hi": {
+      "question": "यदि आज शुक्रवार है, तो 121 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Saturday",
+        "Wednesday",
+        "Sunday",
+        "Monday"
+      ],
+      "explanation": "121 ÷ 7 = 17 सप्ताह + 2 दिन। शुक्रवार + 2 = रविवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0162",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Sunday, what day will it be after 120 days?",
+      "options": [
+        "Sunday",
+        "Monday",
+        "Wednesday",
+        "Tuesday"
+      ],
+      "explanation": "120 ÷ 7 = 17 weeks + 1 days. Sunday + 1 = Monday."
+    },
+    "hi": {
+      "question": "यदि आज रविवार है, तो 120 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Sunday",
+        "Monday",
+        "Wednesday",
+        "Tuesday"
+      ],
+      "explanation": "120 ÷ 7 = 17 सप्ताह + 1 दिन। रविवार + 1 = सोमवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0163",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 11:58 in a clock?",
+      "options": [
+        "11:28",
+        "1:58",
+        "12:58",
+        "12:02"
+      ],
+      "explanation": "Mirror time = 12:00 - 11:58 = 11:02 - 11:58 = 12:02"
+    },
+    "hi": {
+      "question": "घड़ी में 11:58 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "11:28",
+        "1:58",
+        "12:58",
+        "12:02"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 11:58 = 12:02"
+    }
+  },
+  {
+    "id": "ntpc-r-0164",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 7:12 in a clock?",
+      "options": [
+        "5:12",
+        "7:42",
+        "8:12",
+        "4:48"
+      ],
+      "explanation": "Mirror time = 12:00 - 7:12 = 11:48 - 7:12 = 4:48"
+    },
+    "hi": {
+      "question": "घड़ी में 7:12 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "5:12",
+        "7:42",
+        "8:12",
+        "4:48"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 7:12 = 4:48"
+    }
+  },
+  {
+    "id": "ntpc-r-0165",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Monday, what day will it be after 155 days?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Wednesday"
+      ],
+      "explanation": "155 ÷ 7 = 22 weeks + 1 days. Monday + 1 = Tuesday."
+    },
+    "hi": {
+      "question": "यदि आज सोमवार है, तो 155 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Wednesday"
+      ],
+      "explanation": "155 ÷ 7 = 22 सप्ताह + 1 दिन। सोमवार + 1 = मंगलवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0166",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 7:24 in a clock?",
+      "options": [
+        "4:36",
+        "8:24",
+        "7:54",
+        "5:24"
+      ],
+      "explanation": "Mirror time = 12:00 - 7:24 = 11:36 - 7:24 = 4:36"
+    },
+    "hi": {
+      "question": "घड़ी में 7:24 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "4:36",
+        "8:24",
+        "7:54",
+        "5:24"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 7:24 = 4:36"
+    }
+  },
+  {
+    "id": "ntpc-r-0167",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Thursday, what day will it be after 78 days?",
+      "options": [
+        "Sunday",
+        "Friday",
+        "Wednesday",
+        "Saturday"
+      ],
+      "explanation": "78 ÷ 7 = 11 weeks + 1 days. Thursday + 1 = Friday."
+    },
+    "hi": {
+      "question": "यदि आज गुरुवार है, तो 78 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Sunday",
+        "Friday",
+        "Wednesday",
+        "Saturday"
+      ],
+      "explanation": "78 ÷ 7 = 11 सप्ताह + 1 दिन। गुरुवार + 1 = शुक्रवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0168",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 5:38?",
+      "options": [
+        "69.0°",
+        "78°",
+        "59.0°",
+        "301.0°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×5 - 5.5×38| = |150 - 209.0| = 59.0°"
+    },
+    "hi": {
+      "question": "5:38 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "69.0°",
+        "78°",
+        "59.0°",
+        "301.0°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×5 - 5.5×38| = 59.0°"
+    }
+  },
+  {
+    "id": "ntpc-r-0169",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 9:06 in a clock?",
+      "options": [
+        "2:54",
+        "10:06",
+        "3:06",
+        "9:36"
+      ],
+      "explanation": "Mirror time = 12:00 - 9:06 = 11:54 - 9:06 = 2:54"
+    },
+    "hi": {
+      "question": "घड़ी में 9:06 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "2:54",
+        "10:06",
+        "3:06",
+        "9:36"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 9:06 = 2:54"
+    }
+  },
+  {
+    "id": "ntpc-r-0170",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Sunday, what day will it be after 144 days?",
+      "options": [
+        "Friday",
+        "Tuesday",
+        "Friday",
+        "Thursday"
+      ],
+      "explanation": "144 ÷ 7 = 20 weeks + 4 days. Sunday + 4 = Thursday."
+    },
+    "hi": {
+      "question": "यदि आज रविवार है, तो 144 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Friday",
+        "Tuesday",
+        "Friday",
+        "Thursday"
+      ],
+      "explanation": "144 ÷ 7 = 20 सप्ताह + 4 दिन। रविवार + 4 = गुरुवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0171",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 9:33 in a clock?",
+      "options": [
+        "3:33",
+        "2:27",
+        "9:03",
+        "10:33"
+      ],
+      "explanation": "Mirror time = 12:00 - 9:33 = 11:27 - 9:33 = 2:27"
+    },
+    "hi": {
+      "question": "घड़ी में 9:33 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "3:33",
+        "2:27",
+        "9:03",
+        "10:33"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 9:33 = 2:27"
+    }
+  },
+  {
+    "id": "ntpc-r-0172",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Wednesday, what day will it be after 116 days?",
+      "options": [
+        "Friday",
+        "Monday",
+        "Monday",
+        "Sunday"
+      ],
+      "explanation": "116 ÷ 7 = 16 weeks + 4 days. Wednesday + 4 = Sunday."
+    },
+    "hi": {
+      "question": "यदि आज बुधवार है, तो 116 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Friday",
+        "Monday",
+        "Monday",
+        "Sunday"
+      ],
+      "explanation": "116 ÷ 7 = 16 सप्ताह + 4 दिन। बुधवार + 4 = रविवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0173",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Tuesday, what day will it be after 61 days?",
+      "options": [
+        "Tuesday",
+        "Monday",
+        "Friday",
+        "Sunday"
+      ],
+      "explanation": "61 ÷ 7 = 8 weeks + 5 days. Tuesday + 5 = Sunday."
+    },
+    "hi": {
+      "question": "यदि आज मंगलवार है, तो 61 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Tuesday",
+        "Monday",
+        "Friday",
+        "Sunday"
+      ],
+      "explanation": "61 ÷ 7 = 8 सप्ताह + 5 दिन। मंगलवार + 5 = रविवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0174",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Wednesday, what day will it be after 186 days?",
+      "options": [
+        "Friday",
+        "Sunday",
+        "Wednesday",
+        "Monday"
+      ],
+      "explanation": "186 ÷ 7 = 26 weeks + 4 days. Wednesday + 4 = Sunday."
+    },
+    "hi": {
+      "question": "यदि आज बुधवार है, तो 186 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Friday",
+        "Sunday",
+        "Wednesday",
+        "Monday"
+      ],
+      "explanation": "186 ÷ 7 = 26 सप्ताह + 4 दिन। बुधवार + 4 = रविवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0175",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 7:50?",
+      "options": [
+        "90°",
+        "73.0°",
+        "65.0°",
+        "295.0°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×7 - 5.5×50| = |210 - 275.0| = 65.0°"
+    },
+    "hi": {
+      "question": "7:50 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "90°",
+        "73.0°",
+        "65.0°",
+        "295.0°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×7 - 5.5×50| = 65.0°"
+    }
+  },
+  {
+    "id": "ntpc-r-0176",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Tuesday, what day will it be after 145 days?",
+      "options": [
+        "Sunday",
+        "Monday",
+        "Saturday",
+        "Wednesday"
+      ],
+      "explanation": "145 ÷ 7 = 20 weeks + 5 days. Tuesday + 5 = Sunday."
+    },
+    "hi": {
+      "question": "यदि आज मंगलवार है, तो 145 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Sunday",
+        "Monday",
+        "Saturday",
+        "Wednesday"
+      ],
+      "explanation": "145 ÷ 7 = 20 सप्ताह + 5 दिन। मंगलवार + 5 = रविवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0177",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 11:21 in a clock?",
+      "options": [
+        "12:39",
+        "11:51",
+        "12:21",
+        "1:21"
+      ],
+      "explanation": "Mirror time = 12:00 - 11:21 = 11:39 - 11:21 = 12:39"
+    },
+    "hi": {
+      "question": "घड़ी में 11:21 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "12:39",
+        "11:51",
+        "12:21",
+        "1:21"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 11:21 = 12:39"
+    }
+  },
+  {
+    "id": "ntpc-r-0178",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 10:39 in a clock?",
+      "options": [
+        "10:09",
+        "11:39",
+        "2:39",
+        "1:21"
+      ],
+      "explanation": "Mirror time = 12:00 - 10:39 = 11:21 - 10:39 = 1:21"
+    },
+    "hi": {
+      "question": "घड़ी में 10:39 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "10:09",
+        "11:39",
+        "2:39",
+        "1:21"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 10:39 = 1:21"
+    }
+  },
+  {
+    "id": "ntpc-r-0179",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Tuesday, what day will it be after 37 days?",
+      "options": [
+        "Thursday",
+        "Friday",
+        "Tuesday",
+        "Sunday"
+      ],
+      "explanation": "37 ÷ 7 = 5 weeks + 2 days. Tuesday + 2 = Thursday."
+    },
+    "hi": {
+      "question": "यदि आज मंगलवार है, तो 37 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Thursday",
+        "Friday",
+        "Tuesday",
+        "Sunday"
+      ],
+      "explanation": "37 ÷ 7 = 5 सप्ताह + 2 दिन। मंगलवार + 2 = गुरुवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0180",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 1:07?",
+      "options": [
+        "351.5°",
+        "12°",
+        "8.5°",
+        "13.5°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×1 - 5.5×7| = |30 - 38.5| = 8.5°"
+    },
+    "hi": {
+      "question": "1:07 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "351.5°",
+        "12°",
+        "8.5°",
+        "13.5°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×1 - 5.5×7| = 8.5°"
+    }
+  },
+  {
+    "id": "ntpc-r-0181",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Friday, what day will it be after 53 days?",
+      "options": [
+        "Wednesday",
+        "Sunday",
+        "Wednesday",
+        "Tuesday"
+      ],
+      "explanation": "53 ÷ 7 = 7 weeks + 4 days. Friday + 4 = Tuesday."
+    },
+    "hi": {
+      "question": "यदि आज शुक्रवार है, तो 53 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Wednesday",
+        "Sunday",
+        "Wednesday",
+        "Tuesday"
+      ],
+      "explanation": "53 ÷ 7 = 7 सप्ताह + 4 दिन। शुक्रवार + 4 = मंगलवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0182",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Saturday, what day will it be after 38 days?",
+      "options": [
+        "Tuesday",
+        "Wednesday",
+        "Sunday",
+        "Wednesday"
+      ],
+      "explanation": "38 ÷ 7 = 5 weeks + 3 days. Saturday + 3 = Tuesday."
+    },
+    "hi": {
+      "question": "यदि आज शनिवार है, तो 38 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Tuesday",
+        "Wednesday",
+        "Sunday",
+        "Wednesday"
+      ],
+      "explanation": "38 ÷ 7 = 5 सप्ताह + 3 दिन। शनिवार + 3 = मंगलवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0183",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Tuesday, what day will it be after 11 days?",
+      "options": [
+        "Monday",
+        "Friday",
+        "Sunday",
+        "Saturday"
+      ],
+      "explanation": "11 ÷ 7 = 1 weeks + 4 days. Tuesday + 4 = Saturday."
+    },
+    "hi": {
+      "question": "यदि आज मंगलवार है, तो 11 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Monday",
+        "Friday",
+        "Sunday",
+        "Saturday"
+      ],
+      "explanation": "11 ÷ 7 = 1 सप्ताह + 4 दिन। मंगलवार + 4 = शनिवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0184",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Sunday, what day will it be after 19 days?",
+      "options": [
+        "Thursday",
+        "Monday",
+        "Friday",
+        "Saturday"
+      ],
+      "explanation": "19 ÷ 7 = 2 weeks + 5 days. Sunday + 5 = Friday."
+    },
+    "hi": {
+      "question": "यदि आज रविवार है, तो 19 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Thursday",
+        "Monday",
+        "Friday",
+        "Saturday"
+      ],
+      "explanation": "19 ÷ 7 = 2 सप्ताह + 5 दिन। रविवार + 5 = शुक्रवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0185",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 10:29 in a clock?",
+      "options": [
+        "2:29",
+        "11:29",
+        "1:31",
+        "10:59"
+      ],
+      "explanation": "Mirror time = 12:00 - 10:29 = 11:31 - 10:29 = 1:31"
+    },
+    "hi": {
+      "question": "घड़ी में 10:29 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "2:29",
+        "11:29",
+        "1:31",
+        "10:59"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 10:29 = 1:31"
+    }
+  },
+  {
+    "id": "ntpc-r-0186",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Thursday, what day will it be after 138 days?",
+      "options": [
+        "Thursday",
+        "Tuesday",
+        "Wednesday",
+        "Sunday"
+      ],
+      "explanation": "138 ÷ 7 = 19 weeks + 5 days. Thursday + 5 = Tuesday."
+    },
+    "hi": {
+      "question": "यदि आज गुरुवार है, तो 138 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Thursday",
+        "Tuesday",
+        "Wednesday",
+        "Sunday"
+      ],
+      "explanation": "138 ÷ 7 = 19 सप्ताह + 5 दिन। गुरुवार + 5 = मंगलवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0187",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 6:31 in a clock?",
+      "options": [
+        "5:29",
+        "6:31",
+        "7:31",
+        "6:01"
+      ],
+      "explanation": "Mirror time = 12:00 - 6:31 = 11:29 - 6:31 = 5:29"
+    },
+    "hi": {
+      "question": "घड़ी में 6:31 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "5:29",
+        "6:31",
+        "7:31",
+        "6:01"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 6:31 = 5:29"
+    }
+  },
+  {
+    "id": "ntpc-r-0188",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 6:57?",
+      "options": [
+        "133.5°",
+        "162°",
+        "148.5°",
+        "226.5°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×6 - 5.5×57| = |180 - 313.5| = 133.5°"
+    },
+    "hi": {
+      "question": "6:57 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "133.5°",
+        "162°",
+        "148.5°",
+        "226.5°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×6 - 5.5×57| = 133.5°"
+    }
+  },
+  {
+    "id": "ntpc-r-0189",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Wednesday, what day will it be after 146 days?",
+      "options": [
+        "Thursday",
+        "Tuesday",
+        "Wednesday",
+        "Sunday"
+      ],
+      "explanation": "146 ÷ 7 = 20 weeks + 6 days. Wednesday + 6 = Tuesday."
+    },
+    "hi": {
+      "question": "यदि आज बुधवार है, तो 146 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Thursday",
+        "Tuesday",
+        "Wednesday",
+        "Sunday"
+      ],
+      "explanation": "146 ÷ 7 = 20 सप्ताह + 6 दिन। बुधवार + 6 = मंगलवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0190",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 7:26 in a clock?",
+      "options": [
+        "8:26",
+        "5:26",
+        "7:56",
+        "4:34"
+      ],
+      "explanation": "Mirror time = 12:00 - 7:26 = 11:34 - 7:26 = 4:34"
+    },
+    "hi": {
+      "question": "घड़ी में 7:26 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "8:26",
+        "5:26",
+        "7:56",
+        "4:34"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 7:26 = 4:34"
+    }
+  },
+  {
+    "id": "ntpc-r-0191",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 7:38 in a clock?",
+      "options": [
+        "5:38",
+        "8:38",
+        "7:08",
+        "4:22"
+      ],
+      "explanation": "Mirror time = 12:00 - 7:38 = 11:22 - 7:38 = 4:22"
+    },
+    "hi": {
+      "question": "घड़ी में 7:38 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "5:38",
+        "8:38",
+        "7:08",
+        "4:22"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 7:38 = 4:22"
+    }
+  },
+  {
+    "id": "ntpc-r-0192",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Saturday, what day will it be after 102 days?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Tuesday"
+      ],
+      "explanation": "102 ÷ 7 = 14 weeks + 4 days. Saturday + 4 = Wednesday."
+    },
+    "hi": {
+      "question": "यदि आज शनिवार है, तो 102 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Tuesday"
+      ],
+      "explanation": "102 ÷ 7 = 14 सप्ताह + 4 दिन। शनिवार + 4 = बुधवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0193",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Sunday, what day will it be after 50 days?",
+      "options": [
+        "Sunday",
+        "Wednesday",
+        "Monday",
+        "Tuesday"
+      ],
+      "explanation": "50 ÷ 7 = 7 weeks + 1 days. Sunday + 1 = Monday."
+    },
+    "hi": {
+      "question": "यदि आज रविवार है, तो 50 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Sunday",
+        "Wednesday",
+        "Monday",
+        "Tuesday"
+      ],
+      "explanation": "50 ÷ 7 = 7 सप्ताह + 1 दिन। रविवार + 1 = सोमवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0194",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Friday, what day will it be after 182 days?",
+      "options": [
+        "Saturday",
+        "Monday",
+        "Wednesday",
+        "Friday"
+      ],
+      "explanation": "182 ÷ 7 = 26 weeks + 0 days. Friday + 0 = Friday."
+    },
+    "hi": {
+      "question": "यदि आज शुक्रवार है, तो 182 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Saturday",
+        "Monday",
+        "Wednesday",
+        "Friday"
+      ],
+      "explanation": "182 ÷ 7 = 26 सप्ताह + 0 दिन। शुक्रवार + 0 = शुक्रवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0195",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 7:52?",
+      "options": [
+        "76.0°",
+        "83.0°",
+        "102°",
+        "284.0°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×7 - 5.5×52| = |210 - 286.0| = 76.0°"
+    },
+    "hi": {
+      "question": "7:52 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "76.0°",
+        "83.0°",
+        "102°",
+        "284.0°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×7 - 5.5×52| = 76.0°"
+    }
+  },
+  {
+    "id": "ntpc-r-0196",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 9:58?",
+      "options": [
+        "49.0°",
+        "78°",
+        "311.0°",
+        "64.0°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×9 - 5.5×58| = |270 - 319.0| = 49.0°"
+    },
+    "hi": {
+      "question": "9:58 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "49.0°",
+        "78°",
+        "311.0°",
+        "64.0°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×9 - 5.5×58| = 49.0°"
+    }
+  },
+  {
+    "id": "ntpc-r-0197",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Saturday, what day will it be after 95 days?",
+      "options": [
+        "Thursday",
+        "Wednesday",
+        "Monday",
+        "Thursday"
+      ],
+      "explanation": "95 ÷ 7 = 13 weeks + 4 days. Saturday + 4 = Wednesday."
+    },
+    "hi": {
+      "question": "यदि आज शनिवार है, तो 95 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Thursday",
+        "Wednesday",
+        "Monday",
+        "Thursday"
+      ],
+      "explanation": "95 ÷ 7 = 13 सप्ताह + 4 दिन। शनिवार + 4 = बुधवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0198",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Monday, what day will it be after 122 days?",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Sunday"
+      ],
+      "explanation": "122 ÷ 7 = 17 weeks + 3 days. Monday + 3 = Thursday."
+    },
+    "hi": {
+      "question": "यदि आज सोमवार है, तो 122 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Sunday"
+      ],
+      "explanation": "122 ÷ 7 = 17 सप्ताह + 3 दिन। सोमवार + 3 = गुरुवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0199",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 10:16 in a clock?",
+      "options": [
+        "11:16",
+        "2:16",
+        "10:46",
+        "1:44"
+      ],
+      "explanation": "Mirror time = 12:00 - 10:16 = 11:44 - 10:16 = 1:44"
+    },
+    "hi": {
+      "question": "घड़ी में 10:16 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "11:16",
+        "2:16",
+        "10:46",
+        "1:44"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 10:16 = 1:44"
+    }
+  },
+  {
+    "id": "ntpc-r-0200",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Saturday, what day will it be after 56 days?",
+      "options": [
+        "Sunday",
+        "Saturday",
+        "Sunday",
+        "Thursday"
+      ],
+      "explanation": "56 ÷ 7 = 8 weeks + 0 days. Saturday + 0 = Saturday."
+    },
+    "hi": {
+      "question": "यदि आज शनिवार है, तो 56 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Sunday",
+        "Saturday",
+        "Sunday",
+        "Thursday"
+      ],
+      "explanation": "56 ÷ 7 = 8 सप्ताह + 0 दिन। शनिवार + 0 = शनिवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0201",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Monday, what day will it be after 182 days?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Tuesday",
+        "Sunday"
+      ],
+      "explanation": "182 ÷ 7 = 26 weeks + 0 days. Monday + 0 = Monday."
+    },
+    "hi": {
+      "question": "यदि आज सोमवार है, तो 182 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Tuesday",
+        "Sunday"
+      ],
+      "explanation": "182 ÷ 7 = 26 सप्ताह + 0 दिन। सोमवार + 0 = सोमवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0202",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Sunday, what day will it be after 182 days?",
+      "options": [
+        "Saturday",
+        "Sunday",
+        "Wednesday",
+        "Monday"
+      ],
+      "explanation": "182 ÷ 7 = 26 weeks + 0 days. Sunday + 0 = Sunday."
+    },
+    "hi": {
+      "question": "यदि आज रविवार है, तो 182 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Saturday",
+        "Sunday",
+        "Wednesday",
+        "Monday"
+      ],
+      "explanation": "182 ÷ 7 = 26 सप्ताह + 0 दिन। रविवार + 0 = रविवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0203",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Sunday, what day will it be after 83 days?",
+      "options": [
+        "Saturday",
+        "Sunday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "explanation": "83 ÷ 7 = 11 weeks + 6 days. Sunday + 6 = Saturday."
+    },
+    "hi": {
+      "question": "यदि आज रविवार है, तो 83 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Saturday",
+        "Sunday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "explanation": "83 ÷ 7 = 11 सप्ताह + 6 दिन। रविवार + 6 = शनिवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0204",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Sunday, what day will it be after 69 days?",
+      "options": [
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Friday"
+      ],
+      "explanation": "69 ÷ 7 = 9 weeks + 6 days. Sunday + 6 = Saturday."
+    },
+    "hi": {
+      "question": "यदि आज रविवार है, तो 69 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Friday"
+      ],
+      "explanation": "69 ÷ 7 = 9 सप्ताह + 6 दिन। रविवार + 6 = शनिवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0205",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 11:18 in a clock?",
+      "options": [
+        "11:48",
+        "12:42",
+        "1:18",
+        "12:18"
+      ],
+      "explanation": "Mirror time = 12:00 - 11:18 = 11:42 - 11:18 = 12:42"
+    },
+    "hi": {
+      "question": "घड़ी में 11:18 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "11:48",
+        "12:42",
+        "1:18",
+        "12:18"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 11:18 = 12:42"
+    }
+  },
+  {
+    "id": "ntpc-r-0206",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Friday, what day will it be after 167 days?",
+      "options": [
+        "Friday",
+        "Tuesday",
+        "Thursday",
+        "Sunday"
+      ],
+      "explanation": "167 ÷ 7 = 23 weeks + 6 days. Friday + 6 = Thursday."
+    },
+    "hi": {
+      "question": "यदि आज शुक्रवार है, तो 167 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Friday",
+        "Tuesday",
+        "Thursday",
+        "Sunday"
+      ],
+      "explanation": "167 ÷ 7 = 23 सप्ताह + 6 दिन। शुक्रवार + 6 = गुरुवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0207",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Tuesday, what day will it be after 160 days?",
+      "options": [
+        "Monday",
+        "Saturday",
+        "Tuesday",
+        "Tuesday"
+      ],
+      "explanation": "160 ÷ 7 = 22 weeks + 6 days. Tuesday + 6 = Monday."
+    },
+    "hi": {
+      "question": "यदि आज मंगलवार है, तो 160 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Monday",
+        "Saturday",
+        "Tuesday",
+        "Tuesday"
+      ],
+      "explanation": "160 ÷ 7 = 22 सप्ताह + 6 दिन। मंगलवार + 6 = सोमवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0208",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 5:42?",
+      "options": [
+        "92.0°",
+        "279.0°",
+        "102°",
+        "81.0°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×5 - 5.5×42| = |150 - 231.0| = 81.0°"
+    },
+    "hi": {
+      "question": "5:42 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "92.0°",
+        "279.0°",
+        "102°",
+        "81.0°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×5 - 5.5×42| = 81.0°"
+    }
+  },
+  {
+    "id": "ntpc-r-0209",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Saturday, what day will it be after 60 days?",
+      "options": [
+        "Saturday",
+        "Thursday",
+        "Tuesday",
+        "Wednesday"
+      ],
+      "explanation": "60 ÷ 7 = 8 weeks + 4 days. Saturday + 4 = Wednesday."
+    },
+    "hi": {
+      "question": "यदि आज शनिवार है, तो 60 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Saturday",
+        "Thursday",
+        "Tuesday",
+        "Wednesday"
+      ],
+      "explanation": "60 ÷ 7 = 8 सप्ताह + 4 दिन। शनिवार + 4 = बुधवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0210",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 9:17 in a clock?",
+      "options": [
+        "9:47",
+        "3:17",
+        "2:43",
+        "10:17"
+      ],
+      "explanation": "Mirror time = 12:00 - 9:17 = 11:43 - 9:17 = 2:43"
+    },
+    "hi": {
+      "question": "घड़ी में 9:17 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "9:47",
+        "3:17",
+        "2:43",
+        "10:17"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 9:17 = 2:43"
+    }
+  },
+  {
+    "id": "ntpc-r-0211",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the angle between hour and minute hands at 6:34?",
+      "options": [
+        "24°",
+        "7.0°",
+        "20.0°",
+        "353.0°"
+      ],
+      "explanation": "Using formula |30H - 5.5M| = |30×6 - 5.5×34| = |180 - 187.0| = 7.0°"
+    },
+    "hi": {
+      "question": "6:34 बजे घंटे और मिनट की सुई के बीच का कोण?",
+      "options": [
+        "24°",
+        "7.0°",
+        "20.0°",
+        "353.0°"
+      ],
+      "explanation": "सूत्र |30H - 5.5M| = |30×6 - 5.5×34| = 7.0°"
+    }
+  },
+  {
+    "id": "ntpc-r-0212",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of 11:51 in a clock?",
+      "options": [
+        "12:51",
+        "11:21",
+        "12:09",
+        "1:51"
+      ],
+      "explanation": "Mirror time = 12:00 - 11:51 = 11:09 - 11:51 = 12:09"
+    },
+    "hi": {
+      "question": "घड़ी में 11:51 का दर्पण प्रतिबिंब समय क्या है?",
+      "options": [
+        "12:51",
+        "11:21",
+        "12:09",
+        "1:51"
+      ],
+      "explanation": "दर्पण समय = 12:00 - 11:51 = 12:09"
+    }
+  },
+  {
+    "id": "ntpc-r-0213",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Saturday, what day will it be after 135 days?",
+      "options": [
+        "Tuesday",
+        "Monday",
+        "Saturday",
+        "Wednesday"
+      ],
+      "explanation": "135 ÷ 7 = 19 weeks + 2 days. Saturday + 2 = Monday."
+    },
+    "hi": {
+      "question": "यदि आज शनिवार है, तो 135 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Tuesday",
+        "Monday",
+        "Saturday",
+        "Wednesday"
+      ],
+      "explanation": "135 ÷ 7 = 19 सप्ताह + 2 दिन। शनिवार + 2 = सोमवार।"
+    }
+  },
+  {
+    "id": "ntpc-r-0214",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If today is Tuesday, what day will it be after 193 days?",
+      "options": [
+        "Sunday",
+        "Thursday",
+        "Sunday",
+        "Saturday"
+      ],
+      "explanation": "193 ÷ 7 = 27 weeks + 4 days. Tuesday + 4 = Saturday."
+    },
+    "hi": {
+      "question": "यदि आज मंगलवार है, तो 193 दिन बाद कौन सा दिन होगा?",
+      "options": [
+        "Sunday",
+        "Thursday",
+        "Sunday",
+        "Saturday"
+      ],
+      "explanation": "193 ÷ 7 = 27 सप्ताह + 4 दिन। मंगलवार + 4 = शनिवार।"
+    }
+  }
 ]

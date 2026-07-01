@@ -1,1 +1,1484 @@
-[{"id":"groupd-m-0001","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"In a triangle, if two angles are 40 degrees and 60 degrees, what is the third angle?","options":["60 degrees","70 degrees","80 degrees","90 degrees"],"explanation":"Sum of angles in a triangle = 180 degrees. Third angle = 180 - 40 - 60 = 80 degrees."},"hi":{"question":"एक त्रिभुज में, यदि दो कोण 40 डिग्री और 60 डिग्री हैं, तो तीसरा कोण क्या है?","options":["60 डिग्री","70 डिग्री","80 डिग्री","90 डिग्री"],"explanation":"त्रिभुज के कोणों का योग = 180 डिग्री। तीसरा कोण = 180 - 40 - 60 = 80 डिग्री।"}},{"id":"groupd-m-0002","correctOption":"B","difficulty":"easy","sourceYear":2023,"en":{"question":"The diagonals of a rhombus are 8 cm and 6 cm. Find its area.","options":["20 sq cm","24 sq cm","28 sq cm","48 sq cm"],"explanation":"Area of rhombus = (d1 x d2) / 2 = (8 x 6) / 2 = 48 / 2 = 24 sq cm."},"hi":{"question":"एक समचतुर्भुज के विकर्ण 8 cm और 6 cm हैं। इसका क्षेत्रफल ज्ञात करें।","options":["20 वर्ग cm","24 वर्ग cm","28 वर्ग cm","48 वर्ग cm"],"explanation":"समचतुर्भुज का क्षेत्रफल = (d1 × d2) / 2 = (8 × 6) / 2 = 48 / 2 = 24 वर्ग cm।"}},{"id":"groupd-m-0003","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"In a right-angled triangle, the two legs are 5 cm and 12 cm. Find the hypotenuse.","options":["11 cm","13 cm","15 cm","17 cm"],"explanation":"Hypotenuse = sqrt(5^2 + 12^2) = sqrt(25+144) = sqrt(169) = 13 cm."},"hi":{"question":"एक समकोण त्रिभुज में, दो भुजाएं 5 cm और 12 cm हैं। कर्ण ज्ञात करें।","options":["11 cm","13 cm","15 cm","17 cm"],"explanation":"कर्ण = √(5^2 + 12^2) = √(25+144) = √(169) = 13 cm।"}},{"id":"groupd-m-0004","correctOption":"C","difficulty":"easy","sourceYear":2023,"en":{"question":"The ratio of the radii of two circles is 2 : 3. What is the ratio of their areas?","options":["2 : 3","3 : 2","4 : 9","9 : 4"],"explanation":"Area ratio = (radius ratio)^2 = (2/3)^2 = 4 : 9."},"hi":{"question":"दो वृत्तों की त्रिज्याओं का अनुपात 2 : 3 है। उनके क्षेत्रफलों का अनुपात क्या है?","options":["2 : 3","3 : 2","4 : 9","9 : 4"],"explanation":"क्षेत्रफल अनुपात = (त्रिज्या अनुपात)^2 = (2/3)^2 = 4 : 9।"}},{"id":"groupd-m-0005","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"A chord of length 16 cm is at a distance of 6 cm from the center of a circle. Find the radius of the circle.","options":["8 cm","10 cm","12 cm","14 cm"],"explanation":"Radius = sqrt((chord/2)^2 + distance^2) = sqrt(8^2 + 6^2) = sqrt(64+36) = sqrt(100) = 10 cm."},"hi":{"question":"16 cm लंबी एक जीवा वृत्त के केंद्र से 6 cm की दूरी पर है। वृत्त की त्रिज्या ज्ञात करें।","options":["8 cm","10 cm","12 cm","14 cm"],"explanation":"त्रिज्या = √((जीवा/2)^2 + दूरी^2) = √(8^2 + 6^2) = √(64+36) = √(100) = 10 cm।"}},{"id":"groupd-m-0006","correctOption":"C","difficulty":"medium","sourceYear":2023,"en":{"question":"The perimeter of a square is equal to the circumference of a circle. If the side of the square is 11 cm, find the radius of the circle. (Use pi = 22/7)","options":["5 cm","6 cm","7 cm","8 cm"],"explanation":"Square perimeter = 44 cm. Circle circumference = 2 x 22/7 x r = 44. r = 44 x 7/44 = 7 cm."},"hi":{"question":"एक वर्ग का परिमाप एक वृत्त की परिधि के बराबर है। यदि वर्ग की भुजा 11 cm है, तो वृत्त की त्रिज्या ज्ञात करें। (π = 22/7 का उपयोग करें)","options":["5 cm","6 cm","7 cm","8 cm"],"explanation":"वर्ग का परिमाप = 44 cm। वृत्त की परिधि = 2 × 22/7 × r = 44। r = 44 × 7/44 = 7 cm।"}},{"id":"groupd-m-0007","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"In triangle ABC, angle A = 50 degrees and angle B = angle C. Find angle B.","options":["55 degrees","60 degrees","65 degrees","70 degrees"],"explanation":"A + B + C = 180. 50 + B + B = 180. 2B = 130, B = 65 degrees."},"hi":{"question":"त्रिभुज ABC में, कोण A = 50 डिग्री और कोण B = कोण C है। कोण B ज्ञात करें।","options":["55 डिग्री","60 डिग्री","65 डिग्री","70 डिग्री"],"explanation":"A + B + C = 180। 50 + B + B = 180। 2B = 130, B = 65 डिग्री।"}}]
+[
+  {
+    "id": "groupd-m-0001",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "In a triangle, if two angles are 40 degrees and 60 degrees, what is the third angle?",
+      "options": [
+        "60 degrees",
+        "70 degrees",
+        "80 degrees",
+        "90 degrees"
+      ],
+      "explanation": "Sum of angles in a triangle = 180 degrees. Third angle = 180 - 40 - 60 = 80 degrees."
+    },
+    "hi": {
+      "question": "एक त्रिभुज में, यदि दो कोण 40 डिग्री और 60 डिग्री हैं, तो तीसरा कोण क्या है?",
+      "options": [
+        "60 डिग्री",
+        "70 डिग्री",
+        "80 डिग्री",
+        "90 डिग्री"
+      ],
+      "explanation": "त्रिभुज के कोणों का योग = 180 डिग्री। तीसरा कोण = 180 - 40 - 60 = 80 डिग्री।"
+    }
+  },
+  {
+    "id": "groupd-m-0002",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "The diagonals of a rhombus are 8 cm and 6 cm. Find its area.",
+      "options": [
+        "20 sq cm",
+        "24 sq cm",
+        "28 sq cm",
+        "48 sq cm"
+      ],
+      "explanation": "Area of rhombus = (d1 x d2) / 2 = (8 x 6) / 2 = 48 / 2 = 24 sq cm."
+    },
+    "hi": {
+      "question": "एक समचतुर्भुज के विकर्ण 8 cm और 6 cm हैं। इसका क्षेत्रफल ज्ञात करें।",
+      "options": [
+        "20 वर्ग cm",
+        "24 वर्ग cm",
+        "28 वर्ग cm",
+        "48 वर्ग cm"
+      ],
+      "explanation": "समचतुर्भुज का क्षेत्रफल = (d1 × d2) / 2 = (8 × 6) / 2 = 48 / 2 = 24 वर्ग cm।"
+    }
+  },
+  {
+    "id": "groupd-m-0003",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "In a right-angled triangle, the two legs are 5 cm and 12 cm. Find the hypotenuse.",
+      "options": [
+        "11 cm",
+        "13 cm",
+        "15 cm",
+        "17 cm"
+      ],
+      "explanation": "Hypotenuse = sqrt(5^2 + 12^2) = sqrt(25+144) = sqrt(169) = 13 cm."
+    },
+    "hi": {
+      "question": "एक समकोण त्रिभुज में, दो भुजाएं 5 cm और 12 cm हैं। कर्ण ज्ञात करें।",
+      "options": [
+        "11 cm",
+        "13 cm",
+        "15 cm",
+        "17 cm"
+      ],
+      "explanation": "कर्ण = √(5^2 + 12^2) = √(25+144) = √(169) = 13 cm।"
+    }
+  },
+  {
+    "id": "groupd-m-0004",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "The ratio of the radii of two circles is 2 : 3. What is the ratio of their areas?",
+      "options": [
+        "2 : 3",
+        "3 : 2",
+        "4 : 9",
+        "9 : 4"
+      ],
+      "explanation": "Area ratio = (radius ratio)^2 = (2/3)^2 = 4 : 9."
+    },
+    "hi": {
+      "question": "दो वृत्तों की त्रिज्याओं का अनुपात 2 : 3 है। उनके क्षेत्रफलों का अनुपात क्या है?",
+      "options": [
+        "2 : 3",
+        "3 : 2",
+        "4 : 9",
+        "9 : 4"
+      ],
+      "explanation": "क्षेत्रफल अनुपात = (त्रिज्या अनुपात)^2 = (2/3)^2 = 4 : 9।"
+    }
+  },
+  {
+    "id": "groupd-m-0005",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A chord of length 16 cm is at a distance of 6 cm from the center of a circle. Find the radius of the circle.",
+      "options": [
+        "8 cm",
+        "10 cm",
+        "12 cm",
+        "14 cm"
+      ],
+      "explanation": "Radius = sqrt((chord/2)^2 + distance^2) = sqrt(8^2 + 6^2) = sqrt(64+36) = sqrt(100) = 10 cm."
+    },
+    "hi": {
+      "question": "16 cm लंबी एक जीवा वृत्त के केंद्र से 6 cm की दूरी पर है। वृत्त की त्रिज्या ज्ञात करें।",
+      "options": [
+        "8 cm",
+        "10 cm",
+        "12 cm",
+        "14 cm"
+      ],
+      "explanation": "त्रिज्या = √((जीवा/2)^2 + दूरी^2) = √(8^2 + 6^2) = √(64+36) = √(100) = 10 cm।"
+    }
+  },
+  {
+    "id": "groupd-m-0006",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "The perimeter of a square is equal to the circumference of a circle. If the side of the square is 11 cm, find the radius of the circle. (Use pi = 22/7)",
+      "options": [
+        "5 cm",
+        "6 cm",
+        "7 cm",
+        "8 cm"
+      ],
+      "explanation": "Square perimeter = 44 cm. Circle circumference = 2 x 22/7 x r = 44. r = 44 x 7/44 = 7 cm."
+    },
+    "hi": {
+      "question": "एक वर्ग का परिमाप एक वृत्त की परिधि के बराबर है। यदि वर्ग की भुजा 11 cm है, तो वृत्त की त्रिज्या ज्ञात करें। (π = 22/7 का उपयोग करें)",
+      "options": [
+        "5 cm",
+        "6 cm",
+        "7 cm",
+        "8 cm"
+      ],
+      "explanation": "वर्ग का परिमाप = 44 cm। वृत्त की परिधि = 2 × 22/7 × r = 44। r = 44 × 7/44 = 7 cm।"
+    }
+  },
+  {
+    "id": "groupd-m-0007",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "In triangle ABC, angle A = 50 degrees and angle B = angle C. Find angle B.",
+      "options": [
+        "55 degrees",
+        "60 degrees",
+        "65 degrees",
+        "70 degrees"
+      ],
+      "explanation": "A + B + C = 180. 50 + B + B = 180. 2B = 130, B = 65 degrees."
+    },
+    "hi": {
+      "question": "त्रिभुज ABC में, कोण A = 50 डिग्री और कोण B = कोण C है। कोण B ज्ञात करें।",
+      "options": [
+        "55 डिग्री",
+        "60 डिग्री",
+        "65 डिग्री",
+        "70 डिग्री"
+      ],
+      "explanation": "A + B + C = 180। 50 + B + B = 180। 2B = 130, B = 65 डिग्री।"
+    }
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Simplify: 15 + 11 × 3",
+      "options": [
+        "495",
+        "37",
+        "78",
+        "29"
+      ],
+      "explanation": "BODMAS: 11×3=33+15=37."
+    },
+    "hi": {
+      "question": "सरल करें: 15 + 11 × 3",
+      "options": [
+        "495",
+        "37",
+        "78",
+        "29"
+      ],
+      "explanation": "BODMAS: 11×3+15=37।"
+    },
+    "id": "groupd-m-0008"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Car at 23km/hr for 22hrs. Distance?",
+      "options": [
+        "45 km",
+        "1012 km",
+        "253 km",
+        "506 km"
+      ],
+      "explanation": "Distance=23×22=506km."
+    },
+    "hi": {
+      "question": "23किमी/घंटा, 22घंटे। दूरी?",
+      "options": [
+        "45 km",
+        "1012 km",
+        "253 km",
+        "506 km"
+      ],
+      "explanation": "दूरी=506किमी।"
+    },
+    "id": "groupd-m-0009"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A does work in 28d, B in 8d. Together?",
+      "options": [
+        "6.2d",
+        "12.4d",
+        "20d",
+        "36d"
+      ],
+      "explanation": "1d: 1/28+1/8. Time=6.2d."
+    },
+    "hi": {
+      "question": "A 28दिन, B 8दिन। साथ?",
+      "options": [
+        "6.2d",
+        "12.4d",
+        "20d",
+        "36d"
+      ],
+      "explanation": "1दिन: 1/28+1/8। समय=6.2दिन।"
+    },
+    "id": "groupd-m-0010"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A does work in 34d, B in 29d. Together?",
+      "options": [
+        "15.7d",
+        "5d",
+        "31.4d",
+        "63d"
+      ],
+      "explanation": "1d: 1/34+1/29. Time=15.7d."
+    },
+    "hi": {
+      "question": "A 34दिन, B 29दिन। साथ?",
+      "options": [
+        "15.7d",
+        "5d",
+        "31.4d",
+        "63d"
+      ],
+      "explanation": "1दिन: 1/34+1/29। समय=15.7दिन।"
+    },
+    "id": "groupd-m-0011"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "25% of 220?",
+      "options": [
+        "550",
+        "220",
+        "440",
+        "110"
+      ],
+      "explanation": "220×25/100 = 550."
+    },
+    "hi": {
+      "question": "220 का 25%?",
+      "options": [
+        "550",
+        "220",
+        "440",
+        "110"
+      ],
+      "explanation": "220×25/100 = 550।"
+    },
+    "id": "groupd-m-0012"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Simplify: 43 + 14 × 10",
+      "options": [
+        "141",
+        "67",
+        "6020",
+        "570"
+      ],
+      "explanation": "BODMAS: 14×10=140+43=141."
+    },
+    "hi": {
+      "question": "सरल करें: 43 + 14 × 10",
+      "options": [
+        "141",
+        "67",
+        "6020",
+        "570"
+      ],
+      "explanation": "BODMAS: 14×10+43=141।"
+    },
+    "id": "groupd-m-0013"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI on Rs.36000 at 21% for 17 yrs?",
+      "options": [
+        "Rs.128520",
+        "Rs.257040",
+        "Rs.64260",
+        "Rs.36000"
+      ],
+      "explanation": "SI=36000×21×17/100=128520.0."
+    },
+    "hi": {
+      "question": "36000 रु. पर 21% से 17 वर्ष सा.ब्याज?",
+      "options": [
+        "Rs.128520",
+        "Rs.257040",
+        "Rs.64260",
+        "Rs.36000"
+      ],
+      "explanation": "सा.ब्याज=36000×21×17/100=128520.0।"
+    },
+    "id": "groupd-m-0014"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Simplify: 40 + 15 × 5",
+      "options": [
+        "275",
+        "85",
+        "3000",
+        "60"
+      ],
+      "explanation": "BODMAS: 15×5=75+40=85."
+    },
+    "hi": {
+      "question": "सरल करें: 40 + 15 × 5",
+      "options": [
+        "275",
+        "85",
+        "3000",
+        "60"
+      ],
+      "explanation": "BODMAS: 15×5+40=85।"
+    },
+    "id": "groupd-m-0015"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average: 37, 44, 27, 48, 25, 78",
+      "options": [
+        "78",
+        "25",
+        "259",
+        "43.2"
+      ],
+      "explanation": "Sum=259/6=43.2."
+    },
+    "hi": {
+      "question": "औसत: 37, 44, 27, 48, 25, 78",
+      "options": [
+        "78",
+        "25",
+        "259",
+        "43.2"
+      ],
+      "explanation": "योग=259/6=43.2।"
+    },
+    "id": "groupd-m-0016"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 19 and 31?",
+      "options": [
+        "589",
+        "589",
+        "50",
+        "1"
+      ],
+      "explanation": "LCM=19×31/1=589."
+    },
+    "hi": {
+      "question": "19 और 31 का ल.स.?",
+      "options": [
+        "589",
+        "589",
+        "50",
+        "1"
+      ],
+      "explanation": "ल.स.=589।"
+    },
+    "id": "groupd-m-0017"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI on Rs.19000 at 5% for 28 yrs?",
+      "options": [
+        "Rs.19000",
+        "Rs.13300",
+        "Rs.53200",
+        "Rs.26600"
+      ],
+      "explanation": "SI=19000×5×28/100=26600.0."
+    },
+    "hi": {
+      "question": "19000 रु. पर 5% से 28 वर्ष सा.ब्याज?",
+      "options": [
+        "Rs.19000",
+        "Rs.13300",
+        "Rs.53200",
+        "Rs.26600"
+      ],
+      "explanation": "सा.ब्याज=19000×5×28/100=26600.0।"
+    },
+    "id": "groupd-m-0018"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A does work in 49d, B in 32d. Together?",
+      "options": [
+        "19.4d",
+        "81d",
+        "17d",
+        "38.8d"
+      ],
+      "explanation": "1d: 1/49+1/32. Time=19.4d."
+    },
+    "hi": {
+      "question": "A 49दिन, B 32दिन। साथ?",
+      "options": [
+        "19.4d",
+        "81d",
+        "17d",
+        "38.8d"
+      ],
+      "explanation": "1दिन: 1/49+1/32। समय=19.4दिन।"
+    },
+    "id": "groupd-m-0019"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI on Rs.45000 at 26% for 5 yrs?",
+      "options": [
+        "Rs.29250",
+        "Rs.45000",
+        "Rs.117000",
+        "Rs.58500"
+      ],
+      "explanation": "SI=45000×26×5/100=58500.0."
+    },
+    "hi": {
+      "question": "45000 रु. पर 26% से 5 वर्ष सा.ब्याज?",
+      "options": [
+        "Rs.29250",
+        "Rs.45000",
+        "Rs.117000",
+        "Rs.58500"
+      ],
+      "explanation": "सा.ब्याज=45000×26×5/100=58500.0।"
+    },
+    "id": "groupd-m-0020"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Buy Rs.340, sell at 27% profit. SP?",
+      "options": [
+        "431.8",
+        "345",
+        "340",
+        "680"
+      ],
+      "explanation": "SP=340×1.27=431.8."
+    },
+    "hi": {
+      "question": "खरीदा 340 रु., 27% लाभ। वि.मू.?",
+      "options": [
+        "431.8",
+        "345",
+        "340",
+        "680"
+      ],
+      "explanation": "वि.मू.=431.8।"
+    },
+    "id": "groupd-m-0021"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI on Rs.24000 at 13% for 30 yrs?",
+      "options": [
+        "Rs.187200",
+        "Rs.93600",
+        "Rs.46800",
+        "Rs.24000"
+      ],
+      "explanation": "SI=24000×13×30/100=93600.0."
+    },
+    "hi": {
+      "question": "24000 रु. पर 13% से 30 वर्ष सा.ब्याज?",
+      "options": [
+        "Rs.187200",
+        "Rs.93600",
+        "Rs.46800",
+        "Rs.24000"
+      ],
+      "explanation": "सा.ब्याज=24000×13×30/100=93600.0।"
+    },
+    "id": "groupd-m-0022"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A does work in 26d, B in 25d. Together?",
+      "options": [
+        "51d",
+        "25.4d",
+        "1d",
+        "12.7d"
+      ],
+      "explanation": "1d: 1/26+1/25. Time=12.7d."
+    },
+    "hi": {
+      "question": "A 26दिन, B 25दिन। साथ?",
+      "options": [
+        "51d",
+        "25.4d",
+        "1d",
+        "12.7d"
+      ],
+      "explanation": "1दिन: 1/26+1/25। समय=12.7दिन।"
+    },
+    "id": "groupd-m-0023"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 27 and 17?",
+      "options": [
+        "459",
+        "44",
+        "459",
+        "1"
+      ],
+      "explanation": "LCM=27×17/1=459."
+    },
+    "hi": {
+      "question": "27 और 17 का ल.स.?",
+      "options": [
+        "459",
+        "44",
+        "459",
+        "1"
+      ],
+      "explanation": "ल.स.=459।"
+    },
+    "id": "groupd-m-0024"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average: 40, 42, 34, 53, 69, 35",
+      "options": [
+        "34",
+        "45.5",
+        "69",
+        "273"
+      ],
+      "explanation": "Sum=273/6=45.5."
+    },
+    "hi": {
+      "question": "औसत: 40, 42, 34, 53, 69, 35",
+      "options": [
+        "34",
+        "45.5",
+        "69",
+        "273"
+      ],
+      "explanation": "योग=273/6=45.5।"
+    },
+    "id": "groupd-m-0025"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Buy Rs.400, sell at 26% profit. SP?",
+      "options": [
+        "504",
+        "400",
+        "800",
+        "403"
+      ],
+      "explanation": "SP=400×1.26=504.0."
+    },
+    "hi": {
+      "question": "खरीदा 400 रु., 26% लाभ। वि.मू.?",
+      "options": [
+        "504",
+        "400",
+        "800",
+        "403"
+      ],
+      "explanation": "वि.मू.=504.0।"
+    },
+    "id": "groupd-m-0026"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Simplify: 25 + 39 × 5",
+      "options": [
+        "69",
+        "220",
+        "320",
+        "4875"
+      ],
+      "explanation": "BODMAS: 39×5=195+25=220."
+    },
+    "hi": {
+      "question": "सरल करें: 25 + 39 × 5",
+      "options": [
+        "69",
+        "220",
+        "320",
+        "4875"
+      ],
+      "explanation": "BODMAS: 39×5+25=220।"
+    },
+    "id": "groupd-m-0027"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI on Rs.20000 at 27% for 23 yrs?",
+      "options": [
+        "Rs.62100",
+        "Rs.20000",
+        "Rs.248400",
+        "Rs.124200"
+      ],
+      "explanation": "SI=20000×27×23/100=124200.0."
+    },
+    "hi": {
+      "question": "20000 रु. पर 27% से 23 वर्ष सा.ब्याज?",
+      "options": [
+        "Rs.62100",
+        "Rs.20000",
+        "Rs.248400",
+        "Rs.124200"
+      ],
+      "explanation": "सा.ब्याज=20000×27×23/100=124200.0।"
+    },
+    "id": "groupd-m-0028"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Simplify: 25 + 15 × 10",
+      "options": [
+        "3750",
+        "400",
+        "160",
+        "50"
+      ],
+      "explanation": "BODMAS: 15×10=150+25=160."
+    },
+    "hi": {
+      "question": "सरल करें: 25 + 15 × 10",
+      "options": [
+        "3750",
+        "400",
+        "160",
+        "50"
+      ],
+      "explanation": "BODMAS: 15×10+25=160।"
+    },
+    "id": "groupd-m-0029"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 36 and 4?",
+      "options": [
+        "144",
+        "4",
+        "36",
+        "40"
+      ],
+      "explanation": "LCM=36×4/4=36."
+    },
+    "hi": {
+      "question": "36 और 4 का ल.स.?",
+      "options": [
+        "144",
+        "4",
+        "36",
+        "40"
+      ],
+      "explanation": "ल.स.=36।"
+    },
+    "id": "groupd-m-0030"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "12% of 100?",
+      "options": [
+        "50",
+        "200",
+        "100",
+        "120"
+      ],
+      "explanation": "100×12/100 = 120."
+    },
+    "hi": {
+      "question": "100 का 12%?",
+      "options": [
+        "50",
+        "200",
+        "100",
+        "120"
+      ],
+      "explanation": "100×12/100 = 120।"
+    },
+    "id": "groupd-m-0031"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 30 and 39?",
+      "options": [
+        "390",
+        "1170",
+        "3",
+        "69"
+      ],
+      "explanation": "LCM=30×39/3=390."
+    },
+    "hi": {
+      "question": "30 और 39 का ल.स.?",
+      "options": [
+        "390",
+        "1170",
+        "3",
+        "69"
+      ],
+      "explanation": "ल.स.=390।"
+    },
+    "id": "groupd-m-0032"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A does work in 10d, B in 30d. Together?",
+      "options": [
+        "40d",
+        "15.0d",
+        "20d",
+        "7.5d"
+      ],
+      "explanation": "1d: 1/10+1/30. Time=7.5d."
+    },
+    "hi": {
+      "question": "A 10दिन, B 30दिन। साथ?",
+      "options": [
+        "40d",
+        "15.0d",
+        "20d",
+        "7.5d"
+      ],
+      "explanation": "1दिन: 1/10+1/30। समय=7.5दिन।"
+    },
+    "id": "groupd-m-0033"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average: 59, 80, 49, 15, 62, 67",
+      "options": [
+        "332",
+        "80",
+        "55.3",
+        "15"
+      ],
+      "explanation": "Sum=332/6=55.3."
+    },
+    "hi": {
+      "question": "औसत: 59, 80, 49, 15, 62, 67",
+      "options": [
+        "332",
+        "80",
+        "55.3",
+        "15"
+      ],
+      "explanation": "योग=332/6=55.3।"
+    },
+    "id": "groupd-m-0034"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Simplify: 31 + 21 × 5",
+      "options": [
+        "260",
+        "3255",
+        "57",
+        "115"
+      ],
+      "explanation": "BODMAS: 21×5=105+31=115."
+    },
+    "hi": {
+      "question": "सरल करें: 31 + 21 × 5",
+      "options": [
+        "260",
+        "3255",
+        "57",
+        "115"
+      ],
+      "explanation": "BODMAS: 21×5+31=115।"
+    },
+    "id": "groupd-m-0035"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A does work in 16d, B in 24d. Together?",
+      "options": [
+        "9.6d",
+        "8d",
+        "19.2d",
+        "40d"
+      ],
+      "explanation": "1d: 1/16+1/24. Time=9.6d."
+    },
+    "hi": {
+      "question": "A 16दिन, B 24दिन। साथ?",
+      "options": [
+        "9.6d",
+        "8d",
+        "19.2d",
+        "40d"
+      ],
+      "explanation": "1दिन: 1/16+1/24। समय=9.6दिन।"
+    },
+    "id": "groupd-m-0036"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Simplify: 14 + 37 × 9",
+      "options": [
+        "60",
+        "347",
+        "4662",
+        "459"
+      ],
+      "explanation": "BODMAS: 37×9=333+14=347."
+    },
+    "hi": {
+      "question": "सरल करें: 14 + 37 × 9",
+      "options": [
+        "60",
+        "347",
+        "4662",
+        "459"
+      ],
+      "explanation": "BODMAS: 37×9+14=347।"
+    },
+    "id": "groupd-m-0037"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "17% of 460?",
+      "options": [
+        "230",
+        "460",
+        "782",
+        "920"
+      ],
+      "explanation": "460×17/100 = 782."
+    },
+    "hi": {
+      "question": "460 का 17%?",
+      "options": [
+        "230",
+        "460",
+        "782",
+        "920"
+      ],
+      "explanation": "460×17/100 = 782।"
+    },
+    "id": "groupd-m-0038"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average: 12, 74, 51, 67, 7, 22",
+      "options": [
+        "233",
+        "74",
+        "38.8",
+        "7"
+      ],
+      "explanation": "Sum=233/6=38.8."
+    },
+    "hi": {
+      "question": "औसत: 12, 74, 51, 67, 7, 22",
+      "options": [
+        "233",
+        "74",
+        "38.8",
+        "7"
+      ],
+      "explanation": "योग=233/6=38.8।"
+    },
+    "id": "groupd-m-0039"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Buy Rs.420, sell at 5% profit. SP?",
+      "options": [
+        "352",
+        "441",
+        "420",
+        "840"
+      ],
+      "explanation": "SP=420×1.05=441.0."
+    },
+    "hi": {
+      "question": "खरीदा 420 रु., 5% लाभ। वि.मू.?",
+      "options": [
+        "352",
+        "441",
+        "420",
+        "840"
+      ],
+      "explanation": "वि.मू.=441.0।"
+    },
+    "id": "groupd-m-0040"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A does work in 42d, B in 6d. Together?",
+      "options": [
+        "48d",
+        "10.4d",
+        "5.2d",
+        "36d"
+      ],
+      "explanation": "1d: 1/42+1/6. Time=5.2d."
+    },
+    "hi": {
+      "question": "A 42दिन, B 6दिन। साथ?",
+      "options": [
+        "48d",
+        "10.4d",
+        "5.2d",
+        "36d"
+      ],
+      "explanation": "1दिन: 1/42+1/6। समय=5.2दिन।"
+    },
+    "id": "groupd-m-0041"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A does work in 19d, B in 37d. Together?",
+      "options": [
+        "25.2d",
+        "56d",
+        "18d",
+        "12.6d"
+      ],
+      "explanation": "1d: 1/19+1/37. Time=12.6d."
+    },
+    "hi": {
+      "question": "A 19दिन, B 37दिन। साथ?",
+      "options": [
+        "25.2d",
+        "56d",
+        "18d",
+        "12.6d"
+      ],
+      "explanation": "1दिन: 1/19+1/37। समय=12.6दिन।"
+    },
+    "id": "groupd-m-0042"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average: 29, 61, 38, 62, 66, 59",
+      "options": [
+        "315",
+        "52.5",
+        "66",
+        "29"
+      ],
+      "explanation": "Sum=315/6=52.5."
+    },
+    "hi": {
+      "question": "औसत: 29, 61, 38, 62, 66, 59",
+      "options": [
+        "315",
+        "52.5",
+        "66",
+        "29"
+      ],
+      "explanation": "योग=315/6=52.5।"
+    },
+    "id": "groupd-m-0043"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 32 and 3?",
+      "options": [
+        "1",
+        "35",
+        "96",
+        "96"
+      ],
+      "explanation": "LCM=32×3/1=96."
+    },
+    "hi": {
+      "question": "32 और 3 का ल.स.?",
+      "options": [
+        "1",
+        "35",
+        "96",
+        "96"
+      ],
+      "explanation": "ल.स.=96।"
+    },
+    "id": "groupd-m-0044"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Car at 36km/hr for 30hrs. Distance?",
+      "options": [
+        "540 km",
+        "66 km",
+        "2160 km",
+        "1080 km"
+      ],
+      "explanation": "Distance=36×30=1080km."
+    },
+    "hi": {
+      "question": "36किमी/घंटा, 30घंटे। दूरी?",
+      "options": [
+        "540 km",
+        "66 km",
+        "2160 km",
+        "1080 km"
+      ],
+      "explanation": "दूरी=1080किमी।"
+    },
+    "id": "groupd-m-0045"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Buy Rs.260, sell at 19% profit. SP?",
+      "options": [
+        "309.4",
+        "247",
+        "520",
+        "260"
+      ],
+      "explanation": "SP=260×1.19=309.4."
+    },
+    "hi": {
+      "question": "खरीदा 260 रु., 19% लाभ। वि.मू.?",
+      "options": [
+        "309.4",
+        "247",
+        "520",
+        "260"
+      ],
+      "explanation": "वि.मू.=309.4।"
+    },
+    "id": "groupd-m-0046"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average: 45, 19, 38, 23, 25, 30",
+      "options": [
+        "30",
+        "19",
+        "180",
+        "45"
+      ],
+      "explanation": "Sum=180/6=30."
+    },
+    "hi": {
+      "question": "औसत: 45, 19, 38, 23, 25, 30",
+      "options": [
+        "30",
+        "19",
+        "180",
+        "45"
+      ],
+      "explanation": "योग=180/6=30।"
+    },
+    "id": "groupd-m-0047"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A does work in 30d, B in 38d. Together?",
+      "options": [
+        "16.8d",
+        "8d",
+        "68d",
+        "33.6d"
+      ],
+      "explanation": "1d: 1/30+1/38. Time=16.8d."
+    },
+    "hi": {
+      "question": "A 30दिन, B 38दिन। साथ?",
+      "options": [
+        "16.8d",
+        "8d",
+        "68d",
+        "33.6d"
+      ],
+      "explanation": "1दिन: 1/30+1/38। समय=16.8दिन।"
+    },
+    "id": "groupd-m-0048"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average: 5, 16, 6, 42, 46, 49",
+      "options": [
+        "164",
+        "49",
+        "5",
+        "27.3"
+      ],
+      "explanation": "Sum=164/6=27.3."
+    },
+    "hi": {
+      "question": "औसत: 5, 16, 6, 42, 46, 49",
+      "options": [
+        "164",
+        "49",
+        "5",
+        "27.3"
+      ],
+      "explanation": "योग=164/6=27.3।"
+    },
+    "id": "groupd-m-0049"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Car at 38km/hr for 40hrs. Distance?",
+      "options": [
+        "760 km",
+        "1520 km",
+        "78 km",
+        "3040 km"
+      ],
+      "explanation": "Distance=38×40=1520km."
+    },
+    "hi": {
+      "question": "38किमी/घंटा, 40घंटे। दूरी?",
+      "options": [
+        "760 km",
+        "1520 km",
+        "78 km",
+        "3040 km"
+      ],
+      "explanation": "दूरी=1520किमी।"
+    },
+    "id": "groupd-m-0050"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Buy Rs.90, sell at 14% profit. SP?",
+      "options": [
+        "90",
+        "102.6",
+        "180",
+        "82"
+      ],
+      "explanation": "SP=90×1.1400000000000001=102.6."
+    },
+    "hi": {
+      "question": "खरीदा 90 रु., 14% लाभ। वि.मू.?",
+      "options": [
+        "90",
+        "102.6",
+        "180",
+        "82"
+      ],
+      "explanation": "वि.मू.=102.6।"
+    },
+    "id": "groupd-m-0051"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Car at 41km/hr for 29hrs. Distance?",
+      "options": [
+        "2378 km",
+        "1189 km",
+        "594 km",
+        "70 km"
+      ],
+      "explanation": "Distance=41×29=1189km."
+    },
+    "hi": {
+      "question": "41किमी/घंटा, 29घंटे। दूरी?",
+      "options": [
+        "2378 km",
+        "1189 km",
+        "594 km",
+        "70 km"
+      ],
+      "explanation": "दूरी=1189किमी।"
+    },
+    "id": "groupd-m-0052"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Simplify: 5 + 15 × 8",
+      "options": [
+        "125",
+        "160",
+        "600",
+        "28"
+      ],
+      "explanation": "BODMAS: 15×8=120+5=125."
+    },
+    "hi": {
+      "question": "सरल करें: 5 + 15 × 8",
+      "options": [
+        "125",
+        "160",
+        "600",
+        "28"
+      ],
+      "explanation": "BODMAS: 15×8+5=125।"
+    },
+    "id": "groupd-m-0053"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI on Rs.42000 at 17% for 40 yrs?",
+      "options": [
+        "Rs.285600",
+        "Rs.142800",
+        "Rs.42000",
+        "Rs.571200"
+      ],
+      "explanation": "SI=42000×17×40/100=285600.0."
+    },
+    "hi": {
+      "question": "42000 रु. पर 17% से 40 वर्ष सा.ब्याज?",
+      "options": [
+        "Rs.285600",
+        "Rs.142800",
+        "Rs.42000",
+        "Rs.571200"
+      ],
+      "explanation": "सा.ब्याज=42000×17×40/100=285600.0।"
+    },
+    "id": "groupd-m-0054"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Car at 21km/hr for 34hrs. Distance?",
+      "options": [
+        "714 km",
+        "55 km",
+        "1428 km",
+        "357 km"
+      ],
+      "explanation": "Distance=21×34=714km."
+    },
+    "hi": {
+      "question": "21किमी/घंटा, 34घंटे। दूरी?",
+      "options": [
+        "714 km",
+        "55 km",
+        "1428 km",
+        "357 km"
+      ],
+      "explanation": "दूरी=714किमी।"
+    },
+    "id": "groupd-m-0055"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI on Rs.19000 at 14% for 6 yrs?",
+      "options": [
+        "Rs.19000",
+        "Rs.15960",
+        "Rs.7980",
+        "Rs.31920"
+      ],
+      "explanation": "SI=19000×14×6/100=15960.0."
+    },
+    "hi": {
+      "question": "19000 रु. पर 14% से 6 वर्ष सा.ब्याज?",
+      "options": [
+        "Rs.19000",
+        "Rs.15960",
+        "Rs.7980",
+        "Rs.31920"
+      ],
+      "explanation": "सा.ब्याज=19000×14×6/100=15960.0।"
+    },
+    "id": "groupd-m-0056"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Car at 18km/hr for 4hrs. Distance?",
+      "options": [
+        "22 km",
+        "36 km",
+        "72 km",
+        "144 km"
+      ],
+      "explanation": "Distance=18×4=72km."
+    },
+    "hi": {
+      "question": "18किमी/घंटा, 4घंटे। दूरी?",
+      "options": [
+        "22 km",
+        "36 km",
+        "72 km",
+        "144 km"
+      ],
+      "explanation": "दूरी=72किमी।"
+    },
+    "id": "groupd-m-0057"
+  }
+]

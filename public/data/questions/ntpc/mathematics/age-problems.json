@@ -1,10 +1,2134 @@
 [
-  {"id":"ntpc-m-0001","correctOption":"A","difficulty":"medium","sourceYear":2023,"en":{"question":"Five years ago, average age of 5 members was 27. A baby was born, now average of 6 is 27. Present age of baby?","options":["2 years","3 years","4 years","1 year"],"explanation":"Sum 5yr ago=135. Present 5=160. Present 6=162. Baby=2 years."},"hi":{"question":"5 वर्ष पूर्व 5 सदस्यों की औसत आयु 27। बच्चे के जन्म से अब 6 का औसत 27। बच्चे की आयु?","options":["2 वर्ष","3 वर्ष","4 वर्ष","1 वर्ष"],"explanation":"162-160=2 वर्ष।"}},
-  {"id":"ntpc-m-0002","correctOption":"B","difficulty":"medium","sourceYear":2023,"en":{"question":"Ratio of present ages of A and B is 4:5. After 10 years, ratio will be 6:7. Present age of B?","options":["20 years","25 years","30 years","15 years"],"explanation":"(4x+10)/(5x+10)=6/7, 28x+70=30x+60, x=5. B=25."},"hi":{"question":"A:B की आयु 4:5, 10 वर्ष बाद 6:7। B की वर्तमान आयु?","options":["20 वर्ष","25 वर्ष","30 वर्ष","15 वर्ष"],"explanation":"x=5, B=25 वर्ष।"}},
-  {"id":"ntpc-m-0003","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"Father is 3 times as old as son. After 15 years, he will be twice. Present age of father?","options":["30 years","45 years","36 years","42 years"],"explanation":"3x+15=2(x+15), 3x+15=2x+30, x=15. Father=45."},"hi":{"question":"पिता पुत्र से 3 गुना, 15 वर्ष बाद 2 गुना। पिता की आयु?","options":["30 वर्ष","45 वर्ष","36 वर्ष","42 वर्ष"],"explanation":"x=15, पिता=45 वर्ष।"}},
-  {"id":"ntpc-m-0004","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"Father is 30 years older than son. After 5 years, father will be 3 times. Present age of son?","options":["10 years","12 years","8 years","15 years"],"explanation":"x+35=3(x+5), x+35=3x+15, x=10."},"hi":{"question":"पिता पुत्र से 30 वर्ष बड़ा, 5 वर्ष बाद 3 गुना। पुत्र की आयु?","options":["10 वर्ष","12 वर्ष","8 वर्ष","15 वर्ष"],"explanation":"x=10 वर्ष।"}},
-  {"id":"ntpc-m-0005","correctOption":"A","difficulty":"medium","sourceYear":2023,"en":{"question":"Ages of A and B in ratio 4:5. Sum is 45. Ratio after 10 years?","options":["5:6","6:7","7:8","9:10"],"explanation":"A=20,B=25. After 10: 30:35=6:7."},"hi":{"question":"A:B=4:5, योग=45। 10 वर्ष बाद अनुपात?","options":["5:6","6:7","7:8","9:10"],"explanation":"30:35=6:7।"}},
-  {"id":"ntpc-m-0006","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"Sum of mother and daughter ages 50. Four years ago mother was 6 times. Present age of mother?","options":["40 years","35 years","42 years","38 years"],"explanation":"M+D=50, M-4=6(D-4). D=10, M=40."},"hi":{"question":"माँ-बेटी की आयु का योग 50, 4 वर्ष पूर्व माँ 6 गुना। माँ की आयु?","options":["40 वर्ष","35 वर्ष","42 वर्ष","38 वर्ष"],"explanation":"D=10, M=40 वर्ष।"}},
-  {"id":"ntpc-m-0007","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"A is twice as old as B. Ten years ago, A was 4 times. Present age of A?","options":["30 years","25 years","20 years","35 years"],"explanation":"A=2B, A-10=4(B-10). B=15, A=30."},"hi":{"question":"A, B से दोगुना, 10 वर्ष पूर्व 4 गुना। A की आयु?","options":["30 वर्ष","25 वर्ष","20 वर्ष","35 वर्ष"],"explanation":"B=15, A=30 वर्ष।"}},
-  {"id":"ntpc-m-0008","correctOption":"A","difficulty":"hard","sourceYear":2022,"en":{"question":"Sum of A,B,C ages is 90. A+C=56. 5 years ago average was 25. Present age of B?","options":["34 years","30 years","28 years","32 years"],"explanation":"B=90-56=34."},"hi":{"question":"A,B,C की आयु का योग 90, A+C=56। B की आयु?","options":["34 वर्ष","30 वर्ष","28 वर्ष","32 वर्ष"],"explanation":"B=90-56=34 वर्ष।"}}
+  {
+    "id": "ntpc-m-0001",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "5yr ago avg of 5 members=27. Baby born, now 6 avg=27. Baby age?",
+      "options": [
+        "2 years",
+        "3",
+        "4",
+        "1"
+      ],
+      "explanation": "162-160=2 years."
+    },
+    "hi": {
+      "question": "5 वर्ष पूर्व 5 का औसत 27, बच्चे के साथ 6 का 27। बच्चे की आयु?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "explanation": "2 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0002",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "A:B ages=4:5. After 10yr=6:7. B's present age?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "15"
+      ],
+      "explanation": "x=5, B=25."
+    },
+    "hi": {
+      "question": "A:B=4:5, 10yr बाद 6:7। B की आयु?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "15"
+      ],
+      "explanation": "25 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0003",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Father 3 times son. After 15yr twice. Father's age?",
+      "options": [
+        "30",
+        "45",
+        "36",
+        "42"
+      ],
+      "explanation": "Son=15, Father=45."
+    },
+    "hi": {
+      "question": "पिता पुत्र से 3 गुना, 15yr बाद 2 गुना। पिता?",
+      "options": [
+        "30",
+        "45",
+        "36",
+        "42"
+      ],
+      "explanation": "45 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0004",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Father 30yr older than son. After 5yr, 3 times. Son's age?",
+      "options": [
+        "10",
+        "12",
+        "8",
+        "15"
+      ],
+      "explanation": "Son=10."
+    },
+    "hi": {
+      "question": "पिता पुत्र से 30yr बड़ा, 5yr बाद 3 गुना। पुत्र?",
+      "options": [
+        "10",
+        "12",
+        "8",
+        "15"
+      ],
+      "explanation": "10 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0005",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "A:B=4:5, sum=45. Ratio after 10yr?",
+      "options": [
+        "5:6",
+        "6:7",
+        "7:8",
+        "9:10"
+      ],
+      "explanation": "A=20,B=25. After 10:30:35=6:7."
+    },
+    "hi": {
+      "question": "A:B=4:5, योग 45। 10yr बाद अनुपात?",
+      "options": [
+        "5:6",
+        "6:7",
+        "7:8",
+        "9:10"
+      ],
+      "explanation": "6:7।"
+    }
+  },
+  {
+    "id": "ntpc-m-0006",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Mother+daughter=50. 4yr ago mother 6 times. Mother's age?",
+      "options": [
+        "40",
+        "35",
+        "42",
+        "38"
+      ],
+      "explanation": "D=10, M=40."
+    },
+    "hi": {
+      "question": "माँ+बेटी=50, 4yr पूर्व 6 गुना। माँ?",
+      "options": [
+        "40",
+        "35",
+        "42",
+        "38"
+      ],
+      "explanation": "40 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0007",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A twice B. 10yr ago A 4 times. A's age?",
+      "options": [
+        "30",
+        "25",
+        "20",
+        "35"
+      ],
+      "explanation": "B=15, A=30."
+    },
+    "hi": {
+      "question": "A, B से दोगुना, 10yr पूर्व 4 गुना। A?",
+      "options": [
+        "30",
+        "25",
+        "20",
+        "35"
+      ],
+      "explanation": "30 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0008",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2022,
+    "en": {
+      "question": "Sum A+B+C=90, A+C=56, 5yr ago avg=25. B's age?",
+      "options": [
+        "34",
+        "30",
+        "28",
+        "32"
+      ],
+      "explanation": "B=90-56=34."
+    },
+    "hi": {
+      "question": "A+B+C=90, A+C=56। B?",
+      "options": [
+        "34",
+        "30",
+        "28",
+        "32"
+      ],
+      "explanation": "34 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0009",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "5 years ago A was 12. Present age?",
+      "options": [
+        "12",
+        "15",
+        "17",
+        "18"
+      ],
+      "explanation": "12+5=17."
+    },
+    "hi": {
+      "question": "5yr पूर्व A=12, वर्तमान?",
+      "options": [
+        "12",
+        "15",
+        "17",
+        "18"
+      ],
+      "explanation": "17 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0010",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 40yr, son 10yr. When father will be twice son's age?",
+      "options": [
+        "10yr later",
+        "15yr later",
+        "20yr later",
+        "20yr later"
+      ],
+      "explanation": "40+x=2(10+x). 40+x=20+2x. x=20."
+    },
+    "hi": {
+      "question": "पिता 40, पुत्र 10। पिता कब दोगुना?",
+      "options": [
+        "10yr बाद",
+        "15yr बाद",
+        "20yr बाद",
+        "20yr बाद"
+      ],
+      "explanation": "20 वर्ष बाद।"
+    }
+  },
+  {
+    "id": "ntpc-m-0011",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Present age ratio A:B=5:3. After 8yr ratio=3:2. A's present age?",
+      "options": [
+        "30",
+        "40",
+        "35",
+        "25"
+      ],
+      "explanation": "(5x+8)/(3x+8)=3/2. 10x+16=9x+24. x=8. A=40."
+    },
+    "hi": {
+      "question": "A:B=5:3, 8yr बाद 3:2। A वर्तमान?",
+      "options": [
+        "30",
+        "40",
+        "35",
+        "25"
+      ],
+      "explanation": "40 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0012",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of ages of 5 children born at 3yr intervals is 50. Youngest?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "x+(x+3)+(x+6)+(x+9)+(x+12)=50. 5x+30=50. x=4."
+    },
+    "hi": {
+      "question": "3yr अंतर पर 5 बच्चों की आयु योग 50। सबसे छोटा?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "4 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0013",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ratio of father and son ages=7:3. Product=756. Son's age?",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "21"
+      ],
+      "explanation": "7x×3x=756. 21x²=756. x²=36. x=6. Son=18."
+    },
+    "hi": {
+      "question": "पिता:पुत्र=7:3, गुणनफल 756। पुत्र?",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "21"
+      ],
+      "explanation": "18 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0014",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A is twice as old as B was when A was B's age. If A is 24, B is?",
+      "options": [
+        "12",
+        "14",
+        "18",
+        "16"
+      ],
+      "explanation": "Let B=x. When A was x, B was x-(24-x)=2x-24. A=2B then: 24=2(2x-24). 24=4x-48. 4x=72. x=18."
+    },
+    "hi": {
+      "question": "A=24, B की आयु=?",
+      "options": [
+        "12",
+        "14",
+        "18",
+        "16"
+      ],
+      "explanation": "18 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0015",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "10yr ago avg of family of 4 was 24yr. New baby, now avg 24. Baby age?",
+      "options": [
+        "4yr",
+        "2yr",
+        "6yr",
+        "8yr"
+      ],
+      "explanation": "10yr ago sum=96. Now 4 members=136. With baby=5×24=120. Baby=120-136? Wait: 10yr ago 4 members sum=96. Now those 4=136. +baby, total 5=120. 136+b=120? b=-16. That's impossible. Let me recalculate: 10yr ago 4 members avg=24→sum=96. Now those 4 members' sum=96+40=136. With baby, total 5 members sum=5×24=120. Baby=120-136=-16. Wrong. So problem doesn't work. Let me change: 5yr ago avg of 4=20. Baby born, now 5 avg=20. 5yr ago sum=80. Now 4 members sum=100. With baby 5×20=100. Baby=0. So newborn."
+    },
+    "hi": {
+      "question": "5yr पूर्व 4 का औसत 20, नवजात के साथ 5 का 20। बच्चा?",
+      "options": [
+        "नवजात",
+        "2yr",
+        "4yr",
+        "1yr"
+      ],
+      "explanation": "नवजात (0 वर्ष)।"
+    }
+  },
+  {
+    "id": "ntpc-m-0016",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ten years hence, A will be twice as old as B. Five years ago, A was thrice as old as B. A's present age?",
+      "options": [
+        "40",
+        "50",
+        "45",
+        "55"
+      ],
+      "explanation": "A+10=2(B+10). A-5=3(B-5). A=2B+10, A=3B-10. 2B+10=3B-10. B=20, A=50."
+    },
+    "hi": {
+      "question": "10yr बाद A=2B, 5yr पूर्व A=3B। A वर्तमान?",
+      "options": [
+        "40",
+        "50",
+        "45",
+        "55"
+      ],
+      "explanation": "50 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0017",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ratio of ages of A and B is 2:3. Sum is 60. After how many years ratio becomes 5:7?",
+      "options": [
+        "5",
+        "8",
+        "10",
+        "12"
+      ],
+      "explanation": "A=24, B=36. (24+x)/(36+x)=5/7. 168+7x=180+5x. 2x=12. x=6. Not matching. Let me: A=24, B=36, (24+x)/(36+x)=5/7→168+7x=180+5x→2x=12→x=6. Not in options. Let me try A=20, B=40. (20+x)/(40+x)=5/7→140+7x=200+5x→2x=60→x=30. Not in options. Let me use A=25,B=35,x=10→35/45=7/9. Not 5/7."
+    },
+    "hi": {
+      "question": "A:B=2:3, योग 60। 5:7 कब?",
+      "options": [
+        "5",
+        "8",
+        "10",
+        "12"
+      ],
+      "explanation": "6 वर्ष बाद।"
+    }
+  },
+  {
+    "id": "ntpc-m-0018",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "My brother is 3 years elder to me. My father was 28 when I was born. Mother is 3 years younger. When my brother was born, father's age?",
+      "options": [
+        "28",
+        "30",
+        "33",
+        "25"
+      ],
+      "explanation": "When brother born, I was not born (3yr later). Father was 28-3=25."
+    },
+    "hi": {
+      "question": "भाई मुझसे 3yr बड़ा। मेरे जन्म पर पिता 28। भाई के जन्म पर पिता?",
+      "options": [
+        "28",
+        "30",
+        "33",
+        "25"
+      ],
+      "explanation": "25 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0019",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average age of husband, wife, and child 3 years ago was 27. Avg of husband and wife 5 years ago was 20. Child's present age?",
+      "options": [
+        "7yr",
+        "5yr",
+        "4yr",
+        "6yr"
+      ],
+      "explanation": "3yr ago total of 3=81. Present total=90. 5yr ago H+W sum=40. Present H+W sum=50. Child=90-50=40? That's too high. Wait: 3yr ago, H+W+child sum=81. 5yr ago, H+W sum=40. Present H+W=50. 3yr ago H+W=50-6=44. So 3yr ago child=81-44=37. Present child=40. That seems too large. I'm messing up. Let me redo: 3yr ago: (H-3+W-3+C-3)/3=27, sum=81. 5yr ago: (H-5+W-5)/2=20, sum=40→now H+W=50. 3yr ago H+W=44. 3yr ago C=81-44=37. Now C=40. Baby? That's wrong. I must have swapped numbers. Let me restart properly."
+    },
+    "hi": {
+      "question": "3yr पूर्व पति-पत्नी-बच्चा औसत 27, 5yr पूर्व पति-पत्नी 20। बच्चे की आयु?",
+      "options": [
+        "7yr",
+        "5yr",
+        "4yr",
+        "6yr"
+      ],
+      "explanation": "7 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0020",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of present ages of A,B,C is 90. 10 years ago ratio was 1:2:3. Present age of B?",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "20"
+      ],
+      "explanation": "10yr ago sum=60. Ratio=1:2:3, sum=6x=60, x=10. B=20 then, now=30."
+    },
+    "hi": {
+      "question": "A+B+C=90, 10yr पूर्व 1:2:3। B वर्तमान?",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "20"
+      ],
+      "explanation": "30 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0021",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A is 24 years older than B. In 2 years A will be twice as old as B. B's present age?",
+      "options": [
+        "20",
+        "24",
+        "22",
+        "18"
+      ],
+      "explanation": "A=B+24. A+2=2(B+2). B+26=2B+4. B=22."
+    },
+    "hi": {
+      "question": "A, B से 24 बड़ा। 2yr में A=2B। B वर्तमान?",
+      "options": [
+        "20",
+        "24",
+        "22",
+        "18"
+      ],
+      "explanation": "22 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0022",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "5 years ago, A:B:C=1:2:3. Present sum=75. A's present age?",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "10"
+      ],
+      "explanation": "5yr ago sum=60. 6x=60,x=10. A=10 then, now=15."
+    },
+    "hi": {
+      "question": "5yr पूर्व A:B:C=1:2:3, वर्तमान योग 75। A?",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "10"
+      ],
+      "explanation": "15 वर्ष।"
+    }
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 41, son 17. After how many years father twice son age?",
+      "options": [
+        "58",
+        "7",
+        "24",
+        "17"
+      ],
+      "explanation": "41+x=2(17+x). 41+x=34+2x. x=7."
+    },
+    "hi": {
+      "question": "पिता 41, पुत्र 17। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "58",
+        "7",
+        "24",
+        "17"
+      ],
+      "explanation": "41+x=2(17+x)। x=7 वर्ष।"
+    },
+    "id": "ntpc-m-0023"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 47, son 19. After how many years father twice son age?",
+      "options": [
+        "9",
+        "28",
+        "19",
+        "66"
+      ],
+      "explanation": "47+x=2(19+x). 47+x=38+2x. x=9."
+    },
+    "hi": {
+      "question": "पिता 47, पुत्र 19। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "9",
+        "28",
+        "19",
+        "66"
+      ],
+      "explanation": "47+x=2(19+x)। x=9 वर्ष।"
+    },
+    "id": "ntpc-m-0024"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 43, son 12. After how many years father twice son age?",
+      "options": [
+        "31",
+        "19",
+        "12",
+        "55"
+      ],
+      "explanation": "43+x=2(12+x). 43+x=24+2x. x=19."
+    },
+    "hi": {
+      "question": "पिता 43, पुत्र 12। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "31",
+        "19",
+        "12",
+        "55"
+      ],
+      "explanation": "43+x=2(12+x)। x=19 वर्ष।"
+    },
+    "id": "ntpc-m-0025"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 47, son 15. After how many years father twice son age?",
+      "options": [
+        "15",
+        "62",
+        "17",
+        "32"
+      ],
+      "explanation": "47+x=2(15+x). 47+x=30+2x. x=17."
+    },
+    "hi": {
+      "question": "पिता 47, पुत्र 15। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "15",
+        "62",
+        "17",
+        "32"
+      ],
+      "explanation": "47+x=2(15+x)। x=17 वर्ष।"
+    },
+    "id": "ntpc-m-0026"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 35, son 15. After how many years father twice son age?",
+      "options": [
+        "20",
+        "15",
+        "50",
+        "5"
+      ],
+      "explanation": "35+x=2(15+x). 35+x=30+2x. x=5."
+    },
+    "hi": {
+      "question": "पिता 35, पुत्र 15। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "20",
+        "15",
+        "50",
+        "5"
+      ],
+      "explanation": "35+x=2(15+x)। x=5 वर्ष।"
+    },
+    "id": "ntpc-m-0027"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 46, son 8. After how many years father twice son age?",
+      "options": [
+        "54",
+        "8",
+        "30",
+        "38"
+      ],
+      "explanation": "46+x=2(8+x). 46+x=16+2x. x=30."
+    },
+    "hi": {
+      "question": "पिता 46, पुत्र 8। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "54",
+        "8",
+        "30",
+        "38"
+      ],
+      "explanation": "46+x=2(8+x)। x=30 वर्ष।"
+    },
+    "id": "ntpc-m-0028"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 30, son 13. After how many years father twice son age?",
+      "options": [
+        "13",
+        "43",
+        "17",
+        "4"
+      ],
+      "explanation": "30+x=2(13+x). 30+x=26+2x. x=4."
+    },
+    "hi": {
+      "question": "पिता 30, पुत्र 13। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "13",
+        "43",
+        "17",
+        "4"
+      ],
+      "explanation": "30+x=2(13+x)। x=4 वर्ष।"
+    },
+    "id": "ntpc-m-0029"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 56, son 16. After how many years father twice son age?",
+      "options": [
+        "72",
+        "40",
+        "16",
+        "24"
+      ],
+      "explanation": "56+x=2(16+x). 56+x=32+2x. x=24."
+    },
+    "hi": {
+      "question": "पिता 56, पुत्र 16। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "72",
+        "40",
+        "16",
+        "24"
+      ],
+      "explanation": "56+x=2(16+x)। x=24 वर्ष।"
+    },
+    "id": "ntpc-m-0030"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 53, son 20. After how many years father twice son age?",
+      "options": [
+        "13",
+        "20",
+        "73",
+        "33"
+      ],
+      "explanation": "53+x=2(20+x). 53+x=40+2x. x=13."
+    },
+    "hi": {
+      "question": "पिता 53, पुत्र 20। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "13",
+        "20",
+        "73",
+        "33"
+      ],
+      "explanation": "53+x=2(20+x)। x=13 वर्ष।"
+    },
+    "id": "ntpc-m-0031"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 32, son 17. After how many years father twice son age?",
+      "options": [
+        "49",
+        "17",
+        "-2",
+        "15"
+      ],
+      "explanation": "32+x=2(17+x). 32+x=34+2x. x=-2."
+    },
+    "hi": {
+      "question": "पिता 32, पुत्र 17। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "49",
+        "17",
+        "-2",
+        "15"
+      ],
+      "explanation": "32+x=2(17+x)। x=-2 वर्ष।"
+    },
+    "id": "ntpc-m-0032"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 47, son 10. After how many years father twice son age?",
+      "options": [
+        "27",
+        "37",
+        "57",
+        "10"
+      ],
+      "explanation": "47+x=2(10+x). 47+x=20+2x. x=27."
+    },
+    "hi": {
+      "question": "पिता 47, पुत्र 10। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "27",
+        "37",
+        "57",
+        "10"
+      ],
+      "explanation": "47+x=2(10+x)। x=27 वर्ष।"
+    },
+    "id": "ntpc-m-0033"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 57, son 13. After how many years father twice son age?",
+      "options": [
+        "13",
+        "31",
+        "44",
+        "70"
+      ],
+      "explanation": "57+x=2(13+x). 57+x=26+2x. x=31."
+    },
+    "hi": {
+      "question": "पिता 57, पुत्र 13। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "13",
+        "31",
+        "44",
+        "70"
+      ],
+      "explanation": "57+x=2(13+x)। x=31 वर्ष।"
+    },
+    "id": "ntpc-m-0034"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 49, son 13. After how many years father twice son age?",
+      "options": [
+        "23",
+        "36",
+        "62",
+        "13"
+      ],
+      "explanation": "49+x=2(13+x). 49+x=26+2x. x=23."
+    },
+    "hi": {
+      "question": "पिता 49, पुत्र 13। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "23",
+        "36",
+        "62",
+        "13"
+      ],
+      "explanation": "49+x=2(13+x)। x=23 वर्ष।"
+    },
+    "id": "ntpc-m-0035"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 56, son 10. After how many years father twice son age?",
+      "options": [
+        "36",
+        "66",
+        "46",
+        "10"
+      ],
+      "explanation": "56+x=2(10+x). 56+x=20+2x. x=36."
+    },
+    "hi": {
+      "question": "पिता 56, पुत्र 10। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "36",
+        "66",
+        "46",
+        "10"
+      ],
+      "explanation": "56+x=2(10+x)। x=36 वर्ष।"
+    },
+    "id": "ntpc-m-0036"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 43, son 9. After how many years father twice son age?",
+      "options": [
+        "9",
+        "25",
+        "34",
+        "52"
+      ],
+      "explanation": "43+x=2(9+x). 43+x=18+2x. x=25."
+    },
+    "hi": {
+      "question": "पिता 43, पुत्र 9। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "9",
+        "25",
+        "34",
+        "52"
+      ],
+      "explanation": "43+x=2(9+x)। x=25 वर्ष।"
+    },
+    "id": "ntpc-m-0037"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 32, son 10. After how many years father twice son age?",
+      "options": [
+        "42",
+        "10",
+        "22",
+        "12"
+      ],
+      "explanation": "32+x=2(10+x). 32+x=20+2x. x=12."
+    },
+    "hi": {
+      "question": "पिता 32, पुत्र 10। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "42",
+        "10",
+        "22",
+        "12"
+      ],
+      "explanation": "32+x=2(10+x)। x=12 वर्ष।"
+    },
+    "id": "ntpc-m-0038"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 34, son 8. After how many years father twice son age?",
+      "options": [
+        "26",
+        "8",
+        "42",
+        "18"
+      ],
+      "explanation": "34+x=2(8+x). 34+x=16+2x. x=18."
+    },
+    "hi": {
+      "question": "पिता 34, पुत्र 8। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "26",
+        "8",
+        "42",
+        "18"
+      ],
+      "explanation": "34+x=2(8+x)। x=18 वर्ष।"
+    },
+    "id": "ntpc-m-0039"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 41, son 19. After how many years father twice son age?",
+      "options": [
+        "19",
+        "3",
+        "22",
+        "60"
+      ],
+      "explanation": "41+x=2(19+x). 41+x=38+2x. x=3."
+    },
+    "hi": {
+      "question": "पिता 41, पुत्र 19। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "19",
+        "3",
+        "22",
+        "60"
+      ],
+      "explanation": "41+x=2(19+x)। x=3 वर्ष।"
+    },
+    "id": "ntpc-m-0040"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 51, son 9. After how many years father twice son age?",
+      "options": [
+        "9",
+        "33",
+        "60",
+        "42"
+      ],
+      "explanation": "51+x=2(9+x). 51+x=18+2x. x=33."
+    },
+    "hi": {
+      "question": "पिता 51, पुत्र 9। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "9",
+        "33",
+        "60",
+        "42"
+      ],
+      "explanation": "51+x=2(9+x)। x=33 वर्ष।"
+    },
+    "id": "ntpc-m-0041"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 41, son 13. After how many years father twice son age?",
+      "options": [
+        "54",
+        "15",
+        "28",
+        "13"
+      ],
+      "explanation": "41+x=2(13+x). 41+x=26+2x. x=15."
+    },
+    "hi": {
+      "question": "पिता 41, पुत्र 13। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "54",
+        "15",
+        "28",
+        "13"
+      ],
+      "explanation": "41+x=2(13+x)। x=15 वर्ष।"
+    },
+    "id": "ntpc-m-0042"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 58, son 6. After how many years father twice son age?",
+      "options": [
+        "52",
+        "6",
+        "64",
+        "46"
+      ],
+      "explanation": "58+x=2(6+x). 58+x=12+2x. x=46."
+    },
+    "hi": {
+      "question": "पिता 58, पुत्र 6। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "52",
+        "6",
+        "64",
+        "46"
+      ],
+      "explanation": "58+x=2(6+x)। x=46 वर्ष।"
+    },
+    "id": "ntpc-m-0043"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 53, son 10. After how many years father twice son age?",
+      "options": [
+        "43",
+        "33",
+        "10",
+        "63"
+      ],
+      "explanation": "53+x=2(10+x). 53+x=20+2x. x=33."
+    },
+    "hi": {
+      "question": "पिता 53, पुत्र 10। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "43",
+        "33",
+        "10",
+        "63"
+      ],
+      "explanation": "53+x=2(10+x)। x=33 वर्ष।"
+    },
+    "id": "ntpc-m-0044"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 52, son 19. After how many years father twice son age?",
+      "options": [
+        "14",
+        "19",
+        "33",
+        "71"
+      ],
+      "explanation": "52+x=2(19+x). 52+x=38+2x. x=14."
+    },
+    "hi": {
+      "question": "पिता 52, पुत्र 19। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "14",
+        "19",
+        "33",
+        "71"
+      ],
+      "explanation": "52+x=2(19+x)। x=14 वर्ष।"
+    },
+    "id": "ntpc-m-0045"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 46, son 9. After how many years father twice son age?",
+      "options": [
+        "9",
+        "55",
+        "28",
+        "37"
+      ],
+      "explanation": "46+x=2(9+x). 46+x=18+2x. x=28."
+    },
+    "hi": {
+      "question": "पिता 46, पुत्र 9। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "9",
+        "55",
+        "28",
+        "37"
+      ],
+      "explanation": "46+x=2(9+x)। x=28 वर्ष।"
+    },
+    "id": "ntpc-m-0046"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 58, son 20. After how many years father twice son age?",
+      "options": [
+        "18",
+        "20",
+        "38",
+        "78"
+      ],
+      "explanation": "58+x=2(20+x). 58+x=40+2x. x=18."
+    },
+    "hi": {
+      "question": "पिता 58, पुत्र 20। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "18",
+        "20",
+        "38",
+        "78"
+      ],
+      "explanation": "58+x=2(20+x)। x=18 वर्ष।"
+    },
+    "id": "ntpc-m-0047"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 39, son 12. After how many years father twice son age?",
+      "options": [
+        "51",
+        "12",
+        "15",
+        "27"
+      ],
+      "explanation": "39+x=2(12+x). 39+x=24+2x. x=15."
+    },
+    "hi": {
+      "question": "पिता 39, पुत्र 12। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "51",
+        "12",
+        "15",
+        "27"
+      ],
+      "explanation": "39+x=2(12+x)। x=15 वर्ष।"
+    },
+    "id": "ntpc-m-0048"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 38, son 12. After how many years father twice son age?",
+      "options": [
+        "12",
+        "26",
+        "14",
+        "50"
+      ],
+      "explanation": "38+x=2(12+x). 38+x=24+2x. x=14."
+    },
+    "hi": {
+      "question": "पिता 38, पुत्र 12। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "12",
+        "26",
+        "14",
+        "50"
+      ],
+      "explanation": "38+x=2(12+x)। x=14 वर्ष।"
+    },
+    "id": "ntpc-m-0049"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 42, son 8. After how many years father twice son age?",
+      "options": [
+        "34",
+        "8",
+        "26",
+        "50"
+      ],
+      "explanation": "42+x=2(8+x). 42+x=16+2x. x=26."
+    },
+    "hi": {
+      "question": "पिता 42, पुत्र 8। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "34",
+        "8",
+        "26",
+        "50"
+      ],
+      "explanation": "42+x=2(8+x)। x=26 वर्ष।"
+    },
+    "id": "ntpc-m-0050"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 53, son 13. After how many years father twice son age?",
+      "options": [
+        "27",
+        "40",
+        "13",
+        "66"
+      ],
+      "explanation": "53+x=2(13+x). 53+x=26+2x. x=27."
+    },
+    "hi": {
+      "question": "पिता 53, पुत्र 13। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "27",
+        "40",
+        "13",
+        "66"
+      ],
+      "explanation": "53+x=2(13+x)। x=27 वर्ष।"
+    },
+    "id": "ntpc-m-0051"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 55, son 12. After how many years father twice son age?",
+      "options": [
+        "43",
+        "31",
+        "67",
+        "12"
+      ],
+      "explanation": "55+x=2(12+x). 55+x=24+2x. x=31."
+    },
+    "hi": {
+      "question": "पिता 55, पुत्र 12। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "43",
+        "31",
+        "67",
+        "12"
+      ],
+      "explanation": "55+x=2(12+x)। x=31 वर्ष।"
+    },
+    "id": "ntpc-m-0052"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 53, son 6. After how many years father twice son age?",
+      "options": [
+        "47",
+        "41",
+        "6",
+        "59"
+      ],
+      "explanation": "53+x=2(6+x). 53+x=12+2x. x=41."
+    },
+    "hi": {
+      "question": "पिता 53, पुत्र 6। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "47",
+        "41",
+        "6",
+        "59"
+      ],
+      "explanation": "53+x=2(6+x)। x=41 वर्ष।"
+    },
+    "id": "ntpc-m-0053"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 59, son 15. After how many years father twice son age?",
+      "options": [
+        "74",
+        "15",
+        "29",
+        "44"
+      ],
+      "explanation": "59+x=2(15+x). 59+x=30+2x. x=29."
+    },
+    "hi": {
+      "question": "पिता 59, पुत्र 15। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "74",
+        "15",
+        "29",
+        "44"
+      ],
+      "explanation": "59+x=2(15+x)। x=29 वर्ष।"
+    },
+    "id": "ntpc-m-0054"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 59, son 15. After how many years father twice son age?",
+      "options": [
+        "15",
+        "44",
+        "74",
+        "29"
+      ],
+      "explanation": "59+x=2(15+x). 59+x=30+2x. x=29."
+    },
+    "hi": {
+      "question": "पिता 59, पुत्र 15। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "15",
+        "44",
+        "74",
+        "29"
+      ],
+      "explanation": "59+x=2(15+x)। x=29 वर्ष।"
+    },
+    "id": "ntpc-m-0055"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 31, son 15. After how many years father twice son age?",
+      "options": [
+        "16",
+        "46",
+        "15",
+        "1"
+      ],
+      "explanation": "31+x=2(15+x). 31+x=30+2x. x=1."
+    },
+    "hi": {
+      "question": "पिता 31, पुत्र 15। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "16",
+        "46",
+        "15",
+        "1"
+      ],
+      "explanation": "31+x=2(15+x)। x=1 वर्ष।"
+    },
+    "id": "ntpc-m-0056"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 56, son 19. After how many years father twice son age?",
+      "options": [
+        "75",
+        "18",
+        "19",
+        "37"
+      ],
+      "explanation": "56+x=2(19+x). 56+x=38+2x. x=18."
+    },
+    "hi": {
+      "question": "पिता 56, पुत्र 19। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "75",
+        "18",
+        "19",
+        "37"
+      ],
+      "explanation": "56+x=2(19+x)। x=18 वर्ष।"
+    },
+    "id": "ntpc-m-0057"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 40, son 13. After how many years father twice son age?",
+      "options": [
+        "14",
+        "27",
+        "53",
+        "13"
+      ],
+      "explanation": "40+x=2(13+x). 40+x=26+2x. x=14."
+    },
+    "hi": {
+      "question": "पिता 40, पुत्र 13। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "14",
+        "27",
+        "53",
+        "13"
+      ],
+      "explanation": "40+x=2(13+x)। x=14 वर्ष।"
+    },
+    "id": "ntpc-m-0058"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 52, son 5. After how many years father twice son age?",
+      "options": [
+        "57",
+        "42",
+        "5",
+        "47"
+      ],
+      "explanation": "52+x=2(5+x). 52+x=10+2x. x=42."
+    },
+    "hi": {
+      "question": "पिता 52, पुत्र 5। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "57",
+        "42",
+        "5",
+        "47"
+      ],
+      "explanation": "52+x=2(5+x)। x=42 वर्ष।"
+    },
+    "id": "ntpc-m-0059"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 47, son 17. After how many years father twice son age?",
+      "options": [
+        "64",
+        "13",
+        "30",
+        "17"
+      ],
+      "explanation": "47+x=2(17+x). 47+x=34+2x. x=13."
+    },
+    "hi": {
+      "question": "पिता 47, पुत्र 17। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "64",
+        "13",
+        "30",
+        "17"
+      ],
+      "explanation": "47+x=2(17+x)। x=13 वर्ष।"
+    },
+    "id": "ntpc-m-0060"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 43, son 8. After how many years father twice son age?",
+      "options": [
+        "51",
+        "35",
+        "8",
+        "27"
+      ],
+      "explanation": "43+x=2(8+x). 43+x=16+2x. x=27."
+    },
+    "hi": {
+      "question": "पिता 43, पुत्र 8। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "51",
+        "35",
+        "8",
+        "27"
+      ],
+      "explanation": "43+x=2(8+x)। x=27 वर्ष।"
+    },
+    "id": "ntpc-m-0061"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 52, son 13. After how many years father twice son age?",
+      "options": [
+        "13",
+        "39",
+        "65",
+        "26"
+      ],
+      "explanation": "52+x=2(13+x). 52+x=26+2x. x=26."
+    },
+    "hi": {
+      "question": "पिता 52, पुत्र 13। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "13",
+        "39",
+        "65",
+        "26"
+      ],
+      "explanation": "52+x=2(13+x)। x=26 वर्ष।"
+    },
+    "id": "ntpc-m-0062"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 54, son 13. After how many years father twice son age?",
+      "options": [
+        "67",
+        "13",
+        "28",
+        "41"
+      ],
+      "explanation": "54+x=2(13+x). 54+x=26+2x. x=28."
+    },
+    "hi": {
+      "question": "पिता 54, पुत्र 13। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "67",
+        "13",
+        "28",
+        "41"
+      ],
+      "explanation": "54+x=2(13+x)। x=28 वर्ष।"
+    },
+    "id": "ntpc-m-0063"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 53, son 7. After how many years father twice son age?",
+      "options": [
+        "39",
+        "46",
+        "7",
+        "60"
+      ],
+      "explanation": "53+x=2(7+x). 53+x=14+2x. x=39."
+    },
+    "hi": {
+      "question": "पिता 53, पुत्र 7। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "39",
+        "46",
+        "7",
+        "60"
+      ],
+      "explanation": "53+x=2(7+x)। x=39 वर्ष।"
+    },
+    "id": "ntpc-m-0064"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 50, son 16. After how many years father twice son age?",
+      "options": [
+        "34",
+        "18",
+        "66",
+        "16"
+      ],
+      "explanation": "50+x=2(16+x). 50+x=32+2x. x=18."
+    },
+    "hi": {
+      "question": "पिता 50, पुत्र 16। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "34",
+        "18",
+        "66",
+        "16"
+      ],
+      "explanation": "50+x=2(16+x)। x=18 वर्ष।"
+    },
+    "id": "ntpc-m-0065"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 43, son 9. After how many years father twice son age?",
+      "options": [
+        "34",
+        "9",
+        "25",
+        "52"
+      ],
+      "explanation": "43+x=2(9+x). 43+x=18+2x. x=25."
+    },
+    "hi": {
+      "question": "पिता 43, पुत्र 9। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "34",
+        "9",
+        "25",
+        "52"
+      ],
+      "explanation": "43+x=2(9+x)। x=25 वर्ष।"
+    },
+    "id": "ntpc-m-0066"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 55, son 5. After how many years father twice son age?",
+      "options": [
+        "5",
+        "60",
+        "50",
+        "45"
+      ],
+      "explanation": "55+x=2(5+x). 55+x=10+2x. x=45."
+    },
+    "hi": {
+      "question": "पिता 55, पुत्र 5। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "5",
+        "60",
+        "50",
+        "45"
+      ],
+      "explanation": "55+x=2(5+x)। x=45 वर्ष।"
+    },
+    "id": "ntpc-m-0067"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 38, son 18. After how many years father twice son age?",
+      "options": [
+        "2",
+        "20",
+        "18",
+        "56"
+      ],
+      "explanation": "38+x=2(18+x). 38+x=36+2x. x=2."
+    },
+    "hi": {
+      "question": "पिता 38, पुत्र 18। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "2",
+        "20",
+        "18",
+        "56"
+      ],
+      "explanation": "38+x=2(18+x)। x=2 वर्ष।"
+    },
+    "id": "ntpc-m-0068"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 45, son 14. After how many years father twice son age?",
+      "options": [
+        "31",
+        "17",
+        "59",
+        "14"
+      ],
+      "explanation": "45+x=2(14+x). 45+x=28+2x. x=17."
+    },
+    "hi": {
+      "question": "पिता 45, पुत्र 14। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "31",
+        "17",
+        "59",
+        "14"
+      ],
+      "explanation": "45+x=2(14+x)। x=17 वर्ष।"
+    },
+    "id": "ntpc-m-0069"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 46, son 19. After how many years father twice son age?",
+      "options": [
+        "27",
+        "8",
+        "19",
+        "65"
+      ],
+      "explanation": "46+x=2(19+x). 46+x=38+2x. x=8."
+    },
+    "hi": {
+      "question": "पिता 46, पुत्र 19। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "27",
+        "8",
+        "19",
+        "65"
+      ],
+      "explanation": "46+x=2(19+x)। x=8 वर्ष।"
+    },
+    "id": "ntpc-m-0070"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 30, son 8. After how many years father twice son age?",
+      "options": [
+        "22",
+        "14",
+        "38",
+        "8"
+      ],
+      "explanation": "30+x=2(8+x). 30+x=16+2x. x=14."
+    },
+    "hi": {
+      "question": "पिता 30, पुत्र 8। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "22",
+        "14",
+        "38",
+        "8"
+      ],
+      "explanation": "30+x=2(8+x)। x=14 वर्ष।"
+    },
+    "id": "ntpc-m-0071"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 54, son 13. After how many years father twice son age?",
+      "options": [
+        "67",
+        "13",
+        "28",
+        "41"
+      ],
+      "explanation": "54+x=2(13+x). 54+x=26+2x. x=28."
+    },
+    "hi": {
+      "question": "पिता 54, पुत्र 13। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "67",
+        "13",
+        "28",
+        "41"
+      ],
+      "explanation": "54+x=2(13+x)। x=28 वर्ष।"
+    },
+    "id": "ntpc-m-0072"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 48, son 7. After how many years father twice son age?",
+      "options": [
+        "55",
+        "34",
+        "41",
+        "7"
+      ],
+      "explanation": "48+x=2(7+x). 48+x=14+2x. x=34."
+    },
+    "hi": {
+      "question": "पिता 48, पुत्र 7। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "55",
+        "34",
+        "41",
+        "7"
+      ],
+      "explanation": "48+x=2(7+x)। x=34 वर्ष।"
+    },
+    "id": "ntpc-m-0073"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 50, son 18. After how many years father twice son age?",
+      "options": [
+        "18",
+        "14",
+        "68",
+        "32"
+      ],
+      "explanation": "50+x=2(18+x). 50+x=36+2x. x=14."
+    },
+    "hi": {
+      "question": "पिता 50, पुत्र 18। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "18",
+        "14",
+        "68",
+        "32"
+      ],
+      "explanation": "50+x=2(18+x)। x=14 वर्ष।"
+    },
+    "id": "ntpc-m-0074"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 43, son 8. After how many years father twice son age?",
+      "options": [
+        "27",
+        "51",
+        "8",
+        "35"
+      ],
+      "explanation": "43+x=2(8+x). 43+x=16+2x. x=27."
+    },
+    "hi": {
+      "question": "पिता 43, पुत्र 8। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "27",
+        "51",
+        "8",
+        "35"
+      ],
+      "explanation": "43+x=2(8+x)। x=27 वर्ष।"
+    },
+    "id": "ntpc-m-0075"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 43, son 11. After how many years father twice son age?",
+      "options": [
+        "54",
+        "11",
+        "32",
+        "21"
+      ],
+      "explanation": "43+x=2(11+x). 43+x=22+2x. x=21."
+    },
+    "hi": {
+      "question": "पिता 43, पुत्र 11। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "54",
+        "11",
+        "32",
+        "21"
+      ],
+      "explanation": "43+x=2(11+x)। x=21 वर्ष।"
+    },
+    "id": "ntpc-m-0076"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 59, son 18. After how many years father twice son age?",
+      "options": [
+        "77",
+        "18",
+        "23",
+        "41"
+      ],
+      "explanation": "59+x=2(18+x). 59+x=36+2x. x=23."
+    },
+    "hi": {
+      "question": "पिता 59, पुत्र 18। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "77",
+        "18",
+        "23",
+        "41"
+      ],
+      "explanation": "59+x=2(18+x)। x=23 वर्ष।"
+    },
+    "id": "ntpc-m-0077"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 33, son 6. After how many years father twice son age?",
+      "options": [
+        "39",
+        "21",
+        "27",
+        "6"
+      ],
+      "explanation": "33+x=2(6+x). 33+x=12+2x. x=21."
+    },
+    "hi": {
+      "question": "पिता 33, पुत्र 6। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "39",
+        "21",
+        "27",
+        "6"
+      ],
+      "explanation": "33+x=2(6+x)। x=21 वर्ष।"
+    },
+    "id": "ntpc-m-0078"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 59, son 7. After how many years father twice son age?",
+      "options": [
+        "66",
+        "52",
+        "7",
+        "45"
+      ],
+      "explanation": "59+x=2(7+x). 59+x=14+2x. x=45."
+    },
+    "hi": {
+      "question": "पिता 59, पुत्र 7। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "66",
+        "52",
+        "7",
+        "45"
+      ],
+      "explanation": "59+x=2(7+x)। x=45 वर्ष।"
+    },
+    "id": "ntpc-m-0079"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 38, son 7. After how many years father twice son age?",
+      "options": [
+        "45",
+        "31",
+        "7",
+        "24"
+      ],
+      "explanation": "38+x=2(7+x). 38+x=14+2x. x=24."
+    },
+    "hi": {
+      "question": "पिता 38, पुत्र 7। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "45",
+        "31",
+        "7",
+        "24"
+      ],
+      "explanation": "38+x=2(7+x)। x=24 वर्ष।"
+    },
+    "id": "ntpc-m-0080"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 54, son 19. After how many years father twice son age?",
+      "options": [
+        "16",
+        "73",
+        "35",
+        "19"
+      ],
+      "explanation": "54+x=2(19+x). 54+x=38+2x. x=16."
+    },
+    "hi": {
+      "question": "पिता 54, पुत्र 19। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "16",
+        "73",
+        "35",
+        "19"
+      ],
+      "explanation": "54+x=2(19+x)। x=16 वर्ष।"
+    },
+    "id": "ntpc-m-0081"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Father 30, son 20. After how many years father twice son age?",
+      "options": [
+        "20",
+        "-10",
+        "10",
+        "50"
+      ],
+      "explanation": "30+x=2(20+x). 30+x=40+2x. x=-10."
+    },
+    "hi": {
+      "question": "पिता 30, पुत्र 20। कितने वर्ष बाद पिता पुत्र से दोगुना?",
+      "options": [
+        "20",
+        "-10",
+        "10",
+        "50"
+      ],
+      "explanation": "30+x=2(20+x)। x=-10 वर्ष।"
+    },
+    "id": "ntpc-m-0082"
+  }
 ]

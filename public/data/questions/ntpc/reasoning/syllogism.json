@@ -1,10 +1,5467 @@
 [
-  {"id":"ntpc-r-0001","correctOption":"A","difficulty":"easy","en":{"question":"All cats are dogs. All dogs are animals. Conclusion: All cats are animals. Valid?","options":["Yes, valid","No, invalid","Cannot determine","Partially valid"],"explanation":"Transitivity: all A are B, all B are C ⇒ all A are C. Valid syllogism."},"hi":{"question":"सभी बिल्लियाँ कुत्ते। सभी कुत्ते जानवर। निष्कर्ष: सभी बिल्लियाँ जानवर। वैध?","options":["हाँ, वैध","नहीं, अवैध","निर्धारित नहीं","आंशिक वैध"],"explanation":"संक्रमण: सभी A, B; सभी B, C ⇒ सभी A, C। वैध न्यायवाक्य।"}},
-  {"id":"ntpc-r-0002","correctOption":"A","difficulty":"medium","en":{"question":"Some pens are pencils. All pencils are books. Conclusions: I. Some pens are books. II. All books are pencils.","options":["Only I follows","Only II follows","Both follow","Neither follows"],"explanation":"Some pens→pencils→books means some pens are books (I). II doesn't follow (reverse not true)."},"hi":{"question":"कुछ पेन पेंसिल। सभी पेंसिल किताबें। I. कुछ पेन किताबें। II. सभी किताबें पेंसिल।","options":["केवल I","केवल II","दोनों","कोई नहीं"],"explanation":"I सही, II गलत (उल्टा सत्य नहीं)।"}},
-  {"id":"ntpc-r-0003","correctOption":"A","difficulty":"hard","en":{"question":"All chairs are tables. Some tables wooden. No wooden is metal. I. Some chairs wooden. II. No table metal. III. Some tables not metal.","options":["Only III follows","I and III follow","Only II follows","None follows"],"explanation":"Chairs may not overlap wooden, I doesn't follow. Some tables could be metal, II doesn't. Tables that are wooden ≠ metal, so some tables not metal (III)."},"hi":{"question":"सभी कुर्सियाँ मेज। कुछ मेज लकड़ी। कोई लकड़ी धातु नहीं। I,II,III में कौन?","options":["केवल III","I और III","केवल II","कोई नहीं"],"explanation":"केवल III अनुसरण करता है।"}},
-  {"id":"ntpc-r-0004","correctOption":"A","difficulty":"medium","en":{"question":"All cats are dogs. Some dogs are rats. I. Some cats rats. II. No cat rat.","options":["Neither follows","Only I","Only II","Either I or II"],"explanation":"Cats subset of dogs. Rats overlap dogs but may not include cats. Neither follows."},"hi":{"question":"सभी बिल्लियाँ कुत्ते। कुछ कुत्ते चूहे। I,II?","options":["कोई नहीं","केवल I","केवल II","I या II"],"explanation":"बिल्लियाँ और चूहों का ओवरलैप निश्चित नहीं। कोई अनुसरण नहीं।"}},
-  {"id":"ntpc-r-0005","correctOption":"A","difficulty":"easy","en":{"question":"Some pens pencils. All pencils erasers. I. Some pens erasers. II. All erasers pencils.","options":["Only I follows","Only II follows","Both follow","Neither follows"],"explanation":"Pens that are pencils are erasers (I). II doesn't follow."},"hi":{"question":"कुछ पेन पेंसिल। सभी पेंसिल इरेज़र। I,II?","options":["केवल I","केवल II","दोनों","कोई नहीं"],"explanation":"केवल I अनुसरण करता है।"}},
-  {"id":"ntpc-r-0006","correctOption":"A","difficulty":"medium","en":{"question":"All fans lights. No light heater. I. No fan heater. II. Some lights fans.","options":["Both follow","Only I","Only II","Neither"],"explanation":"Fans⊂lights, lights∩heaters=∅. No fan heater (I). Some lights are fans (II). Both follow."},"hi":{"question":"सभी पंखे लाइट। कोई लाइट हीटर नहीं। I,II?","options":["दोनों","केवल I","केवल II","कोई नहीं"],"explanation":"दोनों अनुसरण करते हैं।"}},
-  {"id":"ntpc-r-0007","correctOption":"A","difficulty":"hard","en":{"question":"Some actors singers. All singers dancers. No dancer painter. I. Some actors painters. II. No actor painter.","options":["Neither follows","Only I","Only II","Either I or II"],"explanation":"Actor-singers are dancers→not painters. Other actors could be painters. Neither follows definitively."},"hi":{"question":"कुछ कलाकार गायक। सभी गायक नर्तक। कोई नर्तक चित्रकार नहीं। I,II?","options":["कोई नहीं","केवल I","केवल II","I या II"],"explanation":"कोई निश्चित निष्कर्ष नहीं।"}},
-  {"id":"ntpc-r-0008","correctOption":"A","difficulty":"easy","en":{"question":"All mangoes fruits. Some fruits sweet. I. All mangoes sweet. II. Some mangoes sweet.","options":["Neither follows","Only I","Only II","Both"],"explanation":"Sweet fruits may not include mangoes. Neither follows."},"hi":{"question":"सभी आम फल। कुछ फल मीठे। I,II?","options":["कोई नहीं","केवल I","केवल II","दोनों"],"explanation":"कोई निश्चित रूप से अनुसरण नहीं करता।"}}
+  {
+    "id": "ntpc-r-0001",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "All cats are dogs. All dogs are animals. Conclusion: All cats are animals. Valid?",
+      "options": [
+        "Yes, valid",
+        "No, invalid",
+        "Cannot determine",
+        "Partially valid"
+      ],
+      "explanation": "Transitivity: all A are B, all B are C ⇒ all A are C. Valid syllogism."
+    },
+    "hi": {
+      "question": "सभी बिल्लियाँ कुत्ते। सभी कुत्ते जानवर। निष्कर्ष: सभी बिल्लियाँ जानवर। वैध?",
+      "options": [
+        "हाँ, वैध",
+        "नहीं, अवैध",
+        "निर्धारित नहीं",
+        "आंशिक वैध"
+      ],
+      "explanation": "संक्रमण: सभी A, B; सभी B, C ⇒ सभी A, C। वैध न्यायवाक्य।"
+    }
+  },
+  {
+    "id": "ntpc-r-0002",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Some pens are pencils. All pencils are books. Conclusions: I. Some pens are books. II. All books are pencils.",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Both follow",
+        "Neither follows"
+      ],
+      "explanation": "Some pens→pencils→books means some pens are books (I). II doesn't follow (reverse not true)."
+    },
+    "hi": {
+      "question": "कुछ पेन पेंसिल। सभी पेंसिल किताबें। I. कुछ पेन किताबें। II. सभी किताबें पेंसिल।",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "कोई नहीं"
+      ],
+      "explanation": "I सही, II गलत (उल्टा सत्य नहीं)।"
+    }
+  },
+  {
+    "id": "ntpc-r-0003",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "All chairs are tables. Some tables wooden. No wooden is metal. I. Some chairs wooden. II. No table metal. III. Some tables not metal.",
+      "options": [
+        "Only III follows",
+        "I and III follow",
+        "Only II follows",
+        "None follows"
+      ],
+      "explanation": "Chairs may not overlap wooden, I doesn't follow. Some tables could be metal, II doesn't. Tables that are wooden ≠ metal, so some tables not metal (III)."
+    },
+    "hi": {
+      "question": "सभी कुर्सियाँ मेज। कुछ मेज लकड़ी। कोई लकड़ी धातु नहीं। I,II,III में कौन?",
+      "options": [
+        "केवल III",
+        "I और III",
+        "केवल II",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल III अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0004",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "All cats are dogs. Some dogs are rats. I. Some cats rats. II. No cat rat.",
+      "options": [
+        "Neither follows",
+        "Only I",
+        "Only II",
+        "Either I or II"
+      ],
+      "explanation": "Cats subset of dogs. Rats overlap dogs but may not include cats. Neither follows."
+    },
+    "hi": {
+      "question": "सभी बिल्लियाँ कुत्ते। कुछ कुत्ते चूहे। I,II?",
+      "options": [
+        "कोई नहीं",
+        "केवल I",
+        "केवल II",
+        "I या II"
+      ],
+      "explanation": "बिल्लियाँ और चूहों का ओवरलैप निश्चित नहीं। कोई अनुसरण नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0005",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "Some pens pencils. All pencils erasers. I. Some pens erasers. II. All erasers pencils.",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Both follow",
+        "Neither follows"
+      ],
+      "explanation": "Pens that are pencils are erasers (I). II doesn't follow."
+    },
+    "hi": {
+      "question": "कुछ पेन पेंसिल। सभी पेंसिल इरेज़र। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल I अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0006",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "All fans lights. No light heater. I. No fan heater. II. Some lights fans.",
+      "options": [
+        "Both follow",
+        "Only I",
+        "Only II",
+        "Neither"
+      ],
+      "explanation": "Fans⊂lights, lights∩heaters=∅. No fan heater (I). Some lights are fans (II). Both follow."
+    },
+    "hi": {
+      "question": "सभी पंखे लाइट। कोई लाइट हीटर नहीं। I,II?",
+      "options": [
+        "दोनों",
+        "केवल I",
+        "केवल II",
+        "कोई नहीं"
+      ],
+      "explanation": "दोनों अनुसरण करते हैं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0007",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "Some actors singers. All singers dancers. No dancer painter. I. Some actors painters. II. No actor painter.",
+      "options": [
+        "Neither follows",
+        "Only I",
+        "Only II",
+        "Either I or II"
+      ],
+      "explanation": "Actor-singers are dancers→not painters. Other actors could be painters. Neither follows definitively."
+    },
+    "hi": {
+      "question": "कुछ कलाकार गायक। सभी गायक नर्तक। कोई नर्तक चित्रकार नहीं। I,II?",
+      "options": [
+        "कोई नहीं",
+        "केवल I",
+        "केवल II",
+        "I या II"
+      ],
+      "explanation": "कोई निश्चित निष्कर्ष नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0008",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "All mangoes fruits. Some fruits sweet. I. All mangoes sweet. II. Some mangoes sweet.",
+      "options": [
+        "Neither follows",
+        "Only I",
+        "Only II",
+        "Both"
+      ],
+      "explanation": "Sweet fruits may not include mangoes. Neither follows."
+    },
+    "hi": {
+      "question": "सभी आम फल। कुछ फल मीठे। I,II?",
+      "options": [
+        "कोई नहीं",
+        "केवल I",
+        "केवल II",
+        "दोनों"
+      ],
+      "explanation": "कोई निश्चित रूप से अनुसरण नहीं करता।"
+    }
+  },
+  {
+    "id": "ntpc-r-0009",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "All boys are men. Some men are tall. I. Some boys are tall. II. All tall are boys.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Neither",
+        "Both"
+      ],
+      "explanation": "Tall men may not include boys. Neither conclusion follows."
+    },
+    "hi": {
+      "question": "सभी लड़के आदमी। कुछ आदमी लंबे। I. कुछ लड़के लंबे। II. सभी लंबे लड़के।",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "कोई नहीं",
+        "दोनों"
+      ],
+      "explanation": "कोई निश्चित निष्कर्ष नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0010",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "All dogs are animals. All animals are living beings. I. All dogs are living beings.",
+      "options": [
+        "Only I follows",
+        "None follows",
+        "I is partially true",
+        "Cannot say"
+      ],
+      "explanation": "All dogs⊂animals⊂living beings ⇒ All dogs are living beings. Valid."
+    },
+    "hi": {
+      "question": "सभी कुत्ते जानवर। सभी जानवर जीव। I. सभी कुत्ते जीव।",
+      "options": [
+        "केवल I",
+        "कोई नहीं",
+        "आंशिक",
+        "कह नहीं सकते"
+      ],
+      "explanation": "वैध न्यायवाक्य।"
+    }
+  },
+  {
+    "id": "ntpc-r-0011",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Some books are novels. All novels are fiction. I. Some books are fiction. II. All fiction are novels.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Only I follows"
+      ],
+      "explanation": "Some books → novels → fiction, so Some books are fiction (I). II doesn't follow."
+    },
+    "hi": {
+      "question": "कुछ किताबें उपन्यास। सभी उपन्यास काल्पनिक। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "केवल I"
+      ],
+      "explanation": "केवल I अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0012",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "All teachers are graduates. Some graduates are doctors. I. Some teachers are doctors. II. Some doctors are graduates.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Neither"
+      ],
+      "explanation": "I may not be true (teachers subset may not overlap doctors). II is just restating 'some graduates are doctors' (conversion). Only II follows."
+    },
+    "hi": {
+      "question": "सभी शिक्षक स्नातक। कुछ स्नातक डॉक्टर। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल II (कुछ डॉक्टर स्नातक) अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0013",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "No apple is orange. Some oranges are fruits. I. No apple is fruit. II. Some fruits are not apples.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Only II follows",
+        "Neither"
+      ],
+      "explanation": "I doesn't follow (apples could be other fruits). II: Some oranges are fruits, and no apple is orange. Those orange-fruits are not apples, so Some fruits are not apples. II follows."
+    },
+    "hi": {
+      "question": "कोई सेब संतरा नहीं। कुछ संतरे फल। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "केवल II",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल II अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0014",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "No A is B. Some B are C. I. Some C are not A. II. No C is A.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Neither"
+      ],
+      "explanation": "Some B are C, no A is B. Those C that are B cannot be A. So some C are not A (I). II is too strong."
+    },
+    "hi": {
+      "question": "कोई A,B नहीं। कुछ B,C हैं। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल I अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0015",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "en": {
+      "question": "All shirts are clothes. Some clothes are cotton. No cotton is silk. I. Some shirts are cotton. II. No shirt is silk. III. Some clothes are not silk.",
+      "options": [
+        "Only III",
+        "I and II",
+        "II and III",
+        "Only III follows"
+      ],
+      "explanation": "III: Some clothes are cotton, no cotton is silk → those cotton-clothes are not silk → Some clothes are not silk. I and II don't follow."
+    },
+    "hi": {
+      "question": "सभी शर्ट कपड़े। कुछ कपड़े सूती। कोई सूती रेशम नहीं। I,II,III?",
+      "options": [
+        "केवल III",
+        "I और II",
+        "II और III",
+        "केवल III"
+      ],
+      "explanation": "केवल III अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0016",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "All lions are cats. All cats are animals. I. All animals are lions. II. All lions are animals.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Neither"
+      ],
+      "explanation": "Lions⊂cats⊂animals. II follows. I is reverse, doesn't follow."
+    },
+    "hi": {
+      "question": "सभी शेर बिल्लियाँ। सभी बिल्लियाँ जानवर। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल II अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0017",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "Some pens are red. All red are blue. No blue is green. I. Some pens are green. II. No pen is green. III. Some red are not green.",
+      "options": [
+        "Only III",
+        "I and II",
+        "II and III",
+        "Only II"
+      ],
+      "explanation": "Some pens are red→blue. No blue is green. So pens that are red/blue cannot be green. But some pens may not be red/blue, could be green. So neither I nor II follows. III: All red are blue, no blue is green → no red is green. So All red are not green → Some red are not green (weak version) follows."
+    },
+    "hi": {
+      "question": "कुछ पेन लाल। सभी लाल नीले। कोई नीला हरा नहीं। I,II,III?",
+      "options": [
+        "केवल III",
+        "I और II",
+        "II और III",
+        "केवल II"
+      ],
+      "explanation": "III: सभी लाल नीले, कोई नीला हरा नहीं → कुछ लाल हरे नहीं। अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0018",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "All students are intelligent. No intelligent is lazy. I. No student is lazy. II. Some lazy are students.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Neither"
+      ],
+      "explanation": "Students⊂intelligent, intelligent∩lazy=∅. No student is lazy (I). II doesn't follow."
+    },
+    "hi": {
+      "question": "सभी छात्र बुद्धिमान। कोई बुद्धिमान आलसी नहीं। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल I अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0019",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Some fruits are sweet. All sweet are tasty. I. Some fruits are tasty. II. All tasty are sweet.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Only I follows"
+      ],
+      "explanation": "Some fruits→sweet→tasty ⇒ Some fruits are tasty (I). II doesn't follow."
+    },
+    "hi": {
+      "question": "कुछ फल मीठे। सभी मीठे स्वादिष्ट। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "केवल I"
+      ],
+      "explanation": "केवल I अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0020",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "All A are B. Some B are C. No C is D. All D are E. I. Some A are C. II. Some B are not D. III. No A is D.",
+      "options": [
+        "Only II and III",
+        "Only II",
+        "Only III",
+        "All follow"
+      ],
+      "explanation": "I doesn't follow. II: Some B are C, no C is D → those B that are C are not D → Some B are not D. III: A⊂B, some B are C and not D, but A may include some that are D? No, A⊂B. If some B are D... actually no C is D, but B may still contain D (outside C). A could include those B that are D. So III doesn't follow. Only II follows."
+    },
+    "hi": {
+      "question": "सभी A,B। कुछ B,C। कोई C,D नहीं। सभी D,E। I,II,III?",
+      "options": [
+        "केवल II और III",
+        "केवल II",
+        "केवल III",
+        "सभी"
+      ],
+      "explanation": "केवल II अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0021",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "No fish is bird. Some birds are flying. I. Some flying are not fish. II. No fish is flying.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Only I follows",
+        "Neither"
+      ],
+      "explanation": "Some birds are flying. Those flying birds are not fish. So Some flying are not fish (I). II is too strong."
+    },
+    "hi": {
+      "question": "कोई मछली पक्षी नहीं। कुछ पक्षी उड़ते। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "केवल I",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल I अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0022",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "All cars are vehicles. Some vehicles are fast. I. Some cars may be fast. II. All fast are cars.",
+      "options": [
+        "Neither follows",
+        "Only I",
+        "Only II",
+        "Both"
+      ],
+      "explanation": "'May be' is a possibility, not definite conclusion. In syllogism, 'may be' is not considered unless explicitly asked. Neither follows as definite conclusions."
+    },
+    "hi": {
+      "question": "सभी कारें वाहन। कुछ वाहन तेज़। I,II?",
+      "options": [
+        "कोई नहीं",
+        "केवल I",
+        "केवल II",
+        "दोनों"
+      ],
+      "explanation": "निश्चित निष्कर्ष के रूप में कोई अनुसरण नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0023",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "All pencils are pens. No pen is eraser. I. No pencil is eraser. II. Some pencils are erasers.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Only I follows"
+      ],
+      "explanation": "Pencils⊂pens, pens∩erasers=∅. No pencil is eraser (I). II doesn't follow."
+    },
+    "hi": {
+      "question": "सभी पेंसिल पेन। कोई पेन इरेज़र नहीं। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "केवल I"
+      ],
+      "explanation": "केवल I: कोई पेंसिल इरेज़र नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0024",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "Statements: All cups are plates. Some plates are saucers. No saucer is spoon. Conclusions: I. Some cups are saucers. II. Some plates are not spoons. III. All spoons are plates.",
+      "options": [
+        "Only I and II",
+        "Only II",
+        "Only III",
+        "None"
+      ],
+      "explanation": "I doesn't follow. II: Some plates are saucers, no saucer is spoon → those plates are not spoons → Some plates are not spoons. III doesn't follow. Only II."
+    },
+    "hi": {
+      "question": "सभी कप प्लेट। कुछ प्लेट तश्तरी। कोई तश्तरी चम्मच नहीं। I,II,III?",
+      "options": [
+        "केवल I और II",
+        "केवल II",
+        "केवल III",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल II अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0025",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "Some roses are red. All red are flowers. I. Some roses are flowers. II. All flowers are red.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Only I follows",
+        "Both"
+      ],
+      "explanation": "Some roses→red→flowers ⇒ Some roses are flowers (I). II doesn't follow."
+    },
+    "hi": {
+      "question": "कुछ गुलाब लाल। सभी लाल फूल। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "केवल I",
+        "दोनों"
+      ],
+      "explanation": "केवल I अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0026",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "All A are B. All B are C. Some C are D. No D is E. I. All A are C. II. Some B are D. III. No A is E.",
+      "options": [
+        "Only I",
+        "I and II",
+        "Only III",
+        "All"
+      ],
+      "explanation": "I: A⊂B⊂C, so All A are C. II: B⊂C, some C are D but may not include B. III: A⊂B⊂C. Some C are D, no D is E. But A may not involve D/E. Only I follows."
+    },
+    "hi": {
+      "question": "सभी A,B। सभी B,C। कुछ C,D। कोई D,E नहीं। I,II,III?",
+      "options": [
+        "केवल I",
+        "I और II",
+        "केवल III",
+        "सभी"
+      ],
+      "explanation": "केवल I अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0027",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "No goat is sheep. All sheep are animals. I. No goat is animal. II. Some animals are not goats.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Only II follows"
+      ],
+      "explanation": "I doesn't follow (goats could be animals too). II: All sheep are animals, no goat is sheep → those animal-sheep are not goats → Some animals are not goats."
+    },
+    "hi": {
+      "question": "कोई बकरी भेड़ नहीं। सभी भेड़ जानवर। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "केवल II"
+      ],
+      "explanation": "केवल II अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0028",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "en": {
+      "question": "All mangoes are fruits. No fruit is vegetable. I. No mango is vegetable. II. Some vegetables are fruits.",
+      "options": [
+        "Only I",
+        "Only I follows",
+        "Only II",
+        "Both"
+      ],
+      "explanation": "Mangoes⊂fruits, fruits∩vegetables=∅ → No mango is vegetable (I). II contradicts statement."
+    },
+    "hi": {
+      "question": "सभी आम फल। कोई फल सब्ज़ी नहीं। I,II?",
+      "options": [
+        "केवल I",
+        "केवल I",
+        "केवल II",
+        "दोनों"
+      ],
+      "explanation": "केवल I: कोई आम सब्ज़ी नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0029",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "All kings are queens. Some queens are jacks. I. Some kings are jacks. II. All jacks are queens.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Neither",
+        "Both"
+      ],
+      "explanation": "Kings⊂queens. Some queens (may not include kings) are jacks. Neither follows."
+    },
+    "hi": {
+      "question": "सभी बादशाह रानियाँ। कुछ रानियाँ गुलाम। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "कोई नहीं",
+        "दोनों"
+      ],
+      "explanation": "कोई निश्चित निष्कर्ष नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0030",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "Some birds are parrots. All parrots are green. No green is red. I. Some birds are green. II. No bird is red. III. Some parrots are not red.",
+      "options": [
+        "I and III",
+        "Only I",
+        "Only III",
+        "All"
+      ],
+      "explanation": "I: Some birds→parrots→green ⇒ Some birds are green. III: All parrots are green, no green is red → no parrot is red → Some parrots are not red. II doesn't follow. I and III follow."
+    },
+    "hi": {
+      "question": "कुछ पक्षी तोते। सभी तोते हरे। कोई हरा लाल नहीं। I,II,III?",
+      "options": [
+        "I और III",
+        "केवल I",
+        "केवल III",
+        "सभी"
+      ],
+      "explanation": "I और III अनुसरण करते हैं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0031",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "All A are B. Some B are C. I. Some A are C. II. Some C are B.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Only II follows"
+      ],
+      "explanation": "A⊂B. Some B are C. A may not be part of that 'some'. I doesn't follow. II is conversion of 'Some B are C' → 'Some C are B'. II follows."
+    },
+    "hi": {
+      "question": "सभी A,B। कुछ B,C। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "केवल II"
+      ],
+      "explanation": "केवल II (कुछ C, B हैं) अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0032",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "No book is a pen. Some pens are pencils. I. No book is pencil. II. Some pencils are not books.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Neither"
+      ],
+      "explanation": "I doesn't follow. II: Some pens are pencils. Those pens are not books. So those pencil-pens are not books. Some pencils are not books. II follows."
+    },
+    "hi": {
+      "question": "कोई किताब पेन नहीं। कुछ पेन पेंसिल। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल II अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0033",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "All doctors are engineers. All engineers are lawyers. Some lawyers are judges. I. Some doctors are judges. II. Some engineers are judges. III. Some judges are lawyers.",
+      "options": [
+        "Only III",
+        "I and II",
+        "Only III follows",
+        "None"
+      ],
+      "explanation": "Doctors⊂engineers⊂lawyers. Some lawyers are judges. Doctors/engineers may not be among those lawyers who are judges. III is conversion: Some lawyers are judges → Some judges are lawyers. Only III follows."
+    },
+    "hi": {
+      "question": "सभी डॉक्टर इंजीनियर। सभी इंजीनियर वकील। कुछ वकील न्यायाधीश। I,II,III?",
+      "options": [
+        "केवल III",
+        "I और II",
+        "केवल III",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल III अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0034",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Some tables are chairs. All chairs are furniture. No furniture is tree. I. Some tables are furniture. II. No table is tree. III. Some chairs are trees.",
+      "options": [
+        "I and II",
+        "Only I",
+        "Only II",
+        "All"
+      ],
+      "explanation": "I: Some tables→chairs→furniture ⇒ Some tables are furniture. II: Tables that are chairs→furniture, not trees. But other tables may be trees. II doesn't follow definitively. Actually: Some tables are chairs, all chairs are furniture, no furniture is tree. Tables that are chairs are furniture and not trees. But not all tables are chairs, so some tables could be trees. So II doesn't follow. Only I."
+    },
+    "hi": {
+      "question": "कुछ मेज कुर्सियाँ। सभी कुर्सियाँ फर्नीचर। कोई फर्नीचर पेड़ नहीं। I,II,III?",
+      "options": [
+        "I और II",
+        "केवल I",
+        "केवल II",
+        "सभी"
+      ],
+      "explanation": "I: कुछ मेज फर्नीचर। दूसरे अनुसरण नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0035",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "All cats are black. Some black are white. I. Some cats are white. II. No cat is white.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Either I or II",
+        "Neither"
+      ],
+      "explanation": "Cats⊂black. Some black are white. Cats may or may not be in that 'some'. Neither follows as definite."
+    },
+    "hi": {
+      "question": "सभी बिल्लियाँ काली। कुछ काली सफेद। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "I या II",
+        "कोई नहीं"
+      ],
+      "explanation": "कोई निश्चित निष्कर्ष नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0036",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "All A are B. All B are C. No C is D. I. No A is D. II. No B is D. III. Some A are D.",
+      "options": [
+        "Only II",
+        "I and II",
+        "Only I",
+        "None"
+      ],
+      "explanation": "A⊂B⊂C, C∩D=∅. No A is D (I), No B is D (II). Both follow."
+    },
+    "hi": {
+      "question": "सभी A,B। सभी B,C। कोई C,D नहीं। I,II,III?",
+      "options": [
+        "केवल II",
+        "I और II",
+        "केवल I",
+        "कोई नहीं"
+      ],
+      "explanation": "I और II दोनों अनुसरण करते हैं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0037",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "Some flowers are red. No red is blue. All blue are sky. I. Some flowers are blue. II. Some red are sky. III. Some flowers are not blue.",
+      "options": [
+        "Only III",
+        "I and II",
+        "Only III follows",
+        "All"
+      ],
+      "explanation": "I doesn't follow (flowers that are red ≠ blue). II doesn't follow. III: Some flowers are red, no red is blue → those flowers are not blue. Some flowers are not blue. III follows."
+    },
+    "hi": {
+      "question": "कुछ फूल लाल। कोई लाल नीला नहीं। सभी नीले आसमान। I,II,III?",
+      "options": [
+        "केवल III",
+        "I और II",
+        "केवल III",
+        "सभी"
+      ],
+      "explanation": "केवल III: कुछ फूल नीले नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0038",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "All apples are bananas. Some bananas are cherries. All cherries are dates. No date is fig. I. Some bananas are dates. II. Some cherries are not figs. III. No apple is fig.",
+      "options": [
+        "I and II",
+        "II and III",
+        "Only I",
+        "All"
+      ],
+      "explanation": "I: Some bananas→cherries→dates ⇒ Some bananas are dates. II: All cherries are dates, no date is fig → no cherry is fig → Some cherries are not figs. III: Apples⊂bananas. Some bananas are cherries→dates→not figs. But apples may be other bananas not in the cherry chain. So III doesn't follow. I and II follow."
+    },
+    "hi": {
+      "question": "सभी सेब केले। कुछ केले चेरी। सभी चेरी खजूर। कोई खजूर अंजीर नहीं। I,II,III?",
+      "options": [
+        "I और II",
+        "II और III",
+        "केवल I",
+        "सभी"
+      ],
+      "explanation": "I और II अनुसरण करते हैं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0039",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "No cow is horse. All horses are animals. I. No cow is animal. II. Some animals are horses.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Only II follows"
+      ],
+      "explanation": "I doesn't follow (cows can be animals). II: All horses are animals → Some animals are horses (conversion). II follows."
+    },
+    "hi": {
+      "question": "कोई गाय घोड़ा नहीं। सभी घोड़े जानवर। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "केवल II"
+      ],
+      "explanation": "केवल II अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0040",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "All tigers are lions. No lion is deer. I. No tiger is deer. II. Some deer are tigers.",
+      "options": [
+        "Only I",
+        "Only I follows",
+        "Only II",
+        "Both"
+      ],
+      "explanation": "Tigers⊂lions, lions∩deer=∅ → No tiger is deer (I). II doesn't follow."
+    },
+    "hi": {
+      "question": "सभी शेर बाघ? नहीं, सभी बाघ शेर। कोई शेर हिरण नहीं। I,II?",
+      "options": [
+        "केवल I",
+        "केवल I",
+        "केवल II",
+        "दोनों"
+      ],
+      "explanation": "केवल I: कोई बाघ हिरण नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0041",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "Some A are B. All B are C. No C is D. Some D are E. I. Some A are C. II. Some A are not D. III. No B is D.",
+      "options": [
+        "Only I and III",
+        "Only II",
+        "I, II and III",
+        "Only III"
+      ],
+      "explanation": "I: Some A→B→C ⇒ Some A are C. II: These A that are C are not D. But other A may be D. So II doesn't follow definitely. III: B⊂C, C∩D=∅ → No B is D. I and III follow."
+    },
+    "hi": {
+      "question": "कुछ A,B। सभी B,C। कोई C,D नहीं। कुछ D,E। I,II,III?",
+      "options": [
+        "केवल I और III",
+        "केवल II",
+        "I, II और III",
+        "केवल III"
+      ],
+      "explanation": "I और III अनुसरण करते हैं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0042",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "All men are mortal. Socrates is a man. I. Socrates is mortal.",
+      "options": [
+        "Only I follows",
+        "None",
+        "Cannot say",
+        "Invalid"
+      ],
+      "explanation": "Classic syllogism. All men are mortal, Socrates is a man ∴ Socrates is mortal."
+    },
+    "hi": {
+      "question": "सभी मनुष्य नश्वर। सुकरात मनुष्य। I. सुकरात नश्वर।",
+      "options": [
+        "केवल I",
+        "कोई नहीं",
+        "कह नहीं सकते",
+        "अवैध"
+      ],
+      "explanation": "क्लासिक न्यायवाक्य। I अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0043",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Some boys are students. All students are hardworking. I. All hardworking are students. II. Some boys are hardworking.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Only II follows"
+      ],
+      "explanation": "I doesn't follow (reverse). II: Some boys→students→hardworking ⇒ Some boys are hardworking. II follows."
+    },
+    "hi": {
+      "question": "कुछ लड़के छात्र। सभी छात्र मेहनती। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "केवल II"
+      ],
+      "explanation": "केवल II अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0044",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "No A is B. All C are A. I. No C is B. II. Some B are C.",
+      "options": [
+        "Only I",
+        "Only I follows",
+        "Only II",
+        "Neither"
+      ],
+      "explanation": "C⊂A, A∩B=∅ → C∩B=∅ → No C is B (I). II doesn't follow."
+    },
+    "hi": {
+      "question": "कोई A,B नहीं। सभी C,A हैं। I,II?",
+      "options": [
+        "केवल I",
+        "केवल I",
+        "केवल II",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल I: कोई C,B नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0045",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "All P are Q. Some Q are R. No R is S. All S are T. I. Some P are R. II. Some Q are not S. III. Some T are not R.",
+      "options": [
+        "Only II",
+        "I and II",
+        "All follow",
+        "Only II and III"
+      ],
+      "explanation": "I doesn't follow. II: Some Q are R, no R is S → those Q are not S → Some Q are not S. III: All S are T → Some T are S. No R is S. Those T that are S are not R. But some T may not be S, could be R. So III doesn't follow definitely. Actually: All S are T means S⊂T. Some T are S. No R is S. Those T that are S are not R. So Some T are not R. III follows. II and III follow."
+    },
+    "hi": {
+      "question": "सभी P,Q। कुछ Q,R। कोई R,S नहीं। सभी S,T। I,II,III?",
+      "options": [
+        "केवल II",
+        "I और II",
+        "सभी",
+        "केवल II और III"
+      ],
+      "explanation": "II और III अनुसरण करते हैं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0046",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "Some chairs are wooden. All wooden are strong. I. Some chairs are strong. II. All strong are wooden.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Neither"
+      ],
+      "explanation": "Some chairs→wooden→strong ⇒ Some chairs are strong (I). II doesn't follow."
+    },
+    "hi": {
+      "question": "कुछ कुर्सियाँ लकड़ी। सभी लकड़ी मज़बूत। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल I अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0047",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "All fruits are vegetables. Some vegetables are green. I. Some fruits are green. II. All green are vegetables.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Neither"
+      ],
+      "explanation": "Fruits⊂vegetables. Some vegetables are green. Fruits may not be in that 'some'. Neither follows."
+    },
+    "hi": {
+      "question": "सभी फल सब्ज़ियाँ। कुछ सब्ज़ियाँ हरी। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "कोई नहीं"
+      ],
+      "explanation": "कोई निश्चित निष्कर्ष नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0048",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "All A are B. No B is C. Some C are D. I. No A is C. II. Some D are B. III. Some D are not B.",
+      "options": [
+        "Only I and III",
+        "I and III",
+        "Only I",
+        "All"
+      ],
+      "explanation": "I: A⊂B, B∩C=∅ → No A is C. II: Some C are D, no B is C. Those D that are C are not B. So D may or may not be B. II doesn't follow. III: Those D that are C are not B → Some D are not B. I and III follow."
+    },
+    "hi": {
+      "question": "सभी A,B। कोई B,C नहीं। कुछ C,D। I,II,III?",
+      "options": [
+        "केवल I और III",
+        "I और III",
+        "केवल I",
+        "सभी"
+      ],
+      "explanation": "I और III अनुसरण करते हैं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0049",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "All rats are cats. Some cats are dogs. I. Some rats are dogs. II. No rat is dog.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Neither",
+        "Either I or II"
+      ],
+      "explanation": "Rats⊂cats. Some cats are dogs. Rats may or may not be among those cats. Neither follows as definite."
+    },
+    "hi": {
+      "question": "सभी चूहे बिल्लियाँ। कुछ बिल्लियाँ कुत्ते। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "कोई नहीं",
+        "I या II"
+      ],
+      "explanation": "कोई निश्चित निष्कर्ष नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0050",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "All hills are mountains. No mountain is plain. I. No hill is plain. II. Some plains are hills.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Neither"
+      ],
+      "explanation": "Hills⊂mountains, mountains∩plains=∅ → No hill is plain (I). II doesn't follow."
+    },
+    "hi": {
+      "question": "सभी पहाड़ियाँ पर्वत। कोई पर्वत मैदान नहीं। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल I: कोई पहाड़ी मैदान नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0051",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "en": {
+      "question": "Some X are Y. All Y are Z. No Z is W. Some W are V. I. Some X are Z. II. Some Y are W. III. Some V are not Z.",
+      "options": [
+        "Only I",
+        "I and III",
+        "Only III",
+        "I and III follow"
+      ],
+      "explanation": "I: Some X→Y→Z ⇒ Some X are Z. II: Y⊂Z, Z∩W=∅ → No Y is W. III: Some W are V, no Z is W. Those V that are W are not Z. So Some V are not Z. I and III follow."
+    },
+    "hi": {
+      "question": "कुछ X,Y। सभी Y,Z। कोई Z,W नहीं। कुछ W,V। I,II,III?",
+      "options": [
+        "केवल I",
+        "I और III",
+        "केवल III",
+        "I और III"
+      ],
+      "explanation": "I और III अनुसरण करते हैं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0052",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "en": {
+      "question": "Some A are B. All A are C. I. Some B are C. II. All C are A.",
+      "options": [
+        "Only I",
+        "Only I follows",
+        "Only II",
+        "Both"
+      ],
+      "explanation": "Some A are B, All A are C. B that are A are also C. So Some B are C (I). II doesn't follow."
+    },
+    "hi": {
+      "question": "कुछ A,B। सभी A,C। I,II?",
+      "options": [
+        "केवल I",
+        "केवल I",
+        "केवल II",
+        "दोनों"
+      ],
+      "explanation": "केवल I: कुछ B,C हैं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0053",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "No tree is a herb. All herbs are plants. I. No tree is plant. II. Some plants are not trees.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Only II follows",
+        "Both"
+      ],
+      "explanation": "I doesn't follow (trees could be plants too). II: All herbs are plants, no tree is herb → herb-plants are not trees → Some plants are not trees. II follows."
+    },
+    "hi": {
+      "question": "कोई पेड़ जड़ी-बूटी नहीं। सभी जड़ी-बूटियाँ पौधे। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "केवल II",
+        "दोनों"
+      ],
+      "explanation": "केवल II अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0054",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "All pens are pencils. Some pencils are erasers. No eraser is sharpener. I. Some pencils are not sharpeners. II. No pen is sharpener. III. Some pens are erasers.",
+      "options": [
+        "Only I",
+        "I and II",
+        "Only II",
+        "None"
+      ],
+      "explanation": "I: Some pencils are erasers, no eraser is sharpener → those pencils are not sharpeners → Some pencils are not sharpeners. II: Pens⊂pencils. Some pencils are erasers→not sharpeners. But other pencils (and pens within them) could be sharpeners. No, actually: no eraser is sharpener. Pencils that are erasers are not sharpeners. But pencils that are not erasers might be sharpeners. Pens are subset of pencils. Some pens may be in the 'pencils that are sharpeners' if that exists. We can't say no pen is sharpener. II doesn't follow. III doesn't follow. Only I."
+    },
+    "hi": {
+      "question": "सभी पेन पेंसिल। कुछ पेंसिल इरेज़र। कोई इरेज़र शार्पनर नहीं। I,II,III?",
+      "options": [
+        "केवल I",
+        "I और II",
+        "केवल II",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल I: कुछ पेंसिल शार्पनर नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0055",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "Some clouds are rain. All rain are water. I. Some clouds are water. II. All water are rain.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Only I follows"
+      ],
+      "explanation": "Some clouds→rain→water ⇒ Some clouds are water (I). II doesn't follow."
+    },
+    "hi": {
+      "question": "कुछ बादल वर्षा। सभी वर्षा पानी। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "केवल I"
+      ],
+      "explanation": "केवल I अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0056",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "All grapes are fruits. No fruit is vegetable. I. No grape is vegetable. II. Some vegetables are fruits.",
+      "options": [
+        "Only I",
+        "Only I follows",
+        "Only II",
+        "Neither"
+      ],
+      "explanation": "Grapes⊂fruits, fruits∩vegetables=∅ → No grape is vegetable (I). II contradicts."
+    },
+    "hi": {
+      "question": "सभी अंगूर फल। कोई फल सब्ज़ी नहीं। I,II?",
+      "options": [
+        "केवल I",
+        "केवल I",
+        "केवल II",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल I: कोई अंगूर सब्ज़ी नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0057",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "All P are Q. All Q are R. Some R are S. No S is T. I. All P are R. II. Some Q are S. III. No P is T.",
+      "options": [
+        "Only I",
+        "I and II",
+        "Only I follows",
+        "All"
+      ],
+      "explanation": "I: P⊂Q⊂R → All P are R. II: Q⊂R, some R are S. Q may or may not be in S. III: P⊂Q⊂R, some R are S, no S is T. P may or may not be in S. Only I follows."
+    },
+    "hi": {
+      "question": "सभी P,Q। सभी Q,R। कुछ R,S। कोई S,T नहीं। I,II,III?",
+      "options": [
+        "केवल I",
+        "I और II",
+        "केवल I",
+        "सभी"
+      ],
+      "explanation": "केवल I अनुसरण करता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0058",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "No A is B. Some C are A. I. Some C are not B. II. No C is B.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Neither"
+      ],
+      "explanation": "Some C are A, no A is B → those C that are A are not B → Some C are not B (I). II is too strong."
+    },
+    "hi": {
+      "question": "कोई A,B नहीं। कुछ C,A हैं। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल I: कुछ C,B नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0059",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "All A are B. Some B are C. I. All A are C. II. Some A are C.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Neither"
+      ],
+      "explanation": "A⊂B, some B are C. A may not overlap C. Neither follows."
+    },
+    "hi": {
+      "question": "सभी A,B। कुछ B,C। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "कोई नहीं"
+      ],
+      "explanation": "कोई निश्चित निष्कर्ष नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0060",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "Some actors are singers. No singer is dancer. All dancers are performers. I. Some actors are dancers. II. Some actors are not dancers. III. Some performers are singers.",
+      "options": [
+        "Only II",
+        "Only II follows",
+        "I and II",
+        "All"
+      ],
+      "explanation": "I doesn't follow (actors that are singers are not dancers). II: Some actors are singers, no singer is dancer → those actors are not dancers → Some actors are not dancers. III: Dancers⊂performers, no singer is dancer. Performers that are dancers are not singers, but other performers may be singers. Can't say Some performers are singers. Only II."
+    },
+    "hi": {
+      "question": "कुछ कलाकार गायक। कोई गायक नर्तक नहीं। सभी नर्तक कलाकार। I,II,III?",
+      "options": [
+        "केवल II",
+        "केवल II",
+        "I और II",
+        "सभी"
+      ],
+      "explanation": "केवल II: कुछ कलाकार नर्तक नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0061",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "All A are B. No B is C. I. No A is C. II. Some A are C.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Only I follows",
+        "Neither"
+      ],
+      "explanation": "A⊂B, B∩C=∅ → No A is C (I). II doesn't follow."
+    },
+    "hi": {
+      "question": "सभी A,B। कोई B,C नहीं। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "केवल I",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल I: कोई A,C नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0062",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "All roses are flowers. Some flowers are red. All red are beautiful. I. Some roses may be beautiful. II. All beautiful are red. III. Some flowers are beautiful.",
+      "options": [
+        "Only III",
+        "I and III",
+        "Only I",
+        "All"
+      ],
+      "explanation": "I: 'May be' is possibility, not definite. III: Some flowers→red→beautiful ⇒ Some flowers are beautiful. Only III follows as definite."
+    },
+    "hi": {
+      "question": "सभी गुलाब फूल। कुछ फूल लाल। सभी लाल सुंदर। I,II,III?",
+      "options": [
+        "केवल III",
+        "I और III",
+        "केवल I",
+        "सभी"
+      ],
+      "explanation": "केवल III: कुछ फूल सुंदर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0063",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Some A are B. No B is C. All C are D. I. Some A are C. II. Some A are not C. III. No B is D.",
+      "options": [
+        "Only II",
+        "I and II",
+        "Only III",
+        "Only II follows"
+      ],
+      "explanation": "I doesn't follow (A that are B are not C). II: Some A are B, no B is C → those A are not C → Some A are not C. III: C⊂D, no B is C. B could be other D though. III doesn't follow. Only II."
+    },
+    "hi": {
+      "question": "कुछ A,B। कोई B,C नहीं। सभी C,D। I,II,III?",
+      "options": [
+        "केवल II",
+        "I और II",
+        "केवल III",
+        "केवल II"
+      ],
+      "explanation": "केवल II: कुछ A,C नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0064",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "en": {
+      "question": "All dogs are pets. Some pets are cats. I. Some dogs are cats. II. Some cats are pets.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Neither"
+      ],
+      "explanation": "I doesn't follow. II is conversion of 'Some pets are cats' → 'Some cats are pets'. Only II."
+    },
+    "hi": {
+      "question": "सभी कुत्ते पालतू। कुछ पालतू बिल्लियाँ। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल II: कुछ बिल्लियाँ पालतू।"
+    }
+  },
+  {
+    "id": "ntpc-r-0065",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "All M are N. Some N are O. No O is P. Some P are Q. I. Some N are not P. II. Some O are Q. III. No M is P.",
+      "options": [
+        "Only I",
+        "I and III",
+        "Only I follows",
+        "None"
+      ],
+      "explanation": "I: Some N are O, no O is P → those N are not P → Some N are not P. II: No O is P, some P are Q. Can't say about O and Q. III: M⊂N, some N are O→not P. But other N (containing M) could be P. III doesn't follow. Only I."
+    },
+    "hi": {
+      "question": "सभी M,N। कुछ N,O। कोई O,P नहीं। कुछ P,Q। I,II,III?",
+      "options": [
+        "केवल I",
+        "I और III",
+        "केवल I",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल I: कुछ N,P नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0066",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "All A are B. All B are C. I. Some C are A. II. All C are A.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Neither"
+      ],
+      "explanation": "A⊂B⊂C. All A are C, so Some C are A (I). II doesn't follow."
+    },
+    "hi": {
+      "question": "सभी A,B। सभी B,C। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल I: कुछ C,A हैं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0067",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "No A is B. All B are C. I. No A is C. II. Some C are not A.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Only II follows"
+      ],
+      "explanation": "I doesn't follow. II: All B are C, no A is B → those C that are B are not A → Some C are not A. II follows."
+    },
+    "hi": {
+      "question": "कोई A,B नहीं। सभी B,C। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "केवल II"
+      ],
+      "explanation": "केवल II: कुछ C,A नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0068",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "All A are B. Some B are C. No C is D. All D are E. I. Some A may be C. II. Some B are not D. III. Some E are C.",
+      "options": [
+        "Only II",
+        "I and II",
+        "II and III",
+        "All"
+      ],
+      "explanation": "I: Possibility - A could be among B that are C. Possible. II: Some B are C, no C is D → those B are not D → Some B are not D. III: D⊂E. No C is D. Can't say Some E are C. I (possibility) and II follow."
+    },
+    "hi": {
+      "question": "सभी A,B। कुछ B,C। कोई C,D नहीं। सभी D,E। I,II,III?",
+      "options": [
+        "केवल II",
+        "I और II",
+        "II और III",
+        "सभी"
+      ],
+      "explanation": "I (संभावना) और II अनुसरण करते हैं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0069",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "Some X are Y. All Y are Z. I. Some Z are X. II. All Z are Y.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Only I follows",
+        "Both"
+      ],
+      "explanation": "Some X→Y→Z. So Some X are Z, which converts to Some Z are X (I). II doesn't follow."
+    },
+    "hi": {
+      "question": "कुछ X,Y। सभी Y,Z। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "केवल I",
+        "दोनों"
+      ],
+      "explanation": "केवल I: कुछ Z,X हैं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0070",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "All A are B. No B is C. I. No A is C. II. Some C are B.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Neither"
+      ],
+      "explanation": "A⊂B, B∩C=∅ → No A is C (I). II contradicts."
+    },
+    "hi": {
+      "question": "सभी A,B। कोई B,C नहीं। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल I: कोई A,C नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0071",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "en": {
+      "question": "Some A are B. All B are C. Some C are D. No D is E. I. Some A are C. II. Some A are D. III. Some B are not E.",
+      "options": [
+        "Only I and III",
+        "Only II",
+        "All",
+        "Only I"
+      ],
+      "explanation": "I: Some A→B→C ⇒ Some A are C. II: Some C are D. A→B→C. A may or may not be in D. III: B⊂C, some C are D, no D is E. B could be D (then not E) or not D (could be E). Can't say. Only I follows."
+    },
+    "hi": {
+      "question": "कुछ A,B। सभी B,C। कुछ C,D। कोई D,E नहीं। I,II,III?",
+      "options": [
+        "केवल I और III",
+        "केवल II",
+        "सभी",
+        "केवल I"
+      ],
+      "explanation": "केवल I: कुछ A,C हैं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0072",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "All chairs are tables. All tables are furniture. I. All furniture are chairs. II. All chairs are furniture.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both",
+        "Neither"
+      ],
+      "explanation": "Chairs⊂tables⊂furniture. II follows. I is reverse, doesn't."
+    },
+    "hi": {
+      "question": "सभी कुर्सियाँ मेज। सभी मेज फर्नीचर। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "दोनों",
+        "कोई नहीं"
+      ],
+      "explanation": "केवल II: सभी कुर्सियाँ फर्नीचर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0073",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "Some A are B. No B is C. I. Some A are not C. II. No A is C.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Only I follows",
+        "Both"
+      ],
+      "explanation": "Some A are B, no B is C → those A are not C → Some A are not C (I). II too strong."
+    },
+    "hi": {
+      "question": "कुछ A,B। कोई B,C नहीं। I,II?",
+      "options": [
+        "केवल I",
+        "केवल II",
+        "केवल I",
+        "दोनों"
+      ],
+      "explanation": "केवल I: कुछ A,C नहीं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0074",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. Cannot determine; A and C may be separate"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine; A and C may be separate"
+    }
+  },
+  {
+    "id": "ntpc-r-0075",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0076",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some C are not A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion follows. B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are not A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    }
+  },
+  {
+    "id": "ntpc-r-0077",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. We know some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। We know some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0078",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0079",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion follows. Some A are C = Some C are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। Some A are C = Some C are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0080",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0081",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some A are not C.",
+      "options": [
+        "Possible but not definite",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion is possible but not necessarily true. A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some A are not C.",
+      "options": [
+        "Possible but not definite",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
+    }
+  },
+  {
+    "id": "ntpc-r-0082",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion follows. A⊆B⊆C ∴ A⊆C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆B⊆C ∴ A⊆C"
+    }
+  },
+  {
+    "id": "ntpc-r-0083",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some A are C.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. Cannot determine; A and C may be separate"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine; A and C may be separate"
+    }
+  },
+  {
+    "id": "ntpc-r-0084",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0085",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: No A is C.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. Cannot say — some A could be C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot say — some A could be C"
+    }
+  },
+  {
+    "id": "ntpc-r-0086",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion follows. A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    }
+  },
+  {
+    "id": "ntpc-r-0087",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0088",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some B are not A.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. All A are B, some B may not be A but not necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some B are not A.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। All A are B, some B may not be A but not necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0089",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. Only some A are B, not all"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Only some A are B, not all"
+    }
+  },
+  {
+    "id": "ntpc-r-0090",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some A are not C.",
+      "options": [
+        "Possible but not definite",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion is possible but not necessarily true. A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some A are not C.",
+      "options": [
+        "Possible but not definite",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
+    }
+  },
+  {
+    "id": "ntpc-r-0091",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion follows. Some A are C = Some C are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। Some A are C = Some C are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0092",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some B are not A.",
+      "options": [
+        "Follows (True)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. All A are B, some B may not be A but not necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some B are not A.",
+      "options": [
+        "Follows (True)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। All A are B, some B may not be A but not necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0093",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. A⊆C, so some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। A⊆C, so some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0094",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0095",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion follows. Some A are C = Some C are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। Some A are C = Some C are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0096",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Possible but not definite",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion is possible but not necessarily true. A⊆B, B∩C≠∅. A may or may not overlap C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Possible but not definite",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A⊆B, B∩C≠∅. A may or may not overlap C"
+    }
+  },
+  {
+    "id": "ntpc-r-0097",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: No C is A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion does NOT follow. C could contain non-B elements that are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: No C is A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। C could contain non-B elements that are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0098",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. Cannot determine; A and C may be separate"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine; A and C may be separate"
+    }
+  },
+  {
+    "id": "ntpc-r-0099",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some C are A.",
+      "options": [
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. Cannot determine"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine"
+    }
+  },
+  {
+    "id": "ntpc-r-0100",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0101",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: All C are A.",
+      "options": [
+        "Follows in some cases",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. C contains B which is not in A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: All C are A.",
+      "options": [
+        "Follows in some cases",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। C contains B which is not in A"
+    }
+  },
+  {
+    "id": "ntpc-r-0102",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some B are not A.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. All A are B, some B may not be A but not necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some B are not A.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। All A are B, some B may not be A but not necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0103",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: No C is A.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion does NOT follow. C could contain non-B elements that are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: No C is A.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। C could contain non-B elements that are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0104",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some B are not A.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. All A are B, some B may not be A but not necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some B are not A.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। All A are B, some B may not be A but not necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0105",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some C are not A.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion follows. B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are not A.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    }
+  },
+  {
+    "id": "ntpc-r-0106",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some C are not A.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion follows. B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are not A.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    }
+  },
+  {
+    "id": "ntpc-r-0107",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. A⊆C, so some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। A⊆C, so some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0108",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0109",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: All C are A.",
+      "options": [
+        "Cannot be determined",
+        "Follows in some cases",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. C contains B which is not in A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: All C are A.",
+      "options": [
+        "Cannot be determined",
+        "Follows in some cases",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। C contains B which is not in A"
+    }
+  },
+  {
+    "id": "ntpc-r-0110",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion follows. Some A are C = Some C are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। Some A are C = Some C are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0111",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. A⊆C, so some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। A⊆C, so some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0112",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some B are not A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. All A are B, some B may not be A but not necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some B are not A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। All A are B, some B may not be A but not necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0113",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion does NOT follow. A⊆C, so some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। A⊆C, so some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0114",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. Only some A are B, not all"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Only some A are B, not all"
+    }
+  },
+  {
+    "id": "ntpc-r-0115",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion follows. A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    }
+  },
+  {
+    "id": "ntpc-r-0116",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. Cannot say — some A could be C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot say — some A could be C"
+    }
+  },
+  {
+    "id": "ntpc-r-0117",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. We know some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। We know some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0118",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. A⊆C, so some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। A⊆C, so some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0119",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: No C is A.",
+      "options": [
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. C could contain non-B elements that are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: No C is A.",
+      "options": [
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। C could contain non-B elements that are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0120",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0121",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion follows. A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    }
+  },
+  {
+    "id": "ntpc-r-0122",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: No C is A.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. C could contain non-B elements that are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: No C is A.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। C could contain non-B elements that are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0123",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some C are not A.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion follows. B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are not A.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    }
+  },
+  {
+    "id": "ntpc-r-0124",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0125",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some A are not C.",
+      "options": [
+        "Does not follow (False)",
+        "Possible but not definite",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion is possible but not necessarily true. A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some A are not C.",
+      "options": [
+        "Does not follow (False)",
+        "Possible but not definite",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
+    }
+  },
+  {
+    "id": "ntpc-r-0126",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some B are not A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. All A are B, some B may not be A but not necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some B are not A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। All A are B, some B may not be A but not necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0127",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: No C is A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion does NOT follow. C could contain non-B elements that are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: No C is A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। C could contain non-B elements that are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0128",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some A are not C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows (True)",
+        "Possible but not definite",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion is possible but not necessarily true. A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some A are not C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows (True)",
+        "Possible but not definite",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
+    }
+  },
+  {
+    "id": "ntpc-r-0129",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Follows in some cases",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Follows in some cases",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0130",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some C are not A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion follows. B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are not A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    }
+  },
+  {
+    "id": "ntpc-r-0131",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. We know some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। We know some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0132",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: All A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion follows. A⊆B⊆C ∴ A⊆C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆B⊆C ∴ A⊆C"
+    }
+  },
+  {
+    "id": "ntpc-r-0133",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some C are A.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. Cannot determine"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine"
+    }
+  },
+  {
+    "id": "ntpc-r-0134",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. We know some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। We know some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0135",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion follows. Some A are C = Some C are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। Some A are C = Some C are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0136",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0137",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some A are C.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. Cannot determine; A and C may be separate"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine; A and C may be separate"
+    }
+  },
+  {
+    "id": "ntpc-r-0138",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0139",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. Only some A are B, not all"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Only some A are B, not all"
+    }
+  },
+  {
+    "id": "ntpc-r-0140",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. Some A could be C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A could be C"
+    }
+  },
+  {
+    "id": "ntpc-r-0141",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. Some A could be C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A could be C"
+    }
+  },
+  {
+    "id": "ntpc-r-0142",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0143",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some B are not A.",
+      "options": [
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion does NOT follow. All A are B, some B may not be A but not necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some B are not A.",
+      "options": [
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। All A are B, some B may not be A but not necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0144",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. A⊆C, so some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। A⊆C, so some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0145",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: No C is A.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion does NOT follow. C could contain non-B elements that are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: No C is A.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। C could contain non-B elements that are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0146",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some B are not A.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. All A are B, some B may not be A but not necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some B are not A.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। All A are B, some B may not be A but not necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0147",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion follows. A⊆B⊆C ∴ A⊆C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆B⊆C ∴ A⊆C"
+    }
+  },
+  {
+    "id": "ntpc-r-0148",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0149",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0150",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some C are not A.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion follows. B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are not A.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    }
+  },
+  {
+    "id": "ntpc-r-0151",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: No C is A.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. C could contain non-B elements that are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: No C is A.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। C could contain non-B elements that are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0152",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some B are not A.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. All A are B, some B may not be A but not necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some B are not A.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। All A are B, some B may not be A but not necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0153",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some C are not A.",
+      "options": [
+        "Cannot be determined",
+        "Follows in some cases",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion follows. B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are not A.",
+      "options": [
+        "Cannot be determined",
+        "Follows in some cases",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    }
+  },
+  {
+    "id": "ntpc-r-0154",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion follows. A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    }
+  },
+  {
+    "id": "ntpc-r-0155",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Follows (True)",
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion follows. Some A are C = Some C are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Follows (True)",
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। Some A are C = Some C are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0156",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. Some A could be C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A could be C"
+    }
+  },
+  {
+    "id": "ntpc-r-0157",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0158",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some C are not A.",
+      "options": [
+        "Follows (True)",
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion follows. B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are not A.",
+      "options": [
+        "Follows (True)",
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    }
+  },
+  {
+    "id": "ntpc-r-0159",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0160",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion follows. A⊆B⊆C ∴ A⊆C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆B⊆C ∴ A⊆C"
+    }
+  },
+  {
+    "id": "ntpc-r-0161",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: All A are C.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion follows. A⊆B⊆C ∴ A⊆C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆B⊆C ∴ A⊆C"
+    }
+  },
+  {
+    "id": "ntpc-r-0162",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: All C are A.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion does NOT follow. C contains B which is not in A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: All C are A.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। C contains B which is not in A"
+    }
+  },
+  {
+    "id": "ntpc-r-0163",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0164",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
+      "options": [
+        "Cannot be determined",
+        "Follows in some cases",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Cannot be determined",
+        "Follows in some cases",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0165",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion follows. A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    }
+  },
+  {
+    "id": "ntpc-r-0166",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Cannot be determined",
+        "Possible but not definite",
+        "Does not follow (False)",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion is possible but not necessarily true. A⊆B, B∩C≠∅. A may or may not overlap C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Cannot be determined",
+        "Possible but not definite",
+        "Does not follow (False)",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A⊆B, B∩C≠∅. A may or may not overlap C"
+    }
+  },
+  {
+    "id": "ntpc-r-0167",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. A⊆C, so some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। A⊆C, so some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0168",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some C are A.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. Cannot determine"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine"
+    }
+  },
+  {
+    "id": "ntpc-r-0169",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Follows (True)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Follows (True)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0170",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some C are A.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. Cannot determine"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine"
+    }
+  },
+  {
+    "id": "ntpc-r-0171",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some A are not C.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Possible but not definite"
+      ],
+      "explanation": "Conclusion is possible but not necessarily true. A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some A are not C.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Possible but not definite"
+      ],
+      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
+    }
+  },
+  {
+    "id": "ntpc-r-0172",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some A are not C.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Possible but not definite",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion is possible but not necessarily true. A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some A are not C.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Possible but not definite",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
+    }
+  },
+  {
+    "id": "ntpc-r-0173",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0174",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: No A is C.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion does NOT follow. Some A could be C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A could be C"
+    }
+  },
+  {
+    "id": "ntpc-r-0175",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. Only some A are B, not all"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Only some A are B, not all"
+    }
+  },
+  {
+    "id": "ntpc-r-0176",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Possible but not definite",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion is possible but not necessarily true. A⊆B, B∩C≠∅. A may or may not overlap C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Possible but not definite",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A⊆B, B∩C≠∅. A may or may not overlap C"
+    }
+  },
+  {
+    "id": "ntpc-r-0177",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some C are not A.",
+      "options": [
+        "Follows (True)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion follows. B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are not A.",
+      "options": [
+        "Follows (True)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। B⊆C, B∩A=∅ ∴ B are in C but not in A"
+    }
+  },
+  {
+    "id": "ntpc-r-0178",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: No C is A.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. C could contain non-B elements that are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: No C is A.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। C could contain non-B elements that are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0179",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some A are not C.",
+      "options": [
+        "Possible but not definite",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion is possible but not necessarily true. A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some A are not C.",
+      "options": [
+        "Possible but not definite",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A∖B ≠ ∅, C⊆B. A∖B and C are disjoint, but other A could be C"
+    }
+  },
+  {
+    "id": "ntpc-r-0180",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion does NOT follow. A⊆C, so some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। A⊆C, so some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0181",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: All A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. Only some A are B, not all"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Only some A are B, not all"
+    }
+  },
+  {
+    "id": "ntpc-r-0182",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. We know some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। We know some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0183",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: No A is C.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion does NOT follow. Cannot say — some A could be C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot say — some A could be C"
+    }
+  },
+  {
+    "id": "ntpc-r-0184",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some A are C.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion follows. A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    }
+  },
+  {
+    "id": "ntpc-r-0185",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: All C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. C contains B which is not in A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: All C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। C contains B which is not in A"
+    }
+  },
+  {
+    "id": "ntpc-r-0186",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: Some A are C.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. Cannot determine; A and C may be separate"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine; A and C may be separate"
+    }
+  },
+  {
+    "id": "ntpc-r-0187",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: All C are A.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. C contains B which is not in A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: All C are A.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। C contains B which is not in A"
+    }
+  },
+  {
+    "id": "ntpc-r-0188",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some B are not A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. All A are B, some B may not be A but not necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some B are not A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। All A are B, some B may not be A but not necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0189",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: Some C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. Cannot determine"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows (True)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot determine"
+    }
+  },
+  {
+    "id": "ntpc-r-0190",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0191",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion follows. A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    }
+  },
+  {
+    "id": "ntpc-r-0192",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. A⊆C, so some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। A⊆C, so some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0193",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: All C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. C contains B which is not in A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: All C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। C contains B which is not in A"
+    }
+  },
+  {
+    "id": "ntpc-r-0194",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. Cannot say — some A could be C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Cannot be determined",
+        "Follows in some cases",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Cannot say — some A could be C"
+    }
+  },
+  {
+    "id": "ntpc-r-0195",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: All A are C.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion does NOT follow. Only some A are B, not all"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Cannot be determined",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Only some A are B, not all"
+    }
+  },
+  {
+    "id": "ntpc-r-0196",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion follows. A⊆C ∴ some C are A"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆C ∴ some C are A"
+    }
+  },
+  {
+    "id": "ntpc-r-0197",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0198",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some B are not A.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. All A are B, some B may not be A but not necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some B are not A.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। All A are B, some B may not be A but not necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0199",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion follows. A⊆B⊆C ∴ A⊆C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆B⊆C ∴ A⊆C"
+    }
+  },
+  {
+    "id": "ntpc-r-0200",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: Some A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined",
+        "Possible but not definite"
+      ],
+      "explanation": "Conclusion is possible but not necessarily true. Possible if the B that are C include A"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined",
+        "Possible but not definite"
+      ],
+      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। Possible if the B that are C include A"
+    }
+  },
+  {
+    "id": "ntpc-r-0201",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: Some C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined",
+        "Possible but not definite"
+      ],
+      "explanation": "Conclusion is possible but not necessarily true. A⊆B, B∩C≠∅. A may or may not overlap C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: Some C are A.",
+      "options": [
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined",
+        "Possible but not definite"
+      ],
+      "explanation": "निष्कर्ष संभव है लेकिन निश्चित नहीं। A⊆B, B∩C≠∅. A may or may not overlap C"
+    }
+  },
+  {
+    "id": "ntpc-r-0202",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0203",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. We know some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Follows in some cases",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। We know some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0204",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: Some B are not A.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "Conclusion does NOT follow. All A are B, some B may not be A but not necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some B are not A.",
+      "options": [
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। All A are B, some B may not be A but not necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0205",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. All B are C.\nConclusion: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion follows. A⊆B⊆C ∴ A⊆C"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A⊆B⊆C ∴ A⊆C"
+    }
+  },
+  {
+    "id": "ntpc-r-0206",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion follows. A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    }
+  },
+  {
+    "id": "ntpc-r-0207",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. We know some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows in some cases",
+        "Does not follow (False)",
+        "Follows (True)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। We know some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0208",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. All A are B.\n2. Some B are C.\nConclusion: All A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "Conclusion does NOT follow. Not all B are C, so not all A are C necessarily"
+    },
+    "hi": {
+      "question": "कथन:\n1. सभी A, B हैं।\n2. कुछ B, C हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Not all B are C, so not all A are C necessarily"
+    }
+  },
+  {
+    "id": "ntpc-r-0209",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. We know some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। We know some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0210",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. No A is B.\n2. All B are C.\nConclusion: All C are A.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. C contains B which is not in A"
+    },
+    "hi": {
+      "question": "कथन:\n1. कोई A, B नहीं है।\n2. सभी B, C हैं।\nनिष्कर्ष: All C are A.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। C contains B which is not in A"
+    }
+  },
+  {
+    "id": "ntpc-r-0211",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion does NOT follow. We know some A are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: No A is C.",
+      "options": [
+        "Follows (True)",
+        "Does not follow (False)",
+        "Follows in some cases",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। We know some A are C"
+    }
+  },
+  {
+    "id": "ntpc-r-0212",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are B.\n2. All B are C.\nConclusion: Some A are C.",
+      "options": [
+        "Follows in some cases",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "Conclusion follows. A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B हैं।\n2. सभी B, C हैं।\nनिष्कर्ष: Some A are C.",
+      "options": [
+        "Follows in some cases",
+        "Follows (True)",
+        "Does not follow (False)",
+        "Cannot be determined"
+      ],
+      "explanation": "निष्कर्ष अनुसरण करता है। A∩B≠∅, B⊆C ∴ A∩C≠∅"
+    }
+  },
+  {
+    "id": "ntpc-r-0213",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Statements:\n1. Some A are not B.\n2. All C are B.\nConclusion: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "Conclusion does NOT follow. Some A are not even B, so not all are C"
+    },
+    "hi": {
+      "question": "कथन:\n1. कुछ A, B नहीं हैं।\n2. सभी C, B हैं।\nनिष्कर्ष: All A are C.",
+      "options": [
+        "Follows in some cases",
+        "Cannot be determined",
+        "Follows (True)",
+        "Does not follow (False)"
+      ],
+      "explanation": "निष्कर्ष अनुसरण नहीं करता। Some A are not even B, so not all are C"
+    }
+  }
 ]

@@ -1,1 +1,3850 @@
-[{"id":"groupd-r-0001","correctOption":"C","difficulty":"hard","sourceYear":2024,"en":{"question":"How many triangles are there in a pentagon with all its diagonals drawn?","options":["25","30","35","40"],"explanation":"A pentagon with all its diagonals drawn (pentagram inside pentagon) contains exactly 35 triangles."},"hi":{"question":"एक पंचभुज में जिसके सभी विकर्ण खींचे गए हैं, कितने त्रिभुज हैं?","options":["25","30","35","40"],"explanation":"एक पंचभुज जिसके सभी विकर्ण खींचे गए हैं (पंचभुज के अंदर पंचकोण) में ठीक 35 त्रिभुज होते हैं।"}},{"id":"groupd-r-0002","correctOption":"C","difficulty":"medium","sourceYear":2023,"en":{"question":"A cube is painted red on all six faces and then cut into 64 smaller cubes of equal size. How many smaller cubes have no face painted?","options":["4","6","8","12"],"explanation":"A 4x4x4 cube (64 small cubes). Inner cubes with no painted faces = (n-2)^3 = 2^3 = 8."},"hi":{"question":"एक घन को सभी छह फलकों पर लाल रंगा और फिर 64 छोटे घनों में काटा। कितने छोटे घनों का कोई फलक रंगा नहीं है?","options":["4","6","8","12"],"explanation":"4×4×4 घन (64 छोटे घन)। बिना रंगे फलक वाले = (n-2)^3 = 2^3 = 8।"}},{"id":"groupd-r-0003","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"How many rectangles are there in a 3x3 grid?","options":["30","36","42","48"],"explanation":"Rectangles in m x n grid = m(m+1)/2 x n(n+1)/2. For 3x3: 6 x 6 = 36."},"hi":{"question":"3×3 ग्रिड में कितने आयत हैं?","options":["30","36","42","48"],"explanation":"m×n ग्रिड में आयत = m(m+1)/2 × n(n+1)/2। 3×3: 6×6 = 36।"}},{"id":"groupd-r-0004","correctOption":"C","difficulty":"medium","sourceYear":2023,"en":{"question":"A cube is painted blue on all faces and then cut into 125 smaller cubes. How many small cubes have exactly two faces painted?","options":["30","32","36","40"],"explanation":"For 5x5x5 cube: exactly two faces painted = 12 x (n-2) = 12 x 3 = 36."},"hi":{"question":"एक घन को सभी फलकों पर नीला रंगा और 125 छोटे घनों में काटा। कितने के ठीक दो फलक रंगे हैं?","options":["30","32","36","40"],"explanation":"5×5×5 घन: ठीक दो फलक रंगे = 12×(n-2) = 12×3 = 36।"}},{"id":"groupd-r-0005","correctOption":"D","difficulty":"easy","sourceYear":2024,"en":{"question":"How many squares are there on a standard chessboard?","options":["64","128","200","204"],"explanation":"Total squares = 1^2+2^2+...+8^2 = 64+49+36+25+16+9+4+1 = 204."},"hi":{"question":"एक मानक शतरंज बोर्ड पर कितने वर्ग हैं?","options":["64","128","200","204"],"explanation":"कुल वर्ग = 1^2+2^2+...+8^2 = 64+49+36+25+16+9+4+1 = 204।"}},{"id":"groupd-r-0006","correctOption":"A","difficulty":"easy","sourceYear":2023,"en":{"question":"Which is the mirror image of AMBULANCE when reflected in water?","options":["ECNALUBMA","AMBULANCE","Special characters","ECNALUBMA but reversed"],"explanation":"A mirror reflection reverses the order: AMBULANCE becomes ECNALUBMA."},"hi":{"question":"पानी में प्रतिबिंबित होने पर AMBULANCE की दर्पण छवि क्या है?","options":["ECNALUBMA","AMBULANCE","विशेष चिह्न","ECNALUBMA लेकिन उल्टा"],"explanation":"दर्पण प्रतिबिंब क्रम को उल्टा करता है: AMBULANCE → ECNALUBMA।"}},{"id":"groupd-r-0007","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"How many triangles in a figure formed by drawing both diagonals of a square?","options":["6","8","10","12"],"explanation":"A square with both diagonals creates 8 triangles: 4 small + 4 large."},"hi":{"question":"एक वर्ग के दोनों विकर्ण खींचने से बनी आकृति में कितने त्रिभुज हैं?","options":["6","8","10","12"],"explanation":"दोनों विकर्णों वाला वर्ग 8 त्रिभुज बनाता है: 4 छोटे + 4 बड़े।"}},{"id":"groupd-r-0008","correctOption":"C","difficulty":"medium","sourceYear":2023,"en":{"question":"A paper is folded 3 times and 2 punches are made. When unfolded, how many holes appear?","options":["8","12","16","24"],"explanation":"Each fold doubles layers. After 3 folds: 2^3=8 layers. 2 punches x 8 layers = 16 holes."},"hi":{"question":"एक कागज 3 बार मोड़ा गया और 2 छेद किए गए। खोलने पर कितने छेद दिखेंगे?","options":["8","12","16","24"],"explanation":"प्रत्येक मोड़ परतें दोगुनी करता है। 3 मोड़: 2^3=8 परतें। 2 छेद × 8 = 16 छेद।"}}]
+[
+  {
+    "id": "groupd-r-0001",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How many triangles are there in a pentagon with all its diagonals drawn?",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "explanation": "A pentagon with all its diagonals drawn (pentagram inside pentagon) contains exactly 35 triangles."
+    },
+    "hi": {
+      "question": "एक पंचभुज में जिसके सभी विकर्ण खींचे गए हैं, कितने त्रिभुज हैं?",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "explanation": "एक पंचभुज जिसके सभी विकर्ण खींचे गए हैं (पंचभुज के अंदर पंचकोण) में ठीक 35 त्रिभुज होते हैं।"
+    }
+  },
+  {
+    "id": "groupd-r-0002",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "A cube is painted red on all six faces and then cut into 64 smaller cubes of equal size. How many smaller cubes have no face painted?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "explanation": "A 4x4x4 cube (64 small cubes). Inner cubes with no painted faces = (n-2)^3 = 2^3 = 8."
+    },
+    "hi": {
+      "question": "एक घन को सभी छह फलकों पर लाल रंगा और फिर 64 छोटे घनों में काटा। कितने छोटे घनों का कोई फलक रंगा नहीं है?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "explanation": "4×4×4 घन (64 छोटे घन)। बिना रंगे फलक वाले = (n-2)^3 = 2^3 = 8।"
+    }
+  },
+  {
+    "id": "groupd-r-0003",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How many rectangles are there in a 3x3 grid?",
+      "options": [
+        "30",
+        "36",
+        "42",
+        "48"
+      ],
+      "explanation": "Rectangles in m x n grid = m(m+1)/2 x n(n+1)/2. For 3x3: 6 x 6 = 36."
+    },
+    "hi": {
+      "question": "3×3 ग्रिड में कितने आयत हैं?",
+      "options": [
+        "30",
+        "36",
+        "42",
+        "48"
+      ],
+      "explanation": "m×n ग्रिड में आयत = m(m+1)/2 × n(n+1)/2। 3×3: 6×6 = 36।"
+    }
+  },
+  {
+    "id": "groupd-r-0004",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "A cube is painted blue on all faces and then cut into 125 smaller cubes. How many small cubes have exactly two faces painted?",
+      "options": [
+        "30",
+        "32",
+        "36",
+        "40"
+      ],
+      "explanation": "For 5x5x5 cube: exactly two faces painted = 12 x (n-2) = 12 x 3 = 36."
+    },
+    "hi": {
+      "question": "एक घन को सभी फलकों पर नीला रंगा और 125 छोटे घनों में काटा। कितने के ठीक दो फलक रंगे हैं?",
+      "options": [
+        "30",
+        "32",
+        "36",
+        "40"
+      ],
+      "explanation": "5×5×5 घन: ठीक दो फलक रंगे = 12×(n-2) = 12×3 = 36।"
+    }
+  },
+  {
+    "id": "groupd-r-0005",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How many squares are there on a standard chessboard?",
+      "options": [
+        "64",
+        "128",
+        "200",
+        "204"
+      ],
+      "explanation": "Total squares = 1^2+2^2+...+8^2 = 64+49+36+25+16+9+4+1 = 204."
+    },
+    "hi": {
+      "question": "एक मानक शतरंज बोर्ड पर कितने वर्ग हैं?",
+      "options": [
+        "64",
+        "128",
+        "200",
+        "204"
+      ],
+      "explanation": "कुल वर्ग = 1^2+2^2+...+8^2 = 64+49+36+25+16+9+4+1 = 204।"
+    }
+  },
+  {
+    "id": "groupd-r-0006",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Which is the mirror image of AMBULANCE when reflected in water?",
+      "options": [
+        "ECNALUBMA",
+        "AMBULANCE",
+        "Special characters",
+        "ECNALUBMA but reversed"
+      ],
+      "explanation": "A mirror reflection reverses the order: AMBULANCE becomes ECNALUBMA."
+    },
+    "hi": {
+      "question": "पानी में प्रतिबिंबित होने पर AMBULANCE की दर्पण छवि क्या है?",
+      "options": [
+        "ECNALUBMA",
+        "AMBULANCE",
+        "विशेष चिह्न",
+        "ECNALUBMA लेकिन उल्टा"
+      ],
+      "explanation": "दर्पण प्रतिबिंब क्रम को उल्टा करता है: AMBULANCE → ECNALUBMA।"
+    }
+  },
+  {
+    "id": "groupd-r-0007",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How many triangles in a figure formed by drawing both diagonals of a square?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "explanation": "A square with both diagonals creates 8 triangles: 4 small + 4 large."
+    },
+    "hi": {
+      "question": "एक वर्ग के दोनों विकर्ण खींचने से बनी आकृति में कितने त्रिभुज हैं?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "explanation": "दोनों विकर्णों वाला वर्ग 8 त्रिभुज बनाता है: 4 छोटे + 4 बड़े।"
+    }
+  },
+  {
+    "id": "groupd-r-0008",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "A paper is folded 3 times and 2 punches are made. When unfolded, how many holes appear?",
+      "options": [
+        "8",
+        "12",
+        "16",
+        "24"
+      ],
+      "explanation": "Each fold doubles layers. After 3 folds: 2^3=8 layers. 2 punches x 8 layers = 16 holes."
+    },
+    "hi": {
+      "question": "एक कागज 3 बार मोड़ा गया और 2 छेद किए गए। खोलने पर कितने छेद दिखेंगे?",
+      "options": [
+        "8",
+        "12",
+        "16",
+        "24"
+      ],
+      "explanation": "प्रत्येक मोड़ परतें दोगुनी करता है। 3 मोड़: 2^3=8 परतें। 2 छेद × 8 = 16 छेद।"
+    }
+  },
+  {
+    "id": "grpd-r-0009",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (cross-shaped net with 6 squares (standard)), Faces that are separated by one face in the net become opposite in the cube.",
+      "options": [
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net",
+        "Faces that are separated by one face in the net become opposite in the cube",
+        "Adjacent faces in net are always opposite"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. Faces that are separated by one face in the net become opposite in the cube"
+    },
+    "hi": {
+      "question": "एक घन के जाल (cross-shaped net with 6 squares (standard)) में, Faces that are separated by one face in the net become opposite in the cube।",
+      "options": [
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net",
+        "Faces that are separated by one face in the net become opposite in the cube",
+        "Adjacent faces in net are always opposite"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। Faces that are separated by one face in the net become opposite in the cube"
+    }
+  },
+  {
+    "id": "grpd-r-0010",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a square?",
+      "options": [
+        "same square (symmetric)",
+        "same square",
+        "upside-down square",
+        "rotated square"
+      ],
+      "explanation": "Mirror flips left-right. square → same square (symmetric)."
+    },
+    "hi": {
+      "question": "square का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "same square (symmetric)",
+        "same square",
+        "upside-down square",
+        "rotated square"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। square → same square (symmetric)।"
+    }
+  },
+  {
+    "id": "grpd-r-0011",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded half, then a triangle cut at the edge. When unfolded, what pattern appears?",
+      "options": [
+        "single pattern at center",
+        "diamond/rhombus shape when unfolded",
+        "no pattern",
+        "random pattern"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → diamond/rhombus shape when unfolded."
+    },
+    "hi": {
+      "question": "एक कागज को folded half, then a triangle cut at the edge। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "single pattern at center",
+        "diamond/rhombus shape when unfolded",
+        "no pattern",
+        "random pattern"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → diamond/rhombus shape when unfolded।"
+    }
+  },
+  {
+    "id": "grpd-r-0012",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a letter 'C'?",
+      "options": [
+        "upside-down letter 'C'",
+        "same letter 'C'",
+        "rotated letter 'C'",
+        "backwards 'C' (open right becomes open left)"
+      ],
+      "explanation": "Mirror flips left-right. letter 'C' → backwards 'C' (open right becomes open left)."
+    },
+    "hi": {
+      "question": "letter 'C' का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "upside-down letter 'C'",
+        "same letter 'C'",
+        "rotated letter 'C'",
+        "backwards 'C' (open right becomes open left)"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। letter 'C' → backwards 'C' (open right becomes open left)।"
+    }
+  },
+  {
+    "id": "grpd-r-0013",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded half twice, then corner cut off. When unfolded, what pattern appears?",
+      "options": [
+        "random pattern",
+        "no pattern",
+        "four corners cut (symmetric pattern)",
+        "single pattern at center"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → four corners cut (symmetric pattern)."
+    },
+    "hi": {
+      "question": "एक कागज को folded half twice, then corner cut off। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "random pattern",
+        "no pattern",
+        "four corners cut (symmetric pattern)",
+        "single pattern at center"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → four corners cut (symmetric pattern)।"
+    }
+  },
+  {
+    "id": "grpd-r-0014",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a letter 'C'?",
+      "options": [
+        "backwards 'C' (open right becomes open left)",
+        "upside-down letter 'C'",
+        "same letter 'C'",
+        "rotated letter 'C'"
+      ],
+      "explanation": "Mirror flips left-right. letter 'C' → backwards 'C' (open right becomes open left)."
+    },
+    "hi": {
+      "question": "letter 'C' का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "backwards 'C' (open right becomes open left)",
+        "upside-down letter 'C'",
+        "same letter 'C'",
+        "rotated letter 'C'"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। letter 'C' → backwards 'C' (open right becomes open left)।"
+    }
+  },
+  {
+    "id": "grpd-r-0015",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded diagonally once, then a hole punched. When unfolded, what pattern appears?",
+      "options": [
+        "single pattern at center",
+        "two holes at diagonal corners",
+        "random pattern",
+        "no pattern"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → two holes at diagonal corners."
+    },
+    "hi": {
+      "question": "एक कागज को folded diagonally once, then a hole punched। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "single pattern at center",
+        "two holes at diagonal corners",
+        "random pattern",
+        "no pattern"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → two holes at diagonal corners।"
+    }
+  },
+  {
+    "id": "grpd-r-0016",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ⬆ → ➡ → ⬇ → ⬅ → ⬆ → ?",
+      "options": [
+        "⬆",
+        "➡",
+        "□",
+        "⬅"
+      ],
+      "explanation": "Arrow rotates 90° clockwise each step"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ⬆ → ➡ → ⬇ → ⬅ → ⬆ → ?",
+      "options": [
+        "⬆",
+        "➡",
+        "□",
+        "⬅"
+      ],
+      "explanation": "Arrow rotates 90° clockwise each step"
+    }
+  },
+  {
+    "id": "grpd-r-0017",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a triangle?",
+      "options": [
+        "mirror image of triangle",
+        "same triangle",
+        "rotated triangle",
+        "inverted triangle (pointing down if raised above water)"
+      ],
+      "explanation": "Water reflection flips top-bottom. triangle → inverted triangle (pointing down if raised above water)."
+    },
+    "hi": {
+      "question": "triangle का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "mirror image of triangle",
+        "same triangle",
+        "rotated triangle",
+        "inverted triangle (pointing down if raised above water)"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। triangle → inverted triangle (pointing down if raised above water)।"
+    }
+  },
+  {
+    "id": "grpd-r-0018",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "□",
+        "○",
+        "□",
+        "△"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "□",
+        "○",
+        "□",
+        "△"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    }
+  },
+  {
+    "id": "grpd-r-0019",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ● → ● ● → ● ● ● → ● ● ● ● → ?",
+      "options": [
+        "● ● ● ● ●",
+        "● ● ● ●",
+        "● ● ● ●",
+        "⬆"
+      ],
+      "explanation": "Add one dot each step"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ● → ● ● → ● ● ● → ● ● ● ● → ?",
+      "options": [
+        "● ● ● ● ●",
+        "● ● ● ●",
+        "● ● ● ●",
+        "⬆"
+      ],
+      "explanation": "Add one dot each step"
+    }
+  },
+  {
+    "id": "grpd-r-0020",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a letter 'P'?",
+      "options": [
+        "same letter 'P'",
+        "upside-down letter 'P'",
+        "backwards 'P' (like d)",
+        "rotated letter 'P'"
+      ],
+      "explanation": "Mirror flips left-right. letter 'P' → backwards 'P' (like d)."
+    },
+    "hi": {
+      "question": "letter 'P' का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "same letter 'P'",
+        "upside-down letter 'P'",
+        "backwards 'P' (like d)",
+        "rotated letter 'P'"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। letter 'P' → backwards 'P' (like d)।"
+    }
+  },
+  {
+    "id": "grpd-r-0021",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'H'?",
+      "options": [
+        "same letter 'H'",
+        "same 'H' (symmetric top-bottom)",
+        "rotated letter 'H'",
+        "mirror image of letter 'H'"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'H' → same 'H' (symmetric top-bottom)."
+    },
+    "hi": {
+      "question": "letter 'H' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "same letter 'H'",
+        "same 'H' (symmetric top-bottom)",
+        "rotated letter 'H'",
+        "mirror image of letter 'H'"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'H' → same 'H' (symmetric top-bottom)।"
+    }
+  },
+  {
+    "id": "grpd-r-0022",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (net where all squares are connected edge-to-edge), In a cube, opposite faces never share an edge.",
+      "options": [
+        "In a cube, opposite faces never share an edge",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent",
+        "Adjacent faces in net are always opposite"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. In a cube, opposite faces never share an edge"
+    },
+    "hi": {
+      "question": "एक घन के जाल (net where all squares are connected edge-to-edge) में, In a cube, opposite faces never share an edge।",
+      "options": [
+        "In a cube, opposite faces never share an edge",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent",
+        "Adjacent faces in net are always opposite"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। In a cube, opposite faces never share an edge"
+    }
+  },
+  {
+    "id": "grpd-r-0023",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a triangle?",
+      "options": [
+        "upside-down triangle",
+        "rotated triangle",
+        "same triangle (symmetric)",
+        "same triangle"
+      ],
+      "explanation": "Mirror flips left-right. triangle → same triangle (symmetric)."
+    },
+    "hi": {
+      "question": "triangle का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "upside-down triangle",
+        "rotated triangle",
+        "same triangle (symmetric)",
+        "same triangle"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। triangle → same triangle (symmetric)।"
+    }
+  },
+  {
+    "id": "grpd-r-0024",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a semicircle open right?",
+      "options": [
+        "rotated semicircle open right",
+        "semicircle open left",
+        "upside-down semicircle open right",
+        "same semicircle open right"
+      ],
+      "explanation": "Mirror flips left-right. semicircle open right → semicircle open left."
+    },
+    "hi": {
+      "question": "semicircle open right का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "rotated semicircle open right",
+        "semicircle open left",
+        "upside-down semicircle open right",
+        "same semicircle open right"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। semicircle open right → semicircle open left।"
+    }
+  },
+  {
+    "id": "grpd-r-0025",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ⬜ → ⬛ → ⬜ → ⬛ → ⬜ → ?",
+      "options": [
+        "□",
+        "⬛",
+        "⬛",
+        "⬜"
+      ],
+      "explanation": "Alternating fill/empty"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ⬜ → ⬛ → ⬜ → ⬛ → ⬜ → ?",
+      "options": [
+        "□",
+        "⬛",
+        "⬛",
+        "⬜"
+      ],
+      "explanation": "Alternating fill/empty"
+    }
+  },
+  {
+    "id": "grpd-r-0026",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "○",
+        "○",
+        "△",
+        "△"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "○",
+        "○",
+        "△",
+        "△"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    }
+  },
+  {
+    "id": "grpd-r-0027",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded half twice, then corner cut off. When unfolded, what pattern appears?",
+      "options": [
+        "random pattern",
+        "no pattern",
+        "single pattern at center",
+        "four corners cut (symmetric pattern)"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → four corners cut (symmetric pattern)."
+    },
+    "hi": {
+      "question": "एक कागज को folded half twice, then corner cut off। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "random pattern",
+        "no pattern",
+        "single pattern at center",
+        "four corners cut (symmetric pattern)"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → four corners cut (symmetric pattern)।"
+    }
+  },
+  {
+    "id": "grpd-r-0028",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ⬆ → ➡ → ⬇ → ⬅ → ⬆ → ?",
+      "options": [
+        "⬆",
+        "⬇",
+        "□",
+        "➡"
+      ],
+      "explanation": "Arrow rotates 90° clockwise each step"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ⬆ → ➡ → ⬇ → ⬅ → ⬆ → ?",
+      "options": [
+        "⬆",
+        "⬇",
+        "□",
+        "➡"
+      ],
+      "explanation": "Arrow rotates 90° clockwise each step"
+    }
+  },
+  {
+    "id": "grpd-r-0029",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "□",
+        "△",
+        "○",
+        "△"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "□",
+        "△",
+        "○",
+        "△"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    }
+  },
+  {
+    "id": "grpd-r-0030",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a triangle?",
+      "options": [
+        "same triangle",
+        "rotated triangle",
+        "inverted triangle (pointing down if raised above water)",
+        "mirror image of triangle"
+      ],
+      "explanation": "Water reflection flips top-bottom. triangle → inverted triangle (pointing down if raised above water)."
+    },
+    "hi": {
+      "question": "triangle का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "same triangle",
+        "rotated triangle",
+        "inverted triangle (pointing down if raised above water)",
+        "mirror image of triangle"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। triangle → inverted triangle (pointing down if raised above water)।"
+    }
+  },
+  {
+    "id": "grpd-r-0031",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded in half once, then a circle is punched. When unfolded, what pattern appears?",
+      "options": [
+        "two circles (one on each layer)",
+        "random pattern",
+        "no pattern",
+        "single pattern at center"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → two circles (one on each layer)."
+    },
+    "hi": {
+      "question": "एक कागज को folded in half once, then a circle is punched। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "two circles (one on each layer)",
+        "random pattern",
+        "no pattern",
+        "single pattern at center"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → two circles (one on each layer)।"
+    }
+  },
+  {
+    "id": "grpd-r-0032",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ◐ → ◑ → ◒ → ◓ → ◐ → ?",
+      "options": [
+        "◓",
+        "△",
+        "◓",
+        "◑"
+      ],
+      "explanation": "Semicircle rotates 90° each step"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ◐ → ◑ → ◒ → ◓ → ◐ → ?",
+      "options": [
+        "◓",
+        "△",
+        "◓",
+        "◑"
+      ],
+      "explanation": "Semicircle rotates 90° each step"
+    }
+  },
+  {
+    "id": "grpd-r-0033",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'O'?",
+      "options": [
+        "same letter 'O'",
+        "same 'O' (symmetric)",
+        "mirror image of letter 'O'",
+        "rotated letter 'O'"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'O' → same 'O' (symmetric)."
+    },
+    "hi": {
+      "question": "letter 'O' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "same letter 'O'",
+        "same 'O' (symmetric)",
+        "mirror image of letter 'O'",
+        "rotated letter 'O'"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'O' → same 'O' (symmetric)।"
+    }
+  },
+  {
+    "id": "grpd-r-0034",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded half twice, then corner cut off. When unfolded, what pattern appears?",
+      "options": [
+        "no pattern",
+        "single pattern at center",
+        "four corners cut (symmetric pattern)",
+        "random pattern"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → four corners cut (symmetric pattern)."
+    },
+    "hi": {
+      "question": "एक कागज को folded half twice, then corner cut off। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "no pattern",
+        "single pattern at center",
+        "four corners cut (symmetric pattern)",
+        "random pattern"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → four corners cut (symmetric pattern)।"
+    }
+  },
+  {
+    "id": "grpd-r-0035",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ● → ● ● → ● ● ● → ● ● ● ● → ?",
+      "options": [
+        "● ● ●",
+        "● ● ● ● ●",
+        "○",
+        "● ● ●"
+      ],
+      "explanation": "Add one dot each step"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ● → ● ● → ● ● ● → ● ● ● ● → ?",
+      "options": [
+        "● ● ●",
+        "● ● ● ● ●",
+        "○",
+        "● ● ●"
+      ],
+      "explanation": "Add one dot each step"
+    }
+  },
+  {
+    "id": "grpd-r-0036",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ◐ → ◑ → ◒ → ◓ → ◐ → ?",
+      "options": [
+        "◒",
+        "□",
+        "◓",
+        "◑"
+      ],
+      "explanation": "Semicircle rotates 90° each step"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ◐ → ◑ → ◒ → ◓ → ◐ → ?",
+      "options": [
+        "◒",
+        "□",
+        "◓",
+        "◑"
+      ],
+      "explanation": "Semicircle rotates 90° each step"
+    }
+  },
+  {
+    "id": "grpd-r-0037",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'U'?",
+      "options": [
+        "rotated letter 'U'",
+        "mirror image of letter 'U'",
+        "same letter 'U'",
+        "inverted 'U' (like '∩')"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'U' → inverted 'U' (like '∩')."
+    },
+    "hi": {
+      "question": "letter 'U' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "rotated letter 'U'",
+        "mirror image of letter 'U'",
+        "same letter 'U'",
+        "inverted 'U' (like '∩')"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'U' → inverted 'U' (like '∩')।"
+    }
+  },
+  {
+    "id": "grpd-r-0038",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (net where all squares are connected edge-to-edge), In a cube, opposite faces never share an edge.",
+      "options": [
+        "In a cube, opposite faces never share an edge",
+        "Opposite faces share an edge in the net",
+        "Adjacent faces in net are always opposite",
+        "All faces in net are adjacent"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. In a cube, opposite faces never share an edge"
+    },
+    "hi": {
+      "question": "एक घन के जाल (net where all squares are connected edge-to-edge) में, In a cube, opposite faces never share an edge।",
+      "options": [
+        "In a cube, opposite faces never share an edge",
+        "Opposite faces share an edge in the net",
+        "Adjacent faces in net are always opposite",
+        "All faces in net are adjacent"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। In a cube, opposite faces never share an edge"
+    }
+  },
+  {
+    "id": "grpd-r-0039",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a arrow pointing right?",
+      "options": [
+        "rotated arrow pointing right",
+        "upside-down arrow pointing right",
+        "arrow pointing left",
+        "same arrow pointing right"
+      ],
+      "explanation": "Mirror flips left-right. arrow pointing right → arrow pointing left."
+    },
+    "hi": {
+      "question": "arrow pointing right का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "rotated arrow pointing right",
+        "upside-down arrow pointing right",
+        "arrow pointing left",
+        "same arrow pointing right"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। arrow pointing right → arrow pointing left।"
+    }
+  },
+  {
+    "id": "grpd-r-0040",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a circle with a dot on right?",
+      "options": [
+        "upside-down circle with a dot on right",
+        "circle with a dot on left",
+        "rotated circle with a dot on right",
+        "same circle with a dot on right"
+      ],
+      "explanation": "Mirror flips left-right. circle with a dot on right → circle with a dot on left."
+    },
+    "hi": {
+      "question": "circle with a dot on right का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "upside-down circle with a dot on right",
+        "circle with a dot on left",
+        "rotated circle with a dot on right",
+        "same circle with a dot on right"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। circle with a dot on right → circle with a dot on left।"
+    }
+  },
+  {
+    "id": "grpd-r-0041",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a triangle?",
+      "options": [
+        "inverted triangle (pointing down if raised above water)",
+        "rotated triangle",
+        "mirror image of triangle",
+        "same triangle"
+      ],
+      "explanation": "Water reflection flips top-bottom. triangle → inverted triangle (pointing down if raised above water)."
+    },
+    "hi": {
+      "question": "triangle का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "inverted triangle (pointing down if raised above water)",
+        "rotated triangle",
+        "mirror image of triangle",
+        "same triangle"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। triangle → inverted triangle (pointing down if raised above water)।"
+    }
+  },
+  {
+    "id": "grpd-r-0042",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (net with 4 in a row and 2 on sides), Faces that are separated by one face in the net become opposite in the cube.",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "Faces that are separated by one face in the net become opposite in the cube",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. Faces that are separated by one face in the net become opposite in the cube"
+    },
+    "hi": {
+      "question": "एक घन के जाल (net with 4 in a row and 2 on sides) में, Faces that are separated by one face in the net become opposite in the cube।",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "Faces that are separated by one face in the net become opposite in the cube",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। Faces that are separated by one face in the net become opposite in the cube"
+    }
+  },
+  {
+    "id": "grpd-r-0043",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ⬆ → ➡ → ⬇ → ⬅ → ⬆ → ?",
+      "options": [
+        "⬆",
+        "⬆",
+        "➡",
+        "➡"
+      ],
+      "explanation": "Arrow rotates 90° clockwise each step"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ⬆ → ➡ → ⬇ → ⬅ → ⬆ → ?",
+      "options": [
+        "⬆",
+        "⬆",
+        "➡",
+        "➡"
+      ],
+      "explanation": "Arrow rotates 90° clockwise each step"
+    }
+  },
+  {
+    "id": "grpd-r-0044",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded half, then a triangle cut at the edge. When unfolded, what pattern appears?",
+      "options": [
+        "random pattern",
+        "no pattern",
+        "single pattern at center",
+        "diamond/rhombus shape when unfolded"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → diamond/rhombus shape when unfolded."
+    },
+    "hi": {
+      "question": "एक कागज को folded half, then a triangle cut at the edge। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "random pattern",
+        "no pattern",
+        "single pattern at center",
+        "diamond/rhombus shape when unfolded"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → diamond/rhombus shape when unfolded।"
+    }
+  },
+  {
+    "id": "grpd-r-0045",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "□",
+        "○",
+        "□",
+        "△"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "□",
+        "○",
+        "□",
+        "△"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    }
+  },
+  {
+    "id": "grpd-r-0046",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded in half once, then a circle is punched. When unfolded, what pattern appears?",
+      "options": [
+        "no pattern",
+        "single pattern at center",
+        "two circles (one on each layer)",
+        "random pattern"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → two circles (one on each layer)."
+    },
+    "hi": {
+      "question": "एक कागज को folded in half once, then a circle is punched। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "no pattern",
+        "single pattern at center",
+        "two circles (one on each layer)",
+        "random pattern"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → two circles (one on each layer)।"
+    }
+  },
+  {
+    "id": "grpd-r-0047",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (net with 4 in a row and 2 on sides), The face opposite to the top in a standard cross-shaped net is the bottom face.",
+      "options": [
+        "The face opposite to the top in a standard cross-shaped net is the bottom face",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent",
+        "Adjacent faces in net are always opposite"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. The face opposite to the top in a standard cross-shaped net is the bottom face"
+    },
+    "hi": {
+      "question": "एक घन के जाल (net with 4 in a row and 2 on sides) में, The face opposite to the top in a standard cross-shaped net is the bottom face।",
+      "options": [
+        "The face opposite to the top in a standard cross-shaped net is the bottom face",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent",
+        "Adjacent faces in net are always opposite"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। The face opposite to the top in a standard cross-shaped net is the bottom face"
+    }
+  },
+  {
+    "id": "grpd-r-0048",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (cross-shaped net with 6 squares (standard)), Faces that are separated by one face in the net become opposite in the cube.",
+      "options": [
+        "Faces that are separated by one face in the net become opposite in the cube",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent",
+        "Adjacent faces in net are always opposite"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. Faces that are separated by one face in the net become opposite in the cube"
+    },
+    "hi": {
+      "question": "एक घन के जाल (cross-shaped net with 6 squares (standard)) में, Faces that are separated by one face in the net become opposite in the cube।",
+      "options": [
+        "Faces that are separated by one face in the net become opposite in the cube",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent",
+        "Adjacent faces in net are always opposite"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। Faces that are separated by one face in the net become opposite in the cube"
+    }
+  },
+  {
+    "id": "grpd-r-0049",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (net where all squares are connected edge-to-edge), Faces that are separated by one face in the net become opposite in the cube.",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "Faces that are separated by one face in the net become opposite in the cube",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. Faces that are separated by one face in the net become opposite in the cube"
+    },
+    "hi": {
+      "question": "एक घन के जाल (net where all squares are connected edge-to-edge) में, Faces that are separated by one face in the net become opposite in the cube।",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "Faces that are separated by one face in the net become opposite in the cube",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। Faces that are separated by one face in the net become opposite in the cube"
+    }
+  },
+  {
+    "id": "grpd-r-0050",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded diagonally once, then a hole punched. When unfolded, what pattern appears?",
+      "options": [
+        "random pattern",
+        "no pattern",
+        "single pattern at center",
+        "two holes at diagonal corners"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → two holes at diagonal corners."
+    },
+    "hi": {
+      "question": "एक कागज को folded diagonally once, then a hole punched। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "random pattern",
+        "no pattern",
+        "single pattern at center",
+        "two holes at diagonal corners"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → two holes at diagonal corners।"
+    }
+  },
+  {
+    "id": "grpd-r-0051",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (T-shaped net with 6 squares), In a cube, opposite faces never share an edge.",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "In a cube, opposite faces never share an edge",
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. In a cube, opposite faces never share an edge"
+    },
+    "hi": {
+      "question": "एक घन के जाल (T-shaped net with 6 squares) में, In a cube, opposite faces never share an edge।",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "In a cube, opposite faces never share an edge",
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। In a cube, opposite faces never share an edge"
+    }
+  },
+  {
+    "id": "grpd-r-0052",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'X'?",
+      "options": [
+        "rotated letter 'X'",
+        "mirror image of letter 'X'",
+        "same 'X' (symmetric)",
+        "same letter 'X'"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'X' → same 'X' (symmetric)."
+    },
+    "hi": {
+      "question": "letter 'X' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "rotated letter 'X'",
+        "mirror image of letter 'X'",
+        "same 'X' (symmetric)",
+        "same letter 'X'"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'X' → same 'X' (symmetric)।"
+    }
+  },
+  {
+    "id": "grpd-r-0053",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ◐ → ◑ → ◒ → ◓ → ◐ → ?",
+      "options": [
+        "□",
+        "◑",
+        "◓",
+        "◑"
+      ],
+      "explanation": "Semicircle rotates 90° each step"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ◐ → ◑ → ◒ → ◓ → ◐ → ?",
+      "options": [
+        "□",
+        "◑",
+        "◓",
+        "◑"
+      ],
+      "explanation": "Semicircle rotates 90° each step"
+    }
+  },
+  {
+    "id": "grpd-r-0054",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'H'?",
+      "options": [
+        "same letter 'H'",
+        "same 'H' (symmetric top-bottom)",
+        "mirror image of letter 'H'",
+        "rotated letter 'H'"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'H' → same 'H' (symmetric top-bottom)."
+    },
+    "hi": {
+      "question": "letter 'H' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "same letter 'H'",
+        "same 'H' (symmetric top-bottom)",
+        "mirror image of letter 'H'",
+        "rotated letter 'H'"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'H' → same 'H' (symmetric top-bottom)।"
+    }
+  },
+  {
+    "id": "grpd-r-0055",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded into quarters, then a hole at center. When unfolded, what pattern appears?",
+      "options": [
+        "single pattern at center",
+        "random pattern",
+        "no pattern",
+        "one hole at center (or pattern)"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → one hole at center (or pattern)."
+    },
+    "hi": {
+      "question": "एक कागज को folded into quarters, then a hole at center। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "single pattern at center",
+        "random pattern",
+        "no pattern",
+        "one hole at center (or pattern)"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → one hole at center (or pattern)।"
+    }
+  },
+  {
+    "id": "grpd-r-0056",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded in half once, then a circle is punched. When unfolded, what pattern appears?",
+      "options": [
+        "no pattern",
+        "two circles (one on each layer)",
+        "single pattern at center",
+        "random pattern"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → two circles (one on each layer)."
+    },
+    "hi": {
+      "question": "एक कागज को folded in half once, then a circle is punched। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "no pattern",
+        "two circles (one on each layer)",
+        "single pattern at center",
+        "random pattern"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → two circles (one on each layer)।"
+    }
+  },
+  {
+    "id": "grpd-r-0057",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'U'?",
+      "options": [
+        "inverted 'U' (like '∩')",
+        "mirror image of letter 'U'",
+        "same letter 'U'",
+        "rotated letter 'U'"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'U' → inverted 'U' (like '∩')."
+    },
+    "hi": {
+      "question": "letter 'U' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "inverted 'U' (like '∩')",
+        "mirror image of letter 'U'",
+        "same letter 'U'",
+        "rotated letter 'U'"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'U' → inverted 'U' (like '∩')।"
+    }
+  },
+  {
+    "id": "grpd-r-0058",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a letter 'P'?",
+      "options": [
+        "same letter 'P'",
+        "upside-down letter 'P'",
+        "rotated letter 'P'",
+        "backwards 'P' (like d)"
+      ],
+      "explanation": "Mirror flips left-right. letter 'P' → backwards 'P' (like d)."
+    },
+    "hi": {
+      "question": "letter 'P' का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "same letter 'P'",
+        "upside-down letter 'P'",
+        "rotated letter 'P'",
+        "backwards 'P' (like d)"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। letter 'P' → backwards 'P' (like d)।"
+    }
+  },
+  {
+    "id": "grpd-r-0059",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a letter 'F'?",
+      "options": [
+        "backwards 'F'",
+        "rotated letter 'F'",
+        "upside-down letter 'F'",
+        "same letter 'F'"
+      ],
+      "explanation": "Mirror flips left-right. letter 'F' → backwards 'F'."
+    },
+    "hi": {
+      "question": "letter 'F' का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "backwards 'F'",
+        "rotated letter 'F'",
+        "upside-down letter 'F'",
+        "same letter 'F'"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। letter 'F' → backwards 'F'।"
+    }
+  },
+  {
+    "id": "grpd-r-0060",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded half, then a triangle cut at the edge. When unfolded, what pattern appears?",
+      "options": [
+        "diamond/rhombus shape when unfolded",
+        "random pattern",
+        "no pattern",
+        "single pattern at center"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → diamond/rhombus shape when unfolded."
+    },
+    "hi": {
+      "question": "एक कागज को folded half, then a triangle cut at the edge। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "diamond/rhombus shape when unfolded",
+        "random pattern",
+        "no pattern",
+        "single pattern at center"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → diamond/rhombus shape when unfolded।"
+    }
+  },
+  {
+    "id": "grpd-r-0061",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a flag pointing left?",
+      "options": [
+        "same flag pointing left",
+        "rotated flag pointing left",
+        "flag pointing right",
+        "upside-down flag pointing left"
+      ],
+      "explanation": "Mirror flips left-right. flag pointing left → flag pointing right."
+    },
+    "hi": {
+      "question": "flag pointing left का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "same flag pointing left",
+        "rotated flag pointing left",
+        "flag pointing right",
+        "upside-down flag pointing left"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। flag pointing left → flag pointing right।"
+    }
+  },
+  {
+    "id": "grpd-r-0062",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (net where all squares are connected edge-to-edge), In a cube, opposite faces never share an edge.",
+      "options": [
+        "Opposite faces share an edge in the net",
+        "In a cube, opposite faces never share an edge",
+        "All faces in net are adjacent",
+        "Adjacent faces in net are always opposite"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. In a cube, opposite faces never share an edge"
+    },
+    "hi": {
+      "question": "एक घन के जाल (net where all squares are connected edge-to-edge) में, In a cube, opposite faces never share an edge।",
+      "options": [
+        "Opposite faces share an edge in the net",
+        "In a cube, opposite faces never share an edge",
+        "All faces in net are adjacent",
+        "Adjacent faces in net are always opposite"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। In a cube, opposite faces never share an edge"
+    }
+  },
+  {
+    "id": "grpd-r-0063",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded into quarters, then a hole at center. When unfolded, what pattern appears?",
+      "options": [
+        "single pattern at center",
+        "random pattern",
+        "no pattern",
+        "one hole at center (or pattern)"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → one hole at center (or pattern)."
+    },
+    "hi": {
+      "question": "एक कागज को folded into quarters, then a hole at center। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "single pattern at center",
+        "random pattern",
+        "no pattern",
+        "one hole at center (or pattern)"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → one hole at center (or pattern)।"
+    }
+  },
+  {
+    "id": "grpd-r-0064",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a letter 'E'?",
+      "options": [
+        "same letter 'E'",
+        "rotated letter 'E'",
+        "upside-down letter 'E'",
+        "backwards 'E'"
+      ],
+      "explanation": "Mirror flips left-right. letter 'E' → backwards 'E'."
+    },
+    "hi": {
+      "question": "letter 'E' का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "same letter 'E'",
+        "rotated letter 'E'",
+        "upside-down letter 'E'",
+        "backwards 'E'"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। letter 'E' → backwards 'E'।"
+    }
+  },
+  {
+    "id": "grpd-r-0065",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (cross-shaped net with 6 squares (standard)), The face opposite to the top in a standard cross-shaped net is the bottom face.",
+      "options": [
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net",
+        "The face opposite to the top in a standard cross-shaped net is the bottom face",
+        "Adjacent faces in net are always opposite"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. The face opposite to the top in a standard cross-shaped net is the bottom face"
+    },
+    "hi": {
+      "question": "एक घन के जाल (cross-shaped net with 6 squares (standard)) में, The face opposite to the top in a standard cross-shaped net is the bottom face।",
+      "options": [
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net",
+        "The face opposite to the top in a standard cross-shaped net is the bottom face",
+        "Adjacent faces in net are always opposite"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। The face opposite to the top in a standard cross-shaped net is the bottom face"
+    }
+  },
+  {
+    "id": "grpd-r-0066",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded into quarters, then a hole at center. When unfolded, what pattern appears?",
+      "options": [
+        "single pattern at center",
+        "no pattern",
+        "random pattern",
+        "one hole at center (or pattern)"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → one hole at center (or pattern)."
+    },
+    "hi": {
+      "question": "एक कागज को folded into quarters, then a hole at center। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "single pattern at center",
+        "no pattern",
+        "random pattern",
+        "one hole at center (or pattern)"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → one hole at center (or pattern)।"
+    }
+  },
+  {
+    "id": "grpd-r-0067",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (T-shaped net with 6 squares), Faces that are separated by one face in the net become opposite in the cube.",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent",
+        "Faces that are separated by one face in the net become opposite in the cube"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. Faces that are separated by one face in the net become opposite in the cube"
+    },
+    "hi": {
+      "question": "एक घन के जाल (T-shaped net with 6 squares) में, Faces that are separated by one face in the net become opposite in the cube।",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent",
+        "Faces that are separated by one face in the net become opposite in the cube"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। Faces that are separated by one face in the net become opposite in the cube"
+    }
+  },
+  {
+    "id": "grpd-r-0068",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded half twice, then corner cut off. When unfolded, what pattern appears?",
+      "options": [
+        "single pattern at center",
+        "four corners cut (symmetric pattern)",
+        "random pattern",
+        "no pattern"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → four corners cut (symmetric pattern)."
+    },
+    "hi": {
+      "question": "एक कागज को folded half twice, then corner cut off। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "single pattern at center",
+        "four corners cut (symmetric pattern)",
+        "random pattern",
+        "no pattern"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → four corners cut (symmetric pattern)।"
+    }
+  },
+  {
+    "id": "grpd-r-0069",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (cross-shaped net with 6 squares (standard)), The face opposite to the top in a standard cross-shaped net is the bottom face.",
+      "options": [
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net",
+        "Adjacent faces in net are always opposite",
+        "The face opposite to the top in a standard cross-shaped net is the bottom face"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. The face opposite to the top in a standard cross-shaped net is the bottom face"
+    },
+    "hi": {
+      "question": "एक घन के जाल (cross-shaped net with 6 squares (standard)) में, The face opposite to the top in a standard cross-shaped net is the bottom face।",
+      "options": [
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net",
+        "Adjacent faces in net are always opposite",
+        "The face opposite to the top in a standard cross-shaped net is the bottom face"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। The face opposite to the top in a standard cross-shaped net is the bottom face"
+    }
+  },
+  {
+    "id": "grpd-r-0070",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (T-shaped net with 6 squares), The face opposite to the top in a standard cross-shaped net is the bottom face.",
+      "options": [
+        "The face opposite to the top in a standard cross-shaped net is the bottom face",
+        "Adjacent faces in net are always opposite",
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. The face opposite to the top in a standard cross-shaped net is the bottom face"
+    },
+    "hi": {
+      "question": "एक घन के जाल (T-shaped net with 6 squares) में, The face opposite to the top in a standard cross-shaped net is the bottom face।",
+      "options": [
+        "The face opposite to the top in a standard cross-shaped net is the bottom face",
+        "Adjacent faces in net are always opposite",
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। The face opposite to the top in a standard cross-shaped net is the bottom face"
+    }
+  },
+  {
+    "id": "grpd-r-0071",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'W'?",
+      "options": [
+        "same letter 'W'",
+        "rotated letter 'W'",
+        "mirror image of letter 'W'",
+        "inverted 'W' (like 'M')"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'W' → inverted 'W' (like 'M')."
+    },
+    "hi": {
+      "question": "letter 'W' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "same letter 'W'",
+        "rotated letter 'W'",
+        "mirror image of letter 'W'",
+        "inverted 'W' (like 'M')"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'W' → inverted 'W' (like 'M')।"
+    }
+  },
+  {
+    "id": "grpd-r-0072",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'I'?",
+      "options": [
+        "same letter 'I'",
+        "mirror image of letter 'I'",
+        "same 'I' (symmetric)",
+        "rotated letter 'I'"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'I' → same 'I' (symmetric)."
+    },
+    "hi": {
+      "question": "letter 'I' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "same letter 'I'",
+        "mirror image of letter 'I'",
+        "same 'I' (symmetric)",
+        "rotated letter 'I'"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'I' → same 'I' (symmetric)।"
+    }
+  },
+  {
+    "id": "grpd-r-0073",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (net where all squares are connected edge-to-edge), Faces that are separated by one face in the net become opposite in the cube.",
+      "options": [
+        "Faces that are separated by one face in the net become opposite in the cube",
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net",
+        "Adjacent faces in net are always opposite"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. Faces that are separated by one face in the net become opposite in the cube"
+    },
+    "hi": {
+      "question": "एक घन के जाल (net where all squares are connected edge-to-edge) में, Faces that are separated by one face in the net become opposite in the cube।",
+      "options": [
+        "Faces that are separated by one face in the net become opposite in the cube",
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net",
+        "Adjacent faces in net are always opposite"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। Faces that are separated by one face in the net become opposite in the cube"
+    }
+  },
+  {
+    "id": "grpd-r-0074",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a semicircle open right?",
+      "options": [
+        "rotated semicircle open right",
+        "semicircle open left",
+        "upside-down semicircle open right",
+        "same semicircle open right"
+      ],
+      "explanation": "Mirror flips left-right. semicircle open right → semicircle open left."
+    },
+    "hi": {
+      "question": "semicircle open right का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "rotated semicircle open right",
+        "semicircle open left",
+        "upside-down semicircle open right",
+        "same semicircle open right"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। semicircle open right → semicircle open left।"
+    }
+  },
+  {
+    "id": "grpd-r-0075",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a flag pointing left?",
+      "options": [
+        "same flag pointing left",
+        "rotated flag pointing left",
+        "upside-down flag pointing left",
+        "flag pointing right"
+      ],
+      "explanation": "Mirror flips left-right. flag pointing left → flag pointing right."
+    },
+    "hi": {
+      "question": "flag pointing left का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "same flag pointing left",
+        "rotated flag pointing left",
+        "upside-down flag pointing left",
+        "flag pointing right"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। flag pointing left → flag pointing right।"
+    }
+  },
+  {
+    "id": "grpd-r-0076",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ⬜ → ⬛ → ⬜ → ⬛ → ⬜ → ?",
+      "options": [
+        "⬛",
+        "△",
+        "⬜",
+        "⬛"
+      ],
+      "explanation": "Alternating fill/empty"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ⬜ → ⬛ → ⬜ → ⬛ → ⬜ → ?",
+      "options": [
+        "⬛",
+        "△",
+        "⬜",
+        "⬛"
+      ],
+      "explanation": "Alternating fill/empty"
+    }
+  },
+  {
+    "id": "grpd-r-0077",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a arrow pointing right?",
+      "options": [
+        "arrow pointing left",
+        "same arrow pointing right",
+        "rotated arrow pointing right",
+        "upside-down arrow pointing right"
+      ],
+      "explanation": "Mirror flips left-right. arrow pointing right → arrow pointing left."
+    },
+    "hi": {
+      "question": "arrow pointing right का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "arrow pointing left",
+        "same arrow pointing right",
+        "rotated arrow pointing right",
+        "upside-down arrow pointing right"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। arrow pointing right → arrow pointing left।"
+    }
+  },
+  {
+    "id": "grpd-r-0078",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "□",
+        "□",
+        "○",
+        "□"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "□",
+        "□",
+        "○",
+        "□"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    }
+  },
+  {
+    "id": "grpd-r-0079",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded diagonally once, then a hole punched. When unfolded, what pattern appears?",
+      "options": [
+        "no pattern",
+        "single pattern at center",
+        "random pattern",
+        "two holes at diagonal corners"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → two holes at diagonal corners."
+    },
+    "hi": {
+      "question": "एक कागज को folded diagonally once, then a hole punched। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "no pattern",
+        "single pattern at center",
+        "random pattern",
+        "two holes at diagonal corners"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → two holes at diagonal corners।"
+    }
+  },
+  {
+    "id": "grpd-r-0080",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'M'?",
+      "options": [
+        "same letter 'M'",
+        "mirror image of letter 'M'",
+        "rotated letter 'M'",
+        "inverted 'M' (like 'W')"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'M' → inverted 'M' (like 'W')."
+    },
+    "hi": {
+      "question": "letter 'M' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "same letter 'M'",
+        "mirror image of letter 'M'",
+        "rotated letter 'M'",
+        "inverted 'M' (like 'W')"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'M' → inverted 'M' (like 'W')।"
+    }
+  },
+  {
+    "id": "grpd-r-0081",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ◐ → ◑ → ◒ → ◓ → ◐ → ?",
+      "options": [
+        "◑",
+        "⬆",
+        "◑",
+        "◐"
+      ],
+      "explanation": "Semicircle rotates 90° each step"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ◐ → ◑ → ◒ → ◓ → ◐ → ?",
+      "options": [
+        "◑",
+        "⬆",
+        "◑",
+        "◐"
+      ],
+      "explanation": "Semicircle rotates 90° each step"
+    }
+  },
+  {
+    "id": "grpd-r-0082",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a triangle?",
+      "options": [
+        "rotated triangle",
+        "mirror image of triangle",
+        "inverted triangle (pointing down if raised above water)",
+        "same triangle"
+      ],
+      "explanation": "Water reflection flips top-bottom. triangle → inverted triangle (pointing down if raised above water)."
+    },
+    "hi": {
+      "question": "triangle का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "rotated triangle",
+        "mirror image of triangle",
+        "inverted triangle (pointing down if raised above water)",
+        "same triangle"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। triangle → inverted triangle (pointing down if raised above water)।"
+    }
+  },
+  {
+    "id": "grpd-r-0083",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded into quarters, then a hole at center. When unfolded, what pattern appears?",
+      "options": [
+        "one hole at center (or pattern)",
+        "random pattern",
+        "no pattern",
+        "single pattern at center"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → one hole at center (or pattern)."
+    },
+    "hi": {
+      "question": "एक कागज को folded into quarters, then a hole at center। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "one hole at center (or pattern)",
+        "random pattern",
+        "no pattern",
+        "single pattern at center"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → one hole at center (or pattern)।"
+    }
+  },
+  {
+    "id": "grpd-r-0084",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "○",
+        "○",
+        "□",
+        "○"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "○",
+        "○",
+        "□",
+        "○"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    }
+  },
+  {
+    "id": "grpd-r-0085",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'T'?",
+      "options": [
+        "same letter 'T'",
+        "same 'T' (symmetric)",
+        "rotated letter 'T'",
+        "mirror image of letter 'T'"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'T' → same 'T' (symmetric)."
+    },
+    "hi": {
+      "question": "letter 'T' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "same letter 'T'",
+        "same 'T' (symmetric)",
+        "rotated letter 'T'",
+        "mirror image of letter 'T'"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'T' → same 'T' (symmetric)।"
+    }
+  },
+  {
+    "id": "grpd-r-0086",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (cross-shaped net with 6 squares (standard)), The face opposite to the top in a standard cross-shaped net is the bottom face.",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent",
+        "The face opposite to the top in a standard cross-shaped net is the bottom face"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. The face opposite to the top in a standard cross-shaped net is the bottom face"
+    },
+    "hi": {
+      "question": "एक घन के जाल (cross-shaped net with 6 squares (standard)) में, The face opposite to the top in a standard cross-shaped net is the bottom face।",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent",
+        "The face opposite to the top in a standard cross-shaped net is the bottom face"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। The face opposite to the top in a standard cross-shaped net is the bottom face"
+    }
+  },
+  {
+    "id": "grpd-r-0087",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded diagonally once, then a hole punched. When unfolded, what pattern appears?",
+      "options": [
+        "no pattern",
+        "single pattern at center",
+        "random pattern",
+        "two holes at diagonal corners"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → two holes at diagonal corners."
+    },
+    "hi": {
+      "question": "एक कागज को folded diagonally once, then a hole punched। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "no pattern",
+        "single pattern at center",
+        "random pattern",
+        "two holes at diagonal corners"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → two holes at diagonal corners।"
+    }
+  },
+  {
+    "id": "grpd-r-0088",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ⬜ → ⬛ → ⬜ → ⬛ → ⬜ → ?",
+      "options": [
+        "⬜",
+        "⬜",
+        "△",
+        "⬛"
+      ],
+      "explanation": "Alternating fill/empty"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ⬜ → ⬛ → ⬜ → ⬛ → ⬜ → ?",
+      "options": [
+        "⬜",
+        "⬜",
+        "△",
+        "⬛"
+      ],
+      "explanation": "Alternating fill/empty"
+    }
+  },
+  {
+    "id": "grpd-r-0089",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded in half once, then a circle is punched. When unfolded, what pattern appears?",
+      "options": [
+        "random pattern",
+        "two circles (one on each layer)",
+        "no pattern",
+        "single pattern at center"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → two circles (one on each layer)."
+    },
+    "hi": {
+      "question": "एक कागज को folded in half once, then a circle is punched। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "random pattern",
+        "two circles (one on each layer)",
+        "no pattern",
+        "single pattern at center"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → two circles (one on each layer)।"
+    }
+  },
+  {
+    "id": "grpd-r-0090",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (net with 4 in a row and 2 on sides), In a cube, opposite faces never share an edge.",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "All faces in net are adjacent",
+        "In a cube, opposite faces never share an edge",
+        "Opposite faces share an edge in the net"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. In a cube, opposite faces never share an edge"
+    },
+    "hi": {
+      "question": "एक घन के जाल (net with 4 in a row and 2 on sides) में, In a cube, opposite faces never share an edge।",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "All faces in net are adjacent",
+        "In a cube, opposite faces never share an edge",
+        "Opposite faces share an edge in the net"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। In a cube, opposite faces never share an edge"
+    }
+  },
+  {
+    "id": "grpd-r-0091",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded diagonally once, then a hole punched. When unfolded, what pattern appears?",
+      "options": [
+        "random pattern",
+        "no pattern",
+        "two holes at diagonal corners",
+        "single pattern at center"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → two holes at diagonal corners."
+    },
+    "hi": {
+      "question": "एक कागज को folded diagonally once, then a hole punched। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "random pattern",
+        "no pattern",
+        "two holes at diagonal corners",
+        "single pattern at center"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → two holes at diagonal corners।"
+    }
+  },
+  {
+    "id": "grpd-r-0092",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ⬆ → ➡ → ⬇ → ⬅ → ⬆ → ?",
+      "options": [
+        "⬆",
+        "➡",
+        "⬆",
+        "⬇"
+      ],
+      "explanation": "Arrow rotates 90° clockwise each step"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ⬆ → ➡ → ⬇ → ⬅ → ⬆ → ?",
+      "options": [
+        "⬆",
+        "➡",
+        "⬆",
+        "⬇"
+      ],
+      "explanation": "Arrow rotates 90° clockwise each step"
+    }
+  },
+  {
+    "id": "grpd-r-0093",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (net with 4 in a row and 2 on sides), Faces that are separated by one face in the net become opposite in the cube.",
+      "options": [
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net",
+        "Faces that are separated by one face in the net become opposite in the cube",
+        "Adjacent faces in net are always opposite"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. Faces that are separated by one face in the net become opposite in the cube"
+    },
+    "hi": {
+      "question": "एक घन के जाल (net with 4 in a row and 2 on sides) में, Faces that are separated by one face in the net become opposite in the cube।",
+      "options": [
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net",
+        "Faces that are separated by one face in the net become opposite in the cube",
+        "Adjacent faces in net are always opposite"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। Faces that are separated by one face in the net become opposite in the cube"
+    }
+  },
+  {
+    "id": "grpd-r-0094",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a letter 'E'?",
+      "options": [
+        "backwards 'E'",
+        "rotated letter 'E'",
+        "upside-down letter 'E'",
+        "same letter 'E'"
+      ],
+      "explanation": "Mirror flips left-right. letter 'E' → backwards 'E'."
+    },
+    "hi": {
+      "question": "letter 'E' का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "backwards 'E'",
+        "rotated letter 'E'",
+        "upside-down letter 'E'",
+        "same letter 'E'"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। letter 'E' → backwards 'E'।"
+    }
+  },
+  {
+    "id": "grpd-r-0095",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded in half once, then a circle is punched. When unfolded, what pattern appears?",
+      "options": [
+        "random pattern",
+        "two circles (one on each layer)",
+        "no pattern",
+        "single pattern at center"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → two circles (one on each layer)."
+    },
+    "hi": {
+      "question": "एक कागज को folded in half once, then a circle is punched। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "random pattern",
+        "two circles (one on each layer)",
+        "no pattern",
+        "single pattern at center"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → two circles (one on each layer)।"
+    }
+  },
+  {
+    "id": "grpd-r-0096",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a circle with a dot on right?",
+      "options": [
+        "rotated circle with a dot on right",
+        "upside-down circle with a dot on right",
+        "circle with a dot on left",
+        "same circle with a dot on right"
+      ],
+      "explanation": "Mirror flips left-right. circle with a dot on right → circle with a dot on left."
+    },
+    "hi": {
+      "question": "circle with a dot on right का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "rotated circle with a dot on right",
+        "upside-down circle with a dot on right",
+        "circle with a dot on left",
+        "same circle with a dot on right"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। circle with a dot on right → circle with a dot on left।"
+    }
+  },
+  {
+    "id": "grpd-r-0097",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a number '2'?",
+      "options": [
+        "same number '2'",
+        "backwards '2'",
+        "rotated number '2'",
+        "upside-down number '2'"
+      ],
+      "explanation": "Mirror flips left-right. number '2' → backwards '2'."
+    },
+    "hi": {
+      "question": "number '2' का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "same number '2'",
+        "backwards '2'",
+        "rotated number '2'",
+        "upside-down number '2'"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। number '2' → backwards '2'।"
+    }
+  },
+  {
+    "id": "grpd-r-0098",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "□",
+        "□",
+        "○",
+        "△"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "□",
+        "□",
+        "○",
+        "△"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    }
+  },
+  {
+    "id": "grpd-r-0099",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a key shape?",
+      "options": [
+        "upside-down key shape",
+        "rotated key shape",
+        "same key shape",
+        "mirrored key shape"
+      ],
+      "explanation": "Mirror flips left-right. key shape → mirrored key shape."
+    },
+    "hi": {
+      "question": "key shape का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "upside-down key shape",
+        "rotated key shape",
+        "same key shape",
+        "mirrored key shape"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। key shape → mirrored key shape।"
+    }
+  },
+  {
+    "id": "grpd-r-0100",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a letter 'C'?",
+      "options": [
+        "backwards 'C' (open right becomes open left)",
+        "upside-down letter 'C'",
+        "same letter 'C'",
+        "rotated letter 'C'"
+      ],
+      "explanation": "Mirror flips left-right. letter 'C' → backwards 'C' (open right becomes open left)."
+    },
+    "hi": {
+      "question": "letter 'C' का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "backwards 'C' (open right becomes open left)",
+        "upside-down letter 'C'",
+        "same letter 'C'",
+        "rotated letter 'C'"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। letter 'C' → backwards 'C' (open right becomes open left)।"
+    }
+  },
+  {
+    "id": "grpd-r-0101",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded half twice, then corner cut off. When unfolded, what pattern appears?",
+      "options": [
+        "four corners cut (symmetric pattern)",
+        "single pattern at center",
+        "no pattern",
+        "random pattern"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → four corners cut (symmetric pattern)."
+    },
+    "hi": {
+      "question": "एक कागज को folded half twice, then corner cut off। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "four corners cut (symmetric pattern)",
+        "single pattern at center",
+        "no pattern",
+        "random pattern"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → four corners cut (symmetric pattern)।"
+    }
+  },
+  {
+    "id": "grpd-r-0102",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (net where all squares are connected edge-to-edge), In a cube, opposite faces never share an edge.",
+      "options": [
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net",
+        "Adjacent faces in net are always opposite",
+        "In a cube, opposite faces never share an edge"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. In a cube, opposite faces never share an edge"
+    },
+    "hi": {
+      "question": "एक घन के जाल (net where all squares are connected edge-to-edge) में, In a cube, opposite faces never share an edge।",
+      "options": [
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net",
+        "Adjacent faces in net are always opposite",
+        "In a cube, opposite faces never share an edge"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। In a cube, opposite faces never share an edge"
+    }
+  },
+  {
+    "id": "grpd-r-0103",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a square?",
+      "options": [
+        "same square (symmetric)",
+        "upside-down square",
+        "rotated square",
+        "same square"
+      ],
+      "explanation": "Mirror flips left-right. square → same square (symmetric)."
+    },
+    "hi": {
+      "question": "square का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "same square (symmetric)",
+        "upside-down square",
+        "rotated square",
+        "same square"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। square → same square (symmetric)।"
+    }
+  },
+  {
+    "id": "grpd-r-0104",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ● → ● ● → ● ● ● → ● ● ● ● → ?",
+      "options": [
+        "● ●",
+        "● ● ●",
+        "● ● ● ● ●",
+        "□"
+      ],
+      "explanation": "Add one dot each step"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ● → ● ● → ● ● ● → ● ● ● ● → ?",
+      "options": [
+        "● ●",
+        "● ● ●",
+        "● ● ● ● ●",
+        "□"
+      ],
+      "explanation": "Add one dot each step"
+    }
+  },
+  {
+    "id": "grpd-r-0105",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a semicircle open right?",
+      "options": [
+        "semicircle open left",
+        "upside-down semicircle open right",
+        "same semicircle open right",
+        "rotated semicircle open right"
+      ],
+      "explanation": "Mirror flips left-right. semicircle open right → semicircle open left."
+    },
+    "hi": {
+      "question": "semicircle open right का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "semicircle open left",
+        "upside-down semicircle open right",
+        "same semicircle open right",
+        "rotated semicircle open right"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। semicircle open right → semicircle open left।"
+    }
+  },
+  {
+    "id": "grpd-r-0106",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (net with 4 in a row and 2 on sides), The face opposite to the top in a standard cross-shaped net is the bottom face.",
+      "options": [
+        "The face opposite to the top in a standard cross-shaped net is the bottom face",
+        "Adjacent faces in net are always opposite",
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. The face opposite to the top in a standard cross-shaped net is the bottom face"
+    },
+    "hi": {
+      "question": "एक घन के जाल (net with 4 in a row and 2 on sides) में, The face opposite to the top in a standard cross-shaped net is the bottom face।",
+      "options": [
+        "The face opposite to the top in a standard cross-shaped net is the bottom face",
+        "Adjacent faces in net are always opposite",
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। The face opposite to the top in a standard cross-shaped net is the bottom face"
+    }
+  },
+  {
+    "id": "grpd-r-0107",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a number '2'?",
+      "options": [
+        "rotated number '2'",
+        "upside-down number '2'",
+        "backwards '2'",
+        "same number '2'"
+      ],
+      "explanation": "Mirror flips left-right. number '2' → backwards '2'."
+    },
+    "hi": {
+      "question": "number '2' का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "rotated number '2'",
+        "upside-down number '2'",
+        "backwards '2'",
+        "same number '2'"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। number '2' → backwards '2'।"
+    }
+  },
+  {
+    "id": "grpd-r-0108",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a number '2'?",
+      "options": [
+        "rotated number '2'",
+        "same number '2'",
+        "backwards '2'",
+        "upside-down number '2'"
+      ],
+      "explanation": "Mirror flips left-right. number '2' → backwards '2'."
+    },
+    "hi": {
+      "question": "number '2' का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "rotated number '2'",
+        "same number '2'",
+        "backwards '2'",
+        "upside-down number '2'"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। number '2' → backwards '2'।"
+    }
+  },
+  {
+    "id": "grpd-r-0109",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (T-shaped net with 6 squares), The face opposite to the top in a standard cross-shaped net is the bottom face.",
+      "options": [
+        "Opposite faces share an edge in the net",
+        "Adjacent faces in net are always opposite",
+        "The face opposite to the top in a standard cross-shaped net is the bottom face",
+        "All faces in net are adjacent"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. The face opposite to the top in a standard cross-shaped net is the bottom face"
+    },
+    "hi": {
+      "question": "एक घन के जाल (T-shaped net with 6 squares) में, The face opposite to the top in a standard cross-shaped net is the bottom face।",
+      "options": [
+        "Opposite faces share an edge in the net",
+        "Adjacent faces in net are always opposite",
+        "The face opposite to the top in a standard cross-shaped net is the bottom face",
+        "All faces in net are adjacent"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। The face opposite to the top in a standard cross-shaped net is the bottom face"
+    }
+  },
+  {
+    "id": "grpd-r-0110",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'I'?",
+      "options": [
+        "same 'I' (symmetric)",
+        "mirror image of letter 'I'",
+        "same letter 'I'",
+        "rotated letter 'I'"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'I' → same 'I' (symmetric)."
+    },
+    "hi": {
+      "question": "letter 'I' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "same 'I' (symmetric)",
+        "mirror image of letter 'I'",
+        "same letter 'I'",
+        "rotated letter 'I'"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'I' → same 'I' (symmetric)।"
+    }
+  },
+  {
+    "id": "grpd-r-0111",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded half, then a triangle cut at the edge. When unfolded, what pattern appears?",
+      "options": [
+        "diamond/rhombus shape when unfolded",
+        "single pattern at center",
+        "random pattern",
+        "no pattern"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → diamond/rhombus shape when unfolded."
+    },
+    "hi": {
+      "question": "एक कागज को folded half, then a triangle cut at the edge। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "diamond/rhombus shape when unfolded",
+        "single pattern at center",
+        "random pattern",
+        "no pattern"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → diamond/rhombus shape when unfolded।"
+    }
+  },
+  {
+    "id": "grpd-r-0112",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a letter 'F'?",
+      "options": [
+        "backwards 'F'",
+        "upside-down letter 'F'",
+        "rotated letter 'F'",
+        "same letter 'F'"
+      ],
+      "explanation": "Mirror flips left-right. letter 'F' → backwards 'F'."
+    },
+    "hi": {
+      "question": "letter 'F' का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "backwards 'F'",
+        "upside-down letter 'F'",
+        "rotated letter 'F'",
+        "same letter 'F'"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। letter 'F' → backwards 'F'।"
+    }
+  },
+  {
+    "id": "grpd-r-0113",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'M'?",
+      "options": [
+        "inverted 'M' (like 'W')",
+        "same letter 'M'",
+        "mirror image of letter 'M'",
+        "rotated letter 'M'"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'M' → inverted 'M' (like 'W')."
+    },
+    "hi": {
+      "question": "letter 'M' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "inverted 'M' (like 'W')",
+        "same letter 'M'",
+        "mirror image of letter 'M'",
+        "rotated letter 'M'"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'M' → inverted 'M' (like 'W')।"
+    }
+  },
+  {
+    "id": "grpd-r-0114",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded in half once, then a circle is punched. When unfolded, what pattern appears?",
+      "options": [
+        "single pattern at center",
+        "no pattern",
+        "two circles (one on each layer)",
+        "random pattern"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → two circles (one on each layer)."
+    },
+    "hi": {
+      "question": "एक कागज को folded in half once, then a circle is punched। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "single pattern at center",
+        "no pattern",
+        "two circles (one on each layer)",
+        "random pattern"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → two circles (one on each layer)।"
+    }
+  },
+  {
+    "id": "grpd-r-0115",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a flag pointing left?",
+      "options": [
+        "same flag pointing left",
+        "rotated flag pointing left",
+        "upside-down flag pointing left",
+        "flag pointing right"
+      ],
+      "explanation": "Mirror flips left-right. flag pointing left → flag pointing right."
+    },
+    "hi": {
+      "question": "flag pointing left का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "same flag pointing left",
+        "rotated flag pointing left",
+        "upside-down flag pointing left",
+        "flag pointing right"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। flag pointing left → flag pointing right।"
+    }
+  },
+  {
+    "id": "grpd-r-0116",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'U'?",
+      "options": [
+        "inverted 'U' (like '∩')",
+        "mirror image of letter 'U'",
+        "same letter 'U'",
+        "rotated letter 'U'"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'U' → inverted 'U' (like '∩')."
+    },
+    "hi": {
+      "question": "letter 'U' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "inverted 'U' (like '∩')",
+        "mirror image of letter 'U'",
+        "same letter 'U'",
+        "rotated letter 'U'"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'U' → inverted 'U' (like '∩')।"
+    }
+  },
+  {
+    "id": "grpd-r-0117",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a letter 'C'?",
+      "options": [
+        "same letter 'C'",
+        "upside-down letter 'C'",
+        "rotated letter 'C'",
+        "backwards 'C' (open right becomes open left)"
+      ],
+      "explanation": "Mirror flips left-right. letter 'C' → backwards 'C' (open right becomes open left)."
+    },
+    "hi": {
+      "question": "letter 'C' का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "same letter 'C'",
+        "upside-down letter 'C'",
+        "rotated letter 'C'",
+        "backwards 'C' (open right becomes open left)"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। letter 'C' → backwards 'C' (open right becomes open left)।"
+    }
+  },
+  {
+    "id": "grpd-r-0118",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (net with 4 in a row and 2 on sides), Faces that are separated by one face in the net become opposite in the cube.",
+      "options": [
+        "Faces that are separated by one face in the net become opposite in the cube",
+        "Adjacent faces in net are always opposite",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. Faces that are separated by one face in the net become opposite in the cube"
+    },
+    "hi": {
+      "question": "एक घन के जाल (net with 4 in a row and 2 on sides) में, Faces that are separated by one face in the net become opposite in the cube।",
+      "options": [
+        "Faces that are separated by one face in the net become opposite in the cube",
+        "Adjacent faces in net are always opposite",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। Faces that are separated by one face in the net become opposite in the cube"
+    }
+  },
+  {
+    "id": "grpd-r-0119",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded in half once, then a circle is punched. When unfolded, what pattern appears?",
+      "options": [
+        "random pattern",
+        "two circles (one on each layer)",
+        "single pattern at center",
+        "no pattern"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → two circles (one on each layer)."
+    },
+    "hi": {
+      "question": "एक कागज को folded in half once, then a circle is punched। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "random pattern",
+        "two circles (one on each layer)",
+        "single pattern at center",
+        "no pattern"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → two circles (one on each layer)।"
+    }
+  },
+  {
+    "id": "grpd-r-0120",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ⬜ → ⬛ → ⬜ → ⬛ → ⬜ → ?",
+      "options": [
+        "⬜",
+        "⬛",
+        "△",
+        "⬛"
+      ],
+      "explanation": "Alternating fill/empty"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ⬜ → ⬛ → ⬜ → ⬛ → ⬜ → ?",
+      "options": [
+        "⬜",
+        "⬛",
+        "△",
+        "⬛"
+      ],
+      "explanation": "Alternating fill/empty"
+    }
+  },
+  {
+    "id": "grpd-r-0121",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'W'?",
+      "options": [
+        "rotated letter 'W'",
+        "inverted 'W' (like 'M')",
+        "same letter 'W'",
+        "mirror image of letter 'W'"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'W' → inverted 'W' (like 'M')."
+    },
+    "hi": {
+      "question": "letter 'W' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "rotated letter 'W'",
+        "inverted 'W' (like 'M')",
+        "same letter 'W'",
+        "mirror image of letter 'W'"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'W' → inverted 'W' (like 'M')।"
+    }
+  },
+  {
+    "id": "grpd-r-0122",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (net with 4 in a row and 2 on sides), The face opposite to the top in a standard cross-shaped net is the bottom face.",
+      "options": [
+        "The face opposite to the top in a standard cross-shaped net is the bottom face",
+        "All faces in net are adjacent",
+        "Adjacent faces in net are always opposite",
+        "Opposite faces share an edge in the net"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. The face opposite to the top in a standard cross-shaped net is the bottom face"
+    },
+    "hi": {
+      "question": "एक घन के जाल (net with 4 in a row and 2 on sides) में, The face opposite to the top in a standard cross-shaped net is the bottom face।",
+      "options": [
+        "The face opposite to the top in a standard cross-shaped net is the bottom face",
+        "All faces in net are adjacent",
+        "Adjacent faces in net are always opposite",
+        "Opposite faces share an edge in the net"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। The face opposite to the top in a standard cross-shaped net is the bottom face"
+    }
+  },
+  {
+    "id": "grpd-r-0123",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "△",
+        "△",
+        "○",
+        "△"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "△",
+        "△",
+        "○",
+        "△"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    }
+  },
+  {
+    "id": "grpd-r-0124",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ● → ● ● → ● ● ● → ● ● ● ● → ?",
+      "options": [
+        "● ● ● ●",
+        "● ● ● ● ●",
+        "● ●",
+        "△"
+      ],
+      "explanation": "Add one dot each step"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ● → ● ● → ● ● ● → ● ● ● ● → ?",
+      "options": [
+        "● ● ● ●",
+        "● ● ● ● ●",
+        "● ●",
+        "△"
+      ],
+      "explanation": "Add one dot each step"
+    }
+  },
+  {
+    "id": "grpd-r-0125",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded in half once, then a circle is punched. When unfolded, what pattern appears?",
+      "options": [
+        "no pattern",
+        "random pattern",
+        "single pattern at center",
+        "two circles (one on each layer)"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → two circles (one on each layer)."
+    },
+    "hi": {
+      "question": "एक कागज को folded in half once, then a circle is punched। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "no pattern",
+        "random pattern",
+        "single pattern at center",
+        "two circles (one on each layer)"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → two circles (one on each layer)।"
+    }
+  },
+  {
+    "id": "grpd-r-0126",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a triangle?",
+      "options": [
+        "upside-down triangle",
+        "same triangle",
+        "rotated triangle",
+        "same triangle (symmetric)"
+      ],
+      "explanation": "Mirror flips left-right. triangle → same triangle (symmetric)."
+    },
+    "hi": {
+      "question": "triangle का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "upside-down triangle",
+        "same triangle",
+        "rotated triangle",
+        "same triangle (symmetric)"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। triangle → same triangle (symmetric)।"
+    }
+  },
+  {
+    "id": "grpd-r-0127",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ◐ → ◑ → ◒ → ◓ → ◐ → ?",
+      "options": [
+        "◑",
+        "◐",
+        "△",
+        "◓"
+      ],
+      "explanation": "Semicircle rotates 90° each step"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ◐ → ◑ → ◒ → ◓ → ◐ → ?",
+      "options": [
+        "◑",
+        "◐",
+        "△",
+        "◓"
+      ],
+      "explanation": "Semicircle rotates 90° each step"
+    }
+  },
+  {
+    "id": "grpd-r-0128",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'Y'?",
+      "options": [
+        "same letter 'Y'",
+        "mirror image of letter 'Y'",
+        "inverted 'Y'",
+        "rotated letter 'Y'"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'Y' → inverted 'Y'."
+    },
+    "hi": {
+      "question": "letter 'Y' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "same letter 'Y'",
+        "mirror image of letter 'Y'",
+        "inverted 'Y'",
+        "rotated letter 'Y'"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'Y' → inverted 'Y'।"
+    }
+  },
+  {
+    "id": "grpd-r-0129",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a triangle?",
+      "options": [
+        "same triangle",
+        "rotated triangle",
+        "inverted triangle (pointing down if raised above water)",
+        "mirror image of triangle"
+      ],
+      "explanation": "Water reflection flips top-bottom. triangle → inverted triangle (pointing down if raised above water)."
+    },
+    "hi": {
+      "question": "triangle का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "same triangle",
+        "rotated triangle",
+        "inverted triangle (pointing down if raised above water)",
+        "mirror image of triangle"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। triangle → inverted triangle (pointing down if raised above water)।"
+    }
+  },
+  {
+    "id": "grpd-r-0130",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a arrow pointing up?",
+      "options": [
+        "same arrow pointing up",
+        "rotated arrow pointing up",
+        "arrow pointing down",
+        "mirror image of arrow pointing up"
+      ],
+      "explanation": "Water reflection flips top-bottom. arrow pointing up → arrow pointing down."
+    },
+    "hi": {
+      "question": "arrow pointing up का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "same arrow pointing up",
+        "rotated arrow pointing up",
+        "arrow pointing down",
+        "mirror image of arrow pointing up"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। arrow pointing up → arrow pointing down।"
+    }
+  },
+  {
+    "id": "grpd-r-0131",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded half twice, then corner cut off. When unfolded, what pattern appears?",
+      "options": [
+        "random pattern",
+        "four corners cut (symmetric pattern)",
+        "no pattern",
+        "single pattern at center"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → four corners cut (symmetric pattern)."
+    },
+    "hi": {
+      "question": "एक कागज को folded half twice, then corner cut off। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "random pattern",
+        "four corners cut (symmetric pattern)",
+        "no pattern",
+        "single pattern at center"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → four corners cut (symmetric pattern)।"
+    }
+  },
+  {
+    "id": "grpd-r-0132",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (net with 4 in a row and 2 on sides), The face opposite to the top in a standard cross-shaped net is the bottom face.",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net",
+        "The face opposite to the top in a standard cross-shaped net is the bottom face"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. The face opposite to the top in a standard cross-shaped net is the bottom face"
+    },
+    "hi": {
+      "question": "एक घन के जाल (net with 4 in a row and 2 on sides) में, The face opposite to the top in a standard cross-shaped net is the bottom face।",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net",
+        "The face opposite to the top in a standard cross-shaped net is the bottom face"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। The face opposite to the top in a standard cross-shaped net is the bottom face"
+    }
+  },
+  {
+    "id": "grpd-r-0133",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (net with 4 in a row and 2 on sides), The face opposite to the top in a standard cross-shaped net is the bottom face.",
+      "options": [
+        "The face opposite to the top in a standard cross-shaped net is the bottom face",
+        "Adjacent faces in net are always opposite",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. The face opposite to the top in a standard cross-shaped net is the bottom face"
+    },
+    "hi": {
+      "question": "एक घन के जाल (net with 4 in a row and 2 on sides) में, The face opposite to the top in a standard cross-shaped net is the bottom face।",
+      "options": [
+        "The face opposite to the top in a standard cross-shaped net is the bottom face",
+        "Adjacent faces in net are always opposite",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। The face opposite to the top in a standard cross-shaped net is the bottom face"
+    }
+  },
+  {
+    "id": "grpd-r-0134",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a letter 'C'?",
+      "options": [
+        "backwards 'C' (open right becomes open left)",
+        "rotated letter 'C'",
+        "upside-down letter 'C'",
+        "same letter 'C'"
+      ],
+      "explanation": "Mirror flips left-right. letter 'C' → backwards 'C' (open right becomes open left)."
+    },
+    "hi": {
+      "question": "letter 'C' का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "backwards 'C' (open right becomes open left)",
+        "rotated letter 'C'",
+        "upside-down letter 'C'",
+        "same letter 'C'"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। letter 'C' → backwards 'C' (open right becomes open left)।"
+    }
+  },
+  {
+    "id": "grpd-r-0135",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'W'?",
+      "options": [
+        "inverted 'W' (like 'M')",
+        "rotated letter 'W'",
+        "same letter 'W'",
+        "mirror image of letter 'W'"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'W' → inverted 'W' (like 'M')."
+    },
+    "hi": {
+      "question": "letter 'W' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "inverted 'W' (like 'M')",
+        "rotated letter 'W'",
+        "same letter 'W'",
+        "mirror image of letter 'W'"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'W' → inverted 'W' (like 'M')।"
+    }
+  },
+  {
+    "id": "grpd-r-0136",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: ⬆ → ➡ → ⬇ → ⬅ → ⬆ → ?",
+      "options": [
+        "➡",
+        "➡",
+        "○",
+        "➡"
+      ],
+      "explanation": "Arrow rotates 90° clockwise each step"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: ⬆ → ➡ → ⬇ → ⬅ → ⬆ → ?",
+      "options": [
+        "➡",
+        "➡",
+        "○",
+        "➡"
+      ],
+      "explanation": "Arrow rotates 90° clockwise each step"
+    }
+  },
+  {
+    "id": "grpd-r-0137",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'W'?",
+      "options": [
+        "same letter 'W'",
+        "rotated letter 'W'",
+        "mirror image of letter 'W'",
+        "inverted 'W' (like 'M')"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'W' → inverted 'W' (like 'M')."
+    },
+    "hi": {
+      "question": "letter 'W' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "same letter 'W'",
+        "rotated letter 'W'",
+        "mirror image of letter 'W'",
+        "inverted 'W' (like 'M')"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'W' → inverted 'W' (like 'M')।"
+    }
+  },
+  {
+    "id": "grpd-r-0138",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (cross-shaped net with 6 squares (standard)), The face opposite to the top in a standard cross-shaped net is the bottom face.",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "Opposite faces share an edge in the net",
+        "The face opposite to the top in a standard cross-shaped net is the bottom face",
+        "All faces in net are adjacent"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. The face opposite to the top in a standard cross-shaped net is the bottom face"
+    },
+    "hi": {
+      "question": "एक घन के जाल (cross-shaped net with 6 squares (standard)) में, The face opposite to the top in a standard cross-shaped net is the bottom face।",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "Opposite faces share an edge in the net",
+        "The face opposite to the top in a standard cross-shaped net is the bottom face",
+        "All faces in net are adjacent"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। The face opposite to the top in a standard cross-shaped net is the bottom face"
+    }
+  },
+  {
+    "id": "grpd-r-0139",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'M'?",
+      "options": [
+        "inverted 'M' (like 'W')",
+        "same letter 'M'",
+        "rotated letter 'M'",
+        "mirror image of letter 'M'"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'M' → inverted 'M' (like 'W')."
+    },
+    "hi": {
+      "question": "letter 'M' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "inverted 'M' (like 'W')",
+        "same letter 'M'",
+        "rotated letter 'M'",
+        "mirror image of letter 'M'"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'M' → inverted 'M' (like 'W')।"
+    }
+  },
+  {
+    "id": "grpd-r-0140",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded into quarters, then a hole at center. When unfolded, what pattern appears?",
+      "options": [
+        "one hole at center (or pattern)",
+        "random pattern",
+        "single pattern at center",
+        "no pattern"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → one hole at center (or pattern)."
+    },
+    "hi": {
+      "question": "एक कागज को folded into quarters, then a hole at center। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "one hole at center (or pattern)",
+        "random pattern",
+        "single pattern at center",
+        "no pattern"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → one hole at center (or pattern)।"
+    }
+  },
+  {
+    "id": "grpd-r-0141",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a letter 'X'?",
+      "options": [
+        "rotated letter 'X'",
+        "mirror image of letter 'X'",
+        "same 'X' (symmetric)",
+        "same letter 'X'"
+      ],
+      "explanation": "Water reflection flips top-bottom. letter 'X' → same 'X' (symmetric)."
+    },
+    "hi": {
+      "question": "letter 'X' का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "rotated letter 'X'",
+        "mirror image of letter 'X'",
+        "same 'X' (symmetric)",
+        "same letter 'X'"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। letter 'X' → same 'X' (symmetric)।"
+    }
+  },
+  {
+    "id": "grpd-r-0142",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the mirror image of a key shape?",
+      "options": [
+        "same key shape",
+        "rotated key shape",
+        "mirrored key shape",
+        "upside-down key shape"
+      ],
+      "explanation": "Mirror flips left-right. key shape → mirrored key shape."
+    },
+    "hi": {
+      "question": "key shape का दर्पण प्रतिबिंब क्या होगा?",
+      "options": [
+        "same key shape",
+        "rotated key shape",
+        "mirrored key shape",
+        "upside-down key shape"
+      ],
+      "explanation": "दर्पण बाएं-दाएं उलटता है। key shape → mirrored key shape।"
+    }
+  },
+  {
+    "id": "grpd-r-0143",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (cross-shaped net with 6 squares (standard)), Faces that are separated by one face in the net become opposite in the cube.",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "Opposite faces share an edge in the net",
+        "Faces that are separated by one face in the net become opposite in the cube",
+        "All faces in net are adjacent"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. Faces that are separated by one face in the net become opposite in the cube"
+    },
+    "hi": {
+      "question": "एक घन के जाल (cross-shaped net with 6 squares (standard)) में, Faces that are separated by one face in the net become opposite in the cube।",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "Opposite faces share an edge in the net",
+        "Faces that are separated by one face in the net become opposite in the cube",
+        "All faces in net are adjacent"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। Faces that are separated by one face in the net become opposite in the cube"
+    }
+  },
+  {
+    "id": "grpd-r-0144",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the figure series: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "○",
+        "⬆",
+        "△",
+        "△"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    },
+    "hi": {
+      "question": "आकृति श्रेणी पूरी करें: △ → □ → ○ → △ → □ → ?",
+      "options": [
+        "○",
+        "⬆",
+        "△",
+        "△"
+      ],
+      "explanation": "Pattern repeats: △, □, ○, △, □, ○"
+    }
+  },
+  {
+    "id": "grpd-r-0145",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the water image of a arrow pointing up?",
+      "options": [
+        "mirror image of arrow pointing up",
+        "rotated arrow pointing up",
+        "arrow pointing down",
+        "same arrow pointing up"
+      ],
+      "explanation": "Water reflection flips top-bottom. arrow pointing up → arrow pointing down."
+    },
+    "hi": {
+      "question": "arrow pointing up का जल प्रतिबिंब क्या होगा?",
+      "options": [
+        "mirror image of arrow pointing up",
+        "rotated arrow pointing up",
+        "arrow pointing down",
+        "same arrow pointing up"
+      ],
+      "explanation": "जल प्रतिबिंब ऊपर-नीचे उलटता है। arrow pointing up → arrow pointing down।"
+    }
+  },
+  {
+    "id": "grpd-r-0146",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A paper is folded diagonally once, then a hole punched. When unfolded, what pattern appears?",
+      "options": [
+        "single pattern at center",
+        "no pattern",
+        "random pattern",
+        "two holes at diagonal corners"
+      ],
+      "explanation": "When folded and punched/cut, the pattern multiples by the number of layers. → two holes at diagonal corners."
+    },
+    "hi": {
+      "question": "एक कागज को folded diagonally once, then a hole punched। खोलने पर क्या पैटर्न बनेगा?",
+      "options": [
+        "single pattern at center",
+        "no pattern",
+        "random pattern",
+        "two holes at diagonal corners"
+      ],
+      "explanation": "मोड़ने और छेद करने पर, परतों की संख्या के अनुसार पैटर्न बनता है। → two holes at diagonal corners।"
+    }
+  },
+  {
+    "id": "grpd-r-0147",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (net with 4 in a row and 2 on sides), The face opposite to the top in a standard cross-shaped net is the bottom face.",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent",
+        "The face opposite to the top in a standard cross-shaped net is the bottom face"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. The face opposite to the top in a standard cross-shaped net is the bottom face"
+    },
+    "hi": {
+      "question": "एक घन के जाल (net with 4 in a row and 2 on sides) में, The face opposite to the top in a standard cross-shaped net is the bottom face।",
+      "options": [
+        "Adjacent faces in net are always opposite",
+        "Opposite faces share an edge in the net",
+        "All faces in net are adjacent",
+        "The face opposite to the top in a standard cross-shaped net is the bottom face"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। The face opposite to the top in a standard cross-shaped net is the bottom face"
+    }
+  },
+  {
+    "id": "grpd-r-0148",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Given a cube net (net with 4 in a row and 2 on sides), In a cube, opposite faces never share an edge.",
+      "options": [
+        "In a cube, opposite faces never share an edge",
+        "Adjacent faces in net are always opposite",
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net"
+      ],
+      "explanation": "In cube nets, faces that are not adjacent in the folded cube are separated in the net. In a cube, opposite faces never share an edge"
+    },
+    "hi": {
+      "question": "एक घन के जाल (net with 4 in a row and 2 on sides) में, In a cube, opposite faces never share an edge।",
+      "options": [
+        "In a cube, opposite faces never share an edge",
+        "Adjacent faces in net are always opposite",
+        "All faces in net are adjacent",
+        "Opposite faces share an edge in the net"
+      ],
+      "explanation": "घन के जाल में, जो फलक मुड़े हुए घन में आसन्न नहीं होते, वे जाल में अलग होते हैं। In a cube, opposite faces never share an edge"
+    }
+  }
+]

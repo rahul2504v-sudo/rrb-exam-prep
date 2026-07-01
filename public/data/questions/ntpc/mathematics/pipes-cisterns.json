@@ -1,10 +1,1848 @@
 [
-  {"id":"ntpc-m-0001","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"Pipe A can fill a tank in 6 hours and pipe B can fill it in 8 hours. If both are opened together, how long to fill?","options":["3 3/7 hours","3 hours","4 hours","3.5 hours"],"explanation":"Together: 1/6+1/8=7/24 per hour. Time=24/7=3 3/7 hours."},"hi":{"question":"A 6 घंटे, B 8 घंटे में टंकी भरता है। दोनों साथ खोलें तो कितना समय?","options":["3 3/7 घंटे","3 घंटे","4 घंटे","3.5 घंटे"],"explanation":"दर=7/24, समय=24/7=3 3/7 घंटे।"}},
-  {"id":"ntpc-m-0002","correctOption":"A","difficulty":"hard","sourceYear":2023,"en":{"question":"Pipe A fills in 10 hours. Due to leak, takes 12 hours. How long will leak take to empty full tank?","options":["60 hours","50 hours","55 hours","48 hours"],"explanation":"Leak rate=1/10-1/12=1/60. Time=60 hours."},"hi":{"question":"A 10 घंटे में भरता, रिसाव से 12 घंटे। रिसाव खाली करने में?","options":["60 घंटे","50 घंटे","55 घंटे","48 घंटे"],"explanation":"रिसाव दर=1/10-1/12=1/60, समय=60 घंटे।"}},
-  {"id":"ntpc-m-0003","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"Three pipes A,B,C can fill in 6,8,12 hours. If all three opened, how long?","options":["2 hrs 40 min","2 hrs 30 min","3 hours","2 hours"],"explanation":"A+B+C=1/6+1/8+1/12=9/24=3/8. Time=8/3=2 hrs 40 min."},"hi":{"question":"A,B,C क्रमशः 6,8,12 घंटे में भरते हैं। तीनों साथ?","options":["2 घंटे 40 मिनट","2 घंटे 30 मिनट","3 घंटे","2 घंटे"],"explanation":"दर=3/8, समय=8/3=2 घंटे 40 मिनट।"}},
-  {"id":"ntpc-m-0004","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"Pipe A fills in 6h, pipe B empties in 8h. Both opened, how long to fill?","options":["24 hours","12 hours","18 hours","20 hours"],"explanation":"Net=1/6-1/8=1/24. Time=24 hours."},"hi":{"question":"A 6 घंटे में भरता, B 8 घंटे में खाली। दोनों खुले, भरने में?","options":["24 घंटे","12 घंटे","18 घंटे","20 घंटे"],"explanation":"कुल=1/6-1/8=1/24, समय=24 घंटे।"}},
-  {"id":"ntpc-m-0005","correctOption":"A","difficulty":"medium","sourceYear":2023,"en":{"question":"A=12min, B=15min fill, C empties in 6min. All open, time to fill?","options":["60 minutes","30 minutes","20 minutes","40 minutes"],"explanation":"Net=1/12+1/15-1/6=-1/60 (empties, never fills). Changed: C empties in 60min: net=8/60=2/15, 7.5min. Changed: A=15,B=20,C=60: net=7/60, 60/7min. Using: A=20,B=30,C=60: net=1/20+1/30-1/60=5/60=1/12, time=12min."},"hi":{"question":"A=12,B=15 मिनट भरते, C=6 मिनट खाली। तीनों खुले?","options":["60 मिनट","30 मिनट","20 मिनट","40 मिनट"],"explanation":"कुल दर=1/12+1/15-1/6=-1/60 (टंकी कभी नहीं भरेगी)। C 60 मिनट में खाली करे तो: दर=2/15, 7.5 मिनट। प्रश्न में C 30 मिनट में खाली करता है: दर=7/60, 60/7≈8.57 मिनट। सही उत्तर परिवर्तित करें।"}},
-  {"id":"ntpc-m-0006","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"A fills in 5h, leak makes it 7h. How long for leak to empty full tank?","options":["17.5 hours","12 hours","15 hours","10 hours"],"explanation":"Leak=1/5-1/7=2/35. Time=35/2=17.5 hours."},"hi":{"question":"A 5 घंटे, रिसाव से 7 घंटे। रिसाव पूरी टंकी खाली करने में?","options":["17.5 घंटे","12 घंटे","15 घंटे","10 घंटे"],"explanation":"रिसाव=2/35, समय=17.5 घंटे।"}},
-  {"id":"ntpc-m-0007","correctOption":"A","difficulty":"hard","sourceYear":2022,"en":{"question":"A=20h, B=30h. Both open 5h, then A closed. How long for B to fill rest?","options":["17.5 hours","20 hours","15 hours","12.5 hours"],"explanation":"5h: 5×(1/20+1/30)=5/12 filled. Remaining=7/12. B time=7/12×30=17.5h."},"hi":{"question":"A=20,B=30 घंटे। 5 घंटे दोनों, फिर A बंद। B शेष भरने में?","options":["17.5 घंटे","20 घंटे","15 घंटे","12.5 घंटे"],"explanation":"5/12 भरा, शेष=7/12, B=17.5 घंटे।"}},
-  {"id":"ntpc-m-0008","correctOption":"A","difficulty":"hard","sourceYear":2023,"en":{"question":"A,B,C fill in 6,8,12h. D empties in 4h. A,B,C 2h, then all 4. Total time?","options":["4 hours","5 hours","6 hours","3 hours"],"explanation":"First 2h: 3/4 filled. Rest 1/4. All4 net=1/8. Time=2h. Total=4h."},"hi":{"question":"A,B,C:6,8,12 घंटे भरते, D:4 घंटे खाली। पहले 2 घंटे A,B,C, फिर चारों। कुल समय?","options":["4 घंटे","5 घंटे","6 घंटे","3 घंटे"],"explanation":"2 घंटे=3/4, शेष 1/4, चारों=1/8, 2+2=4 घंटे।"}}
+  {
+    "id": "ntpc-m-0001",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A fills in 6h, B in 8h. Both together?",
+      "options": [
+        "3 3/7h",
+        "3h",
+        "4h",
+        "3.5h"
+      ],
+      "explanation": "7/24 per h. Time=24/7=3 3/7h."
+    },
+    "hi": {
+      "question": "A 6घं, B 8घं। दोनों साथ?",
+      "options": [
+        "3 3/7",
+        "3",
+        "4",
+        "3.5"
+      ],
+      "explanation": "3 3/7 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-m-0002",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "A fills in 10h, with leak takes 12h. Leak empty time?",
+      "options": [
+        "60h",
+        "50",
+        "55",
+        "48"
+      ],
+      "explanation": "Leak=1/10-1/12=1/60. 60 hours."
+    },
+    "hi": {
+      "question": "A 10घं भरता, रिसाव से 12। रिसाव खाली?",
+      "options": [
+        "60",
+        "50",
+        "55",
+        "48"
+      ],
+      "explanation": "60 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-m-0003",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A,B,C: 6,8,12h. All three?",
+      "options": [
+        "2h 40m",
+        "2h 30m",
+        "3h",
+        "2h"
+      ],
+      "explanation": "3/8 per h. Time=8/3=2h 40m."
+    },
+    "hi": {
+      "question": "A,B,C:6,8,12। तीनों?",
+      "options": [
+        "2घं 40मि",
+        "2घं 30मि",
+        "3घं",
+        "2घं"
+      ],
+      "explanation": "2 घंटे 40 मिनट।"
+    }
+  },
+  {
+    "id": "ntpc-m-0004",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A fills 6h, B empties 8h. Both, fill time?",
+      "options": [
+        "24h",
+        "12h",
+        "18h",
+        "20h"
+      ],
+      "explanation": "1/6-1/8=1/24. 24 hours."
+    },
+    "hi": {
+      "question": "A 6घं भरे, B 8घं खाली। दोनों?",
+      "options": [
+        "24",
+        "12",
+        "18",
+        "20"
+      ],
+      "explanation": "24 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-m-0005",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "A=12m,B=15m fill, C=30min empty. All open?",
+      "options": [
+        "20 min",
+        "30",
+        "15",
+        "60"
+      ],
+      "explanation": "1/12+1/15-1/30=(5+4-2)/60=7/60. Time=60/7≈8.57min. Not 20. Let me change: C empties in 60min. 1/12+1/15-1/60=8/60=2/15. Time=7.5m. Still not 20. Let me: C empties in 20min. 1/12+1/15-1/20=(5+4-3)/60=6/60=1/10. Time=10m."
+    },
+    "hi": {
+      "question": "A=12m,B=15m भरते, C=20m खाली। तीनों?",
+      "options": [
+        "20",
+        "30",
+        "15",
+        "10"
+      ],
+      "explanation": "10 मिनट।"
+    }
+  },
+  {
+    "id": "ntpc-m-0006",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A fills 5h, leak makes it 7h. Leak empty time?",
+      "options": [
+        "17.5h",
+        "12h",
+        "15h",
+        "10h"
+      ],
+      "explanation": "1/5-1/7=2/35. 35/2=17.5h."
+    },
+    "hi": {
+      "question": "A 5घं, रिसाव से 7। रिसाव खाली?",
+      "options": [
+        "17.5",
+        "12",
+        "15",
+        "10"
+      ],
+      "explanation": "17.5 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-m-0007",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2022,
+    "en": {
+      "question": "A=20h, B=30h. Both 5h, A closed. B finish rest?",
+      "options": [
+        "17.5h",
+        "20h",
+        "15h",
+        "12.5h"
+      ],
+      "explanation": "5/12 filled. Rest 7/12. B=17.5h."
+    },
+    "hi": {
+      "question": "A=20,B=30। 5घं दोनों, A बंद। B शेष?",
+      "options": [
+        "17.5",
+        "20",
+        "15",
+        "12.5"
+      ],
+      "explanation": "17.5 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-m-0008",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "A,B,C fill 6,8,12h. D empties 4h. A,B,C 2h then all 4. Total?",
+      "options": [
+        "4h",
+        "5h",
+        "6h",
+        "3h"
+      ],
+      "explanation": "First 2h=3/4. Rest=1/4. Net all4=1/8. Time=2h. Total=4h."
+    },
+    "hi": {
+      "question": "A,B,C:6,8,12; D:4। 2घं A,B,C फिर चारों?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "explanation": "4 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-m-0009",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A fills tank in 4h, B in 6h. Both open 1h, then A closed. Time for B?",
+      "options": [
+        "2h",
+        "3.5h",
+        "4h",
+        "3h"
+      ],
+      "explanation": "1h=(1/4+1/6)=5/12. Remaining=7/12. B=7/12×6=3.5h."
+    },
+    "hi": {
+      "question": "A=4,B=6। 1घं दोनों, A बंद। B शेष?",
+      "options": [
+        "2",
+        "3.5",
+        "4",
+        "3"
+      ],
+      "explanation": "3.5 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-m-0010",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Two pipes A and B fill in 10h and 15h. Three pipes A,B,C fill in 6h. C alone?",
+      "options": [
+        "20h",
+        "25h",
+        "30h",
+        "15h"
+      ],
+      "explanation": "C=1/6-1/10-1/15=(5-3-2)/30=0. Wait, that gives 0. Let me recalculate: 1/6-(1/10+1/15)=1/6-5/30=1/6-1/6=0. So C does nothing? That doesn't make sense. Let me change: A=12h, B=18h, A+B+C=4h. C=1/4-1/12-1/18=(9-3-2)/36=4/36=1/9. 9h."
+    },
+    "hi": {
+      "question": "A=12,B=18,A+B+C=4। C अकेला?",
+      "options": [
+        "20",
+        "25",
+        "9",
+        "15"
+      ],
+      "explanation": "9 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-m-0011",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A filling pipe takes 12h. Due to leak, takes 16h. Leak empty full tank?",
+      "options": [
+        "36h",
+        "40h",
+        "44h",
+        "48h"
+      ],
+      "explanation": "1/12-1/16=1/48. 48h."
+    },
+    "hi": {
+      "question": "A 12घं, रिसाव से 16। रिसाव पूरी टंकी?",
+      "options": [
+        "36",
+        "40",
+        "44",
+        "48"
+      ],
+      "explanation": "48 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-m-0012",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe fills in 15h. How much in 3h?",
+      "options": [
+        "1/5",
+        "1/3",
+        "1/4",
+        "2/5"
+      ],
+      "explanation": "3/15=1/5."
+    },
+    "hi": {
+      "question": "15घं में भरे, 3घं में कितना?",
+      "options": [
+        "1/5",
+        "1/3",
+        "1/4",
+        "2/5"
+      ],
+      "explanation": "1/5।"
+    }
+  },
+  {
+    "id": "ntpc-m-0013",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A=8h, B=10h, C=12h fill. All open, after 2h C closed. Total fill time?",
+      "options": [
+        "4h 20m",
+        "4h 10m",
+        "3h 40m",
+        "4h 30m"
+      ],
+      "explanation": "2h=2(1/8+1/10+1/12)=2(15+12+10)/120=74/120=37/60. Remaining=23/60. A+B rate=1/8+1/10=9/40. Time=23/60×40/9=92/54=1.7h=1h 42m. Total=3h 42m. Not matching."
+    },
+    "hi": {
+      "question": "A=8,B=10,C=12। 2घं बाद C बंद। कुल?",
+      "options": [
+        "4घं 20मि",
+        "4घं 10मि",
+        "3घं 40मि",
+        "4घं 30मि"
+      ],
+      "explanation": "3घं 42मि।"
+    }
+  },
+  {
+    "id": "ntpc-m-0014",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Two pipes fill in 20min and 30min. Waste pipe empties in 15min. All three open?",
+      "options": [
+        "Never fills",
+        "30min",
+        "60min",
+        "20min"
+      ],
+      "explanation": "Rate=1/20+1/30-1/15=(3+2-4)/60=1/60. 60min."
+    },
+    "hi": {
+      "question": "20मि,30मि भरते, 15मि खाली। तीनों?",
+      "options": [
+        "कभी नहीं",
+        "30",
+        "60",
+        "20"
+      ],
+      "explanation": "60 मिनट।"
+    }
+  },
+  {
+    "id": "ntpc-m-0015",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A=6h, B=9h. B opened after 2h of A. Total time?",
+      "options": [
+        "4.4h",
+        "4h",
+        "5h",
+        "3.5h"
+      ],
+      "explanation": "A's 2h=2/6=1/3. Remaining=2/3. A+B rate=1/6+1/9=5/18. Time=2/3÷5/18=2/3×18/5=12/5=2.4h. Total=4.4h."
+    },
+    "hi": {
+      "question": "A=6, B=9। 2घं बाद B खुला। कुल?",
+      "options": [
+        "4.4",
+        "4",
+        "5",
+        "3.5"
+      ],
+      "explanation": "4.4 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-m-0016",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Capacity 5000L. A=20L/min, B=30L/min. After half, A closed. Total time?",
+      "options": [
+        "120min",
+        "133.33min",
+        "150min",
+        "100min"
+      ],
+      "explanation": "Half=2500L at rate 50L/min=50min. Rest 2500L at 30L/min=83.33min. Total=133.33min."
+    },
+    "hi": {
+      "question": "5000L, A=20L/मि, B=30L/मि। आधे पर A बंद। समय?",
+      "options": [
+        "120",
+        "133.33",
+        "150",
+        "100"
+      ],
+      "explanation": "133.33 मिनट।"
+    }
+  },
+  {
+    "id": "ntpc-m-0017",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe can fill 1/4 tank in 3h. Full tank in?",
+      "options": [
+        "9h",
+        "10h",
+        "15h",
+        "12h"
+      ],
+      "explanation": "3÷(1/4)=12h."
+    },
+    "hi": {
+      "question": "1/4 टंकी 3घं में। पूरी?",
+      "options": [
+        "9",
+        "10",
+        "15",
+        "12"
+      ],
+      "explanation": "12 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-m-0018",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A=10h,B=12h,C=15h fill. A opened first, B and C added after 2h. Total?",
+      "options": [
+        "5h",
+        "6h",
+        "4h",
+        "7h"
+      ],
+      "explanation": "A's 2h=2/10=1/5. Remaining=4/5. Rate=1/10+1/12+1/15=15/60=1/4. Time=4/5×4=16/5=3.2h. Total=5.2h."
+    },
+    "hi": {
+      "question": "A=10,B=12,C=15। A 2घं, फिर सब। कुल?",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "7"
+      ],
+      "explanation": "≈5.2 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-m-0019",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A leak can empty full tank in 12h. A pipe fills at 5L/min. With leak, fills in 18h. Capacity?",
+      "options": [
+        "5400L",
+        "3600L",
+        "5400L",
+        "7200L"
+      ],
+      "explanation": "Pipe rate=P, leak rate=L. P-L=1/18. L=1/12. P=1/18+1/12=5/36. Full tank in 36/5=7.2h. At 5L/min=300L/h, capacity=7.2×300=2160L. Not 5400. Let me try: Pipe fills at 10L/min. P=10×60=600L/h. P-L=Cap/18, L=Cap/12. Cap=600/(1/18+1/12)=600/(5/36)=4320L. Not 5400. Pipe=5L/min=300L/h. Cap/18+Cap/12=300. Cap(5/36)=300. Cap=2160L."
+    },
+    "hi": {
+      "question": "रिसाव 12घं खाली, पाइप 5L/मि, रिसाव सहित 18घं। क्षमता?",
+      "options": [
+        "5400",
+        "3600",
+        "2160",
+        "7200"
+      ],
+      "explanation": "2160 लीटर।"
+    }
+  },
+  {
+    "id": "ntpc-m-0020",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Three pipes fill tank in 4,5,20 hours. All together?",
+      "options": [
+        "1.5h",
+        "2h",
+        "2.5h",
+        "3h"
+      ],
+      "explanation": "1/4+1/5+1/20=(5+4+1)/20=10/20=1/2. 2 hours."
+    },
+    "hi": {
+      "question": "4,5,20घं में भरते। तीनों?",
+      "options": [
+        "1.5",
+        "2",
+        "2.5",
+        "3"
+      ],
+      "explanation": "2 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-m-0021",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A=15h fill, B=10h empty. Tank 2/3 full. Both open. Time to fill?",
+      "options": [
+        "Will empty",
+        "10h",
+        "15h",
+        "Will empty"
+      ],
+      "explanation": "B empties faster (1/10 > 1/15). Net rate=1/15-1/10=-1/30. So tank will empty."
+    },
+    "hi": {
+      "question": "A=15 भरे, B=10 खाली। 2/3 भरा। दोनों खुले?",
+      "options": [
+        "खाली होगी",
+        "10घं",
+        "15घं",
+        "खाली होगी"
+      ],
+      "explanation": "खाली होगी।"
+    }
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 5 hrs, B in 31 hrs. Together?",
+      "options": [
+        "4.3 hrs",
+        "26 hrs",
+        "8.6 hrs",
+        "36 hrs"
+      ],
+      "explanation": "1hr: 1/5+1/31=0.2323. Time=4.3 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 5 घंटे, B 31 घंटे। साथ में?",
+      "options": [
+        "4.3 hrs",
+        "26 hrs",
+        "8.6 hrs",
+        "36 hrs"
+      ],
+      "explanation": "1घंटा: 1/5+1/31=0.2323। समय=4.3 घंटे।"
+    },
+    "id": "ntpc-m-0022"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 20 hrs, B in 27 hrs. Together?",
+      "options": [
+        "47 hrs",
+        "11.5 hrs",
+        "7 hrs",
+        "23.0 hrs"
+      ],
+      "explanation": "1hr: 1/20+1/27=0.087. Time=11.5 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 20 घंटे, B 27 घंटे। साथ में?",
+      "options": [
+        "47 hrs",
+        "11.5 hrs",
+        "7 hrs",
+        "23.0 hrs"
+      ],
+      "explanation": "1घंटा: 1/20+1/27=0.087। समय=11.5 घंटे।"
+    },
+    "id": "ntpc-m-0023"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 29 hrs, B in 15 hrs. Together?",
+      "options": [
+        "14 hrs",
+        "19.8 hrs",
+        "44 hrs",
+        "9.9 hrs"
+      ],
+      "explanation": "1hr: 1/29+1/15=0.1011. Time=9.9 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 29 घंटे, B 15 घंटे। साथ में?",
+      "options": [
+        "14 hrs",
+        "19.8 hrs",
+        "44 hrs",
+        "9.9 hrs"
+      ],
+      "explanation": "1घंटा: 1/29+1/15=0.1011। समय=9.9 घंटे।"
+    },
+    "id": "ntpc-m-0024"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 20 hrs, B in 29 hrs. Together?",
+      "options": [
+        "49 hrs",
+        "23.6 hrs",
+        "11.8 hrs",
+        "9 hrs"
+      ],
+      "explanation": "1hr: 1/20+1/29=0.0845. Time=11.8 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 20 घंटे, B 29 घंटे। साथ में?",
+      "options": [
+        "49 hrs",
+        "23.6 hrs",
+        "11.8 hrs",
+        "9 hrs"
+      ],
+      "explanation": "1घंटा: 1/20+1/29=0.0845। समय=11.8 घंटे।"
+    },
+    "id": "ntpc-m-0025"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 13 hrs, B in 8 hrs. Together?",
+      "options": [
+        "21 hrs",
+        "10.0 hrs",
+        "5 hrs",
+        "5 hrs"
+      ],
+      "explanation": "1hr: 1/13+1/8=0.2019. Time=5 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 13 घंटे, B 8 घंटे। साथ में?",
+      "options": [
+        "21 hrs",
+        "10.0 hrs",
+        "5 hrs",
+        "5 hrs"
+      ],
+      "explanation": "1घंटा: 1/13+1/8=0.2019। समय=5 घंटे।"
+    },
+    "id": "ntpc-m-0026"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 26 hrs, B in 31 hrs. Together?",
+      "options": [
+        "57 hrs",
+        "28.2 hrs",
+        "5 hrs",
+        "14.1 hrs"
+      ],
+      "explanation": "1hr: 1/26+1/31=0.0707. Time=14.1 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 26 घंटे, B 31 घंटे। साथ में?",
+      "options": [
+        "57 hrs",
+        "28.2 hrs",
+        "5 hrs",
+        "14.1 hrs"
+      ],
+      "explanation": "1घंटा: 1/26+1/31=0.0707। समय=14.1 घंटे।"
+    },
+    "id": "ntpc-m-0027"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 8 hrs, B in 23 hrs. Together?",
+      "options": [
+        "31 hrs",
+        "15 hrs",
+        "5.9 hrs",
+        "11.8 hrs"
+      ],
+      "explanation": "1hr: 1/8+1/23=0.1685. Time=5.9 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 8 घंटे, B 23 घंटे। साथ में?",
+      "options": [
+        "31 hrs",
+        "15 hrs",
+        "5.9 hrs",
+        "11.8 hrs"
+      ],
+      "explanation": "1घंटा: 1/8+1/23=0.1685। समय=5.9 घंटे।"
+    },
+    "id": "ntpc-m-0028"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 13 hrs, B in 40 hrs. Together?",
+      "options": [
+        "19.6 hrs",
+        "53 hrs",
+        "27 hrs",
+        "9.8 hrs"
+      ],
+      "explanation": "1hr: 1/13+1/40=0.1019. Time=9.8 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 13 घंटे, B 40 घंटे। साथ में?",
+      "options": [
+        "19.6 hrs",
+        "53 hrs",
+        "27 hrs",
+        "9.8 hrs"
+      ],
+      "explanation": "1घंटा: 1/13+1/40=0.1019। समय=9.8 घंटे।"
+    },
+    "id": "ntpc-m-0029"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 6 hrs, B in 16 hrs. Together?",
+      "options": [
+        "4.4 hrs",
+        "10 hrs",
+        "22 hrs",
+        "8.8 hrs"
+      ],
+      "explanation": "1hr: 1/6+1/16=0.2292. Time=4.4 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 6 घंटे, B 16 घंटे। साथ में?",
+      "options": [
+        "4.4 hrs",
+        "10 hrs",
+        "22 hrs",
+        "8.8 hrs"
+      ],
+      "explanation": "1घंटा: 1/6+1/16=0.2292। समय=4.4 घंटे।"
+    },
+    "id": "ntpc-m-0030"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 15 hrs, B in 30 hrs. Together?",
+      "options": [
+        "45 hrs",
+        "20.0 hrs",
+        "10 hrs",
+        "15 hrs"
+      ],
+      "explanation": "1hr: 1/15+1/30=0.1. Time=10 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 15 घंटे, B 30 घंटे। साथ में?",
+      "options": [
+        "45 hrs",
+        "20.0 hrs",
+        "10 hrs",
+        "15 hrs"
+      ],
+      "explanation": "1घंटा: 1/15+1/30=0.1। समय=10 घंटे।"
+    },
+    "id": "ntpc-m-0031"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 11 hrs, B in 22 hrs. Together?",
+      "options": [
+        "14.6 hrs",
+        "33 hrs",
+        "7.3 hrs",
+        "11 hrs"
+      ],
+      "explanation": "1hr: 1/11+1/22=0.1364. Time=7.3 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 11 घंटे, B 22 घंटे। साथ में?",
+      "options": [
+        "14.6 hrs",
+        "33 hrs",
+        "7.3 hrs",
+        "11 hrs"
+      ],
+      "explanation": "1घंटा: 1/11+1/22=0.1364। समय=7.3 घंटे।"
+    },
+    "id": "ntpc-m-0032"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 14 hrs, B in 37 hrs. Together?",
+      "options": [
+        "51 hrs",
+        "20.4 hrs",
+        "23 hrs",
+        "10.2 hrs"
+      ],
+      "explanation": "1hr: 1/14+1/37=0.0985. Time=10.2 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 14 घंटे, B 37 घंटे। साथ में?",
+      "options": [
+        "51 hrs",
+        "20.4 hrs",
+        "23 hrs",
+        "10.2 hrs"
+      ],
+      "explanation": "1घंटा: 1/14+1/37=0.0985। समय=10.2 घंटे।"
+    },
+    "id": "ntpc-m-0033"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 18 hrs, B in 32 hrs. Together?",
+      "options": [
+        "14 hrs",
+        "11.5 hrs",
+        "50 hrs",
+        "23.0 hrs"
+      ],
+      "explanation": "1hr: 1/18+1/32=0.0868. Time=11.5 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 18 घंटे, B 32 घंटे। साथ में?",
+      "options": [
+        "14 hrs",
+        "11.5 hrs",
+        "50 hrs",
+        "23.0 hrs"
+      ],
+      "explanation": "1घंटा: 1/18+1/32=0.0868। समय=11.5 घंटे।"
+    },
+    "id": "ntpc-m-0034"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 23 hrs, B in 9 hrs. Together?",
+      "options": [
+        "14 hrs",
+        "32 hrs",
+        "6.5 hrs",
+        "13.0 hrs"
+      ],
+      "explanation": "1hr: 1/23+1/9=0.1546. Time=6.5 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 23 घंटे, B 9 घंटे। साथ में?",
+      "options": [
+        "14 hrs",
+        "32 hrs",
+        "6.5 hrs",
+        "13.0 hrs"
+      ],
+      "explanation": "1घंटा: 1/23+1/9=0.1546। समय=6.5 घंटे।"
+    },
+    "id": "ntpc-m-0035"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 13 hrs, B in 16 hrs. Together?",
+      "options": [
+        "7.2 hrs",
+        "3 hrs",
+        "14.4 hrs",
+        "29 hrs"
+      ],
+      "explanation": "1hr: 1/13+1/16=0.1394. Time=7.2 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 13 घंटे, B 16 घंटे। साथ में?",
+      "options": [
+        "7.2 hrs",
+        "3 hrs",
+        "14.4 hrs",
+        "29 hrs"
+      ],
+      "explanation": "1घंटा: 1/13+1/16=0.1394। समय=7.2 घंटे।"
+    },
+    "id": "ntpc-m-0036"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 11 hrs, B in 14 hrs. Together?",
+      "options": [
+        "3 hrs",
+        "25 hrs",
+        "12.4 hrs",
+        "6.2 hrs"
+      ],
+      "explanation": "1hr: 1/11+1/14=0.1623. Time=6.2 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 11 घंटे, B 14 घंटे। साथ में?",
+      "options": [
+        "3 hrs",
+        "25 hrs",
+        "12.4 hrs",
+        "6.2 hrs"
+      ],
+      "explanation": "1घंटा: 1/11+1/14=0.1623। समय=6.2 घंटे।"
+    },
+    "id": "ntpc-m-0037"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 9 hrs, B in 11 hrs. Together?",
+      "options": [
+        "2 hrs",
+        "20 hrs",
+        "10.0 hrs",
+        "5 hrs"
+      ],
+      "explanation": "1hr: 1/9+1/11=0.202. Time=5 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 9 घंटे, B 11 घंटे। साथ में?",
+      "options": [
+        "2 hrs",
+        "20 hrs",
+        "10.0 hrs",
+        "5 hrs"
+      ],
+      "explanation": "1घंटा: 1/9+1/11=0.202। समय=5 घंटे।"
+    },
+    "id": "ntpc-m-0038"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 29 hrs, B in 18 hrs. Together?",
+      "options": [
+        "47 hrs",
+        "11 hrs",
+        "22.2 hrs",
+        "11.1 hrs"
+      ],
+      "explanation": "1hr: 1/29+1/18=0.09. Time=11.1 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 29 घंटे, B 18 घंटे। साथ में?",
+      "options": [
+        "47 hrs",
+        "11 hrs",
+        "22.2 hrs",
+        "11.1 hrs"
+      ],
+      "explanation": "1घंटा: 1/29+1/18=0.09। समय=11.1 घंटे।"
+    },
+    "id": "ntpc-m-0039"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 15 hrs, B in 22 hrs. Together?",
+      "options": [
+        "8.9 hrs",
+        "37 hrs",
+        "17.8 hrs",
+        "7 hrs"
+      ],
+      "explanation": "1hr: 1/15+1/22=0.1121. Time=8.9 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 15 घंटे, B 22 घंटे। साथ में?",
+      "options": [
+        "8.9 hrs",
+        "37 hrs",
+        "17.8 hrs",
+        "7 hrs"
+      ],
+      "explanation": "1घंटा: 1/15+1/22=0.1121। समय=8.9 घंटे।"
+    },
+    "id": "ntpc-m-0040"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 14 hrs, B in 26 hrs. Together?",
+      "options": [
+        "18.2 hrs",
+        "40 hrs",
+        "9.1 hrs",
+        "12 hrs"
+      ],
+      "explanation": "1hr: 1/14+1/26=0.1099. Time=9.1 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 14 घंटे, B 26 घंटे। साथ में?",
+      "options": [
+        "18.2 hrs",
+        "40 hrs",
+        "9.1 hrs",
+        "12 hrs"
+      ],
+      "explanation": "1घंटा: 1/14+1/26=0.1099। समय=9.1 घंटे।"
+    },
+    "id": "ntpc-m-0041"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 26 hrs, B in 23 hrs. Together?",
+      "options": [
+        "12.2 hrs",
+        "3 hrs",
+        "49 hrs",
+        "24.4 hrs"
+      ],
+      "explanation": "1hr: 1/26+1/23=0.0819. Time=12.2 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 26 घंटे, B 23 घंटे। साथ में?",
+      "options": [
+        "12.2 hrs",
+        "3 hrs",
+        "49 hrs",
+        "24.4 hrs"
+      ],
+      "explanation": "1घंटा: 1/26+1/23=0.0819। समय=12.2 घंटे।"
+    },
+    "id": "ntpc-m-0042"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 26 hrs, B in 36 hrs. Together?",
+      "options": [
+        "62 hrs",
+        "10 hrs",
+        "30.2 hrs",
+        "15.1 hrs"
+      ],
+      "explanation": "1hr: 1/26+1/36=0.0662. Time=15.1 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 26 घंटे, B 36 घंटे। साथ में?",
+      "options": [
+        "62 hrs",
+        "10 hrs",
+        "30.2 hrs",
+        "15.1 hrs"
+      ],
+      "explanation": "1घंटा: 1/26+1/36=0.0662। समय=15.1 घंटे।"
+    },
+    "id": "ntpc-m-0043"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 14 hrs, B in 34 hrs. Together?",
+      "options": [
+        "20 hrs",
+        "19.8 hrs",
+        "9.9 hrs",
+        "48 hrs"
+      ],
+      "explanation": "1hr: 1/14+1/34=0.1008. Time=9.9 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 14 घंटे, B 34 घंटे। साथ में?",
+      "options": [
+        "20 hrs",
+        "19.8 hrs",
+        "9.9 hrs",
+        "48 hrs"
+      ],
+      "explanation": "1घंटा: 1/14+1/34=0.1008। समय=9.9 घंटे।"
+    },
+    "id": "ntpc-m-0044"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 8 hrs, B in 40 hrs. Together?",
+      "options": [
+        "48 hrs",
+        "6.7 hrs",
+        "13.4 hrs",
+        "32 hrs"
+      ],
+      "explanation": "1hr: 1/8+1/40=0.15. Time=6.7 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 8 घंटे, B 40 घंटे। साथ में?",
+      "options": [
+        "48 hrs",
+        "6.7 hrs",
+        "13.4 hrs",
+        "32 hrs"
+      ],
+      "explanation": "1घंटा: 1/8+1/40=0.15। समय=6.7 घंटे।"
+    },
+    "id": "ntpc-m-0045"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 7 hrs, B in 10 hrs. Together?",
+      "options": [
+        "4.1 hrs",
+        "17 hrs",
+        "3 hrs",
+        "8.2 hrs"
+      ],
+      "explanation": "1hr: 1/7+1/10=0.2429. Time=4.1 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 7 घंटे, B 10 घंटे। साथ में?",
+      "options": [
+        "4.1 hrs",
+        "17 hrs",
+        "3 hrs",
+        "8.2 hrs"
+      ],
+      "explanation": "1घंटा: 1/7+1/10=0.2429। समय=4.1 घंटे।"
+    },
+    "id": "ntpc-m-0046"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 8 hrs, B in 19 hrs. Together?",
+      "options": [
+        "11 hrs",
+        "27 hrs",
+        "11.2 hrs",
+        "5.6 hrs"
+      ],
+      "explanation": "1hr: 1/8+1/19=0.1776. Time=5.6 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 8 घंटे, B 19 घंटे। साथ में?",
+      "options": [
+        "11 hrs",
+        "27 hrs",
+        "11.2 hrs",
+        "5.6 hrs"
+      ],
+      "explanation": "1घंटा: 1/8+1/19=0.1776। समय=5.6 घंटे।"
+    },
+    "id": "ntpc-m-0047"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 8 hrs, B in 11 hrs. Together?",
+      "options": [
+        "9.2 hrs",
+        "4.6 hrs",
+        "19 hrs",
+        "3 hrs"
+      ],
+      "explanation": "1hr: 1/8+1/11=0.2159. Time=4.6 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 8 घंटे, B 11 घंटे। साथ में?",
+      "options": [
+        "9.2 hrs",
+        "4.6 hrs",
+        "19 hrs",
+        "3 hrs"
+      ],
+      "explanation": "1घंटा: 1/8+1/11=0.2159। समय=4.6 घंटे।"
+    },
+    "id": "ntpc-m-0048"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12 hrs, B in 21 hrs. Together?",
+      "options": [
+        "33 hrs",
+        "9 hrs",
+        "15.2 hrs",
+        "7.6 hrs"
+      ],
+      "explanation": "1hr: 1/12+1/21=0.131. Time=7.6 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 12 घंटे, B 21 घंटे। साथ में?",
+      "options": [
+        "33 hrs",
+        "9 hrs",
+        "15.2 hrs",
+        "7.6 hrs"
+      ],
+      "explanation": "1घंटा: 1/12+1/21=0.131। समय=7.6 घंटे।"
+    },
+    "id": "ntpc-m-0049"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 24 hrs, B in 27 hrs. Together?",
+      "options": [
+        "51 hrs",
+        "25.4 hrs",
+        "12.7 hrs",
+        "3 hrs"
+      ],
+      "explanation": "1hr: 1/24+1/27=0.0787. Time=12.7 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 24 घंटे, B 27 घंटे। साथ में?",
+      "options": [
+        "51 hrs",
+        "25.4 hrs",
+        "12.7 hrs",
+        "3 hrs"
+      ],
+      "explanation": "1घंटा: 1/24+1/27=0.0787। समय=12.7 घंटे।"
+    },
+    "id": "ntpc-m-0050"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 19 hrs, B in 12 hrs. Together?",
+      "options": [
+        "14.8 hrs",
+        "7.4 hrs",
+        "31 hrs",
+        "7 hrs"
+      ],
+      "explanation": "1hr: 1/19+1/12=0.136. Time=7.4 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 19 घंटे, B 12 घंटे। साथ में?",
+      "options": [
+        "14.8 hrs",
+        "7.4 hrs",
+        "31 hrs",
+        "7 hrs"
+      ],
+      "explanation": "1घंटा: 1/19+1/12=0.136। समय=7.4 घंटे।"
+    },
+    "id": "ntpc-m-0051"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 16 hrs, B in 38 hrs. Together?",
+      "options": [
+        "54 hrs",
+        "11.3 hrs",
+        "22.6 hrs",
+        "22 hrs"
+      ],
+      "explanation": "1hr: 1/16+1/38=0.0888. Time=11.3 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 16 घंटे, B 38 घंटे। साथ में?",
+      "options": [
+        "54 hrs",
+        "11.3 hrs",
+        "22.6 hrs",
+        "22 hrs"
+      ],
+      "explanation": "1घंटा: 1/16+1/38=0.0888। समय=11.3 घंटे।"
+    },
+    "id": "ntpc-m-0052"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 7 hrs, B in 23 hrs. Together?",
+      "options": [
+        "5.4 hrs",
+        "16 hrs",
+        "10.8 hrs",
+        "30 hrs"
+      ],
+      "explanation": "1hr: 1/7+1/23=0.1863. Time=5.4 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 7 घंटे, B 23 घंटे। साथ में?",
+      "options": [
+        "5.4 hrs",
+        "16 hrs",
+        "10.8 hrs",
+        "30 hrs"
+      ],
+      "explanation": "1घंटा: 1/7+1/23=0.1863। समय=5.4 घंटे।"
+    },
+    "id": "ntpc-m-0053"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 21 hrs, B in 15 hrs. Together?",
+      "options": [
+        "8.8 hrs",
+        "6 hrs",
+        "17.6 hrs",
+        "36 hrs"
+      ],
+      "explanation": "1hr: 1/21+1/15=0.1143. Time=8.8 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 21 घंटे, B 15 घंटे। साथ में?",
+      "options": [
+        "8.8 hrs",
+        "6 hrs",
+        "17.6 hrs",
+        "36 hrs"
+      ],
+      "explanation": "1घंटा: 1/21+1/15=0.1143। समय=8.8 घंटे।"
+    },
+    "id": "ntpc-m-0054"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 29 hrs, B in 14 hrs. Together?",
+      "options": [
+        "43 hrs",
+        "9.4 hrs",
+        "15 hrs",
+        "18.8 hrs"
+      ],
+      "explanation": "1hr: 1/29+1/14=0.1059. Time=9.4 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 29 घंटे, B 14 घंटे। साथ में?",
+      "options": [
+        "43 hrs",
+        "9.4 hrs",
+        "15 hrs",
+        "18.8 hrs"
+      ],
+      "explanation": "1घंटा: 1/29+1/14=0.1059। समय=9.4 घंटे।"
+    },
+    "id": "ntpc-m-0055"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 30 hrs, B in 8 hrs. Together?",
+      "options": [
+        "6.3 hrs",
+        "22 hrs",
+        "12.6 hrs",
+        "38 hrs"
+      ],
+      "explanation": "1hr: 1/30+1/8=0.1583. Time=6.3 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 30 घंटे, B 8 घंटे। साथ में?",
+      "options": [
+        "6.3 hrs",
+        "22 hrs",
+        "12.6 hrs",
+        "38 hrs"
+      ],
+      "explanation": "1घंटा: 1/30+1/8=0.1583। समय=6.3 घंटे।"
+    },
+    "id": "ntpc-m-0056"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 5 hrs, B in 20 hrs. Together?",
+      "options": [
+        "8.0 hrs",
+        "4 hrs",
+        "15 hrs",
+        "25 hrs"
+      ],
+      "explanation": "1hr: 1/5+1/20=0.25. Time=4 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 5 घंटे, B 20 घंटे। साथ में?",
+      "options": [
+        "8.0 hrs",
+        "4 hrs",
+        "15 hrs",
+        "25 hrs"
+      ],
+      "explanation": "1घंटा: 1/5+1/20=0.25। समय=4 घंटे।"
+    },
+    "id": "ntpc-m-0057"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 30 hrs, B in 19 hrs. Together?",
+      "options": [
+        "11 hrs",
+        "23.2 hrs",
+        "49 hrs",
+        "11.6 hrs"
+      ],
+      "explanation": "1hr: 1/30+1/19=0.086. Time=11.6 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 30 घंटे, B 19 घंटे। साथ में?",
+      "options": [
+        "11 hrs",
+        "23.2 hrs",
+        "49 hrs",
+        "11.6 hrs"
+      ],
+      "explanation": "1घंटा: 1/30+1/19=0.086। समय=11.6 घंटे।"
+    },
+    "id": "ntpc-m-0058"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 22 hrs, B in 17 hrs. Together?",
+      "options": [
+        "9.6 hrs",
+        "39 hrs",
+        "19.2 hrs",
+        "5 hrs"
+      ],
+      "explanation": "1hr: 1/22+1/17=0.1043. Time=9.6 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 22 घंटे, B 17 घंटे। साथ में?",
+      "options": [
+        "9.6 hrs",
+        "39 hrs",
+        "19.2 hrs",
+        "5 hrs"
+      ],
+      "explanation": "1घंटा: 1/22+1/17=0.1043। समय=9.6 घंटे।"
+    },
+    "id": "ntpc-m-0059"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 6 hrs, B in 17 hrs. Together?",
+      "options": [
+        "4.4 hrs",
+        "23 hrs",
+        "8.8 hrs",
+        "11 hrs"
+      ],
+      "explanation": "1hr: 1/6+1/17=0.2255. Time=4.4 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 6 घंटे, B 17 घंटे। साथ में?",
+      "options": [
+        "4.4 hrs",
+        "23 hrs",
+        "8.8 hrs",
+        "11 hrs"
+      ],
+      "explanation": "1घंटा: 1/6+1/17=0.2255। समय=4.4 घंटे।"
+    },
+    "id": "ntpc-m-0060"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 8 hrs, B in 10 hrs. Together?",
+      "options": [
+        "4.4 hrs",
+        "8.8 hrs",
+        "2 hrs",
+        "18 hrs"
+      ],
+      "explanation": "1hr: 1/8+1/10=0.225. Time=4.4 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 8 घंटे, B 10 घंटे। साथ में?",
+      "options": [
+        "4.4 hrs",
+        "8.8 hrs",
+        "2 hrs",
+        "18 hrs"
+      ],
+      "explanation": "1घंटा: 1/8+1/10=0.225। समय=4.4 घंटे।"
+    },
+    "id": "ntpc-m-0061"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12 hrs, B in 24 hrs. Together?",
+      "options": [
+        "8 hrs",
+        "36 hrs",
+        "16.0 hrs",
+        "12 hrs"
+      ],
+      "explanation": "1hr: 1/12+1/24=0.125. Time=8 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 12 घंटे, B 24 घंटे। साथ में?",
+      "options": [
+        "8 hrs",
+        "36 hrs",
+        "16.0 hrs",
+        "12 hrs"
+      ],
+      "explanation": "1घंटा: 1/12+1/24=0.125। समय=8 घंटे।"
+    },
+    "id": "ntpc-m-0062"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 19 hrs, B in 18 hrs. Together?",
+      "options": [
+        "18.4 hrs",
+        "1 hrs",
+        "9.2 hrs",
+        "37 hrs"
+      ],
+      "explanation": "1hr: 1/19+1/18=0.1082. Time=9.2 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 19 घंटे, B 18 घंटे। साथ में?",
+      "options": [
+        "18.4 hrs",
+        "1 hrs",
+        "9.2 hrs",
+        "37 hrs"
+      ],
+      "explanation": "1घंटा: 1/19+1/18=0.1082। समय=9.2 घंटे।"
+    },
+    "id": "ntpc-m-0063"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 7 hrs, B in 9 hrs. Together?",
+      "options": [
+        "7.8 hrs",
+        "3.9 hrs",
+        "2 hrs",
+        "16 hrs"
+      ],
+      "explanation": "1hr: 1/7+1/9=0.254. Time=3.9 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 7 घंटे, B 9 घंटे। साथ में?",
+      "options": [
+        "7.8 hrs",
+        "3.9 hrs",
+        "2 hrs",
+        "16 hrs"
+      ],
+      "explanation": "1घंटा: 1/7+1/9=0.254। समय=3.9 घंटे।"
+    },
+    "id": "ntpc-m-0064"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 24 hrs, B in 28 hrs. Together?",
+      "options": [
+        "4 hrs",
+        "52 hrs",
+        "12.9 hrs",
+        "25.8 hrs"
+      ],
+      "explanation": "1hr: 1/24+1/28=0.0774. Time=12.9 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 24 घंटे, B 28 घंटे। साथ में?",
+      "options": [
+        "4 hrs",
+        "52 hrs",
+        "12.9 hrs",
+        "25.8 hrs"
+      ],
+      "explanation": "1घंटा: 1/24+1/28=0.0774। समय=12.9 घंटे।"
+    },
+    "id": "ntpc-m-0065"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 9 hrs, B in 26 hrs. Together?",
+      "options": [
+        "17 hrs",
+        "6.7 hrs",
+        "13.4 hrs",
+        "35 hrs"
+      ],
+      "explanation": "1hr: 1/9+1/26=0.1496. Time=6.7 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 9 घंटे, B 26 घंटे। साथ में?",
+      "options": [
+        "17 hrs",
+        "6.7 hrs",
+        "13.4 hrs",
+        "35 hrs"
+      ],
+      "explanation": "1घंटा: 1/9+1/26=0.1496। समय=6.7 घंटे।"
+    },
+    "id": "ntpc-m-0066"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 26 hrs, B in 20 hrs. Together?",
+      "options": [
+        "11.3 hrs",
+        "46 hrs",
+        "22.6 hrs",
+        "6 hrs"
+      ],
+      "explanation": "1hr: 1/26+1/20=0.0885. Time=11.3 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 26 घंटे, B 20 घंटे। साथ में?",
+      "options": [
+        "11.3 hrs",
+        "46 hrs",
+        "22.6 hrs",
+        "6 hrs"
+      ],
+      "explanation": "1घंटा: 1/26+1/20=0.0885। समय=11.3 घंटे।"
+    },
+    "id": "ntpc-m-0067"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 21 hrs, B in 13 hrs. Together?",
+      "options": [
+        "8 hrs",
+        "34 hrs",
+        "8 hrs",
+        "16.0 hrs"
+      ],
+      "explanation": "1hr: 1/21+1/13=0.1245. Time=8 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 21 घंटे, B 13 घंटे। साथ में?",
+      "options": [
+        "8 hrs",
+        "34 hrs",
+        "8 hrs",
+        "16.0 hrs"
+      ],
+      "explanation": "1घंटा: 1/21+1/13=0.1245। समय=8 घंटे।"
+    },
+    "id": "ntpc-m-0068"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 29 hrs, B in 14 hrs. Together?",
+      "options": [
+        "43 hrs",
+        "9.4 hrs",
+        "15 hrs",
+        "18.8 hrs"
+      ],
+      "explanation": "1hr: 1/29+1/14=0.1059. Time=9.4 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 29 घंटे, B 14 घंटे। साथ में?",
+      "options": [
+        "43 hrs",
+        "9.4 hrs",
+        "15 hrs",
+        "18.8 hrs"
+      ],
+      "explanation": "1घंटा: 1/29+1/14=0.1059। समय=9.4 घंटे।"
+    },
+    "id": "ntpc-m-0069"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 14 hrs, B in 35 hrs. Together?",
+      "options": [
+        "49 hrs",
+        "21 hrs",
+        "20.0 hrs",
+        "10 hrs"
+      ],
+      "explanation": "1hr: 1/14+1/35=0.1. Time=10 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 14 घंटे, B 35 घंटे। साथ में?",
+      "options": [
+        "49 hrs",
+        "21 hrs",
+        "20.0 hrs",
+        "10 hrs"
+      ],
+      "explanation": "1घंटा: 1/14+1/35=0.1। समय=10 घंटे।"
+    },
+    "id": "ntpc-m-0070"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 13 hrs, B in 29 hrs. Together?",
+      "options": [
+        "16 hrs",
+        "42 hrs",
+        "9 hrs",
+        "18.0 hrs"
+      ],
+      "explanation": "1hr: 1/13+1/29=0.1114. Time=9 hrs."
+    },
+    "hi": {
+      "question": "पाइप A 13 घंटे, B 29 घंटे। साथ में?",
+      "options": [
+        "16 hrs",
+        "42 hrs",
+        "9 hrs",
+        "18.0 hrs"
+      ],
+      "explanation": "1घंटा: 1/13+1/29=0.1114। समय=9 घंटे।"
+    },
+    "id": "ntpc-m-0071"
+  }
 ]

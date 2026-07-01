@@ -1,10 +1,2212 @@
 [
-  {"id":"groupd-s-0001","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"What is the SI unit of work?","options":["Newton","Joule","Watt","Pascal"],"explanation":"The SI unit of work and energy is Joule (J). 1 Joule = 1 Newton x 1 metre."},"hi":{"question":"कार्य की SI इकाई क्या है?","options":["न्यूटन","जूल","वॉट","पास्कल"],"explanation":"कार्य और ऊर्जा की SI इकाई जूल (J) है। 1 जूल = 1 न्यूटन x 1 मीटर।"}},
-  {"id":"groupd-s-0002","correctOption":"D","difficulty":"easy","sourceYear":2023,"en":{"question":"Which has highest kinetic energy if all moving at same speed?","options":["A bullet","A bicycle","A car","A truck"],"explanation":"KE = 1/2 mv^2. At same speed, higher mass gives higher KE. A truck has the most mass."},"hi":{"question":"समान चाल से चलने पर किसकी गतिज ऊर्जा सबसे अधिक होगी?","options":["गोली","साइकिल","कार","ट्रक"],"explanation":"KE = 1/2 mv^2। समान चाल पर, अधिक द्रव्यमान अधिक KE देता है। ट्रक का द्रव्यमान सबसे अधिक है।"}},
-  {"id":"groupd-s-0003","correctOption":"C","difficulty":"medium","sourceYear":2024,"en":{"question":"A 2 kg body raised to 5 m height. Potential energy? (g=10 m/s^2)","options":["10 J","50 J","100 J","200 J"],"explanation":"PE = mgh = 2 x 10 x 5 = 100 J."},"hi":{"question":"2 kg पिंड को 5 m ऊंचाई तक उठाया गया। स्थितिज ऊर्जा? (g=10 m/s^2)","options":["10 J","50 J","100 J","200 J"],"explanation":"PE = mgh = 2 x 10 x 5 = 100 J।"}},
-  {"id":"groupd-s-0004","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"A 1000 W heater used for 2 hours. Energy consumed in kWh?","options":["1 kWh","2 kWh","3 kWh","4 kWh"],"explanation":"Energy = Power x Time = 1 kW x 2 h = 2 kWh."},"hi":{"question":"1000 W का हीटर 2 घंटे चलता है। kWh में ऊर्जा खपत?","options":["1 kWh","2 kWh","3 kWh","4 kWh"],"explanation":"ऊर्जा = शक्ति x समय = 1 kW x 2 h = 2 kWh।"}},
-  {"id":"groupd-s-0005","correctOption":"C","difficulty":"medium","sourceYear":2023,"en":{"question":"If speed of a car is doubled, its kinetic energy becomes:","options":["Two times","Three times","Four times","Same"],"explanation":"KE = 1/2 mv^2. If v->2v, KE becomes 4 times."},"hi":{"question":"यदि कार की चाल दोगुनी कर दी जाए, तो गतिज ऊर्जा कितनी हो जाएगी?","options":["दो गुना","तीन गुना","चार गुना","समान"],"explanation":"KE = 1/2 mv^2। यदि v->2v, KE चार गुना हो जाती है।"}},
-  {"id":"groupd-s-0006","correctOption":"D","difficulty":"easy","sourceYear":2024,"en":{"question":"1 kWh of energy is equal to how many joules?","options":["3.6 x 10^3 J","3.6 x 10^4 J","3.6 x 10^5 J","3.6 x 10^6 J"],"explanation":"1 kWh = 1000 W x 3600 s = 3.6 x 10^6 J."},"hi":{"question":"1 kWh ऊर्जा कितने जूल के बराबर है?","options":["3.6 x 10^3 J","3.6 x 10^4 J","3.6 x 10^5 J","3.6 x 10^6 J"],"explanation":"1 kWh = 1000 W x 3600 s = 3.6 x 10^6 J।"}},
-  {"id":"groupd-s-0007","correctOption":"B","difficulty":"easy","sourceYear":2023,"en":{"question":"An engine does 500 J of work in 10 seconds. What is its power?","options":["5 W","50 W","500 W","5000 W"],"explanation":"Power = Work/Time = 500/10 = 50 W."},"hi":{"question":"एक इंजन 10 सेकंड में 500 J कार्य करता है। इसकी शक्ति क्या है?","options":["5 W","50 W","500 W","5000 W"],"explanation":"शक्ति = कार्य/समय = 500/10 = 50 W।"}},
-  {"id":"groupd-s-0008","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is a non-renewable source of energy?","options":["Solar energy","Wind energy","Coal","Tidal energy"],"explanation":"Coal is a fossil fuel and non-renewable. Solar, wind, tidal are renewable."},"hi":{"question":"निम्न में से कौन ऊर्जा का अनवीकरणीय स्रोत है?","options":["सौर ऊर्जा","पवन ऊर्जा","कोयला","ज्वारीय ऊर्जा"],"explanation":"कोयला जीवाश्म ईंधन और अनवीकरणीय है। सौर, पवन, ज्वारीय नवीकरणीय हैं।"}}
+  {
+    "id": "groupd-s-0001",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the SI unit of work?",
+      "options": [
+        "Newton",
+        "Joule",
+        "Watt",
+        "Pascal"
+      ],
+      "explanation": "The SI unit of work and energy is Joule (J). 1 Joule = 1 Newton x 1 metre."
+    },
+    "hi": {
+      "question": "कार्य की SI इकाई क्या है?",
+      "options": [
+        "न्यूटन",
+        "जूल",
+        "वॉट",
+        "पास्कल"
+      ],
+      "explanation": "कार्य और ऊर्जा की SI इकाई जूल (J) है। 1 जूल = 1 न्यूटन x 1 मीटर।"
+    }
+  },
+  {
+    "id": "groupd-s-0002",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Which has highest kinetic energy if all moving at same speed?",
+      "options": [
+        "A bullet",
+        "A bicycle",
+        "A car",
+        "A truck"
+      ],
+      "explanation": "KE = 1/2 mv^2. At same speed, higher mass gives higher KE. A truck has the most mass."
+    },
+    "hi": {
+      "question": "समान चाल से चलने पर किसकी गतिज ऊर्जा सबसे अधिक होगी?",
+      "options": [
+        "गोली",
+        "साइकिल",
+        "कार",
+        "ट्रक"
+      ],
+      "explanation": "KE = 1/2 mv^2। समान चाल पर, अधिक द्रव्यमान अधिक KE देता है। ट्रक का द्रव्यमान सबसे अधिक है।"
+    }
+  },
+  {
+    "id": "groupd-s-0003",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A 2 kg body raised to 5 m height. Potential energy? (g=10 m/s^2)",
+      "options": [
+        "10 J",
+        "50 J",
+        "100 J",
+        "200 J"
+      ],
+      "explanation": "PE = mgh = 2 x 10 x 5 = 100 J."
+    },
+    "hi": {
+      "question": "2 kg पिंड को 5 m ऊंचाई तक उठाया गया। स्थितिज ऊर्जा? (g=10 m/s^2)",
+      "options": [
+        "10 J",
+        "50 J",
+        "100 J",
+        "200 J"
+      ],
+      "explanation": "PE = mgh = 2 x 10 x 5 = 100 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0004",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "A 1000 W heater used for 2 hours. Energy consumed in kWh?",
+      "options": [
+        "1 kWh",
+        "2 kWh",
+        "3 kWh",
+        "4 kWh"
+      ],
+      "explanation": "Energy = Power x Time = 1 kW x 2 h = 2 kWh."
+    },
+    "hi": {
+      "question": "1000 W का हीटर 2 घंटे चलता है। kWh में ऊर्जा खपत?",
+      "options": [
+        "1 kWh",
+        "2 kWh",
+        "3 kWh",
+        "4 kWh"
+      ],
+      "explanation": "ऊर्जा = शक्ति x समय = 1 kW x 2 h = 2 kWh।"
+    }
+  },
+  {
+    "id": "groupd-s-0005",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "If speed of a car is doubled, its kinetic energy becomes:",
+      "options": [
+        "Two times",
+        "Three times",
+        "Four times",
+        "Same"
+      ],
+      "explanation": "KE = 1/2 mv^2. If v->2v, KE becomes 4 times."
+    },
+    "hi": {
+      "question": "यदि कार की चाल दोगुनी कर दी जाए, तो गतिज ऊर्जा कितनी हो जाएगी?",
+      "options": [
+        "दो गुना",
+        "तीन गुना",
+        "चार गुना",
+        "समान"
+      ],
+      "explanation": "KE = 1/2 mv^2। यदि v->2v, KE चार गुना हो जाती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0006",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "1 kWh of energy is equal to how many joules?",
+      "options": [
+        "3.6 x 10^3 J",
+        "3.6 x 10^4 J",
+        "3.6 x 10^5 J",
+        "3.6 x 10^6 J"
+      ],
+      "explanation": "1 kWh = 1000 W x 3600 s = 3.6 x 10^6 J."
+    },
+    "hi": {
+      "question": "1 kWh ऊर्जा कितने जूल के बराबर है?",
+      "options": [
+        "3.6 x 10^3 J",
+        "3.6 x 10^4 J",
+        "3.6 x 10^5 J",
+        "3.6 x 10^6 J"
+      ],
+      "explanation": "1 kWh = 1000 W x 3600 s = 3.6 x 10^6 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0007",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "An engine does 500 J of work in 10 seconds. What is its power?",
+      "options": [
+        "5 W",
+        "50 W",
+        "500 W",
+        "5000 W"
+      ],
+      "explanation": "Power = Work/Time = 500/10 = 50 W."
+    },
+    "hi": {
+      "question": "एक इंजन 10 सेकंड में 500 J कार्य करता है। इसकी शक्ति क्या है?",
+      "options": [
+        "5 W",
+        "50 W",
+        "500 W",
+        "5000 W"
+      ],
+      "explanation": "शक्ति = कार्य/समय = 500/10 = 50 W।"
+    }
+  },
+  {
+    "id": "groupd-s-0008",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is a non-renewable source of energy?",
+      "options": [
+        "Solar energy",
+        "Wind energy",
+        "Coal",
+        "Tidal energy"
+      ],
+      "explanation": "Coal is a fossil fuel and non-renewable. Solar, wind, tidal are renewable."
+    },
+    "hi": {
+      "question": "निम्न में से कौन ऊर्जा का अनवीकरणीय स्रोत है?",
+      "options": [
+        "सौर ऊर्जा",
+        "पवन ऊर्जा",
+        "कोयला",
+        "ज्वारीय ऊर्जा"
+      ],
+      "explanation": "कोयला जीवाश्म ईंधन और अनवीकरणीय है। सौर, पवन, ज्वारीय नवीकरणीय हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0009",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Work done is maximum when the angle between force and displacement is:",
+      "options": [
+        "90 degrees",
+        "180 degrees",
+        "0 degrees",
+        "45 degrees"
+      ],
+      "explanation": "W = F s cos(theta). cos(0) = 1 gives maximum work. cos(90)=0 gives zero work."
+    },
+    "hi": {
+      "question": "बल और विस्थापन के बीच कोण कितना होने पर कार्य अधिकतम होता है?",
+      "options": [
+        "90 डिग्री",
+        "180 डिग्री",
+        "0 डिग्री",
+        "45 डिग्री"
+      ],
+      "explanation": "W = F s cos(θ)। cos(0) = 1 अधिकतम कार्य देता है। cos(90)=0 शून्य कार्य।"
+    }
+  },
+  {
+    "id": "groupd-s-0010",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The SI unit of power is:",
+      "options": [
+        "Watt",
+        "Joule",
+        "Newton",
+        "Horsepower"
+      ],
+      "explanation": "Power is the rate of doing work. Its SI unit is Watt (W). 1 W = 1 J/s."
+    },
+    "hi": {
+      "question": "शक्ति की SI इकाई क्या है?",
+      "options": [
+        "वॉट",
+        "जूल",
+        "न्यूटन",
+        "हॉर्सपावर"
+      ],
+      "explanation": "शक्ति कार्य करने की दर है। इसकी SI इकाई वॉट (W) है। 1 W = 1 J/s।"
+    }
+  },
+  {
+    "id": "groupd-s-0011",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which of the following is NOT a form of energy?",
+      "options": [
+        "Kinetic energy",
+        "Potential energy",
+        "Thermal energy",
+        "Force"
+      ],
+      "explanation": "Force is not a form of energy. Kinetic, potential and thermal are all forms of energy."
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन ऊर्जा का रूप नहीं है?",
+      "options": [
+        "गतिज ऊर्जा",
+        "स्थितिज ऊर्जा",
+        "तापीय ऊर्जा",
+        "बल"
+      ],
+      "explanation": "बल ऊर्जा का रूप नहीं है। गतिज, स्थितिज और तापीय सभी ऊर्जा के रूप हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0012",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 500 kg car moves at 10 m/s. Its kinetic energy is:",
+      "options": [
+        "5000 J",
+        "25000 J",
+        "2500 J",
+        "50000 J"
+      ],
+      "explanation": "KE = (1/2)mv^2 = (1/2)(500)(100) = 25000 J."
+    },
+    "hi": {
+      "question": "500 kg की कार 10 m/s से चलती है। गतिज ऊर्जा:",
+      "options": [
+        "5000 J",
+        "25000 J",
+        "2500 J",
+        "50000 J"
+      ],
+      "explanation": "KE = (1/2)mv^2 = (1/2)(500)(100) = 25000 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0013",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The law of conservation of energy states that:",
+      "options": [
+        "Energy can be created",
+        "Energy can be destroyed",
+        "Energy can neither be created nor destroyed",
+        "Energy can only be destroyed"
+      ],
+      "explanation": "Energy can be transformed from one form to another, but the total energy remains constant."
+    },
+    "hi": {
+      "question": "ऊर्जा संरक्षण का नियम कहता है:",
+      "options": [
+        "ऊर्जा बनाई जा सकती है",
+        "ऊर्जा नष्ट की जा सकती है",
+        "ऊर्जा न तो बनाई जा सकती है न नष्ट",
+        "ऊर्जा केवल नष्ट की जा सकती है"
+      ],
+      "explanation": "ऊर्जा एक रूप से दूसरे रूप में बदल सकती है, लेकिन कुल ऊर्जा स्थिर रहती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0014",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A man lifts 20 kg to 2 m height in 4 s. Power? (g=10)",
+      "options": [
+        "100 W",
+        "50 W",
+        "200 W",
+        "40 W"
+      ],
+      "explanation": "PE=mgh=20x10x2=400 J. Power=400/4=100 W."
+    },
+    "hi": {
+      "question": "एक व्यक्ति 20 kg को 2 m ऊंचाई तक 4 s में उठाता है। शक्ति? (g=10)",
+      "options": [
+        "100 W",
+        "50 W",
+        "200 W",
+        "40 W"
+      ],
+      "explanation": "PE=mgh=20x10x2=400 J। शक्ति=400/4=100 W।"
+    }
+  },
+  {
+    "id": "groupd-s-0015",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Water stored in a dam has:",
+      "options": [
+        "Kinetic energy",
+        "Heat energy",
+        "Light energy",
+        "Potential energy"
+      ],
+      "explanation": "Water stored at a height has gravitational potential energy (PE = mgh)."
+    },
+    "hi": {
+      "question": "बांध में संग्रहित पानी में होती है:",
+      "options": [
+        "गतिज ऊर्जा",
+        "ऊष्मा ऊर्जा",
+        "प्रकाश ऊर्जा",
+        "स्थितिज ऊर्जा"
+      ],
+      "explanation": "ऊंचाई पर संग्रहित पानी में गुरुत्वीय स्थितिज ऊर्जा होती है (PE = mgh)।"
+    }
+  },
+  {
+    "id": "groupd-s-0016",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ball of mass 0.5 kg is thrown up with 20 m/s. Initial kinetic energy?",
+      "options": [
+        "50 J",
+        "100 J",
+        "200 J",
+        "10 J"
+      ],
+      "explanation": "KE = (1/2)mv^2 = (1/2)(0.5)(400) = 100 J."
+    },
+    "hi": {
+      "question": "0.5 kg की गेंद 20 m/s से ऊपर फेंकी जाती है। प्रारंभिक गतिज ऊर्जा?",
+      "options": [
+        "50 J",
+        "100 J",
+        "200 J",
+        "10 J"
+      ],
+      "explanation": "KE = (1/2)mv^2 = (1/2)(0.5)(400) = 100 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0017",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "1 horsepower is equal to:",
+      "options": [
+        "546 W",
+        "646 W",
+        "746 W",
+        "846 W"
+      ],
+      "explanation": "1 horsepower (hp) = 746 watts approximately. It is a unit of power."
+    },
+    "hi": {
+      "question": "1 हॉर्सपावर किसके बराबर है?",
+      "options": [
+        "546 W",
+        "646 W",
+        "746 W",
+        "846 W"
+      ],
+      "explanation": "1 हॉर्सपावर (hp) = लगभग 746 वॉट। यह शक्ति की इकाई है।"
+    }
+  },
+  {
+    "id": "groupd-s-0018",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Negative work is done when:",
+      "options": [
+        "Force and displacement are opposite",
+        "Force and displacement are parallel",
+        "Force is zero",
+        "Displacement is zero"
+      ],
+      "explanation": "W = F s cos(theta). When theta = 180 degrees, cos(180) = -1, so work is negative."
+    },
+    "hi": {
+      "question": "ऋणात्मक कार्य कब होता है?",
+      "options": [
+        "बल और विस्थापन विपरीत हों",
+        "बल और विस्थापन समांतर हों",
+        "बल शून्य हो",
+        "विस्थापन शून्य हो"
+      ],
+      "explanation": "W = F s cos(θ)। θ = 180 डिग्री पर cos(180) = -1, इसलिए कार्य ऋणात्मक।"
+    }
+  },
+  {
+    "id": "groupd-s-0019",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 2 kg mass falls from 10 m height. Velocity on hitting ground? (g=10)",
+      "options": [
+        "10 m/s",
+        "20 m/s",
+        "5 m/s",
+        "14.14 m/s"
+      ],
+      "explanation": "PE=mgh=2x10x10=200. KE at bottom=200. (1/2)(2)v^2=200. v^2=200. v=14.14 m/s."
+    },
+    "hi": {
+      "question": "2 kg द्रव्यमान 10 m से गिरता है। जमीन पर टकराने का वेग? (g=10)",
+      "options": [
+        "10 m/s",
+        "20 m/s",
+        "5 m/s",
+        "14.14 m/s"
+      ],
+      "explanation": "PE=mgh=2x10x10=200। KE=(1/2)(2)v^2=200। v^2=200। v=14.14 m/s।"
+    }
+  },
+  {
+    "id": "groupd-s-0020",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "In an electric bulb, electrical energy is converted into:",
+      "options": [
+        "Mechanical energy",
+        "Light and heat energy",
+        "Sound energy",
+        "Chemical energy"
+      ],
+      "explanation": "An electric bulb converts electrical energy into light energy and heat energy."
+    },
+    "hi": {
+      "question": "विद्युत बल्ब में विद्युत ऊर्जा किसमें रूपांतरित होती है?",
+      "options": [
+        "यांत्रिक ऊर्जा",
+        "प्रकाश और ऊष्मा ऊर्जा",
+        "ध्वनि ऊर्जा",
+        "रासायनिक ऊर्जा"
+      ],
+      "explanation": "विद्युत बल्ब विद्युत ऊर्जा को प्रकाश और ऊष्मा ऊर्जा में बदलता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0021",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which has the highest calorific value?",
+      "options": [
+        "Wood",
+        "Coal",
+        "Hydrogen",
+        "Cow dung"
+      ],
+      "explanation": "Hydrogen has the highest calorific value (~150 kJ/g) among common fuels."
+    },
+    "hi": {
+      "question": "किसका ऊष्मीय मान सबसे अधिक है?",
+      "options": [
+        "लकड़ी",
+        "कोयला",
+        "हाइड्रोजन",
+        "गोबर"
+      ],
+      "explanation": "सामान्य ईंधनों में हाइड्रोजन का ऊष्मीय मान सबसे अधिक (~150 kJ/g) है।"
+    }
+  },
+  {
+    "id": "groupd-s-0022",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A pump lifts 1000 L of water per minute to 20 m height. Power of pump? (g=10)",
+      "options": [
+        "3333 W",
+        "2000 W",
+        "1000 W",
+        "5000 W"
+      ],
+      "explanation": "1000 L=1000 kg. Work/min=mgh=1000x10x20=200000 J. Power=200000/60=3333 W."
+    },
+    "hi": {
+      "question": "एक पंप 1000 L पानी प्रति मिनट 20 m ऊंचाई तक उठाता है। पंप की शक्ति? (g=10)",
+      "options": [
+        "3333 W",
+        "2000 W",
+        "1000 W",
+        "5000 W"
+      ],
+      "explanation": "1000 L=1000 kg। कार्य/मिनट=1000x10x20=200000 J। शक्ति=200000/60=3333 W।"
+    }
+  },
+  {
+    "id": "groupd-s-0023",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "When a spring is compressed, it stores:",
+      "options": [
+        "Kinetic energy",
+        "Elastic potential energy",
+        "Thermal energy",
+        "Chemical energy"
+      ],
+      "explanation": "A compressed or stretched spring stores elastic potential energy (PE = 1/2 kx^2)."
+    },
+    "hi": {
+      "question": "जब स्प्रिंग संपीड़ित होती है, तो उसमें संचित होती है:",
+      "options": [
+        "गतिज ऊर्जा",
+        "प्रत्यास्थ स्थितिज ऊर्जा",
+        "तापीय ऊर्जा",
+        "रासायनिक ऊर्जा"
+      ],
+      "explanation": "संपीड़ित या खिंची स्प्रिंग में प्रत्यास्थ स्थितिज ऊर्जा संचित होती है (PE = 1/2 kx^2)।"
+    }
+  },
+  {
+    "id": "groupd-s-0024",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 60 W bulb is used for 5 hours daily. Monthly (30 days) energy in kWh?",
+      "options": [
+        "6 kWh",
+        "3 kWh",
+        "12 kWh",
+        "9 kWh"
+      ],
+      "explanation": "Daily=60x5=300 Wh=0.3 kWh. Monthly=0.3x30=9 kWh."
+    },
+    "hi": {
+      "question": "60 W बल्ब प्रतिदिन 5 घंटे जलता है। मासिक (30 दिन) ऊर्जा kWh में?",
+      "options": [
+        "6 kWh",
+        "3 kWh",
+        "12 kWh",
+        "9 kWh"
+      ],
+      "explanation": "दैनिक=60x5=300 Wh=0.3 kWh। मासिक=0.3x30=9 kWh।"
+    }
+  },
+  {
+    "id": "groupd-s-0025",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "No work is done when a person:",
+      "options": [
+        "Climbs stairs",
+        "Lifts a weight",
+        "Holds a heavy bag stationary",
+        "Pushes a moving cart"
+      ],
+      "explanation": "No work is done when displacement is zero (W = F x 0 = 0). Holding stationary involves no displacement."
+    },
+    "hi": {
+      "question": "कोई कार्य नहीं होता जब व्यक्ति:",
+      "options": [
+        "सीढ़ियां चढ़ता है",
+        "भार उठाता है",
+        "भारी बैग स्थिर पकड़े रहता है",
+        "चलती गाड़ी धकेलता है"
+      ],
+      "explanation": "जब विस्थापन शून्य हो, कोई कार्य नहीं होता (W = F x 0 = 0)। स्थिर पकड़ने में कोई विस्थापन नहीं।"
+    }
+  },
+  {
+    "id": "groupd-s-0026",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A body of mass m moving with velocity v has kinetic energy E. If velocity triples, KE becomes:",
+      "options": [
+        "9E",
+        "3E",
+        "6E",
+        "E"
+      ],
+      "explanation": "KE is proportional to v^2. If v->3v, KE becomes 9 times."
+    },
+    "hi": {
+      "question": "m द्रव्यमान का पिंड v वेग से चलता है, गतिज ऊर्जा E। यदि वेग तिगुना, KE:",
+      "options": [
+        "9E",
+        "3E",
+        "6E",
+        "E"
+      ],
+      "explanation": "KE, v^2 के समानुपाती है। यदि v->3v, KE 9 गुना हो जाती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0027",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The commercial unit of electrical energy is:",
+      "options": [
+        "Joule",
+        "Kilowatt-hour",
+        "Watt",
+        "Volt"
+      ],
+      "explanation": "kWh (kilowatt-hour) is the commercial unit of electrical energy. 1 kWh = 3.6 x 10^6 J."
+    },
+    "hi": {
+      "question": "विद्युत ऊर्जा की व्यापारिक इकाई है:",
+      "options": [
+        "जूल",
+        "किलोवॉट-घंटा",
+        "वॉट",
+        "वोल्ट"
+      ],
+      "explanation": "kWh (किलोवॉट-घंटा) विद्युत ऊर्जा की व्यापारिक इकाई है। 1 kWh = 3.6 x 10^6 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0028",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A bullet of 0.1 kg moving at 200 m/s hits a target. Energy dissipated?",
+      "options": [
+        "1000 J",
+        "4000 J",
+        "2000 J",
+        "500 J"
+      ],
+      "explanation": "KE = (1/2)mv^2 = (1/2)(0.1)(40000) = 2000 J."
+    },
+    "hi": {
+      "question": "0.1 kg की गोली 200 m/s से लक्ष्य से टकराती है। व्यय ऊर्जा?",
+      "options": [
+        "1000 J",
+        "4000 J",
+        "2000 J",
+        "500 J"
+      ],
+      "explanation": "KE = (1/2)mv^2 = (1/2)(0.1)(40000) = 2000 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0029",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Nuclear energy is obtained from:",
+      "options": [
+        "Burning coal",
+        "Water flow",
+        "Sun rays",
+        "Nuclear fission and fusion"
+      ],
+      "explanation": "Nuclear energy is released during nuclear fission (splitting of heavy nuclei) or fusion (combining light nuclei)."
+    },
+    "hi": {
+      "question": "नाभिकीय ऊर्जा किससे प्राप्त होती है?",
+      "options": [
+        "कोयला जलाने",
+        "पानी के बहाव",
+        "सूर्य की किरणें",
+        "नाभिकीय विखंडन और संलयन"
+      ],
+      "explanation": "नाभिकीय ऊर्जा नाभिकीय विखंडन (भारी नाभिक का टूटना) या संलयन (हल्के नाभिकों का जुड़ना) से निकलती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0030",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 5 kg stone falls 20 m into mud and penetrates 0.1 m. Average resistance force? (g=10)",
+      "options": [
+        "10000 N",
+        "5000 N",
+        "1000 N",
+        "20000 N"
+      ],
+      "explanation": "PE=mgh=5x10x20=1000 J. Work=Fxd. F=1000/0.1=10000 N."
+    },
+    "hi": {
+      "question": "5 kg पत्थर 20 m से गिरकर कीचड़ में 0.1 m घुसता है। औसत प्रतिरोध बल? (g=10)",
+      "options": [
+        "10000 N",
+        "5000 N",
+        "1000 N",
+        "20000 N"
+      ],
+      "explanation": "PE=mgh=5x10x20=1000 J। कार्य=Fxd। F=1000/0.1=10000 N।"
+    }
+  },
+  {
+    "id": "groupd-s-0031",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "In a microphone, sound energy is converted into:",
+      "options": [
+        "Light energy",
+        "Electrical energy",
+        "Heat energy",
+        "Mechanical energy"
+      ],
+      "explanation": "A microphone converts sound energy (mechanical vibrations) into electrical energy."
+    },
+    "hi": {
+      "question": "माइक्रोफोन में ध्वनि ऊर्जा किसमें बदलती है?",
+      "options": [
+        "प्रकाश ऊर्जा",
+        "विद्युत ऊर्जा",
+        "ऊष्मा ऊर्जा",
+        "यांत्रिक ऊर्जा"
+      ],
+      "explanation": "माइक्रोफोन ध्वनि ऊर्जा (यांत्रिक कंपन) को विद्युत ऊर्जा में बदलता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0032",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Two bodies of masses m and 2m have equal KE. Ratio of their momenta?",
+      "options": [
+        "1:1",
+        "2:1",
+        "1:sqrt(2)",
+        "sqrt(2):1"
+      ],
+      "explanation": "KE = p^2/(2m). For equal KE: p1^2/m = p2^2/(2m). p1/p2 = 1/sqrt(2)."
+    },
+    "hi": {
+      "question": "m और 2m द्रव्यमान के दो पिंडों की KE समान है। संवेगों का अनुपात?",
+      "options": [
+        "1:1",
+        "2:1",
+        "1:sqrt(2)",
+        "sqrt(2):1"
+      ],
+      "explanation": "KE = p^2/(2m)। समान KE: p1^2/m = p2^2/(2m)। p1/p2 = 1/sqrt(2)।"
+    }
+  },
+  {
+    "id": "groupd-s-0033",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which is a renewable energy source?",
+      "options": [
+        "Petrol",
+        "Diesel",
+        "Natural gas",
+        "Solar energy"
+      ],
+      "explanation": "Solar energy is renewable. Petrol, diesel and natural gas are fossil fuels (non-renewable)."
+    },
+    "hi": {
+      "question": "कौन नवीकरणीय ऊर्जा स्रोत है?",
+      "options": [
+        "पेट्रोल",
+        "डीज़ल",
+        "प्राकृतिक गैस",
+        "सौर ऊर्जा"
+      ],
+      "explanation": "सौर ऊर्जा नवीकरणीय है। पेट्रोल, डीज़ल और प्राकृतिक गैस जीवाश्म ईंधन (अनवीकरणीय) हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0034",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "An electric motor of 2 HP runs for 1 hour. Energy consumed in kWh? (1 HP=746 W)",
+      "options": [
+        "1.492 kWh",
+        "0.746 kWh",
+        "2 kWh",
+        "3 kWh"
+      ],
+      "explanation": "P=2x746=1492 W=1.492 kW. Energy=1.492x1=1.492 kWh."
+    },
+    "hi": {
+      "question": "2 HP की मोटर 1 घंटे चलती है। kWh में ऊर्जा खपत? (1 HP=746 W)",
+      "options": [
+        "1.492 kWh",
+        "0.746 kWh",
+        "2 kWh",
+        "3 kWh"
+      ],
+      "explanation": "P=2x746=1492 W=1.492 kW। ऊर्जा=1.492x1=1.492 kWh।"
+    }
+  },
+  {
+    "id": "groupd-s-0035",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Work done by centripetal force in uniform circular motion is:",
+      "options": [
+        "Positive",
+        "Zero",
+        "Negative",
+        "Maximum"
+      ],
+      "explanation": "Centripetal force is always perpendicular to displacement (along radius), so W = F s cos(90) = 0."
+    },
+    "hi": {
+      "question": "एकसमान वृत्तीय गति में अभिकेंद्रीय बल द्वारा किया कार्य:",
+      "options": [
+        "धनात्मक",
+        "शून्य",
+        "ऋणात्मक",
+        "अधिकतम"
+      ],
+      "explanation": "अभिकेंद्रीय बल हमेशा विस्थापन के लंबवत होता है, इसलिए W = F s cos(90) = 0।"
+    }
+  },
+  {
+    "id": "groupd-s-0036",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 10 kg object at 5 m height slides down frictionless incline reaching ground at 8 m/s. Energy lost? (g=10)",
+      "options": [
+        "100 J",
+        "200 J",
+        "180 J",
+        "320 J"
+      ],
+      "explanation": "PE=10x10x5=500 J. KE=(1/2)(10)(64)=320 J. Lost=500-320=180 J (if incline has friction)."
+    },
+    "hi": {
+      "question": "10 kg वस्तु 5 m से फिसलकर 8 m/s से जमीन पर पहुंचती है। खोई ऊर्जा? (g=10)",
+      "options": [
+        "100 J",
+        "200 J",
+        "180 J",
+        "320 J"
+      ],
+      "explanation": "PE=10x10x5=500 J। KE=(1/2)(10)(64)=320 J। खोई=500-320=180 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0037",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A dynamo converts:",
+      "options": [
+        "Electrical to mechanical",
+        "Heat to electrical",
+        "Light to electrical",
+        "Mechanical to electrical"
+      ],
+      "explanation": "A dynamo (generator) converts mechanical energy into electrical energy using electromagnetic induction."
+    },
+    "hi": {
+      "question": "डायनेमो किसे रूपांतरित करता है?",
+      "options": [
+        "विद्युत से यांत्रिक",
+        "ऊष्मा से विद्युत",
+        "प्रकाश से विद्युत",
+        "यांत्रिक से विद्युत"
+      ],
+      "explanation": "डायनेमो (जनरेटर) विद्युत चुंबकीय प्रेरण द्वारा यांत्रिक ऊर्जा को विद्युत ऊर्जा में बदलता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0038",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Energy stored in a battery is:",
+      "options": [
+        "Chemical energy",
+        "Mechanical energy",
+        "Nuclear energy",
+        "Thermal energy"
+      ],
+      "explanation": "A battery stores chemical energy which is converted to electrical energy when connected to a circuit."
+    },
+    "hi": {
+      "question": "बैटरी में संचित ऊर्जा:",
+      "options": [
+        "रासायनिक ऊर्जा",
+        "यांत्रिक ऊर्जा",
+        "नाभिकीय ऊर्जा",
+        "तापीय ऊर्जा"
+      ],
+      "explanation": "बैटरी रासायनिक ऊर्जा संचित करती है जो परिपथ से जुड़ने पर विद्युत ऊर्जा में बदलती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0039",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A car of 800 kg increases speed from 18 km/h to 72 km/h. Work done?",
+      "options": [
+        "100 kJ",
+        "150 kJ",
+        "200 kJ",
+        "300 kJ"
+      ],
+      "explanation": "v1=5 m/s, v2=20 m/s. Work=change in KE=(1/2)(800)(400-25)=400(375)=150000 J=150 kJ."
+    },
+    "hi": {
+      "question": "800 kg कार 18 km/h से 72 km/h तक गति बढ़ाती है। किया कार्य?",
+      "options": [
+        "100 kJ",
+        "150 kJ",
+        "200 kJ",
+        "300 kJ"
+      ],
+      "explanation": "v1=5 m/s, v2=20 m/s। कार्य=KE परिवर्तन=(1/2)(800)(400-25)=150000 J=150 kJ।"
+    }
+  },
+  {
+    "id": "groupd-s-0040",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Gobar gas (biogas) mainly contains:",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Methane",
+        "Nitrogen"
+      ],
+      "explanation": "Biogas mainly contains methane (CH4), about 50-70%, along with carbon dioxide and other gases."
+    },
+    "hi": {
+      "question": "गोबर गैस (बायोगैस) में मुख्यतः होता है:",
+      "options": [
+        "ऑक्सीजन",
+        "हाइड्रोजन",
+        "मीथेन",
+        "नाइट्रोजन"
+      ],
+      "explanation": "बायोगैस में मुख्यतः मीथेन (CH4) लगभग 50-70% होता है, साथ में CO2 और अन्य गैसें।"
+    }
+  },
+  {
+    "id": "groupd-s-0041",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Energy possessed by a body due to its motion is:",
+      "options": [
+        "Potential energy",
+        "Chemical energy",
+        "Nuclear energy",
+        "Kinetic energy"
+      ],
+      "explanation": "Kinetic energy is the energy a body possesses due to its motion. KE = (1/2)mv^2."
+    },
+    "hi": {
+      "question": "गति के कारण पिंड में निहित ऊर्जा:",
+      "options": [
+        "स्थितिज ऊर्जा",
+        "रासायनिक ऊर्जा",
+        "नाभिकीय ऊर्जा",
+        "गतिज ऊर्जा"
+      ],
+      "explanation": "गतिज ऊर्जा वह ऊर्जा है जो पिंड में उसकी गति के कारण होती है। KE = (1/2)mv^2।"
+    }
+  },
+  {
+    "id": "groupd-s-0042",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 25 kg box pulled 10 m by 50 N force at 60 degrees with horizontal. Work done?",
+      "options": [
+        "250 J",
+        "500 J",
+        "433 J",
+        "1000 J"
+      ],
+      "explanation": "W = F s cos(theta) = 50 x 10 x cos(60) = 500 x 0.5 = 250 J."
+    },
+    "hi": {
+      "question": "25 kg बक्सा 50 N बल से 60° पर 10 m खींचा जाता है। कार्य?",
+      "options": [
+        "250 J",
+        "500 J",
+        "433 J",
+        "1000 J"
+      ],
+      "explanation": "W = F s cos(θ) = 50 x 10 x cos(60) = 500 x 0.5 = 250 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0043",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The energy of wind is converted to electricity using:",
+      "options": [
+        "Solar panel",
+        "Wind turbine",
+        "Dynamo",
+        "Battery"
+      ],
+      "explanation": "Wind turbines convert kinetic energy of wind into mechanical energy, then to electrical energy."
+    },
+    "hi": {
+      "question": "पवन ऊर्जा को विद्युत में किससे बदला जाता है?",
+      "options": [
+        "सौर पैनल",
+        "पवन टरबाइन",
+        "डायनेमो",
+        "बैटरी"
+      ],
+      "explanation": "पवन टरबाइन पवन की गतिज ऊर्जा को यांत्रिक ऊर्जा, फिर विद्युत ऊर्जा में बदलते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0044",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 2 kg stone dropped from 50 m. KE at half the height? (g=10)",
+      "options": [
+        "1000 J",
+        "250 J",
+        "500 J",
+        "750 J"
+      ],
+      "explanation": "At 25 m, PE lost = mgh_lost = 2x10x25 = 500 J = KE gained."
+    },
+    "hi": {
+      "question": "2 kg पत्थर 50 m से गिराया जाता है। आधी ऊंचाई पर KE? (g=10)",
+      "options": [
+        "1000 J",
+        "250 J",
+        "500 J",
+        "750 J"
+      ],
+      "explanation": "25 m पर, खोई PE = mgh_khoi = 2x10x25 = 500 J = प्राप्त KE।"
+    }
+  },
+  {
+    "id": "groupd-s-0045",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LPG used for cooking is mainly:",
+      "options": [
+        "Methane",
+        "Ethane",
+        "Propane",
+        "Butane and Propane"
+      ],
+      "explanation": "LPG (Liquefied Petroleum Gas) mainly consists of butane and propane."
+    },
+    "hi": {
+      "question": "खाना पकाने की LPG मुख्यतः है:",
+      "options": [
+        "मीथेन",
+        "एथेन",
+        "प्रोपेन",
+        "ब्यूटेन और प्रोपेन"
+      ],
+      "explanation": "LPG (द्रवित पेट्रोलियम गैस) मुख्यतः ब्यूटेन और प्रोपेन से बनी होती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0046",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If work done is positive, the angle between force and displacement is:",
+      "options": [
+        "Greater than 90",
+        "Less than 90",
+        "Equal to 90",
+        "Equal to 180"
+      ],
+      "explanation": "W = F s cos(theta). cos(theta) > 0 when theta < 90 degrees, giving positive work."
+    },
+    "hi": {
+      "question": "यदि कार्य धनात्मक है, तो बल और विस्थापन के बीच कोण:",
+      "options": [
+        "90 से अधिक",
+        "90 से कम",
+        "90 के बराबर",
+        "180 के बराबर"
+      ],
+      "explanation": "W = F s cos(θ)। θ < 90° पर cos(θ) > 0, धनात्मक कार्य।"
+    }
+  },
+  {
+    "id": "groupd-s-0047",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A particle moves from (0,0) to (4,3) under force F=5i+12j N. Work done?",
+      "options": [
+        "48 J",
+        "36 J",
+        "56 J",
+        "60 J"
+      ],
+      "explanation": "Displacement=4i+3j. W=F.s=(5)(4)+(12)(3)=20+36=56 J."
+    },
+    "hi": {
+      "question": "कण (0,0) से (4,3) तक F=5i+12j N बल से चलता है। कार्य?",
+      "options": [
+        "48 J",
+        "36 J",
+        "56 J",
+        "60 J"
+      ],
+      "explanation": "विस्थापन=4i+3j। W=F.s=(5)(4)+(12)(3)=20+36=56 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0048",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "In photosynthesis, solar energy is converted into:",
+      "options": [
+        "Chemical energy",
+        "Electrical energy",
+        "Mechanical energy",
+        "Nuclear energy"
+      ],
+      "explanation": "Plants convert solar energy into chemical energy (glucose) during photosynthesis."
+    },
+    "hi": {
+      "question": "प्रकाश संश्लेषण में सौर ऊर्जा किसमें बदलती है?",
+      "options": [
+        "रासायनिक ऊर्जा",
+        "विद्युत ऊर्जा",
+        "यांत्रिक ऊर्जा",
+        "नाभिकीय ऊर्जा"
+      ],
+      "explanation": "पौधे प्रकाश संश्लेषण में सौर ऊर्जा को रासायनिक ऊर्जा (ग्लूकोज) में बदलते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0049",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 3 kg ball at 4 m/s collides elastically with stationary 1 kg ball. Speed of 1 kg after?",
+      "options": [
+        "4 m/s",
+        "2 m/s",
+        "8 m/s",
+        "6 m/s"
+      ],
+      "explanation": "For elastic collision: v2 = 2m1u1/(m1+m2) = 2(3)(4)/4 = 6 m/s."
+    },
+    "hi": {
+      "question": "3 kg गेंद 4 m/s से 1 kg स्थिर गेंद से प्रत्यास्थ टकराती है। 1 kg की चाल?",
+      "options": [
+        "4 m/s",
+        "2 m/s",
+        "8 m/s",
+        "6 m/s"
+      ],
+      "explanation": "प्रत्यास्थ टक्कर: v2 = 2m1u1/(m1+m2) = 2(3)(4)/4 = 6 m/s।"
+    }
+  },
+  {
+    "id": "groupd-s-0050",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "CNG stands for:",
+      "options": [
+        "Carbon Natural Gas",
+        "Compressed Natural Gas",
+        "Coal Natural Gas",
+        "Combined Natural Gas"
+      ],
+      "explanation": "CNG = Compressed Natural Gas. It is mainly methane and used as a clean vehicle fuel."
+    },
+    "hi": {
+      "question": "CNG का पूरा नाम है:",
+      "options": [
+        "कार्बन नेचुरल गैस",
+        "कंप्रेस्ड नेचुरल गैस",
+        "कोल नेचुरल गैस",
+        "कंबाइंड नेचुरल गैस"
+      ],
+      "explanation": "CNG = संपीडित प्राकृतिक गैस। यह मुख्यतः मीथेन है और स्वच्छ वाहन ईंधन के रूप में उपयोग होती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0051",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "During free fall, total mechanical energy:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains constant",
+        "Becomes zero"
+      ],
+      "explanation": "In free fall, PE converts to KE but total mechanical energy (PE+KE) remains constant (ignoring air resistance)."
+    },
+    "hi": {
+      "question": "मुक्त पतन के दौरान कुल यांत्रिक ऊर्जा:",
+      "options": [
+        "बढ़ती है",
+        "घटती है",
+        "स्थिर रहती है",
+        "शून्य हो जाती है"
+      ],
+      "explanation": "मुक्त पतन में PE, KE में बदलती है लेकिन कुल यांत्रिक ऊर्जा (PE+KE) स्थिर रहती है (वायु प्रतिरोध नगण्य)।"
+    }
+  },
+  {
+    "id": "groupd-s-0052",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A crane lifts 500 kg to 30 m in 25 s. Power? (g=10)",
+      "options": [
+        "6000 W",
+        "5000 W",
+        "3000 W",
+        "12000 W"
+      ],
+      "explanation": "Work=mgh=500x10x30=150000 J. Power=150000/25=6000 W=6 kW."
+    },
+    "hi": {
+      "question": "क्रेन 500 kg को 30 m तक 25 s में उठाती है। शक्ति? (g=10)",
+      "options": [
+        "6000 W",
+        "5000 W",
+        "3000 W",
+        "12000 W"
+      ],
+      "explanation": "कार्य=mgh=500x10x30=150000 J। शक्ति=150000/25=6000 W=6 kW।"
+    }
+  },
+  {
+    "id": "groupd-s-0053",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The device that converts solar energy directly to electrical energy is:",
+      "options": [
+        "Solar heater",
+        "Solar cell",
+        "Solar cooker",
+        "Solar furnace"
+      ],
+      "explanation": "Solar cells (photovoltaic cells) convert sunlight directly into electricity."
+    },
+    "hi": {
+      "question": "सौर ऊर्जा को सीधे विद्युत ऊर्जा में बदलने वाली युक्ति:",
+      "options": [
+        "सौर हीटर",
+        "सौर सेल",
+        "सौर कुकर",
+        "सौर भट्टी"
+      ],
+      "explanation": "सौर सेल (फोटोवोल्टीय सेल) सूर्य के प्रकाश को सीधे विद्युत में बदलते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0054",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Two bodies with masses ratio 1:4 have same KE. Ratio of their velocities?",
+      "options": [
+        "1:2",
+        "4:1",
+        "1:4",
+        "2:1"
+      ],
+      "explanation": "(1/2)m1v1^2=(1/2)m2v2^2. v1/v2=sqrt(m2/m1)=sqrt(4/1)=2:1."
+    },
+    "hi": {
+      "question": "दो पिंडों के द्रव्यमान 1:4 और समान KE है। वेग अनुपात?",
+      "options": [
+        "1:2",
+        "4:1",
+        "1:4",
+        "2:1"
+      ],
+      "explanation": "(1/2)m1v1^2=(1/2)m2v2^2। v1/v2=sqrt(m2/m1)=sqrt(4/1)=2:1।"
+    }
+  },
+  {
+    "id": "groupd-s-0055",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A moving body weighing 400 N has 500 J KE. Its velocity? (g=10)",
+      "options": [
+        "2.5 m/s",
+        "7.5 m/s",
+        "5 m/s",
+        "10 m/s"
+      ],
+      "explanation": "m=400/10=40 kg. (1/2)mv^2=500. (1/2)(40)v^2=500. v^2=25. v=5 m/s."
+    },
+    "hi": {
+      "question": "400 N भार के गतिमान पिंड की KE 500 J है। वेग? (g=10)",
+      "options": [
+        "2.5 m/s",
+        "7.5 m/s",
+        "5 m/s",
+        "10 m/s"
+      ],
+      "explanation": "m=400/10=40 kg। (1/2)mv^2=500। v^2=25। v=5 m/s।"
+    }
+  },
+  {
+    "id": "groupd-s-0056",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Energy can neither be created nor destroyed, but can be transformed. This is:",
+      "options": [
+        "Law of conservation of energy",
+        "Newton's law",
+        "Ohm's law",
+        "Faraday's law"
+      ],
+      "explanation": "The law of conservation of energy states total energy of an isolated system remains constant."
+    },
+    "hi": {
+      "question": "ऊर्जा न तो बनाई जा सकती है न नष्ट, केवल रूपांतरित। यह है:",
+      "options": [
+        "ऊर्जा संरक्षण का नियम",
+        "न्यूटन का नियम",
+        "ओम का नियम",
+        "फैराडे का नियम"
+      ],
+      "explanation": "ऊर्जा संरक्षण का नियम कहता है कि पृथक निकाय की कुल ऊर्जा स्थिर रहती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0057",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 100 W bulb converts 5% energy to light. Light energy produced in 1 minute?",
+      "options": [
+        "100 J",
+        "300 J",
+        "600 J",
+        "60 J"
+      ],
+      "explanation": "Total=100x60=6000 J. Light=5% of 6000=300 J."
+    },
+    "hi": {
+      "question": "100 W बल्ब 5% ऊर्जा प्रकाश में बदलता है। 1 मिनट में प्रकाश ऊर्जा?",
+      "options": [
+        "100 J",
+        "300 J",
+        "600 J",
+        "60 J"
+      ],
+      "explanation": "कुल=100x60=6000 J। प्रकाश=6000 का 5% = 300 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0058",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which fuel has the highest calorific value per kg?",
+      "options": [
+        "Wood",
+        "Coal",
+        "Petrol",
+        "Hydrogen"
+      ],
+      "explanation": "Hydrogen has calorific value of ~150 kJ/g (highest). Wood~17 kJ/g, coal~30 kJ/g, petrol~45 kJ/g."
+    },
+    "hi": {
+      "question": "प्रति kg सर्वाधिक ऊष्मीय मान किसका है?",
+      "options": [
+        "लकड़ी",
+        "कोयला",
+        "पेट्रोल",
+        "हाइड्रोजन"
+      ],
+      "explanation": "हाइड्रोजन का ऊष्मीय मान ~150 kJ/g (सर्वाधिक)। लकड़ी~17, कोयला~30, पेट्रोल~45 kJ/g।"
+    }
+  },
+  {
+    "id": "groupd-s-0059",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "An object of 10 kg at 20 m/s is stopped in 5 m. Work done by friction?",
+      "options": [
+        "500 J",
+        "1000 J",
+        "2000 J",
+        "4000 J"
+      ],
+      "explanation": "KE=(1/2)(10)(400)=2000 J. Work by friction=loss in KE=2000 J."
+    },
+    "hi": {
+      "question": "10 kg वस्तु 20 m/s से 5 m में रुकती है। घर्षण द्वारा कार्य?",
+      "options": [
+        "500 J",
+        "1000 J",
+        "2000 J",
+        "4000 J"
+      ],
+      "explanation": "KE=(1/2)(10)(400)=2000 J। घर्षण द्वारा कार्य=KE ह्रास=2000 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0060",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Geothermal energy is obtained from:",
+      "options": [
+        "Heat inside the Earth",
+        "Wind",
+        "Ocean waves",
+        "Sunlight"
+      ],
+      "explanation": "Geothermal energy is the heat energy stored inside the Earth's crust, used for heating and electricity."
+    },
+    "hi": {
+      "question": "भूतापीय ऊर्जा किससे प्राप्त होती है?",
+      "options": [
+        "पृथ्वी के अंदर की ऊष्मा",
+        "पवन",
+        "समुद्र तरंगें",
+        "सूर्य प्रकाश"
+      ],
+      "explanation": "भूतापीय ऊर्जा पृथ्वी की पपड़ी के अंदर संचित ऊष्मा ऊर्जा है, जो तापन और विद्युत के लिए उपयोगी है।"
+    }
+  },
+  {
+    "id": "groupd-s-0061",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 4 kg ball falls from 5 m. It rebounds to 3.2 m. Energy lost? (g=10)",
+      "options": [
+        "40 J",
+        "72 J",
+        "200 J",
+        "128 J"
+      ],
+      "explanation": "Initial PE=4x10x5=200 J. Final PE=4x10x3.2=128 J. Lost=200-128=72 J."
+    },
+    "hi": {
+      "question": "4 kg गेंद 5 m से गिरकर 3.2 m तक उछलती है। खोई ऊर्जा? (g=10)",
+      "options": [
+        "40 J",
+        "72 J",
+        "200 J",
+        "128 J"
+      ],
+      "explanation": "प्रारंभिक PE=4x10x5=200 J। अंतिम PE=4x10x3.2=128 J। खोई=200-128=72 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0062",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Tidal energy is harnessed from:",
+      "options": [
+        "River flow",
+        "Wind",
+        "Sun",
+        "Ocean tides"
+      ],
+      "explanation": "Tidal energy uses the rise and fall of ocean tides to generate electricity."
+    },
+    "hi": {
+      "question": "ज्वारीय ऊर्जा किससे प्राप्त होती है?",
+      "options": [
+        "नदी प्रवाह",
+        "पवन",
+        "सूर्य",
+        "समुद्री ज्वार"
+      ],
+      "explanation": "ज्वारीय ऊर्जा समुद्री ज्वार के उतार-चढ़ाव से विद्युत उत्पन्न करती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0063",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A pump lifts 30 kg water per second to 10 m. Efficiency 75%. Input power? (g=10)",
+      "options": [
+        "4000 W",
+        "3000 W",
+        "4000 W",
+        "2000 W"
+      ],
+      "explanation": "Output=mgh/t=30x10x10/1=3000 W. Input=3000/0.75=4000 W."
+    },
+    "hi": {
+      "question": "पंप 30 kg/s पानी 10 m तक उठाता है। दक्षता 75%। निवेश शक्ति? (g=10)",
+      "options": [
+        "4000 W",
+        "3000 W",
+        "4000 W",
+        "2000 W"
+      ],
+      "explanation": "निर्गत=30x10x10/1=3000 W। निवेश=3000/0.75=4000 W।"
+    }
+  },
+  {
+    "id": "groupd-s-0064",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which is a green energy source?",
+      "options": [
+        "Wind energy",
+        "Coal",
+        "Petroleum",
+        "Diesel"
+      ],
+      "explanation": "Wind energy is green/renewable with no pollution. Coal, petroleum and diesel are fossil fuels."
+    },
+    "hi": {
+      "question": "हरित ऊर्जा स्रोत कौन सा है?",
+      "options": [
+        "पवन ऊर्जा",
+        "कोयला",
+        "पेट्रोलियम",
+        "डीज़ल"
+      ],
+      "explanation": "पवन ऊर्जा हरित/नवीकरणीय और प्रदूषण रहित है। कोयला, पेट्रोलियम और डीज़ल जीवाश्म ईंधन हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0065",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A satellite of mass m orbits at speed v. Its KE is E. To escape, additional energy needed?",
+      "options": [
+        "E",
+        "E",
+        "2E",
+        "E/2"
+      ],
+      "explanation": "Escape KE=2x orbital KE=2E. Additional=2E-E=E."
+    },
+    "hi": {
+      "question": "m द्रव्यमान का उपग्रह v से परिक्रमा करता है, KE=E। पलायन के लिए अतिरिक्त ऊर्जा?",
+      "options": [
+        "E",
+        "E",
+        "2E",
+        "E/2"
+      ],
+      "explanation": "पलायन KE=2x कक्षीय KE=2E। अतिरिक्त=2E-E=E।"
+    }
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Kinetic energy = ?",
+      "options": [
+        "mv",
+        "mgh",
+        "ma",
+        "½mv²"
+      ],
+      "explanation": "KE = ½ × mass × velocity²."
+    },
+    "hi": {
+      "question": "गतिज ऊर्जा = ?",
+      "options": [
+        "mv",
+        "mgh",
+        "ma",
+        "½mv²"
+      ],
+      "explanation": "गतिज ऊर्जा = ½ × द्रव्यमान × वेग²।"
+    },
+    "id": "groupd-s-0066"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "1 kWh = how many joules?",
+      "options": [
+        "3.6 × 10⁶ J",
+        "3600 J",
+        "3.6 × 10³ J",
+        "1000 J"
+      ],
+      "explanation": "1kWh = 1000W × 3600s = 3,600,000J."
+    },
+    "hi": {
+      "question": "1 kWh = कितने जूल?",
+      "options": [
+        "3.6 × 10⁶ J",
+        "3600 J",
+        "3.6 × 10³ J",
+        "1000 J"
+      ],
+      "explanation": "1kWh = 1000W × 3600s = 36,00,000J।"
+    },
+    "id": "groupd-s-0067"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI unit of power?",
+      "options": [
+        "Newton",
+        "Watt",
+        "Pascal",
+        "Joule"
+      ],
+      "explanation": "Power = work/time. SI unit: Watt (J/s)."
+    },
+    "hi": {
+      "question": "शक्ति का SI मात्रक?",
+      "options": [
+        "Newton",
+        "Watt",
+        "Pascal",
+        "Joule"
+      ],
+      "explanation": "शक्ति = कार्य/समय। मात्रक: वाट।"
+    },
+    "id": "groupd-s-0068"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Kinetic energy = ?",
+      "options": [
+        "mgh",
+        "mv",
+        "½mv²",
+        "ma"
+      ],
+      "explanation": "KE = ½ × mass × velocity²."
+    },
+    "hi": {
+      "question": "गतिज ऊर्जा = ?",
+      "options": [
+        "mgh",
+        "mv",
+        "½mv²",
+        "ma"
+      ],
+      "explanation": "गतिज ऊर्जा = ½ × द्रव्यमान × वेग²।"
+    },
+    "id": "groupd-s-0069"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "1 kWh = how many joules?",
+      "options": [
+        "3600 J",
+        "1000 J",
+        "3.6 × 10⁶ J",
+        "3.6 × 10³ J"
+      ],
+      "explanation": "1kWh = 1000W × 3600s = 3,600,000J."
+    },
+    "hi": {
+      "question": "1 kWh = कितने जूल?",
+      "options": [
+        "3600 J",
+        "1000 J",
+        "3.6 × 10⁶ J",
+        "3.6 × 10³ J"
+      ],
+      "explanation": "1kWh = 1000W × 3600s = 36,00,000J।"
+    },
+    "id": "groupd-s-0070"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI unit of power?",
+      "options": [
+        "Pascal",
+        "Joule",
+        "Watt",
+        "Newton"
+      ],
+      "explanation": "Power = work/time. SI unit: Watt (J/s)."
+    },
+    "hi": {
+      "question": "शक्ति का SI मात्रक?",
+      "options": [
+        "Pascal",
+        "Joule",
+        "Watt",
+        "Newton"
+      ],
+      "explanation": "शक्ति = कार्य/समय। मात्रक: वाट।"
+    },
+    "id": "groupd-s-0071"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Kinetic energy = ?",
+      "options": [
+        "mv",
+        "ma",
+        "½mv²",
+        "mgh"
+      ],
+      "explanation": "KE = ½ × mass × velocity²."
+    },
+    "hi": {
+      "question": "गतिज ऊर्जा = ?",
+      "options": [
+        "mv",
+        "ma",
+        "½mv²",
+        "mgh"
+      ],
+      "explanation": "गतिज ऊर्जा = ½ × द्रव्यमान × वेग²।"
+    },
+    "id": "groupd-s-0072"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "1 kWh = how many joules?",
+      "options": [
+        "1000 J",
+        "3600 J",
+        "3.6 × 10³ J",
+        "3.6 × 10⁶ J"
+      ],
+      "explanation": "1kWh = 1000W × 3600s = 3,600,000J."
+    },
+    "hi": {
+      "question": "1 kWh = कितने जूल?",
+      "options": [
+        "1000 J",
+        "3600 J",
+        "3.6 × 10³ J",
+        "3.6 × 10⁶ J"
+      ],
+      "explanation": "1kWh = 1000W × 3600s = 36,00,000J।"
+    },
+    "id": "groupd-s-0073"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI unit of power?",
+      "options": [
+        "Newton",
+        "Pascal",
+        "Watt",
+        "Joule"
+      ],
+      "explanation": "Power = work/time. SI unit: Watt (J/s)."
+    },
+    "hi": {
+      "question": "शक्ति का SI मात्रक?",
+      "options": [
+        "Newton",
+        "Pascal",
+        "Watt",
+        "Joule"
+      ],
+      "explanation": "शक्ति = कार्य/समय। मात्रक: वाट।"
+    },
+    "id": "groupd-s-0074"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Kinetic energy = ?",
+      "options": [
+        "mgh",
+        "½mv²",
+        "mv",
+        "ma"
+      ],
+      "explanation": "KE = ½ × mass × velocity²."
+    },
+    "hi": {
+      "question": "गतिज ऊर्जा = ?",
+      "options": [
+        "mgh",
+        "½mv²",
+        "mv",
+        "ma"
+      ],
+      "explanation": "गतिज ऊर्जा = ½ × द्रव्यमान × वेग²।"
+    },
+    "id": "groupd-s-0075"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "1 kWh = how many joules?",
+      "options": [
+        "1000 J",
+        "3.6 × 10³ J",
+        "3.6 × 10⁶ J",
+        "3600 J"
+      ],
+      "explanation": "1kWh = 1000W × 3600s = 3,600,000J."
+    },
+    "hi": {
+      "question": "1 kWh = कितने जूल?",
+      "options": [
+        "1000 J",
+        "3.6 × 10³ J",
+        "3.6 × 10⁶ J",
+        "3600 J"
+      ],
+      "explanation": "1kWh = 1000W × 3600s = 36,00,000J।"
+    },
+    "id": "groupd-s-0076"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI unit of power?",
+      "options": [
+        "Watt",
+        "Pascal",
+        "Joule",
+        "Newton"
+      ],
+      "explanation": "Power = work/time. SI unit: Watt (J/s)."
+    },
+    "hi": {
+      "question": "शक्ति का SI मात्रक?",
+      "options": [
+        "Watt",
+        "Pascal",
+        "Joule",
+        "Newton"
+      ],
+      "explanation": "शक्ति = कार्य/समय। मात्रक: वाट।"
+    },
+    "id": "groupd-s-0077"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Kinetic energy = ?",
+      "options": [
+        "½mv²",
+        "mv",
+        "mgh",
+        "ma"
+      ],
+      "explanation": "KE = ½ × mass × velocity²."
+    },
+    "hi": {
+      "question": "गतिज ऊर्जा = ?",
+      "options": [
+        "½mv²",
+        "mv",
+        "mgh",
+        "ma"
+      ],
+      "explanation": "गतिज ऊर्जा = ½ × द्रव्यमान × वेग²।"
+    },
+    "id": "groupd-s-0078"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "1 kWh = how many joules?",
+      "options": [
+        "3.6 × 10⁶ J",
+        "3600 J",
+        "3.6 × 10³ J",
+        "1000 J"
+      ],
+      "explanation": "1kWh = 1000W × 3600s = 3,600,000J."
+    },
+    "hi": {
+      "question": "1 kWh = कितने जूल?",
+      "options": [
+        "3.6 × 10⁶ J",
+        "3600 J",
+        "3.6 × 10³ J",
+        "1000 J"
+      ],
+      "explanation": "1kWh = 1000W × 3600s = 36,00,000J।"
+    },
+    "id": "groupd-s-0079"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI unit of power?",
+      "options": [
+        "Newton",
+        "Pascal",
+        "Watt",
+        "Joule"
+      ],
+      "explanation": "Power = work/time. SI unit: Watt (J/s)."
+    },
+    "hi": {
+      "question": "शक्ति का SI मात्रक?",
+      "options": [
+        "Newton",
+        "Pascal",
+        "Watt",
+        "Joule"
+      ],
+      "explanation": "शक्ति = कार्य/समय। मात्रक: वाट।"
+    },
+    "id": "groupd-s-0080"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Kinetic energy = ?",
+      "options": [
+        "½mv²",
+        "mv",
+        "mgh",
+        "ma"
+      ],
+      "explanation": "KE = ½ × mass × velocity²."
+    },
+    "hi": {
+      "question": "गतिज ऊर्जा = ?",
+      "options": [
+        "½mv²",
+        "mv",
+        "mgh",
+        "ma"
+      ],
+      "explanation": "गतिज ऊर्जा = ½ × द्रव्यमान × वेग²।"
+    },
+    "id": "groupd-s-0081"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "1 kWh = how many joules?",
+      "options": [
+        "3600 J",
+        "3.6 × 10³ J",
+        "3.6 × 10⁶ J",
+        "1000 J"
+      ],
+      "explanation": "1kWh = 1000W × 3600s = 3,600,000J."
+    },
+    "hi": {
+      "question": "1 kWh = कितने जूल?",
+      "options": [
+        "3600 J",
+        "3.6 × 10³ J",
+        "3.6 × 10⁶ J",
+        "1000 J"
+      ],
+      "explanation": "1kWh = 1000W × 3600s = 36,00,000J।"
+    },
+    "id": "groupd-s-0082"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SI unit of power?",
+      "options": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Pascal"
+      ],
+      "explanation": "Power = work/time. SI unit: Watt (J/s)."
+    },
+    "hi": {
+      "question": "शक्ति का SI मात्रक?",
+      "options": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Pascal"
+      ],
+      "explanation": "शक्ति = कार्य/समय। मात्रक: वाट।"
+    },
+    "id": "groupd-s-0083"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Kinetic energy = ?",
+      "options": [
+        "½mv²",
+        "ma",
+        "mv",
+        "mgh"
+      ],
+      "explanation": "KE = ½ × mass × velocity²."
+    },
+    "hi": {
+      "question": "गतिज ऊर्जा = ?",
+      "options": [
+        "½mv²",
+        "ma",
+        "mv",
+        "mgh"
+      ],
+      "explanation": "गतिज ऊर्जा = ½ × द्रव्यमान × वेग²।"
+    },
+    "id": "groupd-s-0084"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "1 kWh = how many joules?",
+      "options": [
+        "3600 J",
+        "3.6 × 10⁶ J",
+        "3.6 × 10³ J",
+        "1000 J"
+      ],
+      "explanation": "1kWh = 1000W × 3600s = 3,600,000J."
+    },
+    "hi": {
+      "question": "1 kWh = कितने जूल?",
+      "options": [
+        "3600 J",
+        "3.6 × 10⁶ J",
+        "3.6 × 10³ J",
+        "1000 J"
+      ],
+      "explanation": "1kWh = 1000W × 3600s = 36,00,000J।"
+    },
+    "id": "groupd-s-0085"
+  }
 ]

@@ -1,1 +1,3876 @@
-[{"id":"groupd-r-0001","correctOption":"D","difficulty":"easy","sourceYear":2024,"en":{"question":"Find the odd one out: Apple, Mango, Banana, Carrot","options":["Apple","Mango","Banana","Carrot"],"explanation":"Carrot is a root vegetable. Apple, Mango, and Banana are all fruits."},"hi":{"question":"बेमेल पहचानें: सेब, आम, केला, गाजर","options":["सेब","आम","केला","गाजर"],"explanation":"गाजर एक जड़ वाली सब्जी है। सेब, आम और केला सभी फल हैं।"}},{"id":"groupd-r-0002","correctOption":"D","difficulty":"easy","sourceYear":2023,"en":{"question":"Find the odd one out: 3, 7, 11, 13, 15","options":["7","11","13","15"],"explanation":"3, 7, 11, and 13 are all prime numbers. 15 is composite (3 x 5)."},"hi":{"question":"बेमेल पहचानें: 3, 7, 11, 13, 15","options":["7","11","13","15"],"explanation":"3, 7, 11 और 13 सभी अभाज्य संख्याएं हैं। 15 भाज्य है (3 × 5)।"}},{"id":"groupd-r-0003","correctOption":"D","difficulty":"easy","sourceYear":2024,"en":{"question":"Find the odd one out: 2, 3, 5, 7, 9","options":["2","3","7","9"],"explanation":"2, 3, 5, 7 are prime numbers. 9 is composite (3x3)."},"hi":{"question":"बेमेल पहचानें: 2, 3, 5, 7, 9","options":["2","3","7","9"],"explanation":"2, 3, 5, 7 अभाज्य संख्याएं हैं। 9 भाज्य है (3×3)।"}},{"id":"groupd-r-0004","correctOption":"C","difficulty":"easy","sourceYear":2023,"en":{"question":"Find the odd one out: Triangle, Square, Circle, Rectangle","options":["Triangle","Square","Circle","Rectangle"],"explanation":"Triangle, Square, Rectangle are polygons. Circle is curved."},"hi":{"question":"बेमेल पहचानें: त्रिभुज, वर्ग, वृत्त, आयत","options":["त्रिभुज","वर्ग","वृत्त","आयत"],"explanation":"त्रिभुज, वर्ग और आयत बहुभुज हैं। वृत्त वक्र है।"}},{"id":"groupd-r-0005","correctOption":"D","difficulty":"easy","sourceYear":2024,"en":{"question":"Find the odd one out: Iron, Copper, Zinc, Wood","options":["Iron","Copper","Zinc","Wood"],"explanation":"Iron, Copper, and Zinc are metals. Wood is not a metal."},"hi":{"question":"बेमेल पहचानें: लोहा, तांबा, जस्ता, लकड़ी","options":["लोहा","तांबा","जस्ता","लकड़ी"],"explanation":"लोहा, तांबा और जस्ता धातुएं हैं। लकड़ी धातु नहीं है।"}},{"id":"groupd-r-0006","correctOption":"C","difficulty":"medium","sourceYear":2023,"en":{"question":"Find the odd one out: 121, 144, 169, 196, 225","options":["121","144","196","225"],"explanation":"All are perfect squares. 196=14^2 is the only even square among them."},"hi":{"question":"बेमेल पहचानें: 121, 144, 169, 196, 225","options":["121","144","196","225"],"explanation":"सभी पूर्ण वर्ग हैं। 196=14^2 उनमें एकमात्र सम वर्ग है।"}},{"id":"groupd-r-0007","correctOption":"D","difficulty":"easy","sourceYear":2024,"en":{"question":"Find the odd one out: January, March, May, July, August","options":["January","March","July","August"],"explanation":"All have 31 days, but August does not start a quarter of the year."},"hi":{"question":"बेमेल पहचानें: जनवरी, मार्च, मई, जुलाई, अगस्त","options":["जनवरी","मार्च","जुलाई","अगस्त"],"explanation":"सभी में 31 दिन हैं, लेकिन अगस्त किसी तिमाही की शुरुआत नहीं करता।"}},{"id":"groupd-r-0008","correctOption":"D","difficulty":"medium","sourceYear":2023,"en":{"question":"Find the odd one out: PQRS, CDEF, MNOP, WXYZ","options":["PQRS","CDEF","MNOP","WXYZ"],"explanation":"All are 4 consecutive letters. WXYZ is the terminal group ending with Z."},"hi":{"question":"बेमेल पहचानें: PQRS, CDEF, MNOP, WXYZ","options":["PQRS","CDEF","MNOP","WXYZ"],"explanation":"सभी 4 क्रमागत अक्षर हैं। WXYZ अंतिम समूह है जो Z पर समाप्त होता है।"}},{"id":"groupd-r-0009","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Find the odd one out: Dog, Cat, Cow, Lion","options":["Dog","Cat","Cow","Lion"],"explanation":"Dog, Cat, and Lion are carnivores. Cow is a herbivore."},"hi":{"question":"बेमेल पहचानें: कुत्ता, बिल्ली, गाय, शेर","options":["कुत्ता","बिल्ली","गाय","शेर"],"explanation":"कुत्ता, बिल्ली और शेर मांसाहारी हैं। गाय शाकाहारी है।"}}]
+[
+  {
+    "id": "groupd-r-0001",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Find the odd one out: Apple, Mango, Banana, Carrot",
+      "options": [
+        "Apple",
+        "Mango",
+        "Banana",
+        "Carrot"
+      ],
+      "explanation": "Carrot is a root vegetable. Apple, Mango, and Banana are all fruits."
+    },
+    "hi": {
+      "question": "बेमेल पहचानें: सेब, आम, केला, गाजर",
+      "options": [
+        "सेब",
+        "आम",
+        "केला",
+        "गाजर"
+      ],
+      "explanation": "गाजर एक जड़ वाली सब्जी है। सेब, आम और केला सभी फल हैं।"
+    }
+  },
+  {
+    "id": "groupd-r-0002",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Find the odd one out: 3, 7, 11, 13, 15",
+      "options": [
+        "7",
+        "11",
+        "13",
+        "15"
+      ],
+      "explanation": "3, 7, 11, and 13 are all prime numbers. 15 is composite (3 x 5)."
+    },
+    "hi": {
+      "question": "बेमेल पहचानें: 3, 7, 11, 13, 15",
+      "options": [
+        "7",
+        "11",
+        "13",
+        "15"
+      ],
+      "explanation": "3, 7, 11 और 13 सभी अभाज्य संख्याएं हैं। 15 भाज्य है (3 × 5)।"
+    }
+  },
+  {
+    "id": "groupd-r-0003",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Find the odd one out: 2, 3, 5, 7, 9",
+      "options": [
+        "2",
+        "3",
+        "7",
+        "9"
+      ],
+      "explanation": "2, 3, 5, 7 are prime numbers. 9 is composite (3x3)."
+    },
+    "hi": {
+      "question": "बेमेल पहचानें: 2, 3, 5, 7, 9",
+      "options": [
+        "2",
+        "3",
+        "7",
+        "9"
+      ],
+      "explanation": "2, 3, 5, 7 अभाज्य संख्याएं हैं। 9 भाज्य है (3×3)।"
+    }
+  },
+  {
+    "id": "groupd-r-0004",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Find the odd one out: Triangle, Square, Circle, Rectangle",
+      "options": [
+        "Triangle",
+        "Square",
+        "Circle",
+        "Rectangle"
+      ],
+      "explanation": "Triangle, Square, Rectangle are polygons. Circle is curved."
+    },
+    "hi": {
+      "question": "बेमेल पहचानें: त्रिभुज, वर्ग, वृत्त, आयत",
+      "options": [
+        "त्रिभुज",
+        "वर्ग",
+        "वृत्त",
+        "आयत"
+      ],
+      "explanation": "त्रिभुज, वर्ग और आयत बहुभुज हैं। वृत्त वक्र है।"
+    }
+  },
+  {
+    "id": "groupd-r-0005",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Find the odd one out: Iron, Copper, Zinc, Wood",
+      "options": [
+        "Iron",
+        "Copper",
+        "Zinc",
+        "Wood"
+      ],
+      "explanation": "Iron, Copper, and Zinc are metals. Wood is not a metal."
+    },
+    "hi": {
+      "question": "बेमेल पहचानें: लोहा, तांबा, जस्ता, लकड़ी",
+      "options": [
+        "लोहा",
+        "तांबा",
+        "जस्ता",
+        "लकड़ी"
+      ],
+      "explanation": "लोहा, तांबा और जस्ता धातुएं हैं। लकड़ी धातु नहीं है।"
+    }
+  },
+  {
+    "id": "groupd-r-0006",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Find the odd one out: 121, 144, 169, 196, 225",
+      "options": [
+        "121",
+        "144",
+        "196",
+        "225"
+      ],
+      "explanation": "All are perfect squares. 196=14^2 is the only even square among them."
+    },
+    "hi": {
+      "question": "बेमेल पहचानें: 121, 144, 169, 196, 225",
+      "options": [
+        "121",
+        "144",
+        "196",
+        "225"
+      ],
+      "explanation": "सभी पूर्ण वर्ग हैं। 196=14^2 उनमें एकमात्र सम वर्ग है।"
+    }
+  },
+  {
+    "id": "groupd-r-0007",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Find the odd one out: January, March, May, July, August",
+      "options": [
+        "January",
+        "March",
+        "July",
+        "August"
+      ],
+      "explanation": "All have 31 days, but August does not start a quarter of the year."
+    },
+    "hi": {
+      "question": "बेमेल पहचानें: जनवरी, मार्च, मई, जुलाई, अगस्त",
+      "options": [
+        "जनवरी",
+        "मार्च",
+        "जुलाई",
+        "अगस्त"
+      ],
+      "explanation": "सभी में 31 दिन हैं, लेकिन अगस्त किसी तिमाही की शुरुआत नहीं करता।"
+    }
+  },
+  {
+    "id": "groupd-r-0008",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Find the odd one out: PQRS, CDEF, MNOP, WXYZ",
+      "options": [
+        "PQRS",
+        "CDEF",
+        "MNOP",
+        "WXYZ"
+      ],
+      "explanation": "All are 4 consecutive letters. WXYZ is the terminal group ending with Z."
+    },
+    "hi": {
+      "question": "बेमेल पहचानें: PQRS, CDEF, MNOP, WXYZ",
+      "options": [
+        "PQRS",
+        "CDEF",
+        "MNOP",
+        "WXYZ"
+      ],
+      "explanation": "सभी 4 क्रमागत अक्षर हैं। WXYZ अंतिम समूह है जो Z पर समाप्त होता है।"
+    }
+  },
+  {
+    "id": "groupd-r-0009",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Find the odd one out: Dog, Cat, Cow, Lion",
+      "options": [
+        "Dog",
+        "Cat",
+        "Cow",
+        "Lion"
+      ],
+      "explanation": "Dog, Cat, and Lion are carnivores. Cow is a herbivore."
+    },
+    "hi": {
+      "question": "बेमेल पहचानें: कुत्ता, बिल्ली, गाय, शेर",
+      "options": [
+        "कुत्ता",
+        "बिल्ली",
+        "गाय",
+        "शेर"
+      ],
+      "explanation": "कुत्ता, बिल्ली और शेर मांसाहारी हैं। गाय शाकाहारी है।"
+    }
+  },
+  {
+    "id": "grpd-r-0010",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: GHI, VWX, EFG, XYZ",
+      "options": [
+        "GHI",
+        "EFG",
+        "VWX",
+        "XYZ"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: GHI, VWX, EFG, XYZ",
+      "options": [
+        "GHI",
+        "EFG",
+        "VWX",
+        "XYZ"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0011",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: ABC, STU, BCD, RST",
+      "options": [
+        "BCD",
+        "ABC",
+        "RST",
+        "STU"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: ABC, STU, BCD, RST",
+      "options": [
+        "BCD",
+        "ABC",
+        "RST",
+        "STU"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0012",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Gold, Iron, Silver, Bronze",
+      "options": [
+        "Gold",
+        "Bronze",
+        "Iron",
+        "Silver"
+      ],
+      "explanation": "The odd one is Bronze because Bronze is an alloy, others are pure metals."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: चांदी, कांसा, लोहा, सोना",
+      "options": [
+        "Gold",
+        "Bronze",
+        "Iron",
+        "Silver"
+      ],
+      "explanation": "बेमेल कांसा है क्योंकि कांसा मिश्र धातु है, बाकी शुद्ध धातुएं।"
+    }
+  },
+  {
+    "id": "grpd-r-0013",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 33, 22, 44, 56, 11",
+      "options": [
+        "44",
+        "33",
+        "56",
+        "22"
+      ],
+      "explanation": "The odd one is 56 because 56 is not divisible by 11."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 33, 22, 44, 56, 11",
+      "options": [
+        "44",
+        "33",
+        "56",
+        "22"
+      ],
+      "explanation": "बेमेल 56 है क्योंकि 56 is not divisible by 11।"
+    }
+  },
+  {
+    "id": "grpd-r-0014",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Mountain, Lake, Sea, River",
+      "options": [
+        "Sea",
+        "Lake",
+        "Mountain",
+        "River"
+      ],
+      "explanation": "The odd one is Mountain because Mountain is landform, others are water bodies."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: समुद्र, पहाड़, झील, नदी",
+      "options": [
+        "Sea",
+        "Lake",
+        "Mountain",
+        "River"
+      ],
+      "explanation": "बेमेल पहाड़ है क्योंकि पहाड़ भू-आकृति है, बाकी जलाशय हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0015",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Guitar, Hockey, Cricket, Football",
+      "options": [
+        "Cricket",
+        "Guitar",
+        "Football",
+        "Hockey"
+      ],
+      "explanation": "The odd one is Guitar because others are sports."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: क्रिकेट, फुटबॉल, हॉकी, गिटार",
+      "options": [
+        "Cricket",
+        "Guitar",
+        "Football",
+        "Hockey"
+      ],
+      "explanation": "बेमेल गिटार है क्योंकि बाकी सभी खेल हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0016",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: DEF, PQR, BCD, XYZ",
+      "options": [
+        "DEF",
+        "PQR",
+        "XYZ",
+        "BCD"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: DEF, PQR, BCD, XYZ",
+      "options": [
+        "DEF",
+        "PQR",
+        "XYZ",
+        "BCD"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0017",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: JKL, VWX, BCD, XYZ",
+      "options": [
+        "VWX",
+        "JKL",
+        "XYZ",
+        "BCD"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: JKL, VWX, BCD, XYZ",
+      "options": [
+        "VWX",
+        "JKL",
+        "XYZ",
+        "BCD"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0018",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Moon, Venus, Earth, Mars",
+      "options": [
+        "Moon",
+        "Earth",
+        "Venus",
+        "Mars"
+      ],
+      "explanation": "The odd one is Moon because Moon is a satellite, others are planets."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: शुक्र, चंद्रमा, मंगल, पृथ्वी",
+      "options": [
+        "Moon",
+        "Earth",
+        "Venus",
+        "Mars"
+      ],
+      "explanation": "बेमेल चंद्रमा है क्योंकि चंद्रमा उपग्रह है, बाकी ग्रह हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0019",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Rose, Mango, Lotus, Lily",
+      "options": [
+        "Mango",
+        "Lotus",
+        "Rose",
+        "Lily"
+      ],
+      "explanation": "The odd one is Mango because others are flowers."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: कमल, गुलाब, लिली, आम",
+      "options": [
+        "Mango",
+        "Lotus",
+        "Rose",
+        "Lily"
+      ],
+      "explanation": "बेमेल आम है क्योंकि बाकी सभी फूल हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0020",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: ABC, VWX, EFG, RST",
+      "options": [
+        "RST",
+        "VWX",
+        "EFG",
+        "ABC"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: ABC, VWX, EFG, RST",
+      "options": [
+        "RST",
+        "VWX",
+        "EFG",
+        "ABC"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0021",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Hockey, Guitar, Football, Cricket",
+      "options": [
+        "Guitar",
+        "Football",
+        "Cricket",
+        "Hockey"
+      ],
+      "explanation": "The odd one is Guitar because others are sports."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: क्रिकेट, हॉकी, गिटार, फुटबॉल",
+      "options": [
+        "Guitar",
+        "Football",
+        "Cricket",
+        "Hockey"
+      ],
+      "explanation": "बेमेल गिटार है क्योंकि बाकी सभी खेल हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0022",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 28, 14, 21, 35, 50",
+      "options": [
+        "21",
+        "28",
+        "50",
+        "14"
+      ],
+      "explanation": "The odd one is 50 because 50 is not divisible by 7, all others are."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 28, 14, 21, 35, 50",
+      "options": [
+        "21",
+        "28",
+        "50",
+        "14"
+      ],
+      "explanation": "बेमेल 50 है क्योंकि 50 is not divisible by 7, all others are।"
+    }
+  },
+  {
+    "id": "grpd-r-0023",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Eye, Nose, Ear, Hand",
+      "options": [
+        "Ear",
+        "Eye",
+        "Hand",
+        "Nose"
+      ],
+      "explanation": "The odd one is Hand because Hand is a limb, others are sense organs."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: आंख, नाक, हाथ, कान",
+      "options": [
+        "Ear",
+        "Eye",
+        "Hand",
+        "Nose"
+      ],
+      "explanation": "बेमेल हाथ है क्योंकि हाथ अंग है, बाकी ज्ञानेंद्रियां हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0024",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: JKL, PQR, HIJ, XYZ",
+      "options": [
+        "HIJ",
+        "XYZ",
+        "PQR",
+        "JKL"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: JKL, PQR, HIJ, XYZ",
+      "options": [
+        "HIJ",
+        "XYZ",
+        "PQR",
+        "JKL"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0025",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 22, 11, 56, 33, 44",
+      "options": [
+        "22",
+        "11",
+        "56",
+        "33"
+      ],
+      "explanation": "The odd one is 56 because 56 is not divisible by 11."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 22, 11, 56, 33, 44",
+      "options": [
+        "22",
+        "11",
+        "56",
+        "33"
+      ],
+      "explanation": "बेमेल 56 है क्योंकि 56 is not divisible by 11।"
+    }
+  },
+  {
+    "id": "grpd-r-0026",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 4, 6, 8, 9, 2",
+      "options": [
+        "8",
+        "6",
+        "4",
+        "9"
+      ],
+      "explanation": "The odd one is 9 because 9 is odd, all others are even."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 4, 6, 8, 9, 2",
+      "options": [
+        "8",
+        "6",
+        "4",
+        "9"
+      ],
+      "explanation": "बेमेल 9 है क्योंकि 9 is odd, all others are even।"
+    }
+  },
+  {
+    "id": "grpd-r-0027",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Banana, Tomato, Potato, Onion",
+      "options": [
+        "Potato",
+        "Onion",
+        "Banana",
+        "Tomato"
+      ],
+      "explanation": "The odd one is Banana because banana is a fruit, others are vegetables."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: केला, प्याज, टमाटर, आलू",
+      "options": [
+        "Potato",
+        "Onion",
+        "Banana",
+        "Tomato"
+      ],
+      "explanation": "बेमेल केला है क्योंकि केला फल है, बाकी सब्जियां हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0028",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 72, 35, 21, 63, 49",
+      "options": [
+        "35",
+        "63",
+        "21",
+        "72"
+      ],
+      "explanation": "The odd one is 72 because 72 is not divisible by 7, all others are."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 72, 35, 21, 63, 49",
+      "options": [
+        "35",
+        "63",
+        "21",
+        "72"
+      ],
+      "explanation": "बेमेल 72 है क्योंकि 72 is not divisible by 7, all others are।"
+    }
+  },
+  {
+    "id": "grpd-r-0029",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Book, Pen, Pencil, Eraser",
+      "options": [
+        "Eraser",
+        "Pen",
+        "Book",
+        "Pencil"
+      ],
+      "explanation": "The odd one is Book because Book is study material, others are writing tools."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: रबड़, कलम, पेंसिल, पुस्तक",
+      "options": [
+        "Eraser",
+        "Pen",
+        "Book",
+        "Pencil"
+      ],
+      "explanation": "बेमेल पुस्तक है क्योंकि पुस्तक पढ़ने के लिए, बाकी लिखने के उपकरण।"
+    }
+  },
+  {
+    "id": "grpd-r-0030",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: DEF, STU, BCD, XYZ",
+      "options": [
+        "BCD",
+        "STU",
+        "XYZ",
+        "DEF"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: DEF, STU, BCD, XYZ",
+      "options": [
+        "BCD",
+        "STU",
+        "XYZ",
+        "DEF"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0031",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 49, 36, 25, 81, 16",
+      "options": [
+        "36",
+        "81",
+        "25",
+        "49"
+      ],
+      "explanation": "The odd one is 81 because 81 is 9² but others are consecutive squares (4²-7²)."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 49, 36, 25, 81, 16",
+      "options": [
+        "36",
+        "81",
+        "25",
+        "49"
+      ],
+      "explanation": "बेमेल 81 है क्योंकि 81 is 9² but others are consecutive squares (4²-7²)।"
+    }
+  },
+  {
+    "id": "grpd-r-0032",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Pencil, Pen, Book, Eraser",
+      "options": [
+        "Pencil",
+        "Book",
+        "Eraser",
+        "Pen"
+      ],
+      "explanation": "The odd one is Book because Book is study material, others are writing tools."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: पेंसिल, पुस्तक, कलम, रबड़",
+      "options": [
+        "Pencil",
+        "Book",
+        "Eraser",
+        "Pen"
+      ],
+      "explanation": "बेमेल पुस्तक है क्योंकि पुस्तक पढ़ने के लिए, बाकी लिखने के उपकरण।"
+    }
+  },
+  {
+    "id": "grpd-r-0033",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: MNO, VWX, HIJ, XYZ",
+      "options": [
+        "XYZ",
+        "HIJ",
+        "VWX",
+        "MNO"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: MNO, VWX, HIJ, XYZ",
+      "options": [
+        "XYZ",
+        "HIJ",
+        "VWX",
+        "MNO"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0034",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Tomato, Onion, Banana, Potato",
+      "options": [
+        "Tomato",
+        "Potato",
+        "Banana",
+        "Onion"
+      ],
+      "explanation": "The odd one is Banana because banana is a fruit, others are vegetables."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: प्याज, टमाटर, आलू, केला",
+      "options": [
+        "Tomato",
+        "Potato",
+        "Banana",
+        "Onion"
+      ],
+      "explanation": "बेमेल केला है क्योंकि केला फल है, बाकी सब्जियां हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0035",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Mars, Moon, Venus, Earth",
+      "options": [
+        "Moon",
+        "Venus",
+        "Earth",
+        "Mars"
+      ],
+      "explanation": "The odd one is Moon because Moon is a satellite, others are planets."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: मंगल, चंद्रमा, शुक्र, पृथ्वी",
+      "options": [
+        "Moon",
+        "Venus",
+        "Earth",
+        "Mars"
+      ],
+      "explanation": "बेमेल चंद्रमा है क्योंकि चंद्रमा उपग्रह है, बाकी ग्रह हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0036",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 7, 10, 3, 9, 5",
+      "options": [
+        "7",
+        "10",
+        "3",
+        "9"
+      ],
+      "explanation": "The odd one is 10 because 10 is even, all others are odd."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 7, 10, 3, 9, 5",
+      "options": [
+        "7",
+        "10",
+        "3",
+        "9"
+      ],
+      "explanation": "बेमेल 10 है क्योंकि 10 is even, all others are odd।"
+    }
+  },
+  {
+    "id": "grpd-r-0037",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: JKL, STU, BCD, XYZ",
+      "options": [
+        "XYZ",
+        "BCD",
+        "JKL",
+        "STU"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: JKL, STU, BCD, XYZ",
+      "options": [
+        "XYZ",
+        "BCD",
+        "JKL",
+        "STU"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0038",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: ABC, VWX, BCD, RST",
+      "options": [
+        "BCD",
+        "ABC",
+        "RST",
+        "VWX"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: ABC, VWX, BCD, RST",
+      "options": [
+        "BCD",
+        "ABC",
+        "RST",
+        "VWX"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0039",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: ABC, VWX, EFG, XYZ",
+      "options": [
+        "ABC",
+        "EFG",
+        "XYZ",
+        "VWX"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: ABC, VWX, EFG, XYZ",
+      "options": [
+        "ABC",
+        "EFG",
+        "XYZ",
+        "VWX"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0040",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: JKL, STU, EFG, RST",
+      "options": [
+        "EFG",
+        "STU",
+        "JKL",
+        "RST"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: JKL, STU, EFG, RST",
+      "options": [
+        "EFG",
+        "STU",
+        "JKL",
+        "RST"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0041",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: JKL, PQR, BCD, RST",
+      "options": [
+        "JKL",
+        "PQR",
+        "RST",
+        "BCD"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: JKL, PQR, BCD, RST",
+      "options": [
+        "JKL",
+        "PQR",
+        "RST",
+        "BCD"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0042",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Earth, Mars, Moon, Venus",
+      "options": [
+        "Mars",
+        "Moon",
+        "Earth",
+        "Venus"
+      ],
+      "explanation": "The odd one is Moon because Moon is a satellite, others are planets."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: चंद्रमा, पृथ्वी, मंगल, शुक्र",
+      "options": [
+        "Mars",
+        "Moon",
+        "Earth",
+        "Venus"
+      ],
+      "explanation": "बेमेल चंद्रमा है क्योंकि चंद्रमा उपग्रह है, बाकी ग्रह हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0043",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 20, 50, 30, 10, 42",
+      "options": [
+        "50",
+        "42",
+        "20",
+        "30"
+      ],
+      "explanation": "The odd one is 42 because 42 is not divisible by 10."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 20, 50, 30, 10, 42",
+      "options": [
+        "50",
+        "42",
+        "20",
+        "30"
+      ],
+      "explanation": "बेमेल 42 है क्योंकि 42 is not divisible by 10।"
+    }
+  },
+  {
+    "id": "grpd-r-0044",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Lily, Mango, Rose, Lotus",
+      "options": [
+        "Rose",
+        "Mango",
+        "Lily",
+        "Lotus"
+      ],
+      "explanation": "The odd one is Mango because others are flowers."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: लिली, आम, कमल, गुलाब",
+      "options": [
+        "Rose",
+        "Mango",
+        "Lily",
+        "Lotus"
+      ],
+      "explanation": "बेमेल आम है क्योंकि बाकी सभी फूल हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0045",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: JKL, PQR, BCD, XYZ",
+      "options": [
+        "JKL",
+        "BCD",
+        "PQR",
+        "XYZ"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: JKL, PQR, BCD, XYZ",
+      "options": [
+        "JKL",
+        "BCD",
+        "PQR",
+        "XYZ"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0046",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Blue, Square, Green, Red",
+      "options": [
+        "Green",
+        "Square",
+        "Blue",
+        "Red"
+      ],
+      "explanation": "The odd one is Square because others are colors."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: नीला, लाल, हरा, वर्ग",
+      "options": [
+        "Green",
+        "Square",
+        "Blue",
+        "Red"
+      ],
+      "explanation": "बेमेल वर्ग है क्योंकि बाकी सभी रंग हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0047",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Potato, Onion, Tomato, Banana",
+      "options": [
+        "Tomato",
+        "Banana",
+        "Onion",
+        "Potato"
+      ],
+      "explanation": "The odd one is Banana because banana is a fruit, others are vegetables."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: आलू, टमाटर, प्याज, केला",
+      "options": [
+        "Tomato",
+        "Banana",
+        "Onion",
+        "Potato"
+      ],
+      "explanation": "बेमेल केला है क्योंकि केला फल है, बाकी सब्जियां हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0048",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 27, 125, 64, 100, 8",
+      "options": [
+        "100",
+        "64",
+        "125",
+        "27"
+      ],
+      "explanation": "The odd one is 100 because 100 is not a perfect cube, others are."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 27, 125, 64, 100, 8",
+      "options": [
+        "100",
+        "64",
+        "125",
+        "27"
+      ],
+      "explanation": "बेमेल 100 है क्योंकि 100 is not a perfect cube, others are।"
+    }
+  },
+  {
+    "id": "grpd-r-0049",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Banana, Tomato, Potato, Onion",
+      "options": [
+        "Banana",
+        "Tomato",
+        "Potato",
+        "Onion"
+      ],
+      "explanation": "The odd one is Banana because banana is a fruit, others are vegetables."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: प्याज, केला, टमाटर, आलू",
+      "options": [
+        "Banana",
+        "Tomato",
+        "Potato",
+        "Onion"
+      ],
+      "explanation": "बेमेल केला है क्योंकि केला फल है, बाकी सब्जियां हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0050",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 11, 33, 22, 44, 56",
+      "options": [
+        "22",
+        "56",
+        "11",
+        "33"
+      ],
+      "explanation": "The odd one is 56 because 56 is not divisible by 11."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 11, 33, 22, 44, 56",
+      "options": [
+        "22",
+        "56",
+        "11",
+        "33"
+      ],
+      "explanation": "बेमेल 56 है क्योंकि 56 is not divisible by 11।"
+    }
+  },
+  {
+    "id": "grpd-r-0051",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: ABC, PQR, BCD, RST",
+      "options": [
+        "RST",
+        "BCD",
+        "PQR",
+        "ABC"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: ABC, PQR, BCD, RST",
+      "options": [
+        "RST",
+        "BCD",
+        "PQR",
+        "ABC"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0052",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: GHI, PQR, BCD, XYZ",
+      "options": [
+        "GHI",
+        "XYZ",
+        "PQR",
+        "BCD"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: GHI, PQR, BCD, XYZ",
+      "options": [
+        "GHI",
+        "XYZ",
+        "PQR",
+        "BCD"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0053",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: MNO, STU, BCD, RST",
+      "options": [
+        "MNO",
+        "BCD",
+        "STU",
+        "RST"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: MNO, STU, BCD, RST",
+      "options": [
+        "MNO",
+        "BCD",
+        "STU",
+        "RST"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0054",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: GHI, VWX, BCD, RST",
+      "options": [
+        "RST",
+        "BCD",
+        "VWX",
+        "GHI"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: GHI, VWX, BCD, RST",
+      "options": [
+        "RST",
+        "BCD",
+        "VWX",
+        "GHI"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0055",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: GHI, VWX, HIJ, RST",
+      "options": [
+        "RST",
+        "VWX",
+        "HIJ",
+        "GHI"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: GHI, VWX, HIJ, RST",
+      "options": [
+        "RST",
+        "VWX",
+        "HIJ",
+        "GHI"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0056",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 1, 9, 16, 20, 4",
+      "options": [
+        "1",
+        "20",
+        "16",
+        "9"
+      ],
+      "explanation": "The odd one is 20 because 20 is not a perfect square, others are squares."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 1, 9, 16, 20, 4",
+      "options": [
+        "1",
+        "20",
+        "16",
+        "9"
+      ],
+      "explanation": "बेमेल 20 है क्योंकि 20 is not a perfect square, others are squares।"
+    }
+  },
+  {
+    "id": "grpd-r-0057",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Blue, Red, Square, Green",
+      "options": [
+        "Square",
+        "Red",
+        "Blue",
+        "Green"
+      ],
+      "explanation": "The odd one is Square because others are colors."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: लाल, नीला, हरा, वर्ग",
+      "options": [
+        "Square",
+        "Red",
+        "Blue",
+        "Green"
+      ],
+      "explanation": "बेमेल वर्ग है क्योंकि बाकी सभी रंग हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0058",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: ABC, VWX, HIJ, XYZ",
+      "options": [
+        "VWX",
+        "HIJ",
+        "XYZ",
+        "ABC"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: ABC, VWX, HIJ, XYZ",
+      "options": [
+        "VWX",
+        "HIJ",
+        "XYZ",
+        "ABC"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0059",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: JKL, STU, HIJ, XYZ",
+      "options": [
+        "XYZ",
+        "HIJ",
+        "JKL",
+        "STU"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: JKL, STU, HIJ, XYZ",
+      "options": [
+        "XYZ",
+        "HIJ",
+        "JKL",
+        "STU"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0060",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: JKL, STU, BCD, RST",
+      "options": [
+        "STU",
+        "BCD",
+        "JKL",
+        "RST"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: JKL, STU, BCD, RST",
+      "options": [
+        "STU",
+        "BCD",
+        "JKL",
+        "RST"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0061",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: JKL, PQR, EFG, RST",
+      "options": [
+        "RST",
+        "JKL",
+        "EFG",
+        "PQR"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: JKL, PQR, EFG, RST",
+      "options": [
+        "RST",
+        "JKL",
+        "EFG",
+        "PQR"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0062",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: DEF, STU, HIJ, XYZ",
+      "options": [
+        "DEF",
+        "XYZ",
+        "HIJ",
+        "STU"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: DEF, STU, HIJ, XYZ",
+      "options": [
+        "DEF",
+        "XYZ",
+        "HIJ",
+        "STU"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0063",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 10, 7, 3, 5, 9",
+      "options": [
+        "7",
+        "5",
+        "10",
+        "3"
+      ],
+      "explanation": "The odd one is 10 because 10 is even, all others are odd."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 10, 7, 3, 5, 9",
+      "options": [
+        "7",
+        "5",
+        "10",
+        "3"
+      ],
+      "explanation": "बेमेल 10 है क्योंकि 10 is even, all others are odd।"
+    }
+  },
+  {
+    "id": "grpd-r-0064",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Onion, Banana, Tomato, Potato",
+      "options": [
+        "Banana",
+        "Onion",
+        "Potato",
+        "Tomato"
+      ],
+      "explanation": "The odd one is Banana because banana is a fruit, others are vegetables."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: आलू, टमाटर, प्याज, केला",
+      "options": [
+        "Banana",
+        "Onion",
+        "Potato",
+        "Tomato"
+      ],
+      "explanation": "बेमेल केला है क्योंकि केला फल है, बाकी सब्जियां हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0065",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Mountain, Lake, River, Sea",
+      "options": [
+        "River",
+        "Sea",
+        "Lake",
+        "Mountain"
+      ],
+      "explanation": "The odd one is Mountain because Mountain is landform, others are water bodies."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: समुद्र, नदी, झील, पहाड़",
+      "options": [
+        "River",
+        "Sea",
+        "Lake",
+        "Mountain"
+      ],
+      "explanation": "बेमेल पहाड़ है क्योंकि पहाड़ भू-आकृति है, बाकी जलाशय हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0066",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: JKL, STU, BCD, XYZ",
+      "options": [
+        "XYZ",
+        "BCD",
+        "STU",
+        "JKL"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: JKL, STU, BCD, XYZ",
+      "options": [
+        "XYZ",
+        "BCD",
+        "STU",
+        "JKL"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0067",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: DEF, PQR, HIJ, XYZ",
+      "options": [
+        "XYZ",
+        "PQR",
+        "HIJ",
+        "DEF"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: DEF, PQR, HIJ, XYZ",
+      "options": [
+        "XYZ",
+        "PQR",
+        "HIJ",
+        "DEF"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0068",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 16, 4, 20, 1, 9",
+      "options": [
+        "1",
+        "16",
+        "20",
+        "4"
+      ],
+      "explanation": "The odd one is 20 because 20 is not a perfect square, others are squares."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 16, 4, 20, 1, 9",
+      "options": [
+        "1",
+        "16",
+        "20",
+        "4"
+      ],
+      "explanation": "बेमेल 20 है क्योंकि 20 is not a perfect square, others are squares।"
+    }
+  },
+  {
+    "id": "grpd-r-0069",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Silver, Bronze, Gold, Iron",
+      "options": [
+        "Bronze",
+        "Silver",
+        "Iron",
+        "Gold"
+      ],
+      "explanation": "The odd one is Bronze because Bronze is an alloy, others are pure metals."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: सोना, कांसा, चांदी, लोहा",
+      "options": [
+        "Bronze",
+        "Silver",
+        "Iron",
+        "Gold"
+      ],
+      "explanation": "बेमेल कांसा है क्योंकि कांसा मिश्र धातु है, बाकी शुद्ध धातुएं।"
+    }
+  },
+  {
+    "id": "grpd-r-0070",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: GHI, PQR, HIJ, XYZ",
+      "options": [
+        "HIJ",
+        "PQR",
+        "GHI",
+        "XYZ"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: GHI, PQR, HIJ, XYZ",
+      "options": [
+        "HIJ",
+        "PQR",
+        "GHI",
+        "XYZ"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0071",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Lily, Rose, Mango, Lotus",
+      "options": [
+        "Lily",
+        "Rose",
+        "Mango",
+        "Lotus"
+      ],
+      "explanation": "The odd one is Mango because others are flowers."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: गुलाब, लिली, कमल, आम",
+      "options": [
+        "Lily",
+        "Rose",
+        "Mango",
+        "Lotus"
+      ],
+      "explanation": "बेमेल आम है क्योंकि बाकी सभी फूल हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0072",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: GHI, VWX, EFG, XYZ",
+      "options": [
+        "EFG",
+        "GHI",
+        "XYZ",
+        "VWX"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: GHI, VWX, EFG, XYZ",
+      "options": [
+        "EFG",
+        "GHI",
+        "XYZ",
+        "VWX"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0073",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Hand, Eye, Nose, Ear",
+      "options": [
+        "Nose",
+        "Eye",
+        "Hand",
+        "Ear"
+      ],
+      "explanation": "The odd one is Hand because Hand is a limb, others are sense organs."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: नाक, कान, हाथ, आंख",
+      "options": [
+        "Nose",
+        "Eye",
+        "Hand",
+        "Ear"
+      ],
+      "explanation": "बेमेल हाथ है क्योंकि हाथ अंग है, बाकी ज्ञानेंद्रियां हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0074",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: ABC, PQR, HIJ, XYZ",
+      "options": [
+        "ABC",
+        "XYZ",
+        "HIJ",
+        "PQR"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: ABC, PQR, HIJ, XYZ",
+      "options": [
+        "ABC",
+        "XYZ",
+        "HIJ",
+        "PQR"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0075",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Banana, Tomato, Potato, Onion",
+      "options": [
+        "Banana",
+        "Tomato",
+        "Onion",
+        "Potato"
+      ],
+      "explanation": "The odd one is Banana because banana is a fruit, others are vegetables."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: केला, टमाटर, आलू, प्याज",
+      "options": [
+        "Banana",
+        "Tomato",
+        "Onion",
+        "Potato"
+      ],
+      "explanation": "बेमेल केला है क्योंकि केला फल है, बाकी सब्जियां हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0076",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Nose, Ear, Hand, Eye",
+      "options": [
+        "Ear",
+        "Hand",
+        "Eye",
+        "Nose"
+      ],
+      "explanation": "The odd one is Hand because Hand is a limb, others are sense organs."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: हाथ, आंख, कान, नाक",
+      "options": [
+        "Ear",
+        "Hand",
+        "Eye",
+        "Nose"
+      ],
+      "explanation": "बेमेल हाथ है क्योंकि हाथ अंग है, बाकी ज्ञानेंद्रियां हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0077",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: JKL, STU, BCD, XYZ",
+      "options": [
+        "XYZ",
+        "BCD",
+        "STU",
+        "JKL"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: JKL, STU, BCD, XYZ",
+      "options": [
+        "XYZ",
+        "BCD",
+        "STU",
+        "JKL"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0078",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Mango, Lily, Lotus, Rose",
+      "options": [
+        "Lily",
+        "Rose",
+        "Lotus",
+        "Mango"
+      ],
+      "explanation": "The odd one is Mango because others are flowers."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: गुलाब, आम, लिली, कमल",
+      "options": [
+        "Lily",
+        "Rose",
+        "Lotus",
+        "Mango"
+      ],
+      "explanation": "बेमेल आम है क्योंकि बाकी सभी फूल हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0079",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 125, 8, 100, 27, 64",
+      "options": [
+        "125",
+        "27",
+        "100",
+        "8"
+      ],
+      "explanation": "The odd one is 100 because 100 is not a perfect cube, others are."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 125, 8, 100, 27, 64",
+      "options": [
+        "125",
+        "27",
+        "100",
+        "8"
+      ],
+      "explanation": "बेमेल 100 है क्योंकि 100 is not a perfect cube, others are।"
+    }
+  },
+  {
+    "id": "grpd-r-0080",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 8, 4, 6, 2, 9",
+      "options": [
+        "6",
+        "8",
+        "4",
+        "9"
+      ],
+      "explanation": "The odd one is 9 because 9 is odd, all others are even."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 8, 4, 6, 2, 9",
+      "options": [
+        "6",
+        "8",
+        "4",
+        "9"
+      ],
+      "explanation": "बेमेल 9 है क्योंकि 9 is odd, all others are even।"
+    }
+  },
+  {
+    "id": "grpd-r-0081",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Mountain, Lake, Sea, River",
+      "options": [
+        "Mountain",
+        "River",
+        "Lake",
+        "Sea"
+      ],
+      "explanation": "The odd one is Mountain because Mountain is landform, others are water bodies."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: समुद्र, झील, नदी, पहाड़",
+      "options": [
+        "Mountain",
+        "River",
+        "Lake",
+        "Sea"
+      ],
+      "explanation": "बेमेल पहाड़ है क्योंकि पहाड़ भू-आकृति है, बाकी जलाशय हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0082",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Banana, Potato, Tomato, Onion",
+      "options": [
+        "Onion",
+        "Tomato",
+        "Potato",
+        "Banana"
+      ],
+      "explanation": "The odd one is Banana because banana is a fruit, others are vegetables."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: प्याज, टमाटर, आलू, केला",
+      "options": [
+        "Onion",
+        "Tomato",
+        "Potato",
+        "Banana"
+      ],
+      "explanation": "बेमेल केला है क्योंकि केला फल है, बाकी सब्जियां हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0083",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Book, Pen, Pencil, Eraser",
+      "options": [
+        "Book",
+        "Pen",
+        "Eraser",
+        "Pencil"
+      ],
+      "explanation": "The odd one is Book because Book is study material, others are writing tools."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: पेंसिल, कलम, पुस्तक, रबड़",
+      "options": [
+        "Book",
+        "Pen",
+        "Eraser",
+        "Pencil"
+      ],
+      "explanation": "बेमेल पुस्तक है क्योंकि पुस्तक पढ़ने के लिए, बाकी लिखने के उपकरण।"
+    }
+  },
+  {
+    "id": "grpd-r-0084",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 14, 28, 21, 35, 50",
+      "options": [
+        "50",
+        "28",
+        "21",
+        "14"
+      ],
+      "explanation": "The odd one is 50 because 50 is not divisible by 7, all others are."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 14, 28, 21, 35, 50",
+      "options": [
+        "50",
+        "28",
+        "21",
+        "14"
+      ],
+      "explanation": "बेमेल 50 है क्योंकि 50 is not divisible by 7, all others are।"
+    }
+  },
+  {
+    "id": "grpd-r-0085",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 9, 5, 3, 7, 10",
+      "options": [
+        "9",
+        "3",
+        "10",
+        "5"
+      ],
+      "explanation": "The odd one is 10 because 10 is even, all others are odd."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 9, 5, 3, 7, 10",
+      "options": [
+        "9",
+        "3",
+        "10",
+        "5"
+      ],
+      "explanation": "बेमेल 10 है क्योंकि 10 is even, all others are odd।"
+    }
+  },
+  {
+    "id": "grpd-r-0086",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Lily, Rose, Lotus, Mango",
+      "options": [
+        "Lotus",
+        "Lily",
+        "Rose",
+        "Mango"
+      ],
+      "explanation": "The odd one is Mango because others are flowers."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: गुलाब, लिली, कमल, आम",
+      "options": [
+        "Lotus",
+        "Lily",
+        "Rose",
+        "Mango"
+      ],
+      "explanation": "बेमेल आम है क्योंकि बाकी सभी फूल हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0087",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: GHI, STU, HIJ, XYZ",
+      "options": [
+        "STU",
+        "HIJ",
+        "XYZ",
+        "GHI"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: GHI, STU, HIJ, XYZ",
+      "options": [
+        "STU",
+        "HIJ",
+        "XYZ",
+        "GHI"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0088",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Cow, Cat, Eagle, Dog",
+      "options": [
+        "Eagle",
+        "Cat",
+        "Cow",
+        "Dog"
+      ],
+      "explanation": "The odd one is Eagle because all others are mammals."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: गरुड़, गाय, कुत्ता, बिल्ली",
+      "options": [
+        "Eagle",
+        "Cat",
+        "Cow",
+        "Dog"
+      ],
+      "explanation": "बेमेल गरुड़ है क्योंकि बाकी सभी स्तनधारी हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0089",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Bronze, Silver, Gold, Iron",
+      "options": [
+        "Bronze",
+        "Iron",
+        "Gold",
+        "Silver"
+      ],
+      "explanation": "The odd one is Bronze because Bronze is an alloy, others are pure metals."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: लोहा, चांदी, सोना, कांसा",
+      "options": [
+        "Bronze",
+        "Iron",
+        "Gold",
+        "Silver"
+      ],
+      "explanation": "बेमेल कांसा है क्योंकि कांसा मिश्र धातु है, बाकी शुद्ध धातुएं।"
+    }
+  },
+  {
+    "id": "grpd-r-0090",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: ABC, VWX, BCD, XYZ",
+      "options": [
+        "ABC",
+        "VWX",
+        "XYZ",
+        "BCD"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: ABC, VWX, BCD, XYZ",
+      "options": [
+        "ABC",
+        "VWX",
+        "XYZ",
+        "BCD"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0091",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 3, 7, 9, 2, 5",
+      "options": [
+        "7",
+        "9",
+        "3",
+        "2"
+      ],
+      "explanation": "The odd one is 9 because 9 is not prime, all others are prime."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 3, 7, 9, 2, 5",
+      "options": [
+        "7",
+        "9",
+        "3",
+        "2"
+      ],
+      "explanation": "बेमेल 9 है क्योंकि 9 is not prime, all others are prime।"
+    }
+  },
+  {
+    "id": "grpd-r-0092",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Dog, Eagle, Cat, Cow",
+      "options": [
+        "Cow",
+        "Cat",
+        "Dog",
+        "Eagle"
+      ],
+      "explanation": "The odd one is Eagle because all others are mammals."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: कुत्ता, गरुड़, बिल्ली, गाय",
+      "options": [
+        "Cow",
+        "Cat",
+        "Dog",
+        "Eagle"
+      ],
+      "explanation": "बेमेल गरुड़ है क्योंकि बाकी सभी स्तनधारी हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0093",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: GHI, PQR, EFG, RST",
+      "options": [
+        "GHI",
+        "EFG",
+        "RST",
+        "PQR"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: GHI, PQR, EFG, RST",
+      "options": [
+        "GHI",
+        "EFG",
+        "RST",
+        "PQR"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0094",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Cat, Dog, Eagle, Cow",
+      "options": [
+        "Cat",
+        "Eagle",
+        "Dog",
+        "Cow"
+      ],
+      "explanation": "The odd one is Eagle because all others are mammals."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: गरुड़, कुत्ता, गाय, बिल्ली",
+      "options": [
+        "Cat",
+        "Eagle",
+        "Dog",
+        "Cow"
+      ],
+      "explanation": "बेमेल गरुड़ है क्योंकि बाकी सभी स्तनधारी हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0095",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Green, Blue, Square, Red",
+      "options": [
+        "Green",
+        "Red",
+        "Blue",
+        "Square"
+      ],
+      "explanation": "The odd one is Square because others are colors."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: वर्ग, नीला, हरा, लाल",
+      "options": [
+        "Green",
+        "Red",
+        "Blue",
+        "Square"
+      ],
+      "explanation": "बेमेल वर्ग है क्योंकि बाकी सभी रंग हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0096",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: GHI, STU, BCD, RST",
+      "options": [
+        "RST",
+        "GHI",
+        "STU",
+        "BCD"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: GHI, STU, BCD, RST",
+      "options": [
+        "RST",
+        "GHI",
+        "STU",
+        "BCD"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0097",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 9, 20, 4, 1, 16",
+      "options": [
+        "9",
+        "4",
+        "20",
+        "1"
+      ],
+      "explanation": "The odd one is 20 because 20 is not a perfect square, others are squares."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 9, 20, 4, 1, 16",
+      "options": [
+        "9",
+        "4",
+        "20",
+        "1"
+      ],
+      "explanation": "बेमेल 20 है क्योंकि 20 is not a perfect square, others are squares।"
+    }
+  },
+  {
+    "id": "grpd-r-0098",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Venus, Moon, Mars, Earth",
+      "options": [
+        "Venus",
+        "Earth",
+        "Mars",
+        "Moon"
+      ],
+      "explanation": "The odd one is Moon because Moon is a satellite, others are planets."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: शुक्र, चंद्रमा, मंगल, पृथ्वी",
+      "options": [
+        "Venus",
+        "Earth",
+        "Mars",
+        "Moon"
+      ],
+      "explanation": "बेमेल चंद्रमा है क्योंकि चंद्रमा उपग्रह है, बाकी ग्रह हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0099",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 22, 11, 56, 33, 44",
+      "options": [
+        "33",
+        "22",
+        "56",
+        "11"
+      ],
+      "explanation": "The odd one is 56 because 56 is not divisible by 11."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 22, 11, 56, 33, 44",
+      "options": [
+        "33",
+        "22",
+        "56",
+        "11"
+      ],
+      "explanation": "बेमेल 56 है क्योंकि 56 is not divisible by 11।"
+    }
+  },
+  {
+    "id": "grpd-r-0100",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: JKL, STU, HIJ, RST",
+      "options": [
+        "RST",
+        "HIJ",
+        "JKL",
+        "STU"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: JKL, STU, HIJ, RST",
+      "options": [
+        "RST",
+        "HIJ",
+        "JKL",
+        "STU"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0101",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 16, 20, 1, 4, 9",
+      "options": [
+        "20",
+        "4",
+        "1",
+        "16"
+      ],
+      "explanation": "The odd one is 20 because 20 is not a perfect square, others are squares."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 16, 20, 1, 4, 9",
+      "options": [
+        "20",
+        "4",
+        "1",
+        "16"
+      ],
+      "explanation": "बेमेल 20 है क्योंकि 20 is not a perfect square, others are squares।"
+    }
+  },
+  {
+    "id": "grpd-r-0102",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: ABC, PQR, BCD, XYZ",
+      "options": [
+        "BCD",
+        "XYZ",
+        "ABC",
+        "PQR"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: ABC, PQR, BCD, XYZ",
+      "options": [
+        "BCD",
+        "XYZ",
+        "ABC",
+        "PQR"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0103",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 20, 42, 50, 10, 30",
+      "options": [
+        "42",
+        "50",
+        "20",
+        "10"
+      ],
+      "explanation": "The odd one is 42 because 42 is not divisible by 10."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 20, 42, 50, 10, 30",
+      "options": [
+        "42",
+        "50",
+        "20",
+        "10"
+      ],
+      "explanation": "बेमेल 42 है क्योंकि 42 is not divisible by 10।"
+    }
+  },
+  {
+    "id": "grpd-r-0104",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 63, 21, 35, 49, 72",
+      "options": [
+        "63",
+        "35",
+        "72",
+        "21"
+      ],
+      "explanation": "The odd one is 72 because 72 is not divisible by 7, all others are."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 63, 21, 35, 49, 72",
+      "options": [
+        "63",
+        "35",
+        "72",
+        "21"
+      ],
+      "explanation": "बेमेल 72 है क्योंकि 72 is not divisible by 7, all others are।"
+    }
+  },
+  {
+    "id": "grpd-r-0105",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Venus, Earth, Mars, Moon",
+      "options": [
+        "Moon",
+        "Mars",
+        "Earth",
+        "Venus"
+      ],
+      "explanation": "The odd one is Moon because Moon is a satellite, others are planets."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: शुक्र, मंगल, चंद्रमा, पृथ्वी",
+      "options": [
+        "Moon",
+        "Mars",
+        "Earth",
+        "Venus"
+      ],
+      "explanation": "बेमेल चंद्रमा है क्योंकि चंद्रमा उपग्रह है, बाकी ग्रह हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0106",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Potato, Tomato, Onion, Banana",
+      "options": [
+        "Onion",
+        "Tomato",
+        "Potato",
+        "Banana"
+      ],
+      "explanation": "The odd one is Banana because banana is a fruit, others are vegetables."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: टमाटर, आलू, प्याज, केला",
+      "options": [
+        "Onion",
+        "Tomato",
+        "Potato",
+        "Banana"
+      ],
+      "explanation": "बेमेल केला है क्योंकि केला फल है, बाकी सब्जियां हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0107",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: ABC, STU, EFG, RST",
+      "options": [
+        "STU",
+        "ABC",
+        "RST",
+        "EFG"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: ABC, STU, EFG, RST",
+      "options": [
+        "STU",
+        "ABC",
+        "RST",
+        "EFG"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0108",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 44, 22, 11, 56, 33",
+      "options": [
+        "11",
+        "22",
+        "56",
+        "44"
+      ],
+      "explanation": "The odd one is 56 because 56 is not divisible by 11."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 44, 22, 11, 56, 33",
+      "options": [
+        "11",
+        "22",
+        "56",
+        "44"
+      ],
+      "explanation": "बेमेल 56 है क्योंकि 56 is not divisible by 11।"
+    }
+  },
+  {
+    "id": "grpd-r-0109",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: ABC, STU, HIJ, RST",
+      "options": [
+        "ABC",
+        "STU",
+        "HIJ",
+        "RST"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: ABC, STU, HIJ, RST",
+      "options": [
+        "ABC",
+        "STU",
+        "HIJ",
+        "RST"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0110",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Silver, Gold, Iron, Bronze",
+      "options": [
+        "Bronze",
+        "Silver",
+        "Iron",
+        "Gold"
+      ],
+      "explanation": "The odd one is Bronze because Bronze is an alloy, others are pure metals."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: चांदी, कांसा, सोना, लोहा",
+      "options": [
+        "Bronze",
+        "Silver",
+        "Iron",
+        "Gold"
+      ],
+      "explanation": "बेमेल कांसा है क्योंकि कांसा मिश्र धातु है, बाकी शुद्ध धातुएं।"
+    }
+  },
+  {
+    "id": "grpd-r-0111",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: GHI, VWX, EFG, RST",
+      "options": [
+        "RST",
+        "GHI",
+        "EFG",
+        "VWX"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: GHI, VWX, EFG, RST",
+      "options": [
+        "RST",
+        "GHI",
+        "EFG",
+        "VWX"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0112",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Lake, Mountain, River, Sea",
+      "options": [
+        "River",
+        "Mountain",
+        "Lake",
+        "Sea"
+      ],
+      "explanation": "The odd one is Mountain because Mountain is landform, others are water bodies."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: नदी, पहाड़, समुद्र, झील",
+      "options": [
+        "River",
+        "Mountain",
+        "Lake",
+        "Sea"
+      ],
+      "explanation": "बेमेल पहाड़ है क्योंकि पहाड़ भू-आकृति है, बाकी जलाशय हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0113",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 21, 63, 72, 35, 49",
+      "options": [
+        "35",
+        "21",
+        "72",
+        "63"
+      ],
+      "explanation": "The odd one is 72 because 72 is not divisible by 7, all others are."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 21, 63, 72, 35, 49",
+      "options": [
+        "35",
+        "21",
+        "72",
+        "63"
+      ],
+      "explanation": "बेमेल 72 है क्योंकि 72 is not divisible by 7, all others are।"
+    }
+  },
+  {
+    "id": "grpd-r-0114",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: DEF, STU, HIJ, RST",
+      "options": [
+        "DEF",
+        "STU",
+        "RST",
+        "HIJ"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: DEF, STU, HIJ, RST",
+      "options": [
+        "DEF",
+        "STU",
+        "RST",
+        "HIJ"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0115",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: ABC, STU, EFG, RST",
+      "options": [
+        "STU",
+        "ABC",
+        "EFG",
+        "RST"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: ABC, STU, EFG, RST",
+      "options": [
+        "STU",
+        "ABC",
+        "EFG",
+        "RST"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0116",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Lily, Mango, Lotus, Rose",
+      "options": [
+        "Lily",
+        "Rose",
+        "Lotus",
+        "Mango"
+      ],
+      "explanation": "The odd one is Mango because others are flowers."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: कमल, आम, लिली, गुलाब",
+      "options": [
+        "Lily",
+        "Rose",
+        "Lotus",
+        "Mango"
+      ],
+      "explanation": "बेमेल आम है क्योंकि बाकी सभी फूल हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0117",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 10, 7, 3, 5, 9",
+      "options": [
+        "3",
+        "5",
+        "10",
+        "7"
+      ],
+      "explanation": "The odd one is 10 because 10 is even, all others are odd."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 10, 7, 3, 5, 9",
+      "options": [
+        "3",
+        "5",
+        "10",
+        "7"
+      ],
+      "explanation": "बेमेल 10 है क्योंकि 10 is even, all others are odd।"
+    }
+  },
+  {
+    "id": "grpd-r-0118",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Eraser, Pencil, Book, Pen",
+      "options": [
+        "Pen",
+        "Eraser",
+        "Pencil",
+        "Book"
+      ],
+      "explanation": "The odd one is Book because Book is study material, others are writing tools."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: पुस्तक, रबड़, पेंसिल, कलम",
+      "options": [
+        "Pen",
+        "Eraser",
+        "Pencil",
+        "Book"
+      ],
+      "explanation": "बेमेल पुस्तक है क्योंकि पुस्तक पढ़ने के लिए, बाकी लिखने के उपकरण।"
+    }
+  },
+  {
+    "id": "grpd-r-0119",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 11, 56, 33, 22, 44",
+      "options": [
+        "22",
+        "11",
+        "33",
+        "56"
+      ],
+      "explanation": "The odd one is 56 because 56 is not divisible by 11."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 11, 56, 33, 22, 44",
+      "options": [
+        "22",
+        "11",
+        "33",
+        "56"
+      ],
+      "explanation": "बेमेल 56 है क्योंकि 56 is not divisible by 11।"
+    }
+  },
+  {
+    "id": "grpd-r-0120",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 3, 5, 7, 9, 10",
+      "options": [
+        "5",
+        "10",
+        "3",
+        "7"
+      ],
+      "explanation": "The odd one is 10 because 10 is even, all others are odd."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 3, 5, 7, 9, 10",
+      "options": [
+        "5",
+        "10",
+        "3",
+        "7"
+      ],
+      "explanation": "बेमेल 10 है क्योंकि 10 is even, all others are odd।"
+    }
+  },
+  {
+    "id": "grpd-r-0121",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Venus, Mars, Earth, Moon",
+      "options": [
+        "Venus",
+        "Earth",
+        "Moon",
+        "Mars"
+      ],
+      "explanation": "The odd one is Moon because Moon is a satellite, others are planets."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: चंद्रमा, शुक्र, पृथ्वी, मंगल",
+      "options": [
+        "Venus",
+        "Earth",
+        "Moon",
+        "Mars"
+      ],
+      "explanation": "बेमेल चंद्रमा है क्योंकि चंद्रमा उपग्रह है, बाकी ग्रह हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0122",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 100, 8, 125, 27, 64",
+      "options": [
+        "8",
+        "125",
+        "27",
+        "100"
+      ],
+      "explanation": "The odd one is 100 because 100 is not a perfect cube, others are."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 100, 8, 125, 27, 64",
+      "options": [
+        "8",
+        "125",
+        "27",
+        "100"
+      ],
+      "explanation": "बेमेल 100 है क्योंकि 100 is not a perfect cube, others are।"
+    }
+  },
+  {
+    "id": "grpd-r-0123",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Banana, Potato, Tomato, Onion",
+      "options": [
+        "Potato",
+        "Tomato",
+        "Banana",
+        "Onion"
+      ],
+      "explanation": "The odd one is Banana because banana is a fruit, others are vegetables."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: टमाटर, प्याज, केला, आलू",
+      "options": [
+        "Potato",
+        "Tomato",
+        "Banana",
+        "Onion"
+      ],
+      "explanation": "बेमेल केला है क्योंकि केला फल है, बाकी सब्जियां हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0124",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Ear, Eye, Nose, Hand",
+      "options": [
+        "Nose",
+        "Ear",
+        "Hand",
+        "Eye"
+      ],
+      "explanation": "The odd one is Hand because Hand is a limb, others are sense organs."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: आंख, नाक, कान, हाथ",
+      "options": [
+        "Nose",
+        "Ear",
+        "Hand",
+        "Eye"
+      ],
+      "explanation": "बेमेल हाथ है क्योंकि हाथ अंग है, बाकी ज्ञानेंद्रियां हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0125",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Venus, Moon, Earth, Mars",
+      "options": [
+        "Moon",
+        "Venus",
+        "Mars",
+        "Earth"
+      ],
+      "explanation": "The odd one is Moon because Moon is a satellite, others are planets."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: पृथ्वी, मंगल, चंद्रमा, शुक्र",
+      "options": [
+        "Moon",
+        "Venus",
+        "Mars",
+        "Earth"
+      ],
+      "explanation": "बेमेल चंद्रमा है क्योंकि चंद्रमा उपग्रह है, बाकी ग्रह हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0126",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: GHI, PQR, BCD, RST",
+      "options": [
+        "BCD",
+        "RST",
+        "PQR",
+        "GHI"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: GHI, PQR, BCD, RST",
+      "options": [
+        "BCD",
+        "RST",
+        "PQR",
+        "GHI"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0127",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 50, 20, 30, 42, 10",
+      "options": [
+        "42",
+        "30",
+        "50",
+        "20"
+      ],
+      "explanation": "The odd one is 42 because 42 is not divisible by 10."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 50, 20, 30, 42, 10",
+      "options": [
+        "42",
+        "30",
+        "50",
+        "20"
+      ],
+      "explanation": "बेमेल 42 है क्योंकि 42 is not divisible by 10।"
+    }
+  },
+  {
+    "id": "grpd-r-0128",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 28, 14, 35, 50, 21",
+      "options": [
+        "35",
+        "28",
+        "14",
+        "50"
+      ],
+      "explanation": "The odd one is 50 because 50 is not divisible by 7, all others are."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 28, 14, 35, 50, 21",
+      "options": [
+        "35",
+        "28",
+        "14",
+        "50"
+      ],
+      "explanation": "बेमेल 50 है क्योंकि 50 is not divisible by 7, all others are।"
+    }
+  },
+  {
+    "id": "grpd-r-0129",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Tomato, Onion, Potato, Banana",
+      "options": [
+        "Onion",
+        "Banana",
+        "Tomato",
+        "Potato"
+      ],
+      "explanation": "The odd one is Banana because banana is a fruit, others are vegetables."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: प्याज, आलू, केला, टमाटर",
+      "options": [
+        "Onion",
+        "Banana",
+        "Tomato",
+        "Potato"
+      ],
+      "explanation": "बेमेल केला है क्योंकि केला फल है, बाकी सब्जियां हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0130",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: DEF, STU, BCD, XYZ",
+      "options": [
+        "XYZ",
+        "STU",
+        "BCD",
+        "DEF"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: DEF, STU, BCD, XYZ",
+      "options": [
+        "XYZ",
+        "STU",
+        "BCD",
+        "DEF"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0131",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Earth, Mars, Moon, Venus",
+      "options": [
+        "Earth",
+        "Moon",
+        "Mars",
+        "Venus"
+      ],
+      "explanation": "The odd one is Moon because Moon is a satellite, others are planets."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: मंगल, शुक्र, पृथ्वी, चंद्रमा",
+      "options": [
+        "Earth",
+        "Moon",
+        "Mars",
+        "Venus"
+      ],
+      "explanation": "बेमेल चंद्रमा है क्योंकि चंद्रमा उपग्रह है, बाकी ग्रह हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0132",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: ABC, PQR, BCD, RST",
+      "options": [
+        "RST",
+        "BCD",
+        "ABC",
+        "PQR"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: ABC, PQR, BCD, RST",
+      "options": [
+        "RST",
+        "BCD",
+        "ABC",
+        "PQR"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0133",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 9, 2, 5, 7, 3",
+      "options": [
+        "2",
+        "5",
+        "9",
+        "7"
+      ],
+      "explanation": "The odd one is 9 because 9 is not prime, all others are prime."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 9, 2, 5, 7, 3",
+      "options": [
+        "2",
+        "5",
+        "9",
+        "7"
+      ],
+      "explanation": "बेमेल 9 है क्योंकि 9 is not prime, all others are prime।"
+    }
+  },
+  {
+    "id": "grpd-r-0134",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: GHI, STU, EFG, RST",
+      "options": [
+        "EFG",
+        "RST",
+        "STU",
+        "GHI"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: GHI, STU, EFG, RST",
+      "options": [
+        "EFG",
+        "RST",
+        "STU",
+        "GHI"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0135",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Eagle, Dog, Cow, Cat",
+      "options": [
+        "Eagle",
+        "Cat",
+        "Dog",
+        "Cow"
+      ],
+      "explanation": "The odd one is Eagle because all others are mammals."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: कुत्ता, गाय, बिल्ली, गरुड़",
+      "options": [
+        "Eagle",
+        "Cat",
+        "Dog",
+        "Cow"
+      ],
+      "explanation": "बेमेल गरुड़ है क्योंकि बाकी सभी स्तनधारी हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0136",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Red, Blue, Square, Green",
+      "options": [
+        "Green",
+        "Red",
+        "Blue",
+        "Square"
+      ],
+      "explanation": "The odd one is Square because others are colors."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: वर्ग, नीला, लाल, हरा",
+      "options": [
+        "Green",
+        "Red",
+        "Blue",
+        "Square"
+      ],
+      "explanation": "बेमेल वर्ग है क्योंकि बाकी सभी रंग हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0137",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 50, 30, 42, 10, 20",
+      "options": [
+        "50",
+        "30",
+        "42",
+        "10"
+      ],
+      "explanation": "The odd one is 42 because 42 is not divisible by 10."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 50, 30, 42, 10, 20",
+      "options": [
+        "50",
+        "30",
+        "42",
+        "10"
+      ],
+      "explanation": "बेमेल 42 है क्योंकि 42 is not divisible by 10।"
+    }
+  },
+  {
+    "id": "grpd-r-0138",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: JKL, VWX, BCD, RST",
+      "options": [
+        "JKL",
+        "RST",
+        "BCD",
+        "VWX"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: JKL, VWX, BCD, RST",
+      "options": [
+        "JKL",
+        "RST",
+        "BCD",
+        "VWX"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0139",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 10, 50, 42, 30, 20",
+      "options": [
+        "30",
+        "10",
+        "42",
+        "50"
+      ],
+      "explanation": "The odd one is 42 because 42 is not divisible by 10."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 10, 50, 42, 30, 20",
+      "options": [
+        "30",
+        "10",
+        "42",
+        "50"
+      ],
+      "explanation": "बेमेल 42 है क्योंकि 42 is not divisible by 10।"
+    }
+  },
+  {
+    "id": "grpd-r-0140",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: JKL, PQR, EFG, XYZ",
+      "options": [
+        "EFG",
+        "PQR",
+        "JKL",
+        "XYZ"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: JKL, PQR, EFG, XYZ",
+      "options": [
+        "EFG",
+        "PQR",
+        "JKL",
+        "XYZ"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0141",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: MNO, PQR, BCD, RST",
+      "options": [
+        "RST",
+        "PQR",
+        "MNO",
+        "BCD"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: MNO, PQR, BCD, RST",
+      "options": [
+        "RST",
+        "PQR",
+        "MNO",
+        "BCD"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0142",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 35, 50, 14, 21, 28",
+      "options": [
+        "14",
+        "21",
+        "50",
+        "35"
+      ],
+      "explanation": "The odd one is 50 because 50 is not divisible by 7, all others are."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 35, 50, 14, 21, 28",
+      "options": [
+        "14",
+        "21",
+        "50",
+        "35"
+      ],
+      "explanation": "बेमेल 50 है क्योंकि 50 is not divisible by 7, all others are।"
+    }
+  },
+  {
+    "id": "grpd-r-0143",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the odd one out: Sea, Lake, Mountain, River",
+      "options": [
+        "River",
+        "Lake",
+        "Sea",
+        "Mountain"
+      ],
+      "explanation": "The odd one is Mountain because Mountain is landform, others are water bodies."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: पहाड़, नदी, समुद्र, झील",
+      "options": [
+        "River",
+        "Lake",
+        "Sea",
+        "Mountain"
+      ],
+      "explanation": "बेमेल पहाड़ है क्योंकि पहाड़ भू-आकृति है, बाकी जलाशय हैं।"
+    }
+  },
+  {
+    "id": "grpd-r-0144",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 42, 50, 30, 10, 20",
+      "options": [
+        "50",
+        "30",
+        "10",
+        "42"
+      ],
+      "explanation": "The odd one is 42 because 42 is not divisible by 10."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 42, 50, 30, 10, 20",
+      "options": [
+        "50",
+        "30",
+        "10",
+        "42"
+      ],
+      "explanation": "बेमेल 42 है क्योंकि 42 is not divisible by 10।"
+    }
+  },
+  {
+    "id": "grpd-r-0145",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 81, 25, 36, 16, 49",
+      "options": [
+        "25",
+        "36",
+        "81",
+        "16"
+      ],
+      "explanation": "The odd one is 81 because 81 is 9² but others are consecutive squares (4²-7²)."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 81, 25, 36, 16, 49",
+      "options": [
+        "25",
+        "36",
+        "81",
+        "16"
+      ],
+      "explanation": "बेमेल 81 है क्योंकि 81 is 9² but others are consecutive squares (4²-7²)।"
+    }
+  },
+  {
+    "id": "grpd-r-0146",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: JKL, VWX, HIJ, RST",
+      "options": [
+        "RST",
+        "HIJ",
+        "JKL",
+        "VWX"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: JKL, VWX, HIJ, RST",
+      "options": [
+        "RST",
+        "HIJ",
+        "JKL",
+        "VWX"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0147",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find odd one out: 20, 4, 16, 1, 9",
+      "options": [
+        "1",
+        "4",
+        "20",
+        "16"
+      ],
+      "explanation": "The odd one is 20 because 20 is not a perfect square, others are squares."
+    },
+    "hi": {
+      "question": "बेमेल ज्ञात करें: 20, 4, 16, 1, 9",
+      "options": [
+        "1",
+        "4",
+        "20",
+        "16"
+      ],
+      "explanation": "बेमेल 20 है क्योंकि 20 is not a perfect square, others are squares।"
+    }
+  },
+  {
+    "id": "grpd-r-0148",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: MNO, VWX, BCD, XYZ",
+      "options": [
+        "XYZ",
+        "VWX",
+        "BCD",
+        "MNO"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but XYZ breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: MNO, VWX, BCD, XYZ",
+      "options": [
+        "XYZ",
+        "VWX",
+        "BCD",
+        "MNO"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन XYZ पैटर्न तोड़ता है।"
+    }
+  },
+  {
+    "id": "grpd-r-0149",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odd one out: ABC, PQR, HIJ, RST",
+      "options": [
+        "HIJ",
+        "PQR",
+        "ABC",
+        "RST"
+      ],
+      "explanation": "All others follow a pattern (consecutive letters), but RST breaks it."
+    },
+    "hi": {
+      "question": "बेमेल: ABC, PQR, HIJ, RST",
+      "options": [
+        "HIJ",
+        "PQR",
+        "ABC",
+        "RST"
+      ],
+      "explanation": "बाकी सभी लगातार अक्षरों के समूह हैं, लेकिन RST पैटर्न तोड़ता है।"
+    }
+  }
+]

@@ -1,9 +1,2212 @@
 [
-  {"id":"groupd-s-0001","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"What is the SI unit of temperature?","options":["Fahrenheit","Celsius","Kelvin","Joule"],"explanation":"SI unit of temperature is Kelvin (K). 0 K is absolute zero = -273.15 C."},"hi":{"question":"तापमान की SI इकाई क्या है?","options":["फारेनहाइट","सेल्सियस","केल्विन","जूल"],"explanation":"तापमान की SI इकाई केल्विन (K) है। 0 K परम शून्य = -273.15 C।"}},
-  {"id":"groupd-s-0002","correctOption":"C","difficulty":"easy","sourceYear":2023,"en":{"question":"Which method of heat transfer does not require a medium?","options":["Conduction","Convection","Radiation","All of the above"],"explanation":"Radiation transfers heat through electromagnetic waves, no medium needed. Sun's heat reaches Earth by radiation."},"hi":{"question":"ऊष्मा स्थानांतरण की कौन सी विधि माध्यम पर निर्भर नहीं करती?","options":["चालन","संवहन","विकिरण","उपरोक्त सभी"],"explanation":"विकिरण विद्युत चुम्बकीय तरंगों द्वारा ऊष्मा स्थानांतरित करता है, माध्यम की आवश्यकता नहीं। सूर्य की ऊष्मा विकिरण से पृथ्वी तक पहुंचती है।"}},
-  {"id":"groupd-s-0003","correctOption":"B","difficulty":"hard","sourceYear":2024,"en":{"question":"Heat to raise 2 kg water from 20 C to 100 C? (c=4200 J/kg/C)","options":["3,36,000 J","6,72,000 J","8,40,000 J","16,80,000 J"],"explanation":"Q = m c Delta T = 2 x 4200 x 80 = 6,72,000 J."},"hi":{"question":"2 kg पानी को 20 C से 100 C तक गर्म करने के लिए ऊष्मा? (c=4200 J/kg/C)","options":["3,36,000 J","6,72,000 J","8,40,000 J","16,80,000 J"],"explanation":"Q = m c Delta T = 2 x 4200 x 80 = 6,72,000 J।"}},
-  {"id":"groupd-s-0004","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"0 C = how many Kelvin?","options":["173 K","273 K","373 K","100 K"],"explanation":"K = C + 273. So 0 C = 273 K."},"hi":{"question":"0 C कितने केल्विन के बराबर है?","options":["173 K","273 K","373 K","100 K"],"explanation":"K = C + 273। इसलिए 0 C = 273 K।"}},
-  {"id":"groupd-s-0005","correctOption":"B","difficulty":"easy","sourceYear":2023,"en":{"question":"Sea breeze is an example of which heat transfer?","options":["Conduction","Convection","Radiation","All of the above"],"explanation":"Sea breeze: warm air over land rises, cooler sea air moves in to replace it (convection)."},"hi":{"question":"समुद्री हवा किस ऊष्मा स्थानांतरण का उदाहरण है?","options":["चालन","संवहन","विकिरण","उपरोक्त सभी"],"explanation":"समुद्री हवा: भूमि पर गर्म हवा ऊपर उठती है, ठंडी समुद्री हवा उसकी जगह लेती है (संवहन)।"}},
-  {"id":"groupd-s-0006","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Clinical thermometer range:","options":["0 C to 100 C","-10 C to 110 C","35 C to 42 C","94 F to 108 F"],"explanation":"Clinical thermometer range: 35 C to 42 C (or 94 F to 108 F) for human body temperature."},"hi":{"question":"क्लिनिकल थर्मामीटर की सीमा:","options":["0 C से 100 C","-10 C से 110 C","35 C से 42 C","94 F से 108 F"],"explanation":"क्लिनिकल थर्मामीटर सीमा: 35 C से 42 C (या 94 F से 108 F) मानव शरीर तापमान के लिए।"}},
-  {"id":"groupd-s-0007","correctOption":"B","difficulty":"medium","sourceYear":2023,"en":{"question":"Why does metal spoon feel colder than wooden spoon at same temperature?","options":["Metal has lower temperature","Metal is good conductor of heat","Wood generates heat","Metal absorbs moisture"],"explanation":"Metal conducts heat away from hand quickly, so it feels colder. Wood is an insulator."},"hi":{"question":"समान तापमान पर धातु का चम्मच लकड़ी के चम्मच से ठंडा क्यों लगता है?","options":["धातु का तापमान कम है","धातु ऊष्मा का अच्छा चालक है","लकड़ी ऊष्मा उत्पन्न करती है","धातु नमी सोखती है"],"explanation":"धातु हाथ से ऊष्मा तेज़ी से दूर ले जाती है, इसलिए ठंडी लगती है। लकड़ी कुचालक है।"}}
+  {
+    "id": "groupd-s-0001",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the SI unit of temperature?",
+      "options": [
+        "Fahrenheit",
+        "Celsius",
+        "Kelvin",
+        "Joule"
+      ],
+      "explanation": "SI unit of temperature is Kelvin (K). 0 K is absolute zero = -273.15 C."
+    },
+    "hi": {
+      "question": "तापमान की SI इकाई क्या है?",
+      "options": [
+        "फारेनहाइट",
+        "सेल्सियस",
+        "केल्विन",
+        "जूल"
+      ],
+      "explanation": "तापमान की SI इकाई केल्विन (K) है। 0 K परम शून्य = -273.15 C।"
+    }
+  },
+  {
+    "id": "groupd-s-0002",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Which method of heat transfer does not require a medium?",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "All of the above"
+      ],
+      "explanation": "Radiation transfers heat through electromagnetic waves, no medium needed. Sun's heat reaches Earth by radiation."
+    },
+    "hi": {
+      "question": "ऊष्मा स्थानांतरण की कौन सी विधि माध्यम पर निर्भर नहीं करती?",
+      "options": [
+        "चालन",
+        "संवहन",
+        "विकिरण",
+        "उपरोक्त सभी"
+      ],
+      "explanation": "विकिरण विद्युत चुम्बकीय तरंगों द्वारा ऊष्मा स्थानांतरित करता है, माध्यम की आवश्यकता नहीं। सूर्य की ऊष्मा विकिरण से पृथ्वी तक पहुंचती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0003",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Heat to raise 2 kg water from 20 C to 100 C? (c=4200 J/kg/C)",
+      "options": [
+        "3,36,000 J",
+        "6,72,000 J",
+        "8,40,000 J",
+        "16,80,000 J"
+      ],
+      "explanation": "Q = m c Delta T = 2 x 4200 x 80 = 6,72,000 J."
+    },
+    "hi": {
+      "question": "2 kg पानी को 20 C से 100 C तक गर्म करने के लिए ऊष्मा? (c=4200 J/kg/C)",
+      "options": [
+        "3,36,000 J",
+        "6,72,000 J",
+        "8,40,000 J",
+        "16,80,000 J"
+      ],
+      "explanation": "Q = m c Delta T = 2 x 4200 x 80 = 6,72,000 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0004",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "0 C = how many Kelvin?",
+      "options": [
+        "173 K",
+        "273 K",
+        "373 K",
+        "100 K"
+      ],
+      "explanation": "K = C + 273. So 0 C = 273 K."
+    },
+    "hi": {
+      "question": "0 C कितने केल्विन के बराबर है?",
+      "options": [
+        "173 K",
+        "273 K",
+        "373 K",
+        "100 K"
+      ],
+      "explanation": "K = C + 273। इसलिए 0 C = 273 K।"
+    }
+  },
+  {
+    "id": "groupd-s-0005",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Sea breeze is an example of which heat transfer?",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "All of the above"
+      ],
+      "explanation": "Sea breeze: warm air over land rises, cooler sea air moves in to replace it (convection)."
+    },
+    "hi": {
+      "question": "समुद्री हवा किस ऊष्मा स्थानांतरण का उदाहरण है?",
+      "options": [
+        "चालन",
+        "संवहन",
+        "विकिरण",
+        "उपरोक्त सभी"
+      ],
+      "explanation": "समुद्री हवा: भूमि पर गर्म हवा ऊपर उठती है, ठंडी समुद्री हवा उसकी जगह लेती है (संवहन)।"
+    }
+  },
+  {
+    "id": "groupd-s-0006",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Clinical thermometer range:",
+      "options": [
+        "0 C to 100 C",
+        "-10 C to 110 C",
+        "35 C to 42 C",
+        "94 F to 108 F"
+      ],
+      "explanation": "Clinical thermometer range: 35 C to 42 C (or 94 F to 108 F) for human body temperature."
+    },
+    "hi": {
+      "question": "क्लिनिकल थर्मामीटर की सीमा:",
+      "options": [
+        "0 C से 100 C",
+        "-10 C से 110 C",
+        "35 C से 42 C",
+        "94 F से 108 F"
+      ],
+      "explanation": "क्लिनिकल थर्मामीटर सीमा: 35 C से 42 C (या 94 F से 108 F) मानव शरीर तापमान के लिए।"
+    }
+  },
+  {
+    "id": "groupd-s-0007",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Why does metal spoon feel colder than wooden spoon at same temperature?",
+      "options": [
+        "Metal has lower temperature",
+        "Metal is good conductor of heat",
+        "Wood generates heat",
+        "Metal absorbs moisture"
+      ],
+      "explanation": "Metal conducts heat away from hand quickly, so it feels colder. Wood is an insulator."
+    },
+    "hi": {
+      "question": "समान तापमान पर धातु का चम्मच लकड़ी के चम्मच से ठंडा क्यों लगता है?",
+      "options": [
+        "धातु का तापमान कम है",
+        "धातु ऊष्मा का अच्छा चालक है",
+        "लकड़ी ऊष्मा उत्पन्न करती है",
+        "धातु नमी सोखती है"
+      ],
+      "explanation": "धातु हाथ से ऊष्मा तेज़ी से दूर ले जाती है, इसलिए ठंडी लगती है। लकड़ी कुचालक है।"
+    }
+  },
+  {
+    "id": "groupd-s-0008",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boiling point of water at sea level is:",
+      "options": [
+        "273 K",
+        "212 K",
+        "373 F",
+        "373 K (100 C)"
+      ],
+      "explanation": "Water boils at 100°C = 373 K at standard atmospheric pressure."
+    },
+    "hi": {
+      "question": "समुद्र तल पर पानी का क्वथनांक:",
+      "options": [
+        "273 K",
+        "212 K",
+        "373 F",
+        "373 K (100 C)"
+      ],
+      "explanation": "मानक वायुमंडलीय दाब पर पानी 100°C = 373 K पर उबलता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0009",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Freezing point of water is:",
+      "options": [
+        "0 C = 273 K",
+        "0 C = 273 F",
+        "32 C",
+        "100 K"
+      ],
+      "explanation": "Water freezes at 0°C = 273 K = 32°F at standard pressure."
+    },
+    "hi": {
+      "question": "पानी का हिमांक:",
+      "options": [
+        "0 C = 273 K",
+        "0 C = 273 F",
+        "32 C",
+        "100 K"
+      ],
+      "explanation": "मानक दाब पर पानी 0°C = 273 K = 32°F पर जमता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0010",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Specific heat capacity of water is:",
+      "options": [
+        "2100 J/kg/C",
+        "840 J/kg/C",
+        "4200 J/kg/C",
+        "1000 J/kg/C"
+      ],
+      "explanation": "Water has very high specific heat capacity of 4200 J/(kg·°C), making it excellent for cooling."
+    },
+    "hi": {
+      "question": "पानी की विशिष्ट ऊष्मा धारिता:",
+      "options": [
+        "2100 J/kg/C",
+        "840 J/kg/C",
+        "4200 J/kg/C",
+        "1000 J/kg/C"
+      ],
+      "explanation": "पानी की विशिष्ट ऊष्मा बहुत उच्च 4200 J/(kg·°C), शीतलन के लिए उत्कृष्ट।"
+    }
+  },
+  {
+    "id": "groupd-s-0011",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "1 kcal is equal to:",
+      "options": [
+        "100 J",
+        "4200 J",
+        "1000 J",
+        "840 J"
+      ],
+      "explanation": "1 kilocalorie = 1000 calories = 4200 joules approximately (actually 4186 J)."
+    },
+    "hi": {
+      "question": "1 kcal बराबर:",
+      "options": [
+        "100 J",
+        "4200 J",
+        "1000 J",
+        "840 J"
+      ],
+      "explanation": "1 किलोकैलोरी = 1000 कैलोरी = लगभग 4200 जूल (वास्तव में 4186 J)।"
+    }
+  },
+  {
+    "id": "groupd-s-0012",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which colour absorbs heat the most?",
+      "options": [
+        "White",
+        "Silver",
+        "Yellow",
+        "Black"
+      ],
+      "explanation": "Black surfaces are the best absorbers and emitters of heat radiation (Kirchhoff's law)."
+    },
+    "hi": {
+      "question": "कौन सा रंग सर्वाधिक ऊष्मा अवशोषित करता है?",
+      "options": [
+        "सफेद",
+        "चांदी",
+        "पीला",
+        "काला"
+      ],
+      "explanation": "काली सतहें ऊष्मा विकिरण की सर्वोत्तम अवशोषक और उत्सर्जक (किर्खॉफ का नियम)।"
+    }
+  },
+  {
+    "id": "groupd-s-0013",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "500 g of water at 80 C mixed with 500 g at 20 C. Final temperature?",
+      "options": [
+        "50 C",
+        "60 C",
+        "40 C",
+        "45 C"
+      ],
+      "explanation": "Heat lost = Heat gained: m1 c (80-T) = m2 c (T-20). 80-T=T-20. 2T=100. T=50 C."
+    },
+    "hi": {
+      "question": "500 g पानी 80 C + 500 g 20 C मिलाया। अंतिम ताप?",
+      "options": [
+        "50 C",
+        "60 C",
+        "40 C",
+        "45 C"
+      ],
+      "explanation": "80-T=T-20। 2T=100। T=50 C।"
+    }
+  },
+  {
+    "id": "groupd-s-0014",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Thermal expansion of a solid depends on:",
+      "options": [
+        "Colour",
+        "Weight",
+        "Nature of material and temperature change",
+        "Shape only"
+      ],
+      "explanation": "Thermal expansion depends on material's coefficient of expansion and the temperature change."
+    },
+    "hi": {
+      "question": "ठोस का तापीय प्रसार निर्भर:",
+      "options": [
+        "रंग",
+        "भार",
+        "पदार्थ की प्रकृति और ताप परिवर्तन",
+        "केवल आकार"
+      ],
+      "explanation": "तापीय प्रसार पदार्थ के प्रसार गुणांक और ताप परिवर्तन पर निर्भर।"
+    }
+  },
+  {
+    "id": "groupd-s-0015",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Conduction is the main method of heat transfer in:",
+      "options": [
+        "Liquids",
+        "Solids",
+        "Gases",
+        "Vacuum"
+      ],
+      "explanation": "Conduction is the primary heat transfer in solids where particles are tightly packed and vibrate to transfer heat."
+    },
+    "hi": {
+      "question": "चालन ऊष्मा स्थानांतरण की मुख्य विधि:",
+      "options": [
+        "द्रव",
+        "ठोस",
+        "गैस",
+        "निर्वात"
+      ],
+      "explanation": "चालन ठोस में मुख्य विधि जहां कण पास-पास और कंपन द्वारा ऊष्मा स्थानांतरित करते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0016",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Why does water cool faster in an earthen pot (matka)?",
+      "options": [
+        "Earthen pot is cold",
+        "Water is impure",
+        "Pot has minerals",
+        "Evaporation causes cooling"
+      ],
+      "explanation": "Water seeps through pores and evaporates, absorbing latent heat from remaining water, cooling it."
+    },
+    "hi": {
+      "question": "मटके में पानी तेजी से ठंडा क्यों?",
+      "options": [
+        "मटका ठंडा",
+        "पानी अशुद्ध",
+        "खनिज होते हैं",
+        "वाष्पीकरण से शीतलन"
+      ],
+      "explanation": "छिद्रों से पानी रिसकर वाष्पित होता है, शेष पानी से गुप्त ऊष्मा लेकर ठंडा करता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0017",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The process of a solid directly turning to gas is called:",
+      "options": [
+        "Sublimation",
+        "Evaporation",
+        "Condensation",
+        "Fusion"
+      ],
+      "explanation": "Sublimation: solid → gas without liquid phase. Examples: camphor, naphthalene, dry ice."
+    },
+    "hi": {
+      "question": "ठोस का सीधे गैस में बदलना:",
+      "options": [
+        "ऊर्ध्वपातन",
+        "वाष्पीकरण",
+        "संघनन",
+        "संगलन"
+      ],
+      "explanation": "ऊर्ध्वपातन: ठोस → गैस बिना द्रव अवस्था। उदाहरण: कपूर, नैफ्थलीन, शुष्क बर्फ।"
+    }
+  },
+  {
+    "id": "groupd-s-0018",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Latent heat of fusion of ice is:",
+      "options": [
+        "4200 J/kg",
+        "2260 kJ/kg",
+        "336 kJ/kg (80 cal/g)",
+        "540 cal/g"
+      ],
+      "explanation": "Latent heat of fusion of ice = 80 cal/g = 336 kJ/kg. This is energy to melt ice at 0°C without temperature change."
+    },
+    "hi": {
+      "question": "बर्फ की गुप्त संगलन ऊष्मा:",
+      "options": [
+        "4200 J/kg",
+        "2260 kJ/kg",
+        "336 kJ/kg (80 cal/g)",
+        "540 cal/g"
+      ],
+      "explanation": "बर्फ की गुप्त संगलन ऊष्मा = 80 cal/g = 336 kJ/kg। बिना ताप बदले 0°C पर बर्फ पिघलाने की ऊर्जा।"
+    }
+  },
+  {
+    "id": "groupd-s-0019",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Mercury is used in thermometers because:",
+      "options": [
+        "It is cheap",
+        "It expands uniformly and has high boiling point",
+        "It is coloured",
+        "It is non-toxic"
+      ],
+      "explanation": "Mercury expands uniformly with temperature, has a high boiling point (357°C), and is opaque and shiny."
+    },
+    "hi": {
+      "question": "थर्मामीटर में पारा क्यों?",
+      "options": [
+        "सस्ता",
+        "एकसमान प्रसार और उच्च क्वथनांक",
+        "रंगीन",
+        "विषरहित"
+      ],
+      "explanation": "पारा ताप के साथ एकसमान फैलता, उच्च क्वथनांक (357°C), अपारदर्शी और चमकीला।"
+    }
+  },
+  {
+    "id": "groupd-s-0020",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Heat required to change state without temperature change is called:",
+      "options": [
+        "Specific heat",
+        "Thermal capacity",
+        "Sensible heat",
+        "Latent heat"
+      ],
+      "explanation": "Latent heat is absorbed/released during phase change without temperature change."
+    },
+    "hi": {
+      "question": "बिना ताप बदले अवस्था बदलने की ऊष्मा:",
+      "options": [
+        "विशिष्ट ऊष्मा",
+        "तापीय धारिता",
+        "संवेदी ऊष्मा",
+        "गुप्त ऊष्मा"
+      ],
+      "explanation": "गुप्त ऊष्मा बिना ताप परिवर्तन के अवस्था परिवर्तन में अवशोषित/मुक्त होती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0021",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Convert 100°F to Celsius:",
+      "options": [
+        "37.8°C",
+        "100°C",
+        "212°C",
+        "0°C"
+      ],
+      "explanation": "C = (F-32) x 5/9 = (100-32) x 5/9 = 68 x 5/9 = 37.8°C."
+    },
+    "hi": {
+      "question": "100°F को सेल्सियस में बदलें:",
+      "options": [
+        "37.8°C",
+        "100°C",
+        "212°C",
+        "0°C"
+      ],
+      "explanation": "C = (100-32) x 5/9 = 37.8°C।"
+    }
+  },
+  {
+    "id": "groupd-s-0022",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A pressure cooker cooks faster because:",
+      "options": [
+        "It is made of metal",
+        "It prevents heat loss",
+        "High pressure raises boiling point",
+        "It uses more fuel"
+      ],
+      "explanation": "Increased pressure raises the boiling point of water above 100°C, cooking food faster."
+    },
+    "hi": {
+      "question": "प्रेशर कुकर तेज पकाता है क्योंकि:",
+      "options": [
+        "धातु का बना",
+        "ऊष्मा हानि रोकता",
+        "उच्च दाब क्वथनांक बढ़ाता",
+        "अधिक ईंधन"
+      ],
+      "explanation": "बढ़ा दाब पानी का क्वथनांक 100°C से ऊपर करता, भोजन तेजी से पकता।"
+    }
+  },
+  {
+    "id": "groupd-s-0023",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Cooking vessels are often made of aluminum because it has:",
+      "options": [
+        "Low melting point",
+        "High thermal conductivity",
+        "High specific heat",
+        "Low density"
+      ],
+      "explanation": "Aluminum is an excellent conductor of heat, distributing heat evenly across the cooking surface."
+    },
+    "hi": {
+      "question": "खाना पकाने के बर्तन एल्युमिनियम के क्यों?",
+      "options": [
+        "कम गलनांक",
+        "उच्च तापीय चालकता",
+        "उच्च विशिष्ट ऊष्मा",
+        "कम घनत्व"
+      ],
+      "explanation": "एल्युमिनियम उत्कृष्ट ऊष्मा चालक, पूरी सतह पर समान ऊष्मा वितरण।"
+    }
+  },
+  {
+    "id": "groupd-s-0024",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Heat needed to melt 100 g of ice at 0°C? (L=336 J/g)",
+      "options": [
+        "4200 J",
+        "3360 J",
+        "10000 J",
+        "33600 J"
+      ],
+      "explanation": "Q = m L = 100 x 336 = 33600 J = 33.6 kJ."
+    },
+    "hi": {
+      "question": "100 g बर्फ 0°C पर पिघलाने की ऊष्मा? (L=336 J/g)",
+      "options": [
+        "4200 J",
+        "3360 J",
+        "10000 J",
+        "33600 J"
+      ],
+      "explanation": "Q = 100 x 336 = 33600 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0025",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Land breeze blows at night because:",
+      "options": [
+        "Land cools faster than sea",
+        "Sea is cooler",
+        "Land is warmer",
+        "Moon's gravity"
+      ],
+      "explanation": "At night, land cools faster than water. Cooler air over land sinks and flows towards sea (land breeze)."
+    },
+    "hi": {
+      "question": "रात में स्थलीय हवा चलती है क्योंकि:",
+      "options": [
+        "भूमि समुद्र से तेज ठंडी",
+        "समुद्र ठंडा",
+        "भूमि गर्म",
+        "चंद्रमा का गुरुत्व"
+      ],
+      "explanation": "रात में भूमि पानी से तेज ठंडी होती है। भूमि की ठंडी हवा समुद्र की ओर बहती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0026",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which is the best conductor of heat?",
+      "options": [
+        "Wood",
+        "Glass",
+        "Silver",
+        "Air"
+      ],
+      "explanation": "Silver is the best thermal conductor among metals (thermal conductivity ~429 W/mK)."
+    },
+    "hi": {
+      "question": "सबसे अच्छा ऊष्मा चालक:",
+      "options": [
+        "लकड़ी",
+        "कांच",
+        "चांदी",
+        "वायु"
+      ],
+      "explanation": "चांदी धातुओं में सर्वोत्तम तापीय चालक (चालकता ~429 W/mK)।"
+    }
+  },
+  {
+    "id": "groupd-s-0027",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "50 g steam at 100°C condenses to water at 100°C. Heat released? (L_v=2260 J/g)",
+      "options": [
+        "50000 J",
+        "113000 J",
+        "22600 J",
+        "11300 J"
+      ],
+      "explanation": "Q = m L_v = 50 x 2260 = 113000 J."
+    },
+    "hi": {
+      "question": "50 g भाप 100°C से 100°C पानी में। मुक्त ऊष्मा? (L_v=2260)",
+      "options": [
+        "50000 J",
+        "113000 J",
+        "22600 J",
+        "11300 J"
+      ],
+      "explanation": "Q = 50 x 2260 = 113000 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0028",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Gaps are left in railway tracks because:",
+      "options": [
+        "To save material",
+        "For drainage",
+        "For walking space",
+        "To allow thermal expansion"
+      ],
+      "explanation": "Metal rails expand in summer; gaps prevent buckling from thermal expansion."
+    },
+    "hi": {
+      "question": "रेल पटरियों में अंतराल क्यों?",
+      "options": [
+        "सामग्री बचाने",
+        "निकासी",
+        "चलने की जगह",
+        "तापीय प्रसार की अनुमति"
+      ],
+      "explanation": "गर्मी में धातु पटरियां फैलती हैं; अंतराल तापीय प्रसार से मुड़ने से बचाता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0029",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Anomalous expansion of water occurs between:",
+      "options": [
+        "0°C to 4°C",
+        "4°C to 100°C",
+        "0°C to 100°C",
+        "-4°C to 0°C"
+      ],
+      "explanation": "Water contracts when heated from 0°C to 4°C (anomalous behavior). Density is maximum at 4°C."
+    },
+    "hi": {
+      "question": "पानी का असंगत प्रसार किसके बीच?",
+      "options": [
+        "0°C से 4°C",
+        "4°C से 100°C",
+        "0°C से 100°C",
+        "-4°C से 0°C"
+      ],
+      "explanation": "0°C से 4°C तक गर्म करने पर पानी सिकुड़ता (असंगत)। 4°C पर घनत्व अधिकतम।"
+    }
+  },
+  {
+    "id": "groupd-s-0030",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Water pipes burst in winter because:",
+      "options": [
+        "Water expands on cooling",
+        "Water contracts",
+        "Water expands on freezing",
+        "Pipes contract"
+      ],
+      "explanation": "Water expands by ~9% when it freezes. This expansion exerts pressure, bursting pipes."
+    },
+    "hi": {
+      "question": "सर्दियों में पानी के पाइप फटते हैं क्योंकि:",
+      "options": [
+        "ठंडा होने पर फैलता",
+        "सिकुड़ता",
+        "जमने पर फैलता",
+        "पाइप सिकुड़ते"
+      ],
+      "explanation": "पानी जमने पर ~9% फैलता है। यह प्रसार दाब डालता, पाइप फटते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0031",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boiling point of water on mountaintop is:",
+      "options": [
+        "Higher than 100°C",
+        "Lower than 100°C",
+        "Exactly 100°C",
+        "0°C"
+      ],
+      "explanation": "At high altitude, atmospheric pressure is lower, so water boils at a lower temperature (<100°C)."
+    },
+    "hi": {
+      "question": "पहाड़ पर पानी का क्वथनांक:",
+      "options": [
+        "100°C से अधिक",
+        "100°C से कम",
+        "ठीक 100°C",
+        "0°C"
+      ],
+      "explanation": "ऊंचाई पर वायुमंडलीय दाब कम, पानी कम ताप (<100°C) पर उबलता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0032",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Thermos flask prevents heat transfer by:",
+      "options": [
+        "Conduction only",
+        "Convection only",
+        "Radiation only",
+        "All three methods"
+      ],
+      "explanation": "Thermos flask uses vacuum (stops conduction/convection) and silvered walls (reflect radiation)."
+    },
+    "hi": {
+      "question": "थर्मस फ्लास्क ऊष्मा स्थानांतरण रोकता है:",
+      "options": [
+        "केवल चालन",
+        "केवल संवहन",
+        "केवल विकिरण",
+        "तीनों विधियों से"
+      ],
+      "explanation": "थर्मस: निर्वात (चालन/संवहन रोके), चांदी लेपित दीवारें (विकिरण परावर्तित)।"
+    }
+  },
+  {
+    "id": "groupd-s-0033",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "An iron rod of 1 m at 0°C. Temp raised to 100°C. Expansion? (alpha=12x10^-6/°C)",
+      "options": [
+        "1.2 mm",
+        "12 mm",
+        "0.12 mm",
+        "0.012 mm"
+      ],
+      "explanation": "Delta L = L alpha Delta T = 1 x 12x10^-6 x 100 = 1.2x10^-3 m = 1.2 mm."
+    },
+    "hi": {
+      "question": "1 m लोहे की छड़ 0°C से 100°C। प्रसार? (α=12x10^-6)",
+      "options": [
+        "1.2 mm",
+        "12 mm",
+        "0.12 mm",
+        "0.012 mm"
+      ],
+      "explanation": "ΔL = 1 x 12x10^-6 x 100 = 1.2 mm।"
+    }
+  },
+  {
+    "id": "groupd-s-0034",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Evaporation causes:",
+      "options": [
+        "Heating",
+        "No change",
+        "Cooling",
+        "Boiling"
+      ],
+      "explanation": "During evaporation, faster molecules escape, leaving slower (cooler) ones behind — causing cooling."
+    },
+    "hi": {
+      "question": "वाष्पीकरण से होता है:",
+      "options": [
+        "गर्मी",
+        "कोई बदलाव नहीं",
+        "ठंडापन",
+        "उबाल"
+      ],
+      "explanation": "वाष्पीकरण में तेज अणु निकलते, धीमे (ठंडे) अणु रह जाते — शीतलन।"
+    }
+  },
+  {
+    "id": "groupd-s-0035",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Specific heat of a substance is 0.5 J/g/°C. Heat to raise 200 g by 30°C?",
+      "options": [
+        "1500 J",
+        "3000 J",
+        "6000 J",
+        "750 J"
+      ],
+      "explanation": "Q = m c Delta T = 200 x 0.5 x 30 = 3000 J."
+    },
+    "hi": {
+      "question": "विशिष्ट ऊष्मा 0.5 J/g/°C, 200 g 30°C बढ़ाने में ऊष्मा?",
+      "options": [
+        "1500 J",
+        "3000 J",
+        "6000 J",
+        "750 J"
+      ],
+      "explanation": "Q = 200 x 0.5 x 30 = 3000 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0036",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Why are cooking pan handles made of plastic or wood?",
+      "options": [
+        "They look good",
+        "They are cheap",
+        "They are light",
+        "They are poor conductors (insulators) of heat"
+      ],
+      "explanation": "Plastic and wood are thermal insulators, preventing heat from reaching hands."
+    },
+    "hi": {
+      "question": "कड़ाही के हैंडल प्लास्टिक/लकड़ी के क्यों?",
+      "options": [
+        "अच्छे दिखते",
+        "सस्ते",
+        "हल्के",
+        "ऊष्मा कुचालक (रोधक)"
+      ],
+      "explanation": "प्लास्टिक और लकड़ी तापीय रोधक, ऊष्मा हाथ तक नहीं पहुंचती।"
+    }
+  },
+  {
+    "id": "groupd-s-0037",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which thermometric liquid has the widest range?",
+      "options": [
+        "Mercury (-39 to 357°C)",
+        "Alcohol (-114 to 78°C)",
+        "Water",
+        "Gallium"
+      ],
+      "explanation": "Mercury has range -39°C to 357°C (widest among common thermometric liquids). Alcohol: -114 to 78°C."
+    },
+    "hi": {
+      "question": "सबसे व्यापक सीमा का तापमापी द्रव?",
+      "options": [
+        "पारा (-39 से 357°C)",
+        "अल्कोहल (-114 से 78°C)",
+        "पानी",
+        "गैलियम"
+      ],
+      "explanation": "पारे की सीमा -39°C से 357°C (सबसे व्यापक)। अल्कोहल: -114 से 78°C।"
+    }
+  },
+  {
+    "id": "groupd-s-0038",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "How much heat to convert 50 g water at 20°C to steam at 100°C? (c=4.2, L=2260 J/g)",
+      "options": [
+        "100 kJ",
+        "113 kJ",
+        "129.8 kJ",
+        "226 kJ"
+      ],
+      "explanation": "Q1=50x4.2x80=16800 J. Q2=50x2260=113000 J. Total=129800 J=129.8 kJ."
+    },
+    "hi": {
+      "question": "50 g पानी 20°C से 100°C भाप बनाने में ऊष्मा?",
+      "options": [
+        "100 kJ",
+        "113 kJ",
+        "129.8 kJ",
+        "226 kJ"
+      ],
+      "explanation": "Q1=16800, Q2=113000। कुल=129800 J=129.8 kJ।"
+    }
+  },
+  {
+    "id": "groupd-s-0039",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Water is used as coolant in car radiators because:",
+      "options": [
+        "It is cheap and abundant",
+        "It has high specific heat capacity",
+        "It is transparent",
+        "It boils at 100°C"
+      ],
+      "explanation": "Water's high specific heat (4200 J/kg/°C) allows it to absorb large amounts of heat with small temperature rise."
+    },
+    "hi": {
+      "question": "कार रेडिएटर में पानी शीतलक क्यों?",
+      "options": [
+        "सस्ता और प्रचुर",
+        "उच्च विशिष्ट ऊष्मा",
+        "पारदर्शी",
+        "100°C पर उबलता"
+      ],
+      "explanation": "पानी की उच्च विशिष्ट ऊष्मा (4200) अधिक ऊष्मा सोखकर भी कम ताप बढ़ने देती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0040",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "100 g ice at -10°C to water at 0°C. Heat required? (c_ice=2.1, L=336 J/g)",
+      "options": [
+        "2100 J",
+        "33600 J",
+        "31500 J",
+        "35700 J"
+      ],
+      "explanation": "Q1=100x2.1x10=2100 J. Q2=100x336=33600 J. Total=35700 J."
+    },
+    "hi": {
+      "question": "100 g बर्फ -10°C से 0°C पानी। आवश्यक ऊष्मा?",
+      "options": [
+        "2100 J",
+        "33600 J",
+        "31500 J",
+        "35700 J"
+      ],
+      "explanation": "Q1=2100, Q2=33600। कुल=35700 J।"
+    }
+  },
+  {
+    "id": "groupd-s-0041",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Wind increases rate of evaporation because:",
+      "options": [
+        "It removes saturated air from surface",
+        "It heats water",
+        "It cools water",
+        "It increases pressure"
+      ],
+      "explanation": "Wind carries away water vapour, preventing saturation and maintaining a concentration gradient for faster evaporation."
+    },
+    "hi": {
+      "question": "हवा वाष्पीकरण दर बढ़ाती है क्योंकि:",
+      "options": [
+        "सतह से संतृप्त वायु हटाती",
+        "पानी गर्म करती",
+        "पानी ठंडा करती",
+        "दाब बढ़ाती"
+      ],
+      "explanation": "हवा जलवाष्प हटाकर संतृप्ति रोकती, वाष्पीकरण का सांद्रता प्रवणता बनाए रखती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0042",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Cloud formation involves:",
+      "options": [
+        "Sublimation",
+        "Freezing",
+        "Condensation",
+        "Melting"
+      ],
+      "explanation": "Clouds form when water vapour in the air condenses into tiny water droplets around dust particles."
+    },
+    "hi": {
+      "question": "बादल निर्माण में शामिल:",
+      "options": [
+        "ऊर्ध्वपातन",
+        "जमना",
+        "संघनन",
+        "पिघलना"
+      ],
+      "explanation": "बादल तब बनते जब वायु में जलवाष्प धूल कणों पर संघनित होकर छोटी बूंदें बनाती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0043",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 2 kg iron block at 200°C dropped in 5 kg water at 20°C. Final temp? (c_iron=450, c_water=4200)",
+      "options": [
+        "25.6°C",
+        "27.6°C",
+        "50°C",
+        "35°C"
+      ],
+      "explanation": "2x450x(200-T)=5x4200x(T-20). 900(200-T)=21000(T-20). T=27.6°C."
+    },
+    "hi": {
+      "question": "2 kg लोहा 200°C, 5 kg पानी 20°C में। अंतिम ताप?",
+      "options": [
+        "25.6°C",
+        "27.6°C",
+        "50°C",
+        "35°C"
+      ],
+      "explanation": "900(200-T)=21000(T-20)। T=27.6°C।"
+    }
+  },
+  {
+    "id": "groupd-s-0044",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Why does ice at 0°C produce more cooling than water at 0°C?",
+      "options": [
+        "Ice is harder",
+        "Ice has lower density",
+        "Ice is transparent",
+        "Ice absorbs latent heat to melt"
+      ],
+      "explanation": "Ice at 0°C absorbs 336 J/g of latent heat to become water at 0°C, providing extra cooling."
+    },
+    "hi": {
+      "question": "0°C बर्फ, 0°C पानी से अधिक ठंडक क्यों?",
+      "options": [
+        "बर्फ सख्त",
+        "घनत्व कम",
+        "पारदर्शी",
+        "बर्फ पिघलने में गुप्त ऊष्मा लेती है"
+      ],
+      "explanation": "0°C बर्फ 0°C पानी बनने में 336 J/g गुप्त ऊष्मा लेती, अतिरिक्त ठंडक देती।"
+    }
+  },
+  {
+    "id": "groupd-s-0045",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Temperature is a measure of:",
+      "options": [
+        "Average kinetic energy of molecules",
+        "Total heat content",
+        "Mass",
+        "Volume"
+      ],
+      "explanation": "Temperature measures the average kinetic energy of molecules in a substance."
+    },
+    "hi": {
+      "question": "तापमान किसका माप है?",
+      "options": [
+        "अणुओं की औसत गतिज ऊर्जा",
+        "कुल ऊष्मा",
+        "द्रव्यमान",
+        "आयतन"
+      ],
+      "explanation": "तापमान पदार्थ में अणुओं की औसत गतिज ऊर्जा का माप है।"
+    }
+  },
+  {
+    "id": "groupd-s-0046",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "10 g of ice at 0°C mixed with 10 g water at 100°C. Final temperature?",
+      "options": [
+        "0°C",
+        "100°C",
+        "50°C",
+        "25°C"
+      ],
+      "explanation": "Heat to melt ice=10x80=800 cal. Hot water can give 10x1x100=1000 cal>800. So ice melts, then T≈50°C."
+    },
+    "hi": {
+      "question": "10 g बर्फ 0°C + 10 g पानी 100°C। अंतिम ताप?",
+      "options": [
+        "0°C",
+        "100°C",
+        "50°C",
+        "25°C"
+      ],
+      "explanation": "बर्फ पिघलाने में 800 cal। गर्म पानी 1000 cal दे सकता है। पिघलने बाद T≈50°C।"
+    }
+  },
+  {
+    "id": "groupd-s-0047",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Triple point of water is at:",
+      "options": [
+        "0°C, 1 atm",
+        "0.01°C, 611 Pa",
+        "100°C, 1 atm",
+        "-273°C, 0 Pa"
+      ],
+      "explanation": "Triple point: 0.01°C (273.16 K) at 611 Pa where solid, liquid, and vapour coexist."
+    },
+    "hi": {
+      "question": "पानी का त्रिक बिंदु:",
+      "options": [
+        "0°C, 1 atm",
+        "0.01°C, 611 Pa",
+        "100°C, 1 atm",
+        "-273°C, 0 Pa"
+      ],
+      "explanation": "त्रिक बिंदु: 0.01°C (273.16 K), 611 Pa पर ठोस, द्रव, वाष्प एक साथ।"
+    }
+  },
+  {
+    "id": "groupd-s-0048",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Greenhouse effect is due to:",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Ozone",
+        "Carbon dioxide and water vapour"
+      ],
+      "explanation": "CO2 and water vapour trap infrared radiation, causing the greenhouse effect and global warming."
+    },
+    "hi": {
+      "question": "ग्रीनहाउस प्रभाव किसके कारण?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "ओज़ोन",
+        "कार्बन डाइऑक्साइड और जलवाष्प"
+      ],
+      "explanation": "CO2 और जलवाष्प अवरक्त विकिरण रोकते, ग्रीनहाउस प्रभाव और ग्लोबल वार्मिंग।"
+    }
+  },
+  {
+    "id": "groupd-s-0049",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Heat required to convert 5 kg water at 30°C to steam at 100°C? (c=4200, L=2260 kJ/kg)",
+      "options": [
+        "12.77 MJ",
+        "11.30 MJ",
+        "1.47 MJ",
+        "14.44 MJ"
+      ],
+      "explanation": "Q1=5x4200x70=1.47 MJ. Q2=5x2260=11.3 MJ. Total=12.77 MJ."
+    },
+    "hi": {
+      "question": "5 kg पानी 30°C से 100°C भाप। ऊष्मा? (c=4200, L=2260)",
+      "options": [
+        "12.77 MJ",
+        "11.30 MJ",
+        "1.47 MJ",
+        "14.44 MJ"
+      ],
+      "explanation": "Q1=1.47 MJ, Q2=11.3 MJ। कुल=12.77 MJ।"
+    }
+  },
+  {
+    "id": "groupd-s-0050",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The coldest temperature possible is:",
+      "options": [
+        "0°C",
+        "0 K",
+        "-273°C = 0 K",
+        "-100°C"
+      ],
+      "explanation": "Absolute zero = 0 K = -273.15°C is the lowest possible temperature where molecular motion ceases."
+    },
+    "hi": {
+      "question": "सबसे कम संभव तापमान:",
+      "options": [
+        "0°C",
+        "0 K",
+        "-273°C = 0 K",
+        "-100°C"
+      ],
+      "explanation": "परम शून्य = 0 K = -273.15°C, न्यूनतम संभव ताप जहां आणविक गति रुक जाती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0051",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the relation between Celsius and Fahrenheit?",
+      "options": [
+        "C = 5/9(F-32)",
+        "F = 9/5 C + 32",
+        "C = 9/5 F + 32",
+        "F = 5/9 C - 32"
+      ],
+      "explanation": "F = (9/5)C + 32. Or C = (5/9)(F-32)."
+    },
+    "hi": {
+      "question": "सेल्सियस और फारेनहाइट में संबंध?",
+      "options": [
+        "C = 5/9(F-32)",
+        "F = 9/5 C + 32",
+        "C = 9/5 F + 32",
+        "F = 5/9 C - 32"
+      ],
+      "explanation": "F = (9/5)C + 32। या C = (5/9)(F-32)।"
+    }
+  },
+  {
+    "id": "groupd-s-0052",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "An aluminum rod 2 m at 20°C heated to 120°C. Length? (alpha=25x10^-6)",
+      "options": [
+        "2.0025 m",
+        "2.025 m",
+        "2.0005 m",
+        "2.005 m"
+      ],
+      "explanation": "Delta L=2x25x10^-6x100=0.005 m. New=2.005 m."
+    },
+    "hi": {
+      "question": "2 m एल्युमिनियम छड़ 20°C से 120°C। लंबाई? (α=25x10^-6)",
+      "options": [
+        "2.0025 m",
+        "2.025 m",
+        "2.0005 m",
+        "2.005 m"
+      ],
+      "explanation": "ΔL=2x25x10^-6x100=0.005 m। नई=2.005 m।"
+    }
+  },
+  {
+    "id": "groupd-s-0053",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "During melting, temperature:",
+      "options": [
+        "Remains constant",
+        "Increases",
+        "Decreases",
+        "First increases then decreases"
+      ],
+      "explanation": "During phase change (melting), temperature remains constant as energy goes into breaking bonds (latent heat)."
+    },
+    "hi": {
+      "question": "पिघलने के दौरान तापमान:",
+      "options": [
+        "स्थिर रहता",
+        "बढ़ता",
+        "घटता",
+        "पहले बढ़ फिर घटता"
+      ],
+      "explanation": "अवस्था परिवर्तन (पिघलने) में ताप स्थिर रहता, ऊर्जा बंध तोड़ने (गुप्त ऊष्मा) में जाती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0054",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 500 W heater runs 10 minutes. Heat produced in kJ?",
+      "options": [
+        "50 kJ",
+        "500 kJ",
+        "300 kJ",
+        "5 kJ"
+      ],
+      "explanation": "Q = P x t = 500 x 600 = 300000 J = 300 kJ."
+    },
+    "hi": {
+      "question": "500 W हीटर 10 मिनट चले। ऊष्मा kJ में?",
+      "options": [
+        "50 kJ",
+        "500 kJ",
+        "300 kJ",
+        "5 kJ"
+      ],
+      "explanation": "Q = 500 x 600 = 300000 J = 300 kJ।"
+    }
+  },
+  {
+    "id": "groupd-s-0055",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The reason venation helps cool blood is:",
+      "options": [
+        "Blood flows faster",
+        "Evaporation of sweat cools body",
+        "Blood becomes thinner",
+        "Heart rate increases"
+      ],
+      "explanation": "Sweat evaporates from skin, absorbing latent heat from the body, producing a cooling effect."
+    },
+    "hi": {
+      "question": "पसीना शरीर ठंडा करता है क्योंकि:",
+      "options": [
+        "रक्त तेज बहता",
+        "पसीने का वाष्पीकरण शीतलन",
+        "रक्त पतला",
+        "हृदय गति बढ़ती"
+      ],
+      "explanation": "त्वचा से पसीना वाष्पित होता, शरीर से गुप्त ऊष्मा लेकर शीतलन प्रभाव।"
+    }
+  },
+  {
+    "id": "groupd-s-0056",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Gas to liquid conversion is called:",
+      "options": [
+        "Sublimation",
+        "Fusion",
+        "Vaporization",
+        "Condensation"
+      ],
+      "explanation": "Condensation: gas → liquid. Example: water droplets on cold glass surface."
+    },
+    "hi": {
+      "question": "गैस से द्रव में रूपांतरण:",
+      "options": [
+        "ऊर्ध्वपातन",
+        "संगलन",
+        "वाष्पीकरण",
+        "संघनन"
+      ],
+      "explanation": "संघनन: गैस → द्रव। उदाहरण: ठंडे गिलास पर पानी की बूंदें।"
+    }
+  },
+  {
+    "id": "groupd-s-0057",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "500 g of water at 80°C mixed with 100 g ice at 0°C. Final temp?",
+      "options": [
+        "55°C",
+        "50°C",
+        "60°C",
+        "80°C"
+      ],
+      "explanation": "Melt ice=100x80=8000 cal. Hot water cooling: 500x1x(80-T)=500(80-T)=8000+100x1x(T-0). T=55°C."
+    },
+    "hi": {
+      "question": "500 g पानी 80°C + 100 g बर्फ 0°C। अंतिम ताप?",
+      "options": [
+        "55°C",
+        "50°C",
+        "60°C",
+        "80°C"
+      ],
+      "explanation": "बर्फ पिघलाने में 8000 cal। 500(80-T)=8000+100T। T=55°C।"
+    }
+  },
+  {
+    "id": "groupd-s-0058",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bimetallic strip works on:",
+      "options": [
+        "Same expansion",
+        "No expansion",
+        "Differential thermal expansion",
+        "Magnetic effect"
+      ],
+      "explanation": "Bimetallic strips contain two metals with different expansion coefficients; they bend when heated."
+    },
+    "hi": {
+      "question": "द्विधातु पट्टी किस पर कार्य करती है?",
+      "options": [
+        "समान प्रसार",
+        "कोई प्रसार नहीं",
+        "असमान तापीय प्रसार",
+        "चुंबकीय प्रभाव"
+      ],
+      "explanation": "द्विधातु पट्टी में भिन्न प्रसार गुणांक की दो धातुएं; गर्म करने पर मुड़ती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0059",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Water equivalent of a body is 50 g. Its thermal capacity?",
+      "options": [
+        "50 J/°C",
+        "210 J/°C",
+        "50 cal/°C",
+        "4200 J/°C"
+      ],
+      "explanation": "Water equivalent = mass of water having same thermal capacity. 50 g => thermal capacity = 50 cal/°C."
+    },
+    "hi": {
+      "question": "पिंड का जल तुल्यांक 50 g। तापीय धारिता?",
+      "options": [
+        "50 J/°C",
+        "210 J/°C",
+        "50 cal/°C",
+        "4200 J/°C"
+      ],
+      "explanation": "जल तुल्यांक = समान तापीय धारिता का जल द्रव्यमान। 50 g => 50 cal/°C।"
+    }
+  },
+  {
+    "id": "groupd-s-0060",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "We wear woollen clothes in winter because wool:",
+      "options": [
+        "Generates heat",
+        "Absorbs heat",
+        "Is heavy",
+        "Traps air and is a poor conductor"
+      ],
+      "explanation": "Wool is a thermal insulator; it traps air, preventing body heat from escaping."
+    },
+    "hi": {
+      "question": "सर्दियों में ऊनी कपड़े क्यों?",
+      "options": [
+        "ऊष्मा उत्पन्न",
+        "ऊष्मा अवशोषित",
+        "भारी",
+        "वायु रोककर कुचालक बनता"
+      ],
+      "explanation": "ऊन तापीय रोधक; वायु रोककर शरीर की ऊष्मा बाहर जाने से रोकता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0061",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A copper calorimeter (water eq=10 g) has 200 g water at 25°C. 50 g iron at 100°C added. Final temp? (c_fe=0.1 cal/g/°C)",
+      "options": [
+        "26.8°C",
+        "50°C",
+        "30°C",
+        "25°C"
+      ],
+      "explanation": "(10+200)x1x(T-25)=50x0.1x(100-T). 210(T-25)=5(100-T). T=26.8°C."
+    },
+    "hi": {
+      "question": "कैलोरीमीटर (जल तुल्यांक=10g) + 200g पानी 25°C, 50g लोहा 100°C। अंतिम ताप?",
+      "options": [
+        "26.8°C",
+        "50°C",
+        "30°C",
+        "25°C"
+      ],
+      "explanation": "210(T-25)=5(100-T)। T=26.8°C।"
+    }
+  },
+  {
+    "id": "groupd-s-0062",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Relative humidity is measured by:",
+      "options": [
+        "Thermometer",
+        "Barometer",
+        "Hygrometer",
+        "Hydrometer"
+      ],
+      "explanation": "A hygrometer measures relative humidity of air. Wet and dry bulb thermometer is a common type."
+    },
+    "hi": {
+      "question": "सापेक्ष आर्द्रता किससे मापते हैं?",
+      "options": [
+        "थर्मामीटर",
+        "बैरोमीटर",
+        "हाइग्रोमीटर",
+        "हाइड्रोमीटर"
+      ],
+      "explanation": "हाइग्रोमीटर वायु की सापेक्ष आर्द्रता मापता है। आर्द्र-शुष्क बल्ब थर्मामीटर सामान्य प्रकार।"
+    }
+  },
+  {
+    "id": "groupd-s-0063",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "10 kg of water falls from 84 m height. Temperature rise if all KE converts to heat? (g=10, J=4.2 J/cal)",
+      "options": [
+        "0.5°C",
+        "0.2°C",
+        "2°C",
+        "1°C"
+      ],
+      "explanation": "PE=mgh=10x10x84=8400 J=2000 cal. Delta T=2000/(10000x1)=0.2°C."
+    },
+    "hi": {
+      "question": "10 kg पानी 84 m से गिरे, सारी KE ऊष्मा बने। ताप वृद्धि?",
+      "options": [
+        "0.5°C",
+        "0.2°C",
+        "2°C",
+        "1°C"
+      ],
+      "explanation": "PE=8400 J=2000 cal। ΔT=2000/10000=0.2°C।"
+    }
+  },
+  {
+    "id": "groupd-s-0064",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which thermometer can measure -50°C?",
+      "options": [
+        "Clinical thermometer",
+        "Mercury thermometer",
+        "Digital thermometer",
+        "Alcohol thermometer"
+      ],
+      "explanation": "Alcohol freezes at -114°C, so it can measure -50°C. Mercury freezes at -39°C and cannot."
+    },
+    "hi": {
+      "question": "-50°C कौन सा थर्मामीटर माप सकता है?",
+      "options": [
+        "क्लिनिकल",
+        "पारा",
+        "डिजिटल",
+        "अल्कोहल थर्मामीटर"
+      ],
+      "explanation": "अल्कोहल -114°C पर जमता, -50°C माप सकता। पारा -39°C पर जमता, नहीं माप सकता।"
+    }
+  },
+  {
+    "id": "groupd-s-0065",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "First law of thermodynamics is essentially:",
+      "options": [
+        "Law of conservation of energy",
+        "Law of conservation of mass",
+        "Newton's law",
+        "Coulomb's law"
+      ],
+      "explanation": "First law: Energy can neither be created nor destroyed, only transformed. It is conservation of energy."
+    },
+    "hi": {
+      "question": "ऊष्मागतिकी का पहला नियम मूलतः:",
+      "options": [
+        "ऊर्जा संरक्षण का नियम",
+        "द्रव्यमान संरक्षण",
+        "न्यूटन का नियम",
+        "कूलॉम का नियम"
+      ],
+      "explanation": "पहला नियम: ऊर्जा न बनाई न नष्ट, केवल रूपांतरित। ऊर्जा संरक्षण।"
+    }
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Heat transfer without medium?",
+      "options": [
+        "Conduction",
+        "Radiation",
+        "Diffusion",
+        "Convection"
+      ],
+      "explanation": "Radiation = EM waves, no medium needed."
+    },
+    "hi": {
+      "question": "बिना माध्यम ऊष्मा स्थानांतरण?",
+      "options": [
+        "Conduction",
+        "Radiation",
+        "Diffusion",
+        "Convection"
+      ],
+      "explanation": "विकिरण = EM तरंगें, माध्यम नहीं चाहिए।"
+    },
+    "id": "groupd-s-0066"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boiling point of water?",
+      "options": [
+        "100°C",
+        "212°C",
+        "373°C",
+        "0°C"
+      ],
+      "explanation": "Water boils at 100°C at standard pressure."
+    },
+    "hi": {
+      "question": "पानी का क्वथनांक?",
+      "options": [
+        "100°C",
+        "212°C",
+        "373°C",
+        "0°C"
+      ],
+      "explanation": "मानक दबाव पर पानी 100°C पर उबलता है।"
+    },
+    "id": "groupd-s-0067"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Heat transfer without medium?",
+      "options": [
+        "Radiation",
+        "Conduction",
+        "Diffusion",
+        "Convection"
+      ],
+      "explanation": "Radiation = EM waves, no medium needed."
+    },
+    "hi": {
+      "question": "बिना माध्यम ऊष्मा स्थानांतरण?",
+      "options": [
+        "Radiation",
+        "Conduction",
+        "Diffusion",
+        "Convection"
+      ],
+      "explanation": "विकिरण = EM तरंगें, माध्यम नहीं चाहिए।"
+    },
+    "id": "groupd-s-0068"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boiling point of water?",
+      "options": [
+        "373°C",
+        "100°C",
+        "0°C",
+        "212°C"
+      ],
+      "explanation": "Water boils at 100°C at standard pressure."
+    },
+    "hi": {
+      "question": "पानी का क्वथनांक?",
+      "options": [
+        "373°C",
+        "100°C",
+        "0°C",
+        "212°C"
+      ],
+      "explanation": "मानक दबाव पर पानी 100°C पर उबलता है।"
+    },
+    "id": "groupd-s-0069"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Heat transfer without medium?",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Diffusion"
+      ],
+      "explanation": "Radiation = EM waves, no medium needed."
+    },
+    "hi": {
+      "question": "बिना माध्यम ऊष्मा स्थानांतरण?",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Diffusion"
+      ],
+      "explanation": "विकिरण = EM तरंगें, माध्यम नहीं चाहिए।"
+    },
+    "id": "groupd-s-0070"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boiling point of water?",
+      "options": [
+        "212°C",
+        "0°C",
+        "373°C",
+        "100°C"
+      ],
+      "explanation": "Water boils at 100°C at standard pressure."
+    },
+    "hi": {
+      "question": "पानी का क्वथनांक?",
+      "options": [
+        "212°C",
+        "0°C",
+        "373°C",
+        "100°C"
+      ],
+      "explanation": "मानक दबाव पर पानी 100°C पर उबलता है।"
+    },
+    "id": "groupd-s-0071"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Heat transfer without medium?",
+      "options": [
+        "Convection",
+        "Conduction",
+        "Diffusion",
+        "Radiation"
+      ],
+      "explanation": "Radiation = EM waves, no medium needed."
+    },
+    "hi": {
+      "question": "बिना माध्यम ऊष्मा स्थानांतरण?",
+      "options": [
+        "Convection",
+        "Conduction",
+        "Diffusion",
+        "Radiation"
+      ],
+      "explanation": "विकिरण = EM तरंगें, माध्यम नहीं चाहिए।"
+    },
+    "id": "groupd-s-0072"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boiling point of water?",
+      "options": [
+        "0°C",
+        "212°C",
+        "373°C",
+        "100°C"
+      ],
+      "explanation": "Water boils at 100°C at standard pressure."
+    },
+    "hi": {
+      "question": "पानी का क्वथनांक?",
+      "options": [
+        "0°C",
+        "212°C",
+        "373°C",
+        "100°C"
+      ],
+      "explanation": "मानक दबाव पर पानी 100°C पर उबलता है।"
+    },
+    "id": "groupd-s-0073"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Heat transfer without medium?",
+      "options": [
+        "Diffusion",
+        "Convection",
+        "Conduction",
+        "Radiation"
+      ],
+      "explanation": "Radiation = EM waves, no medium needed."
+    },
+    "hi": {
+      "question": "बिना माध्यम ऊष्मा स्थानांतरण?",
+      "options": [
+        "Diffusion",
+        "Convection",
+        "Conduction",
+        "Radiation"
+      ],
+      "explanation": "विकिरण = EM तरंगें, माध्यम नहीं चाहिए।"
+    },
+    "id": "groupd-s-0074"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boiling point of water?",
+      "options": [
+        "212°C",
+        "100°C",
+        "373°C",
+        "0°C"
+      ],
+      "explanation": "Water boils at 100°C at standard pressure."
+    },
+    "hi": {
+      "question": "पानी का क्वथनांक?",
+      "options": [
+        "212°C",
+        "100°C",
+        "373°C",
+        "0°C"
+      ],
+      "explanation": "मानक दबाव पर पानी 100°C पर उबलता है।"
+    },
+    "id": "groupd-s-0075"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Heat transfer without medium?",
+      "options": [
+        "Conduction",
+        "Diffusion",
+        "Radiation",
+        "Convection"
+      ],
+      "explanation": "Radiation = EM waves, no medium needed."
+    },
+    "hi": {
+      "question": "बिना माध्यम ऊष्मा स्थानांतरण?",
+      "options": [
+        "Conduction",
+        "Diffusion",
+        "Radiation",
+        "Convection"
+      ],
+      "explanation": "विकिरण = EM तरंगें, माध्यम नहीं चाहिए।"
+    },
+    "id": "groupd-s-0076"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boiling point of water?",
+      "options": [
+        "100°C",
+        "373°C",
+        "212°C",
+        "0°C"
+      ],
+      "explanation": "Water boils at 100°C at standard pressure."
+    },
+    "hi": {
+      "question": "पानी का क्वथनांक?",
+      "options": [
+        "100°C",
+        "373°C",
+        "212°C",
+        "0°C"
+      ],
+      "explanation": "मानक दबाव पर पानी 100°C पर उबलता है।"
+    },
+    "id": "groupd-s-0077"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Heat transfer without medium?",
+      "options": [
+        "Radiation",
+        "Conduction",
+        "Convection",
+        "Diffusion"
+      ],
+      "explanation": "Radiation = EM waves, no medium needed."
+    },
+    "hi": {
+      "question": "बिना माध्यम ऊष्मा स्थानांतरण?",
+      "options": [
+        "Radiation",
+        "Conduction",
+        "Convection",
+        "Diffusion"
+      ],
+      "explanation": "विकिरण = EM तरंगें, माध्यम नहीं चाहिए।"
+    },
+    "id": "groupd-s-0078"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boiling point of water?",
+      "options": [
+        "100°C",
+        "212°C",
+        "373°C",
+        "0°C"
+      ],
+      "explanation": "Water boils at 100°C at standard pressure."
+    },
+    "hi": {
+      "question": "पानी का क्वथनांक?",
+      "options": [
+        "100°C",
+        "212°C",
+        "373°C",
+        "0°C"
+      ],
+      "explanation": "मानक दबाव पर पानी 100°C पर उबलता है।"
+    },
+    "id": "groupd-s-0079"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Heat transfer without medium?",
+      "options": [
+        "Convection",
+        "Diffusion",
+        "Radiation",
+        "Conduction"
+      ],
+      "explanation": "Radiation = EM waves, no medium needed."
+    },
+    "hi": {
+      "question": "बिना माध्यम ऊष्मा स्थानांतरण?",
+      "options": [
+        "Convection",
+        "Diffusion",
+        "Radiation",
+        "Conduction"
+      ],
+      "explanation": "विकिरण = EM तरंगें, माध्यम नहीं चाहिए।"
+    },
+    "id": "groupd-s-0080"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boiling point of water?",
+      "options": [
+        "100°C",
+        "0°C",
+        "373°C",
+        "212°C"
+      ],
+      "explanation": "Water boils at 100°C at standard pressure."
+    },
+    "hi": {
+      "question": "पानी का क्वथनांक?",
+      "options": [
+        "100°C",
+        "0°C",
+        "373°C",
+        "212°C"
+      ],
+      "explanation": "मानक दबाव पर पानी 100°C पर उबलता है।"
+    },
+    "id": "groupd-s-0081"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Heat transfer without medium?",
+      "options": [
+        "Radiation",
+        "Diffusion",
+        "Convection",
+        "Conduction"
+      ],
+      "explanation": "Radiation = EM waves, no medium needed."
+    },
+    "hi": {
+      "question": "बिना माध्यम ऊष्मा स्थानांतरण?",
+      "options": [
+        "Radiation",
+        "Diffusion",
+        "Convection",
+        "Conduction"
+      ],
+      "explanation": "विकिरण = EM तरंगें, माध्यम नहीं चाहिए।"
+    },
+    "id": "groupd-s-0082"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boiling point of water?",
+      "options": [
+        "0°C",
+        "212°C",
+        "373°C",
+        "100°C"
+      ],
+      "explanation": "Water boils at 100°C at standard pressure."
+    },
+    "hi": {
+      "question": "पानी का क्वथनांक?",
+      "options": [
+        "0°C",
+        "212°C",
+        "373°C",
+        "100°C"
+      ],
+      "explanation": "मानक दबाव पर पानी 100°C पर उबलता है।"
+    },
+    "id": "groupd-s-0083"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Heat transfer without medium?",
+      "options": [
+        "Diffusion",
+        "Convection",
+        "Radiation",
+        "Conduction"
+      ],
+      "explanation": "Radiation = EM waves, no medium needed."
+    },
+    "hi": {
+      "question": "बिना माध्यम ऊष्मा स्थानांतरण?",
+      "options": [
+        "Diffusion",
+        "Convection",
+        "Radiation",
+        "Conduction"
+      ],
+      "explanation": "विकिरण = EM तरंगें, माध्यम नहीं चाहिए।"
+    },
+    "id": "groupd-s-0084"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boiling point of water?",
+      "options": [
+        "0°C",
+        "100°C",
+        "212°C",
+        "373°C"
+      ],
+      "explanation": "Water boils at 100°C at standard pressure."
+    },
+    "hi": {
+      "question": "पानी का क्वथनांक?",
+      "options": [
+        "0°C",
+        "100°C",
+        "212°C",
+        "373°C"
+      ],
+      "explanation": "मानक दबाव पर पानी 100°C पर उबलता है।"
+    },
+    "id": "groupd-s-0085"
+  }
 ]

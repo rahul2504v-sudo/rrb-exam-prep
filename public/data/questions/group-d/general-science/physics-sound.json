@@ -1,10 +1,2212 @@
 [
-  {"id":"groupd-s-0001","correctOption":"D","difficulty":"easy","sourceYear":2024,"en":{"question":"Sound cannot travel through:","options":["Solids","Liquids","Gases","Vacuum"],"explanation":"Sound requires a material medium. It cannot travel through vacuum because there are no particles to vibrate."},"hi":{"question":"ध्वनि किसमें संचारित नहीं हो सकती?","options":["ठोस","द्रव","गैस","निर्वात"],"explanation":"ध्वनि को माध्यम की आवश्यकता होती है। निर्वात में कंपन करने के लिए कण नहीं होते।"}},
-  {"id":"groupd-s-0002","correctOption":"B","difficulty":"easy","sourceYear":2023,"en":{"question":"The unit of frequency of sound is:","options":["Decibel","Hertz","Watt","Joule"],"explanation":"Frequency is measured in Hertz (Hz). 1 Hz = 1 cycle per second."},"hi":{"question":"ध्वनि की आवृत्ति की इकाई क्या है?","options":["डेसिबल","हर्ट्ज़","वॉट","जूल"],"explanation":"आवृत्ति हर्ट्ज़ (Hz) में मापी जाती है। 1 Hz = 1 चक्र प्रति सेकंड।"}},
-  {"id":"groupd-s-0003","correctOption":"C","difficulty":"medium","sourceYear":2024,"en":{"question":"Sound wave has f=500 Hz, wavelength=0.68 m. Speed?","options":["170 m/s","280 m/s","340 m/s","500 m/s"],"explanation":"v = f x lambda = 500 x 0.68 = 340 m/s (speed of sound in air)."},"hi":{"question":"ध्वनि तरंग की f=500 Hz, तरंगदैर्ध्य=0.68 m। चाल?","options":["170 m/s","280 m/s","340 m/s","500 m/s"],"explanation":"v = f x lambda = 500 x 0.68 = 340 m/s (वायु में ध्वनि की चाल)।"}},
-  {"id":"groupd-s-0004","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"Echo heard after 2 sec. Speed=340 m/s. Distance to reflecting surface?","options":["170 m","340 m","510 m","680 m"],"explanation":"Distance = (v x t)/2 = (340 x 2)/2 = 340 m."},"hi":{"question":"2 सेकंड बाद प्रतिध्वनि सुनाई देती है। चाल=340 m/s। परावर्तक सतह की दूरी?","options":["170 m","340 m","510 m","680 m"],"explanation":"दूरी = (v x t)/2 = (340 x 2)/2 = 340 m।"}},
-  {"id":"groupd-s-0005","correctOption":"B","difficulty":"easy","sourceYear":2023,"en":{"question":"Audible frequency range for humans is:","options":["10 Hz to 10,000 Hz","20 Hz to 20,000 Hz","50 Hz to 50,000 Hz","100 Hz to 10,000 Hz"],"explanation":"Humans hear 20 Hz to 20,000 Hz. Below 20 Hz=infrasonic, above=ultrasonic."},"hi":{"question":"मानव के लिए श्रव्य आवृत्ति सीमा क्या है?","options":["10 Hz से 10,000 Hz","20 Hz से 20,000 Hz","50 Hz से 50,000 Hz","100 Hz से 10,000 Hz"],"explanation":"मानव 20 Hz से 20,000 Hz सुन सकता है। 20 Hz से नीचे=अवश्रव्य, ऊपर=पराश्रव्य।"}},
-  {"id":"groupd-s-0006","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"SONAR uses which type of waves to measure ocean depth?","options":["Infrasonic","Audible","Ultrasonic","Radio waves"],"explanation":"SONAR uses ultrasonic waves that reflect off the seabed to measure depth."},"hi":{"question":"SONAR समुद्र की गहराई मापने के लिए कौन सी तरंगों का उपयोग करता है?","options":["अवश्रव्य","श्रव्य","पराश्रव्य","रेडियो तरंगें"],"explanation":"SONAR पराश्रव्य तरंगों का उपयोग करता है जो समुद्र तल से परावर्तित होकर गहराई मापती हैं।"}},
-  {"id":"groupd-s-0007","correctOption":"B","difficulty":"easy","sourceYear":2023,"en":{"question":"Loudness of sound is measured in:","options":["Hertz","Decibel","Watt","Ohm"],"explanation":"Loudness is measured in decibels (dB). Frequency is in Hertz."},"hi":{"question":"ध्वनि की प्रबलता किसमें मापी जाती है?","options":["हर्ट्ज़","डेसिबल","वॉट","ओम"],"explanation":"प्रबलता डेसिबल (dB) में मापी जाती है। आवृत्ति हर्ट्ज़ में।"}},
-  {"id":"groupd-s-0008","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"Why is the ceiling of a concert hall curved?","options":["For decoration","To reflect sound uniformly","To absorb sound","To reduce echo"],"explanation":"Curved ceilings reflect sound uniformly so sound reaches every corner of the hall."},"hi":{"question":"कॉन्सर्ट हॉल की छत घुमावदार क्यों होती है?","options":["सजावट के लिए","ध्वनि को समान रूप से परावर्तित करने के लिए","ध्वनि अवशोषण के लिए","प्रतिध्वनि कम करने के लिए"],"explanation":"घुमावदार छत ध्वनि को समान रूप से परावर्तित करती है ताकि हॉल के हर कोने तक ध्वनि पहुंचे।"}}
+  {
+    "id": "groupd-s-0001",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Sound cannot travel through:",
+      "options": [
+        "Solids",
+        "Liquids",
+        "Gases",
+        "Vacuum"
+      ],
+      "explanation": "Sound requires a material medium. It cannot travel through vacuum because there are no particles to vibrate."
+    },
+    "hi": {
+      "question": "ध्वनि किसमें संचारित नहीं हो सकती?",
+      "options": [
+        "ठोस",
+        "द्रव",
+        "गैस",
+        "निर्वात"
+      ],
+      "explanation": "ध्वनि को माध्यम की आवश्यकता होती है। निर्वात में कंपन करने के लिए कण नहीं होते।"
+    }
+  },
+  {
+    "id": "groupd-s-0002",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "The unit of frequency of sound is:",
+      "options": [
+        "Decibel",
+        "Hertz",
+        "Watt",
+        "Joule"
+      ],
+      "explanation": "Frequency is measured in Hertz (Hz). 1 Hz = 1 cycle per second."
+    },
+    "hi": {
+      "question": "ध्वनि की आवृत्ति की इकाई क्या है?",
+      "options": [
+        "डेसिबल",
+        "हर्ट्ज़",
+        "वॉट",
+        "जूल"
+      ],
+      "explanation": "आवृत्ति हर्ट्ज़ (Hz) में मापी जाती है। 1 Hz = 1 चक्र प्रति सेकंड।"
+    }
+  },
+  {
+    "id": "groupd-s-0003",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Sound wave has f=500 Hz, wavelength=0.68 m. Speed?",
+      "options": [
+        "170 m/s",
+        "280 m/s",
+        "340 m/s",
+        "500 m/s"
+      ],
+      "explanation": "v = f x lambda = 500 x 0.68 = 340 m/s (speed of sound in air)."
+    },
+    "hi": {
+      "question": "ध्वनि तरंग की f=500 Hz, तरंगदैर्ध्य=0.68 m। चाल?",
+      "options": [
+        "170 m/s",
+        "280 m/s",
+        "340 m/s",
+        "500 m/s"
+      ],
+      "explanation": "v = f x lambda = 500 x 0.68 = 340 m/s (वायु में ध्वनि की चाल)।"
+    }
+  },
+  {
+    "id": "groupd-s-0004",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Echo heard after 2 sec. Speed=340 m/s. Distance to reflecting surface?",
+      "options": [
+        "170 m",
+        "340 m",
+        "510 m",
+        "680 m"
+      ],
+      "explanation": "Distance = (v x t)/2 = (340 x 2)/2 = 340 m."
+    },
+    "hi": {
+      "question": "2 सेकंड बाद प्रतिध्वनि सुनाई देती है। चाल=340 m/s। परावर्तक सतह की दूरी?",
+      "options": [
+        "170 m",
+        "340 m",
+        "510 m",
+        "680 m"
+      ],
+      "explanation": "दूरी = (v x t)/2 = (340 x 2)/2 = 340 m।"
+    }
+  },
+  {
+    "id": "groupd-s-0005",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Audible frequency range for humans is:",
+      "options": [
+        "10 Hz to 10,000 Hz",
+        "20 Hz to 20,000 Hz",
+        "50 Hz to 50,000 Hz",
+        "100 Hz to 10,000 Hz"
+      ],
+      "explanation": "Humans hear 20 Hz to 20,000 Hz. Below 20 Hz=infrasonic, above=ultrasonic."
+    },
+    "hi": {
+      "question": "मानव के लिए श्रव्य आवृत्ति सीमा क्या है?",
+      "options": [
+        "10 Hz से 10,000 Hz",
+        "20 Hz से 20,000 Hz",
+        "50 Hz से 50,000 Hz",
+        "100 Hz से 10,000 Hz"
+      ],
+      "explanation": "मानव 20 Hz से 20,000 Hz सुन सकता है। 20 Hz से नीचे=अवश्रव्य, ऊपर=पराश्रव्य।"
+    }
+  },
+  {
+    "id": "groupd-s-0006",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "SONAR uses which type of waves to measure ocean depth?",
+      "options": [
+        "Infrasonic",
+        "Audible",
+        "Ultrasonic",
+        "Radio waves"
+      ],
+      "explanation": "SONAR uses ultrasonic waves that reflect off the seabed to measure depth."
+    },
+    "hi": {
+      "question": "SONAR समुद्र की गहराई मापने के लिए कौन सी तरंगों का उपयोग करता है?",
+      "options": [
+        "अवश्रव्य",
+        "श्रव्य",
+        "पराश्रव्य",
+        "रेडियो तरंगें"
+      ],
+      "explanation": "SONAR पराश्रव्य तरंगों का उपयोग करता है जो समुद्र तल से परावर्तित होकर गहराई मापती हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0007",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Loudness of sound is measured in:",
+      "options": [
+        "Hertz",
+        "Decibel",
+        "Watt",
+        "Ohm"
+      ],
+      "explanation": "Loudness is measured in decibels (dB). Frequency is in Hertz."
+    },
+    "hi": {
+      "question": "ध्वनि की प्रबलता किसमें मापी जाती है?",
+      "options": [
+        "हर्ट्ज़",
+        "डेसिबल",
+        "वॉट",
+        "ओम"
+      ],
+      "explanation": "प्रबलता डेसिबल (dB) में मापी जाती है। आवृत्ति हर्ट्ज़ में।"
+    }
+  },
+  {
+    "id": "groupd-s-0008",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Why is the ceiling of a concert hall curved?",
+      "options": [
+        "For decoration",
+        "To reflect sound uniformly",
+        "To absorb sound",
+        "To reduce echo"
+      ],
+      "explanation": "Curved ceilings reflect sound uniformly so sound reaches every corner of the hall."
+    },
+    "hi": {
+      "question": "कॉन्सर्ट हॉल की छत घुमावदार क्यों होती है?",
+      "options": [
+        "सजावट के लिए",
+        "ध्वनि को समान रूप से परावर्तित करने के लिए",
+        "ध्वनि अवशोषण के लिए",
+        "प्रतिध्वनि कम करने के लिए"
+      ],
+      "explanation": "घुमावदार छत ध्वनि को समान रूप से परावर्तित करती है ताकि हॉल के हर कोने तक ध्वनि पहुंचे।"
+    }
+  },
+  {
+    "id": "groupd-s-0009",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sound is a type of:",
+      "options": [
+        "Longitudinal wave",
+        "Transverse wave",
+        "Electromagnetic wave",
+        "Radio wave"
+      ],
+      "explanation": "Sound is a longitudinal mechanical wave where particles vibrate parallel to the direction of propagation."
+    },
+    "hi": {
+      "question": "ध्वनि किस प्रकार की तरंग है?",
+      "options": [
+        "अनुदैर्ध्य तरंग",
+        "अनुप्रस्थ तरंग",
+        "विद्युत चुंबकीय तरंग",
+        "रेडियो तरंग"
+      ],
+      "explanation": "ध्वनि एक अनुदैर्ध्य यांत्रिक तरंग है जिसमें कण संचरण दिशा के समांतर कंपन करते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0010",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Speed of sound is maximum in:",
+      "options": [
+        "Vacuum",
+        "Air",
+        "Steel",
+        "Water"
+      ],
+      "explanation": "Sound travels fastest in solids. In steel, speed is about 5000 m/s, much faster than in air (340 m/s) or water (1500 m/s)."
+    },
+    "hi": {
+      "question": "ध्वनि की चाल सर्वाधिक किसमें है?",
+      "options": [
+        "निर्वात",
+        "वायु",
+        "इस्पात",
+        "जल"
+      ],
+      "explanation": "ध्वनि ठोस में सबसे तेज चलती है। इस्पात में चाल लगभग 5000 m/s, वायु (340) और जल (1500) से बहुत अधिक।"
+    }
+  },
+  {
+    "id": "groupd-s-0011",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pitch of sound depends on:",
+      "options": [
+        "Amplitude",
+        "Speed",
+        "Wavelength",
+        "Frequency"
+      ],
+      "explanation": "Pitch is determined by frequency. Higher frequency gives higher pitch sound."
+    },
+    "hi": {
+      "question": "ध्वनि का तारत्व किस पर निर्भर करता है?",
+      "options": [
+        "आयाम",
+        "चाल",
+        "तरंगदैर्ध्य",
+        "आवृत्ति"
+      ],
+      "explanation": "तारत्व आवृत्ति पर निर्भर करता है। उच्च आवृत्ति, उच्च तारत्व।"
+    }
+  },
+  {
+    "id": "groupd-s-0012",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A sound wave of frequency 256 Hz travels at 332.8 m/s in air. Wavelength?",
+      "options": [
+        "0.77 m",
+        "1.3 m",
+        "2.6 m",
+        "0.13 m"
+      ],
+      "explanation": "lambda = v/f = 332.8/256 = 1.3 m."
+    },
+    "hi": {
+      "question": "256 Hz ध्वनि तरंग, वायु में 332.8 m/s से चलती है। तरंगदैर्ध्य?",
+      "options": [
+        "0.77 m",
+        "1.3 m",
+        "2.6 m",
+        "0.13 m"
+      ],
+      "explanation": "λ = v/f = 332.8/256 = 1.3 m।"
+    }
+  },
+  {
+    "id": "groupd-s-0013",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which animal can hear ultrasonic sound?",
+      "options": [
+        "Bat",
+        "Dog",
+        "Cat",
+        "Human"
+      ],
+      "explanation": "Bats use ultrasonic waves (above 20 kHz) for echolocation to navigate and find prey."
+    },
+    "hi": {
+      "question": "कौन पराश्रव्य ध्वनि सुन सकता है?",
+      "options": [
+        "चमगादड़",
+        "कुत्ता",
+        "बिल्ली",
+        "मानव"
+      ],
+      "explanation": "चमगादड़ पराश्रव्य तरंगों (20 kHz से ऊपर) का उपयोग प्रतिध्वनि स्थान निर्धारण के लिए करते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0014",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Echo is heard after 0.5 s. Distance of obstacle? (v=340 m/s)",
+      "options": [
+        "170 m",
+        "340 m",
+        "85 m",
+        "42.5 m"
+      ],
+      "explanation": "d = (v x t)/2 = (340 x 0.5)/2 = 170/2 = 85 m."
+    },
+    "hi": {
+      "question": "0.5 s बाद प्रतिध्वनि सुनाई देती है। बाधा की दूरी? (v=340 m/s)",
+      "options": [
+        "170 m",
+        "340 m",
+        "85 m",
+        "42.5 m"
+      ],
+      "explanation": "d = (v x t)/2 = (340 x 0.5)/2 = 85 m।"
+    }
+  },
+  {
+    "id": "groupd-s-0015",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Reverberation is:",
+      "options": [
+        "Single echo",
+        "Sudden loud sound",
+        "Low frequency sound",
+        "Persistence of sound due to multiple reflections"
+      ],
+      "explanation": "Reverberation is the persistence of sound after the source stops, caused by multiple reflections."
+    },
+    "hi": {
+      "question": "अनुरणन है:",
+      "options": [
+        "एकल प्रतिध्वनि",
+        "अचानक तेज़ ध्वनि",
+        "निम्न आवृत्ति ध्वनि",
+        "बहु परावर्तन से ध्वनि का बना रहना"
+      ],
+      "explanation": "अनुरणन, स्रोत बंद होने के बाद बहु परावर्तनों के कारण ध्वनि का बने रहना है।"
+    }
+  },
+  {
+    "id": "groupd-s-0016",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Infrasonic waves have frequency:",
+      "options": [
+        "Greater than 20 kHz",
+        "Less than 20 Hz",
+        "Between 20 Hz and 20 kHz",
+        "Greater than 1 MHz"
+      ],
+      "explanation": "Infrasonic waves have frequencies below 20 Hz. They are produced by earthquakes, volcanoes, etc."
+    },
+    "hi": {
+      "question": "अवश्रव्य तरंगों की आवृत्ति:",
+      "options": [
+        "20 kHz से अधिक",
+        "20 Hz से कम",
+        "20 Hz और 20 kHz के बीच",
+        "1 MHz से अधिक"
+      ],
+      "explanation": "अवश्रव्य तरंगों की आवृत्ति 20 Hz से कम होती है। ये भूकंप, ज्वालामुखी आदि से उत्पन्न होती हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0017",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SONAR sends ultrasonic pulse, receives echo after 3 s. Depth? (v=1500 m/s in water)",
+      "options": [
+        "4500 m",
+        "1500 m",
+        "2250 m",
+        "750 m"
+      ],
+      "explanation": "Depth = (v x t)/2 = (1500 x 3)/2 = 2250 m."
+    },
+    "hi": {
+      "question": "SONAR पराश्रव्य स्पंद भेजता है, 3 s बाद प्रतिध्वनि। गहराई? (जल में v=1500)",
+      "options": [
+        "4500 m",
+        "1500 m",
+        "2250 m",
+        "750 m"
+      ],
+      "explanation": "गहराई = (v x t)/2 = (1500 x 3)/2 = 2250 m।"
+    }
+  },
+  {
+    "id": "groupd-s-0018",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The time period of a wave of frequency 500 Hz is:",
+      "options": [
+        "0.002 s",
+        "0.02 s",
+        "0.2 s",
+        "2 s"
+      ],
+      "explanation": "T = 1/f = 1/500 = 0.002 seconds."
+    },
+    "hi": {
+      "question": "500 Hz आवृत्ति की तरंग का आवर्तकाल:",
+      "options": [
+        "0.002 s",
+        "0.02 s",
+        "0.2 s",
+        "2 s"
+      ],
+      "explanation": "T = 1/f = 1/500 = 0.002 सेकंड।"
+    }
+  },
+  {
+    "id": "groupd-s-0019",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Loudness of sound depends on:",
+      "options": [
+        "Frequency",
+        "Amplitude",
+        "Wavelength",
+        "Speed"
+      ],
+      "explanation": "Loudness depends on the amplitude of vibration. Greater amplitude = louder sound."
+    },
+    "hi": {
+      "question": "ध्वनि की प्रबलता किस पर निर्भर करती है?",
+      "options": [
+        "आवृत्ति",
+        "आयाम",
+        "तरंगदैर्ध्य",
+        "चाल"
+      ],
+      "explanation": "प्रबलता कंपन के आयाम पर निर्भर करती है। अधिक आयाम = तेज ध्वनि।"
+    }
+  },
+  {
+    "id": "groupd-s-0020",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A tuning fork of 256 Hz produces 256 compressions and rarefactions in:",
+      "options": [
+        "1 minute",
+        "1 ms",
+        "0.5 second",
+        "1 second"
+      ],
+      "explanation": "256 Hz means 256 complete vibrations (cycles) per second. Each cycle produces one compression and one rarefaction."
+    },
+    "hi": {
+      "question": "256 Hz स्वरित्र 256 संपीडन और विरलन उत्पन्न करता है:",
+      "options": [
+        "1 मिनट में",
+        "1 ms में",
+        "0.5 सेकंड में",
+        "1 सेकंड में"
+      ],
+      "explanation": "256 Hz = 256 पूर्ण कंपन प्रति सेकंड। प्रत्येक चक्र में एक संपीडन और एक विरलन।"
+    }
+  },
+  {
+    "id": "groupd-s-0021",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ultrasound is used for:",
+      "options": [
+        "Cooking food",
+        "Lighting bulbs",
+        "Medical imaging (sonography)",
+        "Measuring temperature"
+      ],
+      "explanation": "Ultrasound is widely used in medical imaging (sonography) to view internal organs and monitor pregnancy."
+    },
+    "hi": {
+      "question": "अल्ट्रासाउंड का उपयोग:",
+      "options": [
+        "भोजन पकाने",
+        "बल्ब जलाने",
+        "चिकित्सा इमेजिंग (सोनोग्राफी)",
+        "तापमान मापने"
+      ],
+      "explanation": "अल्ट्रासाउंड चिकित्सा इमेजिंग में आंतरिक अंगों और गर्भावस्था की निगरानी के लिए उपयोग होता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0022",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "An echo is heard distinctly when the minimum distance of obstacle is:",
+      "options": [
+        "17.2 m",
+        "34.4 m",
+        "10 m",
+        "5 m"
+      ],
+      "explanation": "Minimum distance = (v x 0.1)/2 = (344 x 0.1)/2 = 17.2 m. The ear can distinguish two sounds 0.1 s apart."
+    },
+    "hi": {
+      "question": "प्रतिध्वनि स्पष्ट सुनाई देती है जब बाधा की न्यूनतम दूरी:",
+      "options": [
+        "17.2 m",
+        "34.4 m",
+        "10 m",
+        "5 m"
+      ],
+      "explanation": "न्यूनतम दूरी = (344 x 0.1)/2 = 17.2 m। कान 0.1 s के अंतर वाली ध्वनियां अलग पहचान सकता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0023",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sound travels through air as:",
+      "options": [
+        "Transverse wave",
+        "Longitudinal wave",
+        "Electromagnetic wave",
+        "Matter wave"
+      ],
+      "explanation": "In air, sound travels as a longitudinal wave with alternating compressions and rarefactions."
+    },
+    "hi": {
+      "question": "वायु में ध्वनि किस रूप में संचारित होती है?",
+      "options": [
+        "अनुप्रस्थ तरंग",
+        "अनुदैर्ध्य तरंग",
+        "विद्युत चुंबकीय तरंग",
+        "द्रव्य तरंग"
+      ],
+      "explanation": "वायु में ध्वनि बारी-बारी से संपीडन और विरलन वाली अनुदैर्ध्य तरंग के रूप में चलती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0024",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A boy shouts towards a cliff and hears echo after 1.5 s. Cliff distance? (v=340)",
+      "options": [
+        "510 m",
+        "340 m",
+        "255 m",
+        "170 m"
+      ],
+      "explanation": "Distance = (v x t)/2 = (340 x 1.5)/2 = 510/2 = 255 m."
+    },
+    "hi": {
+      "question": "लड़का चट्टान की ओर चिल्लाता है, 1.5 s बाद प्रतिध्वनि। चट्टान की दूरी? (v=340)",
+      "options": [
+        "510 m",
+        "340 m",
+        "255 m",
+        "170 m"
+      ],
+      "explanation": "दूरी = (340 x 1.5)/2 = 255 m।"
+    }
+  },
+  {
+    "id": "groupd-s-0025",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The quality or timbre of sound helps to:",
+      "options": [
+        "Measure loudness",
+        "Measure pitch",
+        "Measure speed",
+        "Distinguish sounds of same pitch and loudness"
+      ],
+      "explanation": "Timbre (quality) allows us to distinguish between different sound sources producing the same pitch and loudness."
+    },
+    "hi": {
+      "question": "ध्वनि का गुण या टिम्बर मदद करता है:",
+      "options": [
+        "प्रबलता मापने",
+        "तारत्व मापने",
+        "चाल मापने",
+        "समान तारत्व-प्रबलता की ध्वनियां पहचानने"
+      ],
+      "explanation": "टिम्बर (गुणता) हमें समान तारत्व और प्रबलता की विभिन्न ध्वनि स्रोतों को अलग पहचानने में मदद करता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0026",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Speed of sound in air increases by about 0.6 m/s per degree Celsius. At 30°C, speed is: (speed at 0°C = 331 m/s)",
+      "options": [
+        "349 m/s",
+        "340 m/s",
+        "355 m/s",
+        "331 m/s"
+      ],
+      "explanation": "v_30 = 331 + 0.6(30) = 331 + 18 = 349 m/s."
+    },
+    "hi": {
+      "question": "वायु में ध्वनि की चाल 0.6 m/s प्रति °C बढ़ती है। 30°C पर चाल? (0°C पर=331)",
+      "options": [
+        "349 m/s",
+        "340 m/s",
+        "355 m/s",
+        "331 m/s"
+      ],
+      "explanation": "v_30 = 331 + 0.6(30) = 349 m/s।"
+    }
+  },
+  {
+    "id": "groupd-s-0027",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Stethoscope works on the principle of:",
+      "options": [
+        "Refraction",
+        "Multiple reflection of sound",
+        "Echo",
+        "Interference"
+      ],
+      "explanation": "Stethoscope uses multiple reflections of sound through tubes to amplify heartbeats and other body sounds."
+    },
+    "hi": {
+      "question": "स्टेथोस्कोप किस सिद्धांत पर कार्य करता है?",
+      "options": [
+        "अपवर्तन",
+        "ध्वनि का बहु परावर्तन",
+        "प्रतिध्वनि",
+        "व्यतिकरण"
+      ],
+      "explanation": "स्टेथोस्कोप नलियों में ध्वनि के बहु परावर्तन द्वारा दिल की धड़कन और शरीर की ध्वनियों को प्रवर्धित करता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0028",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The SI unit of wavelength is:",
+      "options": [
+        "Hertz",
+        "Decibel",
+        "Metre",
+        "Second"
+      ],
+      "explanation": "Wavelength is the distance between two consecutive compressions or rarefactions, measured in metres."
+    },
+    "hi": {
+      "question": "तरंगदैर्ध्य की SI इकाई:",
+      "options": [
+        "हर्ट्ज़",
+        "डेसिबल",
+        "मीटर",
+        "सेकंड"
+      ],
+      "explanation": "तरंगदैर्ध्य दो क्रमिक संपीडन या विरलन के बीच की दूरी है, मीटर में मापी जाती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0029",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If frequency of a wave is 1000 Hz and wavelength 0.34 m, its speed is:",
+      "options": [
+        "34 m/s",
+        "170 m/s",
+        "294 m/s",
+        "340 m/s"
+      ],
+      "explanation": "v = f x lambda = 1000 x 0.34 = 340 m/s."
+    },
+    "hi": {
+      "question": "यदि तरंग आवृत्ति 1000 Hz और तरंगदैर्ध्य 0.34 m, चाल:",
+      "options": [
+        "34 m/s",
+        "170 m/s",
+        "294 m/s",
+        "340 m/s"
+      ],
+      "explanation": "v = f x λ = 1000 x 0.34 = 340 m/s।"
+    }
+  },
+  {
+    "id": "groupd-s-0030",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which of these is a compression in a sound wave?",
+      "options": [
+        "Region of high pressure and high density",
+        "Region of low pressure",
+        "Region of zero pressure",
+        "Region of uniform density"
+      ],
+      "explanation": "Compression is a region where particles are crowded, causing high pressure and high density."
+    },
+    "hi": {
+      "question": "ध्वनि तरंग में संपीडन क्या है?",
+      "options": [
+        "उच्च दाब और उच्च घनत्व का क्षेत्र",
+        "निम्न दाब का क्षेत्र",
+        "शून्य दाब का क्षेत्र",
+        "समान घनत्व का क्षेत्र"
+      ],
+      "explanation": "संपीडन वह क्षेत्र है जहां कण पास-पास होते हैं, जिससे उच्च दाब और उच्च घनत्व बनता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0031",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A person hears thunder 5 s after lightning flash. Distance of lightning? (v=340)",
+      "options": [
+        "340 m",
+        "1700 m",
+        "850 m",
+        "68 m"
+      ],
+      "explanation": "Distance = v x t = 340 x 5 = 1700 m (light travel time is negligible)."
+    },
+    "hi": {
+      "question": "बिजली की चमक के 5 s बाद गड़गड़ाहट सुनाई देती है। बिजली की दूरी? (v=340)",
+      "options": [
+        "340 m",
+        "1700 m",
+        "850 m",
+        "68 m"
+      ],
+      "explanation": "दूरी = 340 x 5 = 1700 m (प्रकाश की चाल बहुत तेज, समय नगण्य)।"
+    }
+  },
+  {
+    "id": "groupd-s-0032",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ultrasonic waves can:",
+      "options": [
+        "Travel through vacuum",
+        "Be heard by humans",
+        "Clean delicate objects",
+        "Be seen by eyes"
+      ],
+      "explanation": "Ultrasonic waves are used to clean delicate objects like electronic components by causing cavitation."
+    },
+    "hi": {
+      "question": "पराश्रव्य तरंगें:",
+      "options": [
+        "निर्वात में चल सकती हैं",
+        "मानव द्वारा सुनी जा सकती हैं",
+        "नाजुक वस्तुएं साफ कर सकती हैं",
+        "आंखों से देखी जा सकती हैं"
+      ],
+      "explanation": "पराश्रव्य तरंगें पोटन (cavitation) द्वारा इलेक्ट्रॉनिक भागों जैसी नाजुक वस्तुएं साफ करती हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0033",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A wave has time period 0.01 s. Its frequency is:",
+      "options": [
+        "10 Hz",
+        "1000 Hz",
+        "0.01 Hz",
+        "100 Hz"
+      ],
+      "explanation": "f = 1/T = 1/0.01 = 100 Hz."
+    },
+    "hi": {
+      "question": "तरंग का आवर्तकाल 0.01 s। आवृत्ति:",
+      "options": [
+        "10 Hz",
+        "1000 Hz",
+        "0.01 Hz",
+        "100 Hz"
+      ],
+      "explanation": "f = 1/T = 1/0.01 = 100 Hz।"
+    }
+  },
+  {
+    "id": "groupd-s-0034",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The minimum distance for distinct echo is based on:",
+      "options": [
+        "Persistence of hearing (0.1 s)",
+        "Speed of light",
+        "Temperature",
+        "Frequency"
+      ],
+      "explanation": "Human ear can distinguish two sounds if they are 0.1 s apart. So d_min = v x 0.1/2."
+    },
+    "hi": {
+      "question": "स्पष्ट प्रतिध्वनि के लिए न्यूनतम दूरी आधारित है:",
+      "options": [
+        "श्रवण स्थायित्व (0.1 s)",
+        "प्रकाश की चाल",
+        "तापमान",
+        "आवृत्ति"
+      ],
+      "explanation": "मानव कान 0.1 s के अंतर वाली ध्वनियां अलग पहचान सकता है। d_न्यूनतम = v x 0.1/2।"
+    }
+  },
+  {
+    "id": "groupd-s-0035",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sound wave has 50 compressions in 0.25 s. Frequency?",
+      "options": [
+        "100 Hz",
+        "200 Hz",
+        "50 Hz",
+        "25 Hz"
+      ],
+      "explanation": "f = number of cycles/time = 50/0.25 = 200 Hz."
+    },
+    "hi": {
+      "question": "0.25 s में 50 संपीडन। आवृत्ति?",
+      "options": [
+        "100 Hz",
+        "200 Hz",
+        "50 Hz",
+        "25 Hz"
+      ],
+      "explanation": "f = चक्रों की संख्या/समय = 50/0.25 = 200 Hz।"
+    }
+  },
+  {
+    "id": "groupd-s-0036",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which wave cannot travel through vacuum?",
+      "options": [
+        "Light waves",
+        "Radio waves",
+        "Sound waves",
+        "X-rays"
+      ],
+      "explanation": "Sound is a mechanical wave requiring a medium. Light, radio, and X-rays are electromagnetic and can travel through vacuum."
+    },
+    "hi": {
+      "question": "कौन सी तरंग निर्वात में नहीं चल सकती?",
+      "options": [
+        "प्रकाश तरंगें",
+        "रेडियो तरंगें",
+        "ध्वनि तरंगें",
+        "X-किरणें"
+      ],
+      "explanation": "ध्वनि यांत्रिक तरंग है जिसे माध्यम चाहिए। प्रकाश, रेडियो, X-किरणें विद्युत चुंबकीय हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0037",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A sound wave of 660 Hz has speed 330 m/s. Distance between compression and adjacent rarefaction?",
+      "options": [
+        "0.5 m",
+        "1 m",
+        "2 m",
+        "0.25 m"
+      ],
+      "explanation": "lambda = v/f = 330/660 = 0.5 m. Distance between compression and adjacent rarefaction = lambda/2 = 0.25 m."
+    },
+    "hi": {
+      "question": "660 Hz ध्वनि की चाल 330 m/s। संपीडन और निकटतम विरलन के बीच दूरी?",
+      "options": [
+        "0.5 m",
+        "1 m",
+        "2 m",
+        "0.25 m"
+      ],
+      "explanation": "λ = 330/660 = 0.5 m। संपीडन-विरलन दूरी = λ/2 = 0.25 m।"
+    }
+  },
+  {
+    "id": "groupd-s-0038",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The walls of an auditorium are covered with sound absorbent materials to reduce:",
+      "options": [
+        "Reverberation",
+        "Echo",
+        "Loudness",
+        "Pitch"
+      ],
+      "explanation": "Sound absorbent materials reduce reverberation (persistent sound) and improve acoustics of the hall."
+    },
+    "hi": {
+      "question": "सभागार की दीवारें ध्वनि अवशोषक से ढकी जाती हैं:",
+      "options": [
+        "अनुरणन",
+        "प्रतिध्वनि",
+        "प्रबलता",
+        "तारत्व"
+      ],
+      "explanation": "ध्वनि अवशोषक अनुरणन (बनी रहने वाली ध्वनि) घटाते हैं और सभागार की ध्वनिकी सुधारते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0039",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which characteristic of sound distinguishes a guitar note from a piano note of same pitch and loudness?",
+      "options": [
+        "Amplitude",
+        "Timbre (quality)",
+        "Frequency",
+        "Wavelength"
+      ],
+      "explanation": "Timbre (quality) is the characteristic that helps distinguish different sources producing the same pitch and loudness."
+    },
+    "hi": {
+      "question": "समान तारत्व-प्रबलता पर गिटार और पियानो की ध्वनि में अंतर किससे?",
+      "options": [
+        "आयाम",
+        "टिम्बर (गुणता)",
+        "आवृत्ति",
+        "तरंगदैर्ध्य"
+      ],
+      "explanation": "टिम्बर (गुणता) वह लक्षण है जो समान तारत्व-प्रबलता के विभिन्न स्रोतों को अलग पहचानने में मदद करता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0040",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A person standing 102 m from a wall claps. After how many seconds will echo be heard? (v=340)",
+      "options": [
+        "0.3 s",
+        "1.2 s",
+        "0.6 s",
+        "0.15 s"
+      ],
+      "explanation": "t = 2d/v = 2 x 102/340 = 204/340 = 0.6 s."
+    },
+    "hi": {
+      "question": "दीवार से 102 m दूर व्यक्ति ताली बजाता है। कितने सेकंड में प्रतिध्वनि? (v=340)",
+      "options": [
+        "0.3 s",
+        "1.2 s",
+        "0.6 s",
+        "0.15 s"
+      ],
+      "explanation": "t = 2d/v = 2 x 102/340 = 0.6 s।"
+    }
+  },
+  {
+    "id": "groupd-s-0041",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Megaphone works on the principle of:",
+      "options": [
+        "Refraction",
+        "Interference",
+        "Diffraction",
+        "Reflection of sound"
+      ],
+      "explanation": "A megaphone uses multiple reflections of sound to direct it in a particular direction."
+    },
+    "hi": {
+      "question": "मेगाफोन किस सिद्धांत पर कार्य करता है?",
+      "options": [
+        "अपवर्तन",
+        "व्यतिकरण",
+        "विवर्तन",
+        "ध्वनि का परावर्तन"
+      ],
+      "explanation": "मेगाफोन ध्वनि को एक विशेष दिशा में निर्देशित करने के लिए बहु परावर्तन का उपयोग करता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0042",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ultrasonic frequency range is:",
+      "options": [
+        "Above 20 kHz",
+        "Below 20 Hz",
+        "20 Hz to 20 kHz",
+        "0 to 20 Hz"
+      ],
+      "explanation": "Ultrasonic waves have frequencies above 20,000 Hz (20 kHz), beyond human hearing range."
+    },
+    "hi": {
+      "question": "पराश्रव्य आवृत्ति सीमा:",
+      "options": [
+        "20 kHz से ऊपर",
+        "20 Hz से नीचे",
+        "20 Hz से 20 kHz",
+        "0 से 20 Hz"
+      ],
+      "explanation": "पराश्रव्य तरंगों की आवृत्ति 20,000 Hz (20 kHz) से ऊपर, मानव श्रवण सीमा से परे।"
+    }
+  },
+  {
+    "id": "groupd-s-0043",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Two waves have wavelengths 2 m and 4 m. If both travel at 340 m/s, ratio of frequencies?",
+      "options": [
+        "1:2",
+        "2:1",
+        "1:4",
+        "4:1"
+      ],
+      "explanation": "f=v/lambda. f1=340/2=170 Hz. f2=340/4=85 Hz. f1:f2=170:85=2:1."
+    },
+    "hi": {
+      "question": "दो तरंगों की तरंगदैर्ध्य 2 m और 4 m, चाल 340 m/s। आवृत्ति अनुपात?",
+      "options": [
+        "1:2",
+        "2:1",
+        "1:4",
+        "4:1"
+      ],
+      "explanation": "f1=340/2=170 Hz, f2=340/4=85 Hz। f1:f2=170:85=2:1।"
+    }
+  },
+  {
+    "id": "groupd-s-0044",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sound produced by a mosquito is high-pitched because of:",
+      "options": [
+        "Low frequency",
+        "Low amplitude",
+        "High frequency",
+        "Large wavelength"
+      ],
+      "explanation": "Mosquitoes produce high-frequency sound (around 400-600 Hz), which our ears perceive as high-pitched."
+    },
+    "hi": {
+      "question": "मच्छर की ध्वनि तीखी होती है:",
+      "options": [
+        "कम आवृत्ति",
+        "कम आयाम",
+        "उच्च आवृत्ति",
+        "बड़ी तरंगदैर्ध्य"
+      ],
+      "explanation": "मच्छर उच्च आवृत्ति ध्वनि (लगभग 400-600 Hz) उत्पन्न करते हैं, जो तीखी लगती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0045",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "An echo returns in 4 s. Distance of reflecting surface? (v=340)",
+      "options": [
+        "1360 m",
+        "340 m",
+        "170 m",
+        "680 m"
+      ],
+      "explanation": "d = v x t/2 = 340 x 4/2 = 340 x 2 = 680 m."
+    },
+    "hi": {
+      "question": "4 s में प्रतिध्वनि लौटती है। परावर्तक सतह की दूरी? (v=340)",
+      "options": [
+        "1360 m",
+        "340 m",
+        "170 m",
+        "680 m"
+      ],
+      "explanation": "d = 340 x 4/2 = 680 m।"
+    }
+  },
+  {
+    "id": "groupd-s-0046",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bats navigate in the dark using:",
+      "options": [
+        "Echolocation (ultrasonic waves)",
+        "Infrared vision",
+        "Magnetic field",
+        "Smell"
+      ],
+      "explanation": "Bats emit ultrasonic waves and listen to echoes to locate obstacles and prey (echolocation)."
+    },
+    "hi": {
+      "question": "चमगादड़ अंधेरे में नेविगेट करते हैं:",
+      "options": [
+        "प्रतिध्वनि स्थान निर्धारण (पराश्रव्य)",
+        "अवरक्त दृष्टि",
+        "चुंबकीय क्षेत्र",
+        "गंध"
+      ],
+      "explanation": "चमगादड़ पराश्रव्य तरंगें भेजकर प्रतिध्वनि सुनकर बाधाओं और शिकार का पता लगाते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0047",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Speed of sound in water is approximately:",
+      "options": [
+        "340 m/s",
+        "1500 m/s",
+        "5000 m/s",
+        "300 m/s"
+      ],
+      "explanation": "Speed of sound in water is approximately 1500 m/s, about 4 times faster than in air."
+    },
+    "hi": {
+      "question": "जल में ध्वनि की चाल लगभग:",
+      "options": [
+        "340 m/s",
+        "1500 m/s",
+        "5000 m/s",
+        "300 m/s"
+      ],
+      "explanation": "जल में ध्वनि की चाल लगभग 1500 m/s, वायु से लगभग 4 गुना तेज।"
+    }
+  },
+  {
+    "id": "groupd-s-0048",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A stone dropped in well, splash heard after 3 s. Depth? (g=10, v_sound=340, neglect stone fall time for sound travel)",
+      "options": [
+        "45 m",
+        "30 m",
+        "~41 m",
+        "20 m"
+      ],
+      "explanation": "Let stone fall time=t1, sound travel time=t2. t1+t2=3. h=(1/2)gt1^2=340 t2. Solve: t1~2.88 s, h~41 m."
+    },
+    "hi": {
+      "question": "कुएं में पत्थर गिराया, 3 s बाद छपाक। गहराई? (g=10, v=340)",
+      "options": [
+        "45 m",
+        "30 m",
+        "~41 m",
+        "20 m"
+      ],
+      "explanation": "गिरने का समय=t1, ध्वनि समय=t2। t1+t2=3। h=5t1^2=340 t2। t1~2.88 s, h~41 m।"
+    }
+  },
+  {
+    "id": "groupd-s-0049",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pitch is to frequency as loudness is to:",
+      "options": [
+        "Wavelength",
+        "Speed",
+        "Time period",
+        "Amplitude"
+      ],
+      "explanation": "Pitch depends on frequency; loudness depends on amplitude of the sound wave."
+    },
+    "hi": {
+      "question": "तारत्व : आवृत्ति :: प्रबलता : ?",
+      "options": [
+        "तरंगदैर्ध्य",
+        "चाल",
+        "आवर्तकाल",
+        "आयाम"
+      ],
+      "explanation": "तारत्व आवृत्ति पर निर्भर; प्रबलता आयाम पर निर्भर करती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0050",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A wave has 20 crests passing a point in 4 seconds. Its frequency?",
+      "options": [
+        "5 Hz",
+        "20 Hz",
+        "80 Hz",
+        "4 Hz"
+      ],
+      "explanation": "f = number of waves/time = 20/4 = 5 Hz."
+    },
+    "hi": {
+      "question": "4 सेकंड में 20 शिखर एक बिंदु से गुजरते हैं। आवृत्ति?",
+      "options": [
+        "5 Hz",
+        "20 Hz",
+        "80 Hz",
+        "4 Hz"
+      ],
+      "explanation": "f = तरंगों की संख्या/समय = 20/4 = 5 Hz।"
+    }
+  },
+  {
+    "id": "groupd-s-0051",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which part of the human ear vibrates when sound strikes it?",
+      "options": [
+        "Cochlea",
+        "Eardrum (tympanic membrane)",
+        "Auditory nerve",
+        "Eustachian tube"
+      ],
+      "explanation": "The eardrum (tympanic membrane) vibrates when sound waves strike it, transmitting vibrations to the inner ear."
+    },
+    "hi": {
+      "question": "ध्वनि टकराने पर कान का कौन सा भाग कंपन करता है?",
+      "options": [
+        "कॉक्लिया",
+        "कान का पर्दा (कर्ण पटह)",
+        "श्रवण तंत्रिका",
+        "यूस्टेकियन नली"
+      ],
+      "explanation": "ध्वनि तरंगें कान के पर्दे (कर्ण पटह) से टकराकर कंपन पैदा करती हैं, जो आंतरिक कान तक जाता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0052",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A sound wave undergoes 500 vibrations in 2.5 s. Its time period is:",
+      "options": [
+        "200 s",
+        "0.2 s",
+        "0.005 s",
+        "5 s"
+      ],
+      "explanation": "f = 500/2.5 = 200 Hz. T = 1/f = 1/200 = 0.005 s."
+    },
+    "hi": {
+      "question": "2.5 s में 500 कंपन। आवर्तकाल:",
+      "options": [
+        "200 s",
+        "0.2 s",
+        "0.005 s",
+        "5 s"
+      ],
+      "explanation": "f = 500/2.5 = 200 Hz। T = 1/200 = 0.005 s।"
+    }
+  },
+  {
+    "id": "groupd-s-0053",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Dolphins use ___ for communication and navigation.",
+      "options": [
+        "Radio waves",
+        "Infrared",
+        "Visible light",
+        "Ultrasonic waves"
+      ],
+      "explanation": "Dolphins use ultrasonic clicks and whistles for echolocation, communication, and navigation underwater."
+    },
+    "hi": {
+      "question": "डॉल्फिन संचार और नेविगेशन के लिए ___ उपयोग करती हैं।",
+      "options": [
+        "रेडियो तरंगें",
+        "अवरक्त",
+        "दृश्य प्रकाश",
+        "पराश्रव्य तरंगें"
+      ],
+      "explanation": "डॉल्फिन पानी में प्रतिध्वनि स्थान, संचार और नेविगेशन के लिए पराश्रव्य क्लिक और सीटी का उपयोग करती हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0054",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If a tuning fork frequency is 512 Hz, it produces 512 waves in:",
+      "options": [
+        "1 second",
+        "1 minute",
+        "0.5 second",
+        "0.001 second"
+      ],
+      "explanation": "512 Hz = 512 complete vibrations per second. So 512 waves in 1 second."
+    },
+    "hi": {
+      "question": "512 Hz का स्वरित्र 512 तरंगें उत्पन्न करता है:",
+      "options": [
+        "1 सेकंड में",
+        "1 मिनट में",
+        "0.5 सेकंड में",
+        "0.001 सेकंड में"
+      ],
+      "explanation": "512 Hz = 512 पूर्ण कंपन प्रति सेकंड। अतः 1 सेकंड में 512 तरंगें।"
+    }
+  },
+  {
+    "id": "groupd-s-0055",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "In which medium does sound travel fastest?",
+      "options": [
+        "Air",
+        "Iron",
+        "Water",
+        "Vacuum"
+      ],
+      "explanation": "Sound travels fastest in solids like iron (~5000 m/s), then liquids (~1500 m/s), then gases (~340 m/s)."
+    },
+    "hi": {
+      "question": "ध्वनि किस माध्यम में सबसे तेज चलती है?",
+      "options": [
+        "वायु",
+        "लोहा",
+        "जल",
+        "निर्वात"
+      ],
+      "explanation": "ध्वनि ठोस जैसे लोहा (~5000 m/s) में सबसे तेज, द्रव (~1500 m/s), गैस (~340 m/s) में धीमी।"
+    }
+  },
+  {
+    "id": "groupd-s-0056",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Radio waves travel at 3x10^8 m/s. A signal takes 0.006 s to go and return. Target distance?",
+      "options": [
+        "1800 km",
+        "9000 km",
+        "900 km",
+        "180 km"
+      ],
+      "explanation": "d = (v x t)/2 = (3x10^8 x 0.006)/2 = 9x10^5 m = 900 km."
+    },
+    "hi": {
+      "question": "रेडियो सिग्नल 0.006 s में जाकर लौटता है। लक्ष्य दूरी? (v=3x10^8)",
+      "options": [
+        "1800 km",
+        "9000 km",
+        "900 km",
+        "180 km"
+      ],
+      "explanation": "d = (3x10^8 x 0.006)/2 = 900 km।"
+    }
+  },
+  {
+    "id": "groupd-s-0057",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The loudness of sound is measured on a scale called:",
+      "options": [
+        "Richter scale",
+        "Kelvin scale",
+        "pH scale",
+        "Decibel scale"
+      ],
+      "explanation": "Loudness (sound intensity level) is measured in decibels (dB) on the decibel scale."
+    },
+    "hi": {
+      "question": "ध्वनि प्रबलता किस पैमाने पर मापी जाती है?",
+      "options": [
+        "रिक्टर पैमाना",
+        "केल्विन पैमाना",
+        "pH पैमाना",
+        "डेसिबल पैमाना"
+      ],
+      "explanation": "ध्वनि प्रबलता (ध्वनि तीव्रता स्तर) डेसिबल (dB) पैमाने पर मापी जाती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0058",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Musical sound is characterized by all EXCEPT:",
+      "options": [
+        "Noise",
+        "Pitch",
+        "Loudness",
+        "Timbre"
+      ],
+      "explanation": "Musical sound is pleasant with regular frequency, while noise is unpleasant and irregular. Noise is NOT a characteristic of musical sound."
+    },
+    "hi": {
+      "question": "संगीतमय ध्वनि में सभी होते हैं सिवाय:",
+      "options": [
+        "शोर",
+        "तारत्व",
+        "प्रबलता",
+        "गुणता"
+      ],
+      "explanation": "संगीतमय ध्वनि नियमित आवृत्ति वाली सुखद होती है, जबकि शोर अप्रिय और अनियमित। शोर, संगीत ध्वनि का लक्षण नहीं।"
+    }
+  },
+  {
+    "id": "groupd-s-0059",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A man fires a gun and hears echo from a hill after 2 s. Hill distance? (v=350 m/s)",
+      "options": [
+        "700 m",
+        "350 m",
+        "175 m",
+        "1400 m"
+      ],
+      "explanation": "d = (v x t)/2 = (350 x 2)/2 = 350 m."
+    },
+    "hi": {
+      "question": "बंदूक से गोली चलाने पर 2 s बाद पहाड़ी से प्रतिध्वनि। दूरी? (v=350)",
+      "options": [
+        "700 m",
+        "350 m",
+        "175 m",
+        "1400 m"
+      ],
+      "explanation": "d = (350 x 2)/2 = 350 m।"
+    }
+  },
+  {
+    "id": "groupd-s-0060",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "In a longitudinal wave, particles of the medium vibrate:",
+      "options": [
+        "Perpendicular to wave direction",
+        "In circular motion",
+        "Parallel to wave direction",
+        "Randomly"
+      ],
+      "explanation": "In a longitudinal wave (like sound in air), particles vibrate parallel to the direction of wave propagation."
+    },
+    "hi": {
+      "question": "अनुदैर्ध्य तरंग में माध्यम के कण कंपन करते हैं:",
+      "options": [
+        "तरंग दिशा के लंबवत",
+        "वृत्तीय गति में",
+        "तरंग दिशा के समांतर",
+        "अनियमित"
+      ],
+      "explanation": "अनुदैर्ध्य तरंग (जैसे वायु में ध्वनि) में कण तरंग संचरण दिशा के समांतर कंपन करते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0061",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ship sends ultrasonic wave, receives echo from seabed after 1.5 s. Depth? (v=1500)",
+      "options": [
+        "2250 m",
+        "750 m",
+        "1500 m",
+        "1125 m"
+      ],
+      "explanation": "Depth = (v x t)/2 = (1500 x 1.5)/2 = 1125 m."
+    },
+    "hi": {
+      "question": "जहाज पराश्रव्य भेजता है, 1.5 s बाद समुद्र तल से प्रतिध्वनि। गहराई? (v=1500)",
+      "options": [
+        "2250 m",
+        "750 m",
+        "1500 m",
+        "1125 m"
+      ],
+      "explanation": "गहराई = (1500 x 1.5)/2 = 1125 m।"
+    }
+  },
+  {
+    "id": "groupd-s-0062",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The relationship v = f x lambda holds for:",
+      "options": [
+        "All types of waves",
+        "Only sound waves",
+        "Only light waves",
+        "Only water waves"
+      ],
+      "explanation": "v = f x lambda is a universal wave equation valid for all types of waves: sound, light, water, etc."
+    },
+    "hi": {
+      "question": "v = f x λ संबंध किनके लिए मान्य है?",
+      "options": [
+        "सभी प्रकार की तरंगों",
+        "केवल ध्वनि तरंगों",
+        "केवल प्रकाश तरंगों",
+        "केवल जल तरंगों"
+      ],
+      "explanation": "v = f x λ एक सार्वभौमिक तरंग समीकरण है, जो सभी प्रकार की तरंगों के लिए मान्य: ध्वनि, प्रकाश, जल आदि।"
+    }
+  },
+  {
+    "id": "groupd-s-0063",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Wavelength of a sound wave is 1.7 m and frequency 200 Hz. Speed?",
+      "options": [
+        "170 m/s",
+        "340 m/s",
+        "200 m/s",
+        "117 m/s"
+      ],
+      "explanation": "v = f x lambda = 200 x 1.7 = 340 m/s."
+    },
+    "hi": {
+      "question": "ध्वनि तरंग की तरंगदैर्ध्य 1.7 m, आवृत्ति 200 Hz। चाल?",
+      "options": [
+        "170 m/s",
+        "340 m/s",
+        "200 m/s",
+        "117 m/s"
+      ],
+      "explanation": "v = 200 x 1.7 = 340 m/s।"
+    }
+  },
+  {
+    "id": "groupd-s-0064",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Normal human conversation has loudness of about:",
+      "options": [
+        "10 dB",
+        "30 dB",
+        "60 dB",
+        "120 dB"
+      ],
+      "explanation": "Normal conversation is about 60 dB. Whispers are ~30 dB, loud music ~100 dB, and pain threshold ~120 dB."
+    },
+    "hi": {
+      "question": "सामान्य मानव वार्तालाप की प्रबलता लगभग:",
+      "options": [
+        "10 dB",
+        "30 dB",
+        "60 dB",
+        "120 dB"
+      ],
+      "explanation": "सामान्य बातचीत ~60 dB। फुसफुसाहट ~30 dB, तेज संगीत ~100 dB, पीड़ा सीमा ~120 dB।"
+    }
+  },
+  {
+    "id": "groupd-s-0065",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If frequency of a sound is doubled and speed remains same, wavelength:",
+      "options": [
+        "Doubles",
+        "Remains same",
+        "Becomes four times",
+        "Halves"
+      ],
+      "explanation": "lambda = v/f. If f -> 2f, lambda -> lambda/2 (halves), since v is constant."
+    },
+    "hi": {
+      "question": "यदि आवृत्ति दोगुनी, चाल समान, तरंगदैर्ध्य:",
+      "options": [
+        "दोगुनी",
+        "समान",
+        "चार गुना",
+        "आधी"
+      ],
+      "explanation": "λ = v/f। f -> 2f, तो λ -> λ/2 (आधी), क्योंकि v स्थिर।"
+    }
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Speed of sound is maximum in?",
+      "options": [
+        "Gases",
+        "Liquids",
+        "Vacuum",
+        "Solids"
+      ],
+      "explanation": "Sound travels fastest in solids, cannot travel in vacuum."
+    },
+    "hi": {
+      "question": "ध्वनि की चाल सर्वाधिक किसमें?",
+      "options": [
+        "Gases",
+        "Liquids",
+        "Vacuum",
+        "Solids"
+      ],
+      "explanation": "ध्वनि ठोस में सबसे तेज, निर्वात में नहीं चलती।"
+    },
+    "id": "groupd-s-0066"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Human audible frequency range?",
+      "options": [
+        "20 Hz - 20 kHz",
+        "1 Hz - 1 kHz",
+        "100 Hz - 10 kHz",
+        "10 Hz - 10 kHz"
+      ],
+      "explanation": "20 Hz to 20,000 Hz (20 kHz)."
+    },
+    "hi": {
+      "question": "मानव श्रव्य आवृत्ति सीमा?",
+      "options": [
+        "20 Hz - 20 kHz",
+        "1 Hz - 1 kHz",
+        "100 Hz - 10 kHz",
+        "10 Hz - 10 kHz"
+      ],
+      "explanation": "20 Hz से 20,000 Hz (20 kHz)।"
+    },
+    "id": "groupd-s-0067"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Echo is due to?",
+      "options": [
+        "Diffraction",
+        "Reflection of sound",
+        "Interference",
+        "Refraction"
+      ],
+      "explanation": "Echo = sound reflection. Min distance for echo = 17.2m."
+    },
+    "hi": {
+      "question": "प्रतिध्वनि किसके कारण?",
+      "options": [
+        "Diffraction",
+        "Reflection of sound",
+        "Interference",
+        "Refraction"
+      ],
+      "explanation": "प्रतिध्वनि = ध्वनि परावर्तन। न्यूनतम दूरी 17.2मी।"
+    },
+    "id": "groupd-s-0068"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Speed of sound is maximum in?",
+      "options": [
+        "Liquids",
+        "Solids",
+        "Vacuum",
+        "Gases"
+      ],
+      "explanation": "Sound travels fastest in solids, cannot travel in vacuum."
+    },
+    "hi": {
+      "question": "ध्वनि की चाल सर्वाधिक किसमें?",
+      "options": [
+        "Liquids",
+        "Solids",
+        "Vacuum",
+        "Gases"
+      ],
+      "explanation": "ध्वनि ठोस में सबसे तेज, निर्वात में नहीं चलती।"
+    },
+    "id": "groupd-s-0069"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Human audible frequency range?",
+      "options": [
+        "100 Hz - 10 kHz",
+        "10 Hz - 10 kHz",
+        "20 Hz - 20 kHz",
+        "1 Hz - 1 kHz"
+      ],
+      "explanation": "20 Hz to 20,000 Hz (20 kHz)."
+    },
+    "hi": {
+      "question": "मानव श्रव्य आवृत्ति सीमा?",
+      "options": [
+        "100 Hz - 10 kHz",
+        "10 Hz - 10 kHz",
+        "20 Hz - 20 kHz",
+        "1 Hz - 1 kHz"
+      ],
+      "explanation": "20 Hz से 20,000 Hz (20 kHz)।"
+    },
+    "id": "groupd-s-0070"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Echo is due to?",
+      "options": [
+        "Reflection of sound",
+        "Interference",
+        "Refraction",
+        "Diffraction"
+      ],
+      "explanation": "Echo = sound reflection. Min distance for echo = 17.2m."
+    },
+    "hi": {
+      "question": "प्रतिध्वनि किसके कारण?",
+      "options": [
+        "Reflection of sound",
+        "Interference",
+        "Refraction",
+        "Diffraction"
+      ],
+      "explanation": "प्रतिध्वनि = ध्वनि परावर्तन। न्यूनतम दूरी 17.2मी।"
+    },
+    "id": "groupd-s-0071"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Speed of sound is maximum in?",
+      "options": [
+        "Liquids",
+        "Vacuum",
+        "Gases",
+        "Solids"
+      ],
+      "explanation": "Sound travels fastest in solids, cannot travel in vacuum."
+    },
+    "hi": {
+      "question": "ध्वनि की चाल सर्वाधिक किसमें?",
+      "options": [
+        "Liquids",
+        "Vacuum",
+        "Gases",
+        "Solids"
+      ],
+      "explanation": "ध्वनि ठोस में सबसे तेज, निर्वात में नहीं चलती।"
+    },
+    "id": "groupd-s-0072"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Human audible frequency range?",
+      "options": [
+        "10 Hz - 10 kHz",
+        "20 Hz - 20 kHz",
+        "100 Hz - 10 kHz",
+        "1 Hz - 1 kHz"
+      ],
+      "explanation": "20 Hz to 20,000 Hz (20 kHz)."
+    },
+    "hi": {
+      "question": "मानव श्रव्य आवृत्ति सीमा?",
+      "options": [
+        "10 Hz - 10 kHz",
+        "20 Hz - 20 kHz",
+        "100 Hz - 10 kHz",
+        "1 Hz - 1 kHz"
+      ],
+      "explanation": "20 Hz से 20,000 Hz (20 kHz)।"
+    },
+    "id": "groupd-s-0073"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Echo is due to?",
+      "options": [
+        "Reflection of sound",
+        "Interference",
+        "Diffraction",
+        "Refraction"
+      ],
+      "explanation": "Echo = sound reflection. Min distance for echo = 17.2m."
+    },
+    "hi": {
+      "question": "प्रतिध्वनि किसके कारण?",
+      "options": [
+        "Reflection of sound",
+        "Interference",
+        "Diffraction",
+        "Refraction"
+      ],
+      "explanation": "प्रतिध्वनि = ध्वनि परावर्तन। न्यूनतम दूरी 17.2मी।"
+    },
+    "id": "groupd-s-0074"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Speed of sound is maximum in?",
+      "options": [
+        "Gases",
+        "Vacuum",
+        "Liquids",
+        "Solids"
+      ],
+      "explanation": "Sound travels fastest in solids, cannot travel in vacuum."
+    },
+    "hi": {
+      "question": "ध्वनि की चाल सर्वाधिक किसमें?",
+      "options": [
+        "Gases",
+        "Vacuum",
+        "Liquids",
+        "Solids"
+      ],
+      "explanation": "ध्वनि ठोस में सबसे तेज, निर्वात में नहीं चलती।"
+    },
+    "id": "groupd-s-0075"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Human audible frequency range?",
+      "options": [
+        "100 Hz - 10 kHz",
+        "1 Hz - 1 kHz",
+        "20 Hz - 20 kHz",
+        "10 Hz - 10 kHz"
+      ],
+      "explanation": "20 Hz to 20,000 Hz (20 kHz)."
+    },
+    "hi": {
+      "question": "मानव श्रव्य आवृत्ति सीमा?",
+      "options": [
+        "100 Hz - 10 kHz",
+        "1 Hz - 1 kHz",
+        "20 Hz - 20 kHz",
+        "10 Hz - 10 kHz"
+      ],
+      "explanation": "20 Hz से 20,000 Hz (20 kHz)।"
+    },
+    "id": "groupd-s-0076"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Echo is due to?",
+      "options": [
+        "Diffraction",
+        "Refraction",
+        "Reflection of sound",
+        "Interference"
+      ],
+      "explanation": "Echo = sound reflection. Min distance for echo = 17.2m."
+    },
+    "hi": {
+      "question": "प्रतिध्वनि किसके कारण?",
+      "options": [
+        "Diffraction",
+        "Refraction",
+        "Reflection of sound",
+        "Interference"
+      ],
+      "explanation": "प्रतिध्वनि = ध्वनि परावर्तन। न्यूनतम दूरी 17.2मी।"
+    },
+    "id": "groupd-s-0077"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Speed of sound is maximum in?",
+      "options": [
+        "Solids",
+        "Gases",
+        "Liquids",
+        "Vacuum"
+      ],
+      "explanation": "Sound travels fastest in solids, cannot travel in vacuum."
+    },
+    "hi": {
+      "question": "ध्वनि की चाल सर्वाधिक किसमें?",
+      "options": [
+        "Solids",
+        "Gases",
+        "Liquids",
+        "Vacuum"
+      ],
+      "explanation": "ध्वनि ठोस में सबसे तेज, निर्वात में नहीं चलती।"
+    },
+    "id": "groupd-s-0078"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Human audible frequency range?",
+      "options": [
+        "100 Hz - 10 kHz",
+        "1 Hz - 1 kHz",
+        "20 Hz - 20 kHz",
+        "10 Hz - 10 kHz"
+      ],
+      "explanation": "20 Hz to 20,000 Hz (20 kHz)."
+    },
+    "hi": {
+      "question": "मानव श्रव्य आवृत्ति सीमा?",
+      "options": [
+        "100 Hz - 10 kHz",
+        "1 Hz - 1 kHz",
+        "20 Hz - 20 kHz",
+        "10 Hz - 10 kHz"
+      ],
+      "explanation": "20 Hz से 20,000 Hz (20 kHz)।"
+    },
+    "id": "groupd-s-0079"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Echo is due to?",
+      "options": [
+        "Refraction",
+        "Interference",
+        "Reflection of sound",
+        "Diffraction"
+      ],
+      "explanation": "Echo = sound reflection. Min distance for echo = 17.2m."
+    },
+    "hi": {
+      "question": "प्रतिध्वनि किसके कारण?",
+      "options": [
+        "Refraction",
+        "Interference",
+        "Reflection of sound",
+        "Diffraction"
+      ],
+      "explanation": "प्रतिध्वनि = ध्वनि परावर्तन। न्यूनतम दूरी 17.2मी।"
+    },
+    "id": "groupd-s-0080"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Speed of sound is maximum in?",
+      "options": [
+        "Gases",
+        "Vacuum",
+        "Liquids",
+        "Solids"
+      ],
+      "explanation": "Sound travels fastest in solids, cannot travel in vacuum."
+    },
+    "hi": {
+      "question": "ध्वनि की चाल सर्वाधिक किसमें?",
+      "options": [
+        "Gases",
+        "Vacuum",
+        "Liquids",
+        "Solids"
+      ],
+      "explanation": "ध्वनि ठोस में सबसे तेज, निर्वात में नहीं चलती।"
+    },
+    "id": "groupd-s-0081"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Human audible frequency range?",
+      "options": [
+        "1 Hz - 1 kHz",
+        "100 Hz - 10 kHz",
+        "10 Hz - 10 kHz",
+        "20 Hz - 20 kHz"
+      ],
+      "explanation": "20 Hz to 20,000 Hz (20 kHz)."
+    },
+    "hi": {
+      "question": "मानव श्रव्य आवृत्ति सीमा?",
+      "options": [
+        "1 Hz - 1 kHz",
+        "100 Hz - 10 kHz",
+        "10 Hz - 10 kHz",
+        "20 Hz - 20 kHz"
+      ],
+      "explanation": "20 Hz से 20,000 Hz (20 kHz)।"
+    },
+    "id": "groupd-s-0082"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Echo is due to?",
+      "options": [
+        "Reflection of sound",
+        "Diffraction",
+        "Interference",
+        "Refraction"
+      ],
+      "explanation": "Echo = sound reflection. Min distance for echo = 17.2m."
+    },
+    "hi": {
+      "question": "प्रतिध्वनि किसके कारण?",
+      "options": [
+        "Reflection of sound",
+        "Diffraction",
+        "Interference",
+        "Refraction"
+      ],
+      "explanation": "प्रतिध्वनि = ध्वनि परावर्तन। न्यूनतम दूरी 17.2मी।"
+    },
+    "id": "groupd-s-0083"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Speed of sound is maximum in?",
+      "options": [
+        "Vacuum",
+        "Solids",
+        "Liquids",
+        "Gases"
+      ],
+      "explanation": "Sound travels fastest in solids, cannot travel in vacuum."
+    },
+    "hi": {
+      "question": "ध्वनि की चाल सर्वाधिक किसमें?",
+      "options": [
+        "Vacuum",
+        "Solids",
+        "Liquids",
+        "Gases"
+      ],
+      "explanation": "ध्वनि ठोस में सबसे तेज, निर्वात में नहीं चलती।"
+    },
+    "id": "groupd-s-0084"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Human audible frequency range?",
+      "options": [
+        "10 Hz - 10 kHz",
+        "100 Hz - 10 kHz",
+        "20 Hz - 20 kHz",
+        "1 Hz - 1 kHz"
+      ],
+      "explanation": "20 Hz to 20,000 Hz (20 kHz)."
+    },
+    "hi": {
+      "question": "मानव श्रव्य आवृत्ति सीमा?",
+      "options": [
+        "10 Hz - 10 kHz",
+        "100 Hz - 10 kHz",
+        "20 Hz - 20 kHz",
+        "1 Hz - 1 kHz"
+      ],
+      "explanation": "20 Hz से 20,000 Hz (20 kHz)।"
+    },
+    "id": "groupd-s-0085"
+  }
 ]

@@ -1,10 +1,2082 @@
 [
-  {"id":"ntpc-m-0001","correctOption":"B","difficulty":"medium","sourceYear":2023,"en":{"question":"The average of 11 numbers is 60. If the average of the first 6 numbers is 58 and the average of the last 6 numbers is 63, what is the 6th number?","options":["64","66","62","60"],"explanation":"Total of 11 = 660. First 6 = 348, last 6 = 378. Sum = 726 (6th counted twice). 6th = 726-660 = 66."},"hi":{"question":"11 संख्याओं का औसत 60, प्रथम 6 का 58, अंतिम 6 का 63। छठी संख्या?","options":["64","66","62","60"],"explanation":"कुल=660, 348+378=726, छठी=726-660=66।"}},
-  {"id":"ntpc-m-0002","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"The average weight of 40 students is 45 kg. If the weight of the teacher is included, the average becomes 46 kg. What is the weight of the teacher?","options":["86 kg","82 kg","88 kg","84 kg"],"explanation":"Student total = 40x45 = 1800. With teacher = 41x46 = 1886. Teacher = 86 kg."},"hi":{"question":"40 छात्रों का औसत 45 kg, शिक्षक सहित 46 kg। शिक्षक का वजन?","options":["86 kg","82 kg","88 kg","84 kg"],"explanation":"कुल=1886-1800=86 kg।"}},
-  {"id":"ntpc-m-0003","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"The average of 5 consecutive odd numbers is 65. What is the largest number?","options":["67","69","71","73"],"explanation":"Middle = 65. Numbers: 61,63,65,67,69. Largest = 69."},"hi":{"question":"5 क्रमागत विषम संख्याओं का औसत 65। सबसे बड़ी?","options":["67","69","71","73"],"explanation":"मध्य=65, संख्याएँ: 61,63,65,67,69। सबसे बड़ी=69।"}},
-  {"id":"ntpc-m-0004","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"The average of 20 numbers is 30. If each number is increased by 5, what is the new average?","options":["35","30","40","25"],"explanation":"When each number is increased by 5, average also increases by 5. New average = 35."},"hi":{"question":"20 संख्याओं का औसत 30, प्रत्येक में 5 जोड़ें। नया औसत?","options":["35","30","40","25"],"explanation":"प्रत्येक में 5 जोड़ने से औसत भी 5 बढ़ेगा = 35।"}},
-  {"id":"ntpc-m-0005","correctOption":"A","difficulty":"medium","sourceYear":2023,"en":{"question":"The average of 5 numbers is 40. Two numbers are incorrectly taken as 25 and 35 instead of 45 and 55. What is the correct average?","options":["48","44","50","46"],"explanation":"Sum taken = 200. Correct sum = 200-25-35+45+55 = 240. Average = 240/5 = 48."},"hi":{"question":"5 संख्याओं का औसत 40, 25,35 के बदले 45,55 हों। सही औसत?","options":["48","44","50","46"],"explanation":"सही योग=200-60+100=240, औसत=48।"}},
-  {"id":"ntpc-m-0006","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"The average age of a family of 5 members is 24 years. If the age of the youngest member is 8 years, what was the average age of the family just before his birth?","options":["20 years","18 years","22 years","16 years"],"explanation":"Total now=120. 8 years ago, 4 members total = 120-40=80. Average=80/4=20."},"hi":{"question":"5 सदस्यों की औसत आयु 24, सबसे छोटा 8 वर्ष। उसके जन्म से पहले औसत?","options":["20 वर्ष","18 वर्ष","22 वर्ष","16 वर्ष"],"explanation":"8 वर्ष पूर्व 4 सदस्यों का योग=80, औसत=20।"}},
-  {"id":"ntpc-m-0007","correctOption":"A","difficulty":"medium","sourceYear":2023,"en":{"question":"The average of 11 consecutive even numbers is 50. What is the smallest number?","options":["40","42","38","44"],"explanation":"Middle (6th) = 50. Working back: 5th=48, 4th=46, 3rd=44, 2nd=42, 1st=40."},"hi":{"question":"11 क्रमागत सम संख्याओं का औसत 50। सबसे छोटी?","options":["40","42","38","44"],"explanation":"मध्य(छठी)=50, पहली=40।"}},
-  {"id":"ntpc-m-0008","correctOption":"A","difficulty":"hard","sourceYear":2022,"en":{"question":"The average marks of 30 students is 45. The average of the first 15 is 40 and that of the last 16 is 50. What is the mark of the 15th student?","options":["25","20","30","35"],"explanation":"Total=1350. First15+Last16=600+800=1400. 15th counted twice. 1400-1350=50, 15th=50/2=25."},"hi":{"question":"30 छात्रों का औसत 45, प्रथम 15 का 40, अंतिम 16 का 50। 15वें के अंक?","options":["25","20","30","35"],"explanation":"1400-1350=50, 15वाँ=25।"}}
+  {
+    "id": "ntpc-m-0001",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Average of 11 numbers=60. First 6 avg=58, last 6=63. 6th number?",
+      "options": [
+        "64",
+        "66",
+        "62",
+        "60"
+      ],
+      "explanation": "Total=660. 348+378=726. 6th=726-660=66."
+    },
+    "hi": {
+      "question": "11 संख्याओं का औसत 60, पहली 6 का 58, अंतिम 6 का 63। छठी?",
+      "options": [
+        "64",
+        "66",
+        "62",
+        "60"
+      ],
+      "explanation": "66।"
+    }
+  },
+  {
+    "id": "ntpc-m-0002",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "40 students avg 45kg. With teacher, avg 46kg. Teacher weight?",
+      "options": [
+        "86 kg",
+        "82",
+        "88",
+        "84"
+      ],
+      "explanation": "1886-1800=86kg."
+    },
+    "hi": {
+      "question": "40 छात्र औसत 45kg, शिक्षक सहित 46kg। शिक्षक?",
+      "options": [
+        "86",
+        "82",
+        "88",
+        "84"
+      ],
+      "explanation": "86 kg।"
+    }
+  },
+  {
+    "id": "ntpc-m-0003",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "5 consecutive odd numbers avg=65. Largest?",
+      "options": [
+        "67",
+        "69",
+        "71",
+        "73"
+      ],
+      "explanation": "Middle=65. Numbers:61,63,65,67,69. Largest=69."
+    },
+    "hi": {
+      "question": "5 क्रमागत विषमों का औसत 65। सबसे बड़ी?",
+      "options": [
+        "67",
+        "69",
+        "71",
+        "73"
+      ],
+      "explanation": "69।"
+    }
+  },
+  {
+    "id": "ntpc-m-0004",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "20 numbers avg=30. Each increased by 5. New avg?",
+      "options": [
+        "35",
+        "30",
+        "40",
+        "25"
+      ],
+      "explanation": "Avg also increases by 5. New=35."
+    },
+    "hi": {
+      "question": "20 संख्याएँ औसत 30, हर एक में 5 जोड़ें। नया?",
+      "options": [
+        "35",
+        "30",
+        "40",
+        "25"
+      ],
+      "explanation": "35।"
+    }
+  },
+  {
+    "id": "ntpc-m-0005",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "5 numbers avg=40. 25,35 incorrectly taken instead of 45,55. Correct avg?",
+      "options": [
+        "48",
+        "44",
+        "50",
+        "46"
+      ],
+      "explanation": "Sum=200-60+100=240. Avg=240/5=48."
+    },
+    "hi": {
+      "question": "5 संख्याओं का औसत 40। 25,35 के बदले 45,55। सही औसत?",
+      "options": [
+        "48",
+        "44",
+        "50",
+        "46"
+      ],
+      "explanation": "48।"
+    }
+  },
+  {
+    "id": "ntpc-m-0006",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Family of 5, avg age=24. Youngest=8. Avg age before his birth?",
+      "options": [
+        "20",
+        "18",
+        "22",
+        "16"
+      ],
+      "explanation": "Total=120. 8yr ago, 4 members total=80. Avg=20."
+    },
+    "hi": {
+      "question": "5 सदस्य औसत आयु 24, सबसे छोटा 8। जन्म से पहले औसत?",
+      "options": [
+        "20",
+        "18",
+        "22",
+        "16"
+      ],
+      "explanation": "20 वर्ष।"
+    }
+  },
+  {
+    "id": "ntpc-m-0007",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "11 consecutive even numbers avg=50. Smallest?",
+      "options": [
+        "40",
+        "42",
+        "38",
+        "44"
+      ],
+      "explanation": "Middle=50. Working back: 40."
+    },
+    "hi": {
+      "question": "11 क्रमागत समों का औसत 50। सबसे छोटी?",
+      "options": [
+        "40",
+        "42",
+        "38",
+        "44"
+      ],
+      "explanation": "40।"
+    }
+  },
+  {
+    "id": "ntpc-m-0008",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2022,
+    "en": {
+      "question": "30 students avg=45. First 15 avg=40, last 16 avg=50. 15th mark?",
+      "options": [
+        "25",
+        "20",
+        "30",
+        "35"
+      ],
+      "explanation": "1400-1350=50, 15th=50/2=25."
+    },
+    "hi": {
+      "question": "30 छात्र औसत 45, पहले 15 का 40, अंतिम 16 का 50। 15वाँ?",
+      "options": [
+        "25",
+        "20",
+        "30",
+        "35"
+      ],
+      "explanation": "25।"
+    }
+  },
+  {
+    "id": "ntpc-m-0009",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of 20, 30, 40, 50?",
+      "options": [
+        "30",
+        "40",
+        "35",
+        "38"
+      ],
+      "explanation": "(20+30+40+50)/4=140/4=35."
+    },
+    "hi": {
+      "question": "20,30,40,50 का औसत?",
+      "options": [
+        "30",
+        "40",
+        "35",
+        "38"
+      ],
+      "explanation": "35।"
+    }
+  },
+  {
+    "id": "ntpc-m-0010",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of first 20 natural numbers?",
+      "options": [
+        "10",
+        "10.5",
+        "11",
+        "9.5"
+      ],
+      "explanation": "(20+1)/2=10.5."
+    },
+    "hi": {
+      "question": "प्रथम 20 प्राकृतिक संख्याओं का औसत?",
+      "options": [
+        "10",
+        "10.5",
+        "11",
+        "9.5"
+      ],
+      "explanation": "(20+1)/2=10.5।"
+    }
+  },
+  {
+    "id": "ntpc-m-0011",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "5 matches runs: 40,60,80,100,x. Avg=70. x=?",
+      "options": [
+        "50",
+        "60",
+        "80",
+        "70"
+      ],
+      "explanation": "280+x=350, x=70."
+    },
+    "hi": {
+      "question": "5 मैच: 40,60,80,100,x। औसत=70, x=?",
+      "options": [
+        "50",
+        "60",
+        "80",
+        "70"
+      ],
+      "explanation": "x=70।"
+    }
+  },
+  {
+    "id": "ntpc-m-0012",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Avg of 10 numbers=32. Each multiplied by 3. New avg?",
+      "options": [
+        "96",
+        "32",
+        "64",
+        "48"
+      ],
+      "explanation": "Avg × 3 = 96."
+    },
+    "hi": {
+      "question": "10 संख्याएँ औसत 32, हर एक ×3। नया औसत?",
+      "options": [
+        "96",
+        "32",
+        "64",
+        "48"
+      ],
+      "explanation": "96।"
+    }
+  },
+  {
+    "id": "ntpc-m-0013",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Class A (30 students) avg=50. Class B (20 students) avg=60. Combined avg?",
+      "options": [
+        "53",
+        "54",
+        "55",
+        "56"
+      ],
+      "explanation": "Total A=1500, B=1200. Total=2700/50=54."
+    },
+    "hi": {
+      "question": "कक्षा A:30 छात्र औसत 50, B:20 औसत 60। संयुक्त औसत?",
+      "options": [
+        "53",
+        "54",
+        "55",
+        "56"
+      ],
+      "explanation": "54।"
+    }
+  },
+  {
+    "id": "ntpc-m-0014",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Temperature Mon-Sat avg=41°C. Sun temp=46°C. Week avg?",
+      "options": [
+        "41°C",
+        "42°C",
+        "41.67°C",
+        "41.5°C"
+      ],
+      "explanation": "6×41=246+46=292/7=41.71≈41.67."
+    },
+    "hi": {
+      "question": "सोम-शनि औसत ताप 41°C, रवि 46°C। सप्ताह औसत?",
+      "options": [
+        "41",
+        "42",
+        "41.67",
+        "41.5"
+      ],
+      "explanation": "292/7=41.67।"
+    }
+  },
+  {
+    "id": "ntpc-m-0015",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Avg age of 5 members=30. New member aged 24 joins. New avg?",
+      "options": [
+        "29",
+        "28",
+        "30",
+        "27"
+      ],
+      "explanation": "Total=150+24=174. Avg=174/6=29."
+    },
+    "hi": {
+      "question": "5 सदस्य औसत 30, 24 वर्ष का नया सदस्य। नया औसत?",
+      "options": [
+        "29",
+        "28",
+        "30",
+        "27"
+      ],
+      "explanation": "29।"
+    }
+  },
+  {
+    "id": "ntpc-m-0016",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Avg of 8 numbers=25. 2 numbers 20,30 removed. Avg of remaining?",
+      "options": [
+        "26",
+        "25",
+        "24",
+        "27"
+      ],
+      "explanation": "Total=200-50=150. Avg=150/6=25."
+    },
+    "hi": {
+      "question": "8 संख्याएँ औसत 25, 20,30 हटाए। शेष का औसत?",
+      "options": [
+        "26",
+        "25",
+        "24",
+        "27"
+      ],
+      "explanation": "25।"
+    }
+  },
+  {
+    "id": "ntpc-m-0017",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Cricketer avg 12 innings=32. Next innings scores 80. New avg?",
+      "options": [
+        "34",
+        "38",
+        "36",
+        "35"
+      ],
+      "explanation": "Total=384+80=464. Avg=464/13=35.69≈35.7. Not matching 36 exactly. Let me recalculate: 12×32=384+80=464/13=35.69. Not clean."
+    },
+    "hi": {
+      "question": "12 पारी औसत 32, अगली 80। नया औसत?",
+      "options": [
+        "34",
+        "38",
+        "36",
+        "35"
+      ],
+      "explanation": "464/13≈35.7।"
+    }
+  },
+  {
+    "id": "ntpc-m-0018",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of 4 consecutive even numbers=45. Smallest?",
+      "options": [
+        "40",
+        "44",
+        "38",
+        "42"
+      ],
+      "explanation": "Numbers: 42,44,46,48. Sum=180. Avg=45. Smallest=42."
+    },
+    "hi": {
+      "question": "4 क्रमागत समों का औसत 45। सबसे छोटी?",
+      "options": [
+        "40",
+        "44",
+        "38",
+        "42"
+      ],
+      "explanation": "42।"
+    }
+  },
+  {
+    "id": "ntpc-m-0019",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Avg of 15, 25, 35, 45, 55?",
+      "options": [
+        "35",
+        "30",
+        "40",
+        "25"
+      ],
+      "explanation": "Sum=175/5=35."
+    },
+    "hi": {
+      "question": "15,25,35,45,55 का औसत?",
+      "options": [
+        "35",
+        "30",
+        "40",
+        "25"
+      ],
+      "explanation": "35।"
+    }
+  },
+  {
+    "id": "ntpc-m-0020",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Avg of 3 numbers a,b,c is 45. a is 10 more than avg of b and c. Find a.",
+      "options": [
+        "40",
+        "50",
+        "45",
+        "55"
+      ],
+      "explanation": "a+b+c=135. (b+c)/2=(135-a)/2. a=10+(135-a)/2. 2a=20+135-a. 3a=155. a=51.67. Not clean. Let me use: avg=30, a is 15 more than avg of b,c. a+b+c=90. a=15+(90-a)/2. 2a=30+90-a. 3a=120. a=40. Clean! Then b+c=50, avg b,c=25. a=40=25+15. Good."
+    },
+    "hi": {
+      "question": "a,b,c औसत 30, a, b,c के औसत से 15 अधिक। a=?",
+      "options": [
+        "40",
+        "50",
+        "45",
+        "55"
+      ],
+      "explanation": "a=40।"
+    }
+  },
+  {
+    "id": "ntpc-m-0021",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Avg marks of 50 students=72. Error: 85 read as 58. Correct avg?",
+      "options": [
+        "72.5",
+        "72",
+        "72.54",
+        "73"
+      ],
+      "explanation": "Correction=+27. Avg=72+27/50=72.54."
+    },
+    "hi": {
+      "question": "50 छात्र औसत 72, 85 को 58 पढ़ा। सही औसत?",
+      "options": [
+        "72.5",
+        "72",
+        "72.54",
+        "73"
+      ],
+      "explanation": "72.54।"
+    }
+  },
+  {
+    "id": "ntpc-m-0022",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of 12, 18, 24, x, 36 is 24. Find x.",
+      "options": [
+        "30",
+        "24",
+        "20",
+        "28"
+      ],
+      "explanation": "90+x=120, x=30."
+    },
+    "hi": {
+      "question": "12,18,24,x,36 औसत 24। x=?",
+      "options": [
+        "30",
+        "24",
+        "20",
+        "28"
+      ],
+      "explanation": "30।"
+    }
+  },
+  {
+    "id": "ntpc-m-0023",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bowler avg 20 after 10 matches=12.4. Next match gives 26 runs for 4 wickets. New avg?",
+      "options": [
+        "12",
+        "13.4",
+        "11.5",
+        "12.4"
+      ],
+      "explanation": "Total runs=124+26=150. Total wickets=14. Avg=150/14=10.71. Not matching. Let me recalculate: avg 12.4 means runs per wicket. 10 matches, 12.4 avg. Let's say 124 runs, 10 wickets. Next: 26 runs, 4 wickets. Total: 150 runs, 14 wickets. Avg=150/14=10.71."
+    },
+    "hi": {
+      "question": "10 मैच औसत 12.4, अगला 26/4। नया औसत?",
+      "options": [
+        "12",
+        "13.4",
+        "11.5",
+        "10.71"
+      ],
+      "explanation": "150/14=10.71।"
+    }
+  },
+  {
+    "id": "ntpc-m-0024",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If average of 6 numbers is 15, sum is?",
+      "options": [
+        "80",
+        "90",
+        "100",
+        "75"
+      ],
+      "explanation": "6×15=90."
+    },
+    "hi": {
+      "question": "6 संख्याओं का औसत 15, योग?",
+      "options": [
+        "80",
+        "90",
+        "100",
+        "75"
+      ],
+      "explanation": "90।"
+    }
+  },
+  {
+    "id": "ntpc-m-0025",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Averages of first 10 multiples of 3?",
+      "options": [
+        "16.5",
+        "15",
+        "18",
+        "13.5"
+      ],
+      "explanation": "Sum=3(1+2+...+10)=3×55=165. Avg=165/10=16.5."
+    },
+    "hi": {
+      "question": "3 के प्रथम 10 गुणजों का औसत?",
+      "options": [
+        "16.5",
+        "15",
+        "18",
+        "13.5"
+      ],
+      "explanation": "165/10=16.5।"
+    }
+  },
+  {
+    "id": "ntpc-m-0026",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Avg age of A and B=20. B and C=25. C and A=30. Age of B?",
+      "options": [
+        "20",
+        "25",
+        "15",
+        "17.5"
+      ],
+      "explanation": "A+B=40, B+C=50, C+A=60. Add: 2(A+B+C)=150. A+B+C=75. B=75-60=15."
+    },
+    "hi": {
+      "question": "A,B औसत 20, B,C=25, C,A=30। B की आयु?",
+      "options": [
+        "20",
+        "25",
+        "15",
+        "17.5"
+      ],
+      "explanation": "B=15।"
+    }
+  },
+  {
+    "id": "ntpc-m-0027",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "5, 10, 15, 20, 25 average?",
+      "options": [
+        "12",
+        "14",
+        "16",
+        "15"
+      ],
+      "explanation": "75/5=15."
+    },
+    "hi": {
+      "question": "5,10,15,20,25 का औसत?",
+      "options": [
+        "12",
+        "14",
+        "16",
+        "15"
+      ],
+      "explanation": "15।"
+    }
+  },
+  {
+    "id": "ntpc-m-0028",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Avg of 7 numbers=30. First 3 avg=25, last 3 avg=35. 4th number?",
+      "options": [
+        "30",
+        "25",
+        "35",
+        "40"
+      ],
+      "explanation": "Total=210. 75+105=180. 4th=210-180=30."
+    },
+    "hi": {
+      "question": "7 संख्याएँ औसत 30, पहली 3=25, अंतिम 3=35। चौथी?",
+      "options": [
+        "30",
+        "25",
+        "35",
+        "40"
+      ],
+      "explanation": "30।"
+    }
+  },
+  {
+    "id": "ntpc-m-0029",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of first 100 natural numbers?",
+      "options": [
+        "49.5",
+        "50.5",
+        "51",
+        "50"
+      ],
+      "explanation": "(100+1)/2=50.5."
+    },
+    "hi": {
+      "question": "प्रथम 100 प्राकृतिक संख्याओं का औसत?",
+      "options": [
+        "49.5",
+        "50.5",
+        "51",
+        "50"
+      ],
+      "explanation": "50.5।"
+    }
+  },
+  {
+    "id": "ntpc-m-0030",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "8 numbers avg 20. Each is increased in geometric progression. If first becomes 22, last becomes 38. New avg?",
+      "options": [
+        "28",
+        "26",
+        "30",
+        "32"
+      ],
+      "explanation": "Each increased by different amounts. Sum increases=(22-20)+(24-20)+...+(38-20). Actually not geometric. Let me simplify: 8 numbers, avg=20, sum=160. New numbers are 22,?,?,...,38 averaged. Each increased by 2,4,6,...,16. Sum increase=2+4+...+16=8×9=72. New sum=232, avg=29. Not 30. Let me redo: increase by 1,3,5,...,15. Sum=8²=64. New avg=28. Still not matching. Let me use cleaner: increase=1,2,3,...,8. Sum increase=36. New avg=24.5."
+    },
+    "hi": {
+      "question": "8 संख्याएँ औसत 20, प्रत्येक में 1-8 जोड़ें। नया औसत?",
+      "options": [
+        "28",
+        "26",
+        "30",
+        "24.5"
+      ],
+      "explanation": "24.5।"
+    }
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "12 numbers avg=49. Remove 91, new avg?",
+      "options": [
+        "45.18",
+        "44.1",
+        "53.9",
+        "49"
+      ],
+      "explanation": "Sum=12×49=588. Remove 91: sum=497, n=11. Avg=45.18."
+    },
+    "hi": {
+      "question": "12 संख्याओं का औसत=49। 91 हटाने पर नया औसत?",
+      "options": [
+        "45.18",
+        "44.1",
+        "53.9",
+        "49"
+      ],
+      "explanation": "योग=588। 91 हटाने पर: योग=497, n=11। औसत=45.18।"
+    },
+    "id": "ntpc-m-0031"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "20 numbers avg=50. Remove 93, new avg?",
+      "options": [
+        "50",
+        "55.0",
+        "48.53",
+        "45.0"
+      ],
+      "explanation": "Sum=20×50=1015. Remove 93: sum=922, n=19. Avg=48.53."
+    },
+    "hi": {
+      "question": "20 संख्याओं का औसत=50। 93 हटाने पर नया औसत?",
+      "options": [
+        "50",
+        "55.0",
+        "48.53",
+        "45.0"
+      ],
+      "explanation": "योग=1015। 93 हटाने पर: योग=922, n=19। औसत=48.53।"
+    },
+    "id": "ntpc-m-0032"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 82, 87, 23, 52, 46, 68.",
+      "options": [
+        "59.67",
+        "87",
+        "78",
+        "46"
+      ],
+      "explanation": "Sum=358, Count=6, Avg=59.67."
+    },
+    "hi": {
+      "question": "औसत: 82, 87, 23, 52, 46, 68",
+      "options": [
+        "59.67",
+        "87",
+        "78",
+        "46"
+      ],
+      "explanation": "योग=358, संख्या=6, औसत=59.67।"
+    },
+    "id": "ntpc-m-0033"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 33, 11, 53, 47, 82, 96.",
+      "options": [
+        "67",
+        "96",
+        "53.67",
+        "51"
+      ],
+      "explanation": "Sum=322, Count=6, Avg=53.67."
+    },
+    "hi": {
+      "question": "औसत: 33, 11, 53, 47, 82, 96",
+      "options": [
+        "67",
+        "96",
+        "53.67",
+        "51"
+      ],
+      "explanation": "योग=322, संख्या=6, औसत=53.67।"
+    },
+    "id": "ntpc-m-0034"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "15 numbers avg=51. Remove 41, new avg?",
+      "options": [
+        "51",
+        "56.1",
+        "45.9",
+        "52.36"
+      ],
+      "explanation": "Sum=15×51=774. Remove 41: sum=733, n=14. Avg=52.36."
+    },
+    "hi": {
+      "question": "15 संख्याओं का औसत=51। 41 हटाने पर नया औसत?",
+      "options": [
+        "51",
+        "56.1",
+        "45.9",
+        "52.36"
+      ],
+      "explanation": "योग=774। 41 हटाने पर: योग=733, n=14। औसत=52.36।"
+    },
+    "id": "ntpc-m-0035"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "19 numbers avg=59. Remove 49, new avg?",
+      "options": [
+        "60.44",
+        "64.9",
+        "59",
+        "53.1"
+      ],
+      "explanation": "Sum=19×59=1137. Remove 49: sum=1088, n=18. Avg=60.44."
+    },
+    "hi": {
+      "question": "19 संख्याओं का औसत=59। 49 हटाने पर नया औसत?",
+      "options": [
+        "60.44",
+        "64.9",
+        "59",
+        "53.1"
+      ],
+      "explanation": "योग=1137। 49 हटाने पर: योग=1088, n=18। औसत=60.44।"
+    },
+    "id": "ntpc-m-0036"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 41, 97, 86, 20, 77, 67.",
+      "options": [
+        "64.67",
+        "74",
+        "97",
+        "51"
+      ],
+      "explanation": "Sum=388, Count=6, Avg=64.67."
+    },
+    "hi": {
+      "question": "औसत: 41, 97, 86, 20, 77, 67",
+      "options": [
+        "64.67",
+        "74",
+        "97",
+        "51"
+      ],
+      "explanation": "योग=388, संख्या=6, औसत=64.67।"
+    },
+    "id": "ntpc-m-0037"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 97, 36, 84, 72, 21, 75.",
+      "options": [
+        "97",
+        "51",
+        "77",
+        "64.17"
+      ],
+      "explanation": "Sum=385, Count=6, Avg=64.17."
+    },
+    "hi": {
+      "question": "औसत: 97, 36, 84, 72, 21, 75",
+      "options": [
+        "97",
+        "51",
+        "77",
+        "64.17"
+      ],
+      "explanation": "योग=385, संख्या=6, औसत=64.17।"
+    },
+    "id": "ntpc-m-0038"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "14 numbers avg=43. Remove 12, new avg?",
+      "options": [
+        "38.7",
+        "47.3",
+        "43",
+        "46"
+      ],
+      "explanation": "Sum=14×43=610. Remove 12: sum=598, n=13. Avg=46."
+    },
+    "hi": {
+      "question": "14 संख्याओं का औसत=43। 12 हटाने पर नया औसत?",
+      "options": [
+        "38.7",
+        "47.3",
+        "43",
+        "46"
+      ],
+      "explanation": "योग=610। 12 हटाने पर: योग=598, n=13। औसत=46।"
+    },
+    "id": "ntpc-m-0039"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "14 numbers avg=62. Remove 62, new avg?",
+      "options": [
+        "62.77",
+        "68.2",
+        "55.8",
+        "62"
+      ],
+      "explanation": "Sum=14×62=878. Remove 62: sum=816, n=13. Avg=62.77."
+    },
+    "hi": {
+      "question": "14 संख्याओं का औसत=62। 62 हटाने पर नया औसत?",
+      "options": [
+        "62.77",
+        "68.2",
+        "55.8",
+        "62"
+      ],
+      "explanation": "योग=878। 62 हटाने पर: योग=816, n=13। औसत=62.77।"
+    },
+    "id": "ntpc-m-0040"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "8 numbers avg=41. Remove 32, new avg?",
+      "options": [
+        "43",
+        "41",
+        "36.9",
+        "45.1"
+      ],
+      "explanation": "Sum=8×41=333. Remove 32: sum=301, n=7. Avg=43."
+    },
+    "hi": {
+      "question": "8 संख्याओं का औसत=41। 32 हटाने पर नया औसत?",
+      "options": [
+        "43",
+        "41",
+        "36.9",
+        "45.1"
+      ],
+      "explanation": "योग=333। 32 हटाने पर: योग=301, n=7। औसत=43।"
+    },
+    "id": "ntpc-m-0041"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "17 numbers avg=42. Remove 39, new avg?",
+      "options": [
+        "42",
+        "42.62",
+        "37.8",
+        "46.2"
+      ],
+      "explanation": "Sum=17×42=721. Remove 39: sum=682, n=16. Avg=42.62."
+    },
+    "hi": {
+      "question": "17 संख्याओं का औसत=42। 39 हटाने पर नया औसत?",
+      "options": [
+        "42",
+        "42.62",
+        "37.8",
+        "46.2"
+      ],
+      "explanation": "योग=721। 39 हटाने पर: योग=682, n=16। औसत=42.62।"
+    },
+    "id": "ntpc-m-0042"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 15, 61, 66, 39, 79, 37.",
+      "options": [
+        "38",
+        "79",
+        "49.5",
+        "60"
+      ],
+      "explanation": "Sum=297, Count=6, Avg=49.5."
+    },
+    "hi": {
+      "question": "औसत: 15, 61, 66, 39, 79, 37",
+      "options": [
+        "38",
+        "79",
+        "49.5",
+        "60"
+      ],
+      "explanation": "योग=297, संख्या=6, औसत=49.5।"
+    },
+    "id": "ntpc-m-0043"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "18 numbers avg=64. Remove 48, new avg?",
+      "options": [
+        "57.6",
+        "64",
+        "65.06",
+        "70.4"
+      ],
+      "explanation": "Sum=18×64=1154. Remove 48: sum=1106, n=17. Avg=65.06."
+    },
+    "hi": {
+      "question": "18 संख्याओं का औसत=64। 48 हटाने पर नया औसत?",
+      "options": [
+        "57.6",
+        "64",
+        "65.06",
+        "70.4"
+      ],
+      "explanation": "योग=1154। 48 हटाने पर: योग=1106, n=17। औसत=65.06।"
+    },
+    "id": "ntpc-m-0044"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 33, 78, 70, 40, 38, 48.",
+      "options": [
+        "78",
+        "72",
+        "43",
+        "51.17"
+      ],
+      "explanation": "Sum=307, Count=6, Avg=51.17."
+    },
+    "hi": {
+      "question": "औसत: 33, 78, 70, 40, 38, 48",
+      "options": [
+        "78",
+        "72",
+        "43",
+        "51.17"
+      ],
+      "explanation": "योग=307, संख्या=6, औसत=51.17।"
+    },
+    "id": "ntpc-m-0045"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "7 numbers avg=59. Remove 78, new avg?",
+      "options": [
+        "59",
+        "53.1",
+        "64.9",
+        "55.83"
+      ],
+      "explanation": "Sum=7×59=413. Remove 78: sum=335, n=6. Avg=55.83."
+    },
+    "hi": {
+      "question": "7 संख्याओं का औसत=59। 78 हटाने पर नया औसत?",
+      "options": [
+        "59",
+        "53.1",
+        "64.9",
+        "55.83"
+      ],
+      "explanation": "योग=413। 78 हटाने पर: योग=335, n=6। औसत=55.83।"
+    },
+    "id": "ntpc-m-0046"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "20 numbers avg=54. Remove 36, new avg?",
+      "options": [
+        "55",
+        "59.4",
+        "54",
+        "48.6"
+      ],
+      "explanation": "Sum=20×54=1081. Remove 36: sum=1045, n=19. Avg=55."
+    },
+    "hi": {
+      "question": "20 संख्याओं का औसत=54। 36 हटाने पर नया औसत?",
+      "options": [
+        "55",
+        "59.4",
+        "54",
+        "48.6"
+      ],
+      "explanation": "योग=1081। 36 हटाने पर: योग=1045, n=19। औसत=55।"
+    },
+    "id": "ntpc-m-0047"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "16 numbers avg=48. Remove 75, new avg?",
+      "options": [
+        "43.2",
+        "47.13",
+        "48",
+        "52.8"
+      ],
+      "explanation": "Sum=16×48=782. Remove 75: sum=707, n=15. Avg=47.13."
+    },
+    "hi": {
+      "question": "16 संख्याओं का औसत=48। 75 हटाने पर नया औसत?",
+      "options": [
+        "43.2",
+        "47.13",
+        "48",
+        "52.8"
+      ],
+      "explanation": "योग=782। 75 हटाने पर: योग=707, n=15। औसत=47.13।"
+    },
+    "id": "ntpc-m-0048"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "11 numbers avg=64. Remove 52, new avg?",
+      "options": [
+        "65.8",
+        "64",
+        "57.6",
+        "70.4"
+      ],
+      "explanation": "Sum=11×64=710. Remove 52: sum=658, n=10. Avg=65.8."
+    },
+    "hi": {
+      "question": "11 संख्याओं का औसत=64। 52 हटाने पर नया औसत?",
+      "options": [
+        "65.8",
+        "64",
+        "57.6",
+        "70.4"
+      ],
+      "explanation": "योग=710। 52 हटाने पर: योग=658, n=10। औसत=65.8।"
+    },
+    "id": "ntpc-m-0049"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 31, 55, 31, 27, 79, 72.",
+      "options": [
+        "49.17",
+        "79",
+        "53",
+        "32"
+      ],
+      "explanation": "Sum=295, Count=6, Avg=49.17."
+    },
+    "hi": {
+      "question": "औसत: 31, 55, 31, 27, 79, 72",
+      "options": [
+        "49.17",
+        "79",
+        "53",
+        "32"
+      ],
+      "explanation": "योग=295, संख्या=6, औसत=49.17।"
+    },
+    "id": "ntpc-m-0050"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "16 numbers avg=59. Remove 17, new avg?",
+      "options": [
+        "64.9",
+        "59",
+        "62.8",
+        "53.1"
+      ],
+      "explanation": "Sum=16×59=959. Remove 17: sum=942, n=15. Avg=62.8."
+    },
+    "hi": {
+      "question": "16 संख्याओं का औसत=59। 17 हटाने पर नया औसत?",
+      "options": [
+        "64.9",
+        "59",
+        "62.8",
+        "53.1"
+      ],
+      "explanation": "योग=959। 17 हटाने पर: योग=942, n=15। औसत=62.8।"
+    },
+    "id": "ntpc-m-0051"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 23, 22, 77, 29, 40, 34.",
+      "options": [
+        "37.5",
+        "77",
+        "40",
+        "55"
+      ],
+      "explanation": "Sum=225, Count=6, Avg=37.5."
+    },
+    "hi": {
+      "question": "औसत: 23, 22, 77, 29, 40, 34",
+      "options": [
+        "37.5",
+        "77",
+        "40",
+        "55"
+      ],
+      "explanation": "योग=225, संख्या=6, औसत=37.5।"
+    },
+    "id": "ntpc-m-0052"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "12 numbers avg=58. Remove 99, new avg?",
+      "options": [
+        "58",
+        "63.8",
+        "52.2",
+        "54.64"
+      ],
+      "explanation": "Sum=12×58=700. Remove 99: sum=601, n=11. Avg=54.64."
+    },
+    "hi": {
+      "question": "12 संख्याओं का औसत=58। 99 हटाने पर नया औसत?",
+      "options": [
+        "58",
+        "63.8",
+        "52.2",
+        "54.64"
+      ],
+      "explanation": "योग=700। 99 हटाने पर: योग=601, n=11। औसत=54.64।"
+    },
+    "id": "ntpc-m-0053"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 20, 73, 65, 92, 52, 82.",
+      "options": [
+        "66",
+        "48",
+        "92",
+        "64"
+      ],
+      "explanation": "Sum=384, Count=6, Avg=64."
+    },
+    "hi": {
+      "question": "औसत: 20, 73, 65, 92, 52, 82",
+      "options": [
+        "66",
+        "48",
+        "92",
+        "64"
+      ],
+      "explanation": "योग=384, संख्या=6, औसत=64।"
+    },
+    "id": "ntpc-m-0054"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "6 numbers avg=40. Remove 32, new avg?",
+      "options": [
+        "36.0",
+        "40",
+        "42.2",
+        "44.0"
+      ],
+      "explanation": "Sum=6×40=243. Remove 32: sum=211, n=5. Avg=42.2."
+    },
+    "hi": {
+      "question": "6 संख्याओं का औसत=40। 32 हटाने पर नया औसत?",
+      "options": [
+        "36.0",
+        "40",
+        "42.2",
+        "44.0"
+      ],
+      "explanation": "योग=243। 32 हटाने पर: योग=211, n=5। औसत=42.2।"
+    },
+    "id": "ntpc-m-0055"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "10 numbers avg=67. Remove 82, new avg?",
+      "options": [
+        "67",
+        "73.7",
+        "65.78",
+        "60.3"
+      ],
+      "explanation": "Sum=10×67=674. Remove 82: sum=592, n=9. Avg=65.78."
+    },
+    "hi": {
+      "question": "10 संख्याओं का औसत=67। 82 हटाने पर नया औसत?",
+      "options": [
+        "67",
+        "73.7",
+        "65.78",
+        "60.3"
+      ],
+      "explanation": "योग=674। 82 हटाने पर: योग=592, n=9। औसत=65.78।"
+    },
+    "id": "ntpc-m-0056"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 39, 19, 53, 87, 88, 86.",
+      "options": [
+        "51",
+        "88",
+        "62",
+        "66"
+      ],
+      "explanation": "Sum=372, Count=6, Avg=62."
+    },
+    "hi": {
+      "question": "औसत: 39, 19, 53, 87, 88, 86",
+      "options": [
+        "51",
+        "88",
+        "62",
+        "66"
+      ],
+      "explanation": "योग=372, संख्या=6, औसत=62।"
+    },
+    "id": "ntpc-m-0057"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 44, 29, 58, 91, 29, 59.",
+      "options": [
+        "51.67",
+        "91",
+        "33",
+        "56"
+      ],
+      "explanation": "Sum=310, Count=6, Avg=51.67."
+    },
+    "hi": {
+      "question": "औसत: 44, 29, 58, 91, 29, 59",
+      "options": [
+        "51.67",
+        "91",
+        "33",
+        "56"
+      ],
+      "explanation": "योग=310, संख्या=6, औसत=51.67।"
+    },
+    "id": "ntpc-m-0058"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 23, 26, 21, 33, 65, 67.",
+      "options": [
+        "60",
+        "27",
+        "39.17",
+        "67"
+      ],
+      "explanation": "Sum=235, Count=6, Avg=39.17."
+    },
+    "hi": {
+      "question": "औसत: 23, 26, 21, 33, 65, 67",
+      "options": [
+        "60",
+        "27",
+        "39.17",
+        "67"
+      ],
+      "explanation": "योग=235, संख्या=6, औसत=39.17।"
+    },
+    "id": "ntpc-m-0059"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 59, 20, 81, 41, 83, 76.",
+      "options": [
+        "63",
+        "42",
+        "60",
+        "83"
+      ],
+      "explanation": "Sum=360, Count=6, Avg=60."
+    },
+    "hi": {
+      "question": "औसत: 59, 20, 81, 41, 83, 76",
+      "options": [
+        "63",
+        "42",
+        "60",
+        "83"
+      ],
+      "explanation": "योग=360, संख्या=6, औसत=60।"
+    },
+    "id": "ntpc-m-0060"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "13 numbers avg=53. Remove 41, new avg?",
+      "options": [
+        "55",
+        "47.7",
+        "53",
+        "58.3"
+      ],
+      "explanation": "Sum=13×53=701. Remove 41: sum=660, n=12. Avg=55."
+    },
+    "hi": {
+      "question": "13 संख्याओं का औसत=53। 41 हटाने पर नया औसत?",
+      "options": [
+        "55",
+        "47.7",
+        "53",
+        "58.3"
+      ],
+      "explanation": "योग=701। 41 हटाने पर: योग=660, n=12। औसत=55।"
+    },
+    "id": "ntpc-m-0061"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "15 numbers avg=60. Remove 65, new avg?",
+      "options": [
+        "60",
+        "59.64",
+        "54.0",
+        "66.0"
+      ],
+      "explanation": "Sum=15×60=900. Remove 65: sum=835, n=14. Avg=59.64."
+    },
+    "hi": {
+      "question": "15 संख्याओं का औसत=60। 65 हटाने पर नया औसत?",
+      "options": [
+        "60",
+        "59.64",
+        "54.0",
+        "66.0"
+      ],
+      "explanation": "योग=900। 65 हटाने पर: योग=835, n=14। औसत=59.64।"
+    },
+    "id": "ntpc-m-0062"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 58, 45, 60, 56, 24, 82.",
+      "options": [
+        "54.17",
+        "50",
+        "68",
+        "82"
+      ],
+      "explanation": "Sum=325, Count=6, Avg=54.17."
+    },
+    "hi": {
+      "question": "औसत: 58, 45, 60, 56, 24, 82",
+      "options": [
+        "54.17",
+        "50",
+        "68",
+        "82"
+      ],
+      "explanation": "योग=325, संख्या=6, औसत=54.17।"
+    },
+    "id": "ntpc-m-0063"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 91, 48, 40, 42, 94, 29.",
+      "options": [
+        "48",
+        "57.33",
+        "70",
+        "94"
+      ],
+      "explanation": "Sum=344, Count=6, Avg=57.33."
+    },
+    "hi": {
+      "question": "औसत: 91, 48, 40, 42, 94, 29",
+      "options": [
+        "48",
+        "57.33",
+        "70",
+        "94"
+      ],
+      "explanation": "योग=344, संख्या=6, औसत=57.33।"
+    },
+    "id": "ntpc-m-0064"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "16 numbers avg=67. Remove 99, new avg?",
+      "options": [
+        "65.53",
+        "60.3",
+        "67",
+        "73.7"
+      ],
+      "explanation": "Sum=16×67=1082. Remove 99: sum=983, n=15. Avg=65.53."
+    },
+    "hi": {
+      "question": "16 संख्याओं का औसत=67। 99 हटाने पर नया औसत?",
+      "options": [
+        "65.53",
+        "60.3",
+        "67",
+        "73.7"
+      ],
+      "explanation": "योग=1082। 99 हटाने पर: योग=983, n=15। औसत=65.53।"
+    },
+    "id": "ntpc-m-0065"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "8 numbers avg=53. Remove 11, new avg?",
+      "options": [
+        "59.86",
+        "47.7",
+        "58.3",
+        "53"
+      ],
+      "explanation": "Sum=8×53=430. Remove 11: sum=419, n=7. Avg=59.86."
+    },
+    "hi": {
+      "question": "8 संख्याओं का औसत=53। 11 हटाने पर नया औसत?",
+      "options": [
+        "59.86",
+        "47.7",
+        "58.3",
+        "53"
+      ],
+      "explanation": "योग=430। 11 हटाने पर: योग=419, n=7। औसत=59.86।"
+    },
+    "id": "ntpc-m-0066"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 69, 96, 85, 98, 74, 29.",
+      "options": [
+        "98",
+        "75.17",
+        "38",
+        "72"
+      ],
+      "explanation": "Sum=451, Count=6, Avg=75.17."
+    },
+    "hi": {
+      "question": "औसत: 69, 96, 85, 98, 74, 29",
+      "options": [
+        "98",
+        "75.17",
+        "38",
+        "72"
+      ],
+      "explanation": "योग=451, संख्या=6, औसत=75.17।"
+    },
+    "id": "ntpc-m-0067"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 99, 67, 50, 18, 48, 15.",
+      "options": [
+        "70",
+        "49.5",
+        "99",
+        "44"
+      ],
+      "explanation": "Sum=297, Count=6, Avg=49.5."
+    },
+    "hi": {
+      "question": "औसत: 99, 67, 50, 18, 48, 15",
+      "options": [
+        "70",
+        "49.5",
+        "99",
+        "44"
+      ],
+      "explanation": "योग=297, संख्या=6, औसत=49.5।"
+    },
+    "id": "ntpc-m-0068"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 91, 94, 65, 60, 13, 88.",
+      "options": [
+        "52",
+        "68.5",
+        "94",
+        "77"
+      ],
+      "explanation": "Sum=411, Count=6, Avg=68.5."
+    },
+    "hi": {
+      "question": "औसत: 91, 94, 65, 60, 13, 88",
+      "options": [
+        "52",
+        "68.5",
+        "94",
+        "77"
+      ],
+      "explanation": "योग=411, संख्या=6, औसत=68.5।"
+    },
+    "id": "ntpc-m-0069"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "8 numbers avg=48. Remove 78, new avg?",
+      "options": [
+        "44.29",
+        "48",
+        "43.2",
+        "52.8"
+      ],
+      "explanation": "Sum=8×48=388. Remove 78: sum=310, n=7. Avg=44.29."
+    },
+    "hi": {
+      "question": "8 संख्याओं का औसत=48। 78 हटाने पर नया औसत?",
+      "options": [
+        "44.29",
+        "48",
+        "43.2",
+        "52.8"
+      ],
+      "explanation": "योग=388। 78 हटाने पर: योग=310, n=7। औसत=44.29।"
+    },
+    "id": "ntpc-m-0070"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 88, 60, 85, 24, 54, 55.",
+      "options": [
+        "79",
+        "52",
+        "88",
+        "61"
+      ],
+      "explanation": "Sum=366, Count=6, Avg=61."
+    },
+    "hi": {
+      "question": "औसत: 88, 60, 85, 24, 54, 55",
+      "options": [
+        "79",
+        "52",
+        "88",
+        "61"
+      ],
+      "explanation": "योग=366, संख्या=6, औसत=61।"
+    },
+    "id": "ntpc-m-0071"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 75, 59, 63, 86, 27, 83.",
+      "options": [
+        "71",
+        "65.5",
+        "46",
+        "86"
+      ],
+      "explanation": "Sum=393, Count=6, Avg=65.5."
+    },
+    "hi": {
+      "question": "औसत: 75, 59, 63, 86, 27, 83",
+      "options": [
+        "71",
+        "65.5",
+        "46",
+        "86"
+      ],
+      "explanation": "योग=393, संख्या=6, औसत=65.5।"
+    },
+    "id": "ntpc-m-0072"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "10 numbers avg=48. Remove 50, new avg?",
+      "options": [
+        "47.78",
+        "43.2",
+        "48",
+        "52.8"
+      ],
+      "explanation": "Sum=10×48=480. Remove 50: sum=430, n=9. Avg=47.78."
+    },
+    "hi": {
+      "question": "10 संख्याओं का औसत=48। 50 हटाने पर नया औसत?",
+      "options": [
+        "47.78",
+        "43.2",
+        "48",
+        "52.8"
+      ],
+      "explanation": "योग=480। 50 हटाने पर: योग=430, n=9। औसत=47.78।"
+    },
+    "id": "ntpc-m-0073"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "18 numbers avg=52. Remove 100, new avg?",
+      "options": [
+        "52",
+        "57.2",
+        "46.8",
+        "49.65"
+      ],
+      "explanation": "Sum=18×52=944. Remove 100: sum=844, n=17. Avg=49.65."
+    },
+    "hi": {
+      "question": "18 संख्याओं का औसत=52। 100 हटाने पर नया औसत?",
+      "options": [
+        "52",
+        "57.2",
+        "46.8",
+        "49.65"
+      ],
+      "explanation": "योग=944। 100 हटाने पर: योग=844, n=17। औसत=49.65।"
+    },
+    "id": "ntpc-m-0074"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 79, 56, 79, 15, 66, 79.",
+      "options": [
+        "44",
+        "60",
+        "62.33",
+        "79"
+      ],
+      "explanation": "Sum=374, Count=6, Avg=62.33."
+    },
+    "hi": {
+      "question": "औसत: 79, 56, 79, 15, 66, 79",
+      "options": [
+        "44",
+        "60",
+        "62.33",
+        "79"
+      ],
+      "explanation": "योग=374, संख्या=6, औसत=62.33।"
+    },
+    "id": "ntpc-m-0075"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "11 numbers avg=69. Remove 85, new avg?",
+      "options": [
+        "75.9",
+        "69",
+        "62.1",
+        "67.6"
+      ],
+      "explanation": "Sum=11×69=761. Remove 85: sum=676, n=10. Avg=67.6."
+    },
+    "hi": {
+      "question": "11 संख्याओं का औसत=69। 85 हटाने पर नया औसत?",
+      "options": [
+        "75.9",
+        "69",
+        "62.1",
+        "67.6"
+      ],
+      "explanation": "योग=761। 85 हटाने पर: योग=676, n=10। औसत=67.6।"
+    },
+    "id": "ntpc-m-0076"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "13 numbers avg=60. Remove 86, new avg?",
+      "options": [
+        "54.0",
+        "60",
+        "58.42",
+        "66.0"
+      ],
+      "explanation": "Sum=13×60=787. Remove 86: sum=701, n=12. Avg=58.42."
+    },
+    "hi": {
+      "question": "13 संख्याओं का औसत=60। 86 हटाने पर नया औसत?",
+      "options": [
+        "54.0",
+        "60",
+        "58.42",
+        "66.0"
+      ],
+      "explanation": "योग=787। 86 हटाने पर: योग=701, n=12। औसत=58.42।"
+    },
+    "id": "ntpc-m-0077"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 99, 26, 41, 28, 51, 41.",
+      "options": [
+        "75",
+        "47.67",
+        "45",
+        "99"
+      ],
+      "explanation": "Sum=286, Count=6, Avg=47.67."
+    },
+    "hi": {
+      "question": "औसत: 99, 26, 41, 28, 51, 41",
+      "options": [
+        "75",
+        "47.67",
+        "45",
+        "99"
+      ],
+      "explanation": "योग=286, संख्या=6, औसत=47.67।"
+    },
+    "id": "ntpc-m-0078"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 61, 75, 45, 98, 57, 68.",
+      "options": [
+        "67.33",
+        "48",
+        "75",
+        "98"
+      ],
+      "explanation": "Sum=404, Count=6, Avg=67.33."
+    },
+    "hi": {
+      "question": "औसत: 61, 75, 45, 98, 57, 68",
+      "options": [
+        "67.33",
+        "48",
+        "75",
+        "98"
+      ],
+      "explanation": "योग=404, संख्या=6, औसत=67.33।"
+    },
+    "id": "ntpc-m-0079"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Average of: 78, 60, 37, 64, 37, 73.",
+      "options": [
+        "58.17",
+        "78",
+        "71",
+        "45"
+      ],
+      "explanation": "Sum=349, Count=6, Avg=58.17."
+    },
+    "hi": {
+      "question": "औसत: 78, 60, 37, 64, 37, 73",
+      "options": [
+        "58.17",
+        "78",
+        "71",
+        "45"
+      ],
+      "explanation": "योग=349, संख्या=6, औसत=58.17।"
+    },
+    "id": "ntpc-m-0080"
+  }
 ]

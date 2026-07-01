@@ -1,10 +1,2186 @@
 [
-  {"id":"groupd-s-0001","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"Which state of matter has definite volume but no definite shape?","options":["Solid","Liquid","Gas","Plasma"],"explanation":"Liquids have definite volume but take shape of container. Solids have both, gases have neither."},"hi":{"question":"पदार्थ की किस अवस्था का निश्चित आयतन लेकिन अनिश्चित आकार होता है?","options":["ठोस","द्रव","गैस","प्लाज़्मा"],"explanation":"द्रव का निश्चित आयतन होता है लेकिन बर्तन का आकार लेता है। ठोस में दोनों, गैस में कोई नहीं।"}},
-  {"id":"groupd-s-0002","correctOption":"B","difficulty":"easy","sourceYear":2023,"en":{"question":"Conversion of liquid to gas below boiling point is called:","options":["Boiling","Evaporation","Condensation","Sublimation"],"explanation":"Evaporation occurs at any temperature below boiling point, only at the surface."},"hi":{"question":"द्रव का क्वथनांक से नीचे गैस में बदलना क्या कहलाता है?","options":["क्वथन","वाष्पीकरण","संघनन","उर्ध्वपातन"],"explanation":"वाष्पीकरण क्वथनांक से नीचे किसी भी तापमान पर होता है, केवल सतह पर।"}},
-  {"id":"groupd-s-0003","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"Spreading of perfume smell is due to:","options":["Evaporation","Diffusion","Sublimation","Condensation"],"explanation":"Diffusion is movement of particles from higher to lower concentration region."},"hi":{"question":"इत्र की गंध का फैलना किसके कारण होता है?","options":["वाष्पीकरण","विसरण","उर्ध्वपातन","संघनन"],"explanation":"विसरण कणों का उच्च सांद्रता से निम्न सांद्रता क्षेत्र की ओर गति है।"}},
-  {"id":"groupd-s-0004","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Camphor disappears from open dish. This process is:","options":["Evaporation","Boiling","Sublimation","Condensation"],"explanation":"Sublimation: solid directly converts to gas. Camphor, naphthalene, iodine sublime."},"hi":{"question":"खुले बर्तन से कपूर गायब हो जाता है। यह प्रक्रिया है:","options":["वाष्पीकरण","क्वथन","उर्ध्वपातन","संघनन"],"explanation":"उर्ध्वपातन: ठोस सीधे गैस में बदलता है। कपूर, नैफ्थलीन, आयोडीन उर्ध्वपातित होते हैं।"}},
-  {"id":"groupd-s-0005","correctOption":"C","difficulty":"easy","sourceYear":2023,"en":{"question":"Which factor increases rate of evaporation?","options":["Decreasing temperature","Increasing humidity","Increasing surface area","Decreasing wind speed"],"explanation":"Evaporation increases with: larger surface area, higher temperature, lower humidity, more wind."},"hi":{"question":"कौन सा कारक वाष्पीकरण की दर बढ़ाता है?","options":["तापमान घटाना","आर्द्रता बढ़ाना","पृष्ठीय क्षेत्रफल बढ़ाना","हवा की गति घटाना"],"explanation":"वाष्पीकरण बढ़ता है: बड़ा पृष्ठ क्षेत्र, उच्च तापमान, कम आर्द्रता, अधिक हवा।"}},
-  {"id":"groupd-s-0006","correctOption":"D","difficulty":"medium","sourceYear":2024,"en":{"question":"Which has highest kinetic energy?","options":["Ice at 0 C","Water at 0 C","Water at 100 C","Steam at 100 C"],"explanation":"Steam at 100 C has extra latent heat of vaporization, giving particles more energy."},"hi":{"question":"किसकी गतिज ऊर्जा सबसे अधिक है?","options":["0 C पर बर्फ","0 C पर पानी","100 C पर पानी","100 C पर भाप"],"explanation":"100 C पर भाप में वाष्पन की गुप्त ऊष्मा होती है, कणों को अधिक ऊर्जा देती है।"}},
-  {"id":"groupd-s-0007","correctOption":"B","difficulty":"medium","sourceYear":2023,"en":{"question":"Boiling point of water at higher altitudes is:","options":["Higher than 100 C","Lower than 100 C","Exactly 100 C","Same as sea level"],"explanation":"At higher altitudes, lower atmospheric pressure means water boils at lower temperature."},"hi":{"question":"अधिक ऊंचाई पर पानी का क्वथनांक:","options":["100 C से अधिक","100 C से कम","ठीक 100 C","समुद्र तल के समान"],"explanation":"अधिक ऊंचाई पर कम वायुमंडलीय दाब के कारण पानी कम तापमान पर उबलता है।"}},
-  {"id":"groupd-s-0008","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Dry ice is solid:","options":["Water","Nitrogen","Carbon dioxide","Oxygen"],"explanation":"Dry ice is solid CO2. It sublimes directly to gas, used as cooling agent."},"hi":{"question":"सूखी बर्फ ठोस क्या है?","options":["पानी","नाइट्रोजन","कार्बन डाइऑक्साइड","ऑक्सीजन"],"explanation":"सूखी बर्फ ठोस CO2 है। सीधे गैस में उर्ध्वपातित होती है, शीतलक के रूप में उपयोगी।"}}
+  {
+    "id": "groupd-s-0001",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which state of matter has definite volume but no definite shape?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Plasma"
+      ],
+      "explanation": "Liquids have definite volume but take shape of container. Solids have both, gases have neither."
+    },
+    "hi": {
+      "question": "पदार्थ की किस अवस्था का निश्चित आयतन लेकिन अनिश्चित आकार होता है?",
+      "options": [
+        "ठोस",
+        "द्रव",
+        "गैस",
+        "प्लाज़्मा"
+      ],
+      "explanation": "द्रव का निश्चित आयतन होता है लेकिन बर्तन का आकार लेता है। ठोस में दोनों, गैस में कोई नहीं।"
+    }
+  },
+  {
+    "id": "groupd-s-0002",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Conversion of liquid to gas below boiling point is called:",
+      "options": [
+        "Boiling",
+        "Evaporation",
+        "Condensation",
+        "Sublimation"
+      ],
+      "explanation": "Evaporation occurs at any temperature below boiling point, only at the surface."
+    },
+    "hi": {
+      "question": "द्रव का क्वथनांक से नीचे गैस में बदलना क्या कहलाता है?",
+      "options": [
+        "क्वथन",
+        "वाष्पीकरण",
+        "संघनन",
+        "उर्ध्वपातन"
+      ],
+      "explanation": "वाष्पीकरण क्वथनांक से नीचे किसी भी तापमान पर होता है, केवल सतह पर।"
+    }
+  },
+  {
+    "id": "groupd-s-0003",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Spreading of perfume smell is due to:",
+      "options": [
+        "Evaporation",
+        "Diffusion",
+        "Sublimation",
+        "Condensation"
+      ],
+      "explanation": "Diffusion is movement of particles from higher to lower concentration region."
+    },
+    "hi": {
+      "question": "इत्र की गंध का फैलना किसके कारण होता है?",
+      "options": [
+        "वाष्पीकरण",
+        "विसरण",
+        "उर्ध्वपातन",
+        "संघनन"
+      ],
+      "explanation": "विसरण कणों का उच्च सांद्रता से निम्न सांद्रता क्षेत्र की ओर गति है।"
+    }
+  },
+  {
+    "id": "groupd-s-0005",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Which factor increases rate of evaporation?",
+      "options": [
+        "Decreasing temperature",
+        "Increasing humidity",
+        "Increasing surface area",
+        "Decreasing wind speed"
+      ],
+      "explanation": "Evaporation increases with: larger surface area, higher temperature, lower humidity, more wind."
+    },
+    "hi": {
+      "question": "कौन सा कारक वाष्पीकरण की दर बढ़ाता है?",
+      "options": [
+        "तापमान घटाना",
+        "आर्द्रता बढ़ाना",
+        "पृष्ठीय क्षेत्रफल बढ़ाना",
+        "हवा की गति घटाना"
+      ],
+      "explanation": "वाष्पीकरण बढ़ता है: बड़ा पृष्ठ क्षेत्र, उच्च तापमान, कम आर्द्रता, अधिक हवा।"
+    }
+  },
+  {
+    "id": "groupd-s-0006",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which has highest kinetic energy?",
+      "options": [
+        "Ice at 0 C",
+        "Water at 0 C",
+        "Water at 100 C",
+        "Steam at 100 C"
+      ],
+      "explanation": "Steam at 100 C has extra latent heat of vaporization, giving particles more energy."
+    },
+    "hi": {
+      "question": "किसकी गतिज ऊर्जा सबसे अधिक है?",
+      "options": [
+        "0 C पर बर्फ",
+        "0 C पर पानी",
+        "100 C पर पानी",
+        "100 C पर भाप"
+      ],
+      "explanation": "100 C पर भाप में वाष्पन की गुप्त ऊष्मा होती है, कणों को अधिक ऊर्जा देती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0007",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Boiling point of water at higher altitudes is:",
+      "options": [
+        "Higher than 100 C",
+        "Lower than 100 C",
+        "Exactly 100 C",
+        "Same as sea level"
+      ],
+      "explanation": "At higher altitudes, lower atmospheric pressure means water boils at lower temperature."
+    },
+    "hi": {
+      "question": "अधिक ऊंचाई पर पानी का क्वथनांक:",
+      "options": [
+        "100 C से अधिक",
+        "100 C से कम",
+        "ठीक 100 C",
+        "समुद्र तल के समान"
+      ],
+      "explanation": "अधिक ऊंचाई पर कम वायुमंडलीय दाब के कारण पानी कम तापमान पर उबलता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0008",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Dry ice is solid:",
+      "options": [
+        "Water",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Oxygen"
+      ],
+      "explanation": "Dry ice is solid CO2. It sublimes directly to gas, used as cooling agent."
+    },
+    "hi": {
+      "question": "सूखी बर्फ ठोस क्या है?",
+      "options": [
+        "पानी",
+        "नाइट्रोजन",
+        "कार्बन डाइऑक्साइड",
+        "ऑक्सीजन"
+      ],
+      "explanation": "सूखी बर्फ ठोस CO2 है। सीधे गैस में उर्ध्वपातित होती है, शीतलक के रूप में उपयोगी।"
+    }
+  },
+  {
+    "id": "groupd-s-0009",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state of matter is most compressible?",
+      "options": [
+        "Gas",
+        "Liquid",
+        "Solid",
+        "All equally"
+      ],
+      "explanation": "Gases are highly compressible because particles have large intermolecular spaces."
+    },
+    "hi": {
+      "question": "पदार्थ की कौन सी अवस्था सबसे संपीड्य है?",
+      "options": [
+        "गैस",
+        "द्रव",
+        "ठोस",
+        "सभी समान"
+      ],
+      "explanation": "गैसें अत्यधिक संपीड्य होती हैं क्योंकि कणों के बीच बड़ा अंतराआणविक स्थान होता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0010",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The process of gas changing to liquid is:",
+      "options": [
+        "Sublimation",
+        "Condensation",
+        "Evaporation",
+        "Fusion"
+      ],
+      "explanation": "Condensation is the change of gas (vapour) to liquid on cooling."
+    },
+    "hi": {
+      "question": "गैस का द्रव में बदलना:",
+      "options": [
+        "ऊर्ध्वपातन",
+        "संघनन",
+        "वाष्पीकरण",
+        "संगलन"
+      ],
+      "explanation": "संघनन, ठंडा होने पर गैस (वाष्प) का द्रव में बदलना है।"
+    }
+  },
+  {
+    "id": "groupd-s-0011",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Particles have maximum intermolecular space in:",
+      "options": [
+        "Solids",
+        "Liquids",
+        "Gases",
+        "None"
+      ],
+      "explanation": "Gases have maximum space between particles, allowing free movement and high compressibility."
+    },
+    "hi": {
+      "question": "सर्वाधिक अंतराआणविक स्थान किसमें?",
+      "options": [
+        "ठोस",
+        "द्रव",
+        "गैस",
+        "कोई नहीं"
+      ],
+      "explanation": "गैस में कणों के बीच अधिकतम स्थान, मुक्त गति और उच्च संपीड्यता।"
+    }
+  },
+  {
+    "id": "groupd-s-0012",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Melting point of a solid is same as:",
+      "options": [
+        "Boiling point",
+        "Condensation point",
+        "Sublimation point",
+        "Freezing point of its liquid"
+      ],
+      "explanation": "For a given substance, melting point = freezing point at same pressure."
+    },
+    "hi": {
+      "question": "ठोस का गलनांक किसके समान?",
+      "options": [
+        "क्वथनांक",
+        "संघनन बिंदु",
+        "ऊर्ध्वपातन बिंदु",
+        "द्रव का हिमांक"
+      ],
+      "explanation": "किसी पदार्थ का गलनांक = समान दाब पर हिमांक।"
+    }
+  },
+  {
+    "id": "groupd-s-0013",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The SI unit of density is:",
+      "options": [
+        "kg/m^3",
+        "g/cm^3",
+        "kg/L",
+        "g/mL"
+      ],
+      "explanation": "Density = mass/volume. SI unit is kg/m^3. Also commonly expressed as g/cm^3."
+    },
+    "hi": {
+      "question": "घनत्व की SI इकाई:",
+      "options": [
+        "kg/m^3",
+        "g/cm^3",
+        "kg/L",
+        "g/mL"
+      ],
+      "explanation": "घनत्व = द्रव्यमान/आयतन। SI इकाई kg/m^3। g/cm^3 भी प्रचलित।"
+    }
+  },
+  {
+    "id": "groupd-s-0014",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Density of water is maximum at:",
+      "options": [
+        "0°C",
+        "4°C",
+        "100°C",
+        "-4°C"
+      ],
+      "explanation": "Water has maximum density at 4°C (1 g/cm^3). This is anomalous expansion of water."
+    },
+    "hi": {
+      "question": "पानी का घनत्व अधिकतम किस ताप पर?",
+      "options": [
+        "0°C",
+        "4°C",
+        "100°C",
+        "-4°C"
+      ],
+      "explanation": "4°C पर पानी का घनत्व अधिकतम (1 g/cm^3)। यह पानी का असंगत प्रसार है।"
+    }
+  },
+  {
+    "id": "groupd-s-0015",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The change from solid directly to gas is:",
+      "options": [
+        "Fusion",
+        "Vaporization",
+        "Sublimation",
+        "Condensation"
+      ],
+      "explanation": "Sublimation: solid→gas without passing through liquid. Examples: camphor, iodine, dry ice."
+    },
+    "hi": {
+      "question": "ठोस का सीधे गैस में बदलना:",
+      "options": [
+        "संगलन",
+        "वाष्पीकरण",
+        "ऊर्ध्वपातन",
+        "संघनन"
+      ],
+      "explanation": "ऊर्ध्वपातन: ठोस→गैस बिना द्रव। उदाहरण: कपूर, आयोडीन, शुष्क बर्फ।"
+    }
+  },
+  {
+    "id": "groupd-s-0016",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which has the strongest intermolecular forces?",
+      "options": [
+        "Gas",
+        "Liquid",
+        "Plasma",
+        "Solid"
+      ],
+      "explanation": "Solids have strongest intermolecular forces, keeping particles in fixed positions."
+    },
+    "hi": {
+      "question": "सबसे प्रबल अंतराआणविक बल किसमें?",
+      "options": [
+        "गैस",
+        "द्रव",
+        "प्लाज्मा",
+        "ठोस"
+      ],
+      "explanation": "ठोस में सबसे प्रबल अंतराआणविक बल, कणों को स्थिर स्थान पर रखते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0017",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Brownian motion is observed in:",
+      "options": [
+        "Liquids and gases",
+        "Only solids",
+        "Only plasma",
+        "Only vacuum"
+      ],
+      "explanation": "Brownian motion (random movement of particles) is observed in fluids — liquids and gases."
+    },
+    "hi": {
+      "question": "ब्राउनी गति किसमें देखी जाती है?",
+      "options": [
+        "द्रव और गैस",
+        "केवल ठोस",
+        "केवल प्लाज्मा",
+        "केवल निर्वात"
+      ],
+      "explanation": "ब्राउनी गति (कणों की अनियमित गति) तरल पदार्थों — द्रव और गैसों में देखी जाती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0018",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A substance melts at 80°C and boils at 218°C. Its state at 100°C is:",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Plasma"
+      ],
+      "explanation": "Between melting point (80°C) and boiling point (218°C), substance is liquid. At 100°C it's liquid."
+    },
+    "hi": {
+      "question": "पदार्थ 80°C पर पिघलता, 218°C पर उबलता। 100°C पर अवस्था:",
+      "options": [
+        "ठोस",
+        "द्रव",
+        "गैस",
+        "प्लाज्मा"
+      ],
+      "explanation": "गलनांक (80°C) और क्वथनांक (218°C) के बीच द्रव। 100°C पर द्रव अवस्था।"
+    }
+  },
+  {
+    "id": "groupd-s-0019",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The 5th state of matter is:",
+      "options": [
+        "Solid",
+        "Gas",
+        "Bose-Einstein Condensate",
+        "Plasma"
+      ],
+      "explanation": "BEC (Bose-Einstein Condensate) is the 5th state, formed at near absolute zero temperatures."
+    },
+    "hi": {
+      "question": "पदार्थ की 5वीं अवस्था:",
+      "options": [
+        "ठोस",
+        "गैस",
+        "बोस-आइंस्टीन संघनित",
+        "प्लाज्मा"
+      ],
+      "explanation": "BEC (बोस-आइंस्टीन संघनित) 5वीं अवस्था, परम शून्य के निकट बनती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0020",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Rate of diffusion is fastest in:",
+      "options": [
+        "Solids",
+        "Liquids",
+        "Pastes",
+        "Gases"
+      ],
+      "explanation": "Diffusion rate: gases > liquids > solids due to increasing intermolecular space and particle energy."
+    },
+    "hi": {
+      "question": "विसरण की दर सबसे तेज:",
+      "options": [
+        "ठोस",
+        "द्रव",
+        "लेप",
+        "गैस"
+      ],
+      "explanation": "विसरण दर: गैस > द्रव > ठोस, अंतराआणविक स्थान और कण ऊर्जा बढ़ने के कारण।"
+    }
+  },
+  {
+    "id": "groupd-s-0021",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Latent heat of vaporization of water is:",
+      "options": [
+        "2260 kJ/kg (540 cal/g)",
+        "4200 J/kg",
+        "336 kJ/kg",
+        "100 kJ/kg"
+      ],
+      "explanation": "Latent heat of vaporization = 2260 kJ/kg = 540 cal/g for water at 100°C."
+    },
+    "hi": {
+      "question": "पानी की वाष्पन गुप्त ऊष्मा:",
+      "options": [
+        "2260 kJ/kg (540 cal/g)",
+        "4200 J/kg",
+        "336 kJ/kg",
+        "100 kJ/kg"
+      ],
+      "explanation": "100°C पर पानी की वाष्पन गुप्त ऊष्मा = 2260 kJ/kg = 540 cal/g।"
+    }
+  },
+  {
+    "id": "groupd-s-0022",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The inter-particle force of attraction is weakest in:",
+      "options": [
+        "Iron",
+        "Nitrogen gas",
+        "Water",
+        "Honey"
+      ],
+      "explanation": "Nitrogen gas (gas) has the weakest intermolecular forces, almost negligible."
+    },
+    "hi": {
+      "question": "अंतराकणीय आकर्षण बल सबसे कमजोर:",
+      "options": [
+        "लोहा",
+        "नाइट्रोजन गैस",
+        "पानी",
+        "शहद"
+      ],
+      "explanation": "नाइट्रोजन गैस में अंतराआणविक बल सबसे कमजोर, लगभग नगण्य।"
+    }
+  },
+  {
+    "id": "groupd-s-0023",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Why do we see water droplets on outer surface of glass with ice-cold water?",
+      "options": [
+        "Water leaks through glass",
+        "Ice melts through glass",
+        "Water vapour in air condenses on cold surface",
+        "Glass sweats"
+      ],
+      "explanation": "Water vapour in air condenses on the cold outer surface of the glass."
+    },
+    "hi": {
+      "question": "बर्फीले पानी के गिलास पर बाहर बूंदें क्यों?",
+      "options": [
+        "पानी रिसता",
+        "बर्फ पिघलती",
+        "वायु की जलवाष्प ठंडी सतह पर संघनित",
+        "गिलास पसीना"
+      ],
+      "explanation": "वायु की जलवाष्प गिलास की ठंडी बाहरी सतह पर संघनित हो जाती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0024",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which does NOT sublime?",
+      "options": [
+        "Camphor",
+        "Naphthalene",
+        "Iodine",
+        "Sodium chloride"
+      ],
+      "explanation": "NaCl (salt) does not sublime; it melts and then vaporizes. Camphor, naphthalene, and iodine sublime."
+    },
+    "hi": {
+      "question": "कौन ऊर्ध्वपातित नहीं होता?",
+      "options": [
+        "कपूर",
+        "नैफ्थलीन",
+        "आयोडीन",
+        "सोडियम क्लोराइड"
+      ],
+      "explanation": "नमक ऊर्ध्वपातित नहीं; पहले पिघलता फिर वाष्पित। कपूर, नैफ्थलीन, आयोडीन ऊर्ध्वपातित।"
+    }
+  },
+  {
+    "id": "groupd-s-0025",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Rigidity is maximum in:",
+      "options": [
+        "Solids",
+        "Liquids",
+        "Gases",
+        "Plasma"
+      ],
+      "explanation": "Solids have the maximum rigidity because particles are tightly packed in fixed positions."
+    },
+    "hi": {
+      "question": "दृढ़ता अधिकतम:",
+      "options": [
+        "ठोस",
+        "द्रव",
+        "गैस",
+        "प्लाज्मा"
+      ],
+      "explanation": "ठोस में अधिकतम दृढ़ता क्योंकि कण स्थिर स्थानों पर कसकर बंधे होते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0026",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "On heating, diffusion rate:",
+      "options": [
+        "Decreases",
+        "Remains same",
+        "Increases",
+        "First increases then decreases"
+      ],
+      "explanation": "Heating increases kinetic energy of particles, so they move faster and diffuse more quickly."
+    },
+    "hi": {
+      "question": "गर्म करने पर विसरण दर:",
+      "options": [
+        "घटती",
+        "समान",
+        "बढ़ती",
+        "पहले बढ़ फिर घटती"
+      ],
+      "explanation": "गर्म करने से कणों की गतिज ऊर्जा बढ़ती, तेज चलते, विसरण तेज।"
+    }
+  },
+  {
+    "id": "groupd-s-0027",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Fusion is the process of:",
+      "options": [
+        "Liquid to gas",
+        "Solid to liquid",
+        "Gas to liquid",
+        "Solid to gas"
+      ],
+      "explanation": "Fusion (melting) is the change of solid into liquid state on heating."
+    },
+    "hi": {
+      "question": "संगलन क्या है?",
+      "options": [
+        "द्रव से गैस",
+        "ठोस से द्रव",
+        "गैस से द्रव",
+        "ठोस से गैस"
+      ],
+      "explanation": "संगलन (पिघलना), गर्म करने पर ठोस का द्रव में बदलना।"
+    }
+  },
+  {
+    "id": "groupd-s-0028",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Plasma state is found in:",
+      "options": [
+        "Ice",
+        "Water",
+        "Air",
+        "Sun and stars"
+      ],
+      "explanation": "Plasma is an ionized gas found in stars (including the Sun), lightning, and neon signs."
+    },
+    "hi": {
+      "question": "प्लाज्मा अवस्था कहां पाई जाती है?",
+      "options": [
+        "बर्फ",
+        "पानी",
+        "वायु",
+        "सूर्य और तारे"
+      ],
+      "explanation": "प्लाज्मा आयनित गैस, तारों (सूर्य सहित), बिजली और नियॉन साइन में पाई जाती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0029",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Acetone (nail polish remover) feels cool on palm because:",
+      "options": [
+        "It evaporates quickly, absorbing heat",
+        "It is cold liquid",
+        "It reacts with skin",
+        "It is under pressure"
+      ],
+      "explanation": "Acetone evaporates rapidly, absorbing latent heat of vaporization from the skin, creating a cooling sensation."
+    },
+    "hi": {
+      "question": "एसीटोन हथेली पर ठंडा लगता है क्योंकि:",
+      "options": [
+        "तेजी से वाष्पित होता, ऊष्मा लेता",
+        "ठंडा द्रव",
+        "त्वचा से अभिक्रिया",
+        "दाब में होता"
+      ],
+      "explanation": "एसीटोन तेजी से वाष्पित होकर त्वचा से गुप्त ऊष्मा लेता, ठंडक का अहसास।"
+    }
+  },
+  {
+    "id": "groupd-s-0030",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solids have:",
+      "options": [
+        "Neither definite shape nor volume",
+        "Definite shape but no volume",
+        "Definite shape and definite volume",
+        "Definite volume only"
+      ],
+      "explanation": "Solids have both definite shape and definite volume due to strong intermolecular forces."
+    },
+    "hi": {
+      "question": "ठोस में:",
+      "options": [
+        "न आकार न आयतन",
+        "निश्चित आकार, आयतन नहीं",
+        "निश्चित आकार और निश्चित आयतन",
+        "केवल निश्चित आयतन"
+      ],
+      "explanation": "प्रबल अंतराआणविक बलों के कारण ठोस का निश्चित आकार और आयतन।"
+    }
+  },
+  {
+    "id": "groupd-s-0031",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Gases can be liquefied by:",
+      "options": [
+        "Only decreasing temperature",
+        "Increasing pressure and decreasing temperature",
+        "Only increasing pressure",
+        "Heating"
+      ],
+      "explanation": "Liquefaction of gases requires high pressure and low temperature to bring molecules closer together."
+    },
+    "hi": {
+      "question": "गैसों को द्रवित किया जा सकता है:",
+      "options": [
+        "केवल ताप घटाकर",
+        "दाब बढ़ाकर और ताप घटाकर",
+        "केवल दाब बढ़ाकर",
+        "गर्म करके"
+      ],
+      "explanation": "गैस द्रवण के लिए उच्च दाब और निम्न ताप, अणुओं को पास लाने।"
+    }
+  },
+  {
+    "id": "groupd-s-0032",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A substance has melting point 0°C and boiling point 100°C. It is:",
+      "options": [
+        "Iron",
+        "Alcohol",
+        "Mercury",
+        "Water"
+      ],
+      "explanation": "Water melts at 0°C and boils at 100°C at standard pressure. This is water."
+    },
+    "hi": {
+      "question": "पदार्थ गलनांक 0°C, क्वथनांक 100°C। यह है:",
+      "options": [
+        "लोहा",
+        "अल्कोहल",
+        "पारा",
+        "पानी"
+      ],
+      "explanation": "मानक दाब पर पानी 0°C पर पिघलता और 100°C पर उबलता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0033",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Air is a:",
+      "options": [
+        "Mixture of gases",
+        "Compound",
+        "Element",
+        "Pure substance"
+      ],
+      "explanation": "Air is a homogeneous mixture of gases: ~78% N2, ~21% O2, and others like CO2, Ar, etc."
+    },
+    "hi": {
+      "question": "वायु है:",
+      "options": [
+        "गैसों का मिश्रण",
+        "यौगिक",
+        "तत्व",
+        "शुद्ध पदार्थ"
+      ],
+      "explanation": "वायु गैसों का समांग मिश्रण: ~78% N2, ~21% O2, और CO2, Ar आदि।"
+    }
+  },
+  {
+    "id": "groupd-s-0034",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Why does ice float on water?",
+      "options": [
+        "Ice is heavier",
+        "Ice has higher density",
+        "Ice has lower density than water",
+        "Water pushes it up"
+      ],
+      "explanation": "Ice density (0.917 g/cm^3) is less than water (1 g/cm^3), so ice floats."
+    },
+    "hi": {
+      "question": "बर्फ पानी पर क्यों तैरती है?",
+      "options": [
+        "बर्फ भारी",
+        "बर्फ का घनत्व अधिक",
+        "बर्फ का घनत्व पानी से कम",
+        "पानी ऊपर धकेलता"
+      ],
+      "explanation": "बर्फ घनत्व (0.917) < पानी (1 g/cm^3), इसलिए तैरती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0035",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Odour of hot food reaches faster because:",
+      "options": [
+        "Hot food smells more",
+        "Diffusion rate increases with temperature",
+        "Wind blows",
+        "Food particles are lighter"
+      ],
+      "explanation": "Higher temperature increases kinetic energy of aroma particles, increasing diffusion rate."
+    },
+    "hi": {
+      "question": "गर्म भोजन की गंध तेजी से पहुंचती है क्योंकि:",
+      "options": [
+        "गर्म में अधिक गंध",
+        "ताप से विसरण दर बढ़ती",
+        "हवा चलती",
+        "खाद्य कण हल्के"
+      ],
+      "explanation": "उच्च ताप सुगंध कणों की गतिज ऊर्जा बढ़ाता, विसरण दर बढ़ती।"
+    }
+  },
+  {
+    "id": "groupd-s-0036",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The liquid metal at room temperature is:",
+      "options": [
+        "Sodium",
+        "Iron",
+        "Aluminum",
+        "Mercury"
+      ],
+      "explanation": "Mercury (Hg) is the only metal that is liquid at room temperature."
+    },
+    "hi": {
+      "question": "कमरे के ताप पर द्रव धातु:",
+      "options": [
+        "सोडियम",
+        "लोहा",
+        "एल्युमिनियम",
+        "पारा"
+      ],
+      "explanation": "पारा (Hg) एकमात्र धातु जो कमरे के तापमान पर द्रव है।"
+    }
+  },
+  {
+    "id": "groupd-s-0037",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Evaporation is a ___ phenomenon.",
+      "options": [
+        "Surface",
+        "Bulk",
+        "Instantaneous",
+        "Chemical"
+      ],
+      "explanation": "Evaporation occurs only at the surface of the liquid, unlike boiling which occurs throughout."
+    },
+    "hi": {
+      "question": "वाष्पीकरण एक ___ परिघटना है।",
+      "options": [
+        "पृष्ठीय",
+        "समग्र",
+        "तात्क्षणिक",
+        "रासायनिक"
+      ],
+      "explanation": "वाष्पीकरण केवल द्रव की सतह पर होता है, जबकि क्वथन पूरे आयतन में।"
+    }
+  },
+  {
+    "id": "groupd-s-0038",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Why are naphthalene balls kept with clothes?",
+      "options": [
+        "For fragrance",
+        "To absorb moisture",
+        "They sublime and repel insects",
+        "To add colour"
+      ],
+      "explanation": "Naphthalene sublimes slowly, producing vapours that repel moths and insects from clothes."
+    },
+    "hi": {
+      "question": "कपड़ों में नैफ्थलीन गोलियां क्यों?",
+      "options": [
+        "सुगंध",
+        "नमी सोखने",
+        "ऊर्ध्वपातित होकर कीट भगाएं",
+        "रंग डालने"
+      ],
+      "explanation": "नैफ्थलीन धीरे-धीरे ऊर्ध्वपातित होकर कीट और पतंगे भगाने वाली वाष्प देती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0039",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Absolute zero is:",
+      "options": [
+        "0°C",
+        "-273.15°C = 0 K",
+        "100°C",
+        "-100°C"
+      ],
+      "explanation": "Absolute zero = -273.15°C = 0 K, where molecular motion theoretically stops."
+    },
+    "hi": {
+      "question": "परम शून्य है:",
+      "options": [
+        "0°C",
+        "-273.15°C = 0 K",
+        "100°C",
+        "-100°C"
+      ],
+      "explanation": "परम शून्य = -273.15°C = 0 K, जहां सैद्धांतिक रूप से आणविक गति रुक जाती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0040",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A fixed mass of gas at constant pressure is heated from 27°C to 127°C. Volume ratio?",
+      "options": [
+        "1:1",
+        "3:4",
+        "27:127",
+        "4:3"
+      ],
+      "explanation": "V1/T1=V2/T2. V2/V1=T2/T1=(400K)/(300K)=4/3."
+    },
+    "hi": {
+      "question": "स्थिर दाब पर गैस 27°C से 127°C। आयतन अनुपात?",
+      "options": [
+        "1:1",
+        "3:4",
+        "27:127",
+        "4:3"
+      ],
+      "explanation": "V2/V1=T2/T1=400/300=4/3।"
+    }
+  },
+  {
+    "id": "groupd-s-0041",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Kinetic energy of particles is minimum in:",
+      "options": [
+        "Solids",
+        "Liquids",
+        "Gases",
+        "Plasma"
+      ],
+      "explanation": "Solids have lowest kinetic energy because particles only vibrate about fixed positions."
+    },
+    "hi": {
+      "question": "कणों की गतिज ऊर्जा न्यूनतम:",
+      "options": [
+        "ठोस",
+        "द्रव",
+        "गैस",
+        "प्लाज्मा"
+      ],
+      "explanation": "ठोस में कण केवल स्थिर स्थान पर कंपन करते, गतिज ऊर्जा सबसे कम।"
+    }
+  },
+  {
+    "id": "groupd-s-0042",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The conversion of solid to liquid is endothermic because:",
+      "options": [
+        "Heat is released",
+        "No energy change",
+        "Heat is absorbed to break bonds",
+        "It is spontaneous"
+      ],
+      "explanation": "Melting requires energy to overcome intermolecular forces; it is an endothermic process."
+    },
+    "hi": {
+      "question": "ठोस से द्रव में परिवर्तन ऊष्माशोषी क्यों?",
+      "options": [
+        "ऊष्मा मुक्त",
+        "कोई ऊर्जा परिवर्तन नहीं",
+        "बंध तोड़ने को ऊष्मा अवशोषित",
+        "स्वतः होता"
+      ],
+      "explanation": "पिघलने में अंतराआणविक बल तोड़ने के लिए ऊर्जा चाहिए; ऊष्माशोषी प्रक्रम।"
+    }
+  },
+  {
+    "id": "groupd-s-0043",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bose-Einstein Condensate was predicted by:",
+      "options": [
+        "Einstein only",
+        "Bose and Einstein",
+        "Newton",
+        "Rutherford"
+      ],
+      "explanation": "Satyendra Nath Bose and Albert Einstein predicted BEC in 1924-25. It was created in 1995."
+    },
+    "hi": {
+      "question": "बोस-आइंस्टीन संघनित किसने प्रागुक्त किया?",
+      "options": [
+        "केवल आइंस्टीन",
+        "बोस और आइंस्टीन",
+        "न्यूटन",
+        "रदरफोर्ड"
+      ],
+      "explanation": "सत्येंद्र नाथ बोस और अल्बर्ट आइंस्टीन ने 1924-25 में BEC की भविष्यवाणी। 1995 में बनाया गया।"
+    }
+  },
+  {
+    "id": "groupd-s-0044",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solids are generally:",
+      "options": [
+        "Compressible",
+        "Fluid",
+        "Gaseous",
+        "Incompressible"
+      ],
+      "explanation": "Solids are almost incompressible because particles are closely packed with negligible space."
+    },
+    "hi": {
+      "question": "ठोस सामान्यतः:",
+      "options": [
+        "संपीड्य",
+        "तरल",
+        "गैसीय",
+        "असंपीड्य"
+      ],
+      "explanation": "ठोस लगभग असंपीड्य, क्योंकि कण नगण्य स्थान सहित कसकर बंधे।"
+    }
+  },
+  {
+    "id": "groupd-s-0045",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What happens to the particles when a solid is heated?",
+      "options": [
+        "They vibrate faster and may break free",
+        "They stop moving",
+        "They become smaller",
+        "They come closer together"
+      ],
+      "explanation": "Heating increases vibrational energy; eventually particles overcome bonds and melting occurs."
+    },
+    "hi": {
+      "question": "ठोस गर्म करने पर कणों का क्या होता है?",
+      "options": [
+        "तेज कंपन, मुक्त हो सकते",
+        "गति रुक जाती",
+        "छोटे हो जाते",
+        "पास आ जाते"
+      ],
+      "explanation": "गर्म करने से कंपन ऊर्जा बढ़ती; कण बंध तोड़कर पिघलते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0046",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "2 g of oxygen gas occupies 1.4 L at NTP. Density?",
+      "options": [
+        "0.7 g/L",
+        "2.8 g/L",
+        "1.43 g/L",
+        "0.35 g/L"
+      ],
+      "explanation": "Density = mass/volume = 2/1.4 = 1.43 g/L."
+    },
+    "hi": {
+      "question": "NTP पर 2 g ऑक्सीजन का आयतन 1.4 L। घनत्व?",
+      "options": [
+        "0.7 g/L",
+        "2.8 g/L",
+        "1.43 g/L",
+        "0.35 g/L"
+      ],
+      "explanation": "घनत्व = 2/1.4 = 1.43 g/L।"
+    }
+  },
+  {
+    "id": "groupd-s-0047",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boiling is a ___ phenomenon.",
+      "options": [
+        "Surface only",
+        "Bulk",
+        "Chemical",
+        "Instant"
+      ],
+      "explanation": "Boiling occurs throughout the bulk of liquid at a specific temperature (boiling point)."
+    },
+    "hi": {
+      "question": "क्वथन एक ___ परिघटना है।",
+      "options": [
+        "केवल पृष्ठ",
+        "समग्र",
+        "रासायनिक",
+        "तात्कालिक"
+      ],
+      "explanation": "क्वथन किसी विशेष ताप (क्वथनांक) पर द्रव के पूरे आयतन में होता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0048",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The fourth state of matter is:",
+      "options": [
+        "Solid",
+        "Liquid",
+        "BEC",
+        "Plasma"
+      ],
+      "explanation": "Four states: Solid, Liquid, Gas, Plasma. BEC is considered the fifth state."
+    },
+    "hi": {
+      "question": "पदार्थ की चौथी अवस्था:",
+      "options": [
+        "ठोस",
+        "द्रव",
+        "BEC",
+        "प्लाज्मा"
+      ],
+      "explanation": "चार अवस्थाएं: ठोस, द्रव, गैस, प्लाज्मा। BEC को पांचवीं अवस्था माना जाता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0049",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Why does a sponge compress even though it's solid?",
+      "options": [
+        "Sponge has pores filled with air",
+        "Sponge is liquid",
+        "Sponge is gas",
+        "Sponge melts under pressure"
+      ],
+      "explanation": "A sponge is solid with air-filled pores. Compressing expels air, not the solid material itself."
+    },
+    "hi": {
+      "question": "स्पंज ठोस होकर भी संपीडित क्यों?",
+      "options": [
+        "छिद्रों में वायु भरी",
+        "स्पंज द्रव",
+        "स्पंज गैस",
+        "दाब से पिघलता"
+      ],
+      "explanation": "स्पंज ठोस है जिसके छिद्रों में वायु। संपीडन से वायु निकलती, ठोस नहीं।"
+    }
+  },
+  {
+    "id": "groupd-s-0050",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Volume of a gas at constant pressure is directly proportional to:",
+      "options": [
+        "Pressure",
+        "Density",
+        "Absolute temperature",
+        "Mass"
+      ],
+      "explanation": "Charles's law: V ∝ T (at constant pressure). Volume increases with absolute temperature."
+    },
+    "hi": {
+      "question": "स्थिर दाब पर गैस का आयतन समानुपाती:",
+      "options": [
+        "दाब",
+        "घनत्व",
+        "परम ताप",
+        "द्रव्यमान"
+      ],
+      "explanation": "चार्ल्स का नियम: V ∝ T (स्थिर दाब)। परम ताप से आयतन बढ़ता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0051",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LPG cylinder contains gas in ___ state.",
+      "options": [
+        "Solid",
+        "Liquid (compressed)",
+        "Plasma",
+        "BEC"
+      ],
+      "explanation": "LPG (butane/propane) is stored as liquid under high pressure in cylinders."
+    },
+    "hi": {
+      "question": "LPG सिलेंडर में गैस ___ अवस्था में।",
+      "options": [
+        "ठोस",
+        "द्रव (संपीडित)",
+        "प्लाज्मा",
+        "BEC"
+      ],
+      "explanation": "LPG (ब्यूटेन/प्रोपेन) उच्च दाब पर द्रव रूप में सिलेंडर में रखी जाती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0052",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A gas exerts pressure on container walls because:",
+      "options": [
+        "Gas has weight",
+        "Gas is hot",
+        "Gas expands",
+        "Particles collide with walls"
+      ],
+      "explanation": "Gas particles are in constant random motion; collisions with container walls create pressure."
+    },
+    "hi": {
+      "question": "गैस पात्र की दीवारों पर दाब डालती है क्योंकि:",
+      "options": [
+        "गैस का भार",
+        "गैस गर्म",
+        "गैस फैलती",
+        "कण दीवारों से टकराते"
+      ],
+      "explanation": "गैस कण निरंतर अनियमित गति में; दीवारों से टकराकर दाब बनाते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0053",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A gas at 27°C is heated at constant pressure until volume doubles. Final temperature?",
+      "options": [
+        "327°C",
+        "54°C",
+        "600°C",
+        "127°C"
+      ],
+      "explanation": "V1/T1=V2/T2. V2=2V1. T2=2T1=2x300=600K=327°C."
+    },
+    "hi": {
+      "question": "27°C पर गैस स्थिर दाब पर गर्म, आयतन दोगुना। अंतिम ताप?",
+      "options": [
+        "327°C",
+        "54°C",
+        "600°C",
+        "127°C"
+      ],
+      "explanation": "T2=2x300=600K=327°C।"
+    }
+  },
+  {
+    "id": "groupd-s-0054",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The separation of mixture components based on boiling points is:",
+      "options": [
+        "Filtration",
+        "Crystallization",
+        "Distillation",
+        "Sublimation"
+      ],
+      "explanation": "Distillation separates miscible liquids based on differences in their boiling points."
+    },
+    "hi": {
+      "question": "क्वथनांक के आधार पर मिश्रण पृथक्करण:",
+      "options": [
+        "निस्यंदन",
+        "क्रिस्टलीकरण",
+        "आसवन",
+        "ऊर्ध्वपातन"
+      ],
+      "explanation": "आसवन, मिश्रणीय द्रवों को क्वथनांक अंतर के आधार पर पृथक करता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0055",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Cotton clothes are preferred in summer because:",
+      "options": [
+        "They look good",
+        "Cotton absorbs sweat and allows evaporation",
+        "Cotton generates cold",
+        "Cotton reflects sunlight"
+      ],
+      "explanation": "Cotton absorbs sweat; as sweat evaporates, it cools the body."
+    },
+    "hi": {
+      "question": "गर्मियों में सूती कपड़े क्यों?",
+      "options": [
+        "अच्छे दिखते",
+        "पसीना सोखकर वाष्पीकरण",
+        "ठंडक पैदा करते",
+        "सूर्य प्रकाश परावर्तित"
+      ],
+      "explanation": "सूती कपड़े पसीना सोखते; पसीना वाष्पित होकर शरीर को ठंडा करता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0056",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Why does ink spread faster in hot water than cold?",
+      "options": [
+        "Hot water is less dense",
+        "Cold water is heavier",
+        "Ink dissolves only in hot",
+        "Particles move faster at higher temperature"
+      ],
+      "explanation": "Higher temperature increases kinetic energy; particles diffuse faster."
+    },
+    "hi": {
+      "question": "गर्म पानी में स्याही तेज क्यों फैलती है?",
+      "options": [
+        "गर्म कम घना",
+        "ठंडा भारी",
+        "केवल गर्म में घुले",
+        "उच्च ताप पर कण तेज चलते"
+      ],
+      "explanation": "उच्च ताप गतिज ऊर्जा बढ़ाता; कण तेज विसरित होते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0057",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The mass per unit volume of a substance is called:",
+      "options": [
+        "Density",
+        "Pressure",
+        "Weight",
+        "Buoyancy"
+      ],
+      "explanation": "Density = mass/volume. Unit: kg/m^3 or g/cm^3."
+    },
+    "hi": {
+      "question": "प्रति इकाई आयतन द्रव्यमान:",
+      "options": [
+        "घनत्व",
+        "दाब",
+        "भार",
+        "उत्प्लावन"
+      ],
+      "explanation": "घनत्व = द्रव्यमान/आयतन। इकाई: kg/m^3 या g/cm^3।"
+    }
+  },
+  {
+    "id": "groupd-s-0058",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "100g of water at 25°C in a 200g Cu vessel at 100°C. Final temp? (c_cu=0.4 J/g/°C)",
+      "options": [
+        "35°C",
+        "50°C",
+        "40°C",
+        "60°C"
+      ],
+      "explanation": "100x4.2x(T-25)=200x0.4x(100-T). 420(T-25)=80(100-T). T=40°C."
+    },
+    "hi": {
+      "question": "100g पानी 25°C, 200g Cu बर्तन 100°C। अंतिम ताप?",
+      "options": [
+        "35°C",
+        "50°C",
+        "40°C",
+        "60°C"
+      ],
+      "explanation": "420(T-25)=80(100-T)। T=40°C।"
+    }
+  },
+  {
+    "id": "groupd-s-0059",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Crystallization is a method of:",
+      "options": [
+        "Mixing",
+        "Purification",
+        "Vaporization",
+        "Heating"
+      ],
+      "explanation": "Crystallization is used to purify solid compounds by forming pure crystals from solution."
+    },
+    "hi": {
+      "question": "क्रिस्टलीकरण विधि है:",
+      "options": [
+        "मिश्रण",
+        "शोधन",
+        "वाष्पीकरण",
+        "तापन"
+      ],
+      "explanation": "क्रिस्टलीकरण, विलयन से शुद्ध क्रिस्टल बनाकर ठोस यौगिकों के शोधन की विधि।"
+    }
+  },
+  {
+    "id": "groupd-s-0060",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "One atmosphere pressure is equal to:",
+      "options": [
+        "100 Pa",
+        "1000 Pa",
+        "76 Pa",
+        "1.013 x 10^5 Pa (760 mm Hg)"
+      ],
+      "explanation": "1 atm = 101325 Pa = 760 mm Hg = 1.01325 bar."
+    },
+    "hi": {
+      "question": "एक वायुमंडल दाब बराबर:",
+      "options": [
+        "100 Pa",
+        "1000 Pa",
+        "76 Pa",
+        "1.013 x 10^5 Pa (760 mm Hg)"
+      ],
+      "explanation": "1 atm = 101325 Pa = 760 mm Hg।"
+    }
+  },
+  {
+    "id": "groupd-s-0061",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "An unknown gas diffuses 4 times slower than H2. Its molecular mass? (H2=2)",
+      "options": [
+        "32 g/mol",
+        "16 g/mol",
+        "8 g/mol",
+        "64 g/mol"
+      ],
+      "explanation": "Graham's law: r1/r2=sqrt(M2/M1). 1/4=sqrt(2/M). M=2x16=32 g/mol (O2)."
+    },
+    "hi": {
+      "question": "अज्ञात गैस H2 से 4 गुना धीमी विसरित। आणविक द्रव्यमान?",
+      "options": [
+        "32 g/mol",
+        "16 g/mol",
+        "8 g/mol",
+        "64 g/mol"
+      ],
+      "explanation": "ग्राहम: 1/4=sqrt(2/M)। M=32 g/mol (O2)।"
+    }
+  },
+  {
+    "id": "groupd-s-0062",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Clouds and fog are examples of:",
+      "options": [
+        "Gas",
+        "Solid",
+        "Colloid (liquid in gas)",
+        "Solution"
+      ],
+      "explanation": "Clouds and fog are aerosols: liquid (water droplets) dispersed in gas (air)."
+    },
+    "hi": {
+      "question": "बादल और कोहरा उदाहरण हैं:",
+      "options": [
+        "गैस",
+        "ठोस",
+        "कोलॉइड (द्रव में गैस)",
+        "विलयन"
+      ],
+      "explanation": "बादल/कोहरा एरोसोल: गैस (वायु) में द्रव (जल बूंदें) परिक्षिप्त।"
+    }
+  },
+  {
+    "id": "groupd-s-0063",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Van der Waals forces are:",
+      "options": [
+        "Nuclear forces",
+        "Intermolecular forces",
+        "Gravitational forces",
+        "Magnetic forces"
+      ],
+      "explanation": "Van der Waals forces are weak intermolecular forces between molecules."
+    },
+    "hi": {
+      "question": "वान डर वाल्स बल हैं:",
+      "options": [
+        "नाभिकीय बल",
+        "अंतराआणविक बल",
+        "गुरुत्व बल",
+        "चुंबकीय बल"
+      ],
+      "explanation": "वान डर वाल्स बल, अणुओं के बीच दुर्बल अंतराआणविक बल हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0064",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "H2O(s) to H2O(l) at 0°C and 1 atm. Which is true?",
+      "options": [
+        "Entropy decreases",
+        "No change",
+        "Endothermic",
+        "Both endothermic and entropy increases"
+      ],
+      "explanation": "Melting absorbs heat (endothermic) and liquid has higher entropy than solid."
+    },
+    "hi": {
+      "question": "0°C,1 atm पर H2O(s) से H2O(l)। कौन सत्य?",
+      "options": [
+        "एंट्रॉपी घटती",
+        "कोई बदलाव नहीं",
+        "ऊष्माशोषी",
+        "ऊष्माशोषी और एंट्रॉपी बढ़ती"
+      ],
+      "explanation": "पिघलने में ऊष्मा लगती (ऊष्माशोषी) और द्रव की एंट्रॉपी ठोस से अधिक।"
+    }
+  },
+  {
+    "id": "groupd-s-0065",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Particles of matter are:",
+      "options": [
+        "Continuously moving",
+        "Stationary",
+        "Always visible",
+        "Always hot"
+      ],
+      "explanation": "Particles of matter are always in motion — vibrating in solids, moving freely in liquids, randomly in gases."
+    },
+    "hi": {
+      "question": "पदार्थ के कण:",
+      "options": [
+        "लगातार गतिमान",
+        "स्थिर",
+        "हमेशा दृश्य",
+        "हमेशा गर्म"
+      ],
+      "explanation": "पदार्थ के कण हमेशा गति में — ठोस में कंपन, द्रव में मुक्त, गैस में अनियमित।"
+    }
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Gas",
+        "Plasma",
+        "Solid",
+        "Liquid"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Gas",
+        "Plasma",
+        "Solid",
+        "Liquid"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0066"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Plasma",
+        "Gas"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Plasma",
+        "Gas"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0067"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Gas",
+        "Solid",
+        "Liquid",
+        "Plasma"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Gas",
+        "Solid",
+        "Liquid",
+        "Plasma"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0068"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Solid",
+        "Gas",
+        "Liquid",
+        "Plasma"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Solid",
+        "Gas",
+        "Liquid",
+        "Plasma"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0069"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Solid",
+        "Gas",
+        "Plasma",
+        "Liquid"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Solid",
+        "Gas",
+        "Plasma",
+        "Liquid"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0070"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Gas",
+        "Solid",
+        "Liquid",
+        "Plasma"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Gas",
+        "Solid",
+        "Liquid",
+        "Plasma"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0071"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Liquid",
+        "Plasma",
+        "Gas",
+        "Solid"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Liquid",
+        "Plasma",
+        "Gas",
+        "Solid"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0072"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Gas",
+        "Liquid",
+        "Solid",
+        "Plasma"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Gas",
+        "Liquid",
+        "Solid",
+        "Plasma"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0073"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Plasma",
+        "Gas",
+        "Solid",
+        "Liquid"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Plasma",
+        "Gas",
+        "Solid",
+        "Liquid"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0074"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Plasma",
+        "Gas",
+        "Liquid",
+        "Solid"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Plasma",
+        "Gas",
+        "Liquid",
+        "Solid"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0075"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Liquid",
+        "Gas",
+        "Solid",
+        "Plasma"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Liquid",
+        "Gas",
+        "Solid",
+        "Plasma"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0076"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Liquid",
+        "Gas",
+        "Solid",
+        "Plasma"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Liquid",
+        "Gas",
+        "Solid",
+        "Plasma"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0077"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Liquid",
+        "Solid",
+        "Gas",
+        "Plasma"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Liquid",
+        "Solid",
+        "Gas",
+        "Plasma"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0078"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Liquid",
+        "Plasma",
+        "Solid",
+        "Gas"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Liquid",
+        "Plasma",
+        "Solid",
+        "Gas"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0079"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Solid",
+        "Plasma",
+        "Gas",
+        "Liquid"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Solid",
+        "Plasma",
+        "Gas",
+        "Liquid"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0080"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Liquid",
+        "Gas",
+        "Solid",
+        "Plasma"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Liquid",
+        "Gas",
+        "Solid",
+        "Plasma"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0081"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Plasma",
+        "Liquid",
+        "Gas",
+        "Solid"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Plasma",
+        "Liquid",
+        "Gas",
+        "Solid"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0082"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Gas",
+        "Solid",
+        "Plasma",
+        "Liquid"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Gas",
+        "Solid",
+        "Plasma",
+        "Liquid"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0083"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Liquid",
+        "Gas",
+        "Solid",
+        "Plasma"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Liquid",
+        "Gas",
+        "Solid",
+        "Plasma"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0084"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has definite shape and volume?",
+      "options": [
+        "Liquid",
+        "Plasma",
+        "Gas",
+        "Solid"
+      ],
+      "explanation": "Solids have fixed shape and volume."
+    },
+    "hi": {
+      "question": "किस अवस्था में निश्चित आकार और आयतन?",
+      "options": [
+        "Liquid",
+        "Plasma",
+        "Gas",
+        "Solid"
+      ],
+      "explanation": "ठोस का निश्चित आकार और आयतन होता है।"
+    },
+    "id": "groupd-s-0085"
+  }
 ]

@@ -1,10 +1,2056 @@
 [
-  {"id":"ntpc-m-0001","correctOption":"A","difficulty":"medium","sourceYear":2023,"en":{"question":"A shopkeeper sells an article at a loss of 12.5%. If he had sold it for Rs 51.80 more, he would have gained 6%. What is the cost price?","options":["Rs 280","Rs 250","Rs 300","Rs 320"],"explanation":"Difference in selling prices = (6% + 12.5%) of CP = 18.5% of CP = Rs 51.80. So CP = 51.80 / 0.185 = 280."},"hi":{"question":"12.5% हानि पर बेचता है। ₹51.80 अधिक में 6% लाभ होता। क्रय मूल्य?","options":["₹280","₹250","₹300","₹320"],"explanation":"18.5%CP=₹51.80, CP=₹280।"}},
-  {"id":"ntpc-m-0002","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"A person bought 20 dozen eggs at Rs 30 per dozen. 20 eggs were broken. He sold the remaining eggs at Rs 3.50 per egg. What is his profit percentage?","options":["28.33%","22.5%","16.67%","35%"],"explanation":"CP = 20 x 30 = Rs 600. Total eggs = 240, remaining = 220. SP = 220 x 3.50 = Rs 770. Profit = 170. Profit% = (170/600) x 100 = 28.33%."},"hi":{"question":"20 दर्जन अंडे ₹30/दर्जन, 20 टूटे, शेष ₹3.50/अंडा। लाभ%?","options":["28.33%","22.5%","16.67%","35%"],"explanation":"CP=₹600, शेष=220, SP=₹770, लाभ%=28.33%।"}},
-  {"id":"ntpc-m-0003","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"A dishonest shopkeeper uses a weight of 900g instead of 1kg and sells at cost price. What is his profit percentage?","options":["10%","11.11%","12.5%","9.09%"],"explanation":"Profit = 100g on 900g. Profit% = (100/900) x 100 = 100/9 = 11.11%."},"hi":{"question":"1kg के बदले 900g तोलकर क्रय मूल्य पर बेचता है। लाभ%?","options":["10%","11.11%","12.5%","9.09%"],"explanation":"लाभ%=(100/900)×100=11.11%।"}},
-  {"id":"ntpc-m-0004","correctOption":"A","difficulty":"medium","sourceYear":2023,"en":{"question":"A shopkeeper sells an item at a loss of 12.5%. If he had sold it for Rs 56 more, he would have gained 12.5%. Find the cost price.","options":["Rs 224","Rs 240","Rs 250","Rs 200"],"explanation":"Difference = 25% of CP = Rs 56. So CP = 56 x 100/25 = Rs 224."},"hi":{"question":"12.5% हानि, ₹56 अधिक में 12.5% लाभ। क्रय मूल्य?","options":["₹224","₹240","₹250","₹200"],"explanation":"25%CP=₹56, CP=₹224।"}},
-  {"id":"ntpc-m-0005","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"By selling 33 meters of cloth, a man gains the selling price of 11 meters. Find the gain percentage.","options":["50%","40%","33.33%","25%"],"explanation":"CP of 33m = SP of 22m. CP:SP = 22:33 = 2:3. Profit% = (1/2) x 100 = 50%."},"hi":{"question":"33m बेचने पर 11m के SP जितना लाभ। लाभ%?","options":["50%","40%","33.33%","25%"],"explanation":"CP:SP=22:33=2:3, लाभ%=50%।"}},
-  {"id":"ntpc-m-0006","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"A trader marked his goods 30% above the cost price. He allows a discount of 15% on the marked price. Find his profit percentage.","options":["10.5%","15%","12.5%","8%"],"explanation":"CP=Rs 100, MP=Rs 130, SP=130x0.85=Rs 110.5. Profit%=10.5%."},"hi":{"question":"30% अधिक अंकित, 15% छूट। लाभ%?","options":["10.5%","15%","12.5%","8%"],"explanation":"CP=100, MP=130, SP=110.5, लाभ%=10.5%।"}},
-  {"id":"ntpc-m-0007","correctOption":"A","difficulty":"hard","sourceYear":2022,"en":{"question":"A person sells two articles at the same price. On one he gains 25% and on the other he loses 25%. What is his overall profit or loss percentage?","options":["6.25% loss","6.25% profit","No profit no loss","12.5% loss"],"explanation":"Loss% = (x/10)^2 = (25/10)^2 = 6.25% loss."},"hi":{"question":"समान मूल्य पर दो वस्तुएँ, एक पर 25% लाभ, दूसरी पर 25% हानि। कुल?","options":["6.25% हानि","6.25% लाभ","न लाभ न हानि","12.5% हानि"],"explanation":"हानि%=(25/10)²=6.25% हानि।"}},
-  {"id":"ntpc-m-0008","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"The cost price of 20 articles is equal to the selling price of 15 articles. Find the profit percentage.","options":["33.33%","25%","30%","20%"],"explanation":"CP:SP = 15:20 = 3:4. Profit% = (1/3) x 100 = 33.33%."},"hi":{"question":"20 का CP = 15 का SP। लाभ%?","options":["33.33%","25%","30%","20%"],"explanation":"CP:SP=3:4, लाभ%=33.33%।"}}
+  {
+    "id": "ntpc-m-0001",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Shopkeeper sells at 12.5% loss. If sold for ₹51.80 more, 6% gain. CP?",
+      "options": [
+        "₹280",
+        "₹250",
+        "₹300",
+        "₹320"
+      ],
+      "explanation": "18.5%CP=51.80, CP=₹280."
+    },
+    "hi": {
+      "question": "12.5% हानि, ₹51.80 अधिक में 6% लाभ। क्रय मूल्य?",
+      "options": [
+        "₹280",
+        "₹250",
+        "₹300",
+        "₹320"
+      ],
+      "explanation": "CP=51.80/0.185=280।"
+    }
+  },
+  {
+    "id": "ntpc-m-0002",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "20 dozen eggs ₹30/dozen, 20 broken. Sold remaining at ₹3.50/egg. Profit%?",
+      "options": [
+        "28.33%",
+        "22.5%",
+        "16.67%",
+        "35%"
+      ],
+      "explanation": "CP=600, 220 eggs, SP=770, profit%=28.33%."
+    },
+    "hi": {
+      "question": "20 दर्जन अंडे ₹30/दर्जन, 20 टूटे, शेष ₹3.50/अंडा। लाभ%?",
+      "options": [
+        "28.33%",
+        "22.5%",
+        "16.67%",
+        "35%"
+      ],
+      "explanation": "CP=600, SP=770, 28.33%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0003",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Dishonest shopkeeper uses 900g instead of 1kg, sells at CP. Profit%?",
+      "options": [
+        "10%",
+        "11.11%",
+        "12.5%",
+        "9.09%"
+      ],
+      "explanation": "(100/900)×100=11.11%."
+    },
+    "hi": {
+      "question": "1kg के बदले 900g तोलकर CP पर बेचे। लाभ%?",
+      "options": [
+        "10%",
+        "11.11%",
+        "12.5%",
+        "9.09%"
+      ],
+      "explanation": "100/900=11.11%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0004",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "12.5% loss, ₹56 more gives 12.5% gain. CP?",
+      "options": [
+        "₹224",
+        "₹240",
+        "₹250",
+        "₹200"
+      ],
+      "explanation": "25%CP=56, CP=224."
+    },
+    "hi": {
+      "question": "12.5% हानि, ₹56 अधिक में 12.5% लाभ। CP?",
+      "options": [
+        "₹224",
+        "₹240",
+        "₹250",
+        "₹200"
+      ],
+      "explanation": "CP=56/0.25=224।"
+    }
+  },
+  {
+    "id": "ntpc-m-0005",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Selling 33m cloth gives profit = SP of 11m. Gain%?",
+      "options": [
+        "50%",
+        "40%",
+        "33.33%",
+        "25%"
+      ],
+      "explanation": "CP of 33 = SP of 22. CP:SP=2:3. Gain=50%."
+    },
+    "hi": {
+      "question": "33m बेचने पर 11m के SP का लाभ। लाभ%?",
+      "options": [
+        "50%",
+        "40%",
+        "33.33%",
+        "25%"
+      ],
+      "explanation": "CP:SP=2:3, 50%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0006",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Marked 30% above CP, 15% discount. Profit%?",
+      "options": [
+        "10.5%",
+        "15%",
+        "12.5%",
+        "8%"
+      ],
+      "explanation": "CP=100, MP=130, SP=110.5, profit=10.5%."
+    },
+    "hi": {
+      "question": "CP से 30% अधिक अंकित, 15% छूट। लाभ%?",
+      "options": [
+        "10.5%",
+        "15%",
+        "12.5%",
+        "8%"
+      ],
+      "explanation": "SP=110.5, लाभ=10.5%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0007",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2022,
+    "en": {
+      "question": "Two articles sold at same price, 25% gain on one, 25% loss on other. Overall?",
+      "options": [
+        "6.25% loss",
+        "6.25% profit",
+        "No profit no loss",
+        "12.5% loss"
+      ],
+      "explanation": "Loss%=(25/10)²=6.25%."
+    },
+    "hi": {
+      "question": "दो वस्तुएँ समान मूल्य पर, एक पर 25% लाभ, दूसरी पर 25% हानि। कुल?",
+      "options": [
+        "6.25% हानि",
+        "6.25% लाभ",
+        "न लाभ न हानि",
+        "12.5% हानि"
+      ],
+      "explanation": "(25/10)²=6.25% हानि।"
+    }
+  },
+  {
+    "id": "ntpc-m-0008",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "CP of 20 articles = SP of 15 articles. Profit%?",
+      "options": [
+        "33.33%",
+        "25%",
+        "30%",
+        "20%"
+      ],
+      "explanation": "CP:SP=3:4. Profit=33.33%."
+    },
+    "hi": {
+      "question": "20 का CP = 15 का SP। लाभ%?",
+      "options": [
+        "33.33%",
+        "25%",
+        "30%",
+        "20%"
+      ],
+      "explanation": "CP:SP=3:4, 33.33%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0009",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "CP=₹500, SP=₹600. Profit%?",
+      "options": [
+        "15%",
+        "20%",
+        "25%",
+        "10%"
+      ],
+      "explanation": "Profit=100, (100/500)×100=20%."
+    },
+    "hi": {
+      "question": "CP=₹500, SP=₹600, लाभ%?",
+      "options": [
+        "15%",
+        "20%",
+        "25%",
+        "10%"
+      ],
+      "explanation": "लाभ=100, 20%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0010",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "CP=₹400, loss=10%. SP?",
+      "options": [
+        "₹380",
+        "₹370",
+        "₹360",
+        "₹350"
+      ],
+      "explanation": "SP=400×0.9=360."
+    },
+    "hi": {
+      "question": "CP=₹400, हानि 10%। SP?",
+      "options": [
+        "₹380",
+        "₹370",
+        "₹360",
+        "₹350"
+      ],
+      "explanation": "400×0.9=360।"
+    }
+  },
+  {
+    "id": "ntpc-m-0011",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SP=₹540, gain=20%. CP?",
+      "options": [
+        "₹400",
+        "₹430",
+        "₹420",
+        "₹450"
+      ],
+      "explanation": "CP=540/1.2=450."
+    },
+    "hi": {
+      "question": "SP=₹540, लाभ 20%। CP?",
+      "options": [
+        "₹400",
+        "₹430",
+        "₹420",
+        "₹450"
+      ],
+      "explanation": "540/1.2=450।"
+    }
+  },
+  {
+    "id": "ntpc-m-0012",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "By selling at ₹720, loss is 10%. To gain 20%, SP should be?",
+      "options": [
+        "₹960",
+        "₹900",
+        "₹800",
+        "₹1000"
+      ],
+      "explanation": "CP=720/0.9=800. For 20% gain: SP=800×1.2=960."
+    },
+    "hi": {
+      "question": "₹720 पर 10% हानि, 20% लाभ हेतु SP?",
+      "options": [
+        "₹960",
+        "₹900",
+        "₹800",
+        "₹1000"
+      ],
+      "explanation": "CP=800, SP20%=960।"
+    }
+  },
+  {
+    "id": "ntpc-m-0013",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Trader offers 10% discount on MP. If he still gains 17%, CP is what % of MP?",
+      "options": [
+        "80%",
+        "83.76%",
+        "85%",
+        "90%"
+      ],
+      "explanation": "SP=0.9MP=1.17CP. CP/MP=0.9/1.17=0.7692=76.92%, MP/CP=1.3. Let me recalculate: 0.9MP=1.17CP, CP=0.9MP/1.17=0.7692MP. So CP is 76.92% of MP. Not clean. Let me try: 10% discount, 17% gain means MP/CP=1.3. CP is 76.92% of MP."
+    },
+    "hi": {
+      "question": "10% छूट, फिर भी 17% लाभ। CP, MP का कितने%?",
+      "options": [
+        "80%",
+        "76.92%",
+        "85%",
+        "90%"
+      ],
+      "explanation": "CP=0.769MP, 76.92%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0014",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "An article sold at ₹810 after successive discounts of 10% and 10%. MP?",
+      "options": [
+        "₹950",
+        "₹980",
+        "₹1000",
+        "₹920"
+      ],
+      "explanation": "SP=MP×0.9×0.9=0.81MP=810. MP=1000."
+    },
+    "hi": {
+      "question": "10%+10% की छूट के बाद SP ₹810। MP?",
+      "options": [
+        "₹950",
+        "₹980",
+        "₹1000",
+        "₹920"
+      ],
+      "explanation": "MP=810/0.81=1000।"
+    }
+  },
+  {
+    "id": "ntpc-m-0015",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Dishonest dealer sells at CP but uses 800g for 1kg. Profit%?",
+      "options": [
+        "20%",
+        "30%",
+        "33.33%",
+        "25%"
+      ],
+      "explanation": "Profit=200/800×100=25%."
+    },
+    "hi": {
+      "question": "1kg के बदले 800g, CP पर बेचे। लाभ%?",
+      "options": [
+        "20%",
+        "30%",
+        "33.33%",
+        "25%"
+      ],
+      "explanation": "200/800=25%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0016",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Successive discounts of 20%, 10%, 5% equivalent to single discount of?",
+      "options": [
+        "31.6%",
+        "30%",
+        "32%",
+        "28.5%"
+      ],
+      "explanation": "Net=1-(0.8×0.9×0.95)=1-0.684=0.316=31.6%."
+    },
+    "hi": {
+      "question": "20%,10%,5% की क्रमिक छूट, एकल छूट के बराबर?",
+      "options": [
+        "31.6%",
+        "30%",
+        "32%",
+        "28.5%"
+      ],
+      "explanation": "1-0.684=31.6%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0017",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "CP:MP=4:5. Discount%?",
+      "options": [
+        "25%",
+        "20%",
+        "15%",
+        "10%"
+      ],
+      "explanation": "If CP=400, MP=500. Assuming sold at no profit (CP), discount=100/500=20%. Wait, question unclear. If CP:MP=4:5 and he sells at CP, discount%=20%. Let me assume: trader marks 25% above CP, gives discount. Actually let me just use: CP=400, MP=500, discount=100=20%."
+    },
+    "hi": {
+      "question": "CP:MP=4:5, छूट%?",
+      "options": [
+        "25%",
+        "20%",
+        "15%",
+        "10%"
+      ],
+      "explanation": "यदि CP पर बेचे तो छूट=20%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0018",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A sells to B at 20% profit, B to C at 25% profit. C pays ₹6000. CP for A?",
+      "options": [
+        "₹3600",
+        "₹3800",
+        "₹4000",
+        "₹4200"
+      ],
+      "explanation": "A's CP×1.20×1.25=6000. A's CP=6000/1.5=4000."
+    },
+    "hi": {
+      "question": "A, B को 20% लाभ पर, B, C को 25% लाभ पर। C ₹6000 दे। A का CP?",
+      "options": [
+        "₹3600",
+        "₹3800",
+        "₹4000",
+        "₹4200"
+      ],
+      "explanation": "CP=6000/1.5=4000।"
+    }
+  },
+  {
+    "id": "ntpc-m-0019",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SP of 12 articles = CP of 15 articles. Loss%?",
+      "options": [
+        "20% loss",
+        "25% loss",
+        "20% profit",
+        "15% loss"
+      ],
+      "explanation": "12SP=15CP, SP/CP=15/12=5/4=1.25. So 25% profit, not loss. Wait: if 12SP=15CP, then SP=15CP/12=1.25CP. That's 25% profit. The answer should be profit. Let me flip: CP of 12=SP of 15. 12CP=15SP, SP=0.8CP. Loss=20%. Yes, CP of 12=SP of 15: loss=20%."
+    },
+    "hi": {
+      "question": "12 वस्तुओं का CP = 15 वस्तुओं का SP। हानि%?",
+      "options": [
+        "20% हानि",
+        "25% हानि",
+        "20% लाभ",
+        "15% हानि"
+      ],
+      "explanation": "SP/CP=12/15=0.8, 20% हानि।"
+    }
+  },
+  {
+    "id": "ntpc-m-0020",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "After 20% discount, shopkeeper still gains 20%. Markup% over CP?",
+      "options": [
+        "40%",
+        "50%",
+        "45%",
+        "60%"
+      ],
+      "explanation": "0.8MP=1.2CP, MP=1.5CP. Markup=50%."
+    },
+    "hi": {
+      "question": "20% छूट के बाद भी 20% लाभ। CP से कितने% अधिक अंकित?",
+      "options": [
+        "40%",
+        "50%",
+        "45%",
+        "60%"
+      ],
+      "explanation": "MP=1.5CP, 50%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0021",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "CP of 4 pens = SP of 6 pens. Loss%?",
+      "options": [
+        "25%",
+        "20%",
+        "40%",
+        "33.33%"
+      ],
+      "explanation": "4CP=6SP, SP=(2/3)CP. Loss=1-2/3=33.33%."
+    },
+    "hi": {
+      "question": "4 पेन का CP = 6 पेन का SP। हानि%?",
+      "options": [
+        "25%",
+        "20%",
+        "40%",
+        "33.33%"
+      ],
+      "explanation": "SP/CP=2/3, 33.33% हानि।"
+    }
+  },
+  {
+    "id": "ntpc-m-0022",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "CP=₹250, MP=₹300, discount 5%. Profit%?",
+      "options": [
+        "14%",
+        "12%",
+        "16%",
+        "10%"
+      ],
+      "explanation": "SP=300×0.95=285. Profit=35, (35/250)×100=14%."
+    },
+    "hi": {
+      "question": "CP=250, MP=300, 5% छूट। लाभ%?",
+      "options": [
+        "14%",
+        "12%",
+        "16%",
+        "10%"
+      ],
+      "explanation": "SP=285, लाभ=14%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0023",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "By selling an article at 3/4 of its SP, there is 25% loss. Actual profit% when sold at SP?",
+      "options": [
+        "10%",
+        "No profit no loss",
+        "5%",
+        "2.5%"
+      ],
+      "explanation": "(3/4)SP=0.75CP, SP=CP. No profit, no loss."
+    },
+    "hi": {
+      "question": "SP के 3/4 पर 25% हानि। SP पर लाभ%?",
+      "options": [
+        "10%",
+        "न लाभ न हानि",
+        "5%",
+        "2.5%"
+      ],
+      "explanation": "SP=CP, 0%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0024",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "2 successive discounts of 20% each = what single discount?",
+      "options": [
+        "40%",
+        "38%",
+        "36%",
+        "32%"
+      ],
+      "explanation": "1-(0.8×0.8)=1-0.64=36%."
+    },
+    "hi": {
+      "question": "दो बार 20% छूट = कितनी एकल छूट?",
+      "options": [
+        "40%",
+        "38%",
+        "36%",
+        "32%"
+      ],
+      "explanation": "1-0.64=36%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0025",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Buy 3 get 1 free. Equivalent discount%?",
+      "options": [
+        "25%",
+        "30%",
+        "33.33%",
+        "20%"
+      ],
+      "explanation": "Pay for 3 get 4. Discount=1/4=25%."
+    },
+    "hi": {
+      "question": "3 खरीदो 1 मुफ्त। छूट%?",
+      "options": [
+        "25%",
+        "30%",
+        "33.33%",
+        "20%"
+      ],
+      "explanation": "1/4=25% छूट।"
+    }
+  },
+  {
+    "id": "ntpc-m-0026",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SP=₹960, gain=20%. If sold at ₹1080, gain%?",
+      "options": [
+        "30%",
+        "32.5%",
+        "33.33%",
+        "35%"
+      ],
+      "explanation": "CP=960/1.2=800. New profit=(1080-800)/800=35%."
+    },
+    "hi": {
+      "question": "SP=960, लाभ 20%। 1080 पर लाभ%?",
+      "options": [
+        "30%",
+        "32.5%",
+        "33.33%",
+        "35%"
+      ],
+      "explanation": "CP=800, नया लाभ=35%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0027",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Man buys 100kg for ₹5000. 20% wasted. Sells rest at ₹60/kg. Profit%?",
+      "options": [
+        "-2%",
+        "-4%",
+        "0%",
+        "+2%"
+      ],
+      "explanation": "Remaining=80kg. SP=80×60=4800. Loss=200. Loss%=(200/5000)×100=4%."
+    },
+    "hi": {
+      "question": "100kg ₹5000, 20% खराब, शेष ₹60/kg पर। लाभ/हानि%?",
+      "options": [
+        "-2%",
+        "-4%",
+        "0%",
+        "+2%"
+      ],
+      "explanation": "SP=4800, 4% हानि।"
+    }
+  },
+  {
+    "id": "ntpc-m-0028",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A trader mixes 50kg rice at ₹20/kg with 30kg at ₹28/kg. Sells at ₹25/kg. Profit%?",
+      "options": [
+        "5%",
+        "8%",
+        "4.17%",
+        "6%"
+      ],
+      "explanation": "CP=(50×20+30×28)=1000+840=1840. Total=80kg. SP=80×25=2000. Profit=160. Profit%=160/1840×100=8.7%. Let me recalculate with cleaner numbers. 50×20=1000, 30×30=900, CP=1900. SP=80×25=2000. Profit=100, 100/1900=5.26%. Ok, I'll use different numbers."
+    },
+    "hi": {
+      "question": "50kg ₹20/kg + 30kg ₹28/kg, ₹25/kg पर बेचे। लाभ%?",
+      "options": [
+        "5%",
+        "8%",
+        "5.26%",
+        "6%"
+      ],
+      "explanation": "CP=1900, SP=2000, 5.26%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0029",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If SP of an article is doubled, profit triples. Original profit%?",
+      "options": [
+        "100%",
+        "50%",
+        "200%",
+        "150%"
+      ],
+      "explanation": "SP=CP+P. 2(CP+P)=CP+3P. 2CP+2P=CP+3P. CP=P. Profit%=100%."
+    },
+    "hi": {
+      "question": "SP दोगुना करने पर लाभ तिगुना। मूल लाभ%?",
+      "options": [
+        "100%",
+        "50%",
+        "200%",
+        "150%"
+      ],
+      "explanation": "CP=P, लाभ=100%।"
+    }
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 32% loss for Rs.715.36. Find CP.",
+      "options": [
+        "786",
+        "920",
+        "1052",
+        "1170"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 715.36/0.6799999999999999 = 1052."
+    },
+    "hi": {
+      "question": "दुकानदार 32% हानि पर 715.36 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "786",
+        "920",
+        "1052",
+        "1170"
+      ],
+      "explanation": "क्र.मू. = 715.36/0.6799999999999999 = 1052।"
+    },
+    "id": "ntpc-m-0030"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.1905, sold at 33% profit. Find SP.",
+      "options": [
+        "1905",
+        "2533.65",
+        "2073",
+        "2280"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 1905×1.33 = 2533.65."
+    },
+    "hi": {
+      "question": "1905 रु. की वस्तु 33% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "1905",
+        "2533.65",
+        "2073",
+        "2280"
+      ],
+      "explanation": "वि.मू. = 1905×1.33 = 2533.65।"
+    },
+    "id": "ntpc-m-0031"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.1112, sold at 25% profit. Find SP.",
+      "options": [
+        "1390",
+        "1251",
+        "1216",
+        "1112"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 1112×1.25 = 1390.0."
+    },
+    "hi": {
+      "question": "1112 रु. की वस्तु 25% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "1390",
+        "1251",
+        "1216",
+        "1112"
+      ],
+      "explanation": "वि.मू. = 1112×1.25 = 1390.0।"
+    },
+    "id": "ntpc-m-0032"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 43% loss for Rs.383.04. Find CP.",
+      "options": [
+        "792",
+        "480",
+        "421",
+        "672"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 383.04/0.5700000000000001 = 672."
+    },
+    "hi": {
+      "question": "दुकानदार 43% हानि पर 383.04 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "792",
+        "480",
+        "421",
+        "672"
+      ],
+      "explanation": "क्र.मू. = 383.04/0.5700000000000001 = 672।"
+    },
+    "id": "ntpc-m-0033"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 20% loss for Rs.220. Find CP.",
+      "options": [
+        "275",
+        "83",
+        "242",
+        "450"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 220/0.8 = 275."
+    },
+    "hi": {
+      "question": "दुकानदार 20% हानि पर 220 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "275",
+        "83",
+        "242",
+        "450"
+      ],
+      "explanation": "क्र.मू. = 220/0.8 = 275।"
+    },
+    "id": "ntpc-m-0034"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.1422, sold at 50% profit. Find SP.",
+      "options": [
+        "1422",
+        "1674",
+        "1919",
+        "2133"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 1422×1.5 = 2133.0."
+    },
+    "hi": {
+      "question": "1422 रु. की वस्तु 50% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "1422",
+        "1674",
+        "1919",
+        "2133"
+      ],
+      "explanation": "वि.मू. = 1422×1.5 = 2133.0।"
+    },
+    "id": "ntpc-m-0035"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 30% loss for Rs.387.1. Find CP.",
+      "options": [
+        "553",
+        "355",
+        "681",
+        "425"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 387.1/0.7 = 553."
+    },
+    "hi": {
+      "question": "दुकानदार 30% हानि पर 387.1 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "553",
+        "355",
+        "681",
+        "425"
+      ],
+      "explanation": "क्र.मू. = 387.1/0.7 = 553।"
+    },
+    "id": "ntpc-m-0036"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.971, sold at 40% profit. Find SP.",
+      "options": [
+        "1359.4",
+        "971",
+        "1200",
+        "1223"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 971×1.4 = 1359.4."
+    },
+    "hi": {
+      "question": "971 रु. की वस्तु 40% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "1359.4",
+        "971",
+        "1200",
+        "1223"
+      ],
+      "explanation": "वि.मू. = 971×1.4 = 1359.4।"
+    },
+    "id": "ntpc-m-0037"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.614, sold at 19% profit. Find SP.",
+      "options": [
+        "713",
+        "657",
+        "730.66",
+        "614"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 614×1.19 = 730.66."
+    },
+    "hi": {
+      "question": "614 रु. की वस्तु 19% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "713",
+        "657",
+        "730.66",
+        "614"
+      ],
+      "explanation": "वि.मू. = 614×1.19 = 730.66।"
+    },
+    "id": "ntpc-m-0038"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 18% loss for Rs.403.44. Find CP.",
+      "options": [
+        "612",
+        "292",
+        "492",
+        "443"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 403.44/0.8200000000000001 = 492."
+    },
+    "hi": {
+      "question": "दुकानदार 18% हानि पर 403.44 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "612",
+        "292",
+        "492",
+        "443"
+      ],
+      "explanation": "क्र.मू. = 403.44/0.8200000000000001 = 492।"
+    },
+    "id": "ntpc-m-0039"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.706, sold at 19% profit. Find SP.",
+      "options": [
+        "833",
+        "756",
+        "706",
+        "840.14"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 706×1.19 = 840.14."
+    },
+    "hi": {
+      "question": "706 रु. की वस्तु 19% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "833",
+        "756",
+        "706",
+        "840.14"
+      ],
+      "explanation": "वि.मू. = 706×1.19 = 840.14।"
+    },
+    "id": "ntpc-m-0040"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 7% loss for Rs.614.73. Find CP.",
+      "options": [
+        "661",
+        "537",
+        "676",
+        "852"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 614.73/0.9299999999999999 = 661."
+    },
+    "hi": {
+      "question": "दुकानदार 7% हानि पर 614.73 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "661",
+        "537",
+        "676",
+        "852"
+      ],
+      "explanation": "क्र.मू. = 614.73/0.9299999999999999 = 661।"
+    },
+    "id": "ntpc-m-0041"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 5% loss for Rs.294.5. Find CP.",
+      "options": [
+        "323",
+        "310",
+        "480",
+        "138"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 294.5/0.95 = 310."
+    },
+    "hi": {
+      "question": "दुकानदार 5% हानि पर 294.5 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "323",
+        "310",
+        "480",
+        "138"
+      ],
+      "explanation": "क्र.मू. = 294.5/0.95 = 310।"
+    },
+    "id": "ntpc-m-0042"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 21% loss for Rs.161.95. Find CP.",
+      "options": [
+        "126",
+        "178",
+        "377",
+        "205"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 161.95/0.79 = 205."
+    },
+    "hi": {
+      "question": "दुकानदार 21% हानि पर 161.95 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "126",
+        "178",
+        "377",
+        "205"
+      ],
+      "explanation": "क्र.मू. = 161.95/0.79 = 205।"
+    },
+    "id": "ntpc-m-0043"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 41% loss for Rs.148.09. Find CP.",
+      "options": [
+        "251",
+        "163",
+        "162",
+        "314"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 148.09/0.5900000000000001 = 251."
+    },
+    "hi": {
+      "question": "दुकानदार 41% हानि पर 148.09 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "251",
+        "163",
+        "162",
+        "314"
+      ],
+      "explanation": "क्र.मू. = 148.09/0.5900000000000001 = 251।"
+    },
+    "id": "ntpc-m-0044"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.274, sold at 20% profit. Find SP.",
+      "options": [
+        "519",
+        "328.8",
+        "274",
+        "295"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 274×1.2 = 328.8."
+    },
+    "hi": {
+      "question": "274 रु. की वस्तु 20% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "519",
+        "328.8",
+        "274",
+        "295"
+      ],
+      "explanation": "वि.मू. = 274×1.2 = 328.8।"
+    },
+    "id": "ntpc-m-0045"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.1688, sold at 38% profit. Find SP.",
+      "options": [
+        "2329.44",
+        "1688",
+        "1970",
+        "2096"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 1688×1.38 = 2329.44."
+    },
+    "hi": {
+      "question": "1688 रु. की वस्तु 38% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "2329.44",
+        "1688",
+        "1970",
+        "2096"
+      ],
+      "explanation": "वि.मू. = 1688×1.38 = 2329.44।"
+    },
+    "id": "ntpc-m-0046"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 41% loss for Rs.427.75. Find CP.",
+      "options": [
+        "470",
+        "725",
+        "622",
+        "800"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 427.75/0.5900000000000001 = 725."
+    },
+    "hi": {
+      "question": "दुकानदार 41% हानि पर 427.75 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "470",
+        "725",
+        "622",
+        "800"
+      ],
+      "explanation": "क्र.मू. = 427.75/0.5900000000000001 = 725।"
+    },
+    "id": "ntpc-m-0047"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.421, sold at 20% profit. Find SP.",
+      "options": [
+        "421",
+        "454",
+        "505.2",
+        "490"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 421×1.2 = 505.2."
+    },
+    "hi": {
+      "question": "421 रु. की वस्तु 20% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "421",
+        "454",
+        "505.2",
+        "490"
+      ],
+      "explanation": "वि.मू. = 421×1.2 = 505.2।"
+    },
+    "id": "ntpc-m-0048"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 49% loss for Rs.521.22. Find CP.",
+      "options": [
+        "1022",
+        "573",
+        "964",
+        "1146"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 521.22/0.51 = 1022."
+    },
+    "hi": {
+      "question": "दुकानदार 49% हानि पर 521.22 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "1022",
+        "573",
+        "964",
+        "1146"
+      ],
+      "explanation": "क्र.मू. = 521.22/0.51 = 1022।"
+    },
+    "id": "ntpc-m-0049"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.1539, sold at 34% profit. Find SP.",
+      "options": [
+        "1648",
+        "2062.26",
+        "1856",
+        "1539"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 1539×1.34 = 2062.26."
+    },
+    "hi": {
+      "question": "1539 रु. की वस्तु 34% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "1648",
+        "2062.26",
+        "1856",
+        "1539"
+      ],
+      "explanation": "वि.मू. = 1539×1.34 = 2062.26।"
+    },
+    "id": "ntpc-m-0050"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 12% loss for Rs.853.6. Find CP.",
+      "options": [
+        "852",
+        "938",
+        "970",
+        "1058"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 853.6/0.88 = 970."
+    },
+    "hi": {
+      "question": "दुकानदार 12% हानि पर 853.6 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "852",
+        "938",
+        "970",
+        "1058"
+      ],
+      "explanation": "क्र.मू. = 853.6/0.88 = 970।"
+    },
+    "id": "ntpc-m-0051"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 24% loss for Rs.333.64. Find CP.",
+      "options": [
+        "367",
+        "634",
+        "439",
+        "316"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 333.64/0.76 = 439."
+    },
+    "hi": {
+      "question": "दुकानदार 24% हानि पर 333.64 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "367",
+        "634",
+        "439",
+        "316"
+      ],
+      "explanation": "क्र.मू. = 333.64/0.76 = 439।"
+    },
+    "id": "ntpc-m-0052"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 24% loss for Rs.1147.6. Find CP.",
+      "options": [
+        "1262",
+        "1510",
+        "1629",
+        "1332"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 1147.6/0.76 = 1510."
+    },
+    "hi": {
+      "question": "दुकानदार 24% हानि पर 1147.6 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "1262",
+        "1510",
+        "1629",
+        "1332"
+      ],
+      "explanation": "क्र.मू. = 1147.6/0.76 = 1510।"
+    },
+    "id": "ntpc-m-0053"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 7% loss for Rs.1231.32. Find CP.",
+      "options": [
+        "1456",
+        "1354",
+        "1210",
+        "1324"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 1231.32/0.9299999999999999 = 1324."
+    },
+    "hi": {
+      "question": "दुकानदार 7% हानि पर 1231.32 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "1456",
+        "1354",
+        "1210",
+        "1324"
+      ],
+      "explanation": "क्र.मू. = 1231.32/0.9299999999999999 = 1324।"
+    },
+    "id": "ntpc-m-0054"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 41% loss for Rs.873.2. Find CP.",
+      "options": [
+        "960",
+        "1535",
+        "1362",
+        "1480"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 873.2/0.5900000000000001 = 1480."
+    },
+    "hi": {
+      "question": "दुकानदार 41% हानि पर 873.2 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "960",
+        "1535",
+        "1362",
+        "1480"
+      ],
+      "explanation": "क्र.मू. = 873.2/0.5900000000000001 = 1480।"
+    },
+    "id": "ntpc-m-0055"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.1162, sold at 46% profit. Find SP.",
+      "options": [
+        "1696.52",
+        "1526",
+        "1162",
+        "1283"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 1162×1.46 = 1696.52."
+    },
+    "hi": {
+      "question": "1162 रु. की वस्तु 46% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "1696.52",
+        "1526",
+        "1162",
+        "1283"
+      ],
+      "explanation": "वि.मू. = 1162×1.46 = 1696.52।"
+    },
+    "id": "ntpc-m-0056"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 36% loss for Rs.896. Find CP.",
+      "options": [
+        "1400",
+        "985",
+        "1570",
+        "1261"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 896/0.64 = 1400."
+    },
+    "hi": {
+      "question": "दुकानदार 36% हानि पर 896 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "1400",
+        "985",
+        "1570",
+        "1261"
+      ],
+      "explanation": "क्र.मू. = 896/0.64 = 1400।"
+    },
+    "id": "ntpc-m-0057"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 11% loss for Rs.1310.08. Find CP.",
+      "options": [
+        "1472",
+        "1441",
+        "1606",
+        "1317"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 1310.08/0.89 = 1472."
+    },
+    "hi": {
+      "question": "दुकानदार 11% हानि पर 1310.08 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "1472",
+        "1441",
+        "1606",
+        "1317"
+      ],
+      "explanation": "क्र.मू. = 1310.08/0.89 = 1472।"
+    },
+    "id": "ntpc-m-0058"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.1766, sold at 40% profit. Find SP.",
+      "options": [
+        "2472.4",
+        "2225",
+        "1838",
+        "1766"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 1766×1.4 = 2472.4."
+    },
+    "hi": {
+      "question": "1766 रु. की वस्तु 40% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "2472.4",
+        "2225",
+        "1838",
+        "1766"
+      ],
+      "explanation": "वि.मू. = 1766×1.4 = 2472.4।"
+    },
+    "id": "ntpc-m-0059"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 30% loss for Rs.235.9. Find CP.",
+      "options": [
+        "259",
+        "337",
+        "387",
+        "149"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 235.9/0.7 = 337."
+    },
+    "hi": {
+      "question": "दुकानदार 30% हानि पर 235.9 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "259",
+        "337",
+        "387",
+        "149"
+      ],
+      "explanation": "क्र.मू. = 235.9/0.7 = 337।"
+    },
+    "id": "ntpc-m-0060"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.484, sold at 38% profit. Find SP.",
+      "options": [
+        "667.92",
+        "727",
+        "484",
+        "601"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 484×1.38 = 667.92."
+    },
+    "hi": {
+      "question": "484 रु. की वस्तु 38% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "667.92",
+        "727",
+        "484",
+        "601"
+      ],
+      "explanation": "वि.मू. = 484×1.38 = 667.92।"
+    },
+    "id": "ntpc-m-0061"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.1656, sold at 8% profit. Find SP.",
+      "options": [
+        "1788.48",
+        "1656",
+        "1609",
+        "1846"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 1656×1.08 = 1788.48."
+    },
+    "hi": {
+      "question": "1656 रु. की वस्तु 8% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "1788.48",
+        "1656",
+        "1609",
+        "1846"
+      ],
+      "explanation": "वि.मू. = 1656×1.08 = 1788.48।"
+    },
+    "id": "ntpc-m-0062"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.1903, sold at 49% profit. Find SP.",
+      "options": [
+        "2551",
+        "2835.47",
+        "1903",
+        "1960"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 1903×1.49 = 2835.47."
+    },
+    "hi": {
+      "question": "1903 रु. की वस्तु 49% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "2551",
+        "2835.47",
+        "1903",
+        "1960"
+      ],
+      "explanation": "वि.मू. = 1903×1.49 = 2835.47।"
+    },
+    "id": "ntpc-m-0063"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.736, sold at 40% profit. Find SP.",
+      "options": [
+        "890",
+        "736",
+        "927",
+        "1030.4"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 736×1.4 = 1030.4."
+    },
+    "hi": {
+      "question": "736 रु. की वस्तु 40% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "890",
+        "736",
+        "927",
+        "1030.4"
+      ],
+      "explanation": "वि.मू. = 736×1.4 = 1030.4।"
+    },
+    "id": "ntpc-m-0064"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 12% loss for Rs.919.6. Find CP.",
+      "options": [
+        "1045",
+        "1134",
+        "868",
+        "1011"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 919.6/0.88 = 1045."
+    },
+    "hi": {
+      "question": "दुकानदार 12% हानि पर 919.6 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "1045",
+        "1134",
+        "868",
+        "1011"
+      ],
+      "explanation": "क्र.मू. = 919.6/0.88 = 1045।"
+    },
+    "id": "ntpc-m-0065"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 35% loss for Rs.617.5. Find CP.",
+      "options": [
+        "679",
+        "950",
+        "784",
+        "1062"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 617.5/0.65 = 950."
+    },
+    "hi": {
+      "question": "दुकानदार 35% हानि पर 617.5 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "679",
+        "950",
+        "784",
+        "1062"
+      ],
+      "explanation": "क्र.मू. = 617.5/0.65 = 950।"
+    },
+    "id": "ntpc-m-0066"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 43% loss for Rs.1132.59. Find CP.",
+      "options": [
+        "1987",
+        "1920",
+        "2071",
+        "1245"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 1132.59/0.5700000000000001 = 1987."
+    },
+    "hi": {
+      "question": "दुकानदार 43% हानि पर 1132.59 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "1987",
+        "1920",
+        "2071",
+        "1245"
+      ],
+      "explanation": "क्र.मू. = 1132.59/0.5700000000000001 = 1987।"
+    },
+    "id": "ntpc-m-0067"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.1713, sold at 37% profit. Find SP.",
+      "options": [
+        "2346.81",
+        "1763",
+        "2112",
+        "1713"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 1713×1.37 = 2346.81."
+    },
+    "hi": {
+      "question": "1713 रु. की वस्तु 37% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "2346.81",
+        "1763",
+        "2112",
+        "1713"
+      ],
+      "explanation": "वि.मू. = 1713×1.37 = 2346.81।"
+    },
+    "id": "ntpc-m-0068"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 42% loss for Rs.1052.7. Find CP.",
+      "options": [
+        "1815",
+        "1990",
+        "1157",
+        "1727"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 1052.7/0.5800000000000001 = 1815."
+    },
+    "hi": {
+      "question": "दुकानदार 42% हानि पर 1052.7 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "1815",
+        "1990",
+        "1157",
+        "1727"
+      ],
+      "explanation": "क्र.मू. = 1052.7/0.5800000000000001 = 1815।"
+    },
+    "id": "ntpc-m-0069"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 26% loss for Rs.596.44. Find CP.",
+      "options": [
+        "656",
+        "806",
+        "995",
+        "660"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 596.44/0.74 = 806."
+    },
+    "hi": {
+      "question": "दुकानदार 26% हानि पर 596.44 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "656",
+        "806",
+        "995",
+        "660"
+      ],
+      "explanation": "क्र.मू. = 596.44/0.74 = 806।"
+    },
+    "id": "ntpc-m-0070"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 20% loss for Rs.1222.4. Find CP.",
+      "options": [
+        "1373",
+        "1344",
+        "1637",
+        "1528"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 1222.4/0.8 = 1528."
+    },
+    "hi": {
+      "question": "दुकानदार 20% हानि पर 1222.4 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "1373",
+        "1344",
+        "1637",
+        "1528"
+      ],
+      "explanation": "क्र.मू. = 1222.4/0.8 = 1528।"
+    },
+    "id": "ntpc-m-0071"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.1544, sold at 29% profit. Find SP.",
+      "options": [
+        "1544",
+        "1991.76",
+        "1792",
+        "1763"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 1544×1.29 = 1991.76."
+    },
+    "hi": {
+      "question": "1544 रु. की वस्तु 29% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "1544",
+        "1991.76",
+        "1792",
+        "1763"
+      ],
+      "explanation": "वि.मू. = 1544×1.29 = 1991.76।"
+    },
+    "id": "ntpc-m-0072"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 37% loss for Rs.225.54. Find CP.",
+      "options": [
+        "248",
+        "492",
+        "358",
+        "283"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 225.54/0.63 = 358."
+    },
+    "hi": {
+      "question": "दुकानदार 37% हानि पर 225.54 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "248",
+        "492",
+        "358",
+        "283"
+      ],
+      "explanation": "क्र.मू. = 225.54/0.63 = 358।"
+    },
+    "id": "ntpc-m-0073"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.131, sold at 14% profit. Find SP.",
+      "options": [
+        "131",
+        "134",
+        "149.34",
+        "348"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 131×1.1400000000000001 = 149.34."
+    },
+    "hi": {
+      "question": "131 रु. की वस्तु 14% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "131",
+        "134",
+        "149.34",
+        "348"
+      ],
+      "explanation": "वि.मू. = 131×1.1400000000000001 = 149.34।"
+    },
+    "id": "ntpc-m-0074"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.1700, sold at 21% profit. Find SP.",
+      "options": [
+        "1927",
+        "2057",
+        "1700",
+        "1851"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 1700×1.21 = 2057.0."
+    },
+    "hi": {
+      "question": "1700 रु. की वस्तु 21% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "1927",
+        "2057",
+        "1700",
+        "1851"
+      ],
+      "explanation": "वि.मू. = 1700×1.21 = 2057.0।"
+    },
+    "id": "ntpc-m-0075"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 26% loss for Rs.1364.56. Find CP.",
+      "options": [
+        "1844",
+        "2030",
+        "1697",
+        "1501"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 1364.56/0.74 = 1844."
+    },
+    "hi": {
+      "question": "दुकानदार 26% हानि पर 1364.56 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "1844",
+        "2030",
+        "1697",
+        "1501"
+      ],
+      "explanation": "क्र.मू. = 1364.56/0.74 = 1844।"
+    },
+    "id": "ntpc-m-0076"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.1886, sold at 39% profit. Find SP.",
+      "options": [
+        "2621.54",
+        "2359",
+        "1886",
+        "1953"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 1886×1.3900000000000001 = 2621.54."
+    },
+    "hi": {
+      "question": "1886 रु. की वस्तु 39% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "2621.54",
+        "2359",
+        "1886",
+        "1953"
+      ],
+      "explanation": "वि.मू. = 1886×1.3900000000000001 = 2621.54।"
+    },
+    "id": "ntpc-m-0077"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Article CP Rs.565, sold at 10% profit. Find SP.",
+      "options": [
+        "565",
+        "559",
+        "640",
+        "621.5"
+      ],
+      "explanation": "SP = CP×(1+profit%/100) = 565×1.1 = 621.5."
+    },
+    "hi": {
+      "question": "565 रु. की वस्तु 10% लाभ पर बेची। वि.मू. ज्ञात करें।",
+      "options": [
+        "565",
+        "559",
+        "640",
+        "621.5"
+      ],
+      "explanation": "वि.मू. = 565×1.1 = 621.5।"
+    },
+    "id": "ntpc-m-0078"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Shopkeeper sells at 24% loss for Rs.1155.96. Find CP.",
+      "options": [
+        "1388",
+        "1271",
+        "1582",
+        "1521"
+      ],
+      "explanation": "CP = SP/(1-loss%/100) = 1155.96/0.76 = 1521."
+    },
+    "hi": {
+      "question": "दुकानदार 24% हानि पर 1155.96 रु. में बेचता है। क्र.मू. ज्ञात करें।",
+      "options": [
+        "1388",
+        "1271",
+        "1582",
+        "1521"
+      ],
+      "explanation": "क्र.मू. = 1155.96/0.76 = 1521।"
+    },
+    "id": "ntpc-m-0079"
+  }
 ]

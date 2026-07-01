@@ -1,10 +1,2056 @@
 [
-  {"id":"ntpc-m-0001","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"The area of a square is 196 sq cm. What is the length of its diagonal?","options":["14 cm","14√2 cm","28 cm","7√2 cm"],"explanation":"Side = √196 = 14 cm. Diagonal = side × √2 = 14√2 cm."},"hi":{"question":"वर्ग का क्षेत्रफल 196 वर्ग सेमी। विकर्ण की लंबाई?","options":["14 सेमी","14√2 सेमी","28 सेमी","7√2 सेमी"],"explanation":"भुजा=14, विकर्ण=14√2 सेमी।"}},
-  {"id":"ntpc-m-0002","correctOption":"A","difficulty":"medium","sourceYear":2023,"en":{"question":"A cylindrical tank has radius 7m and height 10m. What is its capacity in kiloliters? (Take π = 22/7)","options":["1540 kL","154 kL","2200 kL","3080 kL"],"explanation":"Volume = πr²h = (22/7)×49×10 = 1540 m³ = 1540 kL."},"hi":{"question":"बेलनाकार टंकी, त्रिज्या 7m, ऊँचाई 10m। क्षमता (kL में)?","options":["1540 kL","154 kL","2200 kL","3080 kL"],"explanation":"आयतन=(22/7)×49×10=1540 m³=1540 kL।"}},
-  {"id":"ntpc-m-0003","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"The length and breadth of a rectangular field are in the ratio 5:3. If its perimeter is 480m, what is its area?","options":["13,500 sq m","12,000 sq m","15,000 sq m","13,200 sq m"],"explanation":"l+b=240, 8k=240, k=30. l=150, b=90. Area=13500 sq m."},"hi":{"question":"लंबाई:चौड़ाई=5:3, परिमाप=480m। क्षेत्रफल?","options":["13,500 वर्ग मी","12,000 वर्ग मी","15,000 वर्ग मी","13,200 वर्ग मी"],"explanation":"l+b=240, k=30, l=150, b=90, क्षेत्रफल=13500।"}},
-  {"id":"ntpc-m-0004","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"The radius of a circle is 14 cm. Find its area. (Take π = 22/7)","options":["616 sq cm","308 sq cm","154 sq cm","628 sq cm"],"explanation":"Area = πr² = (22/7)×196 = 616 sq cm."},"hi":{"question":"त्रिज्या 14 सेमी, वृत्त का क्षेत्रफल? (π=22/7)","options":["616 वर्ग सेमी","308 वर्ग सेमी","154 वर्ग सेमी","628 वर्ग सेमी"],"explanation":"क्षेत्रफल=(22/7)×196=616 वर्ग सेमी।"}},
-  {"id":"ntpc-m-0005","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"The circumference of a circle is 176 cm. Find its radius. (Take π = 22/7)","options":["28 cm","56 cm","14 cm","7 cm"],"explanation":"2πr=176, r=176×7/44=28 cm."},"hi":{"question":"परिधि 176 सेमी, त्रिज्या? (π=22/7)","options":["28 सेमी","56 सेमी","14 सेमी","7 सेमी"],"explanation":"r=176×7/44=28 सेमी।"}},
-  {"id":"ntpc-m-0006","correctOption":"A","difficulty":"medium","sourceYear":2023,"en":{"question":"A rectangular field is 30 m long and 20 m wide. A path 2 m wide runs along the boundary inside. Find the area of the path.","options":["184 sq m","200 sq m","168 sq m","176 sq m"],"explanation":"Field=600, inner=26×16=416. Path=600-416=184 sq m."},"hi":{"question":"30m×20m खेत, अंदर 2m चौड़ा रास्ता। रास्ते का क्षेत्रफल?","options":["184 वर्ग मी","200 वर्ग मी","168 वर्ग मी","176 वर्ग मी"],"explanation":"600-416=184 वर्ग मी।"}},
-  {"id":"ntpc-m-0007","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"The volume of a cube is 512 cubic cm. Find its total surface area.","options":["384 sq cm","256 sq cm","512 sq cm","320 sq cm"],"explanation":"Side=∛512=8 cm. TSA=6×64=384 sq cm."},"hi":{"question":"घन का आयतन 512 घन सेमी। कुल पृष्ठीय क्षेत्रफल?","options":["384 वर्ग सेमी","256 वर्ग सेमी","512 वर्ग सेमी","320 वर्ग सेमी"],"explanation":"भुजा=8, TSA=6×64=384 वर्ग सेमी।"}},
-  {"id":"ntpc-m-0008","correctOption":"A","difficulty":"hard","sourceYear":2022,"en":{"question":"A wire bent as a circle of radius 21 cm is rebent to form a square. Find the side of the square. (π=22/7)","options":["33 cm","44 cm","22 cm","36 cm"],"explanation":"Wire length=2π×21=132 cm. Side=132/4=33 cm."},"hi":{"question":"त्रिज्या 21 सेमी के वृत्त का तार मोड़कर वर्ग बनाएँ। भुजा?","options":["33 सेमी","44 सेमी","22 सेमी","36 सेमी"],"explanation":"तार की लंबाई=132, भुजा=33 सेमी।"}}
+  {
+    "id": "ntpc-m-0001",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Area of square=196 sq cm. Diagonal?",
+      "options": [
+        "14 cm",
+        "14√2 cm",
+        "28 cm",
+        "7√2 cm"
+      ],
+      "explanation": "Side=14. Diagonal=14√2."
+    },
+    "hi": {
+      "question": "वर्ग क्षेत्रफल 196 वर्ग सेमी, विकर्ण?",
+      "options": [
+        "14",
+        "14√2",
+        "28",
+        "7√2"
+      ],
+      "explanation": "14√2 सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0002",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Cylindrical tank r=7m, h=10m. Capacity in kL?",
+      "options": [
+        "1540 kL",
+        "154",
+        "2200",
+        "3080"
+      ],
+      "explanation": "V=πr²h=(22/7)×49×10=1540m³=1540kL."
+    },
+    "hi": {
+      "question": "बेलन r=7m, h=10m। क्षमता kL में?",
+      "options": [
+        "1540",
+        "154",
+        "2200",
+        "3080"
+      ],
+      "explanation": "1540 kL।"
+    }
+  },
+  {
+    "id": "ntpc-m-0003",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Rect field l:b=5:3, perimeter=480m. Area?",
+      "options": [
+        "13500 sq m",
+        "12000",
+        "15000",
+        "13200"
+      ],
+      "explanation": "l+b=240. 8k=240. k=30. l=150,b=90. Area=13500."
+    },
+    "hi": {
+      "question": "l:b=5:3, परिमाप=480। क्षेत्रफल?",
+      "options": [
+        "13500",
+        "12000",
+        "15000",
+        "13200"
+      ],
+      "explanation": "13500 वर्ग मी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0004",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Circle r=14cm. Area? (π=22/7)",
+      "options": [
+        "616 sq cm",
+        "308",
+        "154",
+        "628"
+      ],
+      "explanation": "πr²=(22/7)×196=616."
+    },
+    "hi": {
+      "question": "r=14cm, वृत्त क्षेत्रफल?",
+      "options": [
+        "616",
+        "308",
+        "154",
+        "628"
+      ],
+      "explanation": "616 वर्ग सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0005",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Circumference=176cm. Radius? (π=22/7)",
+      "options": [
+        "28cm",
+        "56cm",
+        "14cm",
+        "7cm"
+      ],
+      "explanation": "r=176×7/44=28cm."
+    },
+    "hi": {
+      "question": "परिधि 176cm, त्रिज्या?",
+      "options": [
+        "28",
+        "56",
+        "14",
+        "7"
+      ],
+      "explanation": "28 सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0006",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "30m×20m field, 2m path inside boundary. Path area?",
+      "options": [
+        "184 sq m",
+        "200",
+        "168",
+        "176"
+      ],
+      "explanation": "600-416=184 sq m."
+    },
+    "hi": {
+      "question": "30m×20m खेत, 2m अंदर रास्ता। क्षेत्रफल?",
+      "options": [
+        "184",
+        "200",
+        "168",
+        "176"
+      ],
+      "explanation": "184 वर्ग मी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0007",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Cube volume=512 cc. TSA?",
+      "options": [
+        "384 sq cm",
+        "256",
+        "512",
+        "320"
+      ],
+      "explanation": "Side=8. TSA=6×64=384."
+    },
+    "hi": {
+      "question": "घन आयतन 512, कुल पृष्ठ?",
+      "options": [
+        "384",
+        "256",
+        "512",
+        "320"
+      ],
+      "explanation": "384 वर्ग सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0008",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2022,
+    "en": {
+      "question": "Wire bent as circle r=21cm rebent as square. Side?",
+      "options": [
+        "33 cm",
+        "44",
+        "22",
+        "36"
+      ],
+      "explanation": "Wire=2π×21=132. Side=132/4=33."
+    },
+    "hi": {
+      "question": "r=21cm वृत्त तार से वर्ग। भुजा?",
+      "options": [
+        "33",
+        "44",
+        "22",
+        "36"
+      ],
+      "explanation": "33 सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0009",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Rectangle l=12cm, b=8cm. Area?",
+      "options": [
+        "40",
+        "80",
+        "96",
+        "100"
+      ],
+      "explanation": "12×8=96 sq cm."
+    },
+    "hi": {
+      "question": "आयत l=12,b=8। क्षेत्रफल?",
+      "options": [
+        "40",
+        "80",
+        "96",
+        "100"
+      ],
+      "explanation": "96 वर्ग सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0010",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square side=15cm. Perimeter?",
+      "options": [
+        "50",
+        "60",
+        "75",
+        "30"
+      ],
+      "explanation": "4×15=60 cm."
+    },
+    "hi": {
+      "question": "वर्ग भुजा 15, परिमाप?",
+      "options": [
+        "50",
+        "60",
+        "75",
+        "30"
+      ],
+      "explanation": "60 सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0011",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Triangle base=10cm, height=8cm. Area?",
+      "options": [
+        "80",
+        "20",
+        "30",
+        "40"
+      ],
+      "explanation": "1/2×10×8=40 sq cm."
+    },
+    "hi": {
+      "question": "त्रिभुज आधार 10, ऊँचाई 8। क्षेत्रफल?",
+      "options": [
+        "80",
+        "20",
+        "30",
+        "40"
+      ],
+      "explanation": "40 वर्ग सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0012",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Cone r=7cm, h=24cm. Slant height?",
+      "options": [
+        "25cm",
+        "24cm",
+        "26cm",
+        "28cm"
+      ],
+      "explanation": "l=√(r²+h²)=√(49+576)=√625=25."
+    },
+    "hi": {
+      "question": "शंकु r=7, h=24। तिर्यक ऊँचाई?",
+      "options": [
+        "25",
+        "24",
+        "26",
+        "28"
+      ],
+      "explanation": "25 सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0013",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sphere r=7cm. Surface area? (π=22/7)",
+      "options": [
+        "308",
+        "416",
+        "616",
+        "154"
+      ],
+      "explanation": "4πr²=4×(22/7)×49=616 sq cm."
+    },
+    "hi": {
+      "question": "गोला r=7cm, पृष्ठ क्षेत्रफल?",
+      "options": [
+        "308",
+        "416",
+        "616",
+        "154"
+      ],
+      "explanation": "616 वर्ग सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0014",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Cuboid l=8,b=6,h=4. Volume?",
+      "options": [
+        "172",
+        "192",
+        "182",
+        "162"
+      ],
+      "explanation": "8×6×4=192 cu cm."
+    },
+    "hi": {
+      "question": "घनाभ l=8,b=6,h=4, आयतन?",
+      "options": [
+        "172",
+        "192",
+        "182",
+        "162"
+      ],
+      "explanation": "192 घन सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0015",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Hemisphere r=7cm. Curved surface area? (π=22/7)",
+      "options": [
+        "308",
+        "154",
+        "616",
+        "462"
+      ],
+      "explanation": "2πr²=2×22/7×49=308 sq cm."
+    },
+    "hi": {
+      "question": "अर्धगोला r=7, वक्र पृष्ठ?",
+      "options": [
+        "308",
+        "154",
+        "616",
+        "462"
+      ],
+      "explanation": "308 वर्ग सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0016",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Right circular cylinder r=7cm, h=20cm. CSA? (π=22/7)",
+      "options": [
+        "440",
+        "660",
+        "220",
+        "880"
+      ],
+      "explanation": "2πrh=2×22/7×7×20=880 sq cm."
+    },
+    "hi": {
+      "question": "लंबवृत्तीय बेलन r=7,h=20। वक्र पृष्ठ?",
+      "options": [
+        "440",
+        "660",
+        "220",
+        "880"
+      ],
+      "explanation": "880 वर्ग सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0017",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Equilateral triangle side=12cm. Area?",
+      "options": [
+        "72",
+        "36√3",
+        "24√3",
+        "60"
+      ],
+      "explanation": "√3/4×144=36√3 sq cm."
+    },
+    "hi": {
+      "question": "समबाहु त्रिभुज भुजा=12। क्षेत्रफल?",
+      "options": [
+        "72",
+        "36√3",
+        "24√3",
+        "60"
+      ],
+      "explanation": "36√3 वर्ग सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0018",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If radius of sphere is doubled, volume becomes?",
+      "options": [
+        "8 times",
+        "4 times",
+        "2 times",
+        "6 times"
+      ],
+      "explanation": "V∝r³. New V=8×original."
+    },
+    "hi": {
+      "question": "गोले की त्रिज्या दोगुनी, आयतन?",
+      "options": [
+        "8 गुना",
+        "4 गुना",
+        "2 गुना",
+        "6 गुना"
+      ],
+      "explanation": "8 गुना।"
+    }
+  },
+  {
+    "id": "ntpc-m-0019",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Semicircle r=14cm. Perimeter? (π=22/7)",
+      "options": [
+        "44",
+        "58",
+        "72",
+        "64"
+      ],
+      "explanation": "πr+2r=22/7×14+28=44+28=72cm."
+    },
+    "hi": {
+      "question": "अर्धवृत्त r=14, परिमाप?",
+      "options": [
+        "44",
+        "58",
+        "72",
+        "64"
+      ],
+      "explanation": "72 सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0020",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square diagonal=10√2cm. Area?",
+      "options": [
+        "50",
+        "200",
+        "120",
+        "100"
+      ],
+      "explanation": "Side=10, area=100 sq cm."
+    },
+    "hi": {
+      "question": "वर्ग विकर्ण=10√2, क्षेत्रफल?",
+      "options": [
+        "50",
+        "200",
+        "120",
+        "100"
+      ],
+      "explanation": "100 वर्ग सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0021",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Two cubes edge 2cm joined. TSA of cuboid?",
+      "options": [
+        "32",
+        "40",
+        "48",
+        "36"
+      ],
+      "explanation": "Dim: 4×2×2. TSA=2(8+8+4)=40 sq cm."
+    },
+    "hi": {
+      "question": "दो घन भुजा 2cm जोड़े। घनाभ का TSA?",
+      "options": [
+        "32",
+        "40",
+        "48",
+        "36"
+      ],
+      "explanation": "40 वर्ग सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0022",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If sides of rectangle are increased by 10% and decreased by 10%, area changes by?",
+      "options": [
+        "1% decrease",
+        "1% increase",
+        "No change",
+        "2% decrease"
+      ],
+      "explanation": "1.1×0.9=0.99. 1% decrease."
+    },
+    "hi": {
+      "question": "आयत की भुजाएँ 10% बढ़ी-घटी, क्षेत्रफल?",
+      "options": [
+        "1% कमी",
+        "1% वृद्धि",
+        "कोई नहीं",
+        "2% कमी"
+      ],
+      "explanation": "1% कमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0023",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Path 2m wide around 40m×30m rectangular park. Path area?",
+      "options": [
+        "280",
+        "310",
+        "296",
+        "320"
+      ],
+      "explanation": "Outer=44×34=1496. Inner=40×30=1200. Path=296 sq m."
+    },
+    "hi": {
+      "question": "40m×30m पार्क के चारों ओर 2m रास्ता। क्षेत्रफल?",
+      "options": [
+        "280",
+        "310",
+        "296",
+        "320"
+      ],
+      "explanation": "296 वर्ग मी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0024",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Cone r=7cm, h=24cm. TSA? (π=22/7)",
+      "options": [
+        "704",
+        "550",
+        "616",
+        "814"
+      ],
+      "explanation": "l=25. TSA=πr(r+l)=22/7×7×32=704 sq cm."
+    },
+    "hi": {
+      "question": "शंकु r=7,h=24, TSA?",
+      "options": [
+        "704",
+        "550",
+        "616",
+        "814"
+      ],
+      "explanation": "704 वर्ग सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0025",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Circle area=154 sq cm. Radius? (π=22/7)",
+      "options": [
+        "14",
+        "7",
+        "3.5",
+        "21"
+      ],
+      "explanation": "πr²=154, r²=49, r=7."
+    },
+    "hi": {
+      "question": "वृत्त क्षेत्रफल 154, त्रिज्या?",
+      "options": [
+        "14",
+        "7",
+        "3.5",
+        "21"
+      ],
+      "explanation": "7 सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0026",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Rhombus diagonals 10cm, 24cm. Area?",
+      "options": [
+        "240",
+        "60",
+        "150",
+        "120"
+      ],
+      "explanation": "(d1×d2)/2=240/2=120 sq cm."
+    },
+    "hi": {
+      "question": "समचतुर्भुज विकर्ण 10,24। क्षेत्रफल?",
+      "options": [
+        "240",
+        "60",
+        "150",
+        "120"
+      ],
+      "explanation": "120 वर्ग सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0027",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Cuboid l=10,b=8,h=6. TSA?",
+      "options": [
+        "376",
+        "300",
+        "480",
+        "240"
+      ],
+      "explanation": "2(80+60+48)=2×188=376."
+    },
+    "hi": {
+      "question": "घनाभ 10,8,6। TSA?",
+      "options": [
+        "376",
+        "300",
+        "480",
+        "240"
+      ],
+      "explanation": "376 वर्ग सेमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0028",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "How many spherical balls r=0.5cm can be made from a solid sphere r=3cm?",
+      "options": [
+        "36",
+        "72",
+        "216",
+        "108"
+      ],
+      "explanation": "Volume ratio=3³/0.5³=27/0.125=216."
+    },
+    "hi": {
+      "question": "3cm गोले से 0.5cm की कितनी गोलियाँ?",
+      "options": [
+        "36",
+        "72",
+        "216",
+        "108"
+      ],
+      "explanation": "216।"
+    }
+  },
+  {
+    "id": "ntpc-m-0029",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Trapezium parallel sides 12cm, 8cm, height 5cm. Area?",
+      "options": [
+        "100",
+        "50",
+        "60",
+        "40"
+      ],
+      "explanation": "1/2×(12+8)×5=50 sq cm."
+    },
+    "hi": {
+      "question": "समलंब समांतर भुजा 12,8, ऊँ 5। क्षेत्रफल?",
+      "options": [
+        "100",
+        "50",
+        "60",
+        "40"
+      ],
+      "explanation": "50 वर्ग सेमी।"
+    }
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 22cm (π=22/7)?",
+      "options": [
+        "138.3",
+        "484",
+        "1521.1",
+        "69.1"
+      ],
+      "explanation": "πr² = (22/7)×22² = 1521.1 cm²."
+    },
+    "hi": {
+      "question": "22सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "138.3",
+        "484",
+        "1521.1",
+        "69.1"
+      ],
+      "explanation": "πr² = (22/7)×22² = 1521.1 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0030"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 15cm (π=22/7)?",
+      "options": [
+        "707.1",
+        "225",
+        "47.1",
+        "94.3"
+      ],
+      "explanation": "πr² = (22/7)×15² = 707.1 cm²."
+    },
+    "hi": {
+      "question": "15सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "707.1",
+        "225",
+        "47.1",
+        "94.3"
+      ],
+      "explanation": "πr² = (22/7)×15² = 707.1 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0031"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 22cm (π=22/7)?",
+      "options": [
+        "484",
+        "1521.1",
+        "138.3",
+        "69.1"
+      ],
+      "explanation": "πr² = (22/7)×22² = 1521.1 cm²."
+    },
+    "hi": {
+      "question": "22सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "484",
+        "1521.1",
+        "138.3",
+        "69.1"
+      ],
+      "explanation": "πr² = (22/7)×22² = 1521.1 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0032"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 20cm (π=22/7)?",
+      "options": [
+        "400",
+        "62.9",
+        "125.7",
+        "1257.1"
+      ],
+      "explanation": "πr² = (22/7)×20² = 1257.1 cm²."
+    },
+    "hi": {
+      "question": "20सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "400",
+        "62.9",
+        "125.7",
+        "1257.1"
+      ],
+      "explanation": "πr² = (22/7)×20² = 1257.1 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0033"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 22m×19m, 2m path around. Path area?",
+      "options": [
+        "180",
+        "598",
+        "418",
+        "82"
+      ],
+      "explanation": "Outer: 26×23=598. Inner: 418. Path: 180=180 m²."
+    },
+    "hi": {
+      "question": "22मी×19मी मैदान, 2मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "180",
+        "598",
+        "418",
+        "82"
+      ],
+      "explanation": "बाहरी=598। भीतरी=418। रास्ता=180 वर्ग मी।"
+    },
+    "id": "ntpc-m-0034"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 12cm (π=22/7)?",
+      "options": [
+        "144",
+        "75.4",
+        "452.6",
+        "37.7"
+      ],
+      "explanation": "πr² = (22/7)×12² = 452.6 cm²."
+    },
+    "hi": {
+      "question": "12सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "144",
+        "75.4",
+        "452.6",
+        "37.7"
+      ],
+      "explanation": "πr² = (22/7)×12² = 452.6 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0035"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 16m×22m, 1m path around. Path area?",
+      "options": [
+        "352",
+        "76",
+        "432",
+        "80"
+      ],
+      "explanation": "Outer: 18×24=432. Inner: 352. Path: 80=80 m²."
+    },
+    "hi": {
+      "question": "16मी×22मी मैदान, 1मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "352",
+        "76",
+        "432",
+        "80"
+      ],
+      "explanation": "बाहरी=432। भीतरी=352। रास्ता=80 वर्ग मी।"
+    },
+    "id": "ntpc-m-0036"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 22m×5m, 1m path around. Path area?",
+      "options": [
+        "54",
+        "58",
+        "110",
+        "168"
+      ],
+      "explanation": "Outer: 24×7=168. Inner: 110. Path: 58=58 m²."
+    },
+    "hi": {
+      "question": "22मी×5मी मैदान, 1मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "54",
+        "58",
+        "110",
+        "168"
+      ],
+      "explanation": "बाहरी=168। भीतरी=110। रास्ता=58 वर्ग मी।"
+    },
+    "id": "ntpc-m-0037"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 12m×22m, 2m path around. Path area?",
+      "options": [
+        "264",
+        "152",
+        "416",
+        "68"
+      ],
+      "explanation": "Outer: 16×26=416. Inner: 264. Path: 152=152 m²."
+    },
+    "hi": {
+      "question": "12मी×22मी मैदान, 2मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "264",
+        "152",
+        "416",
+        "68"
+      ],
+      "explanation": "बाहरी=416। भीतरी=264। रास्ता=152 वर्ग मी।"
+    },
+    "id": "ntpc-m-0038"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 27m×15m, 3m path around. Path area?",
+      "options": [
+        "288",
+        "84",
+        "693",
+        "405"
+      ],
+      "explanation": "Outer: 33×21=693. Inner: 405. Path: 288=288 m²."
+    },
+    "hi": {
+      "question": "27मी×15मी मैदान, 3मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "288",
+        "84",
+        "693",
+        "405"
+      ],
+      "explanation": "बाहरी=693। भीतरी=405। रास्ता=288 वर्ग मी।"
+    },
+    "id": "ntpc-m-0039"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 12cm (π=22/7)?",
+      "options": [
+        "37.7",
+        "144",
+        "452.6",
+        "75.4"
+      ],
+      "explanation": "πr² = (22/7)×12² = 452.6 cm²."
+    },
+    "hi": {
+      "question": "12सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "37.7",
+        "144",
+        "452.6",
+        "75.4"
+      ],
+      "explanation": "πr² = (22/7)×12² = 452.6 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0040"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 15m×23m, 1m path around. Path area?",
+      "options": [
+        "345",
+        "80",
+        "425",
+        "76"
+      ],
+      "explanation": "Outer: 17×25=425. Inner: 345. Path: 80=80 m²."
+    },
+    "hi": {
+      "question": "15मी×23मी मैदान, 1मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "345",
+        "80",
+        "425",
+        "76"
+      ],
+      "explanation": "बाहरी=425। भीतरी=345। रास्ता=80 वर्ग मी।"
+    },
+    "id": "ntpc-m-0041"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 6m×4m, 1m path around. Path area?",
+      "options": [
+        "20",
+        "48",
+        "24",
+        "24"
+      ],
+      "explanation": "Outer: 8×6=48. Inner: 24. Path: 24=24 m²."
+    },
+    "hi": {
+      "question": "6मी×4मी मैदान, 1मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "20",
+        "48",
+        "24",
+        "24"
+      ],
+      "explanation": "बाहरी=48। भीतरी=24। रास्ता=24 वर्ग मी।"
+    },
+    "id": "ntpc-m-0042"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 16m×25m, 2m path around. Path area?",
+      "options": [
+        "180",
+        "580",
+        "400",
+        "82"
+      ],
+      "explanation": "Outer: 20×29=580. Inner: 400. Path: 180=180 m²."
+    },
+    "hi": {
+      "question": "16मी×25मी मैदान, 2मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "180",
+        "580",
+        "400",
+        "82"
+      ],
+      "explanation": "बाहरी=580। भीतरी=400। रास्ता=180 वर्ग मी।"
+    },
+    "id": "ntpc-m-0043"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 10m×17m, 3m path around. Path area?",
+      "options": [
+        "368",
+        "170",
+        "198",
+        "54"
+      ],
+      "explanation": "Outer: 16×23=368. Inner: 170. Path: 198=198 m²."
+    },
+    "hi": {
+      "question": "10मी×17मी मैदान, 3मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "368",
+        "170",
+        "198",
+        "54"
+      ],
+      "explanation": "बाहरी=368। भीतरी=170। रास्ता=198 वर्ग मी।"
+    },
+    "id": "ntpc-m-0044"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 14cm (π=22/7)?",
+      "options": [
+        "88.0",
+        "196",
+        "616.0",
+        "44.0"
+      ],
+      "explanation": "πr² = (22/7)×14² = 616.0 cm²."
+    },
+    "hi": {
+      "question": "14सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "88.0",
+        "196",
+        "616.0",
+        "44.0"
+      ],
+      "explanation": "πr² = (22/7)×14² = 616.0 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0045"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 5m×22m, 2m path around. Path area?",
+      "options": [
+        "54",
+        "110",
+        "234",
+        "124"
+      ],
+      "explanation": "Outer: 9×26=234. Inner: 110. Path: 124=124 m²."
+    },
+    "hi": {
+      "question": "5मी×22मी मैदान, 2मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "54",
+        "110",
+        "234",
+        "124"
+      ],
+      "explanation": "बाहरी=234। भीतरी=110। रास्ता=124 वर्ग मी।"
+    },
+    "id": "ntpc-m-0046"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 26cm (π=22/7)?",
+      "options": [
+        "81.7",
+        "163.4",
+        "2124.6",
+        "676"
+      ],
+      "explanation": "πr² = (22/7)×26² = 2124.6 cm²."
+    },
+    "hi": {
+      "question": "26सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "81.7",
+        "163.4",
+        "2124.6",
+        "676"
+      ],
+      "explanation": "πr² = (22/7)×26² = 2124.6 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0047"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 7m×11m, 2m path around. Path area?",
+      "options": [
+        "165",
+        "88",
+        "36",
+        "77"
+      ],
+      "explanation": "Outer: 11×15=165. Inner: 77. Path: 88=88 m²."
+    },
+    "hi": {
+      "question": "7मी×11मी मैदान, 2मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "165",
+        "88",
+        "36",
+        "77"
+      ],
+      "explanation": "बाहरी=165। भीतरी=77। रास्ता=88 वर्ग मी।"
+    },
+    "id": "ntpc-m-0048"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 26m×24m, 3m path around. Path area?",
+      "options": [
+        "100",
+        "624",
+        "336",
+        "960"
+      ],
+      "explanation": "Outer: 32×30=960. Inner: 624. Path: 336=336 m²."
+    },
+    "hi": {
+      "question": "26मी×24मी मैदान, 3मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "100",
+        "624",
+        "336",
+        "960"
+      ],
+      "explanation": "बाहरी=960। भीतरी=624। रास्ता=336 वर्ग मी।"
+    },
+    "id": "ntpc-m-0049"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 13cm (π=22/7)?",
+      "options": [
+        "81.7",
+        "169",
+        "40.9",
+        "531.1"
+      ],
+      "explanation": "πr² = (22/7)×13² = 531.1 cm²."
+    },
+    "hi": {
+      "question": "13सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "81.7",
+        "169",
+        "40.9",
+        "531.1"
+      ],
+      "explanation": "πr² = (22/7)×13² = 531.1 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0050"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 8cm (π=22/7)?",
+      "options": [
+        "201.1",
+        "25.1",
+        "64",
+        "50.3"
+      ],
+      "explanation": "πr² = (22/7)×8² = 201.1 cm²."
+    },
+    "hi": {
+      "question": "8सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "201.1",
+        "25.1",
+        "64",
+        "50.3"
+      ],
+      "explanation": "πr² = (22/7)×8² = 201.1 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0051"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 19cm (π=22/7)?",
+      "options": [
+        "119.4",
+        "1134.6",
+        "59.7",
+        "361"
+      ],
+      "explanation": "πr² = (22/7)×19² = 1134.6 cm²."
+    },
+    "hi": {
+      "question": "19सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "119.4",
+        "1134.6",
+        "59.7",
+        "361"
+      ],
+      "explanation": "πr² = (22/7)×19² = 1134.6 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0052"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 12cm (π=22/7)?",
+      "options": [
+        "144",
+        "452.6",
+        "75.4",
+        "37.7"
+      ],
+      "explanation": "πr² = (22/7)×12² = 452.6 cm²."
+    },
+    "hi": {
+      "question": "12सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "144",
+        "452.6",
+        "75.4",
+        "37.7"
+      ],
+      "explanation": "πr² = (22/7)×12² = 452.6 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0053"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 9cm (π=22/7)?",
+      "options": [
+        "56.6",
+        "81",
+        "28.3",
+        "254.6"
+      ],
+      "explanation": "πr² = (22/7)×9² = 254.6 cm²."
+    },
+    "hi": {
+      "question": "9सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "56.6",
+        "81",
+        "28.3",
+        "254.6"
+      ],
+      "explanation": "πr² = (22/7)×9² = 254.6 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0054"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 24m×23m, 2m path around. Path area?",
+      "options": [
+        "552",
+        "204",
+        "94",
+        "756"
+      ],
+      "explanation": "Outer: 28×27=756. Inner: 552. Path: 204=204 m²."
+    },
+    "hi": {
+      "question": "24मी×23मी मैदान, 2मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "552",
+        "204",
+        "94",
+        "756"
+      ],
+      "explanation": "बाहरी=756। भीतरी=552। रास्ता=204 वर्ग मी।"
+    },
+    "id": "ntpc-m-0055"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 26cm (π=22/7)?",
+      "options": [
+        "81.7",
+        "676",
+        "2124.6",
+        "163.4"
+      ],
+      "explanation": "πr² = (22/7)×26² = 2124.6 cm²."
+    },
+    "hi": {
+      "question": "26सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "81.7",
+        "676",
+        "2124.6",
+        "163.4"
+      ],
+      "explanation": "πr² = (22/7)×26² = 2124.6 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0056"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 22m×21m, 2m path around. Path area?",
+      "options": [
+        "462",
+        "650",
+        "188",
+        "86"
+      ],
+      "explanation": "Outer: 26×25=650. Inner: 462. Path: 188=188 m²."
+    },
+    "hi": {
+      "question": "22मी×21मी मैदान, 2मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "462",
+        "650",
+        "188",
+        "86"
+      ],
+      "explanation": "बाहरी=650। भीतरी=462। रास्ता=188 वर्ग मी।"
+    },
+    "id": "ntpc-m-0057"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 17m×22m, 3m path around. Path area?",
+      "options": [
+        "78",
+        "644",
+        "270",
+        "374"
+      ],
+      "explanation": "Outer: 23×28=644. Inner: 374. Path: 270=270 m²."
+    },
+    "hi": {
+      "question": "17मी×22मी मैदान, 3मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "78",
+        "644",
+        "270",
+        "374"
+      ],
+      "explanation": "बाहरी=644। भीतरी=374। रास्ता=270 वर्ग मी।"
+    },
+    "id": "ntpc-m-0058"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 18m×6m, 2m path around. Path area?",
+      "options": [
+        "108",
+        "48",
+        "112",
+        "220"
+      ],
+      "explanation": "Outer: 22×10=220. Inner: 108. Path: 112=112 m²."
+    },
+    "hi": {
+      "question": "18मी×6मी मैदान, 2मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "108",
+        "48",
+        "112",
+        "220"
+      ],
+      "explanation": "बाहरी=220। भीतरी=108। रास्ता=112 वर्ग मी।"
+    },
+    "id": "ntpc-m-0059"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 7cm (π=22/7)?",
+      "options": [
+        "22.0",
+        "49",
+        "44.0",
+        "154.0"
+      ],
+      "explanation": "πr² = (22/7)×7² = 154.0 cm²."
+    },
+    "hi": {
+      "question": "7सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "22.0",
+        "49",
+        "44.0",
+        "154.0"
+      ],
+      "explanation": "πr² = (22/7)×7² = 154.0 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0060"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 16cm (π=22/7)?",
+      "options": [
+        "256",
+        "100.6",
+        "804.6",
+        "50.3"
+      ],
+      "explanation": "πr² = (22/7)×16² = 804.6 cm²."
+    },
+    "hi": {
+      "question": "16सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "256",
+        "100.6",
+        "804.6",
+        "50.3"
+      ],
+      "explanation": "πr² = (22/7)×16² = 804.6 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0061"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 12cm (π=22/7)?",
+      "options": [
+        "144",
+        "37.7",
+        "75.4",
+        "452.6"
+      ],
+      "explanation": "πr² = (22/7)×12² = 452.6 cm²."
+    },
+    "hi": {
+      "question": "12सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "144",
+        "37.7",
+        "75.4",
+        "452.6"
+      ],
+      "explanation": "πr² = (22/7)×12² = 452.6 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0062"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 13m×11m, 2m path around. Path area?",
+      "options": [
+        "255",
+        "112",
+        "48",
+        "143"
+      ],
+      "explanation": "Outer: 17×15=255. Inner: 143. Path: 112=112 m²."
+    },
+    "hi": {
+      "question": "13मी×11मी मैदान, 2मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "255",
+        "112",
+        "48",
+        "143"
+      ],
+      "explanation": "बाहरी=255। भीतरी=143। रास्ता=112 वर्ग मी।"
+    },
+    "id": "ntpc-m-0063"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 9cm (π=22/7)?",
+      "options": [
+        "81",
+        "254.6",
+        "28.3",
+        "56.6"
+      ],
+      "explanation": "πr² = (22/7)×9² = 254.6 cm²."
+    },
+    "hi": {
+      "question": "9सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "81",
+        "254.6",
+        "28.3",
+        "56.6"
+      ],
+      "explanation": "πr² = (22/7)×9² = 254.6 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0064"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 21m×17m, 3m path around. Path area?",
+      "options": [
+        "357",
+        "264",
+        "76",
+        "621"
+      ],
+      "explanation": "Outer: 27×23=621. Inner: 357. Path: 264=264 m²."
+    },
+    "hi": {
+      "question": "21मी×17मी मैदान, 3मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "357",
+        "264",
+        "76",
+        "621"
+      ],
+      "explanation": "बाहरी=621। भीतरी=357। रास्ता=264 वर्ग मी।"
+    },
+    "id": "ntpc-m-0065"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 14m×6m, 2m path around. Path area?",
+      "options": [
+        "84",
+        "180",
+        "40",
+        "96"
+      ],
+      "explanation": "Outer: 18×10=180. Inner: 84. Path: 96=96 m²."
+    },
+    "hi": {
+      "question": "14मी×6मी मैदान, 2मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "84",
+        "180",
+        "40",
+        "96"
+      ],
+      "explanation": "बाहरी=180। भीतरी=84। रास्ता=96 वर्ग मी।"
+    },
+    "id": "ntpc-m-0066"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 29m×18m, 1m path around. Path area?",
+      "options": [
+        "620",
+        "94",
+        "98",
+        "522"
+      ],
+      "explanation": "Outer: 31×20=620. Inner: 522. Path: 98=98 m²."
+    },
+    "hi": {
+      "question": "29मी×18मी मैदान, 1मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "620",
+        "94",
+        "98",
+        "522"
+      ],
+      "explanation": "बाहरी=620। भीतरी=522। रास्ता=98 वर्ग मी।"
+    },
+    "id": "ntpc-m-0067"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 6m×17m, 1m path around. Path area?",
+      "options": [
+        "102",
+        "46",
+        "50",
+        "152"
+      ],
+      "explanation": "Outer: 8×19=152. Inner: 102. Path: 50=50 m²."
+    },
+    "hi": {
+      "question": "6मी×17मी मैदान, 1मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "102",
+        "46",
+        "50",
+        "152"
+      ],
+      "explanation": "बाहरी=152। भीतरी=102। रास्ता=50 वर्ग मी।"
+    },
+    "id": "ntpc-m-0068"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 13m×14m, 3m path around. Path area?",
+      "options": [
+        "54",
+        "182",
+        "380",
+        "198"
+      ],
+      "explanation": "Outer: 19×20=380. Inner: 182. Path: 198=198 m²."
+    },
+    "hi": {
+      "question": "13मी×14मी मैदान, 3मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "54",
+        "182",
+        "380",
+        "198"
+      ],
+      "explanation": "बाहरी=380। भीतरी=182। रास्ता=198 वर्ग मी।"
+    },
+    "id": "ntpc-m-0069"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 17m×21m, 2m path around. Path area?",
+      "options": [
+        "76",
+        "357",
+        "168",
+        "525"
+      ],
+      "explanation": "Outer: 21×25=525. Inner: 357. Path: 168=168 m²."
+    },
+    "hi": {
+      "question": "17मी×21मी मैदान, 2मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "76",
+        "357",
+        "168",
+        "525"
+      ],
+      "explanation": "बाहरी=525। भीतरी=357। रास्ता=168 वर्ग मी।"
+    },
+    "id": "ntpc-m-0070"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 18m×8m, 1m path around. Path area?",
+      "options": [
+        "144",
+        "52",
+        "200",
+        "56"
+      ],
+      "explanation": "Outer: 20×10=200. Inner: 144. Path: 56=56 m²."
+    },
+    "hi": {
+      "question": "18मी×8मी मैदान, 1मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "144",
+        "52",
+        "200",
+        "56"
+      ],
+      "explanation": "बाहरी=200। भीतरी=144। रास्ता=56 वर्ग मी।"
+    },
+    "id": "ntpc-m-0071"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 16cm (π=22/7)?",
+      "options": [
+        "804.6",
+        "100.6",
+        "50.3",
+        "256"
+      ],
+      "explanation": "πr² = (22/7)×16² = 804.6 cm²."
+    },
+    "hi": {
+      "question": "16सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "804.6",
+        "100.6",
+        "50.3",
+        "256"
+      ],
+      "explanation": "πr² = (22/7)×16² = 804.6 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0072"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 8cm (π=22/7)?",
+      "options": [
+        "25.1",
+        "50.3",
+        "201.1",
+        "64"
+      ],
+      "explanation": "πr² = (22/7)×8² = 201.1 cm²."
+    },
+    "hi": {
+      "question": "8सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "25.1",
+        "50.3",
+        "201.1",
+        "64"
+      ],
+      "explanation": "πr² = (22/7)×8² = 201.1 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0073"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 27m×11m, 1m path around. Path area?",
+      "options": [
+        "377",
+        "80",
+        "297",
+        "76"
+      ],
+      "explanation": "Outer: 29×13=377. Inner: 297. Path: 80=80 m²."
+    },
+    "hi": {
+      "question": "27मी×11मी मैदान, 1मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "377",
+        "80",
+        "297",
+        "76"
+      ],
+      "explanation": "बाहरी=377। भीतरी=297। रास्ता=80 वर्ग मी।"
+    },
+    "id": "ntpc-m-0074"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 17cm (π=22/7)?",
+      "options": [
+        "106.9",
+        "908.3",
+        "53.4",
+        "289"
+      ],
+      "explanation": "πr² = (22/7)×17² = 908.3 cm²."
+    },
+    "hi": {
+      "question": "17सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "106.9",
+        "908.3",
+        "53.4",
+        "289"
+      ],
+      "explanation": "πr² = (22/7)×17² = 908.3 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0075"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 14cm (π=22/7)?",
+      "options": [
+        "616.0",
+        "196",
+        "88.0",
+        "44.0"
+      ],
+      "explanation": "πr² = (22/7)×14² = 616.0 cm²."
+    },
+    "hi": {
+      "question": "14सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "616.0",
+        "196",
+        "88.0",
+        "44.0"
+      ],
+      "explanation": "πr² = (22/7)×14² = 616.0 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0076"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 26cm (π=22/7)?",
+      "options": [
+        "2124.6",
+        "163.4",
+        "81.7",
+        "676"
+      ],
+      "explanation": "πr² = (22/7)×26² = 2124.6 cm²."
+    },
+    "hi": {
+      "question": "26सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "2124.6",
+        "163.4",
+        "81.7",
+        "676"
+      ],
+      "explanation": "πr² = (22/7)×26² = 2124.6 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0077"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Field 16m×5m, 3m path around. Path area?",
+      "options": [
+        "242",
+        "42",
+        "80",
+        "162"
+      ],
+      "explanation": "Outer: 22×11=242. Inner: 80. Path: 162=162 m²."
+    },
+    "hi": {
+      "question": "16मी×5मी मैदान, 3मी चौड़ा रास्ता। रास्ते का क्षेत्रफल?",
+      "options": [
+        "242",
+        "42",
+        "80",
+        "162"
+      ],
+      "explanation": "बाहरी=242। भीतरी=80। रास्ता=162 वर्ग मी।"
+    },
+    "id": "ntpc-m-0078"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Area of circle radius 11cm (π=22/7)?",
+      "options": [
+        "121",
+        "34.6",
+        "380.3",
+        "69.1"
+      ],
+      "explanation": "πr² = (22/7)×11² = 380.3 cm²."
+    },
+    "hi": {
+      "question": "11सेमी त्रिज्या वृत्त का क्षेत्रफल (π=22/7)?",
+      "options": [
+        "121",
+        "34.6",
+        "380.3",
+        "69.1"
+      ],
+      "explanation": "πr² = (22/7)×11² = 380.3 वर्ग सेमी।"
+    },
+    "id": "ntpc-m-0079"
+  }
 ]

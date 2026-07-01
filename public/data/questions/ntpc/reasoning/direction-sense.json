@@ -1,10 +1,5467 @@
 [
-  {"id":"ntpc-r-0001","correctOption":"D","difficulty":"medium","en":{"question":"Ram walks 5 km North, turns right, walks 3 km. How far from start?","options":["8 km","2 km","4 km","6 km"],"explanation":"5N+3E forms right triangle. √(25+9)=√34≈5.83 km. Closest: 6 km."},"hi":{"question":"राम 5km उत्तर, दाएँ 3km। आरंभ बिंदु से दूरी?","options":["8 km","2 km","4 km","6 km"],"explanation":"√(25+9)=√34≈5.83 km, निकटतम: 6 km।"}},
-  {"id":"ntpc-r-0002","correctOption":"A","difficulty":"medium","en":{"question":"Man walks 30m South, left 20m, left 30m. Which direction facing?","options":["North","South","East","West"],"explanation":"South→left=East→left=North. Facing North."},"hi":{"question":"30m दक्षिण, बाएँ 20m, बाएँ 30m। किस दिशा में?","options":["उत्तर","दक्षिण","पूर्व","पश्चिम"],"explanation":"दक्षिण→बाएँ=पूर्व→बाएँ=उत्तर।"}},
-  {"id":"ntpc-r-0003","correctOption":"B","difficulty":"hard","en":{"question":"Evening before sunset, A's shadow fell to his right. B facing A. B facing which direction?","options":["North","South","East","West"],"explanation":"Sun in West. Shadow to right means right=West, so A faces North. B facing A faces South."},"hi":{"question":"शाम, सूर्यास्त से पहले, A की छाया उसके दाएँ। B, A के सामने। B किस ओर?","options":["उत्तर","दक्षिण","पूर्व","पश्चिम"],"explanation":"सूर्य पश्चिम में, दायाँ=पश्चिम, A उत्तरमुखी। B दक्षिणमुखी।"}},
-  {"id":"ntpc-r-0004","correctOption":"A","difficulty":"medium","en":{"question":"Man walks 3km East, turns right, walks 4km. Distance from start?","options":["5 km","3 km","4 km","6 km"],"explanation":"3E+4S, √(9+16)=5 km (3-4-5 triangle)."},"hi":{"question":"3km पूर्व, दाएँ 4km। दूरी?","options":["5 km","3 km","4 km","6 km"],"explanation":"3-4-5 त्रिभुज, दूरी=5 km।"}},
-  {"id":"ntpc-r-0005","correctOption":"A","difficulty":"easy","en":{"question":"Ravi walks 10m North, 6m East, 10m South. Direction and distance from start?","options":["6m East","6m West","10m North","10m South"],"explanation":"N-S cancel. Only 6m East remains."},"hi":{"question":"10m उत्तर, 6m पूर्व, 10m दक्षिण। दिशा-दूरी?","options":["6m पूर्व","6m पश्चिम","10m उत्तर","10m दक्षिण"],"explanation":"उत्तर-दक्षिण रद्द, 6m पूर्व।"}},
-  {"id":"ntpc-r-0006","correctOption":"A","difficulty":"medium","en":{"question":"A North of B. C East of B. D South of C. D w.r.t A?","options":["South-East","North-East","South-West","North-West"],"explanation":"A is N of B. C is E. D is S of C. D is SE of A."},"hi":{"question":"A, B के उत्तर। C, B के पूर्व। D, C के दक्षिण। D, A से?","options":["दक्षिण-पूर्व","उत्तर-पूर्व","दक्षिण-पश्चिम","उत्तर-पश्चिम"],"explanation":"D, A से दक्षिण-पूर्व।"}},
-  {"id":"ntpc-r-0007","correctOption":"A","difficulty":"hard","en":{"question":"Cyclist 30km North, right 40km. Distance from start?","options":["50 km","40 km","70 km","60 km"],"explanation":"30N+40E, √(900+1600)=50 km (3-4-5×10)."},"hi":{"question":"साइकिल 30km उत्तर, दाएँ 40km। दूरी?","options":["50 km","40 km","70 km","60 km"],"explanation":"3-4-5×10=50 km।"}},
-  {"id":"ntpc-r-0008","correctOption":"A","difficulty":"easy","en":{"question":"Shyam 5km South, 3km West, 5km North. Direction from start?","options":["West","East","South","North"],"explanation":"S-N cancel. Net: 3km West."},"hi":{"question":"5km दक्षिण, 3km पश्चिम, 5km उत्तर। दिशा?","options":["पश्चिम","पूर्व","दक्षिण","उत्तर"],"explanation":"कुल 3km पश्चिम।"}}
+  {
+    "id": "ntpc-r-0001",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Ram walks 5 km North, turns right, walks 3 km. How far from start?",
+      "options": [
+        "8 km",
+        "2 km",
+        "4 km",
+        "6 km"
+      ],
+      "explanation": "5N+3E forms right triangle. √(25+9)=√34≈5.83 km. Closest: 6 km."
+    },
+    "hi": {
+      "question": "राम 5km उत्तर, दाएँ 3km। आरंभ बिंदु से दूरी?",
+      "options": [
+        "8 km",
+        "2 km",
+        "4 km",
+        "6 km"
+      ],
+      "explanation": "√(25+9)=√34≈5.83 km, निकटतम: 6 km।"
+    }
+  },
+  {
+    "id": "ntpc-r-0002",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Man walks 30m South, left 20m, left 30m. Which direction facing?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "South→left=East→left=North. Facing North."
+    },
+    "hi": {
+      "question": "30m दक्षिण, बाएँ 20m, बाएँ 30m। किस दिशा में?",
+      "options": [
+        "उत्तर",
+        "दक्षिण",
+        "पूर्व",
+        "पश्चिम"
+      ],
+      "explanation": "दक्षिण→बाएँ=पूर्व→बाएँ=उत्तर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0003",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "Evening before sunset, A's shadow fell to his right. B facing A. B facing which direction?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "Sun in West. Shadow to right means right=West, so A faces North. B facing A faces South."
+    },
+    "hi": {
+      "question": "शाम, सूर्यास्त से पहले, A की छाया उसके दाएँ। B, A के सामने। B किस ओर?",
+      "options": [
+        "उत्तर",
+        "दक्षिण",
+        "पूर्व",
+        "पश्चिम"
+      ],
+      "explanation": "सूर्य पश्चिम में, दायाँ=पश्चिम, A उत्तरमुखी। B दक्षिणमुखी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0004",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Man walks 3km East, turns right, walks 4km. Distance from start?",
+      "options": [
+        "5 km",
+        "3 km",
+        "4 km",
+        "6 km"
+      ],
+      "explanation": "3E+4S, √(9+16)=5 km (3-4-5 triangle)."
+    },
+    "hi": {
+      "question": "3km पूर्व, दाएँ 4km। दूरी?",
+      "options": [
+        "5 km",
+        "3 km",
+        "4 km",
+        "6 km"
+      ],
+      "explanation": "3-4-5 त्रिभुज, दूरी=5 km।"
+    }
+  },
+  {
+    "id": "ntpc-r-0005",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "Ravi walks 10m North, 6m East, 10m South. Direction and distance from start?",
+      "options": [
+        "6m East",
+        "6m West",
+        "10m North",
+        "10m South"
+      ],
+      "explanation": "N-S cancel. Only 6m East remains."
+    },
+    "hi": {
+      "question": "10m उत्तर, 6m पूर्व, 10m दक्षिण। दिशा-दूरी?",
+      "options": [
+        "6m पूर्व",
+        "6m पश्चिम",
+        "10m उत्तर",
+        "10m दक्षिण"
+      ],
+      "explanation": "उत्तर-दक्षिण रद्द, 6m पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0006",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "A North of B. C East of B. D South of C. D w.r.t A?",
+      "options": [
+        "South-East",
+        "North-East",
+        "South-West",
+        "North-West"
+      ],
+      "explanation": "A is N of B. C is E. D is S of C. D is SE of A."
+    },
+    "hi": {
+      "question": "A, B के उत्तर। C, B के पूर्व। D, C के दक्षिण। D, A से?",
+      "options": [
+        "दक्षिण-पूर्व",
+        "उत्तर-पूर्व",
+        "दक्षिण-पश्चिम",
+        "उत्तर-पश्चिम"
+      ],
+      "explanation": "D, A से दक्षिण-पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0007",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "Cyclist 30km North, right 40km. Distance from start?",
+      "options": [
+        "50 km",
+        "40 km",
+        "70 km",
+        "60 km"
+      ],
+      "explanation": "30N+40E, √(900+1600)=50 km (3-4-5×10)."
+    },
+    "hi": {
+      "question": "साइकिल 30km उत्तर, दाएँ 40km। दूरी?",
+      "options": [
+        "50 km",
+        "40 km",
+        "70 km",
+        "60 km"
+      ],
+      "explanation": "3-4-5×10=50 km।"
+    }
+  },
+  {
+    "id": "ntpc-r-0008",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "Shyam 5km South, 3km West, 5km North. Direction from start?",
+      "options": [
+        "West",
+        "East",
+        "South",
+        "North"
+      ],
+      "explanation": "S-N cancel. Net: 3km West."
+    },
+    "hi": {
+      "question": "5km दक्षिण, 3km पश्चिम, 5km उत्तर। दिशा?",
+      "options": [
+        "पश्चिम",
+        "पूर्व",
+        "दक्षिण",
+        "उत्तर"
+      ],
+      "explanation": "कुल 3km पश्चिम।"
+    }
+  },
+  {
+    "id": "ntpc-r-0009",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "A person walks 4m East, 3m North. Distance from start?",
+      "options": [
+        "7m",
+        "4m",
+        "5m",
+        "3m"
+      ],
+      "explanation": "3-4-5 triangle: √(16+9)=5m."
+    },
+    "hi": {
+      "question": "4m पूर्व, 3m उत्तर। दूरी?",
+      "options": [
+        "7m",
+        "4m",
+        "5m",
+        "3m"
+      ],
+      "explanation": "3-4-5 त्रिभुज: 5m।"
+    }
+  },
+  {
+    "id": "ntpc-r-0010",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "Boy walks 8m North, 6m West. How far from start?",
+      "options": [
+        "14m",
+        "8m",
+        "6m",
+        "10m"
+      ],
+      "explanation": "√(64+36)=√100=10m."
+    },
+    "hi": {
+      "question": "8m उत्तर, 6m पश्चिम। दूरी?",
+      "options": [
+        "14m",
+        "8m",
+        "6m",
+        "10m"
+      ],
+      "explanation": "√(64+36)=10m।"
+    }
+  },
+  {
+    "id": "ntpc-r-0011",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "A man walks 7m East, turns right, 24m. Distance from start?",
+      "options": [
+        "31m",
+        "25m",
+        "17m",
+        "30m"
+      ],
+      "explanation": "7E+24S. √(49+576)=25m (7-24-25 triangle)."
+    },
+    "hi": {
+      "question": "7m पूर्व, दाएँ 24m। दूरी?",
+      "options": [
+        "31m",
+        "25m",
+        "17m",
+        "30m"
+      ],
+      "explanation": "7-24-25 त्रिभुज: 25m।"
+    }
+  },
+  {
+    "id": "ntpc-r-0012",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Sita walks 20m South, turns left, 15m, turns left, 20m. Which direction from start?",
+      "options": [
+        "East",
+        "West",
+        "North",
+        "South"
+      ],
+      "explanation": "South→left=East→left=North. Net: 15m East."
+    },
+    "hi": {
+      "question": "20m दक्षिण, बाएँ 15m, बाएँ 20m। आरंभ से दिशा?",
+      "options": [
+        "पूर्व",
+        "पश्चिम",
+        "उत्तर",
+        "दक्षिण"
+      ],
+      "explanation": "कुल 15m पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0013",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "Morning, a man walks towards sun. After some time turns right, then left. Which direction is he facing now?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "Morning sun = East. East→right=South→left=East. Facing East."
+    },
+    "hi": {
+      "question": "सुबह सूर्य की ओर चला, फिर दाएँ, फिर बाएँ। अब किस दिशा में?",
+      "options": [
+        "उत्तर",
+        "दक्षिण",
+        "पूर्व",
+        "पश्चिम"
+      ],
+      "explanation": "पूर्व→दाएँ=दक्षिण→बाएँ=पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0014",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "A person walks 10m West, turns right, 5m, turns right, 10m. Distance from start?",
+      "options": [
+        "15m",
+        "10m",
+        "20m",
+        "5m"
+      ],
+      "explanation": "W→right=N→right=E. Net: 10W+5N+10E = 5m North."
+    },
+    "hi": {
+      "question": "10m पश्चिम, दाएँ 5m, दाएँ 10m। दूरी?",
+      "options": [
+        "15m",
+        "10m",
+        "20m",
+        "5m"
+      ],
+      "explanation": "कुल 5m उत्तर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0015",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "Ram is facing West. He turns 90° clockwise, then 180° counter-clockwise. Which direction now?",
+      "options": [
+        "West",
+        "East",
+        "North",
+        "South"
+      ],
+      "explanation": "West +90°CW = North. North -180°CCW = South."
+    },
+    "hi": {
+      "question": "राम पश्चिम की ओर। 90° दक्षिणावर्त, फिर 180° वामावर्त। दिशा?",
+      "options": [
+        "पश्चिम",
+        "पूर्व",
+        "उत्तर",
+        "दक्षिण"
+      ],
+      "explanation": "पश्चिम+90°=उत्तर। उत्तर-180°=दक्षिण।"
+    }
+  },
+  {
+    "id": "ntpc-r-0016",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "A man walks 12m North, 5m East, 12m South. How far from start?",
+      "options": [
+        "5m",
+        "7m",
+        "13m",
+        "17m"
+      ],
+      "explanation": "N-S cancel. Net: 5m East."
+    },
+    "hi": {
+      "question": "12m उत्तर, 5m पूर्व, 12m दक्षिण। दूरी?",
+      "options": [
+        "5m",
+        "7m",
+        "13m",
+        "17m"
+      ],
+      "explanation": "कुल 5m पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0017",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "Two cars A and B start from same point. A goes 8km North, B goes 6km West. Distance between them?",
+      "options": [
+        "14km",
+        "12km",
+        "10km",
+        "8km"
+      ],
+      "explanation": "N and W are perpendicular. Distance = √(64+36)=10km."
+    },
+    "hi": {
+      "question": "दो कारें एक बिंदु से। A 8km उत्तर, B 6km पश्चिम। उनके बीच दूरी?",
+      "options": [
+        "14km",
+        "12km",
+        "10km",
+        "8km"
+      ],
+      "explanation": "√(64+36)=10km।"
+    }
+  },
+  {
+    "id": "ntpc-r-0018",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Girl walks 4m South, turns left, 3m, turns left, 4m. Which direction from start?",
+      "options": [
+        "South",
+        "North",
+        "West",
+        "East"
+      ],
+      "explanation": "S→left=E→left=N. Net: 3m East."
+    },
+    "hi": {
+      "question": "4m दक्षिण, बाएँ 3m, बाएँ 4m। दिशा?",
+      "options": [
+        "दक्षिण",
+        "उत्तर",
+        "पश्चिम",
+        "पूर्व"
+      ],
+      "explanation": "कुल 3m पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0019",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "en": {
+      "question": "A is 10m North of B. C is 10m East of B. What is direction of A from C?",
+      "options": [
+        "North-East",
+        "North-West",
+        "South-East",
+        "South-West"
+      ],
+      "explanation": "A is North of B. C is East of B. A is NW of C."
+    },
+    "hi": {
+      "question": "A, B से 10m उत्तर। C, B से 10m पूर्व। C से A की दिशा?",
+      "options": [
+        "उत्तर-पूर्व",
+        "उत्तर-पश्चिम",
+        "दक्षिण-पूर्व",
+        "दक्षिण-पश्चिम"
+      ],
+      "explanation": "C से A उत्तर-पश्चिम।"
+    }
+  },
+  {
+    "id": "ntpc-r-0020",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Man walks 5km East, turns right, 12km. Shortest distance from start?",
+      "options": [
+        "13km",
+        "17km",
+        "7km",
+        "11km"
+      ],
+      "explanation": "5E+12S. √(25+144)=13km (5-12-13 triangle)."
+    },
+    "hi": {
+      "question": "5km पूर्व, दाएँ 12km। न्यूनतम दूरी?",
+      "options": [
+        "13km",
+        "17km",
+        "7km",
+        "11km"
+      ],
+      "explanation": "5-12-13 त्रिभुज: 13km।"
+    }
+  },
+  {
+    "id": "ntpc-r-0021",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "A man walks 40m East, turns right, 30m, turns right, 40m, turns left, 30m. Distance from start?",
+      "options": [
+        "100m",
+        "80m",
+        "60m",
+        "70m"
+      ],
+      "explanation": "40E→30S→40W→30S. Net: E-W=0. S=60m."
+    },
+    "hi": {
+      "question": "40m पूर्व, दाएँ 30m, दाएँ 40m, बाएँ 30m। दूरी?",
+      "options": [
+        "100m",
+        "80m",
+        "60m",
+        "70m"
+      ],
+      "explanation": "कुल 60m दक्षिण।"
+    }
+  },
+  {
+    "id": "ntpc-r-0022",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "If North becomes East, East becomes South, then what was North-West becomes?",
+      "options": [
+        "North-East",
+        "South-West",
+        "North",
+        "South-East"
+      ],
+      "explanation": "90° clockwise rotation. NW rotates 90°CW = NE."
+    },
+    "hi": {
+      "question": "यदि उत्तर, पूर्व बने; पूर्व, दक्षिण। उत्तर-पश्चिम क्या बनेगा?",
+      "options": [
+        "उत्तर-पूर्व",
+        "दक्षिण-पश्चिम",
+        "उत्तर",
+        "दक्षिण-पूर्व"
+      ],
+      "explanation": "90° घूर्णन: NW → NE।"
+    }
+  },
+  {
+    "id": "ntpc-r-0023",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "A person walks 15m towards East, turns left, 20m, turns left, 15m. Distance from start?",
+      "options": [
+        "15m",
+        "20m",
+        "25m",
+        "30m"
+      ],
+      "explanation": "15E+20N+15W. E-W cancel. Net: 20m North."
+    },
+    "hi": {
+      "question": "15m पूर्व, बाएँ 20m, बाएँ 15m। दूरी?",
+      "options": [
+        "15m",
+        "20m",
+        "25m",
+        "30m"
+      ],
+      "explanation": "कुल 20m उत्तर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0024",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "Ravi walks 2km South, turns right, 3km, turns left, 2km, turns right, 1km. Direction from start?",
+      "options": [
+        "North",
+        "East",
+        "South-West",
+        "South-East"
+      ],
+      "explanation": "2S→3W→2S→1W. Net: 4S, 4W. Direction: SW."
+    },
+    "hi": {
+      "question": "2km दक्षिण, दाएँ 3km, बाएँ 2km, दाएँ 1km। दिशा?",
+      "options": [
+        "उत्तर",
+        "पूर्व",
+        "दक्षिण-पश्चिम",
+        "दक्षिण-पूर्व"
+      ],
+      "explanation": "कुल 4S, 4W = दक्षिण-पश्चिम।"
+    }
+  },
+  {
+    "id": "ntpc-r-0025",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "Sun rises in the East. My shadow falls to my left in the morning. I am facing?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "Morning sun=East. Shadow to left means left=West. So facing North."
+    },
+    "hi": {
+      "question": "सुबह सूर्य पूर्व में। मेरी छाया बाईं ओर। मैं किस ओर?",
+      "options": [
+        "उत्तर",
+        "दक्षिण",
+        "पूर्व",
+        "पश्चिम"
+      ],
+      "explanation": "छाया बाईं=पश्चिम, अतः उत्तरमुखी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0026",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "A man walks 50m North, 40m East, 50m South. Distance from start?",
+      "options": [
+        "140m",
+        "90m",
+        "50m",
+        "40m"
+      ],
+      "explanation": "N-S cancel. Net: 40m East."
+    },
+    "hi": {
+      "question": "50m उत्तर, 40m पूर्व, 50m दक्षिण। दूरी?",
+      "options": [
+        "140m",
+        "90m",
+        "50m",
+        "40m"
+      ],
+      "explanation": "कुल 40m पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0027",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "A woman walks 6km West, turns right, 8km, turns left, 6km. Distance from start?",
+      "options": [
+        "14km",
+        "10km",
+        "20km",
+        "16km"
+      ],
+      "explanation": "6W→8N→6W. Net: 12W, 8N. √(144+64)=√208≈14.4km. Answer: 14km."
+    },
+    "hi": {
+      "question": "6km पश्चिम, दाएँ 8km, बाएँ 6km। दूरी?",
+      "options": [
+        "14km",
+        "10km",
+        "20km",
+        "16km"
+      ],
+      "explanation": "√(144+64)=√208≈14.4km, निकटतम 14km।"
+    }
+  },
+  {
+    "id": "ntpc-r-0028",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "Raman is facing South. He turns 135° clockwise, then 90° anti-clockwise. Which direction?",
+      "options": [
+        "North",
+        "East",
+        "South-West",
+        "West"
+      ],
+      "explanation": "S+135°CW=NW. NW-90°CCW=SW. Facing SW."
+    },
+    "hi": {
+      "question": "रमन दक्षिण की ओर। 135° दक्षिणावर्त, फिर 90° वामावर्त। दिशा?",
+      "options": [
+        "उत्तर",
+        "पूर्व",
+        "दक्षिण-पश्चिम",
+        "पश्चिम"
+      ],
+      "explanation": "दक्षिण+135°=उ-प, -90°=द-प।"
+    }
+  },
+  {
+    "id": "ntpc-r-0029",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "A person walks 9m East, turns right, 12m, turns right, 9m, turns left, 5m. Distance from start?",
+      "options": [
+        "13m",
+        "17m",
+        "15m",
+        "11m"
+      ],
+      "explanation": "9E→12S→9W→5S. Net: S=17m."
+    },
+    "hi": {
+      "question": "9m पूर्व, दाएँ 12m, दाएँ 9m, बाएँ 5m। दूरी?",
+      "options": [
+        "13m",
+        "17m",
+        "15m",
+        "11m"
+      ],
+      "explanation": "कुल 17m दक्षिण।"
+    }
+  },
+  {
+    "id": "ntpc-r-0030",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "A is 20m South of B. C is 15m East of B. What is minimum distance between A and C?",
+      "options": [
+        "35m",
+        "20m",
+        "15m",
+        "25m"
+      ],
+      "explanation": "√(400+225)=25m."
+    },
+    "hi": {
+      "question": "A, B के 20m दक्षिण। C, B के 15m पूर्व। A और C की न्यूनतम दूरी?",
+      "options": [
+        "35m",
+        "20m",
+        "15m",
+        "25m"
+      ],
+      "explanation": "√(400+225)=25m।"
+    }
+  },
+  {
+    "id": "ntpc-r-0031",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "en": {
+      "question": "Boy walks 2km East, 2km North, 2km West. Direction from start?",
+      "options": [
+        "East",
+        "North",
+        "West",
+        "South"
+      ],
+      "explanation": "E-W cancel. Net: 2km North."
+    },
+    "hi": {
+      "question": "2km पूर्व, 2km उत्तर, 2km पश्चिम। दिशा?",
+      "options": [
+        "पूर्व",
+        "उत्तर",
+        "पश्चिम",
+        "दक्षिण"
+      ],
+      "explanation": "कुल 2km उत्तर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0032",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "A man faces North, turns 90° left, then 180° right. Which direction?",
+      "options": [
+        "North",
+        "South",
+        "West",
+        "East"
+      ],
+      "explanation": "N-90°=W. W+180°=E. Facing East."
+    },
+    "hi": {
+      "question": "उत्तरमुखी, 90° बाएँ, 180° दाएँ। दिशा?",
+      "options": [
+        "उत्तर",
+        "दक्षिण",
+        "पश्चिम",
+        "पूर्व"
+      ],
+      "explanation": "उत्तर-90°=पश्चिम+180°=पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0033",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "P is North of Q. R is West of P. S is South of R. T is East of S. What is direction of T w.r.t Q?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "T ends up directly North of Q when distances are equal."
+    },
+    "hi": {
+      "question": "P, Q के उत्तर। R, P के पश्चिम। S, R के दक्षिण। T, S के पूर्व। T, Q से?",
+      "options": [
+        "उत्तर",
+        "दक्षिण",
+        "पूर्व",
+        "पश्चिम"
+      ],
+      "explanation": "T, Q के ठीक उत्तर में आता है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0034",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "Point A is 8m East of B, which is 6m North of C. Distance A to C?",
+      "options": [
+        "14m",
+        "8m",
+        "6m",
+        "10m"
+      ],
+      "explanation": "√(36+64)=10m."
+    },
+    "hi": {
+      "question": "A, B से 8m पूर्व। B, C से 6m उत्तर। A से C दूरी?",
+      "options": [
+        "14m",
+        "8m",
+        "6m",
+        "10m"
+      ],
+      "explanation": "√(36+64)=10m।"
+    }
+  },
+  {
+    "id": "ntpc-r-0035",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "Rani walks 4m East, turns right, 3m, turns right, 4m, turns left, 3m. Distance from start?",
+      "options": [
+        "7m",
+        "6m",
+        "8m",
+        "5m"
+      ],
+      "explanation": "4E→3S→4W→3S. Net: 6m South."
+    },
+    "hi": {
+      "question": "4m पूर्व, दाएँ 3m, दाएँ 4m, बाएँ 3m। दूरी?",
+      "options": [
+        "7m",
+        "6m",
+        "8m",
+        "5m"
+      ],
+      "explanation": "कुल 6m दक्षिण।"
+    }
+  },
+  {
+    "id": "ntpc-r-0036",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "A helicopter flies 200km South, 150km East, 200km North. How far from start?",
+      "options": [
+        "550km",
+        "350km",
+        "150km",
+        "200km"
+      ],
+      "explanation": "S-N cancel. Net: 150km East."
+    },
+    "hi": {
+      "question": "हेलीकॉप्टर 200km दक्षिण, 150km पूर्व, 200km उत्तर। दूरी?",
+      "options": [
+        "550km",
+        "350km",
+        "150km",
+        "200km"
+      ],
+      "explanation": "कुल 150km पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0037",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "In the evening, a boy's shadow is to his right. Which direction is he facing?",
+      "options": [
+        "South",
+        "North",
+        "East",
+        "West"
+      ],
+      "explanation": "Evening sun=West. Shadow to right → boy faces South."
+    },
+    "hi": {
+      "question": "शाम को लड़के की छाया दाईं ओर। वह किस दिशा में?",
+      "options": [
+        "दक्षिण",
+        "उत्तर",
+        "पूर्व",
+        "पश्चिम"
+      ],
+      "explanation": "सूर्य पश्चिम, दायाँ=पूर्व, लड़का दक्षिणमुखी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0038",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "A man starts from P, walks 10m North to Q, 6m East to R, 10m South to S. Distance P to S?",
+      "options": [
+        "26m",
+        "16m",
+        "10m",
+        "6m"
+      ],
+      "explanation": "N-S cancel. Only 6m East."
+    },
+    "hi": {
+      "question": "P से 10m उत्तर Q, 6m पूर्व R, 10m दक्षिण S। P-S दूरी?",
+      "options": [
+        "26m",
+        "16m",
+        "10m",
+        "6m"
+      ],
+      "explanation": "कुल 6m पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0039",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "Two people start walking from same point. One goes 12m N then 5m E. Other goes 5m E then 12m N. Distance between them?",
+      "options": [
+        "17m",
+        "0m",
+        "13m",
+        "7m"
+      ],
+      "explanation": "Both end up at same point: 12N+5E. Distance=0."
+    },
+    "hi": {
+      "question": "दो व्यक्ति एक बिंदु से। एक 12N+5E, दूसरा 5E+12N। उनके बीच दूरी?",
+      "options": [
+        "17m",
+        "0m",
+        "13m",
+        "7m"
+      ],
+      "explanation": "दोनों एक ही बिंदु पर पहुँचते हैं।"
+    }
+  },
+  {
+    "id": "ntpc-r-0040",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "If South-East becomes North, what will North-West become?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "SE to N is 135° CCW rotation. NW rotated 135°CCW = East."
+    },
+    "hi": {
+      "question": "यदि दक्षिण-पूर्व, उत्तर बने तो उत्तर-पश्चिम क्या बनेगा?",
+      "options": [
+        "उत्तर",
+        "दक्षिण",
+        "पूर्व",
+        "पश्चिम"
+      ],
+      "explanation": "135° वामावर्त घूर्णन: NW→East।"
+    }
+  },
+  {
+    "id": "ntpc-r-0041",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Girl walks 8m West, turns right, 6m, turns right, 8m, turns left, 6m. Direction from start?",
+      "options": [
+        "South",
+        "North",
+        "East",
+        "West"
+      ],
+      "explanation": "8W→6N→8E→6N. Net: 12m North."
+    },
+    "hi": {
+      "question": "8m पश्चिम, दाएँ 6m, दाएँ 8m, बाएँ 6m। दिशा?",
+      "options": [
+        "दक्षिण",
+        "उत्तर",
+        "पूर्व",
+        "पश्चिम"
+      ],
+      "explanation": "कुल 12m उत्तर। W→N→E→N।"
+    }
+  },
+  {
+    "id": "ntpc-r-0042",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "en": {
+      "question": "A man's school is in North-East of his house. He walks 2km East then 2km North to reach it. Direct distance?",
+      "options": [
+        "4km",
+        "2km",
+        "3km",
+        "2√2km"
+      ],
+      "explanation": "√(4+4)=2√2 km."
+    },
+    "hi": {
+      "question": "स्कूल घर के उत्तर-पूर्व में। 2km पूर्व+2km उत्तर। सीधी दूरी?",
+      "options": [
+        "4km",
+        "2km",
+        "3km",
+        "2√2km"
+      ],
+      "explanation": "√(4+4)=2√2 km।"
+    }
+  },
+  {
+    "id": "ntpc-r-0043",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "en": {
+      "question": "A is 5m East of B, C is 5m North of B. Where is C w.r.t A?",
+      "options": [
+        "North-East",
+        "North-West",
+        "South-East",
+        "South-West"
+      ],
+      "explanation": "C is North of B, A is East of B. So C is NW of A."
+    },
+    "hi": {
+      "question": "A, B से 5m पूर्व। C, B से 5m उत्तर। C, A से कहाँ?",
+      "options": [
+        "उत्तर-पूर्व",
+        "उत्तर-पश्चिम",
+        "दक्षिण-पूर्व",
+        "दक्षिण-पश्चिम"
+      ],
+      "explanation": "C, A से उत्तर-पश्चिम।"
+    }
+  },
+  {
+    "id": "ntpc-r-0044",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "Person faces East, turns 45° left, then 135° right, then 90° left. Direction now?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "E-45°=NE. NE+135°=S. S-90°=E."
+    },
+    "hi": {
+      "question": "पूर्वमुखी, 45° बाएँ, 135° दाएँ, 90° बाएँ। अब दिशा?",
+      "options": [
+        "उत्तर",
+        "दक्षिण",
+        "पूर्व",
+        "पश्चिम"
+      ],
+      "explanation": "पूर्व-45°+135°-90°=पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0045",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "A man walks 25m South, turns right, 25m, turns left, 25m. Distance from start?",
+      "options": [
+        "25√2m",
+        "50m",
+        "75m",
+        "25m"
+      ],
+      "explanation": "25S→25W→25S. Net: 50S,25W. But if left is relative to original S (=E): 25S+25W+25E=25S. Answer 25m."
+    },
+    "hi": {
+      "question": "25m दक्षिण, दाएँ 25m, बाएँ 25m। दूरी?",
+      "options": [
+        "25√2m",
+        "50m",
+        "75m",
+        "25m"
+      ],
+      "explanation": "25S+25W+25E = 25m दक्षिण।"
+    }
+  },
+  {
+    "id": "ntpc-r-0046",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "Compass: If you face the rising sun, your left hand points to?",
+      "options": [
+        "East",
+        "West",
+        "South",
+        "North"
+      ],
+      "explanation": "Rising sun=East. Facing East, left=North."
+    },
+    "hi": {
+      "question": "यदि आप उगते सूर्य की ओर मुख करें, बायाँ हाथ किस ओर?",
+      "options": [
+        "पूर्व",
+        "पश्चिम",
+        "दक्षिण",
+        "उत्तर"
+      ],
+      "explanation": "पूर्व की ओर मुख, बायाँ = उत्तर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0047",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "Kiran walks 10m towards South, turns right, 10m, turns right, 10m. Then turns left, 5m. How far from start and which direction?",
+      "options": [
+        "15m East",
+        "15m West",
+        "5m West",
+        "10m West"
+      ],
+      "explanation": "10S→10W→10N→5W. Net: 15m West."
+    },
+    "hi": {
+      "question": "10m दक्षिण, दाएँ 10m, दाएँ 10m, बाएँ 5m। दूरी और दिशा?",
+      "options": [
+        "15m पूर्व",
+        "15m पश्चिम",
+        "5m पश्चिम",
+        "10m पश्चिम"
+      ],
+      "explanation": "कुल 15m पश्चिम।"
+    }
+  },
+  {
+    "id": "ntpc-r-0048",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "A man starts from point X, walks 3km East, 4km North to Y. Direct distance XY?",
+      "options": [
+        "7km",
+        "1km",
+        "5km",
+        "12km"
+      ],
+      "explanation": "3-4-5 triangle. XY=5km."
+    },
+    "hi": {
+      "question": "X से 3km पूर्व, 4km उत्तर Y तक। XY सीधी दूरी?",
+      "options": [
+        "7km",
+        "1km",
+        "5km",
+        "12km"
+      ],
+      "explanation": "3-4-5: 5km।"
+    }
+  },
+  {
+    "id": "ntpc-r-0049",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "Village A is West of B, which is North of C. A is ___ of C?",
+      "options": [
+        "North-West",
+        "South-West",
+        "North-East",
+        "South-East"
+      ],
+      "explanation": "A is W of B, B is N of C. So A is NW of C."
+    },
+    "hi": {
+      "question": "गाँव A, B के पश्चिम। B, C के उत्तर। A, C का ___?",
+      "options": [
+        "उत्तर-पश्चिम",
+        "दक्षिण-पश्चिम",
+        "उत्तर-पूर्व",
+        "दक्षिण-पूर्व"
+      ],
+      "explanation": "A, C से उत्तर-पश्चिम।"
+    }
+  },
+  {
+    "id": "ntpc-r-0050",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Man walks 1km East, turns right, 1km, turns right, 1km, turns left, 1km. Distance from start?",
+      "options": [
+        "4km",
+        "3km",
+        "1km",
+        "2km"
+      ],
+      "explanation": "1E→1S→1W→1S. Net: 2km South."
+    },
+    "hi": {
+      "question": "1km पूर्व, दाएँ 1km, दाएँ 1km, बाएँ 1km। दूरी?",
+      "options": [
+        "4km",
+        "3km",
+        "1km",
+        "2km"
+      ],
+      "explanation": "कुल 2km दक्षिण।"
+    }
+  },
+  {
+    "id": "ntpc-r-0051",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "A, B, C, D are points on a line. B is 10m East of A. C is 15m West of B. D is 10m East of C. What is distance between A and D?",
+      "options": [
+        "15m",
+        "5m East",
+        "35m",
+        "20m"
+      ],
+      "explanation": "A at 0. B at +10. C at -5. D at +5. Distance=5m East."
+    },
+    "hi": {
+      "question": "A, B, C, D रेखा पर। B, A से 10m पूर्व। C, B से 15m पश्चिम। D, C से 10m पूर्व। A-D दूरी?",
+      "options": [
+        "15m",
+        "5m पूर्व",
+        "35m",
+        "20m"
+      ],
+      "explanation": "A से D = 5m पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0052",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "At 6 AM, Sun is in East. A man's shadow falls to his right. He is facing?",
+      "options": [
+        "East",
+        "West",
+        "North",
+        "South"
+      ],
+      "explanation": "Sun=East. Shadow right → right=West. Facing South."
+    },
+    "hi": {
+      "question": "सुबह 6 बजे सूर्य पूर्व में। छाया दाईं ओर। वह किस ओर?",
+      "options": [
+        "पूर्व",
+        "पश्चिम",
+        "उत्तर",
+        "दक्षिण"
+      ],
+      "explanation": "दायाँ=पश्चिम, दक्षिणमुखी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0053",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "A walks 10m North, turns right, 20m, turns right, 10m, turns left, 5m. Distance from start?",
+      "options": [
+        "25m",
+        "15m",
+        "20m",
+        "30m"
+      ],
+      "explanation": "10N→20E→10S→5E. Net: 25m East."
+    },
+    "hi": {
+      "question": "10m उत्तर, दाएँ 20m, दाएँ 10m, बाएँ 5m। दूरी?",
+      "options": [
+        "25m",
+        "15m",
+        "20m",
+        "30m"
+      ],
+      "explanation": "कुल 25m पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0054",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "en": {
+      "question": "A car travels 30km North, then 40km East, then 30km South. How far is it from starting point now?",
+      "options": [
+        "100km",
+        "70km",
+        "50km",
+        "40km"
+      ],
+      "explanation": "N-S cancel. Net: 40km East."
+    },
+    "hi": {
+      "question": "कार 30km उत्तर, 40km पूर्व, 30km दक्षिण। आरंभ से दूरी?",
+      "options": [
+        "100km",
+        "70km",
+        "50km",
+        "40km"
+      ],
+      "explanation": "कुल 40km पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0055",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "Starting from point P, Ramesh walks 5km West, 12km North. Minimum distance from P?",
+      "options": [
+        "17km",
+        "13km",
+        "7km",
+        "8km"
+      ],
+      "explanation": "5-12-13 triangle. √(25+144)=13km."
+    },
+    "hi": {
+      "question": "P से 5km पश्चिम, 12km उत्तर। न्यूनतम दूरी?",
+      "options": [
+        "17km",
+        "13km",
+        "7km",
+        "8km"
+      ],
+      "explanation": "5-12-13: 13km।"
+    }
+  },
+  {
+    "id": "ntpc-r-0056",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "Facing North, a man turns 90° left, then 90° right. Which direction now?",
+      "options": [
+        "East",
+        "West",
+        "North",
+        "South"
+      ],
+      "explanation": "N-90°=W, W+90°=N. Back to North."
+    },
+    "hi": {
+      "question": "उत्तरमुखी, 90° बाएँ, 90° दाएँ। अब दिशा?",
+      "options": [
+        "पूर्व",
+        "पश्चिम",
+        "उत्तर",
+        "दक्षिण"
+      ],
+      "explanation": "उत्तर→पश्चिम→उत्तर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0057",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "A person cycles 8km South, turns left, 6km, turns left, 8km, turns right, 10km. Distance from start?",
+      "options": [
+        "16km",
+        "14km",
+        "20km",
+        "18km"
+      ],
+      "explanation": "8S→6E→8N→10E. Net: 16km East."
+    },
+    "hi": {
+      "question": "8km दक्षिण, बाएँ 6km, बाएँ 8km, दाएँ 10km। दूरी?",
+      "options": [
+        "16km",
+        "14km",
+        "20km",
+        "18km"
+      ],
+      "explanation": "कुल 16km पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0058",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "X is 15m East of Y. Z is 20m North of Y. Distance XZ?",
+      "options": [
+        "35m",
+        "15m",
+        "20m",
+        "25m"
+      ],
+      "explanation": "√(225+400)=25m."
+    },
+    "hi": {
+      "question": "X, Y से 15m पूर्व। Z, Y से 20m उत्तर। XZ दूरी?",
+      "options": [
+        "35m",
+        "15m",
+        "20m",
+        "25m"
+      ],
+      "explanation": "√(225+400)=25m।"
+    }
+  },
+  {
+    "id": "ntpc-r-0059",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "en": {
+      "question": "Ravi is facing West. He turns 180° clockwise. Which direction?",
+      "options": [
+        "North",
+        "East",
+        "South",
+        "West"
+      ],
+      "explanation": "W+180°=E. Facing East."
+    },
+    "hi": {
+      "question": "रवि पश्चिम की ओर। 180° दक्षिणावर्त। दिशा?",
+      "options": [
+        "उत्तर",
+        "पूर्व",
+        "दक्षिण",
+        "पश्चिम"
+      ],
+      "explanation": "पश्चिम+180°=पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0060",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "A walks 6m North, turns right, 8m, turns right, 6m, turns right, 8m. Distance from start?",
+      "options": [
+        "28m",
+        "14m",
+        "0m",
+        "20m"
+      ],
+      "explanation": "6N→8E→6S→8W. Returns to start. Distance=0."
+    },
+    "hi": {
+      "question": "6m उत्तर, दाएँ 8m, दाएँ 6m, दाएँ 8m। दूरी?",
+      "options": [
+        "28m",
+        "14m",
+        "0m",
+        "20m"
+      ],
+      "explanation": "आयत बनाकर वापस आरंभ पर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0061",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "A ship sails 30km South, then 30km East, then 30km North. It is now ___ of starting point?",
+      "options": [
+        "30km East",
+        "30km West",
+        "60km East",
+        "At starting point"
+      ],
+      "explanation": "S-N cancel. Net: 30km East."
+    },
+    "hi": {
+      "question": "जहाज 30km दक्षिण, 30km पूर्व, 30km उत्तर। आरंभ से?",
+      "options": [
+        "30km पूर्व",
+        "30km पश्चिम",
+        "60km पूर्व",
+        "आरंभ बिंदु पर"
+      ],
+      "explanation": "कुल 30km पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0062",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "In morning, Ravi's shadow was exactly to his left. Which direction was he facing?",
+      "options": [
+        "East",
+        "West",
+        "North",
+        "South"
+      ],
+      "explanation": "Morning sun=East, shadow=West. Left=West → facing North."
+    },
+    "hi": {
+      "question": "सुबह रवि की छाया ठीक बाईं ओर। वह किस ओर?",
+      "options": [
+        "पूर्व",
+        "पश्चिम",
+        "उत्तर",
+        "दक्षिण"
+      ],
+      "explanation": "सूर्य पूर्व, छाया पश्चिम। बायाँ=पश्चिम, उत्तरमुखी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0063",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "Girl walks 7m West, turns left, 7m, turns left, 7m. Distance from start?",
+      "options": [
+        "21m",
+        "7m",
+        "14m",
+        "0m"
+      ],
+      "explanation": "7W→7S→7E. Net: 7m South."
+    },
+    "hi": {
+      "question": "7m पश्चिम, बाएँ 7m, बाएँ 7m। दूरी?",
+      "options": [
+        "21m",
+        "7m",
+        "14m",
+        "0m"
+      ],
+      "explanation": "कुल 7m दक्षिण।"
+    }
+  },
+  {
+    "id": "ntpc-r-0064",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "P is to the North of Q. R is to the East of Q. S is to the South of R. T is to the West of S. What is the position of T w.r.t P?",
+      "options": [
+        "North",
+        "South-East",
+        "South",
+        "East"
+      ],
+      "explanation": "With equal distances, T is directly South of P."
+    },
+    "hi": {
+      "question": "P,Q के उत्तर। R,Q के पूर्व। S,R के दक्षिण। T,S के पश्चिम। T,P से?",
+      "options": [
+        "उत्तर",
+        "दक्षिण-पूर्व",
+        "दक्षिण",
+        "पूर्व"
+      ],
+      "explanation": "T, P के ठीक दक्षिण में।"
+    }
+  },
+  {
+    "id": "ntpc-r-0065",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "Direction opposite to North-West is?",
+      "options": [
+        "South-East",
+        "North-East",
+        "South-West",
+        "East"
+      ],
+      "explanation": "Opposite of NW is SE."
+    },
+    "hi": {
+      "question": "उत्तर-पश्चिम की विपरीत दिशा?",
+      "options": [
+        "दक्षिण-पूर्व",
+        "उत्तर-पूर्व",
+        "दक्षिण-पश्चिम",
+        "पूर्व"
+      ],
+      "explanation": "NW का विपरीत SE।"
+    }
+  },
+  {
+    "id": "ntpc-r-0066",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "A man walks 4km West, 3km North, 4km East. Distance from start?",
+      "options": [
+        "11km",
+        "7km",
+        "4km",
+        "3km"
+      ],
+      "explanation": "W-E cancel. Net: 3km North."
+    },
+    "hi": {
+      "question": "4km पश्चिम, 3km उत्तर, 4km पूर्व। दूरी?",
+      "options": [
+        "11km",
+        "7km",
+        "4km",
+        "3km"
+      ],
+      "explanation": "कुल 3km उत्तर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0067",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "From his house, Mohan walks 10m North, 6m West, 10m South to reach market. Direct distance from house to market?",
+      "options": [
+        "26m",
+        "6m",
+        "16m",
+        "10m"
+      ],
+      "explanation": "N-S cancel. Only 6m West. Direct=6m."
+    },
+    "hi": {
+      "question": "घर से 10m उत्तर, 6m पश्चिम, 10m दक्षिण = बाजार। सीधी दूरी?",
+      "options": [
+        "26m",
+        "6m",
+        "16m",
+        "10m"
+      ],
+      "explanation": "कुल 6m पश्चिम = सीधी दूरी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0068",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "If you are facing North and turn 270° clockwise, which direction will you face?",
+      "options": [
+        "East",
+        "South",
+        "West",
+        "North"
+      ],
+      "explanation": "N+270°CW=W (N→E→S→W)."
+    },
+    "hi": {
+      "question": "यदि आप उत्तर की ओर हों और 270° दक्षिणावर्त घूमें?",
+      "options": [
+        "पूर्व",
+        "दक्षिण",
+        "पश्चिम",
+        "उत्तर"
+      ],
+      "explanation": "उत्तर+270°=पश्चिम।"
+    }
+  },
+  {
+    "id": "ntpc-r-0069",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "At sunset, a girl's shadow falls to her left. She is facing?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "Sunset sun=West, shadow=East. Left=East → facing North."
+    },
+    "hi": {
+      "question": "सूर्यास्त पर लड़की की छाया बाईं ओर। वह किस ओर?",
+      "options": [
+        "उत्तर",
+        "दक्षिण",
+        "पूर्व",
+        "पश्चिम"
+      ],
+      "explanation": "सूर्य पश्चिम, बायाँ=पूर्व, उत्तरमुखी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0070",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Person walks 9m East, 12m South. Minimum distance from start?",
+      "options": [
+        "21m",
+        "9m",
+        "12m",
+        "15m"
+      ],
+      "explanation": "9-12-15 triangle. √(81+144)=15m."
+    },
+    "hi": {
+      "question": "9m पूर्व, 12m दक्षिण। न्यूनतम दूरी?",
+      "options": [
+        "21m",
+        "9m",
+        "12m",
+        "15m"
+      ],
+      "explanation": "9-12-15: 15m।"
+    }
+  },
+  {
+    "id": "ntpc-r-0071",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "If East is called North, North is called West, West is called South. What is South-East called?",
+      "options": [
+        "North-East",
+        "South-West",
+        "North-West",
+        "South-East"
+      ],
+      "explanation": "90° CCW rotation. SE(135°)-90°=45°=NE. Called North-East."
+    },
+    "hi": {
+      "question": "यदि पूर्व=उत्तर, उत्तर=पश्चिम, पश्चिम=दक्षिण। दक्षिण-पूर्व को क्या कहेंगे?",
+      "options": [
+        "उत्तर-पूर्व",
+        "दक्षिण-पश्चिम",
+        "उत्तर-पश्चिम",
+        "दक्षिण-पूर्व"
+      ],
+      "explanation": "90° वामावर्त: SE→NE = उत्तर-पूर्व।"
+    }
+  },
+  {
+    "id": "ntpc-r-0072",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "A boy runs 20m East, turns left, 15m, turns right, 10m, turns left, 25m. How far from start?",
+      "options": [
+        "70m",
+        "60m",
+        "50m",
+        "55m"
+      ],
+      "explanation": "20E→15N→10E→25N. Net: 30E, 40N. √(900+1600)=50m."
+    },
+    "hi": {
+      "question": "20m पूर्व, बाएँ 15m, दाएँ 10m, बाएँ 25m। दूरी?",
+      "options": [
+        "70m",
+        "60m",
+        "50m",
+        "55m"
+      ],
+      "explanation": "30E+40N, √(900+1600)=50m।"
+    }
+  },
+  {
+    "id": "ntpc-r-0073",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "A is South-West of B. C is North-East of A. What is C w.r.t B?",
+      "options": [
+        "Cannot be determined",
+        "North",
+        "East",
+        "North-East"
+      ],
+      "explanation": "Without distances, it cannot be determined. C could be N, E, or NE of B."
+    },
+    "hi": {
+      "question": "A, B का द-प। C, A का उ-पू। C, B से?",
+      "options": [
+        "निर्धारित नहीं",
+        "उत्तर",
+        "पूर्व",
+        "उत्तर-पूर्व"
+      ],
+      "explanation": "दूरियों के बिना निश्चित नहीं कह सकते।"
+    }
+  },
+  {
+    "id": "ntpc-r-0074",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: right then right then left then left then right. Final direction?",
+      "options": [
+        "West",
+        "East",
+        "North",
+        "South"
+      ],
+      "explanation": "Track direction: South → R → R → L → L → R → West"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: दाएं फिर दाएं फिर बाएं फिर बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "East",
+        "North",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → R → R → L → L → R → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0075",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: right then left then right then left then right. Final direction?",
+      "options": [
+        "East",
+        "West",
+        "South",
+        "North"
+      ],
+      "explanation": "Track direction: East → R → L → R → L → R → South"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: दाएं फिर बाएं फिर दाएं फिर बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "West",
+        "South",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → R → L → R → L → R → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0076",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: right then left then right then right. Final direction?",
+      "options": [
+        "South",
+        "East",
+        "North",
+        "West"
+      ],
+      "explanation": "Track direction: North → R → L → R → R → South"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: दाएं फिर बाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "South",
+        "East",
+        "North",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → R → L → R → R → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0077",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing North in the सुबह (सूर्योदय). In which direction is his shadow?",
+      "options": [
+        "Front",
+        "Right",
+        "Back",
+        "Left"
+      ],
+      "explanation": "Sun is in East, shadow falls West. Facing North → shadow on the left."
+    },
+    "hi": {
+      "question": "रवि सुबह (सूर्योदय) के समय उत्तर की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Front",
+        "Right",
+        "Back",
+        "Left"
+      ],
+      "explanation": "सूर्य East में, छाया West में। मुंह North → छाया बाईं ओर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0078",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing North in the शाम (सूर्यास्त). In which direction is his shadow?",
+      "options": [
+        "Left",
+        "Front",
+        "Back",
+        "Right"
+      ],
+      "explanation": "Sun is in West, shadow falls East. Facing North → shadow on the right."
+    },
+    "hi": {
+      "question": "रवि शाम (सूर्यास्त) के समय उत्तर की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Left",
+        "Front",
+        "Back",
+        "Right"
+      ],
+      "explanation": "सूर्य West में, छाया East में। मुंह North → छाया दाईं ओर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0079",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 32m East, 28m West, 36m West, 34m West, 9m South. Final distance from start?",
+      "options": [
+        "56m East",
+        "81m West",
+        "26m East",
+        "66m West"
+      ],
+      "explanation": "Net displacement: (-66, -9). Distance ≈ 66m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 32मी पूर्व, 28मी पश्चिम, 36मी पश्चिम, 34मी पश्चिम, 9मी दक्षिण। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "56m East",
+        "81m West",
+        "26m East",
+        "66m West"
+      ],
+      "explanation": "कुल विस्थापन: (-66, -9)। दूरी ≈ 66मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0080",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: left then right. Final direction?",
+      "options": [
+        "East",
+        "North",
+        "South",
+        "West"
+      ],
+      "explanation": "Track direction: North → L → R → North"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "North",
+        "South",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → L → R → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0081",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing North in the शाम (सूर्यास्त). In which direction is his shadow?",
+      "options": [
+        "Back",
+        "Left",
+        "Front",
+        "Right"
+      ],
+      "explanation": "Sun is in West, shadow falls East. Facing North → shadow on the right."
+    },
+    "hi": {
+      "question": "रवि शाम (सूर्यास्त) के समय उत्तर की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Back",
+        "Left",
+        "Front",
+        "Right"
+      ],
+      "explanation": "सूर्य West में, छाया East में। मुंह North → छाया दाईं ओर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0082",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 25m East, 7m East, 22m West, 12m North, 17m North, 29m East. Final distance from start?",
+      "options": [
+        "42m South",
+        "48m East",
+        "22m East",
+        "67m North"
+      ],
+      "explanation": "Net displacement: (39, 29). Distance ≈ 48m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 25मी पूर्व, 7मी पूर्व, 22मी पश्चिम, 12मी उत्तर, 17मी उत्तर, 29मी पूर्व। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "42m South",
+        "48m East",
+        "22m East",
+        "67m North"
+      ],
+      "explanation": "कुल विस्थापन: (39, 29)। दूरी ≈ 48मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0083",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: right then right then left then left then right. Final direction?",
+      "options": [
+        "South",
+        "North",
+        "West",
+        "East"
+      ],
+      "explanation": "Track direction: West → R → R → L → L → R → North"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: दाएं फिर दाएं फिर बाएं फिर बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "South",
+        "North",
+        "West",
+        "East"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → R → R → L → L → R → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0084",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing East in the सुबह (सूर्योदय). In which direction is his shadow?",
+      "options": [
+        "Right",
+        "Left",
+        "Back",
+        "Front"
+      ],
+      "explanation": "Sun is in East, shadow falls West. Facing East → shadow on the back."
+    },
+    "hi": {
+      "question": "रवि सुबह (सूर्योदय) के समय पूर्व की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Right",
+        "Left",
+        "Back",
+        "Front"
+      ],
+      "explanation": "सूर्य East में, छाया West में। मुंह East → छाया पीछे।"
+    }
+  },
+  {
+    "id": "ntpc-r-0085",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 19m West, 33m East, 31m North, 36m West, 9m North. Final distance from start?",
+      "options": [
+        "45m North",
+        "53m West",
+        "39m North",
+        "43m East"
+      ],
+      "explanation": "Net displacement: (-22, 40). Distance ≈ 45m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 19मी पश्चिम, 33मी पूर्व, 31मी उत्तर, 36मी पश्चिम, 9मी उत्तर। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "45m North",
+        "53m West",
+        "39m North",
+        "43m East"
+      ],
+      "explanation": "कुल विस्थापन: (-22, 40)। दूरी ≈ 45मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0086",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing East in the शाम (सूर्यास्त). In which direction is his shadow?",
+      "options": [
+        "Front",
+        "Left",
+        "Back",
+        "Right"
+      ],
+      "explanation": "Sun is in West, shadow falls East. Facing East → shadow on the front."
+    },
+    "hi": {
+      "question": "रवि शाम (सूर्यास्त) के समय पूर्व की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Front",
+        "Left",
+        "Back",
+        "Right"
+      ],
+      "explanation": "सूर्य West में, छाया East में। मुंह East → छाया सामने।"
+    }
+  },
+  {
+    "id": "ntpc-r-0087",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: left then right then right. Final direction?",
+      "options": [
+        "North",
+        "West",
+        "East",
+        "South"
+      ],
+      "explanation": "Track direction: North → L → R → R → East"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: बाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "West",
+        "East",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → L → R → R → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0088",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: left then right. Final direction?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "Track direction: East → L → R → East"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → L → R → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0089",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: left then left. Final direction?",
+      "options": [
+        "East",
+        "North",
+        "West",
+        "South"
+      ],
+      "explanation": "Track direction: South → L → L → North"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: बाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "North",
+        "West",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → L → L → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0090",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: right then right. Final direction?",
+      "options": [
+        "East",
+        "South",
+        "North",
+        "West"
+      ],
+      "explanation": "Track direction: West → R → R → East"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "South",
+        "North",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → R → R → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0091",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: right then left then left then right. Final direction?",
+      "options": [
+        "East",
+        "North",
+        "South",
+        "West"
+      ],
+      "explanation": "Track direction: South → R → L → L → R → South"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: दाएं फिर बाएं फिर बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "North",
+        "South",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → R → L → L → R → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0092",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing West in the शाम (सूर्यास्त). In which direction is his shadow?",
+      "options": [
+        "Right",
+        "Left",
+        "Back",
+        "Front"
+      ],
+      "explanation": "Sun is in West, shadow falls East. Facing West → shadow on the back."
+    },
+    "hi": {
+      "question": "रवि शाम (सूर्यास्त) के समय पश्चिम की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Right",
+        "Left",
+        "Back",
+        "Front"
+      ],
+      "explanation": "सूर्य West में, छाया East में। मुंह West → छाया पीछे।"
+    }
+  },
+  {
+    "id": "ntpc-r-0093",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 17m North, 32m East, 24m West. Final distance from start?",
+      "options": [
+        "38m West",
+        "18m North",
+        "14m East",
+        "39m West"
+      ],
+      "explanation": "Net displacement: (8, 17). Distance ≈ 18m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 17मी उत्तर, 32मी पूर्व, 24मी पश्चिम। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "38m West",
+        "18m North",
+        "14m East",
+        "39m West"
+      ],
+      "explanation": "कुल विस्थापन: (8, 17)। दूरी ≈ 18मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0094",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: right then right. Final direction?",
+      "options": [
+        "South",
+        "West",
+        "North",
+        "East"
+      ],
+      "explanation": "Track direction: South → R → R → North"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "South",
+        "West",
+        "North",
+        "East"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → R → R → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0095",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 39m North, 36m North, 13m West, 24m West. Final distance from start?",
+      "options": [
+        "95m West",
+        "25m West",
+        "83m North",
+        "78m West"
+      ],
+      "explanation": "Net displacement: (-37, 75). Distance ≈ 83m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 39मी उत्तर, 36मी उत्तर, 13मी पश्चिम, 24मी पश्चिम। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "95m West",
+        "25m West",
+        "83m North",
+        "78m West"
+      ],
+      "explanation": "कुल विस्थापन: (-37, 75)। दूरी ≈ 83मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0096",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: right then right then left. Final direction?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "Track direction: South → R → R → L → West"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: दाएं फिर दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → R → R → L → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0097",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 18m South, 18m East, 9m East, 10m East. Final distance from start?",
+      "options": [
+        "41m East",
+        "35m South",
+        "37m East",
+        "59m East"
+      ],
+      "explanation": "Net displacement: (37, -18). Distance ≈ 41m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 18मी दक्षिण, 18मी पूर्व, 9मी पूर्व, 10मी पूर्व। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "41m East",
+        "35m South",
+        "37m East",
+        "59m East"
+      ],
+      "explanation": "कुल विस्थापन: (37, -18)। दूरी ≈ 41मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0098",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: left then right. Final direction?",
+      "options": [
+        "East",
+        "North",
+        "South",
+        "West"
+      ],
+      "explanation": "Track direction: East → L → R → East"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "North",
+        "South",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → L → R → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0099",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 17m North, 21m North, 16m South, 5m North, 16m North. Final distance from start?",
+      "options": [
+        "60m North",
+        "43m North",
+        "29m East",
+        "35m East"
+      ],
+      "explanation": "Net displacement: (0, 43). Distance ≈ 43m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 17मी उत्तर, 21मी उत्तर, 16मी दक्षिण, 5मी उत्तर, 16मी उत्तर। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "60m North",
+        "43m North",
+        "29m East",
+        "35m East"
+      ],
+      "explanation": "कुल विस्थापन: (0, 43)। दूरी ≈ 43मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0100",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 29m East, 32m East, 27m North. Final distance from start?",
+      "options": [
+        "56m South",
+        "66m East",
+        "44m South",
+        "85m West"
+      ],
+      "explanation": "Net displacement: (61, 27). Distance ≈ 66m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 29मी पूर्व, 32मी पूर्व, 27मी उत्तर। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "56m South",
+        "66m East",
+        "44m South",
+        "85m West"
+      ],
+      "explanation": "कुल विस्थापन: (61, 27)। दूरी ≈ 66मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0101",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 16m East, 11m East, 20m North. Final distance from start?",
+      "options": [
+        "41m South",
+        "33m East",
+        "28m South",
+        "29m North"
+      ],
+      "explanation": "Net displacement: (27, 20). Distance ≈ 33m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 16मी पूर्व, 11मी पूर्व, 20मी उत्तर। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "41m South",
+        "33m East",
+        "28m South",
+        "29m North"
+      ],
+      "explanation": "कुल विस्थापन: (27, 20)। दूरी ≈ 33मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0102",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: left then left then left then right. Final direction?",
+      "options": [
+        "North",
+        "East",
+        "South",
+        "West"
+      ],
+      "explanation": "Track direction: North → L → L → L → R → South"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: बाएं फिर बाएं फिर बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "East",
+        "South",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → L → L → L → R → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0103",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: left then right then right then left. Final direction?",
+      "options": [
+        "South",
+        "West",
+        "East",
+        "North"
+      ],
+      "explanation": "Track direction: West → L → R → R → L → West"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: बाएं फिर दाएं फिर दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "South",
+        "West",
+        "East",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → L → R → R → L → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0104",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing West in the सुबह (सूर्योदय). In which direction is his shadow?",
+      "options": [
+        "Front",
+        "Right",
+        "Left",
+        "Back"
+      ],
+      "explanation": "Sun is in East, shadow falls West. Facing West → shadow on the front."
+    },
+    "hi": {
+      "question": "रवि सुबह (सूर्योदय) के समय पश्चिम की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Front",
+        "Right",
+        "Left",
+        "Back"
+      ],
+      "explanation": "सूर्य East में, छाया West में। मुंह West → छाया सामने।"
+    }
+  },
+  {
+    "id": "ntpc-r-0105",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: left then right then right then right. Final direction?",
+      "options": [
+        "West",
+        "South",
+        "North",
+        "East"
+      ],
+      "explanation": "Track direction: East → L → R → R → R → West"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: बाएं फिर दाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "South",
+        "North",
+        "East"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → L → R → R → R → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0106",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing West in the सुबह (सूर्योदय). In which direction is his shadow?",
+      "options": [
+        "Right",
+        "Back",
+        "Front",
+        "Left"
+      ],
+      "explanation": "Sun is in East, shadow falls West. Facing West → shadow on the front."
+    },
+    "hi": {
+      "question": "रवि सुबह (सूर्योदय) के समय पश्चिम की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Right",
+        "Back",
+        "Front",
+        "Left"
+      ],
+      "explanation": "सूर्य East में, छाया West में। मुंह West → छाया सामने।"
+    }
+  },
+  {
+    "id": "ntpc-r-0107",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: left then right. Final direction?",
+      "options": [
+        "West",
+        "North",
+        "South",
+        "East"
+      ],
+      "explanation": "Track direction: East → L → R → East"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "North",
+        "South",
+        "East"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → L → R → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0108",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing West in the सुबह (सूर्योदय). In which direction is his shadow?",
+      "options": [
+        "Right",
+        "Front",
+        "Back",
+        "Left"
+      ],
+      "explanation": "Sun is in East, shadow falls West. Facing West → shadow on the front."
+    },
+    "hi": {
+      "question": "रवि सुबह (सूर्योदय) के समय पश्चिम की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Right",
+        "Front",
+        "Back",
+        "Left"
+      ],
+      "explanation": "सूर्य East में, छाया West में। मुंह West → छाया सामने।"
+    }
+  },
+  {
+    "id": "ntpc-r-0109",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: left then left then right then right. Final direction?",
+      "options": [
+        "East",
+        "West",
+        "South",
+        "North"
+      ],
+      "explanation": "Track direction: West → L → L → R → R → West"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: बाएं फिर बाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "West",
+        "South",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → L → L → R → R → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0110",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: right then right then left then left then right. Final direction?",
+      "options": [
+        "North",
+        "East",
+        "West",
+        "South"
+      ],
+      "explanation": "Track direction: West → R → R → L → L → R → North"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: दाएं फिर दाएं फिर बाएं फिर बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "East",
+        "West",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → R → R → L → L → R → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0111",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 26m South, 23m North, 23m East, 35m North. Final distance from start?",
+      "options": [
+        "32m North",
+        "59m South",
+        "40m North",
+        "39m North"
+      ],
+      "explanation": "Net displacement: (23, 32). Distance ≈ 39m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 26मी दक्षिण, 23मी उत्तर, 23मी पूर्व, 35मी उत्तर। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "32m North",
+        "59m South",
+        "40m North",
+        "39m North"
+      ],
+      "explanation": "कुल विस्थापन: (23, 32)। दूरी ≈ 39मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0112",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: right then left then left. Final direction?",
+      "options": [
+        "North",
+        "South",
+        "West",
+        "East"
+      ],
+      "explanation": "Track direction: East → R → L → L → North"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: दाएं फिर बाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "South",
+        "West",
+        "East"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → R → L → L → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0113",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: left then right. Final direction?",
+      "options": [
+        "South",
+        "East",
+        "North",
+        "West"
+      ],
+      "explanation": "Track direction: North → L → R → North"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "South",
+        "East",
+        "North",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → L → R → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0114",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 5m North, 39m West, 32m East. Final distance from start?",
+      "options": [
+        "22m South",
+        "8m West",
+        "-1m North",
+        "42m East"
+      ],
+      "explanation": "Net displacement: (-7, 5). Distance ≈ 8m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 5मी उत्तर, 39मी पश्चिम, 32मी पूर्व। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "22m South",
+        "8m West",
+        "-1m North",
+        "42m East"
+      ],
+      "explanation": "कुल विस्थापन: (-7, 5)। दूरी ≈ 8मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0115",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 22m East, 28m South, 36m South, 33m North, 6m West. Final distance from start?",
+      "options": [
+        "34m South",
+        "36m West",
+        "41m South",
+        "28m South"
+      ],
+      "explanation": "Net displacement: (16, -31). Distance ≈ 34m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 22मी पूर्व, 28मी दक्षिण, 36मी दक्षिण, 33मी उत्तर, 6मी पश्चिम। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "34m South",
+        "36m West",
+        "41m South",
+        "28m South"
+      ],
+      "explanation": "कुल विस्थापन: (16, -31)। दूरी ≈ 34मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0116",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing West in the सुबह (सूर्योदय). In which direction is his shadow?",
+      "options": [
+        "Back",
+        "Right",
+        "Front",
+        "Left"
+      ],
+      "explanation": "Sun is in East, shadow falls West. Facing West → shadow on the front."
+    },
+    "hi": {
+      "question": "रवि सुबह (सूर्योदय) के समय पश्चिम की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Back",
+        "Right",
+        "Front",
+        "Left"
+      ],
+      "explanation": "सूर्य East में, छाया West में। मुंह West → छाया सामने।"
+    }
+  },
+  {
+    "id": "ntpc-r-0117",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 14m South, 7m West, 29m East. Final distance from start?",
+      "options": [
+        "26m East",
+        "44m West",
+        "49m South",
+        "19m South"
+      ],
+      "explanation": "Net displacement: (22, -14). Distance ≈ 26m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 14मी दक्षिण, 7मी पश्चिम, 29मी पूर्व। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "26m East",
+        "44m West",
+        "49m South",
+        "19m South"
+      ],
+      "explanation": "कुल विस्थापन: (22, -14)। दूरी ≈ 26मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0118",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: left then left. Final direction?",
+      "options": [
+        "North",
+        "South",
+        "West",
+        "East"
+      ],
+      "explanation": "Track direction: East → L → L → West"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: बाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "South",
+        "West",
+        "East"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → L → L → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0119",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: right then right. Final direction?",
+      "options": [
+        "North",
+        "West",
+        "South",
+        "East"
+      ],
+      "explanation": "Track direction: West → R → R → East"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "West",
+        "South",
+        "East"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → R → R → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0120",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing South in the शाम (सूर्यास्त). In which direction is his shadow?",
+      "options": [
+        "Left",
+        "Back",
+        "Front",
+        "Right"
+      ],
+      "explanation": "Sun is in West, shadow falls East. Facing South → shadow on the left."
+    },
+    "hi": {
+      "question": "रवि शाम (सूर्यास्त) के समय दक्षिण की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Left",
+        "Back",
+        "Front",
+        "Right"
+      ],
+      "explanation": "सूर्य West में, छाया East में। मुंह South → छाया बाईं ओर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0121",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 38m North, 24m East, 26m West, 7m East. Final distance from start?",
+      "options": [
+        "42m East",
+        "38m North",
+        "44m South",
+        "36m North"
+      ],
+      "explanation": "Net displacement: (5, 38). Distance ≈ 38m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 38मी उत्तर, 24मी पूर्व, 26मी पश्चिम, 7मी पूर्व। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "42m East",
+        "38m North",
+        "44m South",
+        "36m North"
+      ],
+      "explanation": "कुल विस्थापन: (5, 38)। दूरी ≈ 38मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0122",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 34m South, 35m East, 25m South, 27m West. Final distance from start?",
+      "options": [
+        "71m East",
+        "59m South",
+        "55m West",
+        "19m North"
+      ],
+      "explanation": "Net displacement: (8, -59). Distance ≈ 59m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 34मी दक्षिण, 35मी पूर्व, 25मी दक्षिण, 27मी पश्चिम। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "71m East",
+        "59m South",
+        "55m West",
+        "19m North"
+      ],
+      "explanation": "कुल विस्थापन: (8, -59)। दूरी ≈ 59मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0123",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: right then right. Final direction?",
+      "options": [
+        "North",
+        "East",
+        "West",
+        "South"
+      ],
+      "explanation": "Track direction: North → R → R → South"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "East",
+        "West",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → R → R → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0124",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: left then left then left then right. Final direction?",
+      "options": [
+        "South",
+        "West",
+        "North",
+        "East"
+      ],
+      "explanation": "Track direction: South → L → L → L → R → North"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: बाएं फिर बाएं फिर बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "South",
+        "West",
+        "North",
+        "East"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → L → L → L → R → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0125",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: left then right then right then right then right. Final direction?",
+      "options": [
+        "North",
+        "West",
+        "East",
+        "South"
+      ],
+      "explanation": "Track direction: West → L → R → R → R → R → South"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: बाएं फिर दाएं फिर दाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "West",
+        "East",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → L → R → R → R → R → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0126",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 10m South, 23m West, 28m South. Final distance from start?",
+      "options": [
+        "42m North",
+        "60m North",
+        "30m West",
+        "44m South"
+      ],
+      "explanation": "Net displacement: (-23, -38). Distance ≈ 44m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 10मी दक्षिण, 23मी पश्चिम, 28मी दक्षिण। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "42m North",
+        "60m North",
+        "30m West",
+        "44m South"
+      ],
+      "explanation": "कुल विस्थापन: (-23, -38)। दूरी ≈ 44मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0127",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing South in the शाम (सूर्यास्त). In which direction is his shadow?",
+      "options": [
+        "Left",
+        "Back",
+        "Front",
+        "Right"
+      ],
+      "explanation": "Sun is in West, shadow falls East. Facing South → shadow on the left."
+    },
+    "hi": {
+      "question": "रवि शाम (सूर्यास्त) के समय दक्षिण की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Left",
+        "Back",
+        "Front",
+        "Right"
+      ],
+      "explanation": "सूर्य West में, छाया East में। मुंह South → छाया बाईं ओर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0128",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: right then right then right then right then left. Final direction?",
+      "options": [
+        "West",
+        "North",
+        "East",
+        "South"
+      ],
+      "explanation": "Track direction: South → R → R → R → R → L → East"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: दाएं फिर दाएं फिर दाएं फिर दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "North",
+        "East",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → R → R → R → R → L → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0129",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: right then left. Final direction?",
+      "options": [
+        "West",
+        "North",
+        "East",
+        "South"
+      ],
+      "explanation": "Track direction: East → R → L → East"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "North",
+        "East",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → R → L → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0130",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: right then left then right then left then left. Final direction?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "Track direction: North → R → L → R → L → L → West"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: दाएं फिर बाएं फिर दाएं फिर बाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → R → L → R → L → L → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0131",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: right then right then left. Final direction?",
+      "options": [
+        "North",
+        "East",
+        "South",
+        "West"
+      ],
+      "explanation": "Track direction: South → R → R → L → West"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: दाएं फिर दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "East",
+        "South",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → R → R → L → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0132",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: left then right. Final direction?",
+      "options": [
+        "South",
+        "North",
+        "East",
+        "West"
+      ],
+      "explanation": "Track direction: North → L → R → North"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "South",
+        "North",
+        "East",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → L → R → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0133",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 11m North, 16m West, 36m North, 8m South, 16m East, 6m North. Final distance from start?",
+      "options": [
+        "43m West",
+        "45m North",
+        "43m West",
+        "52m South"
+      ],
+      "explanation": "Net displacement: (0, 45). Distance ≈ 45m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 11मी उत्तर, 16मी पश्चिम, 36मी उत्तर, 8मी दक्षिण, 16मी पूर्व, 6मी उत्तर। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "43m West",
+        "45m North",
+        "43m West",
+        "52m South"
+      ],
+      "explanation": "कुल विस्थापन: (0, 45)। दूरी ≈ 45मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0134",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing North in the सुबह (सूर्योदय). In which direction is his shadow?",
+      "options": [
+        "Left",
+        "Right",
+        "Back",
+        "Front"
+      ],
+      "explanation": "Sun is in East, shadow falls West. Facing North → shadow on the left."
+    },
+    "hi": {
+      "question": "रवि सुबह (सूर्योदय) के समय उत्तर की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Left",
+        "Right",
+        "Back",
+        "Front"
+      ],
+      "explanation": "सूर्य East में, छाया West में। मुंह North → छाया बाईं ओर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0135",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 15m North, 10m West, 12m East, 7m North. Final distance from start?",
+      "options": [
+        "22m North",
+        "27m North",
+        "13m East",
+        "42m East"
+      ],
+      "explanation": "Net displacement: (2, 22). Distance ≈ 22m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 15मी उत्तर, 10मी पश्चिम, 12मी पूर्व, 7मी उत्तर। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "22m North",
+        "27m North",
+        "13m East",
+        "42m East"
+      ],
+      "explanation": "कुल विस्थापन: (2, 22)। दूरी ≈ 22मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0136",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: left then right then left. Final direction?",
+      "options": [
+        "West",
+        "South",
+        "North",
+        "East"
+      ],
+      "explanation": "Track direction: South → L → R → L → East"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: बाएं फिर दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "South",
+        "North",
+        "East"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → L → R → L → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0137",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: right then right. Final direction?",
+      "options": [
+        "West",
+        "South",
+        "East",
+        "North"
+      ],
+      "explanation": "Track direction: South → R → R → North"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "South",
+        "East",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → R → R → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0138",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: left then right then right. Final direction?",
+      "options": [
+        "West",
+        "South",
+        "East",
+        "North"
+      ],
+      "explanation": "Track direction: South → L → R → R → West"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: बाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "South",
+        "East",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → L → R → R → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0139",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing South in the सुबह (सूर्योदय). In which direction is his shadow?",
+      "options": [
+        "Back",
+        "Right",
+        "Left",
+        "Front"
+      ],
+      "explanation": "Sun is in East, shadow falls West. Facing South → shadow on the right."
+    },
+    "hi": {
+      "question": "रवि सुबह (सूर्योदय) के समय दक्षिण की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Back",
+        "Right",
+        "Left",
+        "Front"
+      ],
+      "explanation": "सूर्य East में, छाया West में। मुंह South → छाया दाईं ओर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0140",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: right then right. Final direction?",
+      "options": [
+        "West",
+        "East",
+        "South",
+        "North"
+      ],
+      "explanation": "Track direction: North → R → R → South"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "East",
+        "South",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → R → R → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0141",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: right then right then right then right. Final direction?",
+      "options": [
+        "East",
+        "North",
+        "West",
+        "South"
+      ],
+      "explanation": "Track direction: West → R → R → R → R → West"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: दाएं फिर दाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "North",
+        "West",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → R → R → R → R → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0142",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: left then right then right then right then left. Final direction?",
+      "options": [
+        "East",
+        "South",
+        "North",
+        "West"
+      ],
+      "explanation": "Track direction: East → L → R → R → R → L → South"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: बाएं फिर दाएं फिर दाएं फिर दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "South",
+        "North",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → L → R → R → R → L → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0143",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: right then right then left then left then right. Final direction?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "Track direction: North → R → R → L → L → R → East"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: दाएं फिर दाएं फिर बाएं फिर बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → R → R → L → L → R → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0144",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: left then left then left then left then right. Final direction?",
+      "options": [
+        "East",
+        "North",
+        "West",
+        "South"
+      ],
+      "explanation": "Track direction: South → L → L → L → L → R → West"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: बाएं फिर बाएं फिर बाएं फिर बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "North",
+        "West",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → L → L → L → L → R → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0145",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing South in the सुबह (सूर्योदय). In which direction is his shadow?",
+      "options": [
+        "Left",
+        "Right",
+        "Front",
+        "Back"
+      ],
+      "explanation": "Sun is in East, shadow falls West. Facing South → shadow on the right."
+    },
+    "hi": {
+      "question": "रवि सुबह (सूर्योदय) के समय दक्षिण की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Left",
+        "Right",
+        "Front",
+        "Back"
+      ],
+      "explanation": "सूर्य East में, छाया West में। मुंह South → छाया दाईं ओर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0146",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: left then left then left then left then right. Final direction?",
+      "options": [
+        "East",
+        "North",
+        "West",
+        "South"
+      ],
+      "explanation": "Track direction: North → L → L → L → L → R → East"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: बाएं फिर बाएं फिर बाएं फिर बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "North",
+        "West",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → L → L → L → L → R → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0147",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: left then left then left then right then left. Final direction?",
+      "options": [
+        "West",
+        "East",
+        "South",
+        "North"
+      ],
+      "explanation": "Track direction: West → L → L → L → R → L → North"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: बाएं फिर बाएं फिर बाएं फिर दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "East",
+        "South",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → L → L → L → R → L → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0148",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: right then right. Final direction?",
+      "options": [
+        "West",
+        "South",
+        "East",
+        "North"
+      ],
+      "explanation": "Track direction: South → R → R → North"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "South",
+        "East",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → R → R → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0149",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: left then right then right. Final direction?",
+      "options": [
+        "West",
+        "South",
+        "East",
+        "North"
+      ],
+      "explanation": "Track direction: South → L → R → R → West"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: बाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "South",
+        "East",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → L → R → R → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0150",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing South in the सुबह (सूर्योदय). In which direction is his shadow?",
+      "options": [
+        "Back",
+        "Right",
+        "Left",
+        "Front"
+      ],
+      "explanation": "Sun is in East, shadow falls West. Facing South → shadow on the right."
+    },
+    "hi": {
+      "question": "रवि सुबह (सूर्योदय) के समय दक्षिण की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Back",
+        "Right",
+        "Left",
+        "Front"
+      ],
+      "explanation": "सूर्य East में, छाया West में। मुंह South → छाया दाईं ओर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0151",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: right then right. Final direction?",
+      "options": [
+        "West",
+        "East",
+        "South",
+        "North"
+      ],
+      "explanation": "Track direction: North → R → R → South"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "East",
+        "South",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → R → R → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0152",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: right then right then right then right. Final direction?",
+      "options": [
+        "East",
+        "North",
+        "West",
+        "South"
+      ],
+      "explanation": "Track direction: West → R → R → R → R → West"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: दाएं फिर दाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "North",
+        "West",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → R → R → R → R → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0153",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: left then right then right then right then left. Final direction?",
+      "options": [
+        "East",
+        "South",
+        "North",
+        "West"
+      ],
+      "explanation": "Track direction: East → L → R → R → R → L → South"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: बाएं फिर दाएं फिर दाएं फिर दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "South",
+        "North",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → L → R → R → R → L → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0154",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: right then right then left then left then right. Final direction?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "Track direction: North → R → R → L → L → R → East"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: दाएं फिर दाएं फिर बाएं फिर बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → R → R → L → L → R → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0155",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: left then left then left. Final direction?",
+      "options": [
+        "South",
+        "East",
+        "North",
+        "West"
+      ],
+      "explanation": "Track direction: South → L → L → L → West"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: बाएं फिर बाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "South",
+        "East",
+        "North",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → L → L → L → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0156",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: left then left then right then left. Final direction?",
+      "options": [
+        "South",
+        "West",
+        "East",
+        "North"
+      ],
+      "explanation": "Track direction: North → L → L → R → L → South"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: बाएं फिर बाएं फिर दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "South",
+        "West",
+        "East",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → L → L → R → L → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0157",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing West in the सुबह (सूर्योदय). In which direction is his shadow?",
+      "options": [
+        "Back",
+        "Right",
+        "Front",
+        "Left"
+      ],
+      "explanation": "Sun is in East, shadow falls West. Facing West → shadow on the front."
+    },
+    "hi": {
+      "question": "रवि सुबह (सूर्योदय) के समय पश्चिम की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Back",
+        "Right",
+        "Front",
+        "Left"
+      ],
+      "explanation": "सूर्य East में, छाया West में। मुंह West → छाया सामने।"
+    }
+  },
+  {
+    "id": "ntpc-r-0158",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: left then left then left. Final direction?",
+      "options": [
+        "South",
+        "East",
+        "West",
+        "North"
+      ],
+      "explanation": "Track direction: West → L → L → L → North"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: बाएं फिर बाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "South",
+        "East",
+        "West",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → L → L → L → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0159",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing East in the सुबह (सूर्योदय). In which direction is his shadow?",
+      "options": [
+        "Right",
+        "Back",
+        "Front",
+        "Left"
+      ],
+      "explanation": "Sun is in East, shadow falls West. Facing East → shadow on the back."
+    },
+    "hi": {
+      "question": "रवि सुबह (सूर्योदय) के समय पूर्व की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Right",
+        "Back",
+        "Front",
+        "Left"
+      ],
+      "explanation": "सूर्य East में, छाया West में। मुंह East → छाया पीछे।"
+    }
+  },
+  {
+    "id": "ntpc-r-0160",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing South in the शाम (सूर्यास्त). In which direction is his shadow?",
+      "options": [
+        "Left",
+        "Right",
+        "Back",
+        "Front"
+      ],
+      "explanation": "Sun is in West, shadow falls East. Facing South → shadow on the left."
+    },
+    "hi": {
+      "question": "रवि शाम (सूर्यास्त) के समय दक्षिण की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Left",
+        "Right",
+        "Back",
+        "Front"
+      ],
+      "explanation": "सूर्य West में, छाया East में। मुंह South → छाया बाईं ओर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0161",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: right then right then left then left. Final direction?",
+      "options": [
+        "South",
+        "East",
+        "West",
+        "North"
+      ],
+      "explanation": "Track direction: East → R → R → L → L → East"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: दाएं फिर दाएं फिर बाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "South",
+        "East",
+        "West",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → R → R → L → L → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0162",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: left then left then left then left. Final direction?",
+      "options": [
+        "East",
+        "South",
+        "West",
+        "North"
+      ],
+      "explanation": "Track direction: North → L → L → L → L → North"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: बाएं फिर बाएं फिर बाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "South",
+        "West",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → L → L → L → L → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0163",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 22m North, 31m South, 18m East, 11m East. Final distance from start?",
+      "options": [
+        "25m East",
+        "26m North",
+        "30m East",
+        "37m East"
+      ],
+      "explanation": "Net displacement: (29, -9). Distance ≈ 30m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 22मी उत्तर, 31मी दक्षिण, 18मी पूर्व, 11मी पूर्व। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "25m East",
+        "26m North",
+        "30m East",
+        "37m East"
+      ],
+      "explanation": "कुल विस्थापन: (29, -9)। दूरी ≈ 30मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0164",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing North in the शाम (सूर्यास्त). In which direction is his shadow?",
+      "options": [
+        "Back",
+        "Front",
+        "Left",
+        "Right"
+      ],
+      "explanation": "Sun is in West, shadow falls East. Facing North → shadow on the right."
+    },
+    "hi": {
+      "question": "रवि शाम (सूर्यास्त) के समय उत्तर की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Back",
+        "Front",
+        "Left",
+        "Right"
+      ],
+      "explanation": "सूर्य West में, छाया East में। मुंह North → छाया दाईं ओर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0165",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing North in the शाम (सूर्यास्त). In which direction is his shadow?",
+      "options": [
+        "Right",
+        "Front",
+        "Left",
+        "Back"
+      ],
+      "explanation": "Sun is in West, shadow falls East. Facing North → shadow on the right."
+    },
+    "hi": {
+      "question": "रवि शाम (सूर्यास्त) के समय उत्तर की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Right",
+        "Front",
+        "Left",
+        "Back"
+      ],
+      "explanation": "सूर्य West में, छाया East में। मुंह North → छाया दाईं ओर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0166",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 12m West, 29m West, 29m East, 36m North. Final distance from start?",
+      "options": [
+        "37m North",
+        "55m South",
+        "25m South",
+        "34m North"
+      ],
+      "explanation": "Net displacement: (-12, 36). Distance ≈ 37m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 12मी पश्चिम, 29मी पश्चिम, 29मी पूर्व, 36मी उत्तर। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "37m North",
+        "55m South",
+        "25m South",
+        "34m North"
+      ],
+      "explanation": "कुल विस्थापन: (-12, 36)। दूरी ≈ 37मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0167",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 16m West, 8m West, 5m East, 32m South, 40m East. Final distance from start?",
+      "options": [
+        "34m West",
+        "31m West",
+        "38m South",
+        "44m North"
+      ],
+      "explanation": "Net displacement: (21, -32). Distance ≈ 38m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 16मी पश्चिम, 8मी पश्चिम, 5मी पूर्व, 32मी दक्षिण, 40मी पूर्व। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "34m West",
+        "31m West",
+        "38m South",
+        "44m North"
+      ],
+      "explanation": "कुल विस्थापन: (21, -32)। दूरी ≈ 38मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0168",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: right then left then right then left then right. Final direction?",
+      "options": [
+        "South",
+        "North",
+        "East",
+        "West"
+      ],
+      "explanation": "Track direction: North → R → L → R → L → R → East"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: दाएं फिर बाएं फिर दाएं फिर बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "South",
+        "North",
+        "East",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → R → L → R → L → R → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0169",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: left then right then left then right then right. Final direction?",
+      "options": [
+        "East",
+        "West",
+        "South",
+        "North"
+      ],
+      "explanation": "Track direction: South → L → R → L → R → R → West"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: बाएं फिर दाएं फिर बाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "West",
+        "South",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → L → R → L → R → R → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0170",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing North in the सुबह (सूर्योदय). In which direction is his shadow?",
+      "options": [
+        "Back",
+        "Right",
+        "Front",
+        "Left"
+      ],
+      "explanation": "Sun is in East, shadow falls West. Facing North → shadow on the left."
+    },
+    "hi": {
+      "question": "रवि सुबह (सूर्योदय) के समय उत्तर की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Back",
+        "Right",
+        "Front",
+        "Left"
+      ],
+      "explanation": "सूर्य East में, छाया West में। मुंह North → छाया बाईं ओर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0171",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: right then left. Final direction?",
+      "options": [
+        "South",
+        "West",
+        "East",
+        "North"
+      ],
+      "explanation": "Track direction: South → R → L → South"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "South",
+        "West",
+        "East",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → R → L → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0172",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: left then right then right. Final direction?",
+      "options": [
+        "North",
+        "West",
+        "South",
+        "East"
+      ],
+      "explanation": "Track direction: East → L → R → R → South"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: बाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "West",
+        "South",
+        "East"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → L → R → R → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0173",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing South in the शाम (सूर्यास्त). In which direction is his shadow?",
+      "options": [
+        "Left",
+        "Back",
+        "Right",
+        "Front"
+      ],
+      "explanation": "Sun is in West, shadow falls East. Facing South → shadow on the left."
+    },
+    "hi": {
+      "question": "रवि शाम (सूर्यास्त) के समय दक्षिण की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Left",
+        "Back",
+        "Right",
+        "Front"
+      ],
+      "explanation": "सूर्य West में, छाया East में। मुंह South → छाया बाईं ओर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0174",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 16m South, 28m North, 10m East. Final distance from start?",
+      "options": [
+        "11m North",
+        "15m North",
+        "37m North",
+        "21m West"
+      ],
+      "explanation": "Net displacement: (10, 12). Distance ≈ 15m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 16मी दक्षिण, 28मी उत्तर, 10मी पूर्व। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "11m North",
+        "15m North",
+        "37m North",
+        "21m West"
+      ],
+      "explanation": "कुल विस्थापन: (10, 12)। दूरी ≈ 15मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0175",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: right then right then right then right. Final direction?",
+      "options": [
+        "West",
+        "North",
+        "East",
+        "South"
+      ],
+      "explanation": "Track direction: East → R → R → R → R → East"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: दाएं फिर दाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "North",
+        "East",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → R → R → R → R → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0176",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 40m South, 23m East, 14m West, 22m North. Final distance from start?",
+      "options": [
+        "20m South",
+        "33m North",
+        "17m South",
+        "34m North"
+      ],
+      "explanation": "Net displacement: (9, -18). Distance ≈ 20m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 40मी दक्षिण, 23मी पूर्व, 14मी पश्चिम, 22मी उत्तर। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "20m South",
+        "33m North",
+        "17m South",
+        "34m North"
+      ],
+      "explanation": "कुल विस्थापन: (9, -18)। दूरी ≈ 20मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0177",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: right then right then right then right. Final direction?",
+      "options": [
+        "North",
+        "West",
+        "East",
+        "South"
+      ],
+      "explanation": "Track direction: North → R → R → R → R → North"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: दाएं फिर दाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "West",
+        "East",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → R → R → R → R → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0178",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: right then right then right then left. Final direction?",
+      "options": [
+        "East",
+        "South",
+        "West",
+        "North"
+      ],
+      "explanation": "Track direction: East → R → R → R → L → West"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: दाएं फिर दाएं फिर दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "South",
+        "West",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → R → R → R → L → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0179",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: left then right then left. Final direction?",
+      "options": [
+        "South",
+        "East",
+        "North",
+        "West"
+      ],
+      "explanation": "Track direction: North → L → R → L → West"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: बाएं फिर दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "South",
+        "East",
+        "North",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → L → R → L → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0180",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: right then left. Final direction?",
+      "options": [
+        "North",
+        "East",
+        "South",
+        "West"
+      ],
+      "explanation": "Track direction: East → R → L → East"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "East",
+        "South",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → R → L → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0181",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing North in the शाम (सूर्यास्त). In which direction is his shadow?",
+      "options": [
+        "Left",
+        "Front",
+        "Back",
+        "Right"
+      ],
+      "explanation": "Sun is in West, shadow falls East. Facing North → shadow on the right."
+    },
+    "hi": {
+      "question": "रवि शाम (सूर्यास्त) के समय उत्तर की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Left",
+        "Front",
+        "Back",
+        "Right"
+      ],
+      "explanation": "सूर्य West में, छाया East में। मुंह North → छाया दाईं ओर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0182",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 7m East, 39m West, 6m East, 19m South. Final distance from start?",
+      "options": [
+        "52m North",
+        "18m North",
+        "32m West",
+        "25m South"
+      ],
+      "explanation": "Net displacement: (-26, -19). Distance ≈ 32m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 7मी पूर्व, 39मी पश्चिम, 6मी पूर्व, 19मी दक्षिण। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "52m North",
+        "18m North",
+        "32m West",
+        "25m South"
+      ],
+      "explanation": "कुल विस्थापन: (-26, -19)। दूरी ≈ 32मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0183",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: right then right then right. Final direction?",
+      "options": [
+        "West",
+        "East",
+        "North",
+        "South"
+      ],
+      "explanation": "Track direction: West → R → R → R → South"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: दाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "East",
+        "North",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → R → R → R → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0184",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 32m East, 6m East, 19m South. Final distance from start?",
+      "options": [
+        "34m South",
+        "26m West",
+        "42m East",
+        "59m South"
+      ],
+      "explanation": "Net displacement: (38, -19). Distance ≈ 42m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 32मी पूर्व, 6मी पूर्व, 19मी दक्षिण। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "34m South",
+        "26m West",
+        "42m East",
+        "59m South"
+      ],
+      "explanation": "कुल विस्थापन: (38, -19)। दूरी ≈ 42मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0185",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 19m North, 29m West, 9m East, 20m East, 40m East, 40m South. Final distance from start?",
+      "options": [
+        "36m East",
+        "41m West",
+        "45m East",
+        "53m North"
+      ],
+      "explanation": "Net displacement: (40, -21). Distance ≈ 45m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 19मी उत्तर, 29मी पश्चिम, 9मी पूर्व, 20मी पूर्व, 40मी पूर्व, 40मी दक्षिण। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "36m East",
+        "41m West",
+        "45m East",
+        "53m North"
+      ],
+      "explanation": "कुल विस्थापन: (40, -21)। दूरी ≈ 45मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0186",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: right then left then left. Final direction?",
+      "options": [
+        "East",
+        "North",
+        "South",
+        "West"
+      ],
+      "explanation": "Track direction: East → R → L → L → North"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: दाएं फिर बाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "North",
+        "South",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → R → L → L → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0187",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing East in the शाम (सूर्यास्त). In which direction is his shadow?",
+      "options": [
+        "Front",
+        "Right",
+        "Back",
+        "Left"
+      ],
+      "explanation": "Sun is in West, shadow falls East. Facing East → shadow on the front."
+    },
+    "hi": {
+      "question": "रवि शाम (सूर्यास्त) के समय पूर्व की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Front",
+        "Right",
+        "Back",
+        "Left"
+      ],
+      "explanation": "सूर्य West में, छाया East में। मुंह East → छाया सामने।"
+    }
+  },
+  {
+    "id": "ntpc-r-0188",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: right then left then right. Final direction?",
+      "options": [
+        "North",
+        "East",
+        "West",
+        "South"
+      ],
+      "explanation": "Track direction: South → R → L → R → West"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: दाएं फिर बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "East",
+        "West",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → R → L → R → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0189",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: left then right then right then right then right. Final direction?",
+      "options": [
+        "North",
+        "West",
+        "East",
+        "South"
+      ],
+      "explanation": "Track direction: East → L → R → R → R → R → North"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: बाएं फिर दाएं फिर दाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "West",
+        "East",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → L → R → R → R → R → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0190",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting North, turns: left then right then right then right. Final direction?",
+      "options": [
+        "East",
+        "North",
+        "West",
+        "South"
+      ],
+      "explanation": "Track direction: North → L → R → R → R → South"
+    },
+    "hi": {
+      "question": "उत्तर से शुरू, मोड़: बाएं फिर दाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "North",
+        "West",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: उत्तर → L → R → R → R → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0191",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: right then right then right. Final direction?",
+      "options": [
+        "North",
+        "West",
+        "East",
+        "South"
+      ],
+      "explanation": "Track direction: South → R → R → R → East"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: दाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "West",
+        "East",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → R → R → R → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0192",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: left then left. Final direction?",
+      "options": [
+        "West",
+        "East",
+        "North",
+        "South"
+      ],
+      "explanation": "Track direction: West → L → L → East"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: बाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "East",
+        "North",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → L → L → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0193",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 40m South, 18m East, 30m West, 10m East. Final distance from start?",
+      "options": [
+        "48m North",
+        "37m North",
+        "25m South",
+        "40m South"
+      ],
+      "explanation": "Net displacement: (-2, -40). Distance ≈ 40m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 40मी दक्षिण, 18मी पूर्व, 30मी पश्चिम, 10मी पूर्व। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "48m North",
+        "37m North",
+        "25m South",
+        "40m South"
+      ],
+      "explanation": "कुल विस्थापन: (-2, -40)। दूरी ≈ 40मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0194",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: left then right then right. Final direction?",
+      "options": [
+        "North",
+        "West",
+        "South",
+        "East"
+      ],
+      "explanation": "Track direction: East → L → R → R → South"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: बाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "West",
+        "South",
+        "East"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → L → R → R → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0195",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: right then right then right then left. Final direction?",
+      "options": [
+        "South",
+        "West",
+        "East",
+        "North"
+      ],
+      "explanation": "Track direction: South → R → R → R → L → North"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: दाएं फिर दाएं फिर दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "South",
+        "West",
+        "East",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → R → R → R → L → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0196",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: left then left then right then left then left. Final direction?",
+      "options": [
+        "East",
+        "North",
+        "West",
+        "South"
+      ],
+      "explanation": "Track direction: West → L → L → R → L → L → North"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: बाएं फिर बाएं फिर दाएं फिर बाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "North",
+        "West",
+        "South"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → L → L → R → L → L → उत्तर"
+    }
+  },
+  {
+    "id": "ntpc-r-0197",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: right then right then left then right. Final direction?",
+      "options": [
+        "East",
+        "North",
+        "South",
+        "West"
+      ],
+      "explanation": "Track direction: West → R → R → L → R → East"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: दाएं फिर दाएं फिर बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "North",
+        "South",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → R → R → L → R → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0198",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: right then left then left. Final direction?",
+      "options": [
+        "East",
+        "North",
+        "South",
+        "West"
+      ],
+      "explanation": "Track direction: West → R → L → L → South"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: दाएं फिर बाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "North",
+        "South",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → R → L → L → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0199",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing East in the सुबह (सूर्योदय). In which direction is his shadow?",
+      "options": [
+        "Right",
+        "Left",
+        "Front",
+        "Back"
+      ],
+      "explanation": "Sun is in East, shadow falls West. Facing East → shadow on the back."
+    },
+    "hi": {
+      "question": "रवि सुबह (सूर्योदय) के समय पूर्व की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Right",
+        "Left",
+        "Front",
+        "Back"
+      ],
+      "explanation": "सूर्य East में, छाया West में। मुंह East → छाया पीछे।"
+    }
+  },
+  {
+    "id": "ntpc-r-0200",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 38m West, 15m West, 35m South, 7m West, 34m East. Final distance from start?",
+      "options": [
+        "37m North",
+        "43m South",
+        "11m West",
+        "57m North"
+      ],
+      "explanation": "Net displacement: (-26, -35). Distance ≈ 43m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 38मी पश्चिम, 15मी पश्चिम, 35मी दक्षिण, 7मी पश्चिम, 34मी पूर्व। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "37m North",
+        "43m South",
+        "11m West",
+        "57m North"
+      ],
+      "explanation": "कुल विस्थापन: (-26, -35)। दूरी ≈ 43मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0201",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing East in the सुबह (सूर्योदय). In which direction is his shadow?",
+      "options": [
+        "Back",
+        "Left",
+        "Right",
+        "Front"
+      ],
+      "explanation": "Sun is in East, shadow falls West. Facing East → shadow on the back."
+    },
+    "hi": {
+      "question": "रवि सुबह (सूर्योदय) के समय पूर्व की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Back",
+        "Left",
+        "Right",
+        "Front"
+      ],
+      "explanation": "सूर्य East में, छाया West में। मुंह East → छाया पीछे।"
+    }
+  },
+  {
+    "id": "ntpc-r-0202",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: right then left then right then left. Final direction?",
+      "options": [
+        "West",
+        "North",
+        "South",
+        "East"
+      ],
+      "explanation": "Track direction: East → R → L → R → L → East"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: दाएं फिर बाएं फिर दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "North",
+        "South",
+        "East"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → R → L → R → L → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0203",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: right then left. Final direction?",
+      "options": [
+        "East",
+        "West",
+        "South",
+        "North"
+      ],
+      "explanation": "Track direction: East → R → L → East"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "West",
+        "South",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → R → L → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0204",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: left then right then left. Final direction?",
+      "options": [
+        "West",
+        "East",
+        "South",
+        "North"
+      ],
+      "explanation": "Track direction: West → L → R → L → South"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: बाएं फिर दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "East",
+        "South",
+        "North"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → L → R → L → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0205",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: right then left. Final direction?",
+      "options": [
+        "East",
+        "South",
+        "North",
+        "West"
+      ],
+      "explanation": "Track direction: West → R → L → West"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: दाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "East",
+        "South",
+        "North",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → R → L → पश्चिम"
+    }
+  },
+  {
+    "id": "ntpc-r-0206",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing East in the सुबह (सूर्योदय). In which direction is his shadow?",
+      "options": [
+        "Left",
+        "Right",
+        "Back",
+        "Front"
+      ],
+      "explanation": "Sun is in East, shadow falls West. Facing East → shadow on the back."
+    },
+    "hi": {
+      "question": "रवि सुबह (सूर्योदय) के समय पूर्व की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Left",
+        "Right",
+        "Back",
+        "Front"
+      ],
+      "explanation": "सूर्य East में, छाया West में। मुंह East → छाया पीछे।"
+    }
+  },
+  {
+    "id": "ntpc-r-0207",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 25m North, 35m South, 5m North, 33m South, 7m West. Final distance from start?",
+      "options": [
+        "38m South",
+        "48m West",
+        "41m South",
+        "30m West"
+      ],
+      "explanation": "Net displacement: (-7, -38). Distance ≈ 38m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 25मी उत्तर, 35मी दक्षिण, 5मी उत्तर, 33मी दक्षिण, 7मी पश्चिम। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "38m South",
+        "48m West",
+        "41m South",
+        "30m West"
+      ],
+      "explanation": "कुल विस्थापन: (-7, -38)। दूरी ≈ 38मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0208",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ravi is facing South in the शाम (सूर्यास्त). In which direction is his shadow?",
+      "options": [
+        "Left",
+        "Right",
+        "Front",
+        "Back"
+      ],
+      "explanation": "Sun is in West, shadow falls East. Facing South → shadow on the left."
+    },
+    "hi": {
+      "question": "रवि शाम (सूर्यास्त) के समय दक्षिण की ओर मुंह करके खड़ा है। उसकी छाया किस दिशा में होगी?",
+      "options": [
+        "Left",
+        "Right",
+        "Front",
+        "Back"
+      ],
+      "explanation": "सूर्य West में, छाया East में। मुंह South → छाया बाईं ओर।"
+    }
+  },
+  {
+    "id": "ntpc-r-0209",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting South, turns: right then left then left. Final direction?",
+      "options": [
+        "West",
+        "South",
+        "North",
+        "East"
+      ],
+      "explanation": "Track direction: South → R → L → L → East"
+    },
+    "hi": {
+      "question": "दक्षिण से शुरू, मोड़: दाएं फिर बाएं फिर बाएं। अंतिम दिशा?",
+      "options": [
+        "West",
+        "South",
+        "North",
+        "East"
+      ],
+      "explanation": "दिशा ट्रैक: दक्षिण → R → L → L → पूर्व"
+    }
+  },
+  {
+    "id": "ntpc-r-0210",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 34m North, 38m East, 29m West, 26m South. Final distance from start?",
+      "options": [
+        "5m West",
+        "25m West",
+        "12m East",
+        "29m West"
+      ],
+      "explanation": "Net displacement: (9, 8). Distance ≈ 12m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 34मी उत्तर, 38मी पूर्व, 29मी पश्चिम, 26मी दक्षिण। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "5m West",
+        "25m West",
+        "12m East",
+        "29m West"
+      ],
+      "explanation": "कुल विस्थापन: (9, 8)। दूरी ≈ 12मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0211",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting East, turns: right then left then left then right then right. Final direction?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "Track direction: East → R → L → L → R → R → South"
+    },
+    "hi": {
+      "question": "पूर्व से शुरू, मोड़: दाएं फिर बाएं फिर बाएं फिर दाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: पूर्व → R → L → L → R → R → दक्षिण"
+    }
+  },
+  {
+    "id": "ntpc-r-0212",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Person goes: 14m North, 8m North, 20m North. Final distance from start?",
+      "options": [
+        "47m East",
+        "57m East",
+        "42m North",
+        "33m West"
+      ],
+      "explanation": "Net displacement: (0, 42). Distance ≈ 42m."
+    },
+    "hi": {
+      "question": "व्यक्ति जाता है: 14मी उत्तर, 8मी उत्तर, 20मी उत्तर। प्रारंभ से अंतिम दूरी?",
+      "options": [
+        "47m East",
+        "57m East",
+        "42m North",
+        "33m West"
+      ],
+      "explanation": "कुल विस्थापन: (0, 42)। दूरी ≈ 42मी।"
+    }
+  },
+  {
+    "id": "ntpc-r-0213",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Starting West, turns: left then right. Final direction?",
+      "options": [
+        "South",
+        "East",
+        "North",
+        "West"
+      ],
+      "explanation": "Track direction: West → L → R → West"
+    },
+    "hi": {
+      "question": "पश्चिम से शुरू, मोड़: बाएं फिर दाएं। अंतिम दिशा?",
+      "options": [
+        "South",
+        "East",
+        "North",
+        "West"
+      ],
+      "explanation": "दिशा ट्रैक: पश्चिम → L → R → पश्चिम"
+    }
+  }
 ]

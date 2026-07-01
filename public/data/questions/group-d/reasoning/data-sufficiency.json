@@ -1,1 +1,3824 @@
-[{"id":"groupd-r-0001","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"What is the value of x? Statement I: x + y = 10. Statement II: x - y = 4.","options":["Statement I alone is sufficient","Statement II alone is sufficient","Both statements together are sufficient","Even both together are not sufficient"],"explanation":"I: x+y=10. II: x-y=4. Adding: 2x=14, x=7. Both together needed."},"hi":{"question":"x का मान क्या है? कथन I: x + y = 10। कथन II: x - y = 4।","options":["केवल कथन I पर्याप्त है","केवल कथन II पर्याप्त है","दोनों कथन एक साथ पर्याप्त हैं","दोनों एक साथ भी पर्याप्त नहीं"],"explanation":"I: x+y=10। II: x-y=4। जोड़ने पर: 2x=14, x=7। दोनों एक साथ आवश्यक हैं।"}},{"id":"groupd-r-0002","correctOption":"C","difficulty":"medium","sourceYear":2023,"en":{"question":"Is X the brother of Y? Statement I: X is the son of Z. Statement II: Y is the daughter of Z.","options":["Statement I alone is sufficient","Statement II alone is sufficient","Both together are sufficient","Even both together are not sufficient"],"explanation":"I: X is male. II: Y is female. Both are children of Z. So X is brother of Y. Both together needed."},"hi":{"question":"क्या X, Y का भाई है? कथन I: X, Z का पुत्र है। कथन II: Y, Z की पुत्री है।","options":["केवल कथन I पर्याप्त है","केवल कथन II पर्याप्त है","दोनों कथन एक साथ पर्याप्त हैं","दोनों एक साथ भी पर्याप्त नहीं"],"explanation":"I: X पुरुष है। II: Y महिला है। दोनों Z की संतान हैं। X, Y का भाई है। दोनों आवश्यक हैं।"}},{"id":"groupd-r-0003","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"What is the age of Ram? I: Ram is 5 years older than Shyam. II: Sum of their ages is 35.","options":["I alone sufficient","II alone sufficient","Both together sufficient","Even both not sufficient"],"explanation":"I: R=S+5. II: R+S=35. Solving: S=15, R=20. Both needed."},"hi":{"question":"राम की आयु क्या है? I: राम, श्याम से 5 वर्ष बड़ा है। II: आयु का योग 35 है।","options":["केवल I पर्याप्त","केवल II पर्याप्त","दोनों एक साथ पर्याप्त","दोनों भी पर्याप्त नहीं"],"explanation":"I: R=S+5। II: R+S=35। हल: S=15, R=20। दोनों आवश्यक।"}},{"id":"groupd-r-0004","correctOption":"C","difficulty":"medium","sourceYear":2023,"en":{"question":"Is P the mother of Q? I: P is daughter of R. II: Q is the son of P's brother.","options":["I alone sufficient","II alone sufficient","Both together sufficient","Even both not sufficient"],"explanation":"I: P is female. II: Q is P's nephew. With both: P is NOT mother of Q (P is aunt). Both together sufficient."},"hi":{"question":"क्या P, Q की मां है? I: P, R की पुत्री है। II: Q, P के भाई का पुत्र है।","options":["केवल I पर्याप्त","केवल II पर्याप्त","दोनों एक साथ पर्याप्त","दोनों भी पर्याप्त नहीं"],"explanation":"I: P महिला है। II: Q, P का भतीजा है। दोनों: P, Q की मां नहीं (चाची है)। दोनों एक साथ पर्याप्त।"}},{"id":"groupd-r-0005","correctOption":"C","difficulty":"medium","sourceYear":2024,"en":{"question":"How many children does M have? I: N is the only daughter of M. II: O is the only son of M.","options":["I alone sufficient","II alone sufficient","Both together sufficient","Even both not sufficient"],"explanation":"I: M has one daughter. II: M has one son. Together: exactly 2 children."},"hi":{"question":"M के कितने बच्चे हैं? I: N, M की इकलौती पुत्री है। II: O, M का इकलौता पुत्र है।","options":["केवल I पर्याप्त","केवल II पर्याप्त","दोनों एक साथ पर्याप्त","दोनों भी पर्याप्त नहीं"],"explanation":"I: M की एक पुत्री। II: M का एक पुत्र। साथ: ठीक 2 बच्चे।"}},{"id":"groupd-r-0006","correctOption":"C","difficulty":"medium","sourceYear":2023,"en":{"question":"What is code for BLUE? I: RED BLUE coded as 12 15. II: BLUE GREEN coded as 15 18.","options":["I alone sufficient","II alone sufficient","Both together sufficient","Even both not sufficient"],"explanation":"I: RED=12, BLUE=15 OR RED=15, BLUE=12. II: BLUE=15, GREEN=18 OR BLUE=18, GREEN=15. Consistent: BLUE=15."},"hi":{"question":"BLUE के लिए कोड क्या है? I: RED BLUE को 12 15 कोडित। II: BLUE GREEN को 15 18 कोडित।","options":["केवल I पर्याप्त","केवल II पर्याप्त","दोनों एक साथ पर्याप्त","दोनों भी पर्याप्त नहीं"],"explanation":"I: RED=12, BLUE=15 या RED=15, BLUE=12। II: BLUE=15, GREEN=18 या BLUE=18, GREEN=15। समान: BLUE=15।"}},{"id":"groupd-r-0007","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Who is tallest among A, B, C, D, E? I: A > B. C > D. II: E > A. C < B.","options":["I alone sufficient","II alone sufficient","Both together sufficient","Even both not sufficient"],"explanation":"I: A>B, C>D. II: E>A, B>C. Combining: E>A>B>C>D. E is tallest."},"hi":{"question":"A, B, C, D, E में सबसे लंबा कौन? I: A > B। C > D। II: E > A। C < B।","options":["केवल I पर्याप्त","केवल II पर्याप्त","दोनों एक साथ पर्याप्त","दोनों भी पर्याप्त नहीं"],"explanation":"I: A>B, C>D। II: E>A, B>C। संयोजन: E>A>B>C>D। E सबसे लंबा।"}}]
+[
+  {
+    "id": "groupd-r-0001",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the value of x? Statement I: x + y = 10. Statement II: x - y = 4.",
+      "options": [
+        "Statement I alone is sufficient",
+        "Statement II alone is sufficient",
+        "Both statements together are sufficient",
+        "Even both together are not sufficient"
+      ],
+      "explanation": "I: x+y=10. II: x-y=4. Adding: 2x=14, x=7. Both together needed."
+    },
+    "hi": {
+      "question": "x का मान क्या है? कथन I: x + y = 10। कथन II: x - y = 4।",
+      "options": [
+        "केवल कथन I पर्याप्त है",
+        "केवल कथन II पर्याप्त है",
+        "दोनों कथन एक साथ पर्याप्त हैं",
+        "दोनों एक साथ भी पर्याप्त नहीं"
+      ],
+      "explanation": "I: x+y=10। II: x-y=4। जोड़ने पर: 2x=14, x=7। दोनों एक साथ आवश्यक हैं।"
+    }
+  },
+  {
+    "id": "groupd-r-0002",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Is X the brother of Y? Statement I: X is the son of Z. Statement II: Y is the daughter of Z.",
+      "options": [
+        "Statement I alone is sufficient",
+        "Statement II alone is sufficient",
+        "Both together are sufficient",
+        "Even both together are not sufficient"
+      ],
+      "explanation": "I: X is male. II: Y is female. Both are children of Z. So X is brother of Y. Both together needed."
+    },
+    "hi": {
+      "question": "क्या X, Y का भाई है? कथन I: X, Z का पुत्र है। कथन II: Y, Z की पुत्री है।",
+      "options": [
+        "केवल कथन I पर्याप्त है",
+        "केवल कथन II पर्याप्त है",
+        "दोनों कथन एक साथ पर्याप्त हैं",
+        "दोनों एक साथ भी पर्याप्त नहीं"
+      ],
+      "explanation": "I: X पुरुष है। II: Y महिला है। दोनों Z की संतान हैं। X, Y का भाई है। दोनों आवश्यक हैं।"
+    }
+  },
+  {
+    "id": "groupd-r-0003",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the age of Ram? I: Ram is 5 years older than Shyam. II: Sum of their ages is 35.",
+      "options": [
+        "I alone sufficient",
+        "II alone sufficient",
+        "Both together sufficient",
+        "Even both not sufficient"
+      ],
+      "explanation": "I: R=S+5. II: R+S=35. Solving: S=15, R=20. Both needed."
+    },
+    "hi": {
+      "question": "राम की आयु क्या है? I: राम, श्याम से 5 वर्ष बड़ा है। II: आयु का योग 35 है।",
+      "options": [
+        "केवल I पर्याप्त",
+        "केवल II पर्याप्त",
+        "दोनों एक साथ पर्याप्त",
+        "दोनों भी पर्याप्त नहीं"
+      ],
+      "explanation": "I: R=S+5। II: R+S=35। हल: S=15, R=20। दोनों आवश्यक।"
+    }
+  },
+  {
+    "id": "groupd-r-0004",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Is P the mother of Q? I: P is daughter of R. II: Q is the son of P's brother.",
+      "options": [
+        "I alone sufficient",
+        "II alone sufficient",
+        "Both together sufficient",
+        "Even both not sufficient"
+      ],
+      "explanation": "I: P is female. II: Q is P's nephew. With both: P is NOT mother of Q (P is aunt). Both together sufficient."
+    },
+    "hi": {
+      "question": "क्या P, Q की मां है? I: P, R की पुत्री है। II: Q, P के भाई का पुत्र है।",
+      "options": [
+        "केवल I पर्याप्त",
+        "केवल II पर्याप्त",
+        "दोनों एक साथ पर्याप्त",
+        "दोनों भी पर्याप्त नहीं"
+      ],
+      "explanation": "I: P महिला है। II: Q, P का भतीजा है। दोनों: P, Q की मां नहीं (चाची है)। दोनों एक साथ पर्याप्त।"
+    }
+  },
+  {
+    "id": "groupd-r-0005",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How many children does M have? I: N is the only daughter of M. II: O is the only son of M.",
+      "options": [
+        "I alone sufficient",
+        "II alone sufficient",
+        "Both together sufficient",
+        "Even both not sufficient"
+      ],
+      "explanation": "I: M has one daughter. II: M has one son. Together: exactly 2 children."
+    },
+    "hi": {
+      "question": "M के कितने बच्चे हैं? I: N, M की इकलौती पुत्री है। II: O, M का इकलौता पुत्र है।",
+      "options": [
+        "केवल I पर्याप्त",
+        "केवल II पर्याप्त",
+        "दोनों एक साथ पर्याप्त",
+        "दोनों भी पर्याप्त नहीं"
+      ],
+      "explanation": "I: M की एक पुत्री। II: M का एक पुत्र। साथ: ठीक 2 बच्चे।"
+    }
+  },
+  {
+    "id": "groupd-r-0006",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "What is code for BLUE? I: RED BLUE coded as 12 15. II: BLUE GREEN coded as 15 18.",
+      "options": [
+        "I alone sufficient",
+        "II alone sufficient",
+        "Both together sufficient",
+        "Even both not sufficient"
+      ],
+      "explanation": "I: RED=12, BLUE=15 OR RED=15, BLUE=12. II: BLUE=15, GREEN=18 OR BLUE=18, GREEN=15. Consistent: BLUE=15."
+    },
+    "hi": {
+      "question": "BLUE के लिए कोड क्या है? I: RED BLUE को 12 15 कोडित। II: BLUE GREEN को 15 18 कोडित।",
+      "options": [
+        "केवल I पर्याप्त",
+        "केवल II पर्याप्त",
+        "दोनों एक साथ पर्याप्त",
+        "दोनों भी पर्याप्त नहीं"
+      ],
+      "explanation": "I: RED=12, BLUE=15 या RED=15, BLUE=12। II: BLUE=15, GREEN=18 या BLUE=18, GREEN=15। समान: BLUE=15।"
+    }
+  },
+  {
+    "id": "groupd-r-0007",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Who is tallest among A, B, C, D, E? I: A > B. C > D. II: E > A. C < B.",
+      "options": [
+        "I alone sufficient",
+        "II alone sufficient",
+        "Both together sufficient",
+        "Even both not sufficient"
+      ],
+      "explanation": "I: A>B, C>D. II: E>A, B>C. Combining: E>A>B>C>D. E is tallest."
+    },
+    "hi": {
+      "question": "A, B, C, D, E में सबसे लंबा कौन? I: A > B। C > D। II: E > A। C < B।",
+      "options": [
+        "केवल I पर्याप्त",
+        "केवल II पर्याप्त",
+        "दोनों एक साथ पर्याप्त",
+        "दोनों भी पर्याप्त नहीं"
+      ],
+      "explanation": "I: A>B, C>D। II: E>A, B>C। संयोजन: E>A>B>C>D। E सबसे लंबा।"
+    }
+  },
+  {
+    "id": "grpd-r-0008",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: The numbers add up to 70.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: संख्या का योग 70 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0009",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: The numbers add up to 36.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: संख्या का योग 36 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0010",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 40.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 40 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0011",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 61.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 61 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0012",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: The numbers add up to 59.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: संख्या का योग 59 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0013",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 61.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 61 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0014",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 53.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 53 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0015",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: One number is 5.\nStatement 2: The other number is 19.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: एक संख्या 5 है।\nकथन 2: दूसरी संख्या 19 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0016",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 35.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 35 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0017",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: One number is 8.\nStatement 2: The other number is 46.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: एक संख्या 8 है।\nकथन 2: दूसरी संख्या 46 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0018",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: One number is 46.\nStatement 2: The other number is 20.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: एक संख्या 46 है।\nकथन 2: दूसरी संख्या 20 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0019",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 27.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 27 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0020",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0021",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 71.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 71 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0022",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 73.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 73 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0023",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: One number is 48.\nStatement 2: The other number is 14.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: एक संख्या 48 है।\nकथन 2: दूसरी संख्या 14 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0024",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0025",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: The numbers add up to 96.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: संख्या का योग 96 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0026",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 39.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 39 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0027",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: One number is 16.\nStatement 2: The other number is 34.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: एक संख्या 16 है।\nकथन 2: दूसरी संख्या 34 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0028",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 77.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 77 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0029",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: The numbers add up to 53.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: संख्या का योग 53 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0030",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: The numbers add up to 90.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: संख्या का योग 90 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0031",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0032",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: One number is 25.\nStatement 2: The other number is 11.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: एक संख्या 25 है।\nकथन 2: दूसरी संख्या 11 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0033",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: The numbers add up to 82.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: संख्या का योग 82 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0034",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0035",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0036",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0037",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 42.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 42 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0038",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: The numbers add up to 76.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: संख्या का योग 76 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0039",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: The numbers add up to 66.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: संख्या का योग 66 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0040",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: The numbers add up to 76.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: संख्या का योग 76 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0041",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: The numbers add up to 42.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: संख्या का योग 42 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0042",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: One number is 29.\nStatement 2: The other number is 38.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: एक संख्या 29 है।\nकथन 2: दूसरी संख्या 38 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0043",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0044",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: One number is 10.\nStatement 2: The other number is 27.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: एक संख्या 10 है।\nकथन 2: दूसरी संख्या 27 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0045",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: One number is 10.\nStatement 2: The other number is 5.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: एक संख्या 10 है।\nकथन 2: दूसरी संख्या 5 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0046",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0047",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: One number is 23.\nStatement 2: The other number is 50.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: एक संख्या 23 है।\nकथन 2: दूसरी संख्या 50 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0048",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: One number is 22.\nStatement 2: The other number is 11.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: एक संख्या 22 है।\nकथन 2: दूसरी संख्या 11 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0049",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: One number is 18.\nStatement 2: The other number is 24.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: एक संख्या 18 है।\nकथन 2: दूसरी संख्या 24 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0050",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: One number is 37.\nStatement 2: The other number is 37.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: एक संख्या 37 है।\nकथन 2: दूसरी संख्या 37 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0051",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: One number is 20.\nStatement 2: The other number is 44.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: एक संख्या 20 है।\nकथन 2: दूसरी संख्या 44 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0052",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 79.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 79 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0053",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: The numbers add up to 35.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: संख्या का योग 35 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0054",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 55.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 55 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0055",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 46.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 46 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0056",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: One number is 39.\nStatement 2: The other number is 33.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: एक संख्या 39 है।\nकथन 2: दूसरी संख्या 33 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0057",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: The numbers add up to 72.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: संख्या का योग 72 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0058",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: One number is 30.\nStatement 2: The other number is 7.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: एक संख्या 30 है।\nकथन 2: दूसरी संख्या 7 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0059",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: The numbers add up to 45.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: संख्या का योग 45 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0060",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 53.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 53 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0061",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0062",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: The numbers add up to 54.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: संख्या का योग 54 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0063",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: The numbers add up to 83.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: संख्या का योग 83 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0064",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: The numbers add up to 86.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: संख्या का योग 86 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0065",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 34.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 34 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0066",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 40.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 40 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0067",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: The numbers add up to 38.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: संख्या का योग 38 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0068",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: The numbers add up to 41.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: संख्या का योग 41 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0069",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: One number is 49.\nStatement 2: The other number is 47.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: एक संख्या 49 है।\nकथन 2: दूसरी संख्या 47 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0070",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0071",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: The numbers add up to 34.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: संख्या का योग 34 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0072",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: One number is 27.\nStatement 2: The other number is 22.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: एक संख्या 27 है।\nकथन 2: दूसरी संख्या 22 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0073",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: One number is 37.\nStatement 2: The other number is 48.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: एक संख्या 37 है।\nकथन 2: दूसरी संख्या 48 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0074",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: The numbers add up to 59.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: संख्या का योग 59 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0075",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0076",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0077",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: One number is 49.\nStatement 2: The other number is 21.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: एक संख्या 49 है।\nकथन 2: दूसरी संख्या 21 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0078",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 39.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 39 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0079",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 46.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 46 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0080",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: The numbers add up to 73.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: संख्या का योग 73 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0081",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: The numbers add up to 22.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: संख्या का योग 22 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0082",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 38.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 38 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0083",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0084",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0085",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0086",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 81.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 81 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0087",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: The numbers add up to 44.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: संख्या का योग 44 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0088",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: The numbers add up to 52.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: संख्या का योग 52 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0089",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: One number is 29.\nStatement 2: The other number is 38.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: एक संख्या 29 है।\nकथन 2: दूसरी संख्या 38 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0090",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: The numbers add up to 68.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: संख्या का योग 68 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0091",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 51.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 51 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0092",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: The numbers add up to 47.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: संख्या का योग 47 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0093",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: One number is 32.\nStatement 2: The other number is 7.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: एक संख्या 32 है।\nकथन 2: दूसरी संख्या 7 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0094",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: One number is 43.\nStatement 2: The other number is 44.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: एक संख्या 43 है।\nकथन 2: दूसरी संख्या 44 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0095",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: The numbers add up to 66.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: संख्या का योग 66 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0096",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0097",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: The numbers add up to 49.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: संख्या का योग 49 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0098",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0099",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0100",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 86.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 86 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0101",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: One number is 50.\nStatement 2: The other number is 16.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: एक संख्या 50 है।\nकथन 2: दूसरी संख्या 16 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0102",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: One number is 35.\nStatement 2: The other number is 15.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: एक संख्या 35 है।\nकथन 2: दूसरी संख्या 15 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0103",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0104",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: One number is 40.\nStatement 2: The other number is 12.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: एक संख्या 40 है।\nकथन 2: दूसरी संख्या 12 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0105",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0106",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0107",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0108",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 65.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 65 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0109",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: One number is 25.\nStatement 2: The other number is 29.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: एक संख्या 25 है।\nकथन 2: दूसरी संख्या 29 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0110",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0111",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: One number is 44.\nStatement 2: The other number is 15.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: एक संख्या 44 है।\nकथन 2: दूसरी संख्या 15 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0112",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 53.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 53 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0113",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: The numbers add up to 29.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: संख्या का योग 29 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0114",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 62.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 62 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0115",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 90.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 90 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0116",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 81.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 81 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0117",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: The numbers add up to 64.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: संख्या का योग 64 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0118",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 86.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 86 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0119",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: The numbers add up to 63.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: संख्या का योग 63 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0120",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0121",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: The numbers add up to 33.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: संख्या का योग 33 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0122",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: One number is 35.\nStatement 2: The other number is 26.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: एक संख्या 35 है।\nकथन 2: दूसरी संख्या 26 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0123",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find x in equation 2x + y = ?\nStatement 1: One number is 26.\nStatement 2: The other number is 26.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find x in equation 2x + y = ?\nकथन 1: एक संख्या 26 है।\nकथन 2: दूसरी संख्या 26 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0124",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: One number is 49.\nStatement 2: The other number is 11.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: एक संख्या 49 है।\nकथन 2: दूसरी संख्या 11 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0125",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 77.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 77 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0126",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 49.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 49 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0127",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: The numbers add up to 22.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: संख्या का योग 22 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0128",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: One number is 44.\nStatement 2: The other number is 45.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: एक संख्या 44 है।\nकथन 2: दूसरी संख्या 45 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0129",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 62.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 62 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0130",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: The numbers add up to 65.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: संख्या का योग 65 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0131",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: The numbers add up to 42.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: संख्या का योग 42 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0132",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0133",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: The numbers add up to 41.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: संख्या का योग 41 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0134",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: One number is 24.\nStatement 2: The other number is 47.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: एक संख्या 24 है।\nकथन 2: दूसरी संख्या 47 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0135",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: The numbers add up to 44.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: संख्या का योग 44 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0136",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: The numbers add up to 36.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: संख्या का योग 36 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0137",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 51.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 51 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0138",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0139",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0140",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: The numbers are positive integers.\nStatement 2: The sum of the numbers is 84.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: संख्या धनात्मक पूर्णांक हैं।\nकथन 2: संख्याओं का योग 84 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "S2 directly gives the sum."
+    }
+  },
+  {
+    "id": "grpd-r-0141",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: The numbers add up to 77.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: संख्या का योग 77 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient",
+        "Statement 2 alone sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0142",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the speed of a car.\nStatement 1: One number is 45.\nStatement 2: The other number is 19.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the speed of a car.\nकथन 1: एक संख्या 45 है।\nकथन 2: दूसरी संख्या 19 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0143",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: The numbers add up to 46.\nStatement 2: One number is greater than the other.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: संख्या का योग 46 है।\nकथन 2: एक संख्या दूसरी से बड़ी है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient",
+        "Both together sufficient"
+      ],
+      "explanation": "S1 gives the sum directly."
+    }
+  },
+  {
+    "id": "grpd-r-0144",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient",
+        "Neither statement sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  },
+  {
+    "id": "grpd-r-0145",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the sum of two numbers.\nStatement 1: One number is 7.\nStatement 2: The other number is 16.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the sum of two numbers.\nकथन 1: एक संख्या 7 है।\nकथन 2: दूसरी संख्या 16 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0146",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the area of a rectangle (l×b).\nStatement 1: One number is 19.\nStatement 2: The other number is 26.\nWhich is sufficient?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the area of a rectangle (l×b).\nकथन 1: एक संख्या 19 है।\nकथन 2: दूसरी संख्या 26 है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Statement 2 alone sufficient",
+        "Both together sufficient",
+        "Neither statement sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Need both to find sum."
+    }
+  },
+  {
+    "id": "grpd-r-0147",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Question: Find the average of 5 numbers.\nStatement 1: One number is even.\nStatement 2: The other number is odd.\nWhich is sufficient?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    },
+    "hi": {
+      "question": "प्रश्न: Find the average of 5 numbers.\nकथन 1: एक संख्या सम है।\nकथन 2: दूसरी संख्या विषम है।\nकौन सा पर्याप्त है?",
+      "options": [
+        "Neither statement sufficient",
+        "Both together sufficient",
+        "Statement 2 alone sufficient",
+        "Statement 1 alone sufficient"
+      ],
+      "explanation": "Neither gives actual values."
+    }
+  }
+]

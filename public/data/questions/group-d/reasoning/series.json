@@ -1,1 +1,2030 @@
-[{"id":"groupd-r-0001","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Find the next term: 2, 6, 12, 20, 30, ?","options":["36","40","42","44"],"explanation":"Pattern: +4, +6, +8, +10, +12. So next = 30 + 12 = 42. Alternatively, n(n+1): 1x2=2, 2x3=6, 3x4=12, 4x5=20, 5x6=30, 6x7=42."},"hi":{"question":"अगला पद ज्ञात करें: 2, 6, 12, 20, 30, ?","options":["36","40","42","44"],"explanation":"पैटर्न: +4, +6, +8, +10, +12। इसलिए अगला = 30 + 12 = 42। वैकल्पिक रूप से, n(n+1): 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42।"}},{"id":"groupd-r-0002","correctOption":"C","difficulty":"medium","sourceYear":2023,"en":{"question":"Find the missing term: A, C, F, J, O, ?","options":["S","T","U","V"],"explanation":"Pattern: A(+2)=C, C(+3)=F, F(+4)=J, J(+5)=O, O(+6)=U. So the missing term is U."},"hi":{"question":"लुप्त पद ज्ञात करें: A, C, F, J, O, ?","options":["S","T","U","V"],"explanation":"पैटर्न: A(+2)=C, C(+3)=F, F(+4)=J, J(+5)=O, O(+6)=U। इसलिए लुप्त पद U है।"}},{"id":"groupd-r-0003","correctOption":"D","difficulty":"easy","sourceYear":2024,"en":{"question":"Find the next term: 5, 10, 20, 40, ?","options":["50","60","70","80"],"explanation":"Each term is multiplied by 2: 5x2=10, 10x2=20, 20x2=40, 40x2=80."},"hi":{"question":"अगला पद ज्ञात करें: 5, 10, 20, 40, ?","options":["50","60","70","80"],"explanation":"प्रत्येक पद 2 से गुणा: 5×2=10, 10×2=20, 20×2=40, 40×2=80।"}},{"id":"groupd-r-0004","correctOption":"C","difficulty":"easy","sourceYear":2023,"en":{"question":"Find the missing term: 1, 4, 9, 16, ?, 36","options":["20","24","25","28"],"explanation":"These are perfect squares: 1^2, 2^2, 3^2, 4^2, 5^2=25, 6^2."},"hi":{"question":"लुप्त पद ज्ञात करें: 1, 4, 9, 16, ?, 36","options":["20","24","25","28"],"explanation":"ये पूर्ण वर्ग हैं: 1^2, 2^2, 3^2, 4^2, 5^2=25, 6^2।"}},{"id":"groupd-r-0005","correctOption":"D","difficulty":"medium","sourceYear":2024,"en":{"question":"Find the wrong term: 3, 8, 15, 24, 34, 48","options":["8","15","24","34"],"explanation":"Pattern: 1x3=3, 2x4=8, 3x5=15, 4x6=24, 5x7=35, 6x8=48. So 34 should be 35."},"hi":{"question":"गलत पद ज्ञात करें: 3, 8, 15, 24, 34, 48","options":["8","15","24","34"],"explanation":"पैटर्न: 1×3=3, 2×4=8, 3×5=15, 4×6=24, 5×7=35, 6×8=48। इसलिए 34 के स्थान पर 35 होना चाहिए।"}},{"id":"groupd-r-0006","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"Find the next term: 2, 6, 18, 54, ?","options":["108","162","216","324"],"explanation":"Each term is multiplied by 3: 2x3=6, 6x3=18, 18x3=54, 54x3=162."},"hi":{"question":"अगला पद ज्ञात करें: 2, 6, 18, 54, ?","options":["108","162","216","324"],"explanation":"प्रत्येक पद 3 से गुणा: 2×3=6, 6×3=18, 18×3=54, 54×3=162।"}},{"id":"groupd-r-0007","correctOption":"B","difficulty":"easy","sourceYear":2023,"en":{"question":"Find the next term: B, E, H, K, ?","options":["M","N","O","P"],"explanation":"Each letter is 3 positions ahead: B(+3)=E, E(+3)=H, H(+3)=K, K(+3)=N."},"hi":{"question":"अगला पद ज्ञात करें: B, E, H, K, ?","options":["M","N","O","P"],"explanation":"प्रत्येक अक्षर 3 स्थान आगे: B(+3)=E, E(+3)=H, H(+3)=K, K(+3)=N।"}},{"id":"groupd-r-0008","correctOption":"D","difficulty":"medium","sourceYear":2024,"en":{"question":"Find the next term: 1, 1, 2, 3, 5, 8, ?","options":["10","11","12","13"],"explanation":"Fibonacci series: each term is sum of previous two. 5+8=13."},"hi":{"question":"अगला पद ज्ञात करें: 1, 1, 2, 3, 5, 8, ?","options":["10","11","12","13"],"explanation":"फिबोनैकी श्रेणी: प्रत्येक पद पिछले दो का योग। 5+8=13।"}}]
+[
+  {
+    "id": "groupd-r-0001",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Find the next term: 2, 6, 12, 20, 30, ?",
+      "options": [
+        "36",
+        "40",
+        "42",
+        "44"
+      ],
+      "explanation": "Pattern: +4, +6, +8, +10, +12. So next = 30 + 12 = 42. Alternatively, n(n+1): 1x2=2, 2x3=6, 3x4=12, 4x5=20, 5x6=30, 6x7=42."
+    },
+    "hi": {
+      "question": "अगला पद ज्ञात करें: 2, 6, 12, 20, 30, ?",
+      "options": [
+        "36",
+        "40",
+        "42",
+        "44"
+      ],
+      "explanation": "पैटर्न: +4, +6, +8, +10, +12। इसलिए अगला = 30 + 12 = 42। वैकल्पिक रूप से, n(n+1): 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42।"
+    }
+  },
+  {
+    "id": "groupd-r-0002",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Find the missing term: A, C, F, J, O, ?",
+      "options": [
+        "S",
+        "T",
+        "U",
+        "V"
+      ],
+      "explanation": "Pattern: A(+2)=C, C(+3)=F, F(+4)=J, J(+5)=O, O(+6)=U. So the missing term is U."
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: A, C, F, J, O, ?",
+      "options": [
+        "S",
+        "T",
+        "U",
+        "V"
+      ],
+      "explanation": "पैटर्न: A(+2)=C, C(+3)=F, F(+4)=J, J(+5)=O, O(+6)=U। इसलिए लुप्त पद U है।"
+    }
+  },
+  {
+    "id": "groupd-r-0003",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Find the next term: 5, 10, 20, 40, ?",
+      "options": [
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "explanation": "Each term is multiplied by 2: 5x2=10, 10x2=20, 20x2=40, 40x2=80."
+    },
+    "hi": {
+      "question": "अगला पद ज्ञात करें: 5, 10, 20, 40, ?",
+      "options": [
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "explanation": "प्रत्येक पद 2 से गुणा: 5×2=10, 10×2=20, 20×2=40, 40×2=80।"
+    }
+  },
+  {
+    "id": "groupd-r-0004",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Find the missing term: 1, 4, 9, 16, ?, 36",
+      "options": [
+        "20",
+        "24",
+        "25",
+        "28"
+      ],
+      "explanation": "These are perfect squares: 1^2, 2^2, 3^2, 4^2, 5^2=25, 6^2."
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 1, 4, 9, 16, ?, 36",
+      "options": [
+        "20",
+        "24",
+        "25",
+        "28"
+      ],
+      "explanation": "ये पूर्ण वर्ग हैं: 1^2, 2^2, 3^2, 4^2, 5^2=25, 6^2।"
+    }
+  },
+  {
+    "id": "groupd-r-0005",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Find the wrong term: 3, 8, 15, 24, 34, 48",
+      "options": [
+        "8",
+        "15",
+        "24",
+        "34"
+      ],
+      "explanation": "Pattern: 1x3=3, 2x4=8, 3x5=15, 4x6=24, 5x7=35, 6x8=48. So 34 should be 35."
+    },
+    "hi": {
+      "question": "गलत पद ज्ञात करें: 3, 8, 15, 24, 34, 48",
+      "options": [
+        "8",
+        "15",
+        "24",
+        "34"
+      ],
+      "explanation": "पैटर्न: 1×3=3, 2×4=8, 3×5=15, 4×6=24, 5×7=35, 6×8=48। इसलिए 34 के स्थान पर 35 होना चाहिए।"
+    }
+  },
+  {
+    "id": "groupd-r-0006",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Find the next term: 2, 6, 18, 54, ?",
+      "options": [
+        "108",
+        "162",
+        "216",
+        "324"
+      ],
+      "explanation": "Each term is multiplied by 3: 2x3=6, 6x3=18, 18x3=54, 54x3=162."
+    },
+    "hi": {
+      "question": "अगला पद ज्ञात करें: 2, 6, 18, 54, ?",
+      "options": [
+        "108",
+        "162",
+        "216",
+        "324"
+      ],
+      "explanation": "प्रत्येक पद 3 से गुणा: 2×3=6, 6×3=18, 18×3=54, 54×3=162।"
+    }
+  },
+  {
+    "id": "groupd-r-0007",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Find the next term: B, E, H, K, ?",
+      "options": [
+        "M",
+        "N",
+        "O",
+        "P"
+      ],
+      "explanation": "Each letter is 3 positions ahead: B(+3)=E, E(+3)=H, H(+3)=K, K(+3)=N."
+    },
+    "hi": {
+      "question": "अगला पद ज्ञात करें: B, E, H, K, ?",
+      "options": [
+        "M",
+        "N",
+        "O",
+        "P"
+      ],
+      "explanation": "प्रत्येक अक्षर 3 स्थान आगे: B(+3)=E, E(+3)=H, H(+3)=K, K(+3)=N।"
+    }
+  },
+  {
+    "id": "groupd-r-0008",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Find the next term: 1, 1, 2, 3, 5, 8, ?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "explanation": "Fibonacci series: each term is sum of previous two. 5+8=13."
+    },
+    "hi": {
+      "question": "अगला पद ज्ञात करें: 1, 1, 2, 3, 5, 8, ?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "explanation": "फिबोनैकी श्रेणी: प्रत्येक पद पिछले दो का योग। 5+8=13।"
+    }
+  },
+  {
+    "id": "grpd-r-0009",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: ?, R, U, X, A",
+      "options": [
+        "Q",
+        "O",
+        "N",
+        "U"
+      ],
+      "explanation": "Each letter skips 2 letters forward. Position 1: 15 = O"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: ?, R, U, X, A",
+      "options": [
+        "Q",
+        "O",
+        "N",
+        "U"
+      ],
+      "explanation": "हर अक्षर 2 अक्षर आगे। स्थान 1: स्थान 15 = O"
+    }
+  },
+  {
+    "id": "grpd-r-0010",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: F, ?, J, L, N",
+      "options": [
+        "Q",
+        "E",
+        "I",
+        "H"
+      ],
+      "explanation": "Each letter skips 1 letters forward. Position 2: 8 = H"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: F, ?, J, L, N",
+      "options": [
+        "Q",
+        "E",
+        "I",
+        "H"
+      ],
+      "explanation": "हर अक्षर 1 अक्षर आगे। स्थान 2: स्थान 8 = H"
+    }
+  },
+  {
+    "id": "grpd-r-0011",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 6, 12, 24, 48, ?",
+      "options": [
+        "96",
+        "195",
+        "106",
+        "95"
+      ],
+      "explanation": "Geometric series with ratio 2. Term 5 = 6×2^4 = 96"
+    },
+    "hi": {
+      "question": "अगला पद: 6, 12, 24, 48, ?",
+      "options": [
+        "96",
+        "195",
+        "106",
+        "95"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 2। पद 5 = 96"
+    }
+  },
+  {
+    "id": "grpd-r-0012",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 3, ?, 27, 81, 243",
+      "options": [
+        "8",
+        "12",
+        "9",
+        "17"
+      ],
+      "explanation": "Pattern: ×3. 3 × 3 = 9, ... The ? is 9"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 3, ?, 27, 81, 243",
+      "options": [
+        "8",
+        "12",
+        "9",
+        "17"
+      ],
+      "explanation": "पैटर्न: ×3। ? = 9"
+    }
+  },
+  {
+    "id": "grpd-r-0013",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: I, ?, O, R, U",
+      "options": [
+        "T",
+        "L",
+        "I",
+        "N"
+      ],
+      "explanation": "Each letter skips 2 letters forward. Position 2: 12 = L"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: I, ?, O, R, U",
+      "options": [
+        "T",
+        "L",
+        "I",
+        "N"
+      ],
+      "explanation": "हर अक्षर 2 अक्षर आगे। स्थान 2: स्थान 12 = L"
+    }
+  },
+  {
+    "id": "grpd-r-0014",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 8, 16, ?, 64, 128",
+      "options": [
+        "37",
+        "32",
+        "27",
+        "35"
+      ],
+      "explanation": "Geometric series with ratio 2. Term 3 = 8×2^2 = 32"
+    },
+    "hi": {
+      "question": "अगला पद: 8, 16, ?, 64, 128",
+      "options": [
+        "37",
+        "32",
+        "27",
+        "35"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 2। पद 3 = 32"
+    }
+  },
+  {
+    "id": "grpd-r-0015",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 15, 22, 20, 27, ?, 32",
+      "options": [
+        "34",
+        "23",
+        "25",
+        "27"
+      ],
+      "explanation": "Pattern: +7, -2, +7, ... The ? is 25"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 15, 22, 20, 27, ?, 32",
+      "options": [
+        "34",
+        "23",
+        "25",
+        "27"
+      ],
+      "explanation": "पैटर्न: +7, -2, +7, ... ? = 25"
+    }
+  },
+  {
+    "id": "grpd-r-0016",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 16, ?, 36, 49, 64",
+      "options": [
+        "21",
+        "25",
+        "31",
+        "27"
+      ],
+      "explanation": "Squares: 4²=16, 5²=25, ... Term 2: 5² = 25"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 16, ?, 36, 49, 64",
+      "options": [
+        "21",
+        "25",
+        "31",
+        "27"
+      ],
+      "explanation": "वर्ग: 5² = 25"
+    }
+  },
+  {
+    "id": "grpd-r-0017",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 5, 10, 20, 40, ?",
+      "options": [
+        "80",
+        "83",
+        "77",
+        "86"
+      ],
+      "explanation": "Pattern: ×2. 5 × 2 = 10, ... The ? is 80"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 5, 10, 20, 40, ?",
+      "options": [
+        "80",
+        "83",
+        "77",
+        "86"
+      ],
+      "explanation": "पैटर्न: ×2। ? = 80"
+    }
+  },
+  {
+    "id": "grpd-r-0018",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 8, 24, ?, 216, 648",
+      "options": [
+        "72",
+        "67",
+        "147",
+        "79"
+      ],
+      "explanation": "Geometric series with ratio 3. Term 3 = 8×3^2 = 72"
+    },
+    "hi": {
+      "question": "अगला पद: 8, 24, ?, 216, 648",
+      "options": [
+        "72",
+        "67",
+        "147",
+        "79"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 3। पद 3 = 72"
+    }
+  },
+  {
+    "id": "grpd-r-0019",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: M, O, Q, S, ?",
+      "options": [
+        "U",
+        "B",
+        "V",
+        "T"
+      ],
+      "explanation": "Each letter skips 1 letters forward. Position 5: 21 = U"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: M, O, Q, S, ?",
+      "options": [
+        "U",
+        "B",
+        "V",
+        "T"
+      ],
+      "explanation": "हर अक्षर 1 अक्षर आगे। स्थान 5: स्थान 21 = U"
+    }
+  },
+  {
+    "id": "grpd-r-0020",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 10, 30, 90, ?, 810",
+      "options": [
+        "271",
+        "266",
+        "270",
+        "271"
+      ],
+      "explanation": "Geometric series with ratio 3. Term 4 = 10×3^3 = 270"
+    },
+    "hi": {
+      "question": "अगला पद: 10, 30, 90, ?, 810",
+      "options": [
+        "271",
+        "266",
+        "270",
+        "271"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 3। पद 4 = 270"
+    }
+  },
+  {
+    "id": "grpd-r-0021",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 9, 36, 144, 576, ?",
+      "options": [
+        "2312",
+        "2304",
+        "2302",
+        "2307"
+      ],
+      "explanation": "Geometric series with ratio 4. Term 5 = 9×4^4 = 2304"
+    },
+    "hi": {
+      "question": "अगला पद: 9, 36, 144, 576, ?",
+      "options": [
+        "2312",
+        "2304",
+        "2302",
+        "2307"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 4। पद 5 = 2304"
+    }
+  },
+  {
+    "id": "grpd-r-0022",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: ?, 25, 36, 49, 64",
+      "options": [
+        "11",
+        "19",
+        "16",
+        "33"
+      ],
+      "explanation": "Squares: 4²=16, 5²=25, ... Term 1: 4² = 16"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: ?, 25, 36, 49, 64",
+      "options": [
+        "11",
+        "19",
+        "16",
+        "33"
+      ],
+      "explanation": "वर्ग: 4² = 16"
+    }
+  },
+  {
+    "id": "grpd-r-0023",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 12, 16, 20, ?, 28",
+      "options": [
+        "24",
+        "25",
+        "50",
+        "19"
+      ],
+      "explanation": "Pattern: +4. 12 + 4 = 16, ... Term 4: 12 + 3×4 = 24"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 12, 16, 20, ?, 28",
+      "options": [
+        "24",
+        "25",
+        "50",
+        "19"
+      ],
+      "explanation": "पैटर्न: +4। पद 4: 12 + 3×4 = 24"
+    }
+  },
+  {
+    "id": "grpd-r-0024",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 14, 22, 17, 25, 20, ?",
+      "options": [
+        "28",
+        "26",
+        "38",
+        "30"
+      ],
+      "explanation": "Pattern: +8, -5, +8, ... The ? is 28"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 14, 22, 17, 25, 20, ?",
+      "options": [
+        "28",
+        "26",
+        "38",
+        "30"
+      ],
+      "explanation": "पैटर्न: +8, -5, +8, ... ? = 28"
+    }
+  },
+  {
+    "id": "grpd-r-0025",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: D, F, ?, J, L",
+      "options": [
+        "H",
+        "I",
+        "O",
+        "G"
+      ],
+      "explanation": "Each letter skips 1 letters forward. Position 3: 8 = H"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: D, F, ?, J, L",
+      "options": [
+        "H",
+        "I",
+        "O",
+        "G"
+      ],
+      "explanation": "हर अक्षर 1 अक्षर आगे। स्थान 3: स्थान 8 = H"
+    }
+  },
+  {
+    "id": "grpd-r-0026",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 25, 36, ?, 64, 81",
+      "options": [
+        "101",
+        "45",
+        "59",
+        "49"
+      ],
+      "explanation": "Squares: 5²=25, 6²=36, ... Term 3: 7² = 49"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 25, 36, ?, 64, 81",
+      "options": [
+        "101",
+        "45",
+        "59",
+        "49"
+      ],
+      "explanation": "वर्ग: 7² = 49"
+    }
+  },
+  {
+    "id": "grpd-r-0027",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: I, K, M, O, ?",
+      "options": [
+        "R",
+        "Q",
+        "W",
+        "N"
+      ],
+      "explanation": "Each letter skips 1 letters forward. Position 5: 17 = Q"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: I, K, M, O, ?",
+      "options": [
+        "R",
+        "Q",
+        "W",
+        "N"
+      ],
+      "explanation": "हर अक्षर 1 अक्षर आगे। स्थान 5: स्थान 17 = Q"
+    }
+  },
+  {
+    "id": "grpd-r-0028",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 5, 10, 20, 40, ?",
+      "options": [
+        "161",
+        "85",
+        "76",
+        "80"
+      ],
+      "explanation": "Pattern: ×2. 5 × 2 = 10, ... The ? is 80"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 5, 10, 20, 40, ?",
+      "options": [
+        "161",
+        "85",
+        "76",
+        "80"
+      ],
+      "explanation": "पैटर्न: ×2। ? = 80"
+    }
+  },
+  {
+    "id": "grpd-r-0029",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 31, 35, 39, 43, ?",
+      "options": [
+        "44",
+        "48",
+        "47",
+        "49"
+      ],
+      "explanation": "Pattern: +4. 31 + 4 = 35, ... Term 5: 31 + 4×4 = 47"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 31, 35, 39, 43, ?",
+      "options": [
+        "44",
+        "48",
+        "47",
+        "49"
+      ],
+      "explanation": "पैटर्न: +4। पद 5: 31 + 4×4 = 47"
+    }
+  },
+  {
+    "id": "grpd-r-0030",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: I, J, K, ?, M",
+      "options": [
+        "P",
+        "I",
+        "L",
+        "U"
+      ],
+      "explanation": "Each letter skips 0 letters forward. Position 4: 12 = L"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: I, J, K, ?, M",
+      "options": [
+        "P",
+        "I",
+        "L",
+        "U"
+      ],
+      "explanation": "हर अक्षर 0 अक्षर आगे। स्थान 4: स्थान 12 = L"
+    }
+  },
+  {
+    "id": "grpd-r-0031",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 3, 12, ?, 192, 768",
+      "options": [
+        "46",
+        "52",
+        "50",
+        "48"
+      ],
+      "explanation": "Geometric series with ratio 4. Term 3 = 3×4^2 = 48"
+    },
+    "hi": {
+      "question": "अगला पद: 3, 12, ?, 192, 768",
+      "options": [
+        "46",
+        "52",
+        "50",
+        "48"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 4। पद 3 = 48"
+    }
+  },
+  {
+    "id": "grpd-r-0032",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: ?, 6, 18, 54, 162",
+      "options": [
+        "8",
+        "7",
+        "2",
+        "-3"
+      ],
+      "explanation": "Pattern: ×3. 2 × 3 = 6, ... The ? is 2"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: ?, 6, 18, 54, 162",
+      "options": [
+        "8",
+        "7",
+        "2",
+        "-3"
+      ],
+      "explanation": "पैटर्न: ×3। ? = 2"
+    }
+  },
+  {
+    "id": "grpd-r-0033",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: ?, 25, 36, 49, 64",
+      "options": [
+        "15",
+        "33",
+        "26",
+        "16"
+      ],
+      "explanation": "Squares: 4²=16, 5²=25, ... Term 1: 4² = 16"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: ?, 25, 36, 49, 64",
+      "options": [
+        "15",
+        "33",
+        "26",
+        "16"
+      ],
+      "explanation": "वर्ग: 4² = 16"
+    }
+  },
+  {
+    "id": "grpd-r-0034",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: ?, 20, 80, 320, 1280",
+      "options": [
+        "4",
+        "5",
+        "10",
+        "12"
+      ],
+      "explanation": "Pattern: ×4. 5 × 4 = 20, ... The ? is 5"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: ?, 20, 80, 320, 1280",
+      "options": [
+        "4",
+        "5",
+        "10",
+        "12"
+      ],
+      "explanation": "पैटर्न: ×4। ? = 5"
+    }
+  },
+  {
+    "id": "grpd-r-0035",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 3, 6, 12, 24, ?",
+      "options": [
+        "58",
+        "48",
+        "50",
+        "46"
+      ],
+      "explanation": "Geometric series with ratio 2. Term 5 = 3×2^4 = 48"
+    },
+    "hi": {
+      "question": "अगला पद: 3, 6, 12, 24, ?",
+      "options": [
+        "58",
+        "48",
+        "50",
+        "46"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 2। पद 5 = 48"
+    }
+  },
+  {
+    "id": "grpd-r-0036",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: L, P, T, ?, B",
+      "options": [
+        "V",
+        "X",
+        "Y",
+        "F"
+      ],
+      "explanation": "Each letter skips 3 letters forward. Position 4: 24 = X"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: L, P, T, ?, B",
+      "options": [
+        "V",
+        "X",
+        "Y",
+        "F"
+      ],
+      "explanation": "हर अक्षर 3 अक्षर आगे। स्थान 4: स्थान 24 = X"
+    }
+  },
+  {
+    "id": "grpd-r-0037",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 9, 16, ?, 36, 49",
+      "options": [
+        "28",
+        "30",
+        "25",
+        "20"
+      ],
+      "explanation": "Squares: 3²=9, 4²=16, ... Term 3: 5² = 25"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 9, 16, ?, 36, 49",
+      "options": [
+        "28",
+        "30",
+        "25",
+        "20"
+      ],
+      "explanation": "वर्ग: 5² = 25"
+    }
+  },
+  {
+    "id": "grpd-r-0038",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 44, 47, 50, ?, 56",
+      "options": [
+        "53",
+        "109",
+        "52",
+        "63"
+      ],
+      "explanation": "Pattern: +3. 44 + 3 = 47, ... Term 4: 44 + 3×3 = 53"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 44, 47, 50, ?, 56",
+      "options": [
+        "53",
+        "109",
+        "52",
+        "63"
+      ],
+      "explanation": "पैटर्न: +3। पद 4: 44 + 3×3 = 53"
+    }
+  },
+  {
+    "id": "grpd-r-0039",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 4, 8, 16, ?, 64",
+      "options": [
+        "27",
+        "32",
+        "34",
+        "34"
+      ],
+      "explanation": "Pattern: ×2. 4 × 2 = 8, ... The ? is 32"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 4, 8, 16, ?, 64",
+      "options": [
+        "27",
+        "32",
+        "34",
+        "34"
+      ],
+      "explanation": "पैटर्न: ×2। ? = 32"
+    }
+  },
+  {
+    "id": "grpd-r-0040",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 17, 23, 21, ?, 25, 31",
+      "options": [
+        "26",
+        "30",
+        "32",
+        "27"
+      ],
+      "explanation": "Pattern: +6, -2, +6, ... The ? is 27"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 17, 23, 21, ?, 25, 31",
+      "options": [
+        "26",
+        "30",
+        "32",
+        "27"
+      ],
+      "explanation": "पैटर्न: +6, -2, +6, ... ? = 27"
+    }
+  },
+  {
+    "id": "grpd-r-0041",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 42, 51, 60, 69, ?",
+      "options": [
+        "79",
+        "78",
+        "73",
+        "87"
+      ],
+      "explanation": "Pattern: +9. 42 + 9 = 51, ... Term 5: 42 + 4×9 = 78"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 42, 51, 60, 69, ?",
+      "options": [
+        "79",
+        "78",
+        "73",
+        "87"
+      ],
+      "explanation": "पैटर्न: +9। पद 5: 42 + 4×9 = 78"
+    }
+  },
+  {
+    "id": "grpd-r-0042",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 2, ?, 32, 128, 512",
+      "options": [
+        "8",
+        "9",
+        "15",
+        "7"
+      ],
+      "explanation": "Pattern: ×4. 2 × 4 = 8, ... The ? is 8"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 2, ?, 32, 128, 512",
+      "options": [
+        "8",
+        "9",
+        "15",
+        "7"
+      ],
+      "explanation": "पैटर्न: ×4। ? = 8"
+    }
+  },
+  {
+    "id": "grpd-r-0043",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 64, ?, 100, 121, 144",
+      "options": [
+        "81",
+        "165",
+        "89",
+        "76"
+      ],
+      "explanation": "Squares: 8²=64, 9²=81, ... Term 2: 9² = 81"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 64, ?, 100, 121, 144",
+      "options": [
+        "81",
+        "165",
+        "89",
+        "76"
+      ],
+      "explanation": "वर्ग: 9² = 81"
+    }
+  },
+  {
+    "id": "grpd-r-0044",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 2, 6, 18, 54, ?",
+      "options": [
+        "158",
+        "326",
+        "162",
+        "172"
+      ],
+      "explanation": "Pattern: ×3. 2 × 3 = 6, ... The ? is 162"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 2, 6, 18, 54, ?",
+      "options": [
+        "158",
+        "326",
+        "162",
+        "172"
+      ],
+      "explanation": "पैटर्न: ×3। ? = 162"
+    }
+  },
+  {
+    "id": "grpd-r-0045",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 29, 37, 34, 42, 39, ?",
+      "options": [
+        "50",
+        "44",
+        "47",
+        "95"
+      ],
+      "explanation": "Pattern: +8, -3, +8, ... The ? is 47"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 29, 37, 34, 42, 39, ?",
+      "options": [
+        "50",
+        "44",
+        "47",
+        "95"
+      ],
+      "explanation": "पैटर्न: +8, -3, +8, ... ? = 47"
+    }
+  },
+  {
+    "id": "grpd-r-0046",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: A, D, G, ?, M",
+      "options": [
+        "T",
+        "H",
+        "J",
+        "L"
+      ],
+      "explanation": "Each letter skips 2 letters forward. Position 4: 10 = J"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: A, D, G, ?, M",
+      "options": [
+        "T",
+        "H",
+        "J",
+        "L"
+      ],
+      "explanation": "हर अक्षर 2 अक्षर आगे। स्थान 4: स्थान 10 = J"
+    }
+  },
+  {
+    "id": "grpd-r-0047",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 9, ?, 81, 243, 729",
+      "options": [
+        "25",
+        "27",
+        "29",
+        "29"
+      ],
+      "explanation": "Geometric series with ratio 3. Term 2 = 9×3^1 = 27"
+    },
+    "hi": {
+      "question": "अगला पद: 9, ?, 81, 243, 729",
+      "options": [
+        "25",
+        "27",
+        "29",
+        "29"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 3। पद 2 = 27"
+    }
+  },
+  {
+    "id": "grpd-r-0048",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 8, 16, 32, ?, 128",
+      "options": [
+        "65",
+        "65",
+        "64",
+        "62"
+      ],
+      "explanation": "Geometric series with ratio 2. Term 4 = 8×2^3 = 64"
+    },
+    "hi": {
+      "question": "अगला पद: 8, 16, 32, ?, 128",
+      "options": [
+        "65",
+        "65",
+        "64",
+        "62"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 2। पद 4 = 64"
+    }
+  },
+  {
+    "id": "grpd-r-0049",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 8, 14, 11, 17, 14, ?",
+      "options": [
+        "28",
+        "20",
+        "23",
+        "16"
+      ],
+      "explanation": "Pattern: +6, -3, +6, ... The ? is 20"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 8, 14, 11, 17, 14, ?",
+      "options": [
+        "28",
+        "20",
+        "23",
+        "16"
+      ],
+      "explanation": "पैटर्न: +6, -3, +6, ... ? = 20"
+    }
+  },
+  {
+    "id": "grpd-r-0050",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 4, 12, ?, 108, 324",
+      "options": [
+        "44",
+        "74",
+        "36",
+        "35"
+      ],
+      "explanation": "Geometric series with ratio 3. Term 3 = 4×3^2 = 36"
+    },
+    "hi": {
+      "question": "अगला पद: 4, 12, ?, 108, 324",
+      "options": [
+        "44",
+        "74",
+        "36",
+        "35"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 3। पद 3 = 36"
+    }
+  },
+  {
+    "id": "grpd-r-0051",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 29, 31, ?, 35, 37",
+      "options": [
+        "32",
+        "34",
+        "69",
+        "33"
+      ],
+      "explanation": "Pattern: +2. 29 + 2 = 31, ... Term 3: 29 + 2×2 = 33"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 29, 31, ?, 35, 37",
+      "options": [
+        "32",
+        "34",
+        "69",
+        "33"
+      ],
+      "explanation": "पैटर्न: +2। पद 3: 29 + 2×2 = 33"
+    }
+  },
+  {
+    "id": "grpd-r-0052",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 2, 4, 8, 16, ?",
+      "options": [
+        "65",
+        "41",
+        "32",
+        "30"
+      ],
+      "explanation": "Pattern: ×2. 2 × 2 = 4, ... The ? is 32"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 2, 4, 8, 16, ?",
+      "options": [
+        "65",
+        "41",
+        "32",
+        "30"
+      ],
+      "explanation": "पैटर्न: ×2। ? = 32"
+    }
+  },
+  {
+    "id": "grpd-r-0053",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 5, 15, 45, 135, ?",
+      "options": [
+        "813",
+        "403",
+        "405",
+        "412"
+      ],
+      "explanation": "Geometric series with ratio 3. Term 5 = 5×3^4 = 405"
+    },
+    "hi": {
+      "question": "अगला पद: 5, 15, 45, 135, ?",
+      "options": [
+        "813",
+        "403",
+        "405",
+        "412"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 3। पद 5 = 405"
+    }
+  },
+  {
+    "id": "grpd-r-0054",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 3, 6, 12, ?, 48",
+      "options": [
+        "24",
+        "27",
+        "26",
+        "23"
+      ],
+      "explanation": "Pattern: ×2. 3 × 2 = 6, ... The ? is 24"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 3, 6, 12, ?, 48",
+      "options": [
+        "24",
+        "27",
+        "26",
+        "23"
+      ],
+      "explanation": "पैटर्न: ×2। ? = 24"
+    }
+  },
+  {
+    "id": "grpd-r-0055",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 8, 16, 12, 20, ?, 24",
+      "options": [
+        "16",
+        "15",
+        "21",
+        "34"
+      ],
+      "explanation": "Pattern: +8, -4, +8, ... The ? is 16"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 8, 16, 12, 20, ?, 24",
+      "options": [
+        "16",
+        "15",
+        "21",
+        "34"
+      ],
+      "explanation": "पैटर्न: +8, -4, +8, ... ? = 16"
+    }
+  },
+  {
+    "id": "grpd-r-0056",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: ?, G, H, I, J",
+      "options": [
+        "N",
+        "C",
+        "I",
+        "F"
+      ],
+      "explanation": "Each letter skips 0 letters forward. Position 1: 6 = F"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: ?, G, H, I, J",
+      "options": [
+        "N",
+        "C",
+        "I",
+        "F"
+      ],
+      "explanation": "हर अक्षर 0 अक्षर आगे। स्थान 1: स्थान 6 = F"
+    }
+  },
+  {
+    "id": "grpd-r-0057",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 27, 31, 29, ?, 31, 35",
+      "options": [
+        "29",
+        "36",
+        "33",
+        "38"
+      ],
+      "explanation": "Pattern: +4, -2, +4, ... The ? is 33"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 27, 31, 29, ?, 31, 35",
+      "options": [
+        "29",
+        "36",
+        "33",
+        "38"
+      ],
+      "explanation": "पैटर्न: +4, -2, +4, ... ? = 33"
+    }
+  },
+  {
+    "id": "grpd-r-0058",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 9, 16, ?, 36, 49",
+      "options": [
+        "24",
+        "51",
+        "25",
+        "32"
+      ],
+      "explanation": "Squares: 3²=9, 4²=16, ... Term 3: 5² = 25"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 9, 16, ?, 36, 49",
+      "options": [
+        "24",
+        "51",
+        "25",
+        "32"
+      ],
+      "explanation": "वर्ग: 5² = 25"
+    }
+  },
+  {
+    "id": "grpd-r-0059",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: ?, 12, 36, 108, 324",
+      "options": [
+        "9",
+        "4",
+        "3",
+        "9"
+      ],
+      "explanation": "Pattern: ×3. 4 × 3 = 12, ... The ? is 4"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: ?, 12, 36, 108, 324",
+      "options": [
+        "9",
+        "4",
+        "3",
+        "9"
+      ],
+      "explanation": "पैटर्न: ×3। ? = 4"
+    }
+  },
+  {
+    "id": "grpd-r-0060",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 26, 32, 30, 36, ?, 40",
+      "options": [
+        "34",
+        "44",
+        "32",
+        "36"
+      ],
+      "explanation": "Pattern: +6, -2, +6, ... The ? is 34"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 26, 32, 30, 36, ?, 40",
+      "options": [
+        "34",
+        "44",
+        "32",
+        "36"
+      ],
+      "explanation": "पैटर्न: +6, -2, +6, ... ? = 34"
+    }
+  },
+  {
+    "id": "grpd-r-0061",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 4, 12, 36, 108, ?",
+      "options": [
+        "327",
+        "322",
+        "324",
+        "327"
+      ],
+      "explanation": "Pattern: ×3. 4 × 3 = 12, ... The ? is 324"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 4, 12, 36, 108, ?",
+      "options": [
+        "327",
+        "322",
+        "324",
+        "327"
+      ],
+      "explanation": "पैटर्न: ×3। ? = 324"
+    }
+  },
+  {
+    "id": "grpd-r-0062",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: ?, F, H, J, L",
+      "options": [
+        "A",
+        "J",
+        "D",
+        "E"
+      ],
+      "explanation": "Each letter skips 1 letters forward. Position 1: 4 = D"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: ?, F, H, J, L",
+      "options": [
+        "A",
+        "J",
+        "D",
+        "E"
+      ],
+      "explanation": "हर अक्षर 1 अक्षर आगे। स्थान 1: स्थान 4 = D"
+    }
+  },
+  {
+    "id": "grpd-r-0063",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve the series: 216, 343, ?, 729, 1000",
+      "options": [
+        "1027",
+        "515",
+        "512",
+        "511"
+      ],
+      "explanation": "Cubes: 6³=216, 7³=343, ... Term 3: 8³ = 512"
+    },
+    "hi": {
+      "question": "श्रेणी हल करें: 216, 343, ?, 729, 1000",
+      "options": [
+        "1027",
+        "515",
+        "512",
+        "511"
+      ],
+      "explanation": "घन: 8³ = 512"
+    }
+  },
+  {
+    "id": "grpd-r-0064",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 4, 16, 64, ?, 1024",
+      "options": [
+        "256",
+        "260",
+        "515",
+        "253"
+      ],
+      "explanation": "Geometric series with ratio 4. Term 4 = 4×4^3 = 256"
+    },
+    "hi": {
+      "question": "अगला पद: 4, 16, 64, ?, 1024",
+      "options": [
+        "256",
+        "260",
+        "515",
+        "253"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 4। पद 4 = 256"
+    }
+  },
+  {
+    "id": "grpd-r-0065",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 38, 42, 46, ?, 54",
+      "options": [
+        "47",
+        "50",
+        "53",
+        "58"
+      ],
+      "explanation": "Pattern: +4. 38 + 4 = 42, ... Term 4: 38 + 3×4 = 50"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 38, 42, 46, ?, 54",
+      "options": [
+        "47",
+        "50",
+        "53",
+        "58"
+      ],
+      "explanation": "पैटर्न: +4। पद 4: 38 + 3×4 = 50"
+    }
+  },
+  {
+    "id": "grpd-r-0066",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: N, O, P, ?, R",
+      "options": [
+        "N",
+        "Q",
+        "X",
+        "U"
+      ],
+      "explanation": "Each letter skips 0 letters forward. Position 4: 17 = Q"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: N, O, P, ?, R",
+      "options": [
+        "N",
+        "Q",
+        "X",
+        "U"
+      ],
+      "explanation": "हर अक्षर 0 अक्षर आगे। स्थान 4: स्थान 17 = Q"
+    }
+  },
+  {
+    "id": "grpd-r-0067",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 14, 21, 17, 24, 20, ?",
+      "options": [
+        "24",
+        "56",
+        "34",
+        "27"
+      ],
+      "explanation": "Pattern: +7, -4, +7, ... The ? is 27"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 14, 21, 17, 24, 20, ?",
+      "options": [
+        "24",
+        "56",
+        "34",
+        "27"
+      ],
+      "explanation": "पैटर्न: +7, -4, +7, ... ? = 27"
+    }
+  },
+  {
+    "id": "grpd-r-0068",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 4, 12, 36, ?, 324",
+      "options": [
+        "114",
+        "105",
+        "219",
+        "108"
+      ],
+      "explanation": "Pattern: ×3. 4 × 3 = 12, ... The ? is 108"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 4, 12, 36, ?, 324",
+      "options": [
+        "114",
+        "105",
+        "219",
+        "108"
+      ],
+      "explanation": "पैटर्न: ×3। ? = 108"
+    }
+  },
+  {
+    "id": "grpd-r-0069",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 8, 32, 128, 512, ?",
+      "options": [
+        "4098",
+        "2048",
+        "2045",
+        "2054"
+      ],
+      "explanation": "Geometric series with ratio 4. Term 5 = 8×4^4 = 2048"
+    },
+    "hi": {
+      "question": "अगला पद: 8, 32, 128, 512, ?",
+      "options": [
+        "4098",
+        "2048",
+        "2045",
+        "2054"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 4। पद 5 = 2048"
+    }
+  },
+  {
+    "id": "grpd-r-0070",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: N, ?, R, T, V",
+      "options": [
+        "P",
+        "T",
+        "W",
+        "M"
+      ],
+      "explanation": "Each letter skips 1 letters forward. Position 2: 16 = P"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: N, ?, R, T, V",
+      "options": [
+        "P",
+        "T",
+        "W",
+        "M"
+      ],
+      "explanation": "हर अक्षर 1 अक्षर आगे। स्थान 2: स्थान 16 = P"
+    }
+  },
+  {
+    "id": "grpd-r-0071",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: N, R, V, Z, ?",
+      "options": [
+        "I",
+        "D",
+        "B",
+        "F"
+      ],
+      "explanation": "Each letter skips 3 letters forward. Position 5: 4 = D"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: N, R, V, Z, ?",
+      "options": [
+        "I",
+        "D",
+        "B",
+        "F"
+      ],
+      "explanation": "हर अक्षर 3 अक्षर आगे। स्थान 5: स्थान 4 = D"
+    }
+  },
+  {
+    "id": "grpd-r-0072",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 30, ?, 32, 36, 34, 38",
+      "options": [
+        "29",
+        "42",
+        "71",
+        "34"
+      ],
+      "explanation": "Pattern: +4, -2, +4, ... The ? is 34"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 30, ?, 32, 36, 34, 38",
+      "options": [
+        "29",
+        "42",
+        "71",
+        "34"
+      ],
+      "explanation": "पैटर्न: +4, -2, +4, ... ? = 34"
+    }
+  },
+  {
+    "id": "grpd-r-0073",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 8, 24, 72, ?, 648",
+      "options": [
+        "218",
+        "214",
+        "221",
+        "216"
+      ],
+      "explanation": "Geometric series with ratio 3. Term 4 = 8×3^3 = 216"
+    },
+    "hi": {
+      "question": "अगला पद: 8, 24, 72, ?, 648",
+      "options": [
+        "218",
+        "214",
+        "221",
+        "216"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 3। पद 4 = 216"
+    }
+  },
+  {
+    "id": "grpd-r-0074",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 5, 20, 80, 320, ?",
+      "options": [
+        "1279",
+        "1283",
+        "1288",
+        "1280"
+      ],
+      "explanation": "Geometric series with ratio 4. Term 5 = 5×4^4 = 1280"
+    },
+    "hi": {
+      "question": "अगला पद: 5, 20, 80, 320, ?",
+      "options": [
+        "1279",
+        "1283",
+        "1288",
+        "1280"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 4। पद 5 = 1280"
+    }
+  },
+  {
+    "id": "grpd-r-0075",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 10, 14, 11, 15, ?, 16",
+      "options": [
+        "12",
+        "13",
+        "10",
+        "14"
+      ],
+      "explanation": "Pattern: +4, -3, +4, ... The ? is 12"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 10, 14, 11, 15, ?, 16",
+      "options": [
+        "12",
+        "13",
+        "10",
+        "14"
+      ],
+      "explanation": "पैटर्न: +4, -3, +4, ... ? = 12"
+    }
+  },
+  {
+    "id": "grpd-r-0076",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 23, 29, 26, ?, 29, 35",
+      "options": [
+        "42",
+        "65",
+        "30",
+        "32"
+      ],
+      "explanation": "Pattern: +6, -3, +6, ... The ? is 32"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 23, 29, 26, ?, 29, 35",
+      "options": [
+        "42",
+        "65",
+        "30",
+        "32"
+      ],
+      "explanation": "पैटर्न: +6, -3, +6, ... ? = 32"
+    }
+  },
+  {
+    "id": "grpd-r-0077",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 29, 35, 41, ?, 53",
+      "options": [
+        "46",
+        "47",
+        "97",
+        "56"
+      ],
+      "explanation": "Pattern: +6. 29 + 6 = 35, ... Term 4: 29 + 3×6 = 47"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 29, 35, 41, ?, 53",
+      "options": [
+        "46",
+        "47",
+        "97",
+        "56"
+      ],
+      "explanation": "पैटर्न: +6। पद 4: 29 + 3×6 = 47"
+    }
+  },
+  {
+    "id": "grpd-r-0078",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 4, ?, 16, 32, 64",
+      "options": [
+        "17",
+        "8",
+        "13",
+        "7"
+      ],
+      "explanation": "Geometric series with ratio 2. Term 2 = 4×2^1 = 8"
+    },
+    "hi": {
+      "question": "अगला पद: 4, ?, 16, 32, 64",
+      "options": [
+        "17",
+        "8",
+        "13",
+        "7"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 2। पद 2 = 8"
+    }
+  }
+]

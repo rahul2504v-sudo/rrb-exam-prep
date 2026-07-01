@@ -1,10 +1,2342 @@
 [
-  {"id":"ntpc-m-0001","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"If the price of sugar is increased by 25%, by what percentage must a household reduce consumption so that expenditure remains the same?","options":["25%","20%","15%","30%"],"explanation":"Reduction% = (R / (100 + R)) x 100 = (25 / 125) x 100 = 20%."},"hi":{"question":"चीनी के मूल्य में 25% वृद्धि हो, तो खपत कितने% घटाएँ कि व्यय समान रहे?","options":["25%","20%","15%","30%"],"explanation":"कमी% = (25/125)×100 = 20%।"}},
-  {"id":"ntpc-m-0002","correctOption":"D","difficulty":"hard","sourceYear":2023,"en":{"question":"A candidate scored 30% marks and failed by 15 marks. Another candidate scored 42% marks and got 12 marks more than the passing marks. What are the maximum marks?","options":["250","275","300","225"],"explanation":"30%M = P-15, 42%M = P+12. Subtract: 12%M = 27, M = 27/0.12 = 225."},"hi":{"question":"एक छात्र 30% लाकर 15 अंकों से फेल, दूसरा 42% लाकर 12 अंक अधिक। अधिकतम अंक?","options":["250","275","300","225"],"explanation":"12%M=27, M=225।"}},
-  {"id":"ntpc-m-0003","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"The population of a town increases by 10% every year. If the present population is 1,21,000, what was it 2 years ago?","options":["1,00,000","1,10,000","90,000","95,000"],"explanation":"Population 2 years ago = Present / (1.1)^2 = 121000 / 1.21 = 100000."},"hi":{"question":"जनसंख्या 10% वार्षिक बढ़ती है। वर्तमान 1,21,000, तो 2 वर्ष पूर्व?","options":["1,00,000","1,10,000","90,000","95,000"],"explanation":"2 वर्ष पूर्व = 121000/1.21 = 1,00,000।"}},
-  {"id":"ntpc-m-0004","correctOption":"A","difficulty":"medium","sourceYear":2023,"en":{"question":"A number is increased by 20% and then decreased by 20%. What is the net percentage change?","options":["4% decrease","4% increase","No change","10% decrease"],"explanation":"Net change = a + b + (a x b)/100 = 20 - 20 + (-400)/100 = -4%. So 4% decrease."},"hi":{"question":"20% वृद्धि फिर 20% कमी, कुल% परिवर्तन?","options":["4% कमी","4% वृद्धि","कोई परिवर्तन नहीं","10% कमी"],"explanation":"कुल = 20-20-400/100 = -4% (4% कमी)।"}},
-  {"id":"ntpc-m-0005","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"If the price of sugar is increased by 25%, by how much percent must a family reduce its consumption to keep the expenditure unchanged?","options":["20%","25%","30%","15%"],"explanation":"Reduction% = (25/125) x 100 = 20%."},"hi":{"question":"चीनी 25% बढ़ी, खपत कितने% घटाएँ कि व्यय न बदले?","options":["20%","25%","30%","15%"],"explanation":"कमी% = (25/125)×100 = 20%।"}},
-  {"id":"ntpc-m-0006","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"40% of a number is 180. What is 65% of that number?","options":["292.5","280","310","295"],"explanation":"40% of x = 180 => x = 180/0.40 = 450. 65% of 450 = 0.65 x 450 = 292.5."},"hi":{"question":"40% संख्या = 180, तो 65% क्या है?","options":["292.5","280","310","295"],"explanation":"x=450, 65%×450=292.5।"}},
-  {"id":"ntpc-m-0007","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"In an election between two candidates, the winning candidate got 56% of total votes and won by a margin of 18,000 votes. How many total votes were cast?","options":["1,50,000","1,40,000","1,60,000","1,30,000"],"explanation":"Winner 56%, loser 44%. Difference = 12% = 18,000. Total = 18,000 x 100/12 = 1,50,000."},"hi":{"question":"विजेता को 56% मत, 18,000 से जीता। कुल मत?","options":["1,50,000","1,40,000","1,60,000","1,30,000"],"explanation":"12%=18,000, कुल=1,50,000।"}},
-  {"id":"ntpc-m-0008","correctOption":"A","difficulty":"hard","sourceYear":2022,"en":{"question":"A student scores 35% and fails by 20 marks. Another student scores 45% and passes by 10 marks. Find the passing marks.","options":["125","130","140","135"],"explanation":"10% = 30, total = 300. Passing = 35% of 300 + 20 = 105 + 20 = 125."},"hi":{"question":"35% वाला 20 अंकों से फेल, 45% वाला 10 अंकों से पास। पासिंग अंक?","options":["125","130","140","135"],"explanation":"10%=30, कुल=300, पासिंग=105+20=125।"}}
+  {
+    "id": "ntpc-m-0001",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Sugar price up 25%. Reduce consumption by what % to keep expenditure same?",
+      "options": [
+        "25%",
+        "20%",
+        "15%",
+        "30%"
+      ],
+      "explanation": "Reduction%=(25/125)×100=20%."
+    },
+    "hi": {
+      "question": "चीनी 25% बढ़ी, खपत कितने% घटाएँ कि व्यय समान रहे?",
+      "options": [
+        "25%",
+        "20%",
+        "15%",
+        "30%"
+      ],
+      "explanation": "कमी%=(25/125)×100=20%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0002",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "30% fails by 15, 42% passes by 12 marks. Maximum marks?",
+      "options": [
+        "250",
+        "275",
+        "300",
+        "225"
+      ],
+      "explanation": "12%M=27, M=225."
+    },
+    "hi": {
+      "question": "30% लाकर 15 से फेल, 42% लाकर 12 अधिक। अधिकतम अंक?",
+      "options": [
+        "250",
+        "275",
+        "300",
+        "225"
+      ],
+      "explanation": "12%M=27, M=225।"
+    }
+  },
+  {
+    "id": "ntpc-m-0003",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Population increases 10% yearly. Present 1,21,000. 2 years ago?",
+      "options": [
+        "1,00,000",
+        "1,10,000",
+        "90,000",
+        "95,000"
+      ],
+      "explanation": "121000/1.21=100000."
+    },
+    "hi": {
+      "question": "जनसंख्या 10% वार्षिक बढ़ती, वर्तमान 1,21,000, 2 वर्ष पूर्व?",
+      "options": [
+        "1,00,000",
+        "1,10,000",
+        "90,000",
+        "95,000"
+      ],
+      "explanation": "121000/1.21=1,00,000।"
+    }
+  },
+  {
+    "id": "ntpc-m-0004",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Increase 20% then decrease 20%. Net change?",
+      "options": [
+        "4% decrease",
+        "4% increase",
+        "No change",
+        "10% decrease"
+      ],
+      "explanation": "20-20+(-400)/100=-4%."
+    },
+    "hi": {
+      "question": "20% बढ़ाकर 20% घटाएँ, कुल परिवर्तन?",
+      "options": [
+        "4% कमी",
+        "4% वृद्धि",
+        "कोई नहीं",
+        "10% कमी"
+      ],
+      "explanation": "-4% (4% कमी)।"
+    }
+  },
+  {
+    "id": "ntpc-m-0005",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Price up 25%, cut consumption to keep expense same?",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "15%"
+      ],
+      "explanation": "(25/125)×100=20%."
+    },
+    "hi": {
+      "question": "25% बढ़ी, खपत कितनी घटाएँ?",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "15%"
+      ],
+      "explanation": "20%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0006",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "40% of a number is 180. 65% of that number?",
+      "options": [
+        "292.5",
+        "280",
+        "310",
+        "295"
+      ],
+      "explanation": "x=450, 65%×450=292.5."
+    },
+    "hi": {
+      "question": "40% संख्या=180, 65% = ?",
+      "options": [
+        "292.5",
+        "280",
+        "310",
+        "295"
+      ],
+      "explanation": "x=450, 292.5।"
+    }
+  },
+  {
+    "id": "ntpc-m-0007",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Winner 56%, won by 18000 votes. Total votes?",
+      "options": [
+        "1,50,000",
+        "1,40,000",
+        "1,60,000",
+        "1,30,000"
+      ],
+      "explanation": "12%=18000, total=150000."
+    },
+    "hi": {
+      "question": "विजेता 56%, 18000 से जीता। कुल मत?",
+      "options": [
+        "1,50,000",
+        "1,40,000",
+        "1,60,000",
+        "1,30,000"
+      ],
+      "explanation": "12%=18000, कुल=1,50,000।"
+    }
+  },
+  {
+    "id": "ntpc-m-0008",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2022,
+    "en": {
+      "question": "35% fails by 20, 45% passes by 10. Passing marks?",
+      "options": [
+        "125",
+        "130",
+        "140",
+        "135"
+      ],
+      "explanation": "10%=30, total=300. Passing=105+20=125."
+    },
+    "hi": {
+      "question": "35% 20 से फेल, 45% 10 से पास। पासिंग अंक?",
+      "options": [
+        "125",
+        "130",
+        "140",
+        "135"
+      ],
+      "explanation": "10%=30, कुल=300, पासिंग=125।"
+    }
+  },
+  {
+    "id": "ntpc-m-0009",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "25% of 400 + 15% of 600 = ?",
+      "options": [
+        "200",
+        "190",
+        "180",
+        "210"
+      ],
+      "explanation": "100+90=190."
+    },
+    "hi": {
+      "question": "400 का 25% + 600 का 15% = ?",
+      "options": [
+        "200",
+        "190",
+        "180",
+        "210"
+      ],
+      "explanation": "100+90=190।"
+    }
+  },
+  {
+    "id": "ntpc-m-0010",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What % is 45 of 180?",
+      "options": [
+        "20%",
+        "22.5%",
+        "25%",
+        "30%"
+      ],
+      "explanation": "(45/180)×100=25%."
+    },
+    "hi": {
+      "question": "180 का 45 कितने प्रतिशत है?",
+      "options": [
+        "20%",
+        "22.5%",
+        "25%",
+        "30%"
+      ],
+      "explanation": "(45/180)×100=25%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0011",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If 15% of x = 45, find x.",
+      "options": [
+        "250",
+        "275",
+        "280",
+        "300"
+      ],
+      "explanation": "x=45/0.15=300."
+    },
+    "hi": {
+      "question": "x का 15% = 45, x = ?",
+      "options": [
+        "250",
+        "275",
+        "280",
+        "300"
+      ],
+      "explanation": "x=45/0.15=300।"
+    }
+  },
+  {
+    "id": "ntpc-m-0012",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Price reduced by 20%. By what % must consumption increase to keep expenditure same?",
+      "options": [
+        "25%",
+        "20%",
+        "30%",
+        "15%"
+      ],
+      "explanation": "Increase%=(20/80)×100=25%."
+    },
+    "hi": {
+      "question": "मूल्य 20% घटा, व्यय समान रखने हेतु खपत कितनी बढ़ाएँ?",
+      "options": [
+        "25%",
+        "20%",
+        "30%",
+        "15%"
+      ],
+      "explanation": "(20/80)×100=25%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0013",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Population: 80,000. Increases 5% first year, 10% second year. Population after 2 years?",
+      "options": [
+        "90000",
+        "92400",
+        "92000",
+        "91000"
+      ],
+      "explanation": "80000×1.05×1.10=80000×1.155=92400."
+    },
+    "hi": {
+      "question": "80,000 की जनसंख्या, पहले वर्ष 5%, दूसरे 10% बढ़ी। 2 वर्ष बाद?",
+      "options": [
+        "90000",
+        "92400",
+        "92000",
+        "91000"
+      ],
+      "explanation": "80000×1.155=92400।"
+    }
+  },
+  {
+    "id": "ntpc-m-0014",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "In an exam, 65% passed. Number of failures is 175. Total students?",
+      "options": [
+        "450",
+        "480",
+        "500",
+        "520"
+      ],
+      "explanation": "35%=175, total=175/0.35=500."
+    },
+    "hi": {
+      "question": "परीक्षा में 65% उत्तीर्ण, अनुत्तीर्ण 175। कुल छात्र?",
+      "options": [
+        "450",
+        "480",
+        "500",
+        "520"
+      ],
+      "explanation": "35%=175, कुल=500।"
+    }
+  },
+  {
+    "id": "ntpc-m-0015",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number is increased by 30% then decreased by 30%. Net change?",
+      "options": [
+        "9% decrease",
+        "9% increase",
+        "No change",
+        "10% decrease"
+      ],
+      "explanation": "30-30+(-900)/100=-9%."
+    },
+    "hi": {
+      "question": "30% बढ़ाकर 30% घटाएँ, कुल परिवर्तन?",
+      "options": [
+        "9% कमी",
+        "9% वृद्धि",
+        "कोई नहीं",
+        "10% कमी"
+      ],
+      "explanation": "30-30-9=-9%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0016",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A's salary is 50% more than B's. By what % is B's salary less than A's?",
+      "options": [
+        "50%",
+        "25%",
+        "40%",
+        "33.33%"
+      ],
+      "explanation": "A=150, B=100. Less%=(50/150)×100=33.33%."
+    },
+    "hi": {
+      "question": "A का वेतन B से 50% अधिक। B, A से कितने% कम?",
+      "options": [
+        "50%",
+        "25%",
+        "40%",
+        "33.33%"
+      ],
+      "explanation": "(50/150)×100=33.33%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0017",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Student scored 480 marks out of 600. What % of marks?",
+      "options": [
+        "75%",
+        "80%",
+        "85%",
+        "70%"
+      ],
+      "explanation": "(480/600)×100=80%."
+    },
+    "hi": {
+      "question": "छात्र ने 600 में 480 अंक पाए। कितने%?",
+      "options": [
+        "75%",
+        "80%",
+        "85%",
+        "70%"
+      ],
+      "explanation": "(480/600)×100=80%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0018",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "In 2 successive years, population increases 10% and 20%. Net increase?",
+      "options": [
+        "30%",
+        "28%",
+        "32%",
+        "36%"
+      ],
+      "explanation": "10+20+(10×20)/100=30+2=32%."
+    },
+    "hi": {
+      "question": "दो क्रमागत वर्षों में जनसंख्या 10%, 20% बढ़ी। कुल वृद्धि?",
+      "options": [
+        "30%",
+        "28%",
+        "32%",
+        "36%"
+      ],
+      "explanation": "10+20+2=32%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0019",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Price of petrol increased 25%. Car mileage increased so expense only up 10%. By what % did mileage increase?",
+      "options": [
+        "13.64%",
+        "12.5%",
+        "15%",
+        "10%"
+      ],
+      "explanation": "Let initial price=100, consumption=C. New price=125. New consumption=C1. 125C1=110C, C1=0.88C. Mileage increase for same distance: 1/0.88=1.1364, so 13.64% increase."
+    },
+    "hi": {
+      "question": "पेट्रोल 25% बढ़ा, खर्च सिर्फ 10% बढ़ा। माइलेज कितने% बढ़ी?",
+      "options": [
+        "13.64%",
+        "12.5%",
+        "15%",
+        "10%"
+      ],
+      "explanation": "माइलेज वृद्धि=13.64%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0020",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Value of machine depreciates 10% yearly. Present value ₹72,900. Value 3 years ago?",
+      "options": [
+        "₹90000",
+        "₹1,00,000",
+        "₹1,10,000",
+        "₹95000"
+      ],
+      "explanation": "72900/0.9³=72900/0.729=1,00,000."
+    },
+    "hi": {
+      "question": "मशीन का मूल्य 10% वार्षिक घटता, वर्तमान ₹72,900। 3 वर्ष पूर्व मूल्य?",
+      "options": [
+        "₹90000",
+        "₹1,00,000",
+        "₹1,10,000",
+        "₹95000"
+      ],
+      "explanation": "72900/0.729=1,00,000।"
+    }
+  },
+  {
+    "id": "ntpc-m-0021",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "20% of a number exceeds 15% of the same number by 25. Find the number.",
+      "options": [
+        "500",
+        "400",
+        "600",
+        "300"
+      ],
+      "explanation": "5% of x = 25, x = 500."
+    },
+    "hi": {
+      "question": "किसी संख्या का 20%, 15% से 25 अधिक। संख्या?",
+      "options": [
+        "500",
+        "400",
+        "600",
+        "300"
+      ],
+      "explanation": "5%x=25, x=500।"
+    }
+  },
+  {
+    "id": "ntpc-m-0022",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If radius of circle is increased by 100%, area increases by?",
+      "options": [
+        "100%",
+        "200%",
+        "400%",
+        "300%"
+      ],
+      "explanation": "Area ∝ r². r becomes 2r, area becomes 4A. Increase=300%."
+    },
+    "hi": {
+      "question": "त्रिज्या 100% बढ़ाई, क्षेत्रफल में वृद्धि?",
+      "options": [
+        "100%",
+        "200%",
+        "400%",
+        "300%"
+      ],
+      "explanation": "4A-A=3A=300% वृद्धि।"
+    }
+  },
+  {
+    "id": "ntpc-m-0023",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Express 3/8 as percentage.",
+      "options": [
+        "35%",
+        "40%",
+        "37.5%",
+        "42.5%"
+      ],
+      "explanation": "(3/8)×100=37.5%."
+    },
+    "hi": {
+      "question": "3/8 को प्रतिशत में बदलिए।",
+      "options": [
+        "35%",
+        "40%",
+        "37.5%",
+        "42.5%"
+      ],
+      "explanation": "(3/8)×100=37.5%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0024",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The price of an article is reduced by 25%. To restore to original, by what % must it be increased?",
+      "options": [
+        "25%",
+        "33.33%",
+        "30%",
+        "20%"
+      ],
+      "explanation": "Increase% on reduced price: (25/75)×100 = 33.33%."
+    },
+    "hi": {
+      "question": "वस्तु का मूल्य 25% घटा, पुनः मूल मूल्य हेतु कितने% बढ़ाएँ?",
+      "options": [
+        "25%",
+        "33.33%",
+        "30%",
+        "20%"
+      ],
+      "explanation": "(25/75)×100=33.33%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0025",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "30% of 450 - 25% of 600 = ?",
+      "options": [
+        "-15",
+        "15",
+        "0",
+        "-25"
+      ],
+      "explanation": "135-150=-15."
+    },
+    "hi": {
+      "question": "450 का 30% - 600 का 25% = ?",
+      "options": [
+        "-15",
+        "15",
+        "0",
+        "-25"
+      ],
+      "explanation": "135-150=-15।"
+    }
+  },
+  {
+    "id": "ntpc-m-0026",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If side of square increases by 20%, area increases by?",
+      "options": [
+        "20%",
+        "40%",
+        "48%",
+        "44%"
+      ],
+      "explanation": "New side=1.2s, new area=1.44s². Increase=44%."
+    },
+    "hi": {
+      "question": "वर्ग की भुजा 20% बढ़ाई, क्षेत्रफल में वृद्धि?",
+      "options": [
+        "20%",
+        "40%",
+        "48%",
+        "44%"
+      ],
+      "explanation": "(1.44-1)×100=44%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0027",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A spends 75% of salary and saves ₹3000. Salary?",
+      "options": [
+        "₹10000",
+        "₹12500",
+        "₹12000",
+        "₹15000"
+      ],
+      "explanation": "Saves 25%=3000. Salary=3000/0.25=12000."
+    },
+    "hi": {
+      "question": "75% खर्च, ₹3000 बचत। वेतन?",
+      "options": [
+        "₹10000",
+        "₹12500",
+        "₹12000",
+        "₹15000"
+      ],
+      "explanation": "25%=3000, वेतन=12000।"
+    }
+  },
+  {
+    "id": "ntpc-m-0028",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A book costs ₹80 after 20% discount. Marked price?",
+      "options": [
+        "₹100",
+        "₹96",
+        "₹90",
+        "₹120"
+      ],
+      "explanation": "0.8×MP=80, MP=100."
+    },
+    "hi": {
+      "question": "20% छूट के बाद पुस्तक ₹80। अंकित मूल्य?",
+      "options": [
+        "₹100",
+        "₹96",
+        "₹90",
+        "₹120"
+      ],
+      "explanation": "MP=80/0.8=100।"
+    }
+  },
+  {
+    "id": "ntpc-m-0029",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "In election, 10% votes invalid. Winner got 60% of valid votes and won by 1620 votes. Total votes?",
+      "options": [
+        "8000",
+        "9000",
+        "10000",
+        "8500"
+      ],
+      "explanation": "Let total=V. Valid=0.9V. Winner=0.6×0.9V=0.54V. Loser=0.4×0.9V=0.36V. Difference=0.18V=1620. V=9000."
+    },
+    "hi": {
+      "question": "चुनाव में 10% मत अवैध, विजेता को 60% वैध मत, 1620 से जीता। कुल मत?",
+      "options": [
+        "8000",
+        "9000",
+        "10000",
+        "8500"
+      ],
+      "explanation": "0.18V=1620, V=9000।"
+    }
+  },
+  {
+    "id": "ntpc-m-0030",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If length of rectangle increases 10% and breadth decreases 10%, area changes by?",
+      "options": [
+        "No change",
+        "1% increase",
+        "1% decrease",
+        "2% decrease"
+      ],
+      "explanation": "L×1.1×B×0.9=0.99LB. 1% decrease."
+    },
+    "hi": {
+      "question": "लंबाई 10% बढ़ी, चौड़ाई 10% घटी। क्षेत्रफल में परिवर्तन?",
+      "options": [
+        "कोई नहीं",
+        "1% वृद्धि",
+        "1% कमी",
+        "2% कमी"
+      ],
+      "explanation": "1.1×0.9=0.99, 1% कमी।"
+    }
+  },
+  {
+    "id": "ntpc-m-0031",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 33 1/3 % of 900?",
+      "options": [
+        "300",
+        "330",
+        "333",
+        "270"
+      ],
+      "explanation": "1/3×900=300."
+    },
+    "hi": {
+      "question": "900 का 33⅓% क्या है?",
+      "options": [
+        "300",
+        "330",
+        "333",
+        "270"
+      ],
+      "explanation": "1/3×900=300।"
+    }
+  },
+  {
+    "id": "ntpc-m-0032",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Convert 0.025 into percentage.",
+      "options": [
+        "0.25%",
+        "25%",
+        "0.025%",
+        "2.5%"
+      ],
+      "explanation": "0.025×100=2.5%."
+    },
+    "hi": {
+      "question": "0.025 को प्रतिशत में बदलिए।",
+      "options": [
+        "0.25%",
+        "25%",
+        "0.025%",
+        "2.5%"
+      ],
+      "explanation": "0.025×100=2.5%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0033",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If A is 20% more than B, B is what % of A?",
+      "options": [
+        "80%",
+        "83.33%",
+        "85%",
+        "90%"
+      ],
+      "explanation": "A=120, B=100. B/A×100=100/120×100=83.33%."
+    },
+    "hi": {
+      "question": "A, B से 20% अधिक, B, A का कितने%?",
+      "options": [
+        "80%",
+        "83.33%",
+        "85%",
+        "90%"
+      ],
+      "explanation": "(100/120)×100=83.33%।"
+    }
+  },
+  {
+    "id": "ntpc-m-0034",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A candidate gets 40% votes and loses by 600 votes. Total votes?",
+      "options": [
+        "2500",
+        "2800",
+        "3000",
+        "3200"
+      ],
+      "explanation": "Winner gets 60%. Difference=20%=600. Total=600/0.20=3000."
+    },
+    "hi": {
+      "question": "एक को 40% मत, 600 से हारा। कुल मत?",
+      "options": [
+        "2500",
+        "2800",
+        "3000",
+        "3200"
+      ],
+      "explanation": "20%=600, कुल=3000।"
+    }
+  },
+  {
+    "id": "ntpc-m-0035",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A product marked ₹9516 sold at successive discounts of 30% and 27%. Find selling price.",
+      "options": [
+        "4092",
+        "5029",
+        "4862",
+        "4822"
+      ],
+      "explanation": "After 30%: 9516×70/100=6661. After 27%: 6661×73/100=4862"
+    },
+    "hi": {
+      "question": "₹9516 पर 30% और 27% की क्रमिक छूट। विक्रय मूल्य ज्ञात करें।",
+      "options": [
+        "4092",
+        "5029",
+        "4862",
+        "4822"
+      ],
+      "explanation": "30% के बाद: 6661। 27% के बाद: 4862"
+    }
+  },
+  {
+    "id": "ntpc-m-0036",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A product marked ₹5566 sold at successive discounts of 6% and 23%. Find selling price.",
+      "options": [
+        "4154",
+        "3995",
+        "3952",
+        "4028"
+      ],
+      "explanation": "After 6%: 5566×94/100=5232. After 23%: 5232×77/100=4028"
+    },
+    "hi": {
+      "question": "₹5566 पर 6% और 23% की क्रमिक छूट। विक्रय मूल्य ज्ञात करें।",
+      "options": [
+        "4154",
+        "3995",
+        "3952",
+        "4028"
+      ],
+      "explanation": "6% के बाद: 5232। 23% के बाद: 4028"
+    }
+  },
+  {
+    "id": "ntpc-m-0037",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A product marked ₹6566 sold at successive discounts of 24% and 13%. Find selling price.",
+      "options": [
+        "4242",
+        "4341",
+        "4448",
+        "4137"
+      ],
+      "explanation": "After 24%: 6566×76/100=4990. After 13%: 4990×87/100=4341"
+    },
+    "hi": {
+      "question": "₹6566 पर 24% और 13% की क्रमिक छूट। विक्रय मूल्य ज्ञात करें।",
+      "options": [
+        "4242",
+        "4341",
+        "4448",
+        "4137"
+      ],
+      "explanation": "24% के बाद: 4990। 13% के बाद: 4341"
+    }
+  },
+  {
+    "id": "ntpc-m-0038",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "₹1112 at 24%+21% successive discount? SP?",
+      "options": [
+        "667",
+        "822",
+        "530",
+        "612"
+      ],
+      "explanation": "After 24%:₹845. After 21%:₹667"
+    },
+    "hi": {
+      "question": "₹1112 पर 24%+21% छूट। विक्रय मूल्य?",
+      "options": [
+        "667",
+        "822",
+        "530",
+        "612"
+      ],
+      "explanation": "विक्रय मूल्य=₹667"
+    }
+  },
+  {
+    "id": "ntpc-m-0039",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "₹8694 at 25%+10% successive discount? SP?",
+      "options": [
+        "5779",
+        "5868",
+        "5652",
+        "6117"
+      ],
+      "explanation": "After 25%:₹6520. After 10%:₹5868"
+    },
+    "hi": {
+      "question": "₹8694 पर 25%+10% छूट। विक्रय मूल्य?",
+      "options": [
+        "5779",
+        "5868",
+        "5652",
+        "6117"
+      ],
+      "explanation": "विक्रय मूल्य=₹5868"
+    }
+  },
+  {
+    "id": "ntpc-m-0040",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "₹5220 at 19%+26% successive discount? SP?",
+      "options": [
+        "2871",
+        "3128",
+        "3073",
+        "3200"
+      ],
+      "explanation": "After 19%:₹4228. After 26%:₹3128"
+    },
+    "hi": {
+      "question": "₹5220 पर 19%+26% छूट। विक्रय मूल्य?",
+      "options": [
+        "2871",
+        "3128",
+        "3073",
+        "3200"
+      ],
+      "explanation": "विक्रय मूल्य=₹3128"
+    }
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 28% becomes 3243.52. Find the original number.",
+      "options": [
+        "2613",
+        "2534",
+        "1824",
+        "2434"
+      ],
+      "explanation": "Let x be original. x × (1+28/100) = 3243.52. x = 2534."
+    },
+    "hi": {
+      "question": "28% बढ़ने पर 3243.52 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "2613",
+        "2534",
+        "1824",
+        "2434"
+      ],
+      "explanation": "माना x मूल। x × (1+28/100) = 3243.52। x = 2534।"
+    },
+    "id": "ntpc-m-0041"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 40% of 2652?",
+      "options": [
+        "1326",
+        "2652",
+        "5304",
+        "1060.8"
+      ],
+      "explanation": "40% of 2652 = 2652 × 40/100 = 1060.8."
+    },
+    "hi": {
+      "question": "2652 का 40% क्या है?",
+      "options": [
+        "1326",
+        "2652",
+        "5304",
+        "1060.8"
+      ],
+      "explanation": "2652 का 40% = 2652 × 40/100 = 1060.8।"
+    },
+    "id": "ntpc-m-0042"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 12% of 1076?",
+      "options": [
+        "129.12",
+        "538",
+        "2152",
+        "1076"
+      ],
+      "explanation": "12% of 1076 = 1076 × 12/100 = 129.12."
+    },
+    "hi": {
+      "question": "1076 का 12% क्या है?",
+      "options": [
+        "129.12",
+        "538",
+        "2152",
+        "1076"
+      ],
+      "explanation": "1076 का 12% = 1076 × 12/100 = 129.12।"
+    },
+    "id": "ntpc-m-0043"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 18% becomes 3549.44. Find the original number.",
+      "options": [
+        "2965",
+        "3008",
+        "3099",
+        "2466"
+      ],
+      "explanation": "Let x be original. x × (1+18/100) = 3549.44. x = 3008."
+    },
+    "hi": {
+      "question": "18% बढ़ने पर 3549.44 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "2965",
+        "3008",
+        "3099",
+        "2466"
+      ],
+      "explanation": "माना x मूल। x × (1+18/100) = 3549.44। x = 3008।"
+    },
+    "id": "ntpc-m-0044"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 10% of 3669?",
+      "options": [
+        "1834",
+        "3669",
+        "7338",
+        "366.9"
+      ],
+      "explanation": "10% of 3669 = 3669 × 10/100 = 366.9."
+    },
+    "hi": {
+      "question": "3669 का 10% क्या है?",
+      "options": [
+        "1834",
+        "3669",
+        "7338",
+        "366.9"
+      ],
+      "explanation": "3669 का 10% = 3669 × 10/100 = 366.9।"
+    },
+    "id": "ntpc-m-0045"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 13% becomes 2649.85. Find the original number.",
+      "options": [
+        "2411",
+        "2345",
+        "2265",
+        "2040"
+      ],
+      "explanation": "Let x be original. x × (1+13/100) = 2649.85. x = 2345."
+    },
+    "hi": {
+      "question": "13% बढ़ने पर 2649.85 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "2411",
+        "2345",
+        "2265",
+        "2040"
+      ],
+      "explanation": "माना x मूल। x × (1+13/100) = 2649.85। x = 2345।"
+    },
+    "id": "ntpc-m-0046"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 12% of 816?",
+      "options": [
+        "1632",
+        "97.92",
+        "408",
+        "816"
+      ],
+      "explanation": "12% of 816 = 816 × 12/100 = 97.92."
+    },
+    "hi": {
+      "question": "816 का 12% क्या है?",
+      "options": [
+        "1632",
+        "97.92",
+        "408",
+        "816"
+      ],
+      "explanation": "816 का 12% = 816 × 12/100 = 97.92।"
+    },
+    "id": "ntpc-m-0047"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 28% of 4971?",
+      "options": [
+        "4971",
+        "2485",
+        "1391.88",
+        "9942"
+      ],
+      "explanation": "28% of 4971 = 4971 × 28/100 = 1391.88."
+    },
+    "hi": {
+      "question": "4971 का 28% क्या है?",
+      "options": [
+        "4971",
+        "2485",
+        "1391.88",
+        "9942"
+      ],
+      "explanation": "4971 का 28% = 4971 × 28/100 = 1391.88।"
+    },
+    "id": "ntpc-m-0048"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 24% of 3187?",
+      "options": [
+        "1593",
+        "6374",
+        "3187",
+        "764.88"
+      ],
+      "explanation": "24% of 3187 = 3187 × 24/100 = 764.88."
+    },
+    "hi": {
+      "question": "3187 का 24% क्या है?",
+      "options": [
+        "1593",
+        "6374",
+        "3187",
+        "764.88"
+      ],
+      "explanation": "3187 का 24% = 3187 × 24/100 = 764.88।"
+    },
+    "id": "ntpc-m-0049"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 20% becomes 1250.4. Find the original number.",
+      "options": [
+        "833",
+        "980",
+        "1042",
+        "1123"
+      ],
+      "explanation": "Let x be original. x × (1+20/100) = 1250.4. x = 1042."
+    },
+    "hi": {
+      "question": "20% बढ़ने पर 1250.4 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "833",
+        "980",
+        "1042",
+        "1123"
+      ],
+      "explanation": "माना x मूल। x × (1+20/100) = 1250.4। x = 1042।"
+    },
+    "id": "ntpc-m-0050"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 16% becomes 4149.32. Find the original number.",
+      "options": [
+        "3515",
+        "3577",
+        "3004",
+        "3629"
+      ],
+      "explanation": "Let x be original. x × (1+16/100) = 4149.32. x = 3577."
+    },
+    "hi": {
+      "question": "16% बढ़ने पर 4149.32 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "3515",
+        "3577",
+        "3004",
+        "3629"
+      ],
+      "explanation": "माना x मूल। x × (1+16/100) = 4149.32। x = 3577।"
+    },
+    "id": "ntpc-m-0051"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 11% of 3333?",
+      "options": [
+        "3333",
+        "1666",
+        "366.63",
+        "6666"
+      ],
+      "explanation": "11% of 3333 = 3333 × 11/100 = 366.63."
+    },
+    "hi": {
+      "question": "3333 का 11% क्या है?",
+      "options": [
+        "3333",
+        "1666",
+        "366.63",
+        "6666"
+      ],
+      "explanation": "3333 का 11% = 3333 × 11/100 = 366.63।"
+    },
+    "id": "ntpc-m-0052"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 34% becomes 4105.76. Find the original number.",
+      "options": [
+        "3103",
+        "2022",
+        "3026",
+        "3064"
+      ],
+      "explanation": "Let x be original. x × (1+34/100) = 4105.76. x = 3064."
+    },
+    "hi": {
+      "question": "34% बढ़ने पर 4105.76 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "3103",
+        "2022",
+        "3026",
+        "3064"
+      ],
+      "explanation": "माना x मूल। x × (1+34/100) = 4105.76। x = 3064।"
+    },
+    "id": "ntpc-m-0053"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 30% becomes 3755.7. Find the original number.",
+      "options": [
+        "2889",
+        "2907",
+        "2022",
+        "2844"
+      ],
+      "explanation": "Let x be original. x × (1+30/100) = 3755.7. x = 2889."
+    },
+    "hi": {
+      "question": "30% बढ़ने पर 3755.7 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "2889",
+        "2907",
+        "2022",
+        "2844"
+      ],
+      "explanation": "माना x मूल। x × (1+30/100) = 3755.7। x = 2889।"
+    },
+    "id": "ntpc-m-0054"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 39% of 2912?",
+      "options": [
+        "1456",
+        "5824",
+        "2912",
+        "1135.68"
+      ],
+      "explanation": "39% of 2912 = 2912 × 39/100 = 1135.68."
+    },
+    "hi": {
+      "question": "2912 का 39% क्या है?",
+      "options": [
+        "1456",
+        "5824",
+        "2912",
+        "1135.68"
+      ],
+      "explanation": "2912 का 39% = 2912 × 39/100 = 1135.68।"
+    },
+    "id": "ntpc-m-0055"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 21% becomes 620.73. Find the original number.",
+      "options": [
+        "405",
+        "513",
+        "578",
+        "459"
+      ],
+      "explanation": "Let x be original. x × (1+21/100) = 620.73. x = 513."
+    },
+    "hi": {
+      "question": "21% बढ़ने पर 620.73 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "405",
+        "513",
+        "578",
+        "459"
+      ],
+      "explanation": "माना x मूल। x × (1+21/100) = 620.73। x = 513।"
+    },
+    "id": "ntpc-m-0056"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 29% becomes 6350.67. Find the original number.",
+      "options": [
+        "4938",
+        "4823",
+        "4923",
+        "3495"
+      ],
+      "explanation": "Let x be original. x × (1+29/100) = 6350.67. x = 4923."
+    },
+    "hi": {
+      "question": "29% बढ़ने पर 6350.67 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "4938",
+        "4823",
+        "4923",
+        "3495"
+      ],
+      "explanation": "माना x मूल। x × (1+29/100) = 6350.67। x = 4923।"
+    },
+    "id": "ntpc-m-0057"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 28% becomes 4778.24. Find the original number.",
+      "options": [
+        "3828",
+        "3733",
+        "2687",
+        "3681"
+      ],
+      "explanation": "Let x be original. x × (1+28/100) = 4778.24. x = 3733."
+    },
+    "hi": {
+      "question": "28% बढ़ने पर 4778.24 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "3828",
+        "3733",
+        "2687",
+        "3681"
+      ],
+      "explanation": "माना x मूल। x × (1+28/100) = 4778.24। x = 3733।"
+    },
+    "id": "ntpc-m-0058"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 24% becomes 5398.96. Find the original number.",
+      "options": [
+        "4354",
+        "4416",
+        "4303",
+        "3309"
+      ],
+      "explanation": "Let x be original. x × (1+24/100) = 5398.96. x = 4354."
+    },
+    "hi": {
+      "question": "24% बढ़ने पर 5398.96 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "4354",
+        "4416",
+        "4303",
+        "3309"
+      ],
+      "explanation": "माना x मूल। x × (1+24/100) = 5398.96। x = 4354।"
+    },
+    "id": "ntpc-m-0059"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 40% becomes 1738.8. Find the original number.",
+      "options": [
+        "1242",
+        "745",
+        "1184",
+        "1337"
+      ],
+      "explanation": "Let x be original. x × (1+40/100) = 1738.8. x = 1242."
+    },
+    "hi": {
+      "question": "40% बढ़ने पर 1738.8 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "1242",
+        "745",
+        "1184",
+        "1337"
+      ],
+      "explanation": "माना x मूल। x × (1+40/100) = 1738.8। x = 1242।"
+    },
+    "id": "ntpc-m-0060"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 30% of 4688?",
+      "options": [
+        "9376",
+        "1406.4",
+        "4688",
+        "2344"
+      ],
+      "explanation": "30% of 4688 = 4688 × 30/100 = 1406.4."
+    },
+    "hi": {
+      "question": "4688 का 30% क्या है?",
+      "options": [
+        "9376",
+        "1406.4",
+        "4688",
+        "2344"
+      ],
+      "explanation": "4688 का 30% = 4688 × 30/100 = 1406.4।"
+    },
+    "id": "ntpc-m-0061"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 32% of 4951?",
+      "options": [
+        "1584.32",
+        "9902",
+        "4951",
+        "2475"
+      ],
+      "explanation": "32% of 4951 = 4951 × 32/100 = 1584.32."
+    },
+    "hi": {
+      "question": "4951 का 32% क्या है?",
+      "options": [
+        "1584.32",
+        "9902",
+        "4951",
+        "2475"
+      ],
+      "explanation": "4951 का 32% = 4951 × 32/100 = 1584.32।"
+    },
+    "id": "ntpc-m-0062"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 33% of 1950?",
+      "options": [
+        "3900",
+        "643.5",
+        "975",
+        "1950"
+      ],
+      "explanation": "33% of 1950 = 1950 × 33/100 = 643.5."
+    },
+    "hi": {
+      "question": "1950 का 33% क्या है?",
+      "options": [
+        "3900",
+        "643.5",
+        "975",
+        "1950"
+      ],
+      "explanation": "1950 का 33% = 1950 × 33/100 = 643.5।"
+    },
+    "id": "ntpc-m-0063"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 23% of 4422?",
+      "options": [
+        "4422",
+        "8844",
+        "1017.06",
+        "2211"
+      ],
+      "explanation": "23% of 4422 = 4422 × 23/100 = 1017.06."
+    },
+    "hi": {
+      "question": "4422 का 23% क्या है?",
+      "options": [
+        "4422",
+        "8844",
+        "1017.06",
+        "2211"
+      ],
+      "explanation": "4422 का 23% = 4422 × 23/100 = 1017.06।"
+    },
+    "id": "ntpc-m-0064"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 24% of 2040?",
+      "options": [
+        "4080",
+        "1020",
+        "489.6",
+        "2040"
+      ],
+      "explanation": "24% of 2040 = 2040 × 24/100 = 489.6."
+    },
+    "hi": {
+      "question": "2040 का 24% क्या है?",
+      "options": [
+        "4080",
+        "1020",
+        "489.6",
+        "2040"
+      ],
+      "explanation": "2040 का 24% = 2040 × 24/100 = 489.6।"
+    },
+    "id": "ntpc-m-0065"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 20% of 4092?",
+      "options": [
+        "8184",
+        "2046",
+        "4092",
+        "818.4"
+      ],
+      "explanation": "20% of 4092 = 4092 × 20/100 = 818.4."
+    },
+    "hi": {
+      "question": "4092 का 20% क्या है?",
+      "options": [
+        "8184",
+        "2046",
+        "4092",
+        "818.4"
+      ],
+      "explanation": "4092 का 20% = 4092 × 20/100 = 818.4।"
+    },
+    "id": "ntpc-m-0066"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 17% becomes 3913.65. Find the original number.",
+      "options": [
+        "3317",
+        "3386",
+        "2776",
+        "3345"
+      ],
+      "explanation": "Let x be original. x × (1+17/100) = 3913.65. x = 3345."
+    },
+    "hi": {
+      "question": "17% बढ़ने पर 3913.65 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "3317",
+        "3386",
+        "2776",
+        "3345"
+      ],
+      "explanation": "माना x मूल। x × (1+17/100) = 3913.65। x = 3345।"
+    },
+    "id": "ntpc-m-0067"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 19% of 1640?",
+      "options": [
+        "1640",
+        "820",
+        "311.6",
+        "3280"
+      ],
+      "explanation": "19% of 1640 = 1640 × 19/100 = 311.6."
+    },
+    "hi": {
+      "question": "1640 का 19% क्या है?",
+      "options": [
+        "1640",
+        "820",
+        "311.6",
+        "3280"
+      ],
+      "explanation": "1640 का 19% = 1640 × 19/100 = 311.6।"
+    },
+    "id": "ntpc-m-0068"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 12% becomes 4411.68. Find the original number.",
+      "options": [
+        "3939",
+        "3466",
+        "4008",
+        "3844"
+      ],
+      "explanation": "Let x be original. x × (1+12/100) = 4411.68. x = 3939."
+    },
+    "hi": {
+      "question": "12% बढ़ने पर 4411.68 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "3939",
+        "3466",
+        "4008",
+        "3844"
+      ],
+      "explanation": "माना x मूल। x × (1+12/100) = 4411.68। x = 3939।"
+    },
+    "id": "ntpc-m-0069"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 40% of 3852?",
+      "options": [
+        "1540.8",
+        "1926",
+        "3852",
+        "7704"
+      ],
+      "explanation": "40% of 3852 = 3852 × 40/100 = 1540.8."
+    },
+    "hi": {
+      "question": "3852 का 40% क्या है?",
+      "options": [
+        "1540.8",
+        "1926",
+        "3852",
+        "7704"
+      ],
+      "explanation": "3852 का 40% = 3852 × 40/100 = 1540.8।"
+    },
+    "id": "ntpc-m-0070"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 20% of 2471?",
+      "options": [
+        "2471",
+        "494.2",
+        "1235",
+        "4942"
+      ],
+      "explanation": "20% of 2471 = 2471 × 20/100 = 494.2."
+    },
+    "hi": {
+      "question": "2471 का 20% क्या है?",
+      "options": [
+        "2471",
+        "494.2",
+        "1235",
+        "4942"
+      ],
+      "explanation": "2471 का 20% = 2471 × 20/100 = 494.2।"
+    },
+    "id": "ntpc-m-0071"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 22% becomes 4639.66. Find the original number.",
+      "options": [
+        "3803",
+        "2966",
+        "3849",
+        "3763"
+      ],
+      "explanation": "Let x be original. x × (1+22/100) = 4639.66. x = 3803."
+    },
+    "hi": {
+      "question": "22% बढ़ने पर 4639.66 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "3803",
+        "2966",
+        "3849",
+        "3763"
+      ],
+      "explanation": "माना x मूल। x × (1+22/100) = 4639.66। x = 3803।"
+    },
+    "id": "ntpc-m-0072"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 39% becomes 1195.4. Find the original number.",
+      "options": [
+        "524",
+        "860",
+        "801",
+        "899"
+      ],
+      "explanation": "Let x be original. x × (1+39/100) = 1195.4. x = 860."
+    },
+    "hi": {
+      "question": "39% बढ़ने पर 1195.4 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "524",
+        "860",
+        "801",
+        "899"
+      ],
+      "explanation": "माना x मूल। x × (1+39/100) = 1195.4। x = 860।"
+    },
+    "id": "ntpc-m-0073"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 9% becomes 3921.82. Find the original number.",
+      "options": [
+        "3677",
+        "3529",
+        "3598",
+        "3274"
+      ],
+      "explanation": "Let x be original. x × (1+9/100) = 3921.82. x = 3598."
+    },
+    "hi": {
+      "question": "9% बढ़ने पर 3921.82 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "3677",
+        "3529",
+        "3598",
+        "3274"
+      ],
+      "explanation": "माना x मूल। x × (1+9/100) = 3921.82। x = 3598।"
+    },
+    "id": "ntpc-m-0074"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 31% of 3390?",
+      "options": [
+        "6780",
+        "3390",
+        "1695",
+        "1050.9"
+      ],
+      "explanation": "31% of 3390 = 3390 × 31/100 = 1050.9."
+    },
+    "hi": {
+      "question": "3390 का 31% क्या है?",
+      "options": [
+        "6780",
+        "3390",
+        "1695",
+        "1050.9"
+      ],
+      "explanation": "3390 का 31% = 3390 × 31/100 = 1050.9।"
+    },
+    "id": "ntpc-m-0075"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 35% of 248?",
+      "options": [
+        "86.8",
+        "496",
+        "248",
+        "124"
+      ],
+      "explanation": "35% of 248 = 248 × 35/100 = 86.8."
+    },
+    "hi": {
+      "question": "248 का 35% क्या है?",
+      "options": [
+        "86.8",
+        "496",
+        "248",
+        "124"
+      ],
+      "explanation": "248 का 35% = 248 × 35/100 = 86.8।"
+    },
+    "id": "ntpc-m-0076"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 39% of 4673?",
+      "options": [
+        "2336",
+        "1822.47",
+        "9346",
+        "4673"
+      ],
+      "explanation": "39% of 4673 = 4673 × 39/100 = 1822.47."
+    },
+    "hi": {
+      "question": "4673 का 39% क्या है?",
+      "options": [
+        "2336",
+        "1822.47",
+        "9346",
+        "4673"
+      ],
+      "explanation": "4673 का 39% = 4673 × 39/100 = 1822.47।"
+    },
+    "id": "ntpc-m-0077"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 22% becomes 4599.4. Find the original number.",
+      "options": [
+        "3829",
+        "3770",
+        "3717",
+        "2940"
+      ],
+      "explanation": "Let x be original. x × (1+22/100) = 4599.4. x = 3770."
+    },
+    "hi": {
+      "question": "22% बढ़ने पर 4599.4 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "3829",
+        "3770",
+        "3717",
+        "2940"
+      ],
+      "explanation": "माना x मूल। x × (1+22/100) = 4599.4। x = 3770।"
+    },
+    "id": "ntpc-m-0078"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 34% of 1245?",
+      "options": [
+        "622",
+        "2490",
+        "1245",
+        "423.3"
+      ],
+      "explanation": "34% of 1245 = 1245 × 34/100 = 423.3."
+    },
+    "hi": {
+      "question": "1245 का 34% क्या है?",
+      "options": [
+        "622",
+        "2490",
+        "1245",
+        "423.3"
+      ],
+      "explanation": "1245 का 34% = 1245 × 34/100 = 423.3।"
+    },
+    "id": "ntpc-m-0079"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 10% becomes 4082.1. Find the original number.",
+      "options": [
+        "3339",
+        "3678",
+        "3780",
+        "3711"
+      ],
+      "explanation": "Let x be original. x × (1+10/100) = 4082.1. x = 3711."
+    },
+    "hi": {
+      "question": "10% बढ़ने पर 4082.1 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "3339",
+        "3678",
+        "3780",
+        "3711"
+      ],
+      "explanation": "माना x मूल। x × (1+10/100) = 4082.1। x = 3711।"
+    },
+    "id": "ntpc-m-0080"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 25% becomes 2416.25. Find the original number.",
+      "options": [
+        "1933",
+        "1449",
+        "1986",
+        "1875"
+      ],
+      "explanation": "Let x be original. x × (1+25/100) = 2416.25. x = 1933."
+    },
+    "hi": {
+      "question": "25% बढ़ने पर 2416.25 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "1933",
+        "1449",
+        "1986",
+        "1875"
+      ],
+      "explanation": "माना x मूल। x × (1+25/100) = 2416.25। x = 1933।"
+    },
+    "id": "ntpc-m-0081"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 10% becomes 4457.2. Find the original number.",
+      "options": [
+        "4131",
+        "3646",
+        "4052",
+        "4036"
+      ],
+      "explanation": "Let x be original. x × (1+10/100) = 4457.2. x = 4052."
+    },
+    "hi": {
+      "question": "10% बढ़ने पर 4457.2 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "4131",
+        "3646",
+        "4052",
+        "4036"
+      ],
+      "explanation": "माना x मूल। x × (1+10/100) = 4457.2। x = 4052।"
+    },
+    "id": "ntpc-m-0082"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 7% of 454?",
+      "options": [
+        "908",
+        "227",
+        "31.78",
+        "454"
+      ],
+      "explanation": "7% of 454 = 454 × 7/100 = 31.78."
+    },
+    "hi": {
+      "question": "454 का 7% क्या है?",
+      "options": [
+        "908",
+        "227",
+        "31.78",
+        "454"
+      ],
+      "explanation": "454 का 7% = 454 × 7/100 = 31.78।"
+    },
+    "id": "ntpc-m-0083"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 20% becomes 1480.8. Find the original number.",
+      "options": [
+        "1234",
+        "1152",
+        "987",
+        "1258"
+      ],
+      "explanation": "Let x be original. x × (1+20/100) = 1480.8. x = 1234."
+    },
+    "hi": {
+      "question": "20% बढ़ने पर 1480.8 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "1234",
+        "1152",
+        "987",
+        "1258"
+      ],
+      "explanation": "माना x मूल। x × (1+20/100) = 1480.8। x = 1234।"
+    },
+    "id": "ntpc-m-0084"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 28% of 1574?",
+      "options": [
+        "787",
+        "1574",
+        "3148",
+        "440.72"
+      ],
+      "explanation": "28% of 1574 = 1574 × 28/100 = 440.72."
+    },
+    "hi": {
+      "question": "1574 का 28% क्या है?",
+      "options": [
+        "787",
+        "1574",
+        "3148",
+        "440.72"
+      ],
+      "explanation": "1574 का 28% = 1574 × 28/100 = 440.72।"
+    },
+    "id": "ntpc-m-0085"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 11% becomes 5483.4. Find the original number.",
+      "options": [
+        "4857",
+        "4940",
+        "4989",
+        "4396"
+      ],
+      "explanation": "Let x be original. x × (1+11/100) = 5483.4. x = 4940."
+    },
+    "hi": {
+      "question": "11% बढ़ने पर 5483.4 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "4857",
+        "4940",
+        "4989",
+        "4396"
+      ],
+      "explanation": "माना x मूल। x × (1+11/100) = 5483.4। x = 4940।"
+    },
+    "id": "ntpc-m-0086"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 9% becomes 2386.01. Find the original number.",
+      "options": [
+        "2237",
+        "1991",
+        "2092",
+        "2189"
+      ],
+      "explanation": "Let x be original. x × (1+9/100) = 2386.01. x = 2189."
+    },
+    "hi": {
+      "question": "9% बढ़ने पर 2386.01 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "2237",
+        "1991",
+        "2092",
+        "2189"
+      ],
+      "explanation": "माना x मूल। x × (1+9/100) = 2386.01। x = 2189।"
+    },
+    "id": "ntpc-m-0087"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 27% becomes 5796.28. Find the original number.",
+      "options": [
+        "3331",
+        "4621",
+        "4564",
+        "4546"
+      ],
+      "explanation": "Let x be original. x × (1+27/100) = 5796.28. x = 4564."
+    },
+    "hi": {
+      "question": "27% बढ़ने पर 5796.28 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "3331",
+        "4621",
+        "4564",
+        "4546"
+      ],
+      "explanation": "माना x मूल। x × (1+27/100) = 5796.28। x = 4564।"
+    },
+    "id": "ntpc-m-0088"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A number increased by 36% becomes 1447.04. Find the original number.",
+      "options": [
+        "1120",
+        "1064",
+        "973",
+        "680"
+      ],
+      "explanation": "Let x be original. x × (1+36/100) = 1447.04. x = 1064."
+    },
+    "hi": {
+      "question": "36% बढ़ने पर 1447.04 हो जाती है। मूल संख्या ज्ञात करें।",
+      "options": [
+        "1120",
+        "1064",
+        "973",
+        "680"
+      ],
+      "explanation": "माना x मूल। x × (1+36/100) = 1447.04। x = 1064।"
+    },
+    "id": "ntpc-m-0089"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 32% of 1642?",
+      "options": [
+        "525.44",
+        "1642",
+        "3284",
+        "821"
+      ],
+      "explanation": "32% of 1642 = 1642 × 32/100 = 525.44."
+    },
+    "hi": {
+      "question": "1642 का 32% क्या है?",
+      "options": [
+        "525.44",
+        "1642",
+        "3284",
+        "821"
+      ],
+      "explanation": "1642 का 32% = 1642 × 32/100 = 525.44।"
+    },
+    "id": "ntpc-m-0090"
+  }
 ]

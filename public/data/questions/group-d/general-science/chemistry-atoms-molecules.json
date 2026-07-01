@@ -1,10 +1,2212 @@
 [
-  {"id":"groupd-s-0001","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"What is the chemical formula of water?","options":["HO","HO2","H2O","H2O2"],"explanation":"Water is H2O: 2 hydrogen atoms and 1 oxygen atom per molecule."},"hi":{"question":"पानी का रासायनिक सूत्र क्या है?","options":["HO","HO2","H2O","H2O2"],"explanation":"पानी H2O है: प्रति अणु 2 हाइड्रोजन परमाणु और 1 ऑक्सीजन परमाणु।"}},
-  {"id":"groupd-s-0002","correctOption":"C","difficulty":"easy","sourceYear":2023,"en":{"question":"Who discovered the electron?","options":["Ernest Rutherford","James Chadwick","J.J. Thomson","John Dalton"],"explanation":"J.J. Thomson discovered the electron in 1897 through cathode ray tube experiments."},"hi":{"question":"इलेक्ट्रॉन की खोज किसने की?","options":["अर्नेस्ट रदरफोर्ड","जेम्स चैडविक","जे.जे. थॉमसन","जॉन डाल्टन"],"explanation":"जे.जे. थॉमसन ने 1897 में कैथोड किरण ट्यूब प्रयोगों से इलेक्ट्रॉन की खोज की।"}},
-  {"id":"groupd-s-0003","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Atomic number = number of:","options":["Neutrons","Electrons only","Protons","Protons + neutrons"],"explanation":"Atomic number (Z) = number of protons in nucleus. In neutral atom, protons = electrons."},"hi":{"question":"परमाणु क्रमांक = किसकी संख्या?","options":["न्यूट्रॉन","केवल इलेक्ट्रॉन","प्रोटॉन","प्रोटॉन + न्यूट्रॉन"],"explanation":"परमाणु क्रमांक (Z) = नाभिक में प्रोटॉन की संख्या। उदासीन परमाणु में प्रोटॉन = इलेक्ट्रॉन।"}},
-  {"id":"groupd-s-0004","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"Isotopes have same number of:","options":["Neutrons","Protons but different neutrons","Electrons but different protons","Mass number"],"explanation":"Isotopes: same atomic number (protons), different mass number (neutrons). E.g., C-12, C-13, C-14."},"hi":{"question":"समस्थानिकों में किसकी संख्या समान होती है?","options":["न्यूट्रॉन","प्रोटॉन लेकिन भिन्न न्यूट्रॉन","इलेक्ट्रॉन लेकिन भिन्न प्रोटॉन","द्रव्यमान संख्या"],"explanation":"समस्थानिक: समान परमाणु क्रमांक (प्रोटॉन), भिन्न द्रव्यमान संख्या (न्यूट्रॉन)। जैसे C-12, C-13, C-14।"}},
-  {"id":"groupd-s-0005","correctOption":"B","difficulty":"easy","sourceYear":2023,"en":{"question":"Electron configuration of Na (Z=11):","options":["2, 8, 2","2, 8, 1","2, 7, 2","2, 6, 3"],"explanation":"Sodium (Na, Z=11): K=2, L=8, M=1. Written as 2, 8, 1."},"hi":{"question":"Na (Z=11) का इलेक्ट्रॉन विन्यास:","options":["2, 8, 2","2, 8, 1","2, 7, 2","2, 6, 3"],"explanation":"सोडियम (Na, Z=11): K=2, L=8, M=1। लिखा जाता है 2, 8, 1।"}},
-  {"id":"groupd-s-0006","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"Chlorine: mass 35, atomic 17. How many neutrons?","options":["17","18","35","52"],"explanation":"Neutrons = Mass number - Atomic number = 35 - 17 = 18."},"hi":{"question":"क्लोरीन: द्रव्यमान 35, परमाणु 17। कितने न्यूट्रॉन?","options":["17","18","35","52"],"explanation":"न्यूट्रॉन = द्रव्यमान संख्या - परमाणु क्रमांक = 35 - 17 = 18।"}},
-  {"id":"groupd-s-0007","correctOption":"C","difficulty":"easy","sourceYear":2023,"en":{"question":"Isobars are atoms of different elements with same:","options":["Atomic number","Protons","Mass number","Electrons"],"explanation":"Isobars: same mass number, different atomic numbers. E.g., Ca-40, Ar-40."},"hi":{"question":"समभारिक विभिन्न तत्वों के परमाणु हैं जिनकी समान:","options":["परमाणु क्रमांक","प्रोटॉन","द्रव्यमान संख्या","इलेक्ट्रॉन"],"explanation":"समभारिक: समान द्रव्यमान संख्या, भिन्न परमाणु क्रमांक। जैसे Ca-40, Ar-40।"}},
-  {"id":"groupd-s-0008","correctOption":"C","difficulty":"medium","sourceYear":2024,"en":{"question":"Molecular mass of H2SO4? (H=1, S=32, O=16)","options":["49 u","82 u","98 u","100 u"],"explanation":"H2SO4: 2(1) + 32 + 4(16) = 2 + 32 + 64 = 98 u."},"hi":{"question":"H2SO4 का आणविक द्रव्यमान? (H=1, S=32, O=16)","options":["49 u","82 u","98 u","100 u"],"explanation":"H2SO4: 2(1) + 32 + 4(16) = 2 + 32 + 64 = 98 u।"}}
+  {
+    "id": "groupd-s-0001",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the chemical formula of water?",
+      "options": [
+        "HO",
+        "HO2",
+        "H2O",
+        "H2O2"
+      ],
+      "explanation": "Water is H2O: 2 hydrogen atoms and 1 oxygen atom per molecule."
+    },
+    "hi": {
+      "question": "पानी का रासायनिक सूत्र क्या है?",
+      "options": [
+        "HO",
+        "HO2",
+        "H2O",
+        "H2O2"
+      ],
+      "explanation": "पानी H2O है: प्रति अणु 2 हाइड्रोजन परमाणु और 1 ऑक्सीजन परमाणु।"
+    }
+  },
+  {
+    "id": "groupd-s-0002",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Who discovered the electron?",
+      "options": [
+        "Ernest Rutherford",
+        "James Chadwick",
+        "J.J. Thomson",
+        "John Dalton"
+      ],
+      "explanation": "J.J. Thomson discovered the electron in 1897 through cathode ray tube experiments."
+    },
+    "hi": {
+      "question": "इलेक्ट्रॉन की खोज किसने की?",
+      "options": [
+        "अर्नेस्ट रदरफोर्ड",
+        "जेम्स चैडविक",
+        "जे.जे. थॉमसन",
+        "जॉन डाल्टन"
+      ],
+      "explanation": "जे.जे. थॉमसन ने 1897 में कैथोड किरण ट्यूब प्रयोगों से इलेक्ट्रॉन की खोज की।"
+    }
+  },
+  {
+    "id": "groupd-s-0003",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Atomic number = number of:",
+      "options": [
+        "Neutrons",
+        "Electrons only",
+        "Protons",
+        "Protons + neutrons"
+      ],
+      "explanation": "Atomic number (Z) = number of protons in nucleus. In neutral atom, protons = electrons."
+    },
+    "hi": {
+      "question": "परमाणु क्रमांक = किसकी संख्या?",
+      "options": [
+        "न्यूट्रॉन",
+        "केवल इलेक्ट्रॉन",
+        "प्रोटॉन",
+        "प्रोटॉन + न्यूट्रॉन"
+      ],
+      "explanation": "परमाणु क्रमांक (Z) = नाभिक में प्रोटॉन की संख्या। उदासीन परमाणु में प्रोटॉन = इलेक्ट्रॉन।"
+    }
+  },
+  {
+    "id": "groupd-s-0004",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Isotopes have same number of:",
+      "options": [
+        "Neutrons",
+        "Protons but different neutrons",
+        "Electrons but different protons",
+        "Mass number"
+      ],
+      "explanation": "Isotopes: same atomic number (protons), different mass number (neutrons). E.g., C-12, C-13, C-14."
+    },
+    "hi": {
+      "question": "समस्थानिकों में किसकी संख्या समान होती है?",
+      "options": [
+        "न्यूट्रॉन",
+        "प्रोटॉन लेकिन भिन्न न्यूट्रॉन",
+        "इलेक्ट्रॉन लेकिन भिन्न प्रोटॉन",
+        "द्रव्यमान संख्या"
+      ],
+      "explanation": "समस्थानिक: समान परमाणु क्रमांक (प्रोटॉन), भिन्न द्रव्यमान संख्या (न्यूट्रॉन)। जैसे C-12, C-13, C-14।"
+    }
+  },
+  {
+    "id": "groupd-s-0005",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Electron configuration of Na (Z=11):",
+      "options": [
+        "2, 8, 2",
+        "2, 8, 1",
+        "2, 7, 2",
+        "2, 6, 3"
+      ],
+      "explanation": "Sodium (Na, Z=11): K=2, L=8, M=1. Written as 2, 8, 1."
+    },
+    "hi": {
+      "question": "Na (Z=11) का इलेक्ट्रॉन विन्यास:",
+      "options": [
+        "2, 8, 2",
+        "2, 8, 1",
+        "2, 7, 2",
+        "2, 6, 3"
+      ],
+      "explanation": "सोडियम (Na, Z=11): K=2, L=8, M=1। लिखा जाता है 2, 8, 1।"
+    }
+  },
+  {
+    "id": "groupd-s-0006",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Chlorine: mass 35, atomic 17. How many neutrons?",
+      "options": [
+        "17",
+        "18",
+        "35",
+        "52"
+      ],
+      "explanation": "Neutrons = Mass number - Atomic number = 35 - 17 = 18."
+    },
+    "hi": {
+      "question": "क्लोरीन: द्रव्यमान 35, परमाणु 17। कितने न्यूट्रॉन?",
+      "options": [
+        "17",
+        "18",
+        "35",
+        "52"
+      ],
+      "explanation": "न्यूट्रॉन = द्रव्यमान संख्या - परमाणु क्रमांक = 35 - 17 = 18।"
+    }
+  },
+  {
+    "id": "groupd-s-0007",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Isobars are atoms of different elements with same:",
+      "options": [
+        "Atomic number",
+        "Protons",
+        "Mass number",
+        "Electrons"
+      ],
+      "explanation": "Isobars: same mass number, different atomic numbers. E.g., Ca-40, Ar-40."
+    },
+    "hi": {
+      "question": "समभारिक विभिन्न तत्वों के परमाणु हैं जिनकी समान:",
+      "options": [
+        "परमाणु क्रमांक",
+        "प्रोटॉन",
+        "द्रव्यमान संख्या",
+        "इलेक्ट्रॉन"
+      ],
+      "explanation": "समभारिक: समान द्रव्यमान संख्या, भिन्न परमाणु क्रमांक। जैसे Ca-40, Ar-40।"
+    }
+  },
+  {
+    "id": "groupd-s-0008",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Molecular mass of H2SO4? (H=1, S=32, O=16)",
+      "options": [
+        "49 u",
+        "82 u",
+        "98 u",
+        "100 u"
+      ],
+      "explanation": "H2SO4: 2(1) + 32 + 4(16) = 2 + 32 + 64 = 98 u."
+    },
+    "hi": {
+      "question": "H2SO4 का आणविक द्रव्यमान? (H=1, S=32, O=16)",
+      "options": [
+        "49 u",
+        "82 u",
+        "98 u",
+        "100 u"
+      ],
+      "explanation": "H2SO4: 2(1) + 32 + 4(16) = 2 + 32 + 64 = 98 u।"
+    }
+  },
+  {
+    "id": "groupd-s-0009",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The nucleus of an atom contains:",
+      "options": [
+        "Only electrons",
+        "Only neutrons",
+        "Electrons and protons",
+        "Protons and neutrons"
+      ],
+      "explanation": "Nucleus contains protons and neutrons (collectively called nucleons). Electrons orbit around it."
+    },
+    "hi": {
+      "question": "परमाणु का नाभिक होता है:",
+      "options": [
+        "केवल इलेक्ट्रॉन",
+        "केवल न्यूट्रॉन",
+        "इलेक्ट्रॉन और प्रोटॉन",
+        "प्रोटॉन और न्यूट्रॉन"
+      ],
+      "explanation": "नाभिक में प्रोटॉन और न्यूट्रॉन (न्यूक्लिऑन)। इलेक्ट्रॉन इसके चारों ओर परिक्रमा।"
+    }
+  },
+  {
+    "id": "groupd-s-0010",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Who proposed the planetary model of atom?",
+      "options": [
+        "Rutherford",
+        "J.J. Thomson",
+        "Bohr",
+        "Dalton"
+      ],
+      "explanation": "Rutherford proposed nuclear (planetary) model after gold foil experiment in 1911."
+    },
+    "hi": {
+      "question": "परमाणु का ग्रहीय मॉडल किसने प्रस्तावित किया?",
+      "options": [
+        "रदरफोर्ड",
+        "थॉमसन",
+        "बोर",
+        "डाल्टन"
+      ],
+      "explanation": "रदरफोर्ड ने 1911 में स्वर्ण पन्नी प्रयोग के बाद नाभिकीय मॉडल प्रस्तावित किया।"
+    }
+  },
+  {
+    "id": "groupd-s-0011",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Neutron was discovered by:",
+      "options": [
+        "Rutherford",
+        "Thomson",
+        "James Chadwick",
+        "Bohr"
+      ],
+      "explanation": "James Chadwick discovered neutron in 1932 by bombarding beryllium with alpha particles."
+    },
+    "hi": {
+      "question": "न्यूट्रॉन की खोज किसने की?",
+      "options": [
+        "रदरफोर्ड",
+        "थॉमसन",
+        "जेम्स चैडविक",
+        "बोर"
+      ],
+      "explanation": "जेम्स चैडविक ने 1932 में अल्फा कणों से बेरिलियम पर बमबारी कर न्यूट्रॉन खोजा।"
+    }
+  },
+  {
+    "id": "groupd-s-0012",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Mass number of an atom =",
+      "options": [
+        "Protons only",
+        "Protons + Neutrons",
+        "Electrons + Protons",
+        "Neutrons only"
+      ],
+      "explanation": "Mass number (A) = number of protons (Z) + number of neutrons (N)."
+    },
+    "hi": {
+      "question": "द्रव्यमान संख्या =",
+      "options": [
+        "केवल प्रोटॉन",
+        "प्रोटॉन + न्यूट्रॉन",
+        "इलेक्ट्रॉन + प्रोटॉन",
+        "केवल न्यूट्रॉन"
+      ],
+      "explanation": "द्रव्यमान संख्या (A) = प्रोटॉन (Z) + न्यूट्रॉन (N)।"
+    }
+  },
+  {
+    "id": "groupd-s-0013",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Alpha particles are:",
+      "options": [
+        "Electrons",
+        "Protons",
+        "Neutrons",
+        "Helium nuclei (2p+2n)"
+      ],
+      "explanation": "Alpha particles are helium-4 nuclei: 2 protons and 2 neutrons, positively charged."
+    },
+    "hi": {
+      "question": "अल्फा कण हैं:",
+      "options": [
+        "इलेक्ट्रॉन",
+        "प्रोटॉन",
+        "न्यूट्रॉन",
+        "हीलियम नाभिक (2p+2n)"
+      ],
+      "explanation": "अल्फा कण हीलियम-4 नाभिक: 2 प्रोटॉन + 2 न्यूट्रॉन, धनावेशित।"
+    }
+  },
+  {
+    "id": "groupd-s-0014",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Valency of carbon is:",
+      "options": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "explanation": "Carbon (Z=6, 2,4) has 4 valence electrons, so its valency is 4."
+    },
+    "hi": {
+      "question": "कार्बन की संयोजकता:",
+      "options": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "explanation": "कार्बन (Z=6, 2,4) में 4 संयोजी इलेक्ट्रॉन, संयोजकता 4।"
+    }
+  },
+  {
+    "id": "groupd-s-0015",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Molecular mass of CaCO3? (Ca=40, C=12, O=16)",
+      "options": [
+        "84 u",
+        "90 u",
+        "100 u",
+        "110 u"
+      ],
+      "explanation": "CaCO3 = 40 + 12 + 3(16) = 100 u."
+    },
+    "hi": {
+      "question": "CaCO3 का आणविक द्रव्यमान?",
+      "options": [
+        "84 u",
+        "90 u",
+        "100 u",
+        "110 u"
+      ],
+      "explanation": "CaCO3 = 40+12+48 = 100 u।"
+    }
+  },
+  {
+    "id": "groupd-s-0016",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which subatomic particle has negligible mass?",
+      "options": [
+        "Proton",
+        "Electron",
+        "Neutron",
+        "Alpha particle"
+      ],
+      "explanation": "Electron mass (~9.1x10^-31 kg) is about 1/1836 of proton mass — considered negligible."
+    },
+    "hi": {
+      "question": "किस उपपरमाणुक कण का द्रव्यमान नगण्य?",
+      "options": [
+        "प्रोटॉन",
+        "इलेक्ट्रॉन",
+        "न्यूट्रॉन",
+        "अल्फा कण"
+      ],
+      "explanation": "इलेक्ट्रॉन (~9.1x10^-31 kg), प्रोटॉन का लगभग 1/1836 — नगण्य माना जाता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0017",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Mole is the unit of:",
+      "options": [
+        "Mass",
+        "Volume",
+        "Density",
+        "Amount of substance"
+      ],
+      "explanation": "Mole is the SI unit for amount of substance. 1 mole = 6.022x10^23 particles (Avogadro's number)."
+    },
+    "hi": {
+      "question": "मोल किसकी इकाई है?",
+      "options": [
+        "द्रव्यमान",
+        "आयतन",
+        "घनत्व",
+        "पदार्थ की मात्रा"
+      ],
+      "explanation": "मोल पदार्थ की मात्रा की SI इकाई। 1 मोल = 6.022x10^23 कण (आवोगाद्रो संख्या)।"
+    }
+  },
+  {
+    "id": "groupd-s-0018",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Number of moles in 90 g of water? (H2O=18)",
+      "options": [
+        "5",
+        "10",
+        "2",
+        "18"
+      ],
+      "explanation": "Moles = mass/molar mass = 90/18 = 5 moles."
+    },
+    "hi": {
+      "question": "90 g पानी में मोल? (H2O=18)",
+      "options": [
+        "5",
+        "10",
+        "2",
+        "18"
+      ],
+      "explanation": "मोल = 90/18 = 5 मोल।"
+    }
+  },
+  {
+    "id": "groupd-s-0019",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bohr's model introduced the concept of:",
+      "options": [
+        "Nucleus",
+        "Neutron",
+        "Quantized energy levels",
+        "Electron cloud"
+      ],
+      "explanation": "Niels Bohr proposed that electrons revolve in fixed energy levels (shells) with quantized energy."
+    },
+    "hi": {
+      "question": "बोर मॉडल ने किसकी अवधारणा दी?",
+      "options": [
+        "नाभिक",
+        "न्यूट्रॉन",
+        "क्वांटीकृत ऊर्जा स्तर",
+        "इलेक्ट्रॉन बादल"
+      ],
+      "explanation": "नील्स बोर ने प्रस्तावित किया कि इलेक्ट्रॉन निश्चित ऊर्जा स्तरों में परिक्रमा करते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0020",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "How many atoms in 0.5 mole of CO2? (NA=6.022x10^23)",
+      "options": [
+        "3.011x10^23",
+        "9.033x10^23",
+        "6.022x10^23",
+        "1.8066x10^23"
+      ],
+      "explanation": "0.5 mole CO2 = 0.5 NA molecules. Each has 3 atoms. Total atoms = 0.5x3x6.022x10^23=9.033x10^23."
+    },
+    "hi": {
+      "question": "0.5 मोल CO2 में कितने परमाणु?",
+      "options": [
+        "3.011x10^23",
+        "9.033x10^23",
+        "6.022x10^23",
+        "1.8066x10^23"
+      ],
+      "explanation": "0.5 मोल में 0.5x6.022x10^23 अणु। प्रति अणु 3 परमाणु। कुल=9.033x10^23।"
+    }
+  },
+  {
+    "id": "groupd-s-0021",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Valence electrons in chlorine (Z=17)?",
+      "options": [
+        "1",
+        "2",
+        "5",
+        "7"
+      ],
+      "explanation": "Cl (2,8,7) has 7 valence electrons. It gains 1 electron to achieve octet."
+    },
+    "hi": {
+      "question": "क्लोरीन (Z=17) में संयोजी इलेक्ट्रॉन?",
+      "options": [
+        "1",
+        "2",
+        "5",
+        "7"
+      ],
+      "explanation": "Cl (2,8,7) में 7 संयोजी इलेक्ट्रॉन। अष्टक पूरा करने के लिए 1 इलेक्ट्रॉन लेता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0022",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Cathode rays are:",
+      "options": [
+        "Stream of electrons",
+        "Stream of protons",
+        "Stream of neutrons",
+        "Electromagnetic waves"
+      ],
+      "explanation": "Cathode rays are beams of electrons emitted from cathode in a discharge tube."
+    },
+    "hi": {
+      "question": "कैथोड किरणें:",
+      "options": [
+        "इलेक्ट्रॉन धारा",
+        "प्रोटॉन धारा",
+        "न्यूट्रॉन धारा",
+        "विद्युत चुंबकीय तरंगें"
+      ],
+      "explanation": "कैथोड किरणें, डिस्चार्ज ट्यूब में कैथोड से निकलने वाली इलेक्ट्रॉन धारा।"
+    }
+  },
+  {
+    "id": "groupd-s-0023",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Mass of 1 mole of CO2? (C=12, O=16)",
+      "options": [
+        "28 g",
+        "40 g",
+        "44 g",
+        "56 g"
+      ],
+      "explanation": "Molar mass CO2 = 12 + 2(16) = 44 g/mol. So 1 mole = 44 g."
+    },
+    "hi": {
+      "question": "1 मोल CO2 का द्रव्यमान?",
+      "options": [
+        "28 g",
+        "40 g",
+        "44 g",
+        "56 g"
+      ],
+      "explanation": "CO2 का मोलर द्रव्यमान = 12+32 = 44 g/mol। 1 मोल = 44 g।"
+    }
+  },
+  {
+    "id": "groupd-s-0024",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Octet rule states that atoms tend to have ___ electrons in valence shell.",
+      "options": [
+        "2",
+        "8",
+        "6",
+        "4"
+      ],
+      "explanation": "Octet rule: atoms combine to achieve 8 electrons in valence shell (noble gas configuration)."
+    },
+    "hi": {
+      "question": "अष्टक नियम: परमाणु संयोजी कोश में ___ इलेक्ट्रॉन चाहते हैं।",
+      "options": [
+        "2",
+        "8",
+        "6",
+        "4"
+      ],
+      "explanation": "अष्टक नियम: परमाणु संयोजी कोश में 8 इलेक्ट्रॉन (अक्रिय गैस विन्यास) पाने के लिए संयोग करते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0025",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "An ion with positive charge is called:",
+      "options": [
+        "Anion",
+        "Molecule",
+        "Isotope",
+        "Cation"
+      ],
+      "explanation": "Cation = positively charged ion (lost electrons). Anion = negatively charged ion (gained electrons)."
+    },
+    "hi": {
+      "question": "धनावेशित आयन:",
+      "options": [
+        "ऋणायन",
+        "अणु",
+        "समस्थानिक",
+        "धनायन"
+      ],
+      "explanation": "धनायन = धनावेशित आयन (इलेक्ट्रॉन खोया)। ऋणायन = ऋणावेशित आयन (इलेक्ट्रॉन लिया)।"
+    }
+  },
+  {
+    "id": "groupd-s-0026",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "How many moles in 196 g of H2SO4?",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "0.5"
+      ],
+      "explanation": "Molar mass H2SO4=98 g/mol. Moles=196/98=2."
+    },
+    "hi": {
+      "question": "196 g H2SO4 में मोल?",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "0.5"
+      ],
+      "explanation": "H2SO4=98 g/mol। मोल=196/98=2।"
+    }
+  },
+  {
+    "id": "groupd-s-0027",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "1 atomic mass unit (amu or u) is defined as:",
+      "options": [
+        "Mass of H atom",
+        "Mass of O atom",
+        "1/12 of C-12 atom",
+        "1/16 of O-16 atom"
+      ],
+      "explanation": "1 u = 1/12 of the mass of one carbon-12 atom = 1.66x10^-24 g."
+    },
+    "hi": {
+      "question": "1 परमाणु द्रव्यमान इकाई (u):",
+      "options": [
+        "H परमाणु का द्रव्यमान",
+        "O परमाणु का",
+        "C-12 का 1/12",
+        "O-16 का 1/16"
+      ],
+      "explanation": "1 u = C-12 परमाणु के द्रव्यमान का 1/12 = 1.66x10^-24 g।"
+    }
+  },
+  {
+    "id": "groupd-s-0028",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Formula of quick lime:",
+      "options": [
+        "CaCO3",
+        "CaO",
+        "Ca(OH)2",
+        "CaCl2"
+      ],
+      "explanation": "Quick lime is calcium oxide (CaO), produced by heating limestone (CaCO3)."
+    },
+    "hi": {
+      "question": "बिना बुझा चूना (क्विक लाइम) का सूत्र:",
+      "options": [
+        "CaCO3",
+        "CaO",
+        "Ca(OH)2",
+        "CaCl2"
+      ],
+      "explanation": "क्विक लाइम कैल्शियम ऑक्साइड (CaO), चूना पत्थर (CaCO3) गर्म करने से बनता।"
+    }
+  },
+  {
+    "id": "groupd-s-0029",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Dalton's atomic theory proposed that atoms are:",
+      "options": [
+        "Divisible",
+        "Made of protons",
+        "Made of electrons",
+        "Indivisible"
+      ],
+      "explanation": "Dalton proposed atoms are indivisible. Later, subatomic particles were discovered."
+    },
+    "hi": {
+      "question": "डाल्टन का परमाणु सिद्धांत: परमाणु:",
+      "options": [
+        "विभाज्य",
+        "प्रोटॉन से बने",
+        "इलेक्ट्रॉन से बने",
+        "अविभाज्य"
+      ],
+      "explanation": "डाल्टन ने कहा परमाणु अविभाज्य। बाद में उपपरमाणुक कण खोजे गए।"
+    }
+  },
+  {
+    "id": "groupd-s-0030",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Mass of 3.011x10^23 molecules of NH3? (N=14, H=1)",
+      "options": [
+        "8.5 g",
+        "17 g",
+        "34 g",
+        "4.25 g"
+      ],
+      "explanation": "NH3=17 g/mol. Moles=3.011x10^23/6.022x10^23=0.5. Mass=0.5x17=8.5 g."
+    },
+    "hi": {
+      "question": "3.011x10^23 NH3 अणुओं का द्रव्यमान?",
+      "options": [
+        "8.5 g",
+        "17 g",
+        "34 g",
+        "4.25 g"
+      ],
+      "explanation": "NH3=17 g/mol। मोल=0.5। द्रव्यमान=8.5 g।"
+    }
+  },
+  {
+    "id": "groupd-s-0031",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which element has atomic number 1?",
+      "options": [
+        "Helium",
+        "Lithium",
+        "Hydrogen",
+        "Carbon"
+      ],
+      "explanation": "Hydrogen has atomic number 1 (1 proton). It is the lightest and most abundant element in universe."
+    },
+    "hi": {
+      "question": "परमाणु क्रमांक 1 किसका?",
+      "options": [
+        "हीलियम",
+        "लिथियम",
+        "हाइड्रोजन",
+        "कार्बन"
+      ],
+      "explanation": "हाइड्रोजन का परमाणु क्रमांक 1। सबसे हल्का और ब्रह्मांड में सर्वाधिक प्रचुर।"
+    }
+  },
+  {
+    "id": "groupd-s-0032",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Number of electrons in Ca2+ (Z=20)?",
+      "options": [
+        "20",
+        "18",
+        "22",
+        "16"
+      ],
+      "explanation": "Ca2+ has lost 2 electrons: 20 - 2 = 18 electrons."
+    },
+    "hi": {
+      "question": "Ca2+ (Z=20) में इलेक्ट्रॉन?",
+      "options": [
+        "20",
+        "18",
+        "22",
+        "16"
+      ],
+      "explanation": "Ca2+ ने 2 इलेक्ट्रॉन खोए: 20 - 2 = 18 इलेक्ट्रॉन।"
+    }
+  },
+  {
+    "id": "groupd-s-0033",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Rutherford's experiment used:",
+      "options": [
+        "Cathode rays",
+        "X-rays",
+        "Beta particles",
+        "Alpha particles"
+      ],
+      "explanation": "Rutherford used alpha particles to bombard a thin gold foil in his famous experiment."
+    },
+    "hi": {
+      "question": "रदरफोर्ड के प्रयोग में उपयोग:",
+      "options": [
+        "कैथोड किरणें",
+        "X-किरणें",
+        "बीटा कण",
+        "अल्फा कण"
+      ],
+      "explanation": "रदरफोर्ड ने प्रसिद्ध प्रयोग में पतली स्वर्ण पन्नी पर अल्फा कणों की बमबारी की।"
+    }
+  },
+  {
+    "id": "groupd-s-0034",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "44.8 L of CO2 at STP. How many moles?",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "0.5"
+      ],
+      "explanation": "1 mole = 22.4 L at STP. Moles = 44.8/22.4 = 2."
+    },
+    "hi": {
+      "question": "STP पर 44.8 L CO2। कितने मोल?",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "0.5"
+      ],
+      "explanation": "1 मोल = 22.4 L (STP)। मोल = 44.8/22.4 = 2।"
+    }
+  },
+  {
+    "id": "groupd-s-0035",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The charge on an alpha particle is:",
+      "options": [
+        "-1",
+        "0",
+        "+2",
+        "+1"
+      ],
+      "explanation": "Alpha particle is He2+ nucleus with charge +2e (two protons)."
+    },
+    "hi": {
+      "question": "अल्फा कण पर आवेश:",
+      "options": [
+        "-1",
+        "0",
+        "+2",
+        "+1"
+      ],
+      "explanation": "अल्फा कण He2+ नाभिक, आवेश +2e (दो प्रोटॉन)।"
+    }
+  },
+  {
+    "id": "groupd-s-0036",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Chemical formula of sodium chloride:",
+      "options": [
+        "NaCl2",
+        "NaCl",
+        "Na2Cl",
+        "Na2Cl2"
+      ],
+      "explanation": "Sodium chloride: Na+ and Cl- combine in 1:1 ratio, giving NaCl."
+    },
+    "hi": {
+      "question": "सोडियम क्लोराइड का रासायनिक सूत्र:",
+      "options": [
+        "NaCl2",
+        "NaCl",
+        "Na2Cl",
+        "Na2Cl2"
+      ],
+      "explanation": "Na+ और Cl- 1:1 अनुपात में मिलते, सूत्र NaCl।"
+    }
+  },
+  {
+    "id": "groupd-s-0037",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Formula mass of MgCl2? (Mg=24, Cl=35.5)",
+      "options": [
+        "59.5 u",
+        "47.5 u",
+        "71 u",
+        "95 u"
+      ],
+      "explanation": "MgCl2 = 24 + 2(35.5) = 24 + 71 = 95 u."
+    },
+    "hi": {
+      "question": "MgCl2 का सूत्र द्रव्यमान?",
+      "options": [
+        "59.5 u",
+        "47.5 u",
+        "71 u",
+        "95 u"
+      ],
+      "explanation": "MgCl2 = 24+71 = 95 u।"
+    }
+  },
+  {
+    "id": "groupd-s-0038",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which is the heaviest subatomic particle?",
+      "options": [
+        "Neutron",
+        "Proton",
+        "Electron",
+        "Positron"
+      ],
+      "explanation": "Neutron mass (~1.6749x10^-27 kg) is slightly greater than proton (~1.6726x10^-27 kg)."
+    },
+    "hi": {
+      "question": "सबसे भारी उपपरमाणुक कण?",
+      "options": [
+        "न्यूट्रॉन",
+        "प्रोटॉन",
+        "इलेक्ट्रॉन",
+        "पॉज़िट्रॉन"
+      ],
+      "explanation": "न्यूट्रॉन (~1.6749x10^-27 kg) प्रोटॉन (~1.6726x10^-27) से थोड़ा भारी।"
+    }
+  },
+  {
+    "id": "groupd-s-0039",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Molality is expressed in:",
+      "options": [
+        "mol/L",
+        "g/L",
+        "mol/kg",
+        "mol/mL"
+      ],
+      "explanation": "Molality (m) = moles of solute per kg of solvent. Molarity (M) = mol/L."
+    },
+    "hi": {
+      "question": "मोललता की इकाई:",
+      "options": [
+        "mol/L",
+        "g/L",
+        "mol/kg",
+        "mol/mL"
+      ],
+      "explanation": "मोललता (m) = विलेय के मोल प्रति kg विलायक। मोलरता (M) = mol/L।"
+    }
+  },
+  {
+    "id": "groupd-s-0040",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The maximum electrons in M shell:",
+      "options": [
+        "8",
+        "18",
+        "2",
+        "32"
+      ],
+      "explanation": "M shell (n=3) can hold 2n^2 = 2(9) = 18 electrons maximum."
+    },
+    "hi": {
+      "question": "M कोश में अधिकतम इलेक्ट्रॉन:",
+      "options": [
+        "8",
+        "18",
+        "2",
+        "32"
+      ],
+      "explanation": "M कोश (n=3) में 2n^2=2(9)=18 इलेक्ट्रॉन अधिकतम।"
+    }
+  },
+  {
+    "id": "groupd-s-0041",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The chemical symbol for gold is:",
+      "options": [
+        "Go",
+        "Gd",
+        "Gl",
+        "Au"
+      ],
+      "explanation": "Gold symbol Au comes from Latin 'Aurum'. Atomic number 79."
+    },
+    "hi": {
+      "question": "सोने का रासायनिक प्रतीक:",
+      "options": [
+        "Go",
+        "Gd",
+        "Gl",
+        "Au"
+      ],
+      "explanation": "सोना का प्रतीक Au, लैटिन 'ऑरम' से। परमाणु क्रमांक 79।"
+    }
+  },
+  {
+    "id": "groupd-s-0042",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "How many grams of O2 needed to produce 36 g H2O? (2H2+O2→2H2O)",
+      "options": [
+        "32 g",
+        "16 g",
+        "64 g",
+        "8 g"
+      ],
+      "explanation": "2H2O=2x18=36g needs 1 O2=32g. So 32 g O2."
+    },
+    "hi": {
+      "question": "36 g H2O बनाने में कितने g O2?",
+      "options": [
+        "32 g",
+        "16 g",
+        "64 g",
+        "8 g"
+      ],
+      "explanation": "36g (2 मोल) H2O के लिए 1 मोल (32g) O2 चाहिए।"
+    }
+  },
+  {
+    "id": "groupd-s-0043",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which scientist gave the plum pudding model?",
+      "options": [
+        "Rutherford",
+        "Dalton",
+        "J.J. Thomson",
+        "Bohr"
+      ],
+      "explanation": "J.J. Thomson proposed the 'plum pudding' model where electrons are embedded in positive sphere."
+    },
+    "hi": {
+      "question": "प्लम पुडिंग मॉडल किसने दिया?",
+      "options": [
+        "रदरफोर्ड",
+        "डाल्टन",
+        "जे.जे. थॉमसन",
+        "बोर"
+      ],
+      "explanation": "थॉमसन ने प्लम पुडिंग मॉडल: इलेक्ट्रॉन धनात्मक गोले में धंसे।"
+    }
+  },
+  {
+    "id": "groupd-s-0044",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Mass of one atom of oxygen? (O=16, NA=6.022x10^23)",
+      "options": [
+        "16 g",
+        "2.66x10^-23 g",
+        "1.66x10^-24 g",
+        "32 g"
+      ],
+      "explanation": "1 atom mass = 16/6.022x10^23 = 2.66x10^-23 g."
+    },
+    "hi": {
+      "question": "एक ऑक्सीजन परमाणु का द्रव्यमान?",
+      "options": [
+        "16 g",
+        "2.66x10^-23 g",
+        "1.66x10^-24 g",
+        "32 g"
+      ],
+      "explanation": "1 परमाणु = 16/6.022x10^23 = 2.66x10^-23 g।"
+    }
+  },
+  {
+    "id": "groupd-s-0045",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Avogadro's number is:",
+      "options": [
+        "6.022x10^22",
+        "3.011x10^23",
+        "1.66x10^-24",
+        "6.022x10^23"
+      ],
+      "explanation": "NA = 6.022x10^23 particles per mole. This is Avogadro's constant."
+    },
+    "hi": {
+      "question": "आवोगाद्रो संख्या:",
+      "options": [
+        "6.022x10^22",
+        "3.011x10^23",
+        "1.66x10^-24",
+        "6.022x10^23"
+      ],
+      "explanation": "NA = 6.022x10^23 कण प्रति मोल। आवोगाद्रो स्थिरांक।"
+    }
+  },
+  {
+    "id": "groupd-s-0046",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The combining capacity of an element is its:",
+      "options": [
+        "Valency",
+        "Atomic number",
+        "Mass number",
+        "Isotope"
+      ],
+      "explanation": "Valency is the combining capacity — number of electrons gained, lost, or shared."
+    },
+    "hi": {
+      "question": "तत्व की संयोजन क्षमता:",
+      "options": [
+        "संयोजकता",
+        "परमाणु क्रमांक",
+        "द्रव्यमान संख्या",
+        "समस्थानिक"
+      ],
+      "explanation": "संयोजकता = संयोजन क्षमता — इलेक्ट्रॉन ग्रहण, त्याग या साझा करने की संख्या।"
+    }
+  },
+  {
+    "id": "groupd-s-0047",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Number of molecules in 4.4 g CO2? (NA=6.022x10^23)",
+      "options": [
+        "NA",
+        "NA/2",
+        "NA/10",
+        "10 NA"
+      ],
+      "explanation": "Moles=4.4/44=0.1. Molecules=0.1x6.022x10^23=6.022x10^22."
+    },
+    "hi": {
+      "question": "4.4 g CO2 में अणु?",
+      "options": [
+        "NA",
+        "NA/2",
+        "NA/10",
+        "10 NA"
+      ],
+      "explanation": "मोल=0.1। अणु=6.022x10^22 = NA/10।"
+    }
+  },
+  {
+    "id": "groupd-s-0048",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Isotones have same number of:",
+      "options": [
+        "Protons",
+        "Neutrons",
+        "Electrons",
+        "Mass number"
+      ],
+      "explanation": "Isotones: different elements with same number of neutrons. E.g., C-14 (8n) and N-15 (8n)."
+    },
+    "hi": {
+      "question": "समन्यूट्रॉनिक में समान:",
+      "options": [
+        "प्रोटॉन",
+        "न्यूट्रॉन",
+        "इलेक्ट्रॉन",
+        "द्रव्यमान संख्या"
+      ],
+      "explanation": "समन्यूट्रॉनिक: भिन्न तत्व, समान न्यूट्रॉन। जैसे C-14 (8n) और N-15 (8n)।"
+    }
+  },
+  {
+    "id": "groupd-s-0049",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "0.5 M H2SO4, 2 L contains how many moles?",
+      "options": [
+        "0.5",
+        "2",
+        "4",
+        "1"
+      ],
+      "explanation": "Moles = M x V(L) = 0.5 x 2 = 1 mole."
+    },
+    "hi": {
+      "question": "0.5 M H2SO4, 2 L में मोल?",
+      "options": [
+        "0.5",
+        "2",
+        "4",
+        "1"
+      ],
+      "explanation": "मोल = 0.5 x 2 = 1 मोल।"
+    }
+  },
+  {
+    "id": "groupd-s-0050",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Formula of slaked lime:",
+      "options": [
+        "Ca(OH)2",
+        "CaO",
+        "CaCO3",
+        "CaSO4"
+      ],
+      "explanation": "Slaked lime = calcium hydroxide Ca(OH)2, formed by adding water to quick lime."
+    },
+    "hi": {
+      "question": "बुझा चूना का सूत्र:",
+      "options": [
+        "Ca(OH)2",
+        "CaO",
+        "CaCO3",
+        "CaSO4"
+      ],
+      "explanation": "बुझा चूना = Ca(OH)2, क्विक लाइम में पानी मिलाने से बनता।"
+    }
+  },
+  {
+    "id": "groupd-s-0051",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which has maximum number of atoms? (NA=6.022x10^23)",
+      "options": [
+        "18 g H2O",
+        "18 g CO2",
+        "18 g CH4",
+        "18 g O2"
+      ],
+      "explanation": "CH4=16 g/mol, 18g=1.125 mol, 5 atoms/molecule. H2O=18g=1mol, 3 atoms. CH4 has most."
+    },
+    "hi": {
+      "question": "सर्वाधिक परमाणु किसमें?",
+      "options": [
+        "18 g H2O",
+        "18 g CO2",
+        "18 g CH4",
+        "18 g O2"
+      ],
+      "explanation": "CH4=1.125 मोल x 5 परमाणु = 5.625NA, सबसे अधिक।"
+    }
+  },
+  {
+    "id": "groupd-s-0052",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Chemical formula of methane:",
+      "options": [
+        "CH2",
+        "CH4",
+        "C2H6",
+        "CH3"
+      ],
+      "explanation": "Methane is CH4 — one carbon atom bonded to four hydrogen atoms."
+    },
+    "hi": {
+      "question": "मीथेन का रासायनिक सूत्र:",
+      "options": [
+        "CH2",
+        "CH4",
+        "C2H6",
+        "CH3"
+      ],
+      "explanation": "मीथेन CH4 — एक कार्बन से चार हाइड्रोजन बंधित।"
+    }
+  },
+  {
+    "id": "groupd-s-0053",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Positively charged ion in NaCl is:",
+      "options": [
+        "Cl-",
+        "Cl",
+        "Na",
+        "Na+"
+      ],
+      "explanation": "Na loses 1 electron to form Na+ (cation). Cl gains 1 to form Cl- (anion)."
+    },
+    "hi": {
+      "question": "NaCl में धनायन:",
+      "options": [
+        "Cl-",
+        "Cl",
+        "Na",
+        "Na+"
+      ],
+      "explanation": "Na, 1 इलेक्ट्रॉन खोकर Na+ (धनायन)। Cl, 1 लेकर Cl- (ऋणायन)।"
+    }
+  },
+  {
+    "id": "groupd-s-0054",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Percentage of oxygen in NaOH? (Na=23, O=16, H=1)",
+      "options": [
+        "40%",
+        "16%",
+        "32%",
+        "64%"
+      ],
+      "explanation": "NaOH=40. %O=16/40x100=40%."
+    },
+    "hi": {
+      "question": "NaOH में ऑक्सीजन का प्रतिशत?",
+      "options": [
+        "40%",
+        "16%",
+        "32%",
+        "64%"
+      ],
+      "explanation": "NaOH=40। %O=16/40x100=40%।"
+    }
+  },
+  {
+    "id": "groupd-s-0055",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The neutron has ___ charge.",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero (neutral)",
+        "Sometimes positive"
+      ],
+      "explanation": "Neutrons are electrically neutral — they have no net charge."
+    },
+    "hi": {
+      "question": "न्यूट्रॉन का आवेश:",
+      "options": [
+        "धनात्मक",
+        "ऋणात्मक",
+        "शून्य (उदासीन)",
+        "कभी धनात्मक"
+      ],
+      "explanation": "न्यूट्रॉन विद्युत उदासीन — कोई नेट आवेश नहीं।"
+    }
+  },
+  {
+    "id": "groupd-s-0056",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Empirical formula of glucose (C6H12O6):",
+      "options": [
+        "C6H12O6",
+        "CH2O",
+        "C2H4O2",
+        "C3H6O3"
+      ],
+      "explanation": "Empirical formula = simplest ratio. Divide by 6: CH2O."
+    },
+    "hi": {
+      "question": "ग्लूकोज (C6H12O6) का मूलानुपाती सूत्र:",
+      "options": [
+        "C6H12O6",
+        "CH2O",
+        "C2H4O2",
+        "C3H6O3"
+      ],
+      "explanation": "मूलानुपाती = सरलतम अनुपात। 6 से भाग: CH2O।"
+    }
+  },
+  {
+    "id": "groupd-s-0057",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The nucleus was discovered by:",
+      "options": [
+        "Thomson",
+        "Dalton",
+        "Bohr",
+        "Rutherford"
+      ],
+      "explanation": "Rutherford discovered the atomic nucleus in 1911 through the gold foil experiment."
+    },
+    "hi": {
+      "question": "नाभिक की खोज:",
+      "options": [
+        "थॉमसन",
+        "डाल्टन",
+        "बोर",
+        "रदरफोर्ड"
+      ],
+      "explanation": "रदरफोर्ड ने 1911 में स्वर्ण पन्नी प्रयोग से परमाणु नाभिक खोजा।"
+    }
+  },
+  {
+    "id": "groupd-s-0058",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Volume of 4 g of H2 at STP?",
+      "options": [
+        "44.8 L",
+        "22.4 L",
+        "11.2 L",
+        "89.6 L"
+      ],
+      "explanation": "H2=2 g/mol. 4 g=2 mol. Volume=2x22.4=44.8 L."
+    },
+    "hi": {
+      "question": "4 g H2 का STP पर आयतन?",
+      "options": [
+        "44.8 L",
+        "22.4 L",
+        "11.2 L",
+        "89.6 L"
+      ],
+      "explanation": "H2=2 g/mol। 4 g=2 मोल। आयतन=44.8 L।"
+    }
+  },
+  {
+    "id": "groupd-s-0059",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Molarity is defined as:",
+      "options": [
+        "Moles of solute per kg of solvent",
+        "Grams of solute per L",
+        "Moles of solute per L of solution",
+        "Mass percent"
+      ],
+      "explanation": "Molarity (M) = number of moles of solute per litre of solution."
+    },
+    "hi": {
+      "question": "मोलरता की परिभाषा:",
+      "options": [
+        "प्रति kg विलायक मोल",
+        "प्रति L ग्राम",
+        "प्रति L विलयन मोल",
+        "द्रव्यमान प्रतिशत"
+      ],
+      "explanation": "मोलरता (M) = प्रति लीटर विलयन में विलेय के मोल।"
+    }
+  },
+  {
+    "id": "groupd-s-0060",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Electron configuration of Argon (Z=18):",
+      "options": [
+        "2, 8, 6",
+        "2, 8, 8",
+        "2, 6, 10",
+        "8, 8, 2"
+      ],
+      "explanation": "Argon: K=2, L=8, M=8. Nobel gas with complete octet."
+    },
+    "hi": {
+      "question": "आर्गन (Z=18) का इलेक्ट्रॉन विन्यास:",
+      "options": [
+        "2,8,6",
+        "2,8,8",
+        "2,6,10",
+        "8,8,2"
+      ],
+      "explanation": "आर्गन: 2,8,8। पूर्ण अष्टक वाली अक्रिय गैस।"
+    }
+  },
+  {
+    "id": "groupd-s-0061",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Mass of NaCl needed for 500 mL of 0.2 M solution? (Na=23, Cl=35.5)",
+      "options": [
+        "11.7 g",
+        "23.4 g",
+        "5.85 g",
+        "5.85 g"
+      ],
+      "explanation": "NaCl=58.5. Moles=0.5x0.2=0.1. Mass=0.1x58.5=5.85 g."
+    },
+    "hi": {
+      "question": "500 mL 0.2 M NaCl बनाने में द्रव्यमान?",
+      "options": [
+        "11.7 g",
+        "23.4 g",
+        "5.85 g",
+        "5.85 g"
+      ],
+      "explanation": "NaCl=58.5। मोल=0.1। द्रव्यमान=5.85 g।"
+    }
+  },
+  {
+    "id": "groupd-s-0062",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Alpha rays are:",
+      "options": [
+        "Positively charged",
+        "Negatively charged",
+        "Neutral",
+        "Electromagnetic"
+      ],
+      "explanation": "Alpha rays consist of He2+ nuclei (positively charged)."
+    },
+    "hi": {
+      "question": "अल्फा किरणें:",
+      "options": [
+        "धनावेशित",
+        "ऋणावेशित",
+        "उदासीन",
+        "विद्युत चुंबकीय"
+      ],
+      "explanation": "अल्फा किरणें He2+ नाभिक (धनावेशित) से बनी।"
+    }
+  },
+  {
+    "id": "groupd-s-0063",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "1 mole of any gas at STP occupies:",
+      "options": [
+        "11.2 L",
+        "44.8 L",
+        "22.4 L",
+        "2.24 L"
+      ],
+      "explanation": "Molar volume at STP (0°C, 1 atm) = 22.4 L for any ideal gas."
+    },
+    "hi": {
+      "question": "STP पर 1 मोल गैस का आयतन:",
+      "options": [
+        "11.2 L",
+        "44.8 L",
+        "22.4 L",
+        "2.24 L"
+      ],
+      "explanation": "STP (0°C,1 atm) पर मोलर आयतन = 22.4 L।"
+    }
+  },
+  {
+    "id": "groupd-s-0064",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Chemical formula of ammonia:",
+      "options": [
+        "NH2",
+        "NH3",
+        "N2H4",
+        "NH4"
+      ],
+      "explanation": "Ammonia = NH3. One nitrogen bonded to three hydrogen atoms."
+    },
+    "hi": {
+      "question": "अमोनिया का रासायनिक सूत्र:",
+      "options": [
+        "NH2",
+        "NH3",
+        "N2H4",
+        "NH4"
+      ],
+      "explanation": "अमोनिया = NH3। एक नाइट्रोजन, तीन हाइड्रोजन से बंधित।"
+    }
+  },
+  {
+    "id": "groupd-s-0065",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which contains 6.022x10^23 molecules?",
+      "options": [
+        "16 g O2",
+        "2 g H2",
+        "44 g CO2",
+        "All of these"
+      ],
+      "explanation": "All represent 1 mole = 6.022x10^23 molecules: 16g O2=0.5 mol (not), 2g H2=1, 44g CO2=1. So 2g H2 and 44g CO2."
+    },
+    "hi": {
+      "question": "किसमें 6.022x10^23 अणु?",
+      "options": [
+        "16 g O2",
+        "2 g H2",
+        "44 g CO2",
+        "ये सभी"
+      ],
+      "explanation": "2g H2=1 मोल, 44g CO2=1 मोल। 16g O2=0.5 मोल।"
+    }
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "8",
+        "14",
+        "12",
+        "6"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "8",
+        "14",
+        "12",
+        "6"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0066"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "14",
+        "6",
+        "8",
+        "12"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "14",
+        "6",
+        "8",
+        "12"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0067"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "14",
+        "6",
+        "12",
+        "8"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "14",
+        "6",
+        "12",
+        "8"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0068"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "6",
+        "12",
+        "8",
+        "14"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "6",
+        "12",
+        "8",
+        "14"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0069"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "8",
+        "14",
+        "12",
+        "6"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "8",
+        "14",
+        "12",
+        "6"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0070"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "6",
+        "14",
+        "12",
+        "8"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "6",
+        "14",
+        "12",
+        "8"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0071"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "12",
+        "6",
+        "14",
+        "8"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "12",
+        "6",
+        "14",
+        "8"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0072"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "6",
+        "12",
+        "8",
+        "14"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "6",
+        "12",
+        "8",
+        "14"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0073"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "8",
+        "12",
+        "6",
+        "14"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "8",
+        "12",
+        "6",
+        "14"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0074"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "6",
+        "14",
+        "12",
+        "8"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "6",
+        "14",
+        "12",
+        "8"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0075"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "14",
+        "12",
+        "8",
+        "6"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "14",
+        "12",
+        "8",
+        "6"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0076"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "8",
+        "14",
+        "6",
+        "12"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "8",
+        "14",
+        "6",
+        "12"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0077"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "6",
+        "14",
+        "12",
+        "8"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "6",
+        "14",
+        "12",
+        "8"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0078"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "12",
+        "14",
+        "6",
+        "8"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "12",
+        "14",
+        "6",
+        "8"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0079"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "8",
+        "12",
+        "14",
+        "6"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "8",
+        "12",
+        "14",
+        "6"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0080"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "14",
+        "6",
+        "12",
+        "8"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "14",
+        "6",
+        "12",
+        "8"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0081"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "12",
+        "6",
+        "14",
+        "8"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "12",
+        "6",
+        "14",
+        "8"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0082"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "12",
+        "8",
+        "14",
+        "6"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "12",
+        "8",
+        "14",
+        "6"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0083"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "6",
+        "14",
+        "12",
+        "8"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "6",
+        "14",
+        "12",
+        "8"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0084"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atomic number of Carbon?",
+      "options": [
+        "8",
+        "6",
+        "14",
+        "12"
+      ],
+      "explanation": "Carbon has 6 protons, atomic number 6."
+    },
+    "hi": {
+      "question": "कार्बन का परमाणु क्रमांक?",
+      "options": [
+        "8",
+        "6",
+        "14",
+        "12"
+      ],
+      "explanation": "कार्बन में 6 प्रोटॉन।"
+    },
+    "id": "groupd-s-0085"
+  }
 ]

@@ -30,7 +30,7 @@ export const translations: Record<string, Translations> = {
     appName: 'RRB Exam Prep',
     heroTitle: 'RRB Exam Preparation', heroSubtitle: 'NTPC & Group D 2026',
     heroDesc: 'Free mock tests, topic-wise practice, and detailed explanations. Built from actual syllabus and previous year patterns.',
-    tagQuestions: '1000+ Questions', tagMocks: 'Full-Length Mocks',
+    tagQuestions: '10,000+ Questions', tagMocks: 'Full-Length Mocks',
     tagSolutions: 'Detailed Solutions', tagProgress: 'Track Progress',
     whyPractice: 'Why Practice Here?',
     featureTimer: 'Timed Mock Tests', featureTimerDesc: '90-minute exams matching the real pattern with countdown timer',

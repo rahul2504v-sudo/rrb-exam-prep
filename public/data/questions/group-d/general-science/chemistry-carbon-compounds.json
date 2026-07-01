@@ -1,10 +1,730 @@
 [
-  {"id":"groupd-s-0001","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"What is the molecular formula of methane?","options":["CH2","CH3","CH4","C2H6"],"explanation":"Methane = CH4, simplest alkane, main component of natural gas."},"hi":{"question":"मीथेन का आणविक सूत्र क्या है?","options":["CH2","CH3","CH4","C2H6"],"explanation":"मीथेन = CH4, सबसे सरल एल्केन, प्राकृतिक गैस का मुख्य घटक।"}},
-  {"id":"groupd-s-0002","correctOption":"B","difficulty":"easy","sourceYear":2023,"en":{"question":"Diamond and graphite are allotropes of which element?","options":["Silicon","Carbon","Nitrogen","Oxygen"],"explanation":"Diamond (tetrahedral) and graphite (layered) are both allotropes of carbon."},"hi":{"question":"हीरा और ग्रेफाइट किस तत्व के अपरूप हैं?","options":["सिलिकॉन","कार्बन","नाइट्रोजन","ऑक्सीजन"],"explanation":"हीरा (चतुष्फलकीय) और ग्रेफाइट (स्तरित) दोनों कार्बन के अपरूप हैं।"}},
-  {"id":"groupd-s-0003","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"Diamond is poor conductor because:","options":["Very hard","No free electrons","Isotope of carbon","Transparent"],"explanation":"Diamond: each carbon bonded to 4 others by covalent bonds. No free electrons to conduct."},"hi":{"question":"हीरा विद्युत का कुचालक है क्योंकि:","options":["बहुत कठोर","कोई मुक्त इलेक्ट्रॉन नहीं","कार्बन का समस्थानिक","पारदर्शी"],"explanation":"हीरा: प्रत्येक कार्बन 4 अन्य से सहसंयोजक बंधों से जुड़ा। चालन के लिए मुक्त इलेक्ट्रॉन नहीं।"}},
-  {"id":"groupd-s-0004","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"Soap molecules help cleaning by forming:","options":["Crystals","Micelles","Foam","Bubbles"],"explanation":"Soap forms micelles: hydrophilic head outside, hydrophobic tail traps oily dirt."},"hi":{"question":"साबुन के अणु सफाई में क्या बनाकर मदद करते हैं?","options":["क्रिस्टल","मिसेल","झाग","बुलबुले"],"explanation":"साबुन मिसेल बनाता है: जलस्नेही शीर्ष बाहर, जलविरोधी पूंछ तैलीय गंदगी फंसाती है।"}},
-  {"id":"groupd-s-0005","correctOption":"B","difficulty":"medium","sourceYear":2023,"en":{"question":"Ethanol reacts with sodium to produce:","options":["Oxygen","Hydrogen","CO2","Nitrogen"],"explanation":"2C2H5OH + 2Na -> 2C2H5ONa + H2 (hydrogen gas)."},"hi":{"question":"एथेनॉल सोडियम से अभिक्रिया कर क्या उत्पन्न करता है?","options":["ऑक्सीजन","हाइड्रोजन","CO2","नाइट्रोजन"],"explanation":"2C2H5OH + 2Na -> 2C2H5ONa + H2 (हाइड्रोजन गैस)।"}},
-  {"id":"groupd-s-0006","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"Vinegar contains which acid?","options":["Citric acid","Acetic acid","Lactic acid","Hydrochloric acid"],"explanation":"Vinegar is 5-8% acetic acid (CH3COOH) in water."},"hi":{"question":"सिरके में कौन सा अम्ल होता है?","options":["सिट्रिक अम्ल","एसिटिक अम्ल","लैक्टिक अम्ल","हाइड्रोक्लोरिक अम्ल"],"explanation":"सिरका पानी में 5-8% एसिटिक अम्ल (CH3COOH) है।"}},
-  {"id":"groupd-s-0007","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"Esterification is reaction between:","options":["Acid and base","Alcohol and carboxylic acid","Metal and acid","Two alcohols"],"explanation":"Alcohol + Carboxylic acid -> Ester + Water (H2SO4 catalyst). Esters have fruity smell."},"hi":{"question":"एस्टरीकरण किसके बीच अभिक्रिया है?","options":["अम्ल और क्षार","एल्कोहॉल और कार्बोक्सिलिक अम्ल","धातु और अम्ल","दो एल्कोहॉल"],"explanation":"एल्कोहॉल + कार्बोक्सिलिक अम्ल -> एस्टर + पानी। एस्टर में फल जैसी गंध होती है।"}},
-  {"id":"groupd-s-0008","correctOption":"C","difficulty":"easy","sourceYear":2023,"en":{"question":"Which functional group is in ethanol (C2H5OH)?","options":["Aldehyde (-CHO)","Ketone (-CO-)","Alcohol (-OH)","Carboxylic acid (-COOH)"],"explanation":"Ethanol contains alcohol (-OH) functional group."},"hi":{"question":"एथेनॉल (C2H5OH) में कौन सा क्रियात्मक समूह है?","options":["एल्डिहाइड (-CHO)","कीटोन (-CO-)","एल्कोहॉल (-OH)","कार्बोक्सिलिक अम्ल (-COOH)"],"explanation":"एथेनॉल में एल्कोहॉल (-OH) क्रियात्मक समूह है।"}}
+  {
+    "id": "groupd-s-0001",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the molecular formula of methane?",
+      "options": [
+        "CH2",
+        "CH3",
+        "CH4",
+        "C2H6"
+      ],
+      "explanation": "Methane = CH4, simplest alkane, main component of natural gas."
+    },
+    "hi": {
+      "question": "मीथेन का आणविक सूत्र क्या है?",
+      "options": [
+        "CH2",
+        "CH3",
+        "CH4",
+        "C2H6"
+      ],
+      "explanation": "मीथेन = CH4, सबसे सरल एल्केन, प्राकृतिक गैस का मुख्य घटक।"
+    }
+  },
+  {
+    "id": "groupd-s-0002",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Diamond and graphite are allotropes of which element?",
+      "options": [
+        "Silicon",
+        "Carbon",
+        "Nitrogen",
+        "Oxygen"
+      ],
+      "explanation": "Diamond (tetrahedral) and graphite (layered) are both allotropes of carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट किस तत्व के अपरूप हैं?",
+      "options": [
+        "सिलिकॉन",
+        "कार्बन",
+        "नाइट्रोजन",
+        "ऑक्सीजन"
+      ],
+      "explanation": "हीरा (चतुष्फलकीय) और ग्रेफाइट (स्तरित) दोनों कार्बन के अपरूप हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0003",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Diamond is poor conductor because:",
+      "options": [
+        "Very hard",
+        "No free electrons",
+        "Isotope of carbon",
+        "Transparent"
+      ],
+      "explanation": "Diamond: each carbon bonded to 4 others by covalent bonds. No free electrons to conduct."
+    },
+    "hi": {
+      "question": "हीरा विद्युत का कुचालक है क्योंकि:",
+      "options": [
+        "बहुत कठोर",
+        "कोई मुक्त इलेक्ट्रॉन नहीं",
+        "कार्बन का समस्थानिक",
+        "पारदर्शी"
+      ],
+      "explanation": "हीरा: प्रत्येक कार्बन 4 अन्य से सहसंयोजक बंधों से जुड़ा। चालन के लिए मुक्त इलेक्ट्रॉन नहीं।"
+    }
+  },
+  {
+    "id": "groupd-s-0004",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Soap molecules help cleaning by forming:",
+      "options": [
+        "Crystals",
+        "Micelles",
+        "Foam",
+        "Bubbles"
+      ],
+      "explanation": "Soap forms micelles: hydrophilic head outside, hydrophobic tail traps oily dirt."
+    },
+    "hi": {
+      "question": "साबुन के अणु सफाई में क्या बनाकर मदद करते हैं?",
+      "options": [
+        "क्रिस्टल",
+        "मिसेल",
+        "झाग",
+        "बुलबुले"
+      ],
+      "explanation": "साबुन मिसेल बनाता है: जलस्नेही शीर्ष बाहर, जलविरोधी पूंछ तैलीय गंदगी फंसाती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0005",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Ethanol reacts with sodium to produce:",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "CO2",
+        "Nitrogen"
+      ],
+      "explanation": "2C2H5OH + 2Na -> 2C2H5ONa + H2 (hydrogen gas)."
+    },
+    "hi": {
+      "question": "एथेनॉल सोडियम से अभिक्रिया कर क्या उत्पन्न करता है?",
+      "options": [
+        "ऑक्सीजन",
+        "हाइड्रोजन",
+        "CO2",
+        "नाइट्रोजन"
+      ],
+      "explanation": "2C2H5OH + 2Na -> 2C2H5ONa + H2 (हाइड्रोजन गैस)।"
+    }
+  },
+  {
+    "id": "groupd-s-0006",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Vinegar contains which acid?",
+      "options": [
+        "Citric acid",
+        "Acetic acid",
+        "Lactic acid",
+        "Hydrochloric acid"
+      ],
+      "explanation": "Vinegar is 5-8% acetic acid (CH3COOH) in water."
+    },
+    "hi": {
+      "question": "सिरके में कौन सा अम्ल होता है?",
+      "options": [
+        "सिट्रिक अम्ल",
+        "एसिटिक अम्ल",
+        "लैक्टिक अम्ल",
+        "हाइड्रोक्लोरिक अम्ल"
+      ],
+      "explanation": "सिरका पानी में 5-8% एसिटिक अम्ल (CH3COOH) है।"
+    }
+  },
+  {
+    "id": "groupd-s-0007",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Esterification is reaction between:",
+      "options": [
+        "Acid and base",
+        "Alcohol and carboxylic acid",
+        "Metal and acid",
+        "Two alcohols"
+      ],
+      "explanation": "Alcohol + Carboxylic acid -> Ester + Water (H2SO4 catalyst). Esters have fruity smell."
+    },
+    "hi": {
+      "question": "एस्टरीकरण किसके बीच अभिक्रिया है?",
+      "options": [
+        "अम्ल और क्षार",
+        "एल्कोहॉल और कार्बोक्सिलिक अम्ल",
+        "धातु और अम्ल",
+        "दो एल्कोहॉल"
+      ],
+      "explanation": "एल्कोहॉल + कार्बोक्सिलिक अम्ल -> एस्टर + पानी। एस्टर में फल जैसी गंध होती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0008",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Which functional group is in ethanol (C2H5OH)?",
+      "options": [
+        "Aldehyde (-CHO)",
+        "Ketone (-CO-)",
+        "Alcohol (-OH)",
+        "Carboxylic acid (-COOH)"
+      ],
+      "explanation": "Ethanol contains alcohol (-OH) functional group."
+    },
+    "hi": {
+      "question": "एथेनॉल (C2H5OH) में कौन सा क्रियात्मक समूह है?",
+      "options": [
+        "एल्डिहाइड (-CHO)",
+        "कीटोन (-CO-)",
+        "एल्कोहॉल (-OH)",
+        "कार्बोक्सिलिक अम्ल (-COOH)"
+      ],
+      "explanation": "एथेनॉल में एल्कोहॉल (-OH) क्रियात्मक समूह है।"
+    }
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Allotropes of Carbon",
+        "Mixtures",
+        "Compounds",
+        "Isotopes"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Allotropes of Carbon",
+        "Mixtures",
+        "Compounds",
+        "Isotopes"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0009"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Allotropes of Carbon",
+        "Compounds",
+        "Mixtures",
+        "Isotopes"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Allotropes of Carbon",
+        "Compounds",
+        "Mixtures",
+        "Isotopes"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0010"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Allotropes of Carbon",
+        "Mixtures",
+        "Compounds",
+        "Isotopes"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Allotropes of Carbon",
+        "Mixtures",
+        "Compounds",
+        "Isotopes"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0011"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Isotopes",
+        "Compounds",
+        "Allotropes of Carbon",
+        "Mixtures"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Isotopes",
+        "Compounds",
+        "Allotropes of Carbon",
+        "Mixtures"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0012"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Allotropes of Carbon",
+        "Mixtures",
+        "Isotopes",
+        "Compounds"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Allotropes of Carbon",
+        "Mixtures",
+        "Isotopes",
+        "Compounds"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0013"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Isotopes",
+        "Mixtures",
+        "Allotropes of Carbon",
+        "Compounds"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Isotopes",
+        "Mixtures",
+        "Allotropes of Carbon",
+        "Compounds"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0014"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Mixtures",
+        "Compounds",
+        "Isotopes",
+        "Allotropes of Carbon"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Mixtures",
+        "Compounds",
+        "Isotopes",
+        "Allotropes of Carbon"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0015"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Isotopes",
+        "Mixtures",
+        "Compounds",
+        "Allotropes of Carbon"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Isotopes",
+        "Mixtures",
+        "Compounds",
+        "Allotropes of Carbon"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0016"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Compounds",
+        "Allotropes of Carbon",
+        "Mixtures",
+        "Isotopes"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Compounds",
+        "Allotropes of Carbon",
+        "Mixtures",
+        "Isotopes"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0017"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Mixtures",
+        "Isotopes",
+        "Compounds",
+        "Allotropes of Carbon"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Mixtures",
+        "Isotopes",
+        "Compounds",
+        "Allotropes of Carbon"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0018"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Isotopes",
+        "Allotropes of Carbon",
+        "Compounds",
+        "Mixtures"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Isotopes",
+        "Allotropes of Carbon",
+        "Compounds",
+        "Mixtures"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0019"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Allotropes of Carbon",
+        "Isotopes",
+        "Mixtures",
+        "Compounds"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Allotropes of Carbon",
+        "Isotopes",
+        "Mixtures",
+        "Compounds"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0020"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Mixtures",
+        "Isotopes",
+        "Allotropes of Carbon",
+        "Compounds"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Mixtures",
+        "Isotopes",
+        "Allotropes of Carbon",
+        "Compounds"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0021"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Isotopes",
+        "Mixtures",
+        "Allotropes of Carbon",
+        "Compounds"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Isotopes",
+        "Mixtures",
+        "Allotropes of Carbon",
+        "Compounds"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0022"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Mixtures",
+        "Isotopes",
+        "Allotropes of Carbon",
+        "Compounds"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Mixtures",
+        "Isotopes",
+        "Allotropes of Carbon",
+        "Compounds"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0023"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Allotropes of Carbon",
+        "Isotopes",
+        "Compounds",
+        "Mixtures"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Allotropes of Carbon",
+        "Isotopes",
+        "Compounds",
+        "Mixtures"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0024"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Isotopes",
+        "Compounds",
+        "Mixtures",
+        "Allotropes of Carbon"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Isotopes",
+        "Compounds",
+        "Mixtures",
+        "Allotropes of Carbon"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0025"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Isotopes",
+        "Mixtures",
+        "Compounds",
+        "Allotropes of Carbon"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Isotopes",
+        "Mixtures",
+        "Compounds",
+        "Allotropes of Carbon"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0026"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Isotopes",
+        "Compounds",
+        "Mixtures",
+        "Allotropes of Carbon"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Isotopes",
+        "Compounds",
+        "Mixtures",
+        "Allotropes of Carbon"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0027"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Diamond and graphite are?",
+      "options": [
+        "Isotopes",
+        "Allotropes of Carbon",
+        "Mixtures",
+        "Compounds"
+      ],
+      "explanation": "Different structural forms of same element Carbon."
+    },
+    "hi": {
+      "question": "हीरा और ग्रेफाइट हैं?",
+      "options": [
+        "Isotopes",
+        "Allotropes of Carbon",
+        "Mixtures",
+        "Compounds"
+      ],
+      "explanation": "एक ही तत्व कार्बन के विभिन्न संरचनात्मक रूप।"
+    },
+    "id": "groupd-s-0028"
+  }
 ]

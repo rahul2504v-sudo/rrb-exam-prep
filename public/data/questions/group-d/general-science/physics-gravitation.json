@@ -1,10 +1,2212 @@
 [
-  {"id":"groupd-s-0001","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Who discovered the universal law of gravitation?","options":["Galileo Galilei","Albert Einstein","Isaac Newton","Johannes Kepler"],"explanation":"Sir Isaac Newton discovered the universal law of gravitation."},"hi":{"question":"सार्वभौमिक गुरुत्वाकर्षण के नियम की खोज किसने की?","options":["गैलीलियो गैलिली","अल्बर्ट आइंस्टीन","आइज़क न्यूटन","जोहान्स केप्लर"],"explanation":"सर आइज़क न्यूटन ने सार्वभौमिक गुरुत्वाकर्षण के नियम की खोज की।"}},
-  {"id":"groupd-s-0002","correctOption":"B","difficulty":"easy","sourceYear":2023,"en":{"question":"What is the value of acceleration due to gravity (g) on Earth's surface?","options":["8.9 m/s^2","9.8 m/s^2","10.8 m/s^2","11.8 m/s^2"],"explanation":"The value of g on Earth's surface is approximately 9.8 m/s^2."},"hi":{"question":"पृथ्वी की सतह पर गुरुत्वीय त्वरण (g) का मान क्या है?","options":["8.9 m/s^2","9.8 m/s^2","10.8 m/s^2","11.8 m/s^2"],"explanation":"पृथ्वी की सतह पर g का मान लगभग 9.8 m/s^2 है।"}},
-  {"id":"groupd-s-0003","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Weight of an object on moon is about ___ of its weight on Earth.","options":["1/2","1/4","1/6","1/8"],"explanation":"Moon's gravity is about 1/6th of Earth's gravity."},"hi":{"question":"चंद्रमा पर किसी वस्तु का भार पृथ्वी के भार का लगभग ___ होता है।","options":["1/2","1/4","1/6","1/8"],"explanation":"चंद्रमा का गुरुत्वाकर्षण पृथ्वी के गुरुत्वाकर्षण का लगभग 1/6 है।"}},
-  {"id":"groupd-s-0004","correctOption":"C","difficulty":"medium","sourceYear":2024,"en":{"question":"Why does an iron ship float while an iron nail sinks?","options":["Ship is lighter","Ship has more surface area","Ship displaces more water (Archimedes principle)","Ship has less density than water"],"explanation":"According to Archimedes principle, a hollow ship displaces more water creating enough buoyant force to float."},"hi":{"question":"लोहे का जहाज पानी में क्यों तैरता है जबकि लोहे की कील डूब जाती है?","options":["जहाज हल्का है","जहाज का सतह क्षेत्र अधिक है","जहाज अधिक पानी विस्थापित करता है (आर्किमिडीज़ सिद्धांत)","जहाज का घनत्व पानी से कम है"],"explanation":"आर्किमिडीज़ सिद्धांत के अनुसार, खोखला जहाज अधिक पानी विस्थापित करता है जिससे पर्याप्त उत्प्लावन बल बनता है।"}},
-  {"id":"groupd-s-0005","correctOption":"B","difficulty":"easy","sourceYear":2023,"en":{"question":"A force of 100 N acts on an area of 2 m^2. What is the pressure?","options":["20 Pa","50 Pa","100 Pa","200 Pa"],"explanation":"Pressure = Force/Area = 100/2 = 50 Pa."},"hi":{"question":"100 N का बल 2 m^2 क्षेत्र पर लगता है। दाब क्या है?","options":["20 Pa","50 Pa","100 Pa","200 Pa"],"explanation":"दाब = बल/क्षेत्रफल = 100/2 = 50 Pa।"}},
-  {"id":"groupd-s-0006","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"The value of g is maximum at:","options":["Equator","Poles","Tropic of Cancer","Tropic of Capricorn"],"explanation":"g is maximum at poles because Earth is flattened there, so distance from centre is minimum."},"hi":{"question":"g का मान अधिकतम कहां होता है?","options":["भूमध्य रेखा","ध्रुवों","कर्क रेखा","मकर रेखा"],"explanation":"ध्रुवों पर g अधिकतम होता है क्योंकि पृथ्वी वहां चपटी है, इसलिए केंद्र से दूरी न्यूनतम है।"}},
-  {"id":"groupd-s-0007","correctOption":"B","difficulty":"easy","sourceYear":2023,"en":{"question":"What instrument measures atmospheric pressure?","options":["Thermometer","Barometer","Hydrometer","Ammeter"],"explanation":"A barometer measures atmospheric pressure. Invented by Torricelli."},"hi":{"question":"वायुमंडलीय दाब मापने का उपकरण क्या है?","options":["थर्मामीटर","बैरोमीटर","हाइड्रोमीटर","एमीटर"],"explanation":"बैरोमीटर वायुमंडलीय दाब मापता है। टॉरिसेली द्वारा आविष्कार।"}},
-  {"id":"groupd-s-0008","correctOption":"C","difficulty":"hard","sourceYear":2024,"en":{"question":"If Earth's mass doubles without radius change, what happens to g?","options":["It would halve","It would remain same","It would double","It would become four times"],"explanation":"g = GM/R^2. If M doubles, g doubles (directly proportional)."},"hi":{"question":"यदि पृथ्वी का द्रव्यमान बिना त्रिज्या बदले दोगुना हो जाए, तो g का क्या होगा?","options":["आधा हो जाएगा","समान रहेगा","दोगुना हो जाएगा","चार गुना हो जाएगा"],"explanation":"g = GM/R^2। यदि M दोगुना, तो g दोगुना (सीधा समानुपाती)।"}}
+  {
+    "id": "groupd-s-0001",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Who discovered the universal law of gravitation?",
+      "options": [
+        "Galileo Galilei",
+        "Albert Einstein",
+        "Isaac Newton",
+        "Johannes Kepler"
+      ],
+      "explanation": "Sir Isaac Newton discovered the universal law of gravitation."
+    },
+    "hi": {
+      "question": "सार्वभौमिक गुरुत्वाकर्षण के नियम की खोज किसने की?",
+      "options": [
+        "गैलीलियो गैलिली",
+        "अल्बर्ट आइंस्टीन",
+        "आइज़क न्यूटन",
+        "जोहान्स केप्लर"
+      ],
+      "explanation": "सर आइज़क न्यूटन ने सार्वभौमिक गुरुत्वाकर्षण के नियम की खोज की।"
+    }
+  },
+  {
+    "id": "groupd-s-0002",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "What is the value of acceleration due to gravity (g) on Earth's surface?",
+      "options": [
+        "8.9 m/s^2",
+        "9.8 m/s^2",
+        "10.8 m/s^2",
+        "11.8 m/s^2"
+      ],
+      "explanation": "The value of g on Earth's surface is approximately 9.8 m/s^2."
+    },
+    "hi": {
+      "question": "पृथ्वी की सतह पर गुरुत्वीय त्वरण (g) का मान क्या है?",
+      "options": [
+        "8.9 m/s^2",
+        "9.8 m/s^2",
+        "10.8 m/s^2",
+        "11.8 m/s^2"
+      ],
+      "explanation": "पृथ्वी की सतह पर g का मान लगभग 9.8 m/s^2 है।"
+    }
+  },
+  {
+    "id": "groupd-s-0003",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Weight of an object on moon is about ___ of its weight on Earth.",
+      "options": [
+        "1/2",
+        "1/4",
+        "1/6",
+        "1/8"
+      ],
+      "explanation": "Moon's gravity is about 1/6th of Earth's gravity."
+    },
+    "hi": {
+      "question": "चंद्रमा पर किसी वस्तु का भार पृथ्वी के भार का लगभग ___ होता है।",
+      "options": [
+        "1/2",
+        "1/4",
+        "1/6",
+        "1/8"
+      ],
+      "explanation": "चंद्रमा का गुरुत्वाकर्षण पृथ्वी के गुरुत्वाकर्षण का लगभग 1/6 है।"
+    }
+  },
+  {
+    "id": "groupd-s-0004",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Why does an iron ship float while an iron nail sinks?",
+      "options": [
+        "Ship is lighter",
+        "Ship has more surface area",
+        "Ship displaces more water (Archimedes principle)",
+        "Ship has less density than water"
+      ],
+      "explanation": "According to Archimedes principle, a hollow ship displaces more water creating enough buoyant force to float."
+    },
+    "hi": {
+      "question": "लोहे का जहाज पानी में क्यों तैरता है जबकि लोहे की कील डूब जाती है?",
+      "options": [
+        "जहाज हल्का है",
+        "जहाज का सतह क्षेत्र अधिक है",
+        "जहाज अधिक पानी विस्थापित करता है (आर्किमिडीज़ सिद्धांत)",
+        "जहाज का घनत्व पानी से कम है"
+      ],
+      "explanation": "आर्किमिडीज़ सिद्धांत के अनुसार, खोखला जहाज अधिक पानी विस्थापित करता है जिससे पर्याप्त उत्प्लावन बल बनता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0005",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "A force of 100 N acts on an area of 2 m^2. What is the pressure?",
+      "options": [
+        "20 Pa",
+        "50 Pa",
+        "100 Pa",
+        "200 Pa"
+      ],
+      "explanation": "Pressure = Force/Area = 100/2 = 50 Pa."
+    },
+    "hi": {
+      "question": "100 N का बल 2 m^2 क्षेत्र पर लगता है। दाब क्या है?",
+      "options": [
+        "20 Pa",
+        "50 Pa",
+        "100 Pa",
+        "200 Pa"
+      ],
+      "explanation": "दाब = बल/क्षेत्रफल = 100/2 = 50 Pa।"
+    }
+  },
+  {
+    "id": "groupd-s-0006",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The value of g is maximum at:",
+      "options": [
+        "Equator",
+        "Poles",
+        "Tropic of Cancer",
+        "Tropic of Capricorn"
+      ],
+      "explanation": "g is maximum at poles because Earth is flattened there, so distance from centre is minimum."
+    },
+    "hi": {
+      "question": "g का मान अधिकतम कहां होता है?",
+      "options": [
+        "भूमध्य रेखा",
+        "ध्रुवों",
+        "कर्क रेखा",
+        "मकर रेखा"
+      ],
+      "explanation": "ध्रुवों पर g अधिकतम होता है क्योंकि पृथ्वी वहां चपटी है, इसलिए केंद्र से दूरी न्यूनतम है।"
+    }
+  },
+  {
+    "id": "groupd-s-0007",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2023,
+    "en": {
+      "question": "What instrument measures atmospheric pressure?",
+      "options": [
+        "Thermometer",
+        "Barometer",
+        "Hydrometer",
+        "Ammeter"
+      ],
+      "explanation": "A barometer measures atmospheric pressure. Invented by Torricelli."
+    },
+    "hi": {
+      "question": "वायुमंडलीय दाब मापने का उपकरण क्या है?",
+      "options": [
+        "थर्मामीटर",
+        "बैरोमीटर",
+        "हाइड्रोमीटर",
+        "एमीटर"
+      ],
+      "explanation": "बैरोमीटर वायुमंडलीय दाब मापता है। टॉरिसेली द्वारा आविष्कार।"
+    }
+  },
+  {
+    "id": "groupd-s-0008",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2024,
+    "en": {
+      "question": "If Earth's mass doubles without radius change, what happens to g?",
+      "options": [
+        "It would halve",
+        "It would remain same",
+        "It would double",
+        "It would become four times"
+      ],
+      "explanation": "g = GM/R^2. If M doubles, g doubles (directly proportional)."
+    },
+    "hi": {
+      "question": "यदि पृथ्वी का द्रव्यमान बिना त्रिज्या बदले दोगुना हो जाए, तो g का क्या होगा?",
+      "options": [
+        "आधा हो जाएगा",
+        "समान रहेगा",
+        "दोगुना हो जाएगा",
+        "चार गुना हो जाएगा"
+      ],
+      "explanation": "g = GM/R^2। यदि M दोगुना, तो g दोगुना (सीधा समानुपाती)।"
+    }
+  },
+  {
+    "id": "groupd-s-0009",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The SI unit of weight is:",
+      "options": [
+        "Kilogram",
+        "Gram",
+        "Pound",
+        "Newton"
+      ],
+      "explanation": "Weight is a force (W=mg), so its SI unit is Newton (N)."
+    },
+    "hi": {
+      "question": "भार की SI इकाई क्या है?",
+      "options": [
+        "किलोग्राम",
+        "ग्राम",
+        "पाउंड",
+        "न्यूटन"
+      ],
+      "explanation": "भार एक बल है (W=mg), इसलिए इसकी SI इकाई न्यूटन (N) है।"
+    }
+  },
+  {
+    "id": "groupd-s-0010",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "An object weighs 60 N on Earth. Its weight on moon? (g_moon=g/6)",
+      "options": [
+        "10 N",
+        "360 N",
+        "6 N",
+        "60 N"
+      ],
+      "explanation": "Weight on moon = Weight on Earth / 6 = 60/6 = 10 N."
+    },
+    "hi": {
+      "question": "एक वस्तु का पृथ्वी पर भार 60 N है। चंद्रमा पर भार? (g_चंद्र=g/6)",
+      "options": [
+        "10 N",
+        "360 N",
+        "6 N",
+        "60 N"
+      ],
+      "explanation": "चंद्रमा पर भार = पृथ्वी पर भार / 6 = 60/6 = 10 N।"
+    }
+  },
+  {
+    "id": "groupd-s-0011",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The universal gravitational constant G was first measured by:",
+      "options": [
+        "Newton",
+        "Galileo",
+        "Henry Cavendish",
+        "Kepler"
+      ],
+      "explanation": "Henry Cavendish first experimentally measured the value of G using a torsion balance."
+    },
+    "hi": {
+      "question": "सार्वभौमिक गुरुत्वाकर्षण स्थिरांक G पहली बार किसने मापा?",
+      "options": [
+        "न्यूटन",
+        "गैलीलियो",
+        "हेनरी कैवेंडिश",
+        "केप्लर"
+      ],
+      "explanation": "हेनरी कैवेंडिश ने पहली बार मरोड़ तुला से G का प्रायोगिक मापन किया।"
+    }
+  },
+  {
+    "id": "groupd-s-0012",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A body weighs 72 N on Earth. Its mass is: (g=10)",
+      "options": [
+        "72 kg",
+        "7.2 kg",
+        "720 kg",
+        "0.72 kg"
+      ],
+      "explanation": "W=mg. m=W/g=72/10=7.2 kg."
+    },
+    "hi": {
+      "question": "एक पिंड का पृथ्वी पर भार 72 N है। द्रव्यमान: (g=10)",
+      "options": [
+        "72 kg",
+        "7.2 kg",
+        "720 kg",
+        "0.72 kg"
+      ],
+      "explanation": "W=mg। m=W/g=72/10=7.2 kg।"
+    }
+  },
+  {
+    "id": "groupd-s-0013",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Archimedes principle is related to:",
+      "options": [
+        "Gravity",
+        "Pressure",
+        "Density",
+        "Buoyancy"
+      ],
+      "explanation": "Archimedes principle states that upward buoyant force equals the weight of fluid displaced."
+    },
+    "hi": {
+      "question": "आर्किमिडीज़ का सिद्धांत किससे संबंधित है?",
+      "options": [
+        "गुरुत्वाकर्षण",
+        "दाब",
+        "घनत्व",
+        "उत्प्लावन"
+      ],
+      "explanation": "आर्किमिडीज़ सिद्धांत: ऊपर उठाने वाला उत्प्लावन बल, विस्थापित द्रव के भार के बराबर होता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0014",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The SI unit of G (universal gravitational constant) is:",
+      "options": [
+        "N m^2/kg^2",
+        "N m/kg",
+        "N/kg",
+        "m/s^2"
+      ],
+      "explanation": "G = F r^2/(m1 m2). Units: N x m^2 / kg^2 = N m^2 kg^-2."
+    },
+    "hi": {
+      "question": "G (सार्वभौमिक गुरुत्वाकर्षण स्थिरांक) की SI इकाई:",
+      "options": [
+        "N m^2/kg^2",
+        "N m/kg",
+        "N/kg",
+        "m/s^2"
+      ],
+      "explanation": "G = F r^2/(m1 m2)। इकाइयां: N x m^2 / kg^2 = N m^2 kg^-2।"
+    }
+  },
+  {
+    "id": "groupd-s-0015",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "An object of volume 0.5 m^3 is fully immersed in water. Buoyant force? (water density=1000 kg/m^3, g=10)",
+      "options": [
+        "500 N",
+        "1000 N",
+        "5000 N",
+        "10000 N"
+      ],
+      "explanation": "Buoyant force = rho x V x g = 1000 x 0.5 x 10 = 5000 N."
+    },
+    "hi": {
+      "question": "0.5 m^3 आयतन की वस्तु पूर्णतः पानी में डूबी है। उत्प्लावन बल? (जल घनत्व=1000 kg/m^3, g=10)",
+      "options": [
+        "500 N",
+        "1000 N",
+        "5000 N",
+        "10000 N"
+      ],
+      "explanation": "उत्प्लावन बल = ρ x V x g = 1000 x 0.5 x 10 = 5000 N।"
+    }
+  },
+  {
+    "id": "groupd-s-0016",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Gravitational force between two bodies does NOT depend on:",
+      "options": [
+        "Masses of bodies",
+        "Nature of medium between them",
+        "Distance between them",
+        "Universal constant G"
+      ],
+      "explanation": "Gravitational force F = G m1 m2/r^2 is independent of the medium between the bodies."
+    },
+    "hi": {
+      "question": "दो पिंडों के बीच गुरुत्वाकर्षण बल किस पर निर्भर नहीं करता?",
+      "options": [
+        "पिंडों का द्रव्यमान",
+        "उनके बीच माध्यम की प्रकृति",
+        "उनके बीच की दूरी",
+        "सार्वभौमिक स्थिरांक G"
+      ],
+      "explanation": "गुरुत्वाकर्षण बल F=G m1 m2/r^2, पिंडों के बीच माध्यम पर निर्भर नहीं करता।"
+    }
+  },
+  {
+    "id": "groupd-s-0017",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The weight of a body at the centre of Earth is:",
+      "options": [
+        "Maximum",
+        "Equal to surface weight",
+        "Zero",
+        "Infinite"
+      ],
+      "explanation": "At the centre of Earth, g=0 (forces from all directions cancel), so weight is zero."
+    },
+    "hi": {
+      "question": "पृथ्वी के केंद्र पर किसी पिंड का भार:",
+      "options": [
+        "अधिकतम",
+        "सतह के भार के बराबर",
+        "शून्य",
+        "अनंत"
+      ],
+      "explanation": "पृथ्वी के केंद्र पर g=0 (सभी दिशाओं से बल निरस्त), इसलिए भार शून्य है।"
+    }
+  },
+  {
+    "id": "groupd-s-0018",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A stone is dropped from a height. It accelerates because of:",
+      "options": [
+        "Magnetic force",
+        "Electrostatic force",
+        "Nuclear force",
+        "Gravitational force"
+      ],
+      "explanation": "A freely falling body accelerates due to Earth's gravitational pull (g=9.8 m/s^2)."
+    },
+    "hi": {
+      "question": "ऊंचाई से गिराया पत्थर त्वरित होता है:",
+      "options": [
+        "चुंबकीय बल",
+        "स्थिरवैद्युत बल",
+        "नाभिकीय बल",
+        "गुरुत्वाकर्षण बल"
+      ],
+      "explanation": "मुक्त पतन में वस्तु पृथ्वी के गुरुत्वाकर्षण (g=9.8 m/s^2) से त्वरित होती है।"
+    }
+  },
+  {
+    "id": "groupd-s-0019",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Two masses 10 kg and 20 kg are 2 m apart. Gravitational force? (G=6.67x10^-11)",
+      "options": [
+        "3.335x10^-9 N",
+        "6.67x10^-9 N",
+        "1.667x10^-9 N",
+        "6.67x10^-11 N"
+      ],
+      "explanation": "F=Gm1m2/r^2=6.67x10^-11x10x20/4=3.335x10^-9 N."
+    },
+    "hi": {
+      "question": "10 kg और 20 kg द्रव्यमान 2 m दूर हैं। गुरुत्वाकर्षण बल? (G=6.67x10^-11)",
+      "options": [
+        "3.335x10^-9 N",
+        "6.67x10^-9 N",
+        "1.667x10^-9 N",
+        "6.67x10^-11 N"
+      ],
+      "explanation": "F=Gm1m2/r^2=6.67x10^-11x10x20/4=3.335x10^-9 N।"
+    }
+  },
+  {
+    "id": "groupd-s-0020",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Escape velocity from Earth's surface is approximately:",
+      "options": [
+        "7.9 km/s",
+        "11.2 km/s",
+        "5.6 km/s",
+        "16.7 km/s"
+      ],
+      "explanation": "Escape velocity from Earth is about 11.2 km/s. It is the minimum speed to escape Earth's gravity."
+    },
+    "hi": {
+      "question": "पृथ्वी की सतह से पलायन वेग लगभग:",
+      "options": [
+        "7.9 km/s",
+        "11.2 km/s",
+        "5.6 km/s",
+        "16.7 km/s"
+      ],
+      "explanation": "पृथ्वी से पलायन वेग लगभग 11.2 km/s है। यह पृथ्वी के गुरुत्व से बचने की न्यूनतम चाल है।"
+    }
+  },
+  {
+    "id": "groupd-s-0021",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If the distance between two masses is halved, gravitational force becomes:",
+      "options": [
+        "Half",
+        "Double",
+        "Four times",
+        "Unchanged"
+      ],
+      "explanation": "F is inversely proportional to r^2. If r->r/2, F->4F (four times)."
+    },
+    "hi": {
+      "question": "यदि दो द्रव्यमानों के बीच दूरी आधी कर दी जाए, गुरुत्वाकर्षण बल:",
+      "options": [
+        "आधा",
+        "दोगुना",
+        "चार गुना",
+        "अपरिवर्तित"
+      ],
+      "explanation": "F, r^2 के व्युत्क्रमानुपाती है। r->r/2, F->4F (चार गुना)।"
+    }
+  },
+  {
+    "id": "groupd-s-0022",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A cubical block of side 10 cm weighs 2 kg. Density in g/cm^3?",
+      "options": [
+        "0.2",
+        "0.5",
+        "5",
+        "2"
+      ],
+      "explanation": "Volume=10x10x10=1000 cm^3. Density=2000/1000=2 g/cm^3. Note: 2 kg = 2000 g."
+    },
+    "hi": {
+      "question": "10 cm भुजा के घनाकार ब्लॉक का द्रव्यमान 2 kg। घनत्व g/cm^3 में?",
+      "options": [
+        "0.2",
+        "0.5",
+        "5",
+        "2"
+      ],
+      "explanation": "आयतन=10x10x10=1000 cm^3। घनत्व=2000/1000=2 g/cm^3।"
+    }
+  },
+  {
+    "id": "groupd-s-0023",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A body floats if its density is:",
+      "options": [
+        "Less than the fluid",
+        "Greater than the fluid",
+        "Equal to half the fluid",
+        "Twice the fluid"
+      ],
+      "explanation": "A body floats when its average density is less than the density of the fluid."
+    },
+    "hi": {
+      "question": "कोई पिंड तैरता है यदि उसका घनत्व:",
+      "options": [
+        "द्रव से कम है",
+        "द्रव से अधिक है",
+        "द्रव के आधे के बराबर है",
+        "द्रव का दोगुना है"
+      ],
+      "explanation": "पिंड तैरता है जब उसका औसत घनत्व द्रव के घनत्व से कम हो।"
+    }
+  },
+  {
+    "id": "groupd-s-0024",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Gravitational force is always:",
+      "options": [
+        "Repulsive",
+        "Attractive",
+        "Both attractive and repulsive",
+        "Zero"
+      ],
+      "explanation": "Gravitational force is always attractive. It pulls masses towards each other."
+    },
+    "hi": {
+      "question": "गुरुत्वाकर्षण बल हमेशा:",
+      "options": [
+        "प्रतिकर्षी",
+        "आकर्षी",
+        "आकर्षी और प्रतिकर्षी दोनों",
+        "शून्य"
+      ],
+      "explanation": "गुरुत्वाकर्षण बल हमेशा आकर्षी होता है। यह द्रव्यमानों को एक-दूसरे की ओर खींचता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0025",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "An object weighs 100 N in air and 80 N in water. Buoyant force?",
+      "options": [
+        "100 N",
+        "80 N",
+        "20 N",
+        "180 N"
+      ],
+      "explanation": "Buoyant force = Weight in air - Weight in water = 100 - 80 = 20 N."
+    },
+    "hi": {
+      "question": "वस्तु का वायु में भार 100 N और पानी में 80 N है। उत्प्लावन बल?",
+      "options": [
+        "100 N",
+        "80 N",
+        "20 N",
+        "180 N"
+      ],
+      "explanation": "उत्प्लावन बल = वायु में भार - पानी में भार = 100 - 80 = 20 N।"
+    }
+  },
+  {
+    "id": "groupd-s-0026",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The weight of a body varies because of change in:",
+      "options": [
+        "Mass",
+        "Volume",
+        "Density",
+        "Acceleration due to gravity"
+      ],
+      "explanation": "Weight = m x g. Since g varies with location, weight varies. Mass remains constant."
+    },
+    "hi": {
+      "question": "पिंड का भार किसके परिवर्तन से बदलता है?",
+      "options": [
+        "द्रव्यमान",
+        "आयतन",
+        "घनत्व",
+        "गुरुत्वीय त्वरण"
+      ],
+      "explanation": "भार = m x g। g स्थान के साथ बदलता है, इसलिए भार बदलता है। द्रव्यमान स्थिर रहता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0027",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Atmospheric pressure at sea level is approximately:",
+      "options": [
+        "1.013 x 10^5 Pa",
+        "1.013 x 10^3 Pa",
+        "1.013 x 10^7 Pa",
+        "1.013 Pa"
+      ],
+      "explanation": "Standard atmospheric pressure at sea level is 1.013 x 10^5 Pa = 760 mm of Hg."
+    },
+    "hi": {
+      "question": "समुद्र तल पर वायुमंडलीय दाब लगभग:",
+      "options": [
+        "1.013 x 10^5 Pa",
+        "1.013 x 10^3 Pa",
+        "1.013 x 10^7 Pa",
+        "1.013 Pa"
+      ],
+      "explanation": "समुद्र तल पर मानक वायुमंडलीय दाब 1.013 x 10^5 Pa = 760 mm Hg है।"
+    }
+  },
+  {
+    "id": "groupd-s-0028",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A planet has twice Earth's radius and same average density. g on planet?",
+      "options": [
+        "g",
+        "2g",
+        "g/2",
+        "4g"
+      ],
+      "explanation": "g=GM/R^2=G(4/3 pi R^3 rho)/R^2. g is proportional to R. So g_new=2g."
+    },
+    "hi": {
+      "question": "एक ग्रह की त्रिज्या पृथ्वी से दोगुनी, समान घनत्व। ग्रह पर g?",
+      "options": [
+        "g",
+        "2g",
+        "g/2",
+        "4g"
+      ],
+      "explanation": "g=GM/R^2=G(4/3 π R^3 ρ)/R^2। g, R के समानुपाती। अतः g_नया=2g।"
+    }
+  },
+  {
+    "id": "groupd-s-0029",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The value of G is:",
+      "options": [
+        "9.8 m/s^2",
+        "9.8 N/kg",
+        "6.67 x 10^-11 N m^2/kg^2",
+        "6.67 x 10^-11 m/s^2"
+      ],
+      "explanation": "G = 6.67 x 10^-11 N m^2/kg^2 is a universal constant, different from g=9.8 m/s^2."
+    },
+    "hi": {
+      "question": "G का मान है:",
+      "options": [
+        "9.8 m/s^2",
+        "9.8 N/kg",
+        "6.67 x 10^-11 N m^2/kg^2",
+        "6.67 x 10^-11 m/s^2"
+      ],
+      "explanation": "G = 6.67 x 10^-11 N m^2/kg^2 एक सार्वभौमिक स्थिरांक है, g=9.8 m/s^2 से भिन्न।"
+    }
+  },
+  {
+    "id": "groupd-s-0030",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A metal cube of 8 cm^3 weighs 64 g in air. Its density?",
+      "options": [
+        "8 g/cm^3",
+        "6 g/cm^3",
+        "4 g/cm^3",
+        "2 g/cm^3"
+      ],
+      "explanation": "Density = mass/volume = 64/8 = 8 g/cm^3."
+    },
+    "hi": {
+      "question": "धातु का घन 8 cm^3, वायु में 64 g। घनत्व?",
+      "options": [
+        "8 g/cm^3",
+        "6 g/cm^3",
+        "4 g/cm^3",
+        "2 g/cm^3"
+      ],
+      "explanation": "घनत्व = द्रव्यमान/आयतन = 64/8 = 8 g/cm^3।"
+    }
+  },
+  {
+    "id": "groupd-s-0031",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A hydrometer is used to measure:",
+      "options": [
+        "Atmospheric pressure",
+        "Relative density of liquids",
+        "Humidity",
+        "Temperature"
+      ],
+      "explanation": "A hydrometer measures the relative density (specific gravity) of liquids."
+    },
+    "hi": {
+      "question": "हाइड्रोमीटर किसे मापने के लिए उपयोग होता है?",
+      "options": [
+        "वायुमंडलीय दाब",
+        "द्रवों का आपेक्षिक घनत्व",
+        "आर्द्रता",
+        "तापमान"
+      ],
+      "explanation": "हाइड्रोमीटर द्रवों का आपेक्षिक घनत्व (विशिष्ट गुरुत्व) मापता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0032",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The atmosphere extends up to about ___ above Earth's surface.",
+      "options": [
+        "100 km",
+        "200 km",
+        "300 km",
+        "400 km"
+      ],
+      "explanation": "The Earth's atmosphere extends up to about 400 km. Most air is within 30 km."
+    },
+    "hi": {
+      "question": "पृथ्वी का वायुमंडल सतह से लगभग ___ ऊपर तक फैला है।",
+      "options": [
+        "100 km",
+        "200 km",
+        "300 km",
+        "400 km"
+      ],
+      "explanation": "पृथ्वी का वायुमंडल लगभग 400 km तक फैला है। अधिकांश वायु 30 km के भीतर है।"
+    }
+  },
+  {
+    "id": "groupd-s-0033",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "At what height above Earth's surface does g become half? (R=Earth radius)",
+      "options": [
+        "R",
+        "R/2",
+        "R(sqrt(2)-1)",
+        "2R"
+      ],
+      "explanation": "g_h=g/(1+h/R)^2. For g_h=g/2: (1+h/R)^2=2. h/R=sqrt(2)-1. h=R(sqrt(2)-1)."
+    },
+    "hi": {
+      "question": "पृथ्वी सतह से कितनी ऊंचाई पर g आधा हो जाता है? (R=पृथ्वी त्रिज्या)",
+      "options": [
+        "R",
+        "R/2",
+        "R(sqrt(2)-1)",
+        "2R"
+      ],
+      "explanation": "g_h=g/(1+h/R)^2। g_h=g/2: (1+h/R)^2=2। h/R=sqrt(2)-1। h=R(sqrt(2)-1)।"
+    }
+  },
+  {
+    "id": "groupd-s-0034",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If a body weighs 30 N on Earth, its mass is approximately:",
+      "options": [
+        "3 kg",
+        "30 kg",
+        "300 kg",
+        "0.3 kg"
+      ],
+      "explanation": "W=mg. m=W/g=30/10=3 kg (using g=10 for approximation)."
+    },
+    "hi": {
+      "question": "यदि पृथ्वी पर भार 30 N है, द्रव्यमान लगभग:",
+      "options": [
+        "3 kg",
+        "30 kg",
+        "300 kg",
+        "0.3 kg"
+      ],
+      "explanation": "W=mg। m=W/g=30/10=3 kg (g=10 लेकर)।"
+    }
+  },
+  {
+    "id": "groupd-s-0035",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The relative density of water is:",
+      "options": [
+        "0",
+        "1",
+        "10",
+        "100"
+      ],
+      "explanation": "Relative density = density of substance / density of water at 4°C. For water, RD=1."
+    },
+    "hi": {
+      "question": "जल का आपेक्षिक घनत्व है:",
+      "options": [
+        "0",
+        "1",
+        "10",
+        "100"
+      ],
+      "explanation": "आपेक्षिक घनत्व = पदार्थ का घनत्व / 4°C पर जल का घनत्व। जल के लिए RD=1।"
+    }
+  },
+  {
+    "id": "groupd-s-0036",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A satellite orbits Earth at height equal to Earth's radius. Its orbital speed compared to surface g?",
+      "options": [
+        "sqrt(gR)",
+        "2 sqrt(gR)",
+        "sqrt(gR/2)",
+        "sqrt(2gR)"
+      ],
+      "explanation": "v=sqrt(GM/(R+h))=sqrt(GM/2R)=sqrt(gR^2/2R)=sqrt(gR/2)."
+    },
+    "hi": {
+      "question": "उपग्रह पृथ्वी त्रिज्या के बराबर ऊंचाई पर परिक्रमा करता है। कक्षीय चाल?",
+      "options": [
+        "sqrt(gR)",
+        "2 sqrt(gR)",
+        "sqrt(gR/2)",
+        "sqrt(2gR)"
+      ],
+      "explanation": "v=sqrt(GM/(R+h))=sqrt(GM/2R)=sqrt(gR^2/2R)=sqrt(gR/2)।"
+    }
+  },
+  {
+    "id": "groupd-s-0037",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A sharp knife cuts better because it exerts:",
+      "options": [
+        "Less force",
+        "More weight",
+        "Less pressure",
+        "More pressure"
+      ],
+      "explanation": "A sharp knife has a smaller area, so for the same force, pressure is higher (P=F/A)."
+    },
+    "hi": {
+      "question": "तेज चाकू बेहतर काटता है क्योंकि वह लगाता है:",
+      "options": [
+        "कम बल",
+        "अधिक भार",
+        "कम दाब",
+        "अधिक दाब"
+      ],
+      "explanation": "तेज चाकू का क्षेत्रफल कम, समान बल पर अधिक दाब (P=F/A)।"
+    }
+  },
+  {
+    "id": "groupd-s-0038",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 200 g object weighs 1.6 N on a planet. What is g on that planet?",
+      "options": [
+        "4 m/s^2",
+        "8 m/s^2",
+        "16 m/s^2",
+        "32 m/s^2"
+      ],
+      "explanation": "g=W/m=1.6/0.2=8 m/s^2."
+    },
+    "hi": {
+      "question": "200 g वस्तु का एक ग्रह पर भार 1.6 N है। उस ग्रह पर g?",
+      "options": [
+        "4 m/s^2",
+        "8 m/s^2",
+        "16 m/s^2",
+        "32 m/s^2"
+      ],
+      "explanation": "g=W/m=1.6/0.2=8 m/s^2।"
+    }
+  },
+  {
+    "id": "groupd-s-0039",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The upward force experienced by an object in a fluid is:",
+      "options": [
+        "Buoyant force",
+        "Gravitational force",
+        "Frictional force",
+        "Magnetic force"
+      ],
+      "explanation": "Buoyant force is the upward force exerted by a fluid on an object immersed in it."
+    },
+    "hi": {
+      "question": "द्रव में डूबी वस्तु पर ऊपर की ओर लगने वाला बल:",
+      "options": [
+        "उत्प्लावन बल",
+        "गुरुत्वाकर्षण बल",
+        "घर्षण बल",
+        "चुंबकीय बल"
+      ],
+      "explanation": "उत्प्लावन बल द्रव द्वारा उसमें डूबी वस्तु पर ऊपर की ओर लगाया गया बल है।"
+    }
+  },
+  {
+    "id": "groupd-s-0040",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A solid weighs 80 g in air, 60 g in water, and 50 g in a liquid. RD of liquid?",
+      "options": [
+        "1.0",
+        "1.2",
+        "1.5",
+        "2.0"
+      ],
+      "explanation": "Loss in water=20 g. Volume=20 cm^3. Loss in liquid=30 g. RD of liquid=30/20=1.5."
+    },
+    "hi": {
+      "question": "ठोस का वायु में 80 g, पानी में 60 g, द्रव में 50 g भार। द्रव का RD?",
+      "options": [
+        "1.0",
+        "1.2",
+        "1.5",
+        "2.0"
+      ],
+      "explanation": "पानी में ह्रास=20 g। आयतन=20 cm^3। द्रव में ह्रास=30 g। द्रव का RD=30/20=1.5।"
+    }
+  },
+  {
+    "id": "groupd-s-0041",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "At poles, the value of g is ____ than at equator.",
+      "options": [
+        "Less",
+        "More",
+        "Same",
+        "Zero"
+      ],
+      "explanation": "Earth is flattened at poles (radius smaller), so g=GM/R^2 is larger at poles."
+    },
+    "hi": {
+      "question": "ध्रुवों पर g का मान भूमध्य रेखा से:",
+      "options": [
+        "कम",
+        "अधिक",
+        "समान",
+        "शून्य"
+      ],
+      "explanation": "पृथ्वी ध्रुवों पर चपटी (त्रिज्या छोटी), इसलिए g=GM/R^2 ध्रुवों पर अधिक।"
+    }
+  },
+  {
+    "id": "groupd-s-0042",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A container of base area 2 m^2 contains water to 5 m. Force on base? (density=1000 kg/m^3, g=10)",
+      "options": [
+        "500 N",
+        "5000 N",
+        "10000 N",
+        "100000 N"
+      ],
+      "explanation": "Pressure=rho gh=1000x10x5=50000 Pa. Force=PxA=50000x2=100000 N."
+    },
+    "hi": {
+      "question": "2 m^2 आधार का पात्र, 5 m पानी। आधार पर बल? (घनत्व=1000 kg/m^3, g=10)",
+      "options": [
+        "500 N",
+        "5000 N",
+        "10000 N",
+        "100000 N"
+      ],
+      "explanation": "दाब=ρgh=1000x10x5=50000 Pa। बल=PxA=50000x2=100000 N।"
+    }
+  },
+  {
+    "id": "groupd-s-0043",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pascal's law is applied in:",
+      "options": [
+        "Hydraulic lift",
+        "Thermometer",
+        "Barometer",
+        "Hydrometer"
+      ],
+      "explanation": "Pascal's law states pressure applied to an enclosed fluid is transmitted equally. It is used in hydraulic lifts and brakes."
+    },
+    "hi": {
+      "question": "पास्कल का नियम किसमें लागू होता है?",
+      "options": [
+        "हाइड्रोलिक लिफ्ट",
+        "थर्मामीटर",
+        "बैरोमीटर",
+        "हाइड्रोमीटर"
+      ],
+      "explanation": "पास्कल का नियम: बंद द्रव पर दाब समान रूप से संचारित होता है। हाइड्रोलिक लिफ्ट और ब्रेक में उपयोग।"
+    }
+  },
+  {
+    "id": "groupd-s-0044",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A hydraulic press has pistons of radii 5 cm and 50 cm. Force on smaller=20 N. Force on larger?",
+      "options": [
+        "200 N",
+        "500 N",
+        "2000 N",
+        "5000 N"
+      ],
+      "explanation": "F1/A1=F2/A2. F2=F1(A2/A1)=20(pi 2500)/(pi 25)=20x100=2000 N."
+    },
+    "hi": {
+      "question": "हाइड्रोलिक प्रेस की पिस्टन त्रिज्या 5 cm और 50 cm। छोटी पर बल=20 N। बड़ी पर बल?",
+      "options": [
+        "200 N",
+        "500 N",
+        "2000 N",
+        "5000 N"
+      ],
+      "explanation": "F2=F1(A2/A1)=20(2500/25)=20x100=2000 N।"
+    }
+  },
+  {
+    "id": "groupd-s-0045",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The mass of a body on moon compared to Earth:",
+      "options": [
+        "Becomes 1/6",
+        "Remains same",
+        "Becomes 6 times",
+        "Becomes zero"
+      ],
+      "explanation": "Mass is constant everywhere in the universe. Only weight changes with g."
+    },
+    "hi": {
+      "question": "चंद्रमा पर पिंड का द्रव्यमान पृथ्वी की तुलना में:",
+      "options": [
+        "1/6 हो जाता है",
+        "समान रहता है",
+        "6 गुना हो जाता है",
+        "शून्य हो जाता है"
+      ],
+      "explanation": "द्रव्यमान ब्रह्मांड में हर जगह स्थिर रहता है। केवल भार g के साथ बदलता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0046",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A dam wall is thicker at the bottom because:",
+      "options": [
+        "It looks better",
+        "More material available",
+        "Cost effective",
+        "Water pressure increases with depth"
+      ],
+      "explanation": "Pressure in a liquid increases with depth (P = rho gh), so dam walls need to be thicker at the bottom."
+    },
+    "hi": {
+      "question": "बांध की दीवार नीचे मोटी होती है क्योंकि:",
+      "options": [
+        "दिखने में अच्छी",
+        "अधिक सामग्री उपलब्ध",
+        "किफायती",
+        "गहराई के साथ जल दाब बढ़ता है"
+      ],
+      "explanation": "द्रव में दाब गहराई के साथ बढ़ता है (P=ρgh), इसलिए बांध की दीवार नीचे मोटी होनी चाहिए।"
+    }
+  },
+  {
+    "id": "groupd-s-0047",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A person can lift 60 kg on Earth. How much can they lift on moon? (g_moon=g/6)",
+      "options": [
+        "360 kg",
+        "10 kg",
+        "60 kg",
+        "6 kg"
+      ],
+      "explanation": "Same force: m_earth g = m_moon(g/6). m_moon = 6 x m_earth = 6 x 60 = 360 kg."
+    },
+    "hi": {
+      "question": "व्यक्ति पृथ्वी पर 60 kg उठा सकता है। चंद्रमा पर कितना? (g_चंद्र=g/6)",
+      "options": [
+        "360 kg",
+        "10 kg",
+        "60 kg",
+        "6 kg"
+      ],
+      "explanation": "समान बल: m_पृथ्वी g = m_चंद्र(g/6)। m_चंद्र = 6 x 60 = 360 kg।"
+    }
+  },
+  {
+    "id": "groupd-s-0048",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Why do astronauts wear special suits?",
+      "options": [
+        "For fashion",
+        "To look different",
+        "To maintain pressure balance",
+        "To reduce weight"
+      ],
+      "explanation": "Space suits maintain pressure balance because there is no atmospheric pressure in space."
+    },
+    "hi": {
+      "question": "अंतरिक्ष यात्री विशेष सूट क्यों पहनते हैं?",
+      "options": [
+        "फैशन के लिए",
+        "अलग दिखने के लिए",
+        "दाब संतुलन बनाए रखने के लिए",
+        "भार घटाने के लिए"
+      ],
+      "explanation": "अंतरिक्ष में वायुमंडलीय दाब नहीं होता, इसलिए स्पेस सूट दाब संतुलन बनाए रखते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0049",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A submarine at 200 m depth. Pressure? (water density=1025 kg/m^3, g=10, atm=10^5 Pa)",
+      "options": [
+        "20.5 atm",
+        "21.5 atm",
+        "2.05 atm",
+        "1 atm"
+      ],
+      "explanation": "P=P0+rho gh=100000+1025x10x200=100000+2050000=2150000 Pa=21.5 atm."
+    },
+    "hi": {
+      "question": "पनडुब्बी 200 m गहराई पर। दाब? (जल घनत्व=1025, g=10, atm=10^5 Pa)",
+      "options": [
+        "20.5 atm",
+        "21.5 atm",
+        "2.05 atm",
+        "1 atm"
+      ],
+      "explanation": "P=P0+ρgh=10^5+1025x10x200=2150000 Pa=21.5 atm।"
+    }
+  },
+  {
+    "id": "groupd-s-0050",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The gravitational force follows:",
+      "options": [
+        "Direct square law",
+        "Inverse law",
+        "Direct cube law",
+        "Inverse square law"
+      ],
+      "explanation": "F = G m1 m2 / r^2 follows inverse square law: force is inversely proportional to the square of distance."
+    },
+    "hi": {
+      "question": "गुरुत्वाकर्षण बल किस नियम का पालन करता है?",
+      "options": [
+        "प्रत्यक्ष वर्ग नियम",
+        "प्रतिलोम नियम",
+        "प्रत्यक्ष घन नियम",
+        "प्रतिलोम वर्ग नियम"
+      ],
+      "explanation": "F=G m1 m2/r^2 प्रतिलोम वर्ग नियम का पालन करता है: बल दूरी के वर्ग का व्युत्क्रमानुपाती।"
+    }
+  },
+  {
+    "id": "groupd-s-0051",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A block of wood of RD 0.6 floats in water. Percentage above water?",
+      "options": [
+        "40%",
+        "60%",
+        "100%",
+        "0%"
+      ],
+      "explanation": "Fraction submerged = RD = 0.6 (60%). So 40% is above water."
+    },
+    "hi": {
+      "question": "लकड़ी का ब्लॉक RD=0.6 पानी में तैरता है। पानी के ऊपर प्रतिशत?",
+      "options": [
+        "40%",
+        "60%",
+        "100%",
+        "0%"
+      ],
+      "explanation": "डूबा अंश = RD = 0.6 (60%)। अतः 40% पानी के ऊपर।"
+    }
+  },
+  {
+    "id": "groupd-s-0052",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The SI unit of relative density is:",
+      "options": [
+        "kg/m^3",
+        "g/cm^3",
+        "No unit (dimensionless)",
+        "N/m^3"
+      ],
+      "explanation": "Relative density is a ratio of two densities, so it has no unit (dimensionless)."
+    },
+    "hi": {
+      "question": "आपेक्षिक घनत्व की SI इकाई:",
+      "options": [
+        "kg/m^3",
+        "g/cm^3",
+        "कोई इकाई नहीं (विमाहीन)",
+        "N/m^3"
+      ],
+      "explanation": "आपेक्षिक घनत्व दो घनत्वों का अनुपात है, इसलिए इसकी कोई इकाई नहीं (विमाहीन)।"
+    }
+  },
+  {
+    "id": "groupd-s-0053",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "If Earth shrinks to half its radius, mass remaining same, g becomes:",
+      "options": [
+        "g/4",
+        "4g",
+        "g/2",
+        "2g"
+      ],
+      "explanation": "g=GM/R^2. R->R/2: g_new=GM/(R/2)^2=4GM/R^2=4g."
+    },
+    "hi": {
+      "question": "यदि पृथ्वी आधी त्रिज्या की हो जाए, द्रव्यमान समान, g:",
+      "options": [
+        "g/4",
+        "4g",
+        "g/2",
+        "2g"
+      ],
+      "explanation": "g=GM/R^2। R->R/2: g_नया=GM/(R/2)^2=4GM/R^2=4g।"
+    }
+  },
+  {
+    "id": "groupd-s-0054",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Why do clouds float?",
+      "options": [
+        "They are lighter than air",
+        "They are solid",
+        "They have high density",
+        "Upward convection currents"
+      ],
+      "explanation": "Clouds float due to upward convection currents and the buoyancy of tiny water droplets in air."
+    },
+    "hi": {
+      "question": "बादल क्यों तैरते हैं?",
+      "options": [
+        "वायु से हल्के हैं",
+        "ठोस हैं",
+        "उच्च घनत्व के हैं",
+        "ऊपर की ओर संवहन धाराएं"
+      ],
+      "explanation": "बादल ऊपर की संवहन धाराओं और सूक्ष्म जलकणों के वायु में उत्प्लावन से तैरते हैं।"
+    }
+  },
+  {
+    "id": "groupd-s-0055",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "At what depth in water is pressure equal to 2 atm? (g=10, atm=10^5, rho=1000)",
+      "options": [
+        "10 m",
+        "20 m",
+        "5 m",
+        "2 m"
+      ],
+      "explanation": "P_total=P_atm+rho gh. 2x10^5=10^5+1000x10xh. h=10^5/10000=10 m."
+    },
+    "hi": {
+      "question": "पानी में कितनी गहराई पर दाब 2 atm? (g=10, atm=10^5, ρ=1000)",
+      "options": [
+        "10 m",
+        "20 m",
+        "5 m",
+        "2 m"
+      ],
+      "explanation": "P_कुल=P_atm+ρgh। 2x10^5=10^5+1000x10xh। h=10^5/10000=10 m।"
+    }
+  },
+  {
+    "id": "groupd-s-0056",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The weight of an object is zero when:",
+      "options": [
+        "On moon",
+        "On mountain",
+        "In free fall (weightlessness)",
+        "At sea level"
+      ],
+      "explanation": "During free fall, the body experiences weightlessness because both the body and support fall together."
+    },
+    "hi": {
+      "question": "वस्तु का भार शून्य कब होता है?",
+      "options": [
+        "चंद्रमा पर",
+        "पहाड़ पर",
+        "मुक्त पतन में (भारहीनता)",
+        "समुद्र तल पर"
+      ],
+      "explanation": "मुक्त पतन में वस्तु और आधार साथ गिरते हैं, जिससे भारहीनता का अनुभव होता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0057",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A piece of metal weighs 50 g in air and 45 g in water. Its relative density?",
+      "options": [
+        "5",
+        "10",
+        "2",
+        "20"
+      ],
+      "explanation": "RD = weight in air / loss in water = 50/5 = 10."
+    },
+    "hi": {
+      "question": "धातु का वायु में 50 g, पानी में 45 g भार। आपेक्षिक घनत्व?",
+      "options": [
+        "5",
+        "10",
+        "2",
+        "20"
+      ],
+      "explanation": "RD = वायु में भार / पानी में ह्रास = 50/5 = 10।"
+    }
+  },
+  {
+    "id": "groupd-s-0058",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The device used to measure pressure of a gas is:",
+      "options": [
+        "Barometer",
+        "Thermometer",
+        "Hydrometer",
+        "Manometer"
+      ],
+      "explanation": "A manometer measures the pressure of a gas in a closed container. Barometer measures atmospheric pressure."
+    },
+    "hi": {
+      "question": "गैस का दाब मापने का उपकरण:",
+      "options": [
+        "बैरोमीटर",
+        "थर्मामीटर",
+        "हाइड्रोमीटर",
+        "मैनोमीटर"
+      ],
+      "explanation": "मैनोमीटर बंद पात्र में गैस का दाब मापता है। बैरोमीटर वायुमंडलीय दाब मापता है।"
+    }
+  },
+  {
+    "id": "groupd-s-0059",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "When does a body sink in a fluid?",
+      "options": [
+        "Its density > fluid density",
+        "Its density < fluid density",
+        "Its density = fluid density",
+        "Its volume is large"
+      ],
+      "explanation": "A body sinks when its average density is greater than the density of the fluid."
+    },
+    "hi": {
+      "question": "पिंड द्रव में कब डूबता है?",
+      "options": [
+        "जब घनत्व > द्रव का घनत्व",
+        "जब घनत्व < द्रव का घनत्व",
+        "जब घनत्व = द्रव का घनत्व",
+        "जब आयतन बड़ा हो"
+      ],
+      "explanation": "पिंड तब डूबता है जब उसका औसत घनत्व द्रव के घनत्व से अधिक हो।"
+    }
+  },
+  {
+    "id": "groupd-s-0060",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The force of gravity between two objects of 1 kg each, 1 m apart is: (G=6.67x10^-11)",
+      "options": [
+        "6.67 N",
+        "6.67x10^-10 N",
+        "6.67x10^-11 N",
+        "6.67x10^-9 N"
+      ],
+      "explanation": "F=Gm1m2/r^2=6.67x10^-11x1x1/1=6.67x10^-11 N."
+    },
+    "hi": {
+      "question": "1-1 kg के दो पिंडों, 1 m दूर, के बीच गुरुत्व बल: (G=6.67x10^-11)",
+      "options": [
+        "6.67 N",
+        "6.67x10^-10 N",
+        "6.67x10^-11 N",
+        "6.67x10^-9 N"
+      ],
+      "explanation": "F=Gm1m2/r^2=6.67x10^-11x1x1/1=6.67x10^-11 N।"
+    }
+  },
+  {
+    "id": "groupd-s-0061",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The upward thrust acting on a body immersed in fluid depends on:",
+      "options": [
+        "Colour of fluid",
+        "Density of fluid and volume of body",
+        "Temperature only",
+        "Shape of container"
+      ],
+      "explanation": "Buoyant force = fluid density x volume of body x g. It depends on fluid density and displaced volume."
+    },
+    "hi": {
+      "question": "द्रव में डूबी वस्तु पर उत्प्लावन बल निर्भर करता है:",
+      "options": [
+        "द्रव के रंग",
+        "द्रव के घनत्व और वस्तु के आयतन",
+        "केवल तापमान",
+        "पात्र के आकार"
+      ],
+      "explanation": "उत्प्लावन बल = द्रव घनत्व x वस्तु आयतन x g। यह द्रव घनत्व और विस्थापित आयतन पर निर्भर।"
+    }
+  },
+  {
+    "id": "groupd-s-0062",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Weight of a body at a height equal to Earth's radius from surface is:",
+      "options": [
+        "Same",
+        "Half",
+        "One-fourth",
+        "One-fourth of surface weight"
+      ],
+      "explanation": "g_h=g/(1+h/R)^2. At h=R: g_h=g/4. Weight=m x g_h = mg/4 = W/4."
+    },
+    "hi": {
+      "question": "पृथ्वी की त्रिज्या के बराबर ऊंचाई पर भार:",
+      "options": [
+        "समान",
+        "आधा",
+        "चौथाई",
+        "सतह के भार का चौथाई"
+      ],
+      "explanation": "g_h=g/(1+h/R)^2। h=R: g_h=g/4। भार=m x g_h=mg/4=W/4।"
+    }
+  },
+  {
+    "id": "groupd-s-0063",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A 1000 kg car exerts pressure of 250 Pa on road. Contact area per tyre? (4 tyres, g=10)",
+      "options": [
+        "10 m^2",
+        "2.5 m^2",
+        "10 m^2 per tyre",
+        "40 m^2 total"
+      ],
+      "explanation": "Total force=1000x10=10000 N. P=F/A. A_total=10000/250=40 m^2. Per tyre=10 m^2."
+    },
+    "hi": {
+      "question": "1000 kg कार सड़क पर 250 Pa दाब डालती है। प्रति टायर संपर्क क्षेत्र? (4 टायर, g=10)",
+      "options": [
+        "10 m^2",
+        "2.5 m^2",
+        "10 m^2 प्रति टायर",
+        "40 m^2 कुल"
+      ],
+      "explanation": "कुल बल=10000 N। A_कुल=10000/250=40 m^2। प्रति टायर=10 m^2।"
+    }
+  },
+  {
+    "id": "groupd-s-0064",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "The principle used in designing ships and submarines:",
+      "options": [
+        "Archimedes principle",
+        "Hooke's law",
+        "Pascal's law",
+        "Bernoulli's principle"
+      ],
+      "explanation": "Archimedes principle about buoyancy is fundamental in designing ships and submarines."
+    },
+    "hi": {
+      "question": "जहाज और पनडुब्बी डिजाइन में प्रयुक्त सिद्धांत:",
+      "options": [
+        "आर्किमिडीज़ का सिद्धांत",
+        "हुक का नियम",
+        "पास्कल का नियम",
+        "बर्नौली का सिद्धांत"
+      ],
+      "explanation": "उत्प्लावन के बारे में आर्किमिडीज़ का सिद्धांत जहाज और पनडुब्बी डिजाइन का आधार है।"
+    }
+  },
+  {
+    "id": "groupd-s-0065",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A stone of density 3 g/cm^3 and mass 300 g is immersed in water. Buoyant force? (water=1 g/cm^3, g=10)",
+      "options": [
+        "3 N",
+        "1 N",
+        "2 N",
+        "0.5 N"
+      ],
+      "explanation": "Volume=m/density=300/3=100 cm^3=10^-4 m^3. Buoyant=rho V g=1000x10^-4x10=1 N."
+    },
+    "hi": {
+      "question": "पत्थर घनत्व 3 g/cm^3, द्रव्यमान 300 g, पानी में। उत्प्लावन बल? (g=10)",
+      "options": [
+        "3 N",
+        "1 N",
+        "2 N",
+        "0.5 N"
+      ],
+      "explanation": "आयतन=300/3=100 cm^3=10^-4 m^3। उत्प्लावन=1000x10^-4x10=1 N।"
+    }
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Value of g on Earth?",
+      "options": [
+        "10.8 m/s²",
+        "9.8 m/s²",
+        "8.9 m/s²",
+        "6.7 m/s²"
+      ],
+      "explanation": "Acceleration due to gravity g = 9.8 m/s²."
+    },
+    "hi": {
+      "question": "पृथ्वी पर g का मान?",
+      "options": [
+        "10.8 m/s²",
+        "9.8 m/s²",
+        "8.9 m/s²",
+        "6.7 m/s²"
+      ],
+      "explanation": "गुरुत्वीय त्वरण g = 9.8 मी/से²।"
+    },
+    "id": "groupd-s-0066"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Weight of an object on moon compared to Earth?",
+      "options": [
+        "Double",
+        "Same",
+        "1/6 of Earth",
+        "Half"
+      ],
+      "explanation": "Moon's gravity is 1/6 of Earth's. Weight = mg."
+    },
+    "hi": {
+      "question": "चंद्रमा पर भार पृथ्वी की तुलना में?",
+      "options": [
+        "Double",
+        "Same",
+        "1/6 of Earth",
+        "Half"
+      ],
+      "explanation": "चंद्रमा का गुरुत्व पृथ्वी का 1/6 है।"
+    },
+    "id": "groupd-s-0067"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Archimedes principle is related to?",
+      "options": [
+        "Gravity",
+        "Friction",
+        "Magnetism",
+        "Buoyancy"
+      ],
+      "explanation": "Archimedes: upward buoyant force = weight of displaced fluid."
+    },
+    "hi": {
+      "question": "आर्किमिडीज सिद्धांत संबंधित है?",
+      "options": [
+        "Gravity",
+        "Friction",
+        "Magnetism",
+        "Buoyancy"
+      ],
+      "explanation": "उत्प्लावन बल = विस्थापित द्रव का भार।"
+    },
+    "id": "groupd-s-0068"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Value of g on Earth?",
+      "options": [
+        "6.7 m/s²",
+        "9.8 m/s²",
+        "10.8 m/s²",
+        "8.9 m/s²"
+      ],
+      "explanation": "Acceleration due to gravity g = 9.8 m/s²."
+    },
+    "hi": {
+      "question": "पृथ्वी पर g का मान?",
+      "options": [
+        "6.7 m/s²",
+        "9.8 m/s²",
+        "10.8 m/s²",
+        "8.9 m/s²"
+      ],
+      "explanation": "गुरुत्वीय त्वरण g = 9.8 मी/से²।"
+    },
+    "id": "groupd-s-0069"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Weight of an object on moon compared to Earth?",
+      "options": [
+        "Same",
+        "Half",
+        "1/6 of Earth",
+        "Double"
+      ],
+      "explanation": "Moon's gravity is 1/6 of Earth's. Weight = mg."
+    },
+    "hi": {
+      "question": "चंद्रमा पर भार पृथ्वी की तुलना में?",
+      "options": [
+        "Same",
+        "Half",
+        "1/6 of Earth",
+        "Double"
+      ],
+      "explanation": "चंद्रमा का गुरुत्व पृथ्वी का 1/6 है।"
+    },
+    "id": "groupd-s-0070"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Archimedes principle is related to?",
+      "options": [
+        "Friction",
+        "Magnetism",
+        "Buoyancy",
+        "Gravity"
+      ],
+      "explanation": "Archimedes: upward buoyant force = weight of displaced fluid."
+    },
+    "hi": {
+      "question": "आर्किमिडीज सिद्धांत संबंधित है?",
+      "options": [
+        "Friction",
+        "Magnetism",
+        "Buoyancy",
+        "Gravity"
+      ],
+      "explanation": "उत्प्लावन बल = विस्थापित द्रव का भार।"
+    },
+    "id": "groupd-s-0071"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Value of g on Earth?",
+      "options": [
+        "10.8 m/s²",
+        "9.8 m/s²",
+        "8.9 m/s²",
+        "6.7 m/s²"
+      ],
+      "explanation": "Acceleration due to gravity g = 9.8 m/s²."
+    },
+    "hi": {
+      "question": "पृथ्वी पर g का मान?",
+      "options": [
+        "10.8 m/s²",
+        "9.8 m/s²",
+        "8.9 m/s²",
+        "6.7 m/s²"
+      ],
+      "explanation": "गुरुत्वीय त्वरण g = 9.8 मी/से²।"
+    },
+    "id": "groupd-s-0072"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Weight of an object on moon compared to Earth?",
+      "options": [
+        "Same",
+        "Double",
+        "Half",
+        "1/6 of Earth"
+      ],
+      "explanation": "Moon's gravity is 1/6 of Earth's. Weight = mg."
+    },
+    "hi": {
+      "question": "चंद्रमा पर भार पृथ्वी की तुलना में?",
+      "options": [
+        "Same",
+        "Double",
+        "Half",
+        "1/6 of Earth"
+      ],
+      "explanation": "चंद्रमा का गुरुत्व पृथ्वी का 1/6 है।"
+    },
+    "id": "groupd-s-0073"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Archimedes principle is related to?",
+      "options": [
+        "Buoyancy",
+        "Gravity",
+        "Friction",
+        "Magnetism"
+      ],
+      "explanation": "Archimedes: upward buoyant force = weight of displaced fluid."
+    },
+    "hi": {
+      "question": "आर्किमिडीज सिद्धांत संबंधित है?",
+      "options": [
+        "Buoyancy",
+        "Gravity",
+        "Friction",
+        "Magnetism"
+      ],
+      "explanation": "उत्प्लावन बल = विस्थापित द्रव का भार।"
+    },
+    "id": "groupd-s-0074"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Value of g on Earth?",
+      "options": [
+        "9.8 m/s²",
+        "6.7 m/s²",
+        "8.9 m/s²",
+        "10.8 m/s²"
+      ],
+      "explanation": "Acceleration due to gravity g = 9.8 m/s²."
+    },
+    "hi": {
+      "question": "पृथ्वी पर g का मान?",
+      "options": [
+        "9.8 m/s²",
+        "6.7 m/s²",
+        "8.9 m/s²",
+        "10.8 m/s²"
+      ],
+      "explanation": "गुरुत्वीय त्वरण g = 9.8 मी/से²।"
+    },
+    "id": "groupd-s-0075"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Weight of an object on moon compared to Earth?",
+      "options": [
+        "1/6 of Earth",
+        "Half",
+        "Double",
+        "Same"
+      ],
+      "explanation": "Moon's gravity is 1/6 of Earth's. Weight = mg."
+    },
+    "hi": {
+      "question": "चंद्रमा पर भार पृथ्वी की तुलना में?",
+      "options": [
+        "1/6 of Earth",
+        "Half",
+        "Double",
+        "Same"
+      ],
+      "explanation": "चंद्रमा का गुरुत्व पृथ्वी का 1/6 है।"
+    },
+    "id": "groupd-s-0076"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Archimedes principle is related to?",
+      "options": [
+        "Buoyancy",
+        "Gravity",
+        "Friction",
+        "Magnetism"
+      ],
+      "explanation": "Archimedes: upward buoyant force = weight of displaced fluid."
+    },
+    "hi": {
+      "question": "आर्किमिडीज सिद्धांत संबंधित है?",
+      "options": [
+        "Buoyancy",
+        "Gravity",
+        "Friction",
+        "Magnetism"
+      ],
+      "explanation": "उत्प्लावन बल = विस्थापित द्रव का भार।"
+    },
+    "id": "groupd-s-0077"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Value of g on Earth?",
+      "options": [
+        "10.8 m/s²",
+        "9.8 m/s²",
+        "8.9 m/s²",
+        "6.7 m/s²"
+      ],
+      "explanation": "Acceleration due to gravity g = 9.8 m/s²."
+    },
+    "hi": {
+      "question": "पृथ्वी पर g का मान?",
+      "options": [
+        "10.8 m/s²",
+        "9.8 m/s²",
+        "8.9 m/s²",
+        "6.7 m/s²"
+      ],
+      "explanation": "गुरुत्वीय त्वरण g = 9.8 मी/से²।"
+    },
+    "id": "groupd-s-0078"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Weight of an object on moon compared to Earth?",
+      "options": [
+        "Same",
+        "Double",
+        "Half",
+        "1/6 of Earth"
+      ],
+      "explanation": "Moon's gravity is 1/6 of Earth's. Weight = mg."
+    },
+    "hi": {
+      "question": "चंद्रमा पर भार पृथ्वी की तुलना में?",
+      "options": [
+        "Same",
+        "Double",
+        "Half",
+        "1/6 of Earth"
+      ],
+      "explanation": "चंद्रमा का गुरुत्व पृथ्वी का 1/6 है।"
+    },
+    "id": "groupd-s-0079"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Archimedes principle is related to?",
+      "options": [
+        "Buoyancy",
+        "Magnetism",
+        "Gravity",
+        "Friction"
+      ],
+      "explanation": "Archimedes: upward buoyant force = weight of displaced fluid."
+    },
+    "hi": {
+      "question": "आर्किमिडीज सिद्धांत संबंधित है?",
+      "options": [
+        "Buoyancy",
+        "Magnetism",
+        "Gravity",
+        "Friction"
+      ],
+      "explanation": "उत्प्लावन बल = विस्थापित द्रव का भार।"
+    },
+    "id": "groupd-s-0080"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Value of g on Earth?",
+      "options": [
+        "8.9 m/s²",
+        "9.8 m/s²",
+        "6.7 m/s²",
+        "10.8 m/s²"
+      ],
+      "explanation": "Acceleration due to gravity g = 9.8 m/s²."
+    },
+    "hi": {
+      "question": "पृथ्वी पर g का मान?",
+      "options": [
+        "8.9 m/s²",
+        "9.8 m/s²",
+        "6.7 m/s²",
+        "10.8 m/s²"
+      ],
+      "explanation": "गुरुत्वीय त्वरण g = 9.8 मी/से²।"
+    },
+    "id": "groupd-s-0081"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Weight of an object on moon compared to Earth?",
+      "options": [
+        "Double",
+        "1/6 of Earth",
+        "Same",
+        "Half"
+      ],
+      "explanation": "Moon's gravity is 1/6 of Earth's. Weight = mg."
+    },
+    "hi": {
+      "question": "चंद्रमा पर भार पृथ्वी की तुलना में?",
+      "options": [
+        "Double",
+        "1/6 of Earth",
+        "Same",
+        "Half"
+      ],
+      "explanation": "चंद्रमा का गुरुत्व पृथ्वी का 1/6 है।"
+    },
+    "id": "groupd-s-0082"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Archimedes principle is related to?",
+      "options": [
+        "Gravity",
+        "Friction",
+        "Buoyancy",
+        "Magnetism"
+      ],
+      "explanation": "Archimedes: upward buoyant force = weight of displaced fluid."
+    },
+    "hi": {
+      "question": "आर्किमिडीज सिद्धांत संबंधित है?",
+      "options": [
+        "Gravity",
+        "Friction",
+        "Buoyancy",
+        "Magnetism"
+      ],
+      "explanation": "उत्प्लावन बल = विस्थापित द्रव का भार।"
+    },
+    "id": "groupd-s-0083"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Value of g on Earth?",
+      "options": [
+        "10.8 m/s²",
+        "6.7 m/s²",
+        "9.8 m/s²",
+        "8.9 m/s²"
+      ],
+      "explanation": "Acceleration due to gravity g = 9.8 m/s²."
+    },
+    "hi": {
+      "question": "पृथ्वी पर g का मान?",
+      "options": [
+        "10.8 m/s²",
+        "6.7 m/s²",
+        "9.8 m/s²",
+        "8.9 m/s²"
+      ],
+      "explanation": "गुरुत्वीय त्वरण g = 9.8 मी/से²।"
+    },
+    "id": "groupd-s-0084"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Weight of an object on moon compared to Earth?",
+      "options": [
+        "Double",
+        "1/6 of Earth",
+        "Half",
+        "Same"
+      ],
+      "explanation": "Moon's gravity is 1/6 of Earth's. Weight = mg."
+    },
+    "hi": {
+      "question": "चंद्रमा पर भार पृथ्वी की तुलना में?",
+      "options": [
+        "Double",
+        "1/6 of Earth",
+        "Half",
+        "Same"
+      ],
+      "explanation": "चंद्रमा का गुरुत्व पृथ्वी का 1/6 है।"
+    },
+    "id": "groupd-s-0085"
+  }
 ]

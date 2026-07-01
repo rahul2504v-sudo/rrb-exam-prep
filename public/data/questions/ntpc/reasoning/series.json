@@ -1,11 +1,3672 @@
 [
-  {"id":"ntpc-r-0001","correctOption":"B","difficulty":"easy","en":{"question":"Complete the series: 2, 4, 6, 8, ___?","options":["9","10","12","11"],"explanation":"AP with d=2: 8+2=10."},"hi":{"question":"श्रृंखला पूरी करें: 2, 4, 6, 8, ___?","options":["9","10","12","11"],"explanation":"AP, d=2: 8+2=10।"}},
-  {"id":"ntpc-r-0002","correctOption":"C","difficulty":"medium","en":{"question":"Complete: 3, 8, 15, 24, ___?","options":["30","32","35","36"],"explanation":"n²-1: 2²-1=3, 3²-1=8, 4²-1=15, 5²-1=24, 6²-1=35."},"hi":{"question":"श्रृंखला: 3, 8, 15, 24, ___?","options":["30","32","35","36"],"explanation":"n²-1: 6²-1=35।"}},
-  {"id":"ntpc-r-0003","correctOption":"C","difficulty":"hard","en":{"question":"Next term: 2, 6, 12, 20, 30, 42, ___?","options":["52","54","56","58"],"explanation":"n(n+1): 7×8=56."},"hi":{"question":"अगला पद: 2, 6, 12, 20, 30, 42, ___?","options":["52","54","56","58"],"explanation":"n(n+1): 7×8=56।"}},
-  {"id":"ntpc-r-0004","correctOption":"A","difficulty":"easy","en":{"question":"Complete: 2, 6, 12, 20, 30, ___?","options":["42","40","38","44"],"explanation":"n(n+1): 6×7=42."},"hi":{"question":"श्रृंखला: 2, 6, 12, 20, 30, ___?","options":["42","40","38","44"],"explanation":"n(n+1): 6×7=42।"}},
-  {"id":"ntpc-r-0005","correctOption":"A","difficulty":"easy","en":{"question":"Next term: 1, 2, 3, 5, 8, 13, ___?","options":["21","18","20","19"],"explanation":"Fibonacci: 8+13=21."},"hi":{"question":"अगला: 1, 2, 3, 5, 8, 13, ___?","options":["21","18","20","19"],"explanation":"फिबोनाची: 8+13=21।"}},
-  {"id":"ntpc-r-0006","correctOption":"A","difficulty":"medium","en":{"question":"Next: A, C, F, J, O, ___?","options":["U","T","V","S"],"explanation":"Gaps: +2,+3,+4,+5,+6. O+6=U."},"hi":{"question":"अगला: A, C, F, J, O, ___?","options":["U","T","V","S"],"explanation":"अंतर: +2,+3,+4,+5,+6। O+6=U।"}},
-  {"id":"ntpc-r-0007","correctOption":"A","difficulty":"medium","en":{"question":"Double series: 2, 10, 4, 8, 8, 6, 16, 4, ___?","options":["32","30","28","24"],"explanation":"Odd: 2,4,8,16,32 (×2). Even: 10,8,6,4 (-2). Next=32."},"hi":{"question":"दोहरी श्रृंखला: 2,10,4,8,8,6,16,4,___?","options":["32","30","28","24"],"explanation":"विषम: 2,4,8,16,32। सम: 10,8,6,4। अगला=32।"}},
-  {"id":"ntpc-r-0008","correctOption":"A","difficulty":"medium","en":{"question":"Missing: 3, 8, 15, 24, ?, 48","options":["35","36","40","32"],"explanation":"n²-1: 6²-1=35."},"hi":{"question":"लुप्त: 3,8,15,24,?,48","options":["35","36","40","32"],"explanation":"n²-1: 6²-1=35।"}},
-  {"id":"ntpc-r-0009","correctOption":"A","difficulty":"hard","en":{"question":"Wrong term: 2,3,6,11,18,27,38","options":["11","6","18","27"],"explanation":"Differences: +1,+3,+5,+7,+9,+11. 2+1=3,3+3=6,6+5=11✓,11+7=18,18+9=27,27+11=38. All correct. If series had 10 instead of 11, 10 would be wrong."},"hi":{"question":"गलत पद: 2,3,6,11,18,27,38","options":["11","6","18","27"],"explanation":"अंतर: +1,+3,+5,+7,+9,+11। श्रृंखला सही है, 11 गलत मानते हुए।"}}
+  {
+    "id": "ntpc-r-0001",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "en": {
+      "question": "Complete the series: 2, 4, 6, 8, ___?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "11"
+      ],
+      "explanation": "AP with d=2: 8+2=10."
+    },
+    "hi": {
+      "question": "श्रृंखला पूरी करें: 2, 4, 6, 8, ___?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "11"
+      ],
+      "explanation": "AP, d=2: 8+2=10।"
+    }
+  },
+  {
+    "id": "ntpc-r-0002",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "Complete: 3, 8, 15, 24, ___?",
+      "options": [
+        "30",
+        "32",
+        "35",
+        "36"
+      ],
+      "explanation": "n²-1: 2²-1=3, 3²-1=8, 4²-1=15, 5²-1=24, 6²-1=35."
+    },
+    "hi": {
+      "question": "श्रृंखला: 3, 8, 15, 24, ___?",
+      "options": [
+        "30",
+        "32",
+        "35",
+        "36"
+      ],
+      "explanation": "n²-1: 6²-1=35।"
+    }
+  },
+  {
+    "id": "ntpc-r-0003",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "Next term: 2, 6, 12, 20, 30, 42, ___?",
+      "options": [
+        "52",
+        "54",
+        "56",
+        "58"
+      ],
+      "explanation": "n(n+1): 7×8=56."
+    },
+    "hi": {
+      "question": "अगला पद: 2, 6, 12, 20, 30, 42, ___?",
+      "options": [
+        "52",
+        "54",
+        "56",
+        "58"
+      ],
+      "explanation": "n(n+1): 7×8=56।"
+    }
+  },
+  {
+    "id": "ntpc-r-0004",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "Complete: 2, 6, 12, 20, 30, ___?",
+      "options": [
+        "42",
+        "40",
+        "38",
+        "44"
+      ],
+      "explanation": "n(n+1): 6×7=42."
+    },
+    "hi": {
+      "question": "श्रृंखला: 2, 6, 12, 20, 30, ___?",
+      "options": [
+        "42",
+        "40",
+        "38",
+        "44"
+      ],
+      "explanation": "n(n+1): 6×7=42।"
+    }
+  },
+  {
+    "id": "ntpc-r-0005",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "Next term: 1, 2, 3, 5, 8, 13, ___?",
+      "options": [
+        "21",
+        "18",
+        "20",
+        "19"
+      ],
+      "explanation": "Fibonacci: 8+13=21."
+    },
+    "hi": {
+      "question": "अगला: 1, 2, 3, 5, 8, 13, ___?",
+      "options": [
+        "21",
+        "18",
+        "20",
+        "19"
+      ],
+      "explanation": "फिबोनाची: 8+13=21।"
+    }
+  },
+  {
+    "id": "ntpc-r-0006",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: A, C, F, J, O, ___?",
+      "options": [
+        "U",
+        "T",
+        "V",
+        "S"
+      ],
+      "explanation": "Gaps: +2,+3,+4,+5,+6. O+6=U."
+    },
+    "hi": {
+      "question": "अगला: A, C, F, J, O, ___?",
+      "options": [
+        "U",
+        "T",
+        "V",
+        "S"
+      ],
+      "explanation": "अंतर: +2,+3,+4,+5,+6। O+6=U।"
+    }
+  },
+  {
+    "id": "ntpc-r-0007",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Double series: 2, 10, 4, 8, 8, 6, 16, 4, ___?",
+      "options": [
+        "32",
+        "30",
+        "28",
+        "24"
+      ],
+      "explanation": "Odd: 2,4,8,16,32 (×2). Even: 10,8,6,4 (-2). Next=32."
+    },
+    "hi": {
+      "question": "दोहरी श्रृंखला: 2,10,4,8,8,6,16,4,___?",
+      "options": [
+        "32",
+        "30",
+        "28",
+        "24"
+      ],
+      "explanation": "विषम: 2,4,8,16,32। सम: 10,8,6,4। अगला=32।"
+    }
+  },
+  {
+    "id": "ntpc-r-0008",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Missing: 3, 8, 15, 24, ?, 48",
+      "options": [
+        "35",
+        "36",
+        "40",
+        "32"
+      ],
+      "explanation": "n²-1: 6²-1=35."
+    },
+    "hi": {
+      "question": "लुप्त: 3,8,15,24,?,48",
+      "options": [
+        "35",
+        "36",
+        "40",
+        "32"
+      ],
+      "explanation": "n²-1: 6²-1=35।"
+    }
+  },
+  {
+    "id": "ntpc-r-0009",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "Wrong term: 2,3,6,11,18,27,38",
+      "options": [
+        "11",
+        "6",
+        "18",
+        "27"
+      ],
+      "explanation": "Differences: +1,+3,+5,+7,+9,+11. 2+1=3,3+3=6,6+5=11,11+7=18,18+9=27,27+11=38. All correct."
+    },
+    "hi": {
+      "question": "गलत पद: 2,3,6,11,18,27,38",
+      "options": [
+        "11",
+        "6",
+        "18",
+        "27"
+      ],
+      "explanation": "अंतर: +1,+3,+5,+7,+9,+11। श्रृंखला सही है, 11 गलत मानते हुए।"
+    }
+  },
+  {
+    "id": "ntpc-r-0010",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "en": {
+      "question": "Next: 5, 10, 15, 20, ___?",
+      "options": [
+        "22",
+        "25",
+        "30",
+        "24"
+      ],
+      "explanation": "AP with d=5: 20+5=25."
+    },
+    "hi": {
+      "question": "अगला: 5, 10, 15, 20, ___?",
+      "options": [
+        "22",
+        "25",
+        "30",
+        "24"
+      ],
+      "explanation": "AP, d=5: 20+5=25।"
+    }
+  },
+  {
+    "id": "ntpc-r-0011",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "Next: 1, 4, 9, 16, 25, ___?",
+      "options": [
+        "30",
+        "35",
+        "36",
+        "49"
+      ],
+      "explanation": "Squares: 1²,2²,3²,4²,5²,6²=36."
+    },
+    "hi": {
+      "question": "अगला: 1, 4, 9, 16, 25, ___?",
+      "options": [
+        "30",
+        "35",
+        "36",
+        "49"
+      ],
+      "explanation": "वर्ग: 6²=36।"
+    }
+  },
+  {
+    "id": "ntpc-r-0012",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "Next: 1, 8, 27, 64, ___?",
+      "options": [
+        "100",
+        "121",
+        "144",
+        "125"
+      ],
+      "explanation": "Cubes: 1³,2³,3³,4³,5³=125."
+    },
+    "hi": {
+      "question": "अगला: 1, 8, 27, 64, ___?",
+      "options": [
+        "100",
+        "121",
+        "144",
+        "125"
+      ],
+      "explanation": "घन: 5³=125।"
+    }
+  },
+  {
+    "id": "ntpc-r-0013",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "Next: B, E, H, K, ___?",
+      "options": [
+        "N",
+        "M",
+        "O",
+        "P"
+      ],
+      "explanation": "Each letter +3: B(2)→E(5)→H(8)→K(11)→N(14)."
+    },
+    "hi": {
+      "question": "अगला: B, E, H, K, ___?",
+      "options": [
+        "N",
+        "M",
+        "O",
+        "P"
+      ],
+      "explanation": "प्रत्येक +3: B→E→H→K→N।"
+    }
+  },
+  {
+    "id": "ntpc-r-0014",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "en": {
+      "question": "Next: A, D, G, J, ___?",
+      "options": [
+        "K",
+        "M",
+        "L",
+        "N"
+      ],
+      "explanation": "Each letter +3: A(1)→D(4)→G(7)→J(10)→M(13)."
+    },
+    "hi": {
+      "question": "अगला: A, D, G, J, ___?",
+      "options": [
+        "K",
+        "M",
+        "L",
+        "N"
+      ],
+      "explanation": "प्रत्येक +3: A→D→G→J→M।"
+    }
+  },
+  {
+    "id": "ntpc-r-0015",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: 2, 3, 5, 7, 11, ___?",
+      "options": [
+        "12",
+        "14",
+        "13",
+        "15"
+      ],
+      "explanation": "Prime numbers: 2,3,5,7,11,13."
+    },
+    "hi": {
+      "question": "अगला: 2, 3, 5, 7, 11, ___?",
+      "options": [
+        "12",
+        "14",
+        "13",
+        "15"
+      ],
+      "explanation": "अभाज्य संख्याएँ: अगली 13।"
+    }
+  },
+  {
+    "id": "ntpc-r-0016",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: 1, 3, 6, 10, 15, ___?",
+      "options": [
+        "18",
+        "20",
+        "22",
+        "21"
+      ],
+      "explanation": "Triangular numbers: +2,+3,+4,+5,+6. 15+6=21."
+    },
+    "hi": {
+      "question": "अगला: 1, 3, 6, 10, 15, ___?",
+      "options": [
+        "18",
+        "20",
+        "22",
+        "21"
+      ],
+      "explanation": "त्रिभुज संख्याएँ: 15+6=21।"
+    }
+  },
+  {
+    "id": "ntpc-r-0017",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: 2, 5, 10, 17, 26, ___?",
+      "options": [
+        "37",
+        "35",
+        "39",
+        "33"
+      ],
+      "explanation": "n²+1: 1²+1=2,2²+1=5,3²+1=10,4²+1=17,5²+1=26,6²+1=37."
+    },
+    "hi": {
+      "question": "अगला: 2, 5, 10, 17, 26, ___?",
+      "options": [
+        "37",
+        "35",
+        "39",
+        "33"
+      ],
+      "explanation": "n²+1: 6²+1=37।"
+    }
+  },
+  {
+    "id": "ntpc-r-0018",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: AB, EF, IJ, MN, ___?",
+      "options": [
+        "OP",
+        "QR",
+        "PQ",
+        "RS"
+      ],
+      "explanation": "Pairs with gap of 2 letters: AB(1-2), EF(5-6), IJ(9-10), MN(13-14), QR(17-18)."
+    },
+    "hi": {
+      "question": "अगला: AB, EF, IJ, MN, ___?",
+      "options": [
+        "OP",
+        "QR",
+        "PQ",
+        "RS"
+      ],
+      "explanation": "जोड़े: AB,EF,IJ,MN,QR (2 अक्षर का अंतर)।"
+    }
+  },
+  {
+    "id": "ntpc-r-0019",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: 0, 2, 6, 12, 20, ___?",
+      "options": [
+        "28",
+        "32",
+        "30",
+        "26"
+      ],
+      "explanation": "n²-n: 1²-1=0,2²-2=2,3²-3=6,4²-4=12,5²-5=20,6²-6=30."
+    },
+    "hi": {
+      "question": "अगला: 0, 2, 6, 12, 20, ___?",
+      "options": [
+        "28",
+        "32",
+        "30",
+        "26"
+      ],
+      "explanation": "n²-n: 6²-6=30।"
+    }
+  },
+  {
+    "id": "ntpc-r-0020",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: Z, X, V, T, R, ___?",
+      "options": [
+        "P",
+        "Q",
+        "O",
+        "N"
+      ],
+      "explanation": "Each letter -2: Z(26)→X(24)→V(22)→T(20)→R(18)→P(16)."
+    },
+    "hi": {
+      "question": "अगला: Z, X, V, T, R, ___?",
+      "options": [
+        "P",
+        "Q",
+        "O",
+        "N"
+      ],
+      "explanation": "प्रत्येक -2: Z→X→V→T→R→P।"
+    }
+  },
+  {
+    "id": "ntpc-r-0021",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "en": {
+      "question": "Next: 3, 6, 18, 72, ___?",
+      "options": [
+        "288",
+        "324",
+        "360",
+        "280"
+      ],
+      "explanation": "×2,×3,×4: 3×2=6,6×3=18,18×4=72,72×5=360."
+    },
+    "hi": {
+      "question": "अगला: 3, 6, 18, 72, ___?",
+      "options": [
+        "288",
+        "324",
+        "360",
+        "280"
+      ],
+      "explanation": "×2,×3,×4,×5: 72×5=360।"
+    }
+  },
+  {
+    "id": "ntpc-r-0022",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "Next: 2, 3, 8, 63, ___?",
+      "options": [
+        "3968",
+        "3969",
+        "3970",
+        "4096"
+      ],
+      "explanation": "n²-1: 2²-1=3, 3²-1=8, 8²-1=63, 63²-1=3968."
+    },
+    "hi": {
+      "question": "अगला: 2, 3, 8, 63, ___?",
+      "options": [
+        "3968",
+        "3969",
+        "3970",
+        "4096"
+      ],
+      "explanation": "n²-1: 63²-1=3968।"
+    }
+  },
+  {
+    "id": "ntpc-r-0023",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "Next: 1, 2, 6, 24, 120, ___?",
+      "options": [
+        "600",
+        "480",
+        "720",
+        "840"
+      ],
+      "explanation": "Factorials: 1!,2!,3!,4!,5!,6!=720."
+    },
+    "hi": {
+      "question": "अगला: 1, 2, 6, 24, 120, ___?",
+      "options": [
+        "600",
+        "480",
+        "720",
+        "840"
+      ],
+      "explanation": "क्रमगुणित: 6!=720।"
+    }
+  },
+  {
+    "id": "ntpc-r-0024",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "Next: 5, 11, 23, 47, ___?",
+      "options": [
+        "95",
+        "93",
+        "91",
+        "97"
+      ],
+      "explanation": "×2+1: 5×2+1=11,11×2+1=23,23×2+1=47,47×2+1=95."
+    },
+    "hi": {
+      "question": "अगला: 5, 11, 23, 47, ___?",
+      "options": [
+        "95",
+        "93",
+        "91",
+        "97"
+      ],
+      "explanation": "×2+1: 47×2+1=95।"
+    }
+  },
+  {
+    "id": "ntpc-r-0025",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Wrong term: 1, 4, 9, 16, 25, 36, 48",
+      "options": [
+        "48",
+        "25",
+        "16",
+        "9"
+      ],
+      "explanation": "Squares of 1-7: 1²,2²,3²,4²,5²,6²,7²=49. 48 is wrong, should be 49."
+    },
+    "hi": {
+      "question": "गलत पद: 1,4,9,16,25,36,48",
+      "options": [
+        "48",
+        "25",
+        "16",
+        "9"
+      ],
+      "explanation": "वर्ग श्रृंखला में 7²=49 होना चाहिए, 48 गलत है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0026",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: A1, B4, C9, D16, E25, ___?",
+      "options": [
+        "F30",
+        "F36",
+        "F49",
+        "F32"
+      ],
+      "explanation": "Letters A,B,C,D,E,F. Numbers: 1²,2²,3²,4²,5²,6²=36 → F36."
+    },
+    "hi": {
+      "question": "अगला: A1, B4, C9, D16, E25, ___?",
+      "options": [
+        "F30",
+        "F36",
+        "F49",
+        "F32"
+      ],
+      "explanation": "अक्षर क्रम से, संख्याएँ वर्ग: F36।"
+    }
+  },
+  {
+    "id": "ntpc-r-0027",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "Missing: 3, 6, 9, 12, ?, 18",
+      "options": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "explanation": "AP with d=3: 12+3=15."
+    },
+    "hi": {
+      "question": "लुप्त: 3, 6, 9, 12, ?, 18",
+      "options": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "explanation": "AP, d=3: 12+3=15।"
+    }
+  },
+  {
+    "id": "ntpc-r-0028",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "Next: Z, Y, X, W, V, ___?",
+      "options": [
+        "U",
+        "T",
+        "S",
+        "R"
+      ],
+      "explanation": "Reverse alphabet: Z(26),Y(25),X(24),W(23),V(22),U(21)."
+    },
+    "hi": {
+      "question": "अगला: Z, Y, X, W, V, ___?",
+      "options": [
+        "U",
+        "T",
+        "S",
+        "R"
+      ],
+      "explanation": "उल्टी वर्णमाला: V के बाद U।"
+    }
+  },
+  {
+    "id": "ntpc-r-0029",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: 1, 4, 10, 22, ___?",
+      "options": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "explanation": "×2+2: 1×2+2=4,4×2+2=10,10×2+2=22,22×2+2=46."
+    },
+    "hi": {
+      "question": "अगला: 1, 4, 10, 22, ___?",
+      "options": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "explanation": "×2+2: 22×2+2=46।"
+    }
+  },
+  {
+    "id": "ntpc-r-0030",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: A, B, D, G, K, ___?",
+      "options": [
+        "O",
+        "P",
+        "N",
+        "Q"
+      ],
+      "explanation": "Gaps: +1,+2,+3,+4,+5. K(11)+5=P(16)."
+    },
+    "hi": {
+      "question": "अगला: A, B, D, G, K, ___?",
+      "options": [
+        "O",
+        "P",
+        "N",
+        "Q"
+      ],
+      "explanation": "अंतर: +1,+2,+3,+4,+5। K+5=P।"
+    }
+  },
+  {
+    "id": "ntpc-r-0031",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "Double: 5, 6, 10, 12, 15, 18, 20, 24, ___?",
+      "options": [
+        "25",
+        "28",
+        "25",
+        "30"
+      ],
+      "explanation": "Series 1: 5,10,15,20,25 (+5). Series 2: 6,12,18,24 (+6). Next=25."
+    },
+    "hi": {
+      "question": "दोहरी: 5,6,10,12,15,18,20,24,___?",
+      "options": [
+        "25",
+        "28",
+        "25",
+        "30"
+      ],
+      "explanation": "पहली: 5,10,15,20,25। दूसरी: 6,12,18,24। अगला=25।"
+    }
+  },
+  {
+    "id": "ntpc-r-0032",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "Next: 1, 1, 2, 3, 5, 8, 13, ___?",
+      "options": [
+        "21",
+        "19",
+        "20",
+        "22"
+      ],
+      "explanation": "Fibonacci: each term is sum of previous two. 8+13=21."
+    },
+    "hi": {
+      "question": "अगला: 1, 1, 2, 3, 5, 8, 13, ___?",
+      "options": [
+        "21",
+        "19",
+        "20",
+        "22"
+      ],
+      "explanation": "फिबोनाची: 8+13=21।"
+    }
+  },
+  {
+    "id": "ntpc-r-0033",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "en": {
+      "question": "Next: 3, 15, 35, 63, ___?",
+      "options": [
+        "80",
+        "85",
+        "95",
+        "99"
+      ],
+      "explanation": "n×(n+2): 1×3=3,3×5=15,5×7=35,7×9=63,9×11=99. Or (2n-1)(2n+1)."
+    },
+    "hi": {
+      "question": "अगला: 3, 15, 35, 63, ___?",
+      "options": [
+        "80",
+        "85",
+        "95",
+        "99"
+      ],
+      "explanation": "(2n-1)(2n+1): 9×11=99।"
+    }
+  },
+  {
+    "id": "ntpc-r-0034",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "Alphanumeric: B2, D4, F6, H8, ___?",
+      "options": [
+        "I10",
+        "J10",
+        "J12",
+        "I12"
+      ],
+      "explanation": "Letters skip 1: B,D,F,H,J. Numbers: 2,4,6,8,10. = J10."
+    },
+    "hi": {
+      "question": "अगला: B2, D4, F6, H8, ___?",
+      "options": [
+        "I10",
+        "J10",
+        "J12",
+        "I12"
+      ],
+      "explanation": "अक्षर +2, संख्या +2: J10।"
+    }
+  },
+  {
+    "id": "ntpc-r-0035",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "Next: 100, 90, 80, 70, ___?",
+      "options": [
+        "65",
+        "55",
+        "60",
+        "50"
+      ],
+      "explanation": "AP with d=-10: 70-10=60."
+    },
+    "hi": {
+      "question": "अगला: 100, 90, 80, 70, ___?",
+      "options": [
+        "65",
+        "55",
+        "60",
+        "50"
+      ],
+      "explanation": "AP, d=-10: 70-10=60।"
+    }
+  },
+  {
+    "id": "ntpc-r-0036",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: 2, 12, 30, 56, ___?",
+      "options": [
+        "90",
+        "72",
+        "80",
+        "96"
+      ],
+      "explanation": "n(n+1)×? 1×2=2, 3×4=12, 5×6=30, 7×8=56, 9×10=90."
+    },
+    "hi": {
+      "question": "अगला: 2, 12, 30, 56, ___?",
+      "options": [
+        "90",
+        "72",
+        "80",
+        "96"
+      ],
+      "explanation": "n(n+1) विषम संख्याओं से: 9×10=90।"
+    }
+  },
+  {
+    "id": "ntpc-r-0037",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Missing: 1, 2, 4, 7, ?, 16",
+      "options": [
+        "10",
+        "12",
+        "9",
+        "11"
+      ],
+      "explanation": "+1,+2,+3,+4,+5: 7+4=11."
+    },
+    "hi": {
+      "question": "लुप्त: 1, 2, 4, 7, ?, 16",
+      "options": [
+        "10",
+        "12",
+        "9",
+        "11"
+      ],
+      "explanation": "+1,+2,+3,+4: 7+4=11।"
+    }
+  },
+  {
+    "id": "ntpc-r-0038",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "Next: 1, 3, 7, 15, 31, ___?",
+      "options": [
+        "62",
+        "63",
+        "64",
+        "65"
+      ],
+      "explanation": "×2+1: 1×2+1=3, 3×2+1=7, 7×2+1=15, 15×2+1=31, 31×2+1=63."
+    },
+    "hi": {
+      "question": "अगला: 1, 3, 7, 15, 31, ___?",
+      "options": [
+        "62",
+        "63",
+        "64",
+        "65"
+      ],
+      "explanation": "×2+1: 31×2+1=63।"
+    }
+  },
+  {
+    "id": "ntpc-r-0039",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "Wrong: 2, 5, 10, 17, 26, 36",
+      "options": [
+        "5",
+        "10",
+        "36",
+        "26"
+      ],
+      "explanation": "n²+1: 1²+1=2,2²+1=5,3²+1=10,4²+1=17,5²+1=26,6²+1=37. 36 should be 37."
+    },
+    "hi": {
+      "question": "गलत: 2,5,10,17,26,36",
+      "options": [
+        "5",
+        "10",
+        "36",
+        "26"
+      ],
+      "explanation": "n²+1: 6²+1=37, 36 गलत है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0040",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "en": {
+      "question": "Next: AC, EG, IK, MO, ___?",
+      "options": [
+        "QS",
+        "PR",
+        "RT",
+        "SQ"
+      ],
+      "explanation": "Pairs with gap of 2: AC, skip B,D→EG, skip F,H→IK, skip J,L→MO, skip N,P→QS."
+    },
+    "hi": {
+      "question": "अगला: AC, EG, IK, MO, ___?",
+      "options": [
+        "QS",
+        "PR",
+        "RT",
+        "SQ"
+      ],
+      "explanation": "जोड़े: AC,EG,IK,MO,QS (अंतराल बढ़ता हुआ)।"
+    }
+  },
+  {
+    "id": "ntpc-r-0041",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: 7, 14, 21, 28, ___?",
+      "options": [
+        "30",
+        "32",
+        "34",
+        "35"
+      ],
+      "explanation": "Multiples of 7: 7×5=35."
+    },
+    "hi": {
+      "question": "अगला: 7, 14, 21, 28, ___?",
+      "options": [
+        "30",
+        "32",
+        "34",
+        "35"
+      ],
+      "explanation": "7 का गुणज: 7×5=35।"
+    }
+  },
+  {
+    "id": "ntpc-r-0042",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: 5, 10, 20, 40, ___?",
+      "options": [
+        "60",
+        "80",
+        "70",
+        "100"
+      ],
+      "explanation": "×2: 40×2=80."
+    },
+    "hi": {
+      "question": "अगला: 5, 10, 20, 40, ___?",
+      "options": [
+        "60",
+        "80",
+        "70",
+        "100"
+      ],
+      "explanation": "×2: 40×2=80।"
+    }
+  },
+  {
+    "id": "ntpc-r-0043",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: T20, R18, P16, N14, ___?",
+      "options": [
+        "M13",
+        "L12",
+        "L13",
+        "M12"
+      ],
+      "explanation": "Letters -2: T→R→P→N→L. Numbers -2: 20→18→16→14→12 = L12."
+    },
+    "hi": {
+      "question": "अगला: T20, R18, P16, N14, ___?",
+      "options": [
+        "M13",
+        "L12",
+        "L13",
+        "M12"
+      ],
+      "explanation": "अक्षर -2, संख्या -2: L12।"
+    }
+  },
+  {
+    "id": "ntpc-r-0044",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "Next: 2, 5, 11, 20, 32, ___?",
+      "options": [
+        "47",
+        "45",
+        "49",
+        "43"
+      ],
+      "explanation": "+3,+6,+9,+12,+15: 32+15=47."
+    },
+    "hi": {
+      "question": "अगला: 2, 5, 11, 20, 32, ___?",
+      "options": [
+        "47",
+        "45",
+        "49",
+        "43"
+      ],
+      "explanation": "+3,+6,+9,+12,+15: 32+15=47।"
+    }
+  },
+  {
+    "id": "ntpc-r-0045",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "Next: AZ, BY, CX, DW, ___?",
+      "options": [
+        "EV",
+        "EU",
+        "FV",
+        "EW"
+      ],
+      "explanation": "First letter +1: A→B→C→D→E. Second letter -1: Z→Y→X→W→V. = EV."
+    },
+    "hi": {
+      "question": "अगला: AZ, BY, CX, DW, ___?",
+      "options": [
+        "EV",
+        "EU",
+        "FV",
+        "EW"
+      ],
+      "explanation": "पहला +1, दूसरा -1: EV।"
+    }
+  },
+  {
+    "id": "ntpc-r-0046",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "Missing: 6, 11, 21, 36, 56, ?",
+      "options": [
+        "76",
+        "81",
+        "71",
+        "86"
+      ],
+      "explanation": "+5,+10,+15,+20,+25: 56+25=81."
+    },
+    "hi": {
+      "question": "लुप्त: 6, 11, 21, 36, 56, ?",
+      "options": [
+        "76",
+        "81",
+        "71",
+        "86"
+      ],
+      "explanation": "+5,+10,+15,+20,+25: 56+25=81।"
+    }
+  },
+  {
+    "id": "ntpc-r-0047",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "Next: 1, 4, 9, 16, 25, 36, 49, ___?",
+      "options": [
+        "56",
+        "60",
+        "64",
+        "81"
+      ],
+      "explanation": "Squares: 8²=64."
+    },
+    "hi": {
+      "question": "अगला: 1,4,9,16,25,36,49,___?",
+      "options": [
+        "56",
+        "60",
+        "64",
+        "81"
+      ],
+      "explanation": "वर्ग: 8²=64।"
+    }
+  },
+  {
+    "id": "ntpc-r-0048",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Alpha: AZ, CX, EV, GT, ___?",
+      "options": [
+        "IR",
+        "IQ",
+        "JR",
+        "IS"
+      ],
+      "explanation": "First: A(+2)=C(+2)=E(+2)=G(+2)=I. Second: Z(-2)=X(-2)=V(-2)=T(-2)=R. = IR."
+    },
+    "hi": {
+      "question": "अगला: AZ, CX, EV, GT, ___?",
+      "options": [
+        "IR",
+        "IQ",
+        "JR",
+        "IS"
+      ],
+      "explanation": "पहला +2, दूसरा -2: IR।"
+    }
+  },
+  {
+    "id": "ntpc-r-0049",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: 3, 9, 27, 81, ___?",
+      "options": [
+        "162",
+        "180",
+        "240",
+        "243"
+      ],
+      "explanation": "×3: 81×3=243."
+    },
+    "hi": {
+      "question": "अगला: 3, 9, 27, 81, ___?",
+      "options": [
+        "162",
+        "180",
+        "240",
+        "243"
+      ],
+      "explanation": "×3: 81×3=243।"
+    }
+  },
+  {
+    "id": "ntpc-r-0050",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "Wrong: 8, 27, 64, 125, 216, 344",
+      "options": [
+        "64",
+        "125",
+        "344",
+        "27"
+      ],
+      "explanation": "Cubes: 2³=8,3³=27,4³=64,5³=125,6³=216,7³=343. 344 should be 343."
+    },
+    "hi": {
+      "question": "गलत: 8,27,64,125,216,344",
+      "options": [
+        "64",
+        "125",
+        "344",
+        "27"
+      ],
+      "explanation": "घन: 7³=343, 344 गलत है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0051",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "Next: 11, 22, 33, 44, ___?",
+      "options": [
+        "50",
+        "52",
+        "55",
+        "60"
+      ],
+      "explanation": "Multiples of 11: 11×5=55."
+    },
+    "hi": {
+      "question": "अगला: 11, 22, 33, 44, ___?",
+      "options": [
+        "50",
+        "52",
+        "55",
+        "60"
+      ],
+      "explanation": "11 का गुणज: 11×5=55।"
+    }
+  },
+  {
+    "id": "ntpc-r-0052",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: 4, 7, 12, 19, 28, ___?",
+      "options": [
+        "39",
+        "37",
+        "41",
+        "35"
+      ],
+      "explanation": "n²+3: 1²+3=4,2²+3=7,3²+3=12,4²+3=19,5²+3=28,6²+3=39."
+    },
+    "hi": {
+      "question": "अगला: 4,7,12,19,28,___?",
+      "options": [
+        "39",
+        "37",
+        "41",
+        "35"
+      ],
+      "explanation": "n²+3: 6²+3=39।"
+    }
+  },
+  {
+    "id": "ntpc-r-0053",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: ZA, YB, XC, WD, ___?",
+      "options": [
+        "UE",
+        "VE",
+        "VF",
+        "UF"
+      ],
+      "explanation": "First -1: Z→Y→X→W→V. Second +1: A→B→C→D→E. = VE."
+    },
+    "hi": {
+      "question": "अगला: ZA, YB, XC, WD, ___?",
+      "options": [
+        "UE",
+        "VE",
+        "VF",
+        "UF"
+      ],
+      "explanation": "पहला -1, दूसरा +1: VE।"
+    }
+  },
+  {
+    "id": "ntpc-r-0054",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "Missing: 1, 8, 27, ?, 125, 216",
+      "options": [
+        "36",
+        "64",
+        "81",
+        "100"
+      ],
+      "explanation": "Cubes: 4³=64."
+    },
+    "hi": {
+      "question": "लुप्त: 1,8,27,?,125,216",
+      "options": [
+        "36",
+        "64",
+        "81",
+        "100"
+      ],
+      "explanation": "घन: 4³=64।"
+    }
+  },
+  {
+    "id": "ntpc-r-0055",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "en": {
+      "question": "Next: 2, 6, 18, 54, ___?",
+      "options": [
+        "108",
+        "150",
+        "162",
+        "180"
+      ],
+      "explanation": "×3: 54×3=162."
+    },
+    "hi": {
+      "question": "अगला: 2, 6, 18, 54, ___?",
+      "options": [
+        "108",
+        "150",
+        "162",
+        "180"
+      ],
+      "explanation": "×3: 54×3=162।"
+    }
+  },
+  {
+    "id": "ntpc-r-0056",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "Next: 1, 6, 15, 28, 45, ___?",
+      "options": [
+        "66",
+        "60",
+        "56",
+        "72"
+      ],
+      "explanation": "n(2n-1): 1×1=1,2×3=6,3×5=15,4×7=28,5×9=45,6×11=66."
+    },
+    "hi": {
+      "question": "अगला: 1,6,15,28,45,___?",
+      "options": [
+        "66",
+        "60",
+        "56",
+        "72"
+      ],
+      "explanation": "n(2n-1): 6×11=66।"
+    }
+  },
+  {
+    "id": "ntpc-r-0057",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "Next: P, O, N, M, ___?",
+      "options": [
+        "K",
+        "J",
+        "I",
+        "L"
+      ],
+      "explanation": "Backward: P(16)→O(15)→N(14)→M(13)→L(12)."
+    },
+    "hi": {
+      "question": "अगला: P, O, N, M, ___?",
+      "options": [
+        "K",
+        "J",
+        "I",
+        "L"
+      ],
+      "explanation": "उल्टा: P→O→N→M→L।"
+    }
+  },
+  {
+    "id": "ntpc-r-0058",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: 10, 19, 28, 37, ___?",
+      "options": [
+        "44",
+        "46",
+        "48",
+        "50"
+      ],
+      "explanation": "+9: 37+9=46."
+    },
+    "hi": {
+      "question": "अगला: 10, 19, 28, 37, ___?",
+      "options": [
+        "44",
+        "46",
+        "48",
+        "50"
+      ],
+      "explanation": "+9: 37+9=46।"
+    }
+  },
+  {
+    "id": "ntpc-r-0059",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: A2, C3, E5, G7, ___?",
+      "options": [
+        "I9",
+        "H11",
+        "I11",
+        "H9"
+      ],
+      "explanation": "Letters +2: A,C,E,G,I. Numbers: primes 2,3,5,7,11. = I11."
+    },
+    "hi": {
+      "question": "अगला: A2, C3, E5, G7, ___?",
+      "options": [
+        "I9",
+        "H11",
+        "I11",
+        "H9"
+      ],
+      "explanation": "अक्षर +2, अभाज्य संख्याएँ: I11।"
+    }
+  },
+  {
+    "id": "ntpc-r-0060",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "Next: 3, 7, 13, 21, 31, ___?",
+      "options": [
+        "43",
+        "41",
+        "39",
+        "45"
+      ],
+      "explanation": "n²+n+1: 1²+1+1=3,2²+2+1=7,3²+3+1=13,4²+4+1=21,5²+5+1=31,6²+6+1=43."
+    },
+    "hi": {
+      "question": "अगला: 3,7,13,21,31,___?",
+      "options": [
+        "43",
+        "41",
+        "39",
+        "45"
+      ],
+      "explanation": "n²+n+1: 6²+6+1=43।"
+    }
+  },
+  {
+    "id": "ntpc-r-0061",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "en": {
+      "question": "Next: 2, 4, 8, 16, ___?",
+      "options": [
+        "20",
+        "24",
+        "28",
+        "32"
+      ],
+      "explanation": "×2: 16×2=32."
+    },
+    "hi": {
+      "question": "अगला: 2, 4, 8, 16, ___?",
+      "options": [
+        "20",
+        "24",
+        "28",
+        "32"
+      ],
+      "explanation": "×2: 16×2=32।"
+    }
+  },
+  {
+    "id": "ntpc-r-0062",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "Wrong: 1, 2, 4, 7, 11, 15",
+      "options": [
+        "4",
+        "15",
+        "11",
+        "2"
+      ],
+      "explanation": "+1,+2,+3,+4,+5: 1+1=2,2+2=4,4+3=7,7+4=11,11+5=16. 15 should be 16."
+    },
+    "hi": {
+      "question": "गलत: 1,2,4,7,11,15",
+      "options": [
+        "4",
+        "15",
+        "11",
+        "2"
+      ],
+      "explanation": "+1,+2,+3,+4,+5: 11+5=16, 15 गलत है।"
+    }
+  },
+  {
+    "id": "ntpc-r-0063",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: 81, 64, 49, 36, ___?",
+      "options": [
+        "30",
+        "20",
+        "25",
+        "16"
+      ],
+      "explanation": "Squares backward: 9²,8²,7²,6²,5²=25."
+    },
+    "hi": {
+      "question": "अगला: 81, 64, 49, 36, ___?",
+      "options": [
+        "30",
+        "20",
+        "25",
+        "16"
+      ],
+      "explanation": "वर्ग उल्टा: 5²=25।"
+    }
+  },
+  {
+    "id": "ntpc-r-0064",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "Next: 1, 4, 27, 256, ___?",
+      "options": [
+        "3125",
+        "1024",
+        "4096",
+        "2401"
+      ],
+      "explanation": "n^n: 1¹,2²,3³,4⁴,5⁵=3125."
+    },
+    "hi": {
+      "question": "अगला: 1, 4, 27, 256, ___?",
+      "options": [
+        "3125",
+        "1024",
+        "4096",
+        "2401"
+      ],
+      "explanation": "n^n: 5⁵=3125।"
+    }
+  },
+  {
+    "id": "ntpc-r-0065",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: AZ2, BY4, CX6, DW8, ___?",
+      "options": [
+        "EU10",
+        "EV10",
+        "FV10",
+        "EV8"
+      ],
+      "explanation": "1st +1: A,B,C,D,E. 2nd -1: Z,Y,X,W,V. Number: 2,4,6,8,10. = EV10."
+    },
+    "hi": {
+      "question": "अगला: AZ2, BY4, CX6, DW8, ___?",
+      "options": [
+        "EU10",
+        "EV10",
+        "FV10",
+        "EV8"
+      ],
+      "explanation": "पहला+1, दूसरा-1, संख्या+2: EV10।"
+    }
+  },
+  {
+    "id": "ntpc-r-0066",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: 5, 11, 21, 35, ___?",
+      "options": [
+        "49",
+        "53",
+        "51",
+        "47"
+      ],
+      "explanation": "+6,+10,+14,+18: 35+18=53. Or n(n+4): 1×5=5,2×5.5 no. Actually differences increase by 4: +6,+10,+14,+18→53."
+    },
+    "hi": {
+      "question": "अगला: 5, 11, 21, 35, ___?",
+      "options": [
+        "49",
+        "53",
+        "51",
+        "47"
+      ],
+      "explanation": "+6,+10,+14,+18: 35+18=53।"
+    }
+  },
+  {
+    "id": "ntpc-r-0067",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "en": {
+      "question": "Next: AD, CF, EH, GJ, ___?",
+      "options": [
+        "HK",
+        "IK",
+        "IL",
+        "JK"
+      ],
+      "explanation": "1st letter +2: A,C,E,G,I. 2nd letter +2: D,F,H,J,L. = IL."
+    },
+    "hi": {
+      "question": "अगला: AD, CF, EH, GJ, ___?",
+      "options": [
+        "HK",
+        "IK",
+        "IL",
+        "JK"
+      ],
+      "explanation": "पहला +2, दूसरा +2: IL।"
+    }
+  },
+  {
+    "id": "ntpc-r-0068",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "Next: 2, 7, 28, 63, 126, ___?",
+      "options": [
+        "215",
+        "210",
+        "200",
+        "220"
+      ],
+      "explanation": "n³+1: 1³+1=2,2³-1=7,3³+1=28,4³-1=63,5³+1=126,6³-1=215."
+    },
+    "hi": {
+      "question": "अगला: 2,7,28,63,126,___?",
+      "options": [
+        "215",
+        "210",
+        "200",
+        "220"
+      ],
+      "explanation": "n³±1: 6³-1=215।"
+    }
+  },
+  {
+    "id": "ntpc-r-0069",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "en": {
+      "question": "Next: 4, 12, 36, 108, ___?",
+      "options": [
+        "216",
+        "240",
+        "300",
+        "324"
+      ],
+      "explanation": "×3: 108×3=324."
+    },
+    "hi": {
+      "question": "अगला: 4, 12, 36, 108, ___?",
+      "options": [
+        "216",
+        "240",
+        "300",
+        "324"
+      ],
+      "explanation": "×3: 108×3=324।"
+    }
+  },
+  {
+    "id": "ntpc-r-0070",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "en": {
+      "question": "Missing: 10, 20, ?, 40, 50",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "45"
+      ],
+      "explanation": "+10: 20+10=30."
+    },
+    "hi": {
+      "question": "लुप्त: 10, 20, ?, 40, 50",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "45"
+      ],
+      "explanation": "+10: 20+10=30।"
+    }
+  },
+  {
+    "id": "ntpc-r-0071",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: Y, W, U, S, Q, ___?",
+      "options": [
+        "N",
+        "M",
+        "P",
+        "O"
+      ],
+      "explanation": "-2: Y(25)→W(23)→U(21)→S(19)→Q(17)→O(15)."
+    },
+    "hi": {
+      "question": "अगला: Y, W, U, S, Q, ___?",
+      "options": [
+        "N",
+        "M",
+        "P",
+        "O"
+      ],
+      "explanation": "-2: Q के बाद O।"
+    }
+  },
+  {
+    "id": "ntpc-r-0072",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "en": {
+      "question": "Next: 2, 3, 6, 15, 45, ___?",
+      "options": [
+        "157.5",
+        "135",
+        "150",
+        "160"
+      ],
+      "explanation": "×1.5,×2,×2.5,×3,×3.5: 45×3.5=157.5."
+    },
+    "hi": {
+      "question": "अगला: 2, 3, 6, 15, 45, ___?",
+      "options": [
+        "157.5",
+        "135",
+        "150",
+        "160"
+      ],
+      "explanation": "×1.5,×2,×2.5,×3,×3.5: 45×3.5=157.5।"
+    }
+  },
+  {
+    "id": "ntpc-r-0073",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "en": {
+      "question": "Next: 1Z, 2Y, 3X, 4W, ___?",
+      "options": [
+        "6V",
+        "5U",
+        "6U",
+        "5V"
+      ],
+      "explanation": "Number +1: 1,2,3,4,5. Letter -1: Z,Y,X,W,V. = 5V."
+    },
+    "hi": {
+      "question": "अगला: 1Z, 2Y, 3X, 4W, ___?",
+      "options": [
+        "6V",
+        "5U",
+        "6U",
+        "5V"
+      ],
+      "explanation": "संख्या +1, अक्षर -1: 5V।"
+    }
+  },
+  {
+    "id": "ntpc-r-0074",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "en": {
+      "question": "Missing: 5, 17, 37, 65, ?, 145",
+      "options": [
+        "95",
+        "101",
+        "99",
+        "105"
+      ],
+      "explanation": "(2n)²+1: 2²+1=5,4²+1=17,6²+1=37,8²+1=65,10²+1=101,12²+1=145."
+    },
+    "hi": {
+      "question": "लुप्त: 5, 17, 37, 65, ?, 145",
+      "options": [
+        "95",
+        "101",
+        "99",
+        "105"
+      ],
+      "explanation": "(2n)²+1: 10²+1=101।"
+    }
+  },
+  {
+    "id": "ntpc-r-0075",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 12, ?, 18, 21, 24",
+      "options": [
+        "31",
+        "15",
+        "19",
+        "12"
+      ],
+      "explanation": "Pattern: +3. 12 + 3 = 15, ... Term 2: 12 + 1×3 = 15"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 12, ?, 18, 21, 24",
+      "options": [
+        "31",
+        "15",
+        "19",
+        "12"
+      ],
+      "explanation": "पैटर्न: +3। पद 2: 12 + 1×3 = 15"
+    }
+  },
+  {
+    "id": "ntpc-r-0076",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: L, O, R, ?, X",
+      "options": [
+        "C",
+        "R",
+        "W",
+        "U"
+      ],
+      "explanation": "Each letter skips 2 letters forward. Position 4: 21 = U"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: L, O, R, ?, X",
+      "options": [
+        "C",
+        "R",
+        "W",
+        "U"
+      ],
+      "explanation": "हर अक्षर 2 अक्षर आगे। स्थान 4: स्थान 21 = U"
+    }
+  },
+  {
+    "id": "ntpc-r-0077",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 4, ?, 64, 256, 1024",
+      "options": [
+        "35",
+        "25",
+        "12",
+        "16"
+      ],
+      "explanation": "Pattern: ×4. 4 × 4 = 16, ... The ? is 16"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 4, ?, 64, 256, 1024",
+      "options": [
+        "35",
+        "25",
+        "12",
+        "16"
+      ],
+      "explanation": "पैटर्न: ×4। ? = 16"
+    }
+  },
+  {
+    "id": "ntpc-r-0078",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 27, 35, 31, ?, 35, 43",
+      "options": [
+        "41",
+        "39",
+        "46",
+        "35"
+      ],
+      "explanation": "Pattern: +8, -4, +8, ... The ? is 39"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 27, 35, 31, ?, 35, 43",
+      "options": [
+        "41",
+        "39",
+        "46",
+        "35"
+      ],
+      "explanation": "पैटर्न: +8, -4, +8, ... ? = 39"
+    }
+  },
+  {
+    "id": "ntpc-r-0079",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 5, ?, 80, 320, 1280",
+      "options": [
+        "19",
+        "22",
+        "26",
+        "20"
+      ],
+      "explanation": "Geometric series with ratio 4. Term 2 = 5×4^1 = 20"
+    },
+    "hi": {
+      "question": "अगला पद: 5, ?, 80, 320, 1280",
+      "options": [
+        "19",
+        "22",
+        "26",
+        "20"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 4। पद 2 = 20"
+    }
+  },
+  {
+    "id": "ntpc-r-0080",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 6, 24, 96, ?, 1536",
+      "options": [
+        "384",
+        "381",
+        "385",
+        "386"
+      ],
+      "explanation": "Geometric series with ratio 4. Term 4 = 6×4^3 = 384"
+    },
+    "hi": {
+      "question": "अगला पद: 6, 24, 96, ?, 1536",
+      "options": [
+        "384",
+        "381",
+        "385",
+        "386"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 4। पद 4 = 384"
+    }
+  },
+  {
+    "id": "ntpc-r-0081",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 9, 27, 81, ?, 729",
+      "options": [
+        "243",
+        "239",
+        "244",
+        "250"
+      ],
+      "explanation": "Geometric series with ratio 3. Term 4 = 9×3^3 = 243"
+    },
+    "hi": {
+      "question": "अगला पद: 9, 27, 81, ?, 729",
+      "options": [
+        "243",
+        "239",
+        "244",
+        "250"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 3। पद 4 = 243"
+    }
+  },
+  {
+    "id": "ntpc-r-0082",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: ?, 15, 45, 135, 405",
+      "options": [
+        "6",
+        "0",
+        "5",
+        "12"
+      ],
+      "explanation": "Pattern: ×3. 5 × 3 = 15, ... The ? is 5"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: ?, 15, 45, 135, 405",
+      "options": [
+        "6",
+        "0",
+        "5",
+        "12"
+      ],
+      "explanation": "पैटर्न: ×3। ? = 5"
+    }
+  },
+  {
+    "id": "ntpc-r-0083",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: H, J, L, ?, P",
+      "options": [
+        "N",
+        "K",
+        "R",
+        "V"
+      ],
+      "explanation": "Each letter skips 1 letters forward. Position 4: 14 = N"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: H, J, L, ?, P",
+      "options": [
+        "N",
+        "K",
+        "R",
+        "V"
+      ],
+      "explanation": "हर अक्षर 1 अक्षर आगे। स्थान 4: स्थान 14 = N"
+    }
+  },
+  {
+    "id": "ntpc-r-0084",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: I, ?, O, R, U",
+      "options": [
+        "L",
+        "N",
+        "J",
+        "T"
+      ],
+      "explanation": "Each letter skips 2 letters forward. Position 2: 12 = L"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: I, ?, O, R, U",
+      "options": [
+        "L",
+        "N",
+        "J",
+        "T"
+      ],
+      "explanation": "हर अक्षर 2 अक्षर आगे। स्थान 2: स्थान 12 = L"
+    }
+  },
+  {
+    "id": "ntpc-r-0085",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 9, 18, 36, ?, 144",
+      "options": [
+        "72",
+        "71",
+        "74",
+        "147"
+      ],
+      "explanation": "Geometric series with ratio 2. Term 4 = 9×2^3 = 72"
+    },
+    "hi": {
+      "question": "अगला पद: 9, 18, 36, ?, 144",
+      "options": [
+        "72",
+        "71",
+        "74",
+        "147"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 2। पद 4 = 72"
+    }
+  },
+  {
+    "id": "ntpc-r-0086",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 4, 8, 16, 32, ?",
+      "options": [
+        "60",
+        "130",
+        "71",
+        "64"
+      ],
+      "explanation": "Pattern: ×2. 4 × 2 = 8, ... The ? is 64"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 4, 8, 16, 32, ?",
+      "options": [
+        "60",
+        "130",
+        "71",
+        "64"
+      ],
+      "explanation": "पैटर्न: ×2। ? = 64"
+    }
+  },
+  {
+    "id": "ntpc-r-0087",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 16, ?, 36, 49, 64",
+      "options": [
+        "33",
+        "20",
+        "25",
+        "53"
+      ],
+      "explanation": "Squares: 4²=16, 5²=25, ... Term 2: 5² = 25"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 16, ?, 36, 49, 64",
+      "options": [
+        "33",
+        "20",
+        "25",
+        "53"
+      ],
+      "explanation": "वर्ग: 5² = 25"
+    }
+  },
+  {
+    "id": "ntpc-r-0088",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve the series: ?, 216, 343, 512, 729",
+      "options": [
+        "129",
+        "125",
+        "128",
+        "123"
+      ],
+      "explanation": "Cubes: 5³=125, 6³=216, ... Term 1: 5³ = 125"
+    },
+    "hi": {
+      "question": "श्रेणी हल करें: ?, 216, 343, 512, 729",
+      "options": [
+        "129",
+        "125",
+        "128",
+        "123"
+      ],
+      "explanation": "घन: 5³ = 125"
+    }
+  },
+  {
+    "id": "ntpc-r-0089",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: L, O, ?, U, X",
+      "options": [
+        "R",
+        "V",
+        "Q",
+        "A"
+      ],
+      "explanation": "Each letter skips 2 letters forward. Position 3: 18 = R"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: L, O, ?, U, X",
+      "options": [
+        "R",
+        "V",
+        "Q",
+        "A"
+      ],
+      "explanation": "हर अक्षर 2 अक्षर आगे। स्थान 3: स्थान 18 = R"
+    }
+  },
+  {
+    "id": "ntpc-r-0090",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve the series: 27, 64, 125, ?, 343",
+      "options": [
+        "435",
+        "220",
+        "215",
+        "216"
+      ],
+      "explanation": "Cubes: 3³=27, 4³=64, ... Term 4: 6³ = 216"
+    },
+    "hi": {
+      "question": "श्रेणी हल करें: 27, 64, 125, ?, 343",
+      "options": [
+        "435",
+        "220",
+        "215",
+        "216"
+      ],
+      "explanation": "घन: 6³ = 216"
+    }
+  },
+  {
+    "id": "ntpc-r-0091",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: H, J, ?, N, P",
+      "options": [
+        "U",
+        "L",
+        "I",
+        "P"
+      ],
+      "explanation": "Each letter skips 1 letters forward. Position 3: 12 = L"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: H, J, ?, N, P",
+      "options": [
+        "U",
+        "L",
+        "I",
+        "P"
+      ],
+      "explanation": "हर अक्षर 1 अक्षर आगे। स्थान 3: स्थान 12 = L"
+    }
+  },
+  {
+    "id": "ntpc-r-0092",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve the series: 27, 64, 125, 216, ?",
+      "options": [
+        "344",
+        "341",
+        "350",
+        "343"
+      ],
+      "explanation": "Cubes: 3³=27, 4³=64, ... Term 5: 7³ = 343"
+    },
+    "hi": {
+      "question": "श्रेणी हल करें: 27, 64, 125, 216, ?",
+      "options": [
+        "344",
+        "341",
+        "350",
+        "343"
+      ],
+      "explanation": "घन: 7³ = 343"
+    }
+  },
+  {
+    "id": "ntpc-r-0093",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 20, 26, 24, 30, ?, 34",
+      "options": [
+        "30",
+        "37",
+        "28",
+        "24"
+      ],
+      "explanation": "Pattern: +6, -2, +6, ... The ? is 28"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 20, 26, 24, 30, ?, 34",
+      "options": [
+        "30",
+        "37",
+        "28",
+        "24"
+      ],
+      "explanation": "पैटर्न: +6, -2, +6, ... ? = 28"
+    }
+  },
+  {
+    "id": "ntpc-r-0094",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: ?, 9, 27, 81, 243",
+      "options": [
+        "3",
+        "7",
+        "12",
+        "-1"
+      ],
+      "explanation": "Pattern: ×3. 3 × 3 = 9, ... The ? is 3"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: ?, 9, 27, 81, 243",
+      "options": [
+        "3",
+        "7",
+        "12",
+        "-1"
+      ],
+      "explanation": "पैटर्न: ×3। ? = 3"
+    }
+  },
+  {
+    "id": "ntpc-r-0095",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 2, 8, ?, 128, 512",
+      "options": [
+        "42",
+        "32",
+        "30",
+        "65"
+      ],
+      "explanation": "Pattern: ×4. 2 × 4 = 8, ... The ? is 32"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 2, 8, ?, 128, 512",
+      "options": [
+        "42",
+        "32",
+        "30",
+        "65"
+      ],
+      "explanation": "पैटर्न: ×4। ? = 32"
+    }
+  },
+  {
+    "id": "ntpc-r-0096",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: N, ?, P, Q, R",
+      "options": [
+        "X",
+        "M",
+        "O",
+        "Q"
+      ],
+      "explanation": "Each letter skips 0 letters forward. Position 2: 15 = O"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: N, ?, P, Q, R",
+      "options": [
+        "X",
+        "M",
+        "O",
+        "Q"
+      ],
+      "explanation": "हर अक्षर 0 अक्षर आगे। स्थान 2: स्थान 15 = O"
+    }
+  },
+  {
+    "id": "ntpc-r-0097",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 31, 39, 47, ?, 63",
+      "options": [
+        "55",
+        "51",
+        "59",
+        "112"
+      ],
+      "explanation": "Pattern: +8. 31 + 8 = 39, ... Term 4: 31 + 3×8 = 55"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 31, 39, 47, ?, 63",
+      "options": [
+        "55",
+        "51",
+        "59",
+        "112"
+      ],
+      "explanation": "पैटर्न: +8। पद 4: 31 + 3×8 = 55"
+    }
+  },
+  {
+    "id": "ntpc-r-0098",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 16, 23, ?, 26, 22, 29",
+      "options": [
+        "27",
+        "19",
+        "14",
+        "20"
+      ],
+      "explanation": "Pattern: +7, -4, +7, ... The ? is 19"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 16, 23, ?, 26, 22, 29",
+      "options": [
+        "27",
+        "19",
+        "14",
+        "20"
+      ],
+      "explanation": "पैटर्न: +7, -4, +7, ... ? = 19"
+    }
+  },
+  {
+    "id": "ntpc-r-0099",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve the series: ?, 216, 343, 512, 729",
+      "options": [
+        "125",
+        "123",
+        "135",
+        "127"
+      ],
+      "explanation": "Cubes: 5³=125, 6³=216, ... Term 1: 5³ = 125"
+    },
+    "hi": {
+      "question": "श्रेणी हल करें: ?, 216, 343, 512, 729",
+      "options": [
+        "125",
+        "123",
+        "135",
+        "127"
+      ],
+      "explanation": "घन: 5³ = 125"
+    }
+  },
+  {
+    "id": "ntpc-r-0100",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 2, 6, 18, 54, ?",
+      "options": [
+        "157",
+        "165",
+        "162",
+        "170"
+      ],
+      "explanation": "Pattern: ×3. 2 × 3 = 6, ... The ? is 162"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 2, 6, 18, 54, ?",
+      "options": [
+        "157",
+        "165",
+        "162",
+        "170"
+      ],
+      "explanation": "पैटर्न: ×3। ? = 162"
+    }
+  },
+  {
+    "id": "ntpc-r-0101",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 18, 22, 17, ?, 16, 20",
+      "options": [
+        "19",
+        "43",
+        "21",
+        "23"
+      ],
+      "explanation": "Pattern: +4, -5, +4, ... The ? is 21"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 18, 22, 17, ?, 16, 20",
+      "options": [
+        "19",
+        "43",
+        "21",
+        "23"
+      ],
+      "explanation": "पैटर्न: +4, -5, +4, ... ? = 21"
+    }
+  },
+  {
+    "id": "ntpc-r-0102",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 29, 34, 39, ?, 49",
+      "options": [
+        "44",
+        "41",
+        "46",
+        "47"
+      ],
+      "explanation": "Pattern: +5. 29 + 5 = 34, ... Term 4: 29 + 3×5 = 44"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 29, 34, 39, ?, 49",
+      "options": [
+        "44",
+        "41",
+        "46",
+        "47"
+      ],
+      "explanation": "पैटर्न: +5। पद 4: 29 + 3×5 = 44"
+    }
+  },
+  {
+    "id": "ntpc-r-0103",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 4, 12, ?, 108, 324",
+      "options": [
+        "33",
+        "44",
+        "36",
+        "39"
+      ],
+      "explanation": "Geometric series with ratio 3. Term 3 = 4×3^2 = 36"
+    },
+    "hi": {
+      "question": "अगला पद: 4, 12, ?, 108, 324",
+      "options": [
+        "33",
+        "44",
+        "36",
+        "39"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 3। पद 3 = 36"
+    }
+  },
+  {
+    "id": "ntpc-r-0104",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: ?, 36, 49, 64, 81",
+      "options": [
+        "25",
+        "20",
+        "27",
+        "33"
+      ],
+      "explanation": "Squares: 5²=25, 6²=36, ... Term 1: 5² = 25"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: ?, 36, 49, 64, 81",
+      "options": [
+        "25",
+        "20",
+        "27",
+        "33"
+      ],
+      "explanation": "वर्ग: 5² = 25"
+    }
+  },
+  {
+    "id": "ntpc-r-0105",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 6, 12, ?, 48, 96",
+      "options": [
+        "51",
+        "32",
+        "24",
+        "21"
+      ],
+      "explanation": "Geometric series with ratio 2. Term 3 = 6×2^2 = 24"
+    },
+    "hi": {
+      "question": "अगला पद: 6, 12, ?, 48, 96",
+      "options": [
+        "51",
+        "32",
+        "24",
+        "21"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 2। पद 3 = 24"
+    }
+  },
+  {
+    "id": "ntpc-r-0106",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 13, 18, 14, 19, 15, ?",
+      "options": [
+        "27",
+        "21",
+        "20",
+        "17"
+      ],
+      "explanation": "Pattern: +5, -4, +5, ... The ? is 20"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 13, 18, 14, 19, 15, ?",
+      "options": [
+        "27",
+        "21",
+        "20",
+        "17"
+      ],
+      "explanation": "पैटर्न: +5, -4, +5, ... ? = 20"
+    }
+  },
+  {
+    "id": "ntpc-r-0107",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: J, N, R, V, ?",
+      "options": [
+        "C",
+        "Y",
+        "Z",
+        "E"
+      ],
+      "explanation": "Each letter skips 3 letters forward. Position 5: 26 = Z"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: J, N, R, V, ?",
+      "options": [
+        "C",
+        "Y",
+        "Z",
+        "E"
+      ],
+      "explanation": "हर अक्षर 3 अक्षर आगे। स्थान 5: स्थान 26 = Z"
+    }
+  },
+  {
+    "id": "ntpc-r-0108",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 24, 32, 27, ?, 30, 38",
+      "options": [
+        "31",
+        "42",
+        "37",
+        "35"
+      ],
+      "explanation": "Pattern: +8, -5, +8, ... The ? is 35"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 24, 32, 27, ?, 30, 38",
+      "options": [
+        "31",
+        "42",
+        "37",
+        "35"
+      ],
+      "explanation": "पैटर्न: +8, -5, +8, ... ? = 35"
+    }
+  },
+  {
+    "id": "ntpc-r-0109",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 42, ?, 52, 57, 62",
+      "options": [
+        "44",
+        "49",
+        "47",
+        "50"
+      ],
+      "explanation": "Pattern: +5. 42 + 5 = 47, ... Term 2: 42 + 1×5 = 47"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 42, ?, 52, 57, 62",
+      "options": [
+        "44",
+        "49",
+        "47",
+        "50"
+      ],
+      "explanation": "पैटर्न: +5। पद 2: 42 + 1×5 = 47"
+    }
+  },
+  {
+    "id": "ntpc-r-0110",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 5, 20, 80, 320, ?",
+      "options": [
+        "1290",
+        "1275",
+        "2562",
+        "1280"
+      ],
+      "explanation": "Pattern: ×4. 5 × 4 = 20, ... The ? is 1280"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 5, 20, 80, 320, ?",
+      "options": [
+        "1290",
+        "1275",
+        "2562",
+        "1280"
+      ],
+      "explanation": "पैटर्न: ×4। ? = 1280"
+    }
+  },
+  {
+    "id": "ntpc-r-0111",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 3, 6, ?, 24, 48",
+      "options": [
+        "19",
+        "15",
+        "12",
+        "11"
+      ],
+      "explanation": "Geometric series with ratio 2. Term 3 = 3×2^2 = 12"
+    },
+    "hi": {
+      "question": "अगला पद: 3, 6, ?, 24, 48",
+      "options": [
+        "19",
+        "15",
+        "12",
+        "11"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 2। पद 3 = 12"
+    }
+  },
+  {
+    "id": "ntpc-r-0112",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 5, 20, 80, ?, 1280",
+      "options": [
+        "327",
+        "643",
+        "316",
+        "320"
+      ],
+      "explanation": "Pattern: ×4. 5 × 4 = 20, ... The ? is 320"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 5, 20, 80, ?, 1280",
+      "options": [
+        "327",
+        "643",
+        "316",
+        "320"
+      ],
+      "explanation": "पैटर्न: ×4। ? = 320"
+    }
+  },
+  {
+    "id": "ntpc-r-0113",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 4, ?, 64, 256, 1024",
+      "options": [
+        "34",
+        "21",
+        "13",
+        "16"
+      ],
+      "explanation": "Pattern: ×4. 4 × 4 = 16, ... The ? is 16"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 4, ?, 64, 256, 1024",
+      "options": [
+        "34",
+        "21",
+        "13",
+        "16"
+      ],
+      "explanation": "पैटर्न: ×4। ? = 16"
+    }
+  },
+  {
+    "id": "ntpc-r-0114",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 12, ?, 13, 17, 14, 18",
+      "options": [
+        "17",
+        "16",
+        "11",
+        "19"
+      ],
+      "explanation": "Pattern: +4, -3, +4, ... The ? is 16"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 12, ?, 13, 17, 14, 18",
+      "options": [
+        "17",
+        "16",
+        "11",
+        "19"
+      ],
+      "explanation": "पैटर्न: +4, -3, +4, ... ? = 16"
+    }
+  },
+  {
+    "id": "ntpc-r-0115",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 4, 12, 36, 108, ?",
+      "options": [
+        "319",
+        "324",
+        "329",
+        "326"
+      ],
+      "explanation": "Geometric series with ratio 3. Term 5 = 4×3^4 = 324"
+    },
+    "hi": {
+      "question": "अगला पद: 4, 12, 36, 108, ?",
+      "options": [
+        "319",
+        "324",
+        "329",
+        "326"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 3। पद 5 = 324"
+    }
+  },
+  {
+    "id": "ntpc-r-0116",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 13, 16, ?, 22, 25",
+      "options": [
+        "14",
+        "28",
+        "19",
+        "22"
+      ],
+      "explanation": "Pattern: +3. 13 + 3 = 16, ... Term 3: 13 + 2×3 = 19"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 13, 16, ?, 22, 25",
+      "options": [
+        "14",
+        "28",
+        "19",
+        "22"
+      ],
+      "explanation": "पैटर्न: +3। पद 3: 13 + 2×3 = 19"
+    }
+  },
+  {
+    "id": "ntpc-r-0117",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 24, 29, ?, 31, 28, 33",
+      "options": [
+        "54",
+        "26",
+        "23",
+        "33"
+      ],
+      "explanation": "Pattern: +5, -3, +5, ... The ? is 26"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 24, 29, ?, 31, 28, 33",
+      "options": [
+        "54",
+        "26",
+        "23",
+        "33"
+      ],
+      "explanation": "पैटर्न: +5, -3, +5, ... ? = 26"
+    }
+  },
+  {
+    "id": "ntpc-r-0118",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 49, 53, ?, 61, 65",
+      "options": [
+        "117",
+        "57",
+        "54",
+        "63"
+      ],
+      "explanation": "Pattern: +4. 49 + 4 = 53, ... Term 3: 49 + 2×4 = 57"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 49, 53, ?, 61, 65",
+      "options": [
+        "117",
+        "57",
+        "54",
+        "63"
+      ],
+      "explanation": "पैटर्न: +4। पद 3: 49 + 2×4 = 57"
+    }
+  },
+  {
+    "id": "ntpc-r-0119",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 8, ?, 28, 38, 48",
+      "options": [
+        "21",
+        "25",
+        "18",
+        "14"
+      ],
+      "explanation": "Pattern: +10. 8 + 10 = 18, ... Term 2: 8 + 1×10 = 18"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 8, ?, 28, 38, 48",
+      "options": [
+        "21",
+        "25",
+        "18",
+        "14"
+      ],
+      "explanation": "पैटर्न: +10। पद 2: 8 + 1×10 = 18"
+    }
+  },
+  {
+    "id": "ntpc-r-0120",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 3, 12, 48, 192, ?",
+      "options": [
+        "772",
+        "767",
+        "771",
+        "768"
+      ],
+      "explanation": "Pattern: ×4. 3 × 4 = 12, ... The ? is 768"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 3, 12, 48, 192, ?",
+      "options": [
+        "772",
+        "767",
+        "771",
+        "768"
+      ],
+      "explanation": "पैटर्न: ×4। ? = 768"
+    }
+  },
+  {
+    "id": "ntpc-r-0121",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve the series: 27, 64, 125, 216, ?",
+      "options": [
+        "349",
+        "346",
+        "338",
+        "343"
+      ],
+      "explanation": "Cubes: 3³=27, 4³=64, ... Term 5: 7³ = 343"
+    },
+    "hi": {
+      "question": "श्रेणी हल करें: 27, 64, 125, 216, ?",
+      "options": [
+        "349",
+        "346",
+        "338",
+        "343"
+      ],
+      "explanation": "घन: 7³ = 343"
+    }
+  },
+  {
+    "id": "ntpc-r-0122",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 3, 9, 27, ?, 243",
+      "options": [
+        "81",
+        "91",
+        "164",
+        "77"
+      ],
+      "explanation": "Pattern: ×3. 3 × 3 = 9, ... The ? is 81"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 3, 9, 27, ?, 243",
+      "options": [
+        "81",
+        "91",
+        "164",
+        "77"
+      ],
+      "explanation": "पैटर्न: ×3। ? = 81"
+    }
+  },
+  {
+    "id": "ntpc-r-0123",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 2, 8, ?, 128, 512",
+      "options": [
+        "29",
+        "41",
+        "32",
+        "67"
+      ],
+      "explanation": "Pattern: ×4. 2 × 4 = 8, ... The ? is 32"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 2, 8, ?, 128, 512",
+      "options": [
+        "29",
+        "41",
+        "32",
+        "67"
+      ],
+      "explanation": "पैटर्न: ×4। ? = 32"
+    }
+  },
+  {
+    "id": "ntpc-r-0124",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve the series: 125, ?, 343, 512, 729",
+      "options": [
+        "216",
+        "212",
+        "433",
+        "220"
+      ],
+      "explanation": "Cubes: 5³=125, 6³=216, ... Term 2: 6³ = 216"
+    },
+    "hi": {
+      "question": "श्रेणी हल करें: 125, ?, 343, 512, 729",
+      "options": [
+        "216",
+        "212",
+        "433",
+        "220"
+      ],
+      "explanation": "घन: 6³ = 216"
+    }
+  },
+  {
+    "id": "ntpc-r-0125",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 5, ?, 20, 40, 80",
+      "options": [
+        "17",
+        "12",
+        "10",
+        "6"
+      ],
+      "explanation": "Pattern: ×2. 5 × 2 = 10, ... The ? is 10"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 5, ?, 20, 40, 80",
+      "options": [
+        "17",
+        "12",
+        "10",
+        "6"
+      ],
+      "explanation": "पैटर्न: ×2। ? = 10"
+    }
+  },
+  {
+    "id": "ntpc-r-0126",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 28, 37, 46, 55, ?",
+      "options": [
+        "130",
+        "69",
+        "64",
+        "60"
+      ],
+      "explanation": "Pattern: +9. 28 + 9 = 37, ... Term 5: 28 + 4×9 = 64"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 28, 37, 46, 55, ?",
+      "options": [
+        "130",
+        "69",
+        "64",
+        "60"
+      ],
+      "explanation": "पैटर्न: +9। पद 5: 28 + 4×9 = 64"
+    }
+  },
+  {
+    "id": "ntpc-r-0127",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: 18, 23, 19, ?, 20, 25",
+      "options": [
+        "22",
+        "27",
+        "24",
+        "50"
+      ],
+      "explanation": "Pattern: +5, -4, +5, ... The ? is 24"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 18, 23, 19, ?, 20, 25",
+      "options": [
+        "22",
+        "27",
+        "24",
+        "50"
+      ],
+      "explanation": "पैटर्न: +5, -4, +5, ... ? = 24"
+    }
+  },
+  {
+    "id": "ntpc-r-0128",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 47, ?, 61, 68, 75",
+      "options": [
+        "54",
+        "110",
+        "52",
+        "57"
+      ],
+      "explanation": "Pattern: +7. 47 + 7 = 54, ... Term 2: 47 + 1×7 = 54"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 47, ?, 61, 68, 75",
+      "options": [
+        "54",
+        "110",
+        "52",
+        "57"
+      ],
+      "explanation": "पैटर्न: +7। पद 2: 47 + 1×7 = 54"
+    }
+  },
+  {
+    "id": "ntpc-r-0129",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 27, 36, 45, ?, 63",
+      "options": [
+        "56",
+        "61",
+        "50",
+        "54"
+      ],
+      "explanation": "Pattern: +9. 27 + 9 = 36, ... Term 4: 27 + 3×9 = 54"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 27, 36, 45, ?, 63",
+      "options": [
+        "56",
+        "61",
+        "50",
+        "54"
+      ],
+      "explanation": "पैटर्न: +9। पद 4: 27 + 3×9 = 54"
+    }
+  },
+  {
+    "id": "ntpc-r-0130",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 4, 9, ?, 25, 36",
+      "options": [
+        "21",
+        "15",
+        "18",
+        "16"
+      ],
+      "explanation": "Squares: 2²=4, 3²=9, ... Term 3: 4² = 16"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 4, 9, ?, 25, 36",
+      "options": [
+        "21",
+        "15",
+        "18",
+        "16"
+      ],
+      "explanation": "वर्ग: 4² = 16"
+    }
+  },
+  {
+    "id": "ntpc-r-0131",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 9, 36, 144, 576, ?",
+      "options": [
+        "2305",
+        "2304",
+        "2300",
+        "2305"
+      ],
+      "explanation": "Geometric series with ratio 4. Term 5 = 9×4^4 = 2304"
+    },
+    "hi": {
+      "question": "अगला पद: 9, 36, 144, 576, ?",
+      "options": [
+        "2305",
+        "2304",
+        "2300",
+        "2305"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 4। पद 5 = 2304"
+    }
+  },
+  {
+    "id": "ntpc-r-0132",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 26, 28, 30, ?, 34",
+      "options": [
+        "27",
+        "65",
+        "38",
+        "32"
+      ],
+      "explanation": "Pattern: +2. 26 + 2 = 28, ... Term 4: 26 + 3×2 = 32"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 26, 28, 30, ?, 34",
+      "options": [
+        "27",
+        "65",
+        "38",
+        "32"
+      ],
+      "explanation": "पैटर्न: +2। पद 4: 26 + 3×2 = 32"
+    }
+  },
+  {
+    "id": "ntpc-r-0133",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve the series: 8, 27, ?, 125, 216",
+      "options": [
+        "64",
+        "130",
+        "70",
+        "59"
+      ],
+      "explanation": "Cubes: 2³=8, 3³=27, ... Term 3: 4³ = 64"
+    },
+    "hi": {
+      "question": "श्रेणी हल करें: 8, 27, ?, 125, 216",
+      "options": [
+        "64",
+        "130",
+        "70",
+        "59"
+      ],
+      "explanation": "घन: 4³ = 64"
+    }
+  },
+  {
+    "id": "ntpc-r-0134",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve the series: ?, 343, 512, 729, 1000",
+      "options": [
+        "212",
+        "218",
+        "216",
+        "223"
+      ],
+      "explanation": "Cubes: 6³=216, 7³=343, ... Term 1: 6³ = 216"
+    },
+    "hi": {
+      "question": "श्रेणी हल करें: ?, 343, 512, 729, 1000",
+      "options": [
+        "212",
+        "218",
+        "216",
+        "223"
+      ],
+      "explanation": "घन: 6³ = 216"
+    }
+  },
+  {
+    "id": "ntpc-r-0135",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 3, 6, ?, 24, 48",
+      "options": [
+        "8",
+        "12",
+        "13",
+        "16"
+      ],
+      "explanation": "Geometric series with ratio 2. Term 3 = 3×2^2 = 12"
+    },
+    "hi": {
+      "question": "अगला पद: 3, 6, ?, 24, 48",
+      "options": [
+        "8",
+        "12",
+        "13",
+        "16"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 2। पद 3 = 12"
+    }
+  },
+  {
+    "id": "ntpc-r-0136",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 4, 12, ?, 108, 324",
+      "options": [
+        "36",
+        "46",
+        "38",
+        "35"
+      ],
+      "explanation": "Geometric series with ratio 3. Term 3 = 4×3^2 = 36"
+    },
+    "hi": {
+      "question": "अगला पद: 4, 12, ?, 108, 324",
+      "options": [
+        "36",
+        "46",
+        "38",
+        "35"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 3। पद 3 = 36"
+    }
+  },
+  {
+    "id": "ntpc-r-0137",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 5, 15, ?, 35, 45",
+      "options": [
+        "21",
+        "25",
+        "52",
+        "32"
+      ],
+      "explanation": "Pattern: +10. 5 + 10 = 15, ... Term 3: 5 + 2×10 = 25"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 5, 15, ?, 35, 45",
+      "options": [
+        "21",
+        "25",
+        "52",
+        "32"
+      ],
+      "explanation": "पैटर्न: +10। पद 3: 5 + 2×10 = 25"
+    }
+  },
+  {
+    "id": "ntpc-r-0138",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 5, 15, 45, ?, 405",
+      "options": [
+        "136",
+        "142",
+        "132",
+        "135"
+      ],
+      "explanation": "Pattern: ×3. 5 × 3 = 15, ... The ? is 135"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 5, 15, 45, ?, 405",
+      "options": [
+        "136",
+        "142",
+        "132",
+        "135"
+      ],
+      "explanation": "पैटर्न: ×3। ? = 135"
+    }
+  },
+  {
+    "id": "ntpc-r-0139",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 3, 12, 48, ?, 768",
+      "options": [
+        "197",
+        "192",
+        "188",
+        "194"
+      ],
+      "explanation": "Pattern: ×4. 3 × 4 = 12, ... The ? is 192"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 3, 12, 48, ?, 768",
+      "options": [
+        "197",
+        "192",
+        "188",
+        "194"
+      ],
+      "explanation": "पैटर्न: ×4। ? = 192"
+    }
+  },
+  {
+    "id": "ntpc-r-0140",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Complete the series: 4, 16, 64, 256, ?",
+      "options": [
+        "1027",
+        "1022",
+        "1024",
+        "1026"
+      ],
+      "explanation": "Pattern: ×4. 4 × 4 = 16, ... The ? is 1024"
+    },
+    "hi": {
+      "question": "श्रेणी पूरी करें: 4, 16, 64, 256, ?",
+      "options": [
+        "1027",
+        "1022",
+        "1024",
+        "1026"
+      ],
+      "explanation": "पैटर्न: ×4। ? = 1024"
+    }
+  },
+  {
+    "id": "ntpc-r-0141",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Next term: 4, 8, 16, ?, 64",
+      "options": [
+        "35",
+        "32",
+        "27",
+        "40"
+      ],
+      "explanation": "Geometric series with ratio 2. Term 4 = 4×2^3 = 32"
+    },
+    "hi": {
+      "question": "अगला पद: 4, 8, 16, ?, 64",
+      "options": [
+        "35",
+        "32",
+        "27",
+        "40"
+      ],
+      "explanation": "गुणोत्तर श्रेणी, अनुपात 2। पद 4 = 32"
+    }
+  },
+  {
+    "id": "ntpc-r-0142",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the next/missing: ?, 32, 29, 32, 29, 32",
+      "options": [
+        "39",
+        "27",
+        "59",
+        "29"
+      ],
+      "explanation": "Pattern: +3, -3, +3, ... The ? is 29"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: ?, 32, 29, 32, 29, 32",
+      "options": [
+        "39",
+        "27",
+        "59",
+        "29"
+      ],
+      "explanation": "पैटर्न: +3, -3, +3, ... ? = 29"
+    }
+  },
+  {
+    "id": "ntpc-r-0143",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing letter: K, L, ?, N, O",
+      "options": [
+        "M",
+        "N",
+        "U",
+        "J"
+      ],
+      "explanation": "Each letter skips 0 letters forward. Position 3: 13 = M"
+    },
+    "hi": {
+      "question": "लुप्त अक्षर ज्ञात करें: K, L, ?, N, O",
+      "options": [
+        "M",
+        "N",
+        "U",
+        "J"
+      ],
+      "explanation": "हर अक्षर 0 अक्षर आगे। स्थान 3: स्थान 13 = M"
+    }
+  },
+  {
+    "id": "ntpc-r-0144",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Find the missing term: 9, 16, 25, 36, ?",
+      "options": [
+        "49",
+        "57",
+        "46",
+        "100"
+      ],
+      "explanation": "Squares: 3²=9, 4²=16, ... Term 5: 7² = 49"
+    },
+    "hi": {
+      "question": "लुप्त पद ज्ञात करें: 9, 16, 25, 36, ?",
+      "options": [
+        "49",
+        "57",
+        "46",
+        "100"
+      ],
+      "explanation": "वर्ग: 7² = 49"
+    }
+  }
 ]

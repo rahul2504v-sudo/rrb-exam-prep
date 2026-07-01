@@ -1,5 +1,1822 @@
 [
-  {"id":"ntpc-m-0001","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Speed of boat in still water 15 km/h, stream 5 km/h. Time to travel 40 km upstream?","options":["2 hours","3 hours","4 hours","5 hours"],"explanation":"Upstream speed=15-5=10 km/h. Time=40/10=4 hours."},"hi":{"question":"शांत जल में नाव 15 km/h, धारा 5 km/h। 40 km ऊर्ध्वप्रवाह में समय?","options":["2 घंटे","3 घंटे","4 घंटे","5 घंटे"],"explanation":"ऊर्ध्वप्रवाह चाल=10 km/h, समय=4 घंटे।"}},
-  {"id":"ntpc-m-0002","correctOption":"A","difficulty":"hard","sourceYear":2022,"en":{"question":"Boat: 30km up+44km down=10h, 40km up+55km down=13h. Speed of stream?","options":["3 km/h","4 km/h","5 km/h","6 km/h"],"explanation":"u=5, v=11. Stream=(11-5)/2=3 km/h."},"hi":{"question":"30km ऊपर+44km नीचे=10h, 40+55=13h। धारा की चाल?","options":["3 km/h","4 km/h","5 km/h","6 km/h"],"explanation":"धारा=(11-5)/2=3 km/h।"}},
-  {"id":"ntpc-m-0003","correctOption":"A","difficulty":"medium","sourceYear":2023,"en":{"question":"Man rows 8 km/h still water, stream 2 km/h. Upstream takes 3h more than downstream for same distance. Distance?","options":["45 km","42 km","48 km","36 km"],"explanation":"d/6-d/10=3, 2d/30=3, d=45 km."},"hi":{"question":"शांत जल में 8 km/h, धारा 2 km/h। समान दूरी में ऊर्ध्वप्रवाह में 3h अधिक। दूरी?","options":["45 km","42 km","48 km","36 km"],"explanation":"d/6-d/10=3, d=45 km।"}}
+  {
+    "id": "ntpc-m-0001",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Still water 15km/h, stream 5km/h. 40km upstream time?",
+      "options": [
+        "2h",
+        "3h",
+        "4h",
+        "5h"
+      ],
+      "explanation": "Upstream=10km/h. 40/10=4h."
+    },
+    "hi": {
+      "question": "शांत जल 15, धारा 5। 40km ऊर्ध्वप्रवाह?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "explanation": "4 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-m-0002",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2022,
+    "en": {
+      "question": "30up+44down=10h, 40up+55down=13h. Stream speed?",
+      "options": [
+        "3km/h",
+        "4",
+        "5",
+        "6"
+      ],
+      "explanation": "u=5,v=11. Stream=(11-5)/2=3."
+    },
+    "hi": {
+      "question": "30+44=10h, 40+55=13h। धारा चाल?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "explanation": "3 km/h।"
+    }
+  },
+  {
+    "id": "ntpc-m-0003",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Still water 8km/h, stream 2km/h. Upstream 3h more than downstream. Distance?",
+      "options": [
+        "45km",
+        "42",
+        "48",
+        "36"
+      ],
+      "explanation": "d/6-d/10=3. d=45km."
+    },
+    "hi": {
+      "question": "शांत 8, धारा 2। ऊर्ध्व 3h अधिक। दूरी?",
+      "options": [
+        "45",
+        "42",
+        "48",
+        "36"
+      ],
+      "explanation": "45 km।"
+    }
+  },
+  {
+    "id": "ntpc-m-0004",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed in still water 12km/h, stream 4km/h. Downstream speed?",
+      "options": [
+        "8",
+        "16",
+        "12",
+        "20"
+      ],
+      "explanation": "12+4=16 km/h."
+    },
+    "hi": {
+      "question": "शांत 12, धारा 4। अनुप्रवाह चाल?",
+      "options": [
+        "8",
+        "16",
+        "12",
+        "20"
+      ],
+      "explanation": "16 km/h।"
+    }
+  },
+  {
+    "id": "ntpc-m-0005",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat covers 24km upstream and 36km downstream in 6h. Speed still water 10km/h. Stream?",
+      "options": [
+        "2km/h",
+        "3",
+        "4",
+        "5"
+      ],
+      "explanation": "24/(10-s)+36/(10+s)=6. Try s=2: 24/8+36/12=3+3=6. Works!"
+    },
+    "hi": {
+      "question": "24+36=6h, शांत 10। धारा?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "explanation": "2 km/h।"
+    }
+  },
+  {
+    "id": "ntpc-m-0006",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream 20km/h, upstream 12km/h. Still water?",
+      "options": [
+        "14",
+        "18",
+        "20",
+        "16"
+      ],
+      "explanation": "(20+12)/2=16 km/h."
+    },
+    "hi": {
+      "question": "अनुप्रवाह 20, ऊर्ध्व 12। शांत जल?",
+      "options": [
+        "14",
+        "18",
+        "20",
+        "16"
+      ],
+      "explanation": "16 km/h।"
+    }
+  },
+  {
+    "id": "ntpc-m-0007",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Stream speed 2km/h. Boat 36km upstream in 4.5h. Downstream speed?",
+      "options": [
+        "14",
+        "16",
+        "12",
+        "10"
+      ],
+      "explanation": "Upstream=36/4.5=8km/h. Boat=8+2=10. Downstream=10+2=12."
+    },
+    "hi": {
+      "question": "धारा 2, 36km 4.5h ऊर्ध्व। अनुप्रवाह?",
+      "options": [
+        "14",
+        "16",
+        "12",
+        "10"
+      ],
+      "explanation": "12 km/h।"
+    }
+  },
+  {
+    "id": "ntpc-m-0008",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ratio of downstream to upstream speed=3:2. If stream=2km/h, still water?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "6"
+      ],
+      "explanation": "(x+2)/(x-2)=3/2. 2x+4=3x-6. x=10."
+    },
+    "hi": {
+      "question": "अनुप्रवाह:ऊर्ध्व=3:2, धारा 2। शांत?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "6"
+      ],
+      "explanation": "10 km/h।"
+    }
+  },
+  {
+    "id": "ntpc-m-0009",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Man rows 5km in 1h in still water. He takes thrice time going upstream as downstream for same distance. Stream?",
+      "options": [
+        "2.5km/h",
+        "2",
+        "3",
+        "1.5"
+      ],
+      "explanation": "(5+s)/(5-s)=3. 5+s=15-3s. 4s=10. s=2.5."
+    },
+    "hi": {
+      "question": "शांत 5km/h, ऊर्ध्व में 3 गुना समय। धारा?",
+      "options": [
+        "2.5",
+        "2",
+        "3",
+        "1.5"
+      ],
+      "explanation": "2.5 km/h।"
+    }
+  },
+  {
+    "id": "ntpc-m-0010",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 15km/h, upstream 9km/h. Rate of stream?",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "explanation": "(15-9)/2=3 km/h."
+    },
+    "hi": {
+      "question": "अनुप्रवाह 15, ऊर्ध्व 9। धारा?",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "explanation": "3 km/h।"
+    }
+  },
+  {
+    "id": "ntpc-m-0011",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat goes 21km downstream in 1.5h. Upstream same distance in 3.5h. Still water?",
+      "options": [
+        "8",
+        "9",
+        "11",
+        "10"
+      ],
+      "explanation": "Down=14, Up=6. (14+6)/2=10."
+    },
+    "hi": {
+      "question": "21km अनुप्रवाह 1.5h, ऊर्ध्व 3.5h। शांत?",
+      "options": [
+        "8",
+        "9",
+        "11",
+        "10"
+      ],
+      "explanation": "10 km/h।"
+    }
+  },
+  {
+    "id": "ntpc-m-0012",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A man can row 15km/h in still water. Stream is 3km/h. Time to row 36km upstream and return?",
+      "options": [
+        "4h",
+        "5h",
+        "6h",
+        "5.5h"
+      ],
+      "explanation": "Up=36/12=3h. Down=36/18=2h. Total=5h."
+    },
+    "hi": {
+      "question": "शांत 15, धारा 3। 36km जाकर लौटने में?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "5.5"
+      ],
+      "explanation": "5 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-m-0013",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Speed of boat in still water 20km/h, speed of current 5km/h. Upstream speed?",
+      "options": [
+        "15",
+        "25",
+        "20",
+        "10"
+      ],
+      "explanation": "20-5=15 km/h."
+    },
+    "hi": {
+      "question": "शांत 20, धारा 5। ऊर्ध्वप्रवाह?",
+      "options": [
+        "15",
+        "25",
+        "20",
+        "10"
+      ],
+      "explanation": "15 km/h।"
+    }
+  },
+  {
+    "id": "ntpc-m-0014",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Man rows to a place 48km away and back in 14h. Stream 2km/h. Speed in still water?",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "9"
+      ],
+      "explanation": "48/(x-2)+48/(x+2)=14. 48(2x)/(x²-4)=14. 96x=14x²-56. 14x²-96x-56=0. 7x²-48x-28=0. (7x+4)(x-7)=0. x=7."
+    },
+    "hi": {
+      "question": "48km जाकर लौटना 14h, धारा 2। शांत?",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "9"
+      ],
+      "explanation": "7 km/h।"
+    }
+  },
+  {
+    "id": "ntpc-m-0015",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Distance 60km downstream in 4h. Stream speed 3km/h. Boat in still water?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "18"
+      ],
+      "explanation": "Down=15, boat=15-3=12 km/h."
+    },
+    "hi": {
+      "question": "60km 4h में, धारा 3। शांत?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "18"
+      ],
+      "explanation": "12 km/h।"
+    }
+  },
+  {
+    "id": "ntpc-m-0016",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A man rows to a place at 4km/h and returns at 6km/h. Average speed?",
+      "options": [
+        "4.8",
+        "5",
+        "5.2",
+        "4.5"
+      ],
+      "explanation": "2×4×6/10=48/10=4.8 km/h."
+    },
+    "hi": {
+      "question": "4km/h से जाकर 6km/h से लौटे। औसत?",
+      "options": [
+        "4.8",
+        "5",
+        "5.2",
+        "4.5"
+      ],
+      "explanation": "4.8 km/h।"
+    }
+  },
+  {
+    "id": "ntpc-m-0017",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat 8km/h still water. River 4km/h. 24km upstream and 24km downstream time?",
+      "options": [
+        "8h",
+        "7h",
+        "8h",
+        "6h"
+      ],
+      "explanation": "Up=24/4=6h. Down=24/12=2h. Total=8h."
+    },
+    "hi": {
+      "question": "शांत 8, धारा 4। 24km आना-जाना?",
+      "options": [
+        "8",
+        "7",
+        "8",
+        "6"
+      ],
+      "explanation": "8 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-m-0018",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Speed of current is 1/3 of boat in still water. If downstream speed is 16km/h, upstream?",
+      "options": [
+        "6",
+        "10",
+        "12",
+        "8"
+      ],
+      "explanation": "B+s=16. s=B/3. B+B/3=16. 4B/3=16. B=12, s=4. Up=12-4=8."
+    },
+    "hi": {
+      "question": "धारा=शांत/3, अनुप्रवाह 16। ऊर्ध्व?",
+      "options": [
+        "6",
+        "10",
+        "12",
+        "8"
+      ],
+      "explanation": "8 km/h।"
+    }
+  },
+  {
+    "id": "ntpc-m-0019",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat 10km/h in still water, river 2km/h. Downstream 36km time?",
+      "options": [
+        "2.5h",
+        "3h",
+        "4h",
+        "3.5h"
+      ],
+      "explanation": "12km/h, 36/12=3h."
+    },
+    "hi": {
+      "question": "शांत 10, धारा 2। 36km अनुप्रवाह?",
+      "options": [
+        "2.5",
+        "3",
+        "4",
+        "3.5"
+      ],
+      "explanation": "3 घंटे।"
+    }
+  },
+  {
+    "id": "ntpc-m-0020",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A boat takes 90 minutes less to travel 36km downstream than upstream. Speed still water 10km/h. Stream?",
+      "options": [
+        "2km/h",
+        "3",
+        "4",
+        "1"
+      ],
+      "explanation": "36/(10-s)-36/(10+s)=1.5. 36(2s)/(100-s²)=1.5. 72s=150-1.5s². 1.5s²+72s-150=0. s²+48s-100=0. (s+50)(s-2)=0. s=2."
+    },
+    "hi": {
+      "question": "36km ऊर्ध्व में 90मि अधिक, शांत 10। धारा?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "explanation": "2 km/h।"
+    }
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 17 km/hr, stream 2 km/hr. Time for 19 km upstream?",
+      "options": [
+        "2.6 hrs",
+        "1.1 hrs",
+        "1.3 hrs",
+        "1.0 hrs"
+      ],
+      "explanation": "Upstream speed=17-2=15. Time=19/15=1.3 hrs."
+    },
+    "hi": {
+      "question": "नाव 17 किमी/घंटा, धारा 2। 19 किमी धारा विपरीत समय?",
+      "options": [
+        "2.6 hrs",
+        "1.1 hrs",
+        "1.3 hrs",
+        "1.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=15। समय=19/15=1.3 घंटे।"
+    },
+    "id": "ntpc-m-0021"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 16 km/hr, stream 5 km/hr. Time for 42 km upstream?",
+      "options": [
+        "2.6 hrs",
+        "2.0 hrs",
+        "3.8 hrs",
+        "7.6 hrs"
+      ],
+      "explanation": "Upstream speed=16-5=11. Time=42/11=3.8 hrs."
+    },
+    "hi": {
+      "question": "नाव 16 किमी/घंटा, धारा 5। 42 किमी धारा विपरीत समय?",
+      "options": [
+        "2.6 hrs",
+        "2.0 hrs",
+        "3.8 hrs",
+        "7.6 hrs"
+      ],
+      "explanation": "विपरीत चाल=11। समय=42/11=3.8 घंटे।"
+    },
+    "id": "ntpc-m-0022"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 11 km/hr, stream 3 km/hr. Time for 28 km upstream?",
+      "options": [
+        "7.0 hrs",
+        "2.5 hrs",
+        "3.5 hrs",
+        "2.0 hrs"
+      ],
+      "explanation": "Upstream speed=11-3=8. Time=28/8=3.5 hrs."
+    },
+    "hi": {
+      "question": "नाव 11 किमी/घंटा, धारा 3। 28 किमी धारा विपरीत समय?",
+      "options": [
+        "7.0 hrs",
+        "2.5 hrs",
+        "3.5 hrs",
+        "2.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=8। समय=28/8=3.5 घंटे।"
+    },
+    "id": "ntpc-m-0023"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 9 km/hr, stream 2 km/hr. Time for 11 km upstream?",
+      "options": [
+        "1.0 hrs",
+        "3.2 hrs",
+        "1.2 hrs",
+        "1.6 hrs"
+      ],
+      "explanation": "Upstream speed=9-2=7. Time=11/7=1.6 hrs."
+    },
+    "hi": {
+      "question": "नाव 9 किमी/घंटा, धारा 2। 11 किमी धारा विपरीत समय?",
+      "options": [
+        "1.0 hrs",
+        "3.2 hrs",
+        "1.2 hrs",
+        "1.6 hrs"
+      ],
+      "explanation": "विपरीत चाल=7। समय=11/7=1.6 घंटे।"
+    },
+    "id": "ntpc-m-0024"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 8 km/hr, stream 3 km/hr. Time for 22 km upstream?",
+      "options": [
+        "2.0 hrs",
+        "2.8 hrs",
+        "8.8 hrs",
+        "4.4 hrs"
+      ],
+      "explanation": "Upstream speed=8-3=5. Time=22/5=4.4 hrs."
+    },
+    "hi": {
+      "question": "नाव 8 किमी/घंटा, धारा 3। 22 किमी धारा विपरीत समय?",
+      "options": [
+        "2.0 hrs",
+        "2.8 hrs",
+        "8.8 hrs",
+        "4.4 hrs"
+      ],
+      "explanation": "विपरीत चाल=5। समय=22/5=4.4 घंटे।"
+    },
+    "id": "ntpc-m-0025"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 9 km/hr, stream 5 km/hr. Time for 14 km upstream?",
+      "options": [
+        "3.5 hrs",
+        "7.0 hrs",
+        "1.6 hrs",
+        "1.0 hrs"
+      ],
+      "explanation": "Upstream speed=9-5=4. Time=14/4=3.5 hrs."
+    },
+    "hi": {
+      "question": "नाव 9 किमी/घंटा, धारा 5। 14 किमी धारा विपरीत समय?",
+      "options": [
+        "3.5 hrs",
+        "7.0 hrs",
+        "1.6 hrs",
+        "1.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=4। समय=14/4=3.5 घंटे।"
+    },
+    "id": "ntpc-m-0026"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 9 km/hr, stream 1 km/hr. Time for 10 km upstream?",
+      "options": [
+        "1.1 hrs",
+        "2.4 hrs",
+        "1.0 hrs",
+        "1.2 hrs"
+      ],
+      "explanation": "Upstream speed=9-1=8. Time=10/8=1.2 hrs."
+    },
+    "hi": {
+      "question": "नाव 9 किमी/घंटा, धारा 1। 10 किमी धारा विपरीत समय?",
+      "options": [
+        "1.1 hrs",
+        "2.4 hrs",
+        "1.0 hrs",
+        "1.2 hrs"
+      ],
+      "explanation": "विपरीत चाल=8। समय=10/8=1.2 घंटे।"
+    },
+    "id": "ntpc-m-0027"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 18 km/hr, stream 3 km/hr. Time for 63 km upstream?",
+      "options": [
+        "3.5 hrs",
+        "4.2 hrs",
+        "8.4 hrs",
+        "3.0 hrs"
+      ],
+      "explanation": "Upstream speed=18-3=15. Time=63/15=4.2 hrs."
+    },
+    "hi": {
+      "question": "नाव 18 किमी/घंटा, धारा 3। 63 किमी धारा विपरीत समय?",
+      "options": [
+        "3.5 hrs",
+        "4.2 hrs",
+        "8.4 hrs",
+        "3.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=15। समय=63/15=4.2 घंटे।"
+    },
+    "id": "ntpc-m-0028"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 22 km/hr, stream 4 km/hr. Time for 52 km upstream?",
+      "options": [
+        "2.0 hrs",
+        "5.8 hrs",
+        "2.9 hrs",
+        "2.4 hrs"
+      ],
+      "explanation": "Upstream speed=22-4=18. Time=52/18=2.9 hrs."
+    },
+    "hi": {
+      "question": "नाव 22 किमी/घंटा, धारा 4। 52 किमी धारा विपरीत समय?",
+      "options": [
+        "2.0 hrs",
+        "5.8 hrs",
+        "2.9 hrs",
+        "2.4 hrs"
+      ],
+      "explanation": "विपरीत चाल=18। समय=52/18=2.9 घंटे।"
+    },
+    "id": "ntpc-m-0029"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 22 km/hr, stream 5 km/hr. Time for 81 km upstream?",
+      "options": [
+        "3.7 hrs",
+        "3.0 hrs",
+        "4.8 hrs",
+        "9.6 hrs"
+      ],
+      "explanation": "Upstream speed=22-5=17. Time=81/17=4.8 hrs."
+    },
+    "hi": {
+      "question": "नाव 22 किमी/घंटा, धारा 5। 81 किमी धारा विपरीत समय?",
+      "options": [
+        "3.7 hrs",
+        "3.0 hrs",
+        "4.8 hrs",
+        "9.6 hrs"
+      ],
+      "explanation": "विपरीत चाल=17। समय=81/17=4.8 घंटे।"
+    },
+    "id": "ntpc-m-0030"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 19 km/hr, stream 6 km/hr. Time for 50 km upstream?",
+      "options": [
+        "2.0 hrs",
+        "2.6 hrs",
+        "7.6 hrs",
+        "3.8 hrs"
+      ],
+      "explanation": "Upstream speed=19-6=13. Time=50/13=3.8 hrs."
+    },
+    "hi": {
+      "question": "नाव 19 किमी/घंटा, धारा 6। 50 किमी धारा विपरीत समय?",
+      "options": [
+        "2.0 hrs",
+        "2.6 hrs",
+        "7.6 hrs",
+        "3.8 hrs"
+      ],
+      "explanation": "विपरीत चाल=13। समय=50/13=3.8 घंटे।"
+    },
+    "id": "ntpc-m-0031"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 22 km/hr, stream 6 km/hr. Time for 112 km upstream?",
+      "options": [
+        "14.0 hrs",
+        "5.1 hrs",
+        "4.0 hrs",
+        "7 hrs"
+      ],
+      "explanation": "Upstream speed=22-6=16. Time=112/16=7 hrs."
+    },
+    "hi": {
+      "question": "नाव 22 किमी/घंटा, धारा 6। 112 किमी धारा विपरीत समय?",
+      "options": [
+        "14.0 hrs",
+        "5.1 hrs",
+        "4.0 hrs",
+        "7 hrs"
+      ],
+      "explanation": "विपरीत चाल=16। समय=112/16=7 घंटे।"
+    },
+    "id": "ntpc-m-0032"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 24 km/hr, stream 6 km/hr. Time for 60 km upstream?",
+      "options": [
+        "3.3 hrs",
+        "6.6 hrs",
+        "2.5 hrs",
+        "2.0 hrs"
+      ],
+      "explanation": "Upstream speed=24-6=18. Time=60/18=3.3 hrs."
+    },
+    "hi": {
+      "question": "नाव 24 किमी/घंटा, धारा 6। 60 किमी धारा विपरीत समय?",
+      "options": [
+        "3.3 hrs",
+        "6.6 hrs",
+        "2.5 hrs",
+        "2.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=18। समय=60/18=3.3 घंटे।"
+    },
+    "id": "ntpc-m-0033"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 18 km/hr, stream 2 km/hr. Time for 40 km upstream?",
+      "options": [
+        "2.2 hrs",
+        "2.5 hrs",
+        "5.0 hrs",
+        "2.0 hrs"
+      ],
+      "explanation": "Upstream speed=18-2=16. Time=40/16=2.5 hrs."
+    },
+    "hi": {
+      "question": "नाव 18 किमी/घंटा, धारा 2। 40 किमी धारा विपरीत समय?",
+      "options": [
+        "2.2 hrs",
+        "2.5 hrs",
+        "5.0 hrs",
+        "2.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=16। समय=40/16=2.5 घंटे।"
+    },
+    "id": "ntpc-m-0034"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 11 km/hr, stream 1 km/hr. Time for 24 km upstream?",
+      "options": [
+        "2.4 hrs",
+        "2.2 hrs",
+        "4.8 hrs",
+        "2.0 hrs"
+      ],
+      "explanation": "Upstream speed=11-1=10. Time=24/10=2.4 hrs."
+    },
+    "hi": {
+      "question": "नाव 11 किमी/घंटा, धारा 1। 24 किमी धारा विपरीत समय?",
+      "options": [
+        "2.4 hrs",
+        "2.2 hrs",
+        "4.8 hrs",
+        "2.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=10। समय=24/10=2.4 घंटे।"
+    },
+    "id": "ntpc-m-0035"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 24 km/hr, stream 1 km/hr. Time for 25 km upstream?",
+      "options": [
+        "1.0 hrs",
+        "1.0 hrs",
+        "1.1 hrs",
+        "2.2 hrs"
+      ],
+      "explanation": "Upstream speed=24-1=23. Time=25/23=1.1 hrs."
+    },
+    "hi": {
+      "question": "नाव 24 किमी/घंटा, धारा 1। 25 किमी धारा विपरीत समय?",
+      "options": [
+        "1.0 hrs",
+        "1.0 hrs",
+        "1.1 hrs",
+        "2.2 hrs"
+      ],
+      "explanation": "विपरीत चाल=23। समय=25/23=1.1 घंटे।"
+    },
+    "id": "ntpc-m-0036"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 9 km/hr, stream 5 km/hr. Time for 14 km upstream?",
+      "options": [
+        "1.0 hrs",
+        "3.5 hrs",
+        "1.6 hrs",
+        "7.0 hrs"
+      ],
+      "explanation": "Upstream speed=9-5=4. Time=14/4=3.5 hrs."
+    },
+    "hi": {
+      "question": "नाव 9 किमी/घंटा, धारा 5। 14 किमी धारा विपरीत समय?",
+      "options": [
+        "1.0 hrs",
+        "3.5 hrs",
+        "1.6 hrs",
+        "7.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=4। समय=14/4=3.5 घंटे।"
+    },
+    "id": "ntpc-m-0037"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 16 km/hr, stream 4 km/hr. Time for 20 km upstream?",
+      "options": [
+        "1.2 hrs",
+        "1.0 hrs",
+        "1.7 hrs",
+        "3.4 hrs"
+      ],
+      "explanation": "Upstream speed=16-4=12. Time=20/12=1.7 hrs."
+    },
+    "hi": {
+      "question": "नाव 16 किमी/घंटा, धारा 4। 20 किमी धारा विपरीत समय?",
+      "options": [
+        "1.2 hrs",
+        "1.0 hrs",
+        "1.7 hrs",
+        "3.4 hrs"
+      ],
+      "explanation": "विपरीत चाल=12। समय=20/12=1.7 घंटे।"
+    },
+    "id": "ntpc-m-0038"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 16 km/hr, stream 5 km/hr. Time for 21 km upstream?",
+      "options": [
+        "3.8 hrs",
+        "1.9 hrs",
+        "1.0 hrs",
+        "1.3 hrs"
+      ],
+      "explanation": "Upstream speed=16-5=11. Time=21/11=1.9 hrs."
+    },
+    "hi": {
+      "question": "नाव 16 किमी/घंटा, धारा 5। 21 किमी धारा विपरीत समय?",
+      "options": [
+        "3.8 hrs",
+        "1.9 hrs",
+        "1.0 hrs",
+        "1.3 hrs"
+      ],
+      "explanation": "विपरीत चाल=11। समय=21/11=1.9 घंटे।"
+    },
+    "id": "ntpc-m-0039"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 15 km/hr, stream 2 km/hr. Time for 68 km upstream?",
+      "options": [
+        "10.4 hrs",
+        "5.2 hrs",
+        "4.0 hrs",
+        "4.5 hrs"
+      ],
+      "explanation": "Upstream speed=15-2=13. Time=68/13=5.2 hrs."
+    },
+    "hi": {
+      "question": "नाव 15 किमी/घंटा, धारा 2। 68 किमी धारा विपरीत समय?",
+      "options": [
+        "10.4 hrs",
+        "5.2 hrs",
+        "4.0 hrs",
+        "4.5 hrs"
+      ],
+      "explanation": "विपरीत चाल=13। समय=68/13=5.2 घंटे।"
+    },
+    "id": "ntpc-m-0040"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 9 km/hr, stream 3 km/hr. Time for 36 km upstream?",
+      "options": [
+        "4.0 hrs",
+        "3.0 hrs",
+        "6 hrs",
+        "12.0 hrs"
+      ],
+      "explanation": "Upstream speed=9-3=6. Time=36/6=6 hrs."
+    },
+    "hi": {
+      "question": "नाव 9 किमी/घंटा, धारा 3। 36 किमी धारा विपरीत समय?",
+      "options": [
+        "4.0 hrs",
+        "3.0 hrs",
+        "6 hrs",
+        "12.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=6। समय=36/6=6 घंटे।"
+    },
+    "id": "ntpc-m-0041"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 9 km/hr, stream 6 km/hr. Time for 45 km upstream?",
+      "options": [
+        "3.0 hrs",
+        "5.0 hrs",
+        "30.0 hrs",
+        "15 hrs"
+      ],
+      "explanation": "Upstream speed=9-6=3. Time=45/3=15 hrs."
+    },
+    "hi": {
+      "question": "नाव 9 किमी/घंटा, धारा 6। 45 किमी धारा विपरीत समय?",
+      "options": [
+        "3.0 hrs",
+        "5.0 hrs",
+        "30.0 hrs",
+        "15 hrs"
+      ],
+      "explanation": "विपरीत चाल=3। समय=45/3=15 घंटे।"
+    },
+    "id": "ntpc-m-0042"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 14 km/hr, stream 1 km/hr. Time for 30 km upstream?",
+      "options": [
+        "4.6 hrs",
+        "2.0 hrs",
+        "2.1 hrs",
+        "2.3 hrs"
+      ],
+      "explanation": "Upstream speed=14-1=13. Time=30/13=2.3 hrs."
+    },
+    "hi": {
+      "question": "नाव 14 किमी/घंटा, धारा 1। 30 किमी धारा विपरीत समय?",
+      "options": [
+        "4.6 hrs",
+        "2.0 hrs",
+        "2.1 hrs",
+        "2.3 hrs"
+      ],
+      "explanation": "विपरीत चाल=13। समय=30/13=2.3 घंटे।"
+    },
+    "id": "ntpc-m-0043"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 13 km/hr, stream 1 km/hr. Time for 42 km upstream?",
+      "options": [
+        "3.0 hrs",
+        "3.2 hrs",
+        "3.5 hrs",
+        "7.0 hrs"
+      ],
+      "explanation": "Upstream speed=13-1=12. Time=42/12=3.5 hrs."
+    },
+    "hi": {
+      "question": "नाव 13 किमी/घंटा, धारा 1। 42 किमी धारा विपरीत समय?",
+      "options": [
+        "3.0 hrs",
+        "3.2 hrs",
+        "3.5 hrs",
+        "7.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=12। समय=42/12=3.5 घंटे।"
+    },
+    "id": "ntpc-m-0044"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 23 km/hr, stream 5 km/hr. Time for 56 km upstream?",
+      "options": [
+        "6.2 hrs",
+        "2.4 hrs",
+        "3.1 hrs",
+        "2.0 hrs"
+      ],
+      "explanation": "Upstream speed=23-5=18. Time=56/18=3.1 hrs."
+    },
+    "hi": {
+      "question": "नाव 23 किमी/घंटा, धारा 5। 56 किमी धारा विपरीत समय?",
+      "options": [
+        "6.2 hrs",
+        "2.4 hrs",
+        "3.1 hrs",
+        "2.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=18। समय=56/18=3.1 घंटे।"
+    },
+    "id": "ntpc-m-0045"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 10 km/hr, stream 2 km/hr. Time for 48 km upstream?",
+      "options": [
+        "4.0 hrs",
+        "6 hrs",
+        "4.8 hrs",
+        "12.0 hrs"
+      ],
+      "explanation": "Upstream speed=10-2=8. Time=48/8=6 hrs."
+    },
+    "hi": {
+      "question": "नाव 10 किमी/घंटा, धारा 2। 48 किमी धारा विपरीत समय?",
+      "options": [
+        "4.0 hrs",
+        "6 hrs",
+        "4.8 hrs",
+        "12.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=8। समय=48/8=6 घंटे।"
+    },
+    "id": "ntpc-m-0046"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 25 km/hr, stream 3 km/hr. Time for 28 km upstream?",
+      "options": [
+        "1.1 hrs",
+        "1.3 hrs",
+        "2.6 hrs",
+        "1.0 hrs"
+      ],
+      "explanation": "Upstream speed=25-3=22. Time=28/22=1.3 hrs."
+    },
+    "hi": {
+      "question": "नाव 25 किमी/घंटा, धारा 3। 28 किमी धारा विपरीत समय?",
+      "options": [
+        "1.1 hrs",
+        "1.3 hrs",
+        "2.6 hrs",
+        "1.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=22। समय=28/22=1.3 घंटे।"
+    },
+    "id": "ntpc-m-0047"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 16 km/hr, stream 4 km/hr. Time for 80 km upstream?",
+      "options": [
+        "13.4 hrs",
+        "5.0 hrs",
+        "4.0 hrs",
+        "6.7 hrs"
+      ],
+      "explanation": "Upstream speed=16-4=12. Time=80/12=6.7 hrs."
+    },
+    "hi": {
+      "question": "नाव 16 किमी/घंटा, धारा 4। 80 किमी धारा विपरीत समय?",
+      "options": [
+        "13.4 hrs",
+        "5.0 hrs",
+        "4.0 hrs",
+        "6.7 hrs"
+      ],
+      "explanation": "विपरीत चाल=12। समय=80/12=6.7 घंटे।"
+    },
+    "id": "ntpc-m-0048"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 13 km/hr, stream 2 km/hr. Time for 30 km upstream?",
+      "options": [
+        "2.3 hrs",
+        "5.4 hrs",
+        "2.0 hrs",
+        "2.7 hrs"
+      ],
+      "explanation": "Upstream speed=13-2=11. Time=30/11=2.7 hrs."
+    },
+    "hi": {
+      "question": "नाव 13 किमी/घंटा, धारा 2। 30 किमी धारा विपरीत समय?",
+      "options": [
+        "2.3 hrs",
+        "5.4 hrs",
+        "2.0 hrs",
+        "2.7 hrs"
+      ],
+      "explanation": "विपरीत चाल=11। समय=30/11=2.7 घंटे।"
+    },
+    "id": "ntpc-m-0049"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 12 km/hr, stream 1 km/hr. Time for 52 km upstream?",
+      "options": [
+        "9.4 hrs",
+        "4.7 hrs",
+        "4.3 hrs",
+        "4.0 hrs"
+      ],
+      "explanation": "Upstream speed=12-1=11. Time=52/11=4.7 hrs."
+    },
+    "hi": {
+      "question": "नाव 12 किमी/घंटा, धारा 1। 52 किमी धारा विपरीत समय?",
+      "options": [
+        "9.4 hrs",
+        "4.7 hrs",
+        "4.3 hrs",
+        "4.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=11। समय=52/11=4.7 घंटे।"
+    },
+    "id": "ntpc-m-0050"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 19 km/hr, stream 2 km/hr. Time for 21 km upstream?",
+      "options": [
+        "1.0 hrs",
+        "1.2 hrs",
+        "1.1 hrs",
+        "2.4 hrs"
+      ],
+      "explanation": "Upstream speed=19-2=17. Time=21/17=1.2 hrs."
+    },
+    "hi": {
+      "question": "नाव 19 किमी/घंटा, धारा 2। 21 किमी धारा विपरीत समय?",
+      "options": [
+        "1.0 hrs",
+        "1.2 hrs",
+        "1.1 hrs",
+        "2.4 hrs"
+      ],
+      "explanation": "विपरीत चाल=17। समय=21/17=1.2 घंटे।"
+    },
+    "id": "ntpc-m-0051"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 12 km/hr, stream 6 km/hr. Time for 72 km upstream?",
+      "options": [
+        "6.0 hrs",
+        "4.0 hrs",
+        "12 hrs",
+        "24.0 hrs"
+      ],
+      "explanation": "Upstream speed=12-6=6. Time=72/6=12 hrs."
+    },
+    "hi": {
+      "question": "नाव 12 किमी/घंटा, धारा 6। 72 किमी धारा विपरीत समय?",
+      "options": [
+        "6.0 hrs",
+        "4.0 hrs",
+        "12 hrs",
+        "24.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=6। समय=72/6=12 घंटे।"
+    },
+    "id": "ntpc-m-0052"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 23 km/hr, stream 5 km/hr. Time for 112 km upstream?",
+      "options": [
+        "4.9 hrs",
+        "12.4 hrs",
+        "4.0 hrs",
+        "6.2 hrs"
+      ],
+      "explanation": "Upstream speed=23-5=18. Time=112/18=6.2 hrs."
+    },
+    "hi": {
+      "question": "नाव 23 किमी/घंटा, धारा 5। 112 किमी धारा विपरीत समय?",
+      "options": [
+        "4.9 hrs",
+        "12.4 hrs",
+        "4.0 hrs",
+        "6.2 hrs"
+      ],
+      "explanation": "विपरीत चाल=18। समय=112/18=6.2 घंटे।"
+    },
+    "id": "ntpc-m-0053"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 25 km/hr, stream 4 km/hr. Time for 29 km upstream?",
+      "options": [
+        "1.4 hrs",
+        "1.2 hrs",
+        "1.0 hrs",
+        "2.8 hrs"
+      ],
+      "explanation": "Upstream speed=25-4=21. Time=29/21=1.4 hrs."
+    },
+    "hi": {
+      "question": "नाव 25 किमी/घंटा, धारा 4। 29 किमी धारा विपरीत समय?",
+      "options": [
+        "1.4 hrs",
+        "1.2 hrs",
+        "1.0 hrs",
+        "2.8 hrs"
+      ],
+      "explanation": "विपरीत चाल=21। समय=29/21=1.4 घंटे।"
+    },
+    "id": "ntpc-m-0054"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 23 km/hr, stream 6 km/hr. Time for 87 km upstream?",
+      "options": [
+        "5.1 hrs",
+        "10.2 hrs",
+        "3.0 hrs",
+        "3.8 hrs"
+      ],
+      "explanation": "Upstream speed=23-6=17. Time=87/17=5.1 hrs."
+    },
+    "hi": {
+      "question": "नाव 23 किमी/घंटा, धारा 6। 87 किमी धारा विपरीत समय?",
+      "options": [
+        "5.1 hrs",
+        "10.2 hrs",
+        "3.0 hrs",
+        "3.8 hrs"
+      ],
+      "explanation": "विपरीत चाल=17। समय=87/17=5.1 घंटे।"
+    },
+    "id": "ntpc-m-0055"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 8 km/hr, stream 1 km/hr. Time for 27 km upstream?",
+      "options": [
+        "3.9 hrs",
+        "3.0 hrs",
+        "3.4 hrs",
+        "7.8 hrs"
+      ],
+      "explanation": "Upstream speed=8-1=7. Time=27/7=3.9 hrs."
+    },
+    "hi": {
+      "question": "नाव 8 किमी/घंटा, धारा 1। 27 किमी धारा विपरीत समय?",
+      "options": [
+        "3.9 hrs",
+        "3.0 hrs",
+        "3.4 hrs",
+        "7.8 hrs"
+      ],
+      "explanation": "विपरीत चाल=7। समय=27/7=3.9 घंटे।"
+    },
+    "id": "ntpc-m-0056"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 17 km/hr, stream 5 km/hr. Time for 88 km upstream?",
+      "options": [
+        "4.0 hrs",
+        "5.2 hrs",
+        "7.3 hrs",
+        "14.6 hrs"
+      ],
+      "explanation": "Upstream speed=17-5=12. Time=88/12=7.3 hrs."
+    },
+    "hi": {
+      "question": "नाव 17 किमी/घंटा, धारा 5। 88 किमी धारा विपरीत समय?",
+      "options": [
+        "4.0 hrs",
+        "5.2 hrs",
+        "7.3 hrs",
+        "14.6 hrs"
+      ],
+      "explanation": "विपरीत चाल=12। समय=88/12=7.3 घंटे।"
+    },
+    "id": "ntpc-m-0057"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 15 km/hr, stream 5 km/hr. Time for 60 km upstream?",
+      "options": [
+        "12.0 hrs",
+        "3.0 hrs",
+        "4.0 hrs",
+        "6 hrs"
+      ],
+      "explanation": "Upstream speed=15-5=10. Time=60/10=6 hrs."
+    },
+    "hi": {
+      "question": "नाव 15 किमी/घंटा, धारा 5। 60 किमी धारा विपरीत समय?",
+      "options": [
+        "12.0 hrs",
+        "3.0 hrs",
+        "4.0 hrs",
+        "6 hrs"
+      ],
+      "explanation": "विपरीत चाल=10। समय=60/10=6 घंटे।"
+    },
+    "id": "ntpc-m-0058"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 17 km/hr, stream 1 km/hr. Time for 54 km upstream?",
+      "options": [
+        "3.0 hrs",
+        "3.4 hrs",
+        "3.2 hrs",
+        "6.8 hrs"
+      ],
+      "explanation": "Upstream speed=17-1=16. Time=54/16=3.4 hrs."
+    },
+    "hi": {
+      "question": "नाव 17 किमी/घंटा, धारा 1। 54 किमी धारा विपरीत समय?",
+      "options": [
+        "3.0 hrs",
+        "3.4 hrs",
+        "3.2 hrs",
+        "6.8 hrs"
+      ],
+      "explanation": "विपरीत चाल=16। समय=54/16=3.4 घंटे।"
+    },
+    "id": "ntpc-m-0059"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 23 km/hr, stream 6 km/hr. Time for 87 km upstream?",
+      "options": [
+        "3.0 hrs",
+        "3.8 hrs",
+        "5.1 hrs",
+        "10.2 hrs"
+      ],
+      "explanation": "Upstream speed=23-6=17. Time=87/17=5.1 hrs."
+    },
+    "hi": {
+      "question": "नाव 23 किमी/घंटा, धारा 6। 87 किमी धारा विपरीत समय?",
+      "options": [
+        "3.0 hrs",
+        "3.8 hrs",
+        "5.1 hrs",
+        "10.2 hrs"
+      ],
+      "explanation": "विपरीत चाल=17। समय=87/17=5.1 घंटे।"
+    },
+    "id": "ntpc-m-0060"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 12 km/hr, stream 4 km/hr. Time for 16 km upstream?",
+      "options": [
+        "2 hrs",
+        "1.3 hrs",
+        "1.0 hrs",
+        "4.0 hrs"
+      ],
+      "explanation": "Upstream speed=12-4=8. Time=16/8=2 hrs."
+    },
+    "hi": {
+      "question": "नाव 12 किमी/घंटा, धारा 4। 16 किमी धारा विपरीत समय?",
+      "options": [
+        "2 hrs",
+        "1.3 hrs",
+        "1.0 hrs",
+        "4.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=8। समय=16/8=2 घंटे।"
+    },
+    "id": "ntpc-m-0061"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 10 km/hr, stream 1 km/hr. Time for 44 km upstream?",
+      "options": [
+        "4.4 hrs",
+        "4.0 hrs",
+        "4.9 hrs",
+        "9.8 hrs"
+      ],
+      "explanation": "Upstream speed=10-1=9. Time=44/9=4.9 hrs."
+    },
+    "hi": {
+      "question": "नाव 10 किमी/घंटा, धारा 1। 44 किमी धारा विपरीत समय?",
+      "options": [
+        "4.4 hrs",
+        "4.0 hrs",
+        "4.9 hrs",
+        "9.8 hrs"
+      ],
+      "explanation": "विपरीत चाल=9। समय=44/9=4.9 घंटे।"
+    },
+    "id": "ntpc-m-0062"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 13 km/hr, stream 4 km/hr. Time for 51 km upstream?",
+      "options": [
+        "3.9 hrs",
+        "3.0 hrs",
+        "5.7 hrs",
+        "11.4 hrs"
+      ],
+      "explanation": "Upstream speed=13-4=9. Time=51/9=5.7 hrs."
+    },
+    "hi": {
+      "question": "नाव 13 किमी/घंटा, धारा 4। 51 किमी धारा विपरीत समय?",
+      "options": [
+        "3.9 hrs",
+        "3.0 hrs",
+        "5.7 hrs",
+        "11.4 hrs"
+      ],
+      "explanation": "विपरीत चाल=9। समय=51/9=5.7 घंटे।"
+    },
+    "id": "ntpc-m-0063"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 17 km/hr, stream 2 km/hr. Time for 57 km upstream?",
+      "options": [
+        "3.0 hrs",
+        "3.4 hrs",
+        "7.6 hrs",
+        "3.8 hrs"
+      ],
+      "explanation": "Upstream speed=17-2=15. Time=57/15=3.8 hrs."
+    },
+    "hi": {
+      "question": "नाव 17 किमी/घंटा, धारा 2। 57 किमी धारा विपरीत समय?",
+      "options": [
+        "3.0 hrs",
+        "3.4 hrs",
+        "7.6 hrs",
+        "3.8 hrs"
+      ],
+      "explanation": "विपरीत चाल=15। समय=57/15=3.8 घंटे।"
+    },
+    "id": "ntpc-m-0064"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 13 km/hr, stream 5 km/hr. Time for 54 km upstream?",
+      "options": [
+        "4.2 hrs",
+        "6.8 hrs",
+        "3.0 hrs",
+        "13.6 hrs"
+      ],
+      "explanation": "Upstream speed=13-5=8. Time=54/8=6.8 hrs."
+    },
+    "hi": {
+      "question": "नाव 13 किमी/घंटा, धारा 5। 54 किमी धारा विपरीत समय?",
+      "options": [
+        "4.2 hrs",
+        "6.8 hrs",
+        "3.0 hrs",
+        "13.6 hrs"
+      ],
+      "explanation": "विपरीत चाल=8। समय=54/8=6.8 घंटे।"
+    },
+    "id": "ntpc-m-0065"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 11 km/hr, stream 5 km/hr. Time for 16 km upstream?",
+      "options": [
+        "2.7 hrs",
+        "1.5 hrs",
+        "1.0 hrs",
+        "5.4 hrs"
+      ],
+      "explanation": "Upstream speed=11-5=6. Time=16/6=2.7 hrs."
+    },
+    "hi": {
+      "question": "नाव 11 किमी/घंटा, धारा 5। 16 किमी धारा विपरीत समय?",
+      "options": [
+        "2.7 hrs",
+        "1.5 hrs",
+        "1.0 hrs",
+        "5.4 hrs"
+      ],
+      "explanation": "विपरीत चाल=6। समय=16/6=2.7 घंटे।"
+    },
+    "id": "ntpc-m-0066"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 9 km/hr, stream 2 km/hr. Time for 44 km upstream?",
+      "options": [
+        "4.0 hrs",
+        "4.9 hrs",
+        "6.3 hrs",
+        "12.6 hrs"
+      ],
+      "explanation": "Upstream speed=9-2=7. Time=44/7=6.3 hrs."
+    },
+    "hi": {
+      "question": "नाव 9 किमी/घंटा, धारा 2। 44 किमी धारा विपरीत समय?",
+      "options": [
+        "4.0 hrs",
+        "4.9 hrs",
+        "6.3 hrs",
+        "12.6 hrs"
+      ],
+      "explanation": "विपरीत चाल=7। समय=44/7=6.3 घंटे।"
+    },
+    "id": "ntpc-m-0067"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 19 km/hr, stream 6 km/hr. Time for 25 km upstream?",
+      "options": [
+        "1.3 hrs",
+        "3.8 hrs",
+        "1.9 hrs",
+        "1.0 hrs"
+      ],
+      "explanation": "Upstream speed=19-6=13. Time=25/13=1.9 hrs."
+    },
+    "hi": {
+      "question": "नाव 19 किमी/घंटा, धारा 6। 25 किमी धारा विपरीत समय?",
+      "options": [
+        "1.3 hrs",
+        "3.8 hrs",
+        "1.9 hrs",
+        "1.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=13। समय=25/13=1.9 घंटे।"
+    },
+    "id": "ntpc-m-0068"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 24 km/hr, stream 6 km/hr. Time for 90 km upstream?",
+      "options": [
+        "3.8 hrs",
+        "5 hrs",
+        "10.0 hrs",
+        "3.0 hrs"
+      ],
+      "explanation": "Upstream speed=24-6=18. Time=90/18=5 hrs."
+    },
+    "hi": {
+      "question": "नाव 24 किमी/घंटा, धारा 6। 90 किमी धारा विपरीत समय?",
+      "options": [
+        "3.8 hrs",
+        "5 hrs",
+        "10.0 hrs",
+        "3.0 hrs"
+      ],
+      "explanation": "विपरीत चाल=18। समय=90/18=5 घंटे।"
+    },
+    "id": "ntpc-m-0069"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Boat speed 14 km/hr, stream 5 km/hr. Time for 76 km upstream?",
+      "options": [
+        "4.0 hrs",
+        "5.4 hrs",
+        "16.8 hrs",
+        "8.4 hrs"
+      ],
+      "explanation": "Upstream speed=14-5=9. Time=76/9=8.4 hrs."
+    },
+    "hi": {
+      "question": "नाव 14 किमी/घंटा, धारा 5। 76 किमी धारा विपरीत समय?",
+      "options": [
+        "4.0 hrs",
+        "5.4 hrs",
+        "16.8 hrs",
+        "8.4 hrs"
+      ],
+      "explanation": "विपरीत चाल=9। समय=76/9=8.4 घंटे।"
+    },
+    "id": "ntpc-m-0070"
+  }
 ]
