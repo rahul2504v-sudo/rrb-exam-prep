@@ -1,7 +1,7 @@
 'use client'
 
-import { useState, Suspense, useEffect } from 'react'
-import { signIn, useSession } from 'next-auth/react'
+import { useState, Suspense } from 'react'
+import { signIn } from 'next-auth/react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { BookOpen, Mail, Lock, Eye, EyeOff, ArrowRight } from 'lucide-react'
@@ -10,14 +10,6 @@ function LoginForm() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const callbackUrl = searchParams.get('callbackUrl') || '/exam/ntpc'
-  const { data: session, status } = useSession()
-  
-  // Redirect if already signed in
-  useEffect(() => {
-    if (status === 'authenticated') {
-      router.push(callbackUrl)
-    }
-  }, [status, callbackUrl, router])
   
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -39,18 +31,36 @@ function LoginForm() {
     }
     
     setLoading(true)
-    const result = await signIn('credentials', {
-      email,
-      password,
-      redirect: false,
-    })
     
-    if (result?.error) {
-      setError('Login failed. Please try again.')
+    try {
+      const result = await signIn('credentials', {
+        email,
+        password,
+        redirect: false,
+      })
+      
+      if (result?.error) {
+        setError('Login failed. Please try again.')
+        setLoading(false)
+      } else if (result?.ok) {
+        // Hard redirect to avoid state sync issues
+        window.location.href = callbackUrl
+      }
+    } catch {
+      setError('Something went wrong. Please try again.')
       setLoading(false)
-    } else {
-      router.push(callbackUrl)
     }
+  }
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-50 via-white to-purple-50">
+        <div className="text-center">
+          <div className="animate-spin w-10 h-10 border-4 border-indigo-600 border-t-transparent rounded-full mx-auto mb-4" />
+          <p className="text-gray-500">Signing you in...</p>
+        </div>
+      </div>
+    )
   }
 
   return (
@@ -115,12 +125,9 @@ function LoginForm() {
 
             <button
               type="submit"
-              disabled={loading}
-              className="w-full py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 font-medium text-sm transition-colors disabled:opacity-50 flex items-center justify-center gap-2"
+              className="w-full py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 font-medium text-sm transition-colors flex items-center justify-center gap-2"
             >
-              {loading ? 'Signing in...' : (
-                <>Continue <ArrowRight className="w-4 h-4" /></>
-              )}
+              Continue <ArrowRight className="w-4 h-4" />
             </button>
           </form>
 
