@@ -44,10 +44,7 @@ export default function QuizPage() {
       let selectedQuestions: Question[] = [];
 
       if (isMock) {
-        // Full mock test - load all exam questions
-        const allQs = await loadExamQuestions(exam?.id || '', lang);
-        
-        // Build subject map from exam subjects
+        // Full mock test — load only needed topics, not all
         const subjectMap: Record<string, string> = {};
         if (exam) {
           exam.subjects.forEach(sub => {
@@ -55,16 +52,28 @@ export default function QuizPage() {
           });
         }
 
-        // Distribute questions by subject per exam pattern
         for (const section of exam?.pattern.sections || []) {
           const subjectId = Object.entries(subjectMap).find(
             ([name]) => section.name.toLowerCase().includes(name)
           )?.[1];
 
           if (subjectId) {
-            const pool = allQs.filter(q => q.subjectId === subjectId);
-            const picked = shuffleArray(pool).slice(0, section.questionCount);
-            selectedQuestions.push(...picked);
+            // Pick random topics from this subject, load their questions
+            const subject = exam?.subjects.find(s => s.id === subjectId);
+            if (subject) {
+              const topicPool = [...subject.topics];
+              const shuffledTopics = shuffleArray(topicPool);
+              let collected: Question[] = [];
+              
+              for (const topic of shuffledTopics) {
+                if (collected.length >= section.questionCount * 2) break; // Get 2x buffer
+                const qs = await loadTopicQuestions(exam?.id || '', topic.id, lang);
+                collected.push(...qs);
+              }
+              
+              const picked = shuffleArray(collected).slice(0, section.questionCount);
+              selectedQuestions.push(...picked);
+            }
           }
         }
         selectedQuestions = shuffleArray(selectedQuestions);
