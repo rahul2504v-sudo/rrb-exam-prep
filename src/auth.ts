@@ -3,46 +3,45 @@ import Google from "next-auth/providers/google"
 import Apple from "next-auth/providers/apple"
 import Credentials from "next-auth/providers/credentials"
 
-// Simple user store (in production, use a database)
-// For MVP, we store hashed passwords in a simple object
-const users: Record<string, { email: string; password: string; name: string }> = {
-  // Default test user
-  "test@prepXcore.com": { email: "test@prepXcore.com", password: "test123", name: "Test User" }
+const providers = []
+
+// Google OAuth — only add if credentials are configured
+if (process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET) {
+  providers.push(Google({
+    clientId: process.env.GOOGLE_CLIENT_ID,
+    clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+  }))
 }
 
+// Apple OAuth — only add if configured
+if (process.env.APPLE_CLIENT_ID && process.env.APPLE_CLIENT_SECRET) {
+  providers.push(Apple({
+    clientId: process.env.APPLE_CLIENT_ID,
+    clientSecret: process.env.APPLE_CLIENT_SECRET,
+  }))
+}
+
+// Email/Password — always works (accepts any valid email)
+providers.push(Credentials({
+  name: "credentials",
+  credentials: {
+    email: { label: "Email", type: "email" },
+    password: { label: "Password", type: "password" },
+  },
+  async authorize(credentials) {
+    const email = credentials?.email as string
+    const password = credentials?.password as string
+    
+    if (!email || !password) return null
+    if (!email.includes("@") || password.length < 3) return null
+    
+    // Accept any valid email/password — JWT stores the session
+    return { id: email, email, name: email.split("@")[0] }
+  },
+}))
+
 export const { handlers, signIn, signOut, auth } = NextAuth({
-  providers: [
-    Google({
-      clientId: process.env.GOOGLE_CLIENT_ID || "",
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET || "",
-    }),
-    Apple({
-      clientId: process.env.APPLE_CLIENT_ID || "",
-      clientSecret: process.env.APPLE_CLIENT_SECRET || "",
-    }),
-    Credentials({
-      name: "credentials",
-      credentials: {
-        email: { label: "Email", type: "email" },
-        password: { label: "Password", type: "password" },
-      },
-      async authorize(credentials) {
-        const email = credentials?.email as string
-        const password = credentials?.password as string
-        
-        if (!email || !password) return null
-        
-        const user = users[email]
-        if (user && user.password === password) {
-          return { id: email, email: user.email, name: user.name }
-        }
-        
-        // Auto-register new users
-        users[email] = { email, password, name: email.split("@")[0] }
-        return { id: email, email, name: email.split("@")[0] }
-      },
-    }),
-  ],
+  providers,
   pages: {
     signIn: "/login",
     error: "/login",
@@ -50,11 +49,12 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
   session: {
     strategy: "jwt",
   },
+  secret: process.env.NEXTAUTH_SECRET || "prepXcore-dev-secret-change-in-production",
   callbacks: {
     async jwt({ token, user }) {
       if (user) {
-        token.email = user.email
-        token.name = user.name
+        token.email = user.email as string
+        token.name = user.name as string
       }
       return token
     },
