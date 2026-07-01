@@ -1,2550 +1,2602 @@
 [
   {
-    "id": "gdscabs-0001",
-    "correctOption": "B",
+    "id": "gdsc-0001",
+    "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2024,
+    "sourceYear": 2025,
     "en": {
       "question": "Acids taste:",
       "options": [
-        "Sweet",
-        "Sour",
         "Bitter",
-        "Salty"
+        "Sweet",
+        "Salty",
+        "Sour"
       ],
-      "explanation": "Acids have sour taste (e.g., citric acid in lemon, acetic acid in vinegar)."
+      "explanation": "Acids have sour taste (e.g., lemon, vinegar)."
     },
     "hi": {
-      "question": "अम्ल का स्वाद:",
+      "question": "अम्ल का स्वाद?",
       "options": [
-        "मीठा",
-        "खट्टा",
-        "कड़वा",
-        "नमकीन"
+        "Bitter",
+        "Sweet",
+        "Salty",
+        "Sour"
       ],
-      "explanation": "अम्ल खट्टे होते हैं (नींबू में साइट्रिक, सिरका में एसिटिक)।"
+      "explanation": "अम्ल का स्वाद खट्टा होता है (जैसे नींबू, सिरका)।"
     }
   },
   {
-    "id": "gdscabs-0002",
+    "id": "gdsc-0002",
     "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2024,
+    "difficulty": "medium",
+    "sourceYear": 2025,
     "en": {
       "question": "Bases taste:",
       "options": [
-        "Sour",
+        "Salty",
         "Sweet",
         "Bitter",
-        "Salty"
+        "Sour"
       ],
-      "explanation": "Bases are bitter and feel soapy/slippery."
+      "explanation": "Bases taste bitter (e.g., soap, baking soda)."
     },
     "hi": {
-      "question": "क्षार का स्वाद:",
+      "question": "क्षार का स्वाद?",
       "options": [
-        "खट्टा",
-        "मीठा",
-        "कड़वा",
-        "नमकीन"
+        "Salty",
+        "Sweet",
+        "Bitter",
+        "Sour"
       ],
-      "explanation": "क्षार कड़वे और साबुन जैसे चिकने।"
+      "explanation": "क्षार कड़वे होते हैं (जैसे साबुन, बेकिंग सोडा)।"
     }
   },
   {
-    "id": "gdscabs-0003",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "pH scale ranges from:",
-      "options": [
-        "0 to 14",
-        "1 to 10",
-        "0 to 7",
-        "7 to 14"
-      ],
-      "explanation": "pH = -log[H⁺]. Scale: 0 (strongly acidic) to 14 (strongly basic)."
-    },
-    "hi": {
-      "question": "pH पैमाना परास:",
-      "options": [
-        "0 से 14",
-        "1 से 10",
-        "0 से 7",
-        "7 से 14"
-      ],
-      "explanation": "pH: 0 (प्रबल अम्लीय) से 14 (प्रबल क्षारीय)।"
-    }
-  },
-  {
-    "id": "gdscabs-0004",
+    "id": "gdsc-0003",
     "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2024,
+    "difficulty": "hard",
+    "sourceYear": 2025,
     "en": {
-      "question": "pH of pure water at 25°C is:",
+      "question": "pH of pure water is:",
       "options": [
         "0",
         "1",
         "14",
         "7"
       ],
-      "explanation": "Water: [H⁺]=[OH⁻]=10⁻⁷ → pH=7 (neutral)."
+      "explanation": "Pure water is neutral: pH = 7."
     },
     "hi": {
-      "question": "25°C पर शुद्ध पानी का pH:",
+      "question": "शुद्ध पानी का pH:",
       "options": [
         "0",
         "1",
         "14",
         "7"
       ],
-      "explanation": "पानी उदासीन: pH=7।"
+      "explanation": "शुद्ध पानी उदासीन होता है: pH = 7।"
     }
   },
   {
-    "id": "gdscabs-0005",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Litmus turns ___ in acid:",
-      "options": [
-        "Blue",
-        "Red",
-        "Green",
-        "No change"
-      ],
-      "explanation": "Blue litmus turns red in acidic solution."
-    },
-    "hi": {
-      "question": "अम्ल में लिटमस:",
-      "options": [
-        "नीला",
-        "लाल",
-        "हरा",
-        "कोई परिवर्तन नहीं"
-      ],
-      "explanation": "नीला लिटमस अम्ल में लाल।"
-    }
-  },
-  {
-    "id": "gdscabs-0006",
+    "id": "gdsc-0004",
     "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2024,
+    "sourceYear": 2025,
     "en": {
-      "question": "Litmus turns ___ in base:",
+      "question": "pH of stomach acid:",
       "options": [
-        "Red",
-        "No change",
-        "Blue",
-        "Yellow"
+        "7",
+        "13-14",
+        "1-2",
+        "5-6"
       ],
-      "explanation": "Red litmus turns blue in basic solution."
+      "explanation": "Stomach produces HCl: pH 1-2 for digestion."
     },
     "hi": {
-      "question": "क्षार में लिटमस:",
+      "question": "आमाशय अम्ल का pH:",
       "options": [
-        "लाल",
-        "कोई परिवर्तन नहीं",
-        "नीला",
-        "पीला"
+        "7",
+        "13-14",
+        "1-2",
+        "5-6"
       ],
-      "explanation": "लाल लिटमस क्षार में नीला।"
+      "explanation": "आमाशय HCl उत्पन्न करता है: पाचन के लिए pH 1-2।"
     }
   },
   {
-    "id": "gdscabs-0007",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "pH of blood is approximately:",
-      "options": [
-        "7.4 (slightly basic)",
-        "7.0",
-        "6.8",
-        "8.0"
-      ],
-      "explanation": "Blood pH: 7.35-7.45, maintained by buffer system."
-    },
-    "hi": {
-      "question": "रक्त का pH लगभग:",
-      "options": [
-        "7.4 (थोड़ा क्षारीय)",
-        "7.0",
-        "6.8",
-        "8.0"
-      ],
-      "explanation": "रक्त pH: 7.35-7.45।"
-    }
-  },
-  {
-    "id": "gdscabs-0008",
+    "id": "gdsc-0005",
     "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Common salt (NaCl) is formed by reaction of:",
-      "options": [
-        "Acid + Acid",
-        "Base + Base",
-        "Salt + Water",
-        "Acid + Base (NaOH + HCl)"
-      ],
-      "explanation": "NaOH + HCl → NaCl + H₂O (neutralization)."
-    },
-    "hi": {
-      "question": "साधारण नमक (NaCl) बनता है:",
-      "options": [
-        "अम्ल + अम्ल",
-        "क्षार + क्षार",
-        "लवण + पानी",
-        "अम्ल + क्षार (NaOH + HCl)"
-      ],
-      "explanation": "उदासीनीकरण अभिक्रिया।"
-    }
-  },
-  {
-    "id": "gdscabs-0009",
-    "correctOption": "B",
     "difficulty": "medium",
-    "sourceYear": 2024,
+    "sourceYear": 2025,
     "en": {
-      "question": "Which is a strong acid?",
+      "question": "Which indicator turns red in acid?",
       "options": [
-        "Acetic acid",
-        "Hydrochloric acid (HCl)",
-        "Citric acid",
-        "Carbonic acid"
+        "Red litmus",
+        "Phenolphthalein",
+        "Turmeric",
+        "Blue litmus"
       ],
-      "explanation": "HCl, H₂SO₄, HNO₃ are strong acids (completely dissociate)."
+      "explanation": "Blue litmus turns red in acidic solutions."
     },
     "hi": {
-      "question": "प्रबल अम्ल:",
+      "question": "अम्ल में कौन सा सूचक लाल होता है?",
       "options": [
-        "एसिटिक अम्ल",
-        "HCl (हाइड्रोक्लोरिक)",
-        "साइट्रिक अम्ल",
-        "कार्बोनिक अम्ल"
+        "Red litmus",
+        "Phenolphthalein",
+        "Turmeric",
+        "Blue litmus"
       ],
-      "explanation": "HCl, H₂SO₄, HNO₃ प्रबल अम्ल।"
+      "explanation": "नीला लिटमस अम्लीय विलयनों में लाल हो जाता है।"
     }
   },
   {
-    "id": "gdscabs-0010",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Phenolphthalein in basic solution is:",
-      "options": [
-        "Colourless",
-        "Red",
-        "Pink",
-        "Blue"
-      ],
-      "explanation": "Phenolphthalein: colourless in acid, pink in base."
-    },
-    "hi": {
-      "question": "क्षार में फिनॉल्फ्थलीन:",
-      "options": [
-        "रंगहीन",
-        "लाल",
-        "गुलाबी",
-        "नीला"
-      ],
-      "explanation": "क्षार में गुलाबी, अम्ल में रंगहीन।"
-    }
-  },
-  {
-    "id": "gdscabs-0011",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Acid + Metal →",
-      "options": [
-        "Salt + Hydrogen gas",
-        "Salt + Water",
-        "Salt + Oxygen",
-        "Base + Hydrogen"
-      ],
-      "explanation": "Metal + Acid → Salt + H₂↑ (e.g., Zn + 2HCl → ZnCl₂ + H₂)."
-    },
-    "hi": {
-      "question": "अम्ल + धातु →",
-      "options": [
-        "लवण + हाइड्रोजन",
-        "लवण + पानी",
-        "लवण + ऑक्सीजन",
-        "क्षार + हाइड्रोजन"
-      ],
-      "explanation": "Zn + 2HCl → ZnCl₂ + H₂।"
-    }
-  },
-  {
-    "id": "gdscabs-0012",
+    "id": "gdsc-0006",
     "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2024,
+    "difficulty": "hard",
+    "sourceYear": 2025,
     "en": {
       "question": "Baking soda is:",
       "options": [
         "NaCl",
         "CaCO₃",
         "NaOH",
-        "NaHCO₃ (sodium bicarbonate)"
+        "NaHCO₃"
       ],
-      "explanation": "Baking soda = NaHCO₃ (used as antacid, in cooking)."
+      "explanation": "Baking soda = Sodium bicarbonate (NaHCO₃)."
     },
     "hi": {
-      "question": "बेकिंग सोडा:",
+      "question": "बेकिंग सोडा है:",
       "options": [
         "NaCl",
         "CaCO₃",
         "NaOH",
-        "NaHCO₃ (सोडियम बाइकार्बोनेट)"
+        "NaHCO₃"
       ],
-      "explanation": "खाने का सोडा = NaHCO₃।"
+      "explanation": "बेकिंग सोडा = सोडियम बाइकार्बोनेट (NaHCO₃)।"
     }
   },
   {
-    "id": "gdscabs-0013",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2024,
+    "id": "gdsc-0007",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
     "en": {
-      "question": "Washing soda is:",
+      "question": "Bleaching powder formula:",
       "options": [
-        "NaHCO₃",
-        "Na₂CO₃·10H₂O",
-        "NaOH",
-        "Ca(OH)₂"
+        "Ca(OH)₂",
+        "CaCO₃",
+        "CaOCl₂",
+        "CaCl₂"
       ],
-      "explanation": "Washing soda = sodium carbonate decahydrate."
+      "explanation": "Bleaching powder = Calcium oxychloride (CaOCl₂)."
     },
     "hi": {
-      "question": "धोने का सोडा:",
+      "question": "ब्लीचिंग पाउडर सूत्र:",
+      "options": [
+        "Ca(OH)₂",
+        "CaCO₃",
+        "CaOCl₂",
+        "CaCl₂"
+      ],
+      "explanation": "ब्लीचिंग पाउडर = कैल्शियम ऑक्सीक्लोराइड (CaOCl₂)।"
+    }
+  },
+  {
+    "id": "gdsc-0008",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Washing soda formula:",
       "options": [
         "NaHCO₃",
-        "Na₂CO₃·10H₂O",
         "NaOH",
-        "Ca(OH)₂"
+        "Na₂CO₃·10H₂O",
+        "NaCl"
+      ],
+      "explanation": "Washing soda = Sodium carbonate decahydrate."
+    },
+    "hi": {
+      "question": "धोने का सोडा सूत्र:",
+      "options": [
+        "NaHCO₃",
+        "NaOH",
+        "Na₂CO₃·10H₂O",
+        "NaCl"
       ],
       "explanation": "धोने का सोडा = सोडियम कार्बोनेट डेकाहाइड्रेट।"
     }
   },
   {
-    "id": "gdscabs-0014",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Bleaching powder formula:",
-      "options": [
-        "NaCl",
-        "NaOH",
-        "CaOCl₂",
-        "CaCO₃"
-      ],
-      "explanation": "Bleaching powder = CaOCl₂ (calcium oxychloride)."
-    },
-    "hi": {
-      "question": "ब्लीचिंग पाउडर सूत्र:",
-      "options": [
-        "NaCl",
-        "NaOH",
-        "CaOCl₂",
-        "CaCO₃"
-      ],
-      "explanation": "विरंजक चूर्ण = CaOCl₂।"
-    }
-  },
-  {
-    "id": "gdscabs-0015",
+    "id": "gdsc-0009",
     "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2024,
+    "difficulty": "hard",
+    "sourceYear": 2025,
     "en": {
       "question": "Plaster of Paris formula:",
       "options": [
         "CaSO₄·½H₂O",
-        "CaSO₄·2H₂O",
         "CaO",
+        "CaCO₃",
         "Ca(OH)₂"
       ],
-      "explanation": "POP = CaSO₄·½H₂O (calcium sulfate hemihydrate)."
+      "explanation": "Plaster of Paris = Calcium sulphate hemihydrate."
     },
     "hi": {
       "question": "प्लास्टर ऑफ पेरिस:",
       "options": [
         "CaSO₄·½H₂O",
-        "CaSO₄·2H₂O",
         "CaO",
+        "CaCO₃",
         "Ca(OH)₂"
       ],
-      "explanation": "POP = CaSO₄·½H₂O।"
+      "explanation": "प्लास्टर ऑफ पेरिस = कैल्शियम सल्फेट हेमीहाइड्रेट।"
     }
   },
   {
-    "id": "gdscabs-0016",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Antacids contain:",
-      "options": [
-        "Acid",
-        "Salt only",
-        "Sugar",
-        "Base (mild) like Mg(OH)₂ or NaHCO₃"
-      ],
-      "explanation": "Antacids neutralize excess stomach acid (HCl)."
-    },
-    "hi": {
-      "question": "एंटासिड में:",
-      "options": [
-        "अम्ल",
-        "केवल लवण",
-        "चीनी",
-        "क्षार जैसे Mg(OH)₂ या NaHCO₃"
-      ],
-      "explanation": "एंटासिड अतिरिक्त अम्ल उदासीन करते हैं।"
-    }
-  },
-  {
-    "id": "gdscabs-0017",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "pH of acid rain is:",
-      "options": [
-        "~7",
-        "< 5.6",
-        "> 7",
-        "Exactly 7"
-      ],
-      "explanation": "Acid rain: pH < 5.6 due to SO₂ and NOₓ dissolving in rainwater."
-    },
-    "hi": {
-      "question": "अम्ल वर्षा का pH:",
-      "options": [
-        "~7",
-        "< 5.6",
-        "> 7",
-        "ठीक 7"
-      ],
-      "explanation": "SO₂, NOₓ से अम्लीय वर्षा।"
-    }
-  },
-  {
-    "id": "gdscabs-0018",
+    "id": "gdsc-0010",
     "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2024,
+    "sourceYear": 2025,
     "en": {
-      "question": "Acid + Base → Salt + Water is called:",
+      "question": "Vinegar contains:",
       "options": [
-        "Hydrolysis",
-        "Oxidation",
-        "Neutralization",
-        "Reduction"
+        "Lactic acid",
+        "Oxalic acid",
+        "Acetic acid",
+        "Citric acid"
       ],
-      "explanation": "Neutralization: H⁺ + OH⁻ → H₂O."
+      "explanation": "Vinegar = 5-8% acetic acid (CH₃COOH)."
     },
     "hi": {
-      "question": "अम्ल + क्षार → लवण + पानी:",
+      "question": "सिरके में होता है:",
       "options": [
-        "जल अपघटन",
-        "ऑक्सीकरण",
-        "उदासीनीकरण",
-        "अपचयन"
+        "Lactic acid",
+        "Oxalic acid",
+        "Acetic acid",
+        "Citric acid"
       ],
-      "explanation": "H⁺ + OH⁻ → H₂O।"
+      "explanation": "सिरका = 5-8% एसिटिक अम्ल (CH₃COOH)।"
     }
   },
   {
-    "id": "gdscabs-0019",
+    "id": "gdsc-0011",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Acids taste:",
+      "options": [
+        "Bitter",
+        "Sweet",
+        "Salty",
+        "Sour"
+      ],
+      "explanation": "Acids have sour taste (e.g., lemon, vinegar)."
+    },
+    "hi": {
+      "question": "अम्ल का स्वाद?",
+      "options": [
+        "Bitter",
+        "Sweet",
+        "Salty",
+        "Sour"
+      ],
+      "explanation": "अम्ल का स्वाद खट्टा होता है (जैसे नींबू, सिरका)।"
+    }
+  },
+  {
+    "id": "gdsc-0012",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bases taste:",
+      "options": [
+        "Salty",
+        "Sweet",
+        "Sour",
+        "Bitter"
+      ],
+      "explanation": "Bases taste bitter (e.g., soap, baking soda)."
+    },
+    "hi": {
+      "question": "क्षार का स्वाद?",
+      "options": [
+        "Salty",
+        "Sweet",
+        "Sour",
+        "Bitter"
+      ],
+      "explanation": "क्षार कड़वे होते हैं (जैसे साबुन, बेकिंग सोडा)।"
+    }
+  },
+  {
+    "id": "gdsc-0013",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "pH of pure water is:",
+      "options": [
+        "1",
+        "0",
+        "7",
+        "14"
+      ],
+      "explanation": "Pure water is neutral: pH = 7."
+    },
+    "hi": {
+      "question": "शुद्ध पानी का pH:",
+      "options": [
+        "1",
+        "0",
+        "7",
+        "14"
+      ],
+      "explanation": "शुद्ध पानी उदासीन होता है: pH = 7।"
+    }
+  },
+  {
+    "id": "gdsc-0014",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "pH of stomach acid:",
+      "options": [
+        "13-14",
+        "5-6",
+        "7",
+        "1-2"
+      ],
+      "explanation": "Stomach produces HCl: pH 1-2 for digestion."
+    },
+    "hi": {
+      "question": "आमाशय अम्ल का pH:",
+      "options": [
+        "13-14",
+        "5-6",
+        "7",
+        "1-2"
+      ],
+      "explanation": "आमाशय HCl उत्पन्न करता है: पाचन के लिए pH 1-2।"
+    }
+  },
+  {
+    "id": "gdsc-0015",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which indicator turns red in acid?",
+      "options": [
+        "Blue litmus",
+        "Red litmus",
+        "Turmeric",
+        "Phenolphthalein"
+      ],
+      "explanation": "Blue litmus turns red in acidic solutions."
+    },
+    "hi": {
+      "question": "अम्ल में कौन सा सूचक लाल होता है?",
+      "options": [
+        "Blue litmus",
+        "Red litmus",
+        "Turmeric",
+        "Phenolphthalein"
+      ],
+      "explanation": "नीला लिटमस अम्लीय विलयनों में लाल हो जाता है।"
+    }
+  },
+  {
+    "id": "gdsc-0016",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Baking soda is:",
+      "options": [
+        "CaCO₃",
+        "NaHCO₃",
+        "NaOH",
+        "NaCl"
+      ],
+      "explanation": "Baking soda = Sodium bicarbonate (NaHCO₃)."
+    },
+    "hi": {
+      "question": "बेकिंग सोडा है:",
+      "options": [
+        "CaCO₃",
+        "NaHCO₃",
+        "NaOH",
+        "NaCl"
+      ],
+      "explanation": "बेकिंग सोडा = सोडियम बाइकार्बोनेट (NaHCO₃)।"
+    }
+  },
+  {
+    "id": "gdsc-0017",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bleaching powder formula:",
+      "options": [
+        "CaCO₃",
+        "CaCl₂",
+        "Ca(OH)₂",
+        "CaOCl₂"
+      ],
+      "explanation": "Bleaching powder = Calcium oxychloride (CaOCl₂)."
+    },
+    "hi": {
+      "question": "ब्लीचिंग पाउडर सूत्र:",
+      "options": [
+        "CaCO₃",
+        "CaCl₂",
+        "Ca(OH)₂",
+        "CaOCl₂"
+      ],
+      "explanation": "ब्लीचिंग पाउडर = कैल्शियम ऑक्सीक्लोराइड (CaOCl₂)।"
+    }
+  },
+  {
+    "id": "gdsc-0018",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Washing soda formula:",
+      "options": [
+        "NaHCO₃",
+        "NaOH",
+        "Na₂CO₃·10H₂O",
+        "NaCl"
+      ],
+      "explanation": "Washing soda = Sodium carbonate decahydrate."
+    },
+    "hi": {
+      "question": "धोने का सोडा सूत्र:",
+      "options": [
+        "NaHCO₃",
+        "NaOH",
+        "Na₂CO₃·10H₂O",
+        "NaCl"
+      ],
+      "explanation": "धोने का सोडा = सोडियम कार्बोनेट डेकाहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0019",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Plaster of Paris formula:",
+      "options": [
+        "Ca(OH)₂",
+        "CaO",
+        "CaCO₃",
+        "CaSO₄·½H₂O"
+      ],
+      "explanation": "Plaster of Paris = Calcium sulphate hemihydrate."
+    },
+    "hi": {
+      "question": "प्लास्टर ऑफ पेरिस:",
+      "options": [
+        "Ca(OH)₂",
+        "CaO",
+        "CaCO₃",
+        "CaSO₄·½H₂O"
+      ],
+      "explanation": "प्लास्टर ऑफ पेरिस = कैल्शियम सल्फेट हेमीहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0020",
     "correctOption": "A",
     "difficulty": "medium",
-    "sourceYear": 2024,
+    "sourceYear": 2025,
     "en": {
-      "question": "Methyl orange is ___ in acid:",
+      "question": "Vinegar contains:",
       "options": [
-        "Red",
-        "Yellow",
-        "Blue",
-        "Colourless"
+        "Acetic acid",
+        "Citric acid",
+        "Lactic acid",
+        "Oxalic acid"
       ],
-      "explanation": "Methyl orange: red in acid, yellow in base."
+      "explanation": "Vinegar = 5-8% acetic acid (CH₃COOH)."
     },
     "hi": {
-      "question": "अम्ल में मिथाइल ऑरेंज:",
+      "question": "सिरके में होता है:",
       "options": [
-        "लाल",
-        "पीला",
-        "नीला",
-        "रंगहीन"
+        "Acetic acid",
+        "Citric acid",
+        "Lactic acid",
+        "Oxalic acid"
       ],
-      "explanation": "अम्ल में लाल, क्षार में पीला।"
+      "explanation": "सिरका = 5-8% एसिटिक अम्ल (CH₃COOH)।"
     }
   },
   {
-    "id": "gdscabs-0020",
-    "correctOption": "D",
+    "id": "gdsc-0021",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Acids taste:",
+      "options": [
+        "Sour",
+        "Bitter",
+        "Salty",
+        "Sweet"
+      ],
+      "explanation": "Acids have sour taste (e.g., lemon, vinegar)."
+    },
+    "hi": {
+      "question": "अम्ल का स्वाद?",
+      "options": [
+        "Sour",
+        "Bitter",
+        "Salty",
+        "Sweet"
+      ],
+      "explanation": "अम्ल का स्वाद खट्टा होता है (जैसे नींबू, सिरका)।"
+    }
+  },
+  {
+    "id": "gdsc-0022",
+    "correctOption": "A",
     "difficulty": "easy",
-    "sourceYear": 2024,
+    "sourceYear": 2025,
     "en": {
-      "question": "Slaked lime is:",
+      "question": "Bases taste:",
       "options": [
-        "CaO",
-        "CaCO₃",
-        "NaCl",
-        "Ca(OH)₂"
+        "Bitter",
+        "Salty",
+        "Sweet",
+        "Sour"
       ],
-      "explanation": "Slaked lime = Ca(OH)₂ (calcium hydroxide)."
+      "explanation": "Bases taste bitter (e.g., soap, baking soda)."
     },
     "hi": {
-      "question": "बुझा चूना:",
+      "question": "क्षार का स्वाद?",
       "options": [
-        "CaO",
-        "CaCO₃",
-        "NaCl",
-        "Ca(OH)₂"
+        "Bitter",
+        "Salty",
+        "Sweet",
+        "Sour"
       ],
-      "explanation": "बुझा चूना = Ca(OH)₂।"
+      "explanation": "क्षार कड़वे होते हैं (जैसे साबुन, बेकिंग सोडा)।"
     }
   },
   {
-    "id": "gdscabs-0021",
-    "correctOption": "B",
+    "id": "gdsc-0023",
+    "correctOption": "D",
     "difficulty": "medium",
-    "sourceYear": 2024,
+    "sourceYear": 2025,
     "en": {
-      "question": "Quick lime is:",
+      "question": "pH of pure water is:",
       "options": [
-        "Ca(OH)₂",
-        "CaO",
-        "CaCO₃",
-        "CaSO₄"
+        "0",
+        "1",
+        "14",
+        "7"
       ],
-      "explanation": "Quick lime = CaO (calcium oxide)."
+      "explanation": "Pure water is neutral: pH = 7."
     },
     "hi": {
-      "question": "बिना बुझा चूना:",
+      "question": "शुद्ध पानी का pH:",
       "options": [
-        "Ca(OH)₂",
-        "CaO",
-        "CaCO₃",
-        "CaSO₄"
+        "0",
+        "1",
+        "14",
+        "7"
       ],
-      "explanation": "बिना बुझा चूना = CaO।"
+      "explanation": "शुद्ध पानी उदासीन होता है: pH = 7।"
     }
   },
   {
-    "id": "gdscabs-0022",
+    "id": "gdsc-0024",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "pH of stomach acid:",
+      "options": [
+        "13-14",
+        "5-6",
+        "1-2",
+        "7"
+      ],
+      "explanation": "Stomach produces HCl: pH 1-2 for digestion."
+    },
+    "hi": {
+      "question": "आमाशय अम्ल का pH:",
+      "options": [
+        "13-14",
+        "5-6",
+        "1-2",
+        "7"
+      ],
+      "explanation": "आमाशय HCl उत्पन्न करता है: पाचन के लिए pH 1-2।"
+    }
+  },
+  {
+    "id": "gdsc-0025",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which indicator turns red in acid?",
+      "options": [
+        "Phenolphthalein",
+        "Blue litmus",
+        "Red litmus",
+        "Turmeric"
+      ],
+      "explanation": "Blue litmus turns red in acidic solutions."
+    },
+    "hi": {
+      "question": "अम्ल में कौन सा सूचक लाल होता है?",
+      "options": [
+        "Phenolphthalein",
+        "Blue litmus",
+        "Red litmus",
+        "Turmeric"
+      ],
+      "explanation": "नीला लिटमस अम्लीय विलयनों में लाल हो जाता है।"
+    }
+  },
+  {
+    "id": "gdsc-0026",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Baking soda is:",
+      "options": [
+        "NaCl",
+        "CaCO₃",
+        "NaHCO₃",
+        "NaOH"
+      ],
+      "explanation": "Baking soda = Sodium bicarbonate (NaHCO₃)."
+    },
+    "hi": {
+      "question": "बेकिंग सोडा है:",
+      "options": [
+        "NaCl",
+        "CaCO₃",
+        "NaHCO₃",
+        "NaOH"
+      ],
+      "explanation": "बेकिंग सोडा = सोडियम बाइकार्बोनेट (NaHCO₃)।"
+    }
+  },
+  {
+    "id": "gdsc-0027",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bleaching powder formula:",
+      "options": [
+        "CaCl₂",
+        "Ca(OH)₂",
+        "CaCO₃",
+        "CaOCl₂"
+      ],
+      "explanation": "Bleaching powder = Calcium oxychloride (CaOCl₂)."
+    },
+    "hi": {
+      "question": "ब्लीचिंग पाउडर सूत्र:",
+      "options": [
+        "CaCl₂",
+        "Ca(OH)₂",
+        "CaCO₃",
+        "CaOCl₂"
+      ],
+      "explanation": "ब्लीचिंग पाउडर = कैल्शियम ऑक्सीक्लोराइड (CaOCl₂)।"
+    }
+  },
+  {
+    "id": "gdsc-0028",
     "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2024,
+    "sourceYear": 2025,
+    "en": {
+      "question": "Washing soda formula:",
+      "options": [
+        "NaHCO₃",
+        "NaOH",
+        "Na₂CO₃·10H₂O",
+        "NaCl"
+      ],
+      "explanation": "Washing soda = Sodium carbonate decahydrate."
+    },
+    "hi": {
+      "question": "धोने का सोडा सूत्र:",
+      "options": [
+        "NaHCO₃",
+        "NaOH",
+        "Na₂CO₃·10H₂O",
+        "NaCl"
+      ],
+      "explanation": "धोने का सोडा = सोडियम कार्बोनेट डेकाहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0029",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Plaster of Paris formula:",
+      "options": [
+        "Ca(OH)₂",
+        "CaCO₃",
+        "CaSO₄·½H₂O",
+        "CaO"
+      ],
+      "explanation": "Plaster of Paris = Calcium sulphate hemihydrate."
+    },
+    "hi": {
+      "question": "प्लास्टर ऑफ पेरिस:",
+      "options": [
+        "Ca(OH)₂",
+        "CaCO₃",
+        "CaSO₄·½H₂O",
+        "CaO"
+      ],
+      "explanation": "प्लास्टर ऑफ पेरिस = कैल्शियम सल्फेट हेमीहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0030",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Vinegar contains:",
+      "options": [
+        "Acetic acid",
+        "Citric acid",
+        "Lactic acid",
+        "Oxalic acid"
+      ],
+      "explanation": "Vinegar = 5-8% acetic acid (CH₃COOH)."
+    },
+    "hi": {
+      "question": "सिरके में होता है:",
+      "options": [
+        "Acetic acid",
+        "Citric acid",
+        "Lactic acid",
+        "Oxalic acid"
+      ],
+      "explanation": "सिरका = 5-8% एसिटिक अम्ल (CH₃COOH)।"
+    }
+  },
+  {
+    "id": "gdsc-0031",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Acids taste:",
+      "options": [
+        "Bitter",
+        "Sour",
+        "Salty",
+        "Sweet"
+      ],
+      "explanation": "Acids have sour taste (e.g., lemon, vinegar)."
+    },
+    "hi": {
+      "question": "अम्ल का स्वाद?",
+      "options": [
+        "Bitter",
+        "Sour",
+        "Salty",
+        "Sweet"
+      ],
+      "explanation": "अम्ल का स्वाद खट्टा होता है (जैसे नींबू, सिरका)।"
+    }
+  },
+  {
+    "id": "gdsc-0032",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bases taste:",
+      "options": [
+        "Bitter",
+        "Salty",
+        "Sweet",
+        "Sour"
+      ],
+      "explanation": "Bases taste bitter (e.g., soap, baking soda)."
+    },
+    "hi": {
+      "question": "क्षार का स्वाद?",
+      "options": [
+        "Bitter",
+        "Salty",
+        "Sweet",
+        "Sour"
+      ],
+      "explanation": "क्षार कड़वे होते हैं (जैसे साबुन, बेकिंग सोडा)।"
+    }
+  },
+  {
+    "id": "gdsc-0033",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "pH of pure water is:",
+      "options": [
+        "7",
+        "0",
+        "14",
+        "1"
+      ],
+      "explanation": "Pure water is neutral: pH = 7."
+    },
+    "hi": {
+      "question": "शुद्ध पानी का pH:",
+      "options": [
+        "7",
+        "0",
+        "14",
+        "1"
+      ],
+      "explanation": "शुद्ध पानी उदासीन होता है: pH = 7।"
+    }
+  },
+  {
+    "id": "gdsc-0034",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "pH of stomach acid:",
+      "options": [
+        "7",
+        "5-6",
+        "1-2",
+        "13-14"
+      ],
+      "explanation": "Stomach produces HCl: pH 1-2 for digestion."
+    },
+    "hi": {
+      "question": "आमाशय अम्ल का pH:",
+      "options": [
+        "7",
+        "5-6",
+        "1-2",
+        "13-14"
+      ],
+      "explanation": "आमाशय HCl उत्पन्न करता है: पाचन के लिए pH 1-2।"
+    }
+  },
+  {
+    "id": "gdsc-0035",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which indicator turns red in acid?",
+      "options": [
+        "Red litmus",
+        "Phenolphthalein",
+        "Blue litmus",
+        "Turmeric"
+      ],
+      "explanation": "Blue litmus turns red in acidic solutions."
+    },
+    "hi": {
+      "question": "अम्ल में कौन सा सूचक लाल होता है?",
+      "options": [
+        "Red litmus",
+        "Phenolphthalein",
+        "Blue litmus",
+        "Turmeric"
+      ],
+      "explanation": "नीला लिटमस अम्लीय विलयनों में लाल हो जाता है।"
+    }
+  },
+  {
+    "id": "gdsc-0036",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Baking soda is:",
+      "options": [
+        "NaCl",
+        "NaOH",
+        "CaCO₃",
+        "NaHCO₃"
+      ],
+      "explanation": "Baking soda = Sodium bicarbonate (NaHCO₃)."
+    },
+    "hi": {
+      "question": "बेकिंग सोडा है:",
+      "options": [
+        "NaCl",
+        "NaOH",
+        "CaCO₃",
+        "NaHCO₃"
+      ],
+      "explanation": "बेकिंग सोडा = सोडियम बाइकार्बोनेट (NaHCO₃)।"
+    }
+  },
+  {
+    "id": "gdsc-0037",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bleaching powder formula:",
+      "options": [
+        "CaCO₃",
+        "CaOCl₂",
+        "Ca(OH)₂",
+        "CaCl₂"
+      ],
+      "explanation": "Bleaching powder = Calcium oxychloride (CaOCl₂)."
+    },
+    "hi": {
+      "question": "ब्लीचिंग पाउडर सूत्र:",
+      "options": [
+        "CaCO₃",
+        "CaOCl₂",
+        "Ca(OH)₂",
+        "CaCl₂"
+      ],
+      "explanation": "ब्लीचिंग पाउडर = कैल्शियम ऑक्सीक्लोराइड (CaOCl₂)।"
+    }
+  },
+  {
+    "id": "gdsc-0038",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Washing soda formula:",
+      "options": [
+        "Na₂CO₃·10H₂O",
+        "NaCl",
+        "NaHCO₃",
+        "NaOH"
+      ],
+      "explanation": "Washing soda = Sodium carbonate decahydrate."
+    },
+    "hi": {
+      "question": "धोने का सोडा सूत्र:",
+      "options": [
+        "Na₂CO₃·10H₂O",
+        "NaCl",
+        "NaHCO₃",
+        "NaOH"
+      ],
+      "explanation": "धोने का सोडा = सोडियम कार्बोनेट डेकाहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0039",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Plaster of Paris formula:",
+      "options": [
+        "CaCO₃",
+        "CaSO₄·½H₂O",
+        "Ca(OH)₂",
+        "CaO"
+      ],
+      "explanation": "Plaster of Paris = Calcium sulphate hemihydrate."
+    },
+    "hi": {
+      "question": "प्लास्टर ऑफ पेरिस:",
+      "options": [
+        "CaCO₃",
+        "CaSO₄·½H₂O",
+        "Ca(OH)₂",
+        "CaO"
+      ],
+      "explanation": "प्लास्टर ऑफ पेरिस = कैल्शियम सल्फेट हेमीहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0040",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Vinegar contains:",
+      "options": [
+        "Oxalic acid",
+        "Citric acid",
+        "Lactic acid",
+        "Acetic acid"
+      ],
+      "explanation": "Vinegar = 5-8% acetic acid (CH₃COOH)."
+    },
+    "hi": {
+      "question": "सिरके में होता है:",
+      "options": [
+        "Oxalic acid",
+        "Citric acid",
+        "Lactic acid",
+        "Acetic acid"
+      ],
+      "explanation": "सिरका = 5-8% एसिटिक अम्ल (CH₃COOH)।"
+    }
+  },
+  {
+    "id": "gdsc-0041",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Acids taste:",
+      "options": [
+        "Salty",
+        "Sweet",
+        "Sour",
+        "Bitter"
+      ],
+      "explanation": "Acids have sour taste (e.g., lemon, vinegar)."
+    },
+    "hi": {
+      "question": "अम्ल का स्वाद?",
+      "options": [
+        "Salty",
+        "Sweet",
+        "Sour",
+        "Bitter"
+      ],
+      "explanation": "अम्ल का स्वाद खट्टा होता है (जैसे नींबू, सिरका)।"
+    }
+  },
+  {
+    "id": "gdsc-0042",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bases taste:",
+      "options": [
+        "Sweet",
+        "Sour",
+        "Bitter",
+        "Salty"
+      ],
+      "explanation": "Bases taste bitter (e.g., soap, baking soda)."
+    },
+    "hi": {
+      "question": "क्षार का स्वाद?",
+      "options": [
+        "Sweet",
+        "Sour",
+        "Bitter",
+        "Salty"
+      ],
+      "explanation": "क्षार कड़वे होते हैं (जैसे साबुन, बेकिंग सोडा)।"
+    }
+  },
+  {
+    "id": "gdsc-0043",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "pH of pure water is:",
+      "options": [
+        "1",
+        "0",
+        "14",
+        "7"
+      ],
+      "explanation": "Pure water is neutral: pH = 7."
+    },
+    "hi": {
+      "question": "शुद्ध पानी का pH:",
+      "options": [
+        "1",
+        "0",
+        "14",
+        "7"
+      ],
+      "explanation": "शुद्ध पानी उदासीन होता है: pH = 7।"
+    }
+  },
+  {
+    "id": "gdsc-0044",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "pH of stomach acid:",
+      "options": [
+        "5-6",
+        "1-2",
+        "13-14",
+        "7"
+      ],
+      "explanation": "Stomach produces HCl: pH 1-2 for digestion."
+    },
+    "hi": {
+      "question": "आमाशय अम्ल का pH:",
+      "options": [
+        "5-6",
+        "1-2",
+        "13-14",
+        "7"
+      ],
+      "explanation": "आमाशय HCl उत्पन्न करता है: पाचन के लिए pH 1-2।"
+    }
+  },
+  {
+    "id": "gdsc-0045",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which indicator turns red in acid?",
+      "options": [
+        "Red litmus",
+        "Blue litmus",
+        "Turmeric",
+        "Phenolphthalein"
+      ],
+      "explanation": "Blue litmus turns red in acidic solutions."
+    },
+    "hi": {
+      "question": "अम्ल में कौन सा सूचक लाल होता है?",
+      "options": [
+        "Red litmus",
+        "Blue litmus",
+        "Turmeric",
+        "Phenolphthalein"
+      ],
+      "explanation": "नीला लिटमस अम्लीय विलयनों में लाल हो जाता है।"
+    }
+  },
+  {
+    "id": "gdsc-0046",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Baking soda is:",
+      "options": [
+        "NaOH",
+        "NaHCO₃",
+        "CaCO₃",
+        "NaCl"
+      ],
+      "explanation": "Baking soda = Sodium bicarbonate (NaHCO₃)."
+    },
+    "hi": {
+      "question": "बेकिंग सोडा है:",
+      "options": [
+        "NaOH",
+        "NaHCO₃",
+        "CaCO₃",
+        "NaCl"
+      ],
+      "explanation": "बेकिंग सोडा = सोडियम बाइकार्बोनेट (NaHCO₃)।"
+    }
+  },
+  {
+    "id": "gdsc-0047",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bleaching powder formula:",
+      "options": [
+        "CaCl₂",
+        "CaCO₃",
+        "Ca(OH)₂",
+        "CaOCl₂"
+      ],
+      "explanation": "Bleaching powder = Calcium oxychloride (CaOCl₂)."
+    },
+    "hi": {
+      "question": "ब्लीचिंग पाउडर सूत्र:",
+      "options": [
+        "CaCl₂",
+        "CaCO₃",
+        "Ca(OH)₂",
+        "CaOCl₂"
+      ],
+      "explanation": "ब्लीचिंग पाउडर = कैल्शियम ऑक्सीक्लोराइड (CaOCl₂)।"
+    }
+  },
+  {
+    "id": "gdsc-0048",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Washing soda formula:",
+      "options": [
+        "NaHCO₃",
+        "NaCl",
+        "Na₂CO₃·10H₂O",
+        "NaOH"
+      ],
+      "explanation": "Washing soda = Sodium carbonate decahydrate."
+    },
+    "hi": {
+      "question": "धोने का सोडा सूत्र:",
+      "options": [
+        "NaHCO₃",
+        "NaCl",
+        "Na₂CO₃·10H₂O",
+        "NaOH"
+      ],
+      "explanation": "धोने का सोडा = सोडियम कार्बोनेट डेकाहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0049",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Plaster of Paris formula:",
+      "options": [
+        "Ca(OH)₂",
+        "CaSO₄·½H₂O",
+        "CaCO₃",
+        "CaO"
+      ],
+      "explanation": "Plaster of Paris = Calcium sulphate hemihydrate."
+    },
+    "hi": {
+      "question": "प्लास्टर ऑफ पेरिस:",
+      "options": [
+        "Ca(OH)₂",
+        "CaSO₄·½H₂O",
+        "CaCO₃",
+        "CaO"
+      ],
+      "explanation": "प्लास्टर ऑफ पेरिस = कैल्शियम सल्फेट हेमीहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0050",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
     "en": {
       "question": "Vinegar contains:",
       "options": [
         "Citric acid",
         "Lactic acid",
-        "Acetic acid (5-8%)",
-        "Formic acid"
+        "Oxalic acid",
+        "Acetic acid"
       ],
-      "explanation": "Vinegar = 5-8% acetic acid (CH₃COOH) in water."
+      "explanation": "Vinegar = 5-8% acetic acid (CH₃COOH)."
     },
     "hi": {
-      "question": "सिरका में:",
+      "question": "सिरके में होता है:",
       "options": [
-        "साइट्रिक अम्ल",
-        "लैक्टिक अम्ल",
-        "एसिटिक अम्ल (5-8%)",
-        "फॉर्मिक अम्ल"
+        "Citric acid",
+        "Lactic acid",
+        "Oxalic acid",
+        "Acetic acid"
       ],
-      "explanation": "5-8% एसिटिक अम्ल।"
+      "explanation": "सिरका = 5-8% एसिटिक अम्ल (CH₃COOH)।"
     }
   },
   {
-    "id": "gdscabs-0023",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2024,
+    "id": "gdsc-0051",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
     "en": {
-      "question": "Acid + Carbonate/Hydrogencarbonate →",
+      "question": "Acids taste:",
       "options": [
-        "Salt + CO₂ + H₂O",
-        "Salt + H₂",
-        "Base + CO₂",
-        "No reaction"
+        "Salty",
+        "Sweet",
+        "Bitter",
+        "Sour"
       ],
-      "explanation": "Na₂CO₃ + 2HCl → 2NaCl + CO₂ + H₂O."
+      "explanation": "Acids have sour taste (e.g., lemon, vinegar)."
     },
     "hi": {
-      "question": "अम्ल + कार्बोनेट/बाइकार्बोनेट →",
+      "question": "अम्ल का स्वाद?",
       "options": [
-        "लवण + CO₂ + H₂O",
-        "लवण + H₂",
-        "क्षार + CO₂",
-        "अभिक्रिया नहीं"
+        "Salty",
+        "Sweet",
+        "Bitter",
+        "Sour"
       ],
-      "explanation": "CO₂ गैस उत्पन्न।"
+      "explanation": "अम्ल का स्वाद खट्टा होता है (जैसे नींबू, सिरका)।"
     }
   },
   {
-    "id": "gdscabs-0024",
+    "id": "gdsc-0052",
     "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2024,
+    "sourceYear": 2025,
     "en": {
-      "question": "Lemon contains:",
+      "question": "Bases taste:",
       "options": [
+        "Sour",
+        "Salty",
+        "Sweet",
+        "Bitter"
+      ],
+      "explanation": "Bases taste bitter (e.g., soap, baking soda)."
+    },
+    "hi": {
+      "question": "क्षार का स्वाद?",
+      "options": [
+        "Sour",
+        "Salty",
+        "Sweet",
+        "Bitter"
+      ],
+      "explanation": "क्षार कड़वे होते हैं (जैसे साबुन, बेकिंग सोडा)।"
+    }
+  },
+  {
+    "id": "gdsc-0053",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "pH of pure water is:",
+      "options": [
+        "7",
+        "1",
+        "14",
+        "0"
+      ],
+      "explanation": "Pure water is neutral: pH = 7."
+    },
+    "hi": {
+      "question": "शुद्ध पानी का pH:",
+      "options": [
+        "7",
+        "1",
+        "14",
+        "0"
+      ],
+      "explanation": "शुद्ध पानी उदासीन होता है: pH = 7।"
+    }
+  },
+  {
+    "id": "gdsc-0054",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "pH of stomach acid:",
+      "options": [
+        "1-2",
+        "13-14",
+        "5-6",
+        "7"
+      ],
+      "explanation": "Stomach produces HCl: pH 1-2 for digestion."
+    },
+    "hi": {
+      "question": "आमाशय अम्ल का pH:",
+      "options": [
+        "1-2",
+        "13-14",
+        "5-6",
+        "7"
+      ],
+      "explanation": "आमाशय HCl उत्पन्न करता है: पाचन के लिए pH 1-2।"
+    }
+  },
+  {
+    "id": "gdsc-0055",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which indicator turns red in acid?",
+      "options": [
+        "Turmeric",
+        "Blue litmus",
+        "Phenolphthalein",
+        "Red litmus"
+      ],
+      "explanation": "Blue litmus turns red in acidic solutions."
+    },
+    "hi": {
+      "question": "अम्ल में कौन सा सूचक लाल होता है?",
+      "options": [
+        "Turmeric",
+        "Blue litmus",
+        "Phenolphthalein",
+        "Red litmus"
+      ],
+      "explanation": "नीला लिटमस अम्लीय विलयनों में लाल हो जाता है।"
+    }
+  },
+  {
+    "id": "gdsc-0056",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Baking soda is:",
+      "options": [
+        "NaHCO₃",
+        "CaCO₃",
+        "NaCl",
+        "NaOH"
+      ],
+      "explanation": "Baking soda = Sodium bicarbonate (NaHCO₃)."
+    },
+    "hi": {
+      "question": "बेकिंग सोडा है:",
+      "options": [
+        "NaHCO₃",
+        "CaCO₃",
+        "NaCl",
+        "NaOH"
+      ],
+      "explanation": "बेकिंग सोडा = सोडियम बाइकार्बोनेट (NaHCO₃)।"
+    }
+  },
+  {
+    "id": "gdsc-0057",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bleaching powder formula:",
+      "options": [
+        "CaOCl₂",
+        "CaCO₃",
+        "Ca(OH)₂",
+        "CaCl₂"
+      ],
+      "explanation": "Bleaching powder = Calcium oxychloride (CaOCl₂)."
+    },
+    "hi": {
+      "question": "ब्लीचिंग पाउडर सूत्र:",
+      "options": [
+        "CaOCl₂",
+        "CaCO₃",
+        "Ca(OH)₂",
+        "CaCl₂"
+      ],
+      "explanation": "ब्लीचिंग पाउडर = कैल्शियम ऑक्सीक्लोराइड (CaOCl₂)।"
+    }
+  },
+  {
+    "id": "gdsc-0058",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Washing soda formula:",
+      "options": [
+        "NaHCO₃",
+        "NaCl",
+        "NaOH",
+        "Na₂CO₃·10H₂O"
+      ],
+      "explanation": "Washing soda = Sodium carbonate decahydrate."
+    },
+    "hi": {
+      "question": "धोने का सोडा सूत्र:",
+      "options": [
+        "NaHCO₃",
+        "NaCl",
+        "NaOH",
+        "Na₂CO₃·10H₂O"
+      ],
+      "explanation": "धोने का सोडा = सोडियम कार्बोनेट डेकाहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0059",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Plaster of Paris formula:",
+      "options": [
+        "CaO",
+        "Ca(OH)₂",
+        "CaCO₃",
+        "CaSO₄·½H₂O"
+      ],
+      "explanation": "Plaster of Paris = Calcium sulphate hemihydrate."
+    },
+    "hi": {
+      "question": "प्लास्टर ऑफ पेरिस:",
+      "options": [
+        "CaO",
+        "Ca(OH)₂",
+        "CaCO₃",
+        "CaSO₄·½H₂O"
+      ],
+      "explanation": "प्लास्टर ऑफ पेरिस = कैल्शियम सल्फेट हेमीहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0060",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Vinegar contains:",
+      "options": [
+        "Oxalic acid",
         "Acetic acid",
         "Lactic acid",
-        "Tartaric acid",
         "Citric acid"
       ],
-      "explanation": "Citrus fruits (lemon, orange) contain citric acid."
+      "explanation": "Vinegar = 5-8% acetic acid (CH₃COOH)."
     },
     "hi": {
-      "question": "नींबू में:",
+      "question": "सिरके में होता है:",
       "options": [
-        "एसिटिक अम्ल",
-        "लैक्टिक अम्ल",
-        "टार्टरिक अम्ल",
-        "साइट्रिक अम्ल"
+        "Oxalic acid",
+        "Acetic acid",
+        "Lactic acid",
+        "Citric acid"
       ],
-      "explanation": "साइट्रिक अम्ल।"
+      "explanation": "सिरका = 5-8% एसिटिक अम्ल (CH₃COOH)।"
     }
   },
   {
-    "id": "gdscabs-0025",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "pH of gastric acid in stomach:",
-      "options": [
-        "~7",
-        "~1.5-3.5",
-        "~5",
-        "~10"
-      ],
-      "explanation": "Stomach HCl: pH ~1.5-3.5 (strongly acidic for digestion)."
-    },
-    "hi": {
-      "question": "आमाशय में जठर रस का pH:",
-      "options": [
-        "~7",
-        "~1.5-3.5",
-        "~5",
-        "~10"
-      ],
-      "explanation": "HCl से pH 1.5-3.5।"
-    }
-  },
-  {
-    "id": "gdscabs-0026",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Which is used in soda-acid fire extinguisher?",
-      "options": [
-        "Only acid",
-        "Only base",
-        "NaHCO₃ + H₂SO₄",
-        "Water"
-      ],
-      "explanation": "Soda-acid: NaHCO₃ + H₂SO₄ → CO₂ (extinguishes fire)."
-    },
-    "hi": {
-      "question": "सोडा-अम्ल अग्निशामक में:",
-      "options": [
-        "केवल अम्ल",
-        "केवल क्षार",
-        "NaHCO₃ + H₂SO₄",
-        "पानी"
-      ],
-      "explanation": "CO₂ गैस आग बुझाती है।"
-    }
-  },
-  {
-    "id": "gdscabs-0027",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Gypsum formula:",
-      "options": [
-        "CaSO₄·2H₂O",
-        "CaSO₄·½H₂O",
-        "CaO",
-        "CaCO₃"
-      ],
-      "explanation": "Gypsum = CaSO₄·2H₂O (calcium sulfate dihydrate)."
-    },
-    "hi": {
-      "question": "जिप्सम सूत्र:",
-      "options": [
-        "CaSO₄·2H₂O",
-        "CaSO₄·½H₂O",
-        "CaO",
-        "CaCO₃"
-      ],
-      "explanation": "CaSO₄·2H₂O।"
-    }
-  },
-  {
-    "id": "gdscabs-0028",
+    "id": "gdsc-0061",
     "correctOption": "D",
     "difficulty": "easy",
-    "sourceYear": 2024,
+    "sourceYear": 2025,
     "en": {
-      "question": "Curd contains:",
+      "question": "Acids taste:",
+      "options": [
+        "Sweet",
+        "Bitter",
+        "Salty",
+        "Sour"
+      ],
+      "explanation": "Acids have sour taste (e.g., lemon, vinegar)."
+    },
+    "hi": {
+      "question": "अम्ल का स्वाद?",
+      "options": [
+        "Sweet",
+        "Bitter",
+        "Salty",
+        "Sour"
+      ],
+      "explanation": "अम्ल का स्वाद खट्टा होता है (जैसे नींबू, सिरका)।"
+    }
+  },
+  {
+    "id": "gdsc-0062",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bases taste:",
+      "options": [
+        "Salty",
+        "Sweet",
+        "Bitter",
+        "Sour"
+      ],
+      "explanation": "Bases taste bitter (e.g., soap, baking soda)."
+    },
+    "hi": {
+      "question": "क्षार का स्वाद?",
+      "options": [
+        "Salty",
+        "Sweet",
+        "Bitter",
+        "Sour"
+      ],
+      "explanation": "क्षार कड़वे होते हैं (जैसे साबुन, बेकिंग सोडा)।"
+    }
+  },
+  {
+    "id": "gdsc-0063",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "pH of pure water is:",
+      "options": [
+        "0",
+        "1",
+        "7",
+        "14"
+      ],
+      "explanation": "Pure water is neutral: pH = 7."
+    },
+    "hi": {
+      "question": "शुद्ध पानी का pH:",
+      "options": [
+        "0",
+        "1",
+        "7",
+        "14"
+      ],
+      "explanation": "शुद्ध पानी उदासीन होता है: pH = 7।"
+    }
+  },
+  {
+    "id": "gdsc-0064",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "pH of stomach acid:",
+      "options": [
+        "1-2",
+        "7",
+        "5-6",
+        "13-14"
+      ],
+      "explanation": "Stomach produces HCl: pH 1-2 for digestion."
+    },
+    "hi": {
+      "question": "आमाशय अम्ल का pH:",
+      "options": [
+        "1-2",
+        "7",
+        "5-6",
+        "13-14"
+      ],
+      "explanation": "आमाशय HCl उत्पन्न करता है: पाचन के लिए pH 1-2।"
+    }
+  },
+  {
+    "id": "gdsc-0065",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which indicator turns red in acid?",
+      "options": [
+        "Turmeric",
+        "Blue litmus",
+        "Phenolphthalein",
+        "Red litmus"
+      ],
+      "explanation": "Blue litmus turns red in acidic solutions."
+    },
+    "hi": {
+      "question": "अम्ल में कौन सा सूचक लाल होता है?",
+      "options": [
+        "Turmeric",
+        "Blue litmus",
+        "Phenolphthalein",
+        "Red litmus"
+      ],
+      "explanation": "नीला लिटमस अम्लीय विलयनों में लाल हो जाता है।"
+    }
+  },
+  {
+    "id": "gdsc-0066",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Baking soda is:",
+      "options": [
+        "NaOH",
+        "NaCl",
+        "NaHCO₃",
+        "CaCO₃"
+      ],
+      "explanation": "Baking soda = Sodium bicarbonate (NaHCO₃)."
+    },
+    "hi": {
+      "question": "बेकिंग सोडा है:",
+      "options": [
+        "NaOH",
+        "NaCl",
+        "NaHCO₃",
+        "CaCO₃"
+      ],
+      "explanation": "बेकिंग सोडा = सोडियम बाइकार्बोनेट (NaHCO₃)।"
+    }
+  },
+  {
+    "id": "gdsc-0067",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bleaching powder formula:",
+      "options": [
+        "CaCO₃",
+        "Ca(OH)₂",
+        "CaOCl₂",
+        "CaCl₂"
+      ],
+      "explanation": "Bleaching powder = Calcium oxychloride (CaOCl₂)."
+    },
+    "hi": {
+      "question": "ब्लीचिंग पाउडर सूत्र:",
+      "options": [
+        "CaCO₃",
+        "Ca(OH)₂",
+        "CaOCl₂",
+        "CaCl₂"
+      ],
+      "explanation": "ब्लीचिंग पाउडर = कैल्शियम ऑक्सीक्लोराइड (CaOCl₂)।"
+    }
+  },
+  {
+    "id": "gdsc-0068",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Washing soda formula:",
+      "options": [
+        "NaOH",
+        "NaHCO₃",
+        "NaCl",
+        "Na₂CO₃·10H₂O"
+      ],
+      "explanation": "Washing soda = Sodium carbonate decahydrate."
+    },
+    "hi": {
+      "question": "धोने का सोडा सूत्र:",
+      "options": [
+        "NaOH",
+        "NaHCO₃",
+        "NaCl",
+        "Na₂CO₃·10H₂O"
+      ],
+      "explanation": "धोने का सोडा = सोडियम कार्बोनेट डेकाहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0069",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Plaster of Paris formula:",
+      "options": [
+        "CaSO₄·½H₂O",
+        "Ca(OH)₂",
+        "CaCO₃",
+        "CaO"
+      ],
+      "explanation": "Plaster of Paris = Calcium sulphate hemihydrate."
+    },
+    "hi": {
+      "question": "प्लास्टर ऑफ पेरिस:",
+      "options": [
+        "CaSO₄·½H₂O",
+        "Ca(OH)₂",
+        "CaCO₃",
+        "CaO"
+      ],
+      "explanation": "प्लास्टर ऑफ पेरिस = कैल्शियम सल्फेट हेमीहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0070",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Vinegar contains:",
       "options": [
         "Citric acid",
+        "Acetic acid",
+        "Lactic acid",
+        "Oxalic acid"
+      ],
+      "explanation": "Vinegar = 5-8% acetic acid (CH₃COOH)."
+    },
+    "hi": {
+      "question": "सिरके में होता है:",
+      "options": [
+        "Citric acid",
+        "Acetic acid",
+        "Lactic acid",
+        "Oxalic acid"
+      ],
+      "explanation": "सिरका = 5-8% एसिटिक अम्ल (CH₃COOH)।"
+    }
+  },
+  {
+    "id": "gdsc-0071",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Acids taste:",
+      "options": [
+        "Bitter",
+        "Sweet",
+        "Salty",
+        "Sour"
+      ],
+      "explanation": "Acids have sour taste (e.g., lemon, vinegar)."
+    },
+    "hi": {
+      "question": "अम्ल का स्वाद?",
+      "options": [
+        "Bitter",
+        "Sweet",
+        "Salty",
+        "Sour"
+      ],
+      "explanation": "अम्ल का स्वाद खट्टा होता है (जैसे नींबू, सिरका)।"
+    }
+  },
+  {
+    "id": "gdsc-0072",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bases taste:",
+      "options": [
+        "Sour",
+        "Salty",
+        "Bitter",
+        "Sweet"
+      ],
+      "explanation": "Bases taste bitter (e.g., soap, baking soda)."
+    },
+    "hi": {
+      "question": "क्षार का स्वाद?",
+      "options": [
+        "Sour",
+        "Salty",
+        "Bitter",
+        "Sweet"
+      ],
+      "explanation": "क्षार कड़वे होते हैं (जैसे साबुन, बेकिंग सोडा)।"
+    }
+  },
+  {
+    "id": "gdsc-0073",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "pH of pure water is:",
+      "options": [
+        "14",
+        "1",
+        "7",
+        "0"
+      ],
+      "explanation": "Pure water is neutral: pH = 7."
+    },
+    "hi": {
+      "question": "शुद्ध पानी का pH:",
+      "options": [
+        "14",
+        "1",
+        "7",
+        "0"
+      ],
+      "explanation": "शुद्ध पानी उदासीन होता है: pH = 7।"
+    }
+  },
+  {
+    "id": "gdsc-0074",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "pH of stomach acid:",
+      "options": [
+        "13-14",
+        "1-2",
+        "5-6",
+        "7"
+      ],
+      "explanation": "Stomach produces HCl: pH 1-2 for digestion."
+    },
+    "hi": {
+      "question": "आमाशय अम्ल का pH:",
+      "options": [
+        "13-14",
+        "1-2",
+        "5-6",
+        "7"
+      ],
+      "explanation": "आमाशय HCl उत्पन्न करता है: पाचन के लिए pH 1-2।"
+    }
+  },
+  {
+    "id": "gdsc-0075",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which indicator turns red in acid?",
+      "options": [
+        "Turmeric",
+        "Blue litmus",
+        "Red litmus",
+        "Phenolphthalein"
+      ],
+      "explanation": "Blue litmus turns red in acidic solutions."
+    },
+    "hi": {
+      "question": "अम्ल में कौन सा सूचक लाल होता है?",
+      "options": [
+        "Turmeric",
+        "Blue litmus",
+        "Red litmus",
+        "Phenolphthalein"
+      ],
+      "explanation": "नीला लिटमस अम्लीय विलयनों में लाल हो जाता है।"
+    }
+  },
+  {
+    "id": "gdsc-0076",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Baking soda is:",
+      "options": [
+        "NaOH",
+        "CaCO₃",
+        "NaCl",
+        "NaHCO₃"
+      ],
+      "explanation": "Baking soda = Sodium bicarbonate (NaHCO₃)."
+    },
+    "hi": {
+      "question": "बेकिंग सोडा है:",
+      "options": [
+        "NaOH",
+        "CaCO₃",
+        "NaCl",
+        "NaHCO₃"
+      ],
+      "explanation": "बेकिंग सोडा = सोडियम बाइकार्बोनेट (NaHCO₃)।"
+    }
+  },
+  {
+    "id": "gdsc-0077",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bleaching powder formula:",
+      "options": [
+        "CaCO₃",
+        "CaCl₂",
+        "Ca(OH)₂",
+        "CaOCl₂"
+      ],
+      "explanation": "Bleaching powder = Calcium oxychloride (CaOCl₂)."
+    },
+    "hi": {
+      "question": "ब्लीचिंग पाउडर सूत्र:",
+      "options": [
+        "CaCO₃",
+        "CaCl₂",
+        "Ca(OH)₂",
+        "CaOCl₂"
+      ],
+      "explanation": "ब्लीचिंग पाउडर = कैल्शियम ऑक्सीक्लोराइड (CaOCl₂)।"
+    }
+  },
+  {
+    "id": "gdsc-0078",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Washing soda formula:",
+      "options": [
+        "NaHCO₃",
+        "NaCl",
+        "NaOH",
+        "Na₂CO₃·10H₂O"
+      ],
+      "explanation": "Washing soda = Sodium carbonate decahydrate."
+    },
+    "hi": {
+      "question": "धोने का सोडा सूत्र:",
+      "options": [
+        "NaHCO₃",
+        "NaCl",
+        "NaOH",
+        "Na₂CO₃·10H₂O"
+      ],
+      "explanation": "धोने का सोडा = सोडियम कार्बोनेट डेकाहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0079",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Plaster of Paris formula:",
+      "options": [
+        "CaSO₄·½H₂O",
+        "CaO",
+        "CaCO₃",
+        "Ca(OH)₂"
+      ],
+      "explanation": "Plaster of Paris = Calcium sulphate hemihydrate."
+    },
+    "hi": {
+      "question": "प्लास्टर ऑफ पेरिस:",
+      "options": [
+        "CaSO₄·½H₂O",
+        "CaO",
+        "CaCO₃",
+        "Ca(OH)₂"
+      ],
+      "explanation": "प्लास्टर ऑफ पेरिस = कैल्शियम सल्फेट हेमीहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0080",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Vinegar contains:",
+      "options": [
+        "Lactic acid",
         "Acetic acid",
         "Oxalic acid",
-        "Lactic acid"
+        "Citric acid"
       ],
-      "explanation": "Lactic acid (from fermentation of milk by bacteria)."
+      "explanation": "Vinegar = 5-8% acetic acid (CH₃COOH)."
     },
     "hi": {
-      "question": "दही में:",
+      "question": "सिरके में होता है:",
       "options": [
-        "साइट्रिक",
-        "एसिटिक",
-        "ऑक्जैलिक",
-        "लैक्टिक अम्ल"
-      ],
-      "explanation": "लैक्टिक अम्ल।"
-    }
-  },
-  {
-    "id": "gdscabs-0029",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "NaOH is commonly known as:",
-      "options": [
-        "Baking soda",
-        "Caustic soda",
-        "Washing soda",
-        "Lime water"
-      ],
-      "explanation": "NaOH = caustic soda (strong base)."
-    },
-    "hi": {
-      "question": "NaOH का सामान्य नाम:",
-      "options": [
-        "बेकिंग सोडा",
-        "कास्टिक सोडा",
-        "धोने का सोडा",
-        "चूना पानी"
-      ],
-      "explanation": "कास्टिक सोडा।"
-    }
-  },
-  {
-    "id": "gdscabs-0030",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Nettle sting contains:",
-      "options": [
+        "Lactic acid",
         "Acetic acid",
+        "Oxalic acid",
+        "Citric acid"
+      ],
+      "explanation": "सिरका = 5-8% एसिटिक अम्ल (CH₃COOH)।"
+    }
+  },
+  {
+    "id": "gdsc-0081",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Acids taste:",
+      "options": [
+        "Bitter",
+        "Sour",
+        "Salty",
+        "Sweet"
+      ],
+      "explanation": "Acids have sour taste (e.g., lemon, vinegar)."
+    },
+    "hi": {
+      "question": "अम्ल का स्वाद?",
+      "options": [
+        "Bitter",
+        "Sour",
+        "Salty",
+        "Sweet"
+      ],
+      "explanation": "अम्ल का स्वाद खट्टा होता है (जैसे नींबू, सिरका)।"
+    }
+  },
+  {
+    "id": "gdsc-0082",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bases taste:",
+      "options": [
+        "Bitter",
+        "Sweet",
+        "Sour",
+        "Salty"
+      ],
+      "explanation": "Bases taste bitter (e.g., soap, baking soda)."
+    },
+    "hi": {
+      "question": "क्षार का स्वाद?",
+      "options": [
+        "Bitter",
+        "Sweet",
+        "Sour",
+        "Salty"
+      ],
+      "explanation": "क्षार कड़वे होते हैं (जैसे साबुन, बेकिंग सोडा)।"
+    }
+  },
+  {
+    "id": "gdsc-0083",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "pH of pure water is:",
+      "options": [
+        "7",
+        "1",
+        "0",
+        "14"
+      ],
+      "explanation": "Pure water is neutral: pH = 7."
+    },
+    "hi": {
+      "question": "शुद्ध पानी का pH:",
+      "options": [
+        "7",
+        "1",
+        "0",
+        "14"
+      ],
+      "explanation": "शुद्ध पानी उदासीन होता है: pH = 7।"
+    }
+  },
+  {
+    "id": "gdsc-0084",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "pH of stomach acid:",
+      "options": [
+        "13-14",
+        "5-6",
+        "1-2",
+        "7"
+      ],
+      "explanation": "Stomach produces HCl: pH 1-2 for digestion."
+    },
+    "hi": {
+      "question": "आमाशय अम्ल का pH:",
+      "options": [
+        "13-14",
+        "5-6",
+        "1-2",
+        "7"
+      ],
+      "explanation": "आमाशय HCl उत्पन्न करता है: पाचन के लिए pH 1-2।"
+    }
+  },
+  {
+    "id": "gdsc-0085",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which indicator turns red in acid?",
+      "options": [
+        "Turmeric",
+        "Phenolphthalein",
+        "Blue litmus",
+        "Red litmus"
+      ],
+      "explanation": "Blue litmus turns red in acidic solutions."
+    },
+    "hi": {
+      "question": "अम्ल में कौन सा सूचक लाल होता है?",
+      "options": [
+        "Turmeric",
+        "Phenolphthalein",
+        "Blue litmus",
+        "Red litmus"
+      ],
+      "explanation": "नीला लिटमस अम्लीय विलयनों में लाल हो जाता है।"
+    }
+  },
+  {
+    "id": "gdsc-0086",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Baking soda is:",
+      "options": [
+        "NaCl",
+        "CaCO₃",
+        "NaHCO₃",
+        "NaOH"
+      ],
+      "explanation": "Baking soda = Sodium bicarbonate (NaHCO₃)."
+    },
+    "hi": {
+      "question": "बेकिंग सोडा है:",
+      "options": [
+        "NaCl",
+        "CaCO₃",
+        "NaHCO₃",
+        "NaOH"
+      ],
+      "explanation": "बेकिंग सोडा = सोडियम बाइकार्बोनेट (NaHCO₃)।"
+    }
+  },
+  {
+    "id": "gdsc-0087",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bleaching powder formula:",
+      "options": [
+        "CaCO₃",
+        "CaOCl₂",
+        "Ca(OH)₂",
+        "CaCl₂"
+      ],
+      "explanation": "Bleaching powder = Calcium oxychloride (CaOCl₂)."
+    },
+    "hi": {
+      "question": "ब्लीचिंग पाउडर सूत्र:",
+      "options": [
+        "CaCO₃",
+        "CaOCl₂",
+        "Ca(OH)₂",
+        "CaCl₂"
+      ],
+      "explanation": "ब्लीचिंग पाउडर = कैल्शियम ऑक्सीक्लोराइड (CaOCl₂)।"
+    }
+  },
+  {
+    "id": "gdsc-0088",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Washing soda formula:",
+      "options": [
+        "NaHCO₃",
+        "NaOH",
+        "NaCl",
+        "Na₂CO₃·10H₂O"
+      ],
+      "explanation": "Washing soda = Sodium carbonate decahydrate."
+    },
+    "hi": {
+      "question": "धोने का सोडा सूत्र:",
+      "options": [
+        "NaHCO₃",
+        "NaOH",
+        "NaCl",
+        "Na₂CO₃·10H₂O"
+      ],
+      "explanation": "धोने का सोडा = सोडियम कार्बोनेट डेकाहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0089",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Plaster of Paris formula:",
+      "options": [
+        "Ca(OH)₂",
+        "CaO",
+        "CaSO₄·½H₂O",
+        "CaCO₃"
+      ],
+      "explanation": "Plaster of Paris = Calcium sulphate hemihydrate."
+    },
+    "hi": {
+      "question": "प्लास्टर ऑफ पेरिस:",
+      "options": [
+        "Ca(OH)₂",
+        "CaO",
+        "CaSO₄·½H₂O",
+        "CaCO₃"
+      ],
+      "explanation": "प्लास्टर ऑफ पेरिस = कैल्शियम सल्फेट हेमीहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0090",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Vinegar contains:",
+      "options": [
+        "Lactic acid",
+        "Acetic acid",
+        "Oxalic acid",
+        "Citric acid"
+      ],
+      "explanation": "Vinegar = 5-8% acetic acid (CH₃COOH)."
+    },
+    "hi": {
+      "question": "सिरके में होता है:",
+      "options": [
+        "Lactic acid",
+        "Acetic acid",
+        "Oxalic acid",
+        "Citric acid"
+      ],
+      "explanation": "सिरका = 5-8% एसिटिक अम्ल (CH₃COOH)।"
+    }
+  },
+  {
+    "id": "gdsc-0091",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Acids taste:",
+      "options": [
+        "Salty",
+        "Sour",
+        "Bitter",
+        "Sweet"
+      ],
+      "explanation": "Acids have sour taste (e.g., lemon, vinegar)."
+    },
+    "hi": {
+      "question": "अम्ल का स्वाद?",
+      "options": [
+        "Salty",
+        "Sour",
+        "Bitter",
+        "Sweet"
+      ],
+      "explanation": "अम्ल का स्वाद खट्टा होता है (जैसे नींबू, सिरका)।"
+    }
+  },
+  {
+    "id": "gdsc-0092",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bases taste:",
+      "options": [
+        "Salty",
+        "Sweet",
+        "Sour",
+        "Bitter"
+      ],
+      "explanation": "Bases taste bitter (e.g., soap, baking soda)."
+    },
+    "hi": {
+      "question": "क्षार का स्वाद?",
+      "options": [
+        "Salty",
+        "Sweet",
+        "Sour",
+        "Bitter"
+      ],
+      "explanation": "क्षार कड़वे होते हैं (जैसे साबुन, बेकिंग सोडा)।"
+    }
+  },
+  {
+    "id": "gdsc-0093",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "pH of pure water is:",
+      "options": [
+        "1",
+        "0",
+        "7",
+        "14"
+      ],
+      "explanation": "Pure water is neutral: pH = 7."
+    },
+    "hi": {
+      "question": "शुद्ध पानी का pH:",
+      "options": [
+        "1",
+        "0",
+        "7",
+        "14"
+      ],
+      "explanation": "शुद्ध पानी उदासीन होता है: pH = 7।"
+    }
+  },
+  {
+    "id": "gdsc-0094",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "pH of stomach acid:",
+      "options": [
+        "1-2",
+        "13-14",
+        "5-6",
+        "7"
+      ],
+      "explanation": "Stomach produces HCl: pH 1-2 for digestion."
+    },
+    "hi": {
+      "question": "आमाशय अम्ल का pH:",
+      "options": [
+        "1-2",
+        "13-14",
+        "5-6",
+        "7"
+      ],
+      "explanation": "आमाशय HCl उत्पन्न करता है: पाचन के लिए pH 1-2।"
+    }
+  },
+  {
+    "id": "gdsc-0095",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which indicator turns red in acid?",
+      "options": [
+        "Blue litmus",
+        "Turmeric",
+        "Phenolphthalein",
+        "Red litmus"
+      ],
+      "explanation": "Blue litmus turns red in acidic solutions."
+    },
+    "hi": {
+      "question": "अम्ल में कौन सा सूचक लाल होता है?",
+      "options": [
+        "Blue litmus",
+        "Turmeric",
+        "Phenolphthalein",
+        "Red litmus"
+      ],
+      "explanation": "नीला लिटमस अम्लीय विलयनों में लाल हो जाता है।"
+    }
+  },
+  {
+    "id": "gdsc-0096",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Baking soda is:",
+      "options": [
+        "NaOH",
+        "NaHCO₃",
+        "NaCl",
+        "CaCO₃"
+      ],
+      "explanation": "Baking soda = Sodium bicarbonate (NaHCO₃)."
+    },
+    "hi": {
+      "question": "बेकिंग सोडा है:",
+      "options": [
+        "NaOH",
+        "NaHCO₃",
+        "NaCl",
+        "CaCO₃"
+      ],
+      "explanation": "बेकिंग सोडा = सोडियम बाइकार्बोनेट (NaHCO₃)।"
+    }
+  },
+  {
+    "id": "gdsc-0097",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bleaching powder formula:",
+      "options": [
+        "Ca(OH)₂",
+        "CaCl₂",
+        "CaCO₃",
+        "CaOCl₂"
+      ],
+      "explanation": "Bleaching powder = Calcium oxychloride (CaOCl₂)."
+    },
+    "hi": {
+      "question": "ब्लीचिंग पाउडर सूत्र:",
+      "options": [
+        "Ca(OH)₂",
+        "CaCl₂",
+        "CaCO₃",
+        "CaOCl₂"
+      ],
+      "explanation": "ब्लीचिंग पाउडर = कैल्शियम ऑक्सीक्लोराइड (CaOCl₂)।"
+    }
+  },
+  {
+    "id": "gdsc-0098",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Washing soda formula:",
+      "options": [
+        "NaHCO₃",
+        "NaOH",
+        "NaCl",
+        "Na₂CO₃·10H₂O"
+      ],
+      "explanation": "Washing soda = Sodium carbonate decahydrate."
+    },
+    "hi": {
+      "question": "धोने का सोडा सूत्र:",
+      "options": [
+        "NaHCO₃",
+        "NaOH",
+        "NaCl",
+        "Na₂CO₃·10H₂O"
+      ],
+      "explanation": "धोने का सोडा = सोडियम कार्बोनेट डेकाहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0099",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Plaster of Paris formula:",
+      "options": [
+        "Ca(OH)₂",
+        "CaCO₃",
+        "CaSO₄·½H₂O",
+        "CaO"
+      ],
+      "explanation": "Plaster of Paris = Calcium sulphate hemihydrate."
+    },
+    "hi": {
+      "question": "प्लास्टर ऑफ पेरिस:",
+      "options": [
+        "Ca(OH)₂",
+        "CaCO₃",
+        "CaSO₄·½H₂O",
+        "CaO"
+      ],
+      "explanation": "प्लास्टर ऑफ पेरिस = कैल्शियम सल्फेट हेमीहाइड्रेट।"
+    }
+  },
+  {
+    "id": "gdsc-0100",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Vinegar contains:",
+      "options": [
+        "Lactic acid",
         "Citric acid",
-        "Methanoic acid (formic acid)",
-        "Lactic acid"
+        "Oxalic acid",
+        "Acetic acid"
       ],
-      "explanation": "Nettle leaves inject formic (methanoic) acid causing irritation."
+      "explanation": "Vinegar = 5-8% acetic acid (CH₃COOH)."
     },
     "hi": {
-      "question": "बिच्छू बूटी के डंक में:",
+      "question": "सिरके में होता है:",
       "options": [
-        "एसिटिक",
-        "साइट्रिक",
-        "मिथेनॉइक (फॉर्मिक) अम्ल",
-        "लैक्टिक"
+        "Lactic acid",
+        "Citric acid",
+        "Oxalic acid",
+        "Acetic acid"
       ],
-      "explanation": "फॉर्मिक अम्ल से जलन।"
+      "explanation": "सिरका = 5-8% एसिटिक अम्ल (CH₃COOH)।"
     }
-  },
-  {
-    "id": "gdscabs-0031",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Water of crystallisation of CuSO₄·5H₂O:",
-      "options": [
-        "5",
-        "2",
-        "7",
-        "10"
-      ],
-      "explanation": "Blue vitriol (CuSO₄·5H₂O) has 5 water molecules."
-    },
-    "hi": {
-      "question": "CuSO₄·5H₂O में क्रिस्टलन जल:",
-      "options": [
-        "5",
-        "2",
-        "7",
-        "10"
-      ],
-      "explanation": "नीला थोथा: 5 जल अणु।"
-    }
-  },
-  {
-    "id": "gdscabs-0032",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Tooth decay starts when pH of mouth goes below:",
-      "options": [
-        "7.0",
-        "6.5",
-        "6.0",
-        "5.5"
-      ],
-      "explanation": "pH < 5.5 → acid produced by bacteria dissolves enamel."
-    },
-    "hi": {
-      "question": "दंत क्षय तब जब मुंह का pH:",
-      "options": [
-        "7.0",
-        "6.5",
-        "6.0",
-        "5.5 से नीचे"
-      ],
-      "explanation": "जीवाणु द्वारा अम्ल इनेमल घोलता है।"
-    }
-  },
-  {
-    "id": "gdscabs-0033",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Indicators are substances that change ___ in acid/base:",
-      "options": [
-        "Temperature",
-        "Colour",
-        "Taste",
-        "Weight"
-      ],
-      "explanation": "Indicators (litmus, phenolphthalein, methyl orange) change color."
-    },
-    "hi": {
-      "question": "सूचक वे पदार्थ जो अम्ल/क्षार में ___ बदलते हैं:",
-      "options": [
-        "तापमान",
-        "रंग",
-        "स्वाद",
-        "भार"
-      ],
-      "explanation": "लिटमस, फिनॉल्फ्थलीन रंग बदलते हैं।"
-    }
-  },
-  {
-    "id": "gdscabs-0034",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Acids produce ___ ions in water:",
-      "options": [
-        "OH⁻",
-        "O²⁻",
-        "H⁺ (or H₃O⁺)",
-        "Cl⁻"
-      ],
-      "explanation": "Arrhenius: acid gives H⁺ (proton) in aqueous solution."
-    },
-    "hi": {
-      "question": "अम्ल जल में ___ आयन देते हैं:",
-      "options": [
-        "OH⁻",
-        "O²⁻",
-        "H⁺ (या H₃O⁺)",
-        "Cl⁻"
-      ],
-      "explanation": "अरहीनियस: अम्ल H⁺ देता है।"
-    }
-  },
-  {
-    "id": "gdscabs-0035",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Bases produce ___ ions in water:",
-      "options": [
-        "OH⁻",
-        "H⁺",
-        "Na⁺",
-        "Cl⁻"
-      ],
-      "explanation": "Arrhenius: base gives OH⁻ (hydroxide) in aqueous solution."
-    },
-    "hi": {
-      "question": "क्षार जल में ___ आयन देते हैं:",
-      "options": [
-        "OH⁻",
-        "H⁺",
-        "Na⁺",
-        "Cl⁻"
-      ],
-      "explanation": "क्षार OH⁻ देता है।"
-    }
-  },
-  {
-    "id": "gdscabs-0036",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Which is amphoteric?",
-      "options": [
-        "HCl",
-        "NaOH",
-        "NaCl",
-        "Al₂O₃ (aluminium oxide)"
-      ],
-      "explanation": "Amphoteric: reacts with both acid and base (Al₂O₃, ZnO)."
-    },
-    "hi": {
-      "question": "उभयधर्मी कौन:",
-      "options": [
-        "HCl",
-        "NaOH",
-        "NaCl",
-        "Al₂O₃"
-      ],
-      "explanation": "Al₂O₃, ZnO: दोनों से अभिक्रिया।"
-    }
-  },
-  {
-    "id": "gdscabs-0037",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "pH of milk of magnesia:",
-      "options": [
-        "~3",
-        "~10",
-        "~7",
-        "~2"
-      ],
-      "explanation": "Milk of magnesia = Mg(OH)₂ suspension → pH ~10 (basic)."
-    },
-    "hi": {
-      "question": "मिल्क ऑफ मैग्नीशिया का pH:",
-      "options": [
-        "~3",
-        "~10",
-        "~7",
-        "~2"
-      ],
-      "explanation": "Mg(OH)₂ क्षारीय, pH ~10।"
-    }
-  },
-  {
-    "id": "gdscabs-0038",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Pickle (achaar) does not spoil because of:",
-      "options": [
-        "Sugar",
-        "Salt only",
-        "Acid (vinegar) + salt preserves",
-        "Oil only"
-      ],
-      "explanation": "Acid + salt prevent microbial growth in pickles."
-    },
-    "hi": {
-      "question": "अचार खराब नहीं होता:",
-      "options": [
-        "चीनी",
-        "केवल नमक",
-        "अम्ल (सिरका) + नमक",
-        "केवल तेल"
-      ],
-      "explanation": "अम्ल + नमक जीवाणु रोकते हैं।"
-    }
-  },
-  {
-    "id": "gdscabs-0039",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Universal indicator gives ___ in neutral solution:",
-      "options": [
-        "Green",
-        "Red",
-        "Blue",
-        "Purple"
-      ],
-      "explanation": "Universal indicator: green at pH 7 (neutral)."
-    },
-    "hi": {
-      "question": "उदासीन विलयन में सार्वत्रिक सूचक:",
-      "options": [
-        "हरा",
-        "लाल",
-        "नीला",
-        "बैंगनी"
-      ],
-      "explanation": "pH 7 पर हरा।"
-    }
-  },
-  {
-    "id": "gdscabs-0040",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Weak acid example:",
-      "options": [
-        "HCl",
-        "H₂SO₄",
-        "HNO₃",
-        "CH₃COOH (acetic acid)"
-      ],
-      "explanation": "Acetic acid partially dissociates (weak). HCl, H₂SO₄, HNO₃ are strong."
-    },
-    "hi": {
-      "question": "दुर्बल अम्ल:",
-      "options": [
-        "HCl",
-        "H₂SO₄",
-        "HNO₃",
-        "CH₃COOH (एसिटिक)"
-      ],
-      "explanation": "एसिटिक आंशिक वियोजन।"
-    }
-  },
-  {
-    "id": "gdscabs-0041",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Water of crystallisation of Na₂CO₃·10H₂O:",
-      "options": [
-        "5",
-        "10",
-        "2",
-        "7"
-      ],
-      "explanation": "Washing soda (Na₂CO₃·10H₂O) has 10 water molecules."
-    },
-    "hi": {
-      "question": "Na₂CO₃·10H₂O का क्रिस्टलन जल:",
-      "options": [
-        "5",
-        "10",
-        "2",
-        "7"
-      ],
-      "explanation": "धोने का सोडा: 10 जल अणु।"
-    }
-  },
-  {
-    "id": "gdscabs-0042",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "A solution with pH 9 is:",
-      "options": [
-        "Acidic",
-        "Neutral",
-        "Basic",
-        "Amphoteric"
-      ],
-      "explanation": "pH > 7 → basic/alkaline."
-    },
-    "hi": {
-      "question": "pH 9 विलयन:",
-      "options": [
-        "अम्लीय",
-        "उदासीन",
-        "क्षारीय",
-        "उभयधर्मी"
-      ],
-      "explanation": "pH>7 → क्षारीय।"
-    }
-  },
-  {
-    "id": "gdscabs-0043",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Chlor-alkali process produces:",
-      "options": [
-        "NaOH, Cl₂, H₂",
-        "NaCl, H₂O",
-        "Only NaOH",
-        "CaOCl₂"
-      ],
-      "explanation": "Electrolysis of brine (NaCl): 2NaCl+2H₂O→2NaOH+Cl₂+H₂."
-    },
-    "hi": {
-      "question": "क्लोर-क्षार प्रक्रम उत्पाद:",
-      "options": [
-        "NaOH, Cl₂, H₂",
-        "NaCl, H₂O",
-        "केवल NaOH",
-        "CaOCl₂"
-      ],
-      "explanation": "नमकीन का विद्युत अपघटन।"
-    }
-  },
-  {
-    "id": "gdscabs-0044",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Strong base example:",
-      "options": [
-        "NH₄OH",
-        "Mg(OH)₂",
-        "Al(OH)₃",
-        "NaOH"
-      ],
-      "explanation": "NaOH, KOH fully dissociate → strong bases."
-    },
-    "hi": {
-      "question": "प्रबल क्षार:",
-      "options": [
-        "NH₄OH",
-        "Mg(OH)₂",
-        "Al(OH)₃",
-        "NaOH"
-      ],
-      "explanation": "NaOH, KOH पूर्ण वियोजन।"
-    }
-  },
-  {
-    "id": "gdscabs-0045",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "pH of a solution changes from 5 to 3. [H⁺] increases by factor:",
-      "options": [
-        "2",
-        "100",
-        "10",
-        "1000"
-      ],
-      "explanation": "ΔpH=2 → [H⁺] ratio=10²=100 times more acidic."
-    },
-    "hi": {
-      "question": "pH 5→3, [H⁺] कितने गुना बढ़ा:",
-      "options": [
-        "2",
-        "100",
-        "10",
-        "1000"
-      ],
-      "explanation": "10² = 100 गुना।"
-    }
-  },
-  {
-    "id": "gdscabs-0046",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Acetic acid is found in:",
-      "options": [
-        "Lemon",
-        "Curd",
-        "Vinegar",
-        "Nettle"
-      ],
-      "explanation": "Vinegar = 5-8% acetic acid."
-    },
-    "hi": {
-      "question": "एसिटिक अम्ल पाया जाता है:",
-      "options": [
-        "नींबू",
-        "दही",
-        "सिरका",
-        "बिच्छू बूटी"
-      ],
-      "explanation": "सिरका।"
-    }
-  },
-  {
-    "id": "gdscabs-0047",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Acid rain is mainly due to:",
-      "options": [
-        "SO₂ and NOₓ",
-        "CO₂",
-        "O₂",
-        "N₂"
-      ],
-      "explanation": "SO₂ + NOₓ dissolve in rain → H₂SO₄ + HNO₃ (acid rain)."
-    },
-    "hi": {
-      "question": "अम्ल वर्षा मुख्यतः:",
-      "options": [
-        "SO₂ और NOₓ",
-        "CO₂",
-        "O₂",
-        "N₂"
-      ],
-      "explanation": "SO₂ + NOₓ।"
-    }
-  },
-  {
-    "id": "gdscabs-0048",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "pH of lemon juice is about:",
-      "options": [
-        "7",
-        "8",
-        "5",
-        "2.2"
-      ],
-      "explanation": "Lemon juice is highly acidic (citric acid) → pH ~2.2."
-    },
-    "hi": {
-      "question": "नींबू रस का pH:",
-      "options": [
-        "7",
-        "8",
-        "5",
-        "2.2"
-      ],
-      "explanation": "साइट्रिक अम्ल, अत्यधिक अम्लीय।"
-    }
-  },
-  {
-    "id": "gdscabs-0049",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Olfactory indicators change:",
-      "options": [
-        "Colour",
-        "Smell/Odour",
-        "State",
-        "pH"
-      ],
-      "explanation": "Olfactory: e.g., onion, vanilla, clove oil — smell changes in acid/base."
-    },
-    "hi": {
-      "question": "घ्राण सूचक बदलते हैं:",
-      "options": [
-        "रंग",
-        "गंध",
-        "अवस्था",
-        "pH"
-      ],
-      "explanation": "प्याज, वैनिला, लौंग तेल।"
-    }
-  },
-  {
-    "id": "gdscabs-0050",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Brass is an alloy of:",
-      "options": [
-        "Fe, C",
-        "Cu, Sn",
-        "Cu, Zn",
-        "Al, Cu"
-      ],
-      "explanation": "Brass = copper (Cu) + zinc (Zn)."
-    },
-    "hi": {
-      "question": "पीतल मिश्रधातु:",
-      "options": [
-        "Fe, C",
-        "Cu, Sn",
-        "Cu, Zn",
-        "Al, Cu"
-      ],
-      "explanation": "Cu + Zn।"
-    }
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 24 × 18?",
-      "options": [
-        "439",
-        "432",
-        "428",
-        "42"
-      ],
-      "explanation": "24×18 = 432."
-    },
-    "hi": {
-      "question": "24 × 18 = ?",
-      "options": [
-        "439",
-        "432",
-        "428",
-        "42"
-      ],
-      "explanation": "24×18 = 432।"
-    },
-    "id": "gdscabs-0051"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 48 × 3?",
-      "options": [
-        "147",
-        "144",
-        "138",
-        "51"
-      ],
-      "explanation": "48×3 = 144."
-    },
-    "hi": {
-      "question": "48 × 3 = ?",
-      "options": [
-        "147",
-        "144",
-        "138",
-        "51"
-      ],
-      "explanation": "48×3 = 144।"
-    },
-    "id": "gdscabs-0052"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 49 × 8?",
-      "options": [
-        "392",
-        "396",
-        "384",
-        "57"
-      ],
-      "explanation": "49×8 = 392."
-    },
-    "hi": {
-      "question": "49 × 8 = ?",
-      "options": [
-        "392",
-        "396",
-        "384",
-        "57"
-      ],
-      "explanation": "49×8 = 392।"
-    },
-    "id": "gdscabs-0053"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 31 × 24?",
-      "options": [
-        "732",
-        "750",
-        "55",
-        "744"
-      ],
-      "explanation": "31×24 = 744."
-    },
-    "hi": {
-      "question": "31 × 24 = ?",
-      "options": [
-        "732",
-        "750",
-        "55",
-        "744"
-      ],
-      "explanation": "31×24 = 744।"
-    },
-    "id": "gdscabs-0054"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 8 × 32?",
-      "options": [
-        "250",
-        "40",
-        "275",
-        "256"
-      ],
-      "explanation": "8×32 = 256."
-    },
-    "hi": {
-      "question": "8 × 32 = ?",
-      "options": [
-        "250",
-        "40",
-        "275",
-        "256"
-      ],
-      "explanation": "8×32 = 256।"
-    },
-    "id": "gdscabs-0055"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 43 × 16?",
-      "options": [
-        "693",
-        "59",
-        "688",
-        "683"
-      ],
-      "explanation": "43×16 = 688."
-    },
-    "hi": {
-      "question": "43 × 16 = ?",
-      "options": [
-        "693",
-        "59",
-        "688",
-        "683"
-      ],
-      "explanation": "43×16 = 688।"
-    },
-    "id": "gdscabs-0056"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 17 × 31?",
-      "options": [
-        "514",
-        "544",
-        "48",
-        "527"
-      ],
-      "explanation": "17×31 = 527."
-    },
-    "hi": {
-      "question": "17 × 31 = ?",
-      "options": [
-        "514",
-        "544",
-        "48",
-        "527"
-      ],
-      "explanation": "17×31 = 527।"
-    },
-    "id": "gdscabs-0057"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 32 × 33?",
-      "options": [
-        "1041",
-        "1076",
-        "65",
-        "1056"
-      ],
-      "explanation": "32×33 = 1056."
-    },
-    "hi": {
-      "question": "32 × 33 = ?",
-      "options": [
-        "1041",
-        "1076",
-        "65",
-        "1056"
-      ],
-      "explanation": "32×33 = 1056।"
-    },
-    "id": "gdscabs-0058"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 20 × 16?",
-      "options": [
-        "320",
-        "318",
-        "36",
-        "322"
-      ],
-      "explanation": "20×16 = 320."
-    },
-    "hi": {
-      "question": "20 × 16 = ?",
-      "options": [
-        "320",
-        "318",
-        "36",
-        "322"
-      ],
-      "explanation": "20×16 = 320।"
-    },
-    "id": "gdscabs-0059"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 18 × 7?",
-      "options": [
-        "114",
-        "126",
-        "127",
-        "25"
-      ],
-      "explanation": "18×7 = 126."
-    },
-    "hi": {
-      "question": "18 × 7 = ?",
-      "options": [
-        "114",
-        "126",
-        "127",
-        "25"
-      ],
-      "explanation": "18×7 = 126।"
-    },
-    "id": "gdscabs-0060"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 13 × 12?",
-      "options": [
-        "156",
-        "25",
-        "147",
-        "168"
-      ],
-      "explanation": "13×12 = 156."
-    },
-    "hi": {
-      "question": "13 × 12 = ?",
-      "options": [
-        "156",
-        "25",
-        "147",
-        "168"
-      ],
-      "explanation": "13×12 = 156।"
-    },
-    "id": "gdscabs-0061"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 37 × 18?",
-      "options": [
-        "651",
-        "666",
-        "672",
-        "55"
-      ],
-      "explanation": "37×18 = 666."
-    },
-    "hi": {
-      "question": "37 × 18 = ?",
-      "options": [
-        "651",
-        "666",
-        "672",
-        "55"
-      ],
-      "explanation": "37×18 = 666।"
-    },
-    "id": "gdscabs-0062"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 7 × 21?",
-      "options": [
-        "152",
-        "28",
-        "147",
-        "143"
-      ],
-      "explanation": "7×21 = 147."
-    },
-    "hi": {
-      "question": "7 × 21 = ?",
-      "options": [
-        "152",
-        "28",
-        "147",
-        "143"
-      ],
-      "explanation": "7×21 = 147।"
-    },
-    "id": "gdscabs-0063"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 11 × 9?",
-      "options": [
-        "99",
-        "20",
-        "87",
-        "115"
-      ],
-      "explanation": "11×9 = 99."
-    },
-    "hi": {
-      "question": "11 × 9 = ?",
-      "options": [
-        "99",
-        "20",
-        "87",
-        "115"
-      ],
-      "explanation": "11×9 = 99।"
-    },
-    "id": "gdscabs-0064"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 47 × 11?",
-      "options": [
-        "517",
-        "58",
-        "537",
-        "505"
-      ],
-      "explanation": "47×11 = 517."
-    },
-    "hi": {
-      "question": "47 × 11 = ?",
-      "options": [
-        "517",
-        "58",
-        "537",
-        "505"
-      ],
-      "explanation": "47×11 = 517।"
-    },
-    "id": "gdscabs-0065"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 8 × 17?",
-      "options": [
-        "25",
-        "123",
-        "136",
-        "147"
-      ],
-      "explanation": "8×17 = 136."
-    },
-    "hi": {
-      "question": "8 × 17 = ?",
-      "options": [
-        "25",
-        "123",
-        "136",
-        "147"
-      ],
-      "explanation": "8×17 = 136।"
-    },
-    "id": "gdscabs-0066"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 42 × 39?",
-      "options": [
-        "1643",
-        "1633",
-        "81",
-        "1638"
-      ],
-      "explanation": "42×39 = 1638."
-    },
-    "hi": {
-      "question": "42 × 39 = ?",
-      "options": [
-        "1643",
-        "1633",
-        "81",
-        "1638"
-      ],
-      "explanation": "42×39 = 1638।"
-    },
-    "id": "gdscabs-0067"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 50 × 28?",
-      "options": [
-        "1400",
-        "1385",
-        "1401",
-        "78"
-      ],
-      "explanation": "50×28 = 1400."
-    },
-    "hi": {
-      "question": "50 × 28 = ?",
-      "options": [
-        "1400",
-        "1385",
-        "1401",
-        "78"
-      ],
-      "explanation": "50×28 = 1400।"
-    },
-    "id": "gdscabs-0068"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 25 × 11?",
-      "options": [
-        "36",
-        "261",
-        "282",
-        "275"
-      ],
-      "explanation": "25×11 = 275."
-    },
-    "hi": {
-      "question": "25 × 11 = ?",
-      "options": [
-        "36",
-        "261",
-        "282",
-        "275"
-      ],
-      "explanation": "25×11 = 275।"
-    },
-    "id": "gdscabs-0069"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 14 × 11?",
-      "options": [
-        "152",
-        "25",
-        "169",
-        "154"
-      ],
-      "explanation": "14×11 = 154."
-    },
-    "hi": {
-      "question": "14 × 11 = ?",
-      "options": [
-        "152",
-        "25",
-        "169",
-        "154"
-      ],
-      "explanation": "14×11 = 154।"
-    },
-    "id": "gdscabs-0071"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 20 × 39?",
-      "options": [
-        "59",
-        "792",
-        "780",
-        "774"
-      ],
-      "explanation": "20×39 = 780."
-    },
-    "hi": {
-      "question": "20 × 39 = ?",
-      "options": [
-        "59",
-        "792",
-        "780",
-        "774"
-      ],
-      "explanation": "20×39 = 780।"
-    },
-    "id": "gdscabs-0072"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 14 × 10?",
-      "options": [
-        "140",
-        "125",
-        "24",
-        "155"
-      ],
-      "explanation": "14×10 = 140."
-    },
-    "hi": {
-      "question": "14 × 10 = ?",
-      "options": [
-        "140",
-        "125",
-        "24",
-        "155"
-      ],
-      "explanation": "14×10 = 140।"
-    },
-    "id": "gdscabs-0073"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 47 × 40?",
-      "options": [
-        "1889",
-        "1867",
-        "87",
-        "1880"
-      ],
-      "explanation": "47×40 = 1880."
-    },
-    "hi": {
-      "question": "47 × 40 = ?",
-      "options": [
-        "1889",
-        "1867",
-        "87",
-        "1880"
-      ],
-      "explanation": "47×40 = 1880।"
-    },
-    "id": "gdscabs-0074"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 37 × 22?",
-      "options": [
-        "814",
-        "829",
-        "59",
-        "809"
-      ],
-      "explanation": "37×22 = 814."
-    },
-    "hi": {
-      "question": "37 × 22 = ?",
-      "options": [
-        "814",
-        "829",
-        "59",
-        "809"
-      ],
-      "explanation": "37×22 = 814।"
-    },
-    "id": "gdscabs-0075"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 18 × 39?",
-      "options": [
-        "714",
-        "702",
-        "57",
-        "692"
-      ],
-      "explanation": "18×39 = 702."
-    },
-    "hi": {
-      "question": "18 × 39 = ?",
-      "options": [
-        "714",
-        "702",
-        "57",
-        "692"
-      ],
-      "explanation": "18×39 = 702।"
-    },
-    "id": "gdscabs-0076"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 11 × 39?",
-      "options": [
-        "50",
-        "429",
-        "415",
-        "446"
-      ],
-      "explanation": "11×39 = 429."
-    },
-    "hi": {
-      "question": "11 × 39 = ?",
-      "options": [
-        "50",
-        "429",
-        "415",
-        "446"
-      ],
-      "explanation": "11×39 = 429।"
-    },
-    "id": "gdscabs-0077"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 19 × 17?",
-      "options": [
-        "338",
-        "319",
-        "323",
-        "36"
-      ],
-      "explanation": "19×17 = 323."
-    },
-    "hi": {
-      "question": "19 × 17 = ?",
-      "options": [
-        "338",
-        "319",
-        "323",
-        "36"
-      ],
-      "explanation": "19×17 = 323।"
-    },
-    "id": "gdscabs-0078"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 23 × 37?",
-      "options": [
-        "845",
-        "851",
-        "857",
-        "60"
-      ],
-      "explanation": "23×37 = 851."
-    },
-    "hi": {
-      "question": "23 × 37 = ?",
-      "options": [
-        "845",
-        "851",
-        "857",
-        "60"
-      ],
-      "explanation": "23×37 = 851।"
-    },
-    "id": "gdscabs-0079"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 30 × 32?",
-      "options": [
-        "960",
-        "978",
-        "947",
-        "62"
-      ],
-      "explanation": "30×32 = 960."
-    },
-    "hi": {
-      "question": "30 × 32 = ?",
-      "options": [
-        "960",
-        "978",
-        "947",
-        "62"
-      ],
-      "explanation": "30×32 = 960।"
-    },
-    "id": "gdscabs-0080"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 42 × 36?",
-      "options": [
-        "1530",
-        "1512",
-        "78",
-        "1499"
-      ],
-      "explanation": "42×36 = 1512."
-    },
-    "hi": {
-      "question": "42 × 36 = ?",
-      "options": [
-        "1530",
-        "1512",
-        "78",
-        "1499"
-      ],
-      "explanation": "42×36 = 1512।"
-    },
-    "id": "gdscabs-0081"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 42 × 34?",
-      "options": [
-        "1418",
-        "76",
-        "1436",
-        "1428"
-      ],
-      "explanation": "42×34 = 1428."
-    },
-    "hi": {
-      "question": "42 × 34 = ?",
-      "options": [
-        "1418",
-        "76",
-        "1436",
-        "1428"
-      ],
-      "explanation": "42×34 = 1428।"
-    },
-    "id": "gdscabs-0082"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 24 × 25?",
-      "options": [
-        "49",
-        "601",
-        "598",
-        "600"
-      ],
-      "explanation": "24×25 = 600."
-    },
-    "hi": {
-      "question": "24 × 25 = ?",
-      "options": [
-        "49",
-        "601",
-        "598",
-        "600"
-      ],
-      "explanation": "24×25 = 600।"
-    },
-    "id": "gdscabs-0083"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 9 × 23?",
-      "options": [
-        "202",
-        "215",
-        "207",
-        "32"
-      ],
-      "explanation": "9×23 = 207."
-    },
-    "hi": {
-      "question": "9 × 23 = ?",
-      "options": [
-        "202",
-        "215",
-        "207",
-        "32"
-      ],
-      "explanation": "9×23 = 207।"
-    },
-    "id": "gdscabs-0084"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 45 × 5?",
-      "options": [
-        "50",
-        "215",
-        "237",
-        "225"
-      ],
-      "explanation": "45×5 = 225."
-    },
-    "hi": {
-      "question": "45 × 5 = ?",
-      "options": [
-        "50",
-        "215",
-        "237",
-        "225"
-      ],
-      "explanation": "45×5 = 225।"
-    },
-    "id": "gdscabs-0085"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 5 × 3?",
-      "options": [
-        "8",
-        "24",
-        "4",
-        "15"
-      ],
-      "explanation": "5×3 = 15."
-    },
-    "hi": {
-      "question": "5 × 3 = ?",
-      "options": [
-        "8",
-        "24",
-        "4",
-        "15"
-      ],
-      "explanation": "5×3 = 15।"
-    },
-    "id": "gdscabs-0086"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 38 × 7?",
-      "options": [
-        "45",
-        "281",
-        "266",
-        "261"
-      ],
-      "explanation": "38×7 = 266."
-    },
-    "hi": {
-      "question": "38 × 7 = ?",
-      "options": [
-        "45",
-        "281",
-        "266",
-        "261"
-      ],
-      "explanation": "38×7 = 266।"
-    },
-    "id": "gdscabs-0087"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 16 × 23?",
-      "options": [
-        "387",
-        "39",
-        "358",
-        "368"
-      ],
-      "explanation": "16×23 = 368."
-    },
-    "hi": {
-      "question": "16 × 23 = ?",
-      "options": [
-        "387",
-        "39",
-        "358",
-        "368"
-      ],
-      "explanation": "16×23 = 368।"
-    },
-    "id": "gdscabs-0088"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 27 × 19?",
-      "options": [
-        "513",
-        "46",
-        "505",
-        "517"
-      ],
-      "explanation": "27×19 = 513."
-    },
-    "hi": {
-      "question": "27 × 19 = ?",
-      "options": [
-        "513",
-        "46",
-        "505",
-        "517"
-      ],
-      "explanation": "27×19 = 513।"
-    },
-    "id": "gdscabs-0089"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 19 × 19?",
-      "options": [
-        "38",
-        "361",
-        "354",
-        "368"
-      ],
-      "explanation": "19×19 = 361."
-    },
-    "hi": {
-      "question": "19 × 19 = ?",
-      "options": [
-        "38",
-        "361",
-        "354",
-        "368"
-      ],
-      "explanation": "19×19 = 361।"
-    },
-    "id": "gdscabs-0090"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 22 × 28?",
-      "options": [
-        "616",
-        "609",
-        "50",
-        "620"
-      ],
-      "explanation": "22×28 = 616."
-    },
-    "hi": {
-      "question": "22 × 28 = ?",
-      "options": [
-        "616",
-        "609",
-        "50",
-        "620"
-      ],
-      "explanation": "22×28 = 616।"
-    },
-    "id": "gdscabs-0091"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 15 × 24?",
-      "options": [
-        "376",
-        "360",
-        "357",
-        "39"
-      ],
-      "explanation": "15×24 = 360."
-    },
-    "hi": {
-      "question": "15 × 24 = ?",
-      "options": [
-        "376",
-        "360",
-        "357",
-        "39"
-      ],
-      "explanation": "15×24 = 360।"
-    },
-    "id": "gdscabs-0092"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 50 × 24?",
-      "options": [
-        "1200",
-        "74",
-        "1219",
-        "1191"
-      ],
-      "explanation": "50×24 = 1200."
-    },
-    "hi": {
-      "question": "50 × 24 = ?",
-      "options": [
-        "1200",
-        "74",
-        "1219",
-        "1191"
-      ],
-      "explanation": "50×24 = 1200।"
-    },
-    "id": "gdscabs-0093"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 31 × 10?",
-      "options": [
-        "310",
-        "301",
-        "41",
-        "319"
-      ],
-      "explanation": "31×10 = 310."
-    },
-    "hi": {
-      "question": "31 × 10 = ?",
-      "options": [
-        "310",
-        "301",
-        "41",
-        "319"
-      ],
-      "explanation": "31×10 = 310।"
-    },
-    "id": "gdscabs-0094"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 8 × 8?",
-      "options": [
-        "16",
-        "76",
-        "61",
-        "64"
-      ],
-      "explanation": "8×8 = 64."
-    },
-    "hi": {
-      "question": "8 × 8 = ?",
-      "options": [
-        "16",
-        "76",
-        "61",
-        "64"
-      ],
-      "explanation": "8×8 = 64।"
-    },
-    "id": "gdscabs-0095"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 11 × 24?",
-      "options": [
-        "251",
-        "35",
-        "264",
-        "273"
-      ],
-      "explanation": "11×24 = 264."
-    },
-    "hi": {
-      "question": "11 × 24 = ?",
-      "options": [
-        "251",
-        "35",
-        "264",
-        "273"
-      ],
-      "explanation": "11×24 = 264।"
-    },
-    "id": "gdscabs-0097"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 15 × 12?",
-      "options": [
-        "27",
-        "168",
-        "187",
-        "180"
-      ],
-      "explanation": "15×12 = 180."
-    },
-    "hi": {
-      "question": "15 × 12 = ?",
-      "options": [
-        "27",
-        "168",
-        "187",
-        "180"
-      ],
-      "explanation": "15×12 = 180।"
-    },
-    "id": "gdscabs-0098"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 18 × 34?",
-      "options": [
-        "616",
-        "612",
-        "52",
-        "607"
-      ],
-      "explanation": "18×34 = 612."
-    },
-    "hi": {
-      "question": "18 × 34 = ?",
-      "options": [
-        "616",
-        "612",
-        "52",
-        "607"
-      ],
-      "explanation": "18×34 = 612।"
-    },
-    "id": "gdscabs-0099"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 36 × 20?",
-      "options": [
-        "712",
-        "56",
-        "720",
-        "723"
-      ],
-      "explanation": "36×20 = 720."
-    },
-    "hi": {
-      "question": "36 × 20 = ?",
-      "options": [
-        "712",
-        "56",
-        "720",
-        "723"
-      ],
-      "explanation": "36×20 = 720।"
-    },
-    "id": "gdscabs-0100"
   }
 ]
