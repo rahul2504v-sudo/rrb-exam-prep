@@ -1,7 +1,7 @@
 'use client'
 
-import { useState, Suspense } from 'react'
-import { signIn } from 'next-auth/react'
+import { useState, Suspense, useEffect } from 'react'
+import { signIn, useSession } from 'next-auth/react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { BookOpen, Mail, Lock, Eye, EyeOff, ArrowRight } from 'lucide-react'
@@ -10,6 +10,14 @@ function LoginForm() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const callbackUrl = searchParams.get('callbackUrl') || '/exam/ntpc'
+  const { data: session, status } = useSession()
+  
+  // Redirect if already signed in
+  useEffect(() => {
+    if (status === 'authenticated') {
+      router.push(callbackUrl)
+    }
+  }, [status, callbackUrl, router])
   
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
