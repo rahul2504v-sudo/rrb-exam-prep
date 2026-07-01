@@ -235,13 +235,13 @@ export default function QuizPage() {
           </div>
           
           <div className="flex items-center gap-4">
-            {isMock || isSectional ? (
+            {(isMock || isSectional) ? (
               <div className={`flex items-center gap-1.5 font-mono font-bold text-lg
                 ${timeLeft < 300 ? 'text-red-600 timer-warning' : 'text-gray-900'}`}>
                 <Clock className="w-5 h-5" />
                 {formatTime(timeLeft)}
               </div>
-            )}
+            ) : null}
             
             <div className="text-sm text-gray-500">
               {answeredCount}/{questions.length} {t('answered')}
