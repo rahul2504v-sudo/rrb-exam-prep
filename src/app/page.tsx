@@ -24,12 +24,12 @@ export default function HomePage() {
       .catch(() => setBulletin([]));
   }, []);
 
-  const fallbackBulletin = [
-    { name: 'RRB Group D Level 1 CBT', date: 'August 2026', vacancies: '22,195', status: 'Upcoming' },
-    { name: 'RRB NTPC CBT 2 (Graduate)', date: 'July 2026', vacancies: '5,810', status: 'Ongoing' },
-    { name: 'RRB NTPC CBT 2 (UG Level)', date: 'September 2026', vacancies: '3,058', status: 'Upcoming' },
-    { name: 'SSC CGL Tier 2 2026', date: 'October 2026', vacancies: '~8,000', status: 'Upcoming' },
-    { name: 'IBPS PO 2026 Prelims', date: 'October 2026', vacancies: '~5,000', status: 'Expected' },
+  const fallbackBulletin: BulletinItem[] = [
+    { name: 'RRB Group D Level 1 CBT', date: 'August 2026', vacancies: '22,195', status: 'Upcoming', url: 'https://www.rrbcdg.gov.in/' },
+    { name: 'RRB NTPC CBT 2 (Graduate)', date: 'July 2026', vacancies: '5,810', status: 'Ongoing', url: 'https://www.rrbcdg.gov.in/' },
+    { name: 'RRB NTPC CBT 2 (UG Level)', date: 'September 2026', vacancies: '3,058', status: 'Upcoming', url: 'https://www.rrbcdg.gov.in/' },
+    { name: 'SSC CGL Tier 2 2026', date: 'October 2026', vacancies: '~8,000', status: 'Upcoming', url: 'https://ssc.nic.in/' },
+    { name: 'IBPS PO 2026 Prelims', date: 'October 2026', vacancies: '~5,000', status: 'Expected', url: 'https://www.ibps.in/' },
   ];
 
   const displayBulletin = bulletin.length > 0 ? bulletin : fallbackBulletin;
@@ -89,7 +89,7 @@ export default function HomePage() {
                   'bg-blue-500'
                 }`} />
                 <div className="min-w-0 flex-1">
-                  <p className="text-sm font-medium text-gray-800 group-hover:text-indigo-700 transition-colors line-clamp-2">
+                  <p className="text-sm font-medium text-gray-800 group-hover:text-indigo-700 transition-colors truncate">
                     {item.name}
                   </p>
                   <div className="flex items-center gap-2 mt-1.5">
