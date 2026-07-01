@@ -7,7 +7,7 @@ import Credentials from "next-auth/providers/credentials"
 // For MVP, we store hashed passwords in a simple object
 const users: Record<string, { email: string; password: string; name: string }> = {
   // Default test user
-  "test@prepxcore.com": { email: "test@prepxcore.com", password: "test123", name: "Test User" }
+  "test@prepXcore.com": { email: "test@prepXcore.com", password: "test123", name: "Test User" }
 }
 
 export const { handlers, signIn, signOut, auth } = NextAuth({

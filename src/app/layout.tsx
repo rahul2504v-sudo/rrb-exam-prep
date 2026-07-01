@@ -9,11 +9,11 @@ import { SessionProvider } from '@/components/layout/SessionProvider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'PrepxCore — Free Exam Mock Tests & Practice',
+  title: 'prepXcore — Free Exam Mock Tests & Practice',
   description: 'Free topic-wise practice and full-length mock tests for competitive exams. RRB NTPC, Group D, and more. 10,000+ bilingual questions with detailed explanations.',
   manifest: '/manifest.json',
   icons: { icon: '/favicon.svg', apple: '/icon-192.svg' },
-  appleWebApp: { capable: true, title: 'PrepxCore', statusBarStyle: 'default' },
+  appleWebApp: { capable: true, title: 'prepXcore', statusBarStyle: 'default' },
 };
 
 export const viewport: Viewport = {

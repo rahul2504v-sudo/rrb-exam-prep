@@ -44,7 +44,7 @@ export default function LoginPage() {
         <div className="text-center mb-8">
           <Link href="/" className="inline-flex items-center gap-2">
             <BookOpen className="w-8 h-8 text-indigo-600" />
-            <span className="text-2xl font-bold text-gray-900">PrepxCore</span>
+            <span className="text-2xl font-bold text-gray-900">prepXcore</span>
           </Link>
           <p className="text-gray-500 mt-2">Practice smarter, score higher</p>
         </div>

@@ -22,7 +22,7 @@ export function Navbar() {
         <div className="flex items-center gap-6">
           <Link href="/" className="flex items-center gap-2 font-bold text-lg text-gray-900">
             <BookOpen className="w-6 h-6 text-indigo-600" />
-            <span className="hidden sm:inline">PrepxCore</span>
+            <span className="hidden sm:inline">prepXcore</span>
           </Link>
           <div className="hidden md:flex items-center gap-1">
             <Link href="/" className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${isActive('/exam') || pathname === '/' ? 'text-indigo-600 bg-indigo-50 font-medium' : 'text-gray-600 hover:text-indigo-600'}`}>

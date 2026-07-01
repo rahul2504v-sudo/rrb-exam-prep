@@ -27,7 +27,7 @@ type Translations = Record<TranslationKey, string>;
 export const translations: Record<string, Translations> = {
   en: {
     home: 'Home', exams: 'Exams', ntpc: 'NTPC', groupD: 'Group D', results: 'Results',
-    appName: 'PrepxCore',
+    appName: 'prepXcore',
     heroTitle: 'RRB Exam Preparation', heroSubtitle: 'NTPC & Group D 2026',
     heroDesc: 'Free mock tests, topic-wise practice, and detailed explanations. Built from actual syllabus and previous year patterns.',
     tagQuestions: '10,000+ Questions', tagMocks: 'Full-Length Mocks',
