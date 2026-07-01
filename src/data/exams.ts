@@ -113,7 +113,8 @@ const gdScience: Subject = {
   slug: 'general-science',
   topics: [
     // Physics
-    { id: 'group-d-science-physics',            name: 'Physics: Motion, Force & Laws',       slug: 'physics',            questionCount: 0 },
+    { id: 'group-d-science-physics-motion',      name: 'Physics: Motion',                     slug: 'physics-motion',      questionCount: 0 },
+    { id: 'group-d-science-physics-force-laws',  name: 'Physics: Force & Laws',               slug: 'physics-force-laws',  questionCount: 0 },
     { id: 'group-d-science-work-energy-power',  name: 'Physics: Work Energy Power',          slug: 'work-energy-power',  questionCount: 0 },
     { id: 'group-d-science-gravitation',        name: 'Physics: Gravitation',                slug: 'gravitation',        questionCount: 0 },
     { id: 'group-d-science-sound',              name: 'Physics: Sound',                      slug: 'sound',              questionCount: 0 },
