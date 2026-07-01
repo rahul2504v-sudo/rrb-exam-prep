@@ -1,17 +1,26 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { examList } from '@/data/exams';
-import { BookOpen, Clock, ArrowRight, Play, Target, AlertCircle } from 'lucide-react';
+import { BookOpen, Clock, ArrowRight, Play, Target, AlertCircle, RotateCcw, Eye } from 'lucide-react';
 import { useLanguage } from '@/lib/LanguageContext';
 import { Subject } from '@/types';
+import { getSessions } from '@/lib/storage';
+import { formatTime } from '@/lib/utils';
 
 export default function ExamPage() {
   const params = useParams();
   const slug = params.slug as string;
   const exam = examList.find(e => e.slug === slug);
   const { t } = useLanguage();
+  const [sectionalTests, setSectionalTests] = useState<any[]>([]);
+
+  useEffect(() => {
+    const sessions = getSessions();
+    setSectionalTests(sessions.filter(s => s.testType === 'sectional' && s.examId === exam?.id));
+  }, [exam]);
 
   if (!exam) {
     return (
@@ -59,13 +68,21 @@ export default function ExamPage() {
 
           {exam.subjects.map((subject: Subject) => (
             <div key={subject.id} className="card">
-              <h3 className="font-bold text-lg text-gray-900 mb-4 flex items-center gap-2">
-                <BookOpen className="w-5 h-5 text-rail-navy" />
-                {subject.name}
-                <span className="text-sm font-normal text-gray-500">
-                  ({subject.topics.length} {t('topics')})
-                </span>
-              </h3>
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="font-bold text-lg text-gray-900 flex items-center gap-2">
+                  <BookOpen className="w-5 h-5 text-rail-navy" />
+                  {subject.name}
+                  <span className="text-sm font-normal text-gray-500">
+                    ({subject.topics.length} {t('topics')})
+                  </span>
+                </h3>
+                <Link
+                  href={`/quiz/${exam.slug}/sectional/${subject.id}`}
+                  className="flex items-center gap-1 px-3 py-1.5 text-xs font-semibold bg-green-50 text-green-700 rounded-lg hover:bg-green-100 transition-colors"
+                >
+                  <Play className="w-3 h-3" /> 10Q Set
+                </Link>
+              </div>
               <div className="grid sm:grid-cols-2 gap-2">
                 {subject.topics.map((topic) => (
                     <Link key={topic.id} href={`/quiz/${exam.slug}/topic/${topic.id}`}
@@ -82,6 +99,46 @@ export default function ExamPage() {
               </div>
             </div>
           ))}
+
+          {/* Sectional Test History */}
+          {sectionalTests.length > 0 && (
+            <div className="card">
+              <h3 className="font-bold text-lg text-gray-900 mb-4 flex items-center gap-2">
+                <RotateCcw className="w-5 h-5 text-rail-navy" />
+                Your Sectional Tests
+              </h3>
+              <div className="space-y-2">
+                {sectionalTests.slice(0, 10).map(st => {
+                  const pct = Math.round((st.correctAnswers / st.totalQuestions) * 100);
+                  return (
+                    <div key={st.id} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                      <div>
+                        <span className="text-sm font-medium text-gray-700">{st.testName}</span>
+                        <span className="text-xs text-gray-400 ml-2">
+                          {new Date(st.completedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <span className={`text-sm font-bold ${pct >= 70 ? 'text-green-600' : pct >= 40 ? 'text-yellow-600' : 'text-red-600'}`}>
+                          {st.correctAnswers}/{st.totalQuestions} ({pct}%)
+                        </span>
+                        <Link href={`/exam/${exam.slug}`}
+                          className="flex items-center gap-1 px-2 py-1 text-xs font-medium bg-rail-navy text-white rounded hover:bg-blue-900"
+                        >
+                          <RotateCcw className="w-3 h-3" /> Retry
+                        </Link>
+                        <Link href={`/results/${st.id}`}
+                          className="flex items-center gap-1 px-2 py-1 text-xs font-medium bg-gray-200 text-gray-700 rounded hover:bg-gray-300"
+                        >
+                          <Eye className="w-3 h-3" /> Review
+                        </Link>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
         </div>
 
         <div className="space-y-4">

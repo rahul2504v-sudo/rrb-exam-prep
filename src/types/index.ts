@@ -99,7 +99,7 @@ export interface TopicBreakdown {
 export interface TestSession {
   id: string;
   examId: string;
-  testType: 'topic' | 'mock';
+  testType: 'topic' | 'mock' | 'sectional';
   testName: string;
   totalQuestions: number;
   correctAnswers: number;

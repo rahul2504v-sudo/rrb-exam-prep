@@ -36,7 +36,8 @@ export default function QuizPage() {
   const questionStartTimes = useRef<Record<string, number>>({});
 
   const isMock = type === 'mock';
-  const testName = isMock ? t('fullMock') : t('topicPractice');
+  const isSectional = type === 'sectional';
+  const testName = isMock ? t('fullMock') : isSectional ? '10-Question Set' : t('topicPractice');
 
   // Load questions
   useEffect(() => {
@@ -78,6 +79,11 @@ export default function QuizPage() {
         }
         selectedQuestions = shuffleArray(selectedQuestions);
         setTimeLeft((exam?.pattern.durationMinutes || 90) * 60);
+      } else if (isSectional) {
+        // Sectional mock — 10 random questions from a subject
+        const qs = await loadSubjectQuestions(exam?.id || '', paramId, lang);
+        selectedQuestions = shuffleArray(qs).slice(0, 10);
+        setTimeLeft(15 * 60); // 15 minutes for 10 questions
       } else {
         // Topic-wise practice - load from topic JSON
         selectedQuestions = shuffleArray(await loadTopicQuestions(exam?.id || '', paramId, lang));
@@ -101,7 +107,7 @@ export default function QuizPage() {
 
   // Timer
   useEffect(() => {
-    if (!isMock || isSubmitted || timeLeft <= 0) return;
+    if ((!isMock && !isSectional) || isSubmitted || timeLeft <= 0) return;
     
     const timer = setInterval(() => {
       setTimeLeft(prev => {
@@ -149,8 +155,8 @@ export default function QuizPage() {
     const newSession: TestSession = {
       id: `session-${Date.now()}`,
       examId: exam?.id || '',
-      testType: isMock ? 'mock' : 'topic',
-      testName,
+      testType: isMock ? 'mock' : isSectional ? 'sectional' : 'topic',
+      testName: isSectional ? `10Q Set — ${exam?.subjects.find(s => s.id === paramId)?.name || 'Subject'}` : testName,
       totalQuestions: questions.length,
       correctAnswers: correct,
       wrongAnswers: wrong,
@@ -229,7 +235,7 @@ export default function QuizPage() {
           </div>
           
           <div className="flex items-center gap-4">
-            {isMock && (
+            {isMock || isSectional ? (
               <div className={`flex items-center gap-1.5 font-mono font-bold text-lg
                 ${timeLeft < 300 ? 'text-red-600 timer-warning' : 'text-gray-900'}`}>
                 <Clock className="w-5 h-5" />
