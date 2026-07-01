@@ -2,15 +2,15 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useSession, signOut } from 'next-auth/react';
-import { BookOpen, BarChart3, Home, LogIn, User, LogOut } from 'lucide-react';
+import { BookOpen, BarChart3, Home, LogIn, LogOut } from 'lucide-react';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { useLanguage } from '@/lib/LanguageContext';
+import { useAuth } from './AuthProvider';
 
 export function Navbar() {
   const pathname = usePathname();
   const { t } = useLanguage();
-  const { data: session } = useSession();
+  const { user, signOut } = useAuth();
 
   const isActive = (path: string) => pathname.startsWith(path)
     ? 'text-indigo-600 font-semibold'
@@ -24,12 +24,12 @@ export function Navbar() {
             <BookOpen className="w-6 h-6 text-indigo-600" />
             <span className="hidden sm:inline">prepXcore</span>
           </Link>
-          {session?.user && (
+          {user && (
             <div className="hidden md:flex items-center gap-1">
-              <Link href="/" className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${isActive('/exam') || pathname === '/' ? 'text-indigo-600 bg-indigo-50 font-medium' : 'text-gray-600 hover:text-indigo-600'}`}>
+              <Link href="/" className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${pathname === '/' || isActive('/exam') ? 'text-indigo-600 bg-indigo-50 font-medium' : 'text-gray-600 hover:text-indigo-600'}`}>
                 <Home className="w-4 h-4 inline mr-1" />{t('home')}
               </Link>
-              <Link href="/exam/ntpc" className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${isActive('/exam/ntpc') || isActive('/exam/group-d') ? 'text-indigo-600 bg-indigo-50 font-medium' : 'text-gray-600 hover:text-indigo-600'}`}>
+              <Link href="/exam/ntpc" className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${isActive('/exam') ? 'text-indigo-600 bg-indigo-50 font-medium' : 'text-gray-600 hover:text-indigo-600'}`}>
                 {t('exams')}
               </Link>
               <Link href="/results" className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${isActive('/results') ? 'text-indigo-600 bg-indigo-50 font-medium' : 'text-gray-600 hover:text-indigo-600'}`}>
@@ -40,22 +40,18 @@ export function Navbar() {
         </div>
         <div className="flex items-center gap-2">
           <LanguageSwitcher />
-          {session?.user ? (
+          {user ? (
             <div className="flex items-center gap-2">
-              <span className="hidden sm:inline text-sm text-gray-600">{session.user.name}</span>
-              <button
-                onClick={() => signOut()}
-                className="flex items-center gap-1 px-3 py-1.5 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors"
-              >
+              <span className="hidden sm:inline text-sm text-gray-600">{user.name}</span>
+              <button onClick={signOut}
+                className="flex items-center gap-1 px-3 py-1.5 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200">
                 <LogOut className="w-4 h-4" />
                 <span className="hidden sm:inline">Sign Out</span>
               </button>
             </div>
           ) : (
-            <Link
-              href="/login"
-              className="flex items-center gap-1 px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-lg hover:bg-indigo-700 transition-colors shadow-sm"
-            >
+            <Link href="/login"
+              className="flex items-center gap-1 px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-lg hover:bg-indigo-700 shadow-sm">
               <LogIn className="w-4 h-4" />
               <span className="hidden sm:inline">Sign In</span>
             </Link>

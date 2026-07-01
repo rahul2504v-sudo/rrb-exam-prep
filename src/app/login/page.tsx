@@ -30,33 +30,24 @@ function LoginForm() {
     
     setLoading(true)
     
-    // Submit form directly to NextAuth callback — this sets cookies via redirect
-    const form = document.createElement('form')
-    form.method = 'POST'
-    form.action = '/api/auth/callback/credentials'
-    
-    // Get CSRF token
-    const csrfRes = await fetch('/api/auth/csrf')
-    const { csrfToken } = await csrfRes.json()
-    
-    const fields = [
-      ['csrfToken', csrfToken],
-      ['email', email],
-      ['password', password],
-      ['callbackUrl', callbackUrl],
-      ['json', 'true'],
-    ]
-    
-    fields.forEach(([name, value]) => {
-      const input = document.createElement('input')
-      input.type = 'hidden'
-      input.name = name
-      input.value = value
-      form.appendChild(input)
-    })
-    
-    document.body.appendChild(form)
-    form.submit()
+    try {
+      const res = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password }),
+      })
+      
+      if (res.ok) {
+        window.location.href = callbackUrl
+      } else {
+        const data = await res.json()
+        setError(data.error || 'Login failed')
+        setLoading(false)
+      }
+    } catch {
+      setError('Network error. Please try again.')
+      setLoading(false)
+    }
   }
 
   if (loading) {
@@ -96,15 +87,9 @@ function LoginForm() {
               <label className="block text-sm font-medium text-gray-700 mb-1">Email</label>
               <div className="relative">
                 <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                <input type="email" value={email} onChange={(e) => setEmail(e.target.value)}
                   className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 text-sm"
-                  placeholder="you@example.com"
-                  autoFocus
-                  required
-                />
+                  placeholder="you@example.com" autoFocus required />
               </div>
             </div>
 
@@ -112,28 +97,19 @@ function LoginForm() {
               <label className="block text-sm font-medium text-gray-700 mb-1">Password</label>
               <div className="relative">
                 <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
-                <input
-                  type={showPassword ? 'text' : 'password'}
-                  value={password}
+                <input type={showPassword ? 'text' : 'password'} value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   className="w-full pl-10 pr-10 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 text-sm"
-                  placeholder="Enter any password"
-                  required
-                />
-                <button
-                  type="button"
-                  onClick={() => setShowPassword(!showPassword)}
-                  className="absolute right-3 top-1/2 -translate-y-1/2"
-                >
+                  placeholder="Enter any password" required />
+                <button type="button" onClick={() => setShowPassword(!showPassword)}
+                  className="absolute right-3 top-1/2 -translate-y-1/2">
                   {showPassword ? <EyeOff className="w-4 h-4 text-gray-400" /> : <Eye className="w-4 h-4 text-gray-400" />}
                 </button>
               </div>
             </div>
 
-            <button
-              type="submit"
-              className="w-full py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 font-medium text-sm transition-colors flex items-center justify-center gap-2"
-            >
+            <button type="submit"
+              className="w-full py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 font-medium text-sm transition-colors flex items-center justify-center gap-2">
               Continue <ArrowRight className="w-4 h-4" />
             </button>
           </form>
@@ -142,10 +118,6 @@ function LoginForm() {
             New here? Just enter any email and password — we'll create your account automatically.
           </p>
         </div>
-
-        <p className="mt-4 text-center text-[11px] text-gray-400">
-          By continuing, you agree to prepXcore's terms of use.
-        </p>
       </div>
     </div>
   )

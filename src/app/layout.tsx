@@ -4,7 +4,7 @@ import './globals.css';
 import { Navbar } from '@/components/layout/Navbar';
 import { LanguageProvider } from '@/lib/LanguageContext';
 import { PWAProvider } from '@/components/layout/PWAProvider';
-import { SessionProvider } from '@/components/layout/SessionProvider';
+import { AuthProvider } from '@/components/layout/AuthProvider';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -30,13 +30,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="apple-mobile-web-app-capable" content="yes" />
       </head>
       <body className={`${inter.className} bg-gray-50 text-gray-900 antialiased`}>
-        <SessionProvider>
+        <AuthProvider>
           <LanguageProvider>
             <PWAProvider />
             <Navbar />
             <main className="min-h-screen pt-16">{children}</main>
           </LanguageProvider>
-        </SessionProvider>
+        </AuthProvider>
       </body>
     </html>
   );

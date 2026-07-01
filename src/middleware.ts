@@ -1,36 +1,45 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
-import { getToken } from 'next-auth/jwt'
+import { jwtVerify } from 'jose'
+
+const SECRET = new TextEncoder().encode(
+  process.env.NEXTAUTH_SECRET || 'prepXcore-dev-secret-2026'
+)
 
 export async function middleware(request: NextRequest) {
-  const token = await getToken({ 
-    req: request,
-    secret: process.env.NEXTAUTH_SECRET || 'prepXcore-dev-secret-change-in-production'
-  })
-  
   const { pathname } = request.nextUrl
   
-  // Public routes — no auth required
-  const publicPaths = ['/', '/login', '/api/auth']
+  // Public routes
+  const publicPaths = ['/', '/login', '/api/auth/login']
   if (publicPaths.some(p => pathname === p || pathname.startsWith(p + '/'))) {
     return NextResponse.next()
   }
   
-  // Allow static assets
+  // Static assets
   if (pathname.startsWith('/_next') || pathname.startsWith('/data/') || 
       pathname.startsWith('/favicon') || pathname.startsWith('/icon') ||
       pathname.startsWith('/manifest') || pathname.startsWith('/sw.js')) {
     return NextResponse.next()
   }
   
-  // Require auth for everything else (exam pages, quiz pages, results)
+  // Check session cookie
+  const token = request.cookies.get('session')?.value
+  
   if (!token) {
     const loginUrl = new URL('/login', request.url)
     loginUrl.searchParams.set('callbackUrl', pathname)
     return NextResponse.redirect(loginUrl)
   }
   
-  return NextResponse.next()
+  // Verify JWT
+  try {
+    await jwtVerify(token, SECRET)
+    return NextResponse.next()
+  } catch {
+    const loginUrl = new URL('/login', request.url)
+    loginUrl.searchParams.set('callbackUrl', pathname)
+    return NextResponse.redirect(loginUrl)
+  }
 }
 
 export const config = {
