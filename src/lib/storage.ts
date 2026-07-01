@@ -1,11 +1,26 @@
 import { TestSession } from '@/types';
 
-const STORAGE_KEY = 'rrb-exam-prep-sessions';
+const BASE_KEY = 'prepxcore-sessions';
+
+function getUserEmail(): string | null {
+  if (typeof window === 'undefined') return null;
+  const match = document.cookie.match(/session=([^;]+)/);
+  if (!match) return null;
+  try {
+    const payload = JSON.parse(atob(match[1].split('.')[1]));
+    return payload.email || null;
+  } catch { return null; }
+}
+
+export function getStorageKey(): string {
+  const email = getUserEmail();
+  return email ? `${BASE_KEY}-${email}` : BASE_KEY;
+}
 
 export function getSessions(): TestSession[] {
   if (typeof window === 'undefined') return [];
   try {
-    const data = localStorage.getItem(STORAGE_KEY);
+    const data = localStorage.getItem(getStorageKey());
     return data ? JSON.parse(data) : [];
   } catch {
     return [];
@@ -22,10 +37,8 @@ export function saveSession(session: TestSession): void {
     sessions.unshift(session);
   }
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(sessions.slice(0, 100)));
-  } catch {
-    // Storage full or unavailable
-  }
+    localStorage.setItem(getStorageKey(), JSON.stringify(sessions.slice(0, 100)));
+  } catch {}
 }
 
 export function getSession(id: string): TestSession | undefined {
@@ -34,7 +47,7 @@ export function getSession(id: string): TestSession | undefined {
 
 export function clearAllSessions(): void {
   if (typeof window === 'undefined') return;
-  localStorage.removeItem(STORAGE_KEY);
+  localStorage.removeItem(getStorageKey());
 }
 
 export function getAverageScore(): number {
