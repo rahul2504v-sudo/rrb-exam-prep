@@ -1,22 +1,522 @@
 [
-  {"id":"ntpc-m-0001","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"Tea ₹240/kg mixed with ₹300/kg for ₹260/kg. Ratio?","options":["2:1","1:2","3:2","2:3"],"explanation":"(300-260):(260-240)=40:20=2:1."},"hi":{"question":"₹240 और ₹300 की चाय, ₹260 मिश्रण। अनुपात?","options":["2:1","1:2","3:2","2:3"],"explanation":"2:1।"}},
-  {"id":"ntpc-m-0002","correctOption":"A","difficulty":"medium","sourceYear":2023,"en":{"question":"Milk:water=4:1. +10L water, ratio 2:1. Original milk?","options":["40L","32","48","36"],"explanation":"4x/(x+10)=2. x=10. Milk=40L."},"hi":{"question":"दूध:पानी 4:1, +10L पानी, 2:1। दूध?","options":["40L","32","48","36"],"explanation":"40 लीटर।"}},
-  {"id":"ntpc-m-0003","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"8kg rice ₹40/kg + 12kg rice ₹50/kg. Mixture price/kg?","options":["₹46","₹45","₹48","₹44"],"explanation":"920/20=46."},"hi":{"question":"8kg ₹40+12kg ₹50। मिश्रण मूल्य?","options":["₹46","₹45","₹48","₹44"],"explanation":"₹46/kg।"}},
-  {"id":"ntpc-m-0004","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"40L, milk:water=3:2. Water to add for 1:1?","options":["8L","10L","12L","6L"],"explanation":"24/(16+x)=1. x=8L."},"hi":{"question":"40L दूध:पानी 3:2, 1:1 हेतु पानी?","options":["8L","10L","12L","6L"],"explanation":"8 लीटर।"}},
-  {"id":"ntpc-m-0005","correctOption":"B","difficulty":"medium","sourceYear":2025,"en":{"question":"Rice ₹30/kg and ₹42/kg mixed in 5:3 ratio. Mixture price/kg?","options":["₹33","₹34.5","₹36","₹35"],"explanation":"(5×30+3×42)/8=276/8=34.5."},"hi":{"question":"₹30 और ₹42 चावल 5:3 में। मिश्रण मूल्य?","options":["₹33","₹34.5","₹36","₹35"],"explanation":"₹34.5/kg।"}},
-  {"id":"ntpc-m-0006","correctOption":"A","difficulty":"hard","sourceYear":2025,"en":{"question":"60L milk:water=5:3. 15L removed + 15L water. New ratio?","options":["25:23","25:20","20:15","5:4"],"explanation":"Milk=37.5, water=22.5. Remove 15L: milk 5/8×15=9.375, water=5.625. After: milk=28.125, water=16.875+15=31.875. Ratio=28.125:31.875=225:255=45:51=15:17. Not matching. Let me try: 60L, 5:3, milk=37.5,w=22.5. Remove 15L: 9.375m,5.625w removed. Left: 28.125m,16.875w. Add 15w: 28.125m,31.875w. Ratio=28125:31875=225:255=45:51=15:17."},"hi":{"question":"60L दूध:पानी 5:3, 15L निकाल+15L पानी। नया?","options":["25:23","25:20","15:17","5:4"],"explanation":"15:17।"}},
-  {"id":"ntpc-m-0007","correctOption":"C","difficulty":"easy","sourceYear":2025,"en":{"question":"In what ratio water added to milk worth ₹50/L to sell at ₹40/L with 25% profit?","options":["2:3","1:4","1:4","3:5"],"explanation":"CP of mixture=40/1.25=32. Milk=50, water=0. (50-32):(32-0)=18:32=9:16. Water:milk=9:16. Water:milk ratio≈4:7. Not matching. Let me recalculate properly: Profit 25% on CP, SP=40. CP=40/1.25=32. Alligation: milk 50 → 32, water 0 → 32. (50-32):(32-0)=18:32=9:16. So water:milk=9:16. Not 1:4."},"hi":{"question":"₹50/L दूध में पानी, ₹40/L पर 25% लाभ। अनुपात?","options":["2:3","1:4","9:16","3:5"],"explanation":"9:16।"}},
-  {"id":"ntpc-m-0008","correctOption":"D","difficulty":"medium","sourceYear":2025,"en":{"question":"Milk:water=3:1 in 80L. How much water to make 3:2?","options":["15L","20L","25L","20L"],"explanation":"Milk=60. 60/(20+x)=3/2. 120=60+3x. x=20."},"hi":{"question":"80L दूध:पानी 3:1, 3:2 हेतु पानी?","options":["15","20","25","20"],"explanation":"20 लीटर।"}},
-  {"id":"ntpc-m-0009","correctOption":"B","difficulty":"medium","sourceYear":2025,"en":{"question":"₹80/kg sugar mixed with ₹50/kg. 40kg mixture costs ₹62/kg. Quantity of ₹80 sugar?","options":["12kg","16kg","20kg","24kg"],"explanation":"(80-62):(62-50)=18:12=3:2. Cheaper:dearer=3:2. ₹80 sugar=2/5×40=16kg."},"hi":{"question":"₹80+₹50 चीनी, 40kg ₹62/kg। ₹80 वाली मात्रा?","options":["12","16","20","24"],"explanation":"16 kg।"}},
-  {"id":"ntpc-m-0010","correctOption":"A","difficulty":"hard","sourceYear":2025,"en":{"question":"Vessel has 40L milk. 8L removed + 8L water. Process repeated 2 more times. Milk left?","options":["20.48L","16L","24L","18L"],"explanation":"After each: milk=(4/5) of previous. 40×(0.8)³=40×0.512=20.48L."},"hi":{"question":"40L दूध, 8L निकाल+पानी, 3 बार। दूध?","options":["20.48L","16L","24L","18L"],"explanation":"20.48 लीटर।"}},
-  {"id":"ntpc-m-0011","correctOption":"C","difficulty":"medium","sourceYear":2025,"en":{"question":"Alligation: ₹65/kg wheat + ₹80/kg wheat to get ₹72/kg. Ratio?","options":["8:5","5:7","8:7","7:8"],"explanation":"(80-72):(72-65)=8:7."},"hi":{"question":"₹65+₹80 गेहूँ, ₹72/kg। अनुपात?","options":["8:5","5:7","8:7","7:8"],"explanation":"8:7।"}},
-  {"id":"ntpc-m-0012","correctOption":"B","difficulty":"easy","sourceYear":2025,"en":{"question":"30L mixture milk:water=7:3. How much milk to add for 4:1?","options":["3L","5L","8L","10L"],"explanation":"Milk=21, water=9. (21+x)/9=4/1. 21+x=36. x=15. Not matching. Let me: milk=21,w=9. Add x milk. (21+x):9=4:1. 21+x=36. x=15. Not 5. Let me try different: milk=21, add x, water=9. (21+x)/9=4/1→x=15. So answer should be 15. Let me change question to get 5: water=9, need milk=36 so add 15. For 5, perhaps:"},"hi":{"question":"30L दूध:पानी 7:3, 4:1 हेतु दूध?","options":["3","5","8","15"],"explanation":"15 लीटर।"}},
-  {"id":"ntpc-m-0013","correctOption":"A","difficulty":"medium","sourceYear":2025,"en":{"question":"Two alloys A and B have copper:zinc=5:2 and 3:4. Mixed in 3:5 ratio to get C. C's copper:zinc?","options":["12:11","13:10","11:12","10:13"],"explanation":"A 3 parts: Cu=3×5/7=15/7, Zn=3×2/7=6/7. B 5 parts: Cu=5×3/7=15/7, Zn=5×4/7=20/7. Total: Cu=30/7, Zn=26/7. Ratio=30:26=15:13. Not matching. Let me check: A Cu=15/7, Zn=6/7. B Cu=15/7, Zn=20/7. Total Cu=30/7, Zn=26/7. Ratio=15:13."},"hi":{"question":"A Cu:Zn=5:2, B=3:4। 3:5 मिलाने पर?","options":["12:11","13:10","11:12","15:13"],"explanation":"15:13।"}},
-  {"id":"ntpc-m-0014","correctOption":"C","difficulty":"hard","sourceYear":2025,"en":{"question":"Container has alcohol:water=3:1. 20L taken out + 20L water. Now 3:2. Original volume?","options":["60L","80L","50L","70L"],"explanation":"Let V. Alcohol=3V/4, water=V/4. Remove 20L: alcohol removed=15, water=5. After: alcohol=3V/4-15, water=V/4-5+20. (3V/4-15)/(V/4+15)=3/2. 2(3V/4-15)=3(V/4+15). 3V/2-30=3V/4+45. 3V/4=75. V=100. Not matching. Let me try original 3:2: let V, alcohol=3V/5, water=2V/5. Remove 20: alc=12, water=8. After: alc=3V/5-12, water=2V/5-8+20. Ratio=(3V/5-12)/(2V/5+12)=1/1. 3V/5-12=2V/5+12. V/5=24. V=120. Not clean. Let me: original 4:1 = 80:20 total 100L. Remove 20L = 16 alcohol, 4 water removed. Left: 64 alcohol, 16 water. Add 20 water: 64 alcohol, 36 water. Ratio=64:36=16:9. Not 3:2."},"hi":{"question":"अल्कोहल:पानी 3:1, 20L निकाल+पानी, 3:2। मूल?","options":["60","80","50","70"],"explanation":"लगभग 80 लीटर।"}},
-  {"id":"ntpc-m-0015","correctOption":"D","difficulty":"easy","sourceYear":2025,"en":{"question":"Gold 18 carat means what fraction pure gold?","options":["18/20","18/22","3/5","18/24"],"explanation":"24 carat=100% pure. 18 carat=18/24=3/4."},"hi":{"question":"18 कैरेट सोना, शुद्धता?","options":["18/20","18/22","3/5","18/24"],"explanation":"18/24=3/4।"}},
-  {"id":"ntpc-m-0016","correctOption":"B","difficulty":"medium","sourceYear":2025,"en":{"question":"How many kg of ₹25/kg rice mixed with 30kg ₹40/kg to sell at ₹34/kg?","options":["15kg","22.5kg","25kg","20kg"],"explanation":"(40-34):(34-25)=6:9=2:3. ₹25 rice:₹40 rice=3:2. ₹25 rice=3/2×30=45kg. Not matching. Let me: (34-25):(40-34)=9:6=3:2. Cheaper:dearer=3:2. Cheaper=3/2×30=45. Not in options. Let me swap: If the answer is 22.5, ratio would be 22.5:30=3:4. (40-34):(34-25)=6:9. Not 3:4. Let me try different numbers for answer 22.5: x/(30)=(40-34)/(34-25)=6/9. x=20, not 22.5."},"hi":{"question":"₹25 चावल कितना मिलाएँ ₹40 के 30kg में, ₹34/kg?","options":["15","22.5","25","20"],"explanation":"20 kg।"}},
-  {"id":"ntpc-m-0017","correctOption":"A","difficulty":"hard","sourceYear":2025,"en":{"question":"Cask full of wine. 8L drawn + 8L water. Again 8L drawn + 8L water. Ratio of wine:water=16:9. Original volume?","options":["40L","32L","48L","36L"],"explanation":"After 2 replacements: wine/V=(1-8/V)². 16/25=(1-8/V)². 1-8/V=4/5. 8/V=1/5. V=40."},"hi":{"question":"शराब भरा, 8L+पानी, फिर 8L+पानी। 16:9। मूल?","options":["40","32","48","36"],"explanation":"40 लीटर।"}},
-  {"id":"ntpc-m-0018","correctOption":"B","difficulty":"easy","sourceYear":2025,"en":{"question":"₹45/kg and ₹x/kg rice mixed in 2:3. Mixture ₹51/kg. x=?","options":["₹65","₹55","₹60","₹50"],"explanation":"(2×45+3×x)/5=51. 90+3x=255. 3x=165. x=55."},"hi":{"question":"₹45 और ₹x चावल 2:3, ₹51/kg। x=?","options":["₹65","₹55","₹60","₹50"],"explanation":"₹55।"}},
-  {"id":"ntpc-m-0019","correctOption":"C","difficulty":"medium","sourceYear":2025,"en":{"question":"Vessel contains 60L milk. 12L removed + 12L water. Repeat once. Final milk?","options":["36L","42L","38.4L","40L"],"explanation":"60×(0.8)²=60×0.64=38.4L."},"hi":{"question":"60L दूध, 12L निकाल+पानी, दोबारा। दूध?","options":["36","42","38.4","40"],"explanation":"38.4 लीटर।"}},
-  {"id":"ntpc-m-0020","correctOption":"D","difficulty":"hard","sourceYear":2025,"en":{"question":"Spirit:water=5:3 in 64L. 16L taken out + 24L water. New ratio?","options":["5:4","1:1","4:3","5:6"],"explanation":"Spirit=40,w=24. Remove 16L: spirit=10,w=6. Left:30,18. Add 24w: 30,42. Ratio=30:42=5:7."},"hi":{"question":"64L स्पिरिट:पानी 5:3, 16L निकाल+24L पानी। नया?","options":["5:4","1:1","4:3","5:7"],"explanation":"5:7।"}}
+  {
+    "id": "nmma-0001",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Tea ₹240/kg mixed with ₹300/kg for ₹260/kg. Ratio?",
+      "options": [
+        "2:1",
+        "1:2",
+        "3:2",
+        "2:3"
+      ],
+      "explanation": "(300-260):(260-240)=40:20=2:1."
+    },
+    "hi": {
+      "question": "₹240 और ₹300 की चाय, ₹260 मिश्रण। अनुपात?",
+      "options": [
+        "2:1",
+        "1:2",
+        "3:2",
+        "2:3"
+      ],
+      "explanation": "2:1।"
+    }
+  },
+  {
+    "id": "nmma-0002",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Milk:water=4:1. +10L water, ratio 2:1. Original milk?",
+      "options": [
+        "40L",
+        "32",
+        "48",
+        "36"
+      ],
+      "explanation": "4x/(x+10)=2. x=10. Milk=40L."
+    },
+    "hi": {
+      "question": "दूध:पानी 4:1, +10L पानी, 2:1। दूध?",
+      "options": [
+        "40L",
+        "32",
+        "48",
+        "36"
+      ],
+      "explanation": "40 लीटर।"
+    }
+  },
+  {
+    "id": "nmma-0003",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "8kg rice ₹40/kg + 12kg rice ₹50/kg. Mixture price/kg?",
+      "options": [
+        "₹46",
+        "₹45",
+        "₹48",
+        "₹44"
+      ],
+      "explanation": "920/20=46."
+    },
+    "hi": {
+      "question": "8kg ₹40+12kg ₹50। मिश्रण मूल्य?",
+      "options": [
+        "₹46",
+        "₹45",
+        "₹48",
+        "₹44"
+      ],
+      "explanation": "₹46/kg।"
+    }
+  },
+  {
+    "id": "nmma-0004",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "40L, milk:water=3:2. Water to add for 1:1?",
+      "options": [
+        "8L",
+        "10L",
+        "12L",
+        "6L"
+      ],
+      "explanation": "24/(16+x)=1. x=8L."
+    },
+    "hi": {
+      "question": "40L दूध:पानी 3:2, 1:1 हेतु पानी?",
+      "options": [
+        "8L",
+        "10L",
+        "12L",
+        "6L"
+      ],
+      "explanation": "8 लीटर।"
+    }
+  },
+  {
+    "id": "nmma-0005",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Rice ₹30/kg and ₹42/kg mixed in 5:3 ratio. Mixture price/kg?",
+      "options": [
+        "₹33",
+        "₹34.5",
+        "₹36",
+        "₹35"
+      ],
+      "explanation": "(5×30+3×42)/8=276/8=34.5."
+    },
+    "hi": {
+      "question": "₹30 और ₹42 चावल 5:3 में। मिश्रण मूल्य?",
+      "options": [
+        "₹33",
+        "₹34.5",
+        "₹36",
+        "₹35"
+      ],
+      "explanation": "₹34.5/kg।"
+    }
+  },
+  {
+    "id": "nmma-0006",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "60L milk:water=5:3. 15L removed + 15L water. New ratio?",
+      "options": [
+        "25:23",
+        "25:20",
+        "20:15",
+        "5:4"
+      ],
+      "explanation": "Milk=37.5, water=22.5. Remove 15L: milk 5/8×15=9.375, water=5.625. After: milk=28.125, water=16.875+15=31.875. Ratio=28.125:31.875=225:255=45:51=15:17. Not matching. Let me try: 60L, 5:3, milk=37.5,w=22.5. Remove 15L: 9.375m,5.625w removed. Left: 28.125m,16.875w. Add 15w: 28.125m,31.875w. Ratio=28125:31875=225:255=45:51=15:17."
+    },
+    "hi": {
+      "question": "60L दूध:पानी 5:3, 15L निकाल+15L पानी। नया?",
+      "options": [
+        "25:23",
+        "25:20",
+        "15:17",
+        "5:4"
+      ],
+      "explanation": "15:17।"
+    }
+  },
+  {
+    "id": "nmma-0007",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "In what ratio water added to milk worth ₹50/L to sell at ₹40/L with 25% profit?",
+      "options": [
+        "2:3",
+        "1:4",
+        "1:4",
+        "3:5"
+      ],
+      "explanation": "CP of mixture=40/1.25=32. Milk=50, water=0. (50-32):(32-0)=18:32=9:16. Water:milk=9:16. Water:milk ratio≈4:7. Not matching. Let me recalculate properly: Profit 25% on CP, SP=40. CP=40/1.25=32. Alligation: milk 50 → 32, water 0 → 32. (50-32):(32-0)=18:32=9:16. So water:milk=9:16. Not 1:4."
+    },
+    "hi": {
+      "question": "₹50/L दूध में पानी, ₹40/L पर 25% लाभ। अनुपात?",
+      "options": [
+        "2:3",
+        "1:4",
+        "9:16",
+        "3:5"
+      ],
+      "explanation": "9:16।"
+    }
+  },
+  {
+    "id": "nmma-0008",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Milk:water=3:1 in 80L. How much water to make 3:2?",
+      "options": [
+        "15L",
+        "20L",
+        "25L",
+        "20L"
+      ],
+      "explanation": "Milk=60. 60/(20+x)=3/2. 120=60+3x. x=20."
+    },
+    "hi": {
+      "question": "80L दूध:पानी 3:1, 3:2 हेतु पानी?",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "20"
+      ],
+      "explanation": "20 लीटर।"
+    }
+  },
+  {
+    "id": "nmma-0009",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "₹80/kg sugar mixed with ₹50/kg. 40kg mixture costs ₹62/kg. Quantity of ₹80 sugar?",
+      "options": [
+        "12kg",
+        "16kg",
+        "20kg",
+        "24kg"
+      ],
+      "explanation": "(80-62):(62-50)=18:12=3:2. Cheaper:dearer=3:2. ₹80 sugar=2/5×40=16kg."
+    },
+    "hi": {
+      "question": "₹80+₹50 चीनी, 40kg ₹62/kg। ₹80 वाली मात्रा?",
+      "options": [
+        "12",
+        "16",
+        "20",
+        "24"
+      ],
+      "explanation": "16 kg।"
+    }
+  },
+  {
+    "id": "nmma-0010",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Vessel has 40L milk. 8L removed + 8L water. Process repeated 2 more times. Milk left?",
+      "options": [
+        "20.48L",
+        "16L",
+        "24L",
+        "18L"
+      ],
+      "explanation": "After each: milk=(4/5) of previous. 40×(0.8)³=40×0.512=20.48L."
+    },
+    "hi": {
+      "question": "40L दूध, 8L निकाल+पानी, 3 बार। दूध?",
+      "options": [
+        "20.48L",
+        "16L",
+        "24L",
+        "18L"
+      ],
+      "explanation": "20.48 लीटर।"
+    }
+  },
+  {
+    "id": "nmma-0011",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Alligation: ₹65/kg wheat + ₹80/kg wheat to get ₹72/kg. Ratio?",
+      "options": [
+        "8:5",
+        "5:7",
+        "8:7",
+        "7:8"
+      ],
+      "explanation": "(80-72):(72-65)=8:7."
+    },
+    "hi": {
+      "question": "₹65+₹80 गेहूँ, ₹72/kg। अनुपात?",
+      "options": [
+        "8:5",
+        "5:7",
+        "8:7",
+        "7:8"
+      ],
+      "explanation": "8:7।"
+    }
+  },
+  {
+    "id": "nmma-0012",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "30L mixture milk:water=7:3. How much milk to add for 4:1?",
+      "options": [
+        "3L",
+        "5L",
+        "8L",
+        "10L"
+      ],
+      "explanation": "Milk=21, water=9. (21+x)/9=4/1. 21+x=36. x=15. Not matching. Let me: milk=21,w=9. Add x milk. (21+x):9=4:1. 21+x=36. x=15. Not 5. Let me try different: milk=21, add x, water=9. (21+x)/9=4/1→x=15. So answer should be 15. Let me change question to get 5: water=9, need milk=36 so add 15. For 5, perhaps:"
+    },
+    "hi": {
+      "question": "30L दूध:पानी 7:3, 4:1 हेतु दूध?",
+      "options": [
+        "3",
+        "5",
+        "8",
+        "15"
+      ],
+      "explanation": "15 लीटर।"
+    }
+  },
+  {
+    "id": "nmma-0013",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Two alloys A and B have copper:zinc=5:2 and 3:4. Mixed in 3:5 ratio to get C. C's copper:zinc?",
+      "options": [
+        "12:11",
+        "13:10",
+        "11:12",
+        "10:13"
+      ],
+      "explanation": "A 3 parts: Cu=3×5/7=15/7, Zn=3×2/7=6/7. B 5 parts: Cu=5×3/7=15/7, Zn=5×4/7=20/7. Total: Cu=30/7, Zn=26/7. Ratio=30:26=15:13. Not matching. Let me check: A Cu=15/7, Zn=6/7. B Cu=15/7, Zn=20/7. Total Cu=30/7, Zn=26/7. Ratio=15:13."
+    },
+    "hi": {
+      "question": "A Cu:Zn=5:2, B=3:4। 3:5 मिलाने पर?",
+      "options": [
+        "12:11",
+        "13:10",
+        "11:12",
+        "15:13"
+      ],
+      "explanation": "15:13।"
+    }
+  },
+  {
+    "id": "nmma-0014",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Container has alcohol:water=3:1. 20L taken out + 20L water. Now 3:2. Original volume?",
+      "options": [
+        "60L",
+        "80L",
+        "50L",
+        "70L"
+      ],
+      "explanation": "Let V. Alcohol=3V/4, water=V/4. Remove 20L: alcohol removed=15, water=5. After: alcohol=3V/4-15, water=V/4-5+20. (3V/4-15)/(V/4+15)=3/2. 2(3V/4-15)=3(V/4+15). 3V/2-30=3V/4+45. 3V/4=75. V=100. Not matching. Let me try original 3:2: let V, alcohol=3V/5, water=2V/5. Remove 20: alc=12, water=8. After: alc=3V/5-12, water=2V/5-8+20. Ratio=(3V/5-12)/(2V/5+12)=1/1. 3V/5-12=2V/5+12. V/5=24. V=120. Not clean. Let me: original 4:1 = 80:20 total 100L. Remove 20L = 16 alcohol, 4 water removed. Left: 64 alcohol, 16 water. Add 20 water: 64 alcohol, 36 water. Ratio=64:36=16:9. Not 3:2."
+    },
+    "hi": {
+      "question": "अल्कोहल:पानी 3:1, 20L निकाल+पानी, 3:2। मूल?",
+      "options": [
+        "60",
+        "80",
+        "50",
+        "70"
+      ],
+      "explanation": "लगभग 80 लीटर।"
+    }
+  },
+  {
+    "id": "nmma-0015",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Gold 18 carat means what fraction pure gold?",
+      "options": [
+        "18/20",
+        "18/22",
+        "3/5",
+        "18/24"
+      ],
+      "explanation": "24 carat=100% pure. 18 carat=18/24=3/4."
+    },
+    "hi": {
+      "question": "18 कैरेट सोना, शुद्धता?",
+      "options": [
+        "18/20",
+        "18/22",
+        "3/5",
+        "18/24"
+      ],
+      "explanation": "18/24=3/4।"
+    }
+  },
+  {
+    "id": "nmma-0016",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "How many kg of ₹25/kg rice mixed with 30kg ₹40/kg to sell at ₹34/kg?",
+      "options": [
+        "15kg",
+        "22.5kg",
+        "25kg",
+        "20kg"
+      ],
+      "explanation": "(40-34):(34-25)=6:9=2:3. ₹25 rice:₹40 rice=3:2. ₹25 rice=3/2×30=45kg. Not matching. Let me: (34-25):(40-34)=9:6=3:2. Cheaper:dearer=3:2. Cheaper=3/2×30=45. Not in options. Let me swap: If the answer is 22.5, ratio would be 22.5:30=3:4. (40-34):(34-25)=6:9. Not 3:4. Let me try different numbers for answer 22.5: x/(30)=(40-34)/(34-25)=6/9. x=20, not 22.5."
+    },
+    "hi": {
+      "question": "₹25 चावल कितना मिलाएँ ₹40 के 30kg में, ₹34/kg?",
+      "options": [
+        "15",
+        "22.5",
+        "25",
+        "20"
+      ],
+      "explanation": "20 kg।"
+    }
+  },
+  {
+    "id": "nmma-0017",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Cask full of wine. 8L drawn + 8L water. Again 8L drawn + 8L water. Ratio of wine:water=16:9. Original volume?",
+      "options": [
+        "40L",
+        "32L",
+        "48L",
+        "36L"
+      ],
+      "explanation": "After 2 replacements: wine/V=(1-8/V)². 16/25=(1-8/V)². 1-8/V=4/5. 8/V=1/5. V=40."
+    },
+    "hi": {
+      "question": "शराब भरा, 8L+पानी, फिर 8L+पानी। 16:9। मूल?",
+      "options": [
+        "40",
+        "32",
+        "48",
+        "36"
+      ],
+      "explanation": "40 लीटर।"
+    }
+  },
+  {
+    "id": "nmma-0018",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "₹45/kg and ₹x/kg rice mixed in 2:3. Mixture ₹51/kg. x=?",
+      "options": [
+        "₹65",
+        "₹55",
+        "₹60",
+        "₹50"
+      ],
+      "explanation": "(2×45+3×x)/5=51. 90+3x=255. 3x=165. x=55."
+    },
+    "hi": {
+      "question": "₹45 और ₹x चावल 2:3, ₹51/kg। x=?",
+      "options": [
+        "₹65",
+        "₹55",
+        "₹60",
+        "₹50"
+      ],
+      "explanation": "₹55।"
+    }
+  },
+  {
+    "id": "nmma-0019",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Vessel contains 60L milk. 12L removed + 12L water. Repeat once. Final milk?",
+      "options": [
+        "36L",
+        "42L",
+        "38.4L",
+        "40L"
+      ],
+      "explanation": "60×(0.8)²=60×0.64=38.4L."
+    },
+    "hi": {
+      "question": "60L दूध, 12L निकाल+पानी, दोबारा। दूध?",
+      "options": [
+        "36",
+        "42",
+        "38.4",
+        "40"
+      ],
+      "explanation": "38.4 लीटर।"
+    }
+  },
+  {
+    "id": "nmma-0020",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Spirit:water=5:3 in 64L. 16L taken out + 24L water. New ratio?",
+      "options": [
+        "5:4",
+        "1:1",
+        "4:3",
+        "5:6"
+      ],
+      "explanation": "Spirit=40,w=24. Remove 16L: spirit=10,w=6. Left:30,18. Add 24w: 30,42. Ratio=30:42=5:7."
+    },
+    "hi": {
+      "question": "64L स्पिरिट:पानी 5:3, 16L निकाल+24L पानी। नया?",
+      "options": [
+        "5:4",
+        "1:1",
+        "4:3",
+        "5:7"
+      ],
+      "explanation": "5:7।"
+    }
+  }
 ]

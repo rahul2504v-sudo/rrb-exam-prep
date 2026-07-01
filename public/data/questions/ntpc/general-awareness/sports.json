@@ -1,87 +1,2212 @@
 [
-  {"id":"ntpc-ga-0001","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"How many players are there in a standard cricket team on the field?","options":["9","10","11","12"],"explanation":"A standard cricket team has 11 players on the field."},"hi":{"question":"एक मानक क्रिकेट टीम में मैदान पर कितने खिलाड़ी होते हैं?","options":["9","10","11","12"],"explanation":"एक मानक क्रिकेट टीम में मैदान पर 11 खिलाड़ी होते हैं।"}},
-  {"id":"ntpc-ga-0002","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"Who won India's first-ever individual Olympic gold medal?","options":["Rajyavardhan Singh Rathore","Abhinav Bindra","Neeraj Chopra","Leander Paes"],"explanation":"Abhinav Bindra won India's first individual Olympic gold in 10m air rifle at the 2008 Beijing Olympics."},"hi":{"question":"भारत का पहला व्यक्तिगत ओलंपिक स्वर्ण पदक किसने जीता?","options":["राज्यवर्धन सिंह राठौड़","अभिनव बिंद्रा","नीरज चोपड़ा","लिएंडर पेस"],"explanation":"अभिनव बिंद्रा ने 2008 बीजिंग ओलंपिक में 10 मीटर एयर राइफल में पहला व्यक्तिगत ओलंपिक स्वर्ण जीता।"}},
-  {"id":"ntpc-ga-0003","correctOption":"D","difficulty":"medium","sourceYear":2024,"en":{"question":"Eden Gardens is located in which city?","options":["Mumbai","Chennai","Delhi","Kolkata"],"explanation":"Eden Gardens is in Kolkata, established in 1864, one of the largest cricket stadiums in India."},"hi":{"question":"ईडन गार्डन्स किस शहर में स्थित है?","options":["मुंबई","चेन्नई","दिल्ली","कोलकाता"],"explanation":"ईडन गार्डन्स कोलकाता में, 1864 में स्थापित, भारत का सबसे बड़ा क्रिकेट स्टेडियम।"}},
-  {"id":"ntpc-ga-0004","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"Who was the first Indian woman to win an Olympic medal?","options":["P.T. Usha","Karnam Malleswari","Mary Kom","Saina Nehwal"],"explanation":"Karnam Malleswari won bronze in weightlifting at the 2000 Sydney Olympics."},"hi":{"question":"ओलंपिक पदक जीतने वाली पहली भारतीय महिला कौन थीं?","options":["पी.टी. उषा","कर्णम मल्लेश्वरी","मैरी कॉम","साइना नेहवाल"],"explanation":"कर्णम मल्लेश्वरी ने 2000 सिडनी ओलंपिक में भारोत्तोलन में कांस्य जीता।"}},
-  {"id":"ntpc-ga-0005","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Which country won the FIFA World Cup 2022?","options":["France","Brazil","Argentina","Germany"],"explanation":"Argentina won FIFA World Cup 2022 in Qatar, defeating France 4-2 on penalties."},"hi":{"question":"FIFA विश्व कप 2022 किस देश ने जीता?","options":["फ्रांस","ब्राज़ील","अर्जेंटीना","जर्मनी"],"explanation":"अर्जेंटीना ने कतर में FIFA विश्व कप 2022 जीता।"}},
-  {"id":"ntpc-ga-0006","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"M.C. Mary Kom is associated with which sport?","options":["Wrestling","Boxing","Badminton","Weightlifting"],"explanation":"Mary Kom is a renowned Indian boxer, six-time world championship medalist."},"hi":{"question":"एम.सी. मैरी कॉम किस खेल से जुड़ी हैं?","options":["कुश्ती","मुक्केबाज़ी","बैडमिंटन","भारोत्तोलन"],"explanation":"मैरी कॉम प्रसिद्ध भारतीय मुक्केबाज़, छह बार विश्व चैंपियनशिप पदक विजेता।"}},
-  {"id":"ntpc-ga-0007","correctOption":"D","difficulty":"easy","sourceYear":2024,"en":{"question":"Where is the Wimbledon tennis tournament held?","options":["Paris","New York","Melbourne","London"],"explanation":"Wimbledon is held in London, England, the oldest tennis tournament (started 1877)."},"hi":{"question":"विंबलडन टेनिस टूर्नामेंट कहां आयोजित होता है?","options":["पेरिस","न्यूयॉर्क","मेलबर्न","लंदन"],"explanation":"विंबलडन लंदन में, सबसे पुराना टेनिस टूर्नामेंट (1877 से)।"}},
-  {"id":"ntpc-ga-0008","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"The Major Dhyan Chand Khel Ratna Award was instituted in which year?","options":["1990","1991-92","1995","2000"],"explanation":"Instituted as Rajiv Gandhi Khel Ratna in 1991-92, renamed Major Dhyan Chand Khel Ratna in 2021."},"hi":{"question":"मेजर ध्यानचंद खेल रत्न पुरस्कार किस वर्ष स्थापित हुआ?","options":["1990","1991-92","1995","2000"],"explanation":"1991-92 में राजीव गांधी खेल रत्न के रूप में, 2021 में नाम बदला।"}},
-  {"id":"ntpc-ga-0009","correctOption":"C","difficulty":"medium","sourceYear":2025,"en":{"question":"Which Indian chess player became the World Chess Champion in 2024?","options":["Viswanathan Anand","Vidit Gujrathi","Gukesh D","Praggnanandhaa R"],"explanation":"Gukesh Dommaraju became the youngest World Chess Champion at 18, defeating Ding Liren in Dec 2024."},"hi":{"question":"2024 में कौन से भारतीय शतरंज खिलाड़ी विश्व शतरंज चैंपियन बने?","options":["विश्वनाथन आनंद","विदित गुजराती","गुकेश डी","प्रज्ञानानंदा आर"],"explanation":"गुकेश डोमराजू 18 वर्ष की आयु में दिसंबर 2024 में सबसे कम उम्र के विश्व शतरंज चैंपियन बने।"}},
-  {"id":"ntpc-ga-0010","correctOption":"D","difficulty":"easy","sourceYear":2024,"en":{"question":"How many players are in a hockey team on the field?","options":["9","10","12","11"],"explanation":"A standard hockey team has 11 players on the field, including the goalkeeper."},"hi":{"question":"हॉकी टीम में मैदान पर कितने खिलाड़ी होते हैं?","options":["9","10","12","11"],"explanation":"हॉकी टीम में गोलकीपर सहित 11 खिलाड़ी।"}},
-  {"id":"ntpc-ga-0011","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"Who is known as the 'Flying Sikh' of India?","options":["P.T. Usha","Milkha Singh","Anju Bobby George","Hima Das"],"explanation":"Milkha Singh was called the 'Flying Sikh' for his speed. He won gold at 1958 Commonwealth Games."},"hi":{"question":"भारत के 'फ्लाइंग सिख' किसे कहा जाता है?","options":["पी.टी. उषा","मिल्खा सिंह","अंजू बॉबी जॉर्ज","हिमा दास"],"explanation":"मिल्खा सिंह उनकी गति के लिए 'फ्लाइंग सिख' कहलाए, 1958 राष्ट्रमंडल खेलों में स्वर्ण।"}},
-  {"id":"ntpc-ga-0012","correctOption":"A","difficulty":"hard","sourceYear":2023,"en":{"question":"Which country has won the most Olympic gold medals in history?","options":["USA","China","Russia (USSR)","Great Britain"],"explanation":"The United States has won the most Olympic gold medals (over 1,100 across Summer and Winter Games)."},"hi":{"question":"ओलंपिक इतिहास में सर्वाधिक स्वर्ण पदक किस देश ने जीते हैं?","options":["USA","चीन","रूस (USSR)","ग्रेट ब्रिटेन"],"explanation":"USA ने सर्वाधिक ओलंपिक स्वर्ण (1100+) जीते।"}},
-  {"id":"ntpc-ga-0013","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"What is the national sport of India?","options":["Cricket","Football","Hockey (officially none)","Kabaddi"],"explanation":"India has no officially declared national sport. Hockey is often considered the national sport traditionally."},"hi":{"question":"भारत का राष्ट्रीय खेल क्या है?","options":["क्रिकेट","फुटबॉल","हॉकी (आधिकारिक रूप से कोई नहीं)","कबड्डी"],"explanation":"भारत का कोई आधिकारिक राष्ट्रीय खेल नहीं, हॉकी पारंपरिक रूप से माना जाता है।"}},
-  {"id":"ntpc-ga-0014","correctOption":"D","difficulty":"medium","sourceYear":2024,"en":{"question":"Which Indian cricketer has the most Test centuries?","options":["Virat Kohli","Sunil Gavaskar","Rahul Dravid","Sachin Tendulkar"],"explanation":"Sachin Tendulkar holds the record with 51 Test centuries, the most by any cricketer in Test history."},"hi":{"question":"किस भारतीय क्रिकेटर के सर्वाधिक टेस्ट शतक हैं?","options":["विराट कोहली","सुनील गावस्कर","राहुल द्रविड़","सचिन तेंदुलकर"],"explanation":"सचिन तेंदुलकर के 51 टेस्ट शतक, टेस्ट इतिहास में सर्वाधिक।"}},
-  {"id":"ntpc-ga-0015","correctOption":"B","difficulty":"hard","sourceYear":2023,"en":{"question":"In which year did India win its first Cricket World Cup?","options":["1975","1983","1987","1992"],"explanation":"India won its first Cricket World Cup in 1983 under Kapil Dev's captaincy, defeating West Indies at Lord's."},"hi":{"question":"भारत ने पहला क्रिकेट विश्व कप किस वर्ष जीता?","options":["1975","1983","1987","1992"],"explanation":"1983 में कपिल देव की कप्तानी में वेस्टइंडीज को लॉर्ड्स पर हराकर पहला विश्व कप।"}},
-  {"id":"ntpc-ga-0016","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"How many players are on a volleyball team on court?","options":["6","5","7","8"],"explanation":"A volleyball team has 6 players on court at a time."},"hi":{"question":"वॉलीबॉल टीम में कोर्ट पर कितने खिलाड़ी होते हैं?","options":["6","5","7","8"],"explanation":"वॉलीबॉल में एक समय पर 6 खिलाड़ी कोर्ट पर।"}},
-  {"id":"ntpc-ga-0017","correctOption":"C","difficulty":"medium","sourceYear":2024,"en":{"question":"Where were the first modern Olympic Games held in 1896?","options":["Rome","Paris","Athens","London"],"explanation":"The first modern Olympic Games were held in Athens, Greece, in 1896, reviving the ancient tradition."},"hi":{"question":"1896 में पहले आधुनिक ओलंपिक खेल कहाँ आयोजित हुए?","options":["रोम","पेरिस","एथेंस","लंदन"],"explanation":"1896 में पहले आधुनिक ओलंपिक एथेंस, ग्रीस में।"}},
-  {"id":"ntpc-ga-0018","correctOption":"D","difficulty":"hard","sourceYear":2023,"en":{"question":"Who is the only Indian to win an Olympic gold medal in athletics?","options":["Milkha Singh","P.T. Usha","Anju Bobby George","Neeraj Chopra"],"explanation":"Neeraj Chopra won gold in javelin throw at the 2021 Tokyo Olympics, India's first athletics gold."},"hi":{"question":"एथलेटिक्स में ओलंपिक स्वर्ण जीतने वाले एकमात्र भारतीय कौन हैं?","options":["मिल्खा सिंह","पी.टी. उषा","अंजू बॉबी जॉर्ज","नीरज चोपड़ा"],"explanation":"नीरज चोपड़ा ने 2021 टोक्यो ओलंपिक में भाला फेंक में स्वर्ण, भारत का पहला एथलेटिक्स स्वर्ण।"}},
-  {"id":"ntpc-ga-0019","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"How many overs are there in a T20 cricket match per side?","options":["10","20","50","30"],"explanation":"T20 cricket has 20 overs per side, introduced internationally in 2005."},"hi":{"question":"T20 क्रिकेट मैच में प्रति पक्ष कितने ओवर होते हैं?","options":["10","20","50","30"],"explanation":"T20 क्रिकेट में प्रति पक्ष 20 ओवर, 2005 में अंतरराष्ट्रीय स्तर पर शुरू।"}},
-  {"id":"ntpc-ga-0020","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"Which Indian badminton player won silver at the 2016 Rio Olympics?","options":["P.V. Sindhu","Saina Nehwal","Lakshya Sen","Srikanth Kidambi"],"explanation":"P.V. Sindhu won silver in women's singles badminton at the 2016 Rio Olympics."},"hi":{"question":"2016 रियो ओलंपिक में रजत जीतने वाली भारतीय बैडमिंटन खिलाड़ी?","options":["पी.वी. सिंधु","साइना नेहवाल","लक्ष्य सेन","श्रीकांत किदांबी"],"explanation":"पी.वी. सिंधु ने 2016 रियो ओलंपिक में महिला एकल बैडमिंटन में रजत जीता।"}},
-  {"id":"ntpc-ga-0021","correctOption":"C","difficulty":"hard","sourceYear":2023,"en":{"question":"What is the length of a marathon race?","options":["26 km","40 km","42.195 km","50 km"],"explanation":"The official marathon distance is 42.195 km (26.2 miles), established at the 1908 London Olympics."},"hi":{"question":"मैराथन दौड़ की लंबाई कितनी होती है?","options":["26 km","40 km","42.195 km","50 km"],"explanation":"मैराथन की आधिकारिक दूरी 42.195 km (26.2 मील), 1908 लंदन ओलंपिक में निर्धारित।"}},
-  {"id":"ntpc-ga-0022","correctOption":"D","difficulty":"easy","sourceYear":2024,"en":{"question":"Saina Nehwal is associated with which sport?","options":["Tennis","Table Tennis","Squash","Badminton"],"explanation":"Saina Nehwal is a badminton player, first Indian woman to reach world #1 ranking."},"hi":{"question":"साइना नेहवाल किस खेल से जुड़ी हैं?","options":["टेनिस","टेबल टेनिस","स्क्वैश","बैडमिंटन"],"explanation":"साइना नेहवाल बैडमिंटन खिलाड़ी, विश्व #1 पर पहुँचने वाली पहली भारतीय महिला।"}},
-  {"id":"ntpc-ga-0023","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"Chess Grandmaster title was first achieved by which Indian?","options":["Vishwanathan Anand","Dibyendu Barua","Praggnanandhaa R","Pentala Harikrishna"],"explanation":"Viswanathan Anand became India's first Grandmaster in 1988 and later World Chess Champion."},"hi":{"question":"शतरंज ग्रैंडमास्टर खिताब पाने वाले पहले भारतीय कौन थे?","options":["विश्वनाथन आनंद","दिब्येंदु बरुआ","प्रज्ञानानंदा आर","पेंटाला हरिकृष्णा"],"explanation":"विश्वनाथन आनंद 1988 में भारत के पहले ग्रैंडमास्टर बने।"}},
-  {"id":"ntpc-ga-0024","correctOption":"A","difficulty":"hard","sourceYear":2023,"en":{"question":"Which country hosted the 2022 FIFA World Cup?","options":["Qatar","Russia","Brazil","Germany"],"explanation":"Qatar hosted the 2022 FIFA World Cup, the first Arab nation to do so, held in November-December."},"hi":{"question":"2022 FIFA विश्व कप की मेज़बानी किस देश ने की?","options":["कतर","रूस","ब्राज़ील","जर्मनी"],"explanation":"कतर ने 2022 FIFA विश्व कप की मेज़बानी की, नवंबर-दिसंबर में आयोजित।"}},
-  {"id":"ntpc-ga-0025","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"How many players are in a basketball team on court?","options":["4","6","5","7"],"explanation":"A basketball team has 5 players on court at a time."},"hi":{"question":"बास्केटबॉल टीम में कोर्ट पर कितने खिलाड़ी?","options":["4","6","5","7"],"explanation":"बास्केटबॉल में 5 खिलाड़ी कोर्ट पर।"}},
-  {"id":"ntpc-ga-0026","correctOption":"D","difficulty":"medium","sourceYear":2024,"en":{"question":"Which Indian won the gold medal in shooting at 2008 Beijing Olympics?","options":["Rajyavardhan Singh Rathore","Vijay Kumar","Gagan Narang","Abhinav Bindra"],"explanation":"Abhinav Bindra won gold in 10m Air Rifle, India's first individual Olympic gold."},"hi":{"question":"2008 बीजिंग ओलंपिक में निशानेबाजी में स्वर्ण किसने जीता?","options":["राज्यवर्धन सिंह राठौड़","विजय कुमार","गगन नारंग","अभिनव बिंद्रा"],"explanation":"अभिनव बिंद्रा ने 10 मी एयर राइफल में भारत का पहला व्यक्तिगत ओलंपिक स्वर्ण।"}},
-  {"id":"ntpc-ga-0027","correctOption":"B","difficulty":"hard","sourceYear":2023,"en":{"question":"Dronacharya Award is given for which achievement?","options":["Best sportsperson","Best coach","Best young athlete","Lifetime achievement"],"explanation":"Dronacharya Award honors outstanding coaches in sports and games, named after Guru Dronacharya."},"hi":{"question":"द्रोणाचार्य पुरस्कार किस उपलब्धि के लिए दिया जाता है?","options":["सर्वश्रेष्ठ खिलाड़ी","सर्वश्रेष्ठ प्रशिक्षक","सर्वश्रेष्ठ युवा खिलाड़ी","आजीवन उपलब्धि"],"explanation":"द्रोणाचार्य पुरस्कार उत्कृष्ट खेल प्रशिक्षकों को, गुरु द्रोणाचार्य के नाम पर।"}},
-  {"id":"ntpc-ga-0028","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"Where is the headquarters of the International Olympic Committee (IOC)?","options":["Lausanne, Switzerland","Paris, France","Athens, Greece","New York, USA"],"explanation":"The IOC headquarters is in Lausanne, Switzerland, established there in 1915."},"hi":{"question":"अंतरराष्ट्रीय ओलंपिक समिति (IOC) का मुख्यालय कहाँ है?","options":["लॉज़ेन, स्विट्ज़रलैंड","पेरिस, फ्रांस","एथेंस, ग्रीस","न्यूयॉर्क, USA"],"explanation":"IOC मुख्यालय लॉज़ेन, स्विट्ज़रलैंड में, 1915 से।"}},
-  {"id":"ntpc-ga-0029","correctOption":"C","difficulty":"medium","sourceYear":2024,"en":{"question":"Which sport is associated with the term 'love', 'deuce', 'ace'?","options":["Badminton","Squash","Tennis","Table Tennis"],"explanation":"These terms are used in tennis. 'Love'=zero, 'deuce'=40-40 tie, 'ace'=unreturnable serve."},"hi":{"question":"'लव', 'ड्यूस', 'एस' किस खेल से जुड़े हैं?","options":["बैडमिंटन","स्क्वैश","टेनिस","टेबल टेनिस"],"explanation":"ये टेनिस के शब्द: लव=0, ड्यूस=40-40, एस=अरोक सर्विस।"}},
-  {"id":"ntpc-ga-0030","correctOption":"D","difficulty":"hard","sourceYear":2023,"en":{"question":"Who was the first Indian to win the Wimbledon junior singles title?","options":["Leander Paes","Sania Mirza","Yuki Bhambri","Ramanathan Krishnan"],"explanation":"Ramanathan Krishnan won the Wimbledon junior singles title in 1954."},"hi":{"question":"विंबलडन जूनियर एकल खिताब जीतने वाले पहले भारतीय?","options":["लिएंडर पेस","सानिया मिर्ज़ा","यूकी भांबरी","रामनाथन कृष्णन"],"explanation":"रामनाथन कृष्णन ने 1954 में विंबलडन जूनियर एकल खिताब जीता।"}},
-  {"id":"ntpc-ga-0031","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"How long is an Olympic-size swimming pool?","options":["25 m","50 m","75 m","100 m"],"explanation":"An Olympic-size swimming pool is 50 meters long and 25 meters wide with 10 lanes."},"hi":{"question":"ओलंपिक आकार का स्विमिंग पूल कितना लंबा होता है?","options":["25 m","50 m","75 m","100 m"],"explanation":"ओलंपिक पूल 50m लंबा, 25m चौड़ा, 10 लेन।"}},
-  {"id":"ntpc-ga-0032","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"The Arjuna Award is given in which field?","options":["Sports","Literature","Cinema","Science"],"explanation":"Arjuna Award is India's second-highest sporting honor, given for outstanding performance in sports."},"hi":{"question":"अर्जुन पुरस्कार किस क्षेत्र में दिया जाता है?","options":["खेल","साहित्य","सिनेमा","विज्ञान"],"explanation":"अर्जुन पुरस्कार खेल में उत्कृष्ट प्रदर्शन के लिए भारत का दूसरा सर्वोच्च खेल सम्मान।"}},
-  {"id":"ntpc-ga-0033","correctOption":"C","difficulty":"hard","sourceYear":2023,"en":{"question":"What is the official diameter of a cricket ball used in Test matches?","options":["2.0 - 2.2 inches","2.4 - 2.6 inches","2.80 - 2.86 inches","3.0 - 3.2 inches"],"explanation":"A Test cricket ball weighs 5.5-5.75 oz with circumference 8.81-9.00 inches (diameter ~2.80-2.86 inches)."},"hi":{"question":"टेस्ट मैचों में क्रिकेट गेंद का आधिकारिक व्यास?","options":["2.0-2.2 इंच","2.4-2.6 इंच","2.80-2.86 इंच","3.0-3.2 इंच"],"explanation":"टेस्ट क्रिकेट गेंद: वजन 5.5-5.75 oz, परिधि 8.81-9.00 इंच।"}},
-  {"id":"ntpc-ga-0034","correctOption":"D","difficulty":"easy","sourceYear":2024,"en":{"question":"In which sport is the term 'dunk' used?","options":["Cricket","Soccer","Tennis","Basketball"],"explanation":"A 'dunk' is a basketball shot where a player jumps and scores by putting the ball directly through the hoop."},"hi":{"question":"'डंक' शब्द किस खेल में प्रयुक्त होता है?","options":["क्रिकेट","फुटबॉल","टेनिस","बास्केटबॉल"],"explanation":"डंक बास्केटबॉल का शॉट, कूदकर सीधे हूप में गेंद डालना।"}},
-  {"id":"ntpc-ga-0035","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"Which Indian state is known for producing the most hockey players?","options":["Punjab","Odisha","Haryana","Manipur"],"explanation":"Odisha has produced many hockey stars and hosted the Hockey World Cup. Punjab is also a major contributor."},"hi":{"question":"सर्वाधिक हॉकी खिलाड़ी पैदा करने वाला राज्य?","options":["पंजाब","ओडिशा","हरियाणा","मणिपुर"],"explanation":"ओडिशा ने कई हॉकी सितारे दिए और हॉकी विश्व कप की मेज़बानी की।"}},
-  {"id":"ntpc-ga-0036","correctOption":"A","difficulty":"hard","sourceYear":2023,"en":{"question":"Which countries compete in 'The Ashes' cricket series?","options":["Australia and England","India and Pakistan","South Africa and England","Australia and New Zealand"],"explanation":"The Ashes is a Test cricket series between Australia and England, started in 1882."},"hi":{"question":"'द एशेज' क्रिकेट श्रृंखला किन देशों के बीच होती है?","options":["ऑस्ट्रेलिया और इंग्लैंड","भारत और पाकिस्तान","दक्षिण अफ्रीका और इंग्लैंड","ऑस्ट्रेलिया और न्यूजीलैंड"],"explanation":"द एशेज ऑस्ट्रेलिया-इंग्लैंड के बीच टेस्ट श्रृंखला, 1882 से।"}},
-  {"id":"ntpc-ga-0037","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"How many rings are there in the Olympic flag?","options":["3","4","5","6"],"explanation":"The Olympic flag has 5 interlocking rings representing the five continents: Africa, Americas, Asia, Europe, Oceania."},"hi":{"question":"ओलंपिक ध्वज में कितने छल्ले होते हैं?","options":["3","4","5","6"],"explanation":"ओलंपिक ध्वज में 5 छल्ले पाँच महाद्वीपों के प्रतीक।"}},
-  {"id":"ntpc-ga-0038","correctOption":"D","difficulty":"medium","sourceYear":2024,"en":{"question":"The French Open (Roland Garros) is played on which surface?","options":["Grass","Hard court","Carpet","Clay"],"explanation":"The French Open is played on red clay courts at Roland Garros, Paris."},"hi":{"question":"फ्रेंच ओपन (रोलां गारो) किस सतह पर खेला जाता है?","options":["घास","हार्ड कोर्ट","कार्पेट","क्ले (मिट्टी)"],"explanation":"फ्रेंच ओपन पेरिस में लाल क्ले कोर्ट पर।"}},
-  {"id":"ntpc-ga-0039","correctOption":"B","difficulty":"hard","sourceYear":2023,"en":{"question":"Which male tennis player has won the most Grand Slam singles titles?","options":["Roger Federer","Novak Djokovic","Rafael Nadal","Pete Sampras"],"explanation":"Novak Djokovic holds the record for most men's Grand Slam singles titles (24 as of 2024)."},"hi":{"question":"सर्वाधिक ग्रैंड स्लैम एकल खिताब (पुरुष)?","options":["रोजर फेडरर","नोवाक जोकोविच","राफेल नडाल","पीट सैम्प्रास"],"explanation":"नोवाक जोकोविच (24 ग्रैंड स्लैम, 2024 तक) सर्वाधिक।"}},
-  {"id":"ntpc-ga-0040","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"Where did India's national sport hockey team win its last Olympic gold?","options":["1980 Moscow","1964 Tokyo","1956 Melbourne","1948 London"],"explanation":"Indian hockey team won its last Olympic gold in 1980 Moscow, its 8th Olympic hockey gold."},"hi":{"question":"भारतीय हॉकी टीम ने अंतिम ओलंपिक स्वर्ण कहाँ जीता?","options":["1980 मास्को","1964 टोक्यो","1956 मेलबर्न","1948 लंदन"],"explanation":"1980 मास्को में भारत का 8वाँ और अंतिम ओलंपिक हॉकी स्वर्ण।"}},
-  {"id":"ntpc-ga-0041","correctOption":"C","difficulty":"medium","sourceYear":2024,"en":{"question":"Who is known as the 'Magician of Hockey'?","options":["Dhanraj Pillay","Balbir Singh Sr.","Major Dhyan Chand","Udham Singh"],"explanation":"Major Dhyan Chand was called 'Hockey Wizard' for his extraordinary ball control, won 3 Olympic golds (1928,1932,1936)."},"hi":{"question":"हॉकी का जादूगर किसे कहा जाता है?","options":["धनराज पिल्लै","बलबीर सिंह सीनियर","मेजर ध्यानचंद","उधम सिंह"],"explanation":"मेजर ध्यानचंद, 3 ओलंपिक स्वर्ण (1928,32,36), असाधारण गेंद नियंत्रण।"}},
-  {"id":"ntpc-ga-0042","correctOption":"D","difficulty":"hard","sourceYear":2023,"en":{"question":"Which city will host the 2028 Summer Olympics?","options":["Paris","Brisbane","Milan","Los Angeles"],"explanation":"Los Angeles, USA will host the 2028 Summer Olympics. Paris 2024, Milan-Cortina 2026 Winter, Brisbane 2032."},"hi":{"question":"2028 ग्रीष्मकालीन ओलंपिक किस शहर में होंगे?","options":["पेरिस","ब्रिस्बेन","मिलान","लॉस एंजेलिस"],"explanation":"लॉस एंजेलिस, USA 2028 ग्रीष्मकालीन ओलंपिक की मेज़बानी करेगा।"}},
-  {"id":"ntpc-ga-0043","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"In cricket, what does LBW stand for?","options":["Leg Before Wicket","Leg Before Wicket","Long Ball Wide","Left Bowled Wicket"],"explanation":"LBW = Leg Before Wicket, a mode of dismissal where the ball hits the batsman's leg in line with stumps."},"hi":{"question":"क्रिकेट में LBW का पूरा नाम?","options":["लेग बिफोर विकेट","लेग बिफोर विकेट","लॉन्ग बॉल वाइड","लेफ्ट बोल्ड विकेट"],"explanation":"LBW = लेग बिफोर विकेट, आउट होने का एक तरीका।"}},
-  {"id":"ntpc-ga-0044","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"Which sport uses a 'shuttlecock'?","options":["Badminton","Tennis","Squash","Table Tennis"],"explanation":"Badminton uses a shuttlecock (also called 'birdie'), which is hit across the net with rackets."},"hi":{"question":"'शटलकॉक' किस खेल में प्रयुक्त होता है?","options":["बैडमिंटन","टेनिस","स्क्वैश","टेबल टेनिस"],"explanation":"बैडमिंटन में शटलकॉक (चिड़िया) का उपयोग।"}},
-  {"id":"ntpc-ga-0045","correctOption":"C","difficulty":"hard","sourceYear":2023,"en":{"question":"What is the Indian Premier League's (IPL) governing body?","options":["ICC","BCCI","BCCI","BCB"],"explanation":"The BCCI (Board of Control for Cricket in India) governs the IPL, launched in 2008."},"hi":{"question":"IPL की शासी निकाय कौन-सी है?","options":["ICC","BCCI","BCCI","BCB"],"explanation":"BCCI (भारतीय क्रिकेट कंट्रोल बोर्ड) IPL (2008 में शुरू) का संचालन करता है।"}},
-  {"id":"ntpc-ga-0046","correctOption":"D","difficulty":"easy","sourceYear":2024,"en":{"question":"In football (soccer), how many players are on each team?","options":["9","10","12","11"],"explanation":"Each football (soccer) team has 11 players, including the goalkeeper."},"hi":{"question":"फुटबॉल में प्रत्येक टीम में कितने खिलाड़ी?","options":["9","10","12","11"],"explanation":"फुटबॉल में 11 खिलाड़ी (गोलकीपर सहित)।"}},
-  {"id":"ntpc-ga-0047","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"What is the maximum score possible in a single shot of archery?","options":["8","10","12","9"],"explanation":"In Olympic archery, the maximum score per arrow is 10 (hitting the inner gold ring)."},"hi":{"question":"तीरंदाजी में एक शॉट का अधिकतम स्कोर?","options":["8","10","12","9"],"explanation":"ओलंपिक तीरंदाजी में प्रति तीर अधिकतम 10 अंक (आंतरिक स्वर्ण वलय)।"}},
-  {"id":"ntpc-ga-0048","correctOption":"A","difficulty":"hard","sourceYear":2023,"en":{"question":"Khelo India Program was launched in which year?","options":["2018","2015","2020","2016"],"explanation":"Khelo India was launched in 2018 to promote sports at grassroots level across India."},"hi":{"question":"खेलो इंडिया कार्यक्रम किस वर्ष शुरू हुआ?","options":["2018","2015","2020","2016"],"explanation":"खेलो इंडिया 2018 में जमीनी स्तर पर खेलों को बढ़ावा देने के लिए शुरू।"}},
-  {"id":"ntpc-ga-0049","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"What is the duration of a football (soccer) match?","options":["60 minutes","80 minutes","90 minutes","100 minutes"],"explanation":"A standard football match lasts 90 minutes (two 45-minute halves) plus injury time."},"hi":{"question":"फुटबॉल मैच की अवधि कितनी होती है?","options":["60 मिनट","80 मिनट","90 मिनट","100 मिनट"],"explanation":"फुटबॉल मैच 90 मिनट (45-45 के दो हाफ) + इंजरी टाइम।"}},
-  {"id":"ntpc-ga-0050","correctOption":"D","difficulty":"medium","sourceYear":2024,"en":{"question":"The term 'Googly' is associated with which sport?","options":["Football","Hockey","Tennis","Cricket"],"explanation":"A 'googly' is a deceptive delivery in cricket by a leg-spinner that turns opposite to expected direction."},"hi":{"question":"'गुगली' शब्द किस खेल से संबंधित है?","options":["फुटबॉल","हॉकी","टेनिस","क्रिकेट"],"explanation":"गुगली क्रिकेट में लेग-स्पिनर की एक भ्रामक गेंद।"}},
-  {"id":"ntpc-ga-0051","correctOption":"B","difficulty":"hard","sourceYear":2023,"en":{"question":"Where did India win its first Olympic hockey gold?","options":["1924 Paris","1928 Amsterdam","1932 Los Angeles","1936 Berlin"],"explanation":"India won its first Olympic hockey gold in 1928 Amsterdam, starting a golden era."},"hi":{"question":"भारत ने पहला ओलंपिक हॉकी स्वर्ण कहाँ जीता?","options":["1924 पेरिस","1928 एम्सटर्डम","1932 लॉस एंजेलिस","1936 बर्लिन"],"explanation":"1928 एम्सटर्डम में भारत का पहला हॉकी स्वर्ण।"}},
-  {"id":"ntpc-ga-0052","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"How many Grand Slam tennis tournaments are there?","options":["4","3","5","6"],"explanation":"There are 4 Grand Slams: Australian Open, French Open, Wimbledon, and US Open."},"hi":{"question":"कितने ग्रैंड स्लैम टेनिस टूर्नामेंट हैं?","options":["4","3","5","6"],"explanation":"4 ग्रैंड स्लैम: ऑस्ट्रेलियाई ओपन, फ्रेंच ओपन, विंबलडन, US ओपन।"}},
-  {"id":"ntpc-ga-0053","correctOption":"C","difficulty":"medium","sourceYear":2024,"en":{"question":"Which country has won the most Cricket World Cups?","options":["India","West Indies","Australia","England"],"explanation":"Australia has won 6 ODI World Cups (1987,1999,2003,2007,2015,2023), the most by any nation."},"hi":{"question":"सर्वाधिक क्रिकेट विश्व कप किस देश ने जीते?","options":["भारत","वेस्टइंडीज","ऑस्ट्रेलिया","इंग्लैंड"],"explanation":"ऑस्ट्रेलिया 6 ODI विश्व कप (1987-2023), सर्वाधिक।"}},
-  {"id":"ntpc-ga-0054","correctOption":"D","difficulty":"hard","sourceYear":2023,"en":{"question":"Who was the first Indian athlete to win a medal at the World Athletics Championships?","options":["Milkha Singh","P.T. Usha","Anju Bobby George","Neeraj Chopra"],"explanation":"Anju Bobby George won bronze in long jump at 2003 World Championships, India's first medal."},"hi":{"question":"विश्व एथलेटिक्स चैंपियनशिप में पदक जीतने वाले पहले भारतीय?","options":["मिल्खा सिंह","पी.टी. उषा","अंजू बॉबी जॉर्ज","नीरज चोपड़ा"],"explanation":"अंजू बॉबी जॉर्ज, 2003 विश्व चैंपियनशिप लंबी कूद में कांस्य।"}},
-  {"id":"ntpc-ga-0055","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"In table tennis, a game is played up to how many points?","options":["15","11","21","25"],"explanation":"Modern table tennis games are played to 11 points (best of 5 or 7 games). Was 21 earlier."},"hi":{"question":"टेबल टेनिस में एक गेम कितने अंकों का होता है?","options":["15","11","21","25"],"explanation":"आधुनिक टेबल टेनिस 11 अंकों का (पहले 21 हुआ करता था)।"}},
-  {"id":"ntpc-ga-0056","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"What is the national sport of Japan?","options":["Sumo wrestling","Judo","Karate","Kendo"],"explanation":"Sumo wrestling is Japan's national sport, with a history spanning over 1,500 years."},"hi":{"question":"जापान का राष्ट्रीय खेल क्या है?","options":["सूमो कुश्ती","जूडो","कराटे","केंडो"],"explanation":"सूमो कुश्ती जापान का राष्ट्रीय खेल, 1,500 वर्षों का इतिहास।"}},
-  {"id":"ntpc-ga-0057","correctOption":"C","difficulty":"hard","sourceYear":2023,"en":{"question":"Which is the oldest football tournament in India?","options":["Santosh Trophy","Federation Cup","Durand Cup","IFA Shield"],"explanation":"Durand Cup, started in 1888 in Shimla, is the oldest football tournament in India and Asia."},"hi":{"question":"भारत का सबसे पुराना फुटबॉल टूर्नामेंट कौन-सा है?","options":["संतोष ट्रॉफी","फेडरेशन कप","डूरंड कप","IFA शील्ड"],"explanation":"डूरंड कप, 1888 में शिमला में शुरू, भारत और एशिया का सबसे पुराना।"}},
-  {"id":"ntpc-ga-0058","correctOption":"D","difficulty":"easy","sourceYear":2024,"en":{"question":"What is the color of the cricket ball used in Test matches?","options":["White","Orange","Pink","Red"],"explanation":"Red ball is traditionally used in Test cricket. Pink ball for day-night Tests, white for limited overs."},"hi":{"question":"टेस्ट मैचों में किस रंग की क्रिकेट गेंद प्रयुक्त होती है?","options":["सफेद","नारंगी","गुलाबी","लाल"],"explanation":"टेस्ट क्रिकेट में लाल गेंद। गुलाबी दिन-रात टेस्ट, सफेद सीमित ओवरों में।"}},
-  {"id":"ntpc-ga-0059","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"Which Indian won the All England Badminton Championship?","options":["Saina Nehwal","Prakash Padukone","P.V. Sindhu","Kidambi Srikanth"],"explanation":"Prakash Padukone won the All England in 1980, and Pullela Gopichand in 2001."},"hi":{"question":"ऑल इंग्लैंड बैडमिंटन चैंपियनशिप किस भारतीय ने जीती?","options":["साइना नेहवाल","प्रकाश पादुकोण","पी.वी. सिंधु","किदांबी श्रीकांत"],"explanation":"प्रकाश पादुकोण (1980) और पुलेला गोपीचंद (2001) ने ऑल इंग्लैंड जीता।"}},
-  {"id":"ntpc-ga-0060","correctOption":"A","difficulty":"hard","sourceYear":2023,"en":{"question":"What is the length of a cricket pitch?","options":["22 yards","20 yards","25 yards","18 yards"],"explanation":"A cricket pitch is 22 yards (20.12 meters) long between the two sets of stumps."},"hi":{"question":"क्रिकेट पिच की लंबाई कितनी होती है?","options":["22 गज","20 गज","25 गज","18 गज"],"explanation":"क्रिकेट पिच 22 गज (20.12 मीटर), दो विकेट सेट के बीच।"}},
-  {"id":"ntpc-ga-0061","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"In which sport is 'Slam dunk' a term?","options":["Volleyball","Tennis","Basketball","Badminton"],"explanation":"Slam dunk is a high-percentage shot in basketball where a player jumps and scores directly."},"hi":{"question":"'स्लैम डंक' किस खेल का शब्द है?","options":["वॉलीबॉल","टेनिस","बास्केटबॉल","बैडमिंटन"],"explanation":"स्लैम डंक बास्केटबॉल का शॉट, कूदकर सीधे स्कोर।"}},
-  {"id":"ntpc-ga-0062","correctOption":"D","difficulty":"medium","sourceYear":2024,"en":{"question":"The first Indian to swim across the English Channel was?","options":["Arati Saha","Bula Choudhary","Mihir Sen","Mihir Sen"],"explanation":"Mihir Sen became the first Indian to swim across the English Channel in 1958."},"hi":{"question":"इंग्लिश चैनल तैरकर पार करने वाले पहले भारतीय?","options":["आरती साहा","बुला चौधरी","मिहिर सेन","मिहिर सेन"],"explanation":"मिहिर सेन ने 1958 में इंग्लिश चैनल तैरकर पार किया।"}},
-  {"id":"ntpc-ga-0063","correctOption":"B","difficulty":"hard","sourceYear":2023,"en":{"question":"Sania Mirza won Grand Slam titles in which category?","options":["Singles","Doubles and Mixed Doubles","Singles and Doubles","Mixed Doubles only"],"explanation":"Sania Mirza won 6 Grand Slam titles — 3 in women's doubles and 3 in mixed doubles."},"hi":{"question":"सानिया मिर्ज़ा ने ग्रैंड स्लैम किस श्रेणी में जीते?","options":["एकल","युगल और मिश्रित युगल","एकल और युगल","केवल मिश्रित युगल"],"explanation":"सानिया मिर्ज़ा ने 6 ग्रैंड स्लैम: 3 महिला युगल, 3 मिश्रित युगल।"}},
-  {"id":"ntpc-ga-0064","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"Where is the headquarters of the International Cricket Council (ICC)?","options":["Dubai, UAE","London, England","Mumbai, India","Melbourne, Australia"],"explanation":"The ICC headquarters is in Dubai, United Arab Emirates."},"hi":{"question":"ICC का मुख्यालय कहाँ है?","options":["दुबई, UAE","लंदन, इंग्लैंड","मुंबई, भारत","मेलबर्न, ऑस्ट्रेलिया"],"explanation":"ICC मुख्यालय दुबई, संयुक्त अरब अमीरात में।"}},
-  {"id":"ntpc-ga-0065","correctOption":"C","difficulty":"medium","sourceYear":2024,"en":{"question":"How many gold medals did India win at the Paris 2024 Olympics?","options":["3","2","0","1"],"explanation":"India won 6 medals at Paris 2024: 1 silver and 5 bronze, but no gold."},"hi":{"question":"पेरिस 2024 ओलंपिक में भारत ने कितने स्वर्ण जीते?","options":["3","2","0","1"],"explanation":"पेरिस 2024 में भारत: 1 रजत, 5 कांस्य, कोई स्वर्ण नहीं।"}},
-  {"id":"ntpc-ga-0066","correctOption":"D","difficulty":"hard","sourceYear":2023,"en":{"question":"Who was the first woman to score a double century in ODI cricket?","options":["Mithali Raj","Smriti Mandhana","Belinda Clark","Belinda Clark"],"explanation":"Belinda Clark (Australia) scored the first ODI double century (229*) against Denmark in 1997."},"hi":{"question":"ODI क्रिकेट में दोहरा शतक बनाने वाली पहली महिला?","options":["मिताली राज","स्मृति मंधाना","बेलिंडा क्लार्क","बेलिंडा क्लार्क"],"explanation":"बेलिंडा क्लार्क (ऑस्ट्रेलिया) ने 1997 में पहला महिला ODI दोहरा शतक (229*)।"}},
-  {"id":"ntpc-ga-0067","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"In which sport is the term 'hat-trick' used?","options":["Only cricket","Cricket, football, hockey and more","Only football","Only hockey"],"explanation":"Hat-trick (3 consecutive achievements) is used in cricket, football, hockey, and many other sports."},"hi":{"question":"'हैट्रिक' शब्द किन खेलों में प्रयुक्त होता है?","options":["केवल क्रिकेट","क्रिकेट, फुटबॉल, हॉकी आदि","केवल फुटबॉल","केवल हॉकी"],"explanation":"हैट्रिक (लगातार 3 उपलब्धियाँ) क्रिकेट, फुटबॉल, हॉकी आदि में।"}},
-  {"id":"ntpc-ga-0068","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"Where is the Motera Stadium (Narendra Modi Stadium) located?","options":["Ahmedabad","Mumbai","Kolkata","Chennai"],"explanation":"Narendra Modi Stadium in Ahmedabad is the world's largest cricket stadium with 132,000 capacity."},"hi":{"question":"मोटेरा स्टेडियम (नरेंद्र मोदी स्टेडियम) कहाँ है?","options":["अहमदाबाद","मुंबई","कोलकाता","चेन्नई"],"explanation":"अहमदाबाद का नरेंद्र मोदी स्टेडियम 132,000 क्षमता, विश्व का सबसे बड़ा क्रिकेट स्टेडियम।"}},
-  {"id":"ntpc-ga-0069","correctOption":"C","difficulty":"hard","sourceYear":2023,"en":{"question":"Which award is the highest sporting honor in India?","options":["Arjuna Award","Dronacharya Award","Major Dhyan Chand Khel Ratna","Padma Shri"],"explanation":"Major Dhyan Chand Khel Ratna Award (formerly Rajiv Gandhi Khel Ratna) is India's highest sporting honor."},"hi":{"question":"भारत का सर्वोच्च खेल सम्मान कौन-सा है?","options":["अर्जुन पुरस्कार","द्रोणाचार्य पुरस्कार","मेजर ध्यानचंद खेल रत्न","पद्म श्री"],"explanation":"मेजर ध्यानचंद खेल रत्न (पूर्व राजीव गांधी खेल रत्न) भारत का सर्वोच्च खेल सम्मान।"}},
-  {"id":"ntpc-ga-0070","correctOption":"D","difficulty":"easy","sourceYear":2024,"en":{"question":"Which country is considered the birthplace of the Olympic Games?","options":["Italy","Egypt","Rome","Greece"],"explanation":"Ancient Olympic Games originated in Olympia, Greece in 776 BCE."},"hi":{"question":"ओलंपिक खेलों का जन्मस्थान कौन-सा देश है?","options":["इटली","मिस्र","रोम","ग्रीस"],"explanation":"प्राचीन ओलंपिक 776 BCE में ओलंपिया, ग्रीस में शुरू।"}},
-  {"id":"ntpc-ga-0071","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"The term 'Bullseye' is associated with which sport?","options":["Archery","Shooting/Darts","Cricket","Boxing"],"explanation":"Bullseye refers to the center of a target in shooting, archery, and darts — worth maximum points."},"hi":{"question":"'बुल्सआई' किस खेल से जुड़ा है?","options":["तीरंदाजी","निशानेबाजी/डार्ट्स","क्रिकेट","मुक्केबाज़ी"],"explanation":"बुल्सआई निशानेबाजी/डार्ट्स में लक्ष्य का केंद्र, अधिकतम अंक।"}},
-  {"id":"ntpc-ga-0072","correctOption":"A","difficulty":"hard","sourceYear":2023,"en":{"question":"Which IPL team has won the most titles?","options":["Mumbai Indians","Chennai Super Kings","Kolkata Knight Riders","Rajasthan Royals"],"explanation":"Mumbai Indians and Chennai Super Kings have each won 5 IPL titles (as of 2024)."},"hi":{"question":"सर्वाधिक IPL खिताब किस टीम ने जीते?","options":["मुंबई इंडियंस","चेन्नई सुपर किंग्स","कोलकाता नाइट राइडर्स","राजस्थान रॉयल्स"],"explanation":"मुंबई इंडियंस और चेन्नई सुपर किंग्स 5-5 खिताब (2024 तक)।"}},
-  {"id":"ntpc-ga-0073","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"In which sport is a 'Bishop' used as a piece?","options":["Carrom","Ludo","Chess","Monopoly"],"explanation":"The bishop is a piece in chess that moves diagonally. Each player starts with two bishops."},"hi":{"question":"'बिशप' मोहरा किस खेल में होता है?","options":["कैरम","लूडो","शतरंज","मोनोपोली"],"explanation":"बिशप शतरंज की मोहरा, विकर्ण चाल, प्रत्येक खिलाड़ी के 2।"}},
-  {"id":"ntpc-ga-0074","correctOption":"D","difficulty":"medium","sourceYear":2024,"en":{"question":"Who is known as 'The Wall' in Indian cricket?","options":["Sachin Tendulkar","Sourav Ganguly","VVS Laxman","Rahul Dravid"],"explanation":"Rahul Dravid was called 'The Wall' for his solid defensive technique and ability to occupy the crease."},"hi":{"question":"भारतीय क्रिकेट में 'द वॉल' किसे कहते हैं?","options":["सचिन तेंदुलकर","सौरव गांगुली","वीवीएस लक्ष्मण","राहुल द्रविड़"],"explanation":"राहुल द्रविड़ ठोस रक्षात्मक तकनीक के लिए 'द वॉल' कहलाए।"}},
-  {"id":"ntpc-ga-0075","correctOption":"B","difficulty":"hard","sourceYear":2023,"en":{"question":"Cricket was first introduced as an Olympic sport in which year?","options":["1896","1900","1904","1908"],"explanation":"Cricket was played at the 1900 Paris Olympics with only two teams: Great Britain and France."},"hi":{"question":"क्रिकेट पहली बार ओलंपिक खेल किस वर्ष बना?","options":["1896","1900","1904","1908"],"explanation":"1900 पेरिस ओलंपिक में क्रिकेट, केवल दो टीमें: ग्रेट ब्रिटेन और फ्रांस।"}},
-  {"id":"ntpc-ga-0076","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"How many players are in a kabaddi team on the court?","options":["7","6","8","5"],"explanation":"A kabaddi team has 7 players on court with 5 substitutes."},"hi":{"question":"कबड्डी टीम में कोर्ट पर कितने खिलाड़ी?","options":["7","6","8","5"],"explanation":"कबड्डी में 7 खिलाड़ी कोर्ट पर, 5 स्थानापन्न।"}},
-  {"id":"ntpc-ga-0077","correctOption":"C","difficulty":"medium","sourceYear":2024,"en":{"question":"The 'Sultan of Swing' in cricket refers to?","options":["Imran Khan","Waqar Younis","Wasim Akram","Shoaib Akhtar"],"explanation":"Wasim Akram was called 'Sultan of Swing' for his ability to swing the ball both ways."},"hi":{"question":"क्रिकेट में 'सुल्तान ऑफ स्विंग' किसे कहते हैं?","options":["इमरान खान","वकार यूनिस","वसीम अकरम","शोएब अख्तर"],"explanation":"वसीम अकरम दोनों ओर गेंद स्विंग करने के लिए 'सुल्तान ऑफ स्विंग'।"}},
-  {"id":"ntpc-ga-0078","correctOption":"D","difficulty":"hard","sourceYear":2023,"en":{"question":"Which country invented the game of chess?","options":["China","Persia","Russia","India"],"explanation":"Chess originated in India as 'Chaturanga' during the Gupta Empire (~6th century CE)."},"hi":{"question":"शतरंज का आविष्कार किस देश में हुआ?","options":["चीन","फारस","रूस","भारत"],"explanation":"शतरंज का जन्म भारत में गुप्त साम्राज्य (~छठी शताब्दी) में 'चतुरंग' के रूप में।"}},
-  {"id":"ntpc-ga-0079","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"What is the width of a football (soccer) goal?","options":["6.0 m","7.32 m","8.0 m","9.15 m"],"explanation":"A football goal is 7.32 m (8 yards) wide and 2.44 m (8 ft) high."},"hi":{"question":"फुटबॉल गोल की चौड़ाई कितनी है?","options":["6.0 m","7.32 m","8.0 m","9.15 m"],"explanation":"फुटबॉल गोल 7.32 m (8 गज) चौड़ा, 2.44 m ऊँचा।"}},
-  {"id":"ntpc-ga-0080","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"Who was the captain of the Indian cricket team that won the 2011 World Cup?","options":["M.S. Dhoni","Sachin Tendulkar","Virender Sehwag","Gautam Gambhir"],"explanation":"M.S. Dhoni captained India to World Cup victory in 2011, hitting the winning six at Wankhede Stadium."},"hi":{"question":"2011 विश्व कप जीतने वाली भारतीय क्रिकेट टीम के कप्तान?","options":["एम.एस. धोनी","सचिन तेंदुलकर","वीरेंद्र सहवाग","गौतम गंभीर"],"explanation":"एम.एस. धोनी की कप्तानी में 2011 विश्व कप, वानखेड़े में विजयी छक्का।"}},
-  {"id":"ntpc-ga-0081","correctOption":"C","difficulty":"hard","sourceYear":2023,"en":{"question":"Which sports event is associated with 'Yellow Jersey'?","options":["Olympics","Wimbledon","Tour de France","FIFA World Cup"],"explanation":"The yellow jersey (maillot jaune) is worn by the overall leader in the Tour de France cycling race."},"hi":{"question":"'येलो जर्सी' किस खेल आयोजन से जुड़ी है?","options":["ओलंपिक","विंबलडन","टूर डी फ्रांस","FIFA विश्व कप"],"explanation":"टूर डी फ्रांस साइकिल दौड़ में अग्रणी खिलाड़ी येलो जर्सी पहनता है।"}},
-  {"id":"ntpc-ga-0082","correctOption":"D","difficulty":"easy","sourceYear":2024,"en":{"question":"In which sport is the term 'Stalemate' used?","options":["Cricket","Football","Hockey","Chess"],"explanation":"Stalemate is a chess term where a player has no legal moves but is not in check, resulting in a draw."},"hi":{"question":"'स्टेलमेट' शब्द किस खेल में प्रयुक्त होता है?","options":["क्रिकेट","फुटबॉल","हॉकी","शतरंज"],"explanation":"स्टेलमेट शतरंज की स्थिति, कोई वैध चाल नहीं पर शह नहीं, परिणाम ड्रॉ।"}},
-  {"id":"ntpc-ga-0083","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"The ancient Indian martial art 'Kalaripayattu' belongs to which state?","options":["Tamil Nadu","Kerala","Karnataka","Andhra Pradesh"],"explanation":"Kalaripayattu originated in Kerala and is considered one of the oldest fighting systems in existence."},"hi":{"question":"प्राचीन भारतीय युद्धकला 'कलारीपयट्टु' किस राज्य की है?","options":["तमिलनाडु","केरल","कर्नाटक","आंध्र प्रदेश"],"explanation":"कलारीपयट्टु केरल की प्राचीन युद्धकला, सबसे पुरानी युद्ध प्रणालियों में से एक।"}},
-  {"id":"ntpc-ga-0084","correctOption":"A","difficulty":"hard","sourceYear":2023,"en":{"question":"How many Olympic medals has P.V. Sindhu won in her career?","options":["2","1","3","4"],"explanation":"P.V. Sindhu has won 2 Olympic medals: silver at 2016 Rio and bronze at 2021 Tokyo."},"hi":{"question":"पी.वी. सिंधु ने कितने ओलंपिक पदक जीते?","options":["2","1","3","4"],"explanation":"पी.वी. सिंधु: 2 ओलंपिक पदक — 2016 रियो रजत, 2021 टोक्यो कांस्य।"}},
-  {"id":"ntpc-ga-0085","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"What is the national sport of Canada?","options":["Ice hockey only","Basketball","Lacrosse (summer) and Ice Hockey (winter)","Curling"],"explanation":"Canada has two national sports: lacrosse (summer) and ice hockey (winter), declared in 1994."},"hi":{"question":"कनाडा का राष्ट्रीय खेल क्या है?","options":["केवल आइस हॉकी","बास्केटबॉल","लैक्रोस (ग्रीष्म) और आइस हॉकी (शीत)","कर्लिंग"],"explanation":"कनाडा के दो राष्ट्रीय खेल: लैक्रोस और आइस हॉकी (1994 से)।"}}
+  {
+    "id": "ngas-0001",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How many players are there in a standard cricket team on the field?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "explanation": "A standard cricket team has 11 players on the field."
+    },
+    "hi": {
+      "question": "एक मानक क्रिकेट टीम में मैदान पर कितने खिलाड़ी होते हैं?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "explanation": "एक मानक क्रिकेट टीम में मैदान पर 11 खिलाड़ी होते हैं।"
+    }
+  },
+  {
+    "id": "ngas-0002",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Who won India's first-ever individual Olympic gold medal?",
+      "options": [
+        "Rajyavardhan Singh Rathore",
+        "Abhinav Bindra",
+        "Neeraj Chopra",
+        "Leander Paes"
+      ],
+      "explanation": "Abhinav Bindra won India's first individual Olympic gold in 10m air rifle at the 2008 Beijing Olympics."
+    },
+    "hi": {
+      "question": "भारत का पहला व्यक्तिगत ओलंपिक स्वर्ण पदक किसने जीता?",
+      "options": [
+        "राज्यवर्धन सिंह राठौड़",
+        "अभिनव बिंद्रा",
+        "नीरज चोपड़ा",
+        "लिएंडर पेस"
+      ],
+      "explanation": "अभिनव बिंद्रा ने 2008 बीजिंग ओलंपिक में 10 मीटर एयर राइफल में पहला व्यक्तिगत ओलंपिक स्वर्ण जीता।"
+    }
+  },
+  {
+    "id": "ngas-0003",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Eden Gardens is located in which city?",
+      "options": [
+        "Mumbai",
+        "Chennai",
+        "Delhi",
+        "Kolkata"
+      ],
+      "explanation": "Eden Gardens is in Kolkata, established in 1864, one of the largest cricket stadiums in India."
+    },
+    "hi": {
+      "question": "ईडन गार्डन्स किस शहर में स्थित है?",
+      "options": [
+        "मुंबई",
+        "चेन्नई",
+        "दिल्ली",
+        "कोलकाता"
+      ],
+      "explanation": "ईडन गार्डन्स कोलकाता में, 1864 में स्थापित, भारत का सबसे बड़ा क्रिकेट स्टेडियम।"
+    }
+  },
+  {
+    "id": "ngas-0004",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Who was the first Indian woman to win an Olympic medal?",
+      "options": [
+        "P.T. Usha",
+        "Karnam Malleswari",
+        "Mary Kom",
+        "Saina Nehwal"
+      ],
+      "explanation": "Karnam Malleswari won bronze in weightlifting at the 2000 Sydney Olympics."
+    },
+    "hi": {
+      "question": "ओलंपिक पदक जीतने वाली पहली भारतीय महिला कौन थीं?",
+      "options": [
+        "पी.टी. उषा",
+        "कर्णम मल्लेश्वरी",
+        "मैरी कॉम",
+        "साइना नेहवाल"
+      ],
+      "explanation": "कर्णम मल्लेश्वरी ने 2000 सिडनी ओलंपिक में भारोत्तोलन में कांस्य जीता।"
+    }
+  },
+  {
+    "id": "ngas-0005",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which country won the FIFA World Cup 2022?",
+      "options": [
+        "France",
+        "Brazil",
+        "Argentina",
+        "Germany"
+      ],
+      "explanation": "Argentina won FIFA World Cup 2022 in Qatar, defeating France 4-2 on penalties."
+    },
+    "hi": {
+      "question": "FIFA विश्व कप 2022 किस देश ने जीता?",
+      "options": [
+        "फ्रांस",
+        "ब्राज़ील",
+        "अर्जेंटीना",
+        "जर्मनी"
+      ],
+      "explanation": "अर्जेंटीना ने कतर में FIFA विश्व कप 2022 जीता।"
+    }
+  },
+  {
+    "id": "ngas-0006",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "M.C. Mary Kom is associated with which sport?",
+      "options": [
+        "Wrestling",
+        "Boxing",
+        "Badminton",
+        "Weightlifting"
+      ],
+      "explanation": "Mary Kom is a renowned Indian boxer, six-time world championship medalist."
+    },
+    "hi": {
+      "question": "एम.सी. मैरी कॉम किस खेल से जुड़ी हैं?",
+      "options": [
+        "कुश्ती",
+        "मुक्केबाज़ी",
+        "बैडमिंटन",
+        "भारोत्तोलन"
+      ],
+      "explanation": "मैरी कॉम प्रसिद्ध भारतीय मुक्केबाज़, छह बार विश्व चैंपियनशिप पदक विजेता।"
+    }
+  },
+  {
+    "id": "ngas-0007",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Where is the Wimbledon tennis tournament held?",
+      "options": [
+        "Paris",
+        "New York",
+        "Melbourne",
+        "London"
+      ],
+      "explanation": "Wimbledon is held in London, England, the oldest tennis tournament (started 1877)."
+    },
+    "hi": {
+      "question": "विंबलडन टेनिस टूर्नामेंट कहां आयोजित होता है?",
+      "options": [
+        "पेरिस",
+        "न्यूयॉर्क",
+        "मेलबर्न",
+        "लंदन"
+      ],
+      "explanation": "विंबलडन लंदन में, सबसे पुराना टेनिस टूर्नामेंट (1877 से)।"
+    }
+  },
+  {
+    "id": "ngas-0008",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The Major Dhyan Chand Khel Ratna Award was instituted in which year?",
+      "options": [
+        "1990",
+        "1991-92",
+        "1995",
+        "2000"
+      ],
+      "explanation": "Instituted as Rajiv Gandhi Khel Ratna in 1991-92, renamed Major Dhyan Chand Khel Ratna in 2021."
+    },
+    "hi": {
+      "question": "मेजर ध्यानचंद खेल रत्न पुरस्कार किस वर्ष स्थापित हुआ?",
+      "options": [
+        "1990",
+        "1991-92",
+        "1995",
+        "2000"
+      ],
+      "explanation": "1991-92 में राजीव गांधी खेल रत्न के रूप में, 2021 में नाम बदला।"
+    }
+  },
+  {
+    "id": "ngas-0009",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which Indian chess player became the World Chess Champion in 2024?",
+      "options": [
+        "Viswanathan Anand",
+        "Vidit Gujrathi",
+        "Gukesh D",
+        "Praggnanandhaa R"
+      ],
+      "explanation": "Gukesh Dommaraju became the youngest World Chess Champion at 18, defeating Ding Liren in Dec 2024."
+    },
+    "hi": {
+      "question": "2024 में कौन से भारतीय शतरंज खिलाड़ी विश्व शतरंज चैंपियन बने?",
+      "options": [
+        "विश्वनाथन आनंद",
+        "विदित गुजराती",
+        "गुकेश डी",
+        "प्रज्ञानानंदा आर"
+      ],
+      "explanation": "गुकेश डोमराजू 18 वर्ष की आयु में दिसंबर 2024 में सबसे कम उम्र के विश्व शतरंज चैंपियन बने।"
+    }
+  },
+  {
+    "id": "ngas-0010",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How many players are in a hockey team on the field?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "11"
+      ],
+      "explanation": "A standard hockey team has 11 players on the field, including the goalkeeper."
+    },
+    "hi": {
+      "question": "हॉकी टीम में मैदान पर कितने खिलाड़ी होते हैं?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "11"
+      ],
+      "explanation": "हॉकी टीम में गोलकीपर सहित 11 खिलाड़ी।"
+    }
+  },
+  {
+    "id": "ngas-0011",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Who is known as the 'Flying Sikh' of India?",
+      "options": [
+        "P.T. Usha",
+        "Milkha Singh",
+        "Anju Bobby George",
+        "Hima Das"
+      ],
+      "explanation": "Milkha Singh was called the 'Flying Sikh' for his speed. He won gold at 1958 Commonwealth Games."
+    },
+    "hi": {
+      "question": "भारत के 'फ्लाइंग सिख' किसे कहा जाता है?",
+      "options": [
+        "पी.टी. उषा",
+        "मिल्खा सिंह",
+        "अंजू बॉबी जॉर्ज",
+        "हिमा दास"
+      ],
+      "explanation": "मिल्खा सिंह उनकी गति के लिए 'फ्लाइंग सिख' कहलाए, 1958 राष्ट्रमंडल खेलों में स्वर्ण।"
+    }
+  },
+  {
+    "id": "ngas-0012",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Which country has won the most Olympic gold medals in history?",
+      "options": [
+        "USA",
+        "China",
+        "Russia (USSR)",
+        "Great Britain"
+      ],
+      "explanation": "The United States has won the most Olympic gold medals (over 1,100 across Summer and Winter Games)."
+    },
+    "hi": {
+      "question": "ओलंपिक इतिहास में सर्वाधिक स्वर्ण पदक किस देश ने जीते हैं?",
+      "options": [
+        "USA",
+        "चीन",
+        "रूस (USSR)",
+        "ग्रेट ब्रिटेन"
+      ],
+      "explanation": "USA ने सर्वाधिक ओलंपिक स्वर्ण (1100+) जीते।"
+    }
+  },
+  {
+    "id": "ngas-0013",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the national sport of India?",
+      "options": [
+        "Cricket",
+        "Football",
+        "Hockey (officially none)",
+        "Kabaddi"
+      ],
+      "explanation": "India has no officially declared national sport. Hockey is often considered the national sport traditionally."
+    },
+    "hi": {
+      "question": "भारत का राष्ट्रीय खेल क्या है?",
+      "options": [
+        "क्रिकेट",
+        "फुटबॉल",
+        "हॉकी (आधिकारिक रूप से कोई नहीं)",
+        "कबड्डी"
+      ],
+      "explanation": "भारत का कोई आधिकारिक राष्ट्रीय खेल नहीं, हॉकी पारंपरिक रूप से माना जाता है।"
+    }
+  },
+  {
+    "id": "ngas-0014",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which Indian cricketer has the most Test centuries?",
+      "options": [
+        "Virat Kohli",
+        "Sunil Gavaskar",
+        "Rahul Dravid",
+        "Sachin Tendulkar"
+      ],
+      "explanation": "Sachin Tendulkar holds the record with 51 Test centuries, the most by any cricketer in Test history."
+    },
+    "hi": {
+      "question": "किस भारतीय क्रिकेटर के सर्वाधिक टेस्ट शतक हैं?",
+      "options": [
+        "विराट कोहली",
+        "सुनील गावस्कर",
+        "राहुल द्रविड़",
+        "सचिन तेंदुलकर"
+      ],
+      "explanation": "सचिन तेंदुलकर के 51 टेस्ट शतक, टेस्ट इतिहास में सर्वाधिक।"
+    }
+  },
+  {
+    "id": "ngas-0015",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "In which year did India win its first Cricket World Cup?",
+      "options": [
+        "1975",
+        "1983",
+        "1987",
+        "1992"
+      ],
+      "explanation": "India won its first Cricket World Cup in 1983 under Kapil Dev's captaincy, defeating West Indies at Lord's."
+    },
+    "hi": {
+      "question": "भारत ने पहला क्रिकेट विश्व कप किस वर्ष जीता?",
+      "options": [
+        "1975",
+        "1983",
+        "1987",
+        "1992"
+      ],
+      "explanation": "1983 में कपिल देव की कप्तानी में वेस्टइंडीज को लॉर्ड्स पर हराकर पहला विश्व कप।"
+    }
+  },
+  {
+    "id": "ngas-0016",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How many players are on a volleyball team on court?",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "8"
+      ],
+      "explanation": "A volleyball team has 6 players on court at a time."
+    },
+    "hi": {
+      "question": "वॉलीबॉल टीम में कोर्ट पर कितने खिलाड़ी होते हैं?",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "8"
+      ],
+      "explanation": "वॉलीबॉल में एक समय पर 6 खिलाड़ी कोर्ट पर।"
+    }
+  },
+  {
+    "id": "ngas-0017",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Where were the first modern Olympic Games held in 1896?",
+      "options": [
+        "Rome",
+        "Paris",
+        "Athens",
+        "London"
+      ],
+      "explanation": "The first modern Olympic Games were held in Athens, Greece, in 1896, reviving the ancient tradition."
+    },
+    "hi": {
+      "question": "1896 में पहले आधुनिक ओलंपिक खेल कहाँ आयोजित हुए?",
+      "options": [
+        "रोम",
+        "पेरिस",
+        "एथेंस",
+        "लंदन"
+      ],
+      "explanation": "1896 में पहले आधुनिक ओलंपिक एथेंस, ग्रीस में।"
+    }
+  },
+  {
+    "id": "ngas-0018",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Who is the only Indian to win an Olympic gold medal in athletics?",
+      "options": [
+        "Milkha Singh",
+        "P.T. Usha",
+        "Anju Bobby George",
+        "Neeraj Chopra"
+      ],
+      "explanation": "Neeraj Chopra won gold in javelin throw at the 2021 Tokyo Olympics, India's first athletics gold."
+    },
+    "hi": {
+      "question": "एथलेटिक्स में ओलंपिक स्वर्ण जीतने वाले एकमात्र भारतीय कौन हैं?",
+      "options": [
+        "मिल्खा सिंह",
+        "पी.टी. उषा",
+        "अंजू बॉबी जॉर्ज",
+        "नीरज चोपड़ा"
+      ],
+      "explanation": "नीरज चोपड़ा ने 2021 टोक्यो ओलंपिक में भाला फेंक में स्वर्ण, भारत का पहला एथलेटिक्स स्वर्ण।"
+    }
+  },
+  {
+    "id": "ngas-0019",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How many overs are there in a T20 cricket match per side?",
+      "options": [
+        "10",
+        "20",
+        "50",
+        "30"
+      ],
+      "explanation": "T20 cricket has 20 overs per side, introduced internationally in 2005."
+    },
+    "hi": {
+      "question": "T20 क्रिकेट मैच में प्रति पक्ष कितने ओवर होते हैं?",
+      "options": [
+        "10",
+        "20",
+        "50",
+        "30"
+      ],
+      "explanation": "T20 क्रिकेट में प्रति पक्ष 20 ओवर, 2005 में अंतरराष्ट्रीय स्तर पर शुरू।"
+    }
+  },
+  {
+    "id": "ngas-0020",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which Indian badminton player won silver at the 2016 Rio Olympics?",
+      "options": [
+        "P.V. Sindhu",
+        "Saina Nehwal",
+        "Lakshya Sen",
+        "Srikanth Kidambi"
+      ],
+      "explanation": "P.V. Sindhu won silver in women's singles badminton at the 2016 Rio Olympics."
+    },
+    "hi": {
+      "question": "2016 रियो ओलंपिक में रजत जीतने वाली भारतीय बैडमिंटन खिलाड़ी?",
+      "options": [
+        "पी.वी. सिंधु",
+        "साइना नेहवाल",
+        "लक्ष्य सेन",
+        "श्रीकांत किदांबी"
+      ],
+      "explanation": "पी.वी. सिंधु ने 2016 रियो ओलंपिक में महिला एकल बैडमिंटन में रजत जीता।"
+    }
+  },
+  {
+    "id": "ngas-0021",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "What is the length of a marathon race?",
+      "options": [
+        "26 km",
+        "40 km",
+        "42.195 km",
+        "50 km"
+      ],
+      "explanation": "The official marathon distance is 42.195 km (26.2 miles), established at the 1908 London Olympics."
+    },
+    "hi": {
+      "question": "मैराथन दौड़ की लंबाई कितनी होती है?",
+      "options": [
+        "26 km",
+        "40 km",
+        "42.195 km",
+        "50 km"
+      ],
+      "explanation": "मैराथन की आधिकारिक दूरी 42.195 km (26.2 मील), 1908 लंदन ओलंपिक में निर्धारित।"
+    }
+  },
+  {
+    "id": "ngas-0022",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Saina Nehwal is associated with which sport?",
+      "options": [
+        "Tennis",
+        "Table Tennis",
+        "Squash",
+        "Badminton"
+      ],
+      "explanation": "Saina Nehwal is a badminton player, first Indian woman to reach world #1 ranking."
+    },
+    "hi": {
+      "question": "साइना नेहवाल किस खेल से जुड़ी हैं?",
+      "options": [
+        "टेनिस",
+        "टेबल टेनिस",
+        "स्क्वैश",
+        "बैडमिंटन"
+      ],
+      "explanation": "साइना नेहवाल बैडमिंटन खिलाड़ी, विश्व #1 पर पहुँचने वाली पहली भारतीय महिला।"
+    }
+  },
+  {
+    "id": "ngas-0023",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Chess Grandmaster title was first achieved by which Indian?",
+      "options": [
+        "Vishwanathan Anand",
+        "Dibyendu Barua",
+        "Praggnanandhaa R",
+        "Pentala Harikrishna"
+      ],
+      "explanation": "Viswanathan Anand became India's first Grandmaster in 1988 and later World Chess Champion."
+    },
+    "hi": {
+      "question": "शतरंज ग्रैंडमास्टर खिताब पाने वाले पहले भारतीय कौन थे?",
+      "options": [
+        "विश्वनाथन आनंद",
+        "दिब्येंदु बरुआ",
+        "प्रज्ञानानंदा आर",
+        "पेंटाला हरिकृष्णा"
+      ],
+      "explanation": "विश्वनाथन आनंद 1988 में भारत के पहले ग्रैंडमास्टर बने।"
+    }
+  },
+  {
+    "id": "ngas-0024",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Which country hosted the 2022 FIFA World Cup?",
+      "options": [
+        "Qatar",
+        "Russia",
+        "Brazil",
+        "Germany"
+      ],
+      "explanation": "Qatar hosted the 2022 FIFA World Cup, the first Arab nation to do so, held in November-December."
+    },
+    "hi": {
+      "question": "2022 FIFA विश्व कप की मेज़बानी किस देश ने की?",
+      "options": [
+        "कतर",
+        "रूस",
+        "ब्राज़ील",
+        "जर्मनी"
+      ],
+      "explanation": "कतर ने 2022 FIFA विश्व कप की मेज़बानी की, नवंबर-दिसंबर में आयोजित।"
+    }
+  },
+  {
+    "id": "ngas-0025",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How many players are in a basketball team on court?",
+      "options": [
+        "4",
+        "6",
+        "5",
+        "7"
+      ],
+      "explanation": "A basketball team has 5 players on court at a time."
+    },
+    "hi": {
+      "question": "बास्केटबॉल टीम में कोर्ट पर कितने खिलाड़ी?",
+      "options": [
+        "4",
+        "6",
+        "5",
+        "7"
+      ],
+      "explanation": "बास्केटबॉल में 5 खिलाड़ी कोर्ट पर।"
+    }
+  },
+  {
+    "id": "ngas-0026",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which Indian won the gold medal in shooting at 2008 Beijing Olympics?",
+      "options": [
+        "Rajyavardhan Singh Rathore",
+        "Vijay Kumar",
+        "Gagan Narang",
+        "Abhinav Bindra"
+      ],
+      "explanation": "Abhinav Bindra won gold in 10m Air Rifle, India's first individual Olympic gold."
+    },
+    "hi": {
+      "question": "2008 बीजिंग ओलंपिक में निशानेबाजी में स्वर्ण किसने जीता?",
+      "options": [
+        "राज्यवर्धन सिंह राठौड़",
+        "विजय कुमार",
+        "गगन नारंग",
+        "अभिनव बिंद्रा"
+      ],
+      "explanation": "अभिनव बिंद्रा ने 10 मी एयर राइफल में भारत का पहला व्यक्तिगत ओलंपिक स्वर्ण।"
+    }
+  },
+  {
+    "id": "ngas-0027",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Dronacharya Award is given for which achievement?",
+      "options": [
+        "Best sportsperson",
+        "Best coach",
+        "Best young athlete",
+        "Lifetime achievement"
+      ],
+      "explanation": "Dronacharya Award honors outstanding coaches in sports and games, named after Guru Dronacharya."
+    },
+    "hi": {
+      "question": "द्रोणाचार्य पुरस्कार किस उपलब्धि के लिए दिया जाता है?",
+      "options": [
+        "सर्वश्रेष्ठ खिलाड़ी",
+        "सर्वश्रेष्ठ प्रशिक्षक",
+        "सर्वश्रेष्ठ युवा खिलाड़ी",
+        "आजीवन उपलब्धि"
+      ],
+      "explanation": "द्रोणाचार्य पुरस्कार उत्कृष्ट खेल प्रशिक्षकों को, गुरु द्रोणाचार्य के नाम पर।"
+    }
+  },
+  {
+    "id": "ngas-0028",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Where is the headquarters of the International Olympic Committee (IOC)?",
+      "options": [
+        "Lausanne, Switzerland",
+        "Paris, France",
+        "Athens, Greece",
+        "New York, USA"
+      ],
+      "explanation": "The IOC headquarters is in Lausanne, Switzerland, established there in 1915."
+    },
+    "hi": {
+      "question": "अंतरराष्ट्रीय ओलंपिक समिति (IOC) का मुख्यालय कहाँ है?",
+      "options": [
+        "लॉज़ेन, स्विट्ज़रलैंड",
+        "पेरिस, फ्रांस",
+        "एथेंस, ग्रीस",
+        "न्यूयॉर्क, USA"
+      ],
+      "explanation": "IOC मुख्यालय लॉज़ेन, स्विट्ज़रलैंड में, 1915 से।"
+    }
+  },
+  {
+    "id": "ngas-0029",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which sport is associated with the term 'love', 'deuce', 'ace'?",
+      "options": [
+        "Badminton",
+        "Squash",
+        "Tennis",
+        "Table Tennis"
+      ],
+      "explanation": "These terms are used in tennis. 'Love'=zero, 'deuce'=40-40 tie, 'ace'=unreturnable serve."
+    },
+    "hi": {
+      "question": "'लव', 'ड्यूस', 'एस' किस खेल से जुड़े हैं?",
+      "options": [
+        "बैडमिंटन",
+        "स्क्वैश",
+        "टेनिस",
+        "टेबल टेनिस"
+      ],
+      "explanation": "ये टेनिस के शब्द: लव=0, ड्यूस=40-40, एस=अरोक सर्विस।"
+    }
+  },
+  {
+    "id": "ngas-0030",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Who was the first Indian to win the Wimbledon junior singles title?",
+      "options": [
+        "Leander Paes",
+        "Sania Mirza",
+        "Yuki Bhambri",
+        "Ramanathan Krishnan"
+      ],
+      "explanation": "Ramanathan Krishnan won the Wimbledon junior singles title in 1954."
+    },
+    "hi": {
+      "question": "विंबलडन जूनियर एकल खिताब जीतने वाले पहले भारतीय?",
+      "options": [
+        "लिएंडर पेस",
+        "सानिया मिर्ज़ा",
+        "यूकी भांबरी",
+        "रामनाथन कृष्णन"
+      ],
+      "explanation": "रामनाथन कृष्णन ने 1954 में विंबलडन जूनियर एकल खिताब जीता।"
+    }
+  },
+  {
+    "id": "ngas-0031",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How long is an Olympic-size swimming pool?",
+      "options": [
+        "25 m",
+        "50 m",
+        "75 m",
+        "100 m"
+      ],
+      "explanation": "An Olympic-size swimming pool is 50 meters long and 25 meters wide with 10 lanes."
+    },
+    "hi": {
+      "question": "ओलंपिक आकार का स्विमिंग पूल कितना लंबा होता है?",
+      "options": [
+        "25 m",
+        "50 m",
+        "75 m",
+        "100 m"
+      ],
+      "explanation": "ओलंपिक पूल 50m लंबा, 25m चौड़ा, 10 लेन।"
+    }
+  },
+  {
+    "id": "ngas-0032",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The Arjuna Award is given in which field?",
+      "options": [
+        "Sports",
+        "Literature",
+        "Cinema",
+        "Science"
+      ],
+      "explanation": "Arjuna Award is India's second-highest sporting honor, given for outstanding performance in sports."
+    },
+    "hi": {
+      "question": "अर्जुन पुरस्कार किस क्षेत्र में दिया जाता है?",
+      "options": [
+        "खेल",
+        "साहित्य",
+        "सिनेमा",
+        "विज्ञान"
+      ],
+      "explanation": "अर्जुन पुरस्कार खेल में उत्कृष्ट प्रदर्शन के लिए भारत का दूसरा सर्वोच्च खेल सम्मान।"
+    }
+  },
+  {
+    "id": "ngas-0033",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "What is the official diameter of a cricket ball used in Test matches?",
+      "options": [
+        "2.0 - 2.2 inches",
+        "2.4 - 2.6 inches",
+        "2.80 - 2.86 inches",
+        "3.0 - 3.2 inches"
+      ],
+      "explanation": "A Test cricket ball weighs 5.5-5.75 oz with circumference 8.81-9.00 inches (diameter ~2.80-2.86 inches)."
+    },
+    "hi": {
+      "question": "टेस्ट मैचों में क्रिकेट गेंद का आधिकारिक व्यास?",
+      "options": [
+        "2.0-2.2 इंच",
+        "2.4-2.6 इंच",
+        "2.80-2.86 इंच",
+        "3.0-3.2 इंच"
+      ],
+      "explanation": "टेस्ट क्रिकेट गेंद: वजन 5.5-5.75 oz, परिधि 8.81-9.00 इंच।"
+    }
+  },
+  {
+    "id": "ngas-0034",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "In which sport is the term 'dunk' used?",
+      "options": [
+        "Cricket",
+        "Soccer",
+        "Tennis",
+        "Basketball"
+      ],
+      "explanation": "A 'dunk' is a basketball shot where a player jumps and scores by putting the ball directly through the hoop."
+    },
+    "hi": {
+      "question": "'डंक' शब्द किस खेल में प्रयुक्त होता है?",
+      "options": [
+        "क्रिकेट",
+        "फुटबॉल",
+        "टेनिस",
+        "बास्केटबॉल"
+      ],
+      "explanation": "डंक बास्केटबॉल का शॉट, कूदकर सीधे हूप में गेंद डालना।"
+    }
+  },
+  {
+    "id": "ngas-0035",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which Indian state is known for producing the most hockey players?",
+      "options": [
+        "Punjab",
+        "Odisha",
+        "Haryana",
+        "Manipur"
+      ],
+      "explanation": "Odisha has produced many hockey stars and hosted the Hockey World Cup. Punjab is also a major contributor."
+    },
+    "hi": {
+      "question": "सर्वाधिक हॉकी खिलाड़ी पैदा करने वाला राज्य?",
+      "options": [
+        "पंजाब",
+        "ओडिशा",
+        "हरियाणा",
+        "मणिपुर"
+      ],
+      "explanation": "ओडिशा ने कई हॉकी सितारे दिए और हॉकी विश्व कप की मेज़बानी की।"
+    }
+  },
+  {
+    "id": "ngas-0036",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Which countries compete in 'The Ashes' cricket series?",
+      "options": [
+        "Australia and England",
+        "India and Pakistan",
+        "South Africa and England",
+        "Australia and New Zealand"
+      ],
+      "explanation": "The Ashes is a Test cricket series between Australia and England, started in 1882."
+    },
+    "hi": {
+      "question": "'द एशेज' क्रिकेट श्रृंखला किन देशों के बीच होती है?",
+      "options": [
+        "ऑस्ट्रेलिया और इंग्लैंड",
+        "भारत और पाकिस्तान",
+        "दक्षिण अफ्रीका और इंग्लैंड",
+        "ऑस्ट्रेलिया और न्यूजीलैंड"
+      ],
+      "explanation": "द एशेज ऑस्ट्रेलिया-इंग्लैंड के बीच टेस्ट श्रृंखला, 1882 से।"
+    }
+  },
+  {
+    "id": "ngas-0037",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How many rings are there in the Olympic flag?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "explanation": "The Olympic flag has 5 interlocking rings representing the five continents: Africa, Americas, Asia, Europe, Oceania."
+    },
+    "hi": {
+      "question": "ओलंपिक ध्वज में कितने छल्ले होते हैं?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "explanation": "ओलंपिक ध्वज में 5 छल्ले पाँच महाद्वीपों के प्रतीक।"
+    }
+  },
+  {
+    "id": "ngas-0038",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The French Open (Roland Garros) is played on which surface?",
+      "options": [
+        "Grass",
+        "Hard court",
+        "Carpet",
+        "Clay"
+      ],
+      "explanation": "The French Open is played on red clay courts at Roland Garros, Paris."
+    },
+    "hi": {
+      "question": "फ्रेंच ओपन (रोलां गारो) किस सतह पर खेला जाता है?",
+      "options": [
+        "घास",
+        "हार्ड कोर्ट",
+        "कार्पेट",
+        "क्ले (मिट्टी)"
+      ],
+      "explanation": "फ्रेंच ओपन पेरिस में लाल क्ले कोर्ट पर।"
+    }
+  },
+  {
+    "id": "ngas-0039",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Which male tennis player has won the most Grand Slam singles titles?",
+      "options": [
+        "Roger Federer",
+        "Novak Djokovic",
+        "Rafael Nadal",
+        "Pete Sampras"
+      ],
+      "explanation": "Novak Djokovic holds the record for most men's Grand Slam singles titles (24 as of 2024)."
+    },
+    "hi": {
+      "question": "सर्वाधिक ग्रैंड स्लैम एकल खिताब (पुरुष)?",
+      "options": [
+        "रोजर फेडरर",
+        "नोवाक जोकोविच",
+        "राफेल नडाल",
+        "पीट सैम्प्रास"
+      ],
+      "explanation": "नोवाक जोकोविच (24 ग्रैंड स्लैम, 2024 तक) सर्वाधिक।"
+    }
+  },
+  {
+    "id": "ngas-0040",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Where did India's national sport hockey team win its last Olympic gold?",
+      "options": [
+        "1980 Moscow",
+        "1964 Tokyo",
+        "1956 Melbourne",
+        "1948 London"
+      ],
+      "explanation": "Indian hockey team won its last Olympic gold in 1980 Moscow, its 8th Olympic hockey gold."
+    },
+    "hi": {
+      "question": "भारतीय हॉकी टीम ने अंतिम ओलंपिक स्वर्ण कहाँ जीता?",
+      "options": [
+        "1980 मास्को",
+        "1964 टोक्यो",
+        "1956 मेलबर्न",
+        "1948 लंदन"
+      ],
+      "explanation": "1980 मास्को में भारत का 8वाँ और अंतिम ओलंपिक हॉकी स्वर्ण।"
+    }
+  },
+  {
+    "id": "ngas-0041",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Who is known as the 'Magician of Hockey'?",
+      "options": [
+        "Dhanraj Pillay",
+        "Balbir Singh Sr.",
+        "Major Dhyan Chand",
+        "Udham Singh"
+      ],
+      "explanation": "Major Dhyan Chand was called 'Hockey Wizard' for his extraordinary ball control, won 3 Olympic golds (1928,1932,1936)."
+    },
+    "hi": {
+      "question": "हॉकी का जादूगर किसे कहा जाता है?",
+      "options": [
+        "धनराज पिल्लै",
+        "बलबीर सिंह सीनियर",
+        "मेजर ध्यानचंद",
+        "उधम सिंह"
+      ],
+      "explanation": "मेजर ध्यानचंद, 3 ओलंपिक स्वर्ण (1928,32,36), असाधारण गेंद नियंत्रण।"
+    }
+  },
+  {
+    "id": "ngas-0042",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Which city will host the 2028 Summer Olympics?",
+      "options": [
+        "Paris",
+        "Brisbane",
+        "Milan",
+        "Los Angeles"
+      ],
+      "explanation": "Los Angeles, USA will host the 2028 Summer Olympics. Paris 2024, Milan-Cortina 2026 Winter, Brisbane 2032."
+    },
+    "hi": {
+      "question": "2028 ग्रीष्मकालीन ओलंपिक किस शहर में होंगे?",
+      "options": [
+        "पेरिस",
+        "ब्रिस्बेन",
+        "मिलान",
+        "लॉस एंजेलिस"
+      ],
+      "explanation": "लॉस एंजेलिस, USA 2028 ग्रीष्मकालीन ओलंपिक की मेज़बानी करेगा।"
+    }
+  },
+  {
+    "id": "ngas-0043",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "In cricket, what does LBW stand for?",
+      "options": [
+        "Leg Before Wicket",
+        "Leg Before Wicket",
+        "Long Ball Wide",
+        "Left Bowled Wicket"
+      ],
+      "explanation": "LBW = Leg Before Wicket, a mode of dismissal where the ball hits the batsman's leg in line with stumps."
+    },
+    "hi": {
+      "question": "क्रिकेट में LBW का पूरा नाम?",
+      "options": [
+        "लेग बिफोर विकेट",
+        "लेग बिफोर विकेट",
+        "लॉन्ग बॉल वाइड",
+        "लेफ्ट बोल्ड विकेट"
+      ],
+      "explanation": "LBW = लेग बिफोर विकेट, आउट होने का एक तरीका।"
+    }
+  },
+  {
+    "id": "ngas-0044",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which sport uses a 'shuttlecock'?",
+      "options": [
+        "Badminton",
+        "Tennis",
+        "Squash",
+        "Table Tennis"
+      ],
+      "explanation": "Badminton uses a shuttlecock (also called 'birdie'), which is hit across the net with rackets."
+    },
+    "hi": {
+      "question": "'शटलकॉक' किस खेल में प्रयुक्त होता है?",
+      "options": [
+        "बैडमिंटन",
+        "टेनिस",
+        "स्क्वैश",
+        "टेबल टेनिस"
+      ],
+      "explanation": "बैडमिंटन में शटलकॉक (चिड़िया) का उपयोग।"
+    }
+  },
+  {
+    "id": "ngas-0045",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "What is the Indian Premier League's (IPL) governing body?",
+      "options": [
+        "ICC",
+        "BCCI",
+        "BCCI",
+        "BCB"
+      ],
+      "explanation": "The BCCI (Board of Control for Cricket in India) governs the IPL, launched in 2008."
+    },
+    "hi": {
+      "question": "IPL की शासी निकाय कौन-सी है?",
+      "options": [
+        "ICC",
+        "BCCI",
+        "BCCI",
+        "BCB"
+      ],
+      "explanation": "BCCI (भारतीय क्रिकेट कंट्रोल बोर्ड) IPL (2008 में शुरू) का संचालन करता है।"
+    }
+  },
+  {
+    "id": "ngas-0046",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "In football (soccer), how many players are on each team?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "11"
+      ],
+      "explanation": "Each football (soccer) team has 11 players, including the goalkeeper."
+    },
+    "hi": {
+      "question": "फुटबॉल में प्रत्येक टीम में कितने खिलाड़ी?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "11"
+      ],
+      "explanation": "फुटबॉल में 11 खिलाड़ी (गोलकीपर सहित)।"
+    }
+  },
+  {
+    "id": "ngas-0047",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the maximum score possible in a single shot of archery?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "9"
+      ],
+      "explanation": "In Olympic archery, the maximum score per arrow is 10 (hitting the inner gold ring)."
+    },
+    "hi": {
+      "question": "तीरंदाजी में एक शॉट का अधिकतम स्कोर?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "9"
+      ],
+      "explanation": "ओलंपिक तीरंदाजी में प्रति तीर अधिकतम 10 अंक (आंतरिक स्वर्ण वलय)।"
+    }
+  },
+  {
+    "id": "ngas-0048",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Khelo India Program was launched in which year?",
+      "options": [
+        "2018",
+        "2015",
+        "2020",
+        "2016"
+      ],
+      "explanation": "Khelo India was launched in 2018 to promote sports at grassroots level across India."
+    },
+    "hi": {
+      "question": "खेलो इंडिया कार्यक्रम किस वर्ष शुरू हुआ?",
+      "options": [
+        "2018",
+        "2015",
+        "2020",
+        "2016"
+      ],
+      "explanation": "खेलो इंडिया 2018 में जमीनी स्तर पर खेलों को बढ़ावा देने के लिए शुरू।"
+    }
+  },
+  {
+    "id": "ngas-0049",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the duration of a football (soccer) match?",
+      "options": [
+        "60 minutes",
+        "80 minutes",
+        "90 minutes",
+        "100 minutes"
+      ],
+      "explanation": "A standard football match lasts 90 minutes (two 45-minute halves) plus injury time."
+    },
+    "hi": {
+      "question": "फुटबॉल मैच की अवधि कितनी होती है?",
+      "options": [
+        "60 मिनट",
+        "80 मिनट",
+        "90 मिनट",
+        "100 मिनट"
+      ],
+      "explanation": "फुटबॉल मैच 90 मिनट (45-45 के दो हाफ) + इंजरी टाइम।"
+    }
+  },
+  {
+    "id": "ngas-0050",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The term 'Googly' is associated with which sport?",
+      "options": [
+        "Football",
+        "Hockey",
+        "Tennis",
+        "Cricket"
+      ],
+      "explanation": "A 'googly' is a deceptive delivery in cricket by a leg-spinner that turns opposite to expected direction."
+    },
+    "hi": {
+      "question": "'गुगली' शब्द किस खेल से संबंधित है?",
+      "options": [
+        "फुटबॉल",
+        "हॉकी",
+        "टेनिस",
+        "क्रिकेट"
+      ],
+      "explanation": "गुगली क्रिकेट में लेग-स्पिनर की एक भ्रामक गेंद।"
+    }
+  },
+  {
+    "id": "ngas-0051",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Where did India win its first Olympic hockey gold?",
+      "options": [
+        "1924 Paris",
+        "1928 Amsterdam",
+        "1932 Los Angeles",
+        "1936 Berlin"
+      ],
+      "explanation": "India won its first Olympic hockey gold in 1928 Amsterdam, starting a golden era."
+    },
+    "hi": {
+      "question": "भारत ने पहला ओलंपिक हॉकी स्वर्ण कहाँ जीता?",
+      "options": [
+        "1924 पेरिस",
+        "1928 एम्सटर्डम",
+        "1932 लॉस एंजेलिस",
+        "1936 बर्लिन"
+      ],
+      "explanation": "1928 एम्सटर्डम में भारत का पहला हॉकी स्वर्ण।"
+    }
+  },
+  {
+    "id": "ngas-0052",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How many Grand Slam tennis tournaments are there?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "explanation": "There are 4 Grand Slams: Australian Open, French Open, Wimbledon, and US Open."
+    },
+    "hi": {
+      "question": "कितने ग्रैंड स्लैम टेनिस टूर्नामेंट हैं?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "explanation": "4 ग्रैंड स्लैम: ऑस्ट्रेलियाई ओपन, फ्रेंच ओपन, विंबलडन, US ओपन।"
+    }
+  },
+  {
+    "id": "ngas-0053",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which country has won the most Cricket World Cups?",
+      "options": [
+        "India",
+        "West Indies",
+        "Australia",
+        "England"
+      ],
+      "explanation": "Australia has won 6 ODI World Cups (1987,1999,2003,2007,2015,2023), the most by any nation."
+    },
+    "hi": {
+      "question": "सर्वाधिक क्रिकेट विश्व कप किस देश ने जीते?",
+      "options": [
+        "भारत",
+        "वेस्टइंडीज",
+        "ऑस्ट्रेलिया",
+        "इंग्लैंड"
+      ],
+      "explanation": "ऑस्ट्रेलिया 6 ODI विश्व कप (1987-2023), सर्वाधिक।"
+    }
+  },
+  {
+    "id": "ngas-0054",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Who was the first Indian athlete to win a medal at the World Athletics Championships?",
+      "options": [
+        "Milkha Singh",
+        "P.T. Usha",
+        "Anju Bobby George",
+        "Neeraj Chopra"
+      ],
+      "explanation": "Anju Bobby George won bronze in long jump at 2003 World Championships, India's first medal."
+    },
+    "hi": {
+      "question": "विश्व एथलेटिक्स चैंपियनशिप में पदक जीतने वाले पहले भारतीय?",
+      "options": [
+        "मिल्खा सिंह",
+        "पी.टी. उषा",
+        "अंजू बॉबी जॉर्ज",
+        "नीरज चोपड़ा"
+      ],
+      "explanation": "अंजू बॉबी जॉर्ज, 2003 विश्व चैंपियनशिप लंबी कूद में कांस्य।"
+    }
+  },
+  {
+    "id": "ngas-0055",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "In table tennis, a game is played up to how many points?",
+      "options": [
+        "15",
+        "11",
+        "21",
+        "25"
+      ],
+      "explanation": "Modern table tennis games are played to 11 points (best of 5 or 7 games). Was 21 earlier."
+    },
+    "hi": {
+      "question": "टेबल टेनिस में एक गेम कितने अंकों का होता है?",
+      "options": [
+        "15",
+        "11",
+        "21",
+        "25"
+      ],
+      "explanation": "आधुनिक टेबल टेनिस 11 अंकों का (पहले 21 हुआ करता था)।"
+    }
+  },
+  {
+    "id": "ngas-0056",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the national sport of Japan?",
+      "options": [
+        "Sumo wrestling",
+        "Judo",
+        "Karate",
+        "Kendo"
+      ],
+      "explanation": "Sumo wrestling is Japan's national sport, with a history spanning over 1,500 years."
+    },
+    "hi": {
+      "question": "जापान का राष्ट्रीय खेल क्या है?",
+      "options": [
+        "सूमो कुश्ती",
+        "जूडो",
+        "कराटे",
+        "केंडो"
+      ],
+      "explanation": "सूमो कुश्ती जापान का राष्ट्रीय खेल, 1,500 वर्षों का इतिहास।"
+    }
+  },
+  {
+    "id": "ngas-0057",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Which is the oldest football tournament in India?",
+      "options": [
+        "Santosh Trophy",
+        "Federation Cup",
+        "Durand Cup",
+        "IFA Shield"
+      ],
+      "explanation": "Durand Cup, started in 1888 in Shimla, is the oldest football tournament in India and Asia."
+    },
+    "hi": {
+      "question": "भारत का सबसे पुराना फुटबॉल टूर्नामेंट कौन-सा है?",
+      "options": [
+        "संतोष ट्रॉफी",
+        "फेडरेशन कप",
+        "डूरंड कप",
+        "IFA शील्ड"
+      ],
+      "explanation": "डूरंड कप, 1888 में शिमला में शुरू, भारत और एशिया का सबसे पुराना।"
+    }
+  },
+  {
+    "id": "ngas-0058",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the color of the cricket ball used in Test matches?",
+      "options": [
+        "White",
+        "Orange",
+        "Pink",
+        "Red"
+      ],
+      "explanation": "Red ball is traditionally used in Test cricket. Pink ball for day-night Tests, white for limited overs."
+    },
+    "hi": {
+      "question": "टेस्ट मैचों में किस रंग की क्रिकेट गेंद प्रयुक्त होती है?",
+      "options": [
+        "सफेद",
+        "नारंगी",
+        "गुलाबी",
+        "लाल"
+      ],
+      "explanation": "टेस्ट क्रिकेट में लाल गेंद। गुलाबी दिन-रात टेस्ट, सफेद सीमित ओवरों में।"
+    }
+  },
+  {
+    "id": "ngas-0059",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which Indian won the All England Badminton Championship?",
+      "options": [
+        "Saina Nehwal",
+        "Prakash Padukone",
+        "P.V. Sindhu",
+        "Kidambi Srikanth"
+      ],
+      "explanation": "Prakash Padukone won the All England in 1980, and Pullela Gopichand in 2001."
+    },
+    "hi": {
+      "question": "ऑल इंग्लैंड बैडमिंटन चैंपियनशिप किस भारतीय ने जीती?",
+      "options": [
+        "साइना नेहवाल",
+        "प्रकाश पादुकोण",
+        "पी.वी. सिंधु",
+        "किदांबी श्रीकांत"
+      ],
+      "explanation": "प्रकाश पादुकोण (1980) और पुलेला गोपीचंद (2001) ने ऑल इंग्लैंड जीता।"
+    }
+  },
+  {
+    "id": "ngas-0060",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "What is the length of a cricket pitch?",
+      "options": [
+        "22 yards",
+        "20 yards",
+        "25 yards",
+        "18 yards"
+      ],
+      "explanation": "A cricket pitch is 22 yards (20.12 meters) long between the two sets of stumps."
+    },
+    "hi": {
+      "question": "क्रिकेट पिच की लंबाई कितनी होती है?",
+      "options": [
+        "22 गज",
+        "20 गज",
+        "25 गज",
+        "18 गज"
+      ],
+      "explanation": "क्रिकेट पिच 22 गज (20.12 मीटर), दो विकेट सेट के बीच।"
+    }
+  },
+  {
+    "id": "ngas-0061",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "In which sport is 'Slam dunk' a term?",
+      "options": [
+        "Volleyball",
+        "Tennis",
+        "Basketball",
+        "Badminton"
+      ],
+      "explanation": "Slam dunk is a high-percentage shot in basketball where a player jumps and scores directly."
+    },
+    "hi": {
+      "question": "'स्लैम डंक' किस खेल का शब्द है?",
+      "options": [
+        "वॉलीबॉल",
+        "टेनिस",
+        "बास्केटबॉल",
+        "बैडमिंटन"
+      ],
+      "explanation": "स्लैम डंक बास्केटबॉल का शॉट, कूदकर सीधे स्कोर।"
+    }
+  },
+  {
+    "id": "ngas-0062",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The first Indian to swim across the English Channel was?",
+      "options": [
+        "Arati Saha",
+        "Bula Choudhary",
+        "Mihir Sen",
+        "Mihir Sen"
+      ],
+      "explanation": "Mihir Sen became the first Indian to swim across the English Channel in 1958."
+    },
+    "hi": {
+      "question": "इंग्लिश चैनल तैरकर पार करने वाले पहले भारतीय?",
+      "options": [
+        "आरती साहा",
+        "बुला चौधरी",
+        "मिहिर सेन",
+        "मिहिर सेन"
+      ],
+      "explanation": "मिहिर सेन ने 1958 में इंग्लिश चैनल तैरकर पार किया।"
+    }
+  },
+  {
+    "id": "ngas-0063",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Sania Mirza won Grand Slam titles in which category?",
+      "options": [
+        "Singles",
+        "Doubles and Mixed Doubles",
+        "Singles and Doubles",
+        "Mixed Doubles only"
+      ],
+      "explanation": "Sania Mirza won 6 Grand Slam titles — 3 in women's doubles and 3 in mixed doubles."
+    },
+    "hi": {
+      "question": "सानिया मिर्ज़ा ने ग्रैंड स्लैम किस श्रेणी में जीते?",
+      "options": [
+        "एकल",
+        "युगल और मिश्रित युगल",
+        "एकल और युगल",
+        "केवल मिश्रित युगल"
+      ],
+      "explanation": "सानिया मिर्ज़ा ने 6 ग्रैंड स्लैम: 3 महिला युगल, 3 मिश्रित युगल।"
+    }
+  },
+  {
+    "id": "ngas-0064",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Where is the headquarters of the International Cricket Council (ICC)?",
+      "options": [
+        "Dubai, UAE",
+        "London, England",
+        "Mumbai, India",
+        "Melbourne, Australia"
+      ],
+      "explanation": "The ICC headquarters is in Dubai, United Arab Emirates."
+    },
+    "hi": {
+      "question": "ICC का मुख्यालय कहाँ है?",
+      "options": [
+        "दुबई, UAE",
+        "लंदन, इंग्लैंड",
+        "मुंबई, भारत",
+        "मेलबर्न, ऑस्ट्रेलिया"
+      ],
+      "explanation": "ICC मुख्यालय दुबई, संयुक्त अरब अमीरात में।"
+    }
+  },
+  {
+    "id": "ngas-0065",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How many gold medals did India win at the Paris 2024 Olympics?",
+      "options": [
+        "3",
+        "2",
+        "0",
+        "1"
+      ],
+      "explanation": "India won 6 medals at Paris 2024: 1 silver and 5 bronze, but no gold."
+    },
+    "hi": {
+      "question": "पेरिस 2024 ओलंपिक में भारत ने कितने स्वर्ण जीते?",
+      "options": [
+        "3",
+        "2",
+        "0",
+        "1"
+      ],
+      "explanation": "पेरिस 2024 में भारत: 1 रजत, 5 कांस्य, कोई स्वर्ण नहीं।"
+    }
+  },
+  {
+    "id": "ngas-0066",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Who was the first woman to score a double century in ODI cricket?",
+      "options": [
+        "Mithali Raj",
+        "Smriti Mandhana",
+        "Belinda Clark",
+        "Belinda Clark"
+      ],
+      "explanation": "Belinda Clark (Australia) scored the first ODI double century (229*) against Denmark in 1997."
+    },
+    "hi": {
+      "question": "ODI क्रिकेट में दोहरा शतक बनाने वाली पहली महिला?",
+      "options": [
+        "मिताली राज",
+        "स्मृति मंधाना",
+        "बेलिंडा क्लार्क",
+        "बेलिंडा क्लार्क"
+      ],
+      "explanation": "बेलिंडा क्लार्क (ऑस्ट्रेलिया) ने 1997 में पहला महिला ODI दोहरा शतक (229*)।"
+    }
+  },
+  {
+    "id": "ngas-0067",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "In which sport is the term 'hat-trick' used?",
+      "options": [
+        "Only cricket",
+        "Cricket, football, hockey and more",
+        "Only football",
+        "Only hockey"
+      ],
+      "explanation": "Hat-trick (3 consecutive achievements) is used in cricket, football, hockey, and many other sports."
+    },
+    "hi": {
+      "question": "'हैट्रिक' शब्द किन खेलों में प्रयुक्त होता है?",
+      "options": [
+        "केवल क्रिकेट",
+        "क्रिकेट, फुटबॉल, हॉकी आदि",
+        "केवल फुटबॉल",
+        "केवल हॉकी"
+      ],
+      "explanation": "हैट्रिक (लगातार 3 उपलब्धियाँ) क्रिकेट, फुटबॉल, हॉकी आदि में।"
+    }
+  },
+  {
+    "id": "ngas-0068",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Where is the Motera Stadium (Narendra Modi Stadium) located?",
+      "options": [
+        "Ahmedabad",
+        "Mumbai",
+        "Kolkata",
+        "Chennai"
+      ],
+      "explanation": "Narendra Modi Stadium in Ahmedabad is the world's largest cricket stadium with 132,000 capacity."
+    },
+    "hi": {
+      "question": "मोटेरा स्टेडियम (नरेंद्र मोदी स्टेडियम) कहाँ है?",
+      "options": [
+        "अहमदाबाद",
+        "मुंबई",
+        "कोलकाता",
+        "चेन्नई"
+      ],
+      "explanation": "अहमदाबाद का नरेंद्र मोदी स्टेडियम 132,000 क्षमता, विश्व का सबसे बड़ा क्रिकेट स्टेडियम।"
+    }
+  },
+  {
+    "id": "ngas-0069",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Which award is the highest sporting honor in India?",
+      "options": [
+        "Arjuna Award",
+        "Dronacharya Award",
+        "Major Dhyan Chand Khel Ratna",
+        "Padma Shri"
+      ],
+      "explanation": "Major Dhyan Chand Khel Ratna Award (formerly Rajiv Gandhi Khel Ratna) is India's highest sporting honor."
+    },
+    "hi": {
+      "question": "भारत का सर्वोच्च खेल सम्मान कौन-सा है?",
+      "options": [
+        "अर्जुन पुरस्कार",
+        "द्रोणाचार्य पुरस्कार",
+        "मेजर ध्यानचंद खेल रत्न",
+        "पद्म श्री"
+      ],
+      "explanation": "मेजर ध्यानचंद खेल रत्न (पूर्व राजीव गांधी खेल रत्न) भारत का सर्वोच्च खेल सम्मान।"
+    }
+  },
+  {
+    "id": "ngas-0070",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which country is considered the birthplace of the Olympic Games?",
+      "options": [
+        "Italy",
+        "Egypt",
+        "Rome",
+        "Greece"
+      ],
+      "explanation": "Ancient Olympic Games originated in Olympia, Greece in 776 BCE."
+    },
+    "hi": {
+      "question": "ओलंपिक खेलों का जन्मस्थान कौन-सा देश है?",
+      "options": [
+        "इटली",
+        "मिस्र",
+        "रोम",
+        "ग्रीस"
+      ],
+      "explanation": "प्राचीन ओलंपिक 776 BCE में ओलंपिया, ग्रीस में शुरू।"
+    }
+  },
+  {
+    "id": "ngas-0071",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The term 'Bullseye' is associated with which sport?",
+      "options": [
+        "Archery",
+        "Shooting/Darts",
+        "Cricket",
+        "Boxing"
+      ],
+      "explanation": "Bullseye refers to the center of a target in shooting, archery, and darts — worth maximum points."
+    },
+    "hi": {
+      "question": "'बुल्सआई' किस खेल से जुड़ा है?",
+      "options": [
+        "तीरंदाजी",
+        "निशानेबाजी/डार्ट्स",
+        "क्रिकेट",
+        "मुक्केबाज़ी"
+      ],
+      "explanation": "बुल्सआई निशानेबाजी/डार्ट्स में लक्ष्य का केंद्र, अधिकतम अंक।"
+    }
+  },
+  {
+    "id": "ngas-0072",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Which IPL team has won the most titles?",
+      "options": [
+        "Mumbai Indians",
+        "Chennai Super Kings",
+        "Kolkata Knight Riders",
+        "Rajasthan Royals"
+      ],
+      "explanation": "Mumbai Indians and Chennai Super Kings have each won 5 IPL titles (as of 2024)."
+    },
+    "hi": {
+      "question": "सर्वाधिक IPL खिताब किस टीम ने जीते?",
+      "options": [
+        "मुंबई इंडियंस",
+        "चेन्नई सुपर किंग्स",
+        "कोलकाता नाइट राइडर्स",
+        "राजस्थान रॉयल्स"
+      ],
+      "explanation": "मुंबई इंडियंस और चेन्नई सुपर किंग्स 5-5 खिताब (2024 तक)।"
+    }
+  },
+  {
+    "id": "ngas-0073",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "In which sport is a 'Bishop' used as a piece?",
+      "options": [
+        "Carrom",
+        "Ludo",
+        "Chess",
+        "Monopoly"
+      ],
+      "explanation": "The bishop is a piece in chess that moves diagonally. Each player starts with two bishops."
+    },
+    "hi": {
+      "question": "'बिशप' मोहरा किस खेल में होता है?",
+      "options": [
+        "कैरम",
+        "लूडो",
+        "शतरंज",
+        "मोनोपोली"
+      ],
+      "explanation": "बिशप शतरंज की मोहरा, विकर्ण चाल, प्रत्येक खिलाड़ी के 2।"
+    }
+  },
+  {
+    "id": "ngas-0074",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Who is known as 'The Wall' in Indian cricket?",
+      "options": [
+        "Sachin Tendulkar",
+        "Sourav Ganguly",
+        "VVS Laxman",
+        "Rahul Dravid"
+      ],
+      "explanation": "Rahul Dravid was called 'The Wall' for his solid defensive technique and ability to occupy the crease."
+    },
+    "hi": {
+      "question": "भारतीय क्रिकेट में 'द वॉल' किसे कहते हैं?",
+      "options": [
+        "सचिन तेंदुलकर",
+        "सौरव गांगुली",
+        "वीवीएस लक्ष्मण",
+        "राहुल द्रविड़"
+      ],
+      "explanation": "राहुल द्रविड़ ठोस रक्षात्मक तकनीक के लिए 'द वॉल' कहलाए।"
+    }
+  },
+  {
+    "id": "ngas-0075",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Cricket was first introduced as an Olympic sport in which year?",
+      "options": [
+        "1896",
+        "1900",
+        "1904",
+        "1908"
+      ],
+      "explanation": "Cricket was played at the 1900 Paris Olympics with only two teams: Great Britain and France."
+    },
+    "hi": {
+      "question": "क्रिकेट पहली बार ओलंपिक खेल किस वर्ष बना?",
+      "options": [
+        "1896",
+        "1900",
+        "1904",
+        "1908"
+      ],
+      "explanation": "1900 पेरिस ओलंपिक में क्रिकेट, केवल दो टीमें: ग्रेट ब्रिटेन और फ्रांस।"
+    }
+  },
+  {
+    "id": "ngas-0076",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How many players are in a kabaddi team on the court?",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "5"
+      ],
+      "explanation": "A kabaddi team has 7 players on court with 5 substitutes."
+    },
+    "hi": {
+      "question": "कबड्डी टीम में कोर्ट पर कितने खिलाड़ी?",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "5"
+      ],
+      "explanation": "कबड्डी में 7 खिलाड़ी कोर्ट पर, 5 स्थानापन्न।"
+    }
+  },
+  {
+    "id": "ngas-0077",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The 'Sultan of Swing' in cricket refers to?",
+      "options": [
+        "Imran Khan",
+        "Waqar Younis",
+        "Wasim Akram",
+        "Shoaib Akhtar"
+      ],
+      "explanation": "Wasim Akram was called 'Sultan of Swing' for his ability to swing the ball both ways."
+    },
+    "hi": {
+      "question": "क्रिकेट में 'सुल्तान ऑफ स्विंग' किसे कहते हैं?",
+      "options": [
+        "इमरान खान",
+        "वकार यूनिस",
+        "वसीम अकरम",
+        "शोएब अख्तर"
+      ],
+      "explanation": "वसीम अकरम दोनों ओर गेंद स्विंग करने के लिए 'सुल्तान ऑफ स्विंग'।"
+    }
+  },
+  {
+    "id": "ngas-0078",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Which country invented the game of chess?",
+      "options": [
+        "China",
+        "Persia",
+        "Russia",
+        "India"
+      ],
+      "explanation": "Chess originated in India as 'Chaturanga' during the Gupta Empire (~6th century CE)."
+    },
+    "hi": {
+      "question": "शतरंज का आविष्कार किस देश में हुआ?",
+      "options": [
+        "चीन",
+        "फारस",
+        "रूस",
+        "भारत"
+      ],
+      "explanation": "शतरंज का जन्म भारत में गुप्त साम्राज्य (~छठी शताब्दी) में 'चतुरंग' के रूप में।"
+    }
+  },
+  {
+    "id": "ngas-0079",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the width of a football (soccer) goal?",
+      "options": [
+        "6.0 m",
+        "7.32 m",
+        "8.0 m",
+        "9.15 m"
+      ],
+      "explanation": "A football goal is 7.32 m (8 yards) wide and 2.44 m (8 ft) high."
+    },
+    "hi": {
+      "question": "फुटबॉल गोल की चौड़ाई कितनी है?",
+      "options": [
+        "6.0 m",
+        "7.32 m",
+        "8.0 m",
+        "9.15 m"
+      ],
+      "explanation": "फुटबॉल गोल 7.32 m (8 गज) चौड़ा, 2.44 m ऊँचा।"
+    }
+  },
+  {
+    "id": "ngas-0080",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Who was the captain of the Indian cricket team that won the 2011 World Cup?",
+      "options": [
+        "M.S. Dhoni",
+        "Sachin Tendulkar",
+        "Virender Sehwag",
+        "Gautam Gambhir"
+      ],
+      "explanation": "M.S. Dhoni captained India to World Cup victory in 2011, hitting the winning six at Wankhede Stadium."
+    },
+    "hi": {
+      "question": "2011 विश्व कप जीतने वाली भारतीय क्रिकेट टीम के कप्तान?",
+      "options": [
+        "एम.एस. धोनी",
+        "सचिन तेंदुलकर",
+        "वीरेंद्र सहवाग",
+        "गौतम गंभीर"
+      ],
+      "explanation": "एम.एस. धोनी की कप्तानी में 2011 विश्व कप, वानखेड़े में विजयी छक्का।"
+    }
+  },
+  {
+    "id": "ngas-0081",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "Which sports event is associated with 'Yellow Jersey'?",
+      "options": [
+        "Olympics",
+        "Wimbledon",
+        "Tour de France",
+        "FIFA World Cup"
+      ],
+      "explanation": "The yellow jersey (maillot jaune) is worn by the overall leader in the Tour de France cycling race."
+    },
+    "hi": {
+      "question": "'येलो जर्सी' किस खेल आयोजन से जुड़ी है?",
+      "options": [
+        "ओलंपिक",
+        "विंबलडन",
+        "टूर डी फ्रांस",
+        "FIFA विश्व कप"
+      ],
+      "explanation": "टूर डी फ्रांस साइकिल दौड़ में अग्रणी खिलाड़ी येलो जर्सी पहनता है।"
+    }
+  },
+  {
+    "id": "ngas-0082",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "In which sport is the term 'Stalemate' used?",
+      "options": [
+        "Cricket",
+        "Football",
+        "Hockey",
+        "Chess"
+      ],
+      "explanation": "Stalemate is a chess term where a player has no legal moves but is not in check, resulting in a draw."
+    },
+    "hi": {
+      "question": "'स्टेलमेट' शब्द किस खेल में प्रयुक्त होता है?",
+      "options": [
+        "क्रिकेट",
+        "फुटबॉल",
+        "हॉकी",
+        "शतरंज"
+      ],
+      "explanation": "स्टेलमेट शतरंज की स्थिति, कोई वैध चाल नहीं पर शह नहीं, परिणाम ड्रॉ।"
+    }
+  },
+  {
+    "id": "ngas-0083",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The ancient Indian martial art 'Kalaripayattu' belongs to which state?",
+      "options": [
+        "Tamil Nadu",
+        "Kerala",
+        "Karnataka",
+        "Andhra Pradesh"
+      ],
+      "explanation": "Kalaripayattu originated in Kerala and is considered one of the oldest fighting systems in existence."
+    },
+    "hi": {
+      "question": "प्राचीन भारतीय युद्धकला 'कलारीपयट्टु' किस राज्य की है?",
+      "options": [
+        "तमिलनाडु",
+        "केरल",
+        "कर्नाटक",
+        "आंध्र प्रदेश"
+      ],
+      "explanation": "कलारीपयट्टु केरल की प्राचीन युद्धकला, सबसे पुरानी युद्ध प्रणालियों में से एक।"
+    }
+  },
+  {
+    "id": "ngas-0084",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2023,
+    "en": {
+      "question": "How many Olympic medals has P.V. Sindhu won in her career?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "explanation": "P.V. Sindhu has won 2 Olympic medals: silver at 2016 Rio and bronze at 2021 Tokyo."
+    },
+    "hi": {
+      "question": "पी.वी. सिंधु ने कितने ओलंपिक पदक जीते?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "explanation": "पी.वी. सिंधु: 2 ओलंपिक पदक — 2016 रियो रजत, 2021 टोक्यो कांस्य।"
+    }
+  },
+  {
+    "id": "ngas-0085",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the national sport of Canada?",
+      "options": [
+        "Ice hockey only",
+        "Basketball",
+        "Lacrosse (summer) and Ice Hockey (winter)",
+        "Curling"
+      ],
+      "explanation": "Canada has two national sports: lacrosse (summer) and ice hockey (winter), declared in 1994."
+    },
+    "hi": {
+      "question": "कनाडा का राष्ट्रीय खेल क्या है?",
+      "options": [
+        "केवल आइस हॉकी",
+        "बास्केटबॉल",
+        "लैक्रोस (ग्रीष्म) और आइस हॉकी (शीत)",
+        "कर्लिंग"
+      ],
+      "explanation": "कनाडा के दो राष्ट्रीय खेल: लैक्रोस और आइस हॉकी (1994 से)।"
+    }
+  }
 ]

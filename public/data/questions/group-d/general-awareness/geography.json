@@ -1,67 +1,1692 @@
 [
-  {"id":"groupd-ga-0001","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the largest state in India by area?","options":["Maharashtra","Uttar Pradesh","Rajasthan","Madhya Pradesh"],"explanation":"Rajasthan is the largest state by area, covering about 342,239 sq km. Madhya Pradesh is second largest."},"hi":{"question":"क्षेत्रफल की दृष्टि से भारत का सबसे बड़ा राज्य कौन सा है?","options":["महाराष्ट्र","उत्तर प्रदेश","राजस्थान","मध्य प्रदेश"],"explanation":"राजस्थान क्षेत्रफल की दृष्टि से सबसे बड़ा राज्य है, लगभग 342,239 वर्ग किमी। मध्य प्रदेश दूसरा सबसे बड़ा है।"}},
-  {"id":"groupd-ga-0002","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"Which river is known as the \"Sorrow of Bihar\"?","options":["Ganga","Kosi","Yamuna","Brahmaputra"],"explanation":"The Kosi river is called the \"Sorrow of Bihar\" because it causes frequent and devastating floods."},"hi":{"question":"किस नदी को 'बिहार का शोक' कहा जाता है?","options":["गंगा","कोसी","यमुना","ब्रह्मपुत्र"],"explanation":"कोसी नदी को 'बिहार का शोक' कहा जाता है क्योंकि यह बार-बार विनाशकारी बाढ़ लाती है।"}},
-  {"id":"groupd-ga-0003","correctOption":"C","difficulty":"medium","sourceYear":2023,"en":{"question":"The Tropic of Cancer passes through how many Indian states?","options":["6","7","8","9"],"explanation":"The Tropic of Cancer passes through 8 states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram."},"hi":{"question":"कर्क रेखा कितने भारतीय राज्यों से होकर गुज़रती है?","options":["6","7","8","9"],"explanation":"कर्क रेखा 8 राज्यों से गुज़रती है: गुजरात, राजस्थान, मध्य प्रदेश, छत्तीसगढ़, झारखंड, पश्चिम बंगाल, त्रिपुरा, मिज़ोरम।"}},
-  {"id":"groupd-ga-0004","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the smallest state in India by area?","options":["Sikkim","Tripura","Goa","Manipur"],"explanation":"Goa is the smallest state, covering approximately 3,702 sq km on the western coast."},"hi":{"question":"क्षेत्रफल की दृष्टि से भारत का सबसे छोटा राज्य कौन सा है?","options":["सिक्किम","त्रिपुरा","गोवा","मणिपुर"],"explanation":"गोवा सबसे छोटा राज्य है, पश्चिमी तट पर लगभग 3,702 वर्ग किमी में फैला है।"}},
-  {"id":"groupd-ga-0005","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"How many neighboring countries does India share its land border with?","options":["5","6","7","8"],"explanation":"India shares land borders with 7 countries: Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh, Myanmar."},"hi":{"question":"भारत कितने पड़ोसी देशों के साथ अपनी भूमि सीमा साझा करता है?","options":["5","6","7","8"],"explanation":"भारत 7 देशों के साथ भूमि सीमा साझा करता है: पाकिस्तान, अफगानिस्तान, चीन, नेपाल, भूटान, बांग्लादेश, म्यांमार।"}},
-  {"id":"groupd-ga-0006","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the highest mountain peak in the world?","options":["Kanchenjunga","K2","Mount Everest","Nanga Parbat"],"explanation":"Mount Everest (8,848.86 m) on the Nepal-Tibet border is the highest peak in the world."},"hi":{"question":"दुनिया की सबसे ऊंची पर्वत चोटी कौन सी है?","options":["कंचनजंघा","K2","माउंट एवरेस्ट","नंगा पर्वत"],"explanation":"माउंट एवरेस्ट (8,848.86 मीटर) नेपाल-तिब्बत सीमा पर दुनिया की सबसे ऊंची चोटी है।"}},
-  {"id":"groupd-ga-0007","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the longest river of South India?","options":["Godavari","Krishna","Kaveri","Mahanadi"],"explanation":"Godavari is the longest river in South India (1,465 km), often called Dakshin Ganga."},"hi":{"question":"दक्षिण भारत की सबसे लंबी नदी कौन सी है?","options":["गोदावरी","कृष्णा","कावेरी","महानदी"],"explanation":"गोदावरी दक्षिण भारत की सबसे लंबी नदी है (1,465 किमी), जिसे अक्सर दक्षिण गंगा कहा जाता है।"}},
-  {"id":"groupd-ga-0008","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the largest desert in India?","options":["Rann of Kutch","Thar Desert","Deccan Plateau","Cold Desert of Ladakh"],"explanation":"The Thar Desert (Great Indian Desert) spans across Rajasthan and extends into Pakistan."},"hi":{"question":"भारत का सबसे बड़ा रेगिस्तान कौन सा है?","options":["कच्छ का रण","थार रेगिस्तान","डेक्कन पठार","लद्दाख का ठंडा रेगिस्तान"],"explanation":"थार रेगिस्तान (महान भारतीय रेगिस्तान) राजस्थान में फैला है और पाकिस्तान तक जाता है।"}},
-  {"id":"groupd-ga-0009","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Which ocean lies to the west of India?","options":["Indian Ocean","Bay of Bengal","Arabian Sea","Pacific Ocean"],"explanation":"The Arabian Sea lies to the west of India. Bay of Bengal is to the east, Indian Ocean to the south."},"hi":{"question":"भारत के पश्चिम में कौन सा सागर स्थित है?","options":["हिंद महासागर","बंगाल की खाड़ी","अरब सागर","प्रशांत महासागर"],"explanation":"अरब सागर भारत के पश्चिम में स्थित है। बंगाल की खाड़ी पूर्व में, हिंद महासागर दक्षिण में है।"}},
-  {"id":"groupd-ga-0010","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Which state is known as the \"Land of Five Rivers\"?","options":["Haryana","Uttar Pradesh","Punjab","Bihar"],"explanation":"Punjab means land of five rivers: Jhelum, Chenab, Ravi, Beas, Sutlej."},"hi":{"question":"किस राज्य को 'पांच नदियों की भूमि' के नाम से जाना जाता है?","options":["हरियाणा","उत्तर प्रदेश","पंजाब","बिहार"],"explanation":"पंजाब का अर्थ है पांच नदियों की भूमि: झेलम, चिनाब, रावी, व्यास, सतलुज।"}},
-  {"id":"groupd-ga-0011","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"What is the capital of Maharashtra?","options":["Nagpur","Pune","Mumbai","Aurangabad"],"explanation":"Mumbai is the capital of Maharashtra and the financial capital of India."},"hi":{"question":"महाराष्ट्र की राजधानी क्या है?","options":["नागपुर","पुणे","मुंबई","औरंगाबाद"],"explanation":"मुंबई महाराष्ट्र की राजधानी और भारत की वित्तीय राजधानी है।"}},
-  {"id":"groupd-ga-0012","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"Which river is the longest in India?","options":["Godavari","Ganga","Yamuna","Brahmaputra"],"explanation":"The Ganga is the longest river flowing in India (2,525 km). Brahmaputra is longer but mostly flows outside India."},"hi":{"question":"भारत की सबसे लंबी नदी कौन सी है?","options":["गोदावरी","गंगा","यमुना","ब्रह्मपुत्र"],"explanation":"गंगा भारत में बहने वाली सबसे लंबी नदी है (2,525 किमी)। ब्रह्मपुत्र लंबी है पर अधिकतर भारत के बाहर बहती है।"}},
-  {"id":"groupd-ga-0013","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the highest peak in India?","options":["Mount Everest","Nanda Devi","Kanchenjunga","K2"],"explanation":"Kanchenjunga (8,586 m) in Sikkim is India's highest peak. K2 is in PoK, Everest in Nepal."},"hi":{"question":"भारत की सबसे ऊंची चोटी कौन सी है?","options":["माउंट एवरेस्ट","नंदा देवी","कंचनजंघा","K2"],"explanation":"सिक्किम में कंचनजंघा (8,586 मी) भारत की सबसे ऊंची चोटी है। K2 PoK में, एवरेस्ट नेपाल में है।"}},
-  {"id":"groupd-ga-0014","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"Which state has the longest coastline in India?","options":["Gujarat","Maharashtra","Tamil Nadu","Kerala"],"explanation":"Gujarat has the longest coastline of about 1,600 km among all Indian states."},"hi":{"question":"भारत में सबसे लंबी तटरेखा वाला राज्य कौन सा है?","options":["गुजरात","महाराष्ट्र","तमिलनाडु","केरल"],"explanation":"गुजरात की लगभग 1,600 किमी की सबसे लंबी तटरेखा है।"}},
-  {"id":"groupd-ga-0015","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the largest freshwater lake in India?","options":["Dal Lake","Wular Lake","Chilika Lake","Sambhar Lake"],"explanation":"Wular Lake in Jammu & Kashmir is the largest freshwater lake in India."},"hi":{"question":"भारत की सबसे बड़ी मीठे पानी की झील कौन सी है?","options":["डल झील","वुलर झील","चिल्का झील","सांभर झील"],"explanation":"जम्मू-कश्मीर में वुलर झील भारत की सबसे बड़ी मीठे पानी की झील है।"}},
-  {"id":"groupd-ga-0016","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the southernmost point of India?","options":["Kanyakumari","Rameswaram","Indira Point","Port Blair"],"explanation":"Indira Point in Great Nicobar is the southernmost point of India."},"hi":{"question":"भारत का सबसे दक्षिणी बिंदु कौन सा है?","options":["कन्याकुमारी","रामेश्वरम","इंदिरा पॉइंट","पोर्ट ब्लेयर"],"explanation":"ग्रेट निकोबार में इंदिरा पॉइंट भारत का सबसे दक्षिणी बिंदु है।"}},
-  {"id":"groupd-ga-0017","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"Which mountain range separates North India from South India?","options":["Vindhya Range","Satpura Range","Aravalli Range","Western Ghats"],"explanation":"The Vindhya Range traditionally forms the boundary between North and South India."},"hi":{"question":"कौन सी पर्वत श्रृंखला उत्तर भारत को दक्षिण भारत से अलग करती है?","options":["विंध्य श्रृंखला","सतपुड़ा श्रृंखला","अरावली श्रृंखला","पश्चिमी घाट"],"explanation":"विंध्य श्रृंखला परंपरागत रूप से उत्तर और दक्षिण भारत के बीच की सीमा बनाती है।"}},
-  {"id":"groupd-ga-0018","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"Which state is known as the \"Spice Garden of India\"?","options":["Tamil Nadu","Kerala","Karnataka","Goa"],"explanation":"Kerala is known as the Spice Garden of India for its production of pepper, cardamom, and other spices."},"hi":{"question":"किस राज्य को 'भारत का मसाला उद्यान' कहा जाता है?","options":["तमिलनाडु","केरल","कर्नाटक","गोवा"],"explanation":"केरल को काली मिर्च, इलायची और अन्य मसालों के उत्पादन के लिए भारत का मसाला उद्यान कहा जाता है।"}},
-  {"id":"groupd-ga-0019","correctOption":"C","difficulty":"medium","sourceYear":2024,"en":{"question":"The Deccan Plateau is bounded by which two mountain ranges?","options":["Himalayas and Aravalli","Vindhya and Satpura","Western Ghats and Eastern Ghats","Nilgiri and Cardamom"],"explanation":"The Deccan Plateau is bounded by the Western Ghats on the west and Eastern Ghats on the east."},"hi":{"question":"डेक्कन का पठार किन दो पर्वत श्रृंखलाओं से घिरा है?","options":["हिमालय और अरावली","विंध्य और सतपुड़ा","पश्चिमी घाट और पूर्वी घाट","नीलगिरी और इलायची"],"explanation":"डेक्कन का पठार पश्चिम में पश्चिमी घाट और पूर्व में पूर्वी घाट से घिरा है।"}},
-  {"id":"groupd-ga-0020","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the source of the Ganga River?","options":["Gangotri Glacier","Yamunotri Glacier","Mount Kailash","Amarkantak"],"explanation":"The Ganga originates from the Gangotri Glacier in Uttarakhand, where it is known as Bhagirathi."},"hi":{"question":"गंगा नदी का उद्गम स्थल क्या है?","options":["गंगोत्री ग्लेशियर","यमुनोत्री ग्लेशियर","माउंट कैलाश","अमरकंटक"],"explanation":"गंगा उत्तराखंड में गंगोत्री ग्लेशियर से निकलती है, जहां इसे भागीरथी कहा जाता है।"}},
-  {"id":"groupd-ga-0021","correctOption":"B","difficulty":"easy","sourceYear":2025,"en":{"question":"Which state has the largest population in India?","options":["Maharashtra","Uttar Pradesh","Bihar","West Bengal"],"explanation":"Uttar Pradesh is the most populous state with over 230 million people."},"hi":{"question":"भारत में सबसे अधिक जनसंख्या वाला राज्य कौन सा है?","options":["महाराष्ट्र","उत्तर प्रदेश","बिहार","पश्चिम बंगाल"],"explanation":"उत्तर प्रदेश 230 मिलियन से अधिक लोगों के साथ सबसे अधिक जनसंख्या वाला राज्य है।"}},
-  {"id":"groupd-ga-0022","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Which river is known as the \"Sorrow of Assam\"?","options":["Ganga","Kosi","Brahmaputra","Yamuna"],"explanation":"The Brahmaputra is called the \"Sorrow of Assam\" due to devastating floods it causes during monsoon."},"hi":{"question":"किस नदी को 'असम का शोक' कहा जाता है?","options":["गंगा","कोसी","ब्रह्मपुत्र","यमुना"],"explanation":"ब्रह्मपुत्र को मानसून के दौरान विनाशकारी बाढ़ के कारण 'असम का शोक' कहा जाता है।"}},
-  {"id":"groupd-ga-0023","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"The Western Ghats are also known as:","options":["Sahyadri","Himadri","Nilgiri","Aravalli"],"explanation":"The Western Ghats are also called Sahyadri in Maharashtra and Karnataka regions."},"hi":{"question":"पश्चिमी घाट को इस नाम से भी जाना जाता है:","options":["सह्याद्रि","हिमाद्रि","नीलगिरी","अरावली"],"explanation":"पश्चिमी घाट को महाराष्ट्र और कर्नाटक क्षेत्रों में सह्याद्रि भी कहा जाता है।"}},
-  {"id":"groupd-ga-0024","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the oldest mountain range in India?","options":["Himalayas","Aravalli Range","Vindhya Range","Satpura Range"],"explanation":"The Aravalli Range is the oldest fold mountain range in India, stretching from Gujarat to Delhi."},"hi":{"question":"भारत की सबसे पुरानी पर्वत श्रृंखला कौन सी है?","options":["हिमालय","अरावली श्रृंखला","विंध्य श्रृंखला","सतपुड़ा श्रृंखला"],"explanation":"अरावली श्रृंखला भारत की सबसे पुरानी वलित पर्वत श्रृंखला है, जो गुजरात से दिल्ली तक फैली है।"}},
-  {"id":"groupd-ga-0025","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the largest Union Territory of India by area?","options":["Delhi","Puducherry","Ladakh","Chandigarh"],"explanation":"Ladakh is the largest Union Territory, covering about 59,146 sq km."},"hi":{"question":"क्षेत्रफल की दृष्टि से भारत का सबसे बड़ा केंद्र शासित प्रदेश कौन सा है?","options":["दिल्ली","पुडुचेरी","लद्दाख","चंडीगढ़"],"explanation":"लद्दाख लगभग 59,146 वर्ग किमी के साथ सबसे बड़ा केंद्र शासित प्रदेश है।"}},
-  {"id":"groupd-ga-0026","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"Which is the largest river island in the world?","options":["Majuli","Srirangam","Salsette","Diu"],"explanation":"Majuli Island in the Brahmaputra River (Assam) is the world's largest river island."},"hi":{"question":"दुनिया का सबसे बड़ा नदी द्वीप कौन सा है?","options":["माजुली","श्रीरंगम","सेलसेट","दीव"],"explanation":"असम में ब्रह्मपुत्र नदी में माजुली द्वीप दुनिया का सबसे बड़ा नदी द्वीप है।"}},
-  {"id":"groupd-ga-0027","correctOption":"B","difficulty":"easy","sourceYear":2025,"en":{"question":"Which Indian state is known as \"God's Own Country\"?","options":["Goa","Kerala","Tamil Nadu","Karnataka"],"explanation":"Kerala is popularly known as \"God's Own Country\" due to its natural beauty."},"hi":{"question":"किस भारतीय राज्य को 'भगवान का अपना देश' कहा जाता है?","options":["गोवा","केरल","तमिलनाडु","कर्नाटक"],"explanation":"केरल को इसकी प्राकृतिक सुंदरता के कारण 'भगवान का अपना देश' कहा जाता है।"}},
-  {"id":"groupd-ga-0028","correctOption":"C","difficulty":"medium","sourceYear":2024,"en":{"question":"Which strait separates India from Sri Lanka?","options":["Strait of Malacca","Strait of Hormuz","Palk Strait","Bosphorus Strait"],"explanation":"The Palk Strait separates India (Tamil Nadu) from Sri Lanka."},"hi":{"question":"कौन सी जलसंधि भारत को श्रीलंका से अलग करती है?","options":["मलक्का जलसंधि","होर्मुज जलसंधि","पाक जलसंधि","बोस्पोरस जलसंधि"],"explanation":"पाक जलसंधि भारत (तमिलनाडु) को श्रीलंका से अलग करती है।"}},
-  {"id":"groupd-ga-0029","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"Which river is known as \"Dakshin Ganga\"?","options":["Godavari","Krishna","Kaveri","Mahanadi"],"explanation":"Godavari is called Dakshin Ganga (Ganga of the South) as it is the longest river in South India."},"hi":{"question":"किस नदी को 'दक्षिण गंगा' कहा जाता है?","options":["गोदावरी","कृष्णा","कावेरी","महानदी"],"explanation":"गोदावरी को दक्षिण गंगा कहा जाता है क्योंकि यह दक्षिण भारत की सबसे लंबी नदी है।"}},
-  {"id":"groupd-ga-0030","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"The Sundarbans delta is formed by which two rivers?","options":["Ganga and Yamuna","Ganga and Brahmaputra","Godavari and Krishna","Mahanadi and Godavari"],"explanation":"The Sundarbans is the largest delta in the world, formed by Ganga and Brahmaputra."},"hi":{"question":"सुंदरबन डेल्टा किन दो नदियों से बना है?","options":["गंगा और यमुना","गंगा और ब्रह्मपुत्र","गोदावरी और कृष्णा","महानदी और गोदावरी"],"explanation":"सुंदरबन दुनिया का सबसे बड़ा डेल्टा है, जो गंगा और ब्रह्मपुत्र से बना है।"}},
-  {"id":"groupd-ga-0031","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the coldest place in India?","options":["Shimla","Manali","Dras","Srinagar"],"explanation":"Dras in Ladakh is the coldest inhabited place in India, with temperatures dropping to -45°C."},"hi":{"question":"भारत का सबसे ठंडा स्थान कौन सा है?","options":["शिमला","मनाली","द्रास","श्रीनगर"],"explanation":"लद्दाख में द्रास भारत का सबसे ठंडा बसा हुआ स्थान है, तापमान -45°C तक गिरता है।"}},
-  {"id":"groupd-ga-0032","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the national river of India?","options":["Ganga","Yamuna","Godavari","Brahmaputra"],"explanation":"Ganga was declared the National River of India on November 4, 2008."},"hi":{"question":"भारत की राष्ट्रीय नदी कौन सी है?","options":["गंगा","यमुना","गोदावरी","ब्रह्मपुत्र"],"explanation":"गंगा को 4 नवंबर 2008 को भारत की राष्ट्रीय नदी घोषित किया गया।"}},
-  {"id":"groupd-ga-0033","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"Which is the largest saltwater lake in India?","options":["Dal Lake","Chilika Lake","Sambhar Lake","Wular Lake"],"explanation":"Chilika Lake in Odisha is the largest saltwater/brackish water lake in India."},"hi":{"question":"भारत की सबसे बड़ी खारे पानी की झील कौन सी है?","options":["डल झील","चिल्का झील","सांभर झील","वुलर झील"],"explanation":"ओडिशा में चिल्का झील भारत की सबसे बड़ी खारे/अर्ध-खारे पानी की झील है।"}},
-  {"id":"groupd-ga-0034","correctOption":"C","difficulty":"easy","sourceYear":2025,"en":{"question":"Which is the largest state in India by population?","options":["Maharashtra","Bihar","Uttar Pradesh","West Bengal"],"explanation":"Uttar Pradesh is the most populous state in India with over 230 million people."},"hi":{"question":"जनसंख्या की दृष्टि से भारत का सबसे बड़ा राज्य कौन सा है?","options":["महाराष्ट्र","बिहार","उत्तर प्रदेश","पश्चिम बंगाल"],"explanation":"उत्तर प्रदेश 230 मिलियन से अधिक लोगों के साथ सबसे अधिक जनसंख्या वाला राज्य है।"}},
-  {"id":"groupd-ga-0035","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"Which river forms the Jog Falls, the highest waterfall in India?","options":["Sharavati River","Kaveri River","Godavari River","Krishna River"],"explanation":"Jog Falls (253 m) on the Sharavati River in Karnataka is one of the highest waterfalls in India."},"hi":{"question":"कौन सी नदी भारत के सबसे ऊंचे जलप्रपात जोग जलप्रपात बनाती है?","options":["शरावती नदी","कावेरी नदी","गोदावरी नदी","कृष्णा नदी"],"explanation":"कर्नाटक में शरावती नदी पर जोग जलप्रपात (253 मी) भारत का सबसे ऊंचा जलप्रपात है।"}},
-  {"id":"groupd-ga-0036","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"Which state is known as the \"Fruit Bowl of India\"?","options":["Uttar Pradesh","Himachal Pradesh","Jammu & Kashmir","Uttarakhand"],"explanation":"Himachal Pradesh is known as the Fruit Bowl of India for its apple production."},"hi":{"question":"किस राज्य को 'भारत का फल कटोरा' कहा जाता है?","options":["उत्तर प्रदेश","हिमाचल प्रदेश","जम्मू-कश्मीर","उत्तराखंड"],"explanation":"हिमाचल प्रदेश को सेब उत्पादन के लिए भारत का फल कटोरा कहा जाता है।"}},
-  {"id":"groupd-ga-0037","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the largest mangrove forest in the world?","options":["Amazon","Congo","Sundarbans","Mekong Delta"],"explanation":"The Sundarbans in West Bengal and Bangladesh is the largest mangrove forest in the world."},"hi":{"question":"दुनिया का सबसे बड़ा मैंग्रोव वन कौन सा है?","options":["अमेज़न","कांगो","सुंदरबन","मीकांग डेल्टा"],"explanation":"पश्चिम बंगाल और बांग्लादेश में सुंदरबन दुनिया का सबसे बड़ा मैंग्रोव वन है।"}},
-  {"id":"groupd-ga-0038","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"The Karakoram Pass is in which mountain range?","options":["Karakoram Range","Himalayas","Pir Panjal","Zanskar"],"explanation":"The Karakoram Pass is in the Karakoram Range, connecting Ladakh with China's Xinjiang region."},"hi":{"question":"काराकोरम दर्रा किस पर्वत श्रृंखला में है?","options":["काराकोरम श्रृंखला","हिमालय","पीर पंजाल","जांस्कर"],"explanation":"काराकोरम दर्रा काराकोरम श्रृंखला में है, जो लद्दाख को चीन के शिंजियांग क्षेत्र से जोड़ता है।"}},
-  {"id":"groupd-ga-0039","correctOption":"B","difficulty":"easy","sourceYear":2025,"en":{"question":"Which city is known as the \"Pink City\" of India?","options":["Udaipur","Jaipur","Jodhpur","Bikaner"],"explanation":"Jaipur is known as the Pink City because its buildings were painted pink in 1876 for the visit of Prince of Wales."},"hi":{"question":"किस शहर को भारत का 'गुलाबी शहर' कहा जाता है?","options":["उदयपुर","जयपुर","जोधपुर","बीकानेर"],"explanation":"जयपुर को गुलाबी शहर कहा जाता है क्योंकि 1876 में प्रिंस ऑफ वेल्स की यात्रा के लिए इमारतों को गुलाबी रंगा गया था।"}},
-  {"id":"groupd-ga-0040","correctOption":"C","difficulty":"medium","sourceYear":2024,"en":{"question":"Which is the longest dam in India?","options":["Bhakra Dam","Tehri Dam","Hirakud Dam","Nagarjuna Sagar Dam"],"explanation":"Hirakud Dam on the Mahanadi River in Odisha is the longest dam in India (4.8 km)."},"hi":{"question":"भारत का सबसे लंबा बांध कौन सा है?","options":["भाखड़ा बांध","टिहरी बांध","हीराकुंड बांध","नागार्जुन सागर बांध"],"explanation":"ओडिशा में महानदी पर हीराकुंड बांध भारत का सबसे लंबा बांध (4.8 किमी) है।"}},
-  {"id":"groupd-ga-0041","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the highest dam in India?","options":["Tehri Dam","Bhakra Dam","Hirakud Dam","Sardar Sarovar Dam"],"explanation":"Tehri Dam in Uttarakhand is the highest dam in India (260.5 m) on the Bhagirathi River."},"hi":{"question":"भारत का सबसे ऊंचा बांध कौन सा है?","options":["टिहरी बांध","भाखड़ा बांध","हीराकुंड बांध","सरदार सरोवर बांध"],"explanation":"उत्तराखंड में भागीरथी नदी पर टिहरी बांध भारत का सबसे ऊंचा बांध (260.5 मी) है।"}},
-  {"id":"groupd-ga-0042","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"Which state is known as the \"Land of Rising Sun\" in India?","options":["Assam","Arunachal Pradesh","Manipur","Nagaland"],"explanation":"Arunachal Pradesh is known as the Land of Rising Sun as it receives the first sunlight in India."},"hi":{"question":"भारत में किस राज्य को 'उगते सूरज की भूमि' कहा जाता है?","options":["असम","अरुणाचल प्रदेश","मणिपुर","नागालैंड"],"explanation":"अरुणाचल प्रदेश को उगते सूरज की भूमि कहा जाता है क्योंकि यहां भारत में सबसे पहले सूर्योदय होता है।"}},
-  {"id":"groupd-ga-0043","correctOption":"C","difficulty":"medium","sourceYear":2024,"en":{"question":"Which planet is known as the \"Red Planet\"?","options":["Venus","Jupiter","Mars","Mercury"],"explanation":"Mars is called the Red Planet because of the iron oxide (rust) on its surface."},"hi":{"question":"किस ग्रह को 'लाल ग्रह' कहा जाता है?","options":["शुक्र","बृहस्पति","मंगल","बुध"],"explanation":"मंगल को इसकी सतह पर आयरन ऑक्साइड (जंग) के कारण लाल ग्रह कहा जाता है।"}},
-  {"id":"groupd-ga-0044","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the capital of Odisha?","options":["Bhubaneswar","Cuttack","Puri","Rourkela"],"explanation":"Bhubaneswar is the capital of Odisha. It is also known as the Temple City of India."},"hi":{"question":"ओडिशा की राजधानी क्या है?","options":["भुवनेश्वर","कटक","पुरी","राउरकेला"],"explanation":"भुवनेश्वर ओडिशा की राजधानी है। इसे भारत का मंदिर शहर भी कहा जाता है।"}},
-  {"id":"groupd-ga-0045","correctOption":"B","difficulty":"easy","sourceYear":2025,"en":{"question":"Which Indian state shares the longest border with Pakistan?","options":["Punjab","Rajasthan","Gujarat","Jammu & Kashmir"],"explanation":"Rajasthan shares the longest border with Pakistan among Indian states."},"hi":{"question":"कौन सा भारतीय राज्य पाकिस्तान के साथ सबसे लंबी सीमा साझा करता है?","options":["पंजाब","राजस्थान","गुजरात","जम्मू-कश्मीर"],"explanation":"राजस्थान पाकिस्तान के साथ सबसे लंबी सीमा साझा करता है।"}},
-  {"id":"groupd-ga-0046","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"Which is the largest coal-producing state in India?","options":["Odisha","Jharkhand","Chhattisgarh","Madhya Pradesh"],"explanation":"Jharkhand is the largest coal-producing state, with major mines in Dhanbad, Bokaro, and Hazaribagh."},"hi":{"question":"भारत का सबसे बड़ा कोयला उत्पादक राज्य कौन सा है?","options":["ओडिशा","झारखंड","छत्तीसगढ़","मध्य प्रदेश"],"explanation":"झारखंड सबसे बड़ा कोयला उत्पादक राज्य है, जिसकी प्रमुख खदानें धनबाद, बोकारो और हजारीबाग में हैं।"}},
-  {"id":"groupd-ga-0047","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"Which river flows through the city of Varanasi?","options":["Ganga","Yamuna","Godavari","Narmada"],"explanation":"The Ganga River flows through Varanasi, one of the oldest continuously inhabited cities in the world."},"hi":{"question":"कौन सी नदी वाराणसी शहर से होकर बहती है?","options":["गंगा","यमुना","गोदावरी","नर्मदा"],"explanation":"गंगा नदी दुनिया के सबसे पुराने लगातार बसे शहरों में से एक वाराणसी से होकर बहती है।"}},
-  {"id":"groupd-ga-0048","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"Which state is the largest producer of tea in India?","options":["Kerala","Assam","West Bengal","Tamil Nadu"],"explanation":"Assam is the largest tea-producing state in India, accounting for over 50% of India's tea production."},"hi":{"question":"भारत में चाय का सबसे बड़ा उत्पादक राज्य कौन सा है?","options":["केरल","असम","पश्चिम बंगाल","तमिलनाडु"],"explanation":"असम भारत का सबसे बड़ा चाय उत्पादक राज्य है, भारत के 50% से अधिक चाय उत्पादन के लिए जिम्मेदार।"}},
-  {"id":"groupd-ga-0049","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"The Andaman and Nicobar Islands are located in which ocean/sea?","options":["Arabian Sea","Indian Ocean","Bay of Bengal","Pacific Ocean"],"explanation":"The Andaman and Nicobar Islands are a group of islands in the Bay of Bengal."},"hi":{"question":"अंडमान और निकोबार द्वीप समूह किस महासागर/सागर में स्थित हैं?","options":["अरब सागर","हिंद महासागर","बंगाल की खाड़ी","प्रशांत महासागर"],"explanation":"अंडमान और निकोबार द्वीप समूह बंगाल की खाड़ी में स्थित द्वीपों का समूह है।"}},
-  {"id":"groupd-ga-0050","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"Which state is known as the \"Silicon Valley of India\"?","options":["Karnataka","Maharashtra","Tamil Nadu","Telangana"],"explanation":"Karnataka (specifically Bengaluru) is known as the Silicon Valley of India for its IT industry."},"hi":{"question":"किस राज्य को 'भारत की सिलिकॉन वैली' कहा जाता है?","options":["कर्नाटक","महाराष्ट्र","तमिलनाडु","तेलंगाना"],"explanation":"कर्नाटक (विशेष रूप से बेंगलुरु) को इसके आईटी उद्योग के लिए भारत की सिलिकॉन वैली कहा जाता है।"}},
-  {"id":"groupd-ga-0051","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"Which state is the largest producer of coffee in India?","options":["Tamil Nadu","Karnataka","Kerala","Andhra Pradesh"],"explanation":"Karnataka is the largest coffee-producing state, contributing about 70% of India's coffee."},"hi":{"question":"भारत में कॉफी का सबसे बड़ा उत्पादक राज्य कौन सा है?","options":["तमिलनाडु","कर्नाटक","केरल","आंध्र प्रदेश"],"explanation":"कर्नाटक भारत का लगभग 70% कॉफी उत्पादन करने वाला सबसे बड़ा कॉफी उत्पादक राज्य है।"}},
-  {"id":"groupd-ga-0052","correctOption":"C","difficulty":"easy","sourceYear":2025,"en":{"question":"Which river is known as the \"Sorrow of Bengal\"?","options":["Ganga","Brahmaputra","Damodar","Hooghly"],"explanation":"The Damodar River was called the \"Sorrow of Bengal\" due to its devastating floods, now controlled by dams."},"hi":{"question":"किस नदी को 'बंगाल का शोक' कहा जाता है?","options":["गंगा","ब्रह्मपुत्र","दामोदर","हुगली"],"explanation":"दामोदर नदी को इसकी विनाशकारी बाढ़ के कारण 'बंगाल का शोक' कहा जाता था, अब बांधों से नियंत्रित।"}},
-  {"id":"groupd-ga-0053","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"The Bhakra Nangal Dam is built on which river?","options":["Sutlej","Beas","Ravi","Chenab"],"explanation":"Bhakra Nangal Dam is built on the Sutlej River. It is one of the highest gravity dams in the world."},"hi":{"question":"भाखड़ा नांगल बांध किस नदी पर बनाया गया है?","options":["सतलुज","व्यास","रावी","चिनाब"],"explanation":"भाखड़ा नांगल बांध सतलुज नदी पर बनाया गया है। यह दुनिया के सबसे ऊंचे गुरुत्व बांधों में से एक है।"}},
-  {"id":"groupd-ga-0054","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the capital of Sikkim?","options":["Shillong","Gangtok","Itanagar","Aizawl"],"explanation":"Gangtok is the capital of Sikkim, located in the Eastern Himalayas."},"hi":{"question":"सिक्किम की राजधानी क्या है?","options":["शिलांग","गंगटोक","ईटानगर","आइज़ोल"],"explanation":"गंगटोक सिक्किम की राजधानी है, पूर्वी हिमालय में स्थित है।"}},
-  {"id":"groupd-ga-0055","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Which river is known as the \"Lifeline of Madhya Pradesh\"?","options":["Chambal","Tapti","Narmada","Betwa"],"explanation":"The Narmada River is known as the Lifeline of Madhya Pradesh as it flows through the state."},"hi":{"question":"किस नदी को 'मध्य प्रदेश की जीवनरेखा' कहा जाता है?","options":["चंबल","ताप्ती","नर्मदा","बेतवा"],"explanation":"नर्मदा नदी को मध्य प्रदेश की जीवनरेखा कहा जाता है क्योंकि यह राज्य से होकर बहती है।"}},
-  {"id":"groupd-ga-0056","correctOption":"A","difficulty":"medium","sourceYear":2024,"en":{"question":"The Rann of Kutch is located in which state?","options":["Gujarat","Rajasthan","Maharashtra","Madhya Pradesh"],"explanation":"The Rann of Kutch, a large salt marsh, is located in Gujarat."},"hi":{"question":"कच्छ का रण किस राज्य में स्थित है?","options":["गुजरात","राजस्थान","महाराष्ट्र","मध्य प्रदेश"],"explanation":"कच्छ का रण, एक बड़ा नमक दलदल, गुजरात में स्थित है।"}},
-  {"id":"groupd-ga-0057","correctOption":"B","difficulty":"easy","sourceYear":2025,"en":{"question":"Which city is known as the \"City of Lakes\" in India?","options":["Jaipur","Udaipur","Bhopal","Srinagar"],"explanation":"Udaipur in Rajasthan is known as the City of Lakes for its beautiful lakes like Pichola and Fateh Sagar."},"hi":{"question":"भारत में किस शहर को 'झीलों का शहर' कहा जाता है?","options":["जयपुर","उदयपुर","भोपाल","श्रीनगर"],"explanation":"राजस्थान में उदयपुर को पिछोला और फतेह सागर जैसी सुंदर झीलों के लिए झीलों का शहर कहा जाता है।"}},
-  {"id":"groupd-ga-0058","correctOption":"C","difficulty":"medium","sourceYear":2024,"en":{"question":"Which is the largest wool-producing state in India?","options":["Himachal Pradesh","Uttarakhand","Rajasthan","Punjab"],"explanation":"Rajasthan is the largest wool-producing state in India."},"hi":{"question":"भारत का सबसे बड़ा ऊन उत्पादक राज्य कौन सा है?","options":["हिमाचल प्रदेश","उत्तराखंड","राजस्थान","पंजाब"],"explanation":"राजस्थान भारत का सबसे बड़ा ऊन उत्पादक राज्य है।"}},
-  {"id":"groupd-ga-0059","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"Which planet is closest to the Sun?","options":["Mercury","Venus","Earth","Mars"],"explanation":"Mercury is the closest planet to the Sun, at an average distance of 58 million km."},"hi":{"question":"सूर्य के सबसे निकट कौन सा ग्रह है?","options":["बुध","शुक्र","पृथ्वी","मंगल"],"explanation":"बुध सूर्य का सबसे निकटतम ग्रह है, औसत दूरी 58 मिलियन किमी।"}},
-  {"id":"groupd-ga-0060","correctOption":"B","difficulty":"easy","sourceYear":2024,"en":{"question":"Which is the largest planet in our solar system?","options":["Saturn","Jupiter","Uranus","Neptune"],"explanation":"Jupiter is the largest planet in our solar system, with a diameter of about 139,820 km."},"hi":{"question":"हमारे सौरमंडल का सबसे बड़ा ग्रह कौन सा है?","options":["शनि","बृहस्पति","अरुण","वरुण"],"explanation":"बृहस्पति हमारे सौरमंडल का सबसे बड़ा ग्रह है, जिसका व्यास लगभग 139,820 किमी है।"}},
-  {"id":"groupd-ga-0061","correctOption":"C","difficulty":"medium","sourceYear":2024,"en":{"question":"Which state in India has the highest forest cover?","options":["Arunachal Pradesh","Chhattisgarh","Madhya Pradesh","Odisha"],"explanation":"Madhya Pradesh has the highest forest cover by area in India."},"hi":{"question":"भारत में सबसे अधिक वन क्षेत्र वाला राज्य कौन सा है?","options":["अरुणाचल प्रदेश","छत्तीसगढ़","मध्य प्रदेश","ओडिशा"],"explanation":"मध्य प्रदेश में भारत में क्षेत्रफल की दृष्टि से सबसे अधिक वन क्षेत्र है।"}},
-  {"id":"groupd-ga-0062","correctOption":"A","difficulty":"easy","sourceYear":2025,"en":{"question":"Which river is known as the \"Sorrow of Odisha\"?","options":["Mahanadi","Godavari","Kaveri","Brahmani"],"explanation":"The Mahanadi River is sometimes called the \"Sorrow of Odisha\" due to its floods."},"hi":{"question":"किस नदी को 'ओडिशा का शोक' कहा जाता है?","options":["महानदी","गोदावरी","कावेरी","ब्राह्मणी"],"explanation":"महानदी नदी को इसकी बाढ़ के कारण कभी-कभी 'ओडिशा का शोक' कहा जाता है।"}},
-  {"id":"groupd-ga-0063","correctOption":"B","difficulty":"medium","sourceYear":2024,"en":{"question":"The Nagarjuna Sagar Dam is built on which river?","options":["Godavari","Krishna","Kaveri","Mahanadi"],"explanation":"Nagarjuna Sagar Dam is built on the Krishna River, spanning Telangana and Andhra Pradesh."},"hi":{"question":"नागार्जुन सागर बांध किस नदी पर बनाया गया है?","options":["गोदावरी","कृष्णा","कावेरी","महानदी"],"explanation":"नागार्जुन सागर बांध कृष्णा नदी पर बनाया गया है, तेलंगाना और आंध्र प्रदेश में फैला है।"}},
-  {"id":"groupd-ga-0064","correctOption":"C","difficulty":"easy","sourceYear":2024,"en":{"question":"Famous hill station Gulmarg is in which state?","options":["Himachal Pradesh","Uttarakhand","Jammu & Kashmir","Sikkim"],"explanation":"Gulmarg is a famous hill station and skiing destination in Jammu & Kashmir."},"hi":{"question":"प्रसिद्ध हिल स्टेशन गुलमर्ग किस राज्य में है?","options":["हिमाचल प्रदेश","उत्तराखंड","जम्मू-कश्मीर","सिक्किम"],"explanation":"गुलमर्ग जम्मू-कश्मीर में एक प्रसिद्ध हिल स्टेशन और स्कीइंग स्थल है।"}},
-  {"id":"groupd-ga-0065","correctOption":"A","difficulty":"easy","sourceYear":2024,"en":{"question":"How many Union Territories are there in India as of 2024?","options":["8","7","9","6"],"explanation":"India has 8 Union Territories as of 2024 after Jammu & Kashmir and Ladakh were made UTs in 2019."},"hi":{"question":"2024 तक भारत में कितने केंद्र शासित प्रदेश हैं?","options":["8","7","9","6"],"explanation":"2019 में जम्मू-कश्मीर और लद्दाख को केंद्र शासित प्रदेश बनाए जाने के बाद 2024 तक भारत में 8 केंद्र शासित प्रदेश हैं।"}}
+  {
+    "id": "gdgag-0001",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the largest state in India by area?",
+      "options": [
+        "Maharashtra",
+        "Uttar Pradesh",
+        "Rajasthan",
+        "Madhya Pradesh"
+      ],
+      "explanation": "Rajasthan is the largest state by area, covering about 342,239 sq km. Madhya Pradesh is second largest."
+    },
+    "hi": {
+      "question": "क्षेत्रफल की दृष्टि से भारत का सबसे बड़ा राज्य कौन सा है?",
+      "options": [
+        "महाराष्ट्र",
+        "उत्तर प्रदेश",
+        "राजस्थान",
+        "मध्य प्रदेश"
+      ],
+      "explanation": "राजस्थान क्षेत्रफल की दृष्टि से सबसे बड़ा राज्य है, लगभग 342,239 वर्ग किमी। मध्य प्रदेश दूसरा सबसे बड़ा है।"
+    }
+  },
+  {
+    "id": "gdgag-0002",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which river is known as the \"Sorrow of Bihar\"?",
+      "options": [
+        "Ganga",
+        "Kosi",
+        "Yamuna",
+        "Brahmaputra"
+      ],
+      "explanation": "The Kosi river is called the \"Sorrow of Bihar\" because it causes frequent and devastating floods."
+    },
+    "hi": {
+      "question": "किस नदी को 'बिहार का शोक' कहा जाता है?",
+      "options": [
+        "गंगा",
+        "कोसी",
+        "यमुना",
+        "ब्रह्मपुत्र"
+      ],
+      "explanation": "कोसी नदी को 'बिहार का शोक' कहा जाता है क्योंकि यह बार-बार विनाशकारी बाढ़ लाती है।"
+    }
+  },
+  {
+    "id": "gdgag-0003",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2023,
+    "en": {
+      "question": "The Tropic of Cancer passes through how many Indian states?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "explanation": "The Tropic of Cancer passes through 8 states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram."
+    },
+    "hi": {
+      "question": "कर्क रेखा कितने भारतीय राज्यों से होकर गुज़रती है?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "explanation": "कर्क रेखा 8 राज्यों से गुज़रती है: गुजरात, राजस्थान, मध्य प्रदेश, छत्तीसगढ़, झारखंड, पश्चिम बंगाल, त्रिपुरा, मिज़ोरम।"
+    }
+  },
+  {
+    "id": "gdgag-0004",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the smallest state in India by area?",
+      "options": [
+        "Sikkim",
+        "Tripura",
+        "Goa",
+        "Manipur"
+      ],
+      "explanation": "Goa is the smallest state, covering approximately 3,702 sq km on the western coast."
+    },
+    "hi": {
+      "question": "क्षेत्रफल की दृष्टि से भारत का सबसे छोटा राज्य कौन सा है?",
+      "options": [
+        "सिक्किम",
+        "त्रिपुरा",
+        "गोवा",
+        "मणिपुर"
+      ],
+      "explanation": "गोवा सबसे छोटा राज्य है, पश्चिमी तट पर लगभग 3,702 वर्ग किमी में फैला है।"
+    }
+  },
+  {
+    "id": "gdgag-0005",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How many neighboring countries does India share its land border with?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "India shares land borders with 7 countries: Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh, Myanmar."
+    },
+    "hi": {
+      "question": "भारत कितने पड़ोसी देशों के साथ अपनी भूमि सीमा साझा करता है?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "भारत 7 देशों के साथ भूमि सीमा साझा करता है: पाकिस्तान, अफगानिस्तान, चीन, नेपाल, भूटान, बांग्लादेश, म्यांमार।"
+    }
+  },
+  {
+    "id": "gdgag-0006",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the highest mountain peak in the world?",
+      "options": [
+        "Kanchenjunga",
+        "K2",
+        "Mount Everest",
+        "Nanga Parbat"
+      ],
+      "explanation": "Mount Everest (8,848.86 m) on the Nepal-Tibet border is the highest peak in the world."
+    },
+    "hi": {
+      "question": "दुनिया की सबसे ऊंची पर्वत चोटी कौन सी है?",
+      "options": [
+        "कंचनजंघा",
+        "K2",
+        "माउंट एवरेस्ट",
+        "नंगा पर्वत"
+      ],
+      "explanation": "माउंट एवरेस्ट (8,848.86 मीटर) नेपाल-तिब्बत सीमा पर दुनिया की सबसे ऊंची चोटी है।"
+    }
+  },
+  {
+    "id": "gdgag-0007",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the longest river of South India?",
+      "options": [
+        "Godavari",
+        "Krishna",
+        "Kaveri",
+        "Mahanadi"
+      ],
+      "explanation": "Godavari is the longest river in South India (1,465 km), often called Dakshin Ganga."
+    },
+    "hi": {
+      "question": "दक्षिण भारत की सबसे लंबी नदी कौन सी है?",
+      "options": [
+        "गोदावरी",
+        "कृष्णा",
+        "कावेरी",
+        "महानदी"
+      ],
+      "explanation": "गोदावरी दक्षिण भारत की सबसे लंबी नदी है (1,465 किमी), जिसे अक्सर दक्षिण गंगा कहा जाता है।"
+    }
+  },
+  {
+    "id": "gdgag-0008",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the largest desert in India?",
+      "options": [
+        "Rann of Kutch",
+        "Thar Desert",
+        "Deccan Plateau",
+        "Cold Desert of Ladakh"
+      ],
+      "explanation": "The Thar Desert (Great Indian Desert) spans across Rajasthan and extends into Pakistan."
+    },
+    "hi": {
+      "question": "भारत का सबसे बड़ा रेगिस्तान कौन सा है?",
+      "options": [
+        "कच्छ का रण",
+        "थार रेगिस्तान",
+        "डेक्कन पठार",
+        "लद्दाख का ठंडा रेगिस्तान"
+      ],
+      "explanation": "थार रेगिस्तान (महान भारतीय रेगिस्तान) राजस्थान में फैला है और पाकिस्तान तक जाता है।"
+    }
+  },
+  {
+    "id": "gdgag-0009",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which ocean lies to the west of India?",
+      "options": [
+        "Indian Ocean",
+        "Bay of Bengal",
+        "Arabian Sea",
+        "Pacific Ocean"
+      ],
+      "explanation": "The Arabian Sea lies to the west of India. Bay of Bengal is to the east, Indian Ocean to the south."
+    },
+    "hi": {
+      "question": "भारत के पश्चिम में कौन सा सागर स्थित है?",
+      "options": [
+        "हिंद महासागर",
+        "बंगाल की खाड़ी",
+        "अरब सागर",
+        "प्रशांत महासागर"
+      ],
+      "explanation": "अरब सागर भारत के पश्चिम में स्थित है। बंगाल की खाड़ी पूर्व में, हिंद महासागर दक्षिण में है।"
+    }
+  },
+  {
+    "id": "gdgag-0010",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which state is known as the \"Land of Five Rivers\"?",
+      "options": [
+        "Haryana",
+        "Uttar Pradesh",
+        "Punjab",
+        "Bihar"
+      ],
+      "explanation": "Punjab means land of five rivers: Jhelum, Chenab, Ravi, Beas, Sutlej."
+    },
+    "hi": {
+      "question": "किस राज्य को 'पांच नदियों की भूमि' के नाम से जाना जाता है?",
+      "options": [
+        "हरियाणा",
+        "उत्तर प्रदेश",
+        "पंजाब",
+        "बिहार"
+      ],
+      "explanation": "पंजाब का अर्थ है पांच नदियों की भूमि: झेलम, चिनाब, रावी, व्यास, सतलुज।"
+    }
+  },
+  {
+    "id": "gdgag-0011",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "What is the capital of Maharashtra?",
+      "options": [
+        "Nagpur",
+        "Pune",
+        "Mumbai",
+        "Aurangabad"
+      ],
+      "explanation": "Mumbai is the capital of Maharashtra and the financial capital of India."
+    },
+    "hi": {
+      "question": "महाराष्ट्र की राजधानी क्या है?",
+      "options": [
+        "नागपुर",
+        "पुणे",
+        "मुंबई",
+        "औरंगाबाद"
+      ],
+      "explanation": "मुंबई महाराष्ट्र की राजधानी और भारत की वित्तीय राजधानी है।"
+    }
+  },
+  {
+    "id": "gdgag-0012",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which river is the longest in India?",
+      "options": [
+        "Godavari",
+        "Ganga",
+        "Yamuna",
+        "Brahmaputra"
+      ],
+      "explanation": "The Ganga is the longest river flowing in India (2,525 km). Brahmaputra is longer but mostly flows outside India."
+    },
+    "hi": {
+      "question": "भारत की सबसे लंबी नदी कौन सी है?",
+      "options": [
+        "गोदावरी",
+        "गंगा",
+        "यमुना",
+        "ब्रह्मपुत्र"
+      ],
+      "explanation": "गंगा भारत में बहने वाली सबसे लंबी नदी है (2,525 किमी)। ब्रह्मपुत्र लंबी है पर अधिकतर भारत के बाहर बहती है।"
+    }
+  },
+  {
+    "id": "gdgag-0013",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the highest peak in India?",
+      "options": [
+        "Mount Everest",
+        "Nanda Devi",
+        "Kanchenjunga",
+        "K2"
+      ],
+      "explanation": "Kanchenjunga (8,586 m) in Sikkim is India's highest peak. K2 is in PoK, Everest in Nepal."
+    },
+    "hi": {
+      "question": "भारत की सबसे ऊंची चोटी कौन सी है?",
+      "options": [
+        "माउंट एवरेस्ट",
+        "नंदा देवी",
+        "कंचनजंघा",
+        "K2"
+      ],
+      "explanation": "सिक्किम में कंचनजंघा (8,586 मी) भारत की सबसे ऊंची चोटी है। K2 PoK में, एवरेस्ट नेपाल में है।"
+    }
+  },
+  {
+    "id": "gdgag-0014",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which state has the longest coastline in India?",
+      "options": [
+        "Gujarat",
+        "Maharashtra",
+        "Tamil Nadu",
+        "Kerala"
+      ],
+      "explanation": "Gujarat has the longest coastline of about 1,600 km among all Indian states."
+    },
+    "hi": {
+      "question": "भारत में सबसे लंबी तटरेखा वाला राज्य कौन सा है?",
+      "options": [
+        "गुजरात",
+        "महाराष्ट्र",
+        "तमिलनाडु",
+        "केरल"
+      ],
+      "explanation": "गुजरात की लगभग 1,600 किमी की सबसे लंबी तटरेखा है।"
+    }
+  },
+  {
+    "id": "gdgag-0015",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the largest freshwater lake in India?",
+      "options": [
+        "Dal Lake",
+        "Wular Lake",
+        "Chilika Lake",
+        "Sambhar Lake"
+      ],
+      "explanation": "Wular Lake in Jammu & Kashmir is the largest freshwater lake in India."
+    },
+    "hi": {
+      "question": "भारत की सबसे बड़ी मीठे पानी की झील कौन सी है?",
+      "options": [
+        "डल झील",
+        "वुलर झील",
+        "चिल्का झील",
+        "सांभर झील"
+      ],
+      "explanation": "जम्मू-कश्मीर में वुलर झील भारत की सबसे बड़ी मीठे पानी की झील है।"
+    }
+  },
+  {
+    "id": "gdgag-0016",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the southernmost point of India?",
+      "options": [
+        "Kanyakumari",
+        "Rameswaram",
+        "Indira Point",
+        "Port Blair"
+      ],
+      "explanation": "Indira Point in Great Nicobar is the southernmost point of India."
+    },
+    "hi": {
+      "question": "भारत का सबसे दक्षिणी बिंदु कौन सा है?",
+      "options": [
+        "कन्याकुमारी",
+        "रामेश्वरम",
+        "इंदिरा पॉइंट",
+        "पोर्ट ब्लेयर"
+      ],
+      "explanation": "ग्रेट निकोबार में इंदिरा पॉइंट भारत का सबसे दक्षिणी बिंदु है।"
+    }
+  },
+  {
+    "id": "gdgag-0017",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which mountain range separates North India from South India?",
+      "options": [
+        "Vindhya Range",
+        "Satpura Range",
+        "Aravalli Range",
+        "Western Ghats"
+      ],
+      "explanation": "The Vindhya Range traditionally forms the boundary between North and South India."
+    },
+    "hi": {
+      "question": "कौन सी पर्वत श्रृंखला उत्तर भारत को दक्षिण भारत से अलग करती है?",
+      "options": [
+        "विंध्य श्रृंखला",
+        "सतपुड़ा श्रृंखला",
+        "अरावली श्रृंखला",
+        "पश्चिमी घाट"
+      ],
+      "explanation": "विंध्य श्रृंखला परंपरागत रूप से उत्तर और दक्षिण भारत के बीच की सीमा बनाती है।"
+    }
+  },
+  {
+    "id": "gdgag-0018",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which state is known as the \"Spice Garden of India\"?",
+      "options": [
+        "Tamil Nadu",
+        "Kerala",
+        "Karnataka",
+        "Goa"
+      ],
+      "explanation": "Kerala is known as the Spice Garden of India for its production of pepper, cardamom, and other spices."
+    },
+    "hi": {
+      "question": "किस राज्य को 'भारत का मसाला उद्यान' कहा जाता है?",
+      "options": [
+        "तमिलनाडु",
+        "केरल",
+        "कर्नाटक",
+        "गोवा"
+      ],
+      "explanation": "केरल को काली मिर्च, इलायची और अन्य मसालों के उत्पादन के लिए भारत का मसाला उद्यान कहा जाता है।"
+    }
+  },
+  {
+    "id": "gdgag-0019",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The Deccan Plateau is bounded by which two mountain ranges?",
+      "options": [
+        "Himalayas and Aravalli",
+        "Vindhya and Satpura",
+        "Western Ghats and Eastern Ghats",
+        "Nilgiri and Cardamom"
+      ],
+      "explanation": "The Deccan Plateau is bounded by the Western Ghats on the west and Eastern Ghats on the east."
+    },
+    "hi": {
+      "question": "डेक्कन का पठार किन दो पर्वत श्रृंखलाओं से घिरा है?",
+      "options": [
+        "हिमालय और अरावली",
+        "विंध्य और सतपुड़ा",
+        "पश्चिमी घाट और पूर्वी घाट",
+        "नीलगिरी और इलायची"
+      ],
+      "explanation": "डेक्कन का पठार पश्चिम में पश्चिमी घाट और पूर्व में पूर्वी घाट से घिरा है।"
+    }
+  },
+  {
+    "id": "gdgag-0020",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the source of the Ganga River?",
+      "options": [
+        "Gangotri Glacier",
+        "Yamunotri Glacier",
+        "Mount Kailash",
+        "Amarkantak"
+      ],
+      "explanation": "The Ganga originates from the Gangotri Glacier in Uttarakhand, where it is known as Bhagirathi."
+    },
+    "hi": {
+      "question": "गंगा नदी का उद्गम स्थल क्या है?",
+      "options": [
+        "गंगोत्री ग्लेशियर",
+        "यमुनोत्री ग्लेशियर",
+        "माउंट कैलाश",
+        "अमरकंटक"
+      ],
+      "explanation": "गंगा उत्तराखंड में गंगोत्री ग्लेशियर से निकलती है, जहां इसे भागीरथी कहा जाता है।"
+    }
+  },
+  {
+    "id": "gdgag-0021",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which state has the largest population in India?",
+      "options": [
+        "Maharashtra",
+        "Uttar Pradesh",
+        "Bihar",
+        "West Bengal"
+      ],
+      "explanation": "Uttar Pradesh is the most populous state with over 230 million people."
+    },
+    "hi": {
+      "question": "भारत में सबसे अधिक जनसंख्या वाला राज्य कौन सा है?",
+      "options": [
+        "महाराष्ट्र",
+        "उत्तर प्रदेश",
+        "बिहार",
+        "पश्चिम बंगाल"
+      ],
+      "explanation": "उत्तर प्रदेश 230 मिलियन से अधिक लोगों के साथ सबसे अधिक जनसंख्या वाला राज्य है।"
+    }
+  },
+  {
+    "id": "gdgag-0022",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which river is known as the \"Sorrow of Assam\"?",
+      "options": [
+        "Ganga",
+        "Kosi",
+        "Brahmaputra",
+        "Yamuna"
+      ],
+      "explanation": "The Brahmaputra is called the \"Sorrow of Assam\" due to devastating floods it causes during monsoon."
+    },
+    "hi": {
+      "question": "किस नदी को 'असम का शोक' कहा जाता है?",
+      "options": [
+        "गंगा",
+        "कोसी",
+        "ब्रह्मपुत्र",
+        "यमुना"
+      ],
+      "explanation": "ब्रह्मपुत्र को मानसून के दौरान विनाशकारी बाढ़ के कारण 'असम का शोक' कहा जाता है।"
+    }
+  },
+  {
+    "id": "gdgag-0023",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The Western Ghats are also known as:",
+      "options": [
+        "Sahyadri",
+        "Himadri",
+        "Nilgiri",
+        "Aravalli"
+      ],
+      "explanation": "The Western Ghats are also called Sahyadri in Maharashtra and Karnataka regions."
+    },
+    "hi": {
+      "question": "पश्चिमी घाट को इस नाम से भी जाना जाता है:",
+      "options": [
+        "सह्याद्रि",
+        "हिमाद्रि",
+        "नीलगिरी",
+        "अरावली"
+      ],
+      "explanation": "पश्चिमी घाट को महाराष्ट्र और कर्नाटक क्षेत्रों में सह्याद्रि भी कहा जाता है।"
+    }
+  },
+  {
+    "id": "gdgag-0024",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the oldest mountain range in India?",
+      "options": [
+        "Himalayas",
+        "Aravalli Range",
+        "Vindhya Range",
+        "Satpura Range"
+      ],
+      "explanation": "The Aravalli Range is the oldest fold mountain range in India, stretching from Gujarat to Delhi."
+    },
+    "hi": {
+      "question": "भारत की सबसे पुरानी पर्वत श्रृंखला कौन सी है?",
+      "options": [
+        "हिमालय",
+        "अरावली श्रृंखला",
+        "विंध्य श्रृंखला",
+        "सतपुड़ा श्रृंखला"
+      ],
+      "explanation": "अरावली श्रृंखला भारत की सबसे पुरानी वलित पर्वत श्रृंखला है, जो गुजरात से दिल्ली तक फैली है।"
+    }
+  },
+  {
+    "id": "gdgag-0025",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the largest Union Territory of India by area?",
+      "options": [
+        "Delhi",
+        "Puducherry",
+        "Ladakh",
+        "Chandigarh"
+      ],
+      "explanation": "Ladakh is the largest Union Territory, covering about 59,146 sq km."
+    },
+    "hi": {
+      "question": "क्षेत्रफल की दृष्टि से भारत का सबसे बड़ा केंद्र शासित प्रदेश कौन सा है?",
+      "options": [
+        "दिल्ली",
+        "पुडुचेरी",
+        "लद्दाख",
+        "चंडीगढ़"
+      ],
+      "explanation": "लद्दाख लगभग 59,146 वर्ग किमी के साथ सबसे बड़ा केंद्र शासित प्रदेश है।"
+    }
+  },
+  {
+    "id": "gdgag-0026",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the largest river island in the world?",
+      "options": [
+        "Majuli",
+        "Srirangam",
+        "Salsette",
+        "Diu"
+      ],
+      "explanation": "Majuli Island in the Brahmaputra River (Assam) is the world's largest river island."
+    },
+    "hi": {
+      "question": "दुनिया का सबसे बड़ा नदी द्वीप कौन सा है?",
+      "options": [
+        "माजुली",
+        "श्रीरंगम",
+        "सेलसेट",
+        "दीव"
+      ],
+      "explanation": "असम में ब्रह्मपुत्र नदी में माजुली द्वीप दुनिया का सबसे बड़ा नदी द्वीप है।"
+    }
+  },
+  {
+    "id": "gdgag-0027",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which Indian state is known as \"God's Own Country\"?",
+      "options": [
+        "Goa",
+        "Kerala",
+        "Tamil Nadu",
+        "Karnataka"
+      ],
+      "explanation": "Kerala is popularly known as \"God's Own Country\" due to its natural beauty."
+    },
+    "hi": {
+      "question": "किस भारतीय राज्य को 'भगवान का अपना देश' कहा जाता है?",
+      "options": [
+        "गोवा",
+        "केरल",
+        "तमिलनाडु",
+        "कर्नाटक"
+      ],
+      "explanation": "केरल को इसकी प्राकृतिक सुंदरता के कारण 'भगवान का अपना देश' कहा जाता है।"
+    }
+  },
+  {
+    "id": "gdgag-0028",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which strait separates India from Sri Lanka?",
+      "options": [
+        "Strait of Malacca",
+        "Strait of Hormuz",
+        "Palk Strait",
+        "Bosphorus Strait"
+      ],
+      "explanation": "The Palk Strait separates India (Tamil Nadu) from Sri Lanka."
+    },
+    "hi": {
+      "question": "कौन सी जलसंधि भारत को श्रीलंका से अलग करती है?",
+      "options": [
+        "मलक्का जलसंधि",
+        "होर्मुज जलसंधि",
+        "पाक जलसंधि",
+        "बोस्पोरस जलसंधि"
+      ],
+      "explanation": "पाक जलसंधि भारत (तमिलनाडु) को श्रीलंका से अलग करती है।"
+    }
+  },
+  {
+    "id": "gdgag-0029",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which river is known as \"Dakshin Ganga\"?",
+      "options": [
+        "Godavari",
+        "Krishna",
+        "Kaveri",
+        "Mahanadi"
+      ],
+      "explanation": "Godavari is called Dakshin Ganga (Ganga of the South) as it is the longest river in South India."
+    },
+    "hi": {
+      "question": "किस नदी को 'दक्षिण गंगा' कहा जाता है?",
+      "options": [
+        "गोदावरी",
+        "कृष्णा",
+        "कावेरी",
+        "महानदी"
+      ],
+      "explanation": "गोदावरी को दक्षिण गंगा कहा जाता है क्योंकि यह दक्षिण भारत की सबसे लंबी नदी है।"
+    }
+  },
+  {
+    "id": "gdgag-0030",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The Sundarbans delta is formed by which two rivers?",
+      "options": [
+        "Ganga and Yamuna",
+        "Ganga and Brahmaputra",
+        "Godavari and Krishna",
+        "Mahanadi and Godavari"
+      ],
+      "explanation": "The Sundarbans is the largest delta in the world, formed by Ganga and Brahmaputra."
+    },
+    "hi": {
+      "question": "सुंदरबन डेल्टा किन दो नदियों से बना है?",
+      "options": [
+        "गंगा और यमुना",
+        "गंगा और ब्रह्मपुत्र",
+        "गोदावरी और कृष्णा",
+        "महानदी और गोदावरी"
+      ],
+      "explanation": "सुंदरबन दुनिया का सबसे बड़ा डेल्टा है, जो गंगा और ब्रह्मपुत्र से बना है।"
+    }
+  },
+  {
+    "id": "gdgag-0031",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the coldest place in India?",
+      "options": [
+        "Shimla",
+        "Manali",
+        "Dras",
+        "Srinagar"
+      ],
+      "explanation": "Dras in Ladakh is the coldest inhabited place in India, with temperatures dropping to -45°C."
+    },
+    "hi": {
+      "question": "भारत का सबसे ठंडा स्थान कौन सा है?",
+      "options": [
+        "शिमला",
+        "मनाली",
+        "द्रास",
+        "श्रीनगर"
+      ],
+      "explanation": "लद्दाख में द्रास भारत का सबसे ठंडा बसा हुआ स्थान है, तापमान -45°C तक गिरता है।"
+    }
+  },
+  {
+    "id": "gdgag-0032",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the national river of India?",
+      "options": [
+        "Ganga",
+        "Yamuna",
+        "Godavari",
+        "Brahmaputra"
+      ],
+      "explanation": "Ganga was declared the National River of India on November 4, 2008."
+    },
+    "hi": {
+      "question": "भारत की राष्ट्रीय नदी कौन सी है?",
+      "options": [
+        "गंगा",
+        "यमुना",
+        "गोदावरी",
+        "ब्रह्मपुत्र"
+      ],
+      "explanation": "गंगा को 4 नवंबर 2008 को भारत की राष्ट्रीय नदी घोषित किया गया।"
+    }
+  },
+  {
+    "id": "gdgag-0033",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the largest saltwater lake in India?",
+      "options": [
+        "Dal Lake",
+        "Chilika Lake",
+        "Sambhar Lake",
+        "Wular Lake"
+      ],
+      "explanation": "Chilika Lake in Odisha is the largest saltwater/brackish water lake in India."
+    },
+    "hi": {
+      "question": "भारत की सबसे बड़ी खारे पानी की झील कौन सी है?",
+      "options": [
+        "डल झील",
+        "चिल्का झील",
+        "सांभर झील",
+        "वुलर झील"
+      ],
+      "explanation": "ओडिशा में चिल्का झील भारत की सबसे बड़ी खारे/अर्ध-खारे पानी की झील है।"
+    }
+  },
+  {
+    "id": "gdgag-0034",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which is the largest state in India by population?",
+      "options": [
+        "Maharashtra",
+        "Bihar",
+        "Uttar Pradesh",
+        "West Bengal"
+      ],
+      "explanation": "Uttar Pradesh is the most populous state in India with over 230 million people."
+    },
+    "hi": {
+      "question": "जनसंख्या की दृष्टि से भारत का सबसे बड़ा राज्य कौन सा है?",
+      "options": [
+        "महाराष्ट्र",
+        "बिहार",
+        "उत्तर प्रदेश",
+        "पश्चिम बंगाल"
+      ],
+      "explanation": "उत्तर प्रदेश 230 मिलियन से अधिक लोगों के साथ सबसे अधिक जनसंख्या वाला राज्य है।"
+    }
+  },
+  {
+    "id": "gdgag-0035",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which river forms the Jog Falls, the highest waterfall in India?",
+      "options": [
+        "Sharavati River",
+        "Kaveri River",
+        "Godavari River",
+        "Krishna River"
+      ],
+      "explanation": "Jog Falls (253 m) on the Sharavati River in Karnataka is one of the highest waterfalls in India."
+    },
+    "hi": {
+      "question": "कौन सी नदी भारत के सबसे ऊंचे जलप्रपात जोग जलप्रपात बनाती है?",
+      "options": [
+        "शरावती नदी",
+        "कावेरी नदी",
+        "गोदावरी नदी",
+        "कृष्णा नदी"
+      ],
+      "explanation": "कर्नाटक में शरावती नदी पर जोग जलप्रपात (253 मी) भारत का सबसे ऊंचा जलप्रपात है।"
+    }
+  },
+  {
+    "id": "gdgag-0036",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which state is known as the \"Fruit Bowl of India\"?",
+      "options": [
+        "Uttar Pradesh",
+        "Himachal Pradesh",
+        "Jammu & Kashmir",
+        "Uttarakhand"
+      ],
+      "explanation": "Himachal Pradesh is known as the Fruit Bowl of India for its apple production."
+    },
+    "hi": {
+      "question": "किस राज्य को 'भारत का फल कटोरा' कहा जाता है?",
+      "options": [
+        "उत्तर प्रदेश",
+        "हिमाचल प्रदेश",
+        "जम्मू-कश्मीर",
+        "उत्तराखंड"
+      ],
+      "explanation": "हिमाचल प्रदेश को सेब उत्पादन के लिए भारत का फल कटोरा कहा जाता है।"
+    }
+  },
+  {
+    "id": "gdgag-0037",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the largest mangrove forest in the world?",
+      "options": [
+        "Amazon",
+        "Congo",
+        "Sundarbans",
+        "Mekong Delta"
+      ],
+      "explanation": "The Sundarbans in West Bengal and Bangladesh is the largest mangrove forest in the world."
+    },
+    "hi": {
+      "question": "दुनिया का सबसे बड़ा मैंग्रोव वन कौन सा है?",
+      "options": [
+        "अमेज़न",
+        "कांगो",
+        "सुंदरबन",
+        "मीकांग डेल्टा"
+      ],
+      "explanation": "पश्चिम बंगाल और बांग्लादेश में सुंदरबन दुनिया का सबसे बड़ा मैंग्रोव वन है।"
+    }
+  },
+  {
+    "id": "gdgag-0038",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The Karakoram Pass is in which mountain range?",
+      "options": [
+        "Karakoram Range",
+        "Himalayas",
+        "Pir Panjal",
+        "Zanskar"
+      ],
+      "explanation": "The Karakoram Pass is in the Karakoram Range, connecting Ladakh with China's Xinjiang region."
+    },
+    "hi": {
+      "question": "काराकोरम दर्रा किस पर्वत श्रृंखला में है?",
+      "options": [
+        "काराकोरम श्रृंखला",
+        "हिमालय",
+        "पीर पंजाल",
+        "जांस्कर"
+      ],
+      "explanation": "काराकोरम दर्रा काराकोरम श्रृंखला में है, जो लद्दाख को चीन के शिंजियांग क्षेत्र से जोड़ता है।"
+    }
+  },
+  {
+    "id": "gdgag-0039",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which city is known as the \"Pink City\" of India?",
+      "options": [
+        "Udaipur",
+        "Jaipur",
+        "Jodhpur",
+        "Bikaner"
+      ],
+      "explanation": "Jaipur is known as the Pink City because its buildings were painted pink in 1876 for the visit of Prince of Wales."
+    },
+    "hi": {
+      "question": "किस शहर को भारत का 'गुलाबी शहर' कहा जाता है?",
+      "options": [
+        "उदयपुर",
+        "जयपुर",
+        "जोधपुर",
+        "बीकानेर"
+      ],
+      "explanation": "जयपुर को गुलाबी शहर कहा जाता है क्योंकि 1876 में प्रिंस ऑफ वेल्स की यात्रा के लिए इमारतों को गुलाबी रंगा गया था।"
+    }
+  },
+  {
+    "id": "gdgag-0040",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the longest dam in India?",
+      "options": [
+        "Bhakra Dam",
+        "Tehri Dam",
+        "Hirakud Dam",
+        "Nagarjuna Sagar Dam"
+      ],
+      "explanation": "Hirakud Dam on the Mahanadi River in Odisha is the longest dam in India (4.8 km)."
+    },
+    "hi": {
+      "question": "भारत का सबसे लंबा बांध कौन सा है?",
+      "options": [
+        "भाखड़ा बांध",
+        "टिहरी बांध",
+        "हीराकुंड बांध",
+        "नागार्जुन सागर बांध"
+      ],
+      "explanation": "ओडिशा में महानदी पर हीराकुंड बांध भारत का सबसे लंबा बांध (4.8 किमी) है।"
+    }
+  },
+  {
+    "id": "gdgag-0041",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the highest dam in India?",
+      "options": [
+        "Tehri Dam",
+        "Bhakra Dam",
+        "Hirakud Dam",
+        "Sardar Sarovar Dam"
+      ],
+      "explanation": "Tehri Dam in Uttarakhand is the highest dam in India (260.5 m) on the Bhagirathi River."
+    },
+    "hi": {
+      "question": "भारत का सबसे ऊंचा बांध कौन सा है?",
+      "options": [
+        "टिहरी बांध",
+        "भाखड़ा बांध",
+        "हीराकुंड बांध",
+        "सरदार सरोवर बांध"
+      ],
+      "explanation": "उत्तराखंड में भागीरथी नदी पर टिहरी बांध भारत का सबसे ऊंचा बांध (260.5 मी) है।"
+    }
+  },
+  {
+    "id": "gdgag-0042",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which state is known as the \"Land of Rising Sun\" in India?",
+      "options": [
+        "Assam",
+        "Arunachal Pradesh",
+        "Manipur",
+        "Nagaland"
+      ],
+      "explanation": "Arunachal Pradesh is known as the Land of Rising Sun as it receives the first sunlight in India."
+    },
+    "hi": {
+      "question": "भारत में किस राज्य को 'उगते सूरज की भूमि' कहा जाता है?",
+      "options": [
+        "असम",
+        "अरुणाचल प्रदेश",
+        "मणिपुर",
+        "नागालैंड"
+      ],
+      "explanation": "अरुणाचल प्रदेश को उगते सूरज की भूमि कहा जाता है क्योंकि यहां भारत में सबसे पहले सूर्योदय होता है।"
+    }
+  },
+  {
+    "id": "gdgag-0043",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which planet is known as the \"Red Planet\"?",
+      "options": [
+        "Venus",
+        "Jupiter",
+        "Mars",
+        "Mercury"
+      ],
+      "explanation": "Mars is called the Red Planet because of the iron oxide (rust) on its surface."
+    },
+    "hi": {
+      "question": "किस ग्रह को 'लाल ग्रह' कहा जाता है?",
+      "options": [
+        "शुक्र",
+        "बृहस्पति",
+        "मंगल",
+        "बुध"
+      ],
+      "explanation": "मंगल को इसकी सतह पर आयरन ऑक्साइड (जंग) के कारण लाल ग्रह कहा जाता है।"
+    }
+  },
+  {
+    "id": "gdgag-0044",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the capital of Odisha?",
+      "options": [
+        "Bhubaneswar",
+        "Cuttack",
+        "Puri",
+        "Rourkela"
+      ],
+      "explanation": "Bhubaneswar is the capital of Odisha. It is also known as the Temple City of India."
+    },
+    "hi": {
+      "question": "ओडिशा की राजधानी क्या है?",
+      "options": [
+        "भुवनेश्वर",
+        "कटक",
+        "पुरी",
+        "राउरकेला"
+      ],
+      "explanation": "भुवनेश्वर ओडिशा की राजधानी है। इसे भारत का मंदिर शहर भी कहा जाता है।"
+    }
+  },
+  {
+    "id": "gdgag-0045",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which Indian state shares the longest border with Pakistan?",
+      "options": [
+        "Punjab",
+        "Rajasthan",
+        "Gujarat",
+        "Jammu & Kashmir"
+      ],
+      "explanation": "Rajasthan shares the longest border with Pakistan among Indian states."
+    },
+    "hi": {
+      "question": "कौन सा भारतीय राज्य पाकिस्तान के साथ सबसे लंबी सीमा साझा करता है?",
+      "options": [
+        "पंजाब",
+        "राजस्थान",
+        "गुजरात",
+        "जम्मू-कश्मीर"
+      ],
+      "explanation": "राजस्थान पाकिस्तान के साथ सबसे लंबी सीमा साझा करता है।"
+    }
+  },
+  {
+    "id": "gdgag-0046",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the largest coal-producing state in India?",
+      "options": [
+        "Odisha",
+        "Jharkhand",
+        "Chhattisgarh",
+        "Madhya Pradesh"
+      ],
+      "explanation": "Jharkhand is the largest coal-producing state, with major mines in Dhanbad, Bokaro, and Hazaribagh."
+    },
+    "hi": {
+      "question": "भारत का सबसे बड़ा कोयला उत्पादक राज्य कौन सा है?",
+      "options": [
+        "ओडिशा",
+        "झारखंड",
+        "छत्तीसगढ़",
+        "मध्य प्रदेश"
+      ],
+      "explanation": "झारखंड सबसे बड़ा कोयला उत्पादक राज्य है, जिसकी प्रमुख खदानें धनबाद, बोकारो और हजारीबाग में हैं।"
+    }
+  },
+  {
+    "id": "gdgag-0047",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which river flows through the city of Varanasi?",
+      "options": [
+        "Ganga",
+        "Yamuna",
+        "Godavari",
+        "Narmada"
+      ],
+      "explanation": "The Ganga River flows through Varanasi, one of the oldest continuously inhabited cities in the world."
+    },
+    "hi": {
+      "question": "कौन सी नदी वाराणसी शहर से होकर बहती है?",
+      "options": [
+        "गंगा",
+        "यमुना",
+        "गोदावरी",
+        "नर्मदा"
+      ],
+      "explanation": "गंगा नदी दुनिया के सबसे पुराने लगातार बसे शहरों में से एक वाराणसी से होकर बहती है।"
+    }
+  },
+  {
+    "id": "gdgag-0048",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which state is the largest producer of tea in India?",
+      "options": [
+        "Kerala",
+        "Assam",
+        "West Bengal",
+        "Tamil Nadu"
+      ],
+      "explanation": "Assam is the largest tea-producing state in India, accounting for over 50% of India's tea production."
+    },
+    "hi": {
+      "question": "भारत में चाय का सबसे बड़ा उत्पादक राज्य कौन सा है?",
+      "options": [
+        "केरल",
+        "असम",
+        "पश्चिम बंगाल",
+        "तमिलनाडु"
+      ],
+      "explanation": "असम भारत का सबसे बड़ा चाय उत्पादक राज्य है, भारत के 50% से अधिक चाय उत्पादन के लिए जिम्मेदार।"
+    }
+  },
+  {
+    "id": "gdgag-0049",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The Andaman and Nicobar Islands are located in which ocean/sea?",
+      "options": [
+        "Arabian Sea",
+        "Indian Ocean",
+        "Bay of Bengal",
+        "Pacific Ocean"
+      ],
+      "explanation": "The Andaman and Nicobar Islands are a group of islands in the Bay of Bengal."
+    },
+    "hi": {
+      "question": "अंडमान और निकोबार द्वीप समूह किस महासागर/सागर में स्थित हैं?",
+      "options": [
+        "अरब सागर",
+        "हिंद महासागर",
+        "बंगाल की खाड़ी",
+        "प्रशांत महासागर"
+      ],
+      "explanation": "अंडमान और निकोबार द्वीप समूह बंगाल की खाड़ी में स्थित द्वीपों का समूह है।"
+    }
+  },
+  {
+    "id": "gdgag-0050",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which state is known as the \"Silicon Valley of India\"?",
+      "options": [
+        "Karnataka",
+        "Maharashtra",
+        "Tamil Nadu",
+        "Telangana"
+      ],
+      "explanation": "Karnataka (specifically Bengaluru) is known as the Silicon Valley of India for its IT industry."
+    },
+    "hi": {
+      "question": "किस राज्य को 'भारत की सिलिकॉन वैली' कहा जाता है?",
+      "options": [
+        "कर्नाटक",
+        "महाराष्ट्र",
+        "तमिलनाडु",
+        "तेलंगाना"
+      ],
+      "explanation": "कर्नाटक (विशेष रूप से बेंगलुरु) को इसके आईटी उद्योग के लिए भारत की सिलिकॉन वैली कहा जाता है।"
+    }
+  },
+  {
+    "id": "gdgag-0051",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which state is the largest producer of coffee in India?",
+      "options": [
+        "Tamil Nadu",
+        "Karnataka",
+        "Kerala",
+        "Andhra Pradesh"
+      ],
+      "explanation": "Karnataka is the largest coffee-producing state, contributing about 70% of India's coffee."
+    },
+    "hi": {
+      "question": "भारत में कॉफी का सबसे बड़ा उत्पादक राज्य कौन सा है?",
+      "options": [
+        "तमिलनाडु",
+        "कर्नाटक",
+        "केरल",
+        "आंध्र प्रदेश"
+      ],
+      "explanation": "कर्नाटक भारत का लगभग 70% कॉफी उत्पादन करने वाला सबसे बड़ा कॉफी उत्पादक राज्य है।"
+    }
+  },
+  {
+    "id": "gdgag-0052",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which river is known as the \"Sorrow of Bengal\"?",
+      "options": [
+        "Ganga",
+        "Brahmaputra",
+        "Damodar",
+        "Hooghly"
+      ],
+      "explanation": "The Damodar River was called the \"Sorrow of Bengal\" due to its devastating floods, now controlled by dams."
+    },
+    "hi": {
+      "question": "किस नदी को 'बंगाल का शोक' कहा जाता है?",
+      "options": [
+        "गंगा",
+        "ब्रह्मपुत्र",
+        "दामोदर",
+        "हुगली"
+      ],
+      "explanation": "दामोदर नदी को इसकी विनाशकारी बाढ़ के कारण 'बंगाल का शोक' कहा जाता था, अब बांधों से नियंत्रित।"
+    }
+  },
+  {
+    "id": "gdgag-0053",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The Bhakra Nangal Dam is built on which river?",
+      "options": [
+        "Sutlej",
+        "Beas",
+        "Ravi",
+        "Chenab"
+      ],
+      "explanation": "Bhakra Nangal Dam is built on the Sutlej River. It is one of the highest gravity dams in the world."
+    },
+    "hi": {
+      "question": "भाखड़ा नांगल बांध किस नदी पर बनाया गया है?",
+      "options": [
+        "सतलुज",
+        "व्यास",
+        "रावी",
+        "चिनाब"
+      ],
+      "explanation": "भाखड़ा नांगल बांध सतलुज नदी पर बनाया गया है। यह दुनिया के सबसे ऊंचे गुरुत्व बांधों में से एक है।"
+    }
+  },
+  {
+    "id": "gdgag-0054",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the capital of Sikkim?",
+      "options": [
+        "Shillong",
+        "Gangtok",
+        "Itanagar",
+        "Aizawl"
+      ],
+      "explanation": "Gangtok is the capital of Sikkim, located in the Eastern Himalayas."
+    },
+    "hi": {
+      "question": "सिक्किम की राजधानी क्या है?",
+      "options": [
+        "शिलांग",
+        "गंगटोक",
+        "ईटानगर",
+        "आइज़ोल"
+      ],
+      "explanation": "गंगटोक सिक्किम की राजधानी है, पूर्वी हिमालय में स्थित है।"
+    }
+  },
+  {
+    "id": "gdgag-0055",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which river is known as the \"Lifeline of Madhya Pradesh\"?",
+      "options": [
+        "Chambal",
+        "Tapti",
+        "Narmada",
+        "Betwa"
+      ],
+      "explanation": "The Narmada River is known as the Lifeline of Madhya Pradesh as it flows through the state."
+    },
+    "hi": {
+      "question": "किस नदी को 'मध्य प्रदेश की जीवनरेखा' कहा जाता है?",
+      "options": [
+        "चंबल",
+        "ताप्ती",
+        "नर्मदा",
+        "बेतवा"
+      ],
+      "explanation": "नर्मदा नदी को मध्य प्रदेश की जीवनरेखा कहा जाता है क्योंकि यह राज्य से होकर बहती है।"
+    }
+  },
+  {
+    "id": "gdgag-0056",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The Rann of Kutch is located in which state?",
+      "options": [
+        "Gujarat",
+        "Rajasthan",
+        "Maharashtra",
+        "Madhya Pradesh"
+      ],
+      "explanation": "The Rann of Kutch, a large salt marsh, is located in Gujarat."
+    },
+    "hi": {
+      "question": "कच्छ का रण किस राज्य में स्थित है?",
+      "options": [
+        "गुजरात",
+        "राजस्थान",
+        "महाराष्ट्र",
+        "मध्य प्रदेश"
+      ],
+      "explanation": "कच्छ का रण, एक बड़ा नमक दलदल, गुजरात में स्थित है।"
+    }
+  },
+  {
+    "id": "gdgag-0057",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which city is known as the \"City of Lakes\" in India?",
+      "options": [
+        "Jaipur",
+        "Udaipur",
+        "Bhopal",
+        "Srinagar"
+      ],
+      "explanation": "Udaipur in Rajasthan is known as the City of Lakes for its beautiful lakes like Pichola and Fateh Sagar."
+    },
+    "hi": {
+      "question": "भारत में किस शहर को 'झीलों का शहर' कहा जाता है?",
+      "options": [
+        "जयपुर",
+        "उदयपुर",
+        "भोपाल",
+        "श्रीनगर"
+      ],
+      "explanation": "राजस्थान में उदयपुर को पिछोला और फतेह सागर जैसी सुंदर झीलों के लिए झीलों का शहर कहा जाता है।"
+    }
+  },
+  {
+    "id": "gdgag-0058",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the largest wool-producing state in India?",
+      "options": [
+        "Himachal Pradesh",
+        "Uttarakhand",
+        "Rajasthan",
+        "Punjab"
+      ],
+      "explanation": "Rajasthan is the largest wool-producing state in India."
+    },
+    "hi": {
+      "question": "भारत का सबसे बड़ा ऊन उत्पादक राज्य कौन सा है?",
+      "options": [
+        "हिमाचल प्रदेश",
+        "उत्तराखंड",
+        "राजस्थान",
+        "पंजाब"
+      ],
+      "explanation": "राजस्थान भारत का सबसे बड़ा ऊन उत्पादक राज्य है।"
+    }
+  },
+  {
+    "id": "gdgag-0059",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which planet is closest to the Sun?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Earth",
+        "Mars"
+      ],
+      "explanation": "Mercury is the closest planet to the Sun, at an average distance of 58 million km."
+    },
+    "hi": {
+      "question": "सूर्य के सबसे निकट कौन सा ग्रह है?",
+      "options": [
+        "बुध",
+        "शुक्र",
+        "पृथ्वी",
+        "मंगल"
+      ],
+      "explanation": "बुध सूर्य का सबसे निकटतम ग्रह है, औसत दूरी 58 मिलियन किमी।"
+    }
+  },
+  {
+    "id": "gdgag-0060",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which is the largest planet in our solar system?",
+      "options": [
+        "Saturn",
+        "Jupiter",
+        "Uranus",
+        "Neptune"
+      ],
+      "explanation": "Jupiter is the largest planet in our solar system, with a diameter of about 139,820 km."
+    },
+    "hi": {
+      "question": "हमारे सौरमंडल का सबसे बड़ा ग्रह कौन सा है?",
+      "options": [
+        "शनि",
+        "बृहस्पति",
+        "अरुण",
+        "वरुण"
+      ],
+      "explanation": "बृहस्पति हमारे सौरमंडल का सबसे बड़ा ग्रह है, जिसका व्यास लगभग 139,820 किमी है।"
+    }
+  },
+  {
+    "id": "gdgag-0061",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Which state in India has the highest forest cover?",
+      "options": [
+        "Arunachal Pradesh",
+        "Chhattisgarh",
+        "Madhya Pradesh",
+        "Odisha"
+      ],
+      "explanation": "Madhya Pradesh has the highest forest cover by area in India."
+    },
+    "hi": {
+      "question": "भारत में सबसे अधिक वन क्षेत्र वाला राज्य कौन सा है?",
+      "options": [
+        "अरुणाचल प्रदेश",
+        "छत्तीसगढ़",
+        "मध्य प्रदेश",
+        "ओडिशा"
+      ],
+      "explanation": "मध्य प्रदेश में भारत में क्षेत्रफल की दृष्टि से सबसे अधिक वन क्षेत्र है।"
+    }
+  },
+  {
+    "id": "gdgag-0062",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which river is known as the \"Sorrow of Odisha\"?",
+      "options": [
+        "Mahanadi",
+        "Godavari",
+        "Kaveri",
+        "Brahmani"
+      ],
+      "explanation": "The Mahanadi River is sometimes called the \"Sorrow of Odisha\" due to its floods."
+    },
+    "hi": {
+      "question": "किस नदी को 'ओडिशा का शोक' कहा जाता है?",
+      "options": [
+        "महानदी",
+        "गोदावरी",
+        "कावेरी",
+        "ब्राह्मणी"
+      ],
+      "explanation": "महानदी नदी को इसकी बाढ़ के कारण कभी-कभी 'ओडिशा का शोक' कहा जाता है।"
+    }
+  },
+  {
+    "id": "gdgag-0063",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2024,
+    "en": {
+      "question": "The Nagarjuna Sagar Dam is built on which river?",
+      "options": [
+        "Godavari",
+        "Krishna",
+        "Kaveri",
+        "Mahanadi"
+      ],
+      "explanation": "Nagarjuna Sagar Dam is built on the Krishna River, spanning Telangana and Andhra Pradesh."
+    },
+    "hi": {
+      "question": "नागार्जुन सागर बांध किस नदी पर बनाया गया है?",
+      "options": [
+        "गोदावरी",
+        "कृष्णा",
+        "कावेरी",
+        "महानदी"
+      ],
+      "explanation": "नागार्जुन सागर बांध कृष्णा नदी पर बनाया गया है, तेलंगाना और आंध्र प्रदेश में फैला है।"
+    }
+  },
+  {
+    "id": "gdgag-0064",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "Famous hill station Gulmarg is in which state?",
+      "options": [
+        "Himachal Pradesh",
+        "Uttarakhand",
+        "Jammu & Kashmir",
+        "Sikkim"
+      ],
+      "explanation": "Gulmarg is a famous hill station and skiing destination in Jammu & Kashmir."
+    },
+    "hi": {
+      "question": "प्रसिद्ध हिल स्टेशन गुलमर्ग किस राज्य में है?",
+      "options": [
+        "हिमाचल प्रदेश",
+        "उत्तराखंड",
+        "जम्मू-कश्मीर",
+        "सिक्किम"
+      ],
+      "explanation": "गुलमर्ग जम्मू-कश्मीर में एक प्रसिद्ध हिल स्टेशन और स्कीइंग स्थल है।"
+    }
+  },
+  {
+    "id": "gdgag-0065",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2024,
+    "en": {
+      "question": "How many Union Territories are there in India as of 2024?",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "6"
+      ],
+      "explanation": "India has 8 Union Territories as of 2024 after Jammu & Kashmir and Ladakh were made UTs in 2019."
+    },
+    "hi": {
+      "question": "2024 तक भारत में कितने केंद्र शासित प्रदेश हैं?",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "6"
+      ],
+      "explanation": "2019 में जम्मू-कश्मीर और लद्दाख को केंद्र शासित प्रदेश बनाए जाने के बाद 2024 तक भारत में 8 केंद्र शासित प्रदेश हैं।"
+    }
+  }
 ]

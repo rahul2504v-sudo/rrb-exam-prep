@@ -1,23 +1,17 @@
 import { Question, QuestionJSON, questionFromJSON } from '@/types';
 import { examList } from './exams';
 
-// Cache for loaded question files
 const questionCache: Record<string, QuestionJSON[]> = {};
+const setIndexCache: Record<string, any> = {};
 
-// Get the JSON path for a topic
 function getTopicPath(examId: string, subjectSlug: string, topicSlug: string): string {
   return `/data/questions/${examId}/${subjectSlug}/${topicSlug}.json`;
 }
-
-// Map subject IDs to slugs
 function getSubjectSlug(examId: string, subjectId: string): string {
   const exam = examList.find(e => e.id === examId);
   if (!exam) return '';
-  const subject = exam.subjects.find(s => s.id === subjectId);
-  return subject?.slug || '';
+  return exam.subjects.find(s => s.id === subjectId)?.slug || '';
 }
-
-// Map topic IDs to slugs
 function getTopicSlug(examId: string, topicId: string): string {
   const exam = examList.find(e => e.id === examId);
   if (!exam) return '';
@@ -27,8 +21,6 @@ function getTopicSlug(examId: string, topicId: string): string {
   }
   return '';
 }
-
-// Find subjectId for a given topicId
 function getSubjectForTopic(examId: string, topicId: string): { subjectId: string; subjectSlug: string } | null {
   const exam = examList.find(e => e.id === examId);
   if (!exam) return null;
@@ -39,87 +31,109 @@ function getSubjectForTopic(examId: string, topicId: string): { subjectId: strin
   return null;
 }
 
-// Load questions from a topic JSON file (topicId only — derives subject internally)
 export async function loadTopicQuestions(
-  examId: string,
-  subjectIdOrTopicId: string,
-  topicId?: string,
-  lang: 'en' | 'hi' = 'en'
+  examId: string, subjectIdOrTopicId: string, topicId?: string, lang: 'en' | 'hi' = 'en'
 ): Promise<Question[]> {
-  // If topicId is provided and it's not a language code, use old signature
-  let actualSubjectId: string;
-  let actualTopicId: string;
-  
+  let actualSubjectId: string, actualTopicId: string;
   if (topicId && topicId.length > 2) {
-    // Old signature: (examId, subjectId, topicId, lang?)
-    actualSubjectId = subjectIdOrTopicId;
-    actualTopicId = topicId;
+    actualSubjectId = subjectIdOrTopicId; actualTopicId = topicId;
   } else {
-    // Called with just (examId, topicId, lang) — derive subject
     actualTopicId = subjectIdOrTopicId;
     const info = getSubjectForTopic(examId, actualTopicId);
     if (!info) return [];
     actualSubjectId = info.subjectId;
   }
-  
   const subjectSlug = getSubjectSlug(examId, actualSubjectId);
   const topicSlug = getTopicSlug(examId, actualTopicId);
   const path = getTopicPath(examId, subjectSlug, topicSlug);
-  
-  // Check cache first
   if (!questionCache[path]) {
     try {
       const response = await fetch(path);
       if (!response.ok) return [];
       questionCache[path] = await response.json();
-    } catch {
-      return [];
-    }
+    } catch { return []; }
   }
-
-  return questionCache[path].map(q =>
-    questionFromJSON(q, examId, actualSubjectId, actualTopicId, lang)
-  );
+  return questionCache[path].map(q => questionFromJSON(q, examId, actualSubjectId, actualTopicId, lang));
 }
 
-// Load all questions for an exam
-export async function loadExamQuestions(
-  examId: string,
-  lang: 'en' | 'hi' = 'en'
-): Promise<Question[]> {
+export async function loadExamQuestions(examId: string, lang: 'en' | 'hi' = 'en'): Promise<Question[]> {
   const exam = examList.find(e => e.id === examId);
   if (!exam) return [];
-
-  const allQuestions: Question[] = [];
-  
-  for (const subject of exam.subjects) {
-    for (const topic of subject.topics) {
-      const questions = await loadTopicQuestions(examId, subject.id, topic.id, lang);
-      allQuestions.push(...questions);
-    }
-  }
-  
-  return allQuestions;
+  const all: Question[] = [];
+  for (const subject of exam.subjects)
+    for (const topic of subject.topics)
+      all.push(...await loadTopicQuestions(examId, subject.id, topic.id, lang));
+  return all;
 }
 
-// Load questions for a specific subject
-export async function loadSubjectQuestions(
-  examId: string,
-  subjectId: string,
-  lang: 'en' | 'hi' = 'en'
-): Promise<Question[]> {
+export async function loadSubjectQuestions(examId: string, subjectId: string, lang: 'en' | 'hi' = 'en'): Promise<Question[]> {
   const exam = examList.find(e => e.id === examId);
   if (!exam) return [];
-  
   const subject = exam.subjects.find(s => s.id === subjectId);
   if (!subject) return [];
+  const all: Question[] = [];
+  for (const topic of subject.topics)
+    all.push(...await loadTopicQuestions(examId, subjectId, topic.id, lang));
+  return all;
+}
 
-  const allQuestions: Question[] = [];
-  
-  for (const topic of subject.topics) {
-    const questions = await loadTopicQuestions(examId, subjectId, topic.id, lang);
-    allQuestions.push(...questions);
+// =========== SET-BASED LOADING ===========
+
+async function loadSetsIndex(): Promise<Record<string, string[][]>> {
+  if (!setIndexCache['topics']) {
+    const res = await fetch('/data/sets/topics.json');
+    setIndexCache['topics'] = await res.json();
   }
-  
-  return allQuestions;
+  return setIndexCache['topics'];
+}
+
+async function loadMockIndex(examId: string): Promise<any[]> {
+  const key = `mocks-${examId}`;
+  if (!setIndexCache[key]) {
+    const res = await fetch(`/data/sets/mocks/${examId}.json`);
+    setIndexCache[key] = await res.json();
+  }
+  return setIndexCache[key];
+}
+
+export async function getTopicSetCount(examId: string, topicId: string): Promise<number> {
+  const sets = await loadSetsIndex();
+  const info = getSubjectForTopic(examId, topicId);
+  if (!info) return 0;
+  const topicSlug = getTopicSlug(examId, topicId);
+  const topicKey = `${examId}-${getSubjectSlug(examId, info.subjectId)}-${topicSlug}`;
+  return (sets[topicKey] || []).length;
+}
+
+export async function loadTopicSet(examId: string, topicId: string, setIndex: number, lang: 'en' | 'hi' = 'en'): Promise<Question[]> {
+  const sets = await loadSetsIndex();
+  const info = getSubjectForTopic(examId, topicId);
+  if (!info) return [];
+  const topicKey = `${examId}-${getSubjectSlug(examId, info.subjectId)}-${getTopicSlug(examId, topicId)}`;
+  const topicSets = sets[topicKey];
+  if (!topicSets || setIndex >= topicSets.length) return [];
+  const questionIds = topicSets[setIndex];
+  const allQs = await loadTopicQuestions(examId, topicId, lang);
+  const qMap: Record<string, Question> = {};
+  for (const q of allQs) qMap[q.id] = q;
+  return questionIds.map((id: string) => qMap[id]).filter(Boolean);
+}
+
+export async function loadMockPaper(examId: string, paperIndex: number, lang: 'en' | 'hi' = 'en'): Promise<Question[]> {
+  const papers = await loadMockIndex(examId);
+  if (!papers || paperIndex >= papers.length) return [];
+  const questionIds = papers[paperIndex].questionOrder;
+  const exam = examList.find(e => e.id === examId);
+  if (!exam) return [];
+  const allQs: Record<string, Question> = {};
+  for (const subject of exam.subjects)
+    for (const topic of subject.topics) {
+      const qs = await loadTopicQuestions(examId, topic.id, lang);
+      for (const q of qs) allQs[q.id] = q;
+    }
+  return questionIds.map((id: string) => allQs[id]).filter(Boolean);
+}
+
+export async function getMockPaperCount(examId: string): Promise<number> {
+  return (await loadMockIndex(examId)).length;
 }
