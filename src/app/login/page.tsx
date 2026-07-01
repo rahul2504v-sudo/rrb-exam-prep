@@ -1,13 +1,11 @@
 'use client'
 
 import { useState, Suspense } from 'react'
-import { signIn } from 'next-auth/react'
-import { useRouter, useSearchParams } from 'next/navigation'
+import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { BookOpen, Mail, Lock, Eye, EyeOff, ArrowRight } from 'lucide-react'
 
 function LoginForm() {
-  const router = useRouter()
   const searchParams = useSearchParams()
   const callbackUrl = searchParams.get('callbackUrl') || '/exam/ntpc'
   
@@ -32,24 +30,33 @@ function LoginForm() {
     
     setLoading(true)
     
-    try {
-      const result = await signIn('credentials', {
-        email,
-        password,
-        redirect: false,
-      })
-      
-      if (result?.error) {
-        setError('Login failed. Please try again.')
-        setLoading(false)
-      } else if (result?.ok) {
-        // Hard redirect to avoid state sync issues
-        window.location.href = callbackUrl
-      }
-    } catch {
-      setError('Something went wrong. Please try again.')
-      setLoading(false)
-    }
+    // Submit form directly to NextAuth callback — this sets cookies via redirect
+    const form = document.createElement('form')
+    form.method = 'POST'
+    form.action = '/api/auth/callback/credentials'
+    
+    // Get CSRF token
+    const csrfRes = await fetch('/api/auth/csrf')
+    const { csrfToken } = await csrfRes.json()
+    
+    const fields = [
+      ['csrfToken', csrfToken],
+      ['email', email],
+      ['password', password],
+      ['callbackUrl', callbackUrl],
+      ['json', 'true'],
+    ]
+    
+    fields.forEach(([name, value]) => {
+      const input = document.createElement('input')
+      input.type = 'hidden'
+      input.name = name
+      input.value = value
+      form.appendChild(input)
+    })
+    
+    document.body.appendChild(form)
+    form.submit()
   }
 
   if (loading) {
