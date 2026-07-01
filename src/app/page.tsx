@@ -57,7 +57,7 @@ export default function HomePage() {
             Free mock tests, topic-wise practice, and detailed analytics for competitive exams.
           </p>
           <div className="flex flex-wrap justify-center gap-3 mt-8">
-            <Link href="/exam/ntpc" className="px-6 py-3 bg-white text-indigo-700 font-semibold rounded-xl hover:bg-indigo-50 transition-all shadow-lg hover:shadow-xl">
+            <Link href="#exams" className="px-6 py-3 bg-white text-indigo-700 font-semibold rounded-xl hover:bg-indigo-50 transition-all shadow-lg hover:shadow-xl">
               Start Practicing →
             </Link>
             <Link href="#exams" className="px-6 py-3 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 transition-all border border-white/20">
