@@ -46,11 +46,12 @@ export async function loadTopicQuestions(
   topicId?: string,
   lang: 'en' | 'hi' = 'en'
 ): Promise<Question[]> {
-  // If topicId is provided, use old signature. Otherwise, derive subject from topicId
+  // If topicId is provided and it's not a language code, use old signature
   let actualSubjectId: string;
   let actualTopicId: string;
   
-  if (topicId) {
+  if (topicId && topicId.length > 2) {
+    // Old signature: (examId, subjectId, topicId, lang?)
     actualSubjectId = subjectIdOrTopicId;
     actualTopicId = topicId;
   } else {
