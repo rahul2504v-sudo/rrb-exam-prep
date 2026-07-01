@@ -1,75 +1,117 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { examList } from '@/data/exams';
-import { BookOpen, Clock, Target, Layers, TrendingUp, Award, Zap, ArrowRight, ChevronDown, Bell, Calendar, Users, BarChart3, CheckCircle, Globe } from 'lucide-react';
+import { BookOpen, Clock, Layers, TrendingUp, Award, Zap, ArrowRight, ChevronDown, Bell, Calendar, CheckCircle, Globe, BarChart3, Target, ExternalLink } from 'lucide-react';
 
-// Upcoming exam bulletin data
-const upcomingExams = [
-  { name: 'RRB Group D CBT', date: 'August 2026 (Expected)', vacancies: '22,195', status: 'Upcoming', color: 'bg-green-100 text-green-700' },
-  { name: 'RRB NTPC CBT 2 (Graduate)', date: 'July 2026', vacancies: '5,810', status: 'Ongoing', color: 'bg-blue-100 text-blue-700' },
-  { name: 'RRB NTPC CBT 2 (UG)', date: 'September 2026', vacancies: '3,058', status: 'Upcoming', color: 'bg-green-100 text-green-700' },
-];
+interface BulletinItem {
+  name: string;
+  date: string;
+  vacancies: string;
+  status: string;
+  url?: string;
+}
 
 export default function HomePage() {
   const [openExam, setOpenExam] = useState<string | null>(null);
+  const [bulletin, setBulletin] = useState<BulletinItem[]>([]);
+
+  useEffect(() => {
+    fetch('/data/bulletin.json')
+      .then(r => r.json())
+      .then(data => setBulletin(data.slice(0, 5)))
+      .catch(() => setBulletin([]));
+  }, []);
 
   return (
     <div className="bg-white">
-      {/* Hero */}
+      {/* Hero with Bulletin */}
       <section className="relative bg-gradient-to-br from-indigo-600 via-indigo-700 to-purple-800 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-10 left-10 w-72 h-72 bg-white rounded-full blur-3xl" />
           <div className="absolute bottom-10 right-10 w-96 h-96 bg-purple-400 rounded-full blur-3xl" />
         </div>
-        <div className="max-w-6xl mx-auto px-4 py-16 md:py-24 relative z-10">
-          <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 bg-white/10 rounded-full px-4 py-2 text-sm mb-6 border border-white/10">
-              <Zap className="w-4 h-4" />
-              10,000+ Questions · 1,300+ Sets · 40 Mock Papers · 15 Languages
-            </div>
-            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4">
-              prep<span className="text-yellow-300">X</span>core
-            </h1>
-            <p className="text-xl md:text-2xl text-indigo-200 mb-3 font-light">
-              Your Complete Exam Preparation Platform
-            </p>
-            <p className="text-indigo-200/80 max-w-xl text-lg">
-              Free mock tests, topic-wise practice sets, and detailed analytics for RRB NTPC, Group D, and more competitive exams. Built for serious aspirants.
-            </p>
-            <div className="flex flex-wrap gap-3 mt-8">
-              <Link href="/exam/ntpc" className="px-6 py-3 bg-white text-indigo-700 font-semibold rounded-xl hover:bg-indigo-50 transition-all shadow-lg hover:shadow-xl">
-                Start Practicing →
-              </Link>
-              <Link href="#exams" className="px-6 py-3 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 transition-all border border-white/20">
-                Explore Exams
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Upcoming Exam Bulletin */}
-      <section className="bg-gradient-to-r from-amber-50 to-orange-50 border-b border-amber-100">
-        <div className="max-w-6xl mx-auto px-4 py-4">
-          <div className="flex items-center gap-2 text-amber-800 font-semibold text-sm mb-3">
-            <Bell className="w-4 h-4" /> Exam Bulletin
-          </div>
-          <div className="grid md:grid-cols-3 gap-4">
-            {upcomingExams.map((exam, i) => (
-              <div key={i} className="bg-white rounded-xl p-4 shadow-sm border border-amber-100 flex items-start gap-3">
-                <Calendar className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
-                <div>
-                  <h3 className="font-semibold text-gray-900 text-sm">{exam.name}</h3>
-                  <p className="text-xs text-gray-500 mt-0.5">{exam.date}</p>
-                  <div className="flex items-center gap-2 mt-2">
-                    <span className={`text-[11px] px-2 py-0.5 rounded-full font-medium ${exam.color}`}>{exam.status}</span>
-                    <span className="text-[11px] text-gray-400">{exam.vacancies} posts</span>
-                  </div>
-                </div>
+        <div className="max-w-6xl mx-auto px-4 py-16 md:py-20 relative z-10">
+          <div className="grid lg:grid-cols-3 gap-8 items-start">
+            {/* Left: Hero */}
+            <div className="lg:col-span-2">
+              <div className="inline-flex items-center gap-2 bg-white/10 rounded-full px-4 py-2 text-sm mb-6 border border-white/10">
+                <Zap className="w-4 h-4" />
+                10,000+ Questions · 1,300+ Sets · 40 Mock Papers
               </div>
-            ))}
+              <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4">
+                prep<span className="text-yellow-300">X</span>core
+              </h1>
+              <p className="text-xl md:text-2xl text-indigo-200 mb-3 font-light">
+                Your Complete Exam Preparation Platform
+              </p>
+              <p className="text-indigo-200/80 max-w-xl">
+                Free mock tests, topic-wise practice, and detailed analytics for competitive exams. Built for serious aspirants.
+              </p>
+              <div className="flex flex-wrap gap-3 mt-8">
+                <Link href="/exam/ntpc" className="px-6 py-3 bg-white text-indigo-700 font-semibold rounded-xl hover:bg-indigo-50 transition-all shadow-lg hover:shadow-xl">
+                  Start Practicing →
+                </Link>
+                <Link href="#exams" className="px-6 py-3 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 transition-all border border-white/20">
+                  Explore Exams
+                </Link>
+              </div>
+            </div>
+
+            {/* Right: Exam Bulletin */}
+            <div className="lg:col-span-1">
+              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-5 border border-white/10">
+                <div className="flex items-center gap-2 text-amber-300 font-semibold text-sm mb-3">
+                  <Bell className="w-4 h-4" /> Exam Bulletin
+                </div>
+                {bulletin.length > 0 ? (
+                  <div className="space-y-3">
+                    {bulletin.map((item, i) => (
+                      <a key={i} 
+                        href={item.url || '#'} 
+                        target={item.url ? '_blank' : undefined}
+                        rel="noopener"
+                        className="flex items-start gap-2 p-2 rounded-lg hover:bg-white/10 transition-colors group">
+                        <Calendar className="w-4 h-4 text-amber-400 flex-shrink-0 mt-0.5" />
+                        <div className="min-w-0">
+                          <p className="text-sm font-medium text-white group-hover:text-amber-300 transition-colors truncate">
+                            {item.name}
+                          </p>
+                          <p className="text-xs text-indigo-300">{item.date}</p>
+                          <div className="flex items-center gap-1.5 mt-1">
+                            <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/10 text-white/80">{item.status}</span>
+                            {item.vacancies && <span className="text-[10px] text-indigo-300">{item.vacancies} posts</span>}
+                          </div>
+                        </div>
+                        {item.url && <ExternalLink className="w-3 h-3 text-indigo-400 flex-shrink-0 mt-1 opacity-0 group-hover:opacity-100 transition-opacity" />}
+                      </a>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="space-y-3">
+                    {[
+                      { name: 'RRB Group D CBT', date: 'Aug 2026', vacancies: '22,195', status: 'Upcoming' },
+                      { name: 'RRB NTPC CBT 2 (Grad)', date: 'Jul 2026', vacancies: '5,810', status: 'Ongoing' },
+                      { name: 'RRB NTPC CBT 2 (UG)', date: 'Sep 2026', vacancies: '3,058', status: 'Upcoming' },
+                    ].map((item, i) => (
+                      <div key={i} className="flex items-start gap-2 p-2 rounded-lg hover:bg-white/10 transition-colors">
+                        <Calendar className="w-4 h-4 text-amber-400 flex-shrink-0 mt-0.5" />
+                        <div className="min-w-0">
+                          <p className="text-sm font-medium text-white truncate">{item.name}</p>
+                          <p className="text-xs text-indigo-300">{item.date}</p>
+                          <div className="flex items-center gap-1.5 mt-1">
+                            <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/10 text-white/80">{item.status}</span>
+                            <span className="text-[10px] text-indigo-300">{item.vacancies} posts</span>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+                <p className="text-[10px] text-indigo-400 mt-3 text-center">Auto-updated from official sources</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -96,10 +138,8 @@ export default function HomePage() {
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="hidden sm:flex items-center gap-2">
-                    <span className="text-xs bg-blue-50 text-blue-700 px-2 py-1 rounded-full">{exam.totalVacancies.toLocaleString()} Posts</span>
-                    <span className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full">{exam.pattern.totalQuestions} Qs</span>
-                  </div>
+                  <span className="hidden sm:inline text-xs bg-blue-50 text-blue-700 px-2 py-1 rounded-full">{exam.totalVacancies.toLocaleString()} Posts</span>
+                  <span className="hidden sm:inline text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full">{exam.pattern.totalQuestions} Qs</span>
                   <ChevronDown className={`w-5 h-5 text-gray-400 transition-transform ${openExam === exam.id ? 'rotate-180' : ''}`} />
                 </div>
               </button>
@@ -113,16 +153,16 @@ export default function HomePage() {
                         <div className="text-xs text-gray-500">{sec.name}</div>
                       </div>
                     ))}
-                    <div className="text-center text-sm text-gray-500">
-                      <Clock className="w-4 h-4 inline mr-1" />{exam.pattern.durationMinutes} min · -1/3 marking
-                    </div>
+                  </div>
+                  <div className="text-sm text-gray-500 mb-3">
+                    <Clock className="w-4 h-4 inline mr-1" />{exam.pattern.durationMinutes} min · -1/3 negative marking
                   </div>
                   <div className="flex gap-3">
                     <Link href={`/exam/${exam.slug}`} className="px-4 py-2 bg-indigo-600 text-white rounded-lg text-sm font-medium hover:bg-indigo-700">
-                      Practice by Topic
+                      Topic-wise Practice
                     </Link>
                     <Link href={`/quiz/${exam.slug}/mock/0`} className="px-4 py-2 border border-gray-300 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-100">
-                      Take Mock Test
+                      Full Mock Test
                     </Link>
                   </div>
                 </div>
@@ -132,67 +172,29 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Full-Length Mock Tests */}
-      <section className="bg-gradient-to-r from-indigo-50 via-purple-50 to-indigo-50 py-16">
+      {/* Platform Features */}
+      <section className="bg-gray-50 py-16">
         <div className="max-w-6xl mx-auto px-4">
-          <div className="flex items-center gap-3 mb-2">
-            <Layers className="w-7 h-7 text-indigo-600" />
-            <h2 className="text-3xl font-bold text-gray-900">Full-Length Mock Tests</h2>
-          </div>
-          <p className="text-gray-500 mb-8">20 complete papers per exam. Real exam pattern, timed, scored with detailed explanations.</p>
-          
-          <div className="grid md:grid-cols-2 gap-6">
-            {examList.map(exam => (
-              <div key={exam.id} className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-                <div className="flex items-center justify-between mb-4">
-                  <h3 className="font-bold text-lg text-gray-900">{exam.name}</h3>
-                  <span className="text-sm text-indigo-600 font-medium">{exam.pattern.totalQuestions} Qs · {exam.pattern.durationMinutes} min</span>
-                </div>
-                <div className="grid grid-cols-5 gap-2 mb-2">
-                  {Array.from({ length: 10 }, (_, i) => (
-                    <Link key={i} href={`/quiz/${exam.slug}/mock/${i}`}
-                      className="flex flex-col items-center p-2.5 rounded-lg border border-gray-200 hover:border-indigo-300 hover:bg-indigo-50 transition-all">
-                      <span className="text-sm font-bold text-indigo-600">#{i + 1}</span>
-                      <span className="text-[10px] text-gray-400">100Q</span>
-                    </Link>
-                  ))}
-                </div>
-                <div className="grid grid-cols-5 gap-2">
-                  {Array.from({ length: 10 }, (_, i) => (
-                    <Link key={i + 10} href={`/quiz/${exam.slug}/mock/${i + 10}`}
-                      className="flex flex-col items-center p-2.5 rounded-lg border border-gray-200 hover:border-indigo-300 hover:bg-indigo-50 transition-all">
-                      <span className="text-sm font-bold text-indigo-600">#{i + 11}</span>
-                      <span className="text-[10px] text-gray-400">100Q</span>
-                    </Link>
-                  ))}
-                </div>
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-2">Why prepXcore?</h2>
+          <p className="text-gray-500 text-center mb-12">Everything you need for complete exam preparation — free</p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { icon: BookOpen, title: '10,000+ Questions', desc: 'Every topic from RRB syllabus with bilingual English-Hindi support and explanations.' },
+              { icon: Layers, title: '1,300+ Practice Sets', desc: 'Topic-wise 10-question sets. Complete and track your progress.' },
+              { icon: BarChart3, title: 'Performance Analytics', desc: 'Breakdown by topic, difficulty, time. Identify weak areas.' },
+              { icon: Globe, title: '15 Languages', desc: 'All RRB exam languages: Hindi, Tamil, Telugu, Bengali & more.' },
+              { icon: Target, title: 'Real Exam Pattern', desc: 'Matches actual exam format — sections, timing, negative marking.' },
+              { icon: CheckCircle, title: 'Instant Scoring', desc: 'Results with correct answers and explanations for every question.' },
+              { icon: TrendingUp, title: 'Track Progress', desc: 'Monitor improvement across sessions with score trends.' },
+              { icon: Award, title: 'Always Free', desc: 'No paywalls. All content accessible to everyone, forever.' },
+            ].map((f, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 text-center border border-gray-100 hover:shadow-lg transition-shadow">
+                <f.icon className="w-10 h-10 text-indigo-600 mx-auto mb-3" />
+                <h3 className="font-bold text-gray-900 mb-1">{f.title}</h3>
+                <p className="text-sm text-gray-500">{f.desc}</p>
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Platform Features */}
-      <section className="max-w-6xl mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold text-gray-900 text-center mb-2">Why prepXcore?</h2>
-        <p className="text-gray-500 text-center mb-12">Everything you need for complete exam preparation — free</p>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {[
-            { icon: BookOpen, title: '10,000+ Questions', desc: 'Covering every topic from RRB syllabus with bilingual English-Hindi support and detailed explanations.' },
-            { icon: Layers, title: '1,300+ Practice Sets', desc: 'Topic-wise sets of 10 questions each. Track which sets you\'ve completed.' },
-            { icon: BarChart3, title: 'Performance Analytics', desc: 'Detailed breakdown by topic, difficulty, and time. Identify weak areas instantly.' },
-            { icon: Globe, title: '15 Languages', desc: 'Full UI support for all RRB exam languages including Hindi, Tamil, Telugu, Bengali & more.' },
-            { icon: Target, title: 'Real Exam Pattern', desc: 'Mock tests match actual exam format — same sections, timing, and negative marking.' },
-            { icon: CheckCircle, title: 'Instant Scoring', desc: 'Get results immediately with correct answers and explanations for every question.' },
-            { icon: TrendingUp, title: 'Track Progress', desc: 'Monitor improvement across sessions. See your score trends over time.' },
-            { icon: Award, title: 'Always Free', desc: 'No paywalls, no premium tiers. All content accessible to everyone, forever.' },
-          ].map((f, i) => (
-            <div key={i} className="card text-center hover:shadow-lg transition-shadow">
-              <f.icon className="w-10 h-10 text-indigo-600 mx-auto mb-3" />
-              <h3 className="font-bold text-gray-900 mb-1">{f.title}</h3>
-              <p className="text-sm text-gray-500">{f.desc}</p>
-            </div>
-          ))}
         </div>
       </section>
 
