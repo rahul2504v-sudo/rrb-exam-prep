@@ -24,17 +24,19 @@ export function Navbar() {
             <BookOpen className="w-6 h-6 text-indigo-600" />
             <span className="hidden sm:inline">prepXcore</span>
           </Link>
-          <div className="hidden md:flex items-center gap-1">
-            <Link href="/" className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${isActive('/exam') || pathname === '/' ? 'text-indigo-600 bg-indigo-50 font-medium' : 'text-gray-600 hover:text-indigo-600'}`}>
-              <Home className="w-4 h-4 inline mr-1" />{t('home')}
-            </Link>
-            <Link href="/exam/ntpc" className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${isActive('/exam/ntpc') || isActive('/exam/group-d') ? 'text-indigo-600 bg-indigo-50 font-medium' : 'text-gray-600 hover:text-indigo-600'}`}>
-              {t('exams')}
-            </Link>
-            <Link href="/results" className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${isActive('/results') ? 'text-indigo-600 bg-indigo-50 font-medium' : 'text-gray-600 hover:text-indigo-600'}`}>
-              <BarChart3 className="w-4 h-4 inline mr-1" />{t('results')}
-            </Link>
-          </div>
+          {session?.user && (
+            <div className="hidden md:flex items-center gap-1">
+              <Link href="/" className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${isActive('/exam') || pathname === '/' ? 'text-indigo-600 bg-indigo-50 font-medium' : 'text-gray-600 hover:text-indigo-600'}`}>
+                <Home className="w-4 h-4 inline mr-1" />{t('home')}
+              </Link>
+              <Link href="/exam/ntpc" className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${isActive('/exam/ntpc') || isActive('/exam/group-d') ? 'text-indigo-600 bg-indigo-50 font-medium' : 'text-gray-600 hover:text-indigo-600'}`}>
+                {t('exams')}
+              </Link>
+              <Link href="/results" className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${isActive('/results') ? 'text-indigo-600 bg-indigo-50 font-medium' : 'text-gray-600 hover:text-indigo-600'}`}>
+                <BarChart3 className="w-4 h-4 inline mr-1" />{t('results')}
+              </Link>
+            </div>
+          )}
         </div>
         <div className="flex items-center gap-2">
           <LanguageSwitcher />
