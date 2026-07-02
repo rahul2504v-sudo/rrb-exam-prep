@@ -68,6 +68,24 @@ const tg3Pattern: ExamPattern = {
 };
 
 // ============================================================================
+// SSC CGL
+// ============================================================================
+
+const sscAll: Subject = {
+  id: 'ssc-all', name: 'All Sections', slug: 'all-questions',
+  topics: [{ id: 'ssc-all-real', name: 'SSC CGL Questions', slug: 'all-questions', questionCount: 17235 }],
+};
+const sscPattern: ExamPattern = {
+  sections: [
+    { name: 'General Intelligence & Reasoning', questionCount: 25, marks: 50 },
+    { name: 'General Awareness', questionCount: 25, marks: 50 },
+    { name: 'Quantitative Aptitude', questionCount: 25, marks: 50 },
+    { name: 'English Comprehension', questionCount: 25, marks: 50 },
+  ],
+  totalQuestions: 100, totalMarks: 200, durationMinutes: 60, negativeMarking: -0.5,
+};
+
+// ============================================================================
 // Exam List
 // ============================================================================
 
@@ -90,10 +108,17 @@ export const examList: Exam[] = [
     icon: 'Wrench', color: 'rail-navy', totalVacancies: 0, pattern: tg3Pattern,
     subjects: [tg3All], status: 'upcoming',
   },
+  {
+    id: 'ssc-cgl', name: 'SSC CGL', slug: 'ssc-cgl',
+    description: 'Combined Graduate Level — Tier 1 (Reasoning, GA, Quant, English)',
+    icon: 'Wrench', color: 'rail-navy', totalVacancies: 0, pattern: sscPattern,
+    subjects: [sscAll], status: 'upcoming',
+  },
 ];
 
 export const subjectMap: Record<string, Subject[]> = {
   'group-d': [gdMathematics, gdScience, gdReasoning, gdGA],
   'technician-g1': [tg1All],
   'technician-g3': [tg3All],
+  'ssc-cgl': [sscAll],
 };
