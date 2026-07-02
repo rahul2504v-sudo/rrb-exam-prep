@@ -29,7 +29,7 @@ export function Navbar() {
               <Link href="/" className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${pathname === '/' || isActive('/exam') ? 'text-indigo-600 bg-indigo-50 font-medium' : 'text-gray-600 hover:text-indigo-600'}`}>
                 <Home className="w-4 h-4 inline mr-1" />{t('home')}
               </Link>
-              <Link href="/exam/ntpc" className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${isActive('/exam') ? 'text-indigo-600 bg-indigo-50 font-medium' : 'text-gray-600 hover:text-indigo-600'}`}>
+              <Link href="/#exams" className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${isActive('/exam') ? 'text-indigo-600 bg-indigo-50 font-medium' : 'text-gray-600 hover:text-indigo-600'}`}>
                 {t('exams')}
               </Link>
               <Link href="/results" className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${isActive('/results') ? 'text-indigo-600 bg-indigo-50 font-medium' : 'text-gray-600 hover:text-indigo-600'}`}>
