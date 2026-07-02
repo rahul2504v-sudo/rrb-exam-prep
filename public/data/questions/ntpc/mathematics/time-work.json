@@ -1,2602 +1,1926 @@
 [
   {
-    "id": "nmtw-0001",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A can complete a work in 7 days and B in 16 days. How many days working together?",
-      "options": [
-        "11",
-        "3",
-        "4",
-        "7"
-      ],
-      "explanation": "A's 1 day = 1/7, B's 1 day = 1/16. Together 1 day = 1/7+1/16 = 0.2054. Days = 1/(0.2054) = 4 days."
-    },
-    "hi": {
-      "question": "A किसी कार्य को 7 दिन में और B 16 दिन में कर सकता है। दोनों मिलकर कितने दिन में करेंगे?",
-      "options": [
-        "11",
-        "3",
-        "4",
-        "7"
-      ],
-      "explanation": "A का 1 दिन = 1/7, B का 1 दिन = 1/16। दोनों का 1 दिन = 1/7+1/16 = 1/4। समय = 4 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0002",
+    "id": "ntw-0001",
     "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "A can complete a work in 23 days and B in 33 days. How many days working together?",
-      "options": [
-        "15",
-        "13",
-        "11",
-        "28"
-      ],
-      "explanation": "A's 1 day = 1/23, B's 1 day = 1/33. Together 1 day = 1/23+1/33 = 0.0738. Days = 1/(0.0738) = 13 days."
-    },
-    "hi": {
-      "question": "A किसी कार्य को 23 दिन में और B 33 दिन में कर सकता है। दोनों मिलकर कितने दिन में करेंगे?",
-      "options": [
-        "15",
-        "13",
-        "11",
-        "28"
-      ],
-      "explanation": "A का 1 दिन = 1/23, B का 1 दिन = 1/33। दोनों का 1 दिन = 1/23+1/33 = 1/13। समय = 13 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0003",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A can complete a work in 16 days and B in 31 days. How many days working together?",
-      "options": [
-        "13",
-        "8",
-        "10",
-        "23"
-      ],
-      "explanation": "A's 1 day = 1/16, B's 1 day = 1/31. Together 1 day = 1/16+1/31 = 0.0948. Days = 1/(0.0948) = 10 days."
-    },
-    "hi": {
-      "question": "A किसी कार्य को 16 दिन में और B 31 दिन में कर सकता है। दोनों मिलकर कितने दिन में करेंगे?",
-      "options": [
-        "13",
-        "8",
-        "10",
-        "23"
-      ],
-      "explanation": "A का 1 दिन = 1/16, B का 1 दिन = 1/31। दोनों का 1 दिन = 1/16+1/31 = 1/10। समय = 10 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0004",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A can complete a work in 27 days and B in 38 days. How many days working together?",
-      "options": [
-        "19",
-        "15",
-        "13",
-        "32"
-      ],
-      "explanation": "A's 1 day = 1/27, B's 1 day = 1/38. Together 1 day = 1/27+1/38 = 0.0634. Days = 1/(0.0634) = 15 days."
-    },
-    "hi": {
-      "question": "A किसी कार्य को 27 दिन में और B 38 दिन में कर सकता है। दोनों मिलकर कितने दिन में करेंगे?",
-      "options": [
-        "19",
-        "15",
-        "13",
-        "32"
-      ],
-      "explanation": "A का 1 दिन = 1/27, B का 1 दिन = 1/38। दोनों का 1 दिन = 1/27+1/38 = 1/15। समय = 15 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0005",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A can complete a work in 11 days and B in 22 days. How many days working together?",
-      "options": [
-        "16",
-        "7",
-        "10",
-        "5"
-      ],
-      "explanation": "A's 1 day = 1/11, B's 1 day = 1/22. Together 1 day = 1/11+1/22 = 0.1364. Days = 1/(0.1364) = 7 days."
-    },
-    "hi": {
-      "question": "A किसी कार्य को 11 दिन में और B 22 दिन में कर सकता है। दोनों मिलकर कितने दिन में करेंगे?",
-      "options": [
-        "16",
-        "7",
-        "10",
-        "5"
-      ],
-      "explanation": "A का 1 दिन = 1/11, B का 1 दिन = 1/22। दोनों का 1 दिन = 1/11+1/22 = 1/7। समय = 7 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0006",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A can complete a work in 12 days and B in 15 days. How many days working together?",
-      "options": [
-        "8",
-        "4",
-        "13",
-        "6"
-      ],
-      "explanation": "A's 1 day = 1/12, B's 1 day = 1/15. Together 1 day = 1/12+1/15 = 0.1500. Days = 1/(0.1500) = 6 days."
-    },
-    "hi": {
-      "question": "A किसी कार्य को 12 दिन में और B 15 दिन में कर सकता है। दोनों मिलकर कितने दिन में करेंगे?",
-      "options": [
-        "8",
-        "4",
-        "13",
-        "6"
-      ],
-      "explanation": "A का 1 दिन = 1/12, B का 1 दिन = 1/15। दोनों का 1 दिन = 1/12+1/15 = 1/6। समय = 6 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0007",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A can complete a work in 8 days and B in 14 days. How many days working together?",
-      "options": [
-        "3",
-        "11",
-        "9",
-        "5"
-      ],
-      "explanation": "A's 1 day = 1/8, B's 1 day = 1/14. Together 1 day = 1/8+1/14 = 0.1964. Days = 1/(0.1964) = 5 days."
-    },
-    "hi": {
-      "question": "A किसी कार्य को 8 दिन में और B 14 दिन में कर सकता है। दोनों मिलकर कितने दिन में करेंगे?",
-      "options": [
-        "3",
-        "11",
-        "9",
-        "5"
-      ],
-      "explanation": "A का 1 दिन = 1/8, B का 1 दिन = 1/14। दोनों का 1 दिन = 1/8+1/14 = 1/5। समय = 5 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0008",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A can complete a work in 28 days and B in 45 days. How many days working together?",
-      "options": [
-        "17",
-        "15",
-        "36",
-        "18"
-      ],
-      "explanation": "A's 1 day = 1/28, B's 1 day = 1/45. Together 1 day = 1/28+1/45 = 0.0579. Days = 1/(0.0579) = 17 days."
-    },
-    "hi": {
-      "question": "A किसी कार्य को 28 दिन में और B 45 दिन में कर सकता है। दोनों मिलकर कितने दिन में करेंगे?",
-      "options": [
-        "17",
-        "15",
-        "36",
-        "18"
-      ],
-      "explanation": "A का 1 दिन = 1/28, B का 1 दिन = 1/45। दोनों का 1 दिन = 1/28+1/45 = 1/17। समय = 17 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0009",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A can complete a work in 26 days and B in 32 days. How many days working together?",
-      "options": [
-        "14",
-        "29",
-        "13",
-        "15"
-      ],
-      "explanation": "A's 1 day = 1/26, B's 1 day = 1/32. Together 1 day = 1/26+1/32 = 0.0697. Days = 1/(0.0697) = 14 days."
-    },
-    "hi": {
-      "question": "A किसी कार्य को 26 दिन में और B 32 दिन में कर सकता है। दोनों मिलकर कितने दिन में करेंगे?",
-      "options": [
-        "14",
-        "29",
-        "13",
-        "15"
-      ],
-      "explanation": "A का 1 दिन = 1/26, B का 1 दिन = 1/32। दोनों का 1 दिन = 1/26+1/32 = 1/14। समय = 14 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0010",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A can complete a work in 17 days and B in 34 days. How many days working together?",
-      "options": [
-        "25",
-        "11",
-        "9",
-        "15"
-      ],
-      "explanation": "A's 1 day = 1/17, B's 1 day = 1/34. Together 1 day = 1/17+1/34 = 0.0882. Days = 1/(0.0882) = 11 days."
-    },
-    "hi": {
-      "question": "A किसी कार्य को 17 दिन में और B 34 दिन में कर सकता है। दोनों मिलकर कितने दिन में करेंगे?",
-      "options": [
-        "25",
-        "11",
-        "9",
-        "15"
-      ],
-      "explanation": "A का 1 दिन = 1/17, B का 1 दिन = 1/34। दोनों का 1 दिन = 1/17+1/34 = 1/11। समय = 11 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0011",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A can complete a work in 16 days and B in 33 days. How many days working together?",
-      "options": [
-        "12",
-        "10",
-        "24",
-        "9"
-      ],
-      "explanation": "A's 1 day = 1/16, B's 1 day = 1/33. Together 1 day = 1/16+1/33 = 0.0928. Days = 1/(0.0928) = 10 days."
-    },
-    "hi": {
-      "question": "A किसी कार्य को 16 दिन में और B 33 दिन में कर सकता है। दोनों मिलकर कितने दिन में करेंगे?",
-      "options": [
-        "12",
-        "10",
-        "24",
-        "9"
-      ],
-      "explanation": "A का 1 दिन = 1/16, B का 1 दिन = 1/33। दोनों का 1 दिन = 1/16+1/33 = 1/10। समय = 10 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0012",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A can complete a work in 12 days and B in 28 days. How many days working together?",
+      "question": "A can complete a work in 12 days, B in 6 days. Working together, they can finish it in?",
       "options": [
         "7",
-        "8",
-        "11",
-        "20"
-      ],
-      "explanation": "A's 1 day = 1/12, B's 1 day = 1/28. Together 1 day = 1/12+1/28 = 0.1190. Days = 1/(0.1190) = 8 days."
-    },
-    "hi": {
-      "question": "A किसी कार्य को 12 दिन में और B 28 दिन में कर सकता है। दोनों मिलकर कितने दिन में करेंगे?",
-      "options": [
-        "7",
-        "8",
-        "11",
-        "20"
-      ],
-      "explanation": "A का 1 दिन = 1/12, B का 1 दिन = 1/28। दोनों का 1 दिन = 1/12+1/28 = 1/8। समय = 8 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0013",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A can complete a work in 20 days and B in 34 days. How many days working together?",
-      "options": [
-        "10",
-        "14",
-        "27",
-        "12"
-      ],
-      "explanation": "A's 1 day = 1/20, B's 1 day = 1/34. Together 1 day = 1/20+1/34 = 0.0794. Days = 1/(0.0794) = 12 days."
-    },
-    "hi": {
-      "question": "A किसी कार्य को 20 दिन में और B 34 दिन में कर सकता है। दोनों मिलकर कितने दिन में करेंगे?",
-      "options": [
-        "10",
-        "14",
-        "27",
-        "12"
-      ],
-      "explanation": "A का 1 दिन = 1/20, B का 1 दिन = 1/34। दोनों का 1 दिन = 1/20+1/34 = 1/12। समय = 12 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0014",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A can complete a work in 8 days and B in 20 days. How many days working together?",
-      "options": [
-        "14",
-        "5",
         "4",
-        "6"
-      ],
-      "explanation": "A's 1 day = 1/8, B's 1 day = 1/20. Together 1 day = 1/8+1/20 = 0.1750. Days = 1/(0.1750) = 5 days."
-    },
-    "hi": {
-      "question": "A किसी कार्य को 8 दिन में और B 20 दिन में कर सकता है। दोनों मिलकर कितने दिन में करेंगे?",
-      "options": [
-        "14",
-        "5",
         "4",
-        "6"
+        "3"
       ],
-      "explanation": "A का 1 दिन = 1/8, B का 1 दिन = 1/20। दोनों का 1 दिन = 1/8+1/20 = 1/5। समय = 5 दिन।"
+      "explanation": "1 day work = 1/12 + 1/6 = 18/72. Together = 72/18 = 4 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 12 दिन, B in 6 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "7",
+        "4",
+        "4",
+        "3"
+      ],
+      "explanation": "1 day work = 1/12 + 1/6 = 18/72. Together = 72/18 = 4 days."
     }
   },
   {
-    "id": "nmtw-0015",
+    "id": "ntw-0002",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A can complete a work in 6 days and B in 21 days. How many days working together?",
-      "options": [
-        "3",
-        "5",
-        "13",
-        "4"
-      ],
-      "explanation": "A's 1 day = 1/6, B's 1 day = 1/21. Together 1 day = 1/6+1/21 = 0.2143. Days = 1/(0.2143) = 4 days."
-    },
-    "hi": {
-      "question": "A किसी कार्य को 6 दिन में और B 21 दिन में कर सकता है। दोनों मिलकर कितने दिन में करेंगे?",
-      "options": [
-        "3",
-        "5",
-        "13",
-        "4"
-      ],
-      "explanation": "A का 1 दिन = 1/6, B का 1 दिन = 1/21। दोनों का 1 दिन = 1/6+1/21 = 1/4। समय = 4 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0016",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is 2 times as efficient as B. If A takes 18 days, how many days together?",
-      "options": [
-        "12",
-        "27",
-        "11",
-        "13"
-      ],
-      "explanation": "A's efficiency = 2, B's = 1. Total work = 2 x 18 = 36. Together/day = 3. Days = 36/3 = 12."
-    },
-    "hi": {
-      "question": "A, B से 2 गुना कुशल है। A को 18 दिन लगते हैं। दोनों मिलकर कितने दिन?",
-      "options": [
-        "12",
-        "27",
-        "11",
-        "13"
-      ],
-      "explanation": "A की दक्षता = 2, B = 1। कुल कार्य = 36। दोनों/दिन = 3। दिन = 12।"
-    }
-  },
-  {
-    "id": "nmtw-0017",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is 2 times as efficient as B. If A takes 15 days, how many days together?",
-      "options": [
-        "10",
-        "13",
-        "8",
-        "22"
-      ],
-      "explanation": "A's efficiency = 2, B's = 1. Total work = 2 x 15 = 30. Together/day = 3. Days = 30/3 = 10."
-    },
-    "hi": {
-      "question": "A, B से 2 गुना कुशल है। A को 15 दिन लगते हैं। दोनों मिलकर कितने दिन?",
-      "options": [
-        "10",
-        "13",
-        "8",
-        "22"
-      ],
-      "explanation": "A की दक्षता = 2, B = 1। कुल कार्य = 30। दोनों/दिन = 3। दिन = 10।"
-    }
-  },
-  {
-    "id": "nmtw-0018",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is 2 times as efficient as B. If A takes 11 days, how many days together?",
-      "options": [
-        "8",
-        "5",
-        "7",
-        "16"
-      ],
-      "explanation": "A's efficiency = 2, B's = 1. Total work = 2 x 11 = 22. Together/day = 3. Days = 22/3 = 7."
-    },
-    "hi": {
-      "question": "A, B से 2 गुना कुशल है। A को 11 दिन लगते हैं। दोनों मिलकर कितने दिन?",
-      "options": [
-        "8",
-        "5",
-        "7",
-        "16"
-      ],
-      "explanation": "A की दक्षता = 2, B = 1। कुल कार्य = 22। दोनों/दिन = 3। दिन = 7।"
-    }
-  },
-  {
-    "id": "nmtw-0019",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is 3 times as efficient as B. If A takes 16 days, how many days together?",
-      "options": [
-        "12",
-        "11",
-        "14",
-        "32"
-      ],
-      "explanation": "A's efficiency = 3, B's = 1. Total work = 3 x 16 = 48. Together/day = 4. Days = 48/4 = 12."
-    },
-    "hi": {
-      "question": "A, B से 3 गुना कुशल है। A को 16 दिन लगते हैं। दोनों मिलकर कितने दिन?",
-      "options": [
-        "12",
-        "11",
-        "14",
-        "32"
-      ],
-      "explanation": "A की दक्षता = 3, B = 1। कुल कार्य = 48। दोनों/दिन = 4। दिन = 12।"
-    }
-  },
-  {
-    "id": "nmtw-0020",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is 5 times as efficient as B. If A takes 24 days, how many days together?",
-      "options": [
-        "23",
-        "72",
-        "20",
-        "19"
-      ],
-      "explanation": "A's efficiency = 5, B's = 1. Total work = 5 x 24 = 120. Together/day = 6. Days = 120/6 = 20."
-    },
-    "hi": {
-      "question": "A, B से 5 गुना कुशल है। A को 24 दिन लगते हैं। दोनों मिलकर कितने दिन?",
-      "options": [
-        "23",
-        "72",
-        "20",
-        "19"
-      ],
-      "explanation": "A की दक्षता = 5, B = 1। कुल कार्य = 120। दोनों/दिन = 6। दिन = 20।"
-    }
-  },
-  {
-    "id": "nmtw-0021",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is 2 times as efficient as B. If A takes 25 days, how many days together?",
+      "question": "A and B together finish a work in 12 days. A alone takes 20 days. B alone takes how many days?",
       "options": [
         "15",
-        "19",
-        "37",
-        "16"
-      ],
-      "explanation": "A's efficiency = 2, B's = 1. Total work = 2 x 25 = 50. Together/day = 3. Days = 50/3 = 16."
-    },
-    "hi": {
-      "question": "A, B से 2 गुना कुशल है। A को 25 दिन लगते हैं। दोनों मिलकर कितने दिन?",
-      "options": [
-        "15",
-        "19",
-        "37",
-        "16"
-      ],
-      "explanation": "A की दक्षता = 2, B = 1। कुल कार्य = 50। दोनों/दिन = 3। दिन = 16।"
-    }
-  },
-  {
-    "id": "nmtw-0022",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is 3 times as efficient as B. If A takes 18 days, how many days together?",
-      "options": [
-        "36",
-        "16",
-        "12",
-        "13"
-      ],
-      "explanation": "A's efficiency = 3, B's = 1. Total work = 3 x 18 = 54. Together/day = 4. Days = 54/4 = 13."
-    },
-    "hi": {
-      "question": "A, B से 3 गुना कुशल है। A को 18 दिन लगते हैं। दोनों मिलकर कितने दिन?",
-      "options": [
-        "36",
-        "16",
-        "12",
-        "13"
-      ],
-      "explanation": "A की दक्षता = 3, B = 1। कुल कार्य = 54। दोनों/दिन = 4। दिन = 13।"
-    }
-  },
-  {
-    "id": "nmtw-0024",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is 2 times as efficient as B. If A takes 13 days, how many days together?",
-      "options": [
-        "8",
-        "19",
-        "10",
-        "7"
-      ],
-      "explanation": "A's efficiency = 2, B's = 1. Total work = 2 x 13 = 26. Together/day = 3. Days = 26/3 = 8."
-    },
-    "hi": {
-      "question": "A, B से 2 गुना कुशल है। A को 13 दिन लगते हैं। दोनों मिलकर कितने दिन?",
-      "options": [
-        "8",
-        "19",
-        "10",
-        "7"
-      ],
-      "explanation": "A की दक्षता = 2, B = 1। कुल कार्य = 26। दोनों/दिन = 3। दिन = 8।"
-    }
-  },
-  {
-    "id": "nmtw-0025",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is 2 times as efficient as B. If A takes 14 days, how many days together?",
-      "options": [
-        "21",
-        "12",
-        "8",
-        "9"
-      ],
-      "explanation": "A's efficiency = 2, B's = 1. Total work = 2 x 14 = 28. Together/day = 3. Days = 28/3 = 9."
-    },
-    "hi": {
-      "question": "A, B से 2 गुना कुशल है। A को 14 दिन लगते हैं। दोनों मिलकर कितने दिन?",
-      "options": [
-        "21",
-        "12",
-        "8",
-        "9"
-      ],
-      "explanation": "A की दक्षता = 2, B = 1। कुल कार्य = 28। दोनों/दिन = 3। दिन = 9।"
-    }
-  },
-  {
-    "id": "nmtw-0026",
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A takes 17d, B takes 8d, C takes 17d. All three together?",
-      "options": [
-        "2.3",
-        "5.5",
-        "14.0",
-        "4.1"
-      ],
-      "explanation": "Together/day = 1/17+1/8+1/17 = 0.2426. Time = 1/0.2426 = 4.1 days."
-    },
-    "hi": {
-      "question": "A=17 दिन, B=8 दिन, C=17 दिन। तीनों मिलकर?",
-      "options": [
-        "2.3",
-        "5.5",
-        "14.0",
-        "4.1"
-      ],
-      "explanation": "तीनों/दिन = 1/17+1/8+1/17 = 0.2426। समय = 4.1 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0027",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A takes 18d, B takes 9d, C takes 19d. All three together?",
-      "options": [
-        "5.6",
-        "15.3",
-        "4.6",
-        "3.3"
-      ],
-      "explanation": "Together/day = 1/18+1/9+1/19 = 0.2193. Time = 1/0.2193 = 4.6 days."
-    },
-    "hi": {
-      "question": "A=18 दिन, B=9 दिन, C=19 दिन। तीनों मिलकर?",
-      "options": [
-        "5.6",
-        "15.3",
-        "4.6",
-        "3.3"
-      ],
-      "explanation": "तीनों/दिन = 1/18+1/9+1/19 = 0.2193। समय = 4.6 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0028",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A takes 12d, B takes 16d, C takes 11d. All three together?",
-      "options": [
-        "3.1",
-        "4.2",
-        "6.2",
-        "13.0"
-      ],
-      "explanation": "Together/day = 1/12+1/16+1/11 = 0.2367. Time = 1/0.2367 = 4.2 days."
-    },
-    "hi": {
-      "question": "A=12 दिन, B=16 दिन, C=11 दिन। तीनों मिलकर?",
-      "options": [
-        "3.1",
-        "4.2",
-        "6.2",
-        "13.0"
-      ],
-      "explanation": "तीनों/दिन = 1/12+1/16+1/11 = 0.2367। समय = 4.2 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0029",
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A takes 10d, B takes 14d, C takes 20d. All three together?",
-      "options": [
-        "7.4",
-        "3.1",
-        "14.7",
-        "4.5"
-      ],
-      "explanation": "Together/day = 1/10+1/14+1/20 = 0.2214. Time = 1/0.2214 = 4.5 days."
-    },
-    "hi": {
-      "question": "A=10 दिन, B=14 दिन, C=20 दिन। तीनों मिलकर?",
-      "options": [
-        "7.4",
-        "3.1",
-        "14.7",
-        "4.5"
-      ],
-      "explanation": "तीनों/दिन = 1/10+1/14+1/20 = 0.2214। समय = 4.5 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0030",
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A takes 14d, B takes 8d, C takes 15d. All three together?",
-      "options": [
-        "12.3",
-        "2.5",
-        "5.4",
-        "3.8"
-      ],
-      "explanation": "Together/day = 1/14+1/8+1/15 = 0.2631. Time = 1/0.2631 = 3.8 days."
-    },
-    "hi": {
-      "question": "A=14 दिन, B=8 दिन, C=15 दिन। तीनों मिलकर?",
-      "options": [
-        "12.3",
-        "2.5",
-        "5.4",
-        "3.8"
-      ],
-      "explanation": "तीनों/दिन = 1/14+1/8+1/15 = 0.2631। समय = 3.8 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0031",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A takes 8d, B takes 12d, C takes 9d. All three together?",
-      "options": [
-        "5.9",
-        "3.1",
-        "1.1",
-        "9.7"
-      ],
-      "explanation": "Together/day = 1/8+1/12+1/9 = 0.3194. Time = 1/0.3194 = 3.1 days."
-    },
-    "hi": {
-      "question": "A=8 दिन, B=12 दिन, C=9 दिन। तीनों मिलकर?",
-      "options": [
-        "5.9",
-        "3.1",
-        "1.1",
-        "9.7"
-      ],
-      "explanation": "तीनों/दिन = 1/8+1/12+1/9 = 0.3194। समय = 3.1 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0032",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A takes 8d, B takes 22d, C takes 16d. All three together?",
-      "options": [
-        "3.8",
-        "6.8",
-        "4.3",
-        "15.3"
-      ],
-      "explanation": "Together/day = 1/8+1/22+1/16 = 0.2330. Time = 1/0.2330 = 4.3 days."
-    },
-    "hi": {
-      "question": "A=8 दिन, B=22 दिन, C=16 दिन। तीनों मिलकर?",
-      "options": [
-        "3.8",
-        "6.8",
-        "4.3",
-        "15.3"
-      ],
-      "explanation": "तीनों/दिन = 1/8+1/22+1/16 = 0.2330। समय = 4.3 दिन।"
-    }
-  },
-  {
-    "id": "nmtw-0033",
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A takes 24d, B takes 8d, C takes 19d. All three together?",
-      "options": [
-        "7.0",
-        "3.5",
-        "17.0",
-        "4.6"
-      ],
-      "explanation": "Together/day = 1/24+1/8+1/19 = 0.2193. Time = 1/0.2193 = 4.6 days."
-    },
-    "hi": {
-      "question": "A=24 दिन, B=8 दिन, C=19 दिन। तीनों मिलकर?",
-      "options": [
-        "7.0",
-        "3.5",
-        "17.0",
-        "4.6"
-      ],
-      "explanation": "तीनों/दिन = 1/24+1/8+1/19 = 0.2193। समय = 4.6 दिन।"
-    }
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 16 days, B in 35 days. Together?",
-      "options": [
-        "16.5",
-        "11",
-        "51",
-        "9.5"
-      ],
-      "explanation": "1 day: 1/16+1/35 = 0.0911. Days = 1/(0.0911) = 11."
-    },
-    "hi": {
-      "question": "A 16 दिन में, B 35 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "16.5",
-        "11",
-        "51",
-        "9.5"
-      ],
-      "explanation": "1 दिन: 1/16+1/35 = 0.0911। दिन = 11।"
-    },
-    "id": "nmtw-0034"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 10 days, B in 19 days. Together?",
-      "options": [
-        "9.9",
-        "6.6",
-        "29",
-        "4.5"
-      ],
-      "explanation": "1 day: 1/10+1/19 = 0.1526. Days = 1/(0.1526) = 6.6."
-    },
-    "hi": {
-      "question": "A 10 दिन में, B 19 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "9.9",
-        "6.6",
-        "29",
-        "4.5"
-      ],
-      "explanation": "1 दिन: 1/10+1/19 = 0.1526। दिन = 6.6।"
-    },
-    "id": "nmtw-0035"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 20 days, B in 17 days. Together?",
-      "options": [
-        "9.2",
-        "1.5",
-        "13.8",
-        "37"
-      ],
-      "explanation": "1 day: 1/20+1/17 = 0.1088. Days = 1/(0.1088) = 9.2."
-    },
-    "hi": {
-      "question": "A 20 दिन में, B 17 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "9.2",
-        "1.5",
-        "13.8",
-        "37"
-      ],
-      "explanation": "1 दिन: 1/20+1/17 = 0.1088। दिन = 9.2।"
-    },
-    "id": "nmtw-0036"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is twice as efficient as B. Together = 26 days. A alone?",
-      "options": [
-        "26",
-        "39",
-        "52",
-        "78"
-      ],
-      "explanation": "B=1x, A=2x. Together=3x. 3x×26=1. x=1/78. A=1/(2x)=39."
-    },
-    "hi": {
-      "question": "A, B से दोगुना कुशल है। साथ = 26 दिन। A अकेला?",
-      "options": [
-        "26",
-        "39",
-        "52",
-        "78"
-      ],
-      "explanation": "B=1x, A=2x। दोनों=3x। 3x×26=1। x=1/78। A=39 दिन।"
-    },
-    "id": "nmtw-0037"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is twice as efficient as B. Together = 7 days. A alone?",
-      "options": [
-        "10",
-        "14",
-        "21",
-        "7"
-      ],
-      "explanation": "B=1x, A=2x. Together=3x. 3x×7=1. x=1/21. A=1/(2x)=10."
-    },
-    "hi": {
-      "question": "A, B से दोगुना कुशल है। साथ = 7 दिन। A अकेला?",
-      "options": [
-        "10",
-        "14",
-        "21",
-        "7"
-      ],
-      "explanation": "B=1x, A=2x। दोनों=3x। 3x×7=1। x=1/21। A=10 दिन।"
-    },
-    "id": "nmtw-0038"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 27 days, B in 24 days. Together?",
-      "options": [
-        "1.5",
-        "19.0",
-        "12.7",
-        "51"
-      ],
-      "explanation": "1 day: 1/27+1/24 = 0.0787. Days = 1/(0.0787) = 12.7."
-    },
-    "hi": {
-      "question": "A 27 दिन में, B 24 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "1.5",
-        "19.0",
-        "12.7",
-        "51"
-      ],
-      "explanation": "1 दिन: 1/27+1/24 = 0.0787। दिन = 12.7।"
-    },
-    "id": "nmtw-0039"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 20 days, B in 14 days. Together?",
-      "options": [
-        "8.2",
-        "12.3",
-        "3.0",
-        "34"
-      ],
-      "explanation": "1 day: 1/20+1/14 = 0.1214. Days = 1/(0.1214) = 8.2."
-    },
-    "hi": {
-      "question": "A 20 दिन में, B 14 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "8.2",
-        "12.3",
-        "3.0",
-        "34"
-      ],
-      "explanation": "1 दिन: 1/20+1/14 = 0.1214। दिन = 8.2।"
-    },
-    "id": "nmtw-0040"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 27 days, B in 26 days. Together?",
-      "options": [
-        "53",
-        "13.2",
-        "19.8",
-        "0.5"
-      ],
-      "explanation": "1 day: 1/27+1/26 = 0.0755. Days = 1/(0.0755) = 13.2."
-    },
-    "hi": {
-      "question": "A 27 दिन में, B 26 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "53",
-        "13.2",
-        "19.8",
-        "0.5"
-      ],
-      "explanation": "1 दिन: 1/27+1/26 = 0.0755। दिन = 13.2।"
-    },
-    "id": "nmtw-0041"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is twice as efficient as B. Together = 23 days. A alone?",
-      "options": [
-        "23",
-        "34",
-        "46",
-        "69"
-      ],
-      "explanation": "B=1x, A=2x. Together=3x. 3x×23=1. x=1/69. A=1/(2x)=34."
-    },
-    "hi": {
-      "question": "A, B से दोगुना कुशल है। साथ = 23 दिन। A अकेला?",
-      "options": [
-        "23",
-        "34",
-        "46",
-        "69"
-      ],
-      "explanation": "B=1x, A=2x। दोनों=3x। 3x×23=1। x=1/69। A=34 दिन।"
-    },
-    "id": "nmtw-0042"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 24 days, B in 30 days. Together?",
-      "options": [
-        "13.3",
-        "3.0",
-        "54",
-        "20.0"
-      ],
-      "explanation": "1 day: 1/24+1/30 = 0.075. Days = 1/(0.075) = 13.3."
-    },
-    "hi": {
-      "question": "A 24 दिन में, B 30 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "13.3",
-        "3.0",
-        "54",
-        "20.0"
-      ],
-      "explanation": "1 दिन: 1/24+1/30 = 0.075। दिन = 13.3।"
-    },
-    "id": "nmtw-0043"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is twice as efficient as B. Together = 6 days. A alone?",
-      "options": [
-        "18",
-        "6",
-        "12",
-        "9"
-      ],
-      "explanation": "B=1x, A=2x. Together=3x. 3x×6=1. x=1/18. A=1/(2x)=9."
-    },
-    "hi": {
-      "question": "A, B से दोगुना कुशल है। साथ = 6 दिन। A अकेला?",
-      "options": [
-        "18",
-        "6",
-        "12",
-        "9"
-      ],
-      "explanation": "B=1x, A=2x। दोनों=3x। 3x×6=1। x=1/18। A=9 दिन।"
-    },
-    "id": "nmtw-0045"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 28 days, B in 34 days. Together?",
-      "options": [
-        "15.4",
-        "3.0",
-        "62",
-        "23.1"
-      ],
-      "explanation": "1 day: 1/28+1/34 = 0.0651. Days = 1/(0.0651) = 15.4."
-    },
-    "hi": {
-      "question": "A 28 दिन में, B 34 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "15.4",
-        "3.0",
-        "62",
-        "23.1"
-      ],
-      "explanation": "1 दिन: 1/28+1/34 = 0.0651। दिन = 15.4।"
-    },
-    "id": "nmtw-0046"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is twice as efficient as B. Together = 21 days. A alone?",
-      "options": [
         "31",
-        "21",
-        "63",
-        "42"
-      ],
-      "explanation": "B=1x, A=2x. Together=3x. 3x×21=1. x=1/63. A=1/(2x)=31."
-    },
-    "hi": {
-      "question": "A, B से दोगुना कुशल है। साथ = 21 दिन। A अकेला?",
-      "options": [
-        "31",
-        "21",
-        "63",
-        "42"
-      ],
-      "explanation": "B=1x, A=2x। दोनों=3x। 3x×21=1। x=1/63। A=31 दिन।"
-    },
-    "id": "nmtw-0047"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is twice as efficient as B. Together = 30 days. A alone?",
-      "options": [
-        "90",
-        "60",
-        "45",
+        "29",
         "30"
       ],
-      "explanation": "B=1x, A=2x. Together=3x. 3x×30=1. x=1/90. A=1/(2x)=45."
+      "explanation": "B alone = 1/(1/12 - 1/20) = 1/(8/240) = 240/8 = 30 days."
     },
     "hi": {
-      "question": "A, B से दोगुना कुशल है। साथ = 30 दिन। A अकेला?",
+      "question": "A and B together finish a काम in 12 दिन. A alone takes 20 दिन. B alone takes how many दिन?",
       "options": [
-        "90",
-        "60",
-        "45",
+        "15",
+        "31",
+        "29",
         "30"
       ],
-      "explanation": "B=1x, A=2x। दोनों=3x। 3x×30=1। x=1/90। A=45 दिन।"
-    },
-    "id": "nmtw-0048"
+      "explanation": "B alone = 1/(1/12 - 1/20) = 1/(8/240) = 240/8 = 30 days."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 30 days, B in 31 days. Together?",
-      "options": [
-        "61",
-        "22.8",
-        "15.2",
-        "0.5"
-      ],
-      "explanation": "1 day: 1/30+1/31 = 0.0656. Days = 1/(0.0656) = 15.2."
-    },
-    "hi": {
-      "question": "A 30 दिन में, B 31 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "61",
-        "22.8",
-        "15.2",
-        "0.5"
-      ],
-      "explanation": "1 दिन: 1/30+1/31 = 0.0656। दिन = 15.2।"
-    },
-    "id": "nmtw-0050"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 22 days, B in 15 days. Together?",
-      "options": [
-        "8.9",
-        "13.4",
-        "3.5",
-        "37"
-      ],
-      "explanation": "1 day: 1/22+1/15 = 0.1121. Days = 1/(0.1121) = 8.9."
-    },
-    "hi": {
-      "question": "A 22 दिन में, B 15 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "8.9",
-        "13.4",
-        "3.5",
-        "37"
-      ],
-      "explanation": "1 दिन: 1/22+1/15 = 0.1121। दिन = 8.9।"
-    },
-    "id": "nmtw-0051"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 25 days, B in 31 days. Together?",
-      "options": [
-        "56",
-        "13.8",
-        "3.0",
-        "20.7"
-      ],
-      "explanation": "1 day: 1/25+1/31 = 0.0723. Days = 1/(0.0723) = 13.8."
-    },
-    "hi": {
-      "question": "A 25 दिन में, B 31 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "56",
-        "13.8",
-        "3.0",
-        "20.7"
-      ],
-      "explanation": "1 दिन: 1/25+1/31 = 0.0723। दिन = 13.8।"
-    },
-    "id": "nmtw-0052"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is twice as efficient as B. Together = 24 days. A alone?",
-      "options": [
-        "72",
-        "36",
-        "24",
-        "48"
-      ],
-      "explanation": "B=1x, A=2x. Together=3x. 3x×24=1. x=1/72. A=1/(2x)=36."
-    },
-    "hi": {
-      "question": "A, B से दोगुना कुशल है। साथ = 24 दिन। A अकेला?",
-      "options": [
-        "72",
-        "36",
-        "24",
-        "48"
-      ],
-      "explanation": "B=1x, A=2x। दोनों=3x। 3x×24=1। x=1/72। A=36 दिन।"
-    },
-    "id": "nmtw-0053"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is twice as efficient as B. Together = 25 days. A alone?",
-      "options": [
-        "37",
-        "50",
-        "75",
-        "25"
-      ],
-      "explanation": "B=1x, A=2x. Together=3x. 3x×25=1. x=1/75. A=1/(2x)=37."
-    },
-    "hi": {
-      "question": "A, B से दोगुना कुशल है। साथ = 25 दिन। A अकेला?",
-      "options": [
-        "37",
-        "50",
-        "75",
-        "25"
-      ],
-      "explanation": "B=1x, A=2x। दोनों=3x। 3x×25=1। x=1/75। A=37 दिन।"
-    },
-    "id": "nmtw-0054"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 8 days, B in 16 days. Together?",
-      "options": [
-        "4.0",
-        "24",
-        "7.9",
-        "5.3"
-      ],
-      "explanation": "1 day: 1/8+1/16 = 0.1875. Days = 1/(0.1875) = 5.3."
-    },
-    "hi": {
-      "question": "A 8 दिन में, B 16 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "4.0",
-        "24",
-        "7.9",
-        "5.3"
-      ],
-      "explanation": "1 दिन: 1/8+1/16 = 0.1875। दिन = 5.3।"
-    },
-    "id": "nmtw-0055"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 8 days, B in 14 days. Together?",
-      "options": [
-        "5.1",
-        "22",
-        "3.0",
-        "7.6"
-      ],
-      "explanation": "1 day: 1/8+1/14 = 0.1964. Days = 1/(0.1964) = 5.1."
-    },
-    "hi": {
-      "question": "A 8 दिन में, B 14 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "5.1",
-        "22",
-        "3.0",
-        "7.6"
-      ],
-      "explanation": "1 दिन: 1/8+1/14 = 0.1964। दिन = 5.1।"
-    },
-    "id": "nmtw-0056"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is twice as efficient as B. Together = 16 days. A alone?",
-      "options": [
-        "16",
-        "24",
-        "48",
-        "32"
-      ],
-      "explanation": "B=1x, A=2x. Together=3x. 3x×16=1. x=1/48. A=1/(2x)=24."
-    },
-    "hi": {
-      "question": "A, B से दोगुना कुशल है। साथ = 16 दिन। A अकेला?",
-      "options": [
-        "16",
-        "24",
-        "48",
-        "32"
-      ],
-      "explanation": "B=1x, A=2x। दोनों=3x। 3x×16=1। x=1/48। A=24 दिन।"
-    },
-    "id": "nmtw-0057"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is twice as efficient as B. Together = 20 days. A alone?",
-      "options": [
-        "60",
-        "40",
-        "30",
-        "20"
-      ],
-      "explanation": "B=1x, A=2x. Together=3x. 3x×20=1. x=1/60. A=1/(2x)=30."
-    },
-    "hi": {
-      "question": "A, B से दोगुना कुशल है। साथ = 20 दिन। A अकेला?",
-      "options": [
-        "60",
-        "40",
-        "30",
-        "20"
-      ],
-      "explanation": "B=1x, A=2x। दोनों=3x। 3x×20=1। x=1/60। A=30 दिन।"
-    },
-    "id": "nmtw-0058"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 11 days, B in 36 days. Together?",
-      "options": [
-        "47",
-        "8.4",
-        "12.5",
-        "12.6"
-      ],
-      "explanation": "1 day: 1/11+1/36 = 0.1187. Days = 1/(0.1187) = 8.4."
-    },
-    "hi": {
-      "question": "A 11 दिन में, B 36 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "47",
-        "8.4",
-        "12.5",
-        "12.6"
-      ],
-      "explanation": "1 दिन: 1/11+1/36 = 0.1187। दिन = 8.4।"
-    },
-    "id": "nmtw-0059"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is twice as efficient as B. Together = 13 days. A alone?",
-      "options": [
-        "26",
-        "13",
-        "19",
-        "39"
-      ],
-      "explanation": "B=1x, A=2x. Together=3x. 3x×13=1. x=1/39. A=1/(2x)=19."
-    },
-    "hi": {
-      "question": "A, B से दोगुना कुशल है। साथ = 13 दिन। A अकेला?",
-      "options": [
-        "26",
-        "13",
-        "19",
-        "39"
-      ],
-      "explanation": "B=1x, A=2x। दोनों=3x। 3x×13=1। x=1/39। A=19 दिन।"
-    },
-    "id": "nmtw-0061"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 25 days, B in 9 days. Together?",
-      "options": [
-        "9.9",
-        "8.0",
-        "6.6",
-        "34"
-      ],
-      "explanation": "1 day: 1/25+1/9 = 0.1511. Days = 1/(0.1511) = 6.6."
-    },
-    "hi": {
-      "question": "A 25 दिन में, B 9 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "9.9",
-        "8.0",
-        "6.6",
-        "34"
-      ],
-      "explanation": "1 दिन: 1/25+1/9 = 0.1511। दिन = 6.6।"
-    },
-    "id": "nmtw-0062"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 30 days, B in 21 days. Together?",
-      "options": [
-        "4.5",
-        "12.4",
-        "51",
-        "18.6"
-      ],
-      "explanation": "1 day: 1/30+1/21 = 0.081. Days = 1/(0.081) = 12.4."
-    },
-    "hi": {
-      "question": "A 30 दिन में, B 21 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "4.5",
-        "12.4",
-        "51",
-        "18.6"
-      ],
-      "explanation": "1 दिन: 1/30+1/21 = 0.081। दिन = 12.4।"
-    },
-    "id": "nmtw-0063"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is twice as efficient as B. Together = 12 days. A alone?",
-      "options": [
-        "12",
-        "36",
-        "24",
-        "18"
-      ],
-      "explanation": "B=1x, A=2x. Together=3x. 3x×12=1. x=1/36. A=1/(2x)=18."
-    },
-    "hi": {
-      "question": "A, B से दोगुना कुशल है। साथ = 12 दिन। A अकेला?",
-      "options": [
-        "12",
-        "36",
-        "24",
-        "18"
-      ],
-      "explanation": "B=1x, A=2x। दोनों=3x। 3x×12=1। x=1/36। A=18 दिन।"
-    },
-    "id": "nmtw-0064"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is twice as efficient as B. Together = 9 days. A alone?",
-      "options": [
-        "18",
-        "27",
-        "9",
-        "13"
-      ],
-      "explanation": "B=1x, A=2x. Together=3x. 3x×9=1. x=1/27. A=1/(2x)=13."
-    },
-    "hi": {
-      "question": "A, B से दोगुना कुशल है। साथ = 9 दिन। A अकेला?",
-      "options": [
-        "18",
-        "27",
-        "9",
-        "13"
-      ],
-      "explanation": "B=1x, A=2x। दोनों=3x। 3x×9=1। x=1/27। A=13 दिन।"
-    },
-    "id": "nmtw-0065"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 9 days, B in 8 days. Together?",
-      "options": [
-        "4.2",
-        "0.5",
-        "17",
-        "6.3"
-      ],
-      "explanation": "1 day: 1/9+1/8 = 0.2361. Days = 1/(0.2361) = 4.2."
-    },
-    "hi": {
-      "question": "A 9 दिन में, B 8 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "4.2",
-        "0.5",
-        "17",
-        "6.3"
-      ],
-      "explanation": "1 दिन: 1/9+1/8 = 0.2361। दिन = 4.2।"
-    },
-    "id": "nmtw-0066"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 5 days, B in 19 days. Together?",
-      "options": [
-        "4",
-        "7.0",
-        "24",
-        "6.0"
-      ],
-      "explanation": "1 day: 1/5+1/19 = 0.2526. Days = 1/(0.2526) = 4."
-    },
-    "hi": {
-      "question": "A 5 दिन में, B 19 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "4",
-        "7.0",
-        "24",
-        "6.0"
-      ],
-      "explanation": "1 दिन: 1/5+1/19 = 0.2526। दिन = 4।"
-    },
-    "id": "nmtw-0067"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 21 days, B in 14 days. Together?",
-      "options": [
-        "3.5",
-        "8.4",
-        "35",
-        "12.6"
-      ],
-      "explanation": "1 day: 1/21+1/14 = 0.119. Days = 1/(0.119) = 8.4."
-    },
-    "hi": {
-      "question": "A 21 दिन में, B 14 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "3.5",
-        "8.4",
-        "35",
-        "12.6"
-      ],
-      "explanation": "1 दिन: 1/21+1/14 = 0.119। दिन = 8.4।"
-    },
-    "id": "nmtw-0069"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 28 days, B in 27 days. Together?",
-      "options": [
-        "55",
-        "20.5",
-        "0.5",
-        "13.7"
-      ],
-      "explanation": "1 day: 1/28+1/27 = 0.0728. Days = 1/(0.0728) = 13.7."
-    },
-    "hi": {
-      "question": "A 28 दिन में, B 27 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "55",
-        "20.5",
-        "0.5",
-        "13.7"
-      ],
-      "explanation": "1 दिन: 1/28+1/27 = 0.0728। दिन = 13.7।"
-    },
-    "id": "nmtw-0070"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is twice as efficient as B. Together = 17 days. A alone?",
-      "options": [
-        "25",
-        "34",
-        "17",
-        "51"
-      ],
-      "explanation": "B=1x, A=2x. Together=3x. 3x×17=1. x=1/51. A=1/(2x)=25."
-    },
-    "hi": {
-      "question": "A, B से दोगुना कुशल है। साथ = 17 दिन। A अकेला?",
-      "options": [
-        "25",
-        "34",
-        "17",
-        "51"
-      ],
-      "explanation": "B=1x, A=2x। दोनों=3x। 3x×17=1। x=1/51। A=25 दिन।"
-    },
-    "id": "nmtw-0071"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 7 days, B in 13 days. Together?",
-      "options": [
-        "3.0",
-        "20",
-        "4.5",
-        "6.8"
-      ],
-      "explanation": "1 day: 1/7+1/13 = 0.2198. Days = 1/(0.2198) = 4.5."
-    },
-    "hi": {
-      "question": "A 7 दिन में, B 13 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "3.0",
-        "20",
-        "4.5",
-        "6.8"
-      ],
-      "explanation": "1 दिन: 1/7+1/13 = 0.2198। दिन = 4.5।"
-    },
-    "id": "nmtw-0072"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 13 days, B in 28 days. Together?",
-      "options": [
-        "8.9",
-        "7.5",
-        "13.4",
-        "41"
-      ],
-      "explanation": "1 day: 1/13+1/28 = 0.1126. Days = 1/(0.1126) = 8.9."
-    },
-    "hi": {
-      "question": "A 13 दिन में, B 28 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "8.9",
-        "7.5",
-        "13.4",
-        "41"
-      ],
-      "explanation": "1 दिन: 1/13+1/28 = 0.1126। दिन = 8.9।"
-    },
-    "id": "nmtw-0073"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is twice as efficient as B. Together = 8 days. A alone?",
-      "options": [
-        "12",
-        "8",
-        "24",
-        "16"
-      ],
-      "explanation": "B=1x, A=2x. Together=3x. 3x×8=1. x=1/24. A=1/(2x)=12."
-    },
-    "hi": {
-      "question": "A, B से दोगुना कुशल है। साथ = 8 दिन। A अकेला?",
-      "options": [
-        "12",
-        "8",
-        "24",
-        "16"
-      ],
-      "explanation": "B=1x, A=2x। दोनों=3x। 3x×8=1। x=1/24। A=12 दिन।"
-    },
-    "id": "nmtw-0074"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 12 days, B in 34 days. Together?",
-      "options": [
-        "8.9",
-        "46",
-        "13.4",
-        "11.0"
-      ],
-      "explanation": "1 day: 1/12+1/34 = 0.1127. Days = 1/(0.1127) = 8.9."
-    },
-    "hi": {
-      "question": "A 12 दिन में, B 34 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "8.9",
-        "46",
-        "13.4",
-        "11.0"
-      ],
-      "explanation": "1 दिन: 1/12+1/34 = 0.1127। दिन = 8.9।"
-    },
-    "id": "nmtw-0075"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 28 days, B in 14 days. Together?",
-      "options": [
-        "9.3",
-        "14.0",
-        "7.0",
-        "42"
-      ],
-      "explanation": "1 day: 1/28+1/14 = 0.1071. Days = 1/(0.1071) = 9.3."
-    },
-    "hi": {
-      "question": "A 28 दिन में, B 14 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "9.3",
-        "14.0",
-        "7.0",
-        "42"
-      ],
-      "explanation": "1 दिन: 1/28+1/14 = 0.1071। दिन = 9.3।"
-    },
-    "id": "nmtw-0076"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A is twice as efficient as B. Together = 28 days. A alone?",
-      "options": [
-        "84",
-        "42",
-        "56",
-        "28"
-      ],
-      "explanation": "B=1x, A=2x. Together=3x. 3x×28=1. x=1/84. A=1/(2x)=42."
-    },
-    "hi": {
-      "question": "A, B से दोगुना कुशल है। साथ = 28 दिन। A अकेला?",
-      "options": [
-        "84",
-        "42",
-        "56",
-        "28"
-      ],
-      "explanation": "B=1x, A=2x। दोनों=3x। 3x×28=1। x=1/84। A=42 दिन।"
-    },
-    "id": "nmtw-0080"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 23 days, B in 40 days. Together?",
-      "options": [
-        "21.9",
-        "63",
-        "14.6",
-        "8.5"
-      ],
-      "explanation": "1 day: 1/23+1/40 = 0.0685. Days = 1/(0.0685) = 14.6."
-    },
-    "hi": {
-      "question": "A 23 दिन में, B 40 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "21.9",
-        "63",
-        "14.6",
-        "8.5"
-      ],
-      "explanation": "1 दिन: 1/23+1/40 = 0.0685। दिन = 14.6।"
-    },
-    "id": "nmtw-0081"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 16 days, B in 31 days. Together?",
-      "options": [
-        "15.9",
-        "10.6",
-        "7.5",
-        "47"
-      ],
-      "explanation": "1 day: 1/16+1/31 = 0.0948. Days = 1/(0.0948) = 10.6."
-    },
-    "hi": {
-      "question": "A 16 दिन में, B 31 दिन में काम करता है। साथ मिलकर?",
-      "options": [
-        "15.9",
-        "10.6",
-        "7.5",
-        "47"
-      ],
-      "explanation": "1 दिन: 1/16+1/31 = 0.0948। दिन = 10.6।"
-    },
-    "id": "nmtw-0082"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 24 + 34 × 5",
-      "options": [
-        "63",
-        "4080",
-        "194",
-        "290"
-      ],
-      "explanation": "BODMAS: 34×5=170+24=194."
-    },
-    "hi": {
-      "question": "सरल: 24 + 34 × 5",
-      "options": [
-        "63",
-        "4080",
-        "194",
-        "290"
-      ],
-      "explanation": "BODMAS: 194।"
-    },
-    "id": "nmtw-0084"
-  },
-  {
+    "id": "ntw-0004",
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Simplify: 49 + 12 × 4",
+      "question": "A can complete a work in 24 days, B in 8 days. Working together, they can finish it in?",
       "options": [
-        "97",
-        "244",
-        "2352",
-        "65"
-      ],
-      "explanation": "BODMAS: 12×4=48+49=97."
-    },
-    "hi": {
-      "question": "सरल: 49 + 12 × 4",
-      "options": [
-        "97",
-        "244",
-        "2352",
-        "65"
-      ],
-      "explanation": "BODMAS: 97।"
-    },
-    "id": "nmtw-0085"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "25% of 190?",
-      "options": [
-        "190",
-        "475",
-        "380",
-        "95"
-      ],
-      "explanation": "190×25/100=475."
-    },
-    "hi": {
-      "question": "190 का 25%?",
-      "options": [
-        "190",
-        "475",
-        "380",
-        "95"
-      ],
-      "explanation": "190×25/100=475।"
-    },
-    "id": "nmtw-0086"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "7% of 330?",
-      "options": [
-        "330",
-        "165",
-        "231",
-        "660"
-      ],
-      "explanation": "330×7/100=231."
-    },
-    "hi": {
-      "question": "330 का 7%?",
-      "options": [
-        "330",
-        "165",
-        "231",
-        "660"
-      ],
-      "explanation": "330×7/100=231।"
-    },
-    "id": "nmtw-0087"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 25 + 9 × 6",
-      "options": [
-        "1350",
-        "204",
-        "40",
-        "79"
-      ],
-      "explanation": "BODMAS: 9×6=54+25=79."
-    },
-    "hi": {
-      "question": "सरल: 25 + 9 × 6",
-      "options": [
-        "1350",
-        "204",
-        "40",
-        "79"
-      ],
-      "explanation": "BODMAS: 79।"
-    },
-    "id": "nmtw-0088"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A=8d, B=19d. Together?",
-      "options": [
-        "27d",
-        "5.6d",
-        "11.2d",
-        "11d"
-      ],
-      "explanation": "1d: 1/8+1/19. Time=5.6d."
-    },
-    "hi": {
-      "question": "A=8दिन, B=19दिन। साथ?",
-      "options": [
-        "27d",
-        "5.6d",
-        "11.2d",
-        "11d"
-      ],
-      "explanation": "1दिन: 1/8+1/19। समय=5.6दिन।"
-    },
-    "id": "nmtw-0089"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 54, 6, 5, 72, 13, 54",
-      "options": [
-        "204",
-        "34",
+        "6",
+        "6",
         "5",
-        "72"
+        "7"
       ],
-      "explanation": "Sum=204/6=34."
+      "explanation": "1 day work = 1/24 + 1/8 = 32/192. Together = 192/32 = 6 days."
     },
     "hi": {
-      "question": "औसत: 54, 6, 5, 72, 13, 54",
+      "question": "A  complete a काम in 24 दिन, B in 8 दिन. एक साथ, they  finish it in?",
       "options": [
-        "204",
-        "34",
+        "6",
+        "6",
         "5",
-        "72"
+        "7"
       ],
-      "explanation": "योग=204/6=34।"
-    },
-    "id": "nmtw-0090"
+      "explanation": "1 day work = 1/24 + 1/8 = 32/192. Together = 192/32 = 6 days."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 50, 70, 80, 61, 56, 63",
-      "options": [
-        "380",
-        "50",
-        "63.3",
-        "80"
-      ],
-      "explanation": "Sum=380/6=63.3."
-    },
-    "hi": {
-      "question": "औसत: 50, 70, 80, 61, 56, 63",
-      "options": [
-        "380",
-        "50",
-        "63.3",
-        "80"
-      ],
-      "explanation": "योग=380/6=63.3।"
-    },
-    "id": "nmtw-0091"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 14, 29, 46, 45, 8, 24",
-      "options": [
-        "8",
-        "166",
-        "27.7",
-        "46"
-      ],
-      "explanation": "Sum=166/6=27.7."
-    },
-    "hi": {
-      "question": "औसत: 14, 29, 46, 45, 8, 24",
-      "options": [
-        "8",
-        "166",
-        "27.7",
-        "46"
-      ],
-      "explanation": "योग=166/6=27.7।"
-    },
-    "id": "nmtw-0092"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 20×25cm. Area?",
-      "options": [
-        "45 cm²",
-        "1000 cm²",
-        "90 cm²",
-        "500 cm²"
-      ],
-      "explanation": "Area=20×25=500 cm²."
-    },
-    "hi": {
-      "question": "आयत 20×25सेमी। क्षेत्रफल?",
-      "options": [
-        "45 cm²",
-        "1000 cm²",
-        "90 cm²",
-        "500 cm²"
-      ],
-      "explanation": "क्षेत्रफल=20×25=500 वर्ग सेमी।"
-    },
-    "id": "nmtw-0093"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 5km/hr, 14hrs. Distance?",
-      "options": [
-        "140km",
-        "19km",
-        "35km",
-        "70km"
-      ],
-      "explanation": "Dist=5×14=70km."
-    },
-    "hi": {
-      "question": "कार 5किमी/घं, 14घंटे। दूरी?",
-      "options": [
-        "140km",
-        "19km",
-        "35km",
-        "70km"
-      ],
-      "explanation": "दूरी=70किमी।"
-    },
-    "id": "nmtw-0094"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 31km/hr, 8hrs. Distance?",
-      "options": [
-        "248km",
-        "124km",
-        "496km",
-        "39km"
-      ],
-      "explanation": "Dist=31×8=248km."
-    },
-    "hi": {
-      "question": "कार 31किमी/घं, 8घंटे। दूरी?",
-      "options": [
-        "248km",
-        "124km",
-        "496km",
-        "39km"
-      ],
-      "explanation": "दूरी=248किमी।"
-    },
-    "id": "nmtw-0095"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A=44d, B=21d. Together?",
-      "options": [
-        "28.4d",
-        "14.2d",
-        "65d",
-        "23d"
-      ],
-      "explanation": "1d: 1/44+1/21. Time=14.2d."
-    },
-    "hi": {
-      "question": "A=44दिन, B=21दिन। साथ?",
-      "options": [
-        "28.4d",
-        "14.2d",
-        "65d",
-        "23d"
-      ],
-      "explanation": "1दिन: 1/44+1/21। समय=14.2दिन।"
-    },
-    "id": "nmtw-0096"
-  },
-  {
+    "id": "ntw-0005",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A=12d, B=38d. Together?",
+      "question": "A and B together finish a work in 12 days. A alone takes 30 days. B alone takes how many days?",
       "options": [
-        "18.2d",
-        "50d",
-        "9.1d",
-        "26d"
-      ],
-      "explanation": "1d: 1/12+1/38. Time=9.1d."
-    },
-    "hi": {
-      "question": "A=12दिन, B=38दिन। साथ?",
-      "options": [
-        "18.2d",
-        "50d",
-        "9.1d",
-        "26d"
-      ],
-      "explanation": "1दिन: 1/12+1/38। समय=9.1दिन।"
-    },
-    "id": "nmtw-0097"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 10 + 25 × 7",
-      "options": [
-        "245",
-        "185",
-        "42",
-        "1750"
-      ],
-      "explanation": "BODMAS: 25×7=175+10=185."
-    },
-    "hi": {
-      "question": "सरल: 10 + 25 × 7",
-      "options": [
-        "245",
-        "185",
-        "42",
-        "1750"
-      ],
-      "explanation": "BODMAS: 185।"
-    },
-    "id": "nmtw-0098"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 27km/hr, 27hrs. Distance?",
-      "options": [
-        "1458km",
-        "729km",
-        "364km",
-        "54km"
-      ],
-      "explanation": "Dist=27×27=729km."
-    },
-    "hi": {
-      "question": "कार 27किमी/घं, 27घंटे। दूरी?",
-      "options": [
-        "1458km",
-        "729km",
-        "364km",
-        "54km"
-      ],
-      "explanation": "दूरी=729किमी।"
-    },
-    "id": "nmtw-0099"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 22000 at 17% for 7yrs?",
-      "options": [
-        "Rs.13090",
-        "Rs.52360",
-        "Rs.26180",
-        "Rs.22000"
-      ],
-      "explanation": "SI=22000×17×7/100=26180.0."
-    },
-    "hi": {
-      "question": "22000रु, 17%, 7वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.13090",
-        "Rs.52360",
-        "Rs.26180",
-        "Rs.22000"
-      ],
-      "explanation": "सा.ब्याज=26180.0।"
-    },
-    "id": "nmtw-0100"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 22 × 35?",
-      "options": [
-        "770",
-        "775",
-        "766",
-        "57"
-      ],
-      "explanation": "22×35 = 770."
-    },
-    "hi": {
-      "question": "22 × 35 = ?",
-      "options": [
-        "770",
-        "775",
-        "766",
-        "57"
-      ],
-      "explanation": "22×35 = 770।"
-    },
-    "id": "nmtw-0101"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 13 × 35?",
-      "options": [
-        "471",
-        "48",
-        "454",
-        "455"
-      ],
-      "explanation": "13×35 = 455."
-    },
-    "hi": {
-      "question": "13 × 35 = ?",
-      "options": [
-        "471",
-        "48",
-        "454",
-        "455"
-      ],
-      "explanation": "13×35 = 455।"
-    },
-    "id": "nmtw-0102"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 42 × 38?",
-      "options": [
-        "80",
-        "1612",
-        "1592",
-        "1596"
-      ],
-      "explanation": "42×38 = 1596."
-    },
-    "hi": {
-      "question": "42 × 38 = ?",
-      "options": [
-        "80",
-        "1612",
-        "1592",
-        "1596"
-      ],
-      "explanation": "42×38 = 1596।"
-    },
-    "id": "nmtw-0103"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 49 × 6?",
-      "options": [
-        "294",
-        "298",
-        "292",
-        "55"
-      ],
-      "explanation": "49×6 = 294."
-    },
-    "hi": {
-      "question": "49 × 6 = ?",
-      "options": [
-        "294",
-        "298",
-        "292",
-        "55"
-      ],
-      "explanation": "49×6 = 294।"
-    },
-    "id": "nmtw-0104"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 11 × 15?",
-      "options": [
-        "171",
-        "165",
-        "163",
-        "26"
-      ],
-      "explanation": "11×15 = 165."
-    },
-    "hi": {
-      "question": "11 × 15 = ?",
-      "options": [
-        "171",
-        "165",
-        "163",
-        "26"
-      ],
-      "explanation": "11×15 = 165।"
-    },
-    "id": "nmtw-0105"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 17 × 19?",
-      "options": [
-        "323",
-        "36",
-        "327",
-        "313"
-      ],
-      "explanation": "17×19 = 323."
-    },
-    "hi": {
-      "question": "17 × 19 = ?",
-      "options": [
-        "323",
-        "36",
-        "327",
-        "313"
-      ],
-      "explanation": "17×19 = 323।"
-    },
-    "id": "nmtw-0106"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 16 × 4?",
-      "options": [
-        "60",
+        "19",
+        "23",
         "20",
-        "64",
+        "15"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/30) = 1/(18/360) = 360/18 = 20 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 12 दिन. A alone takes 30 दिन. B alone takes how many दिन?",
+      "options": [
+        "19",
+        "23",
+        "20",
+        "15"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/30) = 1/(18/360) = 360/18 = 20 days."
+    }
+  },
+  {
+    "id": "ntw-0007",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 18 days, B in 9 days. Working together, they can finish it in?",
+      "options": [
+        "6",
+        "20",
+        "5",
+        "8"
+      ],
+      "explanation": "1 day work = 1/18 + 1/9 = 27/162. Together = 162/27 = 6 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 18 दिन, B in 9 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "6",
+        "20",
+        "5",
+        "8"
+      ],
+      "explanation": "1 day work = 1/18 + 1/9 = 27/162. Together = 162/27 = 6 days."
+    }
+  },
+  {
+    "id": "ntw-0008",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 15 days. A alone takes 25 days. B alone takes how many days?",
+      "options": [
+        "73",
+        "75",
+        "6",
         "77"
       ],
-      "explanation": "16×4 = 64."
+      "explanation": "B alone = 1/(1/15 - 1/25) = 1/(10/375) = 375/10 = 75 days."
     },
     "hi": {
-      "question": "16 × 4 = ?",
+      "question": "A and B together finish a काम in 15 दिन. A alone takes 25 दिन. B alone takes how many दिन?",
       "options": [
-        "60",
-        "20",
-        "64",
+        "73",
+        "75",
+        "6",
         "77"
       ],
-      "explanation": "16×4 = 64।"
-    },
-    "id": "nmtw-0107"
+      "explanation": "B alone = 1/(1/15 - 1/25) = 1/(10/375) = 375/10 = 75 days."
+    }
   },
   {
+    "id": "ntw-0010",
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "What is 38 × 23?",
+      "question": "A can complete a work in 45 days, B in 30 days. Working together, they can finish it in?",
       "options": [
-        "874",
-        "61",
-        "888",
-        "861"
+        "18",
+        "20",
+        "8",
+        "17"
       ],
-      "explanation": "38×23 = 874."
+      "explanation": "1 day work = 1/45 + 1/30 = 75/1350. Together = 1350/75 = 18 days."
     },
     "hi": {
-      "question": "38 × 23 = ?",
+      "question": "A  complete a काम in 45 दिन, B in 30 दिन. एक साथ, they  finish it in?",
       "options": [
-        "874",
-        "61",
-        "888",
-        "861"
+        "18",
+        "20",
+        "8",
+        "17"
       ],
-      "explanation": "38×23 = 874।"
-    },
-    "id": "nmtw-0108"
+      "explanation": "1 day work = 1/45 + 1/30 = 75/1350. Together = 1350/75 = 18 days."
+    }
   },
   {
+    "id": "ntw-0011",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 12 days. A alone takes 60 days. B alone takes how many days?",
+      "options": [
+        "13",
+        "12",
+        "16",
+        "15"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/60) = 1/(48/720) = 720/48 = 15 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 12 दिन. A alone takes 60 दिन. B alone takes how many दिन?",
+      "options": [
+        "13",
+        "12",
+        "16",
+        "15"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/60) = 1/(48/720) = 720/48 = 15 days."
+    }
+  },
+  {
+    "id": "ntw-0012",
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 21 days, B in 28 days, C in 24 days. All three together can complete it in?",
+      "options": [
+        "12",
+        "8",
+        "6",
+        "10"
+      ],
+      "explanation": "Together 1 day = 1/21+1/28+1/24 = 1764/14112. Total = 14112/1764 = 8 days."
+    },
+    "hi": {
+      "question": "A  do काम in 21 दिन, B in 28 दिन, C in 24 दिन. All three together  complete it in?",
+      "options": [
+        "12",
+        "8",
+        "6",
+        "10"
+      ],
+      "explanation": "Together 1 day = 1/21+1/28+1/24 = 1764/14112. Total = 14112/1764 = 8 days."
+    }
+  },
+  {
+    "id": "ntw-0013",
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "What is 40 × 39?",
+      "question": "A can complete a work in 32 days, B in 96 days. Working together, they can finish it in?",
       "options": [
-        "79",
-        "1564",
-        "1560",
-        "1549"
+        "25",
+        "20",
+        "24",
+        "23"
       ],
-      "explanation": "40×39 = 1560."
+      "explanation": "1 day work = 1/32 + 1/96 = 128/3072. Together = 3072/128 = 24 days."
     },
     "hi": {
-      "question": "40 × 39 = ?",
+      "question": "A  complete a काम in 32 दिन, B in 96 दिन. एक साथ, they  finish it in?",
       "options": [
-        "79",
-        "1564",
-        "1560",
-        "1549"
+        "25",
+        "20",
+        "24",
+        "23"
       ],
-      "explanation": "40×39 = 1560।"
+      "explanation": "1 day work = 1/32 + 1/96 = 128/3072. Together = 3072/128 = 24 days."
+    }
+  },
+  {
+    "id": "ntw-0014",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 12 days. A alone takes 48 days. B alone takes how many days?",
+      "options": [
+        "16",
+        "17",
+        "14",
+        "8"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/48) = 1/(36/576) = 576/36 = 16 days."
     },
-    "id": "nmtw-0109"
+    "hi": {
+      "question": "A and B together finish a काम in 12 दिन. A alone takes 48 दिन. B alone takes how many दिन?",
+      "options": [
+        "16",
+        "17",
+        "14",
+        "8"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/48) = 1/(36/576) = 576/36 = 16 days."
+    }
+  },
+  {
+    "id": "ntw-0016",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 16 days, B in 48 days. Working together, they can finish it in?",
+      "options": [
+        "14",
+        "12",
+        "6",
+        "10"
+      ],
+      "explanation": "1 day work = 1/16 + 1/48 = 64/768. Together = 768/64 = 12 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 16 दिन, B in 48 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "14",
+        "12",
+        "6",
+        "10"
+      ],
+      "explanation": "1 day work = 1/16 + 1/48 = 64/768. Together = 768/64 = 12 days."
+    }
+  },
+  {
+    "id": "ntw-0017",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 6 days. A alone takes 10 days. B alone takes how many days?",
+      "options": [
+        "14",
+        "12",
+        "15",
+        "18"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/10) = 1/(4/60) = 60/4 = 15 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 6 दिन. A alone takes 10 दिन. B alone takes how many दिन?",
+      "options": [
+        "14",
+        "12",
+        "15",
+        "18"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/10) = 1/(4/60) = 60/4 = 15 days."
+    }
+  },
+  {
+    "id": "ntw-0019",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 14 days, B in 21 days. Working together, they can finish it in?",
+      "options": [
+        "10",
+        "15",
+        "8",
+        "7"
+      ],
+      "explanation": "1 day work = 1/14 + 1/21 = 35/294. Together = 294/35 = 8 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 14 दिन, B in 21 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "10",
+        "15",
+        "8",
+        "7"
+      ],
+      "explanation": "1 day work = 1/14 + 1/21 = 35/294. Together = 294/35 = 8 days."
+    }
+  },
+  {
+    "id": "ntw-0020",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 24 days. A alone takes 42 days. B alone takes how many days?",
+      "options": [
+        "57",
+        "10",
+        "56",
+        "54"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/42) = 1/(18/1008) = 1008/18 = 56 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 24 दिन. A alone takes 42 दिन. B alone takes how many दिन?",
+      "options": [
+        "57",
+        "10",
+        "56",
+        "54"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/42) = 1/(18/1008) = 1008/18 = 56 days."
+    }
+  },
+  {
+    "id": "ntw-0022",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 20 days, B in 30 days. Working together, they can finish it in?",
+      "options": [
+        "10",
+        "13",
+        "12",
+        "10"
+      ],
+      "explanation": "1 day work = 1/20 + 1/30 = 50/600. Together = 600/50 = 12 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 20 दिन, B in 30 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "10",
+        "13",
+        "12",
+        "10"
+      ],
+      "explanation": "1 day work = 1/20 + 1/30 = 50/600. Together = 600/50 = 12 days."
+    }
+  },
+  {
+    "id": "ntw-0023",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 6 days. A alone takes 15 days. B alone takes how many days?",
+      "options": [
+        "10",
+        "11",
+        "15",
+        "9"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/15) = 1/(9/90) = 90/9 = 10 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 6 दिन. A alone takes 15 दिन. B alone takes how many दिन?",
+      "options": [
+        "10",
+        "11",
+        "15",
+        "9"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/15) = 1/(9/90) = 90/9 = 10 days."
+    }
+  },
+  {
+    "id": "ntw-0025",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 30 days, B in 20 days. Working together, they can finish it in?",
+      "options": [
+        "14",
+        "11",
+        "12",
+        "6"
+      ],
+      "explanation": "1 day work = 1/30 + 1/20 = 50/600. Together = 600/50 = 12 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 30 दिन, B in 20 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "14",
+        "11",
+        "12",
+        "6"
+      ],
+      "explanation": "1 day work = 1/30 + 1/20 = 50/600. Together = 600/50 = 12 days."
+    }
+  },
+  {
+    "id": "ntw-0026",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 24 days. A alone takes 40 days. B alone takes how many days?",
+      "options": [
+        "60",
+        "15",
+        "59",
+        "61"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/40) = 1/(16/960) = 960/16 = 60 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 24 दिन. A alone takes 40 दिन. B alone takes how many दिन?",
+      "options": [
+        "60",
+        "15",
+        "59",
+        "61"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/40) = 1/(16/960) = 960/16 = 60 days."
+    }
+  },
+  {
+    "id": "ntw-0027",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 18 days, B in 9 days, C in 30 days. All three together can complete it in?",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "10"
+      ],
+      "explanation": "Together 1 day = 1/18+1/9+1/30 = 972/4860. Total = 4860/972 = 5 days."
+    },
+    "hi": {
+      "question": "A  do काम in 18 दिन, B in 9 दिन, C in 30 दिन. All three together  complete it in?",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "10"
+      ],
+      "explanation": "Together 1 day = 1/18+1/9+1/30 = 972/4860. Total = 4860/972 = 5 days."
+    }
+  },
+  {
+    "id": "ntw-0028",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 25 days, B in 75 days. Working together, they can finish it in?",
+      "options": [
+        "15",
+        "18",
+        "14",
+        "15"
+      ],
+      "explanation": "1 day work = 1/25 + 1/75 = 100/1875. Together = 1875/100 = 15 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 25 दिन, B in 75 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "15",
+        "18",
+        "14",
+        "15"
+      ],
+      "explanation": "1 day work = 1/25 + 1/75 = 100/1875. Together = 1875/100 = 15 days."
+    }
+  },
+  {
+    "id": "ntw-0029",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 12 days. A alone takes 36 days. B alone takes how many days?",
+      "options": [
+        "4",
+        "18",
+        "21",
+        "16"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/36) = 1/(24/432) = 432/24 = 18 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 12 दिन. A alone takes 36 दिन. B alone takes how many दिन?",
+      "options": [
+        "4",
+        "18",
+        "21",
+        "16"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/36) = 1/(24/432) = 432/24 = 18 days."
+    }
+  },
+  {
+    "id": "ntw-0031",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 60 days, B in 15 days. Working together, they can finish it in?",
+      "options": [
+        "12",
+        "12",
+        "10",
+        "13"
+      ],
+      "explanation": "1 day work = 1/60 + 1/15 = 75/900. Together = 900/75 = 12 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 60 दिन, B in 15 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "12",
+        "12",
+        "10",
+        "13"
+      ],
+      "explanation": "1 day work = 1/60 + 1/15 = 75/900. Together = 900/75 = 12 days."
+    }
+  },
+  {
+    "id": "ntw-0032",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 12 days. A alone takes 21 days. B alone takes how many days?",
+      "options": [
+        "26",
+        "20",
+        "28",
+        "31"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/21) = 1/(9/252) = 252/9 = 28 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 12 दिन. A alone takes 21 दिन. B alone takes how many दिन?",
+      "options": [
+        "26",
+        "20",
+        "28",
+        "31"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/21) = 1/(9/252) = 252/9 = 28 days."
+    }
+  },
+  {
+    "id": "ntw-0034",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 48 days, B in 16 days. Working together, they can finish it in?",
+      "options": [
+        "12",
+        "12",
+        "15",
+        "11"
+      ],
+      "explanation": "1 day work = 1/48 + 1/16 = 64/768. Together = 768/64 = 12 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 48 दिन, B in 16 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "12",
+        "12",
+        "15",
+        "11"
+      ],
+      "explanation": "1 day work = 1/48 + 1/16 = 64/768. Together = 768/64 = 12 days."
+    }
+  },
+  {
+    "id": "ntw-0035",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 16 days. A alone takes 50 days. B alone takes how many days?",
+      "options": [
+        "26",
+        "20",
+        "25",
+        "23"
+      ],
+      "explanation": "B alone = 1/(1/16 - 1/50) = 1/(34/800) = 800/34 = 25 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 16 दिन. A alone takes 50 दिन. B alone takes how many दिन?",
+      "options": [
+        "26",
+        "20",
+        "25",
+        "23"
+      ],
+      "explanation": "B alone = 1/(1/16 - 1/50) = 1/(34/800) = 800/34 = 25 days."
+    }
+  },
+  {
+    "id": "ntw-0037",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 10 days, B in 15 days. Working together, they can finish it in?",
+      "options": [
+        "9",
+        "5",
+        "6",
+        "4"
+      ],
+      "explanation": "1 day work = 1/10 + 1/15 = 25/150. Together = 150/25 = 6 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 10 दिन, B in 15 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "9",
+        "5",
+        "6",
+        "4"
+      ],
+      "explanation": "1 day work = 1/10 + 1/15 = 25/150. Together = 150/25 = 6 days."
+    }
+  },
+  {
+    "id": "ntw-0038",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 6 days. A alone takes 8 days. B alone takes how many days?",
+      "options": [
+        "24",
+        "22",
+        "12",
+        "25"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/8) = 1/(2/48) = 48/2 = 24 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 6 दिन. A alone takes 8 दिन. B alone takes how many दिन?",
+      "options": [
+        "24",
+        "22",
+        "12",
+        "25"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/8) = 1/(2/48) = 48/2 = 24 days."
+    }
+  },
+  {
+    "id": "ntw-0040",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 42 days, B in 56 days. Working together, they can finish it in?",
+      "options": [
+        "24",
+        "15",
+        "27",
+        "23"
+      ],
+      "explanation": "1 day work = 1/42 + 1/56 = 98/2352. Together = 2352/98 = 24 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 42 दिन, B in 56 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "24",
+        "15",
+        "27",
+        "23"
+      ],
+      "explanation": "1 day work = 1/42 + 1/56 = 98/2352. Together = 2352/98 = 24 days."
+    }
+  },
+  {
+    "id": "ntw-0041",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 4 days. A alone takes 12 days. B alone takes how many days?",
+      "options": [
+        "4",
+        "4",
+        "6",
+        "8"
+      ],
+      "explanation": "B alone = 1/(1/4 - 1/12) = 1/(8/48) = 48/8 = 6 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 4 दिन. A alone takes 12 दिन. B alone takes how many दिन?",
+      "options": [
+        "4",
+        "4",
+        "6",
+        "8"
+      ],
+      "explanation": "B alone = 1/(1/4 - 1/12) = 1/(8/48) = 48/8 = 6 days."
+    }
+  },
+  {
+    "id": "ntw-0042",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 20 days, B in 30 days, C in 12 days. All three together can complete it in?",
+      "options": [
+        "12",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "Together 1 day = 1/20+1/30+1/12 = 1200/7200. Total = 7200/1200 = 6 days."
+    },
+    "hi": {
+      "question": "A  do काम in 20 दिन, B in 30 दिन, C in 12 दिन. All three together  complete it in?",
+      "options": [
+        "12",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "Together 1 day = 1/20+1/30+1/12 = 1200/7200. Total = 7200/1200 = 6 days."
+    }
+  },
+  {
+    "id": "ntw-0043",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 15 days, B in 10 days. Working together, they can finish it in?",
+      "options": [
+        "5",
+        "9",
+        "6",
+        "6"
+      ],
+      "explanation": "1 day work = 1/15 + 1/10 = 25/150. Together = 150/25 = 6 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 15 दिन, B in 10 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "5",
+        "9",
+        "6",
+        "6"
+      ],
+      "explanation": "1 day work = 1/15 + 1/10 = 25/150. Together = 150/25 = 6 days."
+    }
+  },
+  {
+    "id": "ntw-0044",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 6 days. A alone takes 24 days. B alone takes how many days?",
+      "options": [
+        "9",
+        "7",
+        "8",
+        "8"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/24) = 1/(18/144) = 144/18 = 8 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 6 दिन. A alone takes 24 दिन. B alone takes how many दिन?",
+      "options": [
+        "9",
+        "7",
+        "8",
+        "8"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/24) = 1/(18/144) = 144/18 = 8 days."
+    }
+  },
+  {
+    "id": "ntw-0045",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 30 days, B in 20 days, C in 24 days. All three together can complete it in?",
+      "options": [
+        "9",
+        "6",
+        "8",
+        "20"
+      ],
+      "explanation": "Together 1 day = 1/30+1/20+1/24 = 1800/14400. Total = 14400/1800 = 8 days."
+    },
+    "hi": {
+      "question": "A  do काम in 30 दिन, B in 20 दिन, C in 24 दिन. All three together  complete it in?",
+      "options": [
+        "9",
+        "6",
+        "8",
+        "20"
+      ],
+      "explanation": "Together 1 day = 1/30+1/20+1/24 = 1800/14400. Total = 14400/1800 = 8 days."
+    }
+  },
+  {
+    "id": "ntw-0046",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 40 days, B in 60 days. Working together, they can finish it in?",
+      "options": [
+        "24",
+        "22",
+        "25",
+        "8"
+      ],
+      "explanation": "1 day work = 1/40 + 1/60 = 100/2400. Together = 2400/100 = 24 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 40 दिन, B in 60 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "24",
+        "22",
+        "25",
+        "8"
+      ],
+      "explanation": "1 day work = 1/40 + 1/60 = 100/2400. Together = 2400/100 = 24 days."
+    }
+  },
+  {
+    "id": "ntw-0047",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 6 days. A alone takes 18 days. B alone takes how many days?",
+      "options": [
+        "8",
+        "12",
+        "15",
+        "9"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/18) = 1/(12/108) = 108/12 = 9 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 6 दिन. A alone takes 18 दिन. B alone takes how many दिन?",
+      "options": [
+        "8",
+        "12",
+        "15",
+        "9"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/18) = 1/(12/108) = 108/12 = 9 days."
+    }
+  },
+  {
+    "id": "ntw-0049",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 36 days, B in 18 days. Working together, they can finish it in?",
+      "options": [
+        "12",
+        "6",
+        "11",
+        "13"
+      ],
+      "explanation": "1 day work = 1/36 + 1/18 = 54/648. Together = 648/54 = 12 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 36 दिन, B in 18 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "12",
+        "6",
+        "11",
+        "13"
+      ],
+      "explanation": "1 day work = 1/36 + 1/18 = 54/648. Together = 648/54 = 12 days."
+    }
+  },
+  {
+    "id": "ntw-0050",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 18 days. A alone takes 45 days. B alone takes how many days?",
+      "options": [
+        "6",
+        "30",
+        "31",
+        "28"
+      ],
+      "explanation": "B alone = 1/(1/18 - 1/45) = 1/(27/810) = 810/27 = 30 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 18 दिन. A alone takes 45 दिन. B alone takes how many दिन?",
+      "options": [
+        "6",
+        "30",
+        "31",
+        "28"
+      ],
+      "explanation": "B alone = 1/(1/18 - 1/45) = 1/(27/810) = 810/27 = 30 days."
+    }
+  },
+  {
+    "id": "ntw-0052",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 21 days, B in 28 days. Working together, they can finish it in?",
+      "options": [
+        "14",
+        "11",
+        "4",
+        "12"
+      ],
+      "explanation": "1 day work = 1/21 + 1/28 = 49/588. Together = 588/49 = 12 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 21 दिन, B in 28 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "14",
+        "11",
+        "4",
+        "12"
+      ],
+      "explanation": "1 day work = 1/21 + 1/28 = 49/588. Together = 588/49 = 12 days."
+    }
+  },
+  {
+    "id": "ntw-0053",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 24 days. A alone takes 32 days. B alone takes how many days?",
+      "options": [
+        "94",
+        "97",
+        "96",
+        "10"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/32) = 1/(8/768) = 768/8 = 96 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 24 दिन. A alone takes 32 दिन. B alone takes how many दिन?",
+      "options": [
+        "94",
+        "97",
+        "96",
+        "10"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/32) = 1/(8/768) = 768/8 = 96 days."
+    }
+  },
+  {
+    "id": "ntw-0054",
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 48 days, B in 16 days, C in 4 days. All three together can complete it in?",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "4"
+      ],
+      "explanation": "Together 1 day = 1/48+1/16+1/4 = 1024/3072. Total = 3072/1024 = 3 days."
+    },
+    "hi": {
+      "question": "A  do काम in 48 दिन, B in 16 दिन, C in 4 दिन. All three together  complete it in?",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "4"
+      ],
+      "explanation": "Together 1 day = 1/48+1/16+1/4 = 1024/3072. Total = 3072/1024 = 3 days."
+    }
+  },
+  {
+    "id": "ntw-0055",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 50 days, B in 25 days. Working together, they can finish it in?",
+      "options": [
+        "18",
+        "14",
+        "16",
+        "15"
+      ],
+      "explanation": "1 day work = 1/50 + 1/25 = 75/1250. Together = 1250/75 = 16 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 50 दिन, B in 25 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "18",
+        "14",
+        "16",
+        "15"
+      ],
+      "explanation": "1 day work = 1/50 + 1/25 = 75/1250. Together = 1250/75 = 16 days."
+    }
+  },
+  {
+    "id": "ntw-0056",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 12 days. A alone takes 16 days. B alone takes how many days?",
+      "options": [
+        "4",
+        "50",
+        "47",
+        "48"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/16) = 1/(4/192) = 192/4 = 48 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 12 दिन. A alone takes 16 दिन. B alone takes how many दिन?",
+      "options": [
+        "4",
+        "50",
+        "47",
+        "48"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/16) = 1/(4/192) = 192/4 = 48 days."
+    }
+  },
+  {
+    "id": "ntw-0058",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 8 days, B in 24 days. Working together, they can finish it in?",
+      "options": [
+        "12",
+        "4",
+        "6",
+        "7"
+      ],
+      "explanation": "1 day work = 1/8 + 1/24 = 32/192. Together = 192/32 = 6 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 8 दिन, B in 24 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "12",
+        "4",
+        "6",
+        "7"
+      ],
+      "explanation": "1 day work = 1/8 + 1/24 = 32/192. Together = 192/32 = 6 days."
+    }
+  },
+  {
+    "id": "ntw-0059",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 8 days. A alone takes 14 days. B alone takes how many days?",
+      "options": [
+        "22",
+        "12",
+        "20",
+        "21"
+      ],
+      "explanation": "B alone = 1/(1/8 - 1/14) = 1/(6/112) = 112/6 = 21 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 8 दिन. A alone takes 14 दिन. B alone takes how many दिन?",
+      "options": [
+        "22",
+        "12",
+        "20",
+        "21"
+      ],
+      "explanation": "B alone = 1/(1/8 - 1/14) = 1/(6/112) = 112/6 = 21 days."
+    }
+  },
+  {
+    "id": "ntw-0061",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 12 days, B in 6 days. Working together, they can finish it in?",
+      "options": [
+        "5",
+        "12",
+        "3",
+        "4"
+      ],
+      "explanation": "1 day work = 1/12 + 1/6 = 18/72. Together = 72/18 = 4 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 12 दिन, B in 6 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "5",
+        "12",
+        "3",
+        "4"
+      ],
+      "explanation": "1 day work = 1/12 + 1/6 = 18/72. Together = 72/18 = 4 days."
+    }
+  },
+  {
+    "id": "ntw-0062",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 12 days. A alone takes 20 days. B alone takes how many days?",
+      "options": [
+        "30",
+        "8",
+        "28",
+        "32"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/20) = 1/(8/240) = 240/8 = 30 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 12 दिन. A alone takes 20 दिन. B alone takes how many दिन?",
+      "options": [
+        "30",
+        "8",
+        "28",
+        "32"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/20) = 1/(8/240) = 240/8 = 30 days."
+    }
+  },
+  {
+    "id": "ntw-0064",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 24 days, B in 8 days. Working together, they can finish it in?",
+      "options": [
+        "6",
+        "6",
+        "8",
+        "4"
+      ],
+      "explanation": "1 day work = 1/24 + 1/8 = 32/192. Together = 192/32 = 6 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 24 दिन, B in 8 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "6",
+        "6",
+        "8",
+        "4"
+      ],
+      "explanation": "1 day work = 1/24 + 1/8 = 32/192. Together = 192/32 = 6 days."
+    }
+  },
+  {
+    "id": "ntw-0065",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 12 days. A alone takes 30 days. B alone takes how many days?",
+      "options": [
+        "21",
+        "19",
+        "10",
+        "20"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/30) = 1/(18/360) = 360/18 = 20 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 12 दिन. A alone takes 30 दिन. B alone takes how many दिन?",
+      "options": [
+        "21",
+        "19",
+        "10",
+        "20"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/30) = 1/(18/360) = 360/18 = 20 days."
+    }
+  },
+  {
+    "id": "ntw-0066",
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 40 days, B in 60 days, C in 24 days. All three together can complete it in?",
+      "options": [
+        "11",
+        "14",
+        "8",
+        "12"
+      ],
+      "explanation": "Together 1 day = 1/40+1/60+1/24 = 4800/57600. Total = 57600/4800 = 12 days."
+    },
+    "hi": {
+      "question": "A  do काम in 40 दिन, B in 60 दिन, C in 24 दिन. All three together  complete it in?",
+      "options": [
+        "11",
+        "14",
+        "8",
+        "12"
+      ],
+      "explanation": "Together 1 day = 1/40+1/60+1/24 = 4800/57600. Total = 57600/4800 = 12 days."
+    }
+  },
+  {
+    "id": "ntw-0067",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 18 days, B in 9 days. Working together, they can finish it in?",
+      "options": [
+        "8",
+        "6",
+        "10",
+        "5"
+      ],
+      "explanation": "1 day work = 1/18 + 1/9 = 27/162. Together = 162/27 = 6 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 18 दिन, B in 9 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "8",
+        "6",
+        "10",
+        "5"
+      ],
+      "explanation": "1 day work = 1/18 + 1/9 = 27/162. Together = 162/27 = 6 days."
+    }
+  },
+  {
+    "id": "ntw-0068",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 15 days. A alone takes 25 days. B alone takes how many days?",
+      "options": [
+        "73",
+        "78",
+        "15",
+        "75"
+      ],
+      "explanation": "B alone = 1/(1/15 - 1/25) = 1/(10/375) = 375/10 = 75 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 15 दिन. A alone takes 25 दिन. B alone takes how many दिन?",
+      "options": [
+        "73",
+        "78",
+        "15",
+        "75"
+      ],
+      "explanation": "B alone = 1/(1/15 - 1/25) = 1/(10/375) = 375/10 = 75 days."
+    }
+  },
+  {
+    "id": "ntw-0070",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 45 days, B in 30 days. Working together, they can finish it in?",
+      "options": [
+        "19",
+        "18",
+        "8",
+        "17"
+      ],
+      "explanation": "1 day work = 1/45 + 1/30 = 75/1350. Together = 1350/75 = 18 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 45 दिन, B in 30 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "19",
+        "18",
+        "8",
+        "17"
+      ],
+      "explanation": "1 day work = 1/45 + 1/30 = 75/1350. Together = 1350/75 = 18 days."
+    }
+  },
+  {
+    "id": "ntw-0071",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 12 days. A alone takes 60 days. B alone takes how many days?",
+      "options": [
+        "15",
+        "18",
+        "6",
+        "13"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/60) = 1/(48/720) = 720/48 = 15 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 12 दिन. A alone takes 60 दिन. B alone takes how many दिन?",
+      "options": [
+        "15",
+        "18",
+        "6",
+        "13"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/60) = 1/(48/720) = 720/48 = 15 days."
+    }
+  },
+  {
+    "id": "ntw-0073",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 32 days, B in 96 days. Working together, they can finish it in?",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "15"
+      ],
+      "explanation": "1 day work = 1/32 + 1/96 = 128/3072. Together = 3072/128 = 24 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 32 दिन, B in 96 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "15"
+      ],
+      "explanation": "1 day work = 1/32 + 1/96 = 128/3072. Together = 3072/128 = 24 days."
+    }
+  },
+  {
+    "id": "ntw-0074",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 12 days. A alone takes 48 days. B alone takes how many days?",
+      "options": [
+        "16",
+        "20",
+        "14",
+        "17"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/48) = 1/(36/576) = 576/36 = 16 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 12 दिन. A alone takes 48 दिन. B alone takes how many दिन?",
+      "options": [
+        "16",
+        "20",
+        "14",
+        "17"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/48) = 1/(36/576) = 576/36 = 16 days."
+    }
+  },
+  {
+    "id": "ntw-0076",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 16 days, B in 48 days. Working together, they can finish it in?",
+      "options": [
+        "15",
+        "12",
+        "10",
+        "12"
+      ],
+      "explanation": "1 day work = 1/16 + 1/48 = 64/768. Together = 768/64 = 12 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 16 दिन, B in 48 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "15",
+        "12",
+        "10",
+        "12"
+      ],
+      "explanation": "1 day work = 1/16 + 1/48 = 64/768. Together = 768/64 = 12 days."
+    }
+  },
+  {
+    "id": "ntw-0077",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 6 days. A alone takes 10 days. B alone takes how many days?",
+      "options": [
+        "15",
+        "15",
+        "14",
+        "16"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/10) = 1/(4/60) = 60/4 = 15 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 6 दिन. A alone takes 10 दिन. B alone takes how many दिन?",
+      "options": [
+        "15",
+        "15",
+        "14",
+        "16"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/10) = 1/(4/60) = 60/4 = 15 days."
+    }
+  },
+  {
+    "id": "ntw-0079",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 14 days, B in 21 days. Working together, they can finish it in?",
+      "options": [
+        "7",
+        "10",
+        "8",
+        "11"
+      ],
+      "explanation": "1 day work = 1/14 + 1/21 = 35/294. Together = 294/35 = 8 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 14 दिन, B in 21 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "7",
+        "10",
+        "8",
+        "11"
+      ],
+      "explanation": "1 day work = 1/14 + 1/21 = 35/294. Together = 294/35 = 8 days."
+    }
+  },
+  {
+    "id": "ntw-0080",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 24 days. A alone takes 42 days. B alone takes how many days?",
+      "options": [
+        "8",
+        "56",
+        "55",
+        "58"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/42) = 1/(18/1008) = 1008/18 = 56 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 24 दिन. A alone takes 42 दिन. B alone takes how many दिन?",
+      "options": [
+        "8",
+        "56",
+        "55",
+        "58"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/42) = 1/(18/1008) = 1008/18 = 56 days."
+    }
+  },
+  {
+    "id": "ntw-0082",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 20 days, B in 30 days. Working together, they can finish it in?",
+      "options": [
+        "12",
+        "10",
+        "12",
+        "14"
+      ],
+      "explanation": "1 day work = 1/20 + 1/30 = 50/600. Together = 600/50 = 12 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 20 दिन, B in 30 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "12",
+        "10",
+        "12",
+        "14"
+      ],
+      "explanation": "1 day work = 1/20 + 1/30 = 50/600. Together = 600/50 = 12 days."
+    }
+  },
+  {
+    "id": "ntw-0083",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 6 days. A alone takes 15 days. B alone takes how many days?",
+      "options": [
+        "10",
+        "4",
+        "8",
+        "11"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/15) = 1/(9/90) = 90/9 = 10 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 6 दिन. A alone takes 15 दिन. B alone takes how many दिन?",
+      "options": [
+        "10",
+        "4",
+        "8",
+        "11"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/15) = 1/(9/90) = 90/9 = 10 days."
+    }
+  },
+  {
+    "id": "ntw-0085",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 30 days, B in 20 days. Working together, they can finish it in?",
+      "options": [
+        "8",
+        "12",
+        "11",
+        "15"
+      ],
+      "explanation": "1 day work = 1/30 + 1/20 = 50/600. Together = 600/50 = 12 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 30 दिन, B in 20 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "8",
+        "12",
+        "11",
+        "15"
+      ],
+      "explanation": "1 day work = 1/30 + 1/20 = 50/600. Together = 600/50 = 12 days."
+    }
+  },
+  {
+    "id": "ntw-0086",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 24 days. A alone takes 40 days. B alone takes how many days?",
+      "options": [
+        "62",
+        "59",
+        "60",
+        "20"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/40) = 1/(16/960) = 960/16 = 60 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 24 दिन. A alone takes 40 दिन. B alone takes how many दिन?",
+      "options": [
+        "62",
+        "59",
+        "60",
+        "20"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/40) = 1/(16/960) = 960/16 = 60 days."
+    }
+  },
+  {
+    "id": "ntw-0088",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 25 days, B in 75 days. Working together, they can finish it in?",
+      "options": [
+        "20",
+        "13",
+        "15",
+        "17"
+      ],
+      "explanation": "1 day work = 1/25 + 1/75 = 100/1875. Together = 1875/100 = 15 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 25 दिन, B in 75 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "20",
+        "13",
+        "15",
+        "17"
+      ],
+      "explanation": "1 day work = 1/25 + 1/75 = 100/1875. Together = 1875/100 = 15 days."
+    }
+  },
+  {
+    "id": "ntw-0089",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 12 days. A alone takes 36 days. B alone takes how many days?",
+      "options": [
+        "10",
+        "18",
+        "21",
+        "17"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/36) = 1/(24/432) = 432/24 = 18 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 12 दिन. A alone takes 36 दिन. B alone takes how many दिन?",
+      "options": [
+        "10",
+        "18",
+        "21",
+        "17"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/36) = 1/(24/432) = 432/24 = 18 days."
+    }
+  },
+  {
+    "id": "ntw-0091",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 60 days, B in 15 days. Working together, they can finish it in?",
+      "options": [
+        "14",
+        "15",
+        "12",
+        "10"
+      ],
+      "explanation": "1 day work = 1/60 + 1/15 = 75/900. Together = 900/75 = 12 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 60 दिन, B in 15 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "14",
+        "15",
+        "12",
+        "10"
+      ],
+      "explanation": "1 day work = 1/60 + 1/15 = 75/900. Together = 900/75 = 12 days."
+    }
+  },
+  {
+    "id": "ntw-0092",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 12 days. A alone takes 21 days. B alone takes how many days?",
+      "options": [
+        "30",
+        "12",
+        "28",
+        "27"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/21) = 1/(9/252) = 252/9 = 28 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 12 दिन. A alone takes 21 दिन. B alone takes how many दिन?",
+      "options": [
+        "30",
+        "12",
+        "28",
+        "27"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/21) = 1/(9/252) = 252/9 = 28 days."
+    }
+  },
+  {
+    "id": "ntw-0094",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 48 days, B in 16 days. Working together, they can finish it in?",
+      "options": [
+        "15",
+        "12",
+        "14",
+        "10"
+      ],
+      "explanation": "1 day work = 1/48 + 1/16 = 64/768. Together = 768/64 = 12 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 48 दिन, B in 16 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "15",
+        "12",
+        "14",
+        "10"
+      ],
+      "explanation": "1 day work = 1/48 + 1/16 = 64/768. Together = 768/64 = 12 days."
+    }
+  },
+  {
+    "id": "ntw-0095",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 16 days. A alone takes 50 days. B alone takes how many days?",
+      "options": [
+        "8",
+        "27",
+        "24",
+        "25"
+      ],
+      "explanation": "B alone = 1/(1/16 - 1/50) = 1/(34/800) = 800/34 = 25 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 16 दिन. A alone takes 50 दिन. B alone takes how many दिन?",
+      "options": [
+        "8",
+        "27",
+        "24",
+        "25"
+      ],
+      "explanation": "B alone = 1/(1/16 - 1/50) = 1/(34/800) = 800/34 = 25 days."
+    }
+  },
+  {
+    "id": "ntw-0096",
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 16 days, B in 48 days, C in 4 days. All three together can complete it in?",
+      "options": [
+        "2",
+        "6",
+        "3",
+        "8"
+      ],
+      "explanation": "Together 1 day = 1/16+1/48+1/4 = 1024/3072. Total = 3072/1024 = 3 days."
+    },
+    "hi": {
+      "question": "A  do काम in 16 दिन, B in 48 दिन, C in 4 दिन. All three together  complete it in?",
+      "options": [
+        "2",
+        "6",
+        "3",
+        "8"
+      ],
+      "explanation": "Together 1 day = 1/16+1/48+1/4 = 1024/3072. Total = 3072/1024 = 3 days."
+    }
+  },
+  {
+    "id": "ntw-0097",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 10 days, B in 15 days. Working together, they can finish it in?",
+      "options": [
+        "15",
+        "9",
+        "4",
+        "6"
+      ],
+      "explanation": "1 day work = 1/10 + 1/15 = 25/150. Together = 150/25 = 6 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 10 दिन, B in 15 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "15",
+        "9",
+        "4",
+        "6"
+      ],
+      "explanation": "1 day work = 1/10 + 1/15 = 25/150. Together = 150/25 = 6 days."
+    }
+  },
+  {
+    "id": "ntw-0098",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish a work in 6 days. A alone takes 8 days. B alone takes how many days?",
+      "options": [
+        "24",
+        "22",
+        "27",
+        "15"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/8) = 1/(2/48) = 48/2 = 24 days."
+    },
+    "hi": {
+      "question": "A and B together finish a काम in 6 दिन. A alone takes 8 दिन. B alone takes how many दिन?",
+      "options": [
+        "24",
+        "22",
+        "27",
+        "15"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/8) = 1/(2/48) = 48/2 = 24 days."
+    }
+  },
+  {
+    "id": "ntw-0100",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can complete a work in 42 days, B in 56 days. Working together, they can finish it in?",
+      "options": [
+        "24",
+        "27",
+        "23",
+        "6"
+      ],
+      "explanation": "1 day work = 1/42 + 1/56 = 98/2352. Together = 2352/98 = 24 days."
+    },
+    "hi": {
+      "question": "A  complete a काम in 42 दिन, B in 56 दिन. एक साथ, they  finish it in?",
+      "options": [
+        "24",
+        "27",
+        "23",
+        "6"
+      ],
+      "explanation": "1 day work = 1/42 + 1/56 = 98/2352. Together = 2352/98 = 24 days."
+    }
   }
 ]

@@ -1,2602 +1,2602 @@
 [
   {
-    "id": "nmtsd-0001",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Train 200m passes pole in 10s. Speed in km/h?",
-      "options": [
-        "60",
-        "72",
-        "80",
-        "90"
-      ],
-      "explanation": "Speed=200/10=20 m/s=20×18/5=72 km/h."
-    },
-    "hi": {
-      "question": "200m रेलगाड़ी खंभा 10s में पार। चाल?",
-      "options": [
-        "60",
-        "72",
-        "80",
-        "90"
-      ],
-      "explanation": "20×18/5=72 km/h।"
-    }
-  },
-  {
-    "id": "nmtsd-0002",
+    "id": "ntsd-0001",
     "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Train 300m, 54 km/h. Time to cross 200m bridge?",
-      "options": [
-        "30s",
-        "36s",
-        "33.33s",
-        "40s"
-      ],
-      "explanation": "Speed=15m/s, distance=500m, time=500/15=33.33s."
-    },
-    "hi": {
-      "question": "300m ट्रेन 54km/h, 200m पुल पार करने में?",
-      "options": [
-        "30",
-        "36",
-        "33.33",
-        "40"
-      ],
-      "explanation": "33.33 सेकंड।"
-    }
-  },
-  {
-    "id": "nmtsd-0003",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Car goes at 60 km/h, returns at 40 km/h. Average speed?",
-      "options": [
-        "50",
-        "48",
-        "52",
-        "45"
-      ],
-      "explanation": "Avg=2×60×40/100=48 km/h."
-    },
-    "hi": {
-      "question": "60 से जाकर 40 से लौटे। औसत चाल?",
-      "options": [
-        "50",
-        "48",
-        "52",
-        "45"
-      ],
-      "explanation": "48 km/h।"
-    }
-  },
-  {
-    "id": "nmtsd-0004",
-    "correctOption": "A",
     "difficulty": "easy",
-    "sourceYear": 2024,
+    "sourceYear": 2025,
     "en": {
-      "question": "Train 150m, 72 km/h crosses platform in 25s. Platform length?",
-      "options": [
-        "350m",
-        "400m",
-        "300m",
-        "450m"
-      ],
-      "explanation": "Speed=20m/s, dist=500m, platform=500-150=350m."
-    },
-    "hi": {
-      "question": "150m ट्रेन 72km/h, 25s में प्लेटफॉर्म। लंबाई?",
-      "options": [
-        "350",
-        "400",
-        "300",
-        "450"
-      ],
-      "explanation": "350m।"
-    }
-  },
-  {
-    "id": "nmtsd-0005",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2022,
-    "en": {
-      "question": "Boat: still water 12km/h. Upstream 48km takes 3h more than downstream. Speed of stream?",
+      "question": "A vehicle travels 60 km at 75 km/hr. Time taken?",
       "options": [
         "3",
-        "4",
-        "2",
-        "5"
+        "-2",
+        "0",
+        "1"
       ],
-      "explanation": "48/(12-s)-48/(12+s)=3, s=4 km/h."
+      "explanation": "Time = Distance/Speed = 60/75 = 0 hours."
     },
     "hi": {
-      "question": "शांत जल 12km/h, 48km ऊर्ध्व में 3h अधिक। धारा?",
+      "question": "A वाहन travels 60 किमी at 75 किमी/hr. समय?",
       "options": [
         "3",
-        "4",
+        "-2",
+        "0",
+        "1"
+      ],
+      "explanation": "Time = Distance/Speed = 60/75 = 0 hours."
+    }
+  },
+  {
+    "id": "ntsd-0002",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 240 km at 75 km/hr. Time taken?",
+      "options": [
+        "6",
         "2",
-        "5"
-      ],
-      "explanation": "4 km/h।"
-    }
-  },
-  {
-    "id": "nmtsd-0006",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Two trains 120m+180m, opposite at 60+48 km/h. Crossing time?",
-      "options": [
-        "10s",
-        "12s",
-        "8s",
-        "15s"
-      ],
-      "explanation": "Rel speed=108km/h=30m/s. Dist=300m, t=10s."
-    },
-    "hi": {
-      "question": "120m+180m ट्रेनें 60+48km/h विपरीत। पार करने में?",
-      "options": [
-        "10",
-        "12",
-        "8",
-        "15"
-      ],
-      "explanation": "10 सेकंड।"
-    }
-  },
-  {
-    "id": "nmtsd-0007",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2023,
-    "en": {
-      "question": "Walking at 5/6 speed, 10 min late. Usual time?",
-      "options": [
-        "50 min",
-        "40 min",
-        "60 min",
-        "55 min"
-      ],
-      "explanation": "Time ratio=6/5. Increase=1/5=10, usual=50 min."
-    },
-    "hi": {
-      "question": "5/6 चाल पर 10 मिनट देर। सामान्य समय?",
-      "options": [
-        "50",
-        "40",
-        "60",
-        "55"
-      ],
-      "explanation": "50 मिनट।"
-    }
-  },
-  {
-    "id": "nmtsd-0008",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2023,
-    "en": {
-      "question": "Boat: 30km up+44km down=10h. 40km up+55km down=13h. Still water speed?",
-      "options": [
-        "8 km/h",
-        "10",
-        "6",
-        "12"
-      ],
-      "explanation": "u=5, v=11. Boat=(5+11)/2=8 km/h."
-    },
-    "hi": {
-      "question": "30+44=10h, 40+55=13h। शांत जल चाल?",
-      "options": [
-        "8",
-        "10",
-        "6",
-        "12"
-      ],
-      "explanation": "8 km/h।"
-    }
-  },
-  {
-    "id": "nmtsd-0009",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car covers 240 km in 4 hours. Speed?",
-      "options": [
-        "50 km/h",
-        "55",
-        "70",
-        "60"
-      ],
-      "explanation": "240/4=60 km/h."
-    },
-    "hi": {
-      "question": "240km 4 घंटे में। चाल?",
-      "options": [
-        "50",
-        "55",
-        "70",
-        "60"
-      ],
-      "explanation": "60 km/h।"
-    }
-  },
-  {
-    "id": "nmtsd-0010",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 250m at 90 km/h crosses pole in?",
-      "options": [
-        "10s",
-        "8s",
-        "12s",
-        "15s"
-      ],
-      "explanation": "Speed=90×5/18=25m/s. t=250/25=10s."
-    },
-    "hi": {
-      "question": "250m ट्रेन 90km/h, खंभा पार करने में?",
-      "options": [
-        "10",
-        "8",
-        "12",
-        "15"
-      ],
-      "explanation": "10 सेकंड।"
-    }
-  },
-  {
-    "id": "nmtsd-0011",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A walks at 5 km/h and reaches 15 min late. At 6 km/h, 5 min early. Distance?",
-      "options": [
-        "8 km",
-        "10 km",
-        "12 km",
-        "6 km"
-      ],
-      "explanation": "d/5-d/6=20/60=1/3. d/30=1/3, d=10 km."
-    },
-    "hi": {
-      "question": "5km/h पर 15मि देर, 6km/h पर 5मि जल्दी। दूरी?",
-      "options": [
-        "8",
-        "10",
-        "12",
+        "3",
         "6"
       ],
-      "explanation": "10 km।"
+      "explanation": "Time = Distance/Speed = 240/75 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 240 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "6",
+        "2",
+        "3",
+        "6"
+      ],
+      "explanation": "Time = Distance/Speed = 240/75 = 3 hours."
     }
   },
   {
-    "id": "nmtsd-0012",
-    "correctOption": "C",
-    "difficulty": "medium",
+    "id": "ntsd-0003",
+    "correctOption": "A",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Train 180m at 72 km/h crosses man walking at 6 km/h same direction. Time?",
+      "question": "A vehicle travels 90 km at 20 km/hr. Time taken?",
       "options": [
-        "8s",
-        "10s",
-        "9s",
-        "12s"
+        "4",
+        "6",
+        "3",
+        "5"
       ],
-      "explanation": "Rel speed=72-6=66km/h=55/3 m/s. t=180/(55/3)=540/55=9.82s. Let me round: 66 km/h=18.33 m/s. 180/18.33=9.82. Not 9. I'll adjust: man 18 km/h? Then rel=54=15m/s, t=180/15=12s. Or man 0 km/h: t=180/20=9s."
+      "explanation": "Time = Distance/Speed = 90/20 = 4 hours."
     },
     "hi": {
-      "question": "180m ट्रेन 72km/h, आदमी समान दिशा 0km/h। समय?",
+      "question": "A वाहन travels 90 किमी at 20 किमी/hr. समय?",
       "options": [
+        "4",
+        "6",
+        "3",
+        "5"
+      ],
+      "explanation": "Time = Distance/Speed = 90/20 = 4 hours."
+    }
+  },
+  {
+    "id": "ntsd-0004",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 150 km at 30 km/hr. Time taken?",
+      "options": [
+        "3",
         "8",
         "10",
-        "9",
-        "12"
+        "5"
       ],
-      "explanation": "9 सेकंड।"
-    }
-  },
-  {
-    "id": "nmtsd-0013",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Speed 15 m/s in km/h?",
-      "options": [
-        "54 km/h",
-        "48",
-        "60",
-        "45"
-      ],
-      "explanation": "15×18/5=54 km/h."
+      "explanation": "Time = Distance/Speed = 150/30 = 5 hours."
     },
     "hi": {
-      "question": "15 m/s = ? km/h",
+      "question": "A वाहन travels 150 किमी at 30 किमी/hr. समय?",
       "options": [
-        "54",
-        "48",
-        "60",
-        "45"
+        "3",
+        "8",
+        "10",
+        "5"
       ],
-      "explanation": "15×18/5=54।"
+      "explanation": "Time = Distance/Speed = 150/30 = 5 hours."
     }
   },
   {
-    "id": "nmtsd-0014",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Two trains 100m and 150m, same direction at 60 and 40 km/h. Crossing time?",
-      "options": [
-        "60s",
-        "30s",
-        "50s",
-        "45s"
-      ],
-      "explanation": "Rel speed=20km/h=50/9 m/s. Time=250/(50/9)=45s."
-    },
-    "hi": {
-      "question": "100m+150m ट्रेनें समान दिशा 60+40km/h। पार?",
-      "options": [
-        "60",
-        "30",
-        "50",
-        "45"
-      ],
-      "explanation": "45 सेकंड।"
-    }
-  },
-  {
-    "id": "nmtsd-0015",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A man covers half distance at 30 km/h, other half at 50 km/h. Average speed?",
-      "options": [
-        "40",
-        "37.5",
-        "45",
-        "35"
-      ],
-      "explanation": "Avg=2×30×50/80=3000/80=37.5 km/h."
-    },
-    "hi": {
-      "question": "आधी दूरी 30km/h, शेष 50km/h। औसत चाल?",
-      "options": [
-        "40",
-        "37.5",
-        "45",
-        "35"
-      ],
-      "explanation": "37.5 km/h।"
-    }
-  },
-  {
-    "id": "nmtsd-0016",
+    "id": "ntsd-0005",
     "correctOption": "C",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Train passes pole in 8s and 250m bridge in 20s. Length and speed?",
+      "question": "A vehicle travels 120 km at 40 km/hr. Time taken?",
       "options": [
-        "150m,75km/h",
-        "180m,81km/h",
-        "200m,90km/h",
-        "160m,72km/h"
+        "4",
+        "10",
+        "3",
+        "2"
       ],
-      "explanation": "Let L be length. L/v=8, (L+250)/v=20. (L+250)/L=20/8=2.5. L+250=2.5L. 1.5L=250. L=166.67. Not 200. Let me recalculate: L/v=8→v=L/8. (L+250)/v=20→L+250=20v=20L/8=2.5L. 250=1.5L. L=500/3≈167m. Speed=167/8=20.83m/s=75km/h. Not 90. Let me try: L/v=9, (L+210)/v=30. v=L/9. L+210=30L/9=10L/3. 7L/3=210, L=90m. v=10m/s=36km/h. Not matching options."
+      "explanation": "Time = Distance/Speed = 120/40 = 3 hours."
     },
     "hi": {
-      "question": "ट्रेन खंभा 8s में, 250m पुल 20s में। लंबाई और चाल?",
+      "question": "A वाहन travels 120 किमी at 40 किमी/hr. समय?",
       "options": [
-        "150m,75",
-        "180m,81",
-        "200m,90",
-        "160m,72"
+        "4",
+        "10",
+        "3",
+        "2"
       ],
-      "explanation": "L=166.67m, v=75km/h।"
+      "explanation": "Time = Distance/Speed = 120/40 = 3 hours."
     }
   },
   {
-    "id": "nmtsd-0017",
+    "id": "ntsd-0006",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 60 km at 50 km/hr. Time taken?",
+      "options": [
+        "6",
+        "3",
+        "1",
+        "-1"
+      ],
+      "explanation": "Time = Distance/Speed = 60/50 = 1 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 60 किमी at 50 किमी/hr. समय?",
+      "options": [
+        "6",
+        "3",
+        "1",
+        "-1"
+      ],
+      "explanation": "Time = Distance/Speed = 60/50 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0007",
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Distance 450 km in 7.5 hours. Speed?",
+      "question": "A vehicle travels 60 km at 60 km/hr. Time taken?",
       "options": [
-        "60 km/h",
-        "55",
-        "65",
-        "50"
+        "1",
+        "3",
+        "6",
+        "0"
       ],
-      "explanation": "450/7.5=60 km/h."
+      "explanation": "Time = Distance/Speed = 60/60 = 1 hours."
     },
     "hi": {
-      "question": "450km 7.5 घंटे में। चाल?",
+      "question": "A वाहन travels 60 किमी at 60 किमी/hr. समय?",
       "options": [
-        "60",
-        "55",
-        "65",
-        "50"
+        "1",
+        "3",
+        "6",
+        "0"
       ],
-      "explanation": "60 km/h।"
+      "explanation": "Time = Distance/Speed = 60/60 = 1 hours."
     }
   },
   {
-    "id": "nmtsd-0018",
-    "correctOption": "D",
-    "difficulty": "hard",
+    "id": "ntsd-0008",
+    "correctOption": "B",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Train A (120m, 60km/h) and B (130m, 80km/h) opposite. Crossing time?",
+      "question": "A vehicle travels 90 km at 60 km/hr. Time taken?",
       "options": [
-        "5s",
-        "7s",
-        "4s",
-        "5s"
+        "0",
+        "1",
+        "2",
+        "4"
       ],
-      "explanation": "Rel=140km/h=350/9 m/s. Dist=250m. t=250×9/350=2250/350=6.43s. Not clean. Let me change: A=150m,72km/h; B=100m,108km/h. Rel=180km/h=50m/s. Dist=250m. t=5s."
+      "explanation": "Time = Distance/Speed = 90/60 = 1 hours."
     },
     "hi": {
-      "question": "A:150m,72; B:100m,108 विपरीत। पार करने में?",
+      "question": "A वाहन travels 90 किमी at 60 किमी/hr. समय?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 90/60 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0009",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 90 km at 80 km/hr. Time taken?",
+      "options": [
+        "1",
+        "2",
+        "-1",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 90/80 = 1 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 90 किमी at 80 किमी/hr. समय?",
+      "options": [
+        "1",
+        "2",
+        "-1",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 90/80 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0010",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 120 km at 30 km/hr. Time taken?",
+      "options": [
+        "6",
+        "4",
+        "8",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 120/30 = 4 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 120 किमी at 30 किमी/hr. समय?",
+      "options": [
+        "6",
+        "4",
+        "8",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 120/30 = 4 hours."
+    }
+  },
+  {
+    "id": "ntsd-0011",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 240 km at 60 km/hr. Time taken?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 240/60 = 4 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 240 किमी at 60 किमी/hr. समय?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 240/60 = 4 hours."
+    }
+  },
+  {
+    "id": "ntsd-0012",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 240 km at 75 km/hr. Time taken?",
+      "options": [
+        "6",
+        "8",
+        "3",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 240/75 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 240 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "6",
+        "8",
+        "3",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 240/75 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0013",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 60 km at 80 km/hr. Time taken?",
+      "options": [
+        "-2",
+        "2",
+        "4",
+        "0"
+      ],
+      "explanation": "Time = Distance/Speed = 60/80 = 0 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 60 किमी at 80 किमी/hr. समय?",
+      "options": [
+        "-2",
+        "2",
+        "4",
+        "0"
+      ],
+      "explanation": "Time = Distance/Speed = 60/80 = 0 hours."
+    }
+  },
+  {
+    "id": "ntsd-0014",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 240 km at 30 km/hr. Time taken?",
+      "options": [
+        "6",
+        "10",
+        "8",
+        "8"
+      ],
+      "explanation": "Time = Distance/Speed = 240/30 = 8 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 240 किमी at 30 किमी/hr. समय?",
+      "options": [
+        "6",
+        "10",
+        "8",
+        "8"
+      ],
+      "explanation": "Time = Distance/Speed = 240/30 = 8 hours."
+    }
+  },
+  {
+    "id": "ntsd-0015",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 90 km at 30 km/hr. Time taken?",
+      "options": [
+        "3",
+        "6",
+        "1",
+        "8"
+      ],
+      "explanation": "Time = Distance/Speed = 90/30 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 90 किमी at 30 किमी/hr. समय?",
+      "options": [
+        "3",
+        "6",
+        "1",
+        "8"
+      ],
+      "explanation": "Time = Distance/Speed = 90/30 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0016",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 90 km at 40 km/hr. Time taken?",
+      "options": [
+        "3",
+        "0",
+        "2",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 90/40 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 90 किमी at 40 किमी/hr. समय?",
+      "options": [
+        "3",
+        "0",
+        "2",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 90/40 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0017",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 90 km at 75 km/hr. Time taken?",
+      "options": [
+        "6",
+        "-1",
+        "4",
+        "1"
+      ],
+      "explanation": "Time = Distance/Speed = 90/75 = 1 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 90 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "6",
+        "-1",
+        "4",
+        "1"
+      ],
+      "explanation": "Time = Distance/Speed = 90/75 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0018",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 150 km at 60 km/hr. Time taken?",
       "options": [
         "5",
+        "6",
+        "0",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 150/60 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 150 किमी at 60 किमी/hr. समय?",
+      "options": [
+        "5",
+        "6",
+        "0",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 150/60 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0019",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 180 km at 75 km/hr. Time taken?",
+      "options": [
+        "2",
+        "2",
+        "4",
+        "0"
+      ],
+      "explanation": "Time = Distance/Speed = 180/75 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 180 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "2",
+        "2",
+        "4",
+        "0"
+      ],
+      "explanation": "Time = Distance/Speed = 180/75 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0020",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 60 km at 50 km/hr. Time taken?",
+      "options": [
+        "6",
+        "1",
+        "-1",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 60/50 = 1 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 60 किमी at 50 किमी/hr. समय?",
+      "options": [
+        "6",
+        "1",
+        "-1",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 60/50 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0021",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 240 km at 80 km/hr. Time taken?",
+      "options": [
+        "5",
+        "3",
+        "3",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 240/80 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 240 किमी at 80 किमी/hr. समय?",
+      "options": [
+        "5",
+        "3",
+        "3",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 240/80 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0022",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 120 km at 60 km/hr. Time taken?",
+      "options": [
+        "2",
+        "2",
+        "4",
+        "1"
+      ],
+      "explanation": "Time = Distance/Speed = 120/60 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 120 किमी at 60 किमी/hr. समय?",
+      "options": [
+        "2",
+        "2",
+        "4",
+        "1"
+      ],
+      "explanation": "Time = Distance/Speed = 120/60 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0023",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 90 km at 20 km/hr. Time taken?",
+      "options": [
+        "7",
+        "3",
+        "4",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 90/20 = 4 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 90 किमी at 20 किमी/hr. समय?",
+      "options": [
+        "7",
+        "3",
+        "4",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 90/20 = 4 hours."
+    }
+  },
+  {
+    "id": "ntsd-0024",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 240 km at 30 km/hr. Time taken?",
+      "options": [
+        "10",
+        "7",
+        "8",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 240/30 = 8 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 240 किमी at 30 किमी/hr. समय?",
+      "options": [
+        "10",
+        "7",
+        "8",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 240/30 = 8 hours."
+    }
+  },
+  {
+    "id": "ntsd-0025",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 120 km at 75 km/hr. Time taken?",
+      "options": [
+        "3",
+        "-1",
+        "1",
+        "5"
+      ],
+      "explanation": "Time = Distance/Speed = 120/75 = 1 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 120 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "3",
+        "-1",
+        "1",
+        "5"
+      ],
+      "explanation": "Time = Distance/Speed = 120/75 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0026",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 60 km at 30 km/hr. Time taken?",
+      "options": [
+        "6",
+        "2",
+        "1",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 60/30 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 60 किमी at 30 किमी/hr. समय?",
+      "options": [
+        "6",
+        "2",
+        "1",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 60/30 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0027",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 60 km at 20 km/hr. Time taken?",
+      "options": [
+        "2",
+        "6",
+        "3",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 60/20 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 60 किमी at 20 किमी/hr. समय?",
+      "options": [
+        "2",
+        "6",
+        "3",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 60/20 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0028",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 180 km at 20 km/hr. Time taken?",
+      "options": [
+        "10",
+        "7",
+        "9",
+        "8"
+      ],
+      "explanation": "Time = Distance/Speed = 180/20 = 9 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 180 किमी at 20 किमी/hr. समय?",
+      "options": [
+        "10",
+        "7",
+        "9",
+        "8"
+      ],
+      "explanation": "Time = Distance/Speed = 180/20 = 9 hours."
+    }
+  },
+  {
+    "id": "ntsd-0029",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 180 km at 75 km/hr. Time taken?",
+      "options": [
+        "0",
+        "2",
+        "5",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 180/75 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 180 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "0",
+        "2",
+        "5",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 180/75 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0030",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 60 km at 20 km/hr. Time taken?",
+      "options": [
+        "3",
+        "1",
+        "6",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 60/20 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 60 किमी at 20 किमी/hr. समय?",
+      "options": [
+        "3",
+        "1",
+        "6",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 60/20 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0031",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 240 km at 80 km/hr. Time taken?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 240/80 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 240 किमी at 80 किमी/hr. समय?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 240/80 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0032",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 60 km at 80 km/hr. Time taken?",
+      "options": [
+        "-1",
+        "1",
+        "0",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 60/80 = 0 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 60 किमी at 80 किमी/hr. समय?",
+      "options": [
+        "-1",
+        "1",
+        "0",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 60/80 = 0 hours."
+    }
+  },
+  {
+    "id": "ntsd-0033",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 120 km at 30 km/hr. Time taken?",
+      "options": [
+        "3",
+        "10",
+        "6",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 120/30 = 4 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 120 किमी at 30 किमी/hr. समय?",
+      "options": [
+        "3",
+        "10",
+        "6",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 120/30 = 4 hours."
+    }
+  },
+  {
+    "id": "ntsd-0034",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 240 km at 20 km/hr. Time taken?",
+      "options": [
+        "11",
+        "2",
+        "12",
+        "15"
+      ],
+      "explanation": "Time = Distance/Speed = 240/20 = 12 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 240 किमी at 20 किमी/hr. समय?",
+      "options": [
+        "11",
+        "2",
+        "12",
+        "15"
+      ],
+      "explanation": "Time = Distance/Speed = 240/20 = 12 hours."
+    }
+  },
+  {
+    "id": "ntsd-0035",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 150 km at 50 km/hr. Time taken?",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 150/50 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 150 किमी at 50 किमी/hr. समय?",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 150/50 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0036",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 120 km at 50 km/hr. Time taken?",
+      "options": [
+        "4",
+        "0",
+        "2",
+        "5"
+      ],
+      "explanation": "Time = Distance/Speed = 120/50 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 120 किमी at 50 किमी/hr. समय?",
+      "options": [
+        "4",
+        "0",
+        "2",
+        "5"
+      ],
+      "explanation": "Time = Distance/Speed = 120/50 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0037",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 90 km at 40 km/hr. Time taken?",
+      "options": [
+        "3",
+        "8",
+        "2",
+        "1"
+      ],
+      "explanation": "Time = Distance/Speed = 90/40 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 90 किमी at 40 किमी/hr. समय?",
+      "options": [
+        "3",
+        "8",
+        "2",
+        "1"
+      ],
+      "explanation": "Time = Distance/Speed = 90/40 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0038",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 150 km at 60 km/hr. Time taken?",
+      "options": [
+        "5",
+        "1",
+        "2",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 150/60 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 150 किमी at 60 किमी/hr. समय?",
+      "options": [
+        "5",
+        "1",
+        "2",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 150/60 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0039",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 60 km at 60 km/hr. Time taken?",
+      "options": [
+        "4",
+        "5",
+        "0",
+        "1"
+      ],
+      "explanation": "Time = Distance/Speed = 60/60 = 1 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 60 किमी at 60 किमी/hr. समय?",
+      "options": [
+        "4",
+        "5",
+        "0",
+        "1"
+      ],
+      "explanation": "Time = Distance/Speed = 60/60 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0040",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 180 km at 60 km/hr. Time taken?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 180/60 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 180 किमी at 60 किमी/hr. समय?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 180/60 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0041",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 240 km at 75 km/hr. Time taken?",
+      "options": [
+        "2",
+        "5",
+        "3",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 240/75 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 240 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "2",
+        "5",
+        "3",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 240/75 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0042",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 120 km at 50 km/hr. Time taken?",
+      "options": [
+        "3",
+        "1",
+        "5",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 120/50 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 120 किमी at 50 किमी/hr. समय?",
+      "options": [
+        "3",
+        "1",
+        "5",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 120/50 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0043",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 120 km at 60 km/hr. Time taken?",
+      "options": [
+        "2",
+        "0",
+        "2",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 120/60 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 120 किमी at 60 किमी/hr. समय?",
+      "options": [
+        "2",
+        "0",
+        "2",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 120/60 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0044",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 150 km at 30 km/hr. Time taken?",
+      "options": [
+        "6",
+        "8",
+        "3",
+        "5"
+      ],
+      "explanation": "Time = Distance/Speed = 150/30 = 5 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 150 किमी at 30 किमी/hr. समय?",
+      "options": [
+        "6",
+        "8",
+        "3",
+        "5"
+      ],
+      "explanation": "Time = Distance/Speed = 150/30 = 5 hours."
+    }
+  },
+  {
+    "id": "ntsd-0045",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 60 km at 75 km/hr. Time taken?",
+      "options": [
+        "1",
+        "2",
+        "-2",
+        "0"
+      ],
+      "explanation": "Time = Distance/Speed = 60/75 = 0 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 60 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "1",
+        "2",
+        "-2",
+        "0"
+      ],
+      "explanation": "Time = Distance/Speed = 60/75 = 0 hours."
+    }
+  },
+  {
+    "id": "ntsd-0046",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 120 km at 40 km/hr. Time taken?",
+      "options": [
+        "8",
+        "6",
+        "3",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 120/40 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 120 किमी at 40 किमी/hr. समय?",
+      "options": [
+        "8",
+        "6",
+        "3",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 120/40 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0047",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 150 km at 60 km/hr. Time taken?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 150/60 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 150 किमी at 60 किमी/hr. समय?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 150/60 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0048",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 120 km at 20 km/hr. Time taken?",
+      "options": [
+        "6",
         "7",
         "4",
-        "6"
+        "3"
       ],
-      "explanation": "5 सेकंड।"
+      "explanation": "Time = Distance/Speed = 120/20 = 6 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 120 किमी at 20 किमी/hr. समय?",
+      "options": [
+        "6",
+        "7",
+        "4",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 120/20 = 6 hours."
     }
   },
   {
-    "id": "nmtsd-0019",
+    "id": "ntsd-0049",
     "correctOption": "B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Walking at 3/4 speed, 20 min late. Distance if usual speed 6 km/h?",
+      "question": "A vehicle travels 60 km at 60 km/hr. Time taken?",
       "options": [
-        "5 km",
-        "6 km",
-        "4 km",
-        "8 km"
+        "8",
+        "1",
+        "0",
+        "2"
       ],
-      "explanation": "Time ratio=4/3. Extra=1/3 of usual=20min. Usual=60min=1h. Distance=6×1=6km."
+      "explanation": "Time = Distance/Speed = 60/60 = 1 hours."
     },
     "hi": {
-      "question": "3/4 चाल पर 20मि देर, सामान्य 6km/h। दूरी?",
+      "question": "A वाहन travels 60 किमी at 60 किमी/hr. समय?",
+      "options": [
+        "8",
+        "1",
+        "0",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 60/60 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0050",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 120 km at 80 km/hr. Time taken?",
+      "options": [
+        "0",
+        "5",
+        "1",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 120/80 = 1 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 120 किमी at 80 किमी/hr. समय?",
+      "options": [
+        "0",
+        "5",
+        "1",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 120/80 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0051",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 60 km at 40 km/hr. Time taken?",
+      "options": [
+        "8",
+        "1",
+        "0",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 60/40 = 1 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 60 किमी at 40 किमी/hr. समय?",
+      "options": [
+        "8",
+        "1",
+        "0",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 60/40 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0052",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 180 km at 40 km/hr. Time taken?",
+      "options": [
+        "3",
+        "3",
+        "4",
+        "6"
+      ],
+      "explanation": "Time = Distance/Speed = 180/40 = 4 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 180 किमी at 40 किमी/hr. समय?",
+      "options": [
+        "3",
+        "3",
+        "4",
+        "6"
+      ],
+      "explanation": "Time = Distance/Speed = 180/40 = 4 hours."
+    }
+  },
+  {
+    "id": "ntsd-0053",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 90 km at 20 km/hr. Time taken?",
+      "options": [
+        "7",
+        "4",
+        "2",
+        "10"
+      ],
+      "explanation": "Time = Distance/Speed = 90/20 = 4 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 90 किमी at 20 किमी/hr. समय?",
+      "options": [
+        "7",
+        "4",
+        "2",
+        "10"
+      ],
+      "explanation": "Time = Distance/Speed = 90/20 = 4 hours."
+    }
+  },
+  {
+    "id": "ntsd-0054",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 90 km at 40 km/hr. Time taken?",
+      "options": [
+        "1",
+        "5",
+        "5",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 90/40 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 90 किमी at 40 किमी/hr. समय?",
+      "options": [
+        "1",
+        "5",
+        "5",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 90/40 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0055",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 150 km at 30 km/hr. Time taken?",
+      "options": [
+        "10",
+        "3",
+        "5",
+        "7"
+      ],
+      "explanation": "Time = Distance/Speed = 150/30 = 5 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 150 किमी at 30 किमी/hr. समय?",
+      "options": [
+        "10",
+        "3",
+        "5",
+        "7"
+      ],
+      "explanation": "Time = Distance/Speed = 150/30 = 5 hours."
+    }
+  },
+  {
+    "id": "ntsd-0056",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 90 km at 75 km/hr. Time taken?",
+      "options": [
+        "4",
+        "-1",
+        "3",
+        "1"
+      ],
+      "explanation": "Time = Distance/Speed = 90/75 = 1 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 90 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "4",
+        "-1",
+        "3",
+        "1"
+      ],
+      "explanation": "Time = Distance/Speed = 90/75 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0057",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 180 km at 75 km/hr. Time taken?",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 180/75 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 180 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 180/75 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0058",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 120 km at 60 km/hr. Time taken?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "6"
+      ],
+      "explanation": "Time = Distance/Speed = 120/60 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 120 किमी at 60 किमी/hr. समय?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "6"
+      ],
+      "explanation": "Time = Distance/Speed = 120/60 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0059",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 180 km at 50 km/hr. Time taken?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "explanation": "Time = Distance/Speed = 180/50 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 180 किमी at 50 किमी/hr. समय?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "explanation": "Time = Distance/Speed = 180/50 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0060",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 150 km at 75 km/hr. Time taken?",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 150/75 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 150 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 150/75 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0061",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 120 km at 60 km/hr. Time taken?",
+      "options": [
+        "2",
+        "5",
+        "8",
+        "1"
+      ],
+      "explanation": "Time = Distance/Speed = 120/60 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 120 किमी at 60 किमी/hr. समय?",
+      "options": [
+        "2",
+        "5",
+        "8",
+        "1"
+      ],
+      "explanation": "Time = Distance/Speed = 120/60 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0062",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 150 km at 75 km/hr. Time taken?",
+      "options": [
+        "4",
+        "2",
+        "8",
+        "0"
+      ],
+      "explanation": "Time = Distance/Speed = 150/75 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 150 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "4",
+        "2",
+        "8",
+        "0"
+      ],
+      "explanation": "Time = Distance/Speed = 150/75 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0063",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 150 km at 30 km/hr. Time taken?",
       "options": [
         "5",
+        "8",
+        "3",
+        "8"
+      ],
+      "explanation": "Time = Distance/Speed = 150/30 = 5 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 150 किमी at 30 किमी/hr. समय?",
+      "options": [
+        "5",
+        "8",
+        "3",
+        "8"
+      ],
+      "explanation": "Time = Distance/Speed = 150/30 = 5 hours."
+    }
+  },
+  {
+    "id": "ntsd-0064",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 180 km at 50 km/hr. Time taken?",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 180/50 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 180 किमी at 50 किमी/hr. समय?",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 180/50 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0065",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 150 km at 50 km/hr. Time taken?",
+      "options": [
+        "5",
+        "3",
+        "2",
+        "6"
+      ],
+      "explanation": "Time = Distance/Speed = 150/50 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 150 किमी at 50 किमी/hr. समय?",
+      "options": [
+        "5",
+        "3",
+        "2",
+        "6"
+      ],
+      "explanation": "Time = Distance/Speed = 150/50 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0066",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 60 km at 75 km/hr. Time taken?",
+      "options": [
+        "0",
+        "2",
+        "-2",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 60/75 = 0 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 60 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "0",
+        "2",
+        "-2",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 60/75 = 0 hours."
+    }
+  },
+  {
+    "id": "ntsd-0067",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 90 km at 30 km/hr. Time taken?",
+      "options": [
+        "2",
+        "3",
+        "2",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 90/30 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 90 किमी at 30 किमी/hr. समय?",
+      "options": [
+        "2",
+        "3",
+        "2",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 90/30 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0068",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 150 km at 50 km/hr. Time taken?",
+      "options": [
+        "3",
+        "2",
         "6",
+        "8"
+      ],
+      "explanation": "Time = Distance/Speed = 150/50 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 150 किमी at 50 किमी/hr. समय?",
+      "options": [
+        "3",
+        "2",
+        "6",
+        "8"
+      ],
+      "explanation": "Time = Distance/Speed = 150/50 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0069",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 90 km at 30 km/hr. Time taken?",
+      "options": [
+        "2",
+        "10",
+        "6",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 90/30 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 90 किमी at 30 किमी/hr. समय?",
+      "options": [
+        "2",
+        "10",
+        "6",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 90/30 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0070",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 240 km at 30 km/hr. Time taken?",
+      "options": [
+        "6",
+        "2",
+        "8",
+        "11"
+      ],
+      "explanation": "Time = Distance/Speed = 240/30 = 8 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 240 किमी at 30 किमी/hr. समय?",
+      "options": [
+        "6",
+        "2",
+        "8",
+        "11"
+      ],
+      "explanation": "Time = Distance/Speed = 240/30 = 8 hours."
+    }
+  },
+  {
+    "id": "ntsd-0071",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 150 km at 30 km/hr. Time taken?",
+      "options": [
+        "5",
+        "8",
+        "3",
+        "10"
+      ],
+      "explanation": "Time = Distance/Speed = 150/30 = 5 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 150 किमी at 30 किमी/hr. समय?",
+      "options": [
+        "5",
+        "8",
+        "3",
+        "10"
+      ],
+      "explanation": "Time = Distance/Speed = 150/30 = 5 hours."
+    }
+  },
+  {
+    "id": "ntsd-0072",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 180 km at 80 km/hr. Time taken?",
+      "options": [
+        "2",
+        "1",
         "4",
         "8"
       ],
-      "explanation": "6 km।"
-    }
-  },
-  {
-    "id": "nmtsd-0020",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A to B at 40km/h, B to A at 60km/h. Total time 10h. Distance?",
-      "options": [
-        "200km",
-        "280km",
-        "240km",
-        "300km"
-      ],
-      "explanation": "d/40+d/60=10. (3d+2d)/120=10. 5d=1200, d=240km."
+      "explanation": "Time = Distance/Speed = 180/80 = 2 hours."
     },
     "hi": {
-      "question": "40km/h से जाकर 60km/h से लौटे, 10घं कुल। दूरी?",
-      "options": [
-        "200",
-        "280",
-        "240",
-        "300"
-      ],
-      "explanation": "240 km।"
-    }
-  },
-  {
-    "id": "nmtsd-0021",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Speed 90 km/h = ? m/s",
-      "options": [
-        "25",
-        "20",
-        "30",
-        "15"
-      ],
-      "explanation": "90×5/18=25 m/s."
-    },
-    "hi": {
-      "question": "90 km/h = ? m/s",
-      "options": [
-        "25",
-        "20",
-        "30",
-        "15"
-      ],
-      "explanation": "25 m/s।"
-    }
-  },
-  {
-    "id": "nmtsd-0022",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A starts at 8 AM at 10 km/h. B starts at 9 AM at 15 km/h. When will B catch A?",
-      "options": [
-        "10 AM",
-        "11 AM",
-        "10:30 AM",
-        "11:30 AM"
-      ],
-      "explanation": "In 1h A covers 10km. B gains 5km/h. Time=10/5=2h after 9AM=11AM."
-    },
-    "hi": {
-      "question": "A 8AM पर 10km/h, B 9AM पर 15km/h। B कब पकड़ेगा?",
-      "options": [
-        "10 AM",
-        "11 AM",
-        "10:30",
-        "11:30"
-      ],
-      "explanation": "11 बजे।"
-    }
-  },
-  {
-    "id": "nmtsd-0023",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train crosses telegraph pole in 9s and platform 300m in 21s. Length?",
-      "options": [
-        "200m",
-        "250m",
-        "225m",
-        "275m"
-      ],
-      "explanation": "L/v=9, (L+300)/v=21. (L+300)/L=21/9=7/3. 3L+900=7L. 4L=900. L=225m."
-    },
-    "hi": {
-      "question": "ट्रेन खंभा 9s, 300m प्लेटफॉर्म 21s। लंबाई?",
-      "options": [
-        "200",
-        "250",
-        "225",
-        "275"
-      ],
-      "explanation": "225m।"
-    }
-  },
-  {
-    "id": "nmtsd-0024",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If speed is increased by 25%, time reduces by?",
-      "options": [
-        "20%",
-        "25%",
-        "15%",
-        "30%"
-      ],
-      "explanation": "Speed×time=constant. Speed=1.25, time=1/1.25=0.8. Reduction=20%."
-    },
-    "hi": {
-      "question": "चाल 25% बढ़ाई, समय में कमी?",
-      "options": [
-        "20%",
-        "25%",
-        "15%",
-        "30%"
-      ],
-      "explanation": "20% कमी।"
-    }
-  },
-  {
-    "id": "nmtsd-0025",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A train 180m long at 54 km/h. Time to cross 120m bridge?",
-      "options": [
-        "15s",
-        "25s",
-        "30s",
-        "20s"
-      ],
-      "explanation": "Speed=15m/s. Dist=300m. t=300/15=20s."
-    },
-    "hi": {
-      "question": "180m ट्रेन 54km/h, 120m पुल?",
-      "options": [
-        "15",
-        "25",
-        "30",
-        "20"
-      ],
-      "explanation": "20 सेकंड।"
-    }
-  },
-  {
-    "id": "nmtsd-0026",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Two cities 360km apart. Trains start at same time, speeds 50 and 70 km/h. When do they meet?",
-      "options": [
-        "2h",
-        "3h",
-        "4h",
-        "2.5h"
-      ],
-      "explanation": "Rel speed=120km/h. Time=360/120=3h."
-    },
-    "hi": {
-      "question": "360km दूर, 50+70km/h से एक साथ। कब मिलेंगी?",
+      "question": "A वाहन travels 180 किमी at 80 किमी/hr. समय?",
       "options": [
         "2",
+        "1",
+        "4",
+        "8"
+      ],
+      "explanation": "Time = Distance/Speed = 180/80 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0073",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 90 km at 80 km/hr. Time taken?",
+      "options": [
+        "4",
+        "1",
+        "-1",
+        "10"
+      ],
+      "explanation": "Time = Distance/Speed = 90/80 = 1 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 90 किमी at 80 किमी/hr. समय?",
+      "options": [
+        "4",
+        "1",
+        "-1",
+        "10"
+      ],
+      "explanation": "Time = Distance/Speed = 90/80 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0074",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 150 km at 40 km/hr. Time taken?",
+      "options": [
+        "3",
         "3",
         "4",
-        "2.5"
-      ],
-      "explanation": "3 घंटे।"
-    }
-  },
-  {
-    "id": "nmtsd-0027",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train passes 162m platform in 18s and another 120m platform in 15s. Length?",
-      "options": [
-        "80m",
-        "100m",
-        "90m",
-        "110m"
-      ],
-      "explanation": "(L+162)/18=(L+120)/15. 15L+2430=18L+2160. 3L=270. L=90m."
-    },
-    "hi": {
-      "question": "162m प्लेटफॉर्म 18s, 120m 15s। लंबाई?",
-      "options": [
-        "80",
-        "100",
-        "90",
-        "110"
-      ],
-      "explanation": "90m।"
-    }
-  },
-  {
-    "id": "nmtsd-0028",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "72 km/h = ? m/s",
-      "options": [
-        "20 m/s",
-        "25",
-        "15",
-        "30"
-      ],
-      "explanation": "72×5/18=20 m/s."
-    },
-    "hi": {
-      "question": "72 km/h = ? m/s",
-      "options": [
-        "20",
-        "25",
-        "15",
-        "30"
-      ],
-      "explanation": "20 m/s।"
-    }
-  },
-  {
-    "id": "nmtsd-0029",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train crosses man in 6s and 200m bridge in 16s. Length?",
-      "options": [
-        "100m",
-        "120m",
-        "80m",
-        "140m"
-      ],
-      "explanation": "L/v=6, (L+200)/v=16. (L+200)/L=16/6=8/3. 3L+600=8L. 5L=600. L=120m."
-    },
-    "hi": {
-      "question": "आदमी 6s, 200m पुल 16s। लंबाई?",
-      "options": [
-        "100",
-        "120",
-        "80",
-        "140"
-      ],
-      "explanation": "120m।"
-    }
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 33 km/hr for 3 hrs. Distance?",
-      "options": [
-        "49 km",
-        "36 km",
-        "99 km",
-        "198 km"
-      ],
-      "explanation": "Distance = Speed×Time = 33×3 = 99 km."
-    },
-    "hi": {
-      "question": "33 किमी/घंटा से 3 घंटे। दूरी?",
-      "options": [
-        "49 km",
-        "36 km",
-        "99 km",
-        "198 km"
-      ],
-      "explanation": "दूरी = 33×3 = 99 किमी।"
-    },
-    "id": "nmtsd-0030"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 479m crosses platform 231m in 41.8s. Speed in km/hr?",
-      "options": [
-        "61.1",
-        "60",
-        "17.0",
-        "91.7"
-      ],
-      "explanation": "Dist=479+231=710m. Speed=16.99m/s = 61.1km/hr."
-    },
-    "hi": {
-      "question": "479मी ट्रेन 231मी प्लेटफॉर्म 41.8सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "61.1",
-        "60",
-        "17.0",
-        "91.7"
-      ],
-      "explanation": "दूरी=710मी। चाल=61.1किमी/घंटा।"
-    },
-    "id": "nmtsd-0031"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 180m crosses platform 578m in 31.6s. Speed in km/hr?",
-      "options": [
-        "129.5",
-        "60",
-        "24.0",
-        "86.4"
-      ],
-      "explanation": "Dist=180+578=758m. Speed=23.99m/s = 86.4km/hr."
-    },
-    "hi": {
-      "question": "180मी ट्रेन 578मी प्लेटफॉर्म 31.6सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "129.5",
-        "60",
-        "24.0",
-        "86.4"
-      ],
-      "explanation": "दूरी=758मी। चाल=86.4किमी/घंटा।"
-    },
-    "id": "nmtsd-0032"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 50 km/hr for 1 hrs. Distance?",
-      "options": [
-        "50 km",
-        "25 km",
-        "100 km",
-        "51 km"
-      ],
-      "explanation": "Distance = Speed×Time = 50×1 = 50 km."
-    },
-    "hi": {
-      "question": "50 किमी/घंटा से 1 घंटे। दूरी?",
-      "options": [
-        "50 km",
-        "25 km",
-        "100 km",
-        "51 km"
-      ],
-      "explanation": "दूरी = 50×1 = 50 किमी।"
-    },
-    "id": "nmtsd-0033"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 83 km/hr for 5 hrs. Distance?",
-      "options": [
-        "88 km",
-        "207 km",
-        "830 km",
-        "415 km"
-      ],
-      "explanation": "Distance = Speed×Time = 83×5 = 415 km."
-    },
-    "hi": {
-      "question": "83 किमी/घंटा से 5 घंटे। दूरी?",
-      "options": [
-        "88 km",
-        "207 km",
-        "830 km",
-        "415 km"
-      ],
-      "explanation": "दूरी = 83×5 = 415 किमी।"
-    },
-    "id": "nmtsd-0034"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 123m crosses platform 425m in 20.3s. Speed in km/hr?",
-      "options": [
-        "145.8",
-        "60",
-        "27.0",
-        "97.2"
-      ],
-      "explanation": "Dist=123+425=548m. Speed=27.0m/s = 97.2km/hr."
-    },
-    "hi": {
-      "question": "123मी ट्रेन 425मी प्लेटफॉर्म 20.3सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "145.8",
-        "60",
-        "27.0",
-        "97.2"
-      ],
-      "explanation": "दूरी=548मी। चाल=97.2किमी/घंटा।"
-    },
-    "id": "nmtsd-0035"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 68 km/hr for 4 hrs. Distance?",
-      "options": [
-        "544 km",
-        "72 km",
-        "272 km",
-        "136 km"
-      ],
-      "explanation": "Distance = Speed×Time = 68×4 = 272 km."
-    },
-    "hi": {
-      "question": "68 किमी/घंटा से 4 घंटे। दूरी?",
-      "options": [
-        "544 km",
-        "72 km",
-        "272 km",
-        "136 km"
-      ],
-      "explanation": "दूरी = 68×4 = 272 किमी।"
-    },
-    "id": "nmtsd-0036"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 189m crosses platform 332m in 19.3s. Speed in km/hr?",
-      "options": [
-        "97.2",
-        "27.0",
-        "60",
-        "145.8"
-      ],
-      "explanation": "Dist=189+332=521m. Speed=26.99m/s = 97.2km/hr."
-    },
-    "hi": {
-      "question": "189मी ट्रेन 332मी प्लेटफॉर्म 19.3सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "97.2",
-        "27.0",
-        "60",
-        "145.8"
-      ],
-      "explanation": "दूरी=521मी। चाल=97.2किमी/घंटा।"
-    },
-    "id": "nmtsd-0037"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 39 km/hr for 7 hrs. Distance?",
-      "options": [
-        "46 km",
-        "136 km",
-        "546 km",
-        "273 km"
-      ],
-      "explanation": "Distance = Speed×Time = 39×7 = 273 km."
-    },
-    "hi": {
-      "question": "39 किमी/घंटा से 7 घंटे। दूरी?",
-      "options": [
-        "46 km",
-        "136 km",
-        "546 km",
-        "273 km"
-      ],
-      "explanation": "दूरी = 39×7 = 273 किमी।"
-    },
-    "id": "nmtsd-0038"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 103 km/hr for 7 hrs. Distance?",
-      "options": [
-        "360 km",
-        "110 km",
-        "1442 km",
-        "721 km"
-      ],
-      "explanation": "Distance = Speed×Time = 103×7 = 721 km."
-    },
-    "hi": {
-      "question": "103 किमी/घंटा से 7 घंटे। दूरी?",
-      "options": [
-        "360 km",
-        "110 km",
-        "1442 km",
-        "721 km"
-      ],
-      "explanation": "दूरी = 103×7 = 721 किमी।"
-    },
-    "id": "nmtsd-0039"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 109 km/hr for 8 hrs. Distance?",
-      "options": [
-        "436 km",
-        "1744 km",
-        "117 km",
-        "872 km"
-      ],
-      "explanation": "Distance = Speed×Time = 109×8 = 872 km."
-    },
-    "hi": {
-      "question": "109 किमी/घंटा से 8 घंटे। दूरी?",
-      "options": [
-        "436 km",
-        "1744 km",
-        "117 km",
-        "872 km"
-      ],
-      "explanation": "दूरी = 109×8 = 872 किमी।"
-    },
-    "id": "nmtsd-0040"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 368m crosses platform 280m in 24.0s. Speed in km/hr?",
-      "options": [
-        "27.0",
-        "145.8",
-        "97.2",
-        "60"
-      ],
-      "explanation": "Dist=368+280=648m. Speed=27.0m/s = 97.2km/hr."
-    },
-    "hi": {
-      "question": "368मी ट्रेन 280मी प्लेटफॉर्म 24.0सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "27.0",
-        "145.8",
-        "97.2",
-        "60"
-      ],
-      "explanation": "दूरी=648मी। चाल=97.2किमी/घंटा।"
-    },
-    "id": "nmtsd-0041"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 361m crosses platform 316m in 21.8s. Speed in km/hr?",
-      "options": [
-        "31.1",
-        "111.8",
-        "167.7",
-        "60"
-      ],
-      "explanation": "Dist=361+316=677m. Speed=31.06m/s = 111.8km/hr."
-    },
-    "hi": {
-      "question": "361मी ट्रेन 316मी प्लेटफॉर्म 21.8सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "31.1",
-        "111.8",
-        "167.7",
-        "60"
-      ],
-      "explanation": "दूरी=677मी। चाल=111.8किमी/घंटा।"
-    },
-    "id": "nmtsd-0042"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 60 km/hr for 2 hrs. Distance?",
-      "options": [
-        "62 km",
-        "120 km",
-        "60 km",
-        "240 km"
-      ],
-      "explanation": "Distance = Speed×Time = 60×2 = 120 km."
-    },
-    "hi": {
-      "question": "60 किमी/घंटा से 2 घंटे। दूरी?",
-      "options": [
-        "62 km",
-        "120 km",
-        "60 km",
-        "240 km"
-      ],
-      "explanation": "दूरी = 60×2 = 120 किमी।"
-    },
-    "id": "nmtsd-0043"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 337m crosses platform 777m in 28.6s. Speed in km/hr?",
-      "options": [
-        "140.2",
-        "210.3",
-        "39.0",
-        "60"
-      ],
-      "explanation": "Dist=337+777=1114m. Speed=38.95m/s = 140.2km/hr."
-    },
-    "hi": {
-      "question": "337मी ट्रेन 777मी प्लेटफॉर्म 28.6सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "140.2",
-        "210.3",
-        "39.0",
-        "60"
-      ],
-      "explanation": "दूरी=1114मी। चाल=140.2किमी/घंटा।"
-    },
-    "id": "nmtsd-0044"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 134m crosses platform 680m in 28.1s. Speed in km/hr?",
-      "options": [
-        "156.4",
-        "104.3",
-        "29.0",
-        "60"
-      ],
-      "explanation": "Dist=134+680=814m. Speed=28.97m/s = 104.3km/hr."
-    },
-    "hi": {
-      "question": "134मी ट्रेन 680मी प्लेटफॉर्म 28.1सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "156.4",
-        "104.3",
-        "29.0",
-        "60"
-      ],
-      "explanation": "दूरी=814मी। चाल=104.3किमी/घंटा।"
-    },
-    "id": "nmtsd-0045"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 75 km/hr for 2 hrs. Distance?",
-      "options": [
-        "77 km",
-        "150 km",
-        "300 km",
-        "75 km"
-      ],
-      "explanation": "Distance = Speed×Time = 75×2 = 150 km."
-    },
-    "hi": {
-      "question": "75 किमी/घंटा से 2 घंटे। दूरी?",
-      "options": [
-        "77 km",
-        "150 km",
-        "300 km",
-        "75 km"
-      ],
-      "explanation": "दूरी = 75×2 = 150 किमी।"
-    },
-    "id": "nmtsd-0046"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 112 km/hr for 2 hrs. Distance?",
-      "options": [
-        "112 km",
-        "114 km",
-        "448 km",
-        "224 km"
-      ],
-      "explanation": "Distance = Speed×Time = 112×2 = 224 km."
-    },
-    "hi": {
-      "question": "112 किमी/घंटा से 2 घंटे। दूरी?",
-      "options": [
-        "112 km",
-        "114 km",
-        "448 km",
-        "224 km"
-      ],
-      "explanation": "दूरी = 112×2 = 224 किमी।"
-    },
-    "id": "nmtsd-0047"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 71 km/hr for 8 hrs. Distance?",
-      "options": [
-        "1136 km",
-        "568 km",
-        "79 km",
-        "284 km"
-      ],
-      "explanation": "Distance = Speed×Time = 71×8 = 568 km."
-    },
-    "hi": {
-      "question": "71 किमी/घंटा से 8 घंटे। दूरी?",
-      "options": [
-        "1136 km",
-        "568 km",
-        "79 km",
-        "284 km"
-      ],
-      "explanation": "दूरी = 71×8 = 568 किमी।"
-    },
-    "id": "nmtsd-0048"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 94 km/hr for 3 hrs. Distance?",
-      "options": [
-        "564 km",
-        "282 km",
-        "141 km",
-        "97 km"
-      ],
-      "explanation": "Distance = Speed×Time = 94×3 = 282 km."
-    },
-    "hi": {
-      "question": "94 किमी/घंटा से 3 घंटे। दूरी?",
-      "options": [
-        "564 km",
-        "282 km",
-        "141 km",
-        "97 km"
-      ],
-      "explanation": "दूरी = 94×3 = 282 किमी।"
-    },
-    "id": "nmtsd-0049"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 244m crosses platform 596m in 30.0s. Speed in km/hr?",
-      "options": [
-        "28.0",
-        "151.2",
-        "60",
-        "100.8"
-      ],
-      "explanation": "Dist=244+596=840m. Speed=28.0m/s = 100.8km/hr."
-    },
-    "hi": {
-      "question": "244मी ट्रेन 596मी प्लेटफॉर्म 30.0सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "28.0",
-        "151.2",
-        "60",
-        "100.8"
-      ],
-      "explanation": "दूरी=840मी। चाल=100.8किमी/घंटा।"
-    },
-    "id": "nmtsd-0050"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 38 km/hr for 6 hrs. Distance?",
-      "options": [
-        "456 km",
-        "228 km",
-        "44 km",
-        "114 km"
-      ],
-      "explanation": "Distance = Speed×Time = 38×6 = 228 km."
-    },
-    "hi": {
-      "question": "38 किमी/घंटा से 6 घंटे। दूरी?",
-      "options": [
-        "456 km",
-        "228 km",
-        "44 km",
-        "114 km"
-      ],
-      "explanation": "दूरी = 38×6 = 228 किमी।"
-    },
-    "id": "nmtsd-0051"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 72 km/hr for 2 hrs. Distance?",
-      "options": [
-        "288 km",
-        "72 km",
-        "144 km",
-        "74 km"
-      ],
-      "explanation": "Distance = Speed×Time = 72×2 = 144 km."
-    },
-    "hi": {
-      "question": "72 किमी/घंटा से 2 घंटे। दूरी?",
-      "options": [
-        "288 km",
-        "72 km",
-        "144 km",
-        "74 km"
-      ],
-      "explanation": "दूरी = 72×2 = 144 किमी।"
-    },
-    "id": "nmtsd-0052"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 429m crosses platform 536m in 50.8s. Speed in km/hr?",
-      "options": [
-        "19.0",
-        "102.6",
-        "60",
-        "68.4"
-      ],
-      "explanation": "Dist=429+536=965m. Speed=19.0m/s = 68.4km/hr."
-    },
-    "hi": {
-      "question": "429मी ट्रेन 536मी प्लेटफॉर्म 50.8सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "19.0",
-        "102.6",
-        "60",
-        "68.4"
-      ],
-      "explanation": "दूरी=965मी। चाल=68.4किमी/घंटा।"
-    },
-    "id": "nmtsd-0053"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 95 km/hr for 6 hrs. Distance?",
-      "options": [
-        "570 km",
-        "285 km",
-        "101 km",
-        "1140 km"
-      ],
-      "explanation": "Distance = Speed×Time = 95×6 = 570 km."
-    },
-    "hi": {
-      "question": "95 किमी/घंटा से 6 घंटे। दूरी?",
-      "options": [
-        "570 km",
-        "285 km",
-        "101 km",
-        "1140 km"
-      ],
-      "explanation": "दूरी = 95×6 = 570 किमी।"
-    },
-    "id": "nmtsd-0054"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 54 km/hr for 4 hrs. Distance?",
-      "options": [
-        "432 km",
-        "58 km",
-        "108 km",
-        "216 km"
-      ],
-      "explanation": "Distance = Speed×Time = 54×4 = 216 km."
-    },
-    "hi": {
-      "question": "54 किमी/घंटा से 4 घंटे। दूरी?",
-      "options": [
-        "432 km",
-        "58 km",
-        "108 km",
-        "216 km"
-      ],
-      "explanation": "दूरी = 54×4 = 216 किमी।"
-    },
-    "id": "nmtsd-0055"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 114 km/hr for 6 hrs. Distance?",
-      "options": [
-        "120 km",
-        "342 km",
-        "684 km",
-        "1368 km"
-      ],
-      "explanation": "Distance = Speed×Time = 114×6 = 684 km."
-    },
-    "hi": {
-      "question": "114 किमी/घंटा से 6 घंटे। दूरी?",
-      "options": [
-        "120 km",
-        "342 km",
-        "684 km",
-        "1368 km"
-      ],
-      "explanation": "दूरी = 114×6 = 684 किमी।"
-    },
-    "id": "nmtsd-0056"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 310m crosses platform 573m in 24.5s. Speed in km/hr?",
-      "options": [
-        "129.7",
-        "194.6",
-        "60",
-        "36.0"
-      ],
-      "explanation": "Dist=310+573=883m. Speed=36.04m/s = 129.7km/hr."
-    },
-    "hi": {
-      "question": "310मी ट्रेन 573मी प्लेटफॉर्म 24.5सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "129.7",
-        "194.6",
-        "60",
-        "36.0"
-      ],
-      "explanation": "दूरी=883मी। चाल=129.7किमी/घंटा।"
-    },
-    "id": "nmtsd-0057"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 373m crosses platform 444m in 34.0s. Speed in km/hr?",
-      "options": [
-        "60",
-        "129.8",
-        "86.5",
-        "24.0"
-      ],
-      "explanation": "Dist=373+444=817m. Speed=24.03m/s = 86.5km/hr."
-    },
-    "hi": {
-      "question": "373मी ट्रेन 444मी प्लेटफॉर्म 34.0सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "60",
-        "129.8",
-        "86.5",
-        "24.0"
-      ],
-      "explanation": "दूरी=817मी। चाल=86.5किमी/घंटा।"
-    },
-    "id": "nmtsd-0058"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 116 km/hr for 8 hrs. Distance?",
-      "options": [
-        "1856 km",
-        "464 km",
-        "928 km",
-        "124 km"
-      ],
-      "explanation": "Distance = Speed×Time = 116×8 = 928 km."
-    },
-    "hi": {
-      "question": "116 किमी/घंटा से 8 घंटे। दूरी?",
-      "options": [
-        "1856 km",
-        "464 km",
-        "928 km",
-        "124 km"
-      ],
-      "explanation": "दूरी = 116×8 = 928 किमी।"
-    },
-    "id": "nmtsd-0059"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 107 km/hr for 3 hrs. Distance?",
-      "options": [
-        "642 km",
-        "321 km",
-        "110 km",
-        "160 km"
-      ],
-      "explanation": "Distance = Speed×Time = 107×3 = 321 km."
-    },
-    "hi": {
-      "question": "107 किमी/घंटा से 3 घंटे। दूरी?",
-      "options": [
-        "642 km",
-        "321 km",
-        "110 km",
-        "160 km"
-      ],
-      "explanation": "दूरी = 107×3 = 321 किमी।"
-    },
-    "id": "nmtsd-0060"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 96 km/hr for 2 hrs. Distance?",
-      "options": [
-        "384 km",
-        "192 km",
-        "96 km",
-        "98 km"
-      ],
-      "explanation": "Distance = Speed×Time = 96×2 = 192 km."
-    },
-    "hi": {
-      "question": "96 किमी/घंटा से 2 घंटे। दूरी?",
-      "options": [
-        "384 km",
-        "192 km",
-        "96 km",
-        "98 km"
-      ],
-      "explanation": "दूरी = 96×2 = 192 किमी।"
-    },
-    "id": "nmtsd-0061"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 213m crosses platform 661m in 33.6s. Speed in km/hr?",
-      "options": [
-        "60",
-        "140.5",
-        "93.6",
-        "26.0"
-      ],
-      "explanation": "Dist=213+661=874m. Speed=26.01m/s = 93.6km/hr."
-    },
-    "hi": {
-      "question": "213मी ट्रेन 661मी प्लेटफॉर्म 33.6सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "60",
-        "140.5",
-        "93.6",
-        "26.0"
-      ],
-      "explanation": "दूरी=874मी। चाल=93.6किमी/घंटा।"
-    },
-    "id": "nmtsd-0062"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 94 km/hr for 6 hrs. Distance?",
-      "options": [
-        "282 km",
-        "100 km",
-        "1128 km",
-        "564 km"
-      ],
-      "explanation": "Distance = Speed×Time = 94×6 = 564 km."
-    },
-    "hi": {
-      "question": "94 किमी/घंटा से 6 घंटे। दूरी?",
-      "options": [
-        "282 km",
-        "100 km",
-        "1128 km",
-        "564 km"
-      ],
-      "explanation": "दूरी = 94×6 = 564 किमी।"
-    },
-    "id": "nmtsd-0063"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 113 km/hr for 6 hrs. Distance?",
-      "options": [
-        "1356 km",
-        "678 km",
-        "339 km",
-        "119 km"
-      ],
-      "explanation": "Distance = Speed×Time = 113×6 = 678 km."
-    },
-    "hi": {
-      "question": "113 किमी/घंटा से 6 घंटे। दूरी?",
-      "options": [
-        "1356 km",
-        "678 km",
-        "339 km",
-        "119 km"
-      ],
-      "explanation": "दूरी = 113×6 = 678 किमी।"
-    },
-    "id": "nmtsd-0064"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 120 km/hr for 8 hrs. Distance?",
-      "options": [
-        "480 km",
-        "128 km",
-        "960 km",
-        "1920 km"
-      ],
-      "explanation": "Distance = Speed×Time = 120×8 = 960 km."
-    },
-    "hi": {
-      "question": "120 किमी/घंटा से 8 घंटे। दूरी?",
-      "options": [
-        "480 km",
-        "128 km",
-        "960 km",
-        "1920 km"
-      ],
-      "explanation": "दूरी = 120×8 = 960 किमी।"
-    },
-    "id": "nmtsd-0065"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 44 km/hr for 5 hrs. Distance?",
-      "options": [
-        "220 km",
-        "440 km",
-        "110 km",
-        "49 km"
-      ],
-      "explanation": "Distance = Speed×Time = 44×5 = 220 km."
-    },
-    "hi": {
-      "question": "44 किमी/घंटा से 5 घंटे। दूरी?",
-      "options": [
-        "220 km",
-        "440 km",
-        "110 km",
-        "49 km"
-      ],
-      "explanation": "दूरी = 44×5 = 220 किमी।"
-    },
-    "id": "nmtsd-0066"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 355m crosses platform 748m in 73.5s. Speed in km/hr?",
-      "options": [
-        "15.0",
-        "54.0",
-        "60",
-        "81.0"
-      ],
-      "explanation": "Dist=355+748=1103m. Speed=15.01m/s = 54.0km/hr."
-    },
-    "hi": {
-      "question": "355मी ट्रेन 748मी प्लेटफॉर्म 73.5सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "15.0",
-        "54.0",
-        "60",
-        "81.0"
-      ],
-      "explanation": "दूरी=1103मी। चाल=54.0किमी/घंटा।"
-    },
-    "id": "nmtsd-0067"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 100m crosses platform 561m in 30.0s. Speed in km/hr?",
-      "options": [
-        "22.0",
-        "79.3",
-        "60",
-        "119.0"
-      ],
-      "explanation": "Dist=100+561=661m. Speed=22.03m/s = 79.3km/hr."
-    },
-    "hi": {
-      "question": "100मी ट्रेन 561मी प्लेटफॉर्म 30.0सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "22.0",
-        "79.3",
-        "60",
-        "119.0"
-      ],
-      "explanation": "दूरी=661मी। चाल=79.3किमी/घंटा।"
-    },
-    "id": "nmtsd-0068"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 134m crosses platform 738m in 27.2s. Speed in km/hr?",
-      "options": [
-        "32.1",
-        "60",
-        "173.1",
-        "115.4"
-      ],
-      "explanation": "Dist=134+738=872m. Speed=32.06m/s = 115.4km/hr."
-    },
-    "hi": {
-      "question": "134मी ट्रेन 738मी प्लेटफॉर्म 27.2सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "32.1",
-        "60",
-        "173.1",
-        "115.4"
-      ],
-      "explanation": "दूरी=872मी। चाल=115.4किमी/घंटा।"
-    },
-    "id": "nmtsd-0069"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 35 km/hr for 7 hrs. Distance?",
-      "options": [
-        "122 km",
-        "42 km",
-        "490 km",
-        "245 km"
-      ],
-      "explanation": "Distance = Speed×Time = 35×7 = 245 km."
-    },
-    "hi": {
-      "question": "35 किमी/घंटा से 7 घंटे। दूरी?",
-      "options": [
-        "122 km",
-        "42 km",
-        "490 km",
-        "245 km"
-      ],
-      "explanation": "दूरी = 35×7 = 245 किमी।"
-    },
-    "id": "nmtsd-0070"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 495m crosses platform 795m in 33.9s. Speed in km/hr?",
-      "options": [
-        "60",
-        "38.1",
-        "137.0",
-        "205.5"
-      ],
-      "explanation": "Dist=495+795=1290m. Speed=38.05m/s = 137.0km/hr."
-    },
-    "hi": {
-      "question": "495मी ट्रेन 795मी प्लेटफॉर्म 33.9सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "60",
-        "38.1",
-        "137.0",
-        "205.5"
-      ],
-      "explanation": "दूरी=1290मी। चाल=137.0किमी/घंटा।"
-    },
-    "id": "nmtsd-0071"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 429m crosses platform 379m in 20.7s. Speed in km/hr?",
-      "options": [
-        "210.8",
-        "140.5",
-        "60",
-        "39.0"
-      ],
-      "explanation": "Dist=429+379=808m. Speed=39.03m/s = 140.5km/hr."
-    },
-    "hi": {
-      "question": "429मी ट्रेन 379मी प्लेटफॉर्म 20.7सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "210.8",
-        "140.5",
-        "60",
-        "39.0"
-      ],
-      "explanation": "दूरी=808मी। चाल=140.5किमी/घंटा।"
-    },
-    "id": "nmtsd-0072"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 47 km/hr for 2 hrs. Distance?",
-      "options": [
-        "188 km",
-        "47 km",
-        "49 km",
-        "94 km"
-      ],
-      "explanation": "Distance = Speed×Time = 47×2 = 94 km."
-    },
-    "hi": {
-      "question": "47 किमी/घंटा से 2 घंटे। दूरी?",
-      "options": [
-        "188 km",
-        "47 km",
-        "49 km",
-        "94 km"
-      ],
-      "explanation": "दूरी = 47×2 = 94 किमी।"
-    },
-    "id": "nmtsd-0073"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 70 km/hr for 5 hrs. Distance?",
-      "options": [
-        "700 km",
-        "75 km",
-        "175 km",
-        "350 km"
-      ],
-      "explanation": "Distance = Speed×Time = 70×5 = 350 km."
-    },
-    "hi": {
-      "question": "70 किमी/घंटा से 5 घंटे। दूरी?",
-      "options": [
-        "700 km",
-        "75 km",
-        "175 km",
-        "350 km"
-      ],
-      "explanation": "दूरी = 70×5 = 350 किमी।"
-    },
-    "id": "nmtsd-0074"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 66 km/hr for 6 hrs. Distance?",
-      "options": [
-        "72 km",
-        "198 km",
-        "792 km",
-        "396 km"
-      ],
-      "explanation": "Distance = Speed×Time = 66×6 = 396 km."
-    },
-    "hi": {
-      "question": "66 किमी/घंटा से 6 घंटे। दूरी?",
-      "options": [
-        "72 km",
-        "198 km",
-        "792 km",
-        "396 km"
-      ],
-      "explanation": "दूरी = 66×6 = 396 किमी।"
-    },
-    "id": "nmtsd-0075"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 81 km/hr for 8 hrs. Distance?",
-      "options": [
-        "648 km",
-        "324 km",
-        "1296 km",
-        "89 km"
-      ],
-      "explanation": "Distance = Speed×Time = 81×8 = 648 km."
-    },
-    "hi": {
-      "question": "81 किमी/घंटा से 8 घंटे। दूरी?",
-      "options": [
-        "648 km",
-        "324 km",
-        "1296 km",
-        "89 km"
-      ],
-      "explanation": "दूरी = 81×8 = 648 किमी।"
-    },
-    "id": "nmtsd-0076"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 140m crosses platform 640m in 22.9s. Speed in km/hr?",
-      "options": [
-        "122.6",
-        "34.1",
-        "60",
-        "183.9"
-      ],
-      "explanation": "Dist=140+640=780m. Speed=34.06m/s = 122.6km/hr."
-    },
-    "hi": {
-      "question": "140मी ट्रेन 640मी प्लेटफॉर्म 22.9सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "122.6",
-        "34.1",
-        "60",
-        "183.9"
-      ],
-      "explanation": "दूरी=780मी। चाल=122.6किमी/घंटा।"
-    },
-    "id": "nmtsd-0077"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 71 km/hr for 2 hrs. Distance?",
-      "options": [
-        "142 km",
-        "284 km",
-        "71 km",
-        "73 km"
-      ],
-      "explanation": "Distance = Speed×Time = 71×2 = 142 km."
-    },
-    "hi": {
-      "question": "71 किमी/घंटा से 2 घंटे। दूरी?",
-      "options": [
-        "142 km",
-        "284 km",
-        "71 km",
-        "73 km"
-      ],
-      "explanation": "दूरी = 71×2 = 142 किमी।"
-    },
-    "id": "nmtsd-0078"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Train 279m crosses platform 657m in 58.5s. Speed in km/hr?",
-      "options": [
-        "57.6",
-        "86.4",
-        "16.0",
-        "60"
-      ],
-      "explanation": "Dist=279+657=936m. Speed=16.0m/s = 57.6km/hr."
-    },
-    "hi": {
-      "question": "279मी ट्रेन 657मी प्लेटफॉर्म 58.5सेकंड में। चाल किमी/घंटा?",
-      "options": [
-        "57.6",
-        "86.4",
-        "16.0",
-        "60"
-      ],
-      "explanation": "दूरी=936मी। चाल=57.6किमी/घंटा।"
-    },
-    "id": "nmtsd-0079"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 41 and 32?",
-      "options": [
-        "73",
-        "1312",
-        "1312",
         "1"
       ],
-      "explanation": "LCM=1312/1=1312."
+      "explanation": "Time = Distance/Speed = 150/40 = 3 hours."
     },
     "hi": {
-      "question": "41 और 32 का ल.स.?",
+      "question": "A वाहन travels 150 किमी at 40 किमी/hr. समय?",
       "options": [
-        "73",
-        "1312",
-        "1312",
+        "3",
+        "3",
+        "4",
         "1"
       ],
-      "explanation": "ल.स.=1312।"
-    },
-    "id": "nmtsd-0080"
+      "explanation": "Time = Distance/Speed = 150/40 = 3 hours."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A=11d, B=4d. Together?",
-      "options": [
-        "15d",
-        "5.8d",
-        "2.9d",
-        "7d"
-      ],
-      "explanation": "1d: 1/11+1/4. Time=2.9d."
-    },
-    "hi": {
-      "question": "A=11दिन, B=4दिन। साथ?",
-      "options": [
-        "15d",
-        "5.8d",
-        "2.9d",
-        "7d"
-      ],
-      "explanation": "1दिन: 1/11+1/4। समय=2.9दिन।"
-    },
-    "id": "nmtsd-0081"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 10×7cm. Area?",
-      "options": [
-        "140 cm²",
-        "34 cm²",
-        "17 cm²",
-        "70 cm²"
-      ],
-      "explanation": "Area=10×7=70 cm²."
-    },
-    "hi": {
-      "question": "आयत 10×7सेमी। क्षेत्रफल?",
-      "options": [
-        "140 cm²",
-        "34 cm²",
-        "17 cm²",
-        "70 cm²"
-      ],
-      "explanation": "क्षेत्रफल=10×7=70 वर्ग सेमी।"
-    },
-    "id": "nmtsd-0082"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "23% of 130?",
-      "options": [
-        "130",
-        "260",
-        "299",
-        "65"
-      ],
-      "explanation": "130×23/100=299."
-    },
-    "hi": {
-      "question": "130 का 23%?",
-      "options": [
-        "130",
-        "260",
-        "299",
-        "65"
-      ],
-      "explanation": "130×23/100=299।"
-    },
-    "id": "nmtsd-0083"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 49 + 18 × 2",
-      "options": [
-        "1764",
-        "134",
-        "85",
-        "69"
-      ],
-      "explanation": "BODMAS: 18×2=36+49=85."
-    },
-    "hi": {
-      "question": "सरल: 49 + 18 × 2",
-      "options": [
-        "1764",
-        "134",
-        "85",
-        "69"
-      ],
-      "explanation": "BODMAS: 85।"
-    },
-    "id": "nmtsd-0084"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "21% of 70?",
-      "options": [
-        "147",
-        "70",
-        "35",
-        "140"
-      ],
-      "explanation": "70×21/100=147."
-    },
-    "hi": {
-      "question": "70 का 21%?",
-      "options": [
-        "147",
-        "70",
-        "35",
-        "140"
-      ],
-      "explanation": "70×21/100=147।"
-    },
-    "id": "nmtsd-0085"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 1504 in 6:10. Larger?",
-      "options": [
-        "940",
-        "752",
-        "1504",
-        "564"
-      ],
-      "explanation": "Parts=16. Shares: 564, 940. Larger=940."
-    },
-    "hi": {
-      "question": "1504 को 6:10 में बांटें। बड़ा?",
-      "options": [
-        "940",
-        "752",
-        "1504",
-        "564"
-      ],
-      "explanation": "हिस्से: 564, 940। बड़ा=940।"
-    },
-    "id": "nmtsd-0086"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A=42d, B=29d. Together?",
-      "options": [
-        "71d",
-        "34.4d",
-        "17.2d",
-        "13d"
-      ],
-      "explanation": "1d: 1/42+1/29. Time=17.2d."
-    },
-    "hi": {
-      "question": "A=42दिन, B=29दिन। साथ?",
-      "options": [
-        "71d",
-        "34.4d",
-        "17.2d",
-        "13d"
-      ],
-      "explanation": "1दिन: 1/42+1/29। समय=17.2दिन।"
-    },
-    "id": "nmtsd-0087"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 8000 at 7% for 27yrs?",
-      "options": [
-        "Rs.8000",
-        "Rs.7560",
-        "Rs.15120",
-        "Rs.30240"
-      ],
-      "explanation": "SI=8000×7×27/100=15120.0."
-    },
-    "hi": {
-      "question": "8000रु, 7%, 27वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.8000",
-        "Rs.7560",
-        "Rs.15120",
-        "Rs.30240"
-      ],
-      "explanation": "सा.ब्याज=15120.0।"
-    },
-    "id": "nmtsd-0088"
-  },
-  {
+    "id": "ntsd-0075",
     "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "SI on 40000 at 27% for 33yrs?",
+      "question": "A vehicle travels 60 km at 60 km/hr. Time taken?",
       "options": [
-        "Rs.178200",
-        "Rs.356400",
-        "Rs.712800",
-        "Rs.40000"
+        "2",
+        "1",
+        "0",
+        "3"
       ],
-      "explanation": "SI=40000×27×33/100=356400.0."
+      "explanation": "Time = Distance/Speed = 60/60 = 1 hours."
     },
     "hi": {
-      "question": "40000रु, 27%, 33वर्ष का सा.ब्याज?",
+      "question": "A वाहन travels 60 किमी at 60 किमी/hr. समय?",
       "options": [
-        "Rs.178200",
-        "Rs.356400",
-        "Rs.712800",
-        "Rs.40000"
+        "2",
+        "1",
+        "0",
+        "3"
       ],
-      "explanation": "सा.ब्याज=356400.0।"
-    },
-    "id": "nmtsd-0089"
+      "explanation": "Time = Distance/Speed = 60/60 = 1 hours."
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "30% of 120?",
-      "options": [
-        "60",
-        "120",
-        "240",
-        "360"
-      ],
-      "explanation": "120×30/100=360."
-    },
-    "hi": {
-      "question": "120 का 30%?",
-      "options": [
-        "60",
-        "120",
-        "240",
-        "360"
-      ],
-      "explanation": "120×30/100=360।"
-    },
-    "id": "nmtsd-0090"
-  },
-  {
+    "id": "ntsd-0076",
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "21% of 280?",
+      "question": "A vehicle travels 90 km at 75 km/hr. Time taken?",
       "options": [
-        "588",
-        "280",
-        "140",
-        "560"
+        "1",
+        "2",
+        "5",
+        "-1"
       ],
-      "explanation": "280×21/100=588."
+      "explanation": "Time = Distance/Speed = 90/75 = 1 hours."
     },
     "hi": {
-      "question": "280 का 21%?",
+      "question": "A वाहन travels 90 किमी at 75 किमी/hr. समय?",
       "options": [
-        "588",
-        "280",
-        "140",
-        "560"
+        "1",
+        "2",
+        "5",
+        "-1"
       ],
-      "explanation": "280×21/100=588।"
-    },
-    "id": "nmtsd-0091"
+      "explanation": "Time = Distance/Speed = 90/75 = 1 hours."
+    }
   },
   {
+    "id": "ntsd-0077",
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "LCM of 9 and 18?",
+      "question": "A vehicle travels 60 km at 50 km/hr. Time taken?",
       "options": [
-        "27",
-        "9",
-        "162",
-        "18"
+        "5",
+        "2",
+        "-1",
+        "1"
       ],
-      "explanation": "LCM=162/9=18."
+      "explanation": "Time = Distance/Speed = 60/50 = 1 hours."
     },
     "hi": {
-      "question": "9 और 18 का ल.स.?",
+      "question": "A वाहन travels 60 किमी at 50 किमी/hr. समय?",
       "options": [
-        "27",
-        "9",
-        "162",
-        "18"
+        "5",
+        "2",
+        "-1",
+        "1"
       ],
-      "explanation": "ल.स.=18।"
-    },
-    "id": "nmtsd-0092"
+      "explanation": "Time = Distance/Speed = 60/50 = 1 hours."
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 31km/hr, 40hrs. Distance?",
-      "options": [
-        "2480km",
-        "620km",
-        "71km",
-        "1240km"
-      ],
-      "explanation": "Dist=31×40=1240km."
-    },
-    "hi": {
-      "question": "कार 31किमी/घं, 40घंटे। दूरी?",
-      "options": [
-        "2480km",
-        "620km",
-        "71km",
-        "1240km"
-      ],
-      "explanation": "दूरी=1240किमी।"
-    },
-    "id": "nmtsd-0093"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A=47d, B=32d. Together?",
-      "options": [
-        "19d",
-        "38.0d",
-        "15d",
-        "79d"
-      ],
-      "explanation": "1d: 1/47+1/32. Time=19d."
-    },
-    "hi": {
-      "question": "A=47दिन, B=32दिन। साथ?",
-      "options": [
-        "19d",
-        "38.0d",
-        "15d",
-        "79d"
-      ],
-      "explanation": "1दिन: 1/47+1/32। समय=19दिन।"
-    },
-    "id": "nmtsd-0094"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "9% of 140?",
-      "options": [
-        "126",
-        "70",
-        "140",
-        "280"
-      ],
-      "explanation": "140×9/100=126."
-    },
-    "hi": {
-      "question": "140 का 9%?",
-      "options": [
-        "126",
-        "70",
-        "140",
-        "280"
-      ],
-      "explanation": "140×9/100=126।"
-    },
-    "id": "nmtsd-0095"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.50, 29% profit. SP?",
-      "options": [
-        "51",
-        "50",
-        "100",
-        "64.5"
-      ],
-      "explanation": "SP=50×1.29=64.5."
-    },
-    "hi": {
-      "question": "क्र.मू. 50रु, 29% लाभ। वि.मू.?",
-      "options": [
-        "51",
-        "50",
-        "100",
-        "64.5"
-      ],
-      "explanation": "वि.मू.=64.5।"
-    },
-    "id": "nmtsd-0096"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 506 in 5:6. Larger?",
-      "options": [
-        "506",
-        "253",
-        "230",
-        "276"
-      ],
-      "explanation": "Parts=11. Shares: 230, 276. Larger=276."
-    },
-    "hi": {
-      "question": "506 को 5:6 में बांटें। बड़ा?",
-      "options": [
-        "506",
-        "253",
-        "230",
-        "276"
-      ],
-      "explanation": "हिस्से: 230, 276। बड़ा=276।"
-    },
-    "id": "nmtsd-0097"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 44, 59, 39, 63, 27, 23",
-      "options": [
-        "42.5",
-        "23",
-        "63",
-        "255"
-      ],
-      "explanation": "Sum=255/6=42.5."
-    },
-    "hi": {
-      "question": "औसत: 44, 59, 39, 63, 27, 23",
-      "options": [
-        "42.5",
-        "23",
-        "63",
-        "255"
-      ],
-      "explanation": "योग=255/6=42.5।"
-    },
-    "id": "nmtsd-0098"
-  },
-  {
+    "id": "ntsd-0078",
     "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Simplify: 32 + 24 × 8",
+      "question": "A vehicle travels 60 km at 50 km/hr. Time taken?",
       "options": [
-        "6144",
-        "224",
-        "64",
-        "448"
+        "-1",
+        "1",
+        "3",
+        "10"
       ],
-      "explanation": "BODMAS: 24×8=192+32=224."
+      "explanation": "Time = Distance/Speed = 60/50 = 1 hours."
     },
     "hi": {
-      "question": "सरल: 32 + 24 × 8",
+      "question": "A वाहन travels 60 किमी at 50 किमी/hr. समय?",
       "options": [
-        "6144",
-        "224",
-        "64",
-        "448"
+        "-1",
+        "1",
+        "3",
+        "10"
       ],
-      "explanation": "BODMAS: 224।"
-    },
-    "id": "nmtsd-0099"
+      "explanation": "Time = Distance/Speed = 60/50 = 1 hours."
+    }
   },
   {
+    "id": "ntsd-0079",
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "A=46d, B=23d. Together?",
+      "question": "A vehicle travels 90 km at 50 km/hr. Time taken?",
       "options": [
-        "23d",
-        "69d",
-        "30.6d",
-        "15.3d"
+        "5",
+        "-1",
+        "3",
+        "1"
       ],
-      "explanation": "1d: 1/46+1/23. Time=15.3d."
+      "explanation": "Time = Distance/Speed = 90/50 = 1 hours."
     },
     "hi": {
-      "question": "A=46दिन, B=23दिन। साथ?",
+      "question": "A वाहन travels 90 किमी at 50 किमी/hr. समय?",
       "options": [
-        "23d",
-        "69d",
-        "30.6d",
-        "15.3d"
+        "5",
+        "-1",
+        "3",
+        "1"
       ],
-      "explanation": "1दिन: 1/46+1/23। समय=15.3दिन।"
+      "explanation": "Time = Distance/Speed = 90/50 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0080",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 240 km at 75 km/hr. Time taken?",
+      "options": [
+        "5",
+        "2",
+        "3",
+        "10"
+      ],
+      "explanation": "Time = Distance/Speed = 240/75 = 3 hours."
     },
-    "id": "nmtsd-0100"
+    "hi": {
+      "question": "A वाहन travels 240 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "5",
+        "2",
+        "3",
+        "10"
+      ],
+      "explanation": "Time = Distance/Speed = 240/75 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0081",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 180 km at 50 km/hr. Time taken?",
+      "options": [
+        "2",
+        "6",
+        "3",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 180/50 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 180 किमी at 50 किमी/hr. समय?",
+      "options": [
+        "2",
+        "6",
+        "3",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 180/50 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0082",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 60 km at 30 km/hr. Time taken?",
+      "options": [
+        "2",
+        "0",
+        "4",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 60/30 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 60 किमी at 30 किमी/hr. समय?",
+      "options": [
+        "2",
+        "0",
+        "4",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 60/30 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0083",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 150 km at 40 km/hr. Time taken?",
+      "options": [
+        "1",
+        "4",
+        "5",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 150/40 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 150 किमी at 40 किमी/hr. समय?",
+      "options": [
+        "1",
+        "4",
+        "5",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 150/40 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0084",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 180 km at 75 km/hr. Time taken?",
+      "options": [
+        "3",
+        "3",
+        "0",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 180/75 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 180 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "3",
+        "3",
+        "0",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 180/75 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0085",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 60 km at 80 km/hr. Time taken?",
+      "options": [
+        "1",
+        "10",
+        "-1",
+        "0"
+      ],
+      "explanation": "Time = Distance/Speed = 60/80 = 0 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 60 किमी at 80 किमी/hr. समय?",
+      "options": [
+        "1",
+        "10",
+        "-1",
+        "0"
+      ],
+      "explanation": "Time = Distance/Speed = 60/80 = 0 hours."
+    }
+  },
+  {
+    "id": "ntsd-0086",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 90 km at 30 km/hr. Time taken?",
+      "options": [
+        "3",
+        "2",
+        "6",
+        "5"
+      ],
+      "explanation": "Time = Distance/Speed = 90/30 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 90 किमी at 30 किमी/hr. समय?",
+      "options": [
+        "3",
+        "2",
+        "6",
+        "5"
+      ],
+      "explanation": "Time = Distance/Speed = 90/30 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0087",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 120 km at 80 km/hr. Time taken?",
+      "options": [
+        "0",
+        "1",
+        "10",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 120/80 = 1 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 120 किमी at 80 किमी/hr. समय?",
+      "options": [
+        "0",
+        "1",
+        "10",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 120/80 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0088",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 60 km at 60 km/hr. Time taken?",
+      "options": [
+        "5",
+        "-1",
+        "1",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 60/60 = 1 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 60 किमी at 60 किमी/hr. समय?",
+      "options": [
+        "5",
+        "-1",
+        "1",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 60/60 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0089",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 240 km at 20 km/hr. Time taken?",
+      "options": [
+        "10",
+        "11",
+        "14",
+        "12"
+      ],
+      "explanation": "Time = Distance/Speed = 240/20 = 12 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 240 किमी at 20 किमी/hr. समय?",
+      "options": [
+        "10",
+        "11",
+        "14",
+        "12"
+      ],
+      "explanation": "Time = Distance/Speed = 240/20 = 12 hours."
+    }
+  },
+  {
+    "id": "ntsd-0090",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 120 km at 75 km/hr. Time taken?",
+      "options": [
+        "-1",
+        "1",
+        "2",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 120/75 = 1 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 120 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "-1",
+        "1",
+        "2",
+        "2"
+      ],
+      "explanation": "Time = Distance/Speed = 120/75 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0091",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 120 km at 50 km/hr. Time taken?",
+      "options": [
+        "0",
+        "2",
+        "8",
+        "5"
+      ],
+      "explanation": "Time = Distance/Speed = 120/50 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 120 किमी at 50 किमी/hr. समय?",
+      "options": [
+        "0",
+        "2",
+        "8",
+        "5"
+      ],
+      "explanation": "Time = Distance/Speed = 120/50 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0092",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 180 km at 75 km/hr. Time taken?",
+      "options": [
+        "2",
+        "0",
+        "5",
+        "6"
+      ],
+      "explanation": "Time = Distance/Speed = 180/75 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 180 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "2",
+        "0",
+        "5",
+        "6"
+      ],
+      "explanation": "Time = Distance/Speed = 180/75 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0093",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 240 km at 80 km/hr. Time taken?",
+      "options": [
+        "1",
+        "4",
+        "3",
+        "6"
+      ],
+      "explanation": "Time = Distance/Speed = 240/80 = 3 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 240 किमी at 80 किमी/hr. समय?",
+      "options": [
+        "1",
+        "4",
+        "3",
+        "6"
+      ],
+      "explanation": "Time = Distance/Speed = 240/80 = 3 hours."
+    }
+  },
+  {
+    "id": "ntsd-0094",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 90 km at 50 km/hr. Time taken?",
+      "options": [
+        "4",
+        "-1",
+        "3",
+        "1"
+      ],
+      "explanation": "Time = Distance/Speed = 90/50 = 1 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 90 किमी at 50 किमी/hr. समय?",
+      "options": [
+        "4",
+        "-1",
+        "3",
+        "1"
+      ],
+      "explanation": "Time = Distance/Speed = 90/50 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0095",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 150 km at 30 km/hr. Time taken?",
+      "options": [
+        "5",
+        "10",
+        "6",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 150/30 = 5 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 150 किमी at 30 किमी/hr. समय?",
+      "options": [
+        "5",
+        "10",
+        "6",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 150/30 = 5 hours."
+    }
+  },
+  {
+    "id": "ntsd-0096",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 240 km at 60 km/hr. Time taken?",
+      "options": [
+        "6",
+        "3",
+        "4",
+        "6"
+      ],
+      "explanation": "Time = Distance/Speed = 240/60 = 4 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 240 किमी at 60 किमी/hr. समय?",
+      "options": [
+        "6",
+        "3",
+        "4",
+        "6"
+      ],
+      "explanation": "Time = Distance/Speed = 240/60 = 4 hours."
+    }
+  },
+  {
+    "id": "ntsd-0097",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 150 km at 75 km/hr. Time taken?",
+      "options": [
+        "2",
+        "4",
+        "1",
+        "8"
+      ],
+      "explanation": "Time = Distance/Speed = 150/75 = 2 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 150 किमी at 75 किमी/hr. समय?",
+      "options": [
+        "2",
+        "4",
+        "1",
+        "8"
+      ],
+      "explanation": "Time = Distance/Speed = 150/75 = 2 hours."
+    }
+  },
+  {
+    "id": "ntsd-0098",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 60 km at 50 km/hr. Time taken?",
+      "options": [
+        "2",
+        "1",
+        "-1",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 60/50 = 1 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 60 किमी at 50 किमी/hr. समय?",
+      "options": [
+        "2",
+        "1",
+        "-1",
+        "3"
+      ],
+      "explanation": "Time = Distance/Speed = 60/50 = 1 hours."
+    }
+  },
+  {
+    "id": "ntsd-0099",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 240 km at 40 km/hr. Time taken?",
+      "options": [
+        "6",
+        "5",
+        "9",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 240/40 = 6 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 240 किमी at 40 किमी/hr. समय?",
+      "options": [
+        "6",
+        "5",
+        "9",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 240/40 = 6 hours."
+    }
+  },
+  {
+    "id": "ntsd-0100",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A vehicle travels 240 km at 40 km/hr. Time taken?",
+      "options": [
+        "8",
+        "4",
+        "6",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 240/40 = 6 hours."
+    },
+    "hi": {
+      "question": "A वाहन travels 240 किमी at 40 किमी/hr. समय?",
+      "options": [
+        "8",
+        "4",
+        "6",
+        "4"
+      ],
+      "explanation": "Time = Distance/Speed = 240/40 = 6 hours."
+    }
   }
 ]

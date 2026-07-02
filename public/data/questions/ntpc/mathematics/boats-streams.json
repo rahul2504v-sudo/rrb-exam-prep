@@ -1,2602 +1,2602 @@
 [
   {
-    "id": "nmbs-0001",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Still water 15km/h, stream 5km/h. 40km upstream time?",
-      "options": [
-        "2h",
-        "3h",
-        "4h",
-        "5h"
-      ],
-      "explanation": "Upstream=10km/h. 40/10=4h."
-    },
-    "hi": {
-      "question": "शांत जल 15, धारा 5। 40km ऊर्ध्वप्रवाह?",
-      "options": [
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "explanation": "4 घंटे।"
-    }
-  },
-  {
-    "id": "nmbs-0002",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2022,
-    "en": {
-      "question": "30up+44down=10h, 40up+55down=13h. Stream speed?",
-      "options": [
-        "3km/h",
-        "4",
-        "5",
-        "6"
-      ],
-      "explanation": "u=5,v=11. Stream=(11-5)/2=3."
-    },
-    "hi": {
-      "question": "30+44=10h, 40+55=13h। धारा चाल?",
-      "options": [
-        "3",
-        "4",
-        "5",
-        "6"
-      ],
-      "explanation": "3 km/h।"
-    }
-  },
-  {
-    "id": "nmbs-0003",
+    "id": "nbs-0001",
     "correctOption": "A",
     "difficulty": "medium",
-    "sourceYear": 2023,
+    "sourceYear": 2025,
     "en": {
-      "question": "Still water 8km/h, stream 2km/h. Upstream 3h more than downstream. Distance?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "45km",
-        "42",
-        "48",
-        "36"
+        "1.5",
+        "1.0",
+        "2.0",
+        "11"
       ],
-      "explanation": "d/6-d/10=3. d=45km."
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
     },
     "hi": {
-      "question": "शांत 8, धारा 2। ऊर्ध्व 3h अधिक। दूरी?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "45",
-        "42",
-        "48",
-        "36"
+        "1.5",
+        "1.0",
+        "2.0",
+        "11"
       ],
-      "explanation": "45 km।"
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
     }
   },
   {
-    "id": "nmbs-0004",
+    "id": "nbs-0002",
     "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed in still water 12km/h, stream 4km/h. Downstream speed?",
-      "options": [
-        "8",
-        "16",
-        "12",
-        "20"
-      ],
-      "explanation": "12+4=16 km/h."
-    },
-    "hi": {
-      "question": "शांत 12, धारा 4। अनुप्रवाह चाल?",
-      "options": [
-        "8",
-        "16",
-        "12",
-        "20"
-      ],
-      "explanation": "16 km/h।"
-    }
-  },
-  {
-    "id": "nmbs-0005",
-    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat covers 24km upstream and 36km downstream in 6h. Speed still water 10km/h. Stream?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "2km/h",
-        "3",
-        "4",
-        "5"
+        "1.7",
+        "1.2",
+        "9",
+        "0.2"
       ],
-      "explanation": "24/(10-s)+36/(10+s)=6. Try s=2: 24/8+36/12=3+3=6. Works!"
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
     },
     "hi": {
-      "question": "24+36=6h, शांत 10। धारा?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "2",
-        "3",
-        "4",
-        "5"
+        "1.7",
+        "1.2",
+        "9",
+        "0.2"
       ],
-      "explanation": "2 km/h।"
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
     }
   },
   {
-    "id": "nmbs-0006",
+    "id": "nbs-0003",
     "correctOption": "D",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Downstream 20km/h, upstream 12km/h. Still water?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
       "options": [
-        "14",
-        "18",
-        "20",
-        "16"
+        "3.0",
+        "7",
+        "2.0",
+        "2.5"
       ],
-      "explanation": "(20+12)/2=16 km/h."
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
     },
     "hi": {
-      "question": "अनुप्रवाह 20, ऊर्ध्व 12। शांत जल?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
       "options": [
-        "14",
-        "18",
-        "20",
-        "16"
+        "3.0",
+        "7",
+        "2.0",
+        "2.5"
       ],
-      "explanation": "16 km/h।"
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
     }
   },
   {
-    "id": "nmbs-0007",
+    "id": "nbs-0004",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.6",
+        "0.6",
+        "2.6",
+        "15"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.6",
+        "0.6",
+        "2.6",
+        "15"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0005",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "7",
+        "1.5",
+        "3.5",
+        "2.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "7",
+        "1.5",
+        "3.5",
+        "2.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0006",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "4",
+        "4.5",
+        "3",
+        "15"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "4",
+        "4.5",
+        "3",
+        "15"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0007",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "3.2",
+        "2.2",
+        "11",
+        "2.7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "3.2",
+        "2.2",
+        "11",
+        "2.7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0008",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "4.5",
+        "7",
+        "5.5",
+        "4.0"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "4.5",
+        "7",
+        "5.5",
+        "4.0"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0009",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Stream speed 2km/h. Boat 36km upstream in 4.5h. Downstream speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "14",
-        "16",
-        "12",
-        "10"
+        "2.0",
+        "1.0",
+        "1.5",
+        "11"
       ],
-      "explanation": "Upstream=36/4.5=8km/h. Boat=8+2=10. Downstream=10+2=12."
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
     },
     "hi": {
-      "question": "धारा 2, 36km 4.5h ऊर्ध्व। अनुप्रवाह?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "14",
-        "16",
-        "12",
-        "10"
+        "2.0",
+        "1.0",
+        "1.5",
+        "11"
       ],
-      "explanation": "12 km/h।"
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
     }
   },
   {
-    "id": "nmbs-0008",
+    "id": "nbs-0010",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "13",
+        "2.2",
+        "1.2",
+        "0.7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "13",
+        "2.2",
+        "1.2",
+        "0.7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0011",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.0",
+        "11",
+        "4.0",
+        "2.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.0",
+        "11",
+        "4.0",
+        "2.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0012",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.6",
+        "2.6",
+        "0.6",
+        "13"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.6",
+        "2.6",
+        "0.6",
+        "13"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0013",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.0",
+        "11",
+        "3.5",
+        "2.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.0",
+        "11",
+        "3.5",
+        "2.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0014",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "15",
+        "5.5",
+        "4",
+        "3"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "15",
+        "5.5",
+        "4",
+        "3"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0015",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Ratio of downstream to upstream speed=3:2. If stream=2km/h, still water?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "8",
-        "10",
-        "12",
-        "6"
+        "3.2",
+        "2.7",
+        "2.2",
+        "11"
       ],
-      "explanation": "(x+2)/(x-2)=3/2. 2x+4=3x-6. x=10."
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
     },
     "hi": {
-      "question": "अनुप्रवाह:ऊर्ध्व=3:2, धारा 2। शांत?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "8",
-        "10",
-        "12",
-        "6"
+        "3.2",
+        "2.7",
+        "2.2",
+        "11"
       ],
-      "explanation": "10 km/h।"
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
     }
   },
   {
-    "id": "nmbs-0009",
-    "correctOption": "A",
-    "difficulty": "hard",
+    "id": "nbs-0016",
+    "correctOption": "C",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Man rows 5km in 1h in still water. He takes thrice time going upstream as downstream for same distance. Stream?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
       "options": [
-        "2.5km/h",
-        "2",
-        "3",
+        "15",
+        "5.5",
+        "4.5",
+        "3.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "15",
+        "5.5",
+        "4.5",
+        "3.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0017",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.0",
+        "13",
+        "1.0",
         "1.5"
       ],
-      "explanation": "(5+s)/(5-s)=3. 5+s=15-3s. 4s=10. s=2.5."
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
     },
     "hi": {
-      "question": "शांत 5km/h, ऊर्ध्व में 3 गुना समय। धारा?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "2.5",
-        "2",
-        "3",
+        "2.0",
+        "13",
+        "1.0",
         "1.5"
       ],
-      "explanation": "2.5 km/h।"
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
     }
   },
   {
-    "id": "nmbs-0010",
+    "id": "nbs-0018",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Downstream speed 15km/h, upstream 9km/h. Rate of stream?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "2",
-        "4",
-        "3",
-        "5"
+        "15",
+        "0.2",
+        "1.2",
+        "2.2"
       ],
-      "explanation": "(15-9)/2=3 km/h."
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
     },
     "hi": {
-      "question": "अनुप्रवाह 15, ऊर्ध्व 9। धारा?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "2",
-        "4",
-        "3",
-        "5"
+        "15",
+        "0.2",
+        "1.2",
+        "2.2"
       ],
-      "explanation": "3 km/h।"
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
     }
   },
   {
-    "id": "nmbs-0011",
+    "id": "nbs-0019",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
+      "options": [
+        "7",
+        "2.5",
+        "1.5",
+        "3.0"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
+      "options": [
+        "7",
+        "2.5",
+        "1.5",
+        "3.0"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0020",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.6",
+        "1.1",
+        "3.1",
+        "7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.6",
+        "1.1",
+        "3.1",
+        "7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0021",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "15",
+        "4.0",
+        "2.5",
+        "1.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "15",
+        "4.0",
+        "2.5",
+        "1.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0022",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "11",
+        "4",
+        "4.5",
+        "3"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "11",
+        "4",
+        "4.5",
+        "3"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0023",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.2",
+        "2.7",
+        "3.7",
+        "9"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.2",
+        "2.7",
+        "3.7",
+        "9"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0024",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat goes 21km downstream in 1.5h. Upstream same distance in 3.5h. Still water?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
       "options": [
-        "8",
+        "5.0",
         "9",
-        "11",
-        "10"
-      ],
-      "explanation": "Down=14, Up=6. (14+6)/2=10."
-    },
-    "hi": {
-      "question": "21km अनुप्रवाह 1.5h, ऊर्ध्व 3.5h। शांत?",
-      "options": [
-        "8",
-        "9",
-        "11",
-        "10"
-      ],
-      "explanation": "10 km/h।"
-    }
-  },
-  {
-    "id": "nmbs-0012",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A man can row 15km/h in still water. Stream is 3km/h. Time to row 36km upstream and return?",
-      "options": [
-        "4h",
-        "5h",
-        "6h",
-        "5.5h"
-      ],
-      "explanation": "Up=36/12=3h. Down=36/18=2h. Total=5h."
-    },
-    "hi": {
-      "question": "शांत 15, धारा 3। 36km जाकर लौटने में?",
-      "options": [
-        "4",
-        "5",
-        "6",
-        "5.5"
-      ],
-      "explanation": "5 घंटे।"
-    }
-  },
-  {
-    "id": "nmbs-0013",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Speed of boat in still water 20km/h, speed of current 5km/h. Upstream speed?",
-      "options": [
-        "15",
-        "25",
-        "20",
-        "10"
-      ],
-      "explanation": "20-5=15 km/h."
-    },
-    "hi": {
-      "question": "शांत 20, धारा 5। ऊर्ध्वप्रवाह?",
-      "options": [
-        "15",
-        "25",
-        "20",
-        "10"
-      ],
-      "explanation": "15 km/h।"
-    }
-  },
-  {
-    "id": "nmbs-0014",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Man rows to a place 48km away and back in 14h. Stream 2km/h. Speed in still water?",
-      "options": [
-        "6",
-        "8",
-        "7",
-        "9"
-      ],
-      "explanation": "48/(x-2)+48/(x+2)=14. 48(2x)/(x²-4)=14. 96x=14x²-56. 14x²-96x-56=0. 7x²-48x-28=0. (7x+4)(x-7)=0. x=7."
-    },
-    "hi": {
-      "question": "48km जाकर लौटना 14h, धारा 2। शांत?",
-      "options": [
-        "6",
-        "8",
-        "7",
-        "9"
-      ],
-      "explanation": "7 km/h।"
-    }
-  },
-  {
-    "id": "nmbs-0015",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Distance 60km downstream in 4h. Stream speed 3km/h. Boat in still water?",
-      "options": [
-        "10",
-        "12",
-        "15",
-        "18"
-      ],
-      "explanation": "Down=15, boat=15-3=12 km/h."
-    },
-    "hi": {
-      "question": "60km 4h में, धारा 3। शांत?",
-      "options": [
-        "10",
-        "12",
-        "15",
-        "18"
-      ],
-      "explanation": "12 km/h।"
-    }
-  },
-  {
-    "id": "nmbs-0016",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A man rows to a place at 4km/h and returns at 6km/h. Average speed?",
-      "options": [
-        "4.8",
-        "5",
-        "5.2",
+        "3.5",
         "4.5"
       ],
-      "explanation": "2×4×6/10=48/10=4.8 km/h."
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
     },
     "hi": {
-      "question": "4km/h से जाकर 6km/h से लौटे। औसत?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
       "options": [
-        "4.8",
-        "5",
-        "5.2",
+        "5.0",
+        "9",
+        "3.5",
         "4.5"
       ],
-      "explanation": "4.8 km/h।"
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
     }
   },
   {
-    "id": "nmbs-0017",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat 8km/h still water. River 4km/h. 24km upstream and 24km downstream time?",
-      "options": [
-        "8h",
-        "7h",
-        "8h",
-        "6h"
-      ],
-      "explanation": "Up=24/4=6h. Down=24/12=2h. Total=8h."
-    },
-    "hi": {
-      "question": "शांत 8, धारा 4। 24km आना-जाना?",
-      "options": [
-        "8",
-        "7",
-        "8",
-        "6"
-      ],
-      "explanation": "8 घंटे।"
-    }
-  },
-  {
-    "id": "nmbs-0018",
+    "id": "nbs-0025",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Speed of current is 1/3 of boat in still water. If downstream speed is 16km/h, upstream?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "6",
-        "10",
-        "12",
-        "8"
+        "0.5",
+        "11",
+        "3.0",
+        "1.5"
       ],
-      "explanation": "B+s=16. s=B/3. B+B/3=16. 4B/3=16. B=12, s=4. Up=12-4=8."
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
     },
     "hi": {
-      "question": "धारा=शांत/3, अनुप्रवाह 16। ऊर्ध्व?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "6",
-        "10",
-        "12",
-        "8"
+        "0.5",
+        "11",
+        "3.0",
+        "1.5"
       ],
-      "explanation": "8 km/h।"
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
     }
   },
   {
-    "id": "nmbs-0019",
-    "correctOption": "B",
-    "difficulty": "easy",
+    "id": "nbs-0026",
+    "correctOption": "C",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat 10km/h in still water, river 2km/h. Downstream 36km time?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "2.5h",
-        "3h",
-        "4h",
-        "3.5h"
+        "0.2",
+        "13",
+        "1.2",
+        "2.2"
       ],
-      "explanation": "12km/h, 36/12=3h."
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
     },
     "hi": {
-      "question": "शांत 10, धारा 2। 36km अनुप्रवाह?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "0.2",
+        "13",
+        "1.2",
+        "2.2"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0027",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
+      "options": [
+        "3.0",
+        "15",
+        "1.5",
+        "2.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
+      "options": [
+        "3.0",
+        "15",
+        "1.5",
+        "2.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0028",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.1",
+        "1.6",
+        "2.1",
+        "15"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.1",
+        "1.6",
+        "2.1",
+        "15"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0029",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
         "2.5",
-        "3",
+        "1.5",
+        "3.5",
+        "9"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.5",
+        "1.5",
+        "3.5",
+        "9"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0030",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "15",
+        "5.5",
         "4",
         "3.5"
       ],
-      "explanation": "3 घंटे।"
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "15",
+        "5.5",
+        "4",
+        "3.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
     }
   },
   {
-    "id": "nmbs-0020",
-    "correctOption": "A",
-    "difficulty": "hard",
+    "id": "nbs-0031",
+    "correctOption": "B",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A boat takes 90 minutes less to travel 36km downstream than upstream. Speed still water 10km/h. Stream?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "2km/h",
-        "3",
-        "4",
-        "1"
+        "3.2",
+        "2.7",
+        "9",
+        "1.7"
       ],
-      "explanation": "36/(10-s)-36/(10+s)=1.5. 36(2s)/(100-s²)=1.5. 72s=150-1.5s². 1.5s²+72s-150=0. s²+48s-100=0. (s+50)(s-2)=0. s=2."
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
     },
     "hi": {
-      "question": "36km ऊर्ध्व में 90मि अधिक, शांत 10। धारा?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "2",
-        "3",
-        "4",
-        "1"
+        "3.2",
+        "2.7",
+        "9",
+        "1.7"
       ],
-      "explanation": "2 km/h।"
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
     }
   },
   {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 17 km/hr, stream 2 km/hr. Time for 19 km upstream?",
-      "options": [
-        "2.6 hrs",
-        "1.1 hrs",
-        "1.3 hrs",
-        "1.0 hrs"
-      ],
-      "explanation": "Upstream speed=17-2=15. Time=19/15=1.3 hrs."
-    },
-    "hi": {
-      "question": "नाव 17 किमी/घंटा, धारा 2। 19 किमी धारा विपरीत समय?",
-      "options": [
-        "2.6 hrs",
-        "1.1 hrs",
-        "1.3 hrs",
-        "1.0 hrs"
-      ],
-      "explanation": "विपरीत चाल=15। समय=19/15=1.3 घंटे।"
-    },
-    "id": "nmbs-0021"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 16 km/hr, stream 5 km/hr. Time for 42 km upstream?",
-      "options": [
-        "2.6 hrs",
-        "2.0 hrs",
-        "3.8 hrs",
-        "7.6 hrs"
-      ],
-      "explanation": "Upstream speed=16-5=11. Time=42/11=3.8 hrs."
-    },
-    "hi": {
-      "question": "नाव 16 किमी/घंटा, धारा 5। 42 किमी धारा विपरीत समय?",
-      "options": [
-        "2.6 hrs",
-        "2.0 hrs",
-        "3.8 hrs",
-        "7.6 hrs"
-      ],
-      "explanation": "विपरीत चाल=11। समय=42/11=3.8 घंटे।"
-    },
-    "id": "nmbs-0022"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 11 km/hr, stream 3 km/hr. Time for 28 km upstream?",
-      "options": [
-        "7.0 hrs",
-        "2.5 hrs",
-        "3.5 hrs",
-        "2.0 hrs"
-      ],
-      "explanation": "Upstream speed=11-3=8. Time=28/8=3.5 hrs."
-    },
-    "hi": {
-      "question": "नाव 11 किमी/घंटा, धारा 3। 28 किमी धारा विपरीत समय?",
-      "options": [
-        "7.0 hrs",
-        "2.5 hrs",
-        "3.5 hrs",
-        "2.0 hrs"
-      ],
-      "explanation": "विपरीत चाल=8। समय=28/8=3.5 घंटे।"
-    },
-    "id": "nmbs-0023"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 9 km/hr, stream 2 km/hr. Time for 11 km upstream?",
-      "options": [
-        "1.0 hrs",
-        "3.2 hrs",
-        "1.2 hrs",
-        "1.6 hrs"
-      ],
-      "explanation": "Upstream speed=9-2=7. Time=11/7=1.6 hrs."
-    },
-    "hi": {
-      "question": "नाव 9 किमी/घंटा, धारा 2। 11 किमी धारा विपरीत समय?",
-      "options": [
-        "1.0 hrs",
-        "3.2 hrs",
-        "1.2 hrs",
-        "1.6 hrs"
-      ],
-      "explanation": "विपरीत चाल=7। समय=11/7=1.6 घंटे।"
-    },
-    "id": "nmbs-0024"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 8 km/hr, stream 3 km/hr. Time for 22 km upstream?",
-      "options": [
-        "2.0 hrs",
-        "2.8 hrs",
-        "8.8 hrs",
-        "4.4 hrs"
-      ],
-      "explanation": "Upstream speed=8-3=5. Time=22/5=4.4 hrs."
-    },
-    "hi": {
-      "question": "नाव 8 किमी/घंटा, धारा 3। 22 किमी धारा विपरीत समय?",
-      "options": [
-        "2.0 hrs",
-        "2.8 hrs",
-        "8.8 hrs",
-        "4.4 hrs"
-      ],
-      "explanation": "विपरीत चाल=5। समय=22/5=4.4 घंटे।"
-    },
-    "id": "nmbs-0025"
-  },
-  {
+    "id": "nbs-0032",
     "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 9 km/hr, stream 5 km/hr. Time for 14 km upstream?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
       "options": [
-        "3.5 hrs",
-        "7.0 hrs",
-        "1.6 hrs",
-        "1.0 hrs"
+        "4.5",
+        "4.0",
+        "13",
+        "5.5"
       ],
-      "explanation": "Upstream speed=9-5=4. Time=14/4=3.5 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
     },
     "hi": {
-      "question": "नाव 9 किमी/घंटा, धारा 5। 14 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
       "options": [
-        "3.5 hrs",
-        "7.0 hrs",
-        "1.6 hrs",
-        "1.0 hrs"
+        "4.5",
+        "4.0",
+        "13",
+        "5.5"
       ],
-      "explanation": "विपरीत चाल=4। समय=14/4=3.5 घंटे।"
-    },
-    "id": "nmbs-0026"
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
+    }
   },
   {
+    "id": "nbs-0033",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 9 km/hr, stream 1 km/hr. Time for 10 km upstream?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "1.1 hrs",
-        "2.4 hrs",
-        "1.0 hrs",
-        "1.2 hrs"
+        "7",
+        "0.5",
+        "3.0",
+        "1.5"
       ],
-      "explanation": "Upstream speed=9-1=8. Time=10/8=1.2 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
     },
     "hi": {
-      "question": "नाव 9 किमी/घंटा, धारा 1। 10 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "1.1 hrs",
-        "2.4 hrs",
-        "1.0 hrs",
-        "1.2 hrs"
+        "7",
+        "0.5",
+        "3.0",
+        "1.5"
       ],
-      "explanation": "विपरीत चाल=8। समय=10/8=1.2 घंटे।"
-    },
-    "id": "nmbs-0027"
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
+    }
   },
   {
+    "id": "nbs-0034",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "7",
+        "2.7",
+        "0.2",
+        "1.2"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "7",
+        "2.7",
+        "0.2",
+        "1.2"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0035",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 18 km/hr, stream 3 km/hr. Time for 63 km upstream?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
       "options": [
-        "3.5 hrs",
-        "4.2 hrs",
-        "8.4 hrs",
-        "3.0 hrs"
+        "5",
+        "2.5",
+        "4.0",
+        "1.5"
       ],
-      "explanation": "Upstream speed=18-3=15. Time=63/15=4.2 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
     },
     "hi": {
-      "question": "नाव 18 किमी/घंटा, धारा 3। 63 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
       "options": [
-        "3.5 hrs",
-        "4.2 hrs",
-        "8.4 hrs",
-        "3.0 hrs"
+        "5",
+        "2.5",
+        "4.0",
+        "1.5"
       ],
-      "explanation": "विपरीत चाल=15। समय=63/15=4.2 घंटे।"
-    },
-    "id": "nmbs-0028"
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    }
   },
   {
+    "id": "nbs-0036",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 22 km/hr, stream 4 km/hr. Time for 52 km upstream?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "2.0 hrs",
-        "5.8 hrs",
-        "2.9 hrs",
-        "2.4 hrs"
+        "11",
+        "0.6",
+        "1.6",
+        "2.1"
       ],
-      "explanation": "Upstream speed=22-4=18. Time=52/18=2.9 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
     },
     "hi": {
-      "question": "नाव 22 किमी/घंटा, धारा 4। 52 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "2.0 hrs",
-        "5.8 hrs",
-        "2.9 hrs",
-        "2.4 hrs"
+        "11",
+        "0.6",
+        "1.6",
+        "2.1"
       ],
-      "explanation": "विपरीत चाल=18। समय=52/18=2.9 घंटे।"
-    },
-    "id": "nmbs-0029"
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 22 km/hr, stream 5 km/hr. Time for 81 km upstream?",
-      "options": [
-        "3.7 hrs",
-        "3.0 hrs",
-        "4.8 hrs",
-        "9.6 hrs"
-      ],
-      "explanation": "Upstream speed=22-5=17. Time=81/17=4.8 hrs."
-    },
-    "hi": {
-      "question": "नाव 22 किमी/घंटा, धारा 5। 81 किमी धारा विपरीत समय?",
-      "options": [
-        "3.7 hrs",
-        "3.0 hrs",
-        "4.8 hrs",
-        "9.6 hrs"
-      ],
-      "explanation": "विपरीत चाल=17। समय=81/17=4.8 घंटे।"
-    },
-    "id": "nmbs-0030"
-  },
-  {
+    "id": "nbs-0037",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 19 km/hr, stream 6 km/hr. Time for 50 km upstream?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "2.0 hrs",
-        "2.6 hrs",
-        "7.6 hrs",
-        "3.8 hrs"
+        "3.0",
+        "9",
+        "2.0",
+        "2.5"
       ],
-      "explanation": "Upstream speed=19-6=13. Time=50/13=3.8 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
     },
     "hi": {
-      "question": "नाव 19 किमी/घंटा, धारा 6। 50 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "2.0 hrs",
-        "2.6 hrs",
-        "7.6 hrs",
-        "3.8 hrs"
+        "3.0",
+        "9",
+        "2.0",
+        "2.5"
       ],
-      "explanation": "विपरीत चाल=13। समय=50/13=3.8 घंटे।"
-    },
-    "id": "nmbs-0031"
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 22 km/hr, stream 6 km/hr. Time for 112 km upstream?",
-      "options": [
-        "14.0 hrs",
-        "5.1 hrs",
-        "4.0 hrs",
-        "7 hrs"
-      ],
-      "explanation": "Upstream speed=22-6=16. Time=112/16=7 hrs."
-    },
-    "hi": {
-      "question": "नाव 22 किमी/घंटा, धारा 6। 112 किमी धारा विपरीत समय?",
-      "options": [
-        "14.0 hrs",
-        "5.1 hrs",
-        "4.0 hrs",
-        "7 hrs"
-      ],
-      "explanation": "विपरीत चाल=16। समय=112/16=7 घंटे।"
-    },
-    "id": "nmbs-0032"
-  },
-  {
+    "id": "nbs-0038",
     "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 24 km/hr, stream 6 km/hr. Time for 60 km upstream?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
       "options": [
-        "3.3 hrs",
-        "6.6 hrs",
-        "2.5 hrs",
-        "2.0 hrs"
+        "4",
+        "13",
+        "3",
+        "5.5"
       ],
-      "explanation": "Upstream speed=24-6=18. Time=60/18=3.3 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
     },
     "hi": {
-      "question": "नाव 24 किमी/घंटा, धारा 6। 60 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
       "options": [
-        "3.3 hrs",
-        "6.6 hrs",
-        "2.5 hrs",
-        "2.0 hrs"
+        "4",
+        "13",
+        "3",
+        "5.5"
       ],
-      "explanation": "विपरीत चाल=18। समय=60/18=3.3 घंटे।"
-    },
-    "id": "nmbs-0033"
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    }
   },
   {
+    "id": "nbs-0039",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.7",
+        "7",
+        "2.2",
+        "3.2"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.7",
+        "7",
+        "2.2",
+        "3.2"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0040",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "4.5",
+        "3.5",
+        "9",
+        "5.0"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "4.5",
+        "3.5",
+        "9",
+        "5.0"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0041",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.5",
+        "0.5",
+        "7",
+        "3.0"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.5",
+        "0.5",
+        "7",
+        "3.0"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0042",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.2",
+        "0.2",
+        "1.7",
+        "15"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.2",
+        "0.2",
+        "1.7",
+        "15"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0043",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 18 km/hr, stream 2 km/hr. Time for 40 km upstream?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
       "options": [
-        "2.2 hrs",
-        "2.5 hrs",
-        "5.0 hrs",
-        "2.0 hrs"
+        "7",
+        "2.5",
+        "1.5",
+        "3.5"
       ],
-      "explanation": "Upstream speed=18-2=16. Time=40/16=2.5 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
     },
     "hi": {
-      "question": "नाव 18 किमी/घंटा, धारा 2। 40 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
       "options": [
-        "2.2 hrs",
-        "2.5 hrs",
-        "5.0 hrs",
-        "2.0 hrs"
+        "7",
+        "2.5",
+        "1.5",
+        "3.5"
       ],
-      "explanation": "विपरीत चाल=16। समय=40/16=2.5 घंटे।"
-    },
-    "id": "nmbs-0034"
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    }
   },
   {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 11 km/hr, stream 1 km/hr. Time for 24 km upstream?",
-      "options": [
-        "2.4 hrs",
-        "2.2 hrs",
-        "4.8 hrs",
-        "2.0 hrs"
-      ],
-      "explanation": "Upstream speed=11-1=10. Time=24/10=2.4 hrs."
-    },
-    "hi": {
-      "question": "नाव 11 किमी/घंटा, धारा 1। 24 किमी धारा विपरीत समय?",
-      "options": [
-        "2.4 hrs",
-        "2.2 hrs",
-        "4.8 hrs",
-        "2.0 hrs"
-      ],
-      "explanation": "विपरीत चाल=10। समय=24/10=2.4 घंटे।"
-    },
-    "id": "nmbs-0035"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 24 km/hr, stream 1 km/hr. Time for 25 km upstream?",
-      "options": [
-        "1.0 hrs",
-        "1.0 hrs",
-        "1.1 hrs",
-        "2.2 hrs"
-      ],
-      "explanation": "Upstream speed=24-1=23. Time=25/23=1.1 hrs."
-    },
-    "hi": {
-      "question": "नाव 24 किमी/घंटा, धारा 1। 25 किमी धारा विपरीत समय?",
-      "options": [
-        "1.0 hrs",
-        "1.0 hrs",
-        "1.1 hrs",
-        "2.2 hrs"
-      ],
-      "explanation": "विपरीत चाल=23। समय=25/23=1.1 घंटे।"
-    },
-    "id": "nmbs-0036"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 16 km/hr, stream 4 km/hr. Time for 20 km upstream?",
-      "options": [
-        "1.2 hrs",
-        "1.0 hrs",
-        "1.7 hrs",
-        "3.4 hrs"
-      ],
-      "explanation": "Upstream speed=16-4=12. Time=20/12=1.7 hrs."
-    },
-    "hi": {
-      "question": "नाव 16 किमी/घंटा, धारा 4। 20 किमी धारा विपरीत समय?",
-      "options": [
-        "1.2 hrs",
-        "1.0 hrs",
-        "1.7 hrs",
-        "3.4 hrs"
-      ],
-      "explanation": "विपरीत चाल=12। समय=20/12=1.7 घंटे।"
-    },
-    "id": "nmbs-0038"
-  },
-  {
+    "id": "nbs-0044",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 16 km/hr, stream 5 km/hr. Time for 21 km upstream?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "3.8 hrs",
-        "1.9 hrs",
-        "1.0 hrs",
-        "1.3 hrs"
+        "1.1",
+        "1.6",
+        "2.6",
+        "15"
       ],
-      "explanation": "Upstream speed=16-5=11. Time=21/11=1.9 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
     },
     "hi": {
-      "question": "नाव 16 किमी/घंटा, धारा 5। 21 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "3.8 hrs",
-        "1.9 hrs",
-        "1.0 hrs",
-        "1.3 hrs"
+        "1.1",
+        "1.6",
+        "2.6",
+        "15"
       ],
-      "explanation": "विपरीत चाल=11। समय=21/11=1.9 घंटे।"
-    },
-    "id": "nmbs-0039"
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    }
   },
   {
+    "id": "nbs-0045",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.0",
+        "4.0",
+        "9",
+        "2.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.0",
+        "4.0",
+        "9",
+        "2.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0046",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "3.5",
+        "5",
+        "11",
+        "4"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "3.5",
+        "5",
+        "11",
+        "4"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0047",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "11",
+        "2.2",
+        "3.7",
+        "2.7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "11",
+        "2.2",
+        "3.7",
+        "2.7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0048",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "5.0",
+        "5",
+        "4.5",
+        "3.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "5.0",
+        "5",
+        "4.5",
+        "3.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0049",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.5",
+        "15",
+        "1.5",
+        "1.0"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.5",
+        "15",
+        "1.5",
+        "1.0"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0050",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.2",
+        "11",
+        "0.2",
+        "1.7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.2",
+        "11",
+        "0.2",
+        "1.7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0051",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.0",
+        "5",
+        "3.5",
+        "2.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.0",
+        "5",
+        "3.5",
+        "2.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0052",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "5",
+        "2.1",
+        "1.6",
+        "0.6"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "5",
+        "2.1",
+        "1.6",
+        "0.6"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0053",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.5",
+        "3.0",
+        "2.0",
+        "7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.5",
+        "3.0",
+        "2.0",
+        "7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0054",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "4.5",
+        "11",
+        "3.5",
+        "4"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "4.5",
+        "11",
+        "3.5",
+        "4"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0055",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.2",
+        "4.2",
+        "2.7",
+        "9"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.2",
+        "4.2",
+        "2.7",
+        "9"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0056",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "7",
+        "5.0",
+        "3.5",
+        "4.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "7",
+        "5.0",
+        "3.5",
+        "4.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0057",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.0",
+        "2.0",
+        "1.5",
+        "11"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.0",
+        "2.0",
+        "1.5",
+        "11"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0058",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "0.2",
+        "15",
+        "2.2",
+        "1.2"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "0.2",
+        "15",
+        "2.2",
+        "1.2"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0059",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
+      "options": [
+        "15",
+        "3.5",
+        "2.0",
+        "2.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
+      "options": [
+        "15",
+        "3.5",
+        "2.0",
+        "2.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0060",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 15 km/hr, stream 2 km/hr. Time for 68 km upstream?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "10.4 hrs",
-        "5.2 hrs",
-        "4.0 hrs",
-        "4.5 hrs"
+        "2.1",
+        "1.6",
+        "9",
+        "1.1"
       ],
-      "explanation": "Upstream speed=15-2=13. Time=68/13=5.2 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
     },
     "hi": {
-      "question": "नाव 15 किमी/घंटा, धारा 2। 68 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "10.4 hrs",
-        "5.2 hrs",
-        "4.0 hrs",
-        "4.5 hrs"
+        "2.1",
+        "1.6",
+        "9",
+        "1.1"
       ],
-      "explanation": "विपरीत चाल=13। समय=68/13=5.2 घंटे।"
-    },
-    "id": "nmbs-0040"
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 9 km/hr, stream 3 km/hr. Time for 36 km upstream?",
-      "options": [
-        "4.0 hrs",
-        "3.0 hrs",
-        "6 hrs",
-        "12.0 hrs"
-      ],
-      "explanation": "Upstream speed=9-3=6. Time=36/6=6 hrs."
-    },
-    "hi": {
-      "question": "नाव 9 किमी/घंटा, धारा 3। 36 किमी धारा विपरीत समय?",
-      "options": [
-        "4.0 hrs",
-        "3.0 hrs",
-        "6 hrs",
-        "12.0 hrs"
-      ],
-      "explanation": "विपरीत चाल=6। समय=36/6=6 घंटे।"
-    },
-    "id": "nmbs-0041"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 9 km/hr, stream 6 km/hr. Time for 45 km upstream?",
-      "options": [
-        "3.0 hrs",
-        "5.0 hrs",
-        "30.0 hrs",
-        "15 hrs"
-      ],
-      "explanation": "Upstream speed=9-6=3. Time=45/3=15 hrs."
-    },
-    "hi": {
-      "question": "नाव 9 किमी/घंटा, धारा 6। 45 किमी धारा विपरीत समय?",
-      "options": [
-        "3.0 hrs",
-        "5.0 hrs",
-        "30.0 hrs",
-        "15 hrs"
-      ],
-      "explanation": "विपरीत चाल=3। समय=45/3=15 घंटे।"
-    },
-    "id": "nmbs-0042"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 14 km/hr, stream 1 km/hr. Time for 30 km upstream?",
-      "options": [
-        "4.6 hrs",
-        "2.0 hrs",
-        "2.1 hrs",
-        "2.3 hrs"
-      ],
-      "explanation": "Upstream speed=14-1=13. Time=30/13=2.3 hrs."
-    },
-    "hi": {
-      "question": "नाव 14 किमी/घंटा, धारा 1। 30 किमी धारा विपरीत समय?",
-      "options": [
-        "4.6 hrs",
-        "2.0 hrs",
-        "2.1 hrs",
-        "2.3 hrs"
-      ],
-      "explanation": "विपरीत चाल=13। समय=30/13=2.3 घंटे।"
-    },
-    "id": "nmbs-0043"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 13 km/hr, stream 1 km/hr. Time for 42 km upstream?",
-      "options": [
-        "3.0 hrs",
-        "3.2 hrs",
-        "3.5 hrs",
-        "7.0 hrs"
-      ],
-      "explanation": "Upstream speed=13-1=12. Time=42/12=3.5 hrs."
-    },
-    "hi": {
-      "question": "नाव 13 किमी/घंटा, धारा 1। 42 किमी धारा विपरीत समय?",
-      "options": [
-        "3.0 hrs",
-        "3.2 hrs",
-        "3.5 hrs",
-        "7.0 hrs"
-      ],
-      "explanation": "विपरीत चाल=12। समय=42/12=3.5 घंटे।"
-    },
-    "id": "nmbs-0044"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 23 km/hr, stream 5 km/hr. Time for 56 km upstream?",
-      "options": [
-        "6.2 hrs",
-        "2.4 hrs",
-        "3.1 hrs",
-        "2.0 hrs"
-      ],
-      "explanation": "Upstream speed=23-5=18. Time=56/18=3.1 hrs."
-    },
-    "hi": {
-      "question": "नाव 23 किमी/घंटा, धारा 5। 56 किमी धारा विपरीत समय?",
-      "options": [
-        "6.2 hrs",
-        "2.4 hrs",
-        "3.1 hrs",
-        "2.0 hrs"
-      ],
-      "explanation": "विपरीत चाल=18। समय=56/18=3.1 घंटे।"
-    },
-    "id": "nmbs-0045"
-  },
-  {
+    "id": "nbs-0061",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 10 km/hr, stream 2 km/hr. Time for 48 km upstream?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "4.0 hrs",
-        "6 hrs",
-        "4.8 hrs",
-        "12.0 hrs"
+        "4.0",
+        "2.5",
+        "1.5",
+        "15"
       ],
-      "explanation": "Upstream speed=10-2=8. Time=48/8=6 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
     },
     "hi": {
-      "question": "नाव 10 किमी/घंटा, धारा 2। 48 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "4.0 hrs",
-        "6 hrs",
-        "4.8 hrs",
-        "12.0 hrs"
+        "4.0",
+        "2.5",
+        "1.5",
+        "15"
       ],
-      "explanation": "विपरीत चाल=8। समय=48/8=6 घंटे।"
-    },
-    "id": "nmbs-0046"
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    }
   },
   {
+    "id": "nbs-0062",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "3.5",
+        "4.5",
+        "4",
+        "15"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "3.5",
+        "4.5",
+        "4",
+        "15"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0063",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "7",
+        "2.2",
+        "3.2",
+        "2.7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "7",
+        "2.2",
+        "3.2",
+        "2.7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0064",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 25 km/hr, stream 3 km/hr. Time for 28 km upstream?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
       "options": [
-        "1.1 hrs",
-        "1.3 hrs",
-        "2.6 hrs",
-        "1.0 hrs"
+        "3.5",
+        "4.5",
+        "6.0",
+        "13"
       ],
-      "explanation": "Upstream speed=25-3=22. Time=28/22=1.3 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
     },
     "hi": {
-      "question": "नाव 25 किमी/घंटा, धारा 3। 28 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
       "options": [
-        "1.1 hrs",
-        "1.3 hrs",
-        "2.6 hrs",
-        "1.0 hrs"
+        "3.5",
+        "4.5",
+        "6.0",
+        "13"
       ],
-      "explanation": "विपरीत चाल=22। समय=28/22=1.3 घंटे।"
-    },
-    "id": "nmbs-0047"
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
+    }
   },
   {
-    "correctOption": "D",
+    "id": "nbs-0065",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 16 km/hr, stream 4 km/hr. Time for 80 km upstream?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "13.4 hrs",
-        "5.0 hrs",
-        "4.0 hrs",
-        "6.7 hrs"
+        "9",
+        "3.0",
+        "1.5",
+        "1.0"
       ],
-      "explanation": "Upstream speed=16-4=12. Time=80/12=6.7 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
     },
     "hi": {
-      "question": "नाव 16 किमी/घंटा, धारा 4। 80 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "13.4 hrs",
-        "5.0 hrs",
-        "4.0 hrs",
-        "6.7 hrs"
+        "9",
+        "3.0",
+        "1.5",
+        "1.0"
       ],
-      "explanation": "विपरीत चाल=12। समय=80/12=6.7 घंटे।"
-    },
-    "id": "nmbs-0048"
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
+    }
   },
   {
-    "correctOption": "D",
+    "id": "nbs-0066",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 13 km/hr, stream 2 km/hr. Time for 30 km upstream?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "2.3 hrs",
-        "5.4 hrs",
-        "2.0 hrs",
-        "2.7 hrs"
+        "1.2",
+        "0.7",
+        "2.2",
+        "9"
       ],
-      "explanation": "Upstream speed=13-2=11. Time=30/11=2.7 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
     },
     "hi": {
-      "question": "नाव 13 किमी/घंटा, धारा 2। 30 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "2.3 hrs",
-        "5.4 hrs",
-        "2.0 hrs",
-        "2.7 hrs"
+        "1.2",
+        "0.7",
+        "2.2",
+        "9"
       ],
-      "explanation": "विपरीत चाल=11। समय=30/11=2.7 घंटे।"
-    },
-    "id": "nmbs-0049"
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    }
   },
   {
+    "id": "nbs-0067",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.5",
+        "3.5",
+        "1.5",
+        "7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.5",
+        "3.5",
+        "1.5",
+        "7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0068",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "0.6",
+        "2.6",
+        "1.6",
+        "5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "0.6",
+        "2.6",
+        "1.6",
+        "5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0069",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 12 km/hr, stream 1 km/hr. Time for 52 km upstream?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "9.4 hrs",
-        "4.7 hrs",
-        "4.3 hrs",
-        "4.0 hrs"
+        "13",
+        "2.5",
+        "4.0",
+        "2.0"
       ],
-      "explanation": "Upstream speed=12-1=11. Time=52/11=4.7 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
     },
     "hi": {
-      "question": "नाव 12 किमी/घंटा, धारा 1। 52 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "9.4 hrs",
-        "4.7 hrs",
-        "4.3 hrs",
-        "4.0 hrs"
+        "13",
+        "2.5",
+        "4.0",
+        "2.0"
       ],
-      "explanation": "विपरीत चाल=11। समय=52/11=4.7 घंटे।"
-    },
-    "id": "nmbs-0050"
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    }
   },
   {
+    "id": "nbs-0070",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "4",
+        "15",
+        "4.5",
+        "3"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "4",
+        "15",
+        "4.5",
+        "3"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0071",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.7",
+        "1.7",
+        "4.2",
+        "7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.7",
+        "1.7",
+        "4.2",
+        "7"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0072",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 19 km/hr, stream 2 km/hr. Time for 21 km upstream?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
       "options": [
-        "1.0 hrs",
-        "1.2 hrs",
-        "1.1 hrs",
-        "2.4 hrs"
+        "3.5",
+        "4.5",
+        "5.0",
+        "13"
       ],
-      "explanation": "Upstream speed=19-2=17. Time=21/17=1.2 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
     },
     "hi": {
-      "question": "नाव 19 किमी/घंटा, धारा 2। 21 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
       "options": [
-        "1.0 hrs",
-        "1.2 hrs",
-        "1.1 hrs",
-        "2.4 hrs"
+        "3.5",
+        "4.5",
+        "5.0",
+        "13"
       ],
-      "explanation": "विपरीत चाल=17। समय=21/17=1.2 घंटे।"
-    },
-    "id": "nmbs-0051"
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
+    }
   },
   {
+    "id": "nbs-0073",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 12 km/hr, stream 6 km/hr. Time for 72 km upstream?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "6.0 hrs",
-        "4.0 hrs",
-        "12 hrs",
-        "24.0 hrs"
+        "9",
+        "0.5",
+        "1.5",
+        "2.0"
       ],
-      "explanation": "Upstream speed=12-6=6. Time=72/6=12 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
     },
     "hi": {
-      "question": "नाव 12 किमी/घंटा, धारा 6। 72 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "6.0 hrs",
-        "4.0 hrs",
-        "12 hrs",
-        "24.0 hrs"
+        "9",
+        "0.5",
+        "1.5",
+        "2.0"
       ],
-      "explanation": "विपरीत चाल=6। समय=72/6=12 घंटे।"
-    },
-    "id": "nmbs-0052"
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 23 km/hr, stream 5 km/hr. Time for 112 km upstream?",
-      "options": [
-        "4.9 hrs",
-        "12.4 hrs",
-        "4.0 hrs",
-        "6.2 hrs"
-      ],
-      "explanation": "Upstream speed=23-5=18. Time=112/18=6.2 hrs."
-    },
-    "hi": {
-      "question": "नाव 23 किमी/घंटा, धारा 5। 112 किमी धारा विपरीत समय?",
-      "options": [
-        "4.9 hrs",
-        "12.4 hrs",
-        "4.0 hrs",
-        "6.2 hrs"
-      ],
-      "explanation": "विपरीत चाल=18। समय=112/18=6.2 घंटे।"
-    },
-    "id": "nmbs-0053"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 25 km/hr, stream 4 km/hr. Time for 29 km upstream?",
-      "options": [
-        "1.4 hrs",
-        "1.2 hrs",
-        "1.0 hrs",
-        "2.8 hrs"
-      ],
-      "explanation": "Upstream speed=25-4=21. Time=29/21=1.4 hrs."
-    },
-    "hi": {
-      "question": "नाव 25 किमी/घंटा, धारा 4। 29 किमी धारा विपरीत समय?",
-      "options": [
-        "1.4 hrs",
-        "1.2 hrs",
-        "1.0 hrs",
-        "2.8 hrs"
-      ],
-      "explanation": "विपरीत चाल=21। समय=29/21=1.4 घंटे।"
-    },
-    "id": "nmbs-0054"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 23 km/hr, stream 6 km/hr. Time for 87 km upstream?",
-      "options": [
-        "5.1 hrs",
-        "10.2 hrs",
-        "3.0 hrs",
-        "3.8 hrs"
-      ],
-      "explanation": "Upstream speed=23-6=17. Time=87/17=5.1 hrs."
-    },
-    "hi": {
-      "question": "नाव 23 किमी/घंटा, धारा 6। 87 किमी धारा विपरीत समय?",
-      "options": [
-        "5.1 hrs",
-        "10.2 hrs",
-        "3.0 hrs",
-        "3.8 hrs"
-      ],
-      "explanation": "विपरीत चाल=17। समय=87/17=5.1 घंटे।"
-    },
-    "id": "nmbs-0055"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 8 km/hr, stream 1 km/hr. Time for 27 km upstream?",
-      "options": [
-        "3.9 hrs",
-        "3.0 hrs",
-        "3.4 hrs",
-        "7.8 hrs"
-      ],
-      "explanation": "Upstream speed=8-1=7. Time=27/7=3.9 hrs."
-    },
-    "hi": {
-      "question": "नाव 8 किमी/घंटा, धारा 1। 27 किमी धारा विपरीत समय?",
-      "options": [
-        "3.9 hrs",
-        "3.0 hrs",
-        "3.4 hrs",
-        "7.8 hrs"
-      ],
-      "explanation": "विपरीत चाल=7। समय=27/7=3.9 घंटे।"
-    },
-    "id": "nmbs-0056"
-  },
-  {
+    "id": "nbs-0074",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 17 km/hr, stream 5 km/hr. Time for 88 km upstream?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "4.0 hrs",
-        "5.2 hrs",
-        "7.3 hrs",
-        "14.6 hrs"
+        "5",
+        "0.2",
+        "1.2",
+        "2.7"
       ],
-      "explanation": "Upstream speed=17-5=12. Time=88/12=7.3 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
     },
     "hi": {
-      "question": "नाव 17 किमी/घंटा, धारा 5। 88 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "4.0 hrs",
-        "5.2 hrs",
-        "7.3 hrs",
-        "14.6 hrs"
+        "5",
+        "0.2",
+        "1.2",
+        "2.7"
       ],
-      "explanation": "विपरीत चाल=12। समय=88/12=7.3 घंटे।"
-    },
-    "id": "nmbs-0057"
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 15 km/hr, stream 5 km/hr. Time for 60 km upstream?",
-      "options": [
-        "12.0 hrs",
-        "3.0 hrs",
-        "4.0 hrs",
-        "6 hrs"
-      ],
-      "explanation": "Upstream speed=15-5=10. Time=60/10=6 hrs."
-    },
-    "hi": {
-      "question": "नाव 15 किमी/घंटा, धारा 5। 60 किमी धारा विपरीत समय?",
-      "options": [
-        "12.0 hrs",
-        "3.0 hrs",
-        "4.0 hrs",
-        "6 hrs"
-      ],
-      "explanation": "विपरीत चाल=10। समय=60/10=6 घंटे।"
-    },
-    "id": "nmbs-0058"
-  },
-  {
+    "id": "nbs-0075",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 17 km/hr, stream 1 km/hr. Time for 54 km upstream?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
       "options": [
-        "3.0 hrs",
-        "3.4 hrs",
-        "3.2 hrs",
-        "6.8 hrs"
+        "4.0",
+        "2.5",
+        "1.5",
+        "9"
       ],
-      "explanation": "Upstream speed=17-1=16. Time=54/16=3.4 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
     },
     "hi": {
-      "question": "नाव 17 किमी/घंटा, धारा 1। 54 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
       "options": [
-        "3.0 hrs",
-        "3.4 hrs",
-        "3.2 hrs",
-        "6.8 hrs"
+        "4.0",
+        "2.5",
+        "1.5",
+        "9"
       ],
-      "explanation": "विपरीत चाल=16। समय=54/16=3.4 घंटे।"
-    },
-    "id": "nmbs-0059"
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    }
   },
   {
+    "id": "nbs-0076",
     "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 12 km/hr, stream 4 km/hr. Time for 16 km upstream?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "2 hrs",
-        "1.3 hrs",
-        "1.0 hrs",
-        "4.0 hrs"
+        "1.6",
+        "1.1",
+        "3.1",
+        "15"
       ],
-      "explanation": "Upstream speed=12-4=8. Time=16/8=2 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
     },
     "hi": {
-      "question": "नाव 12 किमी/घंटा, धारा 4। 16 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "2 hrs",
-        "1.3 hrs",
-        "1.0 hrs",
-        "4.0 hrs"
+        "1.6",
+        "1.1",
+        "3.1",
+        "15"
       ],
-      "explanation": "विपरीत चाल=8। समय=16/8=2 घंटे।"
-    },
-    "id": "nmbs-0061"
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    }
   },
   {
+    "id": "nbs-0077",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.5",
+        "13",
+        "2.0",
+        "3.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.5",
+        "13",
+        "2.0",
+        "3.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0078",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 10 km/hr, stream 1 km/hr. Time for 44 km upstream?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
       "options": [
-        "4.4 hrs",
-        "4.0 hrs",
-        "4.9 hrs",
-        "9.8 hrs"
+        "5",
+        "15",
+        "4",
+        "3"
       ],
-      "explanation": "Upstream speed=10-1=9. Time=44/9=4.9 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
     },
     "hi": {
-      "question": "नाव 10 किमी/घंटा, धारा 1। 44 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
       "options": [
-        "4.4 hrs",
-        "4.0 hrs",
-        "4.9 hrs",
-        "9.8 hrs"
+        "5",
+        "15",
+        "4",
+        "3"
       ],
-      "explanation": "विपरीत चाल=9। समय=44/9=4.9 घंटे।"
-    },
-    "id": "nmbs-0062"
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 13 km/hr, stream 4 km/hr. Time for 51 km upstream?",
-      "options": [
-        "3.9 hrs",
-        "3.0 hrs",
-        "5.7 hrs",
-        "11.4 hrs"
-      ],
-      "explanation": "Upstream speed=13-4=9. Time=51/9=5.7 hrs."
-    },
-    "hi": {
-      "question": "नाव 13 किमी/घंटा, धारा 4। 51 किमी धारा विपरीत समय?",
-      "options": [
-        "3.9 hrs",
-        "3.0 hrs",
-        "5.7 hrs",
-        "11.4 hrs"
-      ],
-      "explanation": "विपरीत चाल=9। समय=51/9=5.7 घंटे।"
-    },
-    "id": "nmbs-0063"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 17 km/hr, stream 2 km/hr. Time for 57 km upstream?",
-      "options": [
-        "3.0 hrs",
-        "3.4 hrs",
-        "7.6 hrs",
-        "3.8 hrs"
-      ],
-      "explanation": "Upstream speed=17-2=15. Time=57/15=3.8 hrs."
-    },
-    "hi": {
-      "question": "नाव 17 किमी/घंटा, धारा 2। 57 किमी धारा विपरीत समय?",
-      "options": [
-        "3.0 hrs",
-        "3.4 hrs",
-        "7.6 hrs",
-        "3.8 hrs"
-      ],
-      "explanation": "विपरीत चाल=15। समय=57/15=3.8 घंटे।"
-    },
-    "id": "nmbs-0064"
-  },
-  {
+    "id": "nbs-0079",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 13 km/hr, stream 5 km/hr. Time for 54 km upstream?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "4.2 hrs",
-        "6.8 hrs",
-        "3.0 hrs",
-        "13.6 hrs"
+        "3.2",
+        "2.7",
+        "2.2",
+        "11"
       ],
-      "explanation": "Upstream speed=13-5=8. Time=54/8=6.8 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
     },
     "hi": {
-      "question": "नाव 13 किमी/घंटा, धारा 5। 54 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "4.2 hrs",
-        "6.8 hrs",
-        "3.0 hrs",
-        "13.6 hrs"
+        "3.2",
+        "2.7",
+        "2.2",
+        "11"
       ],
-      "explanation": "विपरीत चाल=8। समय=54/8=6.8 घंटे।"
-    },
-    "id": "nmbs-0065"
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    }
   },
   {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 11 km/hr, stream 5 km/hr. Time for 16 km upstream?",
-      "options": [
-        "2.7 hrs",
-        "1.5 hrs",
-        "1.0 hrs",
-        "5.4 hrs"
-      ],
-      "explanation": "Upstream speed=11-5=6. Time=16/6=2.7 hrs."
-    },
-    "hi": {
-      "question": "नाव 11 किमी/घंटा, धारा 5। 16 किमी धारा विपरीत समय?",
-      "options": [
-        "2.7 hrs",
-        "1.5 hrs",
-        "1.0 hrs",
-        "5.4 hrs"
-      ],
-      "explanation": "विपरीत चाल=6। समय=16/6=2.7 घंटे।"
-    },
-    "id": "nmbs-0066"
-  },
-  {
+    "id": "nbs-0080",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 9 km/hr, stream 2 km/hr. Time for 44 km upstream?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
       "options": [
-        "4.0 hrs",
-        "4.9 hrs",
-        "6.3 hrs",
-        "12.6 hrs"
+        "3.5",
+        "5.5",
+        "4.5",
+        "15"
       ],
-      "explanation": "Upstream speed=9-2=7. Time=44/7=6.3 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
     },
     "hi": {
-      "question": "नाव 9 किमी/घंटा, धारा 2। 44 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
       "options": [
-        "4.0 hrs",
-        "4.9 hrs",
-        "6.3 hrs",
-        "12.6 hrs"
+        "3.5",
+        "5.5",
+        "4.5",
+        "15"
       ],
-      "explanation": "विपरीत चाल=7। समय=44/7=6.3 घंटे।"
-    },
-    "id": "nmbs-0067"
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 19 km/hr, stream 6 km/hr. Time for 25 km upstream?",
-      "options": [
-        "1.3 hrs",
-        "3.8 hrs",
-        "1.9 hrs",
-        "1.0 hrs"
-      ],
-      "explanation": "Upstream speed=19-6=13. Time=25/13=1.9 hrs."
-    },
-    "hi": {
-      "question": "नाव 19 किमी/घंटा, धारा 6। 25 किमी धारा विपरीत समय?",
-      "options": [
-        "1.3 hrs",
-        "3.8 hrs",
-        "1.9 hrs",
-        "1.0 hrs"
-      ],
-      "explanation": "विपरीत चाल=13। समय=25/13=1.9 घंटे।"
-    },
-    "id": "nmbs-0068"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Boat speed 24 km/hr, stream 6 km/hr. Time for 90 km upstream?",
-      "options": [
-        "3.8 hrs",
-        "5 hrs",
-        "10.0 hrs",
-        "3.0 hrs"
-      ],
-      "explanation": "Upstream speed=24-6=18. Time=90/18=5 hrs."
-    },
-    "hi": {
-      "question": "नाव 24 किमी/घंटा, धारा 6। 90 किमी धारा विपरीत समय?",
-      "options": [
-        "3.8 hrs",
-        "5 hrs",
-        "10.0 hrs",
-        "3.0 hrs"
-      ],
-      "explanation": "विपरीत चाल=18। समय=90/18=5 घंटे।"
-    },
-    "id": "nmbs-0069"
-  },
-  {
+    "id": "nbs-0081",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Boat speed 14 km/hr, stream 5 km/hr. Time for 76 km upstream?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "4.0 hrs",
-        "5.4 hrs",
-        "16.8 hrs",
-        "8.4 hrs"
+        "3.0",
+        "0.5",
+        "7",
+        "1.5"
       ],
-      "explanation": "Upstream speed=14-5=9. Time=76/9=8.4 hrs."
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
     },
     "hi": {
-      "question": "नाव 14 किमी/घंटा, धारा 5। 76 किमी धारा विपरीत समय?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "4.0 hrs",
-        "5.4 hrs",
-        "16.8 hrs",
-        "8.4 hrs"
+        "3.0",
+        "0.5",
+        "7",
+        "1.5"
       ],
-      "explanation": "विपरीत चाल=9। समय=76/9=8.4 घंटे।"
-    },
-    "id": "nmbs-0070"
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.70, 10% profit. SP?",
-      "options": [
-        "140",
-        "70",
-        "77",
-        "61"
-      ],
-      "explanation": "SP=70×1.1=77.0."
-    },
-    "hi": {
-      "question": "क्र.मू. 70रु, 10% लाभ। वि.मू.?",
-      "options": [
-        "140",
-        "70",
-        "77",
-        "61"
-      ],
-      "explanation": "वि.मू.=77.0।"
-    },
-    "id": "nmbs-0071"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 28000 at 10% for 23yrs?",
-      "options": [
-        "Rs.64400",
-        "Rs.28000",
-        "Rs.128800",
-        "Rs.32200"
-      ],
-      "explanation": "SI=28000×10×23/100=64400.0."
-    },
-    "hi": {
-      "question": "28000रु, 10%, 23वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.64400",
-        "Rs.28000",
-        "Rs.128800",
-        "Rs.32200"
-      ],
-      "explanation": "सा.ब्याज=64400.0।"
-    },
-    "id": "nmbs-0072"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 28km/hr, 36hrs. Distance?",
-      "options": [
-        "504km",
-        "1008km",
-        "64km",
-        "2016km"
-      ],
-      "explanation": "Dist=28×36=1008km."
-    },
-    "hi": {
-      "question": "कार 28किमी/घं, 36घंटे। दूरी?",
-      "options": [
-        "504km",
-        "1008km",
-        "64km",
-        "2016km"
-      ],
-      "explanation": "दूरी=1008किमी।"
-    },
-    "id": "nmbs-0073"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.490, 12% profit. SP?",
-      "options": [
-        "439",
-        "490",
-        "980",
-        "548.8"
-      ],
-      "explanation": "SP=490×1.12=548.8."
-    },
-    "hi": {
-      "question": "क्र.मू. 490रु, 12% लाभ। वि.मू.?",
-      "options": [
-        "439",
-        "490",
-        "980",
-        "548.8"
-      ],
-      "explanation": "वि.मू.=548.8।"
-    },
-    "id": "nmbs-0074"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "8% of 410?",
-      "options": [
-        "820",
-        "328",
-        "410",
-        "205"
-      ],
-      "explanation": "410×8/100=328."
-    },
-    "hi": {
-      "question": "410 का 8%?",
-      "options": [
-        "820",
-        "328",
-        "410",
-        "205"
-      ],
-      "explanation": "410×8/100=328।"
-    },
-    "id": "nmbs-0075"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.360, 12% profit. SP?",
-      "options": [
-        "403.2",
-        "360",
-        "322",
-        "720"
-      ],
-      "explanation": "SP=360×1.12=403.2."
-    },
-    "hi": {
-      "question": "क्र.मू. 360रु, 12% लाभ। वि.मू.?",
-      "options": [
-        "403.2",
-        "360",
-        "322",
-        "720"
-      ],
-      "explanation": "वि.मू.=403.2।"
-    },
-    "id": "nmbs-0076"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 20 and 19?",
-      "options": [
-        "380",
-        "1",
-        "380",
-        "39"
-      ],
-      "explanation": "LCM=380/1=380."
-    },
-    "hi": {
-      "question": "20 और 19 का ल.स.?",
-      "options": [
-        "380",
-        "1",
-        "380",
-        "39"
-      ],
-      "explanation": "ल.स.=380।"
-    },
-    "id": "nmbs-0077"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "6% of 350?",
-      "options": [
-        "210",
-        "175",
-        "350",
-        "700"
-      ],
-      "explanation": "350×6/100=210."
-    },
-    "hi": {
-      "question": "350 का 6%?",
-      "options": [
-        "210",
-        "175",
-        "350",
-        "700"
-      ],
-      "explanation": "350×6/100=210।"
-    },
-    "id": "nmbs-0078"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 17×21cm. Area?",
-      "options": [
-        "76 cm²",
-        "714 cm²",
-        "357 cm²",
-        "38 cm²"
-      ],
-      "explanation": "Area=17×21=357 cm²."
-    },
-    "hi": {
-      "question": "आयत 17×21सेमी। क्षेत्रफल?",
-      "options": [
-        "76 cm²",
-        "714 cm²",
-        "357 cm²",
-        "38 cm²"
-      ],
-      "explanation": "क्षेत्रफल=17×21=357 वर्ग सेमी।"
-    },
-    "id": "nmbs-0079"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 66, 66, 70, 80, 60, 20",
-      "options": [
-        "362",
-        "60.3",
-        "20",
-        "80"
-      ],
-      "explanation": "Sum=362/6=60.3."
-    },
-    "hi": {
-      "question": "औसत: 66, 66, 70, 80, 60, 20",
-      "options": [
-        "362",
-        "60.3",
-        "20",
-        "80"
-      ],
-      "explanation": "योग=362/6=60.3।"
-    },
-    "id": "nmbs-0080"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.190, 7% profit. SP?",
-      "options": [
-        "162",
-        "190",
-        "380",
-        "203.3"
-      ],
-      "explanation": "SP=190×1.07=203.3."
-    },
-    "hi": {
-      "question": "क्र.मू. 190रु, 7% लाभ। वि.मू.?",
-      "options": [
-        "162",
-        "190",
-        "380",
-        "203.3"
-      ],
-      "explanation": "वि.मू.=203.3।"
-    },
-    "id": "nmbs-0081"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 760 in 4:4. Larger?",
-      "options": [
-        "380",
-        "380",
-        "380",
-        "760"
-      ],
-      "explanation": "Parts=8. Shares: 380, 380. Larger=380."
-    },
-    "hi": {
-      "question": "760 को 4:4 में बांटें। बड़ा?",
-      "options": [
-        "380",
-        "380",
-        "380",
-        "760"
-      ],
-      "explanation": "हिस्से: 380, 380। बड़ा=380।"
-    },
-    "id": "nmbs-0082"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "29% of 100?",
-      "options": [
-        "290",
-        "50",
-        "100",
-        "200"
-      ],
-      "explanation": "100×29/100=290."
-    },
-    "hi": {
-      "question": "100 का 29%?",
-      "options": [
-        "290",
-        "50",
-        "100",
-        "200"
-      ],
-      "explanation": "100×29/100=290।"
-    },
-    "id": "nmbs-0083"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 18×21cm. Area?",
-      "options": [
-        "378 cm²",
-        "756 cm²",
-        "78 cm²",
-        "39 cm²"
-      ],
-      "explanation": "Area=18×21=378 cm²."
-    },
-    "hi": {
-      "question": "आयत 18×21सेमी। क्षेत्रफल?",
-      "options": [
-        "378 cm²",
-        "756 cm²",
-        "78 cm²",
-        "39 cm²"
-      ],
-      "explanation": "क्षेत्रफल=18×21=378 वर्ग सेमी।"
-    },
-    "id": "nmbs-0084"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 40km/hr, 19hrs. Distance?",
-      "options": [
-        "380km",
-        "59km",
-        "760km",
-        "1520km"
-      ],
-      "explanation": "Dist=40×19=760km."
-    },
-    "hi": {
-      "question": "कार 40किमी/घं, 19घंटे। दूरी?",
-      "options": [
-        "380km",
-        "59km",
-        "760km",
-        "1520km"
-      ],
-      "explanation": "दूरी=760किमी।"
-    },
-    "id": "nmbs-0085"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 41 and 35?",
-      "options": [
-        "76",
-        "1435",
-        "1",
-        "1435"
-      ],
-      "explanation": "LCM=1435/1=1435."
-    },
-    "hi": {
-      "question": "41 और 35 का ल.स.?",
-      "options": [
-        "76",
-        "1435",
-        "1",
-        "1435"
-      ],
-      "explanation": "ल.स.=1435।"
-    },
-    "id": "nmbs-0086"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 42km/hr, 9hrs. Distance?",
-      "options": [
-        "378km",
-        "189km",
-        "51km",
-        "756km"
-      ],
-      "explanation": "Dist=42×9=378km."
-    },
-    "hi": {
-      "question": "कार 42किमी/घं, 9घंटे। दूरी?",
-      "options": [
-        "378km",
-        "189km",
-        "51km",
-        "756km"
-      ],
-      "explanation": "दूरी=378किमी।"
-    },
-    "id": "nmbs-0087"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 36 + 33 × 9",
-      "options": [
-        "10692",
-        "78",
-        "333",
-        "621"
-      ],
-      "explanation": "BODMAS: 33×9=297+36=333."
-    },
-    "hi": {
-      "question": "सरल: 36 + 33 × 9",
-      "options": [
-        "10692",
-        "78",
-        "333",
-        "621"
-      ],
-      "explanation": "BODMAS: 333।"
-    },
-    "id": "nmbs-0088"
-  },
-  {
+    "id": "nbs-0082",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A=25d, B=17d. Together?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "20.2d",
-        "8d",
-        "10.1d",
-        "42d"
+        "0.7",
+        "2.2",
+        "1.2",
+        "15"
       ],
-      "explanation": "1d: 1/25+1/17. Time=10.1d."
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
     },
     "hi": {
-      "question": "A=25दिन, B=17दिन। साथ?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "20.2d",
-        "8d",
-        "10.1d",
-        "42d"
+        "0.7",
+        "2.2",
+        "1.2",
+        "15"
       ],
-      "explanation": "1दिन: 1/25+1/17। समय=10.1दिन।"
-    },
-    "id": "nmbs-0089"
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 39 + 18 × 9",
-      "options": [
-        "513",
-        "66",
-        "201",
-        "6318"
-      ],
-      "explanation": "BODMAS: 18×9=162+39=201."
-    },
-    "hi": {
-      "question": "सरल: 39 + 18 × 9",
-      "options": [
-        "513",
-        "66",
-        "201",
-        "6318"
-      ],
-      "explanation": "BODMAS: 201।"
-    },
-    "id": "nmbs-0090"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 45 + 10 × 2",
-      "options": [
-        "57",
-        "110",
-        "900",
-        "65"
-      ],
-      "explanation": "BODMAS: 10×2=20+45=65."
-    },
-    "hi": {
-      "question": "सरल: 45 + 10 × 2",
-      "options": [
-        "57",
-        "110",
-        "900",
-        "65"
-      ],
-      "explanation": "BODMAS: 65।"
-    },
-    "id": "nmbs-0091"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 828 in 6:3. Larger?",
-      "options": [
-        "276",
-        "828",
-        "414",
-        "552"
-      ],
-      "explanation": "Parts=9. Shares: 552, 276. Larger=552."
-    },
-    "hi": {
-      "question": "828 को 6:3 में बांटें। बड़ा?",
-      "options": [
-        "276",
-        "828",
-        "414",
-        "552"
-      ],
-      "explanation": "हिस्से: 552, 276। बड़ा=552।"
-    },
-    "id": "nmbs-0092"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 375 in 8:7. Larger?",
-      "options": [
-        "200",
-        "375",
-        "187",
-        "175"
-      ],
-      "explanation": "Parts=15. Shares: 200, 175. Larger=200."
-    },
-    "hi": {
-      "question": "375 को 8:7 में बांटें। बड़ा?",
-      "options": [
-        "200",
-        "375",
-        "187",
-        "175"
-      ],
-      "explanation": "हिस्से: 200, 175। बड़ा=200।"
-    },
-    "id": "nmbs-0093"
-  },
-  {
+    "id": "nbs-0083",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A=22d, B=18d. Together?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
       "options": [
-        "40d",
-        "4d",
-        "19.8d",
-        "9.9d"
+        "15",
+        "4.0",
+        "1.5",
+        "2.5"
       ],
-      "explanation": "1d: 1/22+1/18. Time=9.9d."
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
     },
     "hi": {
-      "question": "A=22दिन, B=18दिन। साथ?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
       "options": [
-        "40d",
-        "4d",
-        "19.8d",
-        "9.9d"
+        "15",
+        "4.0",
+        "1.5",
+        "2.5"
       ],
-      "explanation": "1दिन: 1/22+1/18। समय=9.9दिन।"
-    },
-    "id": "nmbs-0094"
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 29000 at 23% for 5yrs?",
-      "options": [
-        "Rs.29000",
-        "Rs.66700",
-        "Rs.33350",
-        "Rs.16675"
-      ],
-      "explanation": "SI=29000×23×5/100=33350.0."
-    },
-    "hi": {
-      "question": "29000रु, 23%, 5वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.29000",
-        "Rs.66700",
-        "Rs.33350",
-        "Rs.16675"
-      ],
-      "explanation": "सा.ब्याज=33350.0।"
-    },
-    "id": "nmbs-0095"
-  },
-  {
+    "id": "nbs-0084",
     "correctOption": "B",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "LCM of 34 and 24?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "2",
-        "408",
-        "816",
-        "58"
+        "1.1",
+        "1.6",
+        "15",
+        "2.6"
       ],
-      "explanation": "LCM=816/2=408."
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
     },
     "hi": {
-      "question": "34 और 24 का ल.स.?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
       "options": [
-        "2",
-        "408",
-        "816",
-        "58"
+        "1.1",
+        "1.6",
+        "15",
+        "2.6"
       ],
-      "explanation": "ल.स.=408।"
-    },
-    "id": "nmbs-0096"
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 19 + 36 × 5",
-      "options": [
-        "3420",
-        "60",
-        "275",
-        "199"
-      ],
-      "explanation": "BODMAS: 36×5=180+19=199."
-    },
-    "hi": {
-      "question": "सरल: 19 + 36 × 5",
-      "options": [
-        "3420",
-        "60",
-        "275",
-        "199"
-      ],
-      "explanation": "BODMAS: 199।"
-    },
-    "id": "nmbs-0097"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 42000 at 23% for 31yrs?",
-      "options": [
-        "Rs.299460",
-        "Rs.598920",
-        "Rs.42000",
-        "Rs.149730"
-      ],
-      "explanation": "SI=42000×23×31/100=299460.0."
-    },
-    "hi": {
-      "question": "42000रु, 23%, 31वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.299460",
-        "Rs.598920",
-        "Rs.42000",
-        "Rs.149730"
-      ],
-      "explanation": "सा.ब्याज=299460.0।"
-    },
-    "id": "nmbs-0098"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 13 + 28 × 5",
-      "options": [
-        "205",
-        "1820",
-        "46",
-        "153"
-      ],
-      "explanation": "BODMAS: 28×5=140+13=153."
-    },
-    "hi": {
-      "question": "सरल: 13 + 28 × 5",
-      "options": [
-        "205",
-        "1820",
-        "46",
-        "153"
-      ],
-      "explanation": "BODMAS: 153।"
-    },
-    "id": "nmbs-0099"
-  },
-  {
+    "id": "nbs-0085",
     "correctOption": "B",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Rectangle 5×14cm. Area?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "19 cm²",
-        "70 cm²",
-        "140 cm²",
-        "38 cm²"
+        "2.0",
+        "2.5",
+        "7",
+        "3.0"
       ],
-      "explanation": "Area=5×14=70 cm²."
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
     },
     "hi": {
-      "question": "आयत 5×14सेमी। क्षेत्रफल?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "19 cm²",
-        "70 cm²",
-        "140 cm²",
-        "38 cm²"
+        "2.0",
+        "2.5",
+        "7",
+        "3.0"
       ],
-      "explanation": "क्षेत्रफल=5×14=70 वर्ग सेमी।"
-    },
-    "id": "nmbs-0100"
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    }
   },
   {
+    "id": "nbs-0086",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "11",
+        "4",
+        "3",
+        "5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "11",
+        "4",
+        "3",
+        "5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0087",
     "correctOption": "A",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "What is 13 × 33?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "429",
-        "420",
-        "446",
-        "46"
+        "2.7",
+        "3.2",
+        "1.7",
+        "11"
       ],
-      "explanation": "13×33 = 429."
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
     },
     "hi": {
-      "question": "13 × 33 = ?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
       "options": [
-        "429",
-        "420",
-        "446",
-        "46"
+        "2.7",
+        "3.2",
+        "1.7",
+        "11"
       ],
-      "explanation": "13×33 = 429।"
-    },
-    "id": "nmbs-0101"
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "easy",
+    "id": "nbs-0088",
+    "correctOption": "B",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "What is 36 × 5?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
       "options": [
-        "41",
-        "190",
-        "180",
-        "166"
+        "5.5",
+        "4.5",
+        "7",
+        "4.0"
       ],
-      "explanation": "36×5 = 180."
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
     },
     "hi": {
-      "question": "36 × 5 = ?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
       "options": [
-        "41",
-        "190",
-        "180",
-        "166"
+        "5.5",
+        "4.5",
+        "7",
+        "4.0"
       ],
-      "explanation": "36×5 = 180।"
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0089",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.5",
+        "15",
+        "1.5",
+        "0.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
     },
-    "id": "nmbs-0102"
+    "hi": {
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "2.5",
+        "15",
+        "1.5",
+        "0.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0090",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.7",
+        "0.2",
+        "13",
+        "1.2"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.7",
+        "0.2",
+        "13",
+        "1.2"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0091",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
+      "options": [
+        "3.5",
+        "2.5",
+        "7",
+        "2.0"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
+      "options": [
+        "3.5",
+        "2.5",
+        "7",
+        "2.0"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0092",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "5",
+        "2.6",
+        "1.6",
+        "0.6"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "5",
+        "2.6",
+        "1.6",
+        "0.6"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0093",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "3.0",
+        "13",
+        "1.5",
+        "2.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "3.0",
+        "13",
+        "1.5",
+        "2.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (20+4)/2 = 2.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0094",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "5.5",
+        "4",
+        "7",
+        "3.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "5.5",
+        "4",
+        "7",
+        "3.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (24+6)/2 = 4 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0095",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "3.2",
+        "2.7",
+        "5",
+        "2.2"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "3.2",
+        "2.7",
+        "5",
+        "2.2"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (16+4)/2 = 2.7 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0096",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "13",
+        "3.5",
+        "6.0",
+        "4.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Speed of boat in still water?",
+      "options": [
+        "13",
+        "3.5",
+        "6.0",
+        "4.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (18+6)/2 = 4.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0097",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.5",
+        "11",
+        "0.5",
+        "3.0"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.5",
+        "11",
+        "0.5",
+        "3.0"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (12+4)/2 = 1.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0098",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "0.2",
+        "2.2",
+        "5",
+        "1.2"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "0.2",
+        "2.2",
+        "5",
+        "1.2"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (10+2)/2 = 1.2 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0099",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.5",
+        "2.5",
+        "11",
+        "3.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Speed of boat in still water?",
+      "options": [
+        "1.5",
+        "2.5",
+        "11",
+        "3.5"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (15+3)/2 = 2.5 km/hr."
+    }
+  },
+  {
+    "id": "nbs-0100",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "15",
+        "1.6",
+        "2.6",
+        "0.6"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Speed of boat in still water?",
+      "options": [
+        "15",
+        "1.6",
+        "2.6",
+        "0.6"
+      ],
+      "explanation": "Boat speed = (DS+US)/2 = (8+2)/2 = 1.6 km/hr."
+    }
   }
 ]
