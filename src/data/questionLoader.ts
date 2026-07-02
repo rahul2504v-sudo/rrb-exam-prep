@@ -7,9 +7,10 @@ const setIndexCache: Record<string, any> = {};
 function getSubjectExamDir(subjectId: string): string {
   if (subjectId.startsWith('ntpc-')) return 'ntpc';
   if (subjectId.startsWith('group-d-')) return 'group-d';
+  if (subjectId.startsWith('tech-')) return subjectId.split('-').slice(0, 2).join('-');
   if (subjectId.startsWith('basic-science')) return 'basic-science-engineering';
   if (subjectId.startsWith('computers')) return 'computers-applications';
-  return 'ntpc';
+  return subjectId.split('-')[0];
 }
 
 function getSubjectSlug(examId: string, subjectId: string): string {
