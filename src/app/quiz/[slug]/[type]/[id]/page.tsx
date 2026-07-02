@@ -278,12 +278,12 @@ export default function QuizPage() {
               </span>
               {currentQuestion.sourceYear && <span className="text-xs text-gray-400">Source: {currentQuestion.sourceYear}</span>}
             </div>
+            <p className="text-lg font-medium text-gray-900 mb-6 leading-relaxed">{currentQuestion.questionText}</p>
             {currentQuestion.questionImage && (
               <div className="mb-4">
                 <img src={currentQuestion.questionImage} alt="Question figure" className="max-w-full h-auto rounded-lg border border-gray-200" />
               </div>
             )}
-            <p className="text-lg font-medium text-gray-900 mb-6 leading-relaxed">{currentQuestion.questionText}</p>
             <div className="space-y-3">
               {(['A', 'B', 'C', 'D'] as const).map(option => (
                 <button key={option} onClick={() => handleSelectOption(currentQuestion.id, option)} disabled={isSubmitted}
