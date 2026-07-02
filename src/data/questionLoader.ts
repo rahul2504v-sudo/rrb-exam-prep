@@ -78,9 +78,12 @@ export async function getTopicSetCount(examId: string, topicId: string): Promise
   const dir = getSubjectExamDir(info.subjectId);
   const subjSlug = getSubjectSlug(examId, info.subjectId);
   const topSlug = getTopicSlug(examId, topicId);
-  // Standalone subjects (BSE, Computers): key = dir-topicSlug
-  // Exam-nested subjects: key = dir-subjectSlug-topicSlug
-  const key = dir === subjSlug ? `${dir}-${topSlug}` : `${dir}-${subjSlug}-${topSlug}`;
+  // Key matches file path: {dir}-{subjSlug}-{topSlug} for 3-level, {dir}-{topSlug} for 2-level
+  let key = `${dir}-${subjSlug}-${topSlug}`;
+  // If 3-level key doesn't exist, try 2-level (consolidated file without subject dir)
+  if (!sets[key]) {
+    key = `${dir}-${topSlug}`;
+  }
   return (sets[key] || []).length;
 }
 
@@ -92,7 +95,11 @@ export async function loadTopicSet(examId: string, topicId: string, setIndex: nu
   const subjSlug = getSubjectSlug(examId, info.subjectId);
   const topSlug = getTopicSlug(examId, topicId);
   const key = dir === subjSlug ? `${dir}-${topSlug}` : `${dir}-${subjSlug}-${topSlug}`;
-  const ts = sets[key];
+  let ts = sets[key];
+  // Fallback to 2-level key if 3-level not found
+  if (!ts) {
+    ts = sets[`${dir}-${topSlug}`];
+  }
   if (!ts || setIndex >= ts.length) return [];
   const raw = ts[setIndex];
   return raw.map((q: any) => typeof q === 'string' ? null : questionFromJSON(q, examId, info.subjectId, topicId, lang)).filter(Boolean) as Question[];
