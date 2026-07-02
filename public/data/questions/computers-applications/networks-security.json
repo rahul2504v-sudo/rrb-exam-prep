@@ -1,0 +1,5202 @@
+[
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LAN stands for?",
+      "options": [
+        "Large Area Network",
+        "Light Area Network",
+        "Local Area Network",
+        "Long Area Network"
+      ],
+      "explanation": "LAN connects computers in limited area (office/building). WAN covers cities/countries."
+    },
+    "hi": {
+      "question": "LAN का पूरा नाम?",
+      "options": [
+        "Large Area Network",
+        "Light Area Network",
+        "Local Area Network",
+        "Long Area Network"
+      ],
+      "explanation": "LAN सीमित क्षेत्र (कार्यालय/भवन)। WAN शहर/देश।"
+    },
+    "id": "netw-0001"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "IP address v4 has how many bits?",
+      "options": [
+        "16 bits",
+        "64 bits",
+        "32 bits",
+        "128 bits"
+      ],
+      "explanation": "IPv4 = 32 bits (4 octets, e.g., 192.168.1.1). IPv6 = 128 bits."
+    },
+    "hi": {
+      "question": "IPv4 कितने बिट का?",
+      "options": [
+        "16 bits",
+        "64 bits",
+        "32 bits",
+        "128 bits"
+      ],
+      "explanation": "IPv4 = 32 बिट (जैसे 192.168.1.1)। IPv6 = 128 बिट।"
+    },
+    "id": "netw-0002"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "WAN stands for?",
+      "options": [
+        "Wide Area Network",
+        "Wireless Area Network",
+        "Web Area Network",
+        "World Area Network"
+      ],
+      "explanation": "WAN covers large geographic areas (cities, countries, continents). Internet is the largest WAN."
+    },
+    "hi": {
+      "question": "WAN का पूरा नाम क्या है?",
+      "options": [
+        "Wide Area Network",
+        "Wireless Area Network",
+        "Web Area Network",
+        "World Area Network"
+      ],
+      "explanation": "WAN बड़े भौगोलिक क्षेत्रों (शहर, देश, महाद्वीप) को कवर करता है। इंटरनेट सबसे बड़ा WAN है।"
+    },
+    "id": "netw-0003"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "MAN stands for?",
+      "options": [
+        "Multiple Area Network",
+        "Metropolitan Area Network",
+        "Managed Area Network",
+        "Mobile Area Network"
+      ],
+      "explanation": "MAN covers a city or large campus, larger than LAN but smaller than WAN."
+    },
+    "hi": {
+      "question": "MAN का पूरा नाम क्या है?",
+      "options": [
+        "Multiple Area Network",
+        "Metropolitan Area Network",
+        "Managed Area Network",
+        "Mobile Area Network"
+      ],
+      "explanation": "MAN एक शहर या बड़े परिसर को कवर करता है, LAN से बड़ा लेकिन WAN से छोटा।"
+    },
+    "id": "netw-0004"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "PAN stands for?",
+      "options": [
+        "Public Area Network",
+        "Parallel Area Network",
+        "Personal Area Network",
+        "Private Area Network"
+      ],
+      "explanation": "PAN connects devices around one person (Bluetooth, personal hotspot). Range up to 10 meters."
+    },
+    "hi": {
+      "question": "PAN का पूरा नाम क्या है?",
+      "options": [
+        "Public Area Network",
+        "Parallel Area Network",
+        "Personal Area Network",
+        "Private Area Network"
+      ],
+      "explanation": "PAN एक व्यक्ति के आसपास के उपकरणों को जोड़ता है (ब्लूटूथ, पर्सनल हॉटस्पॉट)। सीमा 10 मीटर तक।"
+    },
+    "id": "netw-0005"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "In star topology, all nodes connect to?",
+      "options": [
+        "Each other directly",
+        "A ring",
+        "A backbone cable",
+        "A central hub/switch"
+      ],
+      "explanation": "Star topology connects all nodes to a central device. Failure of one node doesn't affect others."
+    },
+    "hi": {
+      "question": "स्टार टोपोलॉजी में सभी नोड किससे जुड़ते हैं?",
+      "options": [
+        "एक-दूसरे से सीधे",
+        "एक रिंग",
+        "एक बैकबोन केबल",
+        "एक केंद्रीय हब/स्विच"
+      ],
+      "explanation": "स्टार टोपोलॉजी सभी नोड्स को केंद्रीय उपकरण से जोड़ती है। एक नोड की विफलता दूसरों को प्रभावित नहीं करती।"
+    },
+    "id": "netw-0006"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which topology has highest reliability?",
+      "options": [
+        "Mesh topology",
+        "Bus topology",
+        "Ring topology",
+        "Star topology"
+      ],
+      "explanation": "Mesh topology (every node connected to every other) provides maximum redundancy and reliability."
+    },
+    "hi": {
+      "question": "किस टोपोलॉजी में सबसे अधिक विश्वसनीयता है?",
+      "options": [
+        "मेश टोपोलॉजी",
+        "बस टोपोलॉजी",
+        "रिंग टोपोलॉजी",
+        "स्टार टोपोलॉजी"
+      ],
+      "explanation": "मेश टोपोलॉजी (प्रत्येक नोड हर दूसरे से जुड़ा) अधिकतम अतिरेक और विश्वसनीयता प्रदान करती है।"
+    },
+    "id": "netw-0007"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "In bus topology, data travels along?",
+      "options": [
+        "Multiple paths",
+        "A single backbone cable",
+        "Wireless signals",
+        "Point-to-point links"
+      ],
+      "explanation": "Bus topology uses one central cable (backbone). All nodes connect to this shared medium."
+    },
+    "hi": {
+      "question": "बस टोपोलॉजी में डेटा किसके साथ यात्रा करता है?",
+      "options": [
+        "कई पथ",
+        "एक बैकबोन केबल",
+        "वायरलेस सिग्नल",
+        "पॉइंट-टू-पॉइंट लिंक"
+      ],
+      "explanation": "बस टोपोलॉजी एक केंद्रीय केबल (बैकबोन) का उपयोग करती है। सभी नोड इस साझा माध्यम से जुड़ते हैं।"
+    },
+    "id": "netw-0008"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ring topology data flows in?",
+      "options": [
+        "Random direction",
+        "All directions",
+        "One direction (unidirectional)",
+        "Both directions by default"
+      ],
+      "explanation": "In ring topology, data travels in one direction (clockwise/counterclockwise) around the ring."
+    },
+    "hi": {
+      "question": "रिंग टोपोलॉजी में डेटा किस दिशा में बहता है?",
+      "options": [
+        "यादृच्छिक दिशा",
+        "सभी दिशाएं",
+        "एक दिशा (यूनिडायरेक्शनल)",
+        "डिफ़ॉल्ट रूप से दोनों दिशाएं"
+      ],
+      "explanation": "रिंग टोपोलॉजी में, डेटा रिंग के चारों ओर एक दिशा (क्लॉकवाइज/काउंटरक्लॉकवाइज) में यात्रा करता है।"
+    },
+    "id": "netw-0009"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Tree topology is a combination of?",
+      "options": [
+        "Ring and Mesh",
+        "Bus and Ring",
+        "Mesh and Star",
+        "Star and Bus"
+      ],
+      "explanation": "Tree topology combines star and bus. Multiple star networks connected to a bus backbone."
+    },
+    "hi": {
+      "question": "ट्री टोपोलॉजी किसका संयोजन है?",
+      "options": [
+        "रिंग और मेश",
+        "बस और रिंग",
+        "मेश और स्टार",
+        "स्टार और बस"
+      ],
+      "explanation": "ट्री टोपोलॉजी स्टार और बस को जोड़ती है। कई स्टार नेटवर्क एक बस बैकबोन से जुड़े।"
+    },
+    "id": "netw-0010"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "How many layers in OSI model?",
+      "options": [
+        "7",
+        "5",
+        "4",
+        "6"
+      ],
+      "explanation": "OSI (Open Systems Interconnection) has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, Application."
+    },
+    "hi": {
+      "question": "OSI मॉडल में कितनी परतें हैं?",
+      "options": [
+        "7",
+        "5",
+        "4",
+        "6"
+      ],
+      "explanation": "OSI (ओपन सिस्टम इंटरकनेक्शन) में 7 परतें: फिजिकल, डेटा लिंक, नेटवर्क, ट्रांसपोर्ट, सेशन, प्रेजेंटेशन, एप्लीकेशन।"
+    },
+    "id": "netw-0011"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "How many layers in TCP/IP model?",
+      "options": [
+        "7",
+        "4",
+        "5",
+        "3"
+      ],
+      "explanation": "TCP/IP has 4 layers: Application, Transport, Internet, Network Access (or Link Layer)."
+    },
+    "hi": {
+      "question": "TCP/IP मॉडल में कितनी परतें हैं?",
+      "options": [
+        "7",
+        "4",
+        "5",
+        "3"
+      ],
+      "explanation": "TCP/IP में 4 परतें: एप्लीकेशन, ट्रांसपोर्ट, इंटरनेट, नेटवर्क एक्सेस (या लिंक लेयर)।"
+    },
+    "id": "netw-0012"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which layer of OSI model handles routing?",
+      "options": [
+        "Transport Layer",
+        "Data Link Layer",
+        "Network Layer",
+        "Physical Layer"
+      ],
+      "explanation": "Network Layer (Layer 3) handles routing, logical addressing (IP), and path determination."
+    },
+    "hi": {
+      "question": "OSI मॉडल की कौन सी परत रूटिंग संभालती है?",
+      "options": [
+        "ट्रांसपोर्ट लेयर",
+        "डेटा लिंक लेयर",
+        "नेटवर्क लेयर",
+        "फिजिकल लेयर"
+      ],
+      "explanation": "नेटवर्क लेयर (लेयर 3) रूटिंग, तार्किक पता (IP) और पथ निर्धारण संभालती है।"
+    },
+    "id": "netw-0013"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "TCP operates at which layer of OSI model?",
+      "options": [
+        "Network Layer",
+        "Application Layer",
+        "Physical Layer",
+        "Transport Layer"
+      ],
+      "explanation": "TCP (Transmission Control Protocol) operates at Layer 4 (Transport), providing reliable, connection-oriented delivery."
+    },
+    "hi": {
+      "question": "TCP OSI मॉडल की किस परत पर काम करता है?",
+      "options": [
+        "नेटवर्क लेयर",
+        "एप्लीकेशन लेयर",
+        "फिजिकल लेयर",
+        "ट्रांसपोर्ट लेयर"
+      ],
+      "explanation": "TCP (ट्रांसमिशन कंट्रोल प्रोटोकॉल) लेयर 4 (ट्रांसपोर्ट) पर काम करता है, विश्वसनीय, कनेक्शन-ओरिएंटेड डिलीवरी।"
+    },
+    "id": "netw-0014"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HTTP operates at which layer?",
+      "options": [
+        "Application Layer",
+        "Transport Layer",
+        "Network Layer",
+        "Data Link Layer"
+      ],
+      "explanation": "HTTP is an Application Layer (Layer 7) protocol used for web browsing."
+    },
+    "hi": {
+      "question": "HTTP किस परत पर काम करता है?",
+      "options": [
+        "एप्लीकेशन लेयर",
+        "ट्रांसपोर्ट लेयर",
+        "नेटवर्क लेयर",
+        "डेटा लिंक लेयर"
+      ],
+      "explanation": "HTTP वेब ब्राउज़िंग के लिए उपयोग किया जाने वाला एप्लीकेशन लेयर (लेयर 7) प्रोटोकॉल है।"
+    },
+    "id": "netw-0015"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "MAC address has how many bits?",
+      "options": [
+        "32 bits",
+        "48 bits",
+        "64 bits",
+        "128 bits"
+      ],
+      "explanation": "MAC (Media Access Control) address is 48 bits, written as 6 pairs of hex digits (e.g., 00:1A:2B:3C:4D:5E)."
+    },
+    "hi": {
+      "question": "MAC पता कितने बिट का होता है?",
+      "options": [
+        "32 बिट",
+        "48 बिट",
+        "64 बिट",
+        "128 बिट"
+      ],
+      "explanation": "MAC (मीडिया एक्सेस कंट्रोल) पता 48 बिट का, 6 जोड़े हेक्स अंकों (जैसे 00:1A:2B:3C:4D:5E) में लिखा।"
+    },
+    "id": "netw-0016"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "IPv6 address has how many bits?",
+      "options": [
+        "32 bits",
+        "48 bits",
+        "128 bits",
+        "256 bits"
+      ],
+      "explanation": "IPv6 uses 128-bit addresses (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334)."
+    },
+    "hi": {
+      "question": "IPv6 पता कितने बिट का होता है?",
+      "options": [
+        "32 बिट",
+        "48 बिट",
+        "128 बिट",
+        "256 बिट"
+      ],
+      "explanation": "IPv6 128-बिट पतों का उपयोग करता है (जैसे 2001:0db8:85a3:0000:0000:8a2e:0370:7334)।"
+    },
+    "id": "netw-0017"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which IP class supports maximum number of hosts?",
+      "options": [
+        "Class C",
+        "Class B",
+        "Class D",
+        "Class A"
+      ],
+      "explanation": "Class A (1.0.0.0 to 126.255.255.255) supports 16 million+ hosts per network."
+    },
+    "hi": {
+      "question": "कौन सी IP क्लास अधिकतम होस्ट का समर्थन करती है?",
+      "options": [
+        "क्लास C",
+        "क्लास B",
+        "क्लास D",
+        "क्लास A"
+      ],
+      "explanation": "क्लास A (1.0.0.0 से 126.255.255.255) प्रति नेटवर्क 16 मिलियन+ होस्ट का समर्थन करती है।"
+    },
+    "id": "netw-0018"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Class C IP address range starts with?",
+      "options": [
+        "192-223",
+        "1-126",
+        "128-191",
+        "224-239"
+      ],
+      "explanation": "Class C: 192.0.0.0 to 223.255.255.255. Supports up to 254 hosts. Small networks."
+    },
+    "hi": {
+      "question": "क्लास C IP पता सीमा किससे शुरू होती है?",
+      "options": [
+        "192-223",
+        "1-126",
+        "128-191",
+        "224-239"
+      ],
+      "explanation": "क्लास C: 192.0.0.0 से 223.255.255.255। 254 होस्ट तक। छोटे नेटवर्क।"
+    },
+    "id": "netw-0019"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which is a private IP address range?",
+      "options": [
+        "8.8.8.8",
+        "192.168.1.1",
+        "172.16.0.1 (actually public)",
+        "1.1.1.1"
+      ],
+      "explanation": "Private ranges: 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16. 192.168.1.1 is private."
+    },
+    "hi": {
+      "question": "कौन सी निजी IP पता सीमा है?",
+      "options": [
+        "8.8.8.8",
+        "192.168.1.1",
+        "172.16.0.1",
+        "1.1.1.1"
+      ],
+      "explanation": "निजी सीमाएं: 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16। 192.168.1.1 निजी है।"
+    },
+    "id": "netw-0020"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HTTP stands for?",
+      "options": [
+        "Hyper Transfer Text Protocol",
+        "High Tech Transfer Protocol",
+        "Hyper Text Transfer Protocol",
+        "Hyperlink Text Transfer Protocol"
+      ],
+      "explanation": "HTTP (port 80) is the foundation of data communication on the World Wide Web."
+    },
+    "hi": {
+      "question": "HTTP का पूरा नाम क्या है?",
+      "options": [
+        "Hyper Transfer Text Protocol",
+        "High Tech Transfer Protocol",
+        "Hyper Text Transfer Protocol",
+        "Hyperlink Text Transfer Protocol"
+      ],
+      "explanation": "HTTP (पोर्ट 80) वर्ल्ड वाइड वेब पर डेटा संचार की नींव है।"
+    },
+    "id": "netw-0021"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HTTPS uses which port by default?",
+      "options": [
+        "80",
+        "21",
+        "25",
+        "443"
+      ],
+      "explanation": "HTTPS (HTTP Secure) uses port 443 with SSL/TLS encryption for secure web communication."
+    },
+    "hi": {
+      "question": "HTTPS डिफ़ॉल्ट रूप से कौन सा पोर्ट उपयोग करता है?",
+      "options": [
+        "80",
+        "21",
+        "25",
+        "443"
+      ],
+      "explanation": "HTTPS (HTTP सिक्योर) सुरक्षित वेब संचार के लिए SSL/TLS एन्क्रिप्शन के साथ पोर्ट 443 का उपयोग करता है।"
+    },
+    "id": "netw-0022"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "FTP uses which port?",
+      "options": [
+        "21",
+        "25",
+        "80",
+        "110"
+      ],
+      "explanation": "FTP (File Transfer Protocol) uses port 21 for control and port 20 for data transfer."
+    },
+    "hi": {
+      "question": "FTP कौन सा पोर्ट उपयोग करता है?",
+      "options": [
+        "21",
+        "25",
+        "80",
+        "110"
+      ],
+      "explanation": "FTP (फाइल ट्रांसफर प्रोटोकॉल) नियंत्रण के लिए पोर्ट 21 और डेटा ट्रांसफर के लिए पोर्ट 20 का उपयोग करता है।"
+    },
+    "id": "netw-0023"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SMTP uses which port?",
+      "options": [
+        "110",
+        "25",
+        "143",
+        "80"
+      ],
+      "explanation": "SMTP (Simple Mail Transfer Protocol) uses port 25 for sending emails. SMTPS uses 465/587."
+    },
+    "hi": {
+      "question": "SMTP कौन सा पोर्ट उपयोग करता है?",
+      "options": [
+        "110",
+        "25",
+        "143",
+        "80"
+      ],
+      "explanation": "SMTP (सिंपल मेल ट्रांसफर प्रोटोकॉल) ईमेल भेजने के लिए पोर्ट 25 का उपयोग करता है। SMTPS 465/587।"
+    },
+    "id": "netw-0024"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "POP3 uses port?",
+      "options": [
+        "25",
+        "80",
+        "110",
+        "443"
+      ],
+      "explanation": "POP3 (Post Office Protocol 3) uses port 110 to download emails from server to client."
+    },
+    "hi": {
+      "question": "POP3 कौन सा पोर्ट उपयोग करता है?",
+      "options": [
+        "25",
+        "80",
+        "110",
+        "443"
+      ],
+      "explanation": "POP3 (पोस्ट ऑफिस प्रोटोकॉल 3) सर्वर से क्लाइंट पर ईमेल डाउनलोड करने के लिए पोर्ट 110 का उपयोग करता है।"
+    },
+    "id": "netw-0025"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "IMAP uses which port?",
+      "options": [
+        "110",
+        "25",
+        "80",
+        "143"
+      ],
+      "explanation": "IMAP (Internet Message Access Protocol) uses port 143. Keeps emails on server, unlike POP3."
+    },
+    "hi": {
+      "question": "IMAP कौन सा पोर्ट उपयोग करता है?",
+      "options": [
+        "110",
+        "25",
+        "80",
+        "143"
+      ],
+      "explanation": "IMAP (इंटरनेट मैसेज एक्सेस प्रोटोकॉल) पोर्ट 143 का उपयोग करता है। POP3 के विपरीत ईमेल सर्वर पर रखता है।"
+    },
+    "id": "netw-0026"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DNS stands for?",
+      "options": [
+        "Domain Name System",
+        "Digital Network Service",
+        "Domain Network Server",
+        "Data Name System"
+      ],
+      "explanation": "DNS translates domain names (google.com) to IP addresses (142.250.80.46). Uses port 53."
+    },
+    "hi": {
+      "question": "DNS का पूरा नाम क्या है?",
+      "options": [
+        "Domain Name System",
+        "Digital Network Service",
+        "Domain Network Server",
+        "Data Name System"
+      ],
+      "explanation": "DNS डोमेन नामों (google.com) को IP पतों (142.250.80.46) में अनुवाद करता है। पोर्ट 53।"
+    },
+    "id": "netw-0027"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DHCP stands for?",
+      "options": [
+        "Domain Host Control Protocol",
+        "Dynamic Host Configuration Protocol",
+        "Digital Host Communication Protocol",
+        "Data Host Control Protocol"
+      ],
+      "explanation": "DHCP automatically assigns IP addresses to devices on a network. Uses ports 67, 68."
+    },
+    "hi": {
+      "question": "DHCP का पूरा नाम क्या है?",
+      "options": [
+        "Domain Host Control Protocol",
+        "Dynamic Host Configuration Protocol",
+        "Digital Host Communication Protocol",
+        "Data Host Control Protocol"
+      ],
+      "explanation": "DHCP नेटवर्क पर उपकरणों को स्वचालित रूप से IP पते प्रदान करता है। पोर्ट 67, 68।"
+    },
+    "id": "netw-0028"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which device connects two different networks?",
+      "options": [
+        "Hub",
+        "Switch",
+        "Router",
+        "Repeater"
+      ],
+      "explanation": "Router connects different networks and forwards data packets between them using IP addresses."
+    },
+    "hi": {
+      "question": "दो अलग-अलग नेटवर्क को कौन सा उपकरण जोड़ता है?",
+      "options": [
+        "हब",
+        "स्विच",
+        "राउटर",
+        "रिपीटर"
+      ],
+      "explanation": "राउटर विभिन्न नेटवर्कों को जोड़ता है और IP पतों का उपयोग करके उनके बीच डेटा पैकेट अग्रेषित करता है।"
+    },
+    "id": "netw-0029"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A switch operates at which OSI layer?",
+      "options": [
+        "Layer 1 (Physical)",
+        "Layer 3 (Network)",
+        "Layer 4 (Transport)",
+        "Layer 2 (Data Link)"
+      ],
+      "explanation": "Switch operates at Layer 2 (Data Link), forwarding frames based on MAC addresses."
+    },
+    "hi": {
+      "question": "स्विच OSI की किस परत पर काम करता है?",
+      "options": [
+        "लेयर 1 (फिजिकल)",
+        "लेयर 3 (नेटवर्क)",
+        "लेयर 4 (ट्रांसपोर्ट)",
+        "लेयर 2 (डेटा लिंक)"
+      ],
+      "explanation": "स्विच लेयर 2 (डेटा लिंक) पर काम करता है, MAC पतों के आधार पर फ्रेम अग्रेषित करता है।"
+    },
+    "id": "netw-0030"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Hub operates at which OSI layer?",
+      "options": [
+        "Layer 1 (Physical)",
+        "Layer 2 (Data Link)",
+        "Layer 3 (Network)",
+        "Layer 7 (Application)"
+      ],
+      "explanation": "Hub is a Layer 1 device that broadcasts data to all ports — no filtering or intelligence."
+    },
+    "hi": {
+      "question": "हब OSI की किस परत पर काम करता है?",
+      "options": [
+        "लेयर 1 (फिजिकल)",
+        "लेयर 2 (डेटा लिंक)",
+        "लेयर 3 (नेटवर्क)",
+        "लेयर 7 (एप्लीकेशन)"
+      ],
+      "explanation": "हब लेयर 1 उपकरण है जो सभी पोर्ट पर डेटा प्रसारित करता है — कोई फ़िल्टरिंग या बुद्धिमत्ता नहीं।"
+    },
+    "id": "netw-0031"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Modem stands for?",
+      "options": [
+        "Modern Device",
+        "Modulator-Demodulator",
+        "Modular Demultiplexer",
+        "Mobile Demodulator"
+      ],
+      "explanation": "Modem converts digital signals to analog (modulation) and vice versa (demodulation) for transmission."
+    },
+    "hi": {
+      "question": "मॉडम का पूरा नाम क्या है?",
+      "options": [
+        "Modern Device",
+        "Modulator-Demodulator",
+        "Modular Demultiplexer",
+        "Mobile Demodulator"
+      ],
+      "explanation": "मॉडम डिजिटल सिग्नल को एनालॉग (मॉड्यूलेशन) और इसके विपरीत (डीमॉड्यूलेशन) में बदलता है।"
+    },
+    "id": "netw-0032"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Gateway connects?",
+      "options": [
+        "Same type of networks",
+        "Only LANs",
+        "Different types of networks/protocols",
+        "Only WANs"
+      ],
+      "explanation": "Gateway connects networks using different protocols, translating between them."
+    },
+    "hi": {
+      "question": "गेटवे किसे जोड़ता है?",
+      "options": [
+        "समान प्रकार के नेटवर्क",
+        "केवल LAN",
+        "विभिन्न प्रकार के नेटवर्क/प्रोटोकॉल",
+        "केवल WAN"
+      ],
+      "explanation": "गेटवे विभिन्न प्रोटोकॉल का उपयोग करने वाले नेटवर्कों को जोड़ता है, उनके बीच अनुवाद करता है।"
+    },
+    "id": "netw-0033"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Repeater is used to?",
+      "options": [
+        "Filter data",
+        "Route packets",
+        "Connect networks",
+        "Amplify/regenerate signals over long distances"
+      ],
+      "explanation": "Repeater boosts weakened signals to extend network range. Operates at Physical Layer (Layer 1)."
+    },
+    "hi": {
+      "question": "रिपीटर किसके लिए उपयोग होता है?",
+      "options": [
+        "डेटा फ़िल्टर करना",
+        "पैकेट रूट करना",
+        "नेटवर्क जोड़ना",
+        "लंबी दूरी पर सिग्नल प्रवर्धित/पुनर्जीवित करना"
+      ],
+      "explanation": "रिपीटर नेटवर्क रेंज बढ़ाने के लिए कमजोर सिग्नल को बढ़ाता है। फिजिकल लेयर (लेयर 1) पर काम।"
+    },
+    "id": "netw-0034"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bridge operates at which OSI layer?",
+      "options": [
+        "Layer 2 (Data Link)",
+        "Layer 1 (Physical)",
+        "Layer 3 (Network)",
+        "Layer 4 (Transport)"
+      ],
+      "explanation": "Bridge connects two LAN segments at Layer 2, filtering traffic based on MAC addresses."
+    },
+    "hi": {
+      "question": "ब्रिज OSI की किस परत पर काम करता है?",
+      "options": [
+        "लेयर 2 (डेटा लिंक)",
+        "लेयर 1 (फिजिकल)",
+        "लेयर 3 (नेटवर्क)",
+        "लेयर 4 (ट्रांसपोर्ट)"
+      ],
+      "explanation": "ब्रिज दो LAN खंडों को लेयर 2 पर जोड़ता है, MAC पतों के आधार पर ट्रैफ़िक फ़िल्टर करता है।"
+    },
+    "id": "netw-0035"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Wi-Fi uses which IEEE standard?",
+      "options": [
+        "802.3",
+        "802.11",
+        "802.5",
+        "802.16"
+      ],
+      "explanation": "Wi-Fi = IEEE 802.11 standard. Ethernet = 802.3. Bluetooth = 802.15."
+    },
+    "hi": {
+      "question": "Wi-Fi कौन सा IEEE मानक उपयोग करता है?",
+      "options": [
+        "802.3",
+        "802.11",
+        "802.5",
+        "802.16"
+      ],
+      "explanation": "Wi-Fi = IEEE 802.11 मानक। ईथरनेट = 802.3। ब्लूटूथ = 802.15।"
+    },
+    "id": "netw-0036"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bluetooth operates in which frequency band?",
+      "options": [
+        "5 GHz",
+        "900 MHz",
+        "2.4 GHz",
+        "60 GHz"
+      ],
+      "explanation": "Bluetooth uses 2.4 GHz ISM band. Range typically up to 10 meters (Class 2)."
+    },
+    "hi": {
+      "question": "ब्लूटूथ किस आवृत्ति बैंड में काम करता है?",
+      "options": [
+        "5 GHz",
+        "900 MHz",
+        "2.4 GHz",
+        "60 GHz"
+      ],
+      "explanation": "ब्लूटूथ 2.4 GHz ISM बैंड का उपयोग करता है। सामान्य सीमा 10 मीटर (क्लास 2)।"
+    },
+    "id": "netw-0037"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "VPN stands for?",
+      "options": [
+        "Virtual Private Network",
+        "Very Private Network",
+        "Verified Public Network",
+        "Visual Protocol Network"
+      ],
+      "explanation": "VPN creates an encrypted tunnel over the internet for secure private communication."
+    },
+    "hi": {
+      "question": "VPN का पूरा नाम क्या है?",
+      "options": [
+        "Virtual Private Network",
+        "Very Private Network",
+        "Verified Public Network",
+        "Visual Protocol Network"
+      ],
+      "explanation": "VPN सुरक्षित निजी संचार के लिए इंटरनेट पर एक एन्क्रिप्टेड सुरंग बनाता है।"
+    },
+    "id": "netw-0038"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the function of a firewall?",
+      "options": [
+        "Blocks unauthorized access",
+        "Boosts internet speed",
+        "Stores data",
+        "Prints documents"
+      ],
+      "explanation": "Firewall monitors incoming/outgoing traffic and blocks unauthorized access based on security rules."
+    },
+    "hi": {
+      "question": "फायरवॉल का कार्य क्या है?",
+      "options": [
+        "अनधिकृत पहुंच को रोकना",
+        "इंटरनेट स्पीड बढ़ाना",
+        "डेटा संग्रहीत करना",
+        "दस्तावेज़ प्रिंट करना"
+      ],
+      "explanation": "फायरवॉल आने/जाने वाले ट्रैफ़िक की निगरानी करता है और सुरक्षा नियमों के आधार पर अनधिकृत पहुंच रोकता है।"
+    },
+    "id": "netw-0039"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which is faster — TCP or UDP?",
+      "options": [
+        "TCP",
+        "UDP",
+        "Both are same",
+        "Depends on cable"
+      ],
+      "explanation": "UDP is faster as it has no error-checking, no connection setup, and no retransmission."
+    },
+    "hi": {
+      "question": "TCP और UDP में से कौन तेज है?",
+      "options": [
+        "TCP",
+        "UDP",
+        "दोनों समान",
+        "केबल पर निर्भर"
+      ],
+      "explanation": "UDP तेज है क्योंकि इसमें कोई त्रुटि-जांच, कोई कनेक्शन सेटअप और कोई पुनर्प्रेषण नहीं।"
+    },
+    "id": "netw-0040"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "URL stands for?",
+      "options": [
+        "Universal Resource Locator",
+        "Unified Resource Link",
+        "Uniform Resource Locator",
+        "Universal Reference Locator"
+      ],
+      "explanation": "URL is the web address (e.g., https://www.example.com/page)."
+    },
+    "hi": {
+      "question": "URL का पूरा नाम क्या है?",
+      "options": [
+        "Universal Resource Locator",
+        "Unified Resource Link",
+        "Uniform Resource Locator",
+        "Universal Reference Locator"
+      ],
+      "explanation": "URL वेब पता है (जैसे https://www.example.com/page)।"
+    },
+    "id": "netw-0041"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does subnet mask 255.255.255.0 mean?",
+      "options": [
+        "Class A network",
+        "Class B network",
+        "No subnet",
+        "24 bits for network, 8 bits for hosts"
+      ],
+      "explanation": "255.255.255.0 = /24. First 3 octets (24 bits) identify the network, last octet identifies hosts."
+    },
+    "hi": {
+      "question": "सबनेट मास्क 255.255.255.0 का क्या अर्थ है?",
+      "options": [
+        "क्लास A नेटवर्क",
+        "क्लास B नेटवर्क",
+        "कोई सबनेट नहीं",
+        "नेटवर्क के लिए 24 बिट, होस्ट के लिए 8 बिट"
+      ],
+      "explanation": "255.255.255.0 = /24। पहले 3 ऑक्टेट (24 बिट) नेटवर्क की पहचान, अंतिम ऑक्टेट होस्ट की पहचान।"
+    },
+    "id": "netw-0042"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "127.0.0.1 is known as?",
+      "options": [
+        "Loopback / localhost",
+        "Default gateway",
+        "Broadcast address",
+        "DNS server"
+      ],
+      "explanation": "127.0.0.1 is the loopback address (localhost), used to test network software on the local machine."
+    },
+    "hi": {
+      "question": "127.0.0.1 किस नाम से जाना जाता है?",
+      "options": [
+        "लूपबैक / लोकलहोस्ट",
+        "डिफ़ॉल्ट गेटवे",
+        "ब्रॉडकास्ट पता",
+        "DNS सर्वर"
+      ],
+      "explanation": "127.0.0.1 लूपबैक पता (लोकलहोस्ट) है, स्थानीय मशीन पर नेटवर्क सॉफ्टवेयर परीक्षण के लिए।"
+    },
+    "id": "netw-0043"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the maximum speed of Wi-Fi 6 (802.11ax)?",
+      "options": [
+        "1 Gbps",
+        "9.6 Gbps",
+        "3.5 Gbps",
+        "100 Mbps"
+      ],
+      "explanation": "Wi-Fi 6 (802.11ax) supports up to 9.6 Gbps theoretical speed across multiple channels."
+    },
+    "hi": {
+      "question": "Wi-Fi 6 (802.11ax) की अधिकतम गति कितनी है?",
+      "options": [
+        "1 Gbps",
+        "9.6 Gbps",
+        "3.5 Gbps",
+        "100 Mbps"
+      ],
+      "explanation": "Wi-Fi 6 (802.11ax) कई चैनलों पर 9.6 Gbps तक की सैद्धांतिक गति का समर्थन करता है।"
+    },
+    "id": "netw-0044"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a MAC address used for?",
+      "options": [
+        "Website naming",
+        "IP routing",
+        "Identifying a device on a local network",
+        "DNS resolution"
+      ],
+      "explanation": "MAC address is a hardware identifier burned into the NIC, used for Layer 2 communication."
+    },
+    "hi": {
+      "question": "MAC पता किसके लिए उपयोग होता है?",
+      "options": [
+        "वेबसाइट नामकरण",
+        "IP रूटिंग",
+        "स्थानीय नेटवर्क पर उपकरण की पहचान",
+        "DNS रिज़ॉल्यूशन"
+      ],
+      "explanation": "MAC पता NIC में बर्न किया गया हार्डवेयर पहचानकर्ता है, लेयर 2 संचार के लिए।"
+    },
+    "id": "netw-0045"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "ISP stands for?",
+      "options": [
+        "Internet Service Protocol",
+        "Internal System Provider",
+        "Integrated Service Provider",
+        "Internet Service Provider"
+      ],
+      "explanation": "ISP provides internet access to users (e.g., BSNL, Airtel, Jio)."
+    },
+    "hi": {
+      "question": "ISP का पूरा नाम क्या है?",
+      "options": [
+        "Internet Service Protocol",
+        "Internal System Provider",
+        "Integrated Service Provider",
+        "Internet Service Provider"
+      ],
+      "explanation": "ISP उपयोगकर्ताओं को इंटरनेट एक्सेस प्रदान करता है (जैसे BSNL, Airtel, Jio)।"
+    },
+    "id": "netw-0046"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is ARP in networking?",
+      "options": [
+        "Address Resolution Protocol",
+        "Advanced Routing Protocol",
+        "Automatic Response Protocol",
+        "Area Routing Protocol"
+      ],
+      "explanation": "ARP resolves IP addresses to MAC addresses on a local network."
+    },
+    "hi": {
+      "question": "नेटवर्किंग में ARP क्या है?",
+      "options": [
+        "Address Resolution Protocol",
+        "Advanced Routing Protocol",
+        "Automatic Response Protocol",
+        "Area Routing Protocol"
+      ],
+      "explanation": "ARP स्थानीय नेटवर्क पर IP पतों को MAC पतों में हल करता है।"
+    },
+    "id": "netw-0047"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does ICMP stand for?",
+      "options": [
+        "Internet Configuration Management Protocol",
+        "Internet Control Message Protocol",
+        "Internal Communication Message Protocol",
+        "Inter-Computer Message Protocol"
+      ],
+      "explanation": "ICMP is used for error reporting and diagnostics (e.g., ping uses ICMP Echo Request/Reply)."
+    },
+    "hi": {
+      "question": "ICMP का पूरा नाम क्या है?",
+      "options": [
+        "Internet Configuration Management Protocol",
+        "Internet Control Message Protocol",
+        "Internal Communication Message Protocol",
+        "Inter-Computer Message Protocol"
+      ],
+      "explanation": "ICMP त्रुटि रिपोर्टिंग और निदान के लिए उपयोग होता है (जैसे ping ICMP इको अनुरोध/उत्तर)।"
+    },
+    "id": "netw-0048"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What command is used to test network connectivity?",
+      "options": [
+        "ipconfig",
+        "tracert",
+        "ping",
+        "nslookup"
+      ],
+      "explanation": "ping sends ICMP packets to a destination to test reachability and measure round-trip time."
+    },
+    "hi": {
+      "question": "नेटवर्क कनेक्टिविटी परीक्षण के लिए कौन सा कमांड उपयोग होता है?",
+      "options": [
+        "ipconfig",
+        "tracert",
+        "ping",
+        "nslookup"
+      ],
+      "explanation": "ping पहुंच परीक्षण और राउंड-ट्रिप समय मापने के लिए गंतव्य पर ICMP पैकेट भेजता है।"
+    },
+    "id": "netw-0049"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "tracert (traceroute) command is used to?",
+      "options": [
+        "Test speed",
+        "Check DNS",
+        "Configure IP",
+        "Trace the path packets take to a destination"
+      ],
+      "explanation": "tracert shows each hop (router) along the path from source to destination."
+    },
+    "hi": {
+      "question": "tracert (traceroute) कमांड किसके लिए उपयोग होता है?",
+      "options": [
+        "गति परीक्षण",
+        "DNS जांच",
+        "IP कॉन्फ़िगर",
+        "गंतव्य तक पैकेट के पथ का पता लगाना"
+      ],
+      "explanation": "tracert स्रोत से गंतव्य तक के पथ में प्रत्येक हॉप (राउटर) दिखाता है।"
+    },
+    "id": "netw-0050"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "ipconfig command is used to?",
+      "options": [
+        "Display network configuration",
+        "Test connectivity",
+        "Trace route",
+        "Resolve DNS"
+      ],
+      "explanation": "ipconfig (Windows) / ifconfig (Linux) displays IP address, subnet mask, and default gateway."
+    },
+    "hi": {
+      "question": "ipconfig कमांड किसके लिए उपयोग होता है?",
+      "options": [
+        "नेटवर्क कॉन्फ़िगरेशन प्रदर्शित करना",
+        "कनेक्टिविटी परीक्षण",
+        "रूट ट्रेस करना",
+        "DNS हल करना"
+      ],
+      "explanation": "ipconfig (Windows) / ifconfig (Linux) IP पता, सबनेट मास्क और डिफ़ॉल्ट गेटवे प्रदर्शित करता है।"
+    },
+    "id": "netw-0051"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the maximum length of Cat6 Ethernet cable?",
+      "options": [
+        "50 meters",
+        "100 meters",
+        "200 meters",
+        "500 meters"
+      ],
+      "explanation": "Cat5e/Cat6 copper Ethernet cable maximum segment length is 100 meters (328 feet)."
+    },
+    "hi": {
+      "question": "Cat6 ईथरनेट केबल की अधिकतम लंबाई कितनी है?",
+      "options": [
+        "50 मीटर",
+        "100 मीटर",
+        "200 मीटर",
+        "500 मीटर"
+      ],
+      "explanation": "Cat5e/Cat6 कॉपर ईथरनेट केबल की अधिकतम खंड लंबाई 100 मीटर (328 फीट) है।"
+    },
+    "id": "netw-0052"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the difference between half-duplex and full-duplex?",
+      "options": [
+        "Speed difference",
+        "Cable type difference",
+        "Half-duplex: one direction at a time; Full-duplex: both directions simultaneously",
+        "Range difference"
+      ],
+      "explanation": "Full-duplex allows simultaneous two-way communication. Half-duplex allows only one direction at a time."
+    },
+    "hi": {
+      "question": "हाफ-डुप्लेक्स और फुल-डुप्लेक्स में क्या अंतर है?",
+      "options": [
+        "गति अंतर",
+        "केबल प्रकार अंतर",
+        "हाफ-डुप्लेक्स: एक बार में एक दिशा; फुल-डुप्लेक्स: एक साथ दोनों दिशाएं",
+        "रेंज अंतर"
+      ],
+      "explanation": "फुल-डुप्लेक्स एक साथ दो-तरफा संचार की अनुमति देता है। हाफ-डुप्लेक्स एक समय में एक दिशा।"
+    },
+    "id": "netw-0053"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which cable type uses light to transmit data?",
+      "options": [
+        "Coaxial cable",
+        "Twisted pair cable",
+        "USB cable",
+        "Fiber optic cable"
+      ],
+      "explanation": "Fiber optic cables use light pulses through glass/plastic fibers for very high-speed, long-distance data transmission."
+    },
+    "hi": {
+      "question": "डेटा संचारित करने के लिए प्रकाश का उपयोग कौन सी केबल करती है?",
+      "options": [
+        "कोएक्सियल केबल",
+        "ट्विस्टेड पेयर केबल",
+        "USB केबल",
+        "फाइबर ऑप्टिक केबल"
+      ],
+      "explanation": "फाइबर ऑप्टिक केबल बहुत उच्च गति, लंबी दूरी के डेटा ट्रांसमिशन के लिए कांच/प्लास्टिक फाइबर के माध्यम से प्रकाश स्पंदन का उपयोग।"
+    },
+    "id": "netw-0054"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is NAT?",
+      "options": [
+        "Network Address Translation",
+        "Network Access Terminal",
+        "New Address Technology",
+        "Network Administration Tool"
+      ],
+      "explanation": "NAT translates private IP addresses to public IP addresses, allowing multiple devices to share one public IP."
+    },
+    "hi": {
+      "question": "NAT क्या है?",
+      "options": [
+        "Network Address Translation",
+        "Network Access Terminal",
+        "New Address Technology",
+        "Network Administration Tool"
+      ],
+      "explanation": "NAT निजी IP पतों को सार्वजनिक IP पतों में अनुवाद करता है, कई उपकरणों को एक सार्वजनिक IP साझा करने की अनुमति।"
+    },
+    "id": "netw-0055"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the OSI layer for encryption/decryption?",
+      "options": [
+        "Application Layer",
+        "Presentation Layer",
+        "Session Layer",
+        "Transport Layer"
+      ],
+      "explanation": "Presentation Layer (Layer 6) handles encryption, compression, and data format translation."
+    },
+    "hi": {
+      "question": "एन्क्रिप्शन/डिक्रिप्शन के लिए OSI परत कौन सी है?",
+      "options": [
+        "एप्लीकेशन लेयर",
+        "प्रेजेंटेशन लेयर",
+        "सेशन लेयर",
+        "ट्रांसपोर्ट लेयर"
+      ],
+      "explanation": "प्रेजेंटेशन लेयर (लेयर 6) एन्क्रिप्शन, संपीड़न और डेटा प्रारूप अनुवाद संभालती है।"
+    },
+    "id": "netw-0056"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the purpose of the Session Layer?",
+      "options": [
+        "Routing",
+        "Error checking",
+        "Establish, manage, and terminate sessions",
+        "Physical transmission"
+      ],
+      "explanation": "Session Layer (Layer 5) manages dialog control and synchronization between applications."
+    },
+    "hi": {
+      "question": "सेशन लेयर का उद्देश्य क्या है?",
+      "options": [
+        "रूटिंग",
+        "त्रुटि जांच",
+        "सत्र स्थापित, प्रबंधित और समाप्त करना",
+        "भौतिक संचरण"
+      ],
+      "explanation": "सेशन लेयर (लेयर 5) अनुप्रयोगों के बीच संवाद नियंत्रण और सिंक्रनाइज़ेशन प्रबंधित करती है।"
+    },
+    "id": "netw-0057"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Data Link Layer is divided into which two sublayers?",
+      "options": [
+        "IP and TCP",
+        "HTTP and FTP",
+        "Physical and Network",
+        "MAC and LLC"
+      ],
+      "explanation": "Data Link Layer has MAC (Media Access Control) and LLC (Logical Link Control) sublayers."
+    },
+    "hi": {
+      "question": "डेटा लिंक लेयर किन दो उप-परतों में विभाजित है?",
+      "options": [
+        "IP और TCP",
+        "HTTP और FTP",
+        "फिजिकल और नेटवर्क",
+        "MAC और LLC"
+      ],
+      "explanation": "डेटा लिंक लेयर में MAC (मीडिया एक्सेस कंट्रोल) और LLC (लॉजिकल लिंक कंट्रोल) उप-परतें हैं।"
+    },
+    "id": "netw-0058"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SNMP stands for?",
+      "options": [
+        "Simple Network Management Protocol",
+        "Secure Network Monitoring Protocol",
+        "System Network Management Protocol",
+        "Standard Network Messaging Protocol"
+      ],
+      "explanation": "SNMP is used for monitoring and managing network devices like routers, switches, and servers."
+    },
+    "hi": {
+      "question": "SNMP का पूरा नाम क्या है?",
+      "options": [
+        "Simple Network Management Protocol",
+        "Secure Network Monitoring Protocol",
+        "System Network Management Protocol",
+        "Standard Network Messaging Protocol"
+      ],
+      "explanation": "SNMP राउटर, स्विच और सर्वर जैसे नेटवर्क उपकरणों की निगरानी और प्रबंधन के लिए उपयोग होता है।"
+    },
+    "id": "netw-0059"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Telnet uses which port?",
+      "options": [
+        "21",
+        "23",
+        "25",
+        "80"
+      ],
+      "explanation": "Telnet (port 23) provides remote terminal access. SSH (port 22) is its secure replacement."
+    },
+    "hi": {
+      "question": "टेलनेट कौन सा पोर्ट उपयोग करता है?",
+      "options": [
+        "21",
+        "23",
+        "25",
+        "80"
+      ],
+      "explanation": "टेलनेट (पोर्ट 23) दूरस्थ टर्मिनल एक्सेस प्रदान करता है। SSH (पोर्ट 22) इसका सुरक्षित प्रतिस्थापन।"
+    },
+    "id": "netw-0060"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SSH uses which port?",
+      "options": [
+        "21",
+        "23",
+        "22",
+        "80"
+      ],
+      "explanation": "SSH (Secure Shell) uses port 22 for encrypted remote login and command execution."
+    },
+    "hi": {
+      "question": "SSH कौन सा पोर्ट उपयोग करता है?",
+      "options": [
+        "21",
+        "23",
+        "22",
+        "80"
+      ],
+      "explanation": "SSH (सिक्योर शेल) एन्क्रिप्टेड दूरस्थ लॉगिन और कमांड निष्पादन के लिए पोर्ट 22 का उपयोग करता है।"
+    },
+    "id": "netw-0061"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the full form of ISP?",
+      "options": [
+        "Internal Service Provider",
+        "Internet Service Protocol",
+        "Internet Security Provider",
+        "Internet Service Provider"
+      ],
+      "explanation": "ISP provides internet access to homes and businesses (BSNL, Jio, Airtel, ACT)."
+    },
+    "hi": {
+      "question": "ISP का पूरा नाम क्या है?",
+      "options": [
+        "Internal Service Provider",
+        "Internet Service Protocol",
+        "Internet Security Provider",
+        "Internet Service Provider"
+      ],
+      "explanation": "ISP घरों और व्यवसायों को इंटरनेट एक्सेस प्रदान करता है (BSNL, Jio, Airtel, ACT)।"
+    },
+    "id": "netw-0062"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is CIDR notation?",
+      "options": [
+        "Classless Inter-Domain Routing (e.g., 192.168.1.0/24)",
+        "Classful IP Domain Routing",
+        "Centralized Internet Domain Registry",
+        "Computer Interface Data Router"
+      ],
+      "explanation": "CIDR replaces classful addressing. /24 means 24 bits for network prefix."
+    },
+    "hi": {
+      "question": "CIDR नोटेशन क्या है?",
+      "options": [
+        "Classless Inter-Domain Routing (जैसे 192.168.1.0/24)",
+        "Classful IP Domain Routing",
+        "Centralized Internet Domain Registry",
+        "Computer Interface Data Router"
+      ],
+      "explanation": "CIDR क्लासफुल एड्रेसिंग को बदलता है। /24 का अर्थ नेटवर्क प्रीफिक्स के लिए 24 बिट।"
+    },
+    "id": "netw-0063"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a proxy server?",
+      "options": [
+        "A DNS server",
+        "An intermediary server between client and internet",
+        "A firewall",
+        "A router"
+      ],
+      "explanation": "Proxy server acts as a gateway between users and the internet, providing anonymity and caching."
+    },
+    "hi": {
+      "question": "प्रॉक्सी सर्वर क्या है?",
+      "options": [
+        "एक DNS सर्वर",
+        "क्लाइंट और इंटरनेट के बीच मध्यस्थ सर्वर",
+        "एक फायरवॉल",
+        "एक राउटर"
+      ],
+      "explanation": "प्रॉक्सी सर्वर उपयोगकर्ताओं और इंटरनेट के बीच गेटवे के रूप में कार्य करता है, गुमनामी और कैशिंग प्रदान करता है।"
+    },
+    "id": "netw-0064"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the frequency of 5 GHz Wi-Fi?",
+      "options": [
+        "2.4 GHz exact",
+        "900 MHz",
+        "5 GHz band (5.15-5.85 GHz)",
+        "60 GHz"
+      ],
+      "explanation": "5 GHz Wi-Fi offers faster speeds and less interference but shorter range than 2.4 GHz."
+    },
+    "hi": {
+      "question": "5 GHz Wi-Fi की आवृत्ति कितनी है?",
+      "options": [
+        "2.4 GHz सटीक",
+        "900 MHz",
+        "5 GHz बैंड (5.15-5.85 GHz)",
+        "60 GHz"
+      ],
+      "explanation": "5 GHz Wi-Fi तेज गति और कम हस्तक्षेप प्रदान करता है लेकिन 2.4 GHz से कम रेंज।"
+    },
+    "id": "netw-0065"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does MIMO stand for in Wi-Fi?",
+      "options": [
+        "Multiple Input Multiple Output",
+        "Multi-Interface Multi-Operation",
+        "Mobile Internet Management Option",
+        "Managed Input Managed Output"
+      ],
+      "explanation": "MIMO uses multiple antennas to send/receive more data simultaneously."
+    },
+    "hi": {
+      "question": "Wi-Fi में MIMO का पूरा नाम क्या है?",
+      "options": [
+        "Multiple Input Multiple Output",
+        "Multi-Interface Multi-Operation",
+        "Mobile Internet Management Option",
+        "Managed Input Managed Output"
+      ],
+      "explanation": "MIMO एक साथ अधिक डेटा भेजने/प्राप्त करने के लिए कई एंटेना का उपयोग करता है।"
+    },
+    "id": "netw-0066"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the difference between a Layer 2 switch and a Layer 3 switch?",
+      "options": [
+        "L3 switch can route using IP; L2 only uses MAC",
+        "L3 is wireless",
+        "L2 is faster",
+        "No difference"
+      ],
+      "explanation": "Layer 3 switches combine switching (MAC-based) and routing (IP-based) capabilities."
+    },
+    "hi": {
+      "question": "लेयर 2 स्विच और लेयर 3 स्विच में क्या अंतर है?",
+      "options": [
+        "L3 स्विच IP से रूट कर सकता है; L2 केवल MAC",
+        "L3 वायरलेस है",
+        "L2 तेज है",
+        "कोई अंतर नहीं"
+      ],
+      "explanation": "लेयर 3 स्विच स्विचिंग (MAC-आधारित) और रूटिंग (IP-आधारित) क्षमताओं को जोड़ते हैं।"
+    },
+    "id": "netw-0067"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a VLAN?",
+      "options": [
+        "Virtual Large Area Network",
+        "Virtual Local Area Network",
+        "Visible LAN",
+        "Very Long Area Network"
+      ],
+      "explanation": "VLAN logically segments a physical network into multiple isolated broadcast domains."
+    },
+    "hi": {
+      "question": "VLAN क्या है?",
+      "options": [
+        "Virtual Large Area Network",
+        "Virtual Local Area Network",
+        "Visible LAN",
+        "Very Long Area Network"
+      ],
+      "explanation": "VLAN भौतिक नेटवर्क को तार्किक रूप से कई पृथक ब्रॉडकास्ट डोमेन में विभाजित करता है।"
+    },
+    "id": "netw-0068"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What protocol does ping use?",
+      "options": [
+        "TCP",
+        "UDP",
+        "ICMP",
+        "HTTP"
+      ],
+      "explanation": "ping uses ICMP Echo Request and Echo Reply messages to test connectivity."
+    },
+    "hi": {
+      "question": "ping कौन सा प्रोटोकॉल उपयोग करता है?",
+      "options": [
+        "TCP",
+        "UDP",
+        "ICMP",
+        "HTTP"
+      ],
+      "explanation": "ping कनेक्टिविटी परीक्षण के लिए ICMP इको अनुरोध और इको उत्तर संदेशों का उपयोग करता है।"
+    },
+    "id": "netw-0069"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is an SSID?",
+      "options": [
+        "Security System ID",
+        "Server Service ID",
+        "System Security Identifier",
+        "Service Set Identifier (Wi-Fi network name)"
+      ],
+      "explanation": "SSID is the name of a Wi-Fi network that devices see when scanning for available networks."
+    },
+    "hi": {
+      "question": "SSID क्या है?",
+      "options": [
+        "Security System ID",
+        "Server Service ID",
+        "System Security Identifier",
+        "Service Set Identifier (Wi-Fi नेटवर्क नाम)"
+      ],
+      "explanation": "SSID Wi-Fi नेटवर्क का नाम है जो उपकरण उपलब्ध नेटवर्क स्कैन करते समय देखते हैं।"
+    },
+    "id": "netw-0070"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is WPA3?",
+      "options": [
+        "Latest Wi-Fi security protocol",
+        "A type of cable",
+        "A network topology",
+        "An IP addressing scheme"
+      ],
+      "explanation": "WPA3 (Wi-Fi Protected Access 3) provides stronger encryption and protection against brute-force attacks."
+    },
+    "hi": {
+      "question": "WPA3 क्या है?",
+      "options": [
+        "नवीनतम Wi-Fi सुरक्षा प्रोटोकॉल",
+        "एक प्रकार की केबल",
+        "एक नेटवर्क टोपोलॉजी",
+        "एक IP एड्रेसिंग योजना"
+      ],
+      "explanation": "WPA3 (Wi-Fi प्रोटेक्टेड एक्सेस 3) मजबूत एन्क्रिप्शन और ब्रूट-फोर्स हमलों से सुरक्षा प्रदान करता है।"
+    },
+    "id": "netw-0071"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "nslookup command is used for?",
+      "options": [
+        "Ping test",
+        "DNS queries",
+        "Traceroute",
+        "IP configuration"
+      ],
+      "explanation": "nslookup queries DNS servers to find IP address of a domain name or vice versa."
+    },
+    "hi": {
+      "question": "nslookup कमांड किसके लिए उपयोग होता है?",
+      "options": [
+        "पिंग परीक्षण",
+        "DNS क्वेरी",
+        "ट्रेसरूट",
+        "IP कॉन्फ़िगरेशन"
+      ],
+      "explanation": "nslookup डोमेन नाम का IP पता या इसके विपरीत खोजने के लिए DNS सर्वर से क्वेरी करता है।"
+    },
+    "id": "netw-0072"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a DDoS attack?",
+      "options": [
+        "Data deletion attack",
+        "DNS hijacking",
+        "Distributed Denial of Service",
+        "Direct device override"
+      ],
+      "explanation": "DDoS floods a server with traffic from multiple sources to make it unavailable."
+    },
+    "hi": {
+      "question": "DDoS हमला क्या है?",
+      "options": [
+        "डेटा विलोपन हमला",
+        "DNS अपहरण",
+        "डिस्ट्रीब्यूटेड डिनायल ऑफ सर्विस",
+        "डायरेक्ट डिवाइस ओवरराइड"
+      ],
+      "explanation": "DDoS सर्वर को अनुपलब्ध करने के लिए कई स्रोतों से ट्रैफ़िक से भर देता है।"
+    },
+    "id": "netw-0073"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ethernet uses which IEEE standard?",
+      "options": [
+        "802.11",
+        "802.15",
+        "802.16",
+        "802.3"
+      ],
+      "explanation": "Ethernet = IEEE 802.3. This is the most widely used LAN technology."
+    },
+    "hi": {
+      "question": "ईथरनेट कौन सा IEEE मानक उपयोग करता है?",
+      "options": [
+        "802.11",
+        "802.15",
+        "802.16",
+        "802.3"
+      ],
+      "explanation": "ईथरनेट = IEEE 802.3। यह सबसे व्यापक रूप से उपयोग की जाने वाली LAN तकनीक है।"
+    },
+    "id": "netw-0074"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is CSMA/CD?",
+      "options": [
+        "Carrier Sense Multiple Access with Collision Detection",
+        "Central System Management Access Control",
+        "Carrier Signal Modulation Access",
+        "Computer System Media Access"
+      ],
+      "explanation": "CSMA/CD is used in Ethernet to detect and handle collisions on shared media."
+    },
+    "hi": {
+      "question": "CSMA/CD क्या है?",
+      "options": [
+        "Carrier Sense Multiple Access with Collision Detection",
+        "Central System Management Access Control",
+        "Carrier Signal Modulation Access",
+        "Computer System Media Access"
+      ],
+      "explanation": "CSMA/CD ईथरनेट में साझा मीडिया पर टकराव का पता लगाने और संभालने के लिए उपयोग होता है।"
+    },
+    "id": "netw-0075"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the purpose of STP (Spanning Tree Protocol)?",
+      "options": [
+        "Speed up network",
+        "Prevent network loops in switched networks",
+        "Assign IP addresses",
+        "Encrypt data"
+      ],
+      "explanation": "STP prevents bridge loops by creating a loop-free logical topology in Ethernet networks."
+    },
+    "hi": {
+      "question": "STP (स्पैनिंग ट्री प्रोटोकॉल) का उद्देश्य क्या है?",
+      "options": [
+        "नेटवर्क तेज करना",
+        "स्विच्ड नेटवर्क में लूप रोकना",
+        "IP पते प्रदान करना",
+        "डेटा एन्क्रिप्ट करना"
+      ],
+      "explanation": "STP ईथरनेट नेटवर्क में लूप-मुक्त तार्किक टोपोलॉजी बनाकर ब्रिज लूप रोकता है।"
+    },
+    "id": "netw-0076"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a hotspot?",
+      "options": [
+        "A virus",
+        "A type of cable",
+        "A Wi-Fi access point providing internet",
+        "A firewall"
+      ],
+      "explanation": "Hotspot is a physical location where Wi-Fi internet access is available to the public."
+    },
+    "hi": {
+      "question": "हॉटस्पॉट क्या है?",
+      "options": [
+        "एक वायरस",
+        "एक प्रकार की केबल",
+        "इंटरनेट प्रदान करने वाला Wi-Fi एक्सेस पॉइंट",
+        "एक फायरवॉल"
+      ],
+      "explanation": "हॉटस्पॉट एक भौतिक स्थान है जहां जनता के लिए Wi-Fi इंटरनेट एक्सेस उपलब्ध है।"
+    },
+    "id": "netw-0077"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a DNS cache?",
+      "options": [
+        "A type of firewall",
+        "Hardware storage",
+        "A routing table",
+        "Temporary storage of DNS lookup results for faster access"
+      ],
+      "explanation": "DNS cache stores recently resolved domain names to speed up future requests."
+    },
+    "hi": {
+      "question": "DNS कैश क्या है?",
+      "options": [
+        "एक प्रकार का फायरवॉल",
+        "हार्डवेयर स्टोरेज",
+        "एक रूटिंग टेबल",
+        "तेज पहुंच के लिए DNS लुकअप परिणामों का अस्थायी भंडारण"
+      ],
+      "explanation": "DNS कैश भविष्य के अनुरोधों को तेज करने के लिए हाल ही में हल किए गए डोमेन नाम संग्रहीत करता है।"
+    },
+    "id": "netw-0078"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a peer-to-peer network?",
+      "options": [
+        "All computers act as both client and server",
+        "One central server",
+        "Only wired connections",
+        "No internet needed"
+      ],
+      "explanation": "P2P: each node can share resources directly with others without a central server."
+    },
+    "hi": {
+      "question": "पीयर-टू-पीयर नेटवर्क क्या है?",
+      "options": [
+        "सभी कंप्यूटर क्लाइंट और सर्वर दोनों के रूप में कार्य करते हैं",
+        "एक केंद्रीय सर्वर",
+        "केवल वायर्ड कनेक्शन",
+        "इंटरनेट की आवश्यकता नहीं"
+      ],
+      "explanation": "P2P: प्रत्येक नोड बिना केंद्रीय सर्वर के सीधे दूसरों के साथ संसाधन साझा कर सकता है।"
+    },
+    "id": "netw-0079"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which protocol is used for sending emails?",
+      "options": [
+        "POP3",
+        "SMTP",
+        "IMAP",
+        "HTTP"
+      ],
+      "explanation": "SMTP (Simple Mail Transfer Protocol) sends emails. POP3/IMAP receive emails."
+    },
+    "hi": {
+      "question": "ईमेल भेजने के लिए कौन सा प्रोटोकॉल उपयोग होता है?",
+      "options": [
+        "POP3",
+        "SMTP",
+        "IMAP",
+        "HTTP"
+      ],
+      "explanation": "SMTP (सिंपल मेल ट्रांसफर प्रोटोकॉल) ईमेल भेजता है। POP3/IMAP ईमेल प्राप्त करते हैं।"
+    },
+    "id": "netw-0080"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the difference between POP3 and IMAP?",
+      "options": [
+        "No difference",
+        "POP3 is faster",
+        "IMAP keeps emails on server; POP3 downloads and deletes",
+        "IMAP is older"
+      ],
+      "explanation": "IMAP syncs across devices (emails stay on server). POP3 downloads to one device."
+    },
+    "hi": {
+      "question": "POP3 और IMAP में क्या अंतर है?",
+      "options": [
+        "कोई अंतर नहीं",
+        "POP3 तेज है",
+        "IMAP ईमेल सर्वर पर रखता है; POP3 डाउनलोड और हटाता है",
+        "IMAP पुराना है"
+      ],
+      "explanation": "IMAP उपकरणों में सिंक करता है (ईमेल सर्वर पर रहते हैं)। POP3 एक उपकरण पर डाउनलोड करता है।"
+    },
+    "id": "netw-0081"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is QoS in networking?",
+      "options": [
+        "Quick Operating System",
+        "Quantum Optical Switch",
+        "Query Optimization System",
+        "Quality of Service"
+      ],
+      "explanation": "QoS prioritizes certain types of network traffic (voice, video) over others for better performance."
+    },
+    "hi": {
+      "question": "नेटवर्किंग में QoS क्या है?",
+      "options": [
+        "Quick Operating System",
+        "Quantum Optical Switch",
+        "Query Optimization System",
+        "Quality of Service"
+      ],
+      "explanation": "QoS बेहतर प्रदर्शन के लिए कुछ प्रकार के नेटवर्क ट्रैफ़िक (आवाज, वीडियो) को दूसरों पर प्राथमिकता देता है।"
+    },
+    "id": "netw-0082"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is BGP in networking?",
+      "options": [
+        "Border Gateway Protocol",
+        "Basic Gateway Protocol",
+        "Broadcast Gateway Protocol",
+        "Bridge Gateway Protocol"
+      ],
+      "explanation": "BGP is the routing protocol used to exchange routing information between autonomous systems on the internet."
+    },
+    "hi": {
+      "question": "नेटवर्किंग में BGP क्या है?",
+      "options": [
+        "Border Gateway Protocol",
+        "Basic Gateway Protocol",
+        "Broadcast Gateway Protocol",
+        "Bridge Gateway Protocol"
+      ],
+      "explanation": "BGP इंटरनेट पर स्वायत्त प्रणालियों के बीच रूटिंग जानकारी का आदान-प्रदान करने वाला प्रोटोकॉल है।"
+    },
+    "id": "netw-0083"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a MAC address table in a switch?",
+      "options": [
+        "DNS records",
+        "Table mapping MAC addresses to switch ports",
+        "IP routing table",
+        "Firewall rules"
+      ],
+      "explanation": "Switches build a MAC address table to forward frames only to the correct port."
+    },
+    "hi": {
+      "question": "स्विच में MAC एड्रेस टेबल क्या है?",
+      "options": [
+        "DNS रिकॉर्ड",
+        "MAC पतों को स्विच पोर्ट से मैप करने वाली तालिका",
+        "IP रूटिंग टेबल",
+        "फायरवॉल नियम"
+      ],
+      "explanation": "स्विच सही पोर्ट पर ही फ्रेम अग्रेषित करने के लिए MAC एड्रेस टेबल बनाते हैं।"
+    },
+    "id": "netw-0084"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a digital signature?",
+      "options": [
+        "Scanned signature",
+        "Email signature",
+        "Encrypted hash verifying authenticity and integrity",
+        "IP address"
+      ],
+      "explanation": "Digital signature uses public-key cryptography to verify the sender's identity and message integrity."
+    },
+    "hi": {
+      "question": "डिजिटल हस्ताक्षर क्या है?",
+      "options": [
+        "स्कैन किया हस्ताक्षर",
+        "ईमेल हस्ताक्षर",
+        "प्रामाणिकता और अखंडता सत्यापित करने वाला एन्क्रिप्टेड हैश",
+        "IP पता"
+      ],
+      "explanation": "डिजिटल हस्ताक्षर प्रेषक की पहचान और संदेश अखंडता सत्यापित करने के लिए सार्वजनिक-कुंजी क्रिप्टोग्राफी का उपयोग।"
+    },
+    "id": "netw-0085"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the purpose of port forwarding?",
+      "options": [
+        "Speed up internet",
+        "Block websites",
+        "Assign IP addresses",
+        "Direct external traffic to a specific internal device/service"
+      ],
+      "explanation": "Port forwarding allows external devices to access services on a private network (e.g., web server, game server)."
+    },
+    "hi": {
+      "question": "पोर्ट फॉरवर्डिंग का उद्देश्य क्या है?",
+      "options": [
+        "इंटरनेट तेज करना",
+        "वेबसाइट ब्लॉक करना",
+        "IP पते प्रदान करना",
+        "बाहरी ट्रैफ़िक को विशिष्ट आंतरिक डिवाइस/सेवा पर निर्देशित करना"
+      ],
+      "explanation": "पोर्ट फॉरवर्डिंग बाहरी उपकरणों को निजी नेटवर्क पर सेवाओं तक पहुंचने की अनुमति देता है (जैसे वेब सर्वर, गेम सर्वर)।"
+    },
+    "id": "netw-0086"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does 'ping of death' refer to?",
+      "options": [
+        "Oversized ICMP packet attack",
+        "Slow internet",
+        "DNS failure",
+        "IP conflict"
+      ],
+      "explanation": "Ping of death sends malformed or oversized ICMP packets to crash or freeze the target system."
+    },
+    "hi": {
+      "question": "'पिंग ऑफ डेथ' क्या संदर्भित करता है?",
+      "options": [
+        "ओवरसाइज़्ड ICMP पैकेट हमला",
+        "धीमा इंटरनेट",
+        "DNS विफलता",
+        "IP विरोध"
+      ],
+      "explanation": "पिंग ऑफ डेथ लक्ष्य सिस्टम को क्रैश या फ्रीज करने के लिए विकृत या ओवरसाइज़्ड ICMP पैकेट भेजता है।"
+    },
+    "id": "netw-0087"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does 'www' stand for?",
+      "options": [
+        "Wide Web World",
+        "World Wide Web",
+        "Web Wide World",
+        "World Web Wide"
+      ],
+      "explanation": "WWW (World Wide Web) is a system of interconnected hypertext documents accessed via the internet."
+    },
+    "hi": {
+      "question": "'www' का पूरा नाम क्या है?",
+      "options": [
+        "Wide Web World",
+        "World Wide Web",
+        "Web Wide World",
+        "World Web Wide"
+      ],
+      "explanation": "WWW (वर्ल्ड वाइड वेब) इंटरनेट के माध्यम से एक्सेस किए जाने वाले परस्पर जुड़े हाइपरटेक्स्ट दस्तावेज़ों की प्रणाली है।"
+    },
+    "id": "netw-0088"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a subnet?",
+      "options": [
+        "A type of cable",
+        "A DNS server",
+        "A logical subdivision of an IP network",
+        "A firewall rule"
+      ],
+      "explanation": "Subnet divides a larger network into smaller, manageable segments for better performance and security."
+    },
+    "hi": {
+      "question": "सबनेट क्या है?",
+      "options": [
+        "एक प्रकार की केबल",
+        "एक DNS सर्वर",
+        "IP नेटवर्क का तार्किक उपखंड",
+        "एक फायरवॉल नियम"
+      ],
+      "explanation": "सबनेट बेहतर प्रदर्शन और सुरक्षा के लिए बड़े नेटवर्क को छोटे, प्रबंधनीय खंडों में विभाजित करता है।"
+    },
+    "id": "netw-0089"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the maximum number of IPv4 addresses?",
+      "options": [
+        "~4 billion",
+        "~1 billion",
+        "~10 billion",
+        "~4.3 billion (2^32)"
+      ],
+      "explanation": "IPv4 has 32 bits = 2^32 ≈ 4.29 billion addresses. IPv6 has 2^128 addresses."
+    },
+    "hi": {
+      "question": "IPv4 पतों की अधिकतम संख्या कितनी है?",
+      "options": [
+        "~4 अरब",
+        "~1 अरब",
+        "~10 अरब",
+        "~4.3 अरब (2^32)"
+      ],
+      "explanation": "IPv4 में 32 बिट = 2^32 ≈ 4.29 अरब पते। IPv6 में 2^128 पते।"
+    },
+    "id": "netw-0090"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Bluetooth range is typically?",
+      "options": [
+        "10 meters",
+        "100 meters",
+        "1 km",
+        "500 meters"
+      ],
+      "explanation": "Class 2 Bluetooth (most common) has ~10m range. Class 1 can reach 100m."
+    },
+    "hi": {
+      "question": "ब्लूटूथ की सीमा आमतौर पर कितनी है?",
+      "options": [
+        "10 मीटर",
+        "100 मीटर",
+        "1 किमी",
+        "500 मीटर"
+      ],
+      "explanation": "क्लास 2 ब्लूटूथ (सबसे आम) की सीमा ~10 मीटर। क्लास 1 100 मीटर तक।"
+    },
+    "id": "netw-0091"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a packet sniffer?",
+      "options": [
+        "Antivirus",
+        "Tool that captures and analyzes network traffic",
+        "Firewall",
+        "Router"
+      ],
+      "explanation": "Packet sniffer (e.g., Wireshark) captures data packets traveling over a network for analysis."
+    },
+    "hi": {
+      "question": "पैकेट स्निफर क्या है?",
+      "options": [
+        "एंटीवायरस",
+        "नेटवर्क ट्रैफ़िक कैप्चर और विश्लेषण करने वाला उपकरण",
+        "फायरवॉल",
+        "राउटर"
+      ],
+      "explanation": "पैकेट स्निफर (जैसे Wireshark) विश्लेषण के लिए नेटवर्क पर यात्रा करने वाले डेटा पैकेट कैप्चर करता है।"
+    },
+    "id": "netw-0092"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which device is called an intelligent hub?",
+      "options": [
+        "Router",
+        "Bridge",
+        "Switch",
+        "Repeater"
+      ],
+      "explanation": "Switch is sometimes called an intelligent hub because it forwards data only to the specific destination port."
+    },
+    "hi": {
+      "question": "किस उपकरण को बुद्धिमान हब कहा जाता है?",
+      "options": [
+        "राउटर",
+        "ब्रिज",
+        "स्विच",
+        "रिपीटर"
+      ],
+      "explanation": "स्विच को बुद्धिमान हब कहा जाता है क्योंकि यह केवल विशिष्ट गंतव्य पोर्ट पर डेटा अग्रेषित करता है।"
+    },
+    "id": "netw-0093"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the loopback address in IPv6?",
+      "options": [
+        "127.0.0.1",
+        "192.168.0.1",
+        "0.0.0.0",
+        "::1"
+      ],
+      "explanation": "IPv6 loopback is ::1 (equivalent to 127.0.0.1 in IPv4)."
+    },
+    "hi": {
+      "question": "IPv6 में लूपबैक पता क्या है?",
+      "options": [
+        "127.0.0.1",
+        "192.168.0.1",
+        "0.0.0.0",
+        "::1"
+      ],
+      "explanation": "IPv6 लूपबैक ::1 है (IPv4 में 127.0.0.1 के समतुल्य)।"
+    },
+    "id": "netw-0094"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the TTL field in an IP packet?",
+      "options": [
+        "Time To Live — limits packet lifetime/hops",
+        "Total Transfer Length",
+        "Time To Load",
+        "Terminal Transfer Limit"
+      ],
+      "explanation": "TTL prevents packets from circulating indefinitely. Each router decrements TTL; when zero, packet is dropped."
+    },
+    "hi": {
+      "question": "IP पैकेट में TTL फ़ील्ड क्या है?",
+      "options": [
+        "Time To Live — पैकेट जीवनकाल/हॉप सीमित करता है",
+        "Total Transfer Length",
+        "Time To Load",
+        "Terminal Transfer Limit"
+      ],
+      "explanation": "TTL पैकेट को अनिश्चित काल तक घूमने से रोकता है। प्रत्येक राउटर TTL घटाता है; शून्य पर पैकेट गिरा दिया जाता है।"
+    },
+    "id": "netw-0095"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a captive portal?",
+      "options": [
+        "A hacking tool",
+        "Web page requiring login/acceptance before internet access",
+        "A DNS server",
+        "A type of router"
+      ],
+      "explanation": "Captive portal (used in hotels, airports) redirects users to a login/terms page before granting internet access."
+    },
+    "hi": {
+      "question": "कैप्टिव पोर्टल क्या है?",
+      "options": [
+        "हैकिंग उपकरण",
+        "इंटरनेट एक्सेस से पहले लॉगिन/स्वीकृति आवश्यक करने वाला वेब पेज",
+        "DNS सर्वर",
+        "एक प्रकार का राउटर"
+      ],
+      "explanation": "कैप्टिव पोर्टल (होटल, हवाई अड्डों में) इंटरनेट एक्सेस देने से पहले उपयोगकर्ताओं को लॉगिन/शर्तें पृष्ठ पर रीडायरेक्ट करता है।"
+    },
+    "id": "netw-0096"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which of the following is a web browser?",
+      "options": [
+        "Windows",
+        "Linux",
+        "Google Chrome",
+        "MySQL"
+      ],
+      "explanation": "Chrome, Firefox, Safari, Edge are web browsers used to access websites."
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन वेब ब्राउज़र है?",
+      "options": [
+        "Windows",
+        "Linux",
+        "Google Chrome",
+        "MySQL"
+      ],
+      "explanation": "Chrome, Firefox, Safari, Edge वेब ब्राउज़र हैं जो वेबसाइट एक्सेस करने के लिए उपयोग होते हैं।"
+    },
+    "id": "netw-0097"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HTML stands for?",
+      "options": [
+        "Hyper Transfer Markup Language",
+        "High Tech Markup Language",
+        "Hyper Text Machine Language",
+        "Hyper Text Markup Language"
+      ],
+      "explanation": "HTML is the standard language for creating web pages and web applications."
+    },
+    "hi": {
+      "question": "HTML का पूरा नाम क्या है?",
+      "options": [
+        "Hyper Transfer Markup Language",
+        "High Tech Markup Language",
+        "Hyper Text Machine Language",
+        "Hyper Text Markup Language"
+      ],
+      "explanation": "HTML वेब पेज और वेब एप्लिकेशन बनाने के लिए मानक भाषा है।"
+    },
+    "id": "netw-0098"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the default port for RDP?",
+      "options": [
+        "3389",
+        "22",
+        "443",
+        "8080"
+      ],
+      "explanation": "RDP (Remote Desktop Protocol) uses port 3389 for remote Windows desktop connections."
+    },
+    "hi": {
+      "question": "RDP के लिए डिफ़ॉल्ट पोर्ट क्या है?",
+      "options": [
+        "3389",
+        "22",
+        "443",
+        "8080"
+      ],
+      "explanation": "RDP (रिमोट डेस्कटॉप प्रोटोकॉल) दूरस्थ Windows डेस्कटॉप कनेक्शन के लिए पोर्ट 3389 का उपयोग करता है।"
+    },
+    "id": "netw-0099"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "FTTH stands for?",
+      "options": [
+        "Fiber To The Hub",
+        "Fiber To The Home",
+        "Fast Transfer To Home",
+        "Fiber Through The House"
+      ],
+      "explanation": "FTTH brings fiber optic cable directly to residential buildings for high-speed internet."
+    },
+    "hi": {
+      "question": "FTTH का पूरा नाम क्या है?",
+      "options": [
+        "Fiber To The Hub",
+        "Fiber To The Home",
+        "Fast Transfer To Home",
+        "Fiber Through The House"
+      ],
+      "explanation": "FTTH हाई-स्पीड इंटरनेट के लिए फाइबर ऑप्टिक केबल सीधे आवासीय भवनों तक लाता है।"
+    },
+    "id": "netw-0100"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Self-replicating malware?",
+      "options": [
+        "Firewall",
+        "Spyware",
+        "Virus",
+        "Antivirus"
+      ],
+      "explanation": "Computer virus attaches to programs and replicates when executed."
+    },
+    "hi": {
+      "question": "स्व-प्रतिलिपि मैलवेयर?",
+      "options": [
+        "Firewall",
+        "Spyware",
+        "Virus",
+        "Antivirus"
+      ],
+      "explanation": "वायरस प्रोग्राम से जुड़कर चलने पर प्रतिलिपि बनाता है।"
+    },
+    "id": "netw-0101"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Phishing attacks target?",
+      "options": [
+        "Hardware",
+        "Power supply",
+        "Personal information",
+        "Internet speed"
+      ],
+      "explanation": "Phishing uses fake emails/sites to steal passwords, credit card details."
+    },
+    "hi": {
+      "question": "फिशिंग हमला क्या चुराता है?",
+      "options": [
+        "Hardware",
+        "Power supply",
+        "Personal information",
+        "Internet speed"
+      ],
+      "explanation": "नकली ईमेल/साइट से पासवर्ड, क्रेडिट कार्ड विवरण।"
+    },
+    "id": "netw-0102"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A worm is different from a virus because?",
+      "options": [
+        "It spreads without user action or host file",
+        "It's less harmful",
+        "It needs a file to attach",
+        "It only infects hardware"
+      ],
+      "explanation": "Worms self-replicate and spread across networks without needing a host program."
+    },
+    "hi": {
+      "question": "वर्म वायरस से अलग है क्योंकि?",
+      "options": [
+        "यह उपयोगकर्ता क्रिया या होस्ट फाइल के बिना फैलता",
+        "कम हानिकारक",
+        "फाइल से जुड़ना जरूरी",
+        "केवल हार्डवेयर संक्रमित"
+      ],
+      "explanation": "वर्म होस्ट प्रोग्राम की आवश्यकता के बिना स्व-प्रतिलिपि बनाकर नेटवर्क में फैलते हैं।"
+    },
+    "id": "netw-0103"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Trojan horse disguises as?",
+      "options": [
+        "Antivirus",
+        "Legitimate software",
+        "A firewall",
+        "An OS update"
+      ],
+      "explanation": "Trojan appears useful but contains malicious code. Named after Greek mythology's Trojan Horse."
+    },
+    "hi": {
+      "question": "ट्रोजन हॉर्स किस रूप में छिपता है?",
+      "options": [
+        "एंटीवायरस",
+        "वैध सॉफ्टवेयर",
+        "फायरवॉल",
+        "OS अपडेट"
+      ],
+      "explanation": "ट्रोजन उपयोगी दिखता है लेकिन दुर्भावनापूर्ण कोड रखता है। ग्रीक पौराणिक कथाओं के ट्रोजन हॉर्स के नाम पर।"
+    },
+    "id": "netw-0104"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ransomware does what?",
+      "options": [
+        "Speeds up computer",
+        "Cleans viruses",
+        "Encrypts/locks files and demands payment",
+        "Boosts internet"
+      ],
+      "explanation": "Ransomware encrypts user files and demands ransom (usually cryptocurrency) for decryption key."
+    },
+    "hi": {
+      "question": "रैनसमवेयर क्या करता है?",
+      "options": [
+        "कंप्यूटर तेज करता",
+        "वायरस साफ करता",
+        "फाइलें एन्क्रिप्ट/लॉक कर फिरौती मांगता",
+        "इंटरनेट बढ़ाता"
+      ],
+      "explanation": "रैनसमवेयर फाइलें एन्क्रिप्ट करता है और डिक्रिप्शन कुंजी के लिए फिरौती (आमतौर पर क्रिप्टोकरेंसी) मांगता है।"
+    },
+    "id": "netw-0105"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Spyware is designed to?",
+      "options": [
+        "Speed up PC",
+        "Block ads",
+        "Clean viruses",
+        "Secretly monitor user activity and collect information"
+      ],
+      "explanation": "Spyware tracks browsing habits, keystrokes, and steals personal data without user knowledge."
+    },
+    "hi": {
+      "question": "स्पाइवेयर किसके लिए डिज़ाइन किया गया है?",
+      "options": [
+        "PC तेज करना",
+        "विज्ञापन रोकना",
+        "वायरस साफ करना",
+        "गुप्त रूप से उपयोगकर्ता गतिविधि निगरानी और जानकारी एकत्र करना"
+      ],
+      "explanation": "स्पाइवेयर बिना जानकारी के ब्राउज़िंग आदतों, कीस्ट्रोक को ट्रैक करता है और व्यक्तिगत डेटा चुराता है।"
+    },
+    "id": "netw-0106"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Adware displays?",
+      "options": [
+        "Unwanted advertisements",
+        "System errors",
+        "File contents",
+        "Network status"
+      ],
+      "explanation": "Adware shows pop-up ads, banners, or redirects browsers to ad sites. Often bundled with free software."
+    },
+    "hi": {
+      "question": "एडवेयर क्या प्रदर्शित करता है?",
+      "options": [
+        "अवांछित विज्ञापन",
+        "सिस्टम त्रुटियां",
+        "फाइल सामग्री",
+        "नेटवर्क स्थिति"
+      ],
+      "explanation": "एडवेयर पॉप-अप विज्ञापन, बैनर दिखाता है या ब्राउज़र को विज्ञापन साइटों पर रीडायरेक्ट करता है।"
+    },
+    "id": "netw-0107"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a rootkit?",
+      "options": [
+        "A firewall type",
+        "Malware that hides its presence and gains admin-level access",
+        "Antivirus software",
+        "Network tool"
+      ],
+      "explanation": "Rootkit conceals malicious activity from the OS and antivirus by modifying system files/kernel."
+    },
+    "hi": {
+      "question": "रूटकिट क्या है?",
+      "options": [
+        "एक फायरवॉल प्रकार",
+        "अपनी उपस्थिति छिपाने वाला और एडमिन-स्तरीय पहुंच पाने वाला मैलवेयर",
+        "एंटीवायरस सॉफ्टवेयर",
+        "नेटवर्क उपकरण"
+      ],
+      "explanation": "रूटकिट सिस्टम फाइल/कर्नेल संशोधित करके OS और एंटीवायरस से दुर्भावनापूर्ण गतिविधि छिपाता है।"
+    },
+    "id": "netw-0108"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a botnet?",
+      "options": [
+        "A robot network for good",
+        "A type of firewall",
+        "Network of infected computers controlled remotely",
+        "Antivirus network"
+      ],
+      "explanation": "Botnet is a network of compromised devices (bots) used for DDoS attacks, spam, or data theft."
+    },
+    "hi": {
+      "question": "बॉटनेट क्या है?",
+      "options": [
+        "अच्छे के लिए रोबोट नेटवर्क",
+        "एक प्रकार का फायरवॉल",
+        "दूरस्थ रूप से नियंत्रित संक्रमित कंप्यूटरों का नेटवर्क",
+        "एंटीवायरस नेटवर्क"
+      ],
+      "explanation": "बॉटनेट DDoS हमलों, स्पैम या डेटा चोरी के लिए उपयोग किए जाने वाले समझौता किए गए उपकरणों (बॉट) का नेटवर्क है।"
+    },
+    "id": "netw-0109"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the primary function of antivirus software?",
+      "options": [
+        "Speed up internet",
+        "Manage files",
+        "Create documents",
+        "Detect, prevent, and remove malware"
+      ],
+      "explanation": "Antivirus scans files, emails, and web traffic for known malware signatures and suspicious behavior."
+    },
+    "hi": {
+      "question": "एंटीवायरस सॉफ्टवेयर का प्राथमिक कार्य क्या है?",
+      "options": [
+        "इंटरनेट तेज करना",
+        "फाइलें प्रबंधित",
+        "दस्तावेज़ बनाना",
+        "मैलवेयर का पता लगाना, रोकना और हटाना"
+      ],
+      "explanation": "एंटीवायरस ज्ञात मैलवेयर हस्ताक्षर और संदिग्ध व्यवहार के लिए फाइलें, ईमेल और वेब ट्रैफ़िक स्कैन करता है।"
+    },
+    "id": "netw-0110"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Firewall can be?",
+      "options": [
+        "Hardware or software",
+        "Only hardware",
+        "Only software",
+        "A type of virus"
+      ],
+      "explanation": "Hardware firewall (router-based) and software firewall (Windows Firewall) both filter network traffic."
+    },
+    "hi": {
+      "question": "फायरवॉल क्या हो सकता है?",
+      "options": [
+        "हार्डवेयर या सॉफ्टवेयर",
+        "केवल हार्डवेयर",
+        "केवल सॉफ्टवेयर",
+        "एक प्रकार का वायरस"
+      ],
+      "explanation": "हार्डवेयर फायरवॉल (राउटर-आधारित) और सॉफ्टवेयर फायरवॉल (Windows Firewall) दोनों नेटवर्क ट्रैफ़िक फ़िल्टर करते हैं।"
+    },
+    "id": "netw-0111"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Encryption converts data into?",
+      "options": [
+        "Larger files",
+        "Unreadable ciphertext",
+        "Images",
+        "Audio"
+      ],
+      "explanation": "Encryption scrambles data using algorithms and keys so only authorized parties can read it."
+    },
+    "hi": {
+      "question": "एन्क्रिप्शन डेटा को किसमें बदलता है?",
+      "options": [
+        "बड़ी फाइलें",
+        "अपठनीय सिफरटेक्स्ट",
+        "छवियां",
+        "ऑडियो"
+      ],
+      "explanation": "एन्क्रिप्शन एल्गोरिदम और कुंजियों का उपयोग करके डेटा को स्क्रैम्बल करता है ताकि केवल अधिकृत पक्ष ही पढ़ सकें।"
+    },
+    "id": "netw-0112"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Symmetric encryption uses?",
+      "options": [
+        "Two different keys",
+        "No keys",
+        "Same key for encryption and decryption",
+        "Public key only"
+      ],
+      "explanation": "Symmetric: one shared secret key (AES, DES). Asymmetric: public key + private key pair (RSA)."
+    },
+    "hi": {
+      "question": "सममित एन्क्रिप्शन किसका उपयोग करता है?",
+      "options": [
+        "दो अलग कुंजियां",
+        "कोई कुंजी नहीं",
+        "एन्क्रिप्शन और डिक्रिप्शन के लिए एक ही कुंजी",
+        "केवल सार्वजनिक कुंजी"
+      ],
+      "explanation": "सममित: एक साझा गुप्त कुंजी (AES, DES)। असममित: सार्वजनिक + निजी कुंजी जोड़ी (RSA)।"
+    },
+    "id": "netw-0113"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Asymmetric encryption uses?",
+      "options": [
+        "Same key for both",
+        "No keys",
+        "Single key",
+        "Public key and private key pair"
+      ],
+      "explanation": "RSA, ECC use public key (shared) for encryption and private key (secret) for decryption."
+    },
+    "hi": {
+      "question": "असममित एन्क्रिप्शन किसका उपयोग करता है?",
+      "options": [
+        "दोनों के लिए एक कुंजी",
+        "कोई कुंजी नहीं",
+        "एकल कुंजी",
+        "सार्वजनिक और निजी कुंजी जोड़ी"
+      ],
+      "explanation": "RSA, ECC एन्क्रिप्शन के लिए सार्वजनिक कुंजी (साझा) और डिक्रिप्शन के लिए निजी कुंजी (गुप्त) का उपयोग।"
+    },
+    "id": "netw-0114"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SSL stands for?",
+      "options": [
+        "Secure Sockets Layer",
+        "Secure System Login",
+        "Simple Secure Layer",
+        "Server Security Layer"
+      ],
+      "explanation": "SSL/TLS encrypts data between web browser and server. TLS is the modern successor to SSL."
+    },
+    "hi": {
+      "question": "SSL का पूरा नाम क्या है?",
+      "options": [
+        "Secure Sockets Layer",
+        "Secure System Login",
+        "Simple Secure Layer",
+        "Server Security Layer"
+      ],
+      "explanation": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच डेटा एन्क्रिप्ट करता है। TLS SSL का आधुनिक उत्तराधिकारी।"
+    },
+    "id": "netw-0115"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "TLS stands for?",
+      "options": [
+        "Total Layer Security",
+        "Transport Layer Security",
+        "Terminal Login System",
+        "Trusted Link Security"
+      ],
+      "explanation": "TLS is the successor to SSL (currently TLS 1.3). HTTPS uses TLS for secure web communication."
+    },
+    "hi": {
+      "question": "TLS का पूरा नाम क्या है?",
+      "options": [
+        "Total Layer Security",
+        "Transport Layer Security",
+        "Terminal Login System",
+        "Trusted Link Security"
+      ],
+      "explanation": "TLS SSL का उत्तराधिकारी (वर्तमान TLS 1.3)। HTTPS सुरक्षित वेब संचार के लिए TLS का उपयोग।"
+    },
+    "id": "netw-0116"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What indicates a secure HTTPS connection in a browser?",
+      "options": [
+        "Blue text",
+        "Red warning",
+        "Padlock icon in address bar",
+        "Faster loading"
+      ],
+      "explanation": "The padlock icon indicates the site uses HTTPS with a valid SSL/TLS certificate."
+    },
+    "hi": {
+      "question": "ब्राउज़र में सुरक्षित HTTPS कनेक्शन क्या इंगित करता है?",
+      "options": [
+        "नीला टेक्स्ट",
+        "लाल चेतावनी",
+        "एड्रेस बार में ताला आइकन",
+        "तेज लोडिंग"
+      ],
+      "explanation": "ताला आइकन इंगित करता है कि साइट वैध SSL/TLS प्रमाणपत्र के साथ HTTPS का उपयोग करती है।"
+    },
+    "id": "netw-0117"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Phishing attack typically arrives via?",
+      "options": [
+        "Antivirus update",
+        "System file",
+        "BIOS",
+        "Fake email or website"
+      ],
+      "explanation": "Phishing uses deceptive emails/messages pretending to be from legitimate sources to steal credentials."
+    },
+    "hi": {
+      "question": "फिशिंग हमला आमतौर पर किसके माध्यम से आता है?",
+      "options": [
+        "एंटीवायरस अपडेट",
+        "सिस्टम फाइल",
+        "BIOS",
+        "नकली ईमेल या वेबसाइट"
+      ],
+      "explanation": "फिशिंग क्रेडेंशियल चुराने के लिए वैध स्रोतों से होने का दिखावा करने वाले भ्रामक ईमेल/संदेशों का उपयोग करता है।"
+    },
+    "id": "netw-0118"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Social engineering attacks exploit?",
+      "options": [
+        "Human psychology/trust",
+        "Software bugs",
+        "Hardware flaws",
+        "Network protocols"
+      ],
+      "explanation": "Social engineering manipulates people into revealing confidential information or performing actions."
+    },
+    "hi": {
+      "question": "सोशल इंजीनियरिंग हमले किसका शोषण करते हैं?",
+      "options": [
+        "मानव मनोविज्ञान/विश्वास",
+        "सॉफ्टवेयर बग",
+        "हार्डवेयर खामियां",
+        "नेटवर्क प्रोटोकॉल"
+      ],
+      "explanation": "सोशल इंजीनियरिंग लोगों को गोपनीय जानकारी प्रकट करने या कार्रवाई करने के लिए हेरफेर करती है।"
+    },
+    "id": "netw-0119"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a strong password characteristic?",
+      "options": [
+        "Short and simple",
+        "Mix of uppercase, lowercase, numbers, symbols, 12+ chars",
+        "Only numbers",
+        "Your name"
+      ],
+      "explanation": "Strong passwords use length (12+), complexity (mix of characters), and uniqueness per account."
+    },
+    "hi": {
+      "question": "मजबूत पासवर्ड की विशेषता क्या है?",
+      "options": [
+        "छोटा और सरल",
+        "अपरकेस, लोअरकेस, संख्या, प्रतीक का मिश्रण, 12+ वर्ण",
+        "केवल संख्याएं",
+        "आपका नाम"
+      ],
+      "explanation": "मजबूत पासवर्ड लंबाई (12+), जटिलता (वर्णों का मिश्रण) और प्रति खाता विशिष्टता का उपयोग।"
+    },
+    "id": "netw-0120"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "2FA stands for?",
+      "options": [
+        "Two File Authentication",
+        "Two Factor Application",
+        "Two Factor Authentication",
+        "Two Field Authorization"
+      ],
+      "explanation": "2FA requires two forms of verification: something you know (password) + something you have (OTP/phone)."
+    },
+    "hi": {
+      "question": "2FA का पूरा नाम क्या है?",
+      "options": [
+        "Two File Authentication",
+        "Two Factor Application",
+        "Two Factor Authentication",
+        "Two Field Authorization"
+      ],
+      "explanation": "2FA सत्यापन के दो रूपों की आवश्यकता: कुछ जो आप जानते (पासवर्ड) + कुछ जो आपके पास (OTP/फोन)।"
+    },
+    "id": "netw-0121"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "MFA is?",
+      "options": [
+        "Single factor auth",
+        "Password only",
+        "PIN only",
+        "Multi-Factor Authentication (2 or more factors)"
+      ],
+      "explanation": "MFA uses 2+ factors: knowledge (password), possession (phone), inherence (fingerprint/face)."
+    },
+    "hi": {
+      "question": "MFA क्या है?",
+      "options": [
+        "एकल कारक प्रमाणीकरण",
+        "केवल पासवर्ड",
+        "केवल PIN",
+        "बहु-कारक प्रमाणीकरण (2 या अधिक कारक)"
+      ],
+      "explanation": "MFA 2+ कारक: ज्ञान (पासवर्ड), स्वामित्व (फोन), अंतर्निहित (फिंगरप्रिंट/चेहरा)।"
+    },
+    "id": "netw-0122"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A digital signature provides?",
+      "options": [
+        "Authentication, integrity, and non-repudiation",
+        "Only encryption",
+        "Virus protection",
+        "Speed"
+      ],
+      "explanation": "Digital signature verifies sender identity (authentication), message hasn't been altered (integrity), and sender cannot deny (non-repudiation)."
+    },
+    "hi": {
+      "question": "डिजिटल हस्ताक्षर क्या प्रदान करता है?",
+      "options": [
+        "प्रमाणीकरण, अखंडता और गैर-अस्वीकृति",
+        "केवल एन्क्रिप्शन",
+        "वायरस सुरक्षा",
+        "गति"
+      ],
+      "explanation": "डिजिटल हस्ताक्षर प्रेषक पहचान (प्रमाणीकरण), संदेश अपरिवर्तित (अखंडता), और प्रेषक इनकार नहीं कर सकता (गैर-अस्वीकृति)।"
+    },
+    "id": "netw-0123"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Digital certificate is issued by?",
+      "options": [
+        "Antivirus company",
+        "Certificate Authority (CA)",
+        "ISP",
+        "Browser vendor"
+      ],
+      "explanation": "CAs like DigiCert, Verisign, Let's Encrypt issue digital certificates validating website/entity identity."
+    },
+    "hi": {
+      "question": "डिजिटल प्रमाणपत्र किसके द्वारा जारी किया जाता है?",
+      "options": [
+        "एंटीवायरस कंपनी",
+        "प्रमाणपत्र प्राधिकरण (CA)",
+        "ISP",
+        "ब्राउज़र विक्रेता"
+      ],
+      "explanation": "DigiCert, Verisign, Let's Encrypt जैसे CA वेबसाइट/इकाई की पहचान मान्य करने वाले डिजिटल प्रमाणपत्र जारी करते हैं।"
+    },
+    "id": "netw-0124"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ethical hacking is?",
+      "options": [
+        "Illegal hacking",
+        "Malware creation",
+        "Authorized testing to find security vulnerabilities",
+        "Data theft"
+      ],
+      "explanation": "Ethical hackers (white-hat) legally test systems to identify and fix security weaknesses."
+    },
+    "hi": {
+      "question": "एथिकल हैकिंग क्या है?",
+      "options": [
+        "अवैध हैकिंग",
+        "मैलवेयर निर्माण",
+        "सुरक्षा कमजोरियां खोजने के लिए अधिकृत परीक्षण",
+        "डेटा चोरी"
+      ],
+      "explanation": "एथिकल हैकर (व्हाइट-हैट) सुरक्षा कमजोरियों की पहचान और समाधान के लिए कानूनी रूप से सिस्टम का परीक्षण करते हैं।"
+    },
+    "id": "netw-0125"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "IT Act 2000 in India deals with?",
+      "options": [
+        "Income tax",
+        "Company law",
+        "Labor laws",
+        "Cyber crimes and electronic commerce"
+      ],
+      "explanation": "Information Technology Act 2000 provides legal framework for electronic governance and cyber crime penalties."
+    },
+    "hi": {
+      "question": "भारत में IT अधिनियम 2000 किससे संबंधित है?",
+      "options": [
+        "आयकर",
+        "कंपनी कानून",
+        "श्रम कानून",
+        "साइबर अपराध और इलेक्ट्रॉनिक वाणिज्य"
+      ],
+      "explanation": "सूचना प्रौद्योगिकी अधिनियम 2000 इलेक्ट्रॉनिक शासन और साइबर अपराध दंड के लिए कानूनी ढांचा प्रदान करता है।"
+    },
+    "id": "netw-0126"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Section 66 of IT Act deals with?",
+      "options": [
+        "Hacking and computer-related offenses",
+        "Tax evasion",
+        "Copyright",
+        "Trademark"
+      ],
+      "explanation": "Section 66 covers hacking, identity theft, cheating by impersonation, and privacy violation."
+    },
+    "hi": {
+      "question": "IT अधिनियम की धारा 66 किससे संबंधित है?",
+      "options": [
+        "हैकिंग और कंप्यूटर संबंधी अपराध",
+        "कर चोरी",
+        "कॉपीराइट",
+        "ट्रेडमार्क"
+      ],
+      "explanation": "धारा 66 हैकिंग, पहचान चोरी, प्रतिरूपण द्वारा धोखाधड़ी और गोपनीयता उल्लंघन को कवर करती है।"
+    },
+    "id": "netw-0127"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is data privacy?",
+      "options": [
+        "Making all data public",
+        "Protecting personal information from unauthorized access/use",
+        "Deleting all data",
+        "Sharing all data"
+      ],
+      "explanation": "Data privacy ensures personal data is collected, stored, and processed with consent and security."
+    },
+    "hi": {
+      "question": "डेटा गोपनीयता क्या है?",
+      "options": [
+        "सभी डेटा सार्वजनिक करना",
+        "व्यक्तिगत जानकारी को अनधिकृत पहुंच/उपयोग से बचाना",
+        "सभी डेटा हटाना",
+        "सभी डेटा साझा करना"
+      ],
+      "explanation": "डेटा गोपनीयता सुनिश्चित करती है कि व्यक्तिगत डेटा सहमति और सुरक्षा के साथ एकत्र, संग्रहीत और संसाधित किया जाए।"
+    },
+    "id": "netw-0128"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a brute-force attack?",
+      "options": [
+        "Physical attack",
+        "Network flooding",
+        "Trying all possible password combinations",
+        "Email spam"
+      ],
+      "explanation": "Brute-force systematically tries every possible password/encryption key until the correct one is found."
+    },
+    "hi": {
+      "question": "ब्रूट-फोर्स हमला क्या है?",
+      "options": [
+        "भौतिक हमला",
+        "नेटवर्क फ्लडिंग",
+        "सभी संभावित पासवर्ड संयोजन आज़माना",
+        "ईमेल स्पैम"
+      ],
+      "explanation": "ब्रूट-फोर्स सही पासवर्ड/एन्क्रिप्शन कुंजी मिलने तक हर संभव संयोजन व्यवस्थित रूप से आज़माता है।"
+    },
+    "id": "netw-0129"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is SQL injection?",
+      "options": [
+        "Virus injection",
+        "Memory injection",
+        "File upload",
+        "Inserting malicious SQL code into database queries"
+      ],
+      "explanation": "SQL injection exploits vulnerable input fields to execute unauthorized database commands."
+    },
+    "hi": {
+      "question": "SQL इंजेक्शन क्या है?",
+      "options": [
+        "वायरस इंजेक्शन",
+        "मेमोरी इंजेक्शन",
+        "फाइल अपलोड",
+        "डेटाबेस क्वेरी में दुर्भावनापूर्ण SQL कोड डालना"
+      ],
+      "explanation": "SQL इंजेक्शन अनधिकृत डेटाबेस कमांड निष्पादित करने के लिए कमजोर इनपुट फ़ील्ड का शोषण करता है।"
+    },
+    "id": "netw-0130"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is XSS (Cross-Site Scripting)?",
+      "options": [
+        "Injecting malicious scripts into web pages viewed by others",
+        "Network routing",
+        "Database hacking",
+        "Password theft"
+      ],
+      "explanation": "XSS inserts malicious JavaScript into trusted websites, executing in other users' browsers."
+    },
+    "hi": {
+      "question": "XSS (क्रॉस-साइट स्क्रिप्टिंग) क्या है?",
+      "options": [
+        "दूसरों द्वारा देखे जाने वाले वेब पेजों में दुर्भावनापूर्ण स्क्रिप्ट डालना",
+        "नेटवर्क रूटिंग",
+        "डेटाबेस हैकिंग",
+        "पासवर्ड चोरी"
+      ],
+      "explanation": "XSS विश्वसनीय वेबसाइटों में दुर्भावनापूर्ण JavaScript डालता है, अन्य उपयोगकर्ताओं के ब्राउज़र में निष्पादित।"
+    },
+    "id": "netw-0131"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a man-in-the-middle (MITM) attack?",
+      "options": [
+        "Direct hacking",
+        "Intercepting communication between two parties secretly",
+        "Password cracking",
+        "Virus attack"
+      ],
+      "explanation": "MITM attacker secretly relays and possibly alters communication between two parties."
+    },
+    "hi": {
+      "question": "मैन-इन-द-मिडल (MITM) हमला क्या है?",
+      "options": [
+        "सीधी हैकिंग",
+        "दो पक्षों के बीच संचार को गुप्त रूप से इंटरसेप्ट करना",
+        "पासवर्ड क्रैकिंग",
+        "वायरस हमला"
+      ],
+      "explanation": "MITM हमलावर दो पक्षों के बीच संचार को गुप्त रूप से रिले और संभवतः बदलता है।"
+    },
+    "id": "netw-0132"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a zero-day vulnerability?",
+      "options": [
+        "Old bug",
+        "Fixed bug",
+        "Unknown vulnerability with no patch available",
+        "Hardware issue"
+      ],
+      "explanation": "Zero-day is a security flaw unknown to the vendor, exploited before a fix is available."
+    },
+    "hi": {
+      "question": "ज़ीरो-डे भेद्यता क्या है?",
+      "options": [
+        "पुराना बग",
+        "सुधारा गया बग",
+        "कोई पैच उपलब्ध न होने वाली अज्ञात भेद्यता",
+        "हार्डवेयर समस्या"
+      ],
+      "explanation": "ज़ीरो-डे विक्रेता को अज्ञात सुरक्षा खामी है, सुधार उपलब्ध होने से पहले शोषण किया जाता है।"
+    },
+    "id": "netw-0133"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a VPN used for?",
+      "options": [
+        "Speeding up internet",
+        "Blocking websites",
+        "Storing files",
+        "Creating encrypted, private connection over public network"
+      ],
+      "explanation": "VPN encrypts internet traffic and masks IP address for privacy and security."
+    },
+    "hi": {
+      "question": "VPN किसके लिए उपयोग होता है?",
+      "options": [
+        "इंटरनेट तेज करना",
+        "वेबसाइट ब्लॉक करना",
+        "फाइलें संग्रहीत",
+        "सार्वजनिक नेटवर्क पर एन्क्रिप्टेड, निजी कनेक्शन बनाना"
+      ],
+      "explanation": "VPN गोपनीयता और सुरक्षा के लिए इंटरनेट ट्रैफ़िक एन्क्रिप्ट करता है और IP पता छिपाता है।"
+    },
+    "id": "netw-0134"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is keylogger?",
+      "options": [
+        "Records keystrokes to steal passwords/data",
+        "A type of firewall",
+        "A password manager",
+        "An encryption tool"
+      ],
+      "explanation": "Keylogger captures every key pressed on keyboard, often used for stealing credentials."
+    },
+    "hi": {
+      "question": "कीलॉगर क्या है?",
+      "options": [
+        "पासवर्ड/डेटा चुराने के लिए कीस्ट्रोक रिकॉर्ड करता",
+        "एक प्रकार का फायरवॉल",
+        "पासवर्ड मैनेजर",
+        "एन्क्रिप्शन उपकरण"
+      ],
+      "explanation": "कीलॉगर कीबोर्ड पर दबाई गई हर कुंजी कैप्चर करता है, अक्सर क्रेडेंशियल चुराने के लिए उपयोग।"
+    },
+    "id": "netw-0135"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a strong authentication method?",
+      "options": [
+        "Only password",
+        "Password + OTP/Biometric (2FA)",
+        "Only PIN",
+        "Security question only"
+      ],
+      "explanation": "Combining multiple factors (what you know + have + are) significantly strengthens security."
+    },
+    "hi": {
+      "question": "मजबूत प्रमाणीकरण विधि क्या है?",
+      "options": [
+        "केवल पासवर्ड",
+        "पासवर्ड + OTP/बायोमेट्रिक (2FA)",
+        "केवल PIN",
+        "केवल सुरक्षा प्रश्न"
+      ],
+      "explanation": "कई कारकों (जो आप जानते + रखते + हैं) का संयोजन सुरक्षा को काफी मजबूत करता है।"
+    },
+    "id": "netw-0136"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a honeypot in cyber security?",
+      "options": [
+        "A type of malware",
+        "Antivirus software",
+        "Decoy system to attract and study attackers",
+        "Password tool"
+      ],
+      "explanation": "Honeypot mimics a real system to lure attackers and analyze their techniques without risking real data."
+    },
+    "hi": {
+      "question": "साइबर सुरक्षा में हनीपॉट क्या है?",
+      "options": [
+        "एक प्रकार का मैलवेयर",
+        "एंटीवायरस सॉफ्टवेयर",
+        "हमलावरों को आकर्षित और अध्ययन करने के लिए डिकॉय सिस्टम",
+        "पासवर्ड उपकरण"
+      ],
+      "explanation": "हनीपॉट हमलावरों को लुभाने और वास्तविक डेटा को जोखिम में डाले बिना उनकी तकनीकों का विश्लेषण करने के लिए वास्तविक सिस्टम की नकल करता है।"
+    },
+    "id": "netw-0137"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a DoS attack?",
+      "options": [
+        "Data upload",
+        "System update",
+        "Password reset",
+        "Denial of Service — making a service unavailable to users"
+      ],
+      "explanation": "DoS overwhelms a server with traffic from a single source. DDoS uses multiple sources."
+    },
+    "hi": {
+      "question": "DoS हमला क्या है?",
+      "options": [
+        "डेटा अपलोड",
+        "सिस्टम अपडेट",
+        "पासवर्ड रीसेट",
+        "डिनायल ऑफ सर्विस — सेवा को उपयोगकर्ताओं के लिए अनुपलब्ध करना"
+      ],
+      "explanation": "DoS एक स्रोत से ट्रैफ़िक से सर्वर को अभिभूत करता है। DDoS कई स्रोतों का उपयोग।"
+    },
+    "id": "netw-0138"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is end-to-end encryption?",
+      "options": [
+        "Only sender and recipient can read messages",
+        "Server-side encryption only",
+        "No encryption",
+        "Browser encryption only"
+      ],
+      "explanation": "E2EE encrypts data on sender's device and only decrypts on recipient's device (WhatsApp, Signal)."
+    },
+    "hi": {
+      "question": "एंड-टू-एंड एन्क्रिप्शन क्या है?",
+      "options": [
+        "केवल प्रेषक और प्राप्तकर्ता संदेश पढ़ सकते",
+        "केवल सर्वर-साइड एन्क्रिप्शन",
+        "कोई एन्क्रिप्शन नहीं",
+        "केवल ब्राउज़र एन्क्रिप्शन"
+      ],
+      "explanation": "E2EE प्रेषक के उपकरण पर डेटा एन्क्रिप्ट करता है और केवल प्राप्तकर्ता के उपकरण पर डिक्रिप्ट (WhatsApp, Signal)।"
+    },
+    "id": "netw-0139"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is Public Key Infrastructure (PKI)?",
+      "options": [
+        "A firewall system",
+        "Framework managing digital certificates and encryption keys",
+        "Antivirus system",
+        "Network monitor"
+      ],
+      "explanation": "PKI creates, manages, distributes, and revokes digital certificates for secure communication."
+    },
+    "hi": {
+      "question": "पब्लिक की इंफ्रास्ट्रक्चर (PKI) क्या है?",
+      "options": [
+        "एक फायरवॉल सिस्टम",
+        "डिजिटल प्रमाणपत्र और एन्क्रिप्शन कुंजी प्रबंधन ढांचा",
+        "एंटीवायरस सिस्टम",
+        "नेटवर्क मॉनिटर"
+      ],
+      "explanation": "PKI सुरक्षित संचार के लिए डिजिटल प्रमाणपत्र बनाता, प्रबंधित, वितरित और निरस्त करता है।"
+    },
+    "id": "netw-0140"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What should you do if you receive a suspicious email?",
+      "options": [
+        "Reply immediately",
+        "Open all attachments",
+        "Do not click links/attachments, verify sender, report as spam",
+        "Forward to everyone"
+      ],
+      "explanation": "Never click unknown links or open suspicious attachments. Verify sender through alternative channels."
+    },
+    "hi": {
+      "question": "संदिग्ध ईमेल मिलने पर क्या करना चाहिए?",
+      "options": [
+        "तुरंत उत्तर दें",
+        "सभी अटैचमेंट खोलें",
+        "लिंक/अटैचमेंट न खोलें, प्रेषक सत्यापित करें, स्पैम रिपोर्ट करें",
+        "सभी को फॉरवर्ड करें"
+      ],
+      "explanation": "अज्ञात लिंक कभी न खोलें या संदिग्ध अटैचमेंट न खोलें। वैकल्पिक माध्यमों से प्रेषक सत्यापित करें।"
+    },
+    "id": "netw-0141"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a firewall rule?",
+      "options": [
+        "A password rule",
+        "An office policy",
+        "A browser setting",
+        "Allow/deny criteria for network traffic"
+      ],
+      "explanation": "Firewall rules define which inbound/outbound traffic is permitted based on IP, port, and protocol."
+    },
+    "hi": {
+      "question": "फायरवॉल नियम क्या है?",
+      "options": [
+        "पासवर्ड नियम",
+        "कार्यालय नीति",
+        "ब्राउज़र सेटिंग",
+        "नेटवर्क ट्रैफ़िक के लिए अनुमति/अस्वीकार मानदंड"
+      ],
+      "explanation": "फायरवॉल नियम IP, पोर्ट और प्रोटोकॉल के आधार पर कौन सा इनबाउंड/आउटबाउंड ट्रैफ़िक अनुमत है, परिभाषित करते हैं।"
+    },
+    "id": "netw-0142"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the purpose of a password manager?",
+      "options": [
+        "Securely store and generate strong, unique passwords",
+        "Delete files",
+        "Manage emails",
+        "Browse internet"
+      ],
+      "explanation": "Password managers encrypt and store all passwords, requiring only one master password to access."
+    },
+    "hi": {
+      "question": "पासवर्ड मैनेजर का उद्देश्य क्या है?",
+      "options": [
+        "मजबूत, अद्वितीय पासवर्ड सुरक्षित रूप से संग्रहीत और उत्पन्न करना",
+        "फाइलें हटाना",
+        "ईमेल प्रबंधित",
+        "इंटरनेट ब्राउज़"
+      ],
+      "explanation": "पासवर्ड मैनेजर सभी पासवर्ड एन्क्रिप्ट और संग्रहीत करते हैं, पहुंच के लिए केवल एक मास्टर पासवर्ड आवश्यक।"
+    },
+    "id": "netw-0143"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a security patch?",
+      "options": [
+        "Antivirus signature",
+        "Software update fixing known vulnerabilities",
+        "Password change",
+        "New feature"
+      ],
+      "explanation": "Patches fix security holes in software. Always install updates promptly to stay protected."
+    },
+    "hi": {
+      "question": "सुरक्षा पैच क्या है?",
+      "options": [
+        "एंटीवायरस हस्ताक्षर",
+        "ज्ञात भेद्यताओं को ठीक करने वाला सॉफ्टवेयर अपडेट",
+        "पासवर्ड परिवर्तन",
+        "नई सुविधा"
+      ],
+      "explanation": "पैच सॉफ्टवेयर में सुरक्षा छेद ठीक करते हैं। सुरक्षित रहने के लिए हमेशा तुरंत अपडेट इंस्टॉल करें।"
+    },
+    "id": "netw-0144"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the CIA triad in security?",
+      "options": [
+        "A government agency",
+        "An antivirus",
+        "Confidentiality, Integrity, Availability",
+        "Computer Interface Architecture"
+      ],
+      "explanation": "CIA Triad: Confidentiality (data privacy), Integrity (data accuracy), Availability (accessible when needed)."
+    },
+    "hi": {
+      "question": "सुरक्षा में CIA त्रय क्या है?",
+      "options": [
+        "एक सरकारी एजेंसी",
+        "एक एंटीवायरस",
+        "गोपनीयता, अखंडता, उपलब्धता",
+        "कंप्यूटर इंटरफेस आर्किटेक्चर"
+      ],
+      "explanation": "CIA त्रय: गोपनीयता (डेटा गोपनीयता), अखंडता (डेटा सटीकता), उपलब्धता (जरूरत पर सुलभ)।"
+    },
+    "id": "netw-0145"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is steganography?",
+      "options": [
+        "A type of virus",
+        "Password cracking",
+        "Network scanning",
+        "Hiding data within other files (images, audio)"
+      ],
+      "explanation": "Steganography conceals secret messages inside innocent-looking files to avoid detection."
+    },
+    "hi": {
+      "question": "स्टेग्नोग्राफी क्या है?",
+      "options": [
+        "एक प्रकार का वायरस",
+        "पासवर्ड क्रैकिंग",
+        "नेटवर्क स्कैनिंग",
+        "अन्य फाइलों (छवि, ऑडियो) के भीतर डेटा छिपाना"
+      ],
+      "explanation": "स्टेग्नोग्राफी पता लगने से बचने के लिए निर्दोष दिखने वाली फाइलों के अंदर गुप्त संदेश छिपाती है।"
+    },
+    "id": "netw-0146"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a black-hat hacker?",
+      "options": [
+        "Malicious hacker exploiting vulnerabilities illegally",
+        "Security professional",
+        "Government agent",
+        "Software developer"
+      ],
+      "explanation": "Black-hat: illegal, malicious hackers. White-hat: ethical security testers. Grey-hat: between both."
+    },
+    "hi": {
+      "question": "ब्लैक-हैट हैकर क्या है?",
+      "options": [
+        "अवैध रूप से भेद्यताओं का शोषण करने वाला दुर्भावनापूर्ण हैकर",
+        "सुरक्षा पेशेवर",
+        "सरकारी एजेंट",
+        "सॉफ्टवेयर डेवलपर"
+      ],
+      "explanation": "ब्लैक-हैट: अवैध, दुर्भावनापूर्ण। व्हाइट-हैट: नैतिक सुरक्षा परीक्षक। ग्रे-हैट: दोनों के बीच।"
+    },
+    "id": "netw-0147"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is malware?",
+      "options": [
+        "Security software",
+        "Malicious software designed to harm systems",
+        "Operating system",
+        "Network hardware"
+      ],
+      "explanation": "Malware = Malicious Software. Includes viruses, worms, trojans, ransomware, spyware, adware."
+    },
+    "hi": {
+      "question": "मैलवेयर क्या है?",
+      "options": [
+        "सुरक्षा सॉफ्टवेयर",
+        "सिस्टम को नुकसान पहुंचाने वाला दुर्भावनापूर्ण सॉफ्टवेयर",
+        "ऑपरेटिंग सिस्टम",
+        "नेटवर्क हार्डवेयर"
+      ],
+      "explanation": "मैलवेयर = दुर्भावनापूर्ण सॉफ्टवेयर। वायरस, वर्म, ट्रोजन, रैनसमवेयर, स्पाइवेयर, एडवेयर शामिल।"
+    },
+    "id": "netw-0148"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is social engineering pretexting?",
+      "options": [
+        "Software testing",
+        "Network scanning",
+        "Creating a fabricated scenario to steal information",
+        "Encryption"
+      ],
+      "explanation": "Pretexting: attacker creates a false identity/scenario to trick victims into revealing information."
+    },
+    "hi": {
+      "question": "सोशल इंजीनियरिंग प्रीटेक्स्टिंग क्या है?",
+      "options": [
+        "सॉफ्टवेयर परीक्षण",
+        "नेटवर्क स्कैनिंग",
+        "जानकारी चुराने के लिए मनगढ़ंत परिदृश्य बनाना",
+        "एन्क्रिप्शन"
+      ],
+      "explanation": "प्रीटेक्स्टिंग: हमलावर जानकारी प्रकट करने के लिए पीड़ितों को धोखा देने के लिए झूठी पहचान/परिदृश्य बनाता है।"
+    },
+    "id": "netw-0149"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is spear phishing?",
+      "options": [
+        "General spam",
+        "Mass mailing",
+        "Virus attack",
+        "Targeted phishing at specific individuals/organizations"
+      ],
+      "explanation": "Spear phishing uses personalized information to target specific people, making it more convincing."
+    },
+    "hi": {
+      "question": "स्पीयर फिशिंग क्या है?",
+      "options": [
+        "सामान्य स्पैम",
+        "बड़े पैमाने पर मेलिंग",
+        "वायरस हमला",
+        "विशिष्ट व्यक्तियों/संगठनों पर लक्षित फिशिंग"
+      ],
+      "explanation": "स्पीयर फिशिंग विशिष्ट लोगों को लक्षित करने के लिए व्यक्तिगत जानकारी का उपयोग करती है, अधिक विश्वसनीय।"
+    },
+    "id": "netw-0150"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the difference between hashing and encryption?",
+      "options": [
+        "Hashing is one-way (irreversible); encryption is two-way (reversible)",
+        "Both same",
+        "Encryption is one-way",
+        "Hashing is reversible"
+      ],
+      "explanation": "Hash (SHA-256, MD5) produces fixed-length digest, cannot be reversed. Encryption can be decrypted."
+    },
+    "hi": {
+      "question": "हैशिंग और एन्क्रिप्शन में क्या अंतर है?",
+      "options": [
+        "हैशिंग एक-तरफा (अपरिवर्तनीय); एन्क्रिप्शन दो-तरफा (परिवर्तनीय)",
+        "दोनों समान",
+        "एन्क्रिप्शन एक-तरफा",
+        "हैशिंग परिवर्तनीय"
+      ],
+      "explanation": "हैश (SHA-256, MD5) निश्चित-लंबाई डाइजेस्ट, पलटा नहीं जा सकता। एन्क्रिप्शन डिक्रिप्ट किया जा सकता है।"
+    },
+    "id": "netw-0151"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is AES encryption?",
+      "options": [
+        "Asymmetric only",
+        "Advanced Encryption Standard (symmetric, 128/192/256-bit)",
+        "A hashing algorithm",
+        "An older standard"
+      ],
+      "explanation": "AES is the current U.S. government standard for symmetric encryption, used worldwide."
+    },
+    "hi": {
+      "question": "AES एन्क्रिप्शन क्या है?",
+      "options": [
+        "केवल असममित",
+        "एडवांस्ड एन्क्रिप्शन स्टैंडर्ड (सममित, 128/192/256-बिट)",
+        "एक हैशिंग एल्गोरिदम",
+        "एक पुराना मानक"
+      ],
+      "explanation": "AES सममित एन्क्रिप्शन के लिए वर्तमान अमेरिकी सरकारी मानक है, विश्वभर में उपयोग।"
+    },
+    "id": "netw-0152"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is RSA encryption based on?",
+      "options": [
+        "Symmetric key",
+        "Hashing",
+        "Prime factorization of large numbers",
+        "Simple substitution"
+      ],
+      "explanation": "RSA (Rivest-Shamir-Adleman) is an asymmetric algorithm based on the difficulty of factoring large prime numbers."
+    },
+    "hi": {
+      "question": "RSA एन्क्रिप्शन किस पर आधारित है?",
+      "options": [
+        "सममित कुंजी",
+        "हैशिंग",
+        "बड़ी संख्याओं का अभाज्य गुणनखंड",
+        "सरल प्रतिस्थापन"
+      ],
+      "explanation": "RSA (रिवेस्ट-शमीर-एडलमैन) बड़ी अभाज्य संख्याओं के गुणनखंड की कठिनाई पर आधारित असममित एल्गोरिदम है।"
+    },
+    "id": "netw-0153"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a cyber security incident response plan?",
+      "options": [
+        "A firewall config",
+        "An antivirus update",
+        "A password policy",
+        "A documented process for handling security breaches"
+      ],
+      "explanation": "IR plan defines steps for detection, containment, eradication, and recovery from cyber incidents."
+    },
+    "hi": {
+      "question": "साइबर सुरक्षा घटना प्रतिक्रिया योजना क्या है?",
+      "options": [
+        "फायरवॉल कॉन्फ़िगरेशन",
+        "एंटीवायरस अपडेट",
+        "पासवर्ड नीति",
+        "सुरक्षा उल्लंघनों को संभालने की दस्तावेजी प्रक्रिया"
+      ],
+      "explanation": "IR योजना साइबर घटनाओं से पता लगाने, रोकथाम, उन्मूलन और पुनर्प्राप्ति के चरण परिभाषित करती है।"
+    },
+    "id": "netw-0154"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the purpose of a CAPTCHA?",
+      "options": [
+        "Distinguish humans from bots",
+        "Encrypt data",
+        "Speed up website",
+        "Block ads"
+      ],
+      "explanation": "CAPTCHA (Completely Automated Public Turing test) prevents automated bots from accessing websites."
+    },
+    "hi": {
+      "question": "CAPTCHA का उद्देश्य क्या है?",
+      "options": [
+        "मानव और बॉट में अंतर करना",
+        "डेटा एन्क्रिप्ट",
+        "वेबसाइट तेज",
+        "विज्ञापन रोकना"
+      ],
+      "explanation": "CAPTCHA (कम्प्लीटली ऑटोमेटेड पब्लिक ट्यूरिंग टेस्ट) स्वचालित बॉट को वेबसाइट एक्सेस करने से रोकता है।"
+    },
+    "id": "netw-0155"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a backdoor in computer security?",
+      "options": [
+        "A physical door",
+        "Secret method to bypass normal authentication",
+        "Network cable",
+        "Software update"
+      ],
+      "explanation": "Backdoor provides hidden access to a system, often installed by malware or developers."
+    },
+    "hi": {
+      "question": "कंप्यूटर सुरक्षा में बैकडोर क्या है?",
+      "options": [
+        "एक भौतिक दरवाजा",
+        "सामान्य प्रमाणीकरण को बायपास करने की गुप्त विधि",
+        "नेटवर्क केबल",
+        "सॉफ्टवेयर अपडेट"
+      ],
+      "explanation": "बैकडोर सिस्टम तक छिपी पहुंच प्रदान करता है, अक्सर मैलवेयर या डेवलपर्स द्वारा स्थापित।"
+    },
+    "id": "netw-0156"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is shoulder surfing?",
+      "options": [
+        "A surfing sport",
+        "Network attack",
+        "Looking over someone's shoulder to steal passwords/PIN",
+        "Software testing"
+      ],
+      "explanation": "Shoulder surfing is a social engineering technique of observing someone's screen/keyboard to steal information."
+    },
+    "hi": {
+      "question": "शोल्डर सर्फिंग क्या है?",
+      "options": [
+        "एक सर्फिंग खेल",
+        "नेटवर्क हमला",
+        "पासवर्ड/PIN चुराने के लिए किसी के कंधे पर से देखना",
+        "सॉफ्टवेयर परीक्षण"
+      ],
+      "explanation": "शोल्डर सर्फिंग जानकारी चुराने के लिए किसी की स्क्रीन/कीबोर्ड देखने की सोशल इंजीनियरिंग तकनीक है।"
+    },
+    "id": "netw-0157"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a replay attack?",
+      "options": [
+        "Playing a game again",
+        "Network retry",
+        "Software reinstall",
+        "Capturing and retransmitting valid data to deceive a system"
+      ],
+      "explanation": "Replay attack captures legitimate communication and replays it later to gain unauthorized access."
+    },
+    "hi": {
+      "question": "रीप्ले हमला क्या है?",
+      "options": [
+        "फिर से गेम खेलना",
+        "नेटवर्क पुनर्प्रयास",
+        "सॉफ्टवेयर पुनर्स्थापना",
+        "सिस्टम को धोखा देने के लिए वैध डेटा कैप्चर और पुनर्प्रेषित करना"
+      ],
+      "explanation": "रीप्ले हमला वैध संचार कैप्चर करता है और अनधिकृत पहुंच पाने के लिए बाद में इसे फिर से चलाता है।"
+    },
+    "id": "netw-0158"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is two-step verification?",
+      "options": [
+        "Password + additional code sent to phone/email",
+        "Two passwords",
+        "Two usernames",
+        "Double encryption"
+      ],
+      "explanation": "After entering password, a one-time code is sent to your registered phone or email for second verification."
+    },
+    "hi": {
+      "question": "दो-चरणीय सत्यापन क्या है?",
+      "options": [
+        "पासवर्ड + फोन/ईमेल पर भेजा गया अतिरिक्त कोड",
+        "दो पासवर्ड",
+        "दो उपयोगकर्ता नाम",
+        "दोहरा एन्क्रिप्शन"
+      ],
+      "explanation": "पासवर्ड दर्ज करने के बाद, दूसरे सत्यापन के लिए आपके पंजीकृत फोन या ईमेल पर एक बार का कोड भेजा जाता है।"
+    },
+    "id": "netw-0159"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is biometric authentication?",
+      "options": [
+        "Password-based",
+        "Using physical characteristics (fingerprint, face, iris)",
+        "Token-based",
+        "Card-based"
+      ],
+      "explanation": "Biometric authentication uses unique biological traits for identity verification."
+    },
+    "hi": {
+      "question": "बायोमेट्रिक प्रमाणीकरण क्या है?",
+      "options": [
+        "पासवर्ड-आधारित",
+        "भौतिक विशेषताओं (फिंगरप्रिंट, चेहरा, आइरिस) का उपयोग",
+        "टोकन-आधारित",
+        "कार्ड-आधारित"
+      ],
+      "explanation": "बायोमेट्रिक प्रमाणीकरण पहचान सत्यापन के लिए अद्वितीय जैविक लक्षणों का उपयोग करता है।"
+    },
+    "id": "netw-0160"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a digital certificate?",
+      "options": [
+        "A scanned document",
+        "A PDF file",
+        "Electronic document proving ownership of a public key",
+        "A text file"
+      ],
+      "explanation": "Digital certificate binds a public key to an entity (person/organization), verified by a Certificate Authority."
+    },
+    "hi": {
+      "question": "डिजिटल प्रमाणपत्र क्या है?",
+      "options": [
+        "एक स्कैन किया दस्तावेज़",
+        "एक PDF फाइल",
+        "सार्वजनिक कुंजी के स्वामित्व को प्रमाणित करने वाला इलेक्ट्रॉनिक दस्तावेज़",
+        "एक टेक्स्ट फाइल"
+      ],
+      "explanation": "डिजिटल प्रमाणपत्र सार्वजनिक कुंजी को एक इकाई (व्यक्ति/संगठन) से बांधता है, प्रमाणपत्र प्राधिकरण द्वारा सत्यापित।"
+    },
+    "id": "netw-0161"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the purpose of data encryption at rest?",
+      "options": [
+        "Speed up access",
+        "Compress data",
+        "Delete data",
+        "Protect stored data from unauthorized access"
+      ],
+      "explanation": "Encryption at rest secures data on hard drives, databases, backups, and cloud storage."
+    },
+    "hi": {
+      "question": "डेटा एट-रेस्ट एन्क्रिप्शन का उद्देश्य क्या है?",
+      "options": [
+        "पहुंच तेज",
+        "डेटा संपीड़ित",
+        "डेटा हटाना",
+        "संग्रहीत डेटा को अनधिकृत पहुंच से बचाना"
+      ],
+      "explanation": "एट-रेस्ट एन्क्रिप्शन हार्ड ड्राइव, डेटाबेस, बैकअप और क्लाउड स्टोरेज पर डेटा सुरक्षित करता है।"
+    },
+    "id": "netw-0162"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is salting in password security?",
+      "options": [
+        "Adding random data to passwords before hashing",
+        "Encrypting passwords",
+        "Deleting passwords",
+        "Storing passwords in plain text"
+      ],
+      "explanation": "Salting adds unique random data to each password before hashing, preventing rainbow table attacks."
+    },
+    "hi": {
+      "question": "पासवर्ड सुरक्षा में साल्टिंग क्या है?",
+      "options": [
+        "हैशिंग से पहले पासवर्ड में यादृच्छिक डेटा जोड़ना",
+        "पासवर्ड एन्क्रिप्ट",
+        "पासवर्ड हटाना",
+        "पासवर्ड सादे टेक्स्ट में"
+      ],
+      "explanation": "साल्टिंग हैशिंग से पहले प्रत्येक पासवर्ड में अद्वितीय यादृच्छिक डेटा जोड़ती है, रेनबो टेबल हमलों को रोकती है।"
+    },
+    "id": "netw-0163"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is cyber bullying?",
+      "options": [
+        "Online gaming",
+        "Harassment or intimidation using digital platforms",
+        "Software development",
+        "Network security"
+      ],
+      "explanation": "Cyber bullying involves sending threatening/humiliating messages via social media, messaging, or email."
+    },
+    "hi": {
+      "question": "साइबर बुलिंग क्या है?",
+      "options": [
+        "ऑनलाइन गेमिंग",
+        "डिजिटल प्लेटफॉर्म का उपयोग करके उत्पीड़न या धमकी",
+        "सॉफ्टवेयर विकास",
+        "नेटवर्क सुरक्षा"
+      ],
+      "explanation": "साइबर बुलिंग सोशल मीडिया, मैसेजिंग या ईमेल के माध्यम से धमकी/अपमानजनक संदेश भेजना शामिल है।"
+    },
+    "id": "netw-0164"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is IP spoofing?",
+      "options": [
+        "IP configuration",
+        "DNS lookup",
+        "Faking source IP address to impersonate another system",
+        "Network scanning"
+      ],
+      "explanation": "IP spoofing disguises the attacker's IP to appear as a trusted source for unauthorized access."
+    },
+    "hi": {
+      "question": "IP स्पूफिंग क्या है?",
+      "options": [
+        "IP कॉन्फ़िगरेशन",
+        "DNS लुकअप",
+        "दूसरे सिस्टम का रूप धरने के लिए नकली स्रोत IP पता",
+        "नेटवर्क स्कैनिंग"
+      ],
+      "explanation": "IP स्पूफिंग अनधिकृत पहुंच के लिए हमलावर के IP को विश्वसनीय स्रोत के रूप में दिखाने के लिए छिपाती है।"
+    },
+    "id": "netw-0165"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the best practice for public Wi-Fi?",
+      "options": [
+        "Share passwords",
+        "Banking on it",
+        "Download everything",
+        "Use VPN; avoid sensitive transactions"
+      ],
+      "explanation": "Public Wi-Fi is often unsecured. Use VPN and avoid entering passwords or banking details."
+    },
+    "hi": {
+      "question": "सार्वजनिक Wi-Fi के लिए सबसे अच्छा अभ्यास क्या है?",
+      "options": [
+        "पासवर्ड साझा करें",
+        "बैंकिंग करें",
+        "सब कुछ डाउनलोड",
+        "VPN उपयोग करें; संवेदनशील लेन-देन से बचें"
+      ],
+      "explanation": "सार्वजनिक Wi-Fi अक्सर असुरक्षित। VPN उपयोग करें और पासवर्ड या बैंकिंग विवरण दर्ज करने से बचें।"
+    },
+    "id": "netw-0166"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a security token?",
+      "options": [
+        "Physical or digital device generating one-time authentication codes",
+        "A password",
+        "A certificate",
+        "An IP address"
+      ],
+      "explanation": "Hardware/software tokens (RSA SecurID, Google Authenticator) generate time-based OTPs for 2FA."
+    },
+    "hi": {
+      "question": "सुरक्षा टोकन क्या है?",
+      "options": [
+        "एक बार के प्रमाणीकरण कोड उत्पन्न करने वाला भौतिक/डिजिटल उपकरण",
+        "एक पासवर्ड",
+        "एक प्रमाणपत्र",
+        "एक IP पता"
+      ],
+      "explanation": "हार्डवेयर/सॉफ्टवेयर टोकन (RSA SecurID, Google Authenticator) 2FA के लिए समय-आधारित OTP उत्पन्न करते हैं।"
+    },
+    "id": "netw-0167"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the principle of least privilege?",
+      "options": [
+        "Give everyone admin access",
+        "Give users only the minimum access needed",
+        "No access for anyone",
+        "Maximum access always"
+      ],
+      "explanation": "Users and processes should have only the permissions necessary to perform their tasks."
+    },
+    "hi": {
+      "question": "न्यूनतम विशेषाधिकार का सिद्धांत क्या है?",
+      "options": [
+        "सभी को एडमिन एक्सेस",
+        "उपयोगकर्ताओं को केवल न्यूनतम आवश्यक पहुंच",
+        "किसी को पहुंच नहीं",
+        "हमेशा अधिकतम पहुंच"
+      ],
+      "explanation": "उपयोगकर्ताओं और प्रक्रियाओं के पास केवल अपने कार्य करने के लिए आवश्यक अनुमतियां होनी चाहिए।"
+    },
+    "id": "netw-0168"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the most common way ransomware spreads?",
+      "options": [
+        "Bluetooth",
+        "USB only",
+        "Phishing emails with malicious attachments/links",
+        "Wi-Fi signals"
+      ],
+      "explanation": "Ransomware commonly spreads through phishing emails, malicious downloads, and exploit kits."
+    },
+    "hi": {
+      "question": "रैनसमवेयर फैलने का सबसे आम तरीका क्या है?",
+      "options": [
+        "ब्लूटूथ",
+        "केवल USB",
+        "दुर्भावनापूर्ण अटैचमेंट/लिंक वाले फिशिंग ईमेल",
+        "Wi-Fi सिग्नल"
+      ],
+      "explanation": "रैनसमवेयर आमतौर पर फिशिंग ईमेल, दुर्भावनापूर्ण डाउनलोड और एक्सप्लॉइट किट के माध्यम से फैलता है।"
+    },
+    "id": "netw-0169"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is an IDS (Intrusion Detection System)?",
+      "options": [
+        "Firewall",
+        "Antivirus",
+        "VPN",
+        "Monitors network traffic for suspicious activity and alerts"
+      ],
+      "explanation": "IDS detects potential threats. IPS (Intrusion Prevention System) also blocks them automatically."
+    },
+    "hi": {
+      "question": "IDS (इंट्रूज़न डिटेक्शन सिस्टम) क्या है?",
+      "options": [
+        "फायरवॉल",
+        "एंटीवायरस",
+        "VPN",
+        "संदिग्ध गतिविधि के लिए नेटवर्क ट्रैफ़िक की निगरानी और अलर्ट"
+      ],
+      "explanation": "IDS संभावित खतरों का पता लगाता है। IPS (इंट्रूज़न प्रिवेंशन सिस्टम) स्वचालित रूप से ब्लॉक भी करता है।"
+    },
+    "id": "netw-0170"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a security audit?",
+      "options": [
+        "Systematic evaluation of security posture",
+        "A financial audit",
+        "Software development",
+        "Network speed test"
+      ],
+      "explanation": "Security audit assesses systems, policies, and controls to identify vulnerabilities and compliance gaps."
+    },
+    "hi": {
+      "question": "सुरक्षा ऑडिट क्या है?",
+      "options": [
+        "सुरक्षा स्थिति का व्यवस्थित मूल्यांकन",
+        "वित्तीय ऑडिट",
+        "सॉफ्टवेयर विकास",
+        "नेटवर्क गति परीक्षण"
+      ],
+      "explanation": "सुरक्षा ऑडिट भेद्यताओं और अनुपालन अंतराल की पहचान के लिए सिस्टम, नीतियों और नियंत्रणों का आकलन करता है।"
+    },
+    "id": "netw-0171"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does 'https' in a URL indicate?",
+      "options": [
+        "Faster website",
+        "Secure, encrypted connection",
+        "Older website",
+        "No security"
+      ],
+      "explanation": "HTTPS (HTTP over SSL/TLS) encrypts data between browser and server to prevent eavesdropping."
+    },
+    "hi": {
+      "question": "URL में 'https' क्या इंगित करता है?",
+      "options": [
+        "तेज वेबसाइट",
+        "सुरक्षित, एन्क्रिप्टेड कनेक्शन",
+        "पुरानी वेबसाइट",
+        "कोई सुरक्षा नहीं"
+      ],
+      "explanation": "HTTPS (HTTP ओवर SSL/TLS) जासूसी रोकने के लिए ब्राउज़र और सर्वर के बीच डेटा एन्क्रिप्ट करता है।"
+    },
+    "id": "netw-0172"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a rainbow table attack?",
+      "options": [
+        "Brute-force attack",
+        "Man-in-the-middle",
+        "Precomputed hash tables to crack password hashes",
+        "SQL injection"
+      ],
+      "explanation": "Rainbow tables use precomputed hash chains to reverse password hashes. Salting defeats this."
+    },
+    "hi": {
+      "question": "रेनबो टेबल हमला क्या है?",
+      "options": [
+        "ब्रूट-फोर्स हमला",
+        "मैन-इन-द-मिडल",
+        "पासवर्ड हैश क्रैक करने के लिए पूर्व-गणित हैश तालिकाएं",
+        "SQL इंजेक्शन"
+      ],
+      "explanation": "रेनबो टेबल पासवर्ड हैश को उलटने के लिए पूर्व-गणित हैश चेन का उपयोग करती है। साल्टिंग इसे हराती है।"
+    },
+    "id": "netw-0173"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a firewall DMZ?",
+      "options": [
+        "Internal network",
+        "Private zone",
+        "Storage area",
+        "Demilitarized Zone — network segment between internal and external networks"
+      ],
+      "explanation": "DMZ hosts public-facing services (web, mail servers) isolated from the internal trusted network."
+    },
+    "hi": {
+      "question": "फायरवॉल DMZ क्या है?",
+      "options": [
+        "आंतरिक नेटवर्क",
+        "निजी क्षेत्र",
+        "भंडारण क्षेत्र",
+        "डिमिलिटराइज्ड ज़ोन — आंतरिक और बाहरी नेटवर्क के बीच खंड"
+      ],
+      "explanation": "DMZ आंतरिक विश्वसनीय नेटवर्क से पृथक सार्वजनिक-मुखी सेवाओं (वेब, मेल सर्वर) की मेजबानी करता है।"
+    },
+    "id": "netw-0174"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is GDPR?",
+      "options": [
+        "General Data Protection Regulation (EU data privacy law)",
+        "Global Data Privacy Rule",
+        "General Digital Protection Regulation",
+        "Government Data Processing Rule"
+      ],
+      "explanation": "GDPR regulates how organizations collect, process, and store personal data of EU citizens."
+    },
+    "hi": {
+      "question": "GDPR क्या है?",
+      "options": [
+        "जनरल डेटा प्रोटेक्शन रेगुलेशन (EU डेटा गोपनीयता कानून)",
+        "Global Data Privacy Rule",
+        "General Digital Protection Regulation",
+        "Government Data Processing Rule"
+      ],
+      "explanation": "GDPR संगठनों द्वारा EU नागरिकों के व्यक्तिगत डेटा के संग्रह, प्रसंस्करण और भंडारण को नियंत्रित करता है।"
+    },
+    "id": "netw-0175"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a DLP system?",
+      "options": [
+        "A firewall type",
+        "Data Loss Prevention — prevents sensitive data from leaving organization",
+        "Antivirus",
+        "Network monitor"
+      ],
+      "explanation": "DLP monitors and blocks unauthorized transfer of confidential data via email, USB, cloud, etc."
+    },
+    "hi": {
+      "question": "DLP सिस्टम क्या है?",
+      "options": [
+        "एक फायरवॉल प्रकार",
+        "डेटा लॉस प्रिवेंशन — संवेदनशील डेटा को संगठन छोड़ने से रोकता",
+        "एंटीवायरस",
+        "नेटवर्क मॉनिटर"
+      ],
+      "explanation": "DLP ईमेल, USB, क्लाउड आदि के माध्यम से गोपनीय डेटा के अनधिकृत स्थानांतरण की निगरानी और रोकथाम करता है।"
+    },
+    "id": "netw-0176"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a supply chain attack?",
+      "options": [
+        "Physical theft",
+        "Direct hacking",
+        "Compromising a trusted third-party vendor to attack customers",
+        "Email spam"
+      ],
+      "explanation": "Attackers infiltrate through less-secure elements in the supply chain (software updates, hardware components)."
+    },
+    "hi": {
+      "question": "सप्लाई चेन हमला क्या है?",
+      "options": [
+        "भौतिक चोरी",
+        "सीधी हैकिंग",
+        "ग्राहकों पर हमला करने के लिए विश्वसनीय तृतीय-पक्ष विक्रेता से समझौता",
+        "ईमेल स्पैम"
+      ],
+      "explanation": "हमलावर आपूर्ति श्रृंखला (सॉफ्टवेयर अपडेट, हार्डवेयर घटक) के कम सुरक्षित तत्वों के माध्यम से घुसपैठ करते हैं।"
+    },
+    "id": "netw-0177"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a penetration test?",
+      "options": [
+        "Antivirus scan",
+        "Password check",
+        "Software update",
+        "Simulated cyber attack to identify vulnerabilities"
+      ],
+      "explanation": "Pen test evaluates security by safely exploiting vulnerabilities, like a real attacker would."
+    },
+    "hi": {
+      "question": "पेनिट्रेशन टेस्ट क्या है?",
+      "options": [
+        "एंटीवायरस स्कैन",
+        "पासवर्ड जांच",
+        "सॉफ्टवेयर अपडेट",
+        "भेद्यताओं की पहचान के लिए अनुकरणीय साइबर हमला"
+      ],
+      "explanation": "पेन टेस्ट वास्तविक हमलावर की तरह सुरक्षित रूप से भेद्यताओं का शोषण करके सुरक्षा का मूल्यांकन करता है।"
+    },
+    "id": "netw-0178"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is blockchain's role in cyber security?",
+      "options": [
+        "Decentralized, tamper-proof ledger for secure transactions/data",
+        "A type of firewall",
+        "Antivirus replacement",
+        "Password manager"
+      ],
+      "explanation": "Blockchain provides immutable, distributed record-keeping useful for identity management and secure transactions."
+    },
+    "hi": {
+      "question": "साइबर सुरक्षा में ब्लॉकचेन की भूमिका क्या है?",
+      "options": [
+        "सुरक्षित लेन-देन/डेटा के लिए विकेंद्रीकृत, छेड़छाड़-रोधी बहीखाता",
+        "एक प्रकार का फायरवॉल",
+        "एंटीवायरस प्रतिस्थापन",
+        "पासवर्ड मैनेजर"
+      ],
+      "explanation": "ब्लॉकचेन पहचान प्रबंधन और सुरक्षित लेन-देन के लिए उपयोगी अपरिवर्तनीय, वितरित रिकॉर्ड-कीपिंग प्रदान करता है।"
+    },
+    "id": "netw-0179"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a security question used for?",
+      "options": [
+        "Encryption",
+        "Account recovery/identity verification",
+        "Speed test",
+        "Network config"
+      ],
+      "explanation": "Security questions (mother's maiden name, first pet) help verify identity during password reset."
+    },
+    "hi": {
+      "question": "सुरक्षा प्रश्न किसके लिए उपयोग होता है?",
+      "options": [
+        "एन्क्रिप्शन",
+        "खाता पुनर्प्राप्ति/पहचान सत्यापन",
+        "गति परीक्षण",
+        "नेटवर्क कॉन्फ़िगरेशन"
+      ],
+      "explanation": "सुरक्षा प्रश्न (माता का विवाहपूर्व नाम, पहला पालतू) पासवर्ड रीसेट के दौरान पहचान सत्यापित करने में मदद करते हैं।"
+    },
+    "id": "netw-0180"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a watering hole attack?",
+      "options": [
+        "Physical attack",
+        "Password attack",
+        "Compromising websites frequently visited by target group",
+        "Network flooding"
+      ],
+      "explanation": "Attackers infect websites that the target organization's members are known to frequent."
+    },
+    "hi": {
+      "question": "वॉटरिंग होल हमला क्या है?",
+      "options": [
+        "भौतिक हमला",
+        "पासवर्ड हमला",
+        "लक्ष्य समूह द्वारा बार-बार देखी जाने वाली वेबसाइटों से समझौता",
+        "नेटवर्क फ्लडिंग"
+      ],
+      "explanation": "हमलावर उन वेबसाइटों को संक्रमित करते हैं जिन्हें लक्ष्य संगठन के सदस्य अक्सर देखते हैं।"
+    },
+    "id": "netw-0181"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is ransomware-as-a-service (RaaS)?",
+      "options": [
+        "Antivirus product",
+        "Cloud backup",
+        "Legal service",
+        "Criminals selling/renting ransomware kits to others"
+      ],
+      "explanation": "RaaS allows even non-technical criminals to launch ransomware attacks using pre-built tools."
+    },
+    "hi": {
+      "question": "रैनसमवेयर-एज़-ए-सर्विस (RaaS) क्या है?",
+      "options": [
+        "एंटीवायरस उत्पाद",
+        "क्लाउड बैकअप",
+        "कानूनी सेवा",
+        "अपराधी दूसरों को रैनसमवेयर किट बेचना/किराए पर देना"
+      ],
+      "explanation": "RaaS गैर-तकनीकी अपराधियों को भी पूर्व-निर्मित उपकरणों से रैनसमवेयर हमले करने की अनुमति देता है।"
+    },
+    "id": "netw-0182"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What should you do if you see a USB drive lying around?",
+      "options": [
+        "Do not plug it in; could contain malware",
+        "Plug it in immediately",
+        "Share it with friends",
+        "Format it"
+      ],
+      "explanation": "Unknown USB drives may contain malware that auto-executes. Report to security/IT team."
+    },
+    "hi": {
+      "question": "पड़ी हुई USB ड्राइव दिखे तो क्या करें?",
+      "options": [
+        "प्लग न करें; मैलवेयर हो सकता",
+        "तुरंत प्लग करें",
+        "दोस्तों से साझा करें",
+        "फॉर्मेट करें"
+      ],
+      "explanation": "अज्ञात USB ड्राइव में स्वतः-निष्पादित मैलवेयर हो सकता है। सुरक्षा/IT टीम को रिपोर्ट करें।"
+    },
+    "id": "netw-0183"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the purpose of a DMARC record?",
+      "options": [
+        "Web hosting",
+        "Email authentication to prevent spoofing",
+        "DNS configuration",
+        "IP routing"
+      ],
+      "explanation": "DMARC (Domain-based Message Authentication, Reporting & Conformance) prevents email spoofing."
+    },
+    "hi": {
+      "question": "DMARC रिकॉर्ड का उद्देश्य क्या है?",
+      "options": [
+        "वेब होस्टिंग",
+        "स्पूफिंग रोकने के लिए ईमेल प्रमाणीकरण",
+        "DNS कॉन्फ़िगरेशन",
+        "IP रूटिंग"
+      ],
+      "explanation": "DMARC (डोमेन-आधारित संदेश प्रमाणीकरण, रिपोर्टिंग और अनुरूपता) ईमेल स्पूफिंग रोकता है।"
+    },
+    "id": "netw-0184"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a credential stuffing attack?",
+      "options": [
+        "Creating new accounts",
+        "Password reset",
+        "Using leaked username/password pairs on multiple sites",
+        "Brute force"
+      ],
+      "explanation": "Attackers use automated tools to try stolen credentials across many websites, exploiting password reuse."
+    },
+    "hi": {
+      "question": "क्रेडेंशियल स्टफिंग हमला क्या है?",
+      "options": [
+        "नए खाते बनाना",
+        "पासवर्ड रीसेट",
+        "लीक हुए उपयोगकर्ता नाम/पासवर्ड कई साइटों पर उपयोग करना",
+        "ब्रूट फोर्स"
+      ],
+      "explanation": "हमलावर पासवर्ड पुन: उपयोग का शोषण करते हुए कई वेबसाइटों पर चुराए गए क्रेडेंशियल आज़माने के लिए स्वचालित उपकरण।"
+    },
+    "id": "netw-0185"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is cyber hygiene?",
+      "options": [
+        "Network cables",
+        "Physical cleaning",
+        "Software uninstall",
+        "Practices for maintaining system security and health"
+      ],
+      "explanation": "Cyber hygiene includes regular updates, strong passwords, backups, antivirus, and safe browsing."
+    },
+    "hi": {
+      "question": "साइबर हाइजीन क्या है?",
+      "options": [
+        "नेटवर्क केबल",
+        "भौतिक सफाई",
+        "सॉफ्टवेयर अनइंस्टॉल",
+        "सिस्टम सुरक्षा और स्वास्थ्य बनाए रखने के अभ्यास"
+      ],
+      "explanation": "साइबर हाइजीन में नियमित अपडेट, मजबूत पासवर्ड, बैकअप, एंटीवायरस और सुरक्षित ब्राउज़िंग शामिल।"
+    },
+    "id": "netw-0186"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the Indian CERT-In?",
+      "options": [
+        "Indian Computer Emergency Response Team",
+        "Certificate authority",
+        "Cyber police",
+        "IT company"
+      ],
+      "explanation": "CERT-In is India's national agency for responding to cyber security incidents and threats."
+    },
+    "hi": {
+      "question": "भारतीय CERT-In क्या है?",
+      "options": [
+        "भारतीय कंप्यूटर आपातकालीन प्रतिक्रिया टीम",
+        "प्रमाणपत्र प्राधिकरण",
+        "साइबर पुलिस",
+        "IT कंपनी"
+      ],
+      "explanation": "CERT-In साइबर सुरक्षा घटनाओं और खतरों का जवाब देने के लिए भारत की राष्ट्रीय एजेंसी है।"
+    },
+    "id": "netw-0187"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the punishment for cyber terrorism under IT Act 2000?",
+      "options": [
+        "Fine only",
+        "Imprisonment up to life",
+        "Warning only",
+        "Community service"
+      ],
+      "explanation": "Section 66F: Cyber terrorism can lead to imprisonment for life under the IT Act."
+    },
+    "hi": {
+      "question": "IT अधिनियम 2000 के तहत साइबर आतंकवाद की सजा क्या है?",
+      "options": [
+        "केवल जुर्माना",
+        "आजीवन कारावास तक",
+        "केवल चेतावनी",
+        "सामुदायिक सेवा"
+      ],
+      "explanation": "धारा 66F: IT अधिनियम के तहत साइबर आतंकवाद के लिए आजीवन कारावास हो सकता है।"
+    },
+    "id": "netw-0188"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Section 43 of IT Act deals with?",
+      "options": [
+        "Cyber terrorism",
+        "Identity theft",
+        "Unauthorized access and damage to computer systems",
+        "Obscenity"
+      ],
+      "explanation": "Section 43 covers penalty for unauthorized access, downloading, introducing viruses, damaging data."
+    },
+    "hi": {
+      "question": "IT अधिनियम की धारा 43 किससे संबंधित है?",
+      "options": [
+        "साइबर आतंकवाद",
+        "पहचान चोरी",
+        "अनधिकृत पहुंच और कंप्यूटर सिस्टम को नुकसान",
+        "अश्लीलता"
+      ],
+      "explanation": "धारा 43 अनधिकृत पहुंच, डाउनलोडिंग, वायरस डालने, डेटा को नुकसान के लिए दंड को कवर करती है।"
+    },
+    "id": "netw-0189"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the purpose of ISO 27001?",
+      "options": [
+        "Software development",
+        "Quality management",
+        "Environmental standard",
+        "Information security management standard"
+      ],
+      "explanation": "ISO 27001 specifies requirements for establishing, implementing, and maintaining an ISMS."
+    },
+    "hi": {
+      "question": "ISO 27001 का उद्देश्य क्या है?",
+      "options": [
+        "सॉफ्टवेयर विकास",
+        "गुणवत्ता प्रबंधन",
+        "पर्यावरण मानक",
+        "सूचना सुरक्षा प्रबंधन मानक"
+      ],
+      "explanation": "ISO 27001 ISMS स्थापित करने, लागू करने और बनाए रखने की आवश्यकताएं निर्दिष्ट करता है।"
+    },
+    "id": "netw-0190"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the principle of 'need to know'?",
+      "options": [
+        "Access to information only when required for job duties",
+        "Full access for all",
+        "No access",
+        "Public access"
+      ],
+      "explanation": "'Need to know' limits sensitive information access to those who require it for their work."
+    },
+    "hi": {
+      "question": "'नीड टू नो' का सिद्धांत क्या है?",
+      "options": [
+        "केवल कार्य कर्तव्यों के लिए आवश्यकता पर जानकारी तक पहुंच",
+        "सभी के लिए पूर्ण पहुंच",
+        "कोई पहुंच नहीं",
+        "सार्वजनिक पहुंच"
+      ],
+      "explanation": "'नीड टू नो' संवेदनशील जानकारी पहुंच को उन लोगों तक सीमित करता है जिन्हें अपने काम के लिए आवश्यकता है।"
+    },
+    "id": "netw-0191"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a CSRF attack?",
+      "options": [
+        "A virus",
+        "Cross-Site Request Forgery — tricking users into unwanted actions",
+        "Password attack",
+        "Network scan"
+      ],
+      "explanation": "CSRF forces authenticated users to execute unwanted actions on a web application."
+    },
+    "hi": {
+      "question": "CSRF हमला क्या है?",
+      "options": [
+        "एक वायरस",
+        "क्रॉस-साइट रिक्वेस्ट फोर्जरी — उपयोगकर्ताओं को अवांछित कार्रवाइयों में धोखा देना",
+        "पासवर्ड हमला",
+        "नेटवर्क स्कैन"
+      ],
+      "explanation": "CSRF प्रमाणित उपयोगकर्ताओं को वेब एप्लिकेशन पर अवांछित कार्रवाइयां करने के लिए मजबूर करता है।"
+    },
+    "id": "netw-0192"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a sandbox in cyber security?",
+      "options": [
+        "Children's game",
+        "Network tool",
+        "Isolated environment to safely execute suspicious code",
+        "Database"
+      ],
+      "explanation": "Sandbox runs untrusted programs in a restricted environment to prevent harm to the host system."
+    },
+    "hi": {
+      "question": "साइबर सुरक्षा में सैंडबॉक्स क्या है?",
+      "options": [
+        "बच्चों का खेल",
+        "नेटवर्क उपकरण",
+        "संदिग्ध कोड सुरक्षित रूप से निष्पादित करने का पृथक वातावरण",
+        "डेटाबेस"
+      ],
+      "explanation": "सैंडबॉक्स होस्ट सिस्टम को नुकसान रोकने के लिए प्रतिबंधित वातावरण में अविश्वसनीय प्रोग्राम चलाता है।"
+    },
+    "id": "netw-0193"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the difference between vulnerability, threat, and risk?",
+      "options": [
+        "All same",
+        "Vulnerability = threat",
+        "Risk = threat",
+        "Vulnerability: weakness; Threat: potential danger; Risk: likelihood of exploitation"
+      ],
+      "explanation": "Vulnerability is a flaw, threat is what could exploit it, risk is the probability and impact."
+    },
+    "hi": {
+      "question": "भेद्यता, खतरा और जोखिम में क्या अंतर है?",
+      "options": [
+        "सभी समान",
+        "भेद्यता = खतरा",
+        "जोखिम = खतरा",
+        "भेद्यता: कमजोरी; खतरा: संभावित खतरा; जोखिम: शोषण की संभावना"
+      ],
+      "explanation": "भेद्यता एक दोष, खतरा क्या शोषण कर सकता, जोखिम संभावना और प्रभाव।"
+    },
+    "id": "netw-0194"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a software vulnerability?",
+      "options": [
+        "A flaw or weakness that can be exploited",
+        "A feature",
+        "An update",
+        "A user error"
+      ],
+      "explanation": "Vulnerabilities are bugs or design flaws in software that attackers can exploit to compromise systems."
+    },
+    "hi": {
+      "question": "सॉफ्टवेयर भेद्यता क्या है?",
+      "options": [
+        "एक दोष या कमजोरी जिसका शोषण किया जा सकता",
+        "एक सुविधा",
+        "एक अपडेट",
+        "एक उपयोगकर्ता त्रुटि"
+      ],
+      "explanation": "भेद्यताएं सॉफ्टवेयर में बग या डिज़ाइन दोष हैं जिनका हमलावर सिस्टम से समझौता करने के लिए शोषण कर सकते हैं।"
+    },
+    "id": "netw-0195"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is digital forensics?",
+      "options": [
+        "Software development",
+        "Recovery and investigation of digital evidence",
+        "Network setup",
+        "Password management"
+      ],
+      "explanation": "Digital forensics involves collecting, analyzing, and preserving electronic evidence for legal use."
+    },
+    "hi": {
+      "question": "डिजिटल फोरेंसिक्स क्या है?",
+      "options": [
+        "सॉफ्टवेयर विकास",
+        "डिजिटल साक्ष्य की पुनर्प्राप्ति और जांच",
+        "नेटवर्क सेटअप",
+        "पासवर्ड प्रबंधन"
+      ],
+      "explanation": "डिजिटल फोरेंसिक्स में कानूनी उपयोग के लिए इलेक्ट्रॉनिक साक्ष्य एकत्र करना, विश्लेषण और संरक्षित करना शामिल है।"
+    },
+    "id": "netw-0196"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is whaling in cyber security?",
+      "options": [
+        "Fishing attack",
+        "Network attack",
+        "Phishing targeting high-profile executives/senior management",
+        "Malware type"
+      ],
+      "explanation": "Whaling is a spear-phishing attack specifically targeting C-level executives (CEO, CFO, etc.)."
+    },
+    "hi": {
+      "question": "साइबर सुरक्षा में व्हेलिंग क्या है?",
+      "options": [
+        "फिशिंग हमला",
+        "नेटवर्क हमला",
+        "उच्च-प्रोफ़ाइल अधिकारियों/वरिष्ठ प्रबंधन को लक्षित फिशिंग",
+        "मैलवेयर प्रकार"
+      ],
+      "explanation": "व्हेलिंग विशेष रूप से C-स्तरीय अधिकारियों (CEO, CFO) को लक्षित करने वाला स्पीयर-फिशिंग हमला है।"
+    },
+    "id": "netw-0197"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the best defense against ransomware?",
+      "options": [
+        "Paying the ransom",
+        "Ignoring it",
+        "Using only antivirus",
+        "Regular backups + security awareness + updated software"
+      ],
+      "explanation": "Regular offline backups are critical. Updated software patches vulnerabilities. User awareness prevents phishing."
+    },
+    "hi": {
+      "question": "रैनसमवेयर के खिलाफ सबसे अच्छा बचाव क्या है?",
+      "options": [
+        "फिरौती देना",
+        "अनदेखा करना",
+        "केवल एंटीवायरस",
+        "नियमित बैकअप + सुरक्षा जागरूकता + अपडेटेड सॉफ्टवेयर"
+      ],
+      "explanation": "नियमित ऑफलाइन बैकअप महत्वपूर्ण। अपडेटेड सॉफ्टवेयर भेद्यताओं को पैच करता है। उपयोगकर्ता जागरूकता फिशिंग रोकती है।"
+    },
+    "id": "netw-0198"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is OWASP Top 10?",
+      "options": [
+        "List of most critical web application security risks",
+        "Antivirus list",
+        "Network tools list",
+        "Password list"
+      ],
+      "explanation": "OWASP Top 10 lists critical web app vulnerabilities like injection, broken auth, XSS, etc."
+    },
+    "hi": {
+      "question": "OWASP टॉप 10 क्या है?",
+      "options": [
+        "सबसे महत्वपूर्ण वेब एप्लिकेशन सुरक्षा जोखिमों की सूची",
+        "एंटीवायरस सूची",
+        "नेटवर्क उपकरण सूची",
+        "पासवर्ड सूची"
+      ],
+      "explanation": "OWASP टॉप 10 इंजेक्शन, टूटा प्रमाणीकरण, XSS जैसी महत्वपूर्ण वेब ऐप भेद्यताएं सूचीबद्ध करता है।"
+    },
+    "id": "netw-0199"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the significance of Data Protection Bill in India?",
+      "options": [
+        "Tax regulation",
+        "Protecting personal data and privacy rights of citizens",
+        "Internet speed regulation",
+        "Software licensing"
+      ],
+      "explanation": "India's Digital Personal Data Protection Act (DPDP) 2023 regulates processing of personal data."
+    },
+    "hi": {
+      "question": "भारत में डेटा सुरक्षा विधेयक का महत्व क्या है?",
+      "options": [
+        "कर विनियमन",
+        "नागरिकों के व्यक्तिगत डेटा और गोपनीयता अधिकारों की रक्षा",
+        "इंटरनेट गति विनियमन",
+        "सॉफ्टवेयर लाइसेंसिंग"
+      ],
+      "explanation": "भारत का डिजिटल व्यक्तिगत डेटा संरक्षण अधिनियम (DPDP) 2023 व्यक्तिगत डेटा के प्रसंस्करण को नियंत्रित करता है।"
+    },
+    "id": "netw-0200"
+  }
+]

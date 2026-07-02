@@ -1,0 +1,5202 @@
+[
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which is an open-source OS?",
+      "options": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "iOS"
+      ],
+      "explanation": "Linux is open-source (free). Windows and macOS are proprietary."
+    },
+    "hi": {
+      "question": "ओपन-सोर्स OS कौन सा?",
+      "options": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "iOS"
+      ],
+      "explanation": "लिनक्स मुफ्त/ओपन-सोर्स। विंडोज और macOS स्वामित्व।"
+    },
+    "id": "soft-0001"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "File management is function of?",
+      "options": [
+        "RAM",
+        "Operating System",
+        "Browser",
+        "CPU"
+      ],
+      "explanation": "OS manages files, processes, memory, devices, and user interface."
+    },
+    "hi": {
+      "question": "फाइल प्रबंधन किसका कार्य?",
+      "options": [
+        "RAM",
+        "Operating System",
+        "Browser",
+        "CPU"
+      ],
+      "explanation": "OS फाइल, प्रक्रिया, मेमोरी, डिवाइस और UI प्रबंधित करता है।"
+    },
+    "id": "soft-0002"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which of the following is NOT an operating system?",
+      "options": [
+        "Windows",
+        "Linux",
+        "Microsoft Office",
+        "macOS"
+      ],
+      "explanation": "Microsoft Office is application software, not an OS. Windows, Linux, macOS are operating systems."
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन ऑपरेटिंग सिस्टम नहीं है?",
+      "options": [
+        "Windows",
+        "Linux",
+        "Microsoft Office",
+        "macOS"
+      ],
+      "explanation": "Microsoft Office एप्लिकेशन सॉफ्टवेयर है, OS नहीं। Windows, Linux, macOS ऑपरेटिंग सिस्टम हैं।"
+    },
+    "id": "soft-0003"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which type of OS processes data in batches without user interaction?",
+      "options": [
+        "Real-time OS",
+        "Time-sharing OS",
+        "Distributed OS",
+        "Batch OS"
+      ],
+      "explanation": "Batch OS processes jobs in groups without direct user interaction during execution."
+    },
+    "hi": {
+      "question": "उपयोगकर्ता संपर्क के बिना बैचों में डेटा प्रोसेस करने वाला OS कौन सा है?",
+      "options": [
+        "रीयल-टाइम OS",
+        "टाइम-शेयरिंग OS",
+        "डिस्ट्रीब्यूटेड OS",
+        "बैच OS"
+      ],
+      "explanation": "बैच OS निष्पादन के दौरान सीधे उपयोगकर्ता संपर्क के बिना समूहों में कार्य प्रोसेस करता है।"
+    },
+    "id": "soft-0004"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Time-sharing OS allows?",
+      "options": [
+        "Multiple users to share computer resources simultaneously",
+        "Only batch processing",
+        "No user interaction",
+        "Single task only"
+      ],
+      "explanation": "Time-sharing (multitasking) OS rapidly switches between users/tasks, giving the illusion of simultaneous execution."
+    },
+    "hi": {
+      "question": "टाइम-शेयरिंग OS क्या अनुमति देता है?",
+      "options": [
+        "कई उपयोगकर्ता एक साथ कंप्यूटर संसाधन साझा करें",
+        "केवल बैच प्रोसेसिंग",
+        "कोई उपयोगकर्ता संपर्क नहीं",
+        "केवल एकल कार्य"
+      ],
+      "explanation": "टाइम-शेयरिंग (मल्टीटास्किंग) OS तेजी से उपयोगकर्ताओं/कार्यों के बीच स्विच करता है, एक साथ निष्पादन का भ्रम देता है।"
+    },
+    "id": "soft-0005"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Real-time OS is used in?",
+      "options": [
+        "Office computers",
+        "Air traffic control, medical systems",
+        "Gaming PCs",
+        "Home desktops"
+      ],
+      "explanation": "RTOS guarantees response within strict time constraints. Used in embedded systems, robotics, and mission-critical applications."
+    },
+    "hi": {
+      "question": "रीयल-टाइम OS कहाँ उपयोग होता है?",
+      "options": [
+        "कार्यालय कंप्यूटर",
+        "हवाई यातायात नियंत्रण, चिकित्सा प्रणाली",
+        "गेमिंग PC",
+        "घरेलू डेस्कटॉप"
+      ],
+      "explanation": "RTOS सख्त समय सीमा के भीतर प्रतिक्रिया की गारंटी देता है। एम्बेडेड सिस्टम, रोबोटिक्स और मिशन-क्रिटिकल अनुप्रयोगों में।"
+    },
+    "id": "soft-0006"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Distributed OS runs on?",
+      "options": [
+        "Single computer only",
+        "Smartphones only",
+        "Multiple connected computers as one system",
+        "Embedded devices only"
+      ],
+      "explanation": "Distributed OS manages a group of independent computers and makes them appear as a single computer."
+    },
+    "hi": {
+      "question": "डिस्ट्रीब्यूटेड OS किस पर चलता है?",
+      "options": [
+        "केवल एकल कंप्यूटर",
+        "केवल स्मार्टफोन",
+        "एक प्रणाली के रूप में कई जुड़े कंप्यूटर",
+        "केवल एम्बेडेड उपकरण"
+      ],
+      "explanation": "डिस्ट्रीब्यूटेड OS स्वतंत्र कंप्यूटरों के समूह का प्रबंधन करता है और उन्हें एक कंप्यूटर के रूप में दिखाता है।"
+    },
+    "id": "soft-0007"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which is the latest Windows version as of 2025?",
+      "options": [
+        "Windows 7",
+        "Windows 8",
+        "Windows 10",
+        "Windows 11"
+      ],
+      "explanation": "Windows 11 was released in 2021 and is the current version. Windows 10 support ends in 2025."
+    },
+    "hi": {
+      "question": "2025 तक नवीनतम Windows संस्करण कौन सा है?",
+      "options": [
+        "Windows 7",
+        "Windows 8",
+        "Windows 10",
+        "Windows 11"
+      ],
+      "explanation": "Windows 11 2021 में जारी किया गया था और वर्तमान संस्करण है। Windows 10 समर्थन 2025 में समाप्त।"
+    },
+    "id": "soft-0008"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ubuntu is a distribution of?",
+      "options": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "Android"
+      ],
+      "explanation": "Ubuntu is one of the most popular Linux distributions, developed by Canonical."
+    },
+    "hi": {
+      "question": "Ubuntu किसका वितरण है?",
+      "options": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "Android"
+      ],
+      "explanation": "Ubuntu सबसे लोकप्रिय Linux वितरणों में से एक है, Canonical द्वारा विकसित।"
+    },
+    "id": "soft-0009"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which Linux distribution uses .rpm packages?",
+      "options": [
+        "Ubuntu",
+        "Red Hat / Fedora",
+        "Debian",
+        "Linux Mint"
+      ],
+      "explanation": "Red Hat, Fedora, CentOS use RPM packages. Ubuntu/Debian use .deb packages."
+    },
+    "hi": {
+      "question": ".rpm पैकेज का उपयोग कौन सा Linux वितरण करता है?",
+      "options": [
+        "Ubuntu",
+        "Red Hat / Fedora",
+        "Debian",
+        "Linux Mint"
+      ],
+      "explanation": "Red Hat, Fedora, CentOS RPM पैकेज का उपयोग करते हैं। Ubuntu/Debian .deb पैकेज।"
+    },
+    "id": "soft-0010"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which MS-DOS command lists files and directories?",
+      "options": [
+        "cd",
+        "cls",
+        "dir",
+        "copy"
+      ],
+      "explanation": "dir command lists files and folders in the current directory. Equivalent to ls in Linux."
+    },
+    "hi": {
+      "question": "फाइलें और निर्देशिकाएं सूचीबद्ध करने वाला MS-DOS कमांड कौन सा है?",
+      "options": [
+        "cd",
+        "cls",
+        "dir",
+        "copy"
+      ],
+      "explanation": "dir कमांड वर्तमान निर्देशिका में फाइलें और फोल्डर सूचीबद्ध करता है। Linux में ls के समतुल्य।"
+    },
+    "id": "soft-0011"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which command creates a new directory in MS-DOS?",
+      "options": [
+        "cd",
+        "rmdir",
+        "dir",
+        "md or mkdir"
+      ],
+      "explanation": "md (make directory) or mkdir creates a new folder. rmdir removes an empty directory."
+    },
+    "hi": {
+      "question": "MS-DOS में नई निर्देशिका बनाने के लिए कौन सा कमांड है?",
+      "options": [
+        "cd",
+        "rmdir",
+        "dir",
+        "md या mkdir"
+      ],
+      "explanation": "md (मेक डायरेक्टरी) या mkdir नया फोल्डर बनाता है। rmdir खाली निर्देशिका हटाता है।"
+    },
+    "id": "soft-0012"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Command to clear screen in MS-DOS?",
+      "options": [
+        "cls",
+        "clear",
+        "clean",
+        "clr"
+      ],
+      "explanation": "cls clears the command prompt screen. In Linux, 'clear' is used."
+    },
+    "hi": {
+      "question": "MS-DOS में स्क्रीन साफ करने का कमांड?",
+      "options": [
+        "cls",
+        "clear",
+        "clean",
+        "clr"
+      ],
+      "explanation": "cls कमांड प्रॉम्प्ट स्क्रीन साफ करता है। Linux में 'clear' उपयोग होता है।"
+    },
+    "id": "soft-0013"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which file system does Windows primarily use?",
+      "options": [
+        "ext4",
+        "NTFS",
+        "FAT32",
+        "HFS+"
+      ],
+      "explanation": "NTFS (New Technology File System) is the default file system for modern Windows OS."
+    },
+    "hi": {
+      "question": "Windows मुख्य रूप से कौन सा फाइल सिस्टम उपयोग करता है?",
+      "options": [
+        "ext4",
+        "NTFS",
+        "FAT32",
+        "HFS+"
+      ],
+      "explanation": "NTFS (न्यू टेक्नोलॉजी फाइल सिस्टम) आधुनिक Windows OS के लिए डिफ़ॉल्ट फाइल सिस्टम है।"
+    },
+    "id": "soft-0014"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Linux typically uses which file system?",
+      "options": [
+        "NTFS",
+        "FAT32",
+        "ext4",
+        "APFS"
+      ],
+      "explanation": "ext4 (Fourth Extended File System) is the default for most Linux distributions."
+    },
+    "hi": {
+      "question": "Linux आमतौर पर कौन सा फाइल सिस्टम उपयोग करता है?",
+      "options": [
+        "NTFS",
+        "FAT32",
+        "ext4",
+        "APFS"
+      ],
+      "explanation": "ext4 (फोर्थ एक्सटेंडेड फाइल सिस्टम) अधिकांश Linux वितरणों के लिए डिफ़ॉल्ट है।"
+    },
+    "id": "soft-0015"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "FAT32 maximum file size is?",
+      "options": [
+        "No limit",
+        "1 TB",
+        "16 GB",
+        "4 GB"
+      ],
+      "explanation": "FAT32 limits individual file size to 4 GB. NTFS supports much larger files."
+    },
+    "hi": {
+      "question": "FAT32 की अधिकतम फाइल आकार सीमा कितनी है?",
+      "options": [
+        "कोई सीमा नहीं",
+        "1 TB",
+        "16 GB",
+        "4 GB"
+      ],
+      "explanation": "FAT32 व्यक्तिगत फाइल आकार को 4 GB तक सीमित करता है। NTFS बहुत बड़ी फाइलों का समर्थन करता है।"
+    },
+    "id": "soft-0016"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the kernel of an OS?",
+      "options": [
+        "Core component managing hardware and system resources",
+        "User interface",
+        "File manager",
+        "Web browser"
+      ],
+      "explanation": "Kernel is the heart of the OS, managing CPU, memory, I/O, and providing services to applications."
+    },
+    "hi": {
+      "question": "OS का कर्नेल क्या है?",
+      "options": [
+        "हार्डवेयर और सिस्टम संसाधनों का प्रबंधन करने वाला मुख्य घटक",
+        "उपयोगकर्ता इंटरफेस",
+        "फाइल प्रबंधक",
+        "वेब ब्राउज़र"
+      ],
+      "explanation": "कर्नेल OS का दिल है, CPU, मेमोरी, I/O का प्रबंधन और अनुप्रयोगों को सेवाएं प्रदान करता है।"
+    },
+    "id": "soft-0017"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Process management includes?",
+      "options": [
+        "Only printing",
+        "Creating, scheduling, and terminating processes",
+        "Only file handling",
+        "Only memory cleanup"
+      ],
+      "explanation": "OS manages process lifecycle: creation, scheduling (CPU allocation), synchronization, and termination."
+    },
+    "hi": {
+      "question": "प्रक्रिया प्रबंधन में क्या शामिल है?",
+      "options": [
+        "केवल प्रिंटिंग",
+        "प्रक्रियाएं बनाना, शेड्यूल करना और समाप्त करना",
+        "केवल फाइल हैंडलिंग",
+        "केवल मेमोरी सफाई"
+      ],
+      "explanation": "OS प्रक्रिया जीवनचक्र प्रबंधित करता है: निर्माण, शेड्यूलिंग (CPU आवंटन), सिंक्रनाइज़ेशन और समाप्ति।"
+    },
+    "id": "soft-0018"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Virtual memory allows?",
+      "options": [
+        "Faster CPU",
+        "More USB ports",
+        "Running programs larger than physical RAM",
+        "Better graphics"
+      ],
+      "explanation": "Virtual memory uses disk space as extension of RAM, allowing execution of programs larger than physical memory."
+    },
+    "hi": {
+      "question": "वर्चुअल मेमोरी क्या अनुमति देती है?",
+      "options": [
+        "तेज CPU",
+        "अधिक USB पोर्ट",
+        "भौतिक RAM से बड़े प्रोग्राम चलाना",
+        "बेहतर ग्राफिक्स"
+      ],
+      "explanation": "वर्चुअल मेमोरी RAM के विस्तार के रूप में डिस्क स्थान का उपयोग करती है, भौतिक मेमोरी से बड़े प्रोग्राम चलाने की अनुमति।"
+    },
+    "id": "soft-0019"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Booting is the process of?",
+      "options": [
+        "Installing software",
+        "Saving files",
+        "Printing documents",
+        "Starting/loading the operating system"
+      ],
+      "explanation": "Booting loads the OS from storage into RAM and initializes hardware components."
+    },
+    "hi": {
+      "question": "बूटिंग किसकी प्रक्रिया है?",
+      "options": [
+        "सॉफ्टवेयर इंस्टॉल करना",
+        "फाइलें सहेजना",
+        "दस्तावेज़ प्रिंट करना",
+        "ऑपरेटिंग सिस्टम शुरू/लोड करना"
+      ],
+      "explanation": "बूटिंग स्टोरेज से OS को RAM में लोड करता है और हार्डवेयर घटकों को आरंभ करता है।"
+    },
+    "id": "soft-0020"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Cold boot vs Warm boot?",
+      "options": [
+        "Cold boot: start from power-off; Warm boot: restart without power-off",
+        "Both are same",
+        "Cold boot is slower software",
+        "Warm boot requires CD"
+      ],
+      "explanation": "Cold boot: power on from off state (POST runs). Warm boot: Ctrl+Alt+Del restart (POST may skip)."
+    },
+    "hi": {
+      "question": "कोल्ड बूट बनाम वार्म बूट?",
+      "options": [
+        "कोल्ड बूट: बिजली बंद से शुरू; वार्म बूट: बिना बिजली बंद पुनरारंभ",
+        "दोनों समान",
+        "कोल्ड बूट धीमा सॉफ्टवेयर",
+        "वार्म बूट के लिए CD आवश्यक"
+      ],
+      "explanation": "कोल्ड बूट: बंद स्थिति से चालू (POST चलता है)। वार्म बूट: Ctrl+Alt+Del पुनरारंभ (POST छूट सकता है)।"
+    },
+    "id": "soft-0021"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Task Manager in Windows is used to?",
+      "options": [
+        "Browse internet",
+        "View and manage running processes/performance",
+        "Edit documents",
+        "Install software"
+      ],
+      "explanation": "Task Manager (Ctrl+Shift+Esc) shows running apps, processes, CPU/memory usage, and allows ending tasks."
+    },
+    "hi": {
+      "question": "Windows में टास्क मैनेजर किसके लिए उपयोग होता है?",
+      "options": [
+        "इंटरनेट ब्राउज़ करना",
+        "चल रही प्रक्रियाएं/प्रदर्शन देखना और प्रबंधित करना",
+        "दस्तावेज़ संपादित करना",
+        "सॉफ्टवेयर इंस्टॉल करना"
+      ],
+      "explanation": "टास्क मैनेजर (Ctrl+Shift+Esc) चल रहे ऐप्स, प्रक्रियाएं, CPU/मेमोरी उपयोग दिखाता है और कार्य समाप्त करने की अनुमति देता है।"
+    },
+    "id": "soft-0022"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Control Panel in Windows is used for?",
+      "options": [
+        "Gaming",
+        "Coding",
+        "System settings and configuration",
+        "Web browsing"
+      ],
+      "explanation": "Control Panel allows users to change system settings: display, sound, network, programs, and devices."
+    },
+    "hi": {
+      "question": "Windows में कंट्रोल पैनल किसके लिए उपयोग होता है?",
+      "options": [
+        "गेमिंग",
+        "कोडिंग",
+        "सिस्टम सेटिंग्स और कॉन्फ़िगरेशन",
+        "वेब ब्राउज़िंग"
+      ],
+      "explanation": "कंट्रोल पैनल उपयोगकर्ताओं को सिस्टम सेटिंग्स बदलने देता है: डिस्प्ले, ध्वनि, नेटवर्क, प्रोग्राम और डिवाइस।"
+    },
+    "id": "soft-0023"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Android is based on which kernel?",
+      "options": [
+        "Windows NT",
+        "Darwin",
+        "FreeBSD",
+        "Linux"
+      ],
+      "explanation": "Android OS is built on the Linux kernel. iOS is based on Darwin/XNU kernel."
+    },
+    "hi": {
+      "question": "Android किस कर्नेल पर आधारित है?",
+      "options": [
+        "Windows NT",
+        "Darwin",
+        "FreeBSD",
+        "Linux"
+      ],
+      "explanation": "Android OS Linux कर्नेल पर बनाया गया है। iOS Darwin/XNU कर्नेल पर आधारित है।"
+    },
+    "id": "soft-0024"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "iOS is developed by?",
+      "options": [
+        "Apple",
+        "Google",
+        "Microsoft",
+        "IBM"
+      ],
+      "explanation": "iOS is Apple's mobile operating system for iPhone and iPad. Android is by Google."
+    },
+    "hi": {
+      "question": "iOS किसके द्वारा विकसित है?",
+      "options": [
+        "Apple",
+        "Google",
+        "Microsoft",
+        "IBM"
+      ],
+      "explanation": "iOS Apple का iPhone और iPad के लिए मोबाइल ऑपरेटिंग सिस्टम है। Android Google द्वारा।"
+    },
+    "id": "soft-0025"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a shell in OS?",
+      "options": [
+        "Hardware component",
+        "Command-line interface between user and kernel",
+        "A type of RAM",
+        "File system"
+      ],
+      "explanation": "Shell is a program that interprets user commands and passes them to the kernel. Examples: bash, PowerShell, cmd."
+    },
+    "hi": {
+      "question": "OS में शेल क्या है?",
+      "options": [
+        "हार्डवेयर घटक",
+        "उपयोगकर्ता और कर्नेल के बीच कमांड-लाइन इंटरफेस",
+        "एक प्रकार की RAM",
+        "फाइल सिस्टम"
+      ],
+      "explanation": "शेल एक प्रोग्राम है जो उपयोगकर्ता कमांड की व्याख्या करता है और कर्नेल को भेजता है। उदाहरण: bash, PowerShell, cmd।"
+    },
+    "id": "soft-0026"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a deadlock in OS?",
+      "options": [
+        "System crash",
+        "Slow performance",
+        "Two or more processes waiting indefinitely for each other's resources",
+        "Memory leak"
+      ],
+      "explanation": "Deadlock occurs when processes hold resources and wait for others, creating a circular wait with no progress."
+    },
+    "hi": {
+      "question": "OS में डेडलॉक क्या है?",
+      "options": [
+        "सिस्टम क्रैश",
+        "धीमा प्रदर्शन",
+        "दो या अधिक प्रक्रियाएं एक-दूसरे के संसाधनों की अनिश्चित प्रतीक्षा",
+        "मेमोरी लीक"
+      ],
+      "explanation": "डेडलॉक तब होता है जब प्रक्रियाएं संसाधन रखती हैं और दूसरों की प्रतीक्षा करती हैं, बिना प्रगति के गोलाकार प्रतीक्षा।"
+    },
+    "id": "soft-0027"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Paging is a?",
+      "options": [
+        "Printing method",
+        "File format",
+        "Network protocol",
+        "Memory management scheme"
+      ],
+      "explanation": "Paging divides memory into fixed-size pages, allowing non-contiguous allocation and virtual memory."
+    },
+    "hi": {
+      "question": "पेजिंग क्या है?",
+      "options": [
+        "प्रिंटिंग विधि",
+        "फाइल प्रारूप",
+        "नेटवर्क प्रोटोकॉल",
+        "मेमोरी प्रबंधन योजना"
+      ],
+      "explanation": "पेजिंग मेमोरी को निश्चित आकार के पृष्ठों में विभाजित करती है, असंलग्न आवंटन और वर्चुअल मेमोरी की अनुमति।"
+    },
+    "id": "soft-0028"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is thrashing in OS?",
+      "options": [
+        "Excessive paging causing severe performance degradation",
+        "Fast processing",
+        "Data recovery",
+        "System backup"
+      ],
+      "explanation": "Thrashing: OS spends more time swapping pages than executing processes, severely slowing the system."
+    },
+    "hi": {
+      "question": "OS में थ्रैशिंग क्या है?",
+      "options": [
+        "अत्यधिक पेजिंग से गंभीर प्रदर्शन गिरावट",
+        "तेज प्रसंस्करण",
+        "डेटा रिकवरी",
+        "सिस्टम बैकअप"
+      ],
+      "explanation": "थ्रैशिंग: OS प्रक्रियाएं निष्पादित करने से अधिक समय पृष्ठ स्वैप करने में बिताता है, सिस्टम को गंभीर रूप से धीमा करता है।"
+    },
+    "id": "soft-0029"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does defragmentation do?",
+      "options": [
+        "Deletes files",
+        "Reorganizes fragmented files for faster access",
+        "Formats disk",
+        "Installs OS"
+      ],
+      "explanation": "Defragmentation rearranges file fragments to be contiguous, improving HDD read performance. Not needed for SSDs."
+    },
+    "hi": {
+      "question": "डीफ़्रैग्मेंटेशन क्या करता है?",
+      "options": [
+        "फाइलें हटाता है",
+        "तेज पहुंच के लिए खंडित फाइलों को पुनर्व्यवस्थित करता है",
+        "डिस्क फॉर्मेट करता है",
+        "OS इंस्टॉल करता है"
+      ],
+      "explanation": "डीफ़्रैग्मेंटेशन फाइल खंडों को सन्निकट बनाने के लिए पुनर्व्यवस्थित करता है, HDD पढ़ने के प्रदर्शन में सुधार। SSD के लिए आवश्यक नहीं।"
+    },
+    "id": "soft-0030"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which shortcut opens Task Manager?",
+      "options": [
+        "Ctrl+Alt+Del",
+        "Alt+F4",
+        "Ctrl+Shift+Esc",
+        "Win+R"
+      ],
+      "explanation": "Ctrl+Shift+Esc directly opens Task Manager. Ctrl+Alt+Del shows a menu with Task Manager option."
+    },
+    "hi": {
+      "question": "टास्क मैनेजर खोलने का शॉर्टकट क्या है?",
+      "options": [
+        "Ctrl+Alt+Del",
+        "Alt+F4",
+        "Ctrl+Shift+Esc",
+        "Win+R"
+      ],
+      "explanation": "Ctrl+Shift+Esc सीधे टास्क मैनेजर खोलता है। Ctrl+Alt+Del टास्क मैनेजर विकल्प के साथ मेनू दिखाता है।"
+    },
+    "id": "soft-0031"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Linux command to list files?",
+      "options": [
+        "dir",
+        "show",
+        "list",
+        "ls"
+      ],
+      "explanation": "ls lists files and directories in Linux. ls -l shows detailed info. ls -a shows hidden files."
+    },
+    "hi": {
+      "question": "फाइलें सूचीबद्ध करने का Linux कमांड?",
+      "options": [
+        "dir",
+        "show",
+        "list",
+        "ls"
+      ],
+      "explanation": "ls Linux में फाइलें और निर्देशिकाएं सूचीबद्ध करता है। ls -l विस्तृत जानकारी। ls -a छिपी फाइलें।"
+    },
+    "id": "soft-0032"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Linux command to change directory?",
+      "options": [
+        "cd",
+        "mv",
+        "dir",
+        "chdir"
+      ],
+      "explanation": "cd (change directory) navigates between folders. cd .. goes to parent directory."
+    },
+    "hi": {
+      "question": "निर्देशिका बदलने का Linux कमांड?",
+      "options": [
+        "cd",
+        "mv",
+        "dir",
+        "chdir"
+      ],
+      "explanation": "cd (चेंज डायरेक्टरी) फोल्डरों के बीच नेविगेट करता है। cd .. मूल निर्देशिका में जाता है।"
+    },
+    "id": "soft-0033"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Linux command to create a directory?",
+      "options": [
+        "mkd",
+        "mkdir",
+        "md",
+        "newdir"
+      ],
+      "explanation": "mkdir creates a new directory. rm removes files. rmdir removes empty directories."
+    },
+    "hi": {
+      "question": "निर्देशिका बनाने का Linux कमांड?",
+      "options": [
+        "mkd",
+        "mkdir",
+        "md",
+        "newdir"
+      ],
+      "explanation": "mkdir नई निर्देशिका बनाता है। rm फाइलें हटाता है। rmdir खाली निर्देशिकाएं हटाता है।"
+    },
+    "id": "soft-0034"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does 'sudo' mean in Linux?",
+      "options": [
+        "System update",
+        "Super disk operation",
+        "Superuser Do — execute command as root/admin",
+        "Shutdown utility"
+      ],
+      "explanation": "sudo allows permitted users to execute commands with superuser (root) privileges."
+    },
+    "hi": {
+      "question": "Linux में 'sudo' का क्या अर्थ है?",
+      "options": [
+        "सिस्टम अपडेट",
+        "सुपर डिस्क ऑपरेशन",
+        "Superuser Do — रूट/एडमिन के रूप में कमांड निष्पादित करें",
+        "शटडाउन उपयोगिता"
+      ],
+      "explanation": "sudo अनुमत उपयोगकर्ताओं को सुपरयूजर (रूट) विशेषाधिकारों के साथ कमांड निष्पादित करने की अनुमति देता है।"
+    },
+    "id": "soft-0035"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a GUI?",
+      "options": [
+        "General User Input",
+        "Graphics Unit Interface",
+        "Global Utility Interface",
+        "Graphical User Interface"
+      ],
+      "explanation": "GUI uses windows, icons, menus, and pointers for user interaction (Windows, macOS, GNOME)."
+    },
+    "hi": {
+      "question": "GUI क्या है?",
+      "options": [
+        "General User Input",
+        "Graphics Unit Interface",
+        "Global Utility Interface",
+        "Graphical User Interface"
+      ],
+      "explanation": "GUI उपयोगकर्ता संपर्क के लिए विंडो, आइकन, मेनू और पॉइंटर का उपयोग करता है (Windows, macOS, GNOME)।"
+    },
+    "id": "soft-0036"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is CLI?",
+      "options": [
+        "Command Line Interface",
+        "Computer Language Interface",
+        "Core Logic Integration",
+        "Central Line Input"
+      ],
+      "explanation": "CLI (command line) uses text commands to interact with the OS. Examples: bash, PowerShell, Command Prompt."
+    },
+    "hi": {
+      "question": "CLI क्या है?",
+      "options": [
+        "Command Line Interface",
+        "Computer Language Interface",
+        "Core Logic Integration",
+        "Central Line Input"
+      ],
+      "explanation": "CLI (कमांड लाइन) OS से बातचीत करने के लिए टेक्स्ट कमांड का उपयोग करता है। उदाहरण: bash, PowerShell, कमांड प्रॉम्प्ट।"
+    },
+    "id": "soft-0037"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does the 'chmod' command do in Linux?",
+      "options": [
+        "Change username",
+        "Change file permissions",
+        "Change directory",
+        "Change password"
+      ],
+      "explanation": "chmod modifies read (r), write (w), and execute (x) permissions for files and directories."
+    },
+    "hi": {
+      "question": "Linux में 'chmod' कमांड क्या करता है?",
+      "options": [
+        "उपयोगकर्ता नाम बदलना",
+        "फाइल अनुमतियां बदलना",
+        "निर्देशिका बदलना",
+        "पासवर्ड बदलना"
+      ],
+      "explanation": "chmod फाइलों और निर्देशिकाओं के लिए पढ़ने (r), लिखने (w) और निष्पादित (x) अनुमतियां संशोधित करता है।"
+    },
+    "id": "soft-0038"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the Android app store called?",
+      "options": [
+        "App Store",
+        "Windows Store",
+        "Google Play Store",
+        "Android Market"
+      ],
+      "explanation": "Google Play Store is the official app marketplace for Android devices."
+    },
+    "hi": {
+      "question": "Android ऐप स्टोर को क्या कहा जाता है?",
+      "options": [
+        "App Store",
+        "Windows Store",
+        "Google Play Store",
+        "Android Market"
+      ],
+      "explanation": "Google Play Store Android उपकरणों के लिए आधिकारिक ऐप बाज़ार है।"
+    },
+    "id": "soft-0039"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the iOS app store called?",
+      "options": [
+        "Play Store",
+        "iOS Market",
+        "iTunes",
+        "App Store"
+      ],
+      "explanation": "Apple App Store is the official marketplace for iOS applications."
+    },
+    "hi": {
+      "question": "iOS ऐप स्टोर को क्या कहा जाता है?",
+      "options": [
+        "Play Store",
+        "iOS Market",
+        "iTunes",
+        "App Store"
+      ],
+      "explanation": "Apple App Store iOS अनुप्रयोगों के लिए आधिकारिक बाज़ार है।"
+    },
+    "id": "soft-0040"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a driver in an OS?",
+      "options": [
+        "Software that allows OS to communicate with hardware",
+        "A type of virus",
+        "A file manager",
+        "A web browser"
+      ],
+      "explanation": "Device drivers translate OS commands into hardware-specific instructions for printers, graphics cards, etc."
+    },
+    "hi": {
+      "question": "OS में ड्राइवर क्या है?",
+      "options": [
+        "सॉफ्टवेयर जो OS को हार्डवेयर से संचार करने देता है",
+        "एक प्रकार का वायरस",
+        "एक फाइल प्रबंधक",
+        "एक वेब ब्राउज़र"
+      ],
+      "explanation": "डिवाइस ड्राइवर OS कमांड को प्रिंटर, ग्राफिक्स कार्ड आदि के लिए हार्डवेयर-विशिष्ट निर्देशों में अनुवाद करते हैं।"
+    },
+    "id": "soft-0041"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is multitasking?",
+      "options": [
+        "Using multiple monitors",
+        "Running multiple applications simultaneously",
+        "Using multiple keyboards",
+        "Having multiple users"
+      ],
+      "explanation": "Multitasking allows an OS to run multiple programs concurrently by rapidly switching between them."
+    },
+    "hi": {
+      "question": "मल्टीटास्किंग क्या है?",
+      "options": [
+        "कई मॉनिटर का उपयोग",
+        "एक साथ कई अनुप्रयोग चलाना",
+        "कई कीबोर्ड का उपयोग",
+        "कई उपयोगकर्ता"
+      ],
+      "explanation": "मल्टीटास्किंग OS को तेजी से स्विच करके एक साथ कई प्रोग्राम चलाने की अनुमति देता है।"
+    },
+    "id": "soft-0042"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is multithreading?",
+      "options": [
+        "Multiple monitors",
+        "Multiple keyboards",
+        "Multiple threads within a single process",
+        "Multiple CPUs"
+      ],
+      "explanation": "Multithreading allows a process to have multiple concurrent execution threads sharing the same resources."
+    },
+    "hi": {
+      "question": "मल्टीथ्रेडिंग क्या है?",
+      "options": [
+        "कई मॉनिटर",
+        "कई कीबोर्ड",
+        "एक प्रक्रिया में कई थ्रेड",
+        "कई CPU"
+      ],
+      "explanation": "मल्टीथ्रेडिंग एक प्रक्रिया को समान संसाधन साझा करने वाले कई समवर्ती निष्पादन थ्रेड रखने की अनुमति देता है।"
+    },
+    "id": "soft-0043"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the swap space in Linux?",
+      "options": [
+        "A folder",
+        "A network drive",
+        "A backup",
+        "Disk space used as virtual memory"
+      ],
+      "explanation": "Swap space is a portion of the hard disk used as an extension of RAM when physical memory is full."
+    },
+    "hi": {
+      "question": "Linux में स्वैप स्पेस क्या है?",
+      "options": [
+        "एक फोल्डर",
+        "एक नेटवर्क ड्राइव",
+        "एक बैकअप",
+        "वर्चुअल मेमोरी के रूप में उपयोग किया जाने वाला डिस्क स्थान"
+      ],
+      "explanation": "स्वैप स्पेस हार्ड डिस्क का एक हिस्सा है जो भौतिक मेमोरी भर जाने पर RAM के विस्तार के रूप में उपयोग होता है।"
+    },
+    "id": "soft-0044"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Recycle Bin in Windows is for?",
+      "options": [
+        "Temporarily storing deleted files",
+        "Permanent deletion",
+        "File backup",
+        "System restore"
+      ],
+      "explanation": "Recycle Bin temporarily holds deleted files, allowing recovery. Shift+Delete bypasses it for permanent deletion."
+    },
+    "hi": {
+      "question": "Windows में रीसायकल बिन किसके लिए है?",
+      "options": [
+        "हटाई गई फाइलों का अस्थायी भंडारण",
+        "स्थायी विलोपन",
+        "फाइल बैकअप",
+        "सिस्टम रीस्टोर"
+      ],
+      "explanation": "रीसायकल बिन हटाई गई फाइलों को अस्थायी रूप से रखता है, पुनर्प्राप्ति की अनुमति। Shift+Delete स्थायी विलोपन।"
+    },
+    "id": "soft-0045"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Alt+F4 in Windows does what?",
+      "options": [
+        "Opens Task Manager",
+        "Closes the current window/program",
+        "Opens File Explorer",
+        "Restarts computer"
+      ],
+      "explanation": "Alt+F4 closes the active window. If no window is open, it opens Shut Down dialog."
+    },
+    "hi": {
+      "question": "Windows में Alt+F4 क्या करता है?",
+      "options": [
+        "टास्क मैनेजर खोलता है",
+        "वर्तमान विंडो/प्रोग्राम बंद करता है",
+        "फाइल एक्सप्लोरर खोलता है",
+        "कंप्यूटर पुनरारंभ करता है"
+      ],
+      "explanation": "Alt+F4 सक्रिय विंडो बंद करता है। यदि कोई विंडो खुली नहीं, तो शट डाउन डायलॉग खोलता है।"
+    },
+    "id": "soft-0046"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Win+D in Windows does what?",
+      "options": [
+        "Opens documents",
+        "Locks computer",
+        "Shows/minimizes all windows to desktop",
+        "Opens settings"
+      ],
+      "explanation": "Win+D minimizes all open windows and shows the desktop. Press again to restore windows."
+    },
+    "hi": {
+      "question": "Windows में Win+D क्या करता है?",
+      "options": [
+        "दस्तावेज़ खोलता है",
+        "कंप्यूटर लॉक करता है",
+        "सभी विंडो को डेस्कटॉप पर छोटा/दिखाता है",
+        "सेटिंग्स खोलता है"
+      ],
+      "explanation": "Win+D सभी खुली विंडो छोटी करता है और डेस्कटॉप दिखाता है। फिर से दबाने पर विंडो बहाल।"
+    },
+    "id": "soft-0047"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Win+E in Windows opens?",
+      "options": [
+        "Internet Explorer",
+        "Settings",
+        "Command Prompt",
+        "File Explorer"
+      ],
+      "explanation": "Win+E opens File Explorer for browsing files and folders."
+    },
+    "hi": {
+      "question": "Windows में Win+E क्या खोलता है?",
+      "options": [
+        "इंटरनेट एक्सप्लोरर",
+        "सेटिंग्स",
+        "कमांड प्रॉम्प्ट",
+        "फाइल एक्सप्लोरर"
+      ],
+      "explanation": "Win+E फाइलें और फोल्डर ब्राउज़ करने के लिए फाइल एक्सप्लोरर खोलता है।"
+    },
+    "id": "soft-0048"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Win+L in Windows does what?",
+      "options": [
+        "Locks the computer",
+        "Opens left panel",
+        "Launches a program",
+        "Logs out"
+      ],
+      "explanation": "Win+L locks the workstation, requiring password to unlock."
+    },
+    "hi": {
+      "question": "Windows में Win+L क्या करता है?",
+      "options": [
+        "कंप्यूटर लॉक करता है",
+        "बायां पैनल खोलता है",
+        "प्रोग्राम लॉन्च करता है",
+        "लॉग आउट करता है"
+      ],
+      "explanation": "Win+L वर्कस्टेशन लॉक करता है, अनलॉक के लिए पासवर्ड आवश्यक।"
+    },
+    "id": "soft-0049"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the default shell in Windows?",
+      "options": [
+        "Bash",
+        "Command Prompt (cmd.exe) / PowerShell",
+        "Zsh",
+        "Fish"
+      ],
+      "explanation": "Windows uses Command Prompt (cmd.exe) and PowerShell as default shells. Windows Terminal is the modern app."
+    },
+    "hi": {
+      "question": "Windows में डिफ़ॉल्ट शेल क्या है?",
+      "options": [
+        "Bash",
+        "Command Prompt (cmd.exe) / PowerShell",
+        "Zsh",
+        "Fish"
+      ],
+      "explanation": "Windows डिफ़ॉल्ट शेल के रूप में Command Prompt (cmd.exe) और PowerShell का उपयोग करता है। Windows Terminal आधुनिक ऐप।"
+    },
+    "id": "soft-0050"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the bootloader?",
+      "options": [
+        "A file manager",
+        "A text editor",
+        "Software that loads the OS into memory",
+        "A device driver"
+      ],
+      "explanation": "Bootloader (GRUB, Windows Boot Manager) loads the kernel into memory during startup."
+    },
+    "hi": {
+      "question": "बूटलोडर क्या है?",
+      "options": [
+        "एक फाइल प्रबंधक",
+        "एक टेक्स्ट एडिटर",
+        "OS को मेमोरी में लोड करने वाला सॉफ्टवेयर",
+        "एक डिवाइस ड्राइवर"
+      ],
+      "explanation": "बूटलोडर (GRUB, Windows Boot Manager) स्टार्टअप के दौरान कर्नेल को मेमोरी में लोड करता है।"
+    },
+    "id": "soft-0051"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is an interrupt in OS?",
+      "options": [
+        "A virus",
+        "A file type",
+        "A user command",
+        "Signal to CPU for immediate attention"
+      ],
+      "explanation": "Interrupts are signals from hardware or software that cause the CPU to pause current execution."
+    },
+    "hi": {
+      "question": "OS में इंटरप्ट क्या है?",
+      "options": [
+        "एक वायरस",
+        "एक फाइल प्रकार",
+        "एक उपयोगकर्ता कमांड",
+        "तत्काल ध्यान के लिए CPU को सिग्नल"
+      ],
+      "explanation": "इंटरप्ट हार्डवेयर या सॉफ्टवेयर से सिग्नल हैं जो CPU को वर्तमान निष्पादन रोकने का कारण बनते हैं।"
+    },
+    "id": "soft-0052"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a spooler?",
+      "options": [
+        "Program managing print jobs in a queue",
+        "A type of virus",
+        "A file compressor",
+        "A memory manager"
+      ],
+      "explanation": "Print spooler queues print jobs and sends them to the printer one at a time."
+    },
+    "hi": {
+      "question": "स्पूलर क्या है?",
+      "options": [
+        "प्रिंट कार्यों को कतार में प्रबंधित करने वाला प्रोग्राम",
+        "एक प्रकार का वायरस",
+        "एक फाइल कंप्रेसर",
+        "एक मेमोरी प्रबंधक"
+      ],
+      "explanation": "प्रिंट स्पूलर प्रिंट कार्यों को कतारबद्ध करता है और उन्हें एक-एक करके प्रिंटर को भेजता है।"
+    },
+    "id": "soft-0053"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "MS-DOS is a?",
+      "options": [
+        "GUI OS",
+        "Command-line based OS",
+        "Web-based OS",
+        "Mobile OS"
+      ],
+      "explanation": "MS-DOS (Microsoft Disk Operating System) is a single-user, command-line OS from the 1980s."
+    },
+    "hi": {
+      "question": "MS-DOS क्या है?",
+      "options": [
+        "GUI OS",
+        "कमांड-लाइन आधारित OS",
+        "वेब-आधारित OS",
+        "मोबाइल OS"
+      ],
+      "explanation": "MS-DOS (माइक्रोसॉफ्ट डिस्क ऑपरेटिंग सिस्टम) 1980 के दशक का एकल-उपयोगकर्ता, कमांड-लाइन OS है।"
+    },
+    "id": "soft-0054"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is an embedded OS?",
+      "options": [
+        "Cloud OS",
+        "Desktop OS",
+        "OS designed for specific devices (ATM, router, IoT)",
+        "Gaming OS"
+      ],
+      "explanation": "Embedded OS runs on specialized hardware with limited resources (microwave, car ECU, smartwatch)."
+    },
+    "hi": {
+      "question": "एम्बेडेड OS क्या है?",
+      "options": [
+        "क्लाउड OS",
+        "डेस्कटॉप OS",
+        "विशिष्ट उपकरणों के लिए डिज़ाइन किया गया OS (ATM, राउटर, IoT)",
+        "गेमिंग OS"
+      ],
+      "explanation": "एम्बेडेड OS सीमित संसाधनों वाले विशेष हार्डवेयर पर चलता है (माइक्रोवेव, कार ECU, स्मार्टवॉच)।"
+    },
+    "id": "soft-0055"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the file extension for executable files in Windows?",
+      "options": [
+        ".txt",
+        ".doc",
+        ".pdf",
+        ".exe"
+      ],
+      "explanation": ".exe is the executable file extension in Windows. Linux executables often have no extension."
+    },
+    "hi": {
+      "question": "Windows में निष्पादन योग्य फाइलों का एक्सटेंशन क्या है?",
+      "options": [
+        ".txt",
+        ".doc",
+        ".pdf",
+        ".exe"
+      ],
+      "explanation": ".exe Windows में निष्पादन योग्य फाइल एक्सटेंशन है। Linux निष्पादन योग्य में अक्सर कोई एक्सटेंशन नहीं।"
+    },
+    "id": "soft-0056"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which OS is most commonly used in servers?",
+      "options": [
+        "Linux",
+        "iOS",
+        "Android",
+        "MS-DOS"
+      ],
+      "explanation": "Linux dominates the server market (web servers, cloud computing) due to stability, security, and open-source nature."
+    },
+    "hi": {
+      "question": "सर्वरों में सबसे अधिक उपयोग कौन सा OS होता है?",
+      "options": [
+        "Linux",
+        "iOS",
+        "Android",
+        "MS-DOS"
+      ],
+      "explanation": "Linux स्थिरता, सुरक्षा और ओपन-सोर्स प्रकृति के कारण सर्वर बाजार (वेब सर्वर, क्लाउड कंप्यूटिंग) पर हावी है।"
+    },
+    "id": "soft-0057"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a daemon in Linux?",
+      "options": [
+        "A virus",
+        "A background service/process",
+        "A user account",
+        "A file system"
+      ],
+      "explanation": "Daemons are background processes that provide services (e.g., httpd for web, sshd for SSH)."
+    },
+    "hi": {
+      "question": "Linux में डेमन क्या है?",
+      "options": [
+        "एक वायरस",
+        "एक पृष्ठभूमि सेवा/प्रक्रिया",
+        "एक उपयोगकर्ता खाता",
+        "एक फाइल सिस्टम"
+      ],
+      "explanation": "डेमन पृष्ठभूमि प्रक्रियाएं हैं जो सेवाएं प्रदान करती हैं (जैसे httpd वेब के लिए, sshd SSH के लिए)।"
+    },
+    "id": "soft-0058"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the cron in Linux?",
+      "options": [
+        "A text editor",
+        "A web browser",
+        "A time-based job scheduler",
+        "A file manager"
+      ],
+      "explanation": "cron schedules tasks/scripts to run automatically at specified times or intervals."
+    },
+    "hi": {
+      "question": "Linux में cron क्या है?",
+      "options": [
+        "एक टेक्स्ट एडिटर",
+        "एक वेब ब्राउज़र",
+        "एक समय-आधारित कार्य शेड्यूलर",
+        "एक फाइल प्रबंधक"
+      ],
+      "explanation": "cron निर्दिष्ट समय या अंतराल पर स्वचालित रूप से कार्य/स्क्रिप्ट चलाने का शेड्यूल बनाता है।"
+    },
+    "id": "soft-0059"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What command shuts down Linux from terminal?",
+      "options": [
+        "exit",
+        "quit",
+        "stop",
+        "shutdown"
+      ],
+      "explanation": "shutdown -h now (halt/power off) or shutdown -r now (restart) controls system power state."
+    },
+    "hi": {
+      "question": "लिनक्स टर्मिनल से बंद करने का कमांड?",
+      "options": [
+        "exit",
+        "quit",
+        "stop",
+        "shutdown"
+      ],
+      "explanation": "shutdown -h now (रोकना/बिजली बंद) या shutdown -r now (पुनरारंभ) सिस्टम पावर स्थिति नियंत्रित करता है।"
+    },
+    "id": "soft-0060"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is GRUB in Linux?",
+      "options": [
+        "Grand Unified Bootloader",
+        "Graphical User Backup",
+        "General Update Binary",
+        "Global Resource Utility Base"
+      ],
+      "explanation": "GRUB is the most common Linux bootloader, allowing selection of OS/kernel at startup."
+    },
+    "hi": {
+      "question": "Linux में GRUB क्या है?",
+      "options": [
+        "Grand Unified Bootloader",
+        "Graphical User Backup",
+        "General Update Binary",
+        "Global Resource Utility Base"
+      ],
+      "explanation": "GRUB सबसे आम Linux बूटलोडर है, स्टार्टअप पर OS/कर्नेल चयन की अनुमति देता है।"
+    },
+    "id": "soft-0061"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a semaphore in OS?",
+      "options": [
+        "A file type",
+        "A synchronization mechanism for processes/threads",
+        "A network protocol",
+        "A type of RAM"
+      ],
+      "explanation": "Semaphore controls access to shared resources by multiple processes to prevent race conditions."
+    },
+    "hi": {
+      "question": "OS में सेमाफोर क्या है?",
+      "options": [
+        "एक फाइल प्रकार",
+        "प्रक्रियाओं/थ्रेड के लिए सिंक्रनाइज़ेशन तंत्र",
+        "एक नेटवर्क प्रोटोकॉल",
+        "एक प्रकार की RAM"
+      ],
+      "explanation": "सेमाफोर रेस कंडीशन को रोकने के लिए कई प्रक्रियाओं द्वारा साझा संसाधनों तक पहुंच नियंत्रित करता है।"
+    },
+    "id": "soft-0062"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does 'ps' command do in Linux?",
+      "options": [
+        "Print screen",
+        "Password set",
+        "Display running processes",
+        "Ping server"
+      ],
+      "explanation": "ps (process status) shows currently running processes and their PIDs."
+    },
+    "hi": {
+      "question": "Linux में 'ps' कमांड क्या करता है?",
+      "options": [
+        "प्रिंट स्क्रीन",
+        "पासवर्ड सेट",
+        "चल रही प्रक्रियाएं प्रदर्शित करना",
+        "पिंग सर्वर"
+      ],
+      "explanation": "ps (प्रोसेस स्टेटस) वर्तमान में चल रही प्रक्रियाएं और उनके PID दिखाता है।"
+    },
+    "id": "soft-0063"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does 'kill' command do in Linux?",
+      "options": [
+        "Delete files",
+        "Shutdown system",
+        "Format disk",
+        "Terminate a process"
+      ],
+      "explanation": "kill sends a signal to terminate a process. kill -9 forcefully kills a process."
+    },
+    "hi": {
+      "question": "Linux में 'kill' कमांड क्या करता है?",
+      "options": [
+        "फाइलें हटाता है",
+        "सिस्टम बंद करता है",
+        "डिस्क फॉर्मेट करता है",
+        "एक प्रक्रिया समाप्त करता है"
+      ],
+      "explanation": "kill एक प्रक्रिया समाप्त करने के लिए सिग्नल भेजता है। kill -9 जबरदस्ती प्रक्रिया समाप्त करता है।"
+    },
+    "id": "soft-0064"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does 'grep' do in Linux?",
+      "options": [
+        "Search for patterns in text",
+        "Create files",
+        "Delete directories",
+        "Network configuration"
+      ],
+      "explanation": "grep (Global Regular Expression Print) searches files for lines matching a pattern."
+    },
+    "hi": {
+      "question": "Linux में 'grep' क्या करता है?",
+      "options": [
+        "टेक्स्ट में पैटर्न खोजना",
+        "फाइलें बनाना",
+        "निर्देशिकाएं हटाना",
+        "नेटवर्क कॉन्फ़िगरेशन"
+      ],
+      "explanation": "grep (ग्लोबल रेगुलर एक्सप्रेशन प्रिंट) पैटर्न से मेल खाने वाली पंक्तियों के लिए फाइलें खोजता है।"
+    },
+    "id": "soft-0065"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does the pipe (|) operator do in Linux?",
+      "options": [
+        "Creates a file",
+        "Sends output of one command as input to another",
+        "Deletes a process",
+        "Concatenates files"
+      ],
+      "explanation": "The pipe (|) connects stdout of one command to stdin of another (e.g., ls | grep txt)."
+    },
+    "hi": {
+      "question": "Linux में पाइप (|) ऑपरेटर क्या करता है?",
+      "options": [
+        "फाइल बनाता है",
+        "एक कमांड का आउटपुट दूसरे को इनपुट के रूप में भेजता है",
+        "प्रक्रिया हटाता है",
+        "फाइलें जोड़ता है"
+      ],
+      "explanation": "पाइप (|) एक कमांड के stdout को दूसरे के stdin से जोड़ता है (जैसे ls | grep txt)।"
+    },
+    "id": "soft-0066"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which command copies files in MS-DOS?",
+      "options": [
+        "move",
+        "ren",
+        "copy",
+        "del"
+      ],
+      "explanation": "copy duplicates files. xcopy copies directories. move moves files. ren renames. del deletes."
+    },
+    "hi": {
+      "question": "MS-DOS में फाइलें कॉपी करने का कमांड?",
+      "options": [
+        "move",
+        "ren",
+        "copy",
+        "del"
+      ],
+      "explanation": "copy फाइलें डुप्लिकेट करता है। xcopy निर्देशिकाएं कॉपी। move स्थानांतरित। ren नाम बदलें। del हटाएं।"
+    },
+    "id": "soft-0067"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "MS-DOS command to rename a file?",
+      "options": [
+        "move",
+        "copy",
+        "name",
+        "ren or rename"
+      ],
+      "explanation": "ren (rename) changes the name of a file or directory. Syntax: ren oldname newname."
+    },
+    "hi": {
+      "question": "फाइल का नाम बदलने का MS-DOS कमांड?",
+      "options": [
+        "move",
+        "copy",
+        "name",
+        "ren या rename"
+      ],
+      "explanation": "ren (रीनेम) फाइल या निर्देशिका का नाम बदलता है। सिंटैक्स: ren पुराना_नाम नया_नाम।"
+    },
+    "id": "soft-0068"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the primary purpose of an operating system?",
+      "options": [
+        "Manage hardware and software resources",
+        "Only run games",
+        "Only browse internet",
+        "Only print documents"
+      ],
+      "explanation": "OS acts as an intermediary between user and hardware, managing resources and providing services."
+    },
+    "hi": {
+      "question": "ऑपरेटिंग सिस्टम का प्राथमिक उद्देश्य क्या है?",
+      "options": [
+        "हार्डवेयर और सॉफ्टवेयर संसाधनों का प्रबंधन",
+        "केवल गेम चलाना",
+        "केवल इंटरनेट ब्राउज़ करना",
+        "केवल दस्तावेज़ प्रिंट करना"
+      ],
+      "explanation": "OS उपयोगकर्ता और हार्डवेयर के बीच मध्यस्थ के रूप में कार्य करता है, संसाधनों का प्रबंधन और सेवाएं प्रदान करता है।"
+    },
+    "id": "soft-0069"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the maximum RAM supported by 32-bit Windows?",
+      "options": [
+        "2 GB",
+        "4 GB",
+        "8 GB",
+        "16 GB"
+      ],
+      "explanation": "32-bit OS can address maximum 2^32 = 4 GB of RAM. 64-bit supports much more (theoretically 16 EB)."
+    },
+    "hi": {
+      "question": "32-बिट Windows अधिकतम कितनी RAM का समर्थन करता है?",
+      "options": [
+        "2 GB",
+        "4 GB",
+        "8 GB",
+        "16 GB"
+      ],
+      "explanation": "32-बिट OS अधिकतम 2^32 = 4 GB RAM संबोधित कर सकता है। 64-बिट बहुत अधिक (सैद्धांतिक 16 EB) समर्थन।"
+    },
+    "id": "soft-0070"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is Windows Registry?",
+      "options": [
+        "A backup tool",
+        "A text editor",
+        "Central database storing OS and application settings",
+        "A virus scanner"
+      ],
+      "explanation": "Registry stores configuration settings for Windows and installed programs in a hierarchical database."
+    },
+    "hi": {
+      "question": "Windows रजिस्ट्री क्या है?",
+      "options": [
+        "एक बैकअप उपकरण",
+        "एक टेक्स्ट एडिटर",
+        "OS और एप्लिकेशन सेटिंग्स संग्रहीत करने वाला केंद्रीय डेटाबेस",
+        "एक वायरस स्कैनर"
+      ],
+      "explanation": "रजिस्ट्री Windows और इंस्टॉल किए गए प्रोग्रामों के लिए कॉन्फ़िगरेशन सेटिंग्स को पदानुक्रमित डेटाबेस में संग्रहीत करती है।"
+    },
+    "id": "soft-0071"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a screensaver?",
+      "options": [
+        "A gaming program",
+        "A file type",
+        "A backup tool",
+        "Program displaying moving images when computer is idle"
+      ],
+      "explanation": "Screensaver was originally designed to prevent phosphor burn-in on CRT monitors."
+    },
+    "hi": {
+      "question": "स्क्रीनसेवर क्या है?",
+      "options": [
+        "एक गेमिंग प्रोग्राम",
+        "एक फाइल प्रकार",
+        "एक बैकअप उपकरण",
+        "कंप्यूटर निष्क्रिय होने पर चलती छवियां दिखाने वाला प्रोग्राम"
+      ],
+      "explanation": "स्क्रीनसेवर मूल रूप से CRT मॉनिटर पर फॉस्फर बर्न-इन रोकने के लिए डिज़ाइन किया गया था।"
+    },
+    "id": "soft-0072"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is Safe Mode in Windows?",
+      "options": [
+        "Diagnostic startup with minimal drivers/services",
+        "Faster performance mode",
+        "Network only mode",
+        "Gaming mode"
+      ],
+      "explanation": "Safe Mode boots Windows with only essential drivers, useful for troubleshooting."
+    },
+    "hi": {
+      "question": "Windows में सेफ मोड क्या है?",
+      "options": [
+        "न्यूनतम ड्राइवर/सेवाओं के साथ नैदानिक स्टार्टअप",
+        "तेज प्रदर्शन मोड",
+        "केवल नेटवर्क मोड",
+        "गेमिंग मोड"
+      ],
+      "explanation": "सेफ मोड केवल आवश्यक ड्राइवरों के साथ Windows बूट करता है, समस्या निवारण के लिए उपयोगी।"
+    },
+    "id": "soft-0073"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is Disk Cleanup in Windows?",
+      "options": [
+        "Virus removal",
+        "Free up disk space by deleting temporary/unnecessary files",
+        "Disk formatting",
+        "Partition creation"
+      ],
+      "explanation": "Disk Cleanup removes temporary files, system cache, recycle bin contents, and other junk."
+    },
+    "hi": {
+      "question": "Windows में डिस्क क्लीनअप क्या है?",
+      "options": [
+        "वायरस हटाना",
+        "अस्थायी/अनावश्यक फाइलें हटाकर डिस्क स्थान खाली करना",
+        "डिस्क फॉर्मेटिंग",
+        "विभाजन निर्माण"
+      ],
+      "explanation": "डिस्क क्लीनअप अस्थायी फाइलें, सिस्टम कैश, रीसायकल बिन सामग्री और अन्य जंक हटाता है।"
+    },
+    "id": "soft-0074"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the function of Windows Defender?",
+      "options": [
+        "File compression",
+        "Disk cleanup",
+        "Built-in antivirus/antimalware protection",
+        "Network monitoring"
+      ],
+      "explanation": "Windows Defender (Microsoft Defender) provides real-time protection against viruses, malware, and threats."
+    },
+    "hi": {
+      "question": "Windows Defender का कार्य क्या है?",
+      "options": [
+        "फाइल संपीड़न",
+        "डिस्क क्लीनअप",
+        "अंतर्निहित एंटीवायरस/एंटीमैलवेयर सुरक्षा",
+        "नेटवर्क निगरानी"
+      ],
+      "explanation": "Windows Defender (Microsoft Defender) वायरस, मैलवेयर और खतरों के खिलाफ रीयल-टाइम सुरक्षा प्रदान करता है।"
+    },
+    "id": "soft-0075"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a system restore point?",
+      "options": [
+        "A backup file",
+        "A network setting",
+        "A user account",
+        "Snapshot of system state for recovery"
+      ],
+      "explanation": "System Restore creates snapshots of Windows configuration, allowing rollback after issues."
+    },
+    "hi": {
+      "question": "सिस्टम रीस्टोर पॉइंट क्या है?",
+      "options": [
+        "एक बैकअप फाइल",
+        "एक नेटवर्क सेटिंग",
+        "एक उपयोगकर्ता खाता",
+        "पुनर्प्राप्ति के लिए सिस्टम स्थिति का स्नैपशॉट"
+      ],
+      "explanation": "सिस्टम रीस्टोर Windows कॉन्फ़िगरेशन के स्नैपशॉट बनाता है, समस्याओं के बाद रोलबैक की अनुमति।"
+    },
+    "id": "soft-0076"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the ext4 journaling feature?",
+      "options": [
+        "Records changes before committing to prevent corruption",
+        "Compresses files",
+        "Encrypts data",
+        "Speeds up boot"
+      ],
+      "explanation": "Journaling keeps a log of changes, allowing faster recovery and preventing data corruption after crashes."
+    },
+    "hi": {
+      "question": "ext4 जर्नलिंग सुविधा क्या है?",
+      "options": [
+        "भ्रष्टाचार रोकने के लिए कमिट से पहले परिवर्तन रिकॉर्ड करना",
+        "फाइलें संपीड़ित करना",
+        "डेटा एन्क्रिप्ट करना",
+        "बूट तेज करना"
+      ],
+      "explanation": "जर्नलिंग परिवर्तनों का लॉग रखती है, तेज पुनर्प्राप्ति और क्रैश के बाद डेटा भ्रष्टाचार रोकती है।"
+    },
+    "id": "soft-0077"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the desktop in Windows?",
+      "options": [
+        "A file type",
+        "Primary user interface with icons and wallpaper",
+        "A browser",
+        "A command tool"
+      ],
+      "explanation": "Desktop is the main screen area containing icons, taskbar, and wallpaper for launching programs."
+    },
+    "hi": {
+      "question": "Windows में डेस्कटॉप क्या है?",
+      "options": [
+        "एक फाइल प्रकार",
+        "आइकन और वॉलपेपर के साथ प्राथमिक उपयोगकर्ता इंटरफेस",
+        "एक ब्राउज़र",
+        "एक कमांड उपकरण"
+      ],
+      "explanation": "डेस्कटॉप प्रोग्राम लॉन्च करने के लिए आइकन, टास्कबार और वॉलपेपर वाला मुख्य स्क्रीन क्षेत्र है।"
+    },
+    "id": "soft-0078"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a file extension?",
+      "options": [
+        "File name",
+        "File size",
+        "Suffix after the dot indicating file type (.txt, .jpg)",
+        "Creation date"
+      ],
+      "explanation": "File extensions help the OS identify which program to use to open the file."
+    },
+    "hi": {
+      "question": "फाइल एक्सटेंशन क्या है?",
+      "options": [
+        "फाइल नाम",
+        "फाइल आकार",
+        "फाइल प्रकार बताने वाला डॉट के बाद का प्रत्यय (.txt, .jpg)",
+        "निर्माण तिथि"
+      ],
+      "explanation": "फाइल एक्सटेंशन OS को यह पहचानने में मदद करते हैं कि फाइल खोलने के लिए कौन सा प्रोग्राम उपयोग करना है।"
+    },
+    "id": "soft-0079"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is mutual exclusion?",
+      "options": [
+        "Sharing everything",
+        "No resource sharing",
+        "Multiple simultaneous access",
+        "Only one process can access a shared resource at a time"
+      ],
+      "explanation": "Mutual exclusion (mutex) ensures that only one process/thread accesses a critical section at any time."
+    },
+    "hi": {
+      "question": "म्यूचुअल एक्सक्लूजन क्या है?",
+      "options": [
+        "सब कुछ साझा करना",
+        "कोई संसाधन साझाकरण नहीं",
+        "एक साथ कई पहुंच",
+        "एक समय में केवल एक प्रक्रिया साझा संसाधन तक पहुंच सकती है"
+      ],
+      "explanation": "म्यूचुअल एक्सक्लूजन (mutex) सुनिश्चित करता है कि किसी भी समय केवल एक प्रक्रिया/थ्रेड क्रिटिकल सेक्शन तक पहुंचे।"
+    },
+    "id": "soft-0080"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the purpose of 'df' command in Linux?",
+      "options": [
+        "Display disk space usage",
+        "Delete files",
+        "Create files",
+        "Network check"
+      ],
+      "explanation": "df (disk free) shows available and used disk space on mounted file systems."
+    },
+    "hi": {
+      "question": "Linux में 'df' कमांड का उद्देश्य क्या है?",
+      "options": [
+        "डिस्क स्थान उपयोग प्रदर्शित करना",
+        "फाइलें हटाना",
+        "फाइलें बनाना",
+        "नेटवर्क जांच"
+      ],
+      "explanation": "df (डिस्क फ्री) माउंटेड फाइल सिस्टम पर उपलब्ध और उपयोग किया गया डिस्क स्थान दिखाता है।"
+    },
+    "id": "soft-0081"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 'top' command in Linux?",
+      "options": [
+        "Create a file",
+        "Real-time system process monitor",
+        "Show file contents",
+        "Network tool"
+      ],
+      "explanation": "top displays running processes, CPU and memory usage in real-time, similar to Task Manager."
+    },
+    "hi": {
+      "question": "Linux में 'top' कमांड क्या है?",
+      "options": [
+        "फाइल बनाना",
+        "रीयल-टाइम सिस्टम प्रक्रिया मॉनिटर",
+        "फाइल सामग्री दिखाना",
+        "नेटवर्क उपकरण"
+      ],
+      "explanation": "top टास्क मैनेजर की तरह रीयल-टाइम में चल रही प्रक्रियाएं, CPU और मेमोरी उपयोग प्रदर्शित करता है।"
+    },
+    "id": "soft-0082"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is Ctrl+Alt+Del used for?",
+      "options": [
+        "Save file",
+        "Print",
+        "Security options / Task Manager / Restart",
+        "Copy"
+      ],
+      "explanation": "Ctrl+Alt+Del opens security screen with options to lock, sign out, task manager, and restart/shutdown."
+    },
+    "hi": {
+      "question": "Ctrl+Alt+Del किसके लिए उपयोग होता है?",
+      "options": [
+        "फाइल सहेजना",
+        "प्रिंट",
+        "सुरक्षा विकल्प / टास्क मैनेजर / पुनरारंभ",
+        "कॉपी"
+      ],
+      "explanation": "Ctrl+Alt+Del लॉक, साइन आउट, टास्क मैनेजर और पुनरारंभ/शटडाउन के विकल्पों के साथ सुरक्षा स्क्रीन खोलता है।"
+    },
+    "id": "soft-0083"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the difference between soft link and hard link in Linux?",
+      "options": [
+        "Both are same",
+        "Hard link is bigger",
+        "Soft link stores data",
+        "Soft link: shortcut to file; Hard link: duplicate directory entry"
+      ],
+      "explanation": "Soft link (symbolic) points to file path. Hard link points directly to inode. Deleting original breaks soft but not hard link."
+    },
+    "hi": {
+      "question": "Linux में सॉफ्ट लिंक और हार्ड लिंक में अंतर?",
+      "options": [
+        "दोनों समान",
+        "हार्ड लिंक बड़ा",
+        "सॉफ्ट लिंक डेटा संग्रहीत",
+        "सॉफ्ट लिंक: फाइल शॉर्टकट; हार्ड लिंक: डुप्लिकेट डायरेक्टरी एंट्री"
+      ],
+      "explanation": "सॉफ्ट लिंक (प्रतीकात्मक) फाइल पथ की ओर इंगित। हार्ड लिंक सीधे inode की ओर। मूल हटाने पर सॉफ्ट टूटता है, हार्ड नहीं।"
+    },
+    "id": "soft-0084"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a mounted file system?",
+      "options": [
+        "Accessible file system attached to a directory in the tree",
+        "A compressed file",
+        "An encrypted volume",
+        "A network drive only"
+      ],
+      "explanation": "Mounting makes a file system (partition, USB, network share) accessible at a specific directory (mount point)."
+    },
+    "hi": {
+      "question": "माउंटेड फाइल सिस्टम क्या है?",
+      "options": [
+        "ट्री में एक निर्देशिका से जुड़ा सुलभ फाइल सिस्टम",
+        "एक संपीड़ित फाइल",
+        "एक एन्क्रिप्टेड वॉल्यूम",
+        "केवल नेटवर्क ड्राइव"
+      ],
+      "explanation": "माउंटिंग एक फाइल सिस्टम (विभाजन, USB, नेटवर्क शेयर) को एक विशिष्ट निर्देशिका (माउंट पॉइंट) पर सुलभ बनाती है।"
+    },
+    "id": "soft-0085"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is file compression?",
+      "options": [
+        "File deletion",
+        "Reducing file size using algorithms",
+        "File encryption",
+        "File copying"
+      ],
+      "explanation": "Compression reduces file size for storage/transmission. Examples: ZIP, RAR, gzip, 7z."
+    },
+    "hi": {
+      "question": "फाइल संपीड़न क्या है?",
+      "options": [
+        "फाइल विलोपन",
+        "एल्गोरिदम का उपयोग करके फाइल आकार कम करना",
+        "फाइल एन्क्रिप्शन",
+        "फाइल कॉपी करना"
+      ],
+      "explanation": "संपीड़न भंडारण/संचरण के लिए फाइल आकार कम करता है। उदाहरण: ZIP, RAR, gzip, 7z।"
+    },
+    "id": "soft-0086"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the full form of APK?",
+      "options": [
+        "Apple Package Kit",
+        "Android Program Kit",
+        "Android Package Kit",
+        "Application Program Kernel"
+      ],
+      "explanation": "APK is the file format used by Android for installing applications (.apk extension)."
+    },
+    "hi": {
+      "question": "APK का पूरा नाम क्या है?",
+      "options": [
+        "Apple Package Kit",
+        "Android Program Kit",
+        "Android Package Kit",
+        "Application Program Kernel"
+      ],
+      "explanation": "APK Android द्वारा एप्लिकेशन इंस्टॉल करने के लिए उपयोग किया जाने वाला फाइल प्रारूप है (.apk एक्सटेंशन)।"
+    },
+    "id": "soft-0087"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a context switch?",
+      "options": [
+        "Changing the wallpaper",
+        "Switching users",
+        "Logging out",
+        "Switching CPU from one process/thread to another"
+      ],
+      "explanation": "Context switch saves the state of current process and loads state of next process for execution."
+    },
+    "hi": {
+      "question": "कॉन्टेक्स्ट स्विच क्या है?",
+      "options": [
+        "वॉलपेपर बदलना",
+        "उपयोगकर्ता बदलना",
+        "लॉग आउट करना",
+        "CPU को एक प्रक्रिया/थ्रेड से दूसरे पर स्विच करना"
+      ],
+      "explanation": "कॉन्टेक्स्ट स्विच वर्तमान प्रक्रिया की स्थिति सहेजता है और निष्पादन के लिए अगली प्रक्रिया की स्थिति लोड करता है।"
+    },
+    "id": "soft-0088"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Android is primarily written in which languages?",
+      "options": [
+        "Java/Kotlin (apps), C/C++ (kernel)",
+        "Python",
+        "Swift",
+        "C# only"
+      ],
+      "explanation": "Android apps use Java/Kotlin. The Android OS kernel (Linux) and low-level components use C/C++."
+    },
+    "hi": {
+      "question": "Android मुख्य रूप से किन भाषाओं में लिखा गया है?",
+      "options": [
+        "Java/Kotlin (ऐप्स), C/C++ (कर्नेल)",
+        "Python",
+        "Swift",
+        "केवल C#"
+      ],
+      "explanation": "Android ऐप्स Java/Kotlin का उपयोग। Android OS कर्नेल (Linux) और निम्न-स्तरीय घटक C/C++।"
+    },
+    "id": "soft-0089"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the home directory in Linux?",
+      "options": [
+        "/root",
+        "/home/username",
+        "/usr",
+        "/etc"
+      ],
+      "explanation": "/home/username is the user's personal directory. /root is the administrator's home."
+    },
+    "hi": {
+      "question": "Linux में होम निर्देशिका क्या है?",
+      "options": [
+        "/root",
+        "/home/username",
+        "/usr",
+        "/etc"
+      ],
+      "explanation": "/home/username उपयोगकर्ता की व्यक्तिगत निर्देशिका है। /root प्रशासक का होम है।"
+    },
+    "id": "soft-0090"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which Linux directory contains system configuration files?",
+      "options": [
+        "/home",
+        "/bin",
+        "/etc",
+        "/tmp"
+      ],
+      "explanation": "/etc stores system-wide configuration files (e.g., /etc/passwd, /etc/ssh/sshd_config)."
+    },
+    "hi": {
+      "question": "Linux की कौन सी निर्देशिका सिस्टम कॉन्फ़िगरेशन फाइलें रखती है?",
+      "options": [
+        "/home",
+        "/bin",
+        "/etc",
+        "/tmp"
+      ],
+      "explanation": "/etc सिस्टम-व्यापी कॉन्फ़िगरेशन फाइलें संग्रहीत करता है (जैसे /etc/passwd, /etc/ssh/sshd_config)।"
+    },
+    "id": "soft-0091"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a kernel panic?",
+      "options": [
+        "A user error",
+        "Application crash",
+        "Network failure",
+        "Fatal system error detected by the kernel"
+      ],
+      "explanation": "Kernel panic (Linux) / BSOD (Windows) occurs when the OS kernel detects an unrecoverable error."
+    },
+    "hi": {
+      "question": "कर्नेल पैनिक क्या है?",
+      "options": [
+        "उपयोगकर्ता त्रुटि",
+        "एप्लिकेशन क्रैश",
+        "नेटवर्क विफलता",
+        "कर्नेल द्वारा पता लगाई गई घातक सिस्टम त्रुटि"
+      ],
+      "explanation": "कर्नेल पैनिक (Linux) / BSOD (Windows) तब होता है जब OS कर्नेल एक अपुनर्प्राप्य त्रुटि का पता लगाता है।"
+    },
+    "id": "soft-0092"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is file permission 777 in Linux?",
+      "options": [
+        "Read, write, execute for owner, group, and others",
+        "Read only",
+        "Write only",
+        "No permissions"
+      ],
+      "explanation": "777 = rwxrwxrwx (full permissions for everyone). 755 = rwxr-xr-x. 644 = rw-r--r--."
+    },
+    "hi": {
+      "question": "Linux में फाइल अनुमति 777 क्या है?",
+      "options": [
+        "स्वामी, समूह और अन्य के लिए पढ़ना, लिखना, निष्पादित",
+        "केवल पढ़ना",
+        "केवल लिखना",
+        "कोई अनुमति नहीं"
+      ],
+      "explanation": "777 = rwxrwxrwx (सभी के लिए पूर्ण अनुमति)। 755 = rwxr-xr-x। 644 = rw-r--r--।"
+    },
+    "id": "soft-0093"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which company developed macOS?",
+      "options": [
+        "Microsoft",
+        "Apple",
+        "Google",
+        "IBM"
+      ],
+      "explanation": "macOS (formerly OS X) is developed by Apple Inc. for Macintosh computers."
+    },
+    "hi": {
+      "question": "macOS किस कंपनी ने विकसित किया?",
+      "options": [
+        "Microsoft",
+        "Apple",
+        "Google",
+        "IBM"
+      ],
+      "explanation": "macOS (पूर्व OS X) Apple Inc. द्वारा Macintosh कंप्यूटरों के लिए विकसित किया गया है।"
+    },
+    "id": "soft-0094"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the difference between sleep and hibernate?",
+      "options": [
+        "No difference",
+        "Sleep is permanent",
+        "Sleep: RAM powered; Hibernate: saves to disk and powers off",
+        "Hibernate uses more power"
+      ],
+      "explanation": "Sleep keeps RAM active (fast resume). Hibernate saves RAM to disk and fully powers off."
+    },
+    "hi": {
+      "question": "स्लीप और हाइबरनेट में क्या अंतर है?",
+      "options": [
+        "कोई अंतर नहीं",
+        "स्लीप स्थायी है",
+        "स्लीप: RAM चालू; हाइबरनेट: डिस्क पर सहेजता है और बिजली बंद",
+        "हाइबरनेट अधिक बिजली उपयोग"
+      ],
+      "explanation": "स्लीप RAM सक्रिय रखता है (तेज पुनरारंभ)। हाइबरनेट RAM को डिस्क पर सहेजता है और पूरी तरह बिजली बंद।"
+    },
+    "id": "soft-0095"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is Windows Subsystem for Linux (WSL)?",
+      "options": [
+        "A game",
+        "A browser",
+        "A file system",
+        "Run Linux environment directly on Windows"
+      ],
+      "explanation": "WSL allows running Linux distributions natively on Windows without a virtual machine."
+    },
+    "hi": {
+      "question": "Windows Subsystem for Linux (WSL) क्या है?",
+      "options": [
+        "एक गेम",
+        "एक ब्राउज़र",
+        "एक फाइल सिस्टम",
+        "Windows पर सीधे Linux वातावरण चलाना"
+      ],
+      "explanation": "WSL बिना वर्चुअल मशीन के Windows पर मूल रूप से Linux वितरण चलाने की अनुमति देता है।"
+    },
+    "id": "soft-0096"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the Android version name for Android 10?",
+      "options": [
+        "Android 10 (Quince Tart)",
+        "Pie",
+        "Oreo",
+        "Nougat"
+      ],
+      "explanation": "Starting with Android 10, Google dropped dessert names and uses numbers only."
+    },
+    "hi": {
+      "question": "Android 10 का संस्करण नाम क्या है?",
+      "options": [
+        "Android 10 (क्विंस टार्ट)",
+        "Pie",
+        "Oreo",
+        "Nougat"
+      ],
+      "explanation": "Android 10 से Google ने डेज़र्ट नाम छोड़ दिए और केवल संख्याओं का उपयोग किया।"
+    },
+    "id": "soft-0097"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is an ISO file?",
+      "options": [
+        "A document",
+        "Exact copy (image) of an optical disc",
+        "A compressed file",
+        "A program file"
+      ],
+      "explanation": "ISO file is a sector-by-sector copy of a CD/DVD/Blu-ray, used for OS installation media."
+    },
+    "hi": {
+      "question": "ISO फाइल क्या है?",
+      "options": [
+        "एक दस्तावेज़",
+        "ऑप्टिकल डिस्क की सटीक प्रति (इमेज)",
+        "एक संपीड़ित फाइल",
+        "एक प्रोग्राम फाइल"
+      ],
+      "explanation": "ISO फाइल CD/DVD/Blu-ray की सेक्टर-दर-सेक्टर प्रति है, OS इंस्टॉलेशन मीडिया के लिए उपयोग।"
+    },
+    "id": "soft-0098"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a file path?",
+      "options": [
+        "File size",
+        "File type",
+        "Location of a file in the directory structure",
+        "File creation date"
+      ],
+      "explanation": "File path shows location: C:\\Users\\Documents\\file.txt (Windows) or /home/user/file.txt (Linux)."
+    },
+    "hi": {
+      "question": "फाइल पथ क्या है?",
+      "options": [
+        "फाइल आकार",
+        "फाइल प्रकार",
+        "निर्देशिका संरचना में फाइल का स्थान",
+        "फाइल निर्माण तिथि"
+      ],
+      "explanation": "फाइल पथ स्थान दिखाता है: C:\\Users\\Documents\\file.txt (Windows) या /home/user/file.txt (Linux)।"
+    },
+    "id": "soft-0099"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a rolling release Linux distribution?",
+      "options": [
+        "Fixed version updates",
+        "No updates",
+        "Yearly updates",
+        "Continuous updates without major version releases"
+      ],
+      "explanation": "Rolling release (Arch, Manjaro) provides continuous updates. Fixed release (Ubuntu) has versioned releases."
+    },
+    "hi": {
+      "question": "रोलिंग रिलीज़ Linux वितरण क्या है?",
+      "options": [
+        "निश्चित संस्करण अपडेट",
+        "कोई अपडेट नहीं",
+        "वार्षिक अपडेट",
+        "प्रमुख संस्करण रिलीज़ के बिना निरंतर अपडेट"
+      ],
+      "explanation": "रोलिंग रिलीज़ (Arch, Manjaro) निरंतर अपडेट प्रदान करता है। निश्चित रिलीज़ (Ubuntu) में संस्करणबद्ध रिलीज़।"
+    },
+    "id": "soft-0100"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Excel file extension?",
+      "options": [
+        ".xlsx",
+        ".pdf",
+        ".pptx",
+        ".docx"
+      ],
+      "explanation": "Excel = .xlsx, Word = .docx, PowerPoint = .pptx."
+    },
+    "hi": {
+      "question": "Excel फाइल एक्सटेंशन?",
+      "options": [
+        ".xlsx",
+        ".pdf",
+        ".pptx",
+        ".docx"
+      ],
+      "explanation": "Excel = .xlsx, Word = .docx, PowerPoint = .pptx।"
+    },
+    "id": "soft-0101"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ctrl+C is for?",
+      "options": [
+        "Copy",
+        "Cut",
+        "Paste",
+        "Save"
+      ],
+      "explanation": "Ctrl+C = Copy, Ctrl+X = Cut, Ctrl+V = Paste, Ctrl+S = Save."
+    },
+    "hi": {
+      "question": "Ctrl+C किसके लिए?",
+      "options": [
+        "Copy",
+        "Cut",
+        "Paste",
+        "Save"
+      ],
+      "explanation": "Ctrl+C = कॉपी, Ctrl+X = कट, Ctrl+V = पेस्ट।"
+    },
+    "id": "soft-0102"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the file extension for Microsoft Word?",
+      "options": [
+        ".xlsx",
+        ".docx",
+        ".pptx",
+        ".pdf"
+      ],
+      "explanation": ".docx is the default Word document format since Office 2007. .doc was used in older versions."
+    },
+    "hi": {
+      "question": "Microsoft Word का फाइल एक्सटेंशन क्या है?",
+      "options": [
+        ".xlsx",
+        ".docx",
+        ".pptx",
+        ".pdf"
+      ],
+      "explanation": ".docx Office 2007 से डिफ़ॉल्ट Word दस्तावेज़ प्रारूप है। पुराने संस्करणों में .doc था।"
+    },
+    "id": "soft-0103"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "PowerPoint file extension is?",
+      "options": [
+        ".docx",
+        ".xlsx",
+        ".pptx",
+        ".txt"
+      ],
+      "explanation": ".pptx is for PowerPoint presentations. .ppsx is for PowerPoint Show (opens in slideshow mode)."
+    },
+    "hi": {
+      "question": "PowerPoint फाइल एक्सटेंशन क्या है?",
+      "options": [
+        ".docx",
+        ".xlsx",
+        ".pptx",
+        ".txt"
+      ],
+      "explanation": ".pptx PowerPoint प्रस्तुतियों के लिए। .ppsx PowerPoint शो (स्लाइडशो मोड में खुलता है)।"
+    },
+    "id": "soft-0104"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ctrl+V is for?",
+      "options": [
+        "Copy",
+        "Cut",
+        "Save",
+        "Paste"
+      ],
+      "explanation": "Ctrl+V pastes the copied/cut content. Ctrl+C copies. Ctrl+X cuts."
+    },
+    "hi": {
+      "question": "Ctrl+V किसके लिए है?",
+      "options": [
+        "कॉपी",
+        "कट",
+        "सेव",
+        "पेस्ट"
+      ],
+      "explanation": "Ctrl+V कॉपी/कट की गई सामग्री पेस्ट करता है। Ctrl+C कॉपी। Ctrl+X कट।"
+    },
+    "id": "soft-0105"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ctrl+X is for?",
+      "options": [
+        "Cut",
+        "Copy",
+        "Paste",
+        "Delete"
+      ],
+      "explanation": "Ctrl+X cuts selected content (removes and copies to clipboard)."
+    },
+    "hi": {
+      "question": "Ctrl+X किसके लिए है?",
+      "options": [
+        "कट",
+        "कॉपी",
+        "पेस्ट",
+        "डिलीट"
+      ],
+      "explanation": "Ctrl+X चयनित सामग्री कट करता है (हटाता है और क्लिपबोर्ड पर कॉपी करता है)।"
+    },
+    "id": "soft-0106"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ctrl+S is used to?",
+      "options": [
+        "Start",
+        "Save",
+        "Select All",
+        "Search"
+      ],
+      "explanation": "Ctrl+S saves the current document. Important to save frequently to prevent data loss."
+    },
+    "hi": {
+      "question": "Ctrl+S किसके लिए उपयोग होता है?",
+      "options": [
+        "शुरू",
+        "सहेजें",
+        "सभी चुनें",
+        "खोजें"
+      ],
+      "explanation": "Ctrl+S वर्तमान दस्तावेज़ सहेजता है। डेटा हानि रोकने के लिए बार-बार सहेजना महत्वपूर्ण।"
+    },
+    "id": "soft-0107"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ctrl+Z is for?",
+      "options": [
+        "Redo",
+        "Save",
+        "Undo",
+        "Zoom"
+      ],
+      "explanation": "Ctrl+Z undoes the last action. Ctrl+Y redoes (repeats) the undone action."
+    },
+    "hi": {
+      "question": "Ctrl+Z किसके लिए है?",
+      "options": [
+        "रीडू",
+        "सेव",
+        "अनडू",
+        "ज़ूम"
+      ],
+      "explanation": "Ctrl+Z अंतिम क्रिया को पूर्ववत करता है। Ctrl+Y पूर्ववत की गई क्रिया को दोहराता है।"
+    },
+    "id": "soft-0108"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ctrl+Y is for?",
+      "options": [
+        "Undo",
+        "Delete",
+        "Copy",
+        "Redo"
+      ],
+      "explanation": "Ctrl+Y redoes an undone action. It's the opposite of Ctrl+Z (Undo)."
+    },
+    "hi": {
+      "question": "Ctrl+Y किसके लिए है?",
+      "options": [
+        "अनडू",
+        "डिलीट",
+        "कॉपी",
+        "रीडू"
+      ],
+      "explanation": "Ctrl+Y पूर्ववत की गई क्रिया को फिर से करता है। यह Ctrl+Z (अनडू) का विपरीत है।"
+    },
+    "id": "soft-0109"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ctrl+B makes text?",
+      "options": [
+        "Bold",
+        "Blue",
+        "Big",
+        "Blinking"
+      ],
+      "explanation": "Ctrl+B applies bold formatting. Ctrl+I = italic. Ctrl+U = underline."
+    },
+    "hi": {
+      "question": "Ctrl+B टेक्स्ट को क्या बनाता है?",
+      "options": [
+        "बोल्ड",
+        "नीला",
+        "बड़ा",
+        "ब्लिंकिंग"
+      ],
+      "explanation": "Ctrl+B बोल्ड फ़ॉर्मेटिंग लागू करता है। Ctrl+I = इटैलिक। Ctrl+U = अंडरलाइन।"
+    },
+    "id": "soft-0110"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ctrl+I makes text?",
+      "options": [
+        "Bold",
+        "Italic",
+        "Indented",
+        "Inverted"
+      ],
+      "explanation": "Ctrl+I applies italic formatting (slanted text)."
+    },
+    "hi": {
+      "question": "Ctrl+I टेक्स्ट को क्या बनाता है?",
+      "options": [
+        "बोल्ड",
+        "इटैलिक",
+        "इंडेंटेड",
+        "इन्वर्टेड"
+      ],
+      "explanation": "Ctrl+I इटैलिक फ़ॉर्मेटिंग (तिरछा टेक्स्ट) लागू करता है।"
+    },
+    "id": "soft-0111"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ctrl+U is for?",
+      "options": [
+        "Undo",
+        "Upload",
+        "Underline",
+        "Unlink"
+      ],
+      "explanation": "Ctrl+U underlines selected text. Used for emphasis in documents."
+    },
+    "hi": {
+      "question": "Ctrl+U किसके लिए है?",
+      "options": [
+        "अनडू",
+        "अपलोड",
+        "अंडरलाइन",
+        "अनलिंक"
+      ],
+      "explanation": "Ctrl+U चयनित टेक्स्ट को अंडरलाइन करता है। दस्तावेज़ों में जोर देने के लिए।"
+    },
+    "id": "soft-0112"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ctrl+A is for?",
+      "options": [
+        "Align",
+        "Archive",
+        "Add",
+        "Select All"
+      ],
+      "explanation": "Ctrl+A selects all content in the current document, worksheet, or text field."
+    },
+    "hi": {
+      "question": "Ctrl+A किसके लिए है?",
+      "options": [
+        "अलाइन",
+        "आर्काइव",
+        "जोड़ें",
+        "सभी चुनें"
+      ],
+      "explanation": "Ctrl+A वर्तमान दस्तावेज़, वर्कशीट या टेक्स्ट फ़ील्ड में सभी सामग्री चुनता है।"
+    },
+    "id": "soft-0113"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ctrl+F is used to?",
+      "options": [
+        "Find text",
+        "Format",
+        "Font change",
+        "File menu"
+      ],
+      "explanation": "Ctrl+F opens the Find dialog to search for specific text in a document."
+    },
+    "hi": {
+      "question": "Ctrl+F किसके लिए उपयोग होता है?",
+      "options": [
+        "टेक्स्ट खोजें",
+        "फ़ॉर्मेट",
+        "फ़ॉन्ट बदलें",
+        "फाइल मेनू"
+      ],
+      "explanation": "Ctrl+F दस्तावेज़ में विशिष्ट टेक्स्ट खोजने के लिए खोज डायलॉग खोलता है।"
+    },
+    "id": "soft-0114"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ctrl+H opens?",
+      "options": [
+        "Help",
+        "Find and Replace",
+        "History",
+        "Home tab"
+      ],
+      "explanation": "Ctrl+H opens Find and Replace dialog. Ctrl+F opens Find only."
+    },
+    "hi": {
+      "question": "Ctrl+H क्या खोलता है?",
+      "options": [
+        "सहायता",
+        "खोजें और बदलें",
+        "इतिहास",
+        "होम टैब"
+      ],
+      "explanation": "Ctrl+H खोजें और बदलें डायलॉग खोलता है। Ctrl+F केवल खोजें।"
+    },
+    "id": "soft-0115"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ctrl+P is for?",
+      "options": [
+        "Paste",
+        "Page setup",
+        "Print",
+        "Properties"
+      ],
+      "explanation": "Ctrl+P opens the Print dialog to print the current document."
+    },
+    "hi": {
+      "question": "Ctrl+P किसके लिए है?",
+      "options": [
+        "पेस्ट",
+        "पेज सेटअप",
+        "प्रिंट",
+        "प्रॉपर्टीज़"
+      ],
+      "explanation": "Ctrl+P वर्तमान दस्तावेज़ प्रिंट करने के लिए प्रिंट डायलॉग खोलता है।"
+    },
+    "id": "soft-0116"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ctrl+N is for?",
+      "options": [
+        "Next page",
+        "Numbering",
+        "Navigation",
+        "New document/file"
+      ],
+      "explanation": "Ctrl+N creates a new blank document in Word, Excel, PowerPoint, etc."
+    },
+    "hi": {
+      "question": "Ctrl+N किसके लिए है?",
+      "options": [
+        "अगला पृष्ठ",
+        "नंबरिंग",
+        "नेविगेशन",
+        "नया दस्तावेज़/फाइल"
+      ],
+      "explanation": "Ctrl+N Word, Excel, PowerPoint आदि में नया खाली दस्तावेज़ बनाता है।"
+    },
+    "id": "soft-0117"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ctrl+O is used to?",
+      "options": [
+        "Open an existing file",
+        "Options",
+        "Outline view",
+        "Organize"
+      ],
+      "explanation": "Ctrl+O opens the Open File dialog to browse and open existing documents."
+    },
+    "hi": {
+      "question": "Ctrl+O किसके लिए उपयोग होता है?",
+      "options": [
+        "मौजूदा फाइल खोलना",
+        "विकल्प",
+        "आउटलाइन दृश्य",
+        "व्यवस्थित करना"
+      ],
+      "explanation": "Ctrl+O मौजूदा दस्तावेज़ ब्राउज़ और खोलने के लिए फाइल खोलें डायलॉग खोलता है।"
+    },
+    "id": "soft-0118"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ctrl+W does what?",
+      "options": [
+        "Word count",
+        "Close current document/window",
+        "Web layout",
+        "Wrap text"
+      ],
+      "explanation": "Ctrl+W closes the active document but keeps the application open."
+    },
+    "hi": {
+      "question": "Ctrl+W क्या करता है?",
+      "options": [
+        "शब्द गणना",
+        "वर्तमान दस्तावेज़/विंडो बंद करना",
+        "वेब लेआउट",
+        "टेक्स्ट रैप"
+      ],
+      "explanation": "Ctrl+W सक्रिय दस्तावेज़ बंद करता है लेकिन एप्लिकेशन खुला रखता है।"
+    },
+    "id": "soft-0119"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Ctrl+K is used to insert?",
+      "options": [
+        "Table",
+        "Image",
+        "Hyperlink",
+        "Chart"
+      ],
+      "explanation": "Ctrl+K inserts a hyperlink to a web page, email, or another location in the document."
+    },
+    "hi": {
+      "question": "Ctrl+K क्या डालने के लिए उपयोग होता है?",
+      "options": [
+        "तालिका",
+        "छवि",
+        "हाइपरलिंक",
+        "चार्ट"
+      ],
+      "explanation": "Ctrl+K वेब पेज, ईमेल या दस्तावेज़ में अन्य स्थान पर हाइपरलिंक डालता है।"
+    },
+    "id": "soft-0120"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is Mail Merge in MS Word?",
+      "options": [
+        "Email filtering",
+        "Spell check",
+        "Document encryption",
+        "Combining a document with a data source for mass personalized output"
+      ],
+      "explanation": "Mail Merge creates personalized letters, envelopes, or labels by merging a template with recipient data."
+    },
+    "hi": {
+      "question": "MS Word में मेल मर्ज क्या है?",
+      "options": [
+        "ईमेल फ़िल्टरिंग",
+        "वर्तनी जांच",
+        "दस्तावेज़ एन्क्रिप्शन",
+        "बड़े पैमाने पर व्यक्तिगत आउटपुट के लिए डेटा स्रोत के साथ दस्तावेज़ जोड़ना"
+      ],
+      "explanation": "मेल मर्ज प्राप्तकर्ता डेटा के साथ टेम्पलेट मर्ज करके व्यक्तिगत पत्र, लिफाफे या लेबल बनाता है।"
+    },
+    "id": "soft-0121"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Header and Footer in Word appear on?",
+      "options": [
+        "Top and bottom of each page",
+        "Left and right margins",
+        "Only first page",
+        "Only last page"
+      ],
+      "explanation": "Headers appear at the top, footers at the bottom of each page. Used for page numbers, titles, dates."
+    },
+    "hi": {
+      "question": "Word में हेडर और फुटर कहाँ दिखाई देते हैं?",
+      "options": [
+        "प्रत्येक पृष्ठ के ऊपर और नीचे",
+        "बाएं और दाएं मार्जिन",
+        "केवल पहला पृष्ठ",
+        "केवल अंतिम पृष्ठ"
+      ],
+      "explanation": "हेडर ऊपर, फुटर नीचे प्रत्येक पृष्ठ पर। पृष्ठ संख्या, शीर्षक, तिथियों के लिए।"
+    },
+    "id": "soft-0122"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is page orientation in Word?",
+      "options": [
+        "Page color",
+        "Portrait (vertical) or Landscape (horizontal)",
+        "Page size",
+        "Margin size"
+      ],
+      "explanation": "Portrait = taller than wide. Landscape = wider than tall. Found in Layout > Orientation."
+    },
+    "hi": {
+      "question": "Word में पेज ओरिएंटेशन क्या है?",
+      "options": [
+        "पृष्ठ रंग",
+        "पोर्ट्रेट (लंबवत) या लैंडस्केप (क्षैतिज)",
+        "पृष्ठ आकार",
+        "मार्जिन आकार"
+      ],
+      "explanation": "पोर्ट्रेट = चौड़ाई से अधिक ऊंचाई। लैंडस्केप = ऊंचाई से अधिक चौड़ाई। लेआउट > ओरिएंटेशन।"
+    },
+    "id": "soft-0123"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Spell check in Word is which function key?",
+      "options": [
+        "F5",
+        "F1",
+        "F7",
+        "F12"
+      ],
+      "explanation": "F7 runs spell check (Spelling & Grammar) in Microsoft Word."
+    },
+    "hi": {
+      "question": "Word में वर्तनी जांच कौन सी फंक्शन कुंजी है?",
+      "options": [
+        "F5",
+        "F1",
+        "F7",
+        "F12"
+      ],
+      "explanation": "F7 Microsoft Word में वर्तनी जांच (स्पेलिंग और ग्रामर) चलाता है।"
+    },
+    "id": "soft-0124"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which tab contains the Table option in MS Word?",
+      "options": [
+        "Home",
+        "Design",
+        "Review",
+        "Insert"
+      ],
+      "explanation": "Insert tab has options for Tables, Pictures, Shapes, Charts, Header/Footer, and more."
+    },
+    "hi": {
+      "question": "MS Word में टेबल विकल्प किस टैब में है?",
+      "options": [
+        "होम",
+        "डिज़ाइन",
+        "रिव्यू",
+        "इन्सर्ट"
+      ],
+      "explanation": "इन्सर्ट टैब में टेबल, चित्र, आकार, चार्ट, हेडर/फुटर आदि के विकल्प हैं।"
+    },
+    "id": "soft-0125"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the default font in MS Word?",
+      "options": [
+        "Calibri",
+        "Arial",
+        "Times New Roman",
+        "Verdana"
+      ],
+      "explanation": "Calibri (11 pt) has been the default font since Office 2007. Previously Times New Roman."
+    },
+    "hi": {
+      "question": "MS Word में डिफ़ॉल्ट फ़ॉन्ट क्या है?",
+      "options": [
+        "Calibri",
+        "Arial",
+        "Times New Roman",
+        "Verdana"
+      ],
+      "explanation": "Calibri (11 pt) Office 2007 से डिफ़ॉल्ट फ़ॉन्ट रहा है। पहले Times New Roman था।"
+    },
+    "id": "soft-0126"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "SUM function in Excel is used for?",
+      "options": [
+        "Text concatenation",
+        "Adding numbers",
+        "Finding average",
+        "Counting cells"
+      ],
+      "explanation": "=SUM(A1:A10) adds all numbers in the range A1 to A10."
+    },
+    "hi": {
+      "question": "Excel में SUM फंक्शन किसके लिए है?",
+      "options": [
+        "टेक्स्ट जोड़ना",
+        "संख्याएं जोड़ना",
+        "औसत निकालना",
+        "कोशिकाएं गिनना"
+      ],
+      "explanation": "=SUM(A1:A10) A1 से A10 श्रेणी की सभी संख्याएं जोड़ता है।"
+    },
+    "id": "soft-0127"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "AVERAGE function in Excel?",
+      "options": [
+        "Adds numbers",
+        "Finds maximum",
+        "Calculates mean of numbers",
+        "Counts cells"
+      ],
+      "explanation": "=AVERAGE(B1:B5) returns the mean (average) of values in cells B1 through B5."
+    },
+    "hi": {
+      "question": "Excel में AVERAGE फंक्शन?",
+      "options": [
+        "संख्याएं जोड़ता है",
+        "अधिकतम ढूंढता है",
+        "संख्याओं का माध्य निकालता है",
+        "कोशिकाएं गिनता है"
+      ],
+      "explanation": "=AVERAGE(B1:B5) B1 से B5 कोशिकाओं के मानों का माध्य (औसत) लौटाता है।"
+    },
+    "id": "soft-0128"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "COUNT function in Excel?",
+      "options": [
+        "Adds values",
+        "Finds average",
+        "Returns minimum",
+        "Counts cells containing numbers"
+      ],
+      "explanation": "=COUNT(range) counts cells that contain numbers. COUNTA counts non-empty cells."
+    },
+    "hi": {
+      "question": "Excel में COUNT फंक्शन?",
+      "options": [
+        "मान जोड़ता है",
+        "औसत ढूंढता है",
+        "न्यूनतम लौटाता है",
+        "संख्याएं वाली कोशिकाएं गिनता है"
+      ],
+      "explanation": "=COUNT(श्रेणी) संख्याएं वाली कोशिकाएं गिनता है। COUNTA गैर-खाली कोशिकाएं गिनता है।"
+    },
+    "id": "soft-0129"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "IF function in Excel syntax?",
+      "options": [
+        "=IF(condition, value_if_true, value_if_false)",
+        "=IF(range, value)",
+        "=IF(value, condition)",
+        "=IF(condition only)"
+      ],
+      "explanation": "=IF(A1>60, \"Pass\", \"Fail\") returns Pass if A1 > 60, else Fail."
+    },
+    "hi": {
+      "question": "Excel में IF फंक्शन सिंटैक्स?",
+      "options": [
+        "=IF(शर्त, सत्य_मान, असत्य_मान)",
+        "=IF(श्रेणी, मान)",
+        "=IF(मान, शर्त)",
+        "=IF(केवल शर्त)"
+      ],
+      "explanation": "=IF(A1>60, \"Pass\", \"Fail\") यदि A1 > 60 तो Pass, अन्यथा Fail लौटाता है।"
+    },
+    "id": "soft-0130"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "VLOOKUP function searches?",
+      "options": [
+        "Horizontally",
+        "Vertically in the first column of a range",
+        "Diagonally",
+        "In multiple sheets only"
+      ],
+      "explanation": "=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup]) searches vertically."
+    },
+    "hi": {
+      "question": "VLOOKUP फंक्शन कैसे खोजता है?",
+      "options": [
+        "क्षैतिज रूप से",
+        "श्रेणी के पहले कॉलम में लंबवत",
+        "तिरछे",
+        "केवल कई शीट में"
+      ],
+      "explanation": "=VLOOKUP(खोज_मान, तालिका_श्रेणी, कॉलम_सूचकांक, [श्रेणी_खोज]) लंबवत खोजता है।"
+    },
+    "id": "soft-0131"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HLOOKUP searches?",
+      "options": [
+        "Vertically",
+        "In multiple workbooks",
+        "Horizontally in the first row",
+        "Only in tables"
+      ],
+      "explanation": "=HLOOKUP looks for a value in the top row and returns a value from a specified row below."
+    },
+    "hi": {
+      "question": "HLOOKUP कैसे खोजता है?",
+      "options": [
+        "लंबवत",
+        "कई वर्कबुक में",
+        "पहली पंक्ति में क्षैतिज",
+        "केवल तालिकाओं में"
+      ],
+      "explanation": "=HLOOKUP शीर्ष पंक्ति में मान खोजता है और नीचे निर्दिष्ट पंक्ति से मान लौटाता है।"
+    },
+    "id": "soft-0132"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "MIN function in Excel returns?",
+      "options": [
+        "Maximum value",
+        "Average value",
+        "Sum",
+        "Smallest value in a range"
+      ],
+      "explanation": "=MIN(A1:A10) returns the smallest number. =MAX(range) returns the largest."
+    },
+    "hi": {
+      "question": "Excel में MIN फंक्शन क्या लौटाता है?",
+      "options": [
+        "अधिकतम मान",
+        "औसत मान",
+        "योग",
+        "श्रेणी में सबसे छोटा मान"
+      ],
+      "explanation": "=MIN(A1:A10) सबसे छोटी संख्या लौटाता है। =MAX(श्रेणी) सबसे बड़ी।"
+    },
+    "id": "soft-0133"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a cell reference in Excel?",
+      "options": [
+        "Column letter + Row number (e.g., B5)",
+        "Only row number",
+        "Only column letter",
+        "Sheet name"
+      ],
+      "explanation": "Cell reference identifies a cell by its column (letter) and row (number). E.g., A1, C4, Z100."
+    },
+    "hi": {
+      "question": "Excel में सेल रेफरेंस क्या है?",
+      "options": [
+        "कॉलम अक्षर + पंक्ति संख्या (जैसे B5)",
+        "केवल पंक्ति संख्या",
+        "केवल कॉलम अक्षर",
+        "शीट नाम"
+      ],
+      "explanation": "सेल रेफरेंस कॉलम (अक्षर) और पंक्ति (संख्या) द्वारा सेल की पहचान करता है। जैसे A1, C4, Z100।"
+    },
+    "id": "soft-0134"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is an absolute cell reference?",
+      "options": [
+        "Changes when copied",
+        "Fixed reference using $ (e.g., $A$1)",
+        "Only column reference",
+        "Only row reference"
+      ],
+      "explanation": "$A$1 is absolute — doesn't change when formula is copied. Relative (A1) adjusts. Mixed ($A1 or A$1)."
+    },
+    "hi": {
+      "question": "एब्सोल्यूट सेल रेफरेंस क्या है?",
+      "options": [
+        "कॉपी करने पर बदलता है",
+        "$ का उपयोग करके स्थिर रेफरेंस (जैसे $A$1)",
+        "केवल कॉलम रेफरेंस",
+        "केवल पंक्ति रेफरेंस"
+      ],
+      "explanation": "$A$1 एब्सोल्यूट — फॉर्मूला कॉपी करने पर नहीं बदलता। रिलेटिव (A1) समायोजित। मिश्रित ($A1 या A$1)।"
+    },
+    "id": "soft-0135"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a Pivot Table in Excel?",
+      "options": [
+        "A simple table",
+        "A formatting tool",
+        "Data summarization and analysis tool",
+        "A chart type"
+      ],
+      "explanation": "Pivot Table groups, summarizes, and analyzes large datasets interactively."
+    },
+    "hi": {
+      "question": "Excel में पिवट टेबल क्या है?",
+      "options": [
+        "एक साधारण तालिका",
+        "एक फ़ॉर्मेटिंग उपकरण",
+        "डेटा सारांश और विश्लेषण उपकरण",
+        "एक चार्ट प्रकार"
+      ],
+      "explanation": "पिवट टेबल बड़े डेटासेट को इंटरैक्टिव रूप से समूहित, सारांशित और विश्लेषण करता है।"
+    },
+    "id": "soft-0136"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which tab has Chart option in Excel?",
+      "options": [
+        "Home",
+        "Formulas",
+        "Data",
+        "Insert"
+      ],
+      "explanation": "Insert tab contains options for Charts, PivotTables, Pictures, Shapes, and Sparklines."
+    },
+    "hi": {
+      "question": "Excel में चार्ट विकल्प किस टैब में है?",
+      "options": [
+        "होम",
+        "फॉर्मूला",
+        "डेटा",
+        "इन्सर्ट"
+      ],
+      "explanation": "इन्सर्ट टैब में चार्ट, पिवटटेबल, चित्र, आकार और स्पार्कलाइन के विकल्प हैं।"
+    },
+    "id": "soft-0137"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which chart type is best for showing trends over time?",
+      "options": [
+        "Line chart",
+        "Pie chart",
+        "Bar chart",
+        "Scatter plot"
+      ],
+      "explanation": "Line charts show trends over time (e.g., monthly sales). Pie charts show proportions of a whole."
+    },
+    "hi": {
+      "question": "समय के साथ रुझान दिखाने के लिए सबसे अच्छा चार्ट कौन सा है?",
+      "options": [
+        "लाइन चार्ट",
+        "पाई चार्ट",
+        "बार चार्ट",
+        "स्कैटर प्लॉट"
+      ],
+      "explanation": "लाइन चार्ट समय के साथ रुझान दिखाते हैं (जैसे मासिक बिक्री)। पाई चार्ट पूरे का अनुपात।"
+    },
+    "id": "soft-0138"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pie chart shows?",
+      "options": [
+        "Trends over time",
+        "Parts of a whole (percentages)",
+        "Correlation",
+        "Frequency distribution"
+      ],
+      "explanation": "Pie charts display proportions/percentages of a whole. Each slice represents a category."
+    },
+    "hi": {
+      "question": "पाई चार्ट क्या दिखाता है?",
+      "options": [
+        "समय के साथ रुझान",
+        "पूरे के भाग (प्रतिशत)",
+        "सहसंबंध",
+        "आवृत्ति वितरण"
+      ],
+      "explanation": "पाई चार्ट पूरे के अनुपात/प्रतिशत प्रदर्शित करते हैं। प्रत्येक टुकड़ा एक श्रेणी दर्शाता है।"
+    },
+    "id": "soft-0139"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a slide master in PowerPoint?",
+      "options": [
+        "First slide",
+        "A type of animation",
+        "Template controlling layout and design of all slides",
+        "Presenter view"
+      ],
+      "explanation": "Slide Master defines the overall design, fonts, colors, and placeholders for all slides."
+    },
+    "hi": {
+      "question": "PowerPoint में स्लाइड मास्टर क्या है?",
+      "options": [
+        "पहली स्लाइड",
+        "एक प्रकार का एनिमेशन",
+        "सभी स्लाइडों का लेआउट और डिज़ाइन नियंत्रित करने वाला टेम्पलेट",
+        "प्रस्तुतकर्ता दृश्य"
+      ],
+      "explanation": "स्लाइड मास्टर सभी स्लाइडों के लिए समग्र डिज़ाइन, फ़ॉन्ट, रंग और प्लेसहोल्डर परिभाषित करता है।"
+    },
+    "id": "soft-0140"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "How to start slideshow from beginning in PowerPoint?",
+      "options": [
+        "F1",
+        "Ctrl+S",
+        "Alt+F5",
+        "F5"
+      ],
+      "explanation": "F5 starts slideshow from first slide. Shift+F5 starts from current slide."
+    },
+    "hi": {
+      "question": "PowerPoint में शुरुआत से स्लाइडशो कैसे शुरू करें?",
+      "options": [
+        "F1",
+        "Ctrl+S",
+        "Alt+F5",
+        "F5"
+      ],
+      "explanation": "F5 पहली स्लाइड से स्लाइडशो शुरू करता है। Shift+F5 वर्तमान स्लाइड से।"
+    },
+    "id": "soft-0141"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What are slide transitions in PowerPoint?",
+      "options": [
+        "Animation effects when moving from one slide to next",
+        "Text animations",
+        "Chart animations",
+        "Image effects"
+      ],
+      "explanation": "Transitions are visual effects between slides (fade, push, wipe, etc.). Animations apply to objects within a slide."
+    },
+    "hi": {
+      "question": "PowerPoint में स्लाइड ट्रांज़िशन क्या हैं?",
+      "options": [
+        "एक स्लाइड से दूसरी पर जाने का एनिमेशन प्रभाव",
+        "टेक्स्ट एनिमेशन",
+        "चार्ट एनिमेशन",
+        "छवि प्रभाव"
+      ],
+      "explanation": "ट्रांज़िशन स्लाइडों के बीच दृश्य प्रभाव (फेड, पुश, वाइप)। एनिमेशन स्लाइड की वस्तुओं पर लागू।"
+    },
+    "id": "soft-0142"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Slide layout in PowerPoint determines?",
+      "options": [
+        "Animation speed",
+        "Arrangement of placeholders (title, content, etc.)",
+        "Transition effects",
+        "File size"
+      ],
+      "explanation": "Layouts define where title, text, images, and other content appear on a slide."
+    },
+    "hi": {
+      "question": "PowerPoint में स्लाइड लेआउट क्या निर्धारित करता है?",
+      "options": [
+        "एनिमेशन गति",
+        "प्लेसहोल्डर की व्यवस्था (शीर्षक, सामग्री)",
+        "ट्रांज़िशन प्रभाव",
+        "फाइल आकार"
+      ],
+      "explanation": "लेआउट परिभाषित करते हैं कि स्लाइड पर शीर्षक, टेक्स्ट, छवियां और अन्य सामग्री कहाँ दिखाई देती है।"
+    },
+    "id": "soft-0143"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Alt+Tab is used for?",
+      "options": [
+        "Close window",
+        "Save file",
+        "Switch between open applications",
+        "Open settings"
+      ],
+      "explanation": "Alt+Tab switches between open windows/applications. Win+Tab shows Task View with timeline."
+    },
+    "hi": {
+      "question": "Alt+Tab किसके लिए उपयोग होता है?",
+      "options": [
+        "विंडो बंद करना",
+        "फाइल सहेजना",
+        "खुले अनुप्रयोगों के बीच स्विच करना",
+        "सेटिंग्स खोलना"
+      ],
+      "explanation": "Alt+Tab खुली विंडो/अनुप्रयोगों के बीच स्विच करता है। Win+Tab टाइमलाइन के साथ टास्क व्यू।"
+    },
+    "id": "soft-0144"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the file extension for Excel macro-enabled workbook?",
+      "options": [
+        ".xlsx",
+        ".xls",
+        ".csv",
+        ".xlsm"
+      ],
+      "explanation": ".xlsm is macro-enabled workbook. .xlsx is standard. .xlsb is binary. .csv is comma-separated values."
+    },
+    "hi": {
+      "question": "Excel मैक्रो-सक्षम वर्कबुक का फाइल एक्सटेंशन?",
+      "options": [
+        ".xlsx",
+        ".xls",
+        ".csv",
+        ".xlsm"
+      ],
+      "explanation": ".xlsm मैक्रो-सक्षम वर्कबुक। .xlsx मानक। .xlsb बाइनरी। .csv कॉमा-सेपरेटेड वैल्यू।"
+    },
+    "id": "soft-0145"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the difference between Save and Save As?",
+      "options": [
+        "Save overwrites existing; Save As creates new copy with new name/location",
+        "Both same",
+        "Save creates backup",
+        "Save As deletes original"
+      ],
+      "explanation": "Save updates current file. Save As creates a duplicate with option to rename or change location."
+    },
+    "hi": {
+      "question": "Save और Save As में क्या अंतर है?",
+      "options": [
+        "Save मौजूदा को ओवरराइट; Save As नए नाम/स्थान से नई प्रति",
+        "दोनों समान",
+        "Save बैकअप बनाता है",
+        "Save As मूल हटाता है"
+      ],
+      "explanation": "Save वर्तमान फाइल अपडेट। Save As नाम बदलने या स्थान बदलने के विकल्प के साथ डुप्लिकेट बनाता है।"
+    },
+    "id": "soft-0146"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the ribbon in MS Office?",
+      "options": [
+        "A status bar",
+        "Toolbar with tabs containing commands (Home, Insert, etc.)",
+        "Title bar",
+        "Scroll bar"
+      ],
+      "explanation": "Ribbon organizes commands into tabs and groups for easy access. Replaced old menus/toolbars."
+    },
+    "hi": {
+      "question": "MS Office में रिबन क्या है?",
+      "options": [
+        "एक स्टेटस बार",
+        "कमांड वाले टैब (होम, इन्सर्ट) वाला टूलबार",
+        "टाइटल बार",
+        "स्क्रॉल बार"
+      ],
+      "explanation": "रिबन आसान पहुंच के लिए कमांड को टैब और समूहों में व्यवस्थित करता है। पुराने मेनू/टूलबार को बदला।"
+    },
+    "id": "soft-0147"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does CONCATENATE function do in Excel?",
+      "options": [
+        "Adds numbers",
+        "Finds average",
+        "Joins text strings together",
+        "Counts cells"
+      ],
+      "explanation": "=CONCATENATE(A1, \" \", B1) or =A1 & \" \" & B1 joins text. CONCAT is the modern version."
+    },
+    "hi": {
+      "question": "Excel में CONCATENATE फंक्शन क्या करता है?",
+      "options": [
+        "संख्याएं जोड़ता है",
+        "औसत ढूंढता है",
+        "टेक्स्ट स्ट्रिंग जोड़ता है",
+        "कोशिकाएं गिनता है"
+      ],
+      "explanation": "=CONCATENATE(A1, \" \", B1) या =A1 & \" \" & B1 टेक्स्ट जोड़ता है। CONCAT आधुनिक संस्करण।"
+    },
+    "id": "soft-0148"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is conditional formatting in Excel?",
+      "options": [
+        "Manual cell coloring",
+        "Print settings",
+        "Table borders",
+        "Auto-format cells based on conditions/rules"
+      ],
+      "explanation": "Conditional formatting highlights cells based on rules (e.g., red if value < 0, green if > 100)."
+    },
+    "hi": {
+      "question": "Excel में कंडीशनल फ़ॉर्मेटिंग क्या है?",
+      "options": [
+        "मैनुअल सेल रंग",
+        "प्रिंट सेटिंग्स",
+        "तालिका बॉर्डर",
+        "शर्तों/नियमों के आधार पर स्वचालित सेल फ़ॉर्मेटिंग"
+      ],
+      "explanation": "कंडीशनल फ़ॉर्मेटिंग नियमों के आधार पर कोशिकाओं को हाइलाइट करती है (जैसे मान < 0 तो लाल, > 100 तो हरा)।"
+    },
+    "id": "soft-0149"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the default file extension for PowerPoint template?",
+      "options": [
+        ".potx",
+        ".pptx",
+        ".ppsx",
+        ".pptm"
+      ],
+      "explanation": ".potx is PowerPoint template. .pptx is normal presentation. .ppsx opens directly in slideshow."
+    },
+    "hi": {
+      "question": "PowerPoint टेम्पलेट का डिफ़ॉल्ट फाइल एक्सटेंशन?",
+      "options": [
+        ".potx",
+        ".pptx",
+        ".ppsx",
+        ".pptm"
+      ],
+      "explanation": ".potx PowerPoint टेम्पलेट। .pptx सामान्य प्रस्तुति। .ppsx सीधे स्लाइडशो में खुलता है।"
+    },
+    "id": "soft-0150"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does 'Wrap Text' do in Excel?",
+      "options": [
+        "Delete text",
+        "Display long text on multiple lines within a cell",
+        "Hide text",
+        "Bold text"
+      ],
+      "explanation": "Wrap Text makes long text visible by expanding the row height and showing content on multiple lines."
+    },
+    "hi": {
+      "question": "Excel में 'Wrap Text' क्या करता है?",
+      "options": [
+        "टेक्स्ट हटाना",
+        "सेल के भीतर कई पंक्तियों में लंबा टेक्स्ट दिखाना",
+        "टेक्स्ट छिपाना",
+        "टेक्स्ट बोल्ड"
+      ],
+      "explanation": "Wrap Text पंक्ति ऊंचाई बढ़ाकर और सामग्री को कई पंक्तियों में दिखाकर लंबे टेक्स्ट को दृश्यमान बनाता है।"
+    },
+    "id": "soft-0151"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is Merge and Center in Excel?",
+      "options": [
+        "Delete cells",
+        "Split cells",
+        "Combine multiple cells into one and center content",
+        "Copy formatting"
+      ],
+      "explanation": "Merge & Center combines selected cells into one larger cell and centers the text."
+    },
+    "hi": {
+      "question": "Excel में Merge and Center क्या है?",
+      "options": [
+        "कोशिकाएं हटाना",
+        "कोशिकाएं विभाजित करना",
+        "कई कोशिकाओं को एक में जोड़ना और सामग्री केंद्रित करना",
+        "फ़ॉर्मेटिंग कॉपी करना"
+      ],
+      "explanation": "Merge & Center चयनित कोशिकाओं को एक बड़ी कोशिका में जोड़ता है और टेक्स्ट केंद्रित करता है।"
+    },
+    "id": "soft-0152"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "F1 key in MS Office?",
+      "options": [
+        "Save",
+        "Print",
+        "Find",
+        "Help"
+      ],
+      "explanation": "F1 opens the Help window for the current MS Office application."
+    },
+    "hi": {
+      "question": "MS Office में F1 कुंजी?",
+      "options": [
+        "सेव",
+        "प्रिंट",
+        "खोजें",
+        "सहायता"
+      ],
+      "explanation": "F1 वर्तमान MS Office एप्लिकेशन के लिए सहायता विंडो खोलता है।"
+    },
+    "id": "soft-0153"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "F12 key in MS Office?",
+      "options": [
+        "Save As",
+        "Print",
+        "Close",
+        "New document"
+      ],
+      "explanation": "F12 opens the Save As dialog box in Word, Excel, PowerPoint."
+    },
+    "hi": {
+      "question": "MS Office में F12 कुंजी?",
+      "options": [
+        "Save As",
+        "प्रिंट",
+        "बंद",
+        "नया दस्तावेज़"
+      ],
+      "explanation": "F12 Word, Excel, PowerPoint में Save As डायलॉग बॉक्स खोलता है।"
+    },
+    "id": "soft-0154"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which alignment option centers text between left and right margins?",
+      "options": [
+        "Left align",
+        "Center align",
+        "Right align",
+        "Justify"
+      ],
+      "explanation": "Center (Ctrl+E) places text in the middle. Justify (Ctrl+J) spreads text to both margins."
+    },
+    "hi": {
+      "question": "कौन सा संरेखण विकल्प टेक्स्ट को बाएं-दाएं मार्जिन के बीच केंद्रित करता है?",
+      "options": [
+        "बायां संरेखण",
+        "केंद्र संरेखण",
+        "दायां संरेखण",
+        "जस्टिफ़ाइ"
+      ],
+      "explanation": "केंद्र (Ctrl+E) टेक्स्ट बीच में। जस्टिफ़ाइ (Ctrl+J) टेक्स्ट दोनों मार्जिन तक फैलाता है।"
+    },
+    "id": "soft-0155"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a bulleted list?",
+      "options": [
+        "Numbered items",
+        "Alphabet list",
+        "Items preceded by symbols (dots, arrows)",
+        "Table of contents"
+      ],
+      "explanation": "Bulleted lists use symbols (•, -, →) for unordered items. Numbered lists use 1, 2, 3 for ordered items."
+    },
+    "hi": {
+      "question": "बुलेटेड सूची क्या है?",
+      "options": [
+        "क्रमांकित आइटम",
+        "वर्णमाला सूची",
+        "प्रतीकों (बिंदु, तीर) से पहले वाले आइटम",
+        "विषय सूची"
+      ],
+      "explanation": "बुलेटेड सूची अक्रमित आइटम के लिए प्रतीक (•, -, →) उपयोग। क्रमांकित सूची क्रमित के लिए 1, 2, 3।"
+    },
+    "id": "soft-0156"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the purpose of Format Painter?",
+      "options": [
+        "Draw shapes",
+        "Color fill",
+        "New brush",
+        "Copy formatting from one place and apply to another"
+      ],
+      "explanation": "Format Painter (Ctrl+Shift+C to copy, Ctrl+Shift+V to paste format) duplicates styling."
+    },
+    "hi": {
+      "question": "फ़ॉर्मेट पेंटर का उद्देश्य क्या है?",
+      "options": [
+        "आकार बनाना",
+        "रंग भरना",
+        "नया ब्रश",
+        "एक स्थान से फ़ॉर्मेटिंग कॉपी कर दूसरे पर लगाना"
+      ],
+      "explanation": "फ़ॉर्मेट पेंटर (Ctrl+Shift+C कॉपी, Ctrl+Shift+V फ़ॉर्मेट पेस्ट) स्टाइलिंग डुप्लिकेट करता है।"
+    },
+    "id": "soft-0157"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which MS Office application is used for spreadsheets?",
+      "options": [
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Microsoft PowerPoint",
+        "Microsoft Access"
+      ],
+      "explanation": "Excel handles spreadsheets. Word = documents. PowerPoint = presentations. Access = databases."
+    },
+    "hi": {
+      "question": "स्प्रेडशीट के लिए कौन सा MS Office एप्लिकेशन उपयोग होता है?",
+      "options": [
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Microsoft PowerPoint",
+        "Microsoft Access"
+      ],
+      "explanation": "Excel स्प्रेडशीट। Word = दस्तावेज़। PowerPoint = प्रस्तुति। Access = डेटाबेस।"
+    },
+    "id": "soft-0158"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which MS Office application is used for presentations?",
+      "options": [
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Word",
+        "Microsoft Outlook"
+      ],
+      "explanation": "PowerPoint creates slide-based presentations for meetings, lectures, and conferences."
+    },
+    "hi": {
+      "question": "प्रस्तुतियों के लिए कौन सा MS Office एप्लिकेशन उपयोग होता है?",
+      "options": [
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Word",
+        "Microsoft Outlook"
+      ],
+      "explanation": "PowerPoint बैठकों, व्याख्यानों और सम्मेलनों के लिए स्लाइड-आधारित प्रस्तुतियां बनाता है।"
+    },
+    "id": "soft-0159"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a macro in MS Office?",
+      "options": [
+        "A large file",
+        "A font type",
+        "Recorded sequence of commands/actions for automation",
+        "A chart type"
+      ],
+      "explanation": "Macros automate repetitive tasks using VBA code. Can be recorded or written manually."
+    },
+    "hi": {
+      "question": "MS Office में मैक्रो क्या है?",
+      "options": [
+        "एक बड़ी फाइल",
+        "एक फ़ॉन्ट प्रकार",
+        "स्वचालन के लिए कमांड/क्रियाओं का रिकॉर्डेड अनुक्रम",
+        "एक चार्ट प्रकार"
+      ],
+      "explanation": "मैक्रो VBA कोड का उपयोग करके दोहराए जाने वाले कार्यों को स्वचालित करते हैं। रिकॉर्ड या मैन्युअल लिखे जा सकते हैं।"
+    },
+    "id": "soft-0160"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which view shows slides as thumbnails in PowerPoint?",
+      "options": [
+        "Reading view",
+        "Outline view",
+        "Notes page",
+        "Slide Sorter view"
+      ],
+      "explanation": "Slide Sorter shows all slides as thumbnails, making it easy to reorder, add, or delete slides."
+    },
+    "hi": {
+      "question": "PowerPoint में कौन सा दृश्य स्लाइड को थंबनेल के रूप में दिखाता है?",
+      "options": [
+        "रीडिंग व्यू",
+        "आउटलाइन व्यू",
+        "नोट्स पेज",
+        "स्लाइड सॉर्टर व्यू"
+      ],
+      "explanation": "स्लाइड सॉर्टर सभी स्लाइड को थंबनेल के रूप में दिखाता है, पुनर्क्रमित, जोड़ना या हटाना आसान।"
+    },
+    "id": "soft-0161"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the maximum number of rows in Excel?",
+      "options": [
+        "1,048,576",
+        "65,536",
+        "500,000",
+        "2,000,000"
+      ],
+      "explanation": "Excel worksheet has 1,048,576 rows (2^20) and 16,384 columns (XFD)."
+    },
+    "hi": {
+      "question": "Excel में पंक्तियों की अधिकतम संख्या कितनी है?",
+      "options": [
+        "1,048,576",
+        "65,536",
+        "500,000",
+        "2,000,000"
+      ],
+      "explanation": "Excel वर्कशीट में 1,048,576 पंक्तियाँ (2^20) और 16,384 कॉलम (XFD) हैं।"
+    },
+    "id": "soft-0162"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the function of 'Freeze Panes' in Excel?",
+      "options": [
+        "Lock cells from editing",
+        "Keep rows/columns visible while scrolling",
+        "Save the worksheet",
+        "Print settings"
+      ],
+      "explanation": "Freeze Panes locks specific rows or columns so they remain visible when scrolling through large data."
+    },
+    "hi": {
+      "question": "Excel में 'Freeze Panes' का कार्य क्या है?",
+      "options": [
+        "कोशिकाओं को संपादन से लॉक करना",
+        "स्क्रॉल करते समय पंक्तियाँ/कॉलम दृश्यमान रखना",
+        "वर्कशीट सहेजना",
+        "प्रिंट सेटिंग्स"
+      ],
+      "explanation": "Freeze Panes विशिष्ट पंक्तियों या कॉलमों को लॉक करता है ताकि बड़े डेटा में स्क्रॉल करते समय वे दृश्यमान रहें।"
+    },
+    "id": "soft-0163"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the formula bar in Excel?",
+      "options": [
+        "Status bar",
+        "Title bar",
+        "Bar showing and editing cell content/formulas",
+        "Menu bar"
+      ],
+      "explanation": "Formula bar displays the content or formula of the selected cell. Located below the ribbon."
+    },
+    "hi": {
+      "question": "Excel में फ़ॉर्मूला बार क्या है?",
+      "options": [
+        "स्टेटस बार",
+        "टाइटल बार",
+        "सेल सामग्री/फ़ॉर्मूला दिखाने और संपादित करने वाला बार",
+        "मेनू बार"
+      ],
+      "explanation": "फ़ॉर्मूला बार चयनित सेल की सामग्री या फ़ॉर्मूला प्रदर्शित करता है। रिबन के नीचे स्थित।"
+    },
+    "id": "soft-0164"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does 'Sort & Filter' do in Excel?",
+      "options": [
+        "Delete data",
+        "Format cells",
+        "Print data",
+        "Organize data by ascending/descending or filter criteria"
+      ],
+      "explanation": "Sort arranges data alphabetically or numerically. Filter shows only rows meeting specific criteria."
+    },
+    "hi": {
+      "question": "Excel में 'Sort & Filter' क्या करता है?",
+      "options": [
+        "डेटा हटाना",
+        "कोशिकाएं फ़ॉर्मेट करना",
+        "डेटा प्रिंट करना",
+        "आरोही/अवरोही या फ़िल्टर मानदंड से डेटा व्यवस्थित करना"
+      ],
+      "explanation": "Sort डेटा को वर्णमाला या संख्यात्मक रूप से व्यवस्थित। Filter केवल विशिष्ट मानदंड वाली पंक्तियाँ दिखाता है।"
+    },
+    "id": "soft-0165"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does Ctrl+Enter do in Word?",
+      "options": [
+        "Page break",
+        "Line break",
+        "Save",
+        "Close document"
+      ],
+      "explanation": "Ctrl+Enter inserts a manual page break, forcing content to start on the next page."
+    },
+    "hi": {
+      "question": "Word में Ctrl+Enter क्या करता है?",
+      "options": [
+        "पृष्ठ विराम",
+        "पंक्ति विराम",
+        "सहेजें",
+        "दस्तावेज़ बंद करें"
+      ],
+      "explanation": "Ctrl+Enter मैनुअल पृष्ठ विराम डालता है, सामग्री को अगले पृष्ठ पर शुरू करने के लिए मजबूर करता है।"
+    },
+    "id": "soft-0166"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is Track Changes in Word used for?",
+      "options": [
+        "Version history",
+        "Reviewing/recording edits made by collaborators",
+        "File backup",
+        "Printing logs"
+      ],
+      "explanation": "Track Changes highlights additions, deletions, and formatting changes made by reviewers."
+    },
+    "hi": {
+      "question": "Word में Track Changes किसके लिए उपयोग होता है?",
+      "options": [
+        "संस्करण इतिहास",
+        "सहयोगियों द्वारा किए गए संपादन की समीक्षा/रिकॉर्डिंग",
+        "फाइल बैकअप",
+        "प्रिंटिंग लॉग"
+      ],
+      "explanation": "Track Changes समीक्षकों द्वारा किए गए जोड़, विलोपन और फ़ॉर्मेटिंग परिवर्तनों को हाइलाइट करता है।"
+    },
+    "id": "soft-0167"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is WordArt in MS Office?",
+      "options": [
+        "Clip art",
+        "Picture editing",
+        "Stylized text with special effects",
+        "Drawing tool"
+      ],
+      "explanation": "WordArt creates decorative text with effects like shadows, outlines, gradients, and 3D."
+    },
+    "hi": {
+      "question": "MS Office में WordArt क्या है?",
+      "options": [
+        "क्लिप आर्ट",
+        "चित्र संपादन",
+        "विशेष प्रभावों के साथ स्टाइलिश टेक्स्ट",
+        "ड्राइंग उपकरण"
+      ],
+      "explanation": "WordArt छाया, आउटलाइन, ग्रेडिएंट और 3D जैसे प्रभावों के साथ सजावटी टेक्स्ट बनाता है।"
+    },
+    "id": "soft-0168"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the purpose of 'References' tab in Word?",
+      "options": [
+        "Page layout",
+        "Mail merge",
+        "Design",
+        "Table of contents, footnotes, citations, bibliography"
+      ],
+      "explanation": "References tab manages citations, bibliography, table of contents, footnotes, and captions."
+    },
+    "hi": {
+      "question": "Word में 'References' टैब का उद्देश्य क्या है?",
+      "options": [
+        "पृष्ठ लेआउट",
+        "मेल मर्ज",
+        "डिज़ाइन",
+        "विषय सूची, फुटनोट, उद्धरण, ग्रंथ सूची"
+      ],
+      "explanation": "References टैब उद्धरण, ग्रंथ सूची, विषय सूची, फुटनोट और कैप्शन प्रबंधित करता है।"
+    },
+    "id": "soft-0169"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the default page size in MS Word?",
+      "options": [
+        "A4 (210 × 297 mm)",
+        "Letter (8.5 × 11 in)",
+        "Legal",
+        "A3"
+      ],
+      "explanation": "Default depends on region. In India/Europe it's A4. In US it's Letter. Can be changed in Layout > Size."
+    },
+    "hi": {
+      "question": "MS Word में डिफ़ॉल्ट पृष्ठ आकार क्या है?",
+      "options": [
+        "A4 (210 × 297 मिमी)",
+        "Letter (8.5 × 11 इंच)",
+        "Legal",
+        "A3"
+      ],
+      "explanation": "डिफ़ॉल्ट क्षेत्र पर निर्भर। भारत/यूरोप में A4। US में Letter। लेआउट > आकार में बदला जा सकता है।"
+    },
+    "id": "soft-0170"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which key is used to move to the next cell in Excel?",
+      "options": [
+        "Enter",
+        "Tab",
+        "Space",
+        "Shift"
+      ],
+      "explanation": "Tab moves right one cell. Enter moves down one cell. Shift+Tab moves left."
+    },
+    "hi": {
+      "question": "Excel में अगली सेल पर जाने के लिए कौन सी कुंजी उपयोग होती है?",
+      "options": [
+        "Enter",
+        "Tab",
+        "Space",
+        "Shift"
+      ],
+      "explanation": "Tab एक सेल दाएं ले जाता है। Enter एक सेल नीचे। Shift+Tab बाएं।"
+    },
+    "id": "soft-0171"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does the LEN function return in Excel?",
+      "options": [
+        "Sum of values",
+        "Average",
+        "Number of characters in a text string",
+        "Largest value"
+      ],
+      "explanation": "=LEN(\"Hello\") returns 5. It counts all characters including spaces."
+    },
+    "hi": {
+      "question": "Excel में LEN फंक्शन क्या लौटाता है?",
+      "options": [
+        "मानों का योग",
+        "औसत",
+        "टेक्स्ट स्ट्रिंग में वर्णों की संख्या",
+        "सबसे बड़ा मान"
+      ],
+      "explanation": "=LEN(\"Hello\") 5 लौटाता है। यह रिक्त स्थान सहित सभी वर्ण गिनता है।"
+    },
+    "id": "soft-0172"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does TRIM function do in Excel?",
+      "options": [
+        "Cut text",
+        "Bold text",
+        "Delete cells",
+        "Remove extra spaces from text"
+      ],
+      "explanation": "=TRIM(\"  Hello   World  \") returns \"Hello World\" — removes leading, trailing, and excess spaces."
+    },
+    "hi": {
+      "question": "Excel में TRIM फंक्शन क्या करता है?",
+      "options": [
+        "टेक्स्ट काटना",
+        "टेक्स्ट बोल्ड",
+        "कोशिकाएं हटाना",
+        "टेक्स्ट से अतिरिक्त रिक्त स्थान हटाना"
+      ],
+      "explanation": "=TRIM(\"  Hello   World  \") \"Hello World\" लौटाता है — आगे, पीछे और अतिरिक्त स्थान हटाता है।"
+    },
+    "id": "soft-0173"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the shortcut for inserting current date in Excel?",
+      "options": [
+        "Ctrl+; (semicolon)",
+        "Ctrl+D",
+        "Ctrl+T",
+        "Ctrl+Shift+D"
+      ],
+      "explanation": "Ctrl+; inserts today's date. Ctrl+Shift+; inserts current time. These are static values."
+    },
+    "hi": {
+      "question": "Excel में वर्तमान तिथि डालने का शॉर्टकट क्या है?",
+      "options": [
+        "Ctrl+; (सेमीकोलन)",
+        "Ctrl+D",
+        "Ctrl+T",
+        "Ctrl+Shift+D"
+      ],
+      "explanation": "Ctrl+; आज की तिथि डालता है। Ctrl+Shift+; वर्तमान समय। ये स्थिर मान हैं।"
+    },
+    "id": "soft-0174"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which ribbon tab has Spell Check in MS Word?",
+      "options": [
+        "Home",
+        "Review",
+        "Insert",
+        "Design"
+      ],
+      "explanation": "Review tab has Spelling & Grammar, Thesaurus, Word Count, Track Changes, and Comments."
+    },
+    "hi": {
+      "question": "MS Word में वर्तनी जांच किस रिबन टैब में है?",
+      "options": [
+        "होम",
+        "रिव्यू",
+        "इन्सर्ट",
+        "डिज़ाइन"
+      ],
+      "explanation": "रिव्यू टैब में स्पेलिंग और ग्रामर, थिसॉरस, शब्द गणना, ट्रैक चेंजेस और टिप्पणियां हैं।"
+    },
+    "id": "soft-0175"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the function of Ctrl+Shift+> in Word?",
+      "options": [
+        "Increase indent",
+        "Right align",
+        "Increase font size",
+        "Bold"
+      ],
+      "explanation": "Ctrl+Shift+> increases font size. Ctrl+Shift+< decreases font size."
+    },
+    "hi": {
+      "question": "Word में Ctrl+Shift+> का कार्य क्या है?",
+      "options": [
+        "इंडेंट बढ़ाना",
+        "दायां संरेखण",
+        "फ़ॉन्ट आकार बढ़ाना",
+        "बोल्ड"
+      ],
+      "explanation": "Ctrl+Shift+> फ़ॉन्ट आकार बढ़ाता है। Ctrl+Shift+< फ़ॉन्ट आकार घटाता है।"
+    },
+    "id": "soft-0176"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a sparkline in Excel?",
+      "options": [
+        "A chart type",
+        "A formula",
+        "A macro",
+        "Mini chart inside a single cell"
+      ],
+      "explanation": "Sparkline is a tiny chart in a cell showing data trends (line, column, win/loss)."
+    },
+    "hi": {
+      "question": "Excel में स्पार्कलाइन क्या है?",
+      "options": [
+        "एक चार्ट प्रकार",
+        "एक फ़ॉर्मूला",
+        "एक मैक्रो",
+        "एक सेल के अंदर छोटा चार्ट"
+      ],
+      "explanation": "स्पार्कलाइन डेटा रुझान (लाइन, कॉलम, जीत/हार) दिखाने वाला सेल में छोटा चार्ट है।"
+    },
+    "id": "soft-0177"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the shortcut Ctrl+Shift+N in PowerPoint?",
+      "options": [
+        "Duplicate slide",
+        "New slide",
+        "New presentation",
+        "Next slide"
+      ],
+      "explanation": "Ctrl+Shift+N duplicates the selected slide. Ctrl+M inserts a new blank slide."
+    },
+    "hi": {
+      "question": "PowerPoint में Ctrl+Shift+N शॉर्टकट क्या है?",
+      "options": [
+        "स्लाइड डुप्लिकेट",
+        "नई स्लाइड",
+        "नई प्रस्तुति",
+        "अगली स्लाइड"
+      ],
+      "explanation": "Ctrl+Shift+N चयनित स्लाइड डुप्लिकेट करता है। Ctrl+M नई खाली स्लाइड डालता है।"
+    },
+    "id": "soft-0178"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the purpose of the Quick Access Toolbar?",
+      "options": [
+        "File browsing",
+        "Customizable toolbar for frequently used commands",
+        "Help menu",
+        "Status display"
+      ],
+      "explanation": "Quick Access Toolbar sits above the ribbon and can be customized with Save, Undo, Redo, etc."
+    },
+    "hi": {
+      "question": "क्विक एक्सेस टूलबार का उद्देश्य क्या है?",
+      "options": [
+        "फाइल ब्राउज़िंग",
+        "बार-बार उपयोग किए जाने वाले कमांड के लिए अनुकूलन योग्य टूलबार",
+        "सहायता मेनू",
+        "स्थिति प्रदर्शन"
+      ],
+      "explanation": "क्विक एक्सेस टूलबार रिबन के ऊपर बैठता है और Save, Undo, Redo आदि से अनुकूलित किया जा सकता है।"
+    },
+    "id": "soft-0179"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does the PROPER function do in Excel?",
+      "options": [
+        "Proper formatting",
+        "Check spelling",
+        "Capitalize first letter of each word",
+        "Validate data"
+      ],
+      "explanation": "=PROPER(\"john doe\") returns \"John Doe\". UPPER makes all caps, LOWER makes all lowercase."
+    },
+    "hi": {
+      "question": "Excel में PROPER फंक्शन क्या करता है?",
+      "options": [
+        "उचित फ़ॉर्मेटिंग",
+        "वर्तनी जांच",
+        "प्रत्येक शब्द का पहला अक्षर बड़ा करना",
+        "डेटा सत्यापन"
+      ],
+      "explanation": "=PROPER(\"john doe\") \"John Doe\" लौटाता है। UPPER सभी बड़े, LOWER सभी छोटे।"
+    },
+    "id": "soft-0180"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the file extension for Word template?",
+      "options": [
+        ".docx",
+        ".doc",
+        ".dot",
+        ".dotx"
+      ],
+      "explanation": ".dotx is Word template (macro-free). .dotm is macro-enabled template. .docx is normal document."
+    },
+    "hi": {
+      "question": "Word टेम्पलेट का फाइल एक्सटेंशन क्या है?",
+      "options": [
+        ".docx",
+        ".doc",
+        ".dot",
+        ".dotx"
+      ],
+      "explanation": ".dotx Word टेम्पलेट (मैक्रो-मुक्त)। .dotm मैक्रो-सक्षम टेम्पलेट। .docx सामान्य दस्तावेज़।"
+    },
+    "id": "soft-0181"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the difference between Delete and Backspace?",
+      "options": [
+        "Delete removes after cursor; Backspace before cursor",
+        "Both same",
+        "Delete removes everything",
+        "Backspace is faster"
+      ],
+      "explanation": "Delete key removes character to the right of cursor. Backspace removes to the left."
+    },
+    "hi": {
+      "question": "Delete और Backspace में क्या अंतर है?",
+      "options": [
+        "Delete कर्सर के बाद हटाता; Backspace कर्सर से पहले",
+        "दोनों समान",
+        "Delete सब हटाता है",
+        "Backspace तेज है"
+      ],
+      "explanation": "Delete कुंजी कर्सर के दाईं ओर का वर्ण हटाती है। Backspace बाईं ओर का।"
+    },
+    "id": "soft-0182"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "hard",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the difference between COUNT and COUNTA?",
+      "options": [
+        "No difference",
+        "COUNT: counts numbers only; COUNTA: counts non-empty cells",
+        "COUNT is newer",
+        "COUNTA counts only text"
+      ],
+      "explanation": "COUNT counts cells with numbers. COUNTA counts all non-empty cells (text, numbers, dates, etc.)."
+    },
+    "hi": {
+      "question": "COUNT और COUNTA में क्या अंतर है?",
+      "options": [
+        "कोई अंतर नहीं",
+        "COUNT: केवल संख्याएं; COUNTA: गैर-खाली कोशिकाएं",
+        "COUNT नया है",
+        "COUNTA केवल टेक्स्ट गिनता है"
+      ],
+      "explanation": "COUNT संख्याओं वाली कोशिकाएं गिनता है। COUNTA सभी गैर-खाली कोशिकाएं (टेक्स्ट, संख्या, तिथि)।"
+    },
+    "id": "soft-0183"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the function of 'Ctrl+Shift+L' in Excel?",
+      "options": [
+        "Save workbook",
+        "Lock cells",
+        "Toggle AutoFilter on/off",
+        "Left align"
+      ],
+      "explanation": "Ctrl+Shift+L applies or removes filter dropdowns from column headers."
+    },
+    "hi": {
+      "question": "Excel में 'Ctrl+Shift+L' का कार्य क्या है?",
+      "options": [
+        "वर्कबुक सहेजना",
+        "कोशिकाएं लॉक",
+        "ऑटोफ़िल्टर चालू/बंद",
+        "बायां संरेखण"
+      ],
+      "explanation": "Ctrl+Shift+L कॉलम हेडर से फ़िल्टर ड्रॉपडाउन लागू या हटाता है।"
+    },
+    "id": "soft-0184"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Which shortcut keys are used to close a document?",
+      "options": [
+        "Alt+F4",
+        "Ctrl+C",
+        "Ctrl+S",
+        "Ctrl+W"
+      ],
+      "explanation": "Ctrl+W closes the active document. Alt+F4 closes the entire application."
+    },
+    "hi": {
+      "question": "दस्तावेज़ बंद करने के लिए कौन सी शॉर्टकट कुंजियां उपयोग होती हैं?",
+      "options": [
+        "Alt+F4",
+        "Ctrl+C",
+        "Ctrl+S",
+        "Ctrl+W"
+      ],
+      "explanation": "Ctrl+W सक्रिय दस्तावेज़ बंद करता है। Alt+F4 पूरा एप्लिकेशन बंद करता है।"
+    },
+    "id": "soft-0185"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a section break in Word?",
+      "options": [
+        "Divides document into sections with different formatting",
+        "Page break",
+        "Column break",
+        "Line break"
+      ],
+      "explanation": "Section breaks allow different headers, footers, page orientation, or columns within the same document."
+    },
+    "hi": {
+      "question": "Word में सेक्शन ब्रेक क्या है?",
+      "options": [
+        "विभिन्न फ़ॉर्मेटिंग वाले अनुभागों में दस्तावेज़ विभाजित करना",
+        "पृष्ठ विराम",
+        "कॉलम विराम",
+        "पंक्ति विराम"
+      ],
+      "explanation": "सेक्शन ब्रेक एक ही दस्तावेज़ में विभिन्न हेडर, फुटर, पृष्ठ ओरिएंटेशन या कॉलम की अनुमति देते हैं।"
+    },
+    "id": "soft-0186"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the 'Design' tab in PowerPoint used for?",
+      "options": [
+        "Animations",
+        "Themes, variants, and slide size",
+        "Transitions",
+        "Review"
+      ],
+      "explanation": "Design tab provides pre-built themes, color variants, background styles, and slide size options."
+    },
+    "hi": {
+      "question": "PowerPoint में 'Design' टैब किसके लिए उपयोग होता है?",
+      "options": [
+        "एनिमेशन",
+        "थीम, वेरिएंट और स्लाइड आकार",
+        "ट्रांज़िशन",
+        "समीक्षा"
+      ],
+      "explanation": "Design टैब पूर्व-निर्मित थीम, रंग वेरिएंट, पृष्ठभूमि शैली और स्लाइड आकार विकल्प प्रदान करता है।"
+    },
+    "id": "soft-0187"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a worksheet in Excel?",
+      "options": [
+        "A chart",
+        "A macro",
+        "A single spreadsheet tab within a workbook",
+        "A formula"
+      ],
+      "explanation": "A workbook contains one or more worksheets (Sheet1, Sheet2...). Each worksheet has its own grid of cells."
+    },
+    "hi": {
+      "question": "Excel में वर्कशीट क्या है?",
+      "options": [
+        "एक चार्ट",
+        "एक मैक्रो",
+        "वर्कबुक के भीतर एकल स्प्रेडशीट टैब",
+        "एक फ़ॉर्मूला"
+      ],
+      "explanation": "वर्कबुक में एक या अधिक वर्कशीट (Sheet1, Sheet2...) होती हैं। प्रत्येक का अपना कोशिका ग्रिड।"
+    },
+    "id": "soft-0188"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does 'Watermark' in Word do?",
+      "options": [
+        "Encrypt document",
+        "Change color",
+        "Add borders",
+        "Insert faded text/image behind document content"
+      ],
+      "explanation": "Watermark (Design tab > Watermark) adds DRAFT, CONFIDENTIAL, or custom text/images to background."
+    },
+    "hi": {
+      "question": "Word में 'Watermark' क्या करता है?",
+      "options": [
+        "दस्तावेज़ एन्क्रिप्ट",
+        "रंग बदलना",
+        "बॉर्डर जोड़ना",
+        "दस्तावेज़ सामग्री के पीछे फीका टेक्स्ट/छवि डालना"
+      ],
+      "explanation": "Watermark (Design टैब > Watermark) पृष्ठभूमि में DRAFT, CONFIDENTIAL या कस्टम टेक्स्ट/छवि जोड़ता है।"
+    },
+    "id": "soft-0189"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the TODAY() function in Excel?",
+      "options": [
+        "Returns current date (updates automatically)",
+        "Fixed date",
+        "Date arithmetic",
+        "Weekday name"
+      ],
+      "explanation": "=TODAY() returns the current date and auto-updates each day. =NOW() returns date and time."
+    },
+    "hi": {
+      "question": "Excel में TODAY() फंक्शन क्या है?",
+      "options": [
+        "वर्तमान तिथि लौटाता (स्वतः अपडेट)",
+        "निश्चित तिथि",
+        "तिथि अंकगणित",
+        "सप्ताह का दिन"
+      ],
+      "explanation": "=TODAY() वर्तमान तिथि लौटाता है और हर दिन स्वतः अपडेट होता है। =NOW() तिथि और समय।"
+    },
+    "id": "soft-0190"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What does 'Send to Back' do in PowerPoint?",
+      "options": [
+        "Delete object",
+        "Place selected object behind other objects",
+        "Move to last slide",
+        "Send email"
+      ],
+      "explanation": "Send to Back moves the selected object behind all other overlapping objects on the slide."
+    },
+    "hi": {
+      "question": "PowerPoint में 'Send to Back' क्या करता है?",
+      "options": [
+        "वस्तु हटाना",
+        "चयनित वस्तु को अन्य वस्तुओं के पीछे रखना",
+        "अंतिम स्लाइड पर ले जाना",
+        "ईमेल भेजना"
+      ],
+      "explanation": "Send to Back चयनित वस्तु को स्लाइड पर अन्य सभी ओवरलैपिंग वस्तुओं के पीछे ले जाता है।"
+    },
+    "id": "soft-0191"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the function of Ctrl+Home in Excel?",
+      "options": [
+        "Close worksheet",
+        "Save",
+        "Move to cell A1",
+        "Open Home tab"
+      ],
+      "explanation": "Ctrl+Home moves the active cell cursor to A1 (beginning of the worksheet)."
+    },
+    "hi": {
+      "question": "Excel में Ctrl+Home का कार्य क्या है?",
+      "options": [
+        "वर्कशीट बंद करना",
+        "सहेजना",
+        "सेल A1 पर जाना",
+        "होम टैब खोलना"
+      ],
+      "explanation": "Ctrl+Home सक्रिय सेल कर्सर को A1 (वर्कशीट की शुरुआत) पर ले जाता है।"
+    },
+    "id": "soft-0192"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the difference between .xlsx and .xlsb?",
+      "options": [
+        ".xlsb is older",
+        ".xlsx is binary",
+        "Same format",
+        ".xlsb is binary format (faster, smaller); .xlsx is XML-based"
+      ],
+      "explanation": ".xlsb (Excel Binary Workbook) loads/saves faster and is smaller. .xlsx is Open XML format."
+    },
+    "hi": {
+      "question": ".xlsx और .xlsb में क्या अंतर है?",
+      "options": [
+        ".xlsb पुराना है",
+        ".xlsx बाइनरी है",
+        "समान प्रारूप",
+        ".xlsb बाइनरी (तेज, छोटा); .xlsx XML-आधारित"
+      ],
+      "explanation": ".xlsb (एक्सेल बाइनरी वर्कबुक) तेज लोड/सेव और छोटा। .xlsx ओपन XML प्रारूप।"
+    },
+    "id": "soft-0193"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is a named range in Excel?",
+      "options": [
+        "A descriptive name assigned to a cell or range",
+        "Column header",
+        "Row number",
+        "Sheet name"
+      ],
+      "explanation": "Named ranges (e.g., \"SalesData\" for A1:A100) make formulas easier to read and manage."
+    },
+    "hi": {
+      "question": "Excel में नेम्ड रेंज क्या है?",
+      "options": [
+        "सेल या श्रेणी को दिया गया वर्णनात्मक नाम",
+        "कॉलम हेडर",
+        "पंक्ति संख्या",
+        "शीट नाम"
+      ],
+      "explanation": "नेम्ड रेंज (जैसे A1:A100 के लिए \"SalesData\") फ़ॉर्मूले पढ़ने और प्रबंधित करने में आसान बनाती हैं।"
+    },
+    "id": "soft-0194"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is 'Slide Show' tab in PowerPoint for?",
+      "options": [
+        "Editing slides",
+        "Setting up presentation delivery options",
+        "Adding animations",
+        "Inserting media"
+      ],
+      "explanation": "Slide Show tab configures how the presentation runs: start from beginning, rehearse timings, record narration."
+    },
+    "hi": {
+      "question": "PowerPoint में 'Slide Show' टैब किसके लिए है?",
+      "options": [
+        "स्लाइड संपादन",
+        "प्रस्तुति वितरण विकल्प सेट करना",
+        "एनिमेशन जोड़ना",
+        "मीडिया डालना"
+      ],
+      "explanation": "Slide Show टैब प्रस्तुति चलाने का कॉन्फ़िगरेशन: शुरुआत से शुरू, समय अभ्यास, वर्णन रिकॉर्ड।"
+    },
+    "id": "soft-0195"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the 'Animations' tab in PowerPoint for?",
+      "options": [
+        "Slide transitions",
+        "File management",
+        "Adding motion effects to objects on slides",
+        "Printing"
+      ],
+      "explanation": "Animations tab controls how individual objects (text, images) appear, move, or disappear on a slide."
+    },
+    "hi": {
+      "question": "PowerPoint में 'Animations' टैब किसके लिए है?",
+      "options": [
+        "स्लाइड ट्रांज़िशन",
+        "फाइल प्रबंधन",
+        "स्लाइड पर वस्तुओं में गति प्रभाव जोड़ना",
+        "प्रिंटिंग"
+      ],
+      "explanation": "Animations टैब नियंत्रित करता है कि स्लाइड पर अलग-अलग वस्तुएं (टेक्स्ट, छवि) कैसे दिखें, चलें या गायब हों।"
+    },
+    "id": "soft-0196"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the file extension for a CSV file?",
+      "options": [
+        ".xlsx",
+        ".txt",
+        ".xml",
+        ".csv"
+      ],
+      "explanation": "CSV (Comma-Separated Values) stores tabular data as plain text, compatible with Excel and databases."
+    },
+    "hi": {
+      "question": "CSV फाइल का एक्सटेंशन क्या है?",
+      "options": [
+        ".xlsx",
+        ".txt",
+        ".xml",
+        ".csv"
+      ],
+      "explanation": "CSV (कॉमा-सेपरेटेड वैल्यू) सारणीबद्ध डेटा को सादे टेक्स्ट के रूप में संग्रहीत, Excel और डेटाबेस के साथ संगत।"
+    },
+    "id": "soft-0197"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the purpose of 'Data Validation' in Excel?",
+      "options": [
+        "Restrict what data can be entered in a cell",
+        "Check spelling",
+        "Validate file size",
+        "Test macros"
+      ],
+      "explanation": "Data Validation limits entries to specific values (list, number range, date range) and shows error messages."
+    },
+    "hi": {
+      "question": "Excel में 'Data Validation' का उद्देश्य क्या है?",
+      "options": [
+        "सेल में कौन सा डेटा दर्ज हो सकता है सीमित करना",
+        "वर्तनी जांच",
+        "फाइल आकार सत्यापित",
+        "मैक्रो परीक्षण"
+      ],
+      "explanation": "Data Validation प्रविष्टियों को विशिष्ट मानों (सूची, संख्या सीमा, तिथि सीमा) तक सीमित करता है और त्रुटि संदेश दिखाता है।"
+    },
+    "id": "soft-0198"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is the use of comments in MS Word/Excel?",
+      "options": [
+        "Change formatting",
+        "Add notes/feedback without changing document content",
+        "Track versions",
+        "Encrypt document"
+      ],
+      "explanation": "Comments allow reviewers to add suggestions, questions, or notes visible alongside the content."
+    },
+    "hi": {
+      "question": "MS Word/Excel में टिप्पणियों का उपयोग क्या है?",
+      "options": [
+        "फ़ॉर्मेटिंग बदलना",
+        "दस्तावेज़ सामग्री बदले बिना नोट/प्रतिक्रिया जोड़ना",
+        "संस्करण ट्रैक",
+        "दस्तावेज़ एन्क्रिप्ट"
+      ],
+      "explanation": "टिप्पणियां समीक्षकों को सामग्री के साथ दिखाई देने वाले सुझाव, प्रश्न या नोट जोड़ने की अनुमति देती हैं।"
+    },
+    "id": "soft-0199"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "What is OneDrive integration in MS Office?",
+      "options": [
+        "A game feature",
+        "Offline only storage",
+        "Cloud storage for saving and sharing Office documents online",
+        "Local backup"
+      ],
+      "explanation": "OneDrive allows saving Office files to the cloud, enabling access from any device and real-time collaboration."
+    },
+    "hi": {
+      "question": "MS Office में OneDrive एकीकरण क्या है?",
+      "options": [
+        "एक गेम सुविधा",
+        "केवल ऑफलाइन स्टोरेज",
+        "Office दस्तावेज़ ऑनलाइन सहेजने और साझा करने के लिए क्लाउड स्टोरेज",
+        "स्थानीय बैकअप"
+      ],
+      "explanation": "OneDrive Office फाइलों को क्लाउड में सहेजने की अनुमति देता है, किसी भी उपकरण से पहुंच और रीयल-टाइम सहयोग।"
+    },
+    "id": "soft-0200"
+  }
+]
