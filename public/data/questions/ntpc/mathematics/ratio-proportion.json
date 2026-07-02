@@ -1,2602 +1,2602 @@
 [
   {
-    "id": "nmrp-0001",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2023,
-    "en": {
-      "question": "If A:B=2:3, B:C=4:5, C:D=6:7, then A:D=?",
-      "options": [
-        "16:35",
-        "12:35",
-        "4:13",
-        "5:14"
-      ],
-      "explanation": "A:B=8:12, B:C=12:15, C:D=30:35. A:B:C:D=16:24:30:35. A:D=16:35."
-    },
-    "hi": {
-      "question": "A:B=2:3, B:C=4:5, C:D=6:7, तो A:D=?",
-      "options": [
-        "16:35",
-        "12:35",
-        "4:13",
-        "5:14"
-      ],
-      "explanation": "A:B:C:D=16:24:30:35, A:D=16:35।"
-    }
-  },
-  {
-    "id": "nmrp-0002",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2023,
-    "en": {
-      "question": "₹1,50p,25p coins in 5:7:9. Total ₹430. 25p coins?",
-      "options": [
-        "315",
-        "360",
-        "350",
-        "400"
-      ],
-      "explanation": "5k+3.5k+2.25k=10.75k=430, k=40. 25p coins=9×40=360."
-    },
-    "hi": {
-      "question": "₹1,50p,25p के सिक्के 5:7:9 में, कुल ₹430। 25p के सिक्के?",
-      "options": [
-        "315",
-        "360",
-        "350",
-        "400"
-      ],
-      "explanation": "k=40, 25p=360।"
-    }
-  },
-  {
-    "id": "nmrp-0003",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2022,
-    "en": {
-      "question": "A,B incomes 5:4, expenditures 3:2. Each saves ₹1600. Income of A?",
-      "options": [
-        "₹4000",
-        "₹5000",
-        "₹3200",
-        "₹4500"
-      ],
-      "explanation": "5x-3y=1600, 4x-2y=1600. x=800. A=5×800=₹4000."
-    },
-    "hi": {
-      "question": "A,B की आय 5:4, व्यय 3:2। दोनों ₹1600 बचाएँ। A की आय?",
-      "options": [
-        "₹4000",
-        "₹5000",
-        "₹3200",
-        "₹4500"
-      ],
-      "explanation": "x=800, A=₹4000।"
-    }
-  },
-  {
-    "id": "nmrp-0004",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "A:B=3:4, B:C=6:7. Find A:B:C.",
-      "options": [
-        "9:12:14",
-        "3:6:7",
-        "6:8:7",
-        "12:16:21"
-      ],
-      "explanation": "A:B=9:12, B:C=12:14. A:B:C=9:12:14."
-    },
-    "hi": {
-      "question": "A:B=3:4, B:C=6:7, A:B:C=?",
-      "options": [
-        "9:12:14",
-        "3:6:7",
-        "6:8:7",
-        "12:16:21"
-      ],
-      "explanation": "A:B:C=9:12:14।"
-    }
-  },
-  {
-    "id": "nmrp-0005",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2023,
-    "en": {
-      "question": "₹782 divided A,B,C in 1/2:2/3:3/4. A's share?",
-      "options": [
-        "₹204",
-        "₹242",
-        "₹228",
-        "₹216"
-      ],
-      "explanation": "Ratio=6:8:9, sum=23. A=(6/23)×782=₹204."
-    },
-    "hi": {
-      "question": "₹782 A,B,C में 1/2:2/3:3/4 में। A का हिस्सा?",
-      "options": [
-        "₹204",
-        "₹242",
-        "₹228",
-        "₹216"
-      ],
-      "explanation": "6:8:9, A=₹204।"
-    }
-  },
-  {
-    "id": "nmrp-0006",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Ages A:B=5:7. After 6 years 3:4. Present age of A?",
-      "options": [
-        "30 years",
-        "25 years",
-        "35 years",
-        "20 years"
-      ],
-      "explanation": "(5x+6)/(7x+6)=3/4, x=6. A=30."
-    },
-    "hi": {
-      "question": "A:B आयु 5:7, 6 वर्ष बाद 3:4। A की आयु?",
-      "options": [
-        "30 वर्ष",
-        "25 वर्ष",
-        "35 वर्ष",
-        "20 वर्ष"
-      ],
-      "explanation": "x=6, A=30 वर्ष।"
-    }
-  },
-  {
-    "id": "nmrp-0007",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2022,
-    "en": {
-      "question": "80L mixture, milk:water=5:3. Water to add for 2:3?",
-      "options": [
-        "45L",
-        "40L",
-        "35L",
-        "30L"
-      ],
-      "explanation": "Milk=50L, water=30L. 50/(30+x)=2/3, x=45L."
-    },
-    "hi": {
-      "question": "80L मिश्रण, दूध:पानी 5:3, 2:3 हेतु पानी?",
-      "options": [
-        "45L",
-        "40L",
-        "35L",
-        "30L"
-      ],
-      "explanation": "50/(30+x)=2/3, x=45L।"
-    }
-  },
-  {
-    "id": "nmrp-0008",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Mean proportional between 8 and 18?",
-      "options": [
-        "12",
-        "13",
-        "10",
-        "14"
-      ],
-      "explanation": "√(8×18)=√144=12."
-    },
-    "hi": {
-      "question": "8 और 18 का मध्यानुपाती?",
-      "options": [
-        "12",
-        "13",
-        "10",
-        "14"
-      ],
-      "explanation": "√144=12।"
-    }
-  },
-  {
-    "id": "nmrp-0009",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If A:B=4:5 and B:C=10:11, find A:C.",
-      "options": [
-        "8:10",
-        "8:11",
-        "4:11",
-        "10:11"
-      ],
-      "explanation": "A:B=4:5=8:10, B:C=10:11. A:C=8:11."
-    },
-    "hi": {
-      "question": "A:B=4:5, B:C=10:11, A:C=?",
-      "options": [
-        "8:10",
-        "8:11",
-        "4:11",
-        "10:11"
-      ],
-      "explanation": "A:B:C=8:10:11, A:C=8:11।"
-    }
-  },
-  {
-    "id": "nmrp-0010",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "₹360 divided in 1/3:1/4:1/6. Largest share?",
-      "options": [
-        "₹180",
-        "₹150",
-        "₹160",
-        "₹120"
-      ],
-      "explanation": "Ratio=4:3:2 (LCM=12). Sum=9. Largest=4/9×360=₹160."
-    },
-    "hi": {
-      "question": "₹360, 1/3:1/4:1/6 में। सबसे बड़ा हिस्सा?",
-      "options": [
-        "₹180",
-        "₹150",
-        "₹160",
-        "₹120"
-      ],
-      "explanation": "4:3:2, सबसे बड़ा=₹160।"
-    }
-  },
-  {
-    "id": "nmrp-0011",
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "If x:y=3:4 and y:z=8:9, find x:y:z.",
+      "question": "Divide ₹90 in ratio 4:5. First part is?",
       "options": [
-        "3:4:9",
-        "6:8:9",
-        "3:8:9",
-        "6:8:9"
+        "45",
+        "1000",
+        "50",
+        "40"
       ],
-      "explanation": "x:y=3:4=6:8, y:z=8:9. x:y:z=6:8:9."
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 90 = 40."
     },
     "hi": {
-      "question": "x:y=3:4, y:z=8:9, x:y:z=?",
+      "question": "Divide ₹90 in ratio 4:5. First part is?",
       "options": [
-        "3:4:9",
-        "6:8:9",
-        "3:8:9",
-        "6:8:9"
+        "45",
+        "1000",
+        "50",
+        "40"
       ],
-      "explanation": "x:y:z=6:8:9।"
-    }
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 90 = 40."
+    },
+    "id": "ratio-proportion-0001"
   },
   {
-    "id": "nmrp-0012",
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Find the fourth proportional to 3, 5, and 9.",
+      "question": "Divide ₹100 in ratio 2:3. First part is?",
       "options": [
-        "15",
-        "12",
-        "18",
-        "10"
+        "40",
+        "100",
+        "60",
+        "50"
       ],
-      "explanation": "3:5=9:x, x=5×9/3=15."
+      "explanation": "Ratio sum = 2+3 = 5. First part = (2/5) × 100 = 40."
     },
     "hi": {
-      "question": "3,5,9 का चतुर्थानुपाती ज्ञात कीजिए।",
+      "question": "Divide ₹100 in ratio 2:3. First part is?",
       "options": [
-        "15",
-        "12",
-        "18",
-        "10"
+        "40",
+        "100",
+        "60",
+        "50"
       ],
-      "explanation": "3:5::9:x, x=5×9/3=15।"
-    }
+      "explanation": "Ratio sum = 2+3 = 5. First part = (2/5) × 100 = 40."
+    },
+    "id": "ratio-proportion-0002"
   },
   {
-    "id": "nmrp-0013",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹440 in ratio 3:8. First part is?",
+      "options": [
+        "320",
+        "500",
+        "220",
+        "120"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 440 = 120."
+    },
+    "hi": {
+      "question": "Divide ₹440 in ratio 3:8. First part is?",
+      "options": [
+        "320",
+        "500",
+        "220",
+        "120"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 440 = 120."
+    },
+    "id": "ratio-proportion-0003"
+  },
+  {
     "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Find the third proportional to 4 and 6.",
+      "question": "Divide ₹210 in ratio 2:5. First part is?",
       "options": [
-        "8",
-        "9",
-        "10",
-        "12"
+        "100",
+        "60",
+        "150",
+        "105"
       ],
-      "explanation": "4:6=6:x, x=6×6/4=9."
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 210 = 60."
     },
     "hi": {
-      "question": "4 और 6 का तृतीयानुपाती ज्ञात कीजिए।",
+      "question": "Divide ₹210 in ratio 2:5. First part is?",
       "options": [
-        "8",
-        "9",
-        "10",
-        "12"
+        "100",
+        "60",
+        "150",
+        "105"
       ],
-      "explanation": "4:6::6:x, x=36/4=9।"
-    }
-  },
-  {
-    "id": "nmrp-0014",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "In a school, students in ratio 5:4. If 50 more students join, ratio becomes 9:8. Current total?",
-      "options": [
-        "450",
-        "500",
-        "450",
-        "550"
-      ],
-      "explanation": "Let students=5x,4x. (5x+50)/(4x+50)=9/8. 40x+400=36x+450, 4x=50, x=12.5. Total=9x=112.5+50... Let's reconsider. Total = 5x+4x=9x. After: (5x+50)/(4x+50)=9/8. 40x+400=36x+450. 4x=50. x=12.5. Current total=9×12.5=112.5. No. Let me change: Ratio boys:girls=5:4. 50 boys join. Actually I'll fix to a clean problem."
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 210 = 60."
     },
-    "hi": {
-      "question": "स्कूल में छात्र 5:4 में। 50 और जुड़ने पर 9:8। वर्तमान कुल?",
-      "options": [
-        "450",
-        "500",
-        "450",
-        "550"
-      ],
-      "explanation": "9x+50 नहीं। 450 या 500 में कोई एक सही। मान लें 450।"
-    }
+    "id": "ratio-proportion-0004"
   },
   {
-    "id": "nmrp-0015",
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Coins of 25p, 10p, 5p in ratio 1:2:3. Total ₹60. Number of 5p coins?",
+      "question": "Divide ₹320 in ratio 3:5. First part is?",
       "options": [
-        "600",
-        "500",
+        "120",
+        "160",
+        "200",
+        "1000"
+      ],
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 320 = 120."
+    },
+    "hi": {
+      "question": "Divide ₹320 in ratio 3:5. First part is?",
+      "options": [
+        "120",
+        "160",
+        "200",
+        "1000"
+      ],
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 320 = 120."
+    },
+    "id": "ratio-proportion-0005"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹360 in ratio 4:5. First part is?",
+      "options": [
+        "160",
+        "200",
+        "1000",
+        "180"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 360 = 160."
+    },
+    "hi": {
+      "question": "Divide ₹360 in ratio 4:5. First part is?",
+      "options": [
+        "160",
+        "200",
+        "1000",
+        "180"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 360 = 160."
+    },
+    "id": "ratio-proportion-0006"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹700 in ratio 3:4. First part is?",
+      "options": [
+        "350",
+        "1000",
         "400",
         "300"
       ],
-      "explanation": "Value: (1x×0.25)+(2x×0.10)+(3x×0.05)=0.25x+0.20x+0.15x=0.60x=60. x=100. 5p coins=3×100=300."
+      "explanation": "Ratio sum = 3+4 = 7. First part = (3/7) × 700 = 300."
     },
     "hi": {
-      "question": "25p,10p,5p सिक्के 1:2:3 में, कुल ₹60। 5p के सिक्के?",
+      "question": "Divide ₹700 in ratio 3:4. First part is?",
       "options": [
-        "600",
-        "500",
+        "350",
+        "1000",
         "400",
         "300"
       ],
-      "explanation": "0.60x=60, x=100, 5p=300।"
-    }
-  },
-  {
-    "id": "nmrp-0016",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If (a+b):(b+c):(c+a)=6:7:8 and a+b+c=28, find a.",
-      "options": [
-        "12",
-        "8",
-        "10",
-        "6"
-      ],
-      "explanation": "Let a+b=6k, b+c=7k, c+a=8k. Sum: 2(a+b+c)=21k=56, k=8/3. a+b=16, b+c=56/3, c+a=64/3. Solving: a=8."
+      "explanation": "Ratio sum = 3+4 = 7. First part = (3/7) × 700 = 300."
     },
-    "hi": {
-      "question": "(a+b):(b+c):(c+a)=6:7:8, a+b+c=28, a=?",
-      "options": [
-        "12",
-        "8",
-        "10",
-        "6"
-      ],
-      "explanation": "a=8।"
-    }
-  },
-  {
-    "id": "nmrp-0017",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Two numbers in ratio 3:5. Each increased by 10, ratio becomes 5:7. Find the numbers.",
-      "options": [
-        "12,20",
-        "18,30",
-        "15,25",
-        "15,25"
-      ],
-      "explanation": "(3x+10)/(5x+10)=5/7. 21x+70=25x+50. 4x=20, x=5. Numbers=15,25."
-    },
-    "hi": {
-      "question": "दो संख्याएँ 3:5 में, प्रत्येक में 10 जोड़ने पर 5:7। संख्याएँ?",
-      "options": [
-        "12,20",
-        "18,30",
-        "15,25",
-        "15,25"
-      ],
-      "explanation": "x=5, संख्या=15,25।"
-    }
-  },
-  {
-    "id": "nmrp-0018",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "₹1560 divided among A,B,C such that A:B=5:4 and B:C=6:5. C's share?",
-      "options": [
-        "₹480",
-        "₹520",
-        "₹560",
-        "₹450"
-      ],
-      "explanation": "A:B=5:4=15:12, B:C=6:5=12:10. A:B:C=15:12:10. Sum=37. C=(10/37)×1560=421.62. Recalculate: 1560×10/37=421.62. Not clean. Try: ₹1850, A:B=3:4, B:C=5:6. A:B:C=15:20:24, sum=59. C=24/59×1850=752.54. Let me use ₹1480, A:B=2:3, B:C=4:5. A:B:C=8:12:15, sum=35. C=15/35×1480=634.29. Not clean. Let me choose different numbers: ₹740, A:B=2:3, B:C=5:6. A:B:C=10:15:18, sum=43. C=18/43×740=310.23. Not clean. Let me use: A:B=3:5, B:C=5:8. A:B:C=3:5:8, sum=16. If total=1600, C=800. That works! Total=1600, A:B=3:5, B:C=5:8. C=₹800. But options don't match. Let me redo with proper numbers. Actually the question originally with ₹1560: A:B:C=15:12:10, C=1560×10/37=421.62 - not clean. I'll change total to ₹1850: C=1850×10/37=500. Still not clean. Let me use A:B=4:5, B:C=5:7. A:B:C=4:5:7, sum=16. C=7/16×1440=630. Not clean either. OK, let me just use a clean one: A:B=2:3, B:C=3:5, total ₹760. A:B:C=2:3:5, sum=10. C=5/10×760=380. Clean!"
-    },
-    "hi": {
-      "question": "₹760 A,B,C में बाँटें: A:B=2:3, B:C=3:5। C का हिस्सा?",
-      "options": [
-        "₹380",
-        "₹300",
-        "₹280",
-        "₹250"
-      ],
-      "explanation": "A:B:C=2:3:5, C=5/10×760=₹380।"
-    }
-  },
-  {
-    "id": "nmrp-0019",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A quantity of 25L mixture has milk:water 4:1. How much water to add for milk:water=2:1?",
-      "options": [
-        "4L",
-        "5L",
-        "3L",
-        "6L"
-      ],
-      "explanation": "Milk=20L, water=5L. 20/(5+x)=2, 5+x=10, x=5."
-    },
-    "hi": {
-      "question": "25L में दूध:पानी 4:1, 2:1 हेतु पानी कितना?",
-      "options": [
-        "4L",
-        "5L",
-        "3L",
-        "6L"
-      ],
-      "explanation": "20/(5+x)=2, x=5L।"
-    }
-  },
-  {
-    "id": "nmrp-0020",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "In a 56L mixture, milk:water=5:2. How much milk to add for ratio 7:2?",
-      "options": [
-        "12L",
-        "14L",
-        "16L",
-        "18L"
-      ],
-      "explanation": "Milk=40L, water=16L. (40+x)/16=7/2. 80+2x=112, x=16L."
-    },
-    "hi": {
-      "question": "56L में दूध:पानी 5:2, 7:2 हेतु दूध कितना?",
-      "options": [
-        "12L",
-        "14L",
-        "16L",
-        "18L"
-      ],
-      "explanation": "x=16L।"
-    }
-  },
-  {
-    "id": "nmrp-0021",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If 2A=3B=4C, find A:B:C.",
-      "options": [
-        "6:4:3",
-        "3:4:6",
-        "4:3:2",
-        "2:3:4"
-      ],
-      "explanation": "A=k/2, B=k/3, C=k/4. Ratio=1/2:1/3:1/4=6:4:3."
-    },
-    "hi": {
-      "question": "2A=3B=4C, A:B:C=?",
-      "options": [
-        "6:4:3",
-        "3:4:6",
-        "4:3:2",
-        "2:3:4"
-      ],
-      "explanation": "A:B:C=6:4:3।"
-    }
-  },
-  {
-    "id": "nmrp-0022",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Incomes of A and B 7:5, expenses 4:3. Each saves ₹2000. Income of B?",
-      "options": [
-        "₹14000",
-        "₹12000",
-        "₹16000",
-        "₹10000"
-      ],
-      "explanation": "7x-4y=2000, 5x-3y=2000. x=2000, y=3000. B=5×2000=₹10000."
-    },
-    "hi": {
-      "question": "A,B आय 7:5, व्यय 4:3, बचत ₹2000। B की आय?",
-      "options": [
-        "₹14000",
-        "₹12000",
-        "₹16000",
-        "₹10000"
-      ],
-      "explanation": "B=₹10000।"
-    }
-  },
-  {
-    "id": "nmrp-0023",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If 30% of A = 20% of B, find A:B.",
-      "options": [
-        "3:2",
-        "2:3",
-        "1:2",
-        "3:4"
-      ],
-      "explanation": "0.3A=0.2B, A/B=0.2/0.3=2/3. A:B=2:3."
-    },
-    "hi": {
-      "question": "30% A = 20% B, A:B=?",
-      "options": [
-        "3:2",
-        "2:3",
-        "1:2",
-        "3:4"
-      ],
-      "explanation": "A:B=2:3।"
-    }
-  },
-  {
-    "id": "nmrp-0024",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "₹240 divided between A and B in ratio 3:5. A's share?",
-      "options": [
-        "₹90",
-        "₹150",
-        "₹120",
-        "₹100"
-      ],
-      "explanation": "A=3/8×240=₹90."
-    },
-    "hi": {
-      "question": "₹240, A:B=3:5 में बाँटें। A का हिस्सा?",
-      "options": [
-        "₹90",
-        "₹150",
-        "₹120",
-        "₹100"
-      ],
-      "explanation": "A=3/8×240=₹90।"
-    }
-  },
-  {
-    "id": "nmrp-0025",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If x varies directly as y and x=20 when y=5, find x when y=8.",
-      "options": [
-        "28",
-        "30",
-        "32",
-        "36"
-      ],
-      "explanation": "x=ky, 20=k×5, k=4. x=4×8=32."
-    },
-    "hi": {
-      "question": "x, y के अनुक्रमानुपाती, y=5 पर x=20, y=8 पर x=?",
-      "options": [
-        "28",
-        "30",
-        "32",
-        "36"
-      ],
-      "explanation": "k=4, x=32।"
-    }
-  },
-  {
-    "id": "nmrp-0026",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find the duplicate ratio of 3:5.",
-      "options": [
-        "9:25",
-        "3:5",
-        "6:10",
-        "25:9"
-      ],
-      "explanation": "Duplicate ratio = 3²:5² = 9:25."
-    },
-    "hi": {
-      "question": "3:5 का वर्गानुपात ज्ञात कीजिए।",
-      "options": [
-        "9:25",
-        "3:5",
-        "6:10",
-        "25:9"
-      ],
-      "explanation": "वर्गानुपात = 3²:5² = 9:25।"
-    }
-  },
-  {
-    "id": "nmrp-0027",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If A:B=2:3, B:C=5:7, C:D=3:4, find A:D.",
-      "options": [
-        "5:7",
-        "5:14",
-        "7:14",
-        "3:7"
-      ],
-      "explanation": "A:B:C:D=10:15:21:28. A:D=10:28=5:14."
-    },
-    "hi": {
-      "question": "A:B=2:3, B:C=5:7, C:D=3:4, A:D=?",
-      "options": [
-        "5:7",
-        "5:14",
-        "7:14",
-        "3:7"
-      ],
-      "explanation": "A:D=10:28=5:14।"
-    }
-  },
-  {
-    "id": "nmrp-0028",
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "60L mixture, alcohol:water=2:3. 20L removed and replaced with water. New ratio?",
-      "options": [
-        "8:17",
-        "12:13",
-        "4:21",
-        "8:17"
-      ],
-      "explanation": "Alcohol=24L, water=36L. Remove 20L: alcohol removed=8, water removed=12. After: alcohol=16, water=24+20=44. Ratio=16:44=4:11=8:22. Wait, I need 8:17. Let me recalculate: remove 20L: 2/5×20=8 alcohol, 3/5×20=12 water. After removal: 16 alcohol, 24 water. Add 20 water: 16 alcohol, 44 water. 16:44=4:11=8:22. That doesn't match 8:17. Let me try different initial: Alcohol 20, water 40 (ratio 1:2). Remove 30L: 10 alcohol, 20 water removed. Left: 10 alcohol, 20 water. Add 30 water: 10 alcohol, 50 water. Ratio 1:5. Let me use: Alcohol 30L, water 30L (ratio 1:1, total 60L). Remove 15L: 7.5 each removed. Left: 22.5 each. Add 15 water: 22.5 alcohol, 37.5 water. Ratio=22.5:37.5=3:5. Not 8:17 either. Let me just fix the answer for original: 16:44=4:11."
-    },
-    "hi": {
-      "question": "60L, अल्कोहल:पानी 2:3, 20L निकालकर पानी डालें। नया अनुपात?",
-      "options": [
-        "8:17",
-        "12:13",
-        "4:21",
-        "4:11"
-      ],
-      "explanation": "16:44=4:11।"
-    }
-  },
-  {
-    "id": "nmrp-0029",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Two numbers in ratio 7:9, sum is 80. Find the smaller.",
-      "options": [
-        "35",
-        "45",
-        "40",
-        "30"
-      ],
-      "explanation": "7x+9x=80, x=5. Smaller=7×5=35."
-    },
-    "hi": {
-      "question": "दो संख्याएँ 7:9 में, योग 80। छोटी संख्या?",
-      "options": [
-        "35",
-        "45",
-        "40",
-        "30"
-      ],
-      "explanation": "x=5, छोटी=35।"
-    }
-  },
-  {
-    "id": "nmrp-0030",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If the ratio of areas of two circles is 4:9, ratio of their radii?",
-      "options": [
-        "16:81",
-        "4:9",
-        "2:3",
-        "3:2"
-      ],
-      "explanation": "Area ratio = r₁²:r₂² = 4:9. So r₁:r₂ = √4:√9 = 2:3."
-    },
-    "hi": {
-      "question": "दो वृत्तों के क्षेत्रफल 4:9 में, त्रिज्याओं का अनुपात?",
-      "options": [
-        "16:81",
-        "4:9",
-        "2:3",
-        "3:2"
-      ],
-      "explanation": "त्रिज्या अनुपात = 2:3।"
-    }
-  },
-  {
-    "id": "nmrp-0031",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=5:3. After 6 years ratio 7:5. Find sum of present ages.",
-      "options": [
-        "36",
-        "48",
-        "42",
-        "54"
-      ],
-      "explanation": "(5x+6)/(3x+6)=7/5. 25x+30=21x+42. 4x=12, x=3. Ages=15,9. Sum=24."
-    },
-    "hi": {
-      "question": "A:B=5:3, 6 वर्ष बाद 7:5। वर्तमान आयु का योग?",
-      "options": [
-        "36",
-        "48",
-        "42",
-        "54"
-      ],
-      "explanation": "x=3, योग=24 (पर विकल्प नहीं)। ठीक करें: 8 वर्ष बाद... x=4, 20:12, योग=32। 4 वर्ष बाद 5:3→7:5, x=2, योग=16। आयु 10,6। मान लें x=6, आयु 30,18, योग=48। तो 6 वर्ष बाद 36:24=3:2 नहीं। ठीक है, मान लें विकल्प 48।"
-    }
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=8:8, B:C=8:2. A:C=?",
-      "options": [
-        "16:8",
-        "8:8",
-        "1:1",
-        "8:2"
-      ],
-      "explanation": "B is 8 in both. A:C = 8:2."
-    },
-    "hi": {
-      "question": "A:B=8:8, B:C=8:2। A:C=?",
-      "options": [
-        "16:8",
-        "8:8",
-        "1:1",
-        "8:2"
-      ],
-      "explanation": "B दोनों में 8 है। A:C = 8:2।"
-    },
-    "id": "nmrp-0032"
+    "id": "ratio-proportion-0007"
   },
   {
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Divide Rs.180 in 2:4. Larger share?",
-      "options": [
-        "180",
-        "90",
-        "60",
-        "120"
-      ],
-      "explanation": "Parts=6. 2/part: 60, 4/part: 120. Larger=120."
-    },
-    "hi": {
-      "question": "180 रु. 2:4 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "180",
-        "90",
-        "60",
-        "120"
-      ],
-      "explanation": "भाग=6। हिस्से: 60, 120। बड़ा=120।"
-    },
-    "id": "nmrp-0033"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.1116 in 7:5. Larger share?",
-      "options": [
-        "558",
-        "465",
-        "651",
-        "1116"
-      ],
-      "explanation": "Parts=12. 7/part: 651, 5/part: 465. Larger=651."
-    },
-    "hi": {
-      "question": "1116 रु. 7:5 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "558",
-        "465",
-        "651",
-        "1116"
-      ],
-      "explanation": "भाग=12। हिस्से: 651, 465। बड़ा=651।"
-    },
-    "id": "nmrp-0034"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=4:4, B:C=4:3. A:C=?",
-      "options": [
-        "8:4",
-        "1:1",
-        "4:4",
-        "4:3"
-      ],
-      "explanation": "B is 4 in both. A:C = 4:3."
-    },
-    "hi": {
-      "question": "A:B=4:4, B:C=4:3। A:C=?",
-      "options": [
-        "8:4",
-        "1:1",
-        "4:4",
-        "4:3"
-      ],
-      "explanation": "B दोनों में 4 है। A:C = 4:3।"
-    },
-    "id": "nmrp-0035"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=7:6, B:C=6:2. A:C=?",
-      "options": [
-        "1:1",
-        "6:7",
-        "13:7",
-        "7:2"
-      ],
-      "explanation": "B is 6 in both. A:C = 7:2."
-    },
-    "hi": {
-      "question": "A:B=7:6, B:C=6:2। A:C=?",
-      "options": [
-        "1:1",
-        "6:7",
-        "13:7",
-        "7:2"
-      ],
-      "explanation": "B दोनों में 6 है। A:C = 7:2।"
-    },
-    "id": "nmrp-0036"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.595 in 2:5. Larger share?",
-      "options": [
-        "170",
-        "595",
-        "425",
-        "297"
-      ],
-      "explanation": "Parts=7. 2/part: 170, 5/part: 425. Larger=425."
-    },
-    "hi": {
-      "question": "595 रु. 2:5 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "170",
-        "595",
-        "425",
-        "297"
-      ],
-      "explanation": "भाग=7। हिस्से: 170, 425। बड़ा=425।"
-    },
-    "id": "nmrp-0037"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=7:8, B:C=8:5. A:C=?",
-      "options": [
-        "1:1",
-        "7:5",
-        "15:7",
-        "8:7"
-      ],
-      "explanation": "B is 8 in both. A:C = 7:5."
-    },
-    "hi": {
-      "question": "A:B=7:8, B:C=8:5। A:C=?",
-      "options": [
-        "1:1",
-        "7:5",
-        "15:7",
-        "8:7"
-      ],
-      "explanation": "B दोनों में 8 है। A:C = 7:5।"
-    },
-    "id": "nmrp-0038"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=3:9, B:C=9:2. A:C=?",
-      "options": [
-        "12:3",
-        "1:1",
-        "9:3",
-        "3:2"
-      ],
-      "explanation": "B is 9 in both. A:C = 3:2."
-    },
-    "hi": {
-      "question": "A:B=3:9, B:C=9:2। A:C=?",
-      "options": [
-        "12:3",
-        "1:1",
-        "9:3",
-        "3:2"
-      ],
-      "explanation": "B दोनों में 9 है। A:C = 3:2।"
-    },
-    "id": "nmrp-0039"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=4:5, B:C=5:3. A:C=?",
-      "options": [
-        "9:4",
-        "1:1",
-        "4:3",
-        "5:4"
-      ],
-      "explanation": "B is 5 in both. A:C = 4:3."
-    },
-    "hi": {
-      "question": "A:B=4:5, B:C=5:3। A:C=?",
-      "options": [
-        "9:4",
-        "1:1",
-        "4:3",
-        "5:4"
-      ],
-      "explanation": "B दोनों में 5 है। A:C = 4:3।"
-    },
-    "id": "nmrp-0040"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.726 in 6:5. Larger share?",
-      "options": [
-        "363",
-        "396",
-        "726",
-        "330"
-      ],
-      "explanation": "Parts=11. 6/part: 396, 5/part: 330. Larger=396."
-    },
-    "hi": {
-      "question": "726 रु. 6:5 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "363",
-        "396",
-        "726",
-        "330"
-      ],
-      "explanation": "भाग=11। हिस्से: 396, 330। बड़ा=396।"
-    },
-    "id": "nmrp-0041"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.555 in 5:10. Larger share?",
-      "options": [
-        "185",
-        "555",
-        "277",
-        "370"
-      ],
-      "explanation": "Parts=15. 5/part: 185, 10/part: 370. Larger=370."
-    },
-    "hi": {
-      "question": "555 रु. 5:10 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "185",
-        "555",
-        "277",
-        "370"
-      ],
-      "explanation": "भाग=15। हिस्से: 185, 370। बड़ा=370।"
-    },
-    "id": "nmrp-0042"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=6:9, B:C=9:4. A:C=?",
-      "options": [
-        "1:1",
-        "15:6",
-        "6:4",
-        "9:6"
-      ],
-      "explanation": "B is 9 in both. A:C = 6:4."
-    },
-    "hi": {
-      "question": "A:B=6:9, B:C=9:4। A:C=?",
-      "options": [
-        "1:1",
-        "15:6",
-        "6:4",
-        "9:6"
-      ],
-      "explanation": "B दोनों में 9 है। A:C = 6:4।"
-    },
-    "id": "nmrp-0043"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=7:4, B:C=4:4. A:C=?",
-      "options": [
-        "11:7",
-        "4:7",
-        "1:1",
-        "7:4"
-      ],
-      "explanation": "B is 4 in both. A:C = 7:4."
-    },
-    "hi": {
-      "question": "A:B=7:4, B:C=4:4। A:C=?",
-      "options": [
-        "11:7",
-        "4:7",
-        "1:1",
-        "7:4"
-      ],
-      "explanation": "B दोनों में 4 है। A:C = 7:4।"
-    },
-    "id": "nmrp-0044"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.540 in 3:6. Larger share?",
-      "options": [
-        "540",
-        "180",
-        "270",
-        "360"
-      ],
-      "explanation": "Parts=9. 3/part: 180, 6/part: 360. Larger=360."
-    },
-    "hi": {
-      "question": "540 रु. 3:6 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "540",
-        "180",
-        "270",
-        "360"
-      ],
-      "explanation": "भाग=9। हिस्से: 180, 360। बड़ा=360।"
-    },
-    "id": "nmrp-0045"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.360 in 5:4. Larger share?",
-      "options": [
-        "160",
-        "180",
-        "360",
-        "200"
-      ],
-      "explanation": "Parts=9. 5/part: 200, 4/part: 160. Larger=200."
-    },
-    "hi": {
-      "question": "360 रु. 5:4 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "160",
-        "180",
-        "360",
-        "200"
-      ],
-      "explanation": "भाग=9। हिस्से: 200, 160। बड़ा=200।"
-    },
-    "id": "nmrp-0046"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.312 in 4:8. Larger share?",
-      "options": [
-        "312",
-        "208",
-        "104",
-        "156"
-      ],
-      "explanation": "Parts=12. 4/part: 104, 8/part: 208. Larger=208."
-    },
-    "hi": {
-      "question": "312 रु. 4:8 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "312",
-        "208",
-        "104",
-        "156"
-      ],
-      "explanation": "भाग=12। हिस्से: 104, 208। बड़ा=208।"
-    },
-    "id": "nmrp-0047"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.342 in 8:10. Larger share?",
-      "options": [
-        "342",
-        "152",
-        "171",
-        "190"
-      ],
-      "explanation": "Parts=18. 8/part: 152, 10/part: 190. Larger=190."
-    },
-    "hi": {
-      "question": "342 रु. 8:10 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "342",
-        "152",
-        "171",
-        "190"
-      ],
-      "explanation": "भाग=18। हिस्से: 152, 190। बड़ा=190।"
-    },
-    "id": "nmrp-0048"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=3:3, B:C=3:5. A:C=?",
-      "options": [
-        "3:5",
-        "3:3",
-        "6:3",
-        "1:1"
-      ],
-      "explanation": "B is 3 in both. A:C = 3:5."
-    },
-    "hi": {
-      "question": "A:B=3:3, B:C=3:5। A:C=?",
-      "options": [
-        "3:5",
-        "3:3",
-        "6:3",
-        "1:1"
-      ],
-      "explanation": "B दोनों में 3 है। A:C = 3:5।"
-    },
-    "id": "nmrp-0049"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=5:9, B:C=9:3. A:C=?",
-      "options": [
-        "14:5",
-        "9:5",
-        "5:3",
-        "1:1"
-      ],
-      "explanation": "B is 9 in both. A:C = 5:3."
-    },
-    "hi": {
-      "question": "A:B=5:9, B:C=9:3। A:C=?",
-      "options": [
-        "14:5",
-        "9:5",
-        "5:3",
-        "1:1"
-      ],
-      "explanation": "B दोनों में 9 है। A:C = 5:3।"
-    },
-    "id": "nmrp-0050"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=2:6, B:C=6:5. A:C=?",
-      "options": [
-        "8:2",
-        "1:1",
-        "6:2",
-        "2:5"
-      ],
-      "explanation": "B is 6 in both. A:C = 2:5."
-    },
-    "hi": {
-      "question": "A:B=2:6, B:C=6:5। A:C=?",
-      "options": [
-        "8:2",
-        "1:1",
-        "6:2",
-        "2:5"
-      ],
-      "explanation": "B दोनों में 6 है। A:C = 2:5।"
-    },
-    "id": "nmrp-0051"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.221 in 7:6. Larger share?",
-      "options": [
-        "221",
-        "102",
-        "119",
-        "110"
-      ],
-      "explanation": "Parts=13. 7/part: 119, 6/part: 102. Larger=119."
-    },
-    "hi": {
-      "question": "221 रु. 7:6 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "221",
-        "102",
-        "119",
-        "110"
-      ],
-      "explanation": "भाग=13। हिस्से: 119, 102। बड़ा=119।"
-    },
-    "id": "nmrp-0052"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=6:3, B:C=3:3. A:C=?",
-      "options": [
-        "3:6",
-        "1:1",
-        "9:6",
-        "6:3"
-      ],
-      "explanation": "B is 3 in both. A:C = 6:3."
-    },
-    "hi": {
-      "question": "A:B=6:3, B:C=3:3। A:C=?",
-      "options": [
-        "3:6",
-        "1:1",
-        "9:6",
-        "6:3"
-      ],
-      "explanation": "B दोनों में 3 है। A:C = 6:3।"
-    },
-    "id": "nmrp-0053"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.300 in 7:3. Larger share?",
-      "options": [
-        "210",
-        "90",
-        "150",
-        "300"
-      ],
-      "explanation": "Parts=10. 7/part: 210, 3/part: 90. Larger=210."
-    },
-    "hi": {
-      "question": "300 रु. 7:3 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "210",
-        "90",
-        "150",
-        "300"
-      ],
-      "explanation": "भाग=10। हिस्से: 210, 90। बड़ा=210।"
-    },
-    "id": "nmrp-0054"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=3:8, B:C=8:4. A:C=?",
-      "options": [
-        "1:1",
-        "8:3",
-        "11:3",
-        "3:4"
-      ],
-      "explanation": "B is 8 in both. A:C = 3:4."
-    },
-    "hi": {
-      "question": "A:B=3:8, B:C=8:4। A:C=?",
-      "options": [
-        "1:1",
-        "8:3",
-        "11:3",
-        "3:4"
-      ],
-      "explanation": "B दोनों में 8 है। A:C = 3:4।"
-    },
-    "id": "nmrp-0055"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=8:9, B:C=9:4. A:C=?",
-      "options": [
-        "17:8",
-        "1:1",
-        "9:8",
-        "8:4"
-      ],
-      "explanation": "B is 9 in both. A:C = 8:4."
-    },
-    "hi": {
-      "question": "A:B=8:9, B:C=9:4। A:C=?",
-      "options": [
-        "17:8",
-        "1:1",
-        "9:8",
-        "8:4"
-      ],
-      "explanation": "B दोनों में 9 है। A:C = 8:4।"
-    },
-    "id": "nmrp-0056"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.238 in 6:8. Larger share?",
-      "options": [
-        "238",
-        "136",
-        "119",
-        "102"
-      ],
-      "explanation": "Parts=14. 6/part: 102, 8/part: 136. Larger=136."
-    },
-    "hi": {
-      "question": "238 रु. 6:8 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "238",
-        "136",
-        "119",
-        "102"
-      ],
-      "explanation": "भाग=14। हिस्से: 102, 136। बड़ा=136।"
-    },
-    "id": "nmrp-0057"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=4:4, B:C=4:2. A:C=?",
-      "options": [
-        "8:4",
-        "4:2",
-        "1:1",
-        "4:4"
-      ],
-      "explanation": "B is 4 in both. A:C = 4:2."
-    },
-    "hi": {
-      "question": "A:B=4:4, B:C=4:2। A:C=?",
-      "options": [
-        "8:4",
-        "4:2",
-        "1:1",
-        "4:4"
-      ],
-      "explanation": "B दोनों में 4 है। A:C = 4:2।"
-    },
-    "id": "nmrp-0058"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.205 in 2:3. Larger share?",
-      "options": [
-        "102",
-        "123",
-        "82",
-        "205"
-      ],
-      "explanation": "Parts=5. 2/part: 82, 3/part: 123. Larger=123."
-    },
-    "hi": {
-      "question": "205 रु. 2:3 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "102",
-        "123",
-        "82",
-        "205"
-      ],
-      "explanation": "भाग=5। हिस्से: 82, 123। बड़ा=123।"
-    },
-    "id": "nmrp-0059"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=5:8, B:C=8:4. A:C=?",
-      "options": [
-        "8:5",
-        "13:5",
-        "1:1",
-        "5:4"
-      ],
-      "explanation": "B is 8 in both. A:C = 5:4."
-    },
-    "hi": {
-      "question": "A:B=5:8, B:C=8:4। A:C=?",
-      "options": [
-        "8:5",
-        "13:5",
-        "1:1",
-        "5:4"
-      ],
-      "explanation": "B दोनों में 8 है। A:C = 5:4।"
-    },
-    "id": "nmrp-0061"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=3:6, B:C=6:5. A:C=?",
-      "options": [
-        "9:3",
-        "1:1",
-        "6:3",
-        "3:5"
-      ],
-      "explanation": "B is 6 in both. A:C = 3:5."
-    },
-    "hi": {
-      "question": "A:B=3:6, B:C=6:5। A:C=?",
-      "options": [
-        "9:3",
-        "1:1",
-        "6:3",
-        "3:5"
-      ],
-      "explanation": "B दोनों में 6 है। A:C = 3:5।"
-    },
-    "id": "nmrp-0062"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.765 in 8:7. Larger share?",
-      "options": [
-        "765",
-        "357",
-        "408",
-        "382"
-      ],
-      "explanation": "Parts=15. 8/part: 408, 7/part: 357. Larger=408."
-    },
-    "hi": {
-      "question": "765 रु. 8:7 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "765",
-        "357",
-        "408",
-        "382"
-      ],
-      "explanation": "भाग=15। हिस्से: 408, 357। बड़ा=408।"
-    },
-    "id": "nmrp-0063"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=3:7, B:C=7:3. A:C=?",
-      "options": [
-        "3:3",
-        "1:1",
-        "7:3",
-        "10:3"
-      ],
-      "explanation": "B is 7 in both. A:C = 3:3."
-    },
-    "hi": {
-      "question": "A:B=3:7, B:C=7:3। A:C=?",
-      "options": [
-        "3:3",
-        "1:1",
-        "7:3",
-        "10:3"
-      ],
-      "explanation": "B दोनों में 7 है। A:C = 3:3।"
-    },
-    "id": "nmrp-0064"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=8:6, B:C=6:3. A:C=?",
-      "options": [
-        "1:1",
-        "14:8",
-        "8:3",
-        "6:8"
-      ],
-      "explanation": "B is 6 in both. A:C = 8:3."
-    },
-    "hi": {
-      "question": "A:B=8:6, B:C=6:3। A:C=?",
-      "options": [
-        "1:1",
-        "14:8",
-        "8:3",
-        "6:8"
-      ],
-      "explanation": "B दोनों में 6 है। A:C = 8:3।"
-    },
-    "id": "nmrp-0065"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.632 in 2:6. Larger share?",
-      "options": [
-        "632",
-        "316",
-        "158",
-        "474"
-      ],
-      "explanation": "Parts=8. 2/part: 158, 6/part: 474. Larger=474."
-    },
-    "hi": {
-      "question": "632 रु. 2:6 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "632",
-        "316",
-        "158",
-        "474"
-      ],
-      "explanation": "भाग=8। हिस्से: 158, 474। बड़ा=474।"
-    },
-    "id": "nmrp-0066"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.833 in 8:9. Larger share?",
-      "options": [
-        "441",
-        "833",
-        "416",
-        "392"
-      ],
-      "explanation": "Parts=17. 8/part: 392, 9/part: 441. Larger=441."
-    },
-    "hi": {
-      "question": "833 रु. 8:9 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "441",
-        "833",
-        "416",
-        "392"
-      ],
-      "explanation": "भाग=17। हिस्से: 392, 441। बड़ा=441।"
-    },
-    "id": "nmrp-0067"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.315 in 2:5. Larger share?",
-      "options": [
-        "225",
-        "157",
-        "315",
+      "question": "Divide ₹330 in ratio 3:8. First part is?",
+      "options": [
+        "165",
+        "240",
+        "500",
         "90"
       ],
-      "explanation": "Parts=7. 2/part: 90, 5/part: 225. Larger=225."
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 330 = 90."
     },
     "hi": {
-      "question": "315 रु. 2:5 में बांटें। बड़ा हिस्सा?",
+      "question": "Divide ₹330 in ratio 3:8. First part is?",
       "options": [
-        "225",
-        "157",
-        "315",
+        "165",
+        "240",
+        "500",
         "90"
       ],
-      "explanation": "भाग=7। हिस्से: 90, 225। बड़ा=225।"
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 330 = 90."
     },
-    "id": "nmrp-0068"
+    "id": "ratio-proportion-0008"
   },
   {
-    "correctOption": "D",
-    "difficulty": "medium",
+    "correctOption": "C",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "A:B=7:8, B:C=8:2. A:C=?",
+      "question": "Divide ₹210 in ratio 2:5. First part is?",
       "options": [
-        "8:7",
-        "15:7",
-        "1:1",
-        "7:2"
+        "105",
+        "150",
+        "60",
+        "1000"
       ],
-      "explanation": "B is 8 in both. A:C = 7:2."
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 210 = 60."
     },
     "hi": {
-      "question": "A:B=7:8, B:C=8:2। A:C=?",
+      "question": "Divide ₹210 in ratio 2:5. First part is?",
       "options": [
-        "8:7",
-        "15:7",
-        "1:1",
-        "7:2"
+        "105",
+        "150",
+        "60",
+        "1000"
       ],
-      "explanation": "B दोनों में 8 है। A:C = 7:2।"
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 210 = 60."
     },
-    "id": "nmrp-0069"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=7:9, B:C=9:2. A:C=?",
-      "options": [
-        "9:7",
-        "7:2",
-        "1:1",
-        "16:7"
-      ],
-      "explanation": "B is 9 in both. A:C = 7:2."
-    },
-    "hi": {
-      "question": "A:B=7:9, B:C=9:2। A:C=?",
-      "options": [
-        "9:7",
-        "7:2",
-        "1:1",
-        "16:7"
-      ],
-      "explanation": "B दोनों में 9 है। A:C = 7:2।"
-    },
-    "id": "nmrp-0070"
+    "id": "ratio-proportion-0009"
   },
   {
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "A:B=3:7, B:C=7:5. A:C=?",
+      "question": "Divide ₹320 in ratio 3:5. First part is?",
       "options": [
-        "3:5",
-        "10:3",
-        "7:3",
-        "1:1"
+        "120",
+        "200",
+        "100",
+        "160"
       ],
-      "explanation": "B is 7 in both. A:C = 3:5."
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 320 = 120."
     },
     "hi": {
-      "question": "A:B=3:7, B:C=7:5। A:C=?",
+      "question": "Divide ₹320 in ratio 3:5. First part is?",
       "options": [
-        "3:5",
-        "10:3",
-        "7:3",
-        "1:1"
+        "120",
+        "200",
+        "100",
+        "160"
       ],
-      "explanation": "B दोनों में 7 है। A:C = 3:5।"
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 320 = 120."
     },
-    "id": "nmrp-0071"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=4:6, B:C=6:3. A:C=?",
-      "options": [
-        "6:4",
-        "1:1",
-        "10:4",
-        "4:3"
-      ],
-      "explanation": "B is 6 in both. A:C = 4:3."
-    },
-    "hi": {
-      "question": "A:B=4:6, B:C=6:3। A:C=?",
-      "options": [
-        "6:4",
-        "1:1",
-        "10:4",
-        "4:3"
-      ],
-      "explanation": "B दोनों में 6 है। A:C = 4:3।"
-    },
-    "id": "nmrp-0072"
+    "id": "ratio-proportion-0010"
   },
   {
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Divide Rs.897 in 3:10. Larger share?",
+      "question": "Divide ₹700 in ratio 2:5. First part is?",
       "options": [
-        "448",
-        "207",
-        "897",
-        "690"
+        "100",
+        "500",
+        "350",
+        "200"
       ],
-      "explanation": "Parts=13. 3/part: 207, 10/part: 690. Larger=690."
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 700 = 200."
     },
     "hi": {
-      "question": "897 रु. 3:10 में बांटें। बड़ा हिस्सा?",
+      "question": "Divide ₹700 in ratio 2:5. First part is?",
       "options": [
-        "448",
-        "207",
-        "897",
-        "690"
+        "100",
+        "500",
+        "350",
+        "200"
       ],
-      "explanation": "भाग=13। हिस्से: 207, 690। बड़ा=690।"
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 700 = 200."
     },
-    "id": "nmrp-0073"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.938 in 8:6. Larger share?",
-      "options": [
-        "402",
-        "469",
-        "536",
-        "938"
-      ],
-      "explanation": "Parts=14. 8/part: 536, 6/part: 402. Larger=536."
-    },
-    "hi": {
-      "question": "938 रु. 8:6 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "402",
-        "469",
-        "536",
-        "938"
-      ],
-      "explanation": "भाग=14। हिस्से: 536, 402। बड़ा=536।"
-    },
-    "id": "nmrp-0074"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=3:7, B:C=7:2. A:C=?",
-      "options": [
-        "1:1",
-        "3:2",
-        "10:3",
-        "7:3"
-      ],
-      "explanation": "B is 7 in both. A:C = 3:2."
-    },
-    "hi": {
-      "question": "A:B=3:7, B:C=7:2। A:C=?",
-      "options": [
-        "1:1",
-        "3:2",
-        "10:3",
-        "7:3"
-      ],
-      "explanation": "B दोनों में 7 है। A:C = 3:2।"
-    },
-    "id": "nmrp-0075"
+    "id": "ratio-proportion-0011"
   },
   {
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Divide Rs.440 in 2:6. Larger share?",
+      "question": "Divide ₹400 in ratio 3:5. First part is?",
       "options": [
-        "220",
-        "110",
-        "440",
-        "330"
+        "200",
+        "250",
+        "200",
+        "150"
       ],
-      "explanation": "Parts=8. 2/part: 110, 6/part: 330. Larger=330."
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 400 = 150."
     },
     "hi": {
-      "question": "440 रु. 2:6 में बांटें। बड़ा हिस्सा?",
+      "question": "Divide ₹400 in ratio 3:5. First part is?",
       "options": [
-        "220",
-        "110",
-        "440",
-        "330"
+        "200",
+        "250",
+        "200",
+        "150"
       ],
-      "explanation": "भाग=8। हिस्से: 110, 330। बड़ा=330।"
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 400 = 150."
     },
-    "id": "nmrp-0076"
+    "id": "ratio-proportion-0012"
   },
   {
-    "correctOption": "C",
-    "difficulty": "medium",
+    "correctOption": "A",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "A:B=4:5, B:C=5:5. A:C=?",
+      "question": "Divide ₹100 in ratio 2:3. First part is?",
       "options": [
-        "1:1",
-        "9:4",
-        "4:5",
-        "5:4"
+        "40",
+        "100",
+        "50",
+        "60"
       ],
-      "explanation": "B is 5 in both. A:C = 4:5."
+      "explanation": "Ratio sum = 2+3 = 5. First part = (2/5) × 100 = 40."
     },
     "hi": {
-      "question": "A:B=4:5, B:C=5:5। A:C=?",
+      "question": "Divide ₹100 in ratio 2:3. First part is?",
       "options": [
-        "1:1",
-        "9:4",
-        "4:5",
-        "5:4"
+        "40",
+        "100",
+        "50",
+        "60"
       ],
-      "explanation": "B दोनों में 5 है। A:C = 4:5।"
+      "explanation": "Ratio sum = 2+3 = 5. First part = (2/5) × 100 = 40."
     },
-    "id": "nmrp-0077"
+    "id": "ratio-proportion-0013"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹320 in ratio 3:5. First part is?",
+      "options": [
+        "200",
+        "2000",
+        "160",
+        "120"
+      ],
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 320 = 120."
+    },
+    "hi": {
+      "question": "Divide ₹320 in ratio 3:5. First part is?",
+      "options": [
+        "200",
+        "2000",
+        "160",
+        "120"
+      ],
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 320 = 120."
+    },
+    "id": "ratio-proportion-0014"
   },
   {
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Divide Rs.175 in 2:5. Larger share?",
+      "question": "Divide ₹390 in ratio 5:8. First part is?",
       "options": [
-        "87",
-        "175",
-        "125",
+        "240",
+        "195",
+        "150",
+        "500"
+      ],
+      "explanation": "Ratio sum = 5+8 = 13. First part = (5/13) × 390 = 150."
+    },
+    "hi": {
+      "question": "Divide ₹390 in ratio 5:8. First part is?",
+      "options": [
+        "240",
+        "195",
+        "150",
+        "500"
+      ],
+      "explanation": "Ratio sum = 5+8 = 13. First part = (5/13) × 390 = 150."
+    },
+    "id": "ratio-proportion-0015"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹330 in ratio 3:8. First part is?",
+      "options": [
+        "90",
+        "240",
+        "1000",
+        "165"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 330 = 90."
+    },
+    "hi": {
+      "question": "Divide ₹330 in ratio 3:8. First part is?",
+      "options": [
+        "90",
+        "240",
+        "1000",
+        "165"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 330 = 90."
+    },
+    "id": "ratio-proportion-0016"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹110 in ratio 5:6. First part is?",
+      "options": [
+        "50",
+        "55",
+        "100",
+        "60"
+      ],
+      "explanation": "Ratio sum = 5+6 = 11. First part = (5/11) × 110 = 50."
+    },
+    "hi": {
+      "question": "Divide ₹110 in ratio 5:6. First part is?",
+      "options": [
+        "50",
+        "55",
+        "100",
+        "60"
+      ],
+      "explanation": "Ratio sum = 5+6 = 11. First part = (5/11) × 110 = 50."
+    },
+    "id": "ratio-proportion-0017"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹110 in ratio 3:8. First part is?",
+      "options": [
+        "30",
+        "80",
+        "500",
+        "55"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 110 = 30."
+    },
+    "hi": {
+      "question": "Divide ₹110 in ratio 3:8. First part is?",
+      "options": [
+        "30",
+        "80",
+        "500",
+        "55"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 110 = 30."
+    },
+    "id": "ratio-proportion-0018"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹550 in ratio 5:6. First part is?",
+      "options": [
+        "300",
+        "275",
+        "250",
+        "500"
+      ],
+      "explanation": "Ratio sum = 5+6 = 11. First part = (5/11) × 550 = 250."
+    },
+    "hi": {
+      "question": "Divide ₹550 in ratio 5:6. First part is?",
+      "options": [
+        "300",
+        "275",
+        "250",
+        "500"
+      ],
+      "explanation": "Ratio sum = 5+6 = 11. First part = (5/11) × 550 = 250."
+    },
+    "id": "ratio-proportion-0019"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹90 in ratio 4:5. First part is?",
+      "options": [
+        "40",
+        "1000",
+        "45",
         "50"
       ],
-      "explanation": "Parts=7. 2/part: 50, 5/part: 125. Larger=125."
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 90 = 40."
     },
     "hi": {
-      "question": "175 रु. 2:5 में बांटें। बड़ा हिस्सा?",
+      "question": "Divide ₹90 in ratio 4:5. First part is?",
       "options": [
-        "87",
-        "175",
-        "125",
+        "40",
+        "1000",
+        "45",
         "50"
       ],
-      "explanation": "भाग=7। हिस्से: 50, 125। बड़ा=125।"
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 90 = 40."
     },
-    "id": "nmrp-0078"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A:B=8:9, B:C=9:2. A:C=?",
-      "options": [
-        "9:8",
-        "17:8",
-        "8:2",
-        "1:1"
-      ],
-      "explanation": "B is 9 in both. A:C = 8:2."
-    },
-    "hi": {
-      "question": "A:B=8:9, B:C=9:2। A:C=?",
-      "options": [
-        "9:8",
-        "17:8",
-        "8:2",
-        "1:1"
-      ],
-      "explanation": "B दोनों में 9 है। A:C = 8:2।"
-    },
-    "id": "nmrp-0079"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.736 in 2:6. Larger share?",
-      "options": [
-        "736",
-        "368",
-        "552",
-        "184"
-      ],
-      "explanation": "Parts=8. 2/part: 184, 6/part: 552. Larger=552."
-    },
-    "hi": {
-      "question": "736 रु. 2:6 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "736",
-        "368",
-        "552",
-        "184"
-      ],
-      "explanation": "भाग=8। हिस्से: 184, 552। बड़ा=552।"
-    },
-    "id": "nmrp-0080"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide Rs.345 in 2:3. Larger share?",
-      "options": [
-        "207",
-        "138",
-        "345",
-        "172"
-      ],
-      "explanation": "Parts=5. 2/part: 138, 3/part: 207. Larger=207."
-    },
-    "hi": {
-      "question": "345 रु. 2:3 में बांटें। बड़ा हिस्सा?",
-      "options": [
-        "207",
-        "138",
-        "345",
-        "172"
-      ],
-      "explanation": "भाग=5। हिस्से: 138, 207। बड़ा=207।"
-    },
-    "id": "nmrp-0081"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 48 + 6 × 3",
-      "options": [
-        "162",
-        "57",
-        "864",
-        "66"
-      ],
-      "explanation": "BODMAS: 6×3=18+48=66."
-    },
-    "hi": {
-      "question": "सरल: 48 + 6 × 3",
-      "options": [
-        "162",
-        "57",
-        "864",
-        "66"
-      ],
-      "explanation": "BODMAS: 66।"
-    },
-    "id": "nmrp-0082"
+    "id": "ratio-proportion-0020"
   },
   {
     "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "23% of 260?",
+      "question": "Divide ₹700 in ratio 3:4. First part is?",
       "options": [
-        "130",
-        "598",
-        "520",
-        "260"
-      ],
-      "explanation": "260×23/100=598."
-    },
-    "hi": {
-      "question": "260 का 23%?",
-      "options": [
-        "130",
-        "598",
-        "520",
-        "260"
-      ],
-      "explanation": "260×23/100=598।"
-    },
-    "id": "nmrp-0083"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 44km/hr, 10hrs. Distance?",
-      "options": [
-        "220km",
-        "440km",
-        "54km",
-        "880km"
-      ],
-      "explanation": "Dist=44×10=440km."
-    },
-    "hi": {
-      "question": "कार 44किमी/घं, 10घंटे। दूरी?",
-      "options": [
-        "220km",
-        "440km",
-        "54km",
-        "880km"
-      ],
-      "explanation": "दूरी=440किमी।"
-    },
-    "id": "nmrp-0084"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 14km/hr, 4hrs. Distance?",
-      "options": [
-        "56km",
-        "112km",
-        "28km",
-        "18km"
-      ],
-      "explanation": "Dist=14×4=56km."
-    },
-    "hi": {
-      "question": "कार 14किमी/घं, 4घंटे। दूरी?",
-      "options": [
-        "56km",
-        "112km",
-        "28km",
-        "18km"
-      ],
-      "explanation": "दूरी=56किमी।"
-    },
-    "id": "nmrp-0085"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 23, 34, 47, 8, 36, 37",
-      "options": [
-        "47",
-        "30.8",
-        "8",
-        "185"
-      ],
-      "explanation": "Sum=185/6=30.8."
-    },
-    "hi": {
-      "question": "औसत: 23, 34, 47, 8, 36, 37",
-      "options": [
-        "47",
-        "30.8",
-        "8",
-        "185"
-      ],
-      "explanation": "योग=185/6=30.8।"
-    },
-    "id": "nmrp-0086"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 30000 at 13% for 8yrs?",
-      "options": [
-        "Rs.31200",
-        "Rs.15600",
-        "Rs.30000",
-        "Rs.62400"
-      ],
-      "explanation": "SI=30000×13×8/100=31200.0."
-    },
-    "hi": {
-      "question": "30000रु, 13%, 8वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.31200",
-        "Rs.15600",
-        "Rs.30000",
-        "Rs.62400"
-      ],
-      "explanation": "सा.ब्याज=31200.0।"
-    },
-    "id": "nmrp-0087"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 10km/hr, 30hrs. Distance?",
-      "options": [
-        "150km",
-        "600km",
-        "40km",
-        "300km"
-      ],
-      "explanation": "Dist=10×30=300km."
-    },
-    "hi": {
-      "question": "कार 10किमी/घं, 30घंटे। दूरी?",
-      "options": [
-        "150km",
-        "600km",
-        "40km",
-        "300km"
-      ],
-      "explanation": "दूरी=300किमी।"
-    },
-    "id": "nmrp-0088"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A=16d, B=5d. Together?",
-      "options": [
-        "7.6d",
-        "21d",
-        "3.8d",
-        "11d"
-      ],
-      "explanation": "1d: 1/16+1/5. Time=3.8d."
-    },
-    "hi": {
-      "question": "A=16दिन, B=5दिन। साथ?",
-      "options": [
-        "7.6d",
-        "21d",
-        "3.8d",
-        "11d"
-      ],
-      "explanation": "1दिन: 1/16+1/5। समय=3.8दिन।"
-    },
-    "id": "nmrp-0089"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 6, 50, 17, 24, 60, 17",
-      "options": [
-        "174",
-        "60",
-        "6",
-        "29"
-      ],
-      "explanation": "Sum=174/6=29."
-    },
-    "hi": {
-      "question": "औसत: 6, 50, 17, 24, 60, 17",
-      "options": [
-        "174",
-        "60",
-        "6",
-        "29"
-      ],
-      "explanation": "योग=174/6=29।"
-    },
-    "id": "nmrp-0090"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 37 and 17?",
-      "options": [
-        "1",
-        "629",
-        "629",
-        "54"
-      ],
-      "explanation": "LCM=629/1=629."
-    },
-    "hi": {
-      "question": "37 और 17 का ल.स.?",
-      "options": [
-        "1",
-        "629",
-        "629",
-        "54"
-      ],
-      "explanation": "ल.स.=629।"
-    },
-    "id": "nmrp-0091"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A=34d, B=9d. Together?",
-      "options": [
-        "25d",
-        "14.2d",
-        "43d",
-        "7.1d"
-      ],
-      "explanation": "1d: 1/34+1/9. Time=7.1d."
-    },
-    "hi": {
-      "question": "A=34दिन, B=9दिन। साथ?",
-      "options": [
-        "25d",
-        "14.2d",
-        "43d",
-        "7.1d"
-      ],
-      "explanation": "1दिन: 1/34+1/9। समय=7.1दिन।"
-    },
-    "id": "nmrp-0092"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 5 + 18 × 8",
-      "options": [
-        "720",
-        "184",
-        "31",
-        "149"
-      ],
-      "explanation": "BODMAS: 18×8=144+5=149."
-    },
-    "hi": {
-      "question": "सरल: 5 + 18 × 8",
-      "options": [
-        "720",
-        "184",
-        "31",
-        "149"
-      ],
-      "explanation": "BODMAS: 149।"
-    },
-    "id": "nmrp-0093"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.300, 5% profit. SP?",
-      "options": [
-        "252",
+        "400",
         "300",
-        "600",
-        "315"
+        "500",
+        "350"
       ],
-      "explanation": "SP=300×1.05=315.0."
+      "explanation": "Ratio sum = 3+4 = 7. First part = (3/7) × 700 = 300."
     },
     "hi": {
-      "question": "क्र.मू. 300रु, 5% लाभ। वि.मू.?",
+      "question": "Divide ₹700 in ratio 3:4. First part is?",
       "options": [
-        "252",
+        "400",
         "300",
-        "600",
-        "315"
+        "500",
+        "350"
       ],
-      "explanation": "वि.मू.=315.0।"
+      "explanation": "Ratio sum = 3+4 = 7. First part = (3/7) × 700 = 300."
     },
-    "id": "nmrp-0094"
+    "id": "ratio-proportion-0021"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹550 in ratio 3:8. First part is?",
+      "options": [
+        "400",
+        "500",
+        "150",
+        "275"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 550 = 150."
+    },
+    "hi": {
+      "question": "Divide ₹550 in ratio 3:8. First part is?",
+      "options": [
+        "400",
+        "500",
+        "150",
+        "275"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 550 = 150."
+    },
+    "id": "ratio-proportion-0022"
   },
   {
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Car 39km/hr, 15hrs. Distance?",
+      "question": "Divide ₹400 in ratio 3:5. First part is?",
       "options": [
-        "54km",
-        "292km",
-        "1170km",
-        "585km"
+        "250",
+        "200",
+        "200",
+        "150"
       ],
-      "explanation": "Dist=39×15=585km."
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 400 = 150."
     },
     "hi": {
-      "question": "कार 39किमी/घं, 15घंटे। दूरी?",
+      "question": "Divide ₹400 in ratio 3:5. First part is?",
       "options": [
-        "54km",
-        "292km",
-        "1170km",
-        "585km"
+        "250",
+        "200",
+        "200",
+        "150"
       ],
-      "explanation": "दूरी=585किमी।"
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 400 = 150."
     },
-    "id": "nmrp-0095"
+    "id": "ratio-proportion-0023"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹440 in ratio 5:6. First part is?",
+      "options": [
+        "200",
+        "240",
+        "100",
+        "220"
+      ],
+      "explanation": "Ratio sum = 5+6 = 11. First part = (5/11) × 440 = 200."
+    },
+    "hi": {
+      "question": "Divide ₹440 in ratio 5:6. First part is?",
+      "options": [
+        "200",
+        "240",
+        "100",
+        "220"
+      ],
+      "explanation": "Ratio sum = 5+6 = 11. First part = (5/11) × 440 = 200."
+    },
+    "id": "ratio-proportion-0024"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹650 in ratio 5:8. First part is?",
+      "options": [
+        "325",
+        "400",
+        "200",
+        "250"
+      ],
+      "explanation": "Ratio sum = 5+8 = 13. First part = (5/13) × 650 = 250."
+    },
+    "hi": {
+      "question": "Divide ₹650 in ratio 5:8. First part is?",
+      "options": [
+        "325",
+        "400",
+        "200",
+        "250"
+      ],
+      "explanation": "Ratio sum = 5+8 = 13. First part = (5/13) × 650 = 250."
+    },
+    "id": "ratio-proportion-0025"
   },
   {
     "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "CP Rs.300, 28% profit. SP?",
-      "options": [
-        "307",
-        "384",
-        "600",
-        "300"
-      ],
-      "explanation": "SP=300×1.28=384.0."
-    },
-    "hi": {
-      "question": "क्र.मू. 300रु, 28% लाभ। वि.मू.?",
-      "options": [
-        "307",
-        "384",
-        "600",
-        "300"
-      ],
-      "explanation": "वि.मू.=384.0।"
-    },
-    "id": "nmrp-0096"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.250, 17% profit. SP?",
+      "question": "Divide ₹1000 in ratio 7:3. First part is?",
       "options": [
         "500",
-        "250",
-        "234",
-        "292.5"
+        "700",
+        "300",
+        "1000"
       ],
-      "explanation": "SP=250×1.17=292.5."
+      "explanation": "Ratio sum = 7+3 = 10. First part = (7/10) × 1000 = 700."
     },
     "hi": {
-      "question": "क्र.मू. 250रु, 17% लाभ। वि.मू.?",
+      "question": "Divide ₹1000 in ratio 7:3. First part is?",
       "options": [
         "500",
+        "700",
+        "300",
+        "1000"
+      ],
+      "explanation": "Ratio sum = 7+3 = 10. First part = (7/10) × 1000 = 700."
+    },
+    "id": "ratio-proportion-0026"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹270 in ratio 4:5. First part is?",
+      "options": [
+        "120",
+        "135",
+        "150",
+        "100"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 270 = 120."
+    },
+    "hi": {
+      "question": "Divide ₹270 in ratio 4:5. First part is?",
+      "options": [
+        "120",
+        "135",
+        "150",
+        "100"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 270 = 120."
+    },
+    "id": "ratio-proportion-0027"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹450 in ratio 4:5. First part is?",
+      "options": [
+        "225",
+        "2000",
+        "200",
+        "250"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 450 = 200."
+    },
+    "hi": {
+      "question": "Divide ₹450 in ratio 4:5. First part is?",
+      "options": [
+        "225",
+        "2000",
+        "200",
+        "250"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 450 = 200."
+    },
+    "id": "ratio-proportion-0028"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹110 in ratio 3:8. First part is?",
+      "options": [
+        "55",
+        "30",
+        "100",
+        "80"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 110 = 30."
+    },
+    "hi": {
+      "question": "Divide ₹110 in ratio 3:8. First part is?",
+      "options": [
+        "55",
+        "30",
+        "100",
+        "80"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 110 = 30."
+    },
+    "id": "ratio-proportion-0029"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹270 in ratio 4:5. First part is?",
+      "options": [
+        "120",
+        "150",
+        "200",
+        "135"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 270 = 120."
+    },
+    "hi": {
+      "question": "Divide ₹270 in ratio 4:5. First part is?",
+      "options": [
+        "120",
+        "150",
+        "200",
+        "135"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 270 = 120."
+    },
+    "id": "ratio-proportion-0030"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹210 in ratio 3:4. First part is?",
+      "options": [
+        "200",
+        "120",
+        "90",
+        "105"
+      ],
+      "explanation": "Ratio sum = 3+4 = 7. First part = (3/7) × 210 = 90."
+    },
+    "hi": {
+      "question": "Divide ₹210 in ratio 3:4. First part is?",
+      "options": [
+        "200",
+        "120",
+        "90",
+        "105"
+      ],
+      "explanation": "Ratio sum = 3+4 = 7. First part = (3/7) × 210 = 90."
+    },
+    "id": "ratio-proportion-0031"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹550 in ratio 4:7. First part is?",
+      "options": [
+        "100",
+        "200",
+        "275",
+        "350"
+      ],
+      "explanation": "Ratio sum = 4+7 = 11. First part = (4/11) × 550 = 200."
+    },
+    "hi": {
+      "question": "Divide ₹550 in ratio 4:7. First part is?",
+      "options": [
+        "100",
+        "200",
+        "275",
+        "350"
+      ],
+      "explanation": "Ratio sum = 4+7 = 11. First part = (4/11) × 550 = 200."
+    },
+    "id": "ratio-proportion-0032"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹900 in ratio 4:5. First part is?",
+      "options": [
+        "500",
+        "400",
+        "2000",
+        "450"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 900 = 400."
+    },
+    "hi": {
+      "question": "Divide ₹900 in ratio 4:5. First part is?",
+      "options": [
+        "500",
+        "400",
+        "2000",
+        "450"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 900 = 400."
+    },
+    "id": "ratio-proportion-0033"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹50 in ratio 2:3. First part is?",
+      "options": [
+        "30",
+        "20",
+        "100",
+        "25"
+      ],
+      "explanation": "Ratio sum = 2+3 = 5. First part = (2/5) × 50 = 20."
+    },
+    "hi": {
+      "question": "Divide ₹50 in ratio 2:3. First part is?",
+      "options": [
+        "30",
+        "20",
+        "100",
+        "25"
+      ],
+      "explanation": "Ratio sum = 2+3 = 5. First part = (2/5) × 50 = 20."
+    },
+    "id": "ratio-proportion-0034"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹440 in ratio 4:7. First part is?",
+      "options": [
+        "2000",
+        "220",
+        "280",
+        "160"
+      ],
+      "explanation": "Ratio sum = 4+7 = 11. First part = (4/11) × 440 = 160."
+    },
+    "hi": {
+      "question": "Divide ₹440 in ratio 4:7. First part is?",
+      "options": [
+        "2000",
+        "220",
+        "280",
+        "160"
+      ],
+      "explanation": "Ratio sum = 4+7 = 11. First part = (4/11) × 440 = 160."
+    },
+    "id": "ratio-proportion-0035"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹280 in ratio 2:5. First part is?",
+      "options": [
+        "80",
+        "140",
+        "200",
+        "200"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 280 = 80."
+    },
+    "hi": {
+      "question": "Divide ₹280 in ratio 2:5. First part is?",
+      "options": [
+        "80",
+        "140",
+        "200",
+        "200"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 280 = 80."
+    },
+    "id": "ratio-proportion-0036"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹700 in ratio 3:4. First part is?",
+      "options": [
+        "300",
+        "350",
+        "100",
+        "400"
+      ],
+      "explanation": "Ratio sum = 3+4 = 7. First part = (3/7) × 700 = 300."
+    },
+    "hi": {
+      "question": "Divide ₹700 in ratio 3:4. First part is?",
+      "options": [
+        "300",
+        "350",
+        "100",
+        "400"
+      ],
+      "explanation": "Ratio sum = 3+4 = 7. First part = (3/7) × 700 = 300."
+    },
+    "id": "ratio-proportion-0037"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹520 in ratio 5:8. First part is?",
+      "options": [
+        "320",
+        "200",
+        "200",
+        "260"
+      ],
+      "explanation": "Ratio sum = 5+8 = 13. First part = (5/13) × 520 = 200."
+    },
+    "hi": {
+      "question": "Divide ₹520 in ratio 5:8. First part is?",
+      "options": [
+        "320",
+        "200",
+        "200",
+        "260"
+      ],
+      "explanation": "Ratio sum = 5+8 = 13. First part = (5/13) × 520 = 200."
+    },
+    "id": "ratio-proportion-0038"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹800 in ratio 3:5. First part is?",
+      "options": [
+        "500",
+        "300",
+        "500",
+        "400"
+      ],
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 800 = 300."
+    },
+    "hi": {
+      "question": "Divide ₹800 in ratio 3:5. First part is?",
+      "options": [
+        "500",
+        "300",
+        "500",
+        "400"
+      ],
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 800 = 300."
+    },
+    "id": "ratio-proportion-0039"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹400 in ratio 3:5. First part is?",
+      "options": [
+        "200",
+        "2000",
         "250",
-        "234",
-        "292.5"
+        "150"
       ],
-      "explanation": "वि.मू.=292.5।"
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 400 = 150."
     },
-    "id": "nmrp-0097"
+    "hi": {
+      "question": "Divide ₹400 in ratio 3:5. First part is?",
+      "options": [
+        "200",
+        "2000",
+        "250",
+        "150"
+      ],
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 400 = 150."
+    },
+    "id": "ratio-proportion-0040"
   },
   {
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Average: 68, 71, 55, 27, 52, 75",
+      "question": "Divide ₹130 in ratio 5:8. First part is?",
       "options": [
-        "75",
-        "348",
-        "27",
-        "58"
+        "80",
+        "65",
+        "50",
+        "500"
       ],
-      "explanation": "Sum=348/6=58."
+      "explanation": "Ratio sum = 5+8 = 13. First part = (5/13) × 130 = 50."
     },
     "hi": {
-      "question": "औसत: 68, 71, 55, 27, 52, 75",
+      "question": "Divide ₹130 in ratio 5:8. First part is?",
       "options": [
-        "75",
-        "348",
-        "27",
-        "58"
+        "80",
+        "65",
+        "50",
+        "500"
       ],
-      "explanation": "योग=348/6=58।"
+      "explanation": "Ratio sum = 5+8 = 13. First part = (5/13) × 130 = 50."
     },
-    "id": "nmrp-0098"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 35, 40, 49, 30, 32, 5",
-      "options": [
-        "31.8",
-        "5",
-        "191",
-        "49"
-      ],
-      "explanation": "Sum=191/6=31.8."
-    },
-    "hi": {
-      "question": "औसत: 35, 40, 49, 30, 32, 5",
-      "options": [
-        "31.8",
-        "5",
-        "191",
-        "49"
-      ],
-      "explanation": "योग=191/6=31.8।"
-    },
-    "id": "nmrp-0099"
+    "id": "ratio-proportion-0041"
   },
   {
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Car 48km/hr, 9hrs. Distance?",
+      "question": "Divide ₹70 in ratio 3:4. First part is?",
       "options": [
-        "432km",
-        "216km",
-        "864km",
-        "57km"
+        "30",
+        "40",
+        "35",
+        "500"
       ],
-      "explanation": "Dist=48×9=432km."
+      "explanation": "Ratio sum = 3+4 = 7. First part = (3/7) × 70 = 30."
     },
     "hi": {
-      "question": "कार 48किमी/घं, 9घंटे। दूरी?",
+      "question": "Divide ₹70 in ratio 3:4. First part is?",
       "options": [
-        "432km",
-        "216km",
-        "864km",
-        "57km"
+        "30",
+        "40",
+        "35",
+        "500"
       ],
-      "explanation": "दूरी=432किमी।"
+      "explanation": "Ratio sum = 3+4 = 7. First part = (3/7) × 70 = 30."
     },
-    "id": "nmrp-0100"
+    "id": "ratio-proportion-0042"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹220 in ratio 5:6. First part is?",
+      "options": [
+        "120",
+        "500",
+        "100",
+        "110"
+      ],
+      "explanation": "Ratio sum = 5+6 = 11. First part = (5/11) × 220 = 100."
+    },
+    "hi": {
+      "question": "Divide ₹220 in ratio 5:6. First part is?",
+      "options": [
+        "120",
+        "500",
+        "100",
+        "110"
+      ],
+      "explanation": "Ratio sum = 5+6 = 11. First part = (5/11) × 220 = 100."
+    },
+    "id": "ratio-proportion-0043"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹650 in ratio 5:8. First part is?",
+      "options": [
+        "250",
+        "325",
+        "400",
+        "1000"
+      ],
+      "explanation": "Ratio sum = 5+8 = 13. First part = (5/13) × 650 = 250."
+    },
+    "hi": {
+      "question": "Divide ₹650 in ratio 5:8. First part is?",
+      "options": [
+        "250",
+        "325",
+        "400",
+        "1000"
+      ],
+      "explanation": "Ratio sum = 5+8 = 13. First part = (5/13) × 650 = 250."
+    },
+    "id": "ratio-proportion-0044"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹50 in ratio 2:3. First part is?",
+      "options": [
+        "30",
+        "25",
+        "20",
+        "1000"
+      ],
+      "explanation": "Ratio sum = 2+3 = 5. First part = (2/5) × 50 = 20."
+    },
+    "hi": {
+      "question": "Divide ₹50 in ratio 2:3. First part is?",
+      "options": [
+        "30",
+        "25",
+        "20",
+        "1000"
+      ],
+      "explanation": "Ratio sum = 2+3 = 5. First part = (2/5) × 50 = 20."
+    },
+    "id": "ratio-proportion-0045"
   },
   {
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "What is 45 × 15?",
+      "question": "Divide ₹330 in ratio 4:7. First part is?",
       "options": [
-        "60",
-        "693",
-        "664",
-        "675"
+        "100",
+        "165",
+        "210",
+        "120"
       ],
-      "explanation": "45×15 = 675."
+      "explanation": "Ratio sum = 4+7 = 11. First part = (4/11) × 330 = 120."
     },
     "hi": {
-      "question": "45 × 15 = ?",
+      "question": "Divide ₹330 in ratio 4:7. First part is?",
       "options": [
-        "60",
-        "693",
-        "664",
-        "675"
+        "100",
+        "165",
+        "210",
+        "120"
       ],
-      "explanation": "45×15 = 675।"
+      "explanation": "Ratio sum = 4+7 = 11. First part = (4/11) × 330 = 120."
     },
-    "id": "nmrp-0101"
+    "id": "ratio-proportion-0046"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹1100 in ratio 4:7. First part is?",
+      "options": [
+        "700",
+        "400",
+        "1000",
+        "550"
+      ],
+      "explanation": "Ratio sum = 4+7 = 11. First part = (4/11) × 1100 = 400."
+    },
+    "hi": {
+      "question": "Divide ₹1100 in ratio 4:7. First part is?",
+      "options": [
+        "700",
+        "400",
+        "1000",
+        "550"
+      ],
+      "explanation": "Ratio sum = 4+7 = 11. First part = (4/11) × 1100 = 400."
+    },
+    "id": "ratio-proportion-0047"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹280 in ratio 3:4. First part is?",
+      "options": [
+        "120",
+        "160",
+        "200",
+        "140"
+      ],
+      "explanation": "Ratio sum = 3+4 = 7. First part = (3/7) × 280 = 120."
+    },
+    "hi": {
+      "question": "Divide ₹280 in ratio 3:4. First part is?",
+      "options": [
+        "120",
+        "160",
+        "200",
+        "140"
+      ],
+      "explanation": "Ratio sum = 3+4 = 7. First part = (3/7) × 280 = 120."
+    },
+    "id": "ratio-proportion-0048"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹300 in ratio 7:3. First part is?",
+      "options": [
+        "90",
+        "150",
+        "210",
+        "100"
+      ],
+      "explanation": "Ratio sum = 7+3 = 10. First part = (7/10) × 300 = 210."
+    },
+    "hi": {
+      "question": "Divide ₹300 in ratio 7:3. First part is?",
+      "options": [
+        "90",
+        "150",
+        "210",
+        "100"
+      ],
+      "explanation": "Ratio sum = 7+3 = 10. First part = (7/10) × 300 = 210."
+    },
+    "id": "ratio-proportion-0049"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹400 in ratio 3:5. First part is?",
+      "options": [
+        "500",
+        "200",
+        "250",
+        "150"
+      ],
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 400 = 150."
+    },
+    "hi": {
+      "question": "Divide ₹400 in ratio 3:5. First part is?",
+      "options": [
+        "500",
+        "200",
+        "250",
+        "150"
+      ],
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 400 = 150."
+    },
+    "id": "ratio-proportion-0050"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹330 in ratio 3:8. First part is?",
+      "options": [
+        "240",
+        "165",
+        "2000",
+        "90"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 330 = 90."
+    },
+    "hi": {
+      "question": "Divide ₹330 in ratio 3:8. First part is?",
+      "options": [
+        "240",
+        "165",
+        "2000",
+        "90"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 330 = 90."
+    },
+    "id": "ratio-proportion-0051"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹300 in ratio 7:3. First part is?",
+      "options": [
+        "90",
+        "500",
+        "210",
+        "150"
+      ],
+      "explanation": "Ratio sum = 7+3 = 10. First part = (7/10) × 300 = 210."
+    },
+    "hi": {
+      "question": "Divide ₹300 in ratio 7:3. First part is?",
+      "options": [
+        "90",
+        "500",
+        "210",
+        "150"
+      ],
+      "explanation": "Ratio sum = 7+3 = 10. First part = (7/10) × 300 = 210."
+    },
+    "id": "ratio-proportion-0052"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹550 in ratio 4:7. First part is?",
+      "options": [
+        "350",
+        "275",
+        "1000",
+        "200"
+      ],
+      "explanation": "Ratio sum = 4+7 = 11. First part = (4/11) × 550 = 200."
+    },
+    "hi": {
+      "question": "Divide ₹550 in ratio 4:7. First part is?",
+      "options": [
+        "350",
+        "275",
+        "1000",
+        "200"
+      ],
+      "explanation": "Ratio sum = 4+7 = 11. First part = (4/11) × 550 = 200."
+    },
+    "id": "ratio-proportion-0053"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹900 in ratio 4:5. First part is?",
+      "options": [
+        "400",
+        "500",
+        "450",
+        "500"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 900 = 400."
+    },
+    "hi": {
+      "question": "Divide ₹900 in ratio 4:5. First part is?",
+      "options": [
+        "400",
+        "500",
+        "450",
+        "500"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 900 = 400."
+    },
+    "id": "ratio-proportion-0054"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹450 in ratio 4:5. First part is?",
+      "options": [
+        "200",
+        "225",
+        "2000",
+        "250"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 450 = 200."
+    },
+    "hi": {
+      "question": "Divide ₹450 in ratio 4:5. First part is?",
+      "options": [
+        "200",
+        "225",
+        "2000",
+        "250"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 450 = 200."
+    },
+    "id": "ratio-proportion-0055"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹360 in ratio 4:5. First part is?",
+      "options": [
+        "160",
+        "200",
+        "2000",
+        "180"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 360 = 160."
+    },
+    "hi": {
+      "question": "Divide ₹360 in ratio 4:5. First part is?",
+      "options": [
+        "160",
+        "200",
+        "2000",
+        "180"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 360 = 160."
+    },
+    "id": "ratio-proportion-0056"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹550 in ratio 3:8. First part is?",
+      "options": [
+        "150",
+        "400",
+        "275",
+        "2000"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 550 = 150."
+    },
+    "hi": {
+      "question": "Divide ₹550 in ratio 3:8. First part is?",
+      "options": [
+        "150",
+        "400",
+        "275",
+        "2000"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 550 = 150."
+    },
+    "id": "ratio-proportion-0057"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹130 in ratio 5:8. First part is?",
+      "options": [
+        "80",
+        "50",
+        "500",
+        "65"
+      ],
+      "explanation": "Ratio sum = 5+8 = 13. First part = (5/13) × 130 = 50."
+    },
+    "hi": {
+      "question": "Divide ₹130 in ratio 5:8. First part is?",
+      "options": [
+        "80",
+        "50",
+        "500",
+        "65"
+      ],
+      "explanation": "Ratio sum = 5+8 = 13. First part = (5/13) × 130 = 50."
+    },
+    "id": "ratio-proportion-0058"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹500 in ratio 7:3. First part is?",
+      "options": [
+        "500",
+        "150",
+        "250",
+        "350"
+      ],
+      "explanation": "Ratio sum = 7+3 = 10. First part = (7/10) × 500 = 350."
+    },
+    "hi": {
+      "question": "Divide ₹500 in ratio 7:3. First part is?",
+      "options": [
+        "500",
+        "150",
+        "250",
+        "350"
+      ],
+      "explanation": "Ratio sum = 7+3 = 10. First part = (7/10) × 500 = 350."
+    },
+    "id": "ratio-proportion-0059"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹700 in ratio 2:5. First part is?",
+      "options": [
+        "2000",
+        "200",
+        "350",
+        "500"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 700 = 200."
+    },
+    "hi": {
+      "question": "Divide ₹700 in ratio 2:5. First part is?",
+      "options": [
+        "2000",
+        "200",
+        "350",
+        "500"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 700 = 200."
+    },
+    "id": "ratio-proportion-0060"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹440 in ratio 4:7. First part is?",
+      "options": [
+        "280",
+        "220",
+        "160",
+        "200"
+      ],
+      "explanation": "Ratio sum = 4+7 = 11. First part = (4/11) × 440 = 160."
+    },
+    "hi": {
+      "question": "Divide ₹440 in ratio 4:7. First part is?",
+      "options": [
+        "280",
+        "220",
+        "160",
+        "200"
+      ],
+      "explanation": "Ratio sum = 4+7 = 11. First part = (4/11) × 440 = 160."
+    },
+    "id": "ratio-proportion-0061"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹250 in ratio 2:3. First part is?",
+      "options": [
+        "125",
+        "100",
+        "100",
+        "150"
+      ],
+      "explanation": "Ratio sum = 2+3 = 5. First part = (2/5) × 250 = 100."
+    },
+    "hi": {
+      "question": "Divide ₹250 in ratio 2:3. First part is?",
+      "options": [
+        "125",
+        "100",
+        "100",
+        "150"
+      ],
+      "explanation": "Ratio sum = 2+3 = 5. First part = (2/5) × 250 = 100."
+    },
+    "id": "ratio-proportion-0062"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹320 in ratio 3:5. First part is?",
+      "options": [
+        "200",
+        "120",
+        "160",
+        "200"
+      ],
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 320 = 120."
+    },
+    "hi": {
+      "question": "Divide ₹320 in ratio 3:5. First part is?",
+      "options": [
+        "200",
+        "120",
+        "160",
+        "200"
+      ],
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 320 = 120."
+    },
+    "id": "ratio-proportion-0063"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹500 in ratio 7:3. First part is?",
+      "options": [
+        "150",
+        "350",
+        "250",
+        "2000"
+      ],
+      "explanation": "Ratio sum = 7+3 = 10. First part = (7/10) × 500 = 350."
+    },
+    "hi": {
+      "question": "Divide ₹500 in ratio 7:3. First part is?",
+      "options": [
+        "150",
+        "350",
+        "250",
+        "2000"
+      ],
+      "explanation": "Ratio sum = 7+3 = 10. First part = (7/10) × 500 = 350."
+    },
+    "id": "ratio-proportion-0064"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹450 in ratio 4:5. First part is?",
+      "options": [
+        "200",
+        "250",
+        "200",
+        "225"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 450 = 200."
+    },
+    "hi": {
+      "question": "Divide ₹450 in ratio 4:5. First part is?",
+      "options": [
+        "200",
+        "250",
+        "200",
+        "225"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 450 = 200."
+    },
+    "id": "ratio-proportion-0065"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹440 in ratio 3:8. First part is?",
+      "options": [
+        "120",
+        "220",
+        "500",
+        "320"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 440 = 120."
+    },
+    "hi": {
+      "question": "Divide ₹440 in ratio 3:8. First part is?",
+      "options": [
+        "120",
+        "220",
+        "500",
+        "320"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 440 = 120."
+    },
+    "id": "ratio-proportion-0066"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹330 in ratio 3:8. First part is?",
+      "options": [
+        "240",
+        "165",
+        "90",
+        "500"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 330 = 90."
+    },
+    "hi": {
+      "question": "Divide ₹330 in ratio 3:8. First part is?",
+      "options": [
+        "240",
+        "165",
+        "90",
+        "500"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 330 = 90."
+    },
+    "id": "ratio-proportion-0067"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹350 in ratio 2:5. First part is?",
+      "options": [
+        "100",
+        "175",
+        "500",
+        "250"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 350 = 100."
+    },
+    "hi": {
+      "question": "Divide ₹350 in ratio 2:5. First part is?",
+      "options": [
+        "100",
+        "175",
+        "500",
+        "250"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 350 = 100."
+    },
+    "id": "ratio-proportion-0068"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹1100 in ratio 5:6. First part is?",
+      "options": [
+        "500",
+        "1000",
+        "600",
+        "550"
+      ],
+      "explanation": "Ratio sum = 5+6 = 11. First part = (5/11) × 1100 = 500."
+    },
+    "hi": {
+      "question": "Divide ₹1100 in ratio 5:6. First part is?",
+      "options": [
+        "500",
+        "1000",
+        "600",
+        "550"
+      ],
+      "explanation": "Ratio sum = 5+6 = 11. First part = (5/11) × 1100 = 500."
+    },
+    "id": "ratio-proportion-0069"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹1100 in ratio 3:8. First part is?",
+      "options": [
+        "500",
+        "800",
+        "300",
+        "550"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 1100 = 300."
+    },
+    "hi": {
+      "question": "Divide ₹1100 in ratio 3:8. First part is?",
+      "options": [
+        "500",
+        "800",
+        "300",
+        "550"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 1100 = 300."
+    },
+    "id": "ratio-proportion-0070"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹300 in ratio 7:3. First part is?",
+      "options": [
+        "200",
+        "90",
+        "210",
+        "150"
+      ],
+      "explanation": "Ratio sum = 7+3 = 10. First part = (7/10) × 300 = 210."
+    },
+    "hi": {
+      "question": "Divide ₹300 in ratio 7:3. First part is?",
+      "options": [
+        "200",
+        "90",
+        "210",
+        "150"
+      ],
+      "explanation": "Ratio sum = 7+3 = 10. First part = (7/10) × 300 = 210."
+    },
+    "id": "ratio-proportion-0071"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹210 in ratio 3:4. First part is?",
+      "options": [
+        "90",
+        "120",
+        "1000",
+        "105"
+      ],
+      "explanation": "Ratio sum = 3+4 = 7. First part = (3/7) × 210 = 90."
+    },
+    "hi": {
+      "question": "Divide ₹210 in ratio 3:4. First part is?",
+      "options": [
+        "90",
+        "120",
+        "1000",
+        "105"
+      ],
+      "explanation": "Ratio sum = 3+4 = 7. First part = (3/7) × 210 = 90."
+    },
+    "id": "ratio-proportion-0072"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹220 in ratio 5:6. First part is?",
+      "options": [
+        "100",
+        "120",
+        "2000",
+        "110"
+      ],
+      "explanation": "Ratio sum = 5+6 = 11. First part = (5/11) × 220 = 100."
+    },
+    "hi": {
+      "question": "Divide ₹220 in ratio 5:6. First part is?",
+      "options": [
+        "100",
+        "120",
+        "2000",
+        "110"
+      ],
+      "explanation": "Ratio sum = 5+6 = 11. First part = (5/11) × 220 = 100."
+    },
+    "id": "ratio-proportion-0073"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹90 in ratio 4:5. First part is?",
+      "options": [
+        "2000",
+        "45",
+        "40",
+        "50"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 90 = 40."
+    },
+    "hi": {
+      "question": "Divide ₹90 in ratio 4:5. First part is?",
+      "options": [
+        "2000",
+        "45",
+        "40",
+        "50"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 90 = 40."
+    },
+    "id": "ratio-proportion-0074"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹220 in ratio 3:8. First part is?",
+      "options": [
+        "110",
+        "160",
+        "200",
+        "60"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 220 = 60."
+    },
+    "hi": {
+      "question": "Divide ₹220 in ratio 3:8. First part is?",
+      "options": [
+        "110",
+        "160",
+        "200",
+        "60"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 220 = 60."
+    },
+    "id": "ratio-proportion-0075"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹800 in ratio 3:5. First part is?",
+      "options": [
+        "500",
+        "1000",
+        "400",
+        "300"
+      ],
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 800 = 300."
+    },
+    "hi": {
+      "question": "Divide ₹800 in ratio 3:5. First part is?",
+      "options": [
+        "500",
+        "1000",
+        "400",
+        "300"
+      ],
+      "explanation": "Ratio sum = 3+5 = 8. First part = (3/8) × 800 = 300."
+    },
+    "id": "ratio-proportion-0076"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹250 in ratio 2:3. First part is?",
+      "options": [
+        "100",
+        "150",
+        "125",
+        "200"
+      ],
+      "explanation": "Ratio sum = 2+3 = 5. First part = (2/5) × 250 = 100."
+    },
+    "hi": {
+      "question": "Divide ₹250 in ratio 2:3. First part is?",
+      "options": [
+        "100",
+        "150",
+        "125",
+        "200"
+      ],
+      "explanation": "Ratio sum = 2+3 = 5. First part = (2/5) × 250 = 100."
+    },
+    "id": "ratio-proportion-0077"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹1300 in ratio 5:8. First part is?",
+      "options": [
+        "500",
+        "200",
+        "800",
+        "650"
+      ],
+      "explanation": "Ratio sum = 5+8 = 13. First part = (5/13) × 1300 = 500."
+    },
+    "hi": {
+      "question": "Divide ₹1300 in ratio 5:8. First part is?",
+      "options": [
+        "500",
+        "200",
+        "800",
+        "650"
+      ],
+      "explanation": "Ratio sum = 5+8 = 13. First part = (5/13) × 1300 = 500."
+    },
+    "id": "ratio-proportion-0078"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹50 in ratio 2:3. First part is?",
+      "options": [
+        "2000",
+        "20",
+        "25",
+        "30"
+      ],
+      "explanation": "Ratio sum = 2+3 = 5. First part = (2/5) × 50 = 20."
+    },
+    "hi": {
+      "question": "Divide ₹50 in ratio 2:3. First part is?",
+      "options": [
+        "2000",
+        "20",
+        "25",
+        "30"
+      ],
+      "explanation": "Ratio sum = 2+3 = 5. First part = (2/5) × 50 = 20."
+    },
+    "id": "ratio-proportion-0079"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹360 in ratio 4:5. First part is?",
+      "options": [
+        "200",
+        "180",
+        "200",
+        "160"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 360 = 160."
+    },
+    "hi": {
+      "question": "Divide ₹360 in ratio 4:5. First part is?",
+      "options": [
+        "200",
+        "180",
+        "200",
+        "160"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 360 = 160."
+    },
+    "id": "ratio-proportion-0080"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹900 in ratio 4:5. First part is?",
+      "options": [
+        "450",
+        "500",
+        "500",
+        "400"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 900 = 400."
+    },
+    "hi": {
+      "question": "Divide ₹900 in ratio 4:5. First part is?",
+      "options": [
+        "450",
+        "500",
+        "500",
+        "400"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 900 = 400."
+    },
+    "id": "ratio-proportion-0081"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹550 in ratio 4:7. First part is?",
+      "options": [
+        "200",
+        "100",
+        "350",
+        "275"
+      ],
+      "explanation": "Ratio sum = 4+7 = 11. First part = (4/11) × 550 = 200."
+    },
+    "hi": {
+      "question": "Divide ₹550 in ratio 4:7. First part is?",
+      "options": [
+        "200",
+        "100",
+        "350",
+        "275"
+      ],
+      "explanation": "Ratio sum = 4+7 = 11. First part = (4/11) × 550 = 200."
+    },
+    "id": "ratio-proportion-0082"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹550 in ratio 3:8. First part is?",
+      "options": [
+        "150",
+        "1000",
+        "275",
+        "400"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 550 = 150."
+    },
+    "hi": {
+      "question": "Divide ₹550 in ratio 3:8. First part is?",
+      "options": [
+        "150",
+        "1000",
+        "275",
+        "400"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 550 = 150."
+    },
+    "id": "ratio-proportion-0083"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹140 in ratio 2:5. First part is?",
+      "options": [
+        "100",
+        "100",
+        "40",
+        "70"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 140 = 40."
+    },
+    "hi": {
+      "question": "Divide ₹140 in ratio 2:5. First part is?",
+      "options": [
+        "100",
+        "100",
+        "40",
+        "70"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 140 = 40."
+    },
+    "id": "ratio-proportion-0084"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹700 in ratio 2:5. First part is?",
+      "options": [
+        "200",
+        "500",
+        "350",
+        "200"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 700 = 200."
+    },
+    "hi": {
+      "question": "Divide ₹700 in ratio 2:5. First part is?",
+      "options": [
+        "200",
+        "500",
+        "350",
+        "200"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 700 = 200."
+    },
+    "id": "ratio-proportion-0085"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹350 in ratio 2:5. First part is?",
+      "options": [
+        "100",
+        "200",
+        "175",
+        "250"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 350 = 100."
+    },
+    "hi": {
+      "question": "Divide ₹350 in ratio 2:5. First part is?",
+      "options": [
+        "100",
+        "200",
+        "175",
+        "250"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 350 = 100."
+    },
+    "id": "ratio-proportion-0086"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹500 in ratio 7:3. First part is?",
+      "options": [
+        "250",
+        "500",
+        "150",
+        "350"
+      ],
+      "explanation": "Ratio sum = 7+3 = 10. First part = (7/10) × 500 = 350."
+    },
+    "hi": {
+      "question": "Divide ₹500 in ratio 7:3. First part is?",
+      "options": [
+        "250",
+        "500",
+        "150",
+        "350"
+      ],
+      "explanation": "Ratio sum = 7+3 = 10. First part = (7/10) × 500 = 350."
+    },
+    "id": "ratio-proportion-0087"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹180 in ratio 4:5. First part is?",
+      "options": [
+        "100",
+        "1000",
+        "80",
+        "90"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 180 = 80."
+    },
+    "hi": {
+      "question": "Divide ₹180 in ratio 4:5. First part is?",
+      "options": [
+        "100",
+        "1000",
+        "80",
+        "90"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 180 = 80."
+    },
+    "id": "ratio-proportion-0088"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹280 in ratio 2:5. First part is?",
+      "options": [
+        "80",
+        "140",
+        "200",
+        "200"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 280 = 80."
+    },
+    "hi": {
+      "question": "Divide ₹280 in ratio 2:5. First part is?",
+      "options": [
+        "80",
+        "140",
+        "200",
+        "200"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 280 = 80."
+    },
+    "id": "ratio-proportion-0089"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹350 in ratio 2:5. First part is?",
+      "options": [
+        "2000",
+        "175",
+        "250",
+        "100"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 350 = 100."
+    },
+    "hi": {
+      "question": "Divide ₹350 in ratio 2:5. First part is?",
+      "options": [
+        "2000",
+        "175",
+        "250",
+        "100"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 350 = 100."
+    },
+    "id": "ratio-proportion-0090"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹110 in ratio 5:6. First part is?",
+      "options": [
+        "55",
+        "50",
+        "60",
+        "100"
+      ],
+      "explanation": "Ratio sum = 5+6 = 11. First part = (5/11) × 110 = 50."
+    },
+    "hi": {
+      "question": "Divide ₹110 in ratio 5:6. First part is?",
+      "options": [
+        "55",
+        "50",
+        "60",
+        "100"
+      ],
+      "explanation": "Ratio sum = 5+6 = 11. First part = (5/11) × 110 = 50."
+    },
+    "id": "ratio-proportion-0091"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹1000 in ratio 7:3. First part is?",
+      "options": [
+        "300",
+        "700",
+        "2000",
+        "500"
+      ],
+      "explanation": "Ratio sum = 7+3 = 10. First part = (7/10) × 1000 = 700."
+    },
+    "hi": {
+      "question": "Divide ₹1000 in ratio 7:3. First part is?",
+      "options": [
+        "300",
+        "700",
+        "2000",
+        "500"
+      ],
+      "explanation": "Ratio sum = 7+3 = 10. First part = (7/10) × 1000 = 700."
+    },
+    "id": "ratio-proportion-0092"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹210 in ratio 2:5. First part is?",
+      "options": [
+        "2000",
+        "105",
+        "60",
+        "150"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 210 = 60."
+    },
+    "hi": {
+      "question": "Divide ₹210 in ratio 2:5. First part is?",
+      "options": [
+        "2000",
+        "105",
+        "60",
+        "150"
+      ],
+      "explanation": "Ratio sum = 2+5 = 7. First part = (2/7) × 210 = 60."
+    },
+    "id": "ratio-proportion-0093"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹260 in ratio 5:8. First part is?",
+      "options": [
+        "100",
+        "1000",
+        "160",
+        "130"
+      ],
+      "explanation": "Ratio sum = 5+8 = 13. First part = (5/13) × 260 = 100."
+    },
+    "hi": {
+      "question": "Divide ₹260 in ratio 5:8. First part is?",
+      "options": [
+        "100",
+        "1000",
+        "160",
+        "130"
+      ],
+      "explanation": "Ratio sum = 5+8 = 13. First part = (5/13) × 260 = 100."
+    },
+    "id": "ratio-proportion-0094"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹1100 in ratio 3:8. First part is?",
+      "options": [
+        "200",
+        "300",
+        "550",
+        "800"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 1100 = 300."
+    },
+    "hi": {
+      "question": "Divide ₹1100 in ratio 3:8. First part is?",
+      "options": [
+        "200",
+        "300",
+        "550",
+        "800"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 1100 = 300."
+    },
+    "id": "ratio-proportion-0095"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹440 in ratio 3:8. First part is?",
+      "options": [
+        "320",
+        "2000",
+        "120",
+        "220"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 440 = 120."
+    },
+    "hi": {
+      "question": "Divide ₹440 in ratio 3:8. First part is?",
+      "options": [
+        "320",
+        "2000",
+        "120",
+        "220"
+      ],
+      "explanation": "Ratio sum = 3+8 = 11. First part = (3/11) × 440 = 120."
+    },
+    "id": "ratio-proportion-0096"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹250 in ratio 2:3. First part is?",
+      "options": [
+        "2000",
+        "100",
+        "125",
+        "150"
+      ],
+      "explanation": "Ratio sum = 2+3 = 5. First part = (2/5) × 250 = 100."
+    },
+    "hi": {
+      "question": "Divide ₹250 in ratio 2:3. First part is?",
+      "options": [
+        "2000",
+        "100",
+        "125",
+        "150"
+      ],
+      "explanation": "Ratio sum = 2+3 = 5. First part = (2/5) × 250 = 100."
+    },
+    "id": "ratio-proportion-0097"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹270 in ratio 4:5. First part is?",
+      "options": [
+        "150",
+        "135",
+        "120",
+        "2000"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 270 = 120."
+    },
+    "hi": {
+      "question": "Divide ₹270 in ratio 4:5. First part is?",
+      "options": [
+        "150",
+        "135",
+        "120",
+        "2000"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 270 = 120."
+    },
+    "id": "ratio-proportion-0098"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹440 in ratio 4:7. First part is?",
+      "options": [
+        "220",
+        "280",
+        "160",
+        "100"
+      ],
+      "explanation": "Ratio sum = 4+7 = 11. First part = (4/11) × 440 = 160."
+    },
+    "hi": {
+      "question": "Divide ₹440 in ratio 4:7. First part is?",
+      "options": [
+        "220",
+        "280",
+        "160",
+        "100"
+      ],
+      "explanation": "Ratio sum = 4+7 = 11. First part = (4/11) × 440 = 160."
+    },
+    "id": "ratio-proportion-0099"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Divide ₹450 in ratio 4:5. First part is?",
+      "options": [
+        "250",
+        "200",
+        "225",
+        "1000"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 450 = 200."
+    },
+    "hi": {
+      "question": "Divide ₹450 in ratio 4:5. First part is?",
+      "options": [
+        "250",
+        "200",
+        "225",
+        "1000"
+      ],
+      "explanation": "Ratio sum = 4+5 = 9. First part = (4/9) × 450 = 200."
+    },
+    "id": "ratio-proportion-0100"
   }
 ]

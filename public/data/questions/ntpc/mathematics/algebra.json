@@ -1,3382 +1,2602 @@
 [
   {
-    "id": "nma-0001",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "x+y=10, xy=21. x²+y²=?",
-      "options": [
-        "58",
-        "49",
-        "42",
-        "100"
-      ],
-      "explanation": "100-42=58."
-    },
-    "hi": {
-      "question": "x+y=10, xy=21। x²+y²=?",
-      "options": [
-        "58",
-        "49",
-        "42",
-        "100"
-      ],
-      "explanation": "58।"
-    }
-  },
-  {
-    "id": "nma-0002",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
-    "sourceYear": 2023,
+    "sourceYear": 2025,
     "en": {
-      "question": "a+b=5, ab=6. a³+b³=?",
+      "question": "Solve: 4x + 12 = 60. Find x.",
       "options": [
-        "125",
-        "35",
-        "65",
-        "95"
-      ],
-      "explanation": "125-90=35."
-    },
-    "hi": {
-      "question": "a+b=5, ab=6। a³+b³=?",
-      "options": [
-        "125",
-        "35",
-        "65",
-        "95"
-      ],
-      "explanation": "35।"
-    }
-  },
-  {
-    "id": "nma-0003",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "3^x=81. 3^(x-2)=?",
-      "options": [
-        "3",
-        "9",
-        "27",
-        "81"
-      ],
-      "explanation": "x=4. 3²=9."
-    },
-    "hi": {
-      "question": "3^x=81, 3^(x-2)=?",
-      "options": [
-        "3",
-        "9",
-        "27",
-        "81"
-      ],
-      "explanation": "9।"
-    }
-  },
-  {
-    "id": "nma-0004",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "x-1/x=4. x²+1/x²=?",
-      "options": [
-        "18",
-        "16",
-        "14",
-        "20"
-      ],
-      "explanation": "16+2=18."
-    },
-    "hi": {
-      "question": "x-1/x=4, x²+1/x²=?",
-      "options": [
-        "18",
-        "16",
-        "14",
-        "20"
-      ],
-      "explanation": "18।"
-    }
-  },
-  {
-    "id": "nma-0005",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2023,
-    "en": {
-      "question": "2x+3y=17, 3x+2y=18. x+y=?",
-      "options": [
-        "7",
-        "5",
-        "6",
-        "8"
-      ],
-      "explanation": "Add:5x+5y=35, x+y=7."
-    },
-    "hi": {
-      "question": "2x+3y=17, 3x+2y=18। x+y=?",
-      "options": [
-        "7",
-        "5",
-        "6",
-        "8"
-      ],
-      "explanation": "7।"
-    }
-  },
-  {
-    "id": "nma-0006",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "a²+b²=41, ab=20. a+b=?",
-      "options": [
-        "9",
-        "7",
-        "8",
-        "10"
-      ],
-      "explanation": "(a+b)²=81, a+b=9."
-    },
-    "hi": {
-      "question": "a²+b²=41, ab=20। a+b=?",
-      "options": [
-        "9",
-        "7",
-        "8",
-        "10"
-      ],
-      "explanation": "9।"
-    }
-  },
-  {
-    "id": "nma-0007",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2022,
-    "en": {
-      "question": "x/2+x/3+x/4=13. x=?",
-      "options": [
-        "12",
+        "13",
         "10",
         "14",
-        "15"
-      ],
-      "explanation": "13x/12=13, x=12."
-    },
-    "hi": {
-      "question": "x/2+x/3+x/4=13, x=?",
-      "options": [
-        "12",
-        "10",
-        "14",
-        "15"
-      ],
-      "explanation": "12।"
-    }
-  },
-  {
-    "id": "nma-0008",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2023,
-    "en": {
-      "question": "x+1/x=5. x³+1/x³=?",
-      "options": [
-        "110",
-        "125",
-        "100",
-        "115"
-      ],
-      "explanation": "125-15=110."
-    },
-    "hi": {
-      "question": "x+1/x=5, x³+1/x³=?",
-      "options": [
-        "110",
-        "125",
-        "100",
-        "115"
-      ],
-      "explanation": "110।"
-    }
-  },
-  {
-    "id": "nma-0009",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If 5x-3=2x+9, find x.",
-      "options": [
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "explanation": "3x=12, x=4."
-    },
-    "hi": {
-      "question": "5x-3=2x+9, x=?",
-      "options": [
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "explanation": "4।"
-    }
-  },
-  {
-    "id": "nma-0010",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "(2x+3y)² expand:",
-      "options": [
-        "4x²+9y²",
-        "4x²+12xy+9y²",
-        "2x²+6xy+3y²",
-        "4x²+6xy+9y²"
-      ],
-      "explanation": "(a+b)²=a²+2ab+b². 4x²+12xy+9y²."
-    },
-    "hi": {
-      "question": "(2x+3y)² का विस्तार:",
-      "options": [
-        "4x²+9y²",
-        "4x²+12xy+9y²",
-        "2x²+6xy+3y²",
-        "4x²+6xy+9y²"
-      ],
-      "explanation": "4x²+12xy+9y²।"
-    }
-  },
-  {
-    "id": "nma-0011",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If a-b=3 and a+b=11, find a²-b².",
-      "options": [
-        "14",
-        "8",
-        "28",
-        "33"
-      ],
-      "explanation": "a²-b²=(a-b)(a+b)=3×11=33."
-    },
-    "hi": {
-      "question": "a-b=3, a+b=11, a²-b²=?",
-      "options": [
-        "14",
-        "8",
-        "28",
-        "33"
-      ],
-      "explanation": "33।"
-    }
-  },
-  {
-    "id": "nma-0012",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If x²+y²=25 and xy=12, find x-y.",
-      "options": [
-        "1",
-        "5",
-        "7",
-        "3"
-      ],
-      "explanation": "(x-y)²=x²+y²-2xy=25-24=1. x-y=1."
-    },
-    "hi": {
-      "question": "x²+y²=25, xy=12, x-y=?",
-      "options": [
-        "1",
-        "5",
-        "7",
-        "3"
-      ],
-      "explanation": "1।"
-    }
-  },
-  {
-    "id": "nma-0013",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If a+b+c=0, then a³+b³+c³=?",
-      "options": [
-        "abc",
-        "-3abc",
-        "3abc",
-        "0"
-      ],
-      "explanation": "If a+b+c=0, a³+b³+c³=3abc."
-    },
-    "hi": {
-      "question": "a+b+c=0, a³+b³+c³=?",
-      "options": [
-        "abc",
-        "-3abc",
-        "3abc",
-        "0"
-      ],
-      "explanation": "3abc।"
-    }
-  },
-  {
-    "id": "nma-0014",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Factorize: x²-7x+12.",
-      "options": [
-        "(x-3)(x-4)",
-        "(x-3)(x-4)",
-        "(x+3)(x+4)",
-        "(x-2)(x-6)"
-      ],
-      "explanation": "Factors of 12 sum to 7: 3 and 4. So (x-3)(x-4)."
-    },
-    "hi": {
-      "question": "x²-7x+12 का गुणनखंड:",
-      "options": [
-        "(x-3)(x-4)",
-        "(x-3)(x-4)",
-        "(x+3)(x+4)",
-        "(x-2)(x-6)"
-      ],
-      "explanation": "(x-3)(x-4)।"
-    }
-  },
-  {
-    "id": "nma-0015",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If 4x+5y=83 and 3x+2y=50, find y.",
-      "options": [
-        "7",
-        "5",
-        "9",
-        "6"
-      ],
-      "explanation": "From eq2: 3x=50-2y, x=(50-2y)/3. Sub in eq1: 4(50-2y)/3+5y=83. 200-8y+15y=249. 7y=49. y=7."
-    },
-    "hi": {
-      "question": "4x+5y=83, 3x+2y=50, y=?",
-      "options": [
-        "7",
-        "5",
-        "9",
-        "6"
-      ],
-      "explanation": "y=7।"
-    }
-  },
-  {
-    "id": "nma-0016",
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If (x+1/x)=3, find x⁴+1/x⁴.",
-      "options": [
-        "119",
-        "7",
-        "81",
-        "47"
-      ],
-      "explanation": "x²+1/x²=9-2=7. x⁴+1/x⁴=49-2=47."
-    },
-    "hi": {
-      "question": "x+1/x=3, x⁴+1/x⁴=?",
-      "options": [
-        "119",
-        "7",
-        "81",
-        "47"
-      ],
-      "explanation": "47।"
-    }
-  },
-  {
-    "id": "nma-0017",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If x:y=3:5, find 3x+4y:5x+2y.",
-      "options": [
-        "29:19",
-        "19:29",
-        "29:19",
-        "25:17"
-      ],
-      "explanation": "x=3k,y=5k. (9k+20k):(15k+10k)=29:25."
-    },
-    "hi": {
-      "question": "x:y=3:5, 3x+4y:5x+2y=?",
-      "options": [
-        "29:19",
-        "19:29",
-        "29:25",
-        "25:17"
-      ],
-      "explanation": "29:25।"
-    }
-  },
-  {
-    "id": "nma-0018",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: |2x-5|=7.",
-      "options": [
-        "x=1 or 6",
-        "x=-1 or 6",
-        "x=6",
-        "x=1"
-      ],
-      "explanation": "2x-5=7 gives x=6. 2x-5=-7 gives 2x=-2, x=-1."
-    },
-    "hi": {
-      "question": "|2x-5|=7, x=?",
-      "options": [
-        "x=1 या 6",
-        "x=-1 या 6",
-        "x=6",
-        "x=1"
-      ],
-      "explanation": "x=-1 या 6।"
-    }
-  },
-  {
-    "id": "nma-0019",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If a²+b²+c²=83 and a+b+c=15, find ab+bc+ca.",
-      "options": [
-        "71",
-        "-71",
-        "72",
-        "69"
-      ],
-      "explanation": "(a+b+c)²=a²+b²+c²+2(ab+bc+ca). 225=83+2S. 2S=142, S=71."
-    },
-    "hi": {
-      "question": "a²+b²+c²=83, a+b+c=15, ab+bc+ca=?",
-      "options": [
-        "71",
-        "-71",
-        "72",
-        "69"
-      ],
-      "explanation": "71।"
-    }
-  },
-  {
-    "id": "nma-0020",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 3(x+2)=2(x+5).",
-      "options": [
-        "2",
-        "3",
-        "4",
-        "6"
-      ],
-      "explanation": "3x+6=2x+10, x=4."
-    },
-    "hi": {
-      "question": "3(x+2)=2(x+5), x=?",
-      "options": [
-        "2",
-        "3",
-        "4",
-        "6"
-      ],
-      "explanation": "4।"
-    }
-  },
-  {
-    "id": "nma-0021",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "(a+b)³ expand:",
-      "options": [
-        "a³+b³+3ab",
-        "a³+b³",
-        "a³+b³+3a²b+3ab²",
-        "a³+b³+3ab(a+b)"
-      ],
-      "explanation": "(a+b)³=a³+b³+3ab(a+b)=a³+3a²b+3ab²+b³."
-    },
-    "hi": {
-      "question": "(a+b)³ विस्तार:",
-      "options": [
-        "a³+b³+3ab",
-        "a³+b³",
-        "a³+b³+3a²b+3ab²",
-        "a³+b³+3ab(a+b)"
-      ],
-      "explanation": "a³+b³+3ab(a+b)।"
-    }
-  },
-  {
-    "id": "nma-0022",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If 3x=81, then x=?",
-      "options": [
-        "27",
-        "9",
-        "12",
-        "18"
-      ],
-      "explanation": "x=81/3=27."
-    },
-    "hi": {
-      "question": "3x=81, x=?",
-      "options": [
-        "27",
-        "9",
-        "12",
-        "18"
-      ],
-      "explanation": "27।"
-    }
-  },
-  {
-    "id": "nma-0023",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If x+1/x=2, find x^100+1/x^100.",
-      "options": [
-        "0",
-        "2",
-        "4",
-        "-2"
-      ],
-      "explanation": "x+1/x=2 implies x=1. So 1+1=2."
-    },
-    "hi": {
-      "question": "x+1/x=2, x^100+1/x^100=?",
-      "options": [
-        "0",
-        "2",
-        "4",
-        "-2"
-      ],
-      "explanation": "x=1, उत्तर 2।"
-    }
-  },
-  {
-    "id": "nma-0024",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If 5²ˣ⁻³=125, find x.",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "explanation": "5²ˣ⁻³=5³. 2x-3=3. x=3."
-    },
-    "hi": {
-      "question": "5²ˣ⁻³=125, x=?",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "explanation": "x=3।"
-    }
-  },
-  {
-    "id": "nma-0025",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If (x-2)(x+2)=45, find x².",
-      "options": [
-        "49",
-        "45",
-        "41",
-        "47"
-      ],
-      "explanation": "x²-4=45, x²=49."
-    },
-    "hi": {
-      "question": "(x-2)(x+2)=45, x²=?",
-      "options": [
-        "49",
-        "45",
-        "41",
-        "47"
-      ],
-      "explanation": "49।"
-    }
-  },
-  {
-    "id": "nma-0026",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If x=√3+√2, find x-1/x.",
-      "options": [
-        "2√3",
-        "2√2",
-        "√2",
-        "2"
-      ],
-      "explanation": "1/x=√3-√2. x-1/x=2√2."
-    },
-    "hi": {
-      "question": "x=√3+√2, x-1/x=?",
-      "options": [
-        "2√3",
-        "2√2",
-        "√2",
-        "2"
-      ],
-      "explanation": "2√2।"
-    }
-  },
-  {
-    "id": "nma-0027",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of x²-y² and x³-y³?",
-      "options": [
-        "(x-y)",
-        "(x-y)(x+y)",
-        "(x-y)(x+y)(x²+xy+y²)",
-        "(x+y)(x²+xy+y²)"
-      ],
-      "explanation": "x²-y²=(x-y)(x+y). x³-y³=(x-y)(x²+xy+y²). LCM=(x-y)(x+y)(x²+xy+y²)."
-    },
-    "hi": {
-      "question": "x²-y² और x³-y³ का ल.स.?",
-      "options": [
-        "(x-y)",
-        "(x-y)(x+y)",
-        "(x-y)(x+y)(x²+xy+y²)",
-        "(x+y)(x²+xy+y²)"
-      ],
-      "explanation": "(x-y)(x+y)(x²+xy+y²)।"
-    }
-  },
-  {
-    "id": "nma-0028",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If 2(x+3)=16, x=?",
-      "options": [
-        "3",
-        "4",
-        "6",
-        "5"
-      ],
-      "explanation": "2x+6=16, 2x=10, x=5."
-    },
-    "hi": {
-      "question": "2(x+3)=16, x=?",
-      "options": [
-        "3",
-        "4",
-        "6",
-        "5"
-      ],
-      "explanation": "5।"
-    }
-  },
-  {
-    "id": "nma-0029",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "The sum of two consecutive even numbers is 42. Find them.",
-      "options": [
-        "20,22",
-        "18,20",
-        "22,24",
-        "16,18"
-      ],
-      "explanation": "x+(x+2)=42, 2x=40, x=20. Numbers=20,22."
-    },
-    "hi": {
-      "question": "दो क्रमागत सम संख्याओं का योग 42। संख्याएँ?",
-      "options": [
-        "20,22",
-        "18,20",
-        "22,24",
-        "16,18"
-      ],
-      "explanation": "20,22।"
-    }
-  },
-  {
-    "id": "nma-0030",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If x^y=y^x and x=2y, find x+y (x,y positive integers).",
-      "options": [
-        "4",
-        "6",
-        "8",
-        "10"
-      ],
-      "explanation": "2y^y=y^(2y). Taking log: y×ln(2y)=2y×ln(y). ln(2y)=2ln(y). 2y=y². y=2, x=4. x+y=6."
-    },
-    "hi": {
-      "question": "x^y=y^x, x=2y (धनात्मक पूर्णांक), x+y=?",
-      "options": [
-        "4",
-        "6",
-        "8",
-        "10"
-      ],
-      "explanation": "y=2,x=4, x+y=6।"
-    }
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 1x + 14 = 33",
-      "options": [
-        "21",
-        "16",
-        "19",
-        "33"
-      ],
-      "explanation": "1x + 14 = 33 → 1x = 33 - 14 = 19 → x = 19."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 1x + 14 = 33",
-      "options": [
-        "21",
-        "16",
-        "19",
-        "33"
-      ],
-      "explanation": "1x + 14 = 33 → 1x = 19 → x = 19।"
-    },
-    "id": "nma-0031"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 10x + 20 = 130",
-      "options": [
-        "15",
-        "130",
-        "11",
-        "9"
-      ],
-      "explanation": "10x + 20 = 130 → 10x = 130 - 20 = 110 → x = 11."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 10x + 20 = 130",
-      "options": [
-        "15",
-        "130",
-        "11",
-        "9"
-      ],
-      "explanation": "10x + 20 = 130 → 10x = 110 → x = 11।"
-    },
-    "id": "nma-0032"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 5x + 8 = 93",
-      "options": [
-        "18",
-        "15",
-        "17",
-        "93"
-      ],
-      "explanation": "5x + 8 = 93 → 5x = 93 - 8 = 85 → x = 17."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 5x + 8 = 93",
-      "options": [
-        "18",
-        "15",
-        "17",
-        "93"
-      ],
-      "explanation": "5x + 8 = 93 → 5x = 85 → x = 17।"
-    },
-    "id": "nma-0033"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 3x + 30 = 48",
-      "options": [
-        "11",
-        "4",
-        "48",
-        "6"
-      ],
-      "explanation": "3x + 30 = 48 → 3x = 48 - 30 = 18 → x = 6."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 3x + 30 = 48",
-      "options": [
-        "11",
-        "4",
-        "48",
-        "6"
-      ],
-      "explanation": "3x + 30 = 48 → 3x = 18 → x = 6।"
-    },
-    "id": "nma-0034"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 9x + 24 = 159",
-      "options": [
-        "15",
-        "159",
-        "12",
-        "20"
-      ],
-      "explanation": "9x + 24 = 159 → 9x = 159 - 24 = 135 → x = 15."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 9x + 24 = 159",
-      "options": [
-        "15",
-        "159",
-        "12",
-        "20"
-      ],
-      "explanation": "9x + 24 = 159 → 9x = 135 → x = 15।"
-    },
-    "id": "nma-0035"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 8x + 14 = 142",
-      "options": [
-        "21",
-        "16",
-        "142",
-        "14"
-      ],
-      "explanation": "8x + 14 = 142 → 8x = 142 - 14 = 128 → x = 16."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 8x + 14 = 142",
-      "options": [
-        "21",
-        "16",
-        "142",
-        "14"
-      ],
-      "explanation": "8x + 14 = 142 → 8x = 128 → x = 16।"
-    },
-    "id": "nma-0036"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 10x + 29 = 79",
-      "options": [
-        "2",
-        "5",
-        "79",
-        "7"
-      ],
-      "explanation": "10x + 29 = 79 → 10x = 79 - 29 = 50 → x = 5."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 10x + 29 = 79",
-      "options": [
-        "2",
-        "5",
-        "79",
-        "7"
-      ],
-      "explanation": "10x + 29 = 79 → 10x = 50 → x = 5।"
-    },
-    "id": "nma-0037"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 3x + 10 = 37",
-      "options": [
-        "8",
-        "37",
-        "9",
-        "14"
-      ],
-      "explanation": "3x + 10 = 37 → 3x = 37 - 10 = 27 → x = 9."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 3x + 10 = 37",
-      "options": [
-        "8",
-        "37",
-        "9",
-        "14"
-      ],
-      "explanation": "3x + 10 = 37 → 3x = 27 → x = 9।"
-    },
-    "id": "nma-0038"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 8x + 14 = 150",
-      "options": [
-        "17",
-        "18",
-        "150",
-        "16"
-      ],
-      "explanation": "8x + 14 = 150 → 8x = 150 - 14 = 136 → x = 17."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 8x + 14 = 150",
-      "options": [
-        "17",
-        "18",
-        "150",
-        "16"
-      ],
-      "explanation": "8x + 14 = 150 → 8x = 136 → x = 17।"
-    },
-    "id": "nma-0039"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 12x + 7 = 199",
-      "options": [
-        "14",
-        "16",
-        "199",
-        "18"
-      ],
-      "explanation": "12x + 7 = 199 → 12x = 199 - 7 = 192 → x = 16."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 12x + 7 = 199",
-      "options": [
-        "14",
-        "16",
-        "199",
-        "18"
-      ],
-      "explanation": "12x + 7 = 199 → 12x = 192 → x = 16।"
-    },
-    "id": "nma-0040"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 9x + 25 = 106",
-      "options": [
-        "106",
-        "7",
-        "9",
-        "11"
-      ],
-      "explanation": "9x + 25 = 106 → 9x = 106 - 25 = 81 → x = 9."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 9x + 25 = 106",
-      "options": [
-        "106",
-        "7",
-        "9",
-        "11"
-      ],
-      "explanation": "9x + 25 = 106 → 9x = 81 → x = 9।"
-    },
-    "id": "nma-0041"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 3x + 24 = 57",
-      "options": [
-        "9",
-        "16",
-        "11",
-        "57"
-      ],
-      "explanation": "3x + 24 = 57 → 3x = 57 - 24 = 33 → x = 11."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 3x + 24 = 57",
-      "options": [
-        "9",
-        "16",
-        "11",
-        "57"
-      ],
-      "explanation": "3x + 24 = 57 → 3x = 33 → x = 11।"
-    },
-    "id": "nma-0042"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 12x + 27 = 159",
-      "options": [
-        "9",
-        "11",
-        "15",
-        "159"
-      ],
-      "explanation": "12x + 27 = 159 → 12x = 159 - 27 = 132 → x = 11."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 12x + 27 = 159",
-      "options": [
-        "9",
-        "11",
-        "15",
-        "159"
-      ],
-      "explanation": "12x + 27 = 159 → 12x = 132 → x = 11।"
-    },
-    "id": "nma-0043"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 10x + 18 = 48",
-      "options": [
-        "6",
-        "48",
-        "3",
-        "0"
-      ],
-      "explanation": "10x + 18 = 48 → 10x = 48 - 18 = 30 → x = 3."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 10x + 18 = 48",
-      "options": [
-        "6",
-        "48",
-        "3",
-        "0"
-      ],
-      "explanation": "10x + 18 = 48 → 10x = 30 → x = 3।"
-    },
-    "id": "nma-0044"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 4x + 23 = 103",
-      "options": [
-        "21",
-        "20",
-        "103",
-        "17"
-      ],
-      "explanation": "4x + 23 = 103 → 4x = 103 - 23 = 80 → x = 20."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 4x + 23 = 103",
-      "options": [
-        "21",
-        "20",
-        "103",
-        "17"
-      ],
-      "explanation": "4x + 23 = 103 → 4x = 80 → x = 20।"
-    },
-    "id": "nma-0045"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 13x + 20 = 111",
-      "options": [
-        "4",
-        "7",
-        "12",
-        "111"
-      ],
-      "explanation": "13x + 20 = 111 → 13x = 111 - 20 = 91 → x = 7."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 13x + 20 = 111",
-      "options": [
-        "4",
-        "7",
-        "12",
-        "111"
-      ],
-      "explanation": "13x + 20 = 111 → 13x = 91 → x = 7।"
-    },
-    "id": "nma-0046"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 10x + 25 = 175",
-      "options": [
-        "15",
-        "14",
-        "19",
-        "175"
-      ],
-      "explanation": "10x + 25 = 175 → 10x = 175 - 25 = 150 → x = 15."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 10x + 25 = 175",
-      "options": [
-        "15",
-        "14",
-        "19",
-        "175"
-      ],
-      "explanation": "10x + 25 = 175 → 10x = 150 → x = 15।"
-    },
-    "id": "nma-0047"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 6x + 26 = 98",
-      "options": [
-        "12",
-        "98",
-        "13",
-        "11"
-      ],
-      "explanation": "6x + 26 = 98 → 6x = 98 - 26 = 72 → x = 12."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 6x + 26 = 98",
-      "options": [
-        "12",
-        "98",
-        "13",
-        "11"
-      ],
-      "explanation": "6x + 26 = 98 → 6x = 72 → x = 12।"
-    },
-    "id": "nma-0048"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 5x + 29 = 99",
-      "options": [
-        "13",
-        "19",
-        "14",
-        "99"
-      ],
-      "explanation": "5x + 29 = 99 → 5x = 99 - 29 = 70 → x = 14."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 5x + 29 = 99",
-      "options": [
-        "13",
-        "19",
-        "14",
-        "99"
-      ],
-      "explanation": "5x + 29 = 99 → 5x = 70 → x = 14।"
-    },
-    "id": "nma-0049"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 5x + 8 = 68",
-      "options": [
-        "68",
-        "16",
-        "9",
         "12"
       ],
-      "explanation": "5x + 8 = 68 → 5x = 68 - 8 = 60 → x = 12."
+      "explanation": "4x + 12 = 60\n4x = 48\nx = 12"
     },
     "hi": {
-      "question": "x ज्ञात करें: 5x + 8 = 68",
+      "question": "Solve: 4x + 12 = 60. Find x.",
       "options": [
-        "68",
-        "16",
-        "9",
+        "13",
+        "10",
+        "14",
         "12"
       ],
-      "explanation": "5x + 8 = 68 → 5x = 60 → x = 12।"
+      "explanation": "4x + 12 = 60\n4x = 48\nx = 12"
     },
-    "id": "nma-0050"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 7x + 11 = 32",
-      "options": [
-        "3",
-        "8",
-        "1",
-        "32"
-      ],
-      "explanation": "7x + 11 = 32 → 7x = 32 - 11 = 21 → x = 3."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 7x + 11 = 32",
-      "options": [
-        "3",
-        "8",
-        "1",
-        "32"
-      ],
-      "explanation": "7x + 11 = 32 → 7x = 21 → x = 3।"
-    },
-    "id": "nma-0051"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 13x + 11 = 50",
-      "options": [
-        "3",
-        "0",
-        "50",
-        "6"
-      ],
-      "explanation": "13x + 11 = 50 → 13x = 50 - 11 = 39 → x = 3."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 13x + 11 = 50",
-      "options": [
-        "3",
-        "0",
-        "50",
-        "6"
-      ],
-      "explanation": "13x + 11 = 50 → 13x = 39 → x = 3।"
-    },
-    "id": "nma-0052"
+    "id": "algebra-0001"
   },
   {
     "correctOption": "B",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Solve for x: 15x + 8 = 263",
+      "question": "Solve: 4x + 8 = 20. Find x.",
       "options": [
-        "263",
-        "17",
-        "14",
-        "18"
+        "15",
+        "3",
+        "5",
+        "4"
       ],
-      "explanation": "15x + 8 = 263 → 15x = 263 - 8 = 255 → x = 17."
+      "explanation": "4x + 8 = 20\n4x = 12\nx = 3"
     },
     "hi": {
-      "question": "x ज्ञात करें: 15x + 8 = 263",
+      "question": "Solve: 4x + 8 = 20. Find x.",
       "options": [
-        "263",
-        "17",
-        "14",
-        "18"
+        "15",
+        "3",
+        "5",
+        "4"
       ],
-      "explanation": "15x + 8 = 263 → 15x = 255 → x = 17।"
+      "explanation": "4x + 8 = 20\n4x = 12\nx = 3"
     },
-    "id": "nma-0053"
+    "id": "algebra-0002"
   },
   {
     "correctOption": "D",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Solve for x: 5x + 5 = 100",
-      "options": [
-        "24",
-        "17",
-        "100",
-        "19"
-      ],
-      "explanation": "5x + 5 = 100 → 5x = 100 - 5 = 95 → x = 19."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 5x + 5 = 100",
-      "options": [
-        "24",
-        "17",
-        "100",
-        "19"
-      ],
-      "explanation": "5x + 5 = 100 → 5x = 95 → x = 19।"
-    },
-    "id": "nma-0054"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 8x + 25 = 65",
+      "question": "Solve: 3x + 6 = 18. Find x.",
       "options": [
         "5",
-        "7",
-        "65",
-        "3"
+        "6",
+        "8",
+        "4"
       ],
-      "explanation": "8x + 25 = 65 → 8x = 65 - 25 = 40 → x = 5."
+      "explanation": "3x + 6 = 18\n3x = 12\nx = 4"
     },
     "hi": {
-      "question": "x ज्ञात करें: 8x + 25 = 65",
+      "question": "Solve: 3x + 6 = 18. Find x.",
       "options": [
         "5",
-        "7",
-        "65",
-        "3"
-      ],
-      "explanation": "8x + 25 = 65 → 8x = 40 → x = 5।"
-    },
-    "id": "nma-0055"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 7x + 20 = 139",
-      "options": [
-        "15",
-        "17",
-        "139",
-        "19"
-      ],
-      "explanation": "7x + 20 = 139 → 7x = 139 - 20 = 119 → x = 17."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 7x + 20 = 139",
-      "options": [
-        "15",
-        "17",
-        "139",
-        "19"
-      ],
-      "explanation": "7x + 20 = 139 → 7x = 119 → x = 17।"
-    },
-    "id": "nma-0056"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 15x + 28 = 298",
-      "options": [
-        "18",
-        "298",
-        "20",
-        "17"
-      ],
-      "explanation": "15x + 28 = 298 → 15x = 298 - 28 = 270 → x = 18."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 15x + 28 = 298",
-      "options": [
-        "18",
-        "298",
-        "20",
-        "17"
-      ],
-      "explanation": "15x + 28 = 298 → 15x = 270 → x = 18।"
-    },
-    "id": "nma-0057"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 15x + 13 = 283",
-      "options": [
-        "18",
-        "19",
-        "283",
-        "16"
-      ],
-      "explanation": "15x + 13 = 283 → 15x = 283 - 13 = 270 → x = 18."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 15x + 13 = 283",
-      "options": [
-        "18",
-        "19",
-        "283",
-        "16"
-      ],
-      "explanation": "15x + 13 = 283 → 15x = 270 → x = 18।"
-    },
-    "id": "nma-0058"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 14x + 19 = 103",
-      "options": [
         "6",
-        "103",
-        "11",
+        "8",
         "4"
       ],
-      "explanation": "14x + 19 = 103 → 14x = 103 - 19 = 84 → x = 6."
+      "explanation": "3x + 6 = 18\n3x = 12\nx = 4"
     },
-    "hi": {
-      "question": "x ज्ञात करें: 14x + 19 = 103",
-      "options": [
-        "6",
-        "103",
-        "11",
-        "4"
-      ],
-      "explanation": "14x + 19 = 103 → 14x = 84 → x = 6।"
-    },
-    "id": "nma-0059"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 8x + 11 = 107",
-      "options": [
-        "9",
-        "14",
-        "12",
-        "107"
-      ],
-      "explanation": "8x + 11 = 107 → 8x = 107 - 11 = 96 → x = 12."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 8x + 11 = 107",
-      "options": [
-        "9",
-        "14",
-        "12",
-        "107"
-      ],
-      "explanation": "8x + 11 = 107 → 8x = 96 → x = 12।"
-    },
-    "id": "nma-0060"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 1x + 28 = 40",
-      "options": [
-        "9",
-        "12",
-        "16",
-        "40"
-      ],
-      "explanation": "1x + 28 = 40 → 1x = 40 - 28 = 12 → x = 12."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 1x + 28 = 40",
-      "options": [
-        "9",
-        "12",
-        "16",
-        "40"
-      ],
-      "explanation": "1x + 28 = 40 → 1x = 12 → x = 12।"
-    },
-    "id": "nma-0061"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 8x + 9 = 33",
-      "options": [
-        "33",
-        "8",
-        "3",
-        "0"
-      ],
-      "explanation": "8x + 9 = 33 → 8x = 33 - 9 = 24 → x = 3."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 8x + 9 = 33",
-      "options": [
-        "33",
-        "8",
-        "3",
-        "0"
-      ],
-      "explanation": "8x + 9 = 33 → 8x = 24 → x = 3।"
-    },
-    "id": "nma-0062"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 2x + 19 = 55",
-      "options": [
-        "15",
-        "18",
-        "55",
-        "19"
-      ],
-      "explanation": "2x + 19 = 55 → 2x = 55 - 19 = 36 → x = 18."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 2x + 19 = 55",
-      "options": [
-        "15",
-        "18",
-        "55",
-        "19"
-      ],
-      "explanation": "2x + 19 = 55 → 2x = 36 → x = 18।"
-    },
-    "id": "nma-0063"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 2x + 30 = 64",
-      "options": [
-        "20",
-        "17",
-        "15",
-        "64"
-      ],
-      "explanation": "2x + 30 = 64 → 2x = 64 - 30 = 34 → x = 17."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 2x + 30 = 64",
-      "options": [
-        "20",
-        "17",
-        "15",
-        "64"
-      ],
-      "explanation": "2x + 30 = 64 → 2x = 34 → x = 17।"
-    },
-    "id": "nma-0064"
+    "id": "algebra-0003"
   },
   {
     "correctOption": "A",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Solve for x: 14x + 26 = 194",
+      "question": "Solve: 2x + 4 = 24. Find x.",
       "options": [
+        "10",
         "12",
-        "17",
-        "194",
+        "10",
+        "11"
+      ],
+      "explanation": "2x + 4 = 24\n2x = 20\nx = 10"
+    },
+    "hi": {
+      "question": "Solve: 2x + 4 = 24. Find x.",
+      "options": [
+        "10",
+        "12",
+        "10",
+        "11"
+      ],
+      "explanation": "2x + 4 = 24\n2x = 20\nx = 10"
+    },
+    "id": "algebra-0004"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 8 = 28. Find x.",
+      "options": [
+        "11",
+        "15",
+        "12",
         "10"
       ],
-      "explanation": "14x + 26 = 194 → 14x = 194 - 26 = 168 → x = 12."
+      "explanation": "2x + 8 = 28\n2x = 20\nx = 10"
     },
     "hi": {
-      "question": "x ज्ञात करें: 14x + 26 = 194",
+      "question": "Solve: 2x + 8 = 28. Find x.",
       "options": [
+        "11",
+        "15",
         "12",
-        "17",
-        "194",
         "10"
       ],
-      "explanation": "14x + 26 = 194 → 14x = 168 → x = 12।"
+      "explanation": "2x + 8 = 28\n2x = 20\nx = 10"
     },
-    "id": "nma-0065"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 14x + 6 = 272",
-      "options": [
-        "19",
-        "272",
-        "18",
-        "24"
-      ],
-      "explanation": "14x + 6 = 272 → 14x = 272 - 6 = 266 → x = 19."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 14x + 6 = 272",
-      "options": [
-        "19",
-        "272",
-        "18",
-        "24"
-      ],
-      "explanation": "14x + 6 = 272 → 14x = 266 → x = 19।"
-    },
-    "id": "nma-0066"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 4x + 18 = 34",
-      "options": [
-        "1",
-        "34",
-        "5",
-        "4"
-      ],
-      "explanation": "4x + 18 = 34 → 4x = 34 - 18 = 16 → x = 4."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 4x + 18 = 34",
-      "options": [
-        "1",
-        "34",
-        "5",
-        "4"
-      ],
-      "explanation": "4x + 18 = 34 → 4x = 16 → x = 4।"
-    },
-    "id": "nma-0067"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 12x + 5 = 137",
-      "options": [
-        "137",
-        "9",
-        "12",
-        "11"
-      ],
-      "explanation": "12x + 5 = 137 → 12x = 137 - 5 = 132 → x = 11."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 12x + 5 = 137",
-      "options": [
-        "137",
-        "9",
-        "12",
-        "11"
-      ],
-      "explanation": "12x + 5 = 137 → 12x = 132 → x = 11।"
-    },
-    "id": "nma-0068"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 6x + 9 = 99",
-      "options": [
-        "17",
-        "15",
-        "12",
-        "99"
-      ],
-      "explanation": "6x + 9 = 99 → 6x = 99 - 9 = 90 → x = 15."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 6x + 9 = 99",
-      "options": [
-        "17",
-        "15",
-        "12",
-        "99"
-      ],
-      "explanation": "6x + 9 = 99 → 6x = 90 → x = 15।"
-    },
-    "id": "nma-0069"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 3x + 7 = 28",
-      "options": [
-        "5",
-        "7",
-        "28",
-        "12"
-      ],
-      "explanation": "3x + 7 = 28 → 3x = 28 - 7 = 21 → x = 7."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 3x + 7 = 28",
-      "options": [
-        "5",
-        "7",
-        "28",
-        "12"
-      ],
-      "explanation": "3x + 7 = 28 → 3x = 21 → x = 7।"
-    },
-    "id": "nma-0070"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 4x + 25 = 89",
-      "options": [
-        "19",
-        "16",
-        "89",
-        "14"
-      ],
-      "explanation": "4x + 25 = 89 → 4x = 89 - 25 = 64 → x = 16."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 4x + 25 = 89",
-      "options": [
-        "19",
-        "16",
-        "89",
-        "14"
-      ],
-      "explanation": "4x + 25 = 89 → 4x = 64 → x = 16।"
-    },
-    "id": "nma-0071"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 15x + 14 = 254",
-      "options": [
-        "254",
-        "15",
-        "21",
-        "16"
-      ],
-      "explanation": "15x + 14 = 254 → 15x = 254 - 14 = 240 → x = 16."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 15x + 14 = 254",
-      "options": [
-        "254",
-        "15",
-        "21",
-        "16"
-      ],
-      "explanation": "15x + 14 = 254 → 15x = 240 → x = 16।"
-    },
-    "id": "nma-0072"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 10x + 25 = 135",
-      "options": [
-        "11",
-        "135",
-        "15",
-        "8"
-      ],
-      "explanation": "10x + 25 = 135 → 10x = 135 - 25 = 110 → x = 11."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 10x + 25 = 135",
-      "options": [
-        "11",
-        "135",
-        "15",
-        "8"
-      ],
-      "explanation": "10x + 25 = 135 → 10x = 110 → x = 11।"
-    },
-    "id": "nma-0073"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 4x + 20 = 76",
-      "options": [
-        "14",
-        "15",
-        "13",
-        "76"
-      ],
-      "explanation": "4x + 20 = 76 → 4x = 76 - 20 = 56 → x = 14."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 4x + 20 = 76",
-      "options": [
-        "14",
-        "15",
-        "13",
-        "76"
-      ],
-      "explanation": "4x + 20 = 76 → 4x = 56 → x = 14।"
-    },
-    "id": "nma-0074"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 10x + 27 = 137",
-      "options": [
-        "10",
-        "11",
-        "14",
-        "137"
-      ],
-      "explanation": "10x + 27 = 137 → 10x = 137 - 27 = 110 → x = 11."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 10x + 27 = 137",
-      "options": [
-        "10",
-        "11",
-        "14",
-        "137"
-      ],
-      "explanation": "10x + 27 = 137 → 10x = 110 → x = 11।"
-    },
-    "id": "nma-0075"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 10x + 24 = 54",
-      "options": [
-        "3",
-        "54",
-        "1",
-        "7"
-      ],
-      "explanation": "10x + 24 = 54 → 10x = 54 - 24 = 30 → x = 3."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 10x + 24 = 54",
-      "options": [
-        "3",
-        "54",
-        "1",
-        "7"
-      ],
-      "explanation": "10x + 24 = 54 → 10x = 30 → x = 3।"
-    },
-    "id": "nma-0076"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 4x + 24 = 56",
-      "options": [
-        "56",
-        "8",
-        "5",
-        "11"
-      ],
-      "explanation": "4x + 24 = 56 → 4x = 56 - 24 = 32 → x = 8."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 4x + 24 = 56",
-      "options": [
-        "56",
-        "8",
-        "5",
-        "11"
-      ],
-      "explanation": "4x + 24 = 56 → 4x = 32 → x = 8।"
-    },
-    "id": "nma-0077"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 15x + 14 = 59",
-      "options": [
-        "7",
-        "3",
-        "59",
-        "2"
-      ],
-      "explanation": "15x + 14 = 59 → 15x = 59 - 14 = 45 → x = 3."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 15x + 14 = 59",
-      "options": [
-        "7",
-        "3",
-        "59",
-        "2"
-      ],
-      "explanation": "15x + 14 = 59 → 15x = 45 → x = 3।"
-    },
-    "id": "nma-0078"
+    "id": "algebra-0005"
   },
   {
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Solve for x: 2x + 15 = 37",
+      "question": "Solve: 4x + 8 = 28. Find x.",
       "options": [
-        "10",
-        "37",
-        "11",
-        "15"
-      ],
-      "explanation": "2x + 15 = 37 → 2x = 37 - 15 = 22 → x = 11."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 2x + 15 = 37",
-      "options": [
-        "10",
-        "37",
-        "11",
-        "15"
-      ],
-      "explanation": "2x + 15 = 37 → 2x = 22 → x = 11।"
-    },
-    "id": "nma-0079"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve for x: 9x + 13 = 175",
-      "options": [
-        "18",
-        "16",
-        "20",
-        "175"
-      ],
-      "explanation": "9x + 13 = 175 → 9x = 175 - 13 = 162 → x = 18."
-    },
-    "hi": {
-      "question": "x ज्ञात करें: 9x + 13 = 175",
-      "options": [
-        "18",
-        "16",
-        "20",
-        "175"
-      ],
-      "explanation": "9x + 13 = 175 → 9x = 162 → x = 18।"
-    },
-    "id": "nma-0080"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 4x + 19 = 31. Find x.",
-      "options": [
-        "3",
-        "1",
-        "31",
-        "4"
-      ],
-      "explanation": "4x+19=31 → 4x=12=12 → x=3."
-    },
-    "hi": {
-      "question": "हल करें: 4x + 19 = 31। x ज्ञात करें।",
-      "options": [
-        "3",
-        "1",
-        "31",
-        "4"
-      ],
-      "explanation": "4x+19=31 → 4x=12 → x=3।"
-    },
-    "id": "nma-0081"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 14x + 21 = 245. Find x.",
-      "options": [
-        "20",
-        "245",
-        "13",
-        "16"
-      ],
-      "explanation": "14x+21=245 → 14x=224=224 → x=16."
-    },
-    "hi": {
-      "question": "हल करें: 14x + 21 = 245। x ज्ञात करें।",
-      "options": [
-        "20",
-        "245",
-        "13",
-        "16"
-      ],
-      "explanation": "14x+21=245 → 14x=224 → x=16।"
-    },
-    "id": "nma-0082"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 4x + 20 = 72. Find x.",
-      "options": [
-        "13",
-        "11",
-        "72",
-        "18"
-      ],
-      "explanation": "4x+20=72 → 4x=52=52 → x=13."
-    },
-    "hi": {
-      "question": "हल करें: 4x + 20 = 72। x ज्ञात करें।",
-      "options": [
-        "13",
-        "11",
-        "72",
-        "18"
-      ],
-      "explanation": "4x+20=72 → 4x=52 → x=13।"
-    },
-    "id": "nma-0083"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 6x + 13 = 55. Find x.",
-      "options": [
+        "7",
+        "6",
         "5",
-        "55",
-        "8",
-        "7"
+        "15"
       ],
-      "explanation": "6x+13=55 → 6x=42=42 → x=7."
+      "explanation": "4x + 8 = 28\n4x = 20\nx = 5"
     },
     "hi": {
-      "question": "हल करें: 6x + 13 = 55। x ज्ञात करें।",
+      "question": "Solve: 4x + 8 = 28. Find x.",
       "options": [
+        "7",
+        "6",
         "5",
-        "55",
-        "8",
-        "7"
+        "15"
       ],
-      "explanation": "6x+13=55 → 6x=42 → x=7।"
+      "explanation": "4x + 8 = 28\n4x = 20\nx = 5"
     },
-    "id": "nma-0084"
+    "id": "algebra-0006"
   },
   {
     "correctOption": "B",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Solve: 3x + 29 = 89. Find x.",
+      "question": "Solve: 4x + 8 = 56. Find x.",
       "options": [
-        "89",
-        "20",
-        "19",
-        "22"
-      ],
-      "explanation": "3x+29=89 → 3x=60=60 → x=20."
-    },
-    "hi": {
-      "question": "हल करें: 3x + 29 = 89। x ज्ञात करें।",
-      "options": [
-        "89",
-        "20",
-        "19",
-        "22"
-      ],
-      "explanation": "3x+29=89 → 3x=60 → x=20।"
-    },
-    "id": "nma-0085"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 5x + 21 = 96. Find x.",
-      "options": [
-        "12",
-        "96",
-        "16",
-        "15"
-      ],
-      "explanation": "5x+21=96 → 5x=75=75 → x=15."
-    },
-    "hi": {
-      "question": "हल करें: 5x + 21 = 96। x ज्ञात करें।",
-      "options": [
-        "12",
-        "96",
-        "16",
-        "15"
-      ],
-      "explanation": "5x+21=96 → 5x=75 → x=15।"
-    },
-    "id": "nma-0086"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 11x + 24 = 101. Find x.",
-      "options": [
-        "7",
-        "8",
-        "101",
-        "6"
-      ],
-      "explanation": "11x+24=101 → 11x=77=77 → x=7."
-    },
-    "hi": {
-      "question": "हल करें: 11x + 24 = 101। x ज्ञात करें।",
-      "options": [
-        "7",
-        "8",
-        "101",
-        "6"
-      ],
-      "explanation": "11x+24=101 → 11x=77 → x=7।"
-    },
-    "id": "nma-0087"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 12x + 18 = 138. Find x.",
-      "options": [
-        "8",
-        "10",
         "14",
-        "138"
-      ],
-      "explanation": "12x+18=138 → 12x=120=120 → x=10."
-    },
-    "hi": {
-      "question": "हल करें: 12x + 18 = 138। x ज्ञात करें।",
-      "options": [
-        "8",
+        "12",
         "10",
-        "14",
-        "138"
-      ],
-      "explanation": "12x+18=138 → 12x=120 → x=10।"
-    },
-    "id": "nma-0088"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 8x + 26 = 114. Find x.",
-      "options": [
-        "16",
-        "11",
-        "8",
-        "114"
-      ],
-      "explanation": "8x+26=114 → 8x=88=88 → x=11."
-    },
-    "hi": {
-      "question": "हल करें: 8x + 26 = 114। x ज्ञात करें।",
-      "options": [
-        "16",
-        "11",
-        "8",
-        "114"
-      ],
-      "explanation": "8x+26=114 → 8x=88 → x=11।"
-    },
-    "id": "nma-0089"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 1x + 26 = 44. Find x.",
-      "options": [
-        "44",
-        "18",
-        "21",
-        "15"
-      ],
-      "explanation": "1x+26=44 → 1x=18=18 → x=18."
-    },
-    "hi": {
-      "question": "हल करें: 1x + 26 = 44। x ज्ञात करें।",
-      "options": [
-        "44",
-        "18",
-        "21",
-        "15"
-      ],
-      "explanation": "1x+26=44 → 1x=18 → x=18।"
-    },
-    "id": "nma-0090"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 8x + 15 = 47. Find x.",
-      "options": [
-        "4",
-        "47",
-        "7",
-        "1"
-      ],
-      "explanation": "8x+15=47 → 8x=32=32 → x=4."
-    },
-    "hi": {
-      "question": "हल करें: 8x + 15 = 47। x ज्ञात करें।",
-      "options": [
-        "4",
-        "47",
-        "7",
-        "1"
-      ],
-      "explanation": "8x+15=47 → 8x=32 → x=4।"
-    },
-    "id": "nma-0091"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 11x + 11 = 132. Find x.",
-      "options": [
-        "8",
-        "132",
-        "11",
         "13"
       ],
-      "explanation": "11x+11=132 → 11x=121=121 → x=11."
+      "explanation": "4x + 8 = 56\n4x = 48\nx = 12"
     },
     "hi": {
-      "question": "हल करें: 11x + 11 = 132। x ज्ञात करें।",
+      "question": "Solve: 4x + 8 = 56. Find x.",
       "options": [
-        "8",
-        "132",
-        "11",
+        "14",
+        "12",
+        "10",
         "13"
       ],
-      "explanation": "11x+11=132 → 11x=121 → x=11।"
+      "explanation": "4x + 8 = 56\n4x = 48\nx = 12"
     },
-    "id": "nma-0092"
+    "id": "algebra-0007"
   },
   {
     "correctOption": "D",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Solve: 11x + 26 = 158. Find x.",
-      "options": [
-        "158",
-        "14",
-        "9",
-        "12"
-      ],
-      "explanation": "11x+26=158 → 11x=132=132 → x=12."
-    },
-    "hi": {
-      "question": "हल करें: 11x + 26 = 158। x ज्ञात करें।",
-      "options": [
-        "158",
-        "14",
-        "9",
-        "12"
-      ],
-      "explanation": "11x+26=158 → 11x=132 → x=12।"
-    },
-    "id": "nma-0093"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 5x + 18 = 68. Find x.",
-      "options": [
-        "14",
-        "68",
-        "8",
-        "10"
-      ],
-      "explanation": "5x+18=68 → 5x=50=50 → x=10."
-    },
-    "hi": {
-      "question": "हल करें: 5x + 18 = 68। x ज्ञात करें।",
-      "options": [
-        "14",
-        "68",
-        "8",
-        "10"
-      ],
-      "explanation": "5x+18=68 → 5x=50 → x=10।"
-    },
-    "id": "nma-0094"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 6x + 26 = 80. Find x.",
-      "options": [
-        "9",
-        "14",
-        "6",
-        "80"
-      ],
-      "explanation": "6x+26=80 → 6x=54=54 → x=9."
-    },
-    "hi": {
-      "question": "हल करें: 6x + 26 = 80। x ज्ञात करें।",
-      "options": [
-        "9",
-        "14",
-        "6",
-        "80"
-      ],
-      "explanation": "6x+26=80 → 6x=54 → x=9।"
-    },
-    "id": "nma-0095"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 9x + 10 = 109. Find x.",
-      "options": [
-        "109",
-        "16",
-        "11",
-        "10"
-      ],
-      "explanation": "9x+10=109 → 9x=99=99 → x=11."
-    },
-    "hi": {
-      "question": "हल करें: 9x + 10 = 109। x ज्ञात करें।",
-      "options": [
-        "109",
-        "16",
-        "11",
-        "10"
-      ],
-      "explanation": "9x+10=109 → 9x=99 → x=11।"
-    },
-    "id": "nma-0096"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 3x + 28 = 58. Find x.",
-      "options": [
-        "15",
-        "10",
-        "58",
-        "9"
-      ],
-      "explanation": "3x+28=58 → 3x=30=30 → x=10."
-    },
-    "hi": {
-      "question": "हल करें: 3x + 28 = 58। x ज्ञात करें।",
-      "options": [
-        "15",
-        "10",
-        "58",
-        "9"
-      ],
-      "explanation": "3x+28=58 → 3x=30 → x=10।"
-    },
-    "id": "nma-0097"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 4x + 12 = 64. Find x.",
-      "options": [
-        "13",
-        "64",
-        "16",
-        "11"
-      ],
-      "explanation": "4x+12=64 → 4x=52=52 → x=13."
-    },
-    "hi": {
-      "question": "हल करें: 4x + 12 = 64। x ज्ञात करें।",
-      "options": [
-        "13",
-        "64",
-        "16",
-        "11"
-      ],
-      "explanation": "4x+12=64 → 4x=52 → x=13।"
-    },
-    "id": "nma-0098"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 10x + 19 = 129. Find x.",
-      "options": [
-        "12",
-        "129",
-        "9",
-        "11"
-      ],
-      "explanation": "10x+19=129 → 10x=110=110 → x=11."
-    },
-    "hi": {
-      "question": "हल करें: 10x + 19 = 129। x ज्ञात करें।",
-      "options": [
-        "12",
-        "129",
-        "9",
-        "11"
-      ],
-      "explanation": "10x+19=129 → 10x=110 → x=11।"
-    },
-    "id": "nma-0099"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 8x + 21 = 85. Find x.",
-      "options": [
-        "8",
-        "9",
-        "5",
-        "85"
-      ],
-      "explanation": "8x+21=85 → 8x=64=64 → x=8."
-    },
-    "hi": {
-      "question": "हल करें: 8x + 21 = 85। x ज्ञात करें।",
-      "options": [
-        "8",
-        "9",
-        "5",
-        "85"
-      ],
-      "explanation": "8x+21=85 → 8x=64 → x=8।"
-    },
-    "id": "nma-0100"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 7x + 9 = 30. Find x.",
-      "options": [
-        "3",
-        "30",
-        "5",
-        "2"
-      ],
-      "explanation": "7x+9=30 → 7x=21=21 → x=3."
-    },
-    "hi": {
-      "question": "हल करें: 7x + 9 = 30। x ज्ञात करें।",
-      "options": [
-        "3",
-        "30",
-        "5",
-        "2"
-      ],
-      "explanation": "7x+9=30 → 7x=21 → x=3।"
-    },
-    "id": "nma-0101"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 3x + 27 = 63. Find x.",
-      "options": [
-        "11",
-        "12",
-        "14",
-        "63"
-      ],
-      "explanation": "3x+27=63 → 3x=36=36 → x=12."
-    },
-    "hi": {
-      "question": "हल करें: 3x + 27 = 63। x ज्ञात करें।",
-      "options": [
-        "11",
-        "12",
-        "14",
-        "63"
-      ],
-      "explanation": "3x+27=63 → 3x=36 → x=12।"
-    },
-    "id": "nma-0102"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 6x + 5 = 23. Find x.",
-      "options": [
-        "23",
-        "1",
-        "3",
-        "7"
-      ],
-      "explanation": "6x+5=23 → 6x=18=18 → x=3."
-    },
-    "hi": {
-      "question": "हल करें: 6x + 5 = 23। x ज्ञात करें।",
-      "options": [
-        "23",
-        "1",
-        "3",
-        "7"
-      ],
-      "explanation": "6x+5=23 → 6x=18 → x=3।"
-    },
-    "id": "nma-0103"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 8x + 9 = 41. Find x.",
-      "options": [
-        "4",
-        "2",
-        "9",
-        "41"
-      ],
-      "explanation": "8x+9=41 → 8x=32=32 → x=4."
-    },
-    "hi": {
-      "question": "हल करें: 8x + 9 = 41। x ज्ञात करें।",
-      "options": [
-        "4",
-        "2",
-        "9",
-        "41"
-      ],
-      "explanation": "8x+9=41 → 8x=32 → x=4।"
-    },
-    "id": "nma-0104"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 8x + 5 = 117. Find x.",
-      "options": [
-        "14",
-        "117",
-        "11",
-        "15"
-      ],
-      "explanation": "8x+5=117 → 8x=112=112 → x=14."
-    },
-    "hi": {
-      "question": "हल करें: 8x + 5 = 117। x ज्ञात करें।",
-      "options": [
-        "14",
-        "117",
-        "11",
-        "15"
-      ],
-      "explanation": "8x+5=117 → 8x=112 → x=14।"
-    },
-    "id": "nma-0105"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 1x + 29 = 41. Find x.",
-      "options": [
-        "17",
-        "41",
-        "11",
-        "12"
-      ],
-      "explanation": "1x+29=41 → 1x=12=12 → x=12."
-    },
-    "hi": {
-      "question": "हल करें: 1x + 29 = 41। x ज्ञात करें।",
-      "options": [
-        "17",
-        "41",
-        "11",
-        "12"
-      ],
-      "explanation": "1x+29=41 → 1x=12 → x=12।"
-    },
-    "id": "nma-0106"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 11x + 12 = 111. Find x.",
+      "question": "Solve: 2x + 4 = 16. Find x.",
       "options": [
         "7",
-        "111",
-        "9",
-        "12"
+        "8",
+        "15",
+        "6"
       ],
-      "explanation": "11x+12=111 → 11x=99=99 → x=9."
+      "explanation": "2x + 4 = 16\n2x = 12\nx = 6"
     },
     "hi": {
-      "question": "हल करें: 11x + 12 = 111। x ज्ञात करें।",
+      "question": "Solve: 2x + 4 = 16. Find x.",
       "options": [
         "7",
-        "111",
-        "9",
-        "12"
+        "8",
+        "15",
+        "6"
       ],
-      "explanation": "11x+12=111 → 11x=99 → x=9।"
+      "explanation": "2x + 4 = 16\n2x = 12\nx = 6"
     },
-    "id": "nma-0107"
+    "id": "algebra-0008"
   },
   {
-    "correctOption": "D",
-    "difficulty": "easy",
+    "correctOption": "A",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Solve: 9x + 14 = 194. Find x.",
+      "question": "Solve: 3x + 9 = 24. Find x.",
       "options": [
-        "194",
-        "19",
-        "22",
-        "20"
+        "5",
+        "7",
+        "8",
+        "6"
       ],
-      "explanation": "9x+14=194 → 9x=180=180 → x=20."
+      "explanation": "3x + 9 = 24\n3x = 15\nx = 5"
     },
     "hi": {
-      "question": "हल करें: 9x + 14 = 194। x ज्ञात करें।",
+      "question": "Solve: 3x + 9 = 24. Find x.",
       "options": [
-        "194",
-        "19",
-        "22",
-        "20"
+        "5",
+        "7",
+        "8",
+        "6"
       ],
-      "explanation": "9x+14=194 → 9x=180 → x=20।"
+      "explanation": "3x + 9 = 24\n3x = 15\nx = 5"
     },
-    "id": "nma-0108"
+    "id": "algebra-0009"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 4 = 28. Find x.",
+      "options": [
+        "13",
+        "14",
+        "12",
+        "5"
+      ],
+      "explanation": "2x + 4 = 28\n2x = 24\nx = 12"
+    },
+    "hi": {
+      "question": "Solve: 2x + 4 = 28. Find x.",
+      "options": [
+        "13",
+        "14",
+        "12",
+        "5"
+      ],
+      "explanation": "2x + 4 = 28\n2x = 24\nx = 12"
+    },
+    "id": "algebra-0010"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 6 = 12. Find x.",
+      "options": [
+        "2",
+        "3",
+        "10",
+        "4"
+      ],
+      "explanation": "3x + 6 = 12\n3x = 6\nx = 2"
+    },
+    "hi": {
+      "question": "Solve: 3x + 6 = 12. Find x.",
+      "options": [
+        "2",
+        "3",
+        "10",
+        "4"
+      ],
+      "explanation": "3x + 6 = 12\n3x = 6\nx = 2"
+    },
+    "id": "algebra-0011"
   },
   {
     "correctOption": "B",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Solve: 8x + 24 = 168. Find x.",
+      "question": "Solve: 5x + 10 = 50. Find x.",
       "options": [
-        "23",
-        "18",
-        "16",
-        "168"
+        "10",
+        "8",
+        "9",
+        "10"
       ],
-      "explanation": "8x+24=168 → 8x=144=144 → x=18."
+      "explanation": "5x + 10 = 50\n5x = 40\nx = 8"
     },
     "hi": {
-      "question": "हल करें: 8x + 24 = 168। x ज्ञात करें।",
+      "question": "Solve: 5x + 10 = 50. Find x.",
       "options": [
-        "23",
-        "18",
-        "16",
-        "168"
+        "10",
+        "8",
+        "9",
+        "10"
       ],
-      "explanation": "8x+24=168 → 8x=144 → x=18।"
+      "explanation": "5x + 10 = 50\n5x = 40\nx = 8"
     },
-    "id": "nma-0109"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 6x + 16 = 118. Find x.",
-      "options": [
-        "19",
-        "16",
-        "17",
-        "118"
-      ],
-      "explanation": "6x+16=118 → 6x=102=102 → x=17."
-    },
-    "hi": {
-      "question": "हल करें: 6x + 16 = 118। x ज्ञात करें।",
-      "options": [
-        "19",
-        "16",
-        "17",
-        "118"
-      ],
-      "explanation": "6x+16=118 → 6x=102 → x=17।"
-    },
-    "id": "nma-0110"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 4x + 11 = 35. Find x.",
-      "options": [
-        "3",
-        "35",
-        "6",
-        "7"
-      ],
-      "explanation": "4x+11=35 → 4x=24=24 → x=6."
-    },
-    "hi": {
-      "question": "हल करें: 4x + 11 = 35। x ज्ञात करें।",
-      "options": [
-        "3",
-        "35",
-        "6",
-        "7"
-      ],
-      "explanation": "4x+11=35 → 4x=24 → x=6।"
-    },
-    "id": "nma-0111"
+    "id": "algebra-0012"
   },
   {
     "correctOption": "D",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Solve: 12x + 17 = 53. Find x.",
+      "question": "Solve: 4x + 8 = 48. Find x.",
       "options": [
-        "6",
-        "53",
-        "0",
-        "3"
+        "12",
+        "11",
+        "15",
+        "10"
       ],
-      "explanation": "12x+17=53 → 12x=36=36 → x=3."
+      "explanation": "4x + 8 = 48\n4x = 40\nx = 10"
     },
     "hi": {
-      "question": "हल करें: 12x + 17 = 53। x ज्ञात करें।",
+      "question": "Solve: 4x + 8 = 48. Find x.",
       "options": [
-        "6",
-        "53",
-        "0",
-        "3"
+        "12",
+        "11",
+        "15",
+        "10"
       ],
-      "explanation": "12x+17=53 → 12x=36 → x=3।"
+      "explanation": "4x + 8 = 48\n4x = 40\nx = 10"
     },
-    "id": "nma-0112"
+    "id": "algebra-0013"
   },
   {
-    "correctOption": "D",
-    "difficulty": "easy",
+    "correctOption": "B",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Solve: 11x + 25 = 80. Find x.",
+      "question": "Solve: 3x + 9 = 45. Find x.",
       "options": [
-        "80",
+        "13",
+        "12",
+        "10",
+        "14"
+      ],
+      "explanation": "3x + 9 = 45\n3x = 36\nx = 12"
+    },
+    "hi": {
+      "question": "Solve: 3x + 9 = 45. Find x.",
+      "options": [
+        "13",
+        "12",
+        "10",
+        "14"
+      ],
+      "explanation": "3x + 9 = 45\n3x = 36\nx = 12"
+    },
+    "id": "algebra-0014"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 4 = 24. Find x.",
+      "options": [
+        "10",
+        "11",
+        "10",
+        "12"
+      ],
+      "explanation": "2x + 4 = 24\n2x = 20\nx = 10"
+    },
+    "hi": {
+      "question": "Solve: 2x + 4 = 24. Find x.",
+      "options": [
+        "10",
+        "11",
+        "10",
+        "12"
+      ],
+      "explanation": "2x + 4 = 24\n2x = 20\nx = 10"
+    },
+    "id": "algebra-0015"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 8 = 32. Find x.",
+      "options": [
+        "10",
+        "8",
+        "6",
+        "7"
+      ],
+      "explanation": "4x + 8 = 32\n4x = 24\nx = 6"
+    },
+    "hi": {
+      "question": "Solve: 4x + 8 = 32. Find x.",
+      "options": [
+        "10",
+        "8",
+        "6",
+        "7"
+      ],
+      "explanation": "4x + 8 = 32\n4x = 24\nx = 6"
+    },
+    "id": "algebra-0016"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 12 = 20. Find x.",
+      "options": [
+        "3",
+        "2",
+        "15",
+        "4"
+      ],
+      "explanation": "4x + 12 = 20\n4x = 8\nx = 2"
+    },
+    "hi": {
+      "question": "Solve: 4x + 12 = 20. Find x.",
+      "options": [
+        "3",
+        "2",
+        "15",
+        "4"
+      ],
+      "explanation": "4x + 12 = 20\n4x = 8\nx = 2"
+    },
+    "id": "algebra-0017"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 9 = 15. Find x.",
+      "options": [
+        "2",
+        "15",
+        "3",
+        "4"
+      ],
+      "explanation": "3x + 9 = 15\n3x = 6\nx = 2"
+    },
+    "hi": {
+      "question": "Solve: 3x + 9 = 15. Find x.",
+      "options": [
+        "2",
+        "15",
+        "3",
+        "4"
+      ],
+      "explanation": "3x + 9 = 15\n3x = 6\nx = 2"
+    },
+    "id": "algebra-0018"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 50. Find x.",
+      "options": [
+        "10",
+        "8",
+        "5",
+        "9"
+      ],
+      "explanation": "5x + 10 = 50\n5x = 40\nx = 8"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 50. Find x.",
+      "options": [
+        "10",
+        "8",
+        "5",
+        "9"
+      ],
+      "explanation": "5x + 10 = 50\n5x = 40\nx = 8"
+    },
+    "id": "algebra-0019"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 9 = 45. Find x.",
+      "options": [
+        "12",
+        "13",
+        "15",
+        "14"
+      ],
+      "explanation": "3x + 9 = 45\n3x = 36\nx = 12"
+    },
+    "hi": {
+      "question": "Solve: 3x + 9 = 45. Find x.",
+      "options": [
+        "12",
+        "13",
+        "15",
+        "14"
+      ],
+      "explanation": "3x + 9 = 45\n3x = 36\nx = 12"
+    },
+    "id": "algebra-0020"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 12 = 28. Find x.",
+      "options": [
+        "8",
+        "5",
         "4",
+        "6"
+      ],
+      "explanation": "4x + 12 = 28\n4x = 16\nx = 4"
+    },
+    "hi": {
+      "question": "Solve: 4x + 12 = 28. Find x.",
+      "options": [
+        "8",
+        "5",
+        "4",
+        "6"
+      ],
+      "explanation": "4x + 12 = 28\n4x = 16\nx = 4"
+    },
+    "id": "algebra-0021"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 9 = 21. Find x.",
+      "options": [
+        "4",
+        "10",
         "6",
         "5"
       ],
-      "explanation": "11x+25=80 → 11x=55=55 → x=5."
+      "explanation": "3x + 9 = 21\n3x = 12\nx = 4"
     },
     "hi": {
-      "question": "हल करें: 11x + 25 = 80। x ज्ञात करें।",
+      "question": "Solve: 3x + 9 = 21. Find x.",
       "options": [
-        "80",
         "4",
+        "10",
         "6",
         "5"
       ],
-      "explanation": "11x+25=80 → 11x=55 → x=5।"
+      "explanation": "3x + 9 = 21\n3x = 12\nx = 4"
     },
-    "id": "nma-0113"
+    "id": "algebra-0022"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 6 = 15. Find x.",
+      "options": [
+        "3",
+        "10",
+        "5",
+        "4"
+      ],
+      "explanation": "3x + 6 = 15\n3x = 9\nx = 3"
+    },
+    "hi": {
+      "question": "Solve: 3x + 6 = 15. Find x.",
+      "options": [
+        "3",
+        "10",
+        "5",
+        "4"
+      ],
+      "explanation": "3x + 6 = 15\n3x = 9\nx = 3"
+    },
+    "id": "algebra-0023"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 12 = 44. Find x.",
+      "options": [
+        "8",
+        "10",
+        "9",
+        "10"
+      ],
+      "explanation": "4x + 12 = 44\n4x = 32\nx = 8"
+    },
+    "hi": {
+      "question": "Solve: 4x + 12 = 44. Find x.",
+      "options": [
+        "8",
+        "10",
+        "9",
+        "10"
+      ],
+      "explanation": "4x + 12 = 44\n4x = 32\nx = 8"
+    },
+    "id": "algebra-0024"
   },
   {
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Solve: 7x + 22 = 57. Find x.",
+      "question": "Solve: 4x + 12 = 52. Find x.",
       "options": [
-        "57",
-        "3",
-        "5",
-        "8"
+        "11",
+        "12",
+        "10",
+        "5"
       ],
-      "explanation": "7x+22=57 → 7x=35=35 → x=5."
+      "explanation": "4x + 12 = 52\n4x = 40\nx = 10"
     },
     "hi": {
-      "question": "हल करें: 7x + 22 = 57। x ज्ञात करें।",
+      "question": "Solve: 4x + 12 = 52. Find x.",
       "options": [
-        "57",
-        "3",
-        "5",
-        "8"
+        "11",
+        "12",
+        "10",
+        "5"
       ],
-      "explanation": "7x+22=57 → 7x=35 → x=5।"
+      "explanation": "4x + 12 = 52\n4x = 40\nx = 10"
     },
-    "id": "nma-0114"
+    "id": "algebra-0025"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 6 = 36. Find x.",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "5"
+      ],
+      "explanation": "3x + 6 = 36\n3x = 30\nx = 10"
+    },
+    "hi": {
+      "question": "Solve: 3x + 6 = 36. Find x.",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "5"
+      ],
+      "explanation": "3x + 6 = 36\n3x = 30\nx = 10"
+    },
+    "id": "algebra-0026"
   },
   {
     "correctOption": "B",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Solve: 5x + 26 = 101. Find x.",
-      "options": [
-        "16",
-        "15",
-        "101",
-        "12"
-      ],
-      "explanation": "5x+26=101 → 5x=75=75 → x=15."
-    },
-    "hi": {
-      "question": "हल करें: 5x + 26 = 101। x ज्ञात करें।",
-      "options": [
-        "16",
-        "15",
-        "101",
-        "12"
-      ],
-      "explanation": "5x+26=101 → 5x=75 → x=15।"
-    },
-    "id": "nma-0115"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 7x + 21 = 56. Find x.",
+      "question": "Solve: 2x + 4 = 20. Find x.",
       "options": [
         "10",
-        "56",
-        "5",
-        "4"
-      ],
-      "explanation": "7x+21=56 → 7x=35=35 → x=5."
-    },
-    "hi": {
-      "question": "हल करें: 7x + 21 = 56। x ज्ञात करें।",
-      "options": [
-        "10",
-        "56",
-        "5",
-        "4"
-      ],
-      "explanation": "7x+21=56 → 7x=35 → x=5।"
-    },
-    "id": "nma-0116"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 8x + 24 = 88. Find x.",
-      "options": [
         "8",
-        "6",
-        "88",
-        "10"
-      ],
-      "explanation": "8x+24=88 → 8x=64=64 → x=8."
-    },
-    "hi": {
-      "question": "हल करें: 8x + 24 = 88। x ज्ञात करें।",
-      "options": [
         "8",
-        "6",
-        "88",
-        "10"
-      ],
-      "explanation": "8x+24=88 → 8x=64 → x=8।"
-    },
-    "id": "nma-0117"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 5x + 6 = 41. Find x.",
-      "options": [
-        "7",
-        "41",
-        "5",
-        "12"
-      ],
-      "explanation": "5x+6=41 → 5x=35=35 → x=7."
-    },
-    "hi": {
-      "question": "हल करें: 5x + 6 = 41। x ज्ञात करें।",
-      "options": [
-        "7",
-        "41",
-        "5",
-        "12"
-      ],
-      "explanation": "5x+6=41 → 5x=35 → x=7।"
-    },
-    "id": "nma-0118"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 6x + 5 = 59. Find x.",
-      "options": [
-        "6",
-        "10",
-        "59",
         "9"
       ],
-      "explanation": "6x+5=59 → 6x=54=54 → x=9."
+      "explanation": "2x + 4 = 20\n2x = 16\nx = 8"
     },
     "hi": {
-      "question": "हल करें: 6x + 5 = 59। x ज्ञात करें।",
+      "question": "Solve: 2x + 4 = 20. Find x.",
       "options": [
-        "6",
         "10",
-        "59",
+        "8",
+        "8",
         "9"
       ],
-      "explanation": "6x+5=59 → 6x=54 → x=9।"
+      "explanation": "2x + 4 = 20\n2x = 16\nx = 8"
     },
-    "id": "nma-0119"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 3x + 29 = 41. Find x.",
-      "options": [
-        "3",
-        "41",
-        "9",
-        "4"
-      ],
-      "explanation": "3x+29=41 → 3x=12=12 → x=4."
-    },
-    "hi": {
-      "question": "हल करें: 3x + 29 = 41। x ज्ञात करें।",
-      "options": [
-        "3",
-        "41",
-        "9",
-        "4"
-      ],
-      "explanation": "3x+29=41 → 3x=12 → x=4।"
-    },
-    "id": "nma-0120"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 8x + 13 = 101. Find x.",
-      "options": [
-        "15",
-        "10",
-        "101",
-        "11"
-      ],
-      "explanation": "8x+13=101 → 8x=88=88 → x=11."
-    },
-    "hi": {
-      "question": "हल करें: 8x + 13 = 101। x ज्ञात करें।",
-      "options": [
-        "15",
-        "10",
-        "101",
-        "11"
-      ],
-      "explanation": "8x+13=101 → 8x=88 → x=11।"
-    },
-    "id": "nma-0121"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 14x + 16 = 170. Find x.",
-      "options": [
-        "14",
-        "9",
-        "170",
-        "11"
-      ],
-      "explanation": "14x+16=170 → 14x=154=154 → x=11."
-    },
-    "hi": {
-      "question": "हल करें: 14x + 16 = 170। x ज्ञात करें।",
-      "options": [
-        "14",
-        "9",
-        "170",
-        "11"
-      ],
-      "explanation": "14x+16=170 → 14x=154 → x=11।"
-    },
-    "id": "nma-0122"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 1x + 26 = 32. Find x.",
-      "options": [
-        "6",
-        "32",
-        "8",
-        "4"
-      ],
-      "explanation": "1x+26=32 → 1x=6=6 → x=6."
-    },
-    "hi": {
-      "question": "हल करें: 1x + 26 = 32। x ज्ञात करें।",
-      "options": [
-        "6",
-        "32",
-        "8",
-        "4"
-      ],
-      "explanation": "1x+26=32 → 1x=6 → x=6।"
-    },
-    "id": "nma-0123"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 15x + 16 = 76. Find x.",
-      "options": [
-        "76",
-        "3",
-        "7",
-        "4"
-      ],
-      "explanation": "15x+16=76 → 15x=60=60 → x=4."
-    },
-    "hi": {
-      "question": "हल करें: 15x + 16 = 76। x ज्ञात करें।",
-      "options": [
-        "76",
-        "3",
-        "7",
-        "4"
-      ],
-      "explanation": "15x+16=76 → 15x=60 → x=4।"
-    },
-    "id": "nma-0124"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 8x + 17 = 97. Find x.",
-      "options": [
-        "97",
-        "8",
-        "10",
-        "14"
-      ],
-      "explanation": "8x+17=97 → 8x=80=80 → x=10."
-    },
-    "hi": {
-      "question": "हल करें: 8x + 17 = 97। x ज्ञात करें।",
-      "options": [
-        "97",
-        "8",
-        "10",
-        "14"
-      ],
-      "explanation": "8x+17=97 → 8x=80 → x=10।"
-    },
-    "id": "nma-0125"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 12x + 10 = 46. Find x.",
-      "options": [
-        "3",
-        "4",
-        "1",
-        "46"
-      ],
-      "explanation": "12x+10=46 → 12x=36=36 → x=3."
-    },
-    "hi": {
-      "question": "हल करें: 12x + 10 = 46। x ज्ञात करें।",
-      "options": [
-        "3",
-        "4",
-        "1",
-        "46"
-      ],
-      "explanation": "12x+10=46 → 12x=36 → x=3।"
-    },
-    "id": "nma-0126"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 3x + 29 = 71. Find x.",
-      "options": [
-        "17",
-        "71",
-        "11",
-        "14"
-      ],
-      "explanation": "3x+29=71 → 3x=42=42 → x=14."
-    },
-    "hi": {
-      "question": "हल करें: 3x + 29 = 71। x ज्ञात करें।",
-      "options": [
-        "17",
-        "71",
-        "11",
-        "14"
-      ],
-      "explanation": "3x+29=71 → 3x=42 → x=14।"
-    },
-    "id": "nma-0127"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 8x + 8 = 144. Find x.",
-      "options": [
-        "15",
-        "21",
-        "144",
-        "17"
-      ],
-      "explanation": "8x+8=144 → 8x=136=136 → x=17."
-    },
-    "hi": {
-      "question": "हल करें: 8x + 8 = 144। x ज्ञात करें।",
-      "options": [
-        "15",
-        "21",
-        "144",
-        "17"
-      ],
-      "explanation": "8x+8=144 → 8x=136 → x=17।"
-    },
-    "id": "nma-0128"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Solve: 11x + 5 = 137. Find x.",
-      "options": [
-        "12",
-        "137",
-        "9",
-        "17"
-      ],
-      "explanation": "11x+5=137 → 11x=132=132 → x=12."
-    },
-    "hi": {
-      "question": "हल करें: 11x + 5 = 137। x ज्ञात करें।",
-      "options": [
-        "12",
-        "137",
-        "9",
-        "17"
-      ],
-      "explanation": "11x+5=137 → 11x=132 → x=12।"
-    },
-    "id": "nma-0129"
+    "id": "algebra-0027"
   },
   {
     "correctOption": "B",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Solve: 9x + 27 = 189. Find x.",
+      "question": "Solve: 2x + 8 = 24. Find x.",
       "options": [
-        "23",
-        "18",
-        "17",
-        "189"
+        "10",
+        "8",
+        "15",
+        "9"
       ],
-      "explanation": "9x+27=189 → 9x=162=162 → x=18."
+      "explanation": "2x + 8 = 24\n2x = 16\nx = 8"
     },
     "hi": {
-      "question": "हल करें: 9x + 27 = 189। x ज्ञात करें।",
+      "question": "Solve: 2x + 8 = 24. Find x.",
       "options": [
-        "23",
-        "18",
-        "17",
-        "189"
+        "10",
+        "8",
+        "15",
+        "9"
       ],
-      "explanation": "9x+27=189 → 9x=162 → x=18।"
+      "explanation": "2x + 8 = 24\n2x = 16\nx = 8"
     },
-    "id": "nma-0130"
+    "id": "algebra-0028"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 25. Find x.",
+      "options": [
+        "5",
+        "3",
+        "10",
+        "4"
+      ],
+      "explanation": "5x + 10 = 25\n5x = 15\nx = 3"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 25. Find x.",
+      "options": [
+        "5",
+        "3",
+        "10",
+        "4"
+      ],
+      "explanation": "5x + 10 = 25\n5x = 15\nx = 3"
+    },
+    "id": "algebra-0029"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 20. Find x.",
+      "options": [
+        "10",
+        "4",
+        "2",
+        "3"
+      ],
+      "explanation": "5x + 10 = 20\n5x = 10\nx = 2"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 20. Find x.",
+      "options": [
+        "10",
+        "4",
+        "2",
+        "3"
+      ],
+      "explanation": "5x + 10 = 20\n5x = 10\nx = 2"
+    },
+    "id": "algebra-0030"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 12 = 52. Find x.",
+      "options": [
+        "10",
+        "5",
+        "12",
+        "11"
+      ],
+      "explanation": "4x + 12 = 52\n4x = 40\nx = 10"
+    },
+    "hi": {
+      "question": "Solve: 4x + 12 = 52. Find x.",
+      "options": [
+        "10",
+        "5",
+        "12",
+        "11"
+      ],
+      "explanation": "4x + 12 = 52\n4x = 40\nx = 10"
+    },
+    "id": "algebra-0031"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 50. Find x.",
+      "options": [
+        "10",
+        "8",
+        "9",
+        "15"
+      ],
+      "explanation": "5x + 10 = 50\n5x = 40\nx = 8"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 50. Find x.",
+      "options": [
+        "10",
+        "8",
+        "9",
+        "15"
+      ],
+      "explanation": "5x + 10 = 50\n5x = 40\nx = 8"
+    },
+    "id": "algebra-0032"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 8 = 12. Find x.",
+      "options": [
+        "8",
+        "3",
+        "2",
+        "4"
+      ],
+      "explanation": "2x + 8 = 12\n2x = 4\nx = 2"
+    },
+    "hi": {
+      "question": "Solve: 2x + 8 = 12. Find x.",
+      "options": [
+        "8",
+        "3",
+        "2",
+        "4"
+      ],
+      "explanation": "2x + 8 = 12\n2x = 4\nx = 2"
+    },
+    "id": "algebra-0033"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 6 = 42. Find x.",
+      "options": [
+        "13",
+        "5",
+        "14",
+        "12"
+      ],
+      "explanation": "3x + 6 = 42\n3x = 36\nx = 12"
+    },
+    "hi": {
+      "question": "Solve: 3x + 6 = 42. Find x.",
+      "options": [
+        "13",
+        "5",
+        "14",
+        "12"
+      ],
+      "explanation": "3x + 6 = 42\n3x = 36\nx = 12"
+    },
+    "id": "algebra-0034"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 9 = 24. Find x.",
+      "options": [
+        "6",
+        "10",
+        "5",
+        "7"
+      ],
+      "explanation": "3x + 9 = 24\n3x = 15\nx = 5"
+    },
+    "hi": {
+      "question": "Solve: 3x + 9 = 24. Find x.",
+      "options": [
+        "6",
+        "10",
+        "5",
+        "7"
+      ],
+      "explanation": "3x + 9 = 24\n3x = 15\nx = 5"
+    },
+    "id": "algebra-0035"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 8 = 24. Find x.",
+      "options": [
+        "10",
+        "10",
+        "8",
+        "9"
+      ],
+      "explanation": "2x + 8 = 24\n2x = 16\nx = 8"
+    },
+    "hi": {
+      "question": "Solve: 2x + 8 = 24. Find x.",
+      "options": [
+        "10",
+        "10",
+        "8",
+        "9"
+      ],
+      "explanation": "2x + 8 = 24\n2x = 16\nx = 8"
+    },
+    "id": "algebra-0036"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 8 = 32. Find x.",
+      "options": [
+        "15",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "4x + 8 = 32\n4x = 24\nx = 6"
+    },
+    "hi": {
+      "question": "Solve: 4x + 8 = 32. Find x.",
+      "options": [
+        "15",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "4x + 8 = 32\n4x = 24\nx = 6"
+    },
+    "id": "algebra-0037"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 45. Find x.",
+      "options": [
+        "9",
+        "10",
+        "7",
+        "8"
+      ],
+      "explanation": "5x + 10 = 45\n5x = 35\nx = 7"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 45. Find x.",
+      "options": [
+        "9",
+        "10",
+        "7",
+        "8"
+      ],
+      "explanation": "5x + 10 = 45\n5x = 35\nx = 7"
+    },
+    "id": "algebra-0038"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 6 = 12. Find x.",
+      "options": [
+        "8",
+        "4",
+        "2",
+        "3"
+      ],
+      "explanation": "3x + 6 = 12\n3x = 6\nx = 2"
+    },
+    "hi": {
+      "question": "Solve: 3x + 6 = 12. Find x.",
+      "options": [
+        "8",
+        "4",
+        "2",
+        "3"
+      ],
+      "explanation": "3x + 6 = 12\n3x = 6\nx = 2"
+    },
+    "id": "algebra-0039"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 6 = 42. Find x.",
+      "options": [
+        "13",
+        "12",
+        "5",
+        "14"
+      ],
+      "explanation": "3x + 6 = 42\n3x = 36\nx = 12"
+    },
+    "hi": {
+      "question": "Solve: 3x + 6 = 42. Find x.",
+      "options": [
+        "13",
+        "12",
+        "5",
+        "14"
+      ],
+      "explanation": "3x + 6 = 42\n3x = 36\nx = 12"
+    },
+    "id": "algebra-0040"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 9 = 33. Find x.",
+      "options": [
+        "9",
+        "10",
+        "10",
+        "8"
+      ],
+      "explanation": "3x + 9 = 33\n3x = 24\nx = 8"
+    },
+    "hi": {
+      "question": "Solve: 3x + 9 = 33. Find x.",
+      "options": [
+        "9",
+        "10",
+        "10",
+        "8"
+      ],
+      "explanation": "3x + 9 = 33\n3x = 24\nx = 8"
+    },
+    "id": "algebra-0041"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 9 = 18. Find x.",
+      "options": [
+        "4",
+        "5",
+        "5",
+        "3"
+      ],
+      "explanation": "3x + 9 = 18\n3x = 9\nx = 3"
+    },
+    "hi": {
+      "question": "Solve: 3x + 9 = 18. Find x.",
+      "options": [
+        "4",
+        "5",
+        "5",
+        "3"
+      ],
+      "explanation": "3x + 9 = 18\n3x = 9\nx = 3"
+    },
+    "id": "algebra-0042"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 50. Find x.",
+      "options": [
+        "15",
+        "9",
+        "10",
+        "8"
+      ],
+      "explanation": "5x + 10 = 50\n5x = 40\nx = 8"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 50. Find x.",
+      "options": [
+        "15",
+        "9",
+        "10",
+        "8"
+      ],
+      "explanation": "5x + 10 = 50\n5x = 40\nx = 8"
+    },
+    "id": "algebra-0043"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 9 = 39. Find x.",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "11"
+      ],
+      "explanation": "3x + 9 = 39\n3x = 30\nx = 10"
+    },
+    "hi": {
+      "question": "Solve: 3x + 9 = 39. Find x.",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "11"
+      ],
+      "explanation": "3x + 9 = 39\n3x = 30\nx = 10"
+    },
+    "id": "algebra-0044"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 40. Find x.",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "8"
+      ],
+      "explanation": "5x + 10 = 40\n5x = 30\nx = 6"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 40. Find x.",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "8"
+      ],
+      "explanation": "5x + 10 = 40\n5x = 30\nx = 6"
+    },
+    "id": "algebra-0045"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 12 = 44. Find x.",
+      "options": [
+        "10",
+        "5",
+        "9",
+        "8"
+      ],
+      "explanation": "4x + 12 = 44\n4x = 32\nx = 8"
+    },
+    "hi": {
+      "question": "Solve: 4x + 12 = 44. Find x.",
+      "options": [
+        "10",
+        "5",
+        "9",
+        "8"
+      ],
+      "explanation": "4x + 12 = 44\n4x = 32\nx = 8"
+    },
+    "id": "algebra-0046"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 25. Find x.",
+      "options": [
+        "5",
+        "3",
+        "8",
+        "4"
+      ],
+      "explanation": "5x + 10 = 25\n5x = 15\nx = 3"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 25. Find x.",
+      "options": [
+        "5",
+        "3",
+        "8",
+        "4"
+      ],
+      "explanation": "5x + 10 = 25\n5x = 15\nx = 3"
+    },
+    "id": "algebra-0047"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 9 = 30. Find x.",
+      "options": [
+        "8",
+        "15",
+        "7",
+        "9"
+      ],
+      "explanation": "3x + 9 = 30\n3x = 21\nx = 7"
+    },
+    "hi": {
+      "question": "Solve: 3x + 9 = 30. Find x.",
+      "options": [
+        "8",
+        "15",
+        "7",
+        "9"
+      ],
+      "explanation": "3x + 9 = 30\n3x = 21\nx = 7"
+    },
+    "id": "algebra-0048"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 70. Find x.",
+      "options": [
+        "14",
+        "12",
+        "13",
+        "8"
+      ],
+      "explanation": "5x + 10 = 70\n5x = 60\nx = 12"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 70. Find x.",
+      "options": [
+        "14",
+        "12",
+        "13",
+        "8"
+      ],
+      "explanation": "5x + 10 = 70\n5x = 60\nx = 12"
+    },
+    "id": "algebra-0049"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 4 = 8. Find x.",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ],
+      "explanation": "2x + 4 = 8\n2x = 4\nx = 2"
+    },
+    "hi": {
+      "question": "Solve: 2x + 4 = 8. Find x.",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ],
+      "explanation": "2x + 4 = 8\n2x = 4\nx = 2"
+    },
+    "id": "algebra-0050"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 4 = 12. Find x.",
+      "options": [
+        "6",
+        "5",
+        "5",
+        "4"
+      ],
+      "explanation": "2x + 4 = 12\n2x = 8\nx = 4"
+    },
+    "hi": {
+      "question": "Solve: 2x + 4 = 12. Find x.",
+      "options": [
+        "6",
+        "5",
+        "5",
+        "4"
+      ],
+      "explanation": "2x + 4 = 12\n2x = 8\nx = 4"
+    },
+    "id": "algebra-0051"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 8 = 48. Find x.",
+      "options": [
+        "11",
+        "12",
+        "10",
+        "10"
+      ],
+      "explanation": "4x + 8 = 48\n4x = 40\nx = 10"
+    },
+    "hi": {
+      "question": "Solve: 4x + 8 = 48. Find x.",
+      "options": [
+        "11",
+        "12",
+        "10",
+        "10"
+      ],
+      "explanation": "4x + 8 = 48\n4x = 40\nx = 10"
+    },
+    "id": "algebra-0052"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 12 = 28. Find x.",
+      "options": [
+        "4",
+        "5",
+        "5",
+        "6"
+      ],
+      "explanation": "4x + 12 = 28\n4x = 16\nx = 4"
+    },
+    "hi": {
+      "question": "Solve: 4x + 12 = 28. Find x.",
+      "options": [
+        "4",
+        "5",
+        "5",
+        "6"
+      ],
+      "explanation": "4x + 12 = 28\n4x = 16\nx = 4"
+    },
+    "id": "algebra-0053"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 9 = 33. Find x.",
+      "options": [
+        "9",
+        "10",
+        "5",
+        "8"
+      ],
+      "explanation": "3x + 9 = 33\n3x = 24\nx = 8"
+    },
+    "hi": {
+      "question": "Solve: 3x + 9 = 33. Find x.",
+      "options": [
+        "9",
+        "10",
+        "5",
+        "8"
+      ],
+      "explanation": "3x + 9 = 33\n3x = 24\nx = 8"
+    },
+    "id": "algebra-0054"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 9 = 21. Find x.",
+      "options": [
+        "4",
+        "8",
+        "5",
+        "6"
+      ],
+      "explanation": "3x + 9 = 21\n3x = 12\nx = 4"
+    },
+    "hi": {
+      "question": "Solve: 3x + 9 = 21. Find x.",
+      "options": [
+        "4",
+        "8",
+        "5",
+        "6"
+      ],
+      "explanation": "3x + 9 = 21\n3x = 12\nx = 4"
+    },
+    "id": "algebra-0055"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 9 = 27. Find x.",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "3x + 9 = 27\n3x = 18\nx = 6"
+    },
+    "hi": {
+      "question": "Solve: 3x + 9 = 27. Find x.",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "3x + 9 = 27\n3x = 18\nx = 6"
+    },
+    "id": "algebra-0056"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 25. Find x.",
+      "options": [
+        "3",
+        "5",
+        "4",
+        "15"
+      ],
+      "explanation": "5x + 10 = 25\n5x = 15\nx = 3"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 25. Find x.",
+      "options": [
+        "3",
+        "5",
+        "4",
+        "15"
+      ],
+      "explanation": "5x + 10 = 25\n5x = 15\nx = 3"
+    },
+    "id": "algebra-0057"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 12 = 52. Find x.",
+      "options": [
+        "15",
+        "12",
+        "10",
+        "11"
+      ],
+      "explanation": "4x + 12 = 52\n4x = 40\nx = 10"
+    },
+    "hi": {
+      "question": "Solve: 4x + 12 = 52. Find x.",
+      "options": [
+        "15",
+        "12",
+        "10",
+        "11"
+      ],
+      "explanation": "4x + 12 = 52\n4x = 40\nx = 10"
+    },
+    "id": "algebra-0058"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 12 = 20. Find x.",
+      "options": [
+        "8",
+        "4",
+        "3",
+        "2"
+      ],
+      "explanation": "4x + 12 = 20\n4x = 8\nx = 2"
+    },
+    "hi": {
+      "question": "Solve: 4x + 12 = 20. Find x.",
+      "options": [
+        "8",
+        "4",
+        "3",
+        "2"
+      ],
+      "explanation": "4x + 12 = 20\n4x = 8\nx = 2"
+    },
+    "id": "algebra-0059"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 6 = 36. Find x.",
+      "options": [
+        "11",
+        "10",
+        "15",
+        "12"
+      ],
+      "explanation": "3x + 6 = 36\n3x = 30\nx = 10"
+    },
+    "hi": {
+      "question": "Solve: 3x + 6 = 36. Find x.",
+      "options": [
+        "11",
+        "10",
+        "15",
+        "12"
+      ],
+      "explanation": "3x + 6 = 36\n3x = 30\nx = 10"
+    },
+    "id": "algebra-0060"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 30. Find x.",
+      "options": [
+        "15",
+        "6",
+        "5",
+        "4"
+      ],
+      "explanation": "5x + 10 = 30\n5x = 20\nx = 4"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 30. Find x.",
+      "options": [
+        "15",
+        "6",
+        "5",
+        "4"
+      ],
+      "explanation": "5x + 10 = 30\n5x = 20\nx = 4"
+    },
+    "id": "algebra-0061"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 4 = 8. Find x.",
+      "options": [
+        "3",
+        "10",
+        "2",
+        "4"
+      ],
+      "explanation": "2x + 4 = 8\n2x = 4\nx = 2"
+    },
+    "hi": {
+      "question": "Solve: 2x + 4 = 8. Find x.",
+      "options": [
+        "3",
+        "10",
+        "2",
+        "4"
+      ],
+      "explanation": "2x + 4 = 8\n2x = 4\nx = 2"
+    },
+    "id": "algebra-0062"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 8 = 22. Find x.",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "5"
+      ],
+      "explanation": "2x + 8 = 22\n2x = 14\nx = 7"
+    },
+    "hi": {
+      "question": "Solve: 2x + 8 = 22. Find x.",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "5"
+      ],
+      "explanation": "2x + 8 = 22\n2x = 14\nx = 7"
+    },
+    "id": "algebra-0063"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 8 = 48. Find x.",
+      "options": [
+        "15",
+        "10",
+        "12",
+        "11"
+      ],
+      "explanation": "4x + 8 = 48\n4x = 40\nx = 10"
+    },
+    "hi": {
+      "question": "Solve: 4x + 8 = 48. Find x.",
+      "options": [
+        "15",
+        "10",
+        "12",
+        "11"
+      ],
+      "explanation": "4x + 8 = 48\n4x = 40\nx = 10"
+    },
+    "id": "algebra-0064"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 9 = 15. Find x.",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "8"
+      ],
+      "explanation": "3x + 9 = 15\n3x = 6\nx = 2"
+    },
+    "hi": {
+      "question": "Solve: 3x + 9 = 15. Find x.",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "8"
+      ],
+      "explanation": "3x + 9 = 15\n3x = 6\nx = 2"
+    },
+    "id": "algebra-0065"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 12 = 24. Find x.",
+      "options": [
+        "15",
+        "4",
+        "3",
+        "5"
+      ],
+      "explanation": "4x + 12 = 24\n4x = 12\nx = 3"
+    },
+    "hi": {
+      "question": "Solve: 4x + 12 = 24. Find x.",
+      "options": [
+        "15",
+        "4",
+        "3",
+        "5"
+      ],
+      "explanation": "4x + 12 = 24\n4x = 12\nx = 3"
+    },
+    "id": "algebra-0066"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 4 = 16. Find x.",
+      "options": [
+        "8",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "2x + 4 = 16\n2x = 12\nx = 6"
+    },
+    "hi": {
+      "question": "Solve: 2x + 4 = 16. Find x.",
+      "options": [
+        "8",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "2x + 4 = 16\n2x = 12\nx = 6"
+    },
+    "id": "algebra-0067"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 25. Find x.",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "15"
+      ],
+      "explanation": "5x + 10 = 25\n5x = 15\nx = 3"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 25. Find x.",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "15"
+      ],
+      "explanation": "5x + 10 = 25\n5x = 15\nx = 3"
+    },
+    "id": "algebra-0068"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 8 = 48. Find x.",
+      "options": [
+        "11",
+        "10",
+        "12",
+        "5"
+      ],
+      "explanation": "4x + 8 = 48\n4x = 40\nx = 10"
+    },
+    "hi": {
+      "question": "Solve: 4x + 8 = 48. Find x.",
+      "options": [
+        "11",
+        "10",
+        "12",
+        "5"
+      ],
+      "explanation": "4x + 8 = 48\n4x = 40\nx = 10"
+    },
+    "id": "algebra-0069"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 25. Find x.",
+      "options": [
+        "4",
+        "15",
+        "5",
+        "3"
+      ],
+      "explanation": "5x + 10 = 25\n5x = 15\nx = 3"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 25. Find x.",
+      "options": [
+        "4",
+        "15",
+        "5",
+        "3"
+      ],
+      "explanation": "5x + 10 = 25\n5x = 15\nx = 3"
+    },
+    "id": "algebra-0070"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 12 = 24. Find x.",
+      "options": [
+        "3",
+        "10",
+        "5",
+        "4"
+      ],
+      "explanation": "4x + 12 = 24\n4x = 12\nx = 3"
+    },
+    "hi": {
+      "question": "Solve: 4x + 12 = 24. Find x.",
+      "options": [
+        "3",
+        "10",
+        "5",
+        "4"
+      ],
+      "explanation": "4x + 12 = 24\n4x = 12\nx = 3"
+    },
+    "id": "algebra-0071"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 8 = 36. Find x.",
+      "options": [
+        "7",
+        "9",
+        "5",
+        "8"
+      ],
+      "explanation": "4x + 8 = 36\n4x = 28\nx = 7"
+    },
+    "hi": {
+      "question": "Solve: 4x + 8 = 36. Find x.",
+      "options": [
+        "7",
+        "9",
+        "5",
+        "8"
+      ],
+      "explanation": "4x + 8 = 36\n4x = 28\nx = 7"
+    },
+    "id": "algebra-0072"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 12 = 60. Find x.",
+      "options": [
+        "12",
+        "13",
+        "15",
+        "14"
+      ],
+      "explanation": "4x + 12 = 60\n4x = 48\nx = 12"
+    },
+    "hi": {
+      "question": "Solve: 4x + 12 = 60. Find x.",
+      "options": [
+        "12",
+        "13",
+        "15",
+        "14"
+      ],
+      "explanation": "4x + 12 = 60\n4x = 48\nx = 12"
+    },
+    "id": "algebra-0073"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 4 = 10. Find x.",
+      "options": [
+        "8",
+        "5",
+        "4",
+        "3"
+      ],
+      "explanation": "2x + 4 = 10\n2x = 6\nx = 3"
+    },
+    "hi": {
+      "question": "Solve: 2x + 4 = 10. Find x.",
+      "options": [
+        "8",
+        "5",
+        "4",
+        "3"
+      ],
+      "explanation": "2x + 4 = 10\n2x = 6\nx = 3"
+    },
+    "id": "algebra-0074"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 8 = 20. Find x.",
+      "options": [
+        "7",
+        "8",
+        "10",
+        "6"
+      ],
+      "explanation": "2x + 8 = 20\n2x = 12\nx = 6"
+    },
+    "hi": {
+      "question": "Solve: 2x + 8 = 20. Find x.",
+      "options": [
+        "7",
+        "8",
+        "10",
+        "6"
+      ],
+      "explanation": "2x + 8 = 20\n2x = 12\nx = 6"
+    },
+    "id": "algebra-0075"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 6 = 36. Find x.",
+      "options": [
+        "12",
+        "15",
+        "11",
+        "10"
+      ],
+      "explanation": "3x + 6 = 36\n3x = 30\nx = 10"
+    },
+    "hi": {
+      "question": "Solve: 3x + 6 = 36. Find x.",
+      "options": [
+        "12",
+        "15",
+        "11",
+        "10"
+      ],
+      "explanation": "3x + 6 = 36\n3x = 30\nx = 10"
+    },
+    "id": "algebra-0076"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 4 = 14. Find x.",
+      "options": [
+        "7",
+        "5",
+        "15",
+        "6"
+      ],
+      "explanation": "2x + 4 = 14\n2x = 10\nx = 5"
+    },
+    "hi": {
+      "question": "Solve: 2x + 4 = 14. Find x.",
+      "options": [
+        "7",
+        "5",
+        "15",
+        "6"
+      ],
+      "explanation": "2x + 4 = 14\n2x = 10\nx = 5"
+    },
+    "id": "algebra-0077"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 4 = 18. Find x.",
+      "options": [
+        "8",
+        "15",
+        "9",
+        "7"
+      ],
+      "explanation": "2x + 4 = 18\n2x = 14\nx = 7"
+    },
+    "hi": {
+      "question": "Solve: 2x + 4 = 18. Find x.",
+      "options": [
+        "8",
+        "15",
+        "9",
+        "7"
+      ],
+      "explanation": "2x + 4 = 18\n2x = 14\nx = 7"
+    },
+    "id": "algebra-0078"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 60. Find x.",
+      "options": [
+        "11",
+        "12",
+        "10",
+        "8"
+      ],
+      "explanation": "5x + 10 = 60\n5x = 50\nx = 10"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 60. Find x.",
+      "options": [
+        "11",
+        "12",
+        "10",
+        "8"
+      ],
+      "explanation": "5x + 10 = 60\n5x = 50\nx = 10"
+    },
+    "id": "algebra-0079"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 70. Find x.",
+      "options": [
+        "15",
+        "12",
+        "14",
+        "13"
+      ],
+      "explanation": "5x + 10 = 70\n5x = 60\nx = 12"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 70. Find x.",
+      "options": [
+        "15",
+        "12",
+        "14",
+        "13"
+      ],
+      "explanation": "5x + 10 = 70\n5x = 60\nx = 12"
+    },
+    "id": "algebra-0080"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 4 = 12. Find x.",
+      "options": [
+        "4",
+        "5",
+        "15",
+        "6"
+      ],
+      "explanation": "2x + 4 = 12\n2x = 8\nx = 4"
+    },
+    "hi": {
+      "question": "Solve: 2x + 4 = 12. Find x.",
+      "options": [
+        "4",
+        "5",
+        "15",
+        "6"
+      ],
+      "explanation": "2x + 4 = 12\n2x = 8\nx = 4"
+    },
+    "id": "algebra-0081"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 8 = 24. Find x.",
+      "options": [
+        "8",
+        "8",
+        "9",
+        "10"
+      ],
+      "explanation": "2x + 8 = 24\n2x = 16\nx = 8"
+    },
+    "hi": {
+      "question": "Solve: 2x + 8 = 24. Find x.",
+      "options": [
+        "8",
+        "8",
+        "9",
+        "10"
+      ],
+      "explanation": "2x + 8 = 24\n2x = 16\nx = 8"
+    },
+    "id": "algebra-0082"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 40. Find x.",
+      "options": [
+        "6",
+        "8",
+        "8",
+        "7"
+      ],
+      "explanation": "5x + 10 = 40\n5x = 30\nx = 6"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 40. Find x.",
+      "options": [
+        "6",
+        "8",
+        "8",
+        "7"
+      ],
+      "explanation": "5x + 10 = 40\n5x = 30\nx = 6"
+    },
+    "id": "algebra-0083"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 12 = 60. Find x.",
+      "options": [
+        "10",
+        "14",
+        "12",
+        "13"
+      ],
+      "explanation": "4x + 12 = 60\n4x = 48\nx = 12"
+    },
+    "hi": {
+      "question": "Solve: 4x + 12 = 60. Find x.",
+      "options": [
+        "10",
+        "14",
+        "12",
+        "13"
+      ],
+      "explanation": "4x + 12 = 60\n4x = 48\nx = 12"
+    },
+    "id": "algebra-0084"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 9 = 27. Find x.",
+      "options": [
+        "10",
+        "6",
+        "8",
+        "7"
+      ],
+      "explanation": "3x + 9 = 27\n3x = 18\nx = 6"
+    },
+    "hi": {
+      "question": "Solve: 3x + 9 = 27. Find x.",
+      "options": [
+        "10",
+        "6",
+        "8",
+        "7"
+      ],
+      "explanation": "3x + 9 = 27\n3x = 18\nx = 6"
+    },
+    "id": "algebra-0085"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 8 = 32. Find x.",
+      "options": [
+        "10",
+        "14",
+        "13",
+        "12"
+      ],
+      "explanation": "2x + 8 = 32\n2x = 24\nx = 12"
+    },
+    "hi": {
+      "question": "Solve: 2x + 8 = 32. Find x.",
+      "options": [
+        "10",
+        "14",
+        "13",
+        "12"
+      ],
+      "explanation": "2x + 8 = 32\n2x = 24\nx = 12"
+    },
+    "id": "algebra-0086"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 9 = 33. Find x.",
+      "options": [
+        "9",
+        "10",
+        "8",
+        "10"
+      ],
+      "explanation": "3x + 9 = 33\n3x = 24\nx = 8"
+    },
+    "hi": {
+      "question": "Solve: 3x + 9 = 33. Find x.",
+      "options": [
+        "9",
+        "10",
+        "8",
+        "10"
+      ],
+      "explanation": "3x + 9 = 33\n3x = 24\nx = 8"
+    },
+    "id": "algebra-0087"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 20. Find x.",
+      "options": [
+        "3",
+        "8",
+        "4",
+        "2"
+      ],
+      "explanation": "5x + 10 = 20\n5x = 10\nx = 2"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 20. Find x.",
+      "options": [
+        "3",
+        "8",
+        "4",
+        "2"
+      ],
+      "explanation": "5x + 10 = 20\n5x = 10\nx = 2"
+    },
+    "id": "algebra-0088"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 8 = 28. Find x.",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "explanation": "4x + 8 = 28\n4x = 20\nx = 5"
+    },
+    "hi": {
+      "question": "Solve: 4x + 8 = 28. Find x.",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "explanation": "4x + 8 = 28\n4x = 20\nx = 5"
+    },
+    "id": "algebra-0089"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 12 = 28. Find x.",
+      "options": [
+        "5",
+        "5",
+        "4",
+        "6"
+      ],
+      "explanation": "4x + 12 = 28\n4x = 16\nx = 4"
+    },
+    "hi": {
+      "question": "Solve: 4x + 12 = 28. Find x.",
+      "options": [
+        "5",
+        "5",
+        "4",
+        "6"
+      ],
+      "explanation": "4x + 12 = 28\n4x = 16\nx = 4"
+    },
+    "id": "algebra-0090"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 12 = 40. Find x.",
+      "options": [
+        "8",
+        "15",
+        "9",
+        "7"
+      ],
+      "explanation": "4x + 12 = 40\n4x = 28\nx = 7"
+    },
+    "hi": {
+      "question": "Solve: 4x + 12 = 40. Find x.",
+      "options": [
+        "8",
+        "15",
+        "9",
+        "7"
+      ],
+      "explanation": "4x + 12 = 40\n4x = 28\nx = 7"
+    },
+    "id": "algebra-0091"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 70. Find x.",
+      "options": [
+        "13",
+        "12",
+        "8",
+        "14"
+      ],
+      "explanation": "5x + 10 = 70\n5x = 60\nx = 12"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 70. Find x.",
+      "options": [
+        "13",
+        "12",
+        "8",
+        "14"
+      ],
+      "explanation": "5x + 10 = 70\n5x = 60\nx = 12"
+    },
+    "id": "algebra-0092"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 50. Find x.",
+      "options": [
+        "9",
+        "8",
+        "15",
+        "10"
+      ],
+      "explanation": "5x + 10 = 50\n5x = 40\nx = 8"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 50. Find x.",
+      "options": [
+        "9",
+        "8",
+        "15",
+        "10"
+      ],
+      "explanation": "5x + 10 = 50\n5x = 40\nx = 8"
+    },
+    "id": "algebra-0093"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 9 = 15. Find x.",
+      "options": [
+        "2",
+        "10",
+        "4",
+        "3"
+      ],
+      "explanation": "3x + 9 = 15\n3x = 6\nx = 2"
+    },
+    "hi": {
+      "question": "Solve: 3x + 9 = 15. Find x.",
+      "options": [
+        "2",
+        "10",
+        "4",
+        "3"
+      ],
+      "explanation": "3x + 9 = 15\n3x = 6\nx = 2"
+    },
+    "id": "algebra-0094"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 3x + 9 = 24. Find x.",
+      "options": [
+        "10",
+        "5",
+        "7",
+        "6"
+      ],
+      "explanation": "3x + 9 = 24\n3x = 15\nx = 5"
+    },
+    "hi": {
+      "question": "Solve: 3x + 9 = 24. Find x.",
+      "options": [
+        "10",
+        "5",
+        "7",
+        "6"
+      ],
+      "explanation": "3x + 9 = 24\n3x = 15\nx = 5"
+    },
+    "id": "algebra-0095"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 5x + 10 = 40. Find x.",
+      "options": [
+        "7",
+        "8",
+        "8",
+        "6"
+      ],
+      "explanation": "5x + 10 = 40\n5x = 30\nx = 6"
+    },
+    "hi": {
+      "question": "Solve: 5x + 10 = 40. Find x.",
+      "options": [
+        "7",
+        "8",
+        "8",
+        "6"
+      ],
+      "explanation": "5x + 10 = 40\n5x = 30\nx = 6"
+    },
+    "id": "algebra-0096"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 4 = 28. Find x.",
+      "options": [
+        "15",
+        "14",
+        "13",
+        "12"
+      ],
+      "explanation": "2x + 4 = 28\n2x = 24\nx = 12"
+    },
+    "hi": {
+      "question": "Solve: 2x + 4 = 28. Find x.",
+      "options": [
+        "15",
+        "14",
+        "13",
+        "12"
+      ],
+      "explanation": "2x + 4 = 28\n2x = 24\nx = 12"
+    },
+    "id": "algebra-0097"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 8 = 56. Find x.",
+      "options": [
+        "12",
+        "8",
+        "14",
+        "13"
+      ],
+      "explanation": "4x + 8 = 56\n4x = 48\nx = 12"
+    },
+    "hi": {
+      "question": "Solve: 4x + 8 = 56. Find x.",
+      "options": [
+        "12",
+        "8",
+        "14",
+        "13"
+      ],
+      "explanation": "4x + 8 = 56\n4x = 48\nx = 12"
+    },
+    "id": "algebra-0098"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 4x + 8 = 16. Find x.",
+      "options": [
+        "15",
+        "4",
+        "2",
+        "3"
+      ],
+      "explanation": "4x + 8 = 16\n4x = 8\nx = 2"
+    },
+    "hi": {
+      "question": "Solve: 4x + 8 = 16. Find x.",
+      "options": [
+        "15",
+        "4",
+        "2",
+        "3"
+      ],
+      "explanation": "4x + 8 = 16\n4x = 8\nx = 2"
+    },
+    "id": "algebra-0099"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Solve: 2x + 8 = 22. Find x.",
+      "options": [
+        "7",
+        "5",
+        "8",
+        "9"
+      ],
+      "explanation": "2x + 8 = 22\n2x = 14\nx = 7"
+    },
+    "hi": {
+      "question": "Solve: 2x + 8 = 22. Find x.",
+      "options": [
+        "7",
+        "5",
+        "8",
+        "9"
+      ],
+      "explanation": "2x + 8 = 22\n2x = 14\nx = 7"
+    },
+    "id": "algebra-0100"
   }
 ]

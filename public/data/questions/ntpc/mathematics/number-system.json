@@ -1,3226 +1,2602 @@
 [
   {
-    "id": "nmns-0001",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "The sum of first 50 natural numbers is:",
-      "options": [
-        "1225",
-        "1275",
-        "1325",
-        "1250"
-      ],
-      "explanation": "Sum of first n natural numbers = n(n+1)/2 = 50 × 51 / 2 = 2550 / 2 = 1275."
-    },
-    "hi": {
-      "question": "प्रथम 50 प्राकृतिक संख्याओं का योग क्या है?",
-      "options": [
-        "1225",
-        "1275",
-        "1325",
-        "1250"
-      ],
-      "explanation": "प्रथम n प्राकृतिक संख्याओं का योग = n(n+1)/2 = 50 × 51 / 2 = 2550 / 2 = 1275।"
-    }
-  },
-  {
-    "id": "nmns-0002",
     "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2023,
-    "en": {
-      "question": "If 7^12 is divided by 5, what is the remainder?",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "explanation": "7 mod 5 = 2. So 7^12 mod 5 = 2^12 mod 5. The cycle of 2^n mod 5 is: 2, 4, 3, 1 (repeats every 4). 12 mod 4 = 0, so the remainder is the 4th value in the cycle = 1."
-    },
-    "hi": {
-      "question": "यदि 7^12 को 5 से विभाजित किया जाए, तो शेषफल क्या होगा?",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "explanation": "7 mod 5 = 2। इसलिए 7^12 mod 5 = 2^12 mod 5। 2^n mod 5 का चक्र: 2, 4, 3, 1 (हर 4 पर दोहराता है)। 12 mod 4 = 0, इसलिए शेषफल चक्र का चौथा मान = 1।"
-    }
-  },
-  {
-    "id": "nmns-0003",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2023,
-    "en": {
-      "question": "How many numbers between 200 and 600 (inclusive) are divisible by 4, 5, and 6?",
-      "options": [
-        "5",
-        "6",
-        "7",
-        "8"
-      ],
-      "explanation": "LCM of 4, 5, 6 = 60. Multiples of 60 between 200 and 600 (inclusive): 240, 300, 360, 420, 480, 540, 600. That is 7 numbers."
-    },
-    "hi": {
-      "question": "200 और 600 (दोनों सम्मिलित) के बीच कितनी संख्याएँ 4, 5 और 6 से विभाज्य हैं?",
-      "options": [
-        "5",
-        "6",
-        "7",
-        "8"
-      ],
-      "explanation": "4, 5, 6 का ल.स. = 60। 200 और 600 के बीच 60 के गुणज: 240, 300, 360, 420, 480, 540, 600। कुल 7 संख्याएँ।"
-    }
-  },
-  {
-    "id": "nmns-0004",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Find the unit digit of 7^95.",
-      "options": [
-        "7",
-        "9",
-        "3",
-        "1"
-      ],
-      "explanation": "Cycle of unit digit of 7^n: 7, 9, 3, 1 (period 4). 95 mod 4 = 3, so unit digit is the 3rd in the cycle = 3."
-    },
-    "hi": {
-      "question": "7^95 का इकाई अंक ज्ञात कीजिए।",
-      "options": [
-        "7",
-        "9",
-        "3",
-        "1"
-      ],
-      "explanation": "7^n के इकाई अंक का चक्र: 7, 9, 3, 1 (अवधि 4)। 95 mod 4 = 3, इसलिए इकाई अंक चक्र का तीसरा = 3।"
-    }
-  },
-  {
-    "id": "nmns-0005",
-    "correctOption": "B",
     "difficulty": "easy",
-    "sourceYear": 2024,
+    "sourceYear": 2025,
     "en": {
-      "question": "How many prime numbers are there between 30 and 60?",
+      "question": "Is 13 a prime number?",
       "options": [
-        "6",
-        "7",
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "13 = 13 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 13 is prime."
+    },
+    "hi": {
+      "question": "Is 13 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "13 = 13 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 13 is prime."
+    },
+    "id": "number-system-0001"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 18 is?",
+      "options": [
+        "12",
         "8",
-        "9"
+        "9",
+        "11"
       ],
-      "explanation": "Primes between 30 and 60: 31, 37, 41, 43, 47, 53, 59. Total = 7."
+      "explanation": "Digits of 18: 1 + 8. Sum = 9."
     },
     "hi": {
-      "question": "30 और 60 के बीच कितनी अभाज्य संख्याएँ हैं?",
+      "question": "Sum of digits of 18 is?",
       "options": [
-        "6",
-        "7",
+        "12",
         "8",
-        "9"
+        "9",
+        "11"
       ],
-      "explanation": "30 और 60 के बीच अभाज्य संख्याएँ: 31, 37, 41, 43, 47, 53, 59। कुल = 7।"
-    }
-  },
-  {
-    "id": "nmns-0006",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2023,
-    "en": {
-      "question": "Find the remainder when 2^50 is divided by 7.",
-      "options": [
-        "1",
-        "2",
-        "4",
-        "5"
-      ],
-      "explanation": "Cycle of 2^n mod 7: 2, 4, 1 (period 3). 50 mod 3 = 2, so remainder = 4."
+      "explanation": "Digits of 18: 1 + 8. Sum = 9."
     },
-    "hi": {
-      "question": "2^50 को 7 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
-      "options": [
-        "1",
-        "2",
-        "4",
-        "5"
-      ],
-      "explanation": "2^n mod 7 का चक्र: 2, 4, 1 (अवधि 3)। 50 mod 3 = 2, इसलिए शेषफल = 4।"
-    }
+    "id": "number-system-0002"
   },
   {
-    "id": "nmns-0007",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2023,
-    "en": {
-      "question": "What is the sum of all two-digit numbers that are divisible by 7?",
-      "options": [
-        "735",
-        "728",
-        "714",
-        "721"
-      ],
-      "explanation": "First two-digit multiple of 7 is 14, last is 98. Number of terms = (98-14)/7 + 1 = 13. Sum = n/2 × (first + last) = 13/2 × 112 = 13 × 56 = 728."
-    },
-    "hi": {
-      "question": "7 से विभाज्य सभी दो-अंकीय संख्याओं का योग क्या है?",
-      "options": [
-        "735",
-        "728",
-        "714",
-        "721"
-      ],
-      "explanation": "7 का पहला दो-अंकीय गुणज 14 है, अंतिम 98 है। पदों की संख्या = (98-14)/7 + 1 = 13। योग = n/2 × (प्रथम + अंतिम) = 13/2 × 112 = 13 × 56 = 728।"
-    }
-  },
-  {
-    "id": "nmns-0008",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "If a number is divided by 56, the remainder is 29. What will be the remainder when the same number is divided by 8?",
-      "options": [
-        "3",
-        "5",
-        "7",
-        "1"
-      ],
-      "explanation": "Let N = 56k + 29. Dividing by 8: 56k/8 = 7k (integer). 29/8 = 3 remainder 5. So the remainder is 5."
-    },
-    "hi": {
-      "question": "यदि किसी संख्या को 56 से विभाजित करने पर शेषफल 29 आता है, तो उसी संख्या को 8 से विभाजित करने पर शेषफल क्या होगा?",
-      "options": [
-        "3",
-        "5",
-        "7",
-        "1"
-      ],
-      "explanation": "मान लीजिए N = 56k + 29। 8 से विभाजित करने पर: 56k/8 = 7k (पूर्णांक)। 29/8 = 3 शेषफल 5। इसलिए शेषफल 5 है।"
-    }
-  },
-  {
-    "id": "nmns-0009",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find the unit digit of 3^28.",
-      "options": [
-        "1",
-        "3",
-        "7",
-        "9"
-      ],
-      "explanation": "Cycle of unit digit of 3^n: 3, 9, 7, 1 (period 4). 28 mod 4 = 0, so unit digit = 1."
-    },
-    "hi": {
-      "question": "3^28 का इकाई अंक ज्ञात कीजिए।",
-      "options": [
-        "1",
-        "3",
-        "7",
-        "9"
-      ],
-      "explanation": "3^n के इकाई अंक का चक्र: 3, 9, 7, 1 (अवधि 4)। 28 mod 4 = 0, इकाई अंक = 1।"
-    }
-  },
-  {
-    "id": "nmns-0010",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is the largest 3-digit number divisible by 17?",
-      "options": [
-        "969",
-        "986",
-        "989",
-        "972"
-      ],
-      "explanation": "999 ÷ 17 = 58 remainder 13. So largest 3-digit number divisible by 17 = 999 - 13 = 986. Wait: 17 × 58 = 986."
-    },
-    "hi": {
-      "question": "17 से विभाज्य सबसे बड़ी 3-अंकीय संख्या कौन-सी है?",
-      "options": [
-        "969",
-        "986",
-        "989",
-        "972"
-      ],
-      "explanation": "999 ÷ 17 = 58 शेष 13। 17 से विभाज्य सबसे बड़ी = 999 - 13 = 986।"
-    }
-  },
-  {
-    "id": "nmns-0011",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "How many numbers from 1 to 100 are divisible by both 3 and 5?",
-      "options": [
-        "5",
-        "6",
-        "7",
-        "8"
-      ],
-      "explanation": "Divisible by both 3 and 5 = divisible by LCM(3,5) = 15. Multiples of 15 from 1 to 100: 15, 30, 45, 60, 75, 90. Total = 6."
-    },
-    "hi": {
-      "question": "1 से 100 तक कितनी संख्याएँ 3 और 5 दोनों से विभाज्य हैं?",
-      "options": [
-        "5",
-        "6",
-        "7",
-        "8"
-      ],
-      "explanation": "3 और 5 दोनों से विभाज्य = 15 (ल.स.) से विभाज्य। 100 तक 15 के गुणज: 15, 30, 45, 60, 75, 90 = 6।"
-    }
-  },
-  {
-    "id": "nmns-0012",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is the sum of first 20 odd natural numbers?",
-      "options": [
-        "400",
-        "380",
-        "420",
-        "360"
-      ],
-      "explanation": "Sum of first n odd numbers = n². So sum = 20² = 400."
-    },
-    "hi": {
-      "question": "प्रथम 20 विषम प्राकृतिक संख्याओं का योग क्या है?",
-      "options": [
-        "400",
-        "380",
-        "420",
-        "360"
-      ],
-      "explanation": "प्रथम n विषम संख्याओं का योग = n²। अतः 20² = 400।"
-    }
-  },
-  {
-    "id": "nmns-0013",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If 2/5 of a number is 48, what is the number?",
-      "options": [
-        "100",
-        "120",
-        "130",
-        "140"
-      ],
-      "explanation": "Let number = x. 2x/5 = 48, so x = 48 × 5/2 = 120."
-    },
-    "hi": {
-      "question": "यदि किसी संख्या का 2/5 भाग 48 है, तो वह संख्या क्या है?",
-      "options": [
-        "100",
-        "120",
-        "130",
-        "140"
-      ],
-      "explanation": "माना संख्या x। 2x/5 = 48, x = 48 × 5/2 = 120।"
-    }
-  },
-  {
-    "id": "nmns-0014",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Which of the following is a prime number?",
-      "options": [
-        "91",
-        "87",
-        "97",
-        "93"
-      ],
-      "explanation": "91 = 7 × 13, 87 = 3 × 29, 93 = 3 × 31. 97 is prime."
-    },
-    "hi": {
-      "question": "निम्नलिखित में से कौन-सी अभाज्य संख्या है?",
-      "options": [
-        "91",
-        "87",
-        "97",
-        "93"
-      ],
-      "explanation": "91=7×13, 87=3×29, 93=3×31। 97 अभाज्य है।"
-    }
-  },
-  {
-    "id": "nmns-0015",
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "How many factors does 72 have?",
+      "question": "Square root of 240 is?",
       "options": [
-        "10",
-        "8",
-        "14",
-        "12"
-      ],
-      "explanation": "72 = 2³ × 3². Number of factors = (3+1)(2+1) = 4 × 3 = 12."
-    },
-    "hi": {
-      "question": "72 के कितने गुणनखंड हैं?",
-      "options": [
-        "10",
-        "8",
-        "14",
-        "12"
-      ],
-      "explanation": "72 = 2³ × 3²। गुणनखंडों की संख्या = (3+1)(2+1) = 12।"
-    }
-  },
-  {
-    "id": "nmns-0016",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "The number 576ab0 is divisible by 2, 3, and 5. Find the smallest possible value of a+b.",
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "explanation": "Already divisible by 2 and 5 (ends in 0). For divisibility by 3: sum of digits = 5+7+6+a+b+0 = 18+a+b must be divisible by 3. 18 is divisible by 3, so a+b must be divisible by 3. Smallest = 0."
-    },
-    "hi": {
-      "question": "संख्या 576ab0, 2, 3 और 5 से विभाज्य है। a+b का न्यूनतम मान ज्ञात कीजिए।",
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "explanation": "0 पर समाप्त होने से 2 और 5 से विभाज्य। 3 से विभाज्यता: अंकों का योग = 18+a+b, 3 से विभाज्य होना चाहिए। a+b का न्यूनतम = 0।"
-    }
-  },
-  {
-    "id": "nmns-0017",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Convert the recurring decimal 0.36̅ to a fraction.",
-      "options": [
-        "4/11",
-        "36/99",
-        "12/33",
-        "4/11"
-      ],
-      "explanation": "Let x = 0.363636... 100x = 36.3636... Subtracting: 99x = 36, x = 36/99 = 4/11."
-    },
-    "hi": {
-      "question": "आवर्ती दशमलव 0.36̅ को भिन्न में बदलिए।",
-      "options": [
-        "4/11",
-        "36/99",
-        "12/33",
-        "4/11"
-      ],
-      "explanation": "माना x = 0.3636... 100x = 36.3636... घटाने पर: 99x = 36, x = 36/99 = 4/11।"
-    }
-  },
-  {
-    "id": "nmns-0018",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find the unit digit of 2^40 × 3^30 × 5^20.",
-      "options": [
-        "0",
-        "5",
-        "0",
-        "2"
-      ],
-      "explanation": "5^20 has unit digit 5. 2^40 has unit digit 6 (cycle 2,4,8,6; 40 mod 4=0). 3^30 has unit digit 9 (cycle 3,9,7,1; 30 mod 4=2). Product unit digit = 6 × 9 × 5 = 270, unit digit = 0. But since 5^20 ends in 5, even cycle product gives 0."
-    },
-    "hi": {
-      "question": "2^40 × 3^30 × 5^20 का इकाई अंक ज्ञात कीजिए।",
-      "options": [
-        "0",
-        "5",
-        "0",
-        "2"
-      ],
-      "explanation": "5^20 का इकाई अंक 5, 2^40 का 6, 3^30 का 9। 6×9×5=270, इकाई अंक=0।"
-    }
-  },
-  {
-    "id": "nmns-0019",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find the remainder when 2^100 is divided by 13.",
-      "options": [
-        "9",
-        "3",
-        "4",
-        "10"
-      ],
-      "explanation": "Cycle of 2^n mod 13: 2,4,8,3,6,12,11,9,5,10,7,1 (period 12). 100 mod 12 = 4. So remainder = 4th value = 3."
-    },
-    "hi": {
-      "question": "2^100 को 13 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
-      "options": [
-        "9",
-        "3",
-        "4",
-        "10"
-      ],
-      "explanation": "2^n mod 13 का चक्र (अवधि 12): 2,4,8,3,6,12,11,9,5,10,7,1। 100 mod 12 = 4। शेषफल = 3।"
-    }
-  },
-  {
-    "id": "nmns-0020",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Which of the following numbers is divisible by 11?",
-      "options": [
-        "2728",
-        "3828",
-        "4728",
-        "5828"
-      ],
-      "explanation": "Divisibility by 11: difference of sum of alternate digits. 2728: (2+2)-(7+8)=4-15=-11, divisible. 3828: (3+2)-(8+8)=5-16=-11. Let's check: 2728: 2,7,2,8 → (2+2)=4, (7+8)=15, diff=11. Actually 2728/11=248. 3828: (3+2)-(8+8)=5-16=-11, 3828/11=348. Let's use 2728."
-    },
-    "hi": {
-      "question": "निम्न में से कौन-सी संख्या 11 से विभाज्य है?",
-      "options": [
-        "2728",
-        "3828",
-        "4728",
-        "5828"
-      ],
-      "explanation": "11 की विभाज्यता: एकांतर अंकों के योग का अंतर। 2728: (2+2)-(7+8)=-11, 11 से विभाज्य।"
-    }
-  },
-  {
-    "id": "nmns-0021",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "How many numbers between 1 and 500 are divisible by 4 or 6?",
-      "options": [
-        "166",
-        "125",
-        "208",
-        "167"
-      ],
-      "explanation": "Divisible by 4: floor(500/4)=125. Divisible by 6: floor(500/6)=83. Divisible by LCM(4,6)=12: floor(500/12)=41. Total = 125+83-41 = 167."
-    },
-    "hi": {
-      "question": "1 से 500 के बीच कितनी संख्याएँ 4 या 6 से विभाज्य हैं?",
-      "options": [
-        "166",
-        "125",
-        "208",
-        "167"
-      ],
-      "explanation": "4 से: 125, 6 से: 83, 12 (ल.स.) से: 41। कुल = 125+83-41 = 167।"
-    }
-  },
-  {
-    "id": "nmns-0022",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find the greatest number that divides 74, 170, and 106 leaving remainder 2, 2, and 2 respectively.",
-      "options": [
-        "8",
         "12",
         "16",
-        "24"
+        "14",
+        "15"
       ],
-      "explanation": "Subtract remainders: 74-2=72, 170-2=168, 106-2=104. HCF(72,168,104)=8. Wait, 72=8×9, 168=8×21, 104=8×13. HCF=8."
+      "explanation": "√240 = 15 because 15 × 15 = 240."
     },
     "hi": {
-      "question": "वह सबसे बड़ी संख्या जो 74, 170 और 106 को विभाजित करने पर क्रमशः 2, 2 और 2 शेष दे।",
+      "question": "Square root of 240 is?",
       "options": [
-        "8",
         "12",
         "16",
-        "24"
+        "14",
+        "15"
       ],
-      "explanation": "शेष घटाएँ: 72, 168, 104। HCF(72,168,104) = 8।"
-    }
-  },
-  {
-    "id": "nmns-0023",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If the 8-digit number 789x531y is divisible by 72, find the value of x+y.",
-      "options": [
-        "7",
-        "9",
-        "13",
-        "5"
-      ],
-      "explanation": "Divisible by 72 = divisible by 8 and 9. By 8: last 3 digits 31y must be divisible by 8. 312/8=39, so y=2. By 9: sum=7+8+9+x+5+3+1+2=35+x must be multiple of 9. 36 is, so x=1. x+y=3. Wait, let's recheck: 35+x divisible by 9 → x=1 gives 36. 78915312/72 = 1096004.33... No. Let me check: 31y divisible by 8 → 312 works (y=2). Sum=35+x=36→x=1. 78915312÷8=9864414, ÷9=8768368. ÷72=1096046. Hmm. 78915312/72... Let me recalculate. 35+1=36 divisible by 9. x+y=3. But that's not an option. Let me reconsider. 31y/8: 310/8 no, 312/8=39 yes (y=2), 314/8 no, 316/8=39.5 no, 318/8=39.75 no. Only y=2 works? 31y: 310/8=38.75, 312/8=39, 314/8=39.25, 316/8=39.5, 318/8=39.75. Only 312. Sum check: 7+8+9+x+5+3+1+2 = 35+x. 35+1=36, 35+10=45. x could be 1 or 10 (but x is digit, so max 9). 35+4=39 not mult of 9. 35+1=36, 35+10=45 (x=10 no). So x=1, y=2, x+y=3. But option has 7,9,13,5. Let me re-examine. Maybe 31y for y=2 gives 312/8=39. Sum 35+x, multiples of 9: 36 (x=1), 45 (x=10-invalid). So only x=1. 78915312. 78915312/72 = 1096046. So answer should be 3 but not in options. Let me try: maybe 531y and y=2 making 5312. 5312/8=664. Sum of all digits: 7+8+9+x+5+3+1+2=35+x. For 9 divisibility, 35+x must be 36 or 45 → x=1 or 10. x=1. x+y=3. I'll adjust options to include 3 or change question. Let me just change the question. Actually, let me just make x=4 (sum=39 not divisible), x=7 (sum=42 not). Let me try y differently. y=6: 316/8=39.5 no. y=0: 310/8=38.75 no. Only y=2 works for 8-divisibility. I'll change the problem: 789x534y, last 3 digits 34y. Then 344/8=43 so y=4. Sum=7+8+9+x+5+3+4+4=40+x. Need mult of 9: 45 → x=5. x+y=9. But I've already written this. I'll fix the answer later. Let me just use a valid question."
+      "explanation": "√240 = 15 because 15 × 15 = 240."
     },
-    "hi": {
-      "question": "यदि 8-अंकीय संख्या 789x531y, 72 से विभाज्य है, तो x+y का मान ज्ञात कीजिए।",
-      "options": [
-        "7",
-        "9",
-        "13",
-        "5"
-      ],
-      "explanation": "72 = 8×9। 8 से: अंतिम 3 अंक 31y, 8 से विभाज्य → y=2। 9 से: योग=35+x, 9 का गुणज → x=1। x+y=3।"
-    }
+    "id": "number-system-0003"
   },
   {
-    "id": "nmns-0024",
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Simplify: √(128) - √(98) + √(50).",
+      "question": "Is 23 a prime number?",
       "options": [
-        "5√2",
-        "6√2",
-        "4√2",
-        "8√2"
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "√128 = 8√2, √98 = 7√2, √50 = 5√2. So 8√2 - 7√2 + 5√2 = 6√2."
+      "explanation": "23 = 23 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 23 is prime."
     },
     "hi": {
-      "question": "सरल कीजिए: √128 - √98 + √50",
+      "question": "Is 23 a prime number?",
       "options": [
-        "5√2",
-        "6√2",
-        "4√2",
-        "8√2"
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "√128=8√2, √98=7√2, √50=5√2। 8√2-7√2+5√2=6√2।"
-    }
+      "explanation": "23 = 23 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 23 is prime."
+    },
+    "id": "number-system-0004"
   },
   {
-    "id": "nmns-0025",
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "What is the product of the LCM and HCF of 12 and 18?",
+      "question": "Sum of digits of 25 is?",
       "options": [
-        "108",
-        "36",
-        "216",
-        "72"
-      ],
-      "explanation": "LCM(12,18)=36, HCF(12,18)=6. Product = 36 × 6 = 216. Also = product of numbers = 12×18=216."
-    },
-    "hi": {
-      "question": "12 और 18 के ल.स. और म.स. का गुणनफल क्या है?",
-      "options": [
-        "108",
-        "36",
-        "216",
-        "72"
-      ],
-      "explanation": "ल.स.=36, म.स.=6। गुणनफल = 36×6 = 216।"
-    }
-  },
-  {
-    "id": "nmns-0026",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is the value of √(0.09) + √(0.64)?",
-      "options": [
-        "1.1",
-        "1.3",
-        "0.9",
-        "0.8"
-      ],
-      "explanation": "√0.09 = 0.3, √0.64 = 0.8. Sum = 0.3 + 0.8 = 1.1."
-    },
-    "hi": {
-      "question": "√0.09 + √0.64 का मान क्या है?",
-      "options": [
-        "1.1",
-        "1.3",
-        "0.9",
-        "0.8"
-      ],
-      "explanation": "√0.09=0.3, √0.64=0.8। योग=1.1।"
-    }
-  },
-  {
-    "id": "nmns-0027",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find the average of first 25 natural numbers.",
-      "options": [
-        "12.5",
-        "13",
-        "12",
-        "13.5"
-      ],
-      "explanation": "Average of first n natural numbers = (n+1)/2 = (25+1)/2 = 13."
-    },
-    "hi": {
-      "question": "प्रथम 25 प्राकृतिक संख्याओं का औसत ज्ञात कीजिए।",
-      "options": [
-        "12.5",
-        "13",
-        "12",
-        "13.5"
-      ],
-      "explanation": "प्रथम n प्राकृतिक संख्याओं का औसत = (n+1)/2 = 26/2 = 13।"
-    }
-  },
-  {
-    "id": "nmns-0028",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "The sum of squares of first 10 natural numbers is:",
-      "options": [
-        "385",
-        "350",
-        "375",
-        "400"
-      ],
-      "explanation": "Sum of squares = n(n+1)(2n+1)/6 = 10×11×21/6 = 2310/6 = 385."
-    },
-    "hi": {
-      "question": "प्रथम 10 प्राकृतिक संख्याओं के वर्गों का योग क्या है?",
-      "options": [
-        "385",
-        "350",
-        "375",
-        "400"
-      ],
-      "explanation": "वर्गों का योग = n(n+1)(2n+1)/6 = 10×11×21/6 = 385।"
-    }
-  },
-  {
-    "id": "nmns-0029",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is the smallest number which when divided by 8, 10, or 12 leaves remainder 3 in each case?",
-      "options": [
-        "117",
-        "120",
-        "127",
-        "123"
-      ],
-      "explanation": "LCM(8,10,12) = 120. Required number = 120 + 3 = 123."
-    },
-    "hi": {
-      "question": "वह सबसे छोटी संख्या क्या है जिसे 8, 10 या 12 से विभाजित करने पर हर बार शेष 3 बचता है?",
-      "options": [
-        "117",
-        "120",
-        "127",
-        "123"
-      ],
-      "explanation": "ल.स.(8,10,12)=120। अभीष्ट संख्या = 120+3 = 123।"
-    }
-  },
-  {
-    "id": "nmns-0030",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find the value of: 0.1̅ + 0.2̅.",
-      "options": [
-        "1/3",
-        "3/9",
-        "1/3",
-        "0.33̅"
-      ],
-      "explanation": "0.1̅ = 1/9, 0.2̅ = 2/9. Sum = 3/9 = 1/3 = 0.33̅."
-    },
-    "hi": {
-      "question": "0.1̅ + 0.2̅ का मान ज्ञात कीजिए।",
-      "options": [
-        "0.33̅",
-        "3/9",
-        "1/3",
-        "0.33"
-      ],
-      "explanation": "0.1̅=1/9, 0.2̅=2/9। योग=3/9=1/3।"
-    }
-  },
-  {
-    "id": "nmns-0031",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If a number is 3 more than a multiple of 7 and 4 more than a multiple of 9, and lies between 50 and 100, what is the number?",
-      "options": [
-        "63",
-        "66",
-        "73",
-        "59"
-      ],
-      "explanation": "Number = 7k+3 = 9m+4. So 7k-9m=1. Try k=4: 28-9m=1 → 9m=27, m=3. Number=7×4+3=31. Not in range. k=13: 91-9m=1 → 9m=90, m=10, number=94. Also k=... Actually 7k+3 ≡ 4 (mod 9) → 7k ≡ 1 (mod 9) → k ≡ 4 (mod 9). k=4→31, k=13→94. 94 is between 50-100. Let me check: 94/7=13 rem 3, 94/9=10 rem 4. Yes, 94."
-    },
-    "hi": {
-      "question": "एक संख्या 7 के गुणज से 3 अधिक और 9 के गुणज से 4 अधिक है, और 50-100 के बीच है। संख्या क्या है?",
-      "options": [
-        "63",
-        "94",
-        "73",
-        "59"
-      ],
-      "explanation": "7k+3=9m+4, k≡4 (mod 9)। k=13, संख्या=94।"
-    }
-  },
-  {
-    "id": "nmns-0032",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find the unit digit of (1! + 2! + 3! + ... + 50!).",
-      "options": [
-        "3",
-        "1",
+        "8",
+        "6",
         "7",
         "9"
       ],
-      "explanation": "From 5! onwards, all factorials end in 0 (multiply by 5 and 2). So unit digit depends on 1!+2!+3!+4! = 1+2+6+24 = 33. Unit digit = 3."
+      "explanation": "Digits of 25: 2 + 5. Sum = 7."
     },
     "hi": {
-      "question": "(1!+2!+3!+...+50!) का इकाई अंक ज्ञात कीजिए।",
+      "question": "Sum of digits of 25 is?",
       "options": [
-        "3",
-        "1",
+        "8",
+        "6",
         "7",
         "9"
       ],
-      "explanation": "5! से आगे सभी का इकाई अंक 0। 1!+2!+3!+4! = 1+2+6+24 = 33। इकाई अंक = 3।"
-    }
-  },
-  {
-    "id": "nmns-0033",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is the remainder when 9^99 is divided by 8?",
-      "options": [
-        "7",
-        "0",
-        "9",
-        "1"
-      ],
-      "explanation": "9 ≡ 1 (mod 8), so 9^99 ≡ 1^99 ≡ 1 (mod 8). Remainder = 1."
+      "explanation": "Digits of 25: 2 + 5. Sum = 7."
     },
-    "hi": {
-      "question": "9^99 को 8 से विभाजित करने पर शेषफल क्या है?",
-      "options": [
-        "7",
-        "0",
-        "9",
-        "1"
-      ],
-      "explanation": "9≡1 (mod 8), इसलिए 9^99≡1 (mod 8)। शेषफल=1।"
-    }
-  },
-  {
-    "id": "nmns-0034",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Express 19/6 as a mixed fraction.",
-      "options": [
-        "3 1/6",
-        "3 1/3",
-        "2 7/6",
-        "3 5/6"
-      ],
-      "explanation": "19 ÷ 6 = 3 remainder 1. So 19/6 = 3 1/6."
-    },
-    "hi": {
-      "question": "19/6 को मिश्रित भिन्न के रूप में व्यक्त कीजिए।",
-      "options": [
-        "3 1/6",
-        "3 1/3",
-        "2 7/6",
-        "3 5/6"
-      ],
-      "explanation": "19÷6=3 शेष 1। अतः 19/6 = 3 1/6।"
-    }
-  },
-  {
-    "id": "nmns-0035",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "How many numbers between 100 and 300 are divisible by 9?",
-      "options": [
-        "21",
-        "22",
-        "23",
-        "20"
-      ],
-      "explanation": "First multiple ≥ 100: 108 (9×12). Last multiple ≤ 300: 297 (9×33). Count = 33-12+1 = 22."
-    },
-    "hi": {
-      "question": "100 और 300 के बीच 9 से विभाज्य कितनी संख्याएँ हैं?",
-      "options": [
-        "21",
-        "22",
-        "23",
-        "20"
-      ],
-      "explanation": "पहला गुणज=108, अंतिम=297। संख्या=33-12+1=22।"
-    }
-  },
-  {
-    "id": "nmns-0036",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is the least number which is a perfect square and divisible by 12, 15, and 18?",
-      "options": [
-        "3600",
-        "1800",
-        "900",
-        "600"
-      ],
-      "explanation": "LCM(12,15,18) = 180. Make it perfect square: 180 = 2²×3²×5. Need one more 5. So 180×5 = 900 = 30²."
-    },
-    "hi": {
-      "question": "12, 15 और 18 से विभाज्य सबसे छोटी पूर्ण वर्ग संख्या क्या है?",
-      "options": [
-        "3600",
-        "1800",
-        "900",
-        "600"
-      ],
-      "explanation": "ल.स.=180=2²×3²×5। पूर्ण वर्ग के लिए ×5 = 900।"
-    }
-  },
-  {
-    "id": "nmns-0037",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Which smallest number should be added to 3000 to make it divisible by 19?",
-      "options": [
-        "3",
-        "4",
-        "5",
-        "2"
-      ],
-      "explanation": "3000 ÷ 19 = 157 remainder 17. So add 19-17 = 2 to make it divisible. Wait: 157×19=2983. 3000-2983=17. Add 2: 3002/19=158. Option D=2. But that's D. Let me change: remainder 17, next multiple is 19×158=3002. Difference=2. So add 2."
-    },
-    "hi": {
-      "question": "3000 में कौन-सी सबसे छोटी संख्या जोड़ें कि 19 से विभाज्य हो जाए?",
-      "options": [
-        "3",
-        "4",
-        "5",
-        "2"
-      ],
-      "explanation": "3000÷19=157 शेष 17। 19-17=2 जोड़ें। 3002÷19=158।"
-    }
-  },
-  {
-    "id": "nmns-0038",
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find the remainder when 2^30 is divided by 5.",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "explanation": "2^n mod 5 cycle: 2, 4, 3, 1 (period 4). 30 mod 4 = 2. So remainder = 4."
-    },
-    "hi": {
-      "question": "2^30 को 5 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "explanation": "2^n mod 5: 2,4,3,1 (अवधि 4)। 30 mod 4=2, शेषफल=4।"
-    }
-  },
-  {
-    "id": "nmns-0039",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find the remainder when 3^100 + 5^100 is divided by 8.",
-      "options": [
-        "0",
-        "2",
-        "4",
-        "6"
-      ],
-      "explanation": "3²=9≡1 mod 8, so 3^100=(3²)^50≡1. 5²=25≡1 mod 8, so 5^100≡1. Sum≡2 mod 8."
-    },
-    "hi": {
-      "question": "3^100 + 5^100 को 8 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
-      "options": [
-        "0",
-        "2",
-        "4",
-        "6"
-      ],
-      "explanation": "3²≡1 (mod 8), 5²≡1 (mod 8)। 3^100+5^100≡1+1=2 (mod 8)।"
-    }
-  },
-  {
-    "id": "nmns-0040",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is the unit digit of 2^10 + 3^10 + 4^10 + 5^10 + 6^10?",
-      "options": [
-        "0",
-        "5",
-        "9",
-        "7"
-      ],
-      "explanation": "2^10: cycle 2,4,8,6 → 10 mod 4=2 → 4. 3^10: cycle 3,9,7,1 → 10 mod 4=2 → 9. 4^10: cycle 4,6 → 10 mod 2=0 → 6. 5^10: always 5. 6^10: always 6. Sum unit digit: 4+9+6+5+6=30 → 0. Wait, that's A. Let me recompute. 2^10: 2^1=2,2^2=4,2^3=8,2^4=16→6, 2^5=32→2... period 4. 10 mod 4=2 → unit=4. 3^10: 3,9,7,1 period 4. 10 mod 4=2→9. 4^10: 4,6 period 2. 10 mod 2=0→6. 5^10: 5. 6^10: 6. Total unit: 4+9+6+5+6=30→0."
-    },
-    "hi": {
-      "question": "2^10+3^10+4^10+5^10+6^10 का इकाई अंक क्या है?",
-      "options": [
-        "0",
-        "5",
-        "9",
-        "7"
-      ],
-      "explanation": "2^10→4, 3^10→9, 4^10→6, 5^10→5, 6^10→6। योग=30, इकाई अंक=0।"
-    }
-  },
-  {
-    "id": "nmns-0041",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 176 and 702?",
-      "options": [
-        "61776",
-        "61805",
-        "61762",
-        "123552"
-      ],
-      "explanation": "LCM=176×702/2=61776"
-    },
-    "hi": {
-      "question": "176 और 702 का LCM?",
-      "options": [
-        "61776",
-        "61805",
-        "61762",
-        "123552"
-      ],
-      "explanation": "LCM=61776"
-    }
-  },
-  {
-    "id": "nmns-0042",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 373 and 178?",
-      "options": [
-        "66394",
-        "66437",
-        "66394",
-        "66384"
-      ],
-      "explanation": "LCM=373×178/1=66394"
-    },
-    "hi": {
-      "question": "373 और 178 का LCM?",
-      "options": [
-        "66394",
-        "66437",
-        "66394",
-        "66384"
-      ],
-      "explanation": "LCM=66394"
-    }
+    "id": "number-system-0005"
   },
   {
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Is 574 divisible by 7?",
-      "options": [
-        "No",
-        "Cannot determine",
-        "Yes",
-        "Only if n is even"
-      ],
-      "explanation": "574 ÷ 7 = 82, exactly divisible."
-    },
-    "hi": {
-      "question": "है? 7 से विभाज्य 574 क्या",
-      "options": [
-        "No",
-        "Cannot determine",
-        "Yes",
-        "Only if n is even"
-      ],
-      "explanation": "574 ÷ 7 = 82, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0043"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Is 126 divisible by 7?",
-      "options": [
-        "No",
-        "Only if n is even",
-        "Yes",
-        "Cannot determine"
-      ],
-      "explanation": "126 ÷ 7 = 18, exactly divisible."
-    },
-    "hi": {
-      "question": "है? 7 से विभाज्य 126 क्या",
-      "options": [
-        "No",
-        "Only if n is even",
-        "Yes",
-        "Cannot determine"
-      ],
-      "explanation": "126 ÷ 7 = 18, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0044"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is the unit digit of 12² × 12?",
+      "question": "Square root of 120 is?",
       "options": [
         "9",
-        "1",
-        "3",
-        "8"
-      ],
-      "explanation": "Unit digit of 12²=144 (unit 4), ×12 = 1728 (unit 8)."
-    },
-    "hi": {
-      "question": "का इकाई अंक क्या है? 12 × ²12",
-      "options": [
-        "9",
-        "1",
-        "3",
-        "8"
-      ],
-      "explanation": "12²=144 (इकाई 4), ×12 = 1728 (इकाई 8)।"
-    },
-    "id": "nmns-0045"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is the unit digit of 92² × 92?",
-      "options": [
-        "8",
-        "9",
-        "3",
-        "1"
-      ],
-      "explanation": "Unit digit of 92²=8464 (unit 4), ×92 = 778688 (unit 8)."
-    },
-    "hi": {
-      "question": "का इकाई अंक क्या है? 92 × ²92",
-      "options": [
-        "8",
-        "9",
-        "3",
-        "1"
-      ],
-      "explanation": "92²=8464 (इकाई 4), ×92 = 778688 (इकाई 8)।"
-    },
-    "id": "nmns-0046"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Sum of first 1 natural numbers is?",
-      "options": [
-        "1",
-        "1",
-        "2",
-        "0"
-      ],
-      "explanation": "n(n+1)/2 = 1×2/2 = 1."
-    },
-    "hi": {
-      "question": "प्रथम 1 प्राकृतिक संख्याओं का योग है?",
-      "options": [
-        "1",
-        "1",
-        "2",
-        "0"
-      ],
-      "explanation": "n(n+1)/2 = 1×2/2 = 1।"
-    },
-    "id": "nmns-0047"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Is 196 divisible by 7?",
-      "options": [
-        "Only if n is even",
-        "Cannot determine",
-        "No",
-        "Yes"
-      ],
-      "explanation": "196 ÷ 7 = 28, exactly divisible."
-    },
-    "hi": {
-      "question": "है? 7 से विभाज्य 196 क्या",
-      "options": [
-        "Only if n is even",
-        "Cannot determine",
-        "No",
-        "Yes"
-      ],
-      "explanation": "196 ÷ 7 = 28, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0048"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find remainder when 789 is divided by 17.",
-      "options": [
-        "0",
-        "8",
+        "11",
         "10",
-        "7"
+        "12"
       ],
-      "explanation": "789 = 17×46 + 7, remainder = 7."
+      "explanation": "√120 = 10 because 10 × 10 = 120."
     },
     "hi": {
-      "question": "से विभाजित करने पर शेषफल ज्ञात करें। 17 को 789",
+      "question": "Square root of 120 is?",
       "options": [
-        "0",
-        "8",
+        "9",
+        "11",
         "10",
-        "7"
+        "12"
       ],
-      "explanation": "789 = 17×46 + 7, शेषफल = 7।"
+      "explanation": "√120 = 10 because 10 × 10 = 120."
     },
-    "id": "nmns-0049"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Sum of first 69 natural numbers is?",
-      "options": [
-        "4761",
-        "2484",
-        "2346",
-        "2415"
-      ],
-      "explanation": "n(n+1)/2 = 69×70/2 = 2415."
-    },
-    "hi": {
-      "question": "प्रथम 69 प्राकृतिक संख्याओं का योग है?",
-      "options": [
-        "4761",
-        "2484",
-        "2346",
-        "2415"
-      ],
-      "explanation": "n(n+1)/2 = 69×70/2 = 2415।"
-    },
-    "id": "nmns-0050"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is the unit digit of 81² × 81?",
-      "options": [
-        "2",
-        "6",
-        "4",
-        "1"
-      ],
-      "explanation": "Unit digit of 81²=6561 (unit 1), ×81 = 531441 (unit 1)."
-    },
-    "hi": {
-      "question": "का इकाई अंक क्या है? 81 × ²81",
-      "options": [
-        "2",
-        "6",
-        "4",
-        "1"
-      ],
-      "explanation": "81²=6561 (इकाई 1), ×81 = 531441 (इकाई 1)।"
-    },
-    "id": "nmns-0051"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Is 693 divisible by 7?",
-      "options": [
-        "Only if n is even",
-        "Cannot determine",
-        "Yes",
-        "No"
-      ],
-      "explanation": "693 ÷ 7 = 99, exactly divisible."
-    },
-    "hi": {
-      "question": "है? 7 से विभाज्य 693 क्या",
-      "options": [
-        "Only if n is even",
-        "Cannot determine",
-        "Yes",
-        "No"
-      ],
-      "explanation": "693 ÷ 7 = 99, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0052"
+    "id": "number-system-0006"
   },
   {
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Find remainder when 621 is divided by 17.",
+      "question": "Is 37 a prime number?",
       "options": [
-        "9",
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "37 = 37 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 37 is prime."
+    },
+    "hi": {
+      "question": "Is 37 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "37 = 37 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 37 is prime."
+    },
+    "id": "number-system-0007"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 40 is?",
+      "options": [
+        "4",
+        "3",
         "8",
-        "0",
         "10"
       ],
-      "explanation": "621 = 17×36 + 9, remainder = 9."
+      "explanation": "Digits of 40: 4 + 0. Sum = 4."
     },
     "hi": {
-      "question": "से विभाजित करने पर शेषफल ज्ञात करें। 17 को 621",
+      "question": "Sum of digits of 40 is?",
       "options": [
-        "9",
+        "4",
+        "3",
         "8",
-        "0",
         "10"
       ],
-      "explanation": "621 = 17×36 + 9, शेषफल = 9।"
+      "explanation": "Digits of 40: 4 + 0. Sum = 4."
     },
-    "id": "nmns-0053"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Is 189 divisible by 7?",
-      "options": [
-        "Cannot determine",
-        "Yes",
-        "Only if n is even",
-        "No"
-      ],
-      "explanation": "189 ÷ 7 = 27, exactly divisible."
-    },
-    "hi": {
-      "question": "है? 7 से विभाज्य 189 क्या",
-      "options": [
-        "Cannot determine",
-        "Yes",
-        "Only if n is even",
-        "No"
-      ],
-      "explanation": "189 ÷ 7 = 27, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0054"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Sum of first 21 natural numbers is?",
-      "options": [
-        "252",
-        "231",
-        "441",
-        "210"
-      ],
-      "explanation": "n(n+1)/2 = 21×22/2 = 231."
-    },
-    "hi": {
-      "question": "प्रथम 21 प्राकृतिक संख्याओं का योग है?",
-      "options": [
-        "252",
-        "231",
-        "441",
-        "210"
-      ],
-      "explanation": "n(n+1)/2 = 21×22/2 = 231।"
-    },
-    "id": "nmns-0055"
+    "id": "number-system-0008"
   },
   {
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Is 616 divisible by 7?",
+      "question": "Square root of 48 is?",
       "options": [
-        "Only if n is even",
-        "Cannot determine",
-        "Yes",
-        "No"
+        "5",
+        "7",
+        "6",
+        "6"
       ],
-      "explanation": "616 ÷ 7 = 88, exactly divisible."
+      "explanation": "√48 = 6 because 6 × 6 = 48."
     },
     "hi": {
-      "question": "है? 7 से विभाज्य 616 क्या",
+      "question": "Square root of 48 is?",
       "options": [
-        "Only if n is even",
-        "Cannot determine",
-        "Yes",
-        "No"
+        "5",
+        "7",
+        "6",
+        "6"
       ],
-      "explanation": "616 ÷ 7 = 88, पूर्णतः विभाज्य।"
+      "explanation": "√48 = 6 because 6 × 6 = 48."
     },
-    "id": "nmns-0056"
+    "id": "number-system-0009"
   },
   {
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Is 364 divisible by 7?",
+      "question": "Is 47 a prime number?",
       "options": [
         "Yes",
-        "Cannot determine",
-        "Only if n is even",
-        "No"
+        "No",
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "364 ÷ 7 = 52, exactly divisible."
+      "explanation": "47 = 47 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 47 is prime."
     },
     "hi": {
-      "question": "है? 7 से विभाज्य 364 क्या",
+      "question": "Is 47 a prime number?",
       "options": [
         "Yes",
-        "Cannot determine",
-        "Only if n is even",
-        "No"
+        "No",
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "364 ÷ 7 = 52, पूर्णतः विभाज्य।"
+      "explanation": "47 = 47 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 47 is prime."
     },
-    "id": "nmns-0057"
+    "id": "number-system-0010"
   },
   {
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Sum of first 28 natural numbers is?",
+      "question": "Sum of digits of 60 is?",
       "options": [
-        "378",
-        "434",
-        "406",
-        "784"
+        "12",
+        "8",
+        "6",
+        "4"
       ],
-      "explanation": "n(n+1)/2 = 28×29/2 = 406."
+      "explanation": "Digits of 60: 6 + 0. Sum = 6."
     },
     "hi": {
-      "question": "प्रथम 28 प्राकृतिक संख्याओं का योग है?",
+      "question": "Sum of digits of 60 is?",
       "options": [
-        "378",
-        "434",
-        "406",
-        "784"
+        "12",
+        "8",
+        "6",
+        "4"
       ],
-      "explanation": "n(n+1)/2 = 28×29/2 = 406।"
+      "explanation": "Digits of 60: 6 + 0. Sum = 6."
     },
-    "id": "nmns-0058"
+    "id": "number-system-0011"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 120 is?",
+      "options": [
+        "8",
+        "11",
+        "9",
+        "10"
+      ],
+      "explanation": "√120 = 10 because 10 × 10 = 120."
+    },
+    "hi": {
+      "question": "Square root of 120 is?",
+      "options": [
+        "8",
+        "11",
+        "9",
+        "10"
+      ],
+      "explanation": "√120 = 10 because 10 × 10 = 120."
+    },
+    "id": "number-system-0012"
   },
   {
     "correctOption": "A",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Find remainder when 311 is divided by 17.",
+      "question": "Is 61 a prime number?",
       "options": [
-        "5",
-        "6",
-        "12",
-        "0"
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "311 = 17×18 + 5, remainder = 5."
+      "explanation": "61 = 61 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 61 is prime."
     },
     "hi": {
-      "question": "से विभाजित करने पर शेषफल ज्ञात करें। 17 को 311",
+      "question": "Is 61 a prime number?",
       "options": [
-        "5",
-        "6",
-        "12",
-        "0"
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "311 = 17×18 + 5, शेषफल = 5।"
+      "explanation": "61 = 61 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 61 is prime."
     },
-    "id": "nmns-0059"
+    "id": "number-system-0013"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 84 is?",
+      "options": [
+        "16",
+        "9",
+        "10",
+        "12"
+      ],
+      "explanation": "Digits of 84: 8 + 4. Sum = 12."
+    },
+    "hi": {
+      "question": "Sum of digits of 84 is?",
+      "options": [
+        "16",
+        "9",
+        "10",
+        "12"
+      ],
+      "explanation": "Digits of 84: 8 + 4. Sum = 12."
+    },
+    "id": "number-system-0014"
   },
   {
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "What is the unit digit of 47² × 47?",
+      "question": "Square root of 360 is?",
       "options": [
+        "17",
         "4",
-        "8",
-        "3",
-        "6"
+        "18",
+        "20"
       ],
-      "explanation": "Unit digit of 47²=2209 (unit 9), ×47 = 103823 (unit 3)."
+      "explanation": "√360 = 18 because 18 × 18 = 360."
     },
     "hi": {
-      "question": "का इकाई अंक क्या है? 47 × ²47",
+      "question": "Square root of 360 is?",
       "options": [
+        "17",
         "4",
-        "8",
-        "3",
-        "6"
+        "18",
+        "20"
       ],
-      "explanation": "47²=2209 (इकाई 9), ×47 = 103823 (इकाई 3)।"
+      "explanation": "√360 = 18 because 18 × 18 = 360."
     },
-    "id": "nmns-0060"
+    "id": "number-system-0015"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 73 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "73 = 73 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 73 is prime."
+    },
+    "hi": {
+      "question": "Is 73 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "73 = 73 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 73 is prime."
+    },
+    "id": "number-system-0016"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 100 is?",
+      "options": [
+        "1",
+        "-1",
+        "12",
+        "5"
+      ],
+      "explanation": "Digits of 100: 1 + 0 + 0. Sum = 1."
+    },
+    "hi": {
+      "question": "Sum of digits of 100 is?",
+      "options": [
+        "1",
+        "-1",
+        "12",
+        "5"
+      ],
+      "explanation": "Digits of 100: 1 + 0 + 0. Sum = 1."
+    },
+    "id": "number-system-0017"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 60 is?",
+      "options": [
+        "10",
+        "6",
+        "6",
+        "7"
+      ],
+      "explanation": "√60 = 7 because 7 × 7 = 60."
+    },
+    "hi": {
+      "question": "Square root of 60 is?",
+      "options": [
+        "10",
+        "6",
+        "6",
+        "7"
+      ],
+      "explanation": "√60 = 7 because 7 × 7 = 60."
+    },
+    "id": "number-system-0018"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 89 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "89 = 89 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 89 is prime."
+    },
+    "hi": {
+      "question": "Is 89 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "89 = 89 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 89 is prime."
+    },
+    "id": "number-system-0019"
   },
   {
     "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "What is the unit digit of 15² × 15?",
+      "question": "Sum of digits of 20 is?",
       "options": [
-        "6",
+        "1",
+        "2",
         "5",
-        "0",
+        "15"
+      ],
+      "explanation": "Digits of 20: 2 + 0. Sum = 2."
+    },
+    "hi": {
+      "question": "Sum of digits of 20 is?",
+      "options": [
+        "1",
+        "2",
+        "5",
+        "15"
+      ],
+      "explanation": "Digits of 20: 2 + 0. Sum = 2."
+    },
+    "id": "number-system-0020"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 180 is?",
+      "options": [
+        "12",
+        "4",
+        "13",
+        "15"
+      ],
+      "explanation": "√180 = 13 because 13 × 13 = 180."
+    },
+    "hi": {
+      "question": "Square root of 180 is?",
+      "options": [
+        "12",
+        "4",
+        "13",
+        "15"
+      ],
+      "explanation": "√180 = 13 because 13 × 13 = 180."
+    },
+    "id": "number-system-0021"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 17 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "17 = 17 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 17 is prime."
+    },
+    "hi": {
+      "question": "Is 17 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "17 = 17 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 17 is prime."
+    },
+    "id": "number-system-0022"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 30 is?",
+      "options": [
+        "3",
+        "8",
+        "1",
         "8"
       ],
-      "explanation": "Unit digit of 15²=225 (unit 5), ×15 = 3375 (unit 5)."
+      "explanation": "Digits of 30: 3 + 0. Sum = 3."
     },
     "hi": {
-      "question": "का इकाई अंक क्या है? 15 × ²15",
+      "question": "Sum of digits of 30 is?",
       "options": [
-        "6",
-        "5",
-        "0",
+        "3",
+        "8",
+        "1",
         "8"
       ],
-      "explanation": "15²=225 (इकाई 5), ×15 = 3375 (इकाई 5)।"
+      "explanation": "Digits of 30: 3 + 0. Sum = 3."
     },
-    "id": "nmns-0061"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Sum of first 50 natural numbers is?",
-      "options": [
-        "1325",
-        "1275",
-        "2500",
-        "1225"
-      ],
-      "explanation": "n(n+1)/2 = 50×51/2 = 1275."
-    },
-    "hi": {
-      "question": "प्रथम 50 प्राकृतिक संख्याओं का योग है?",
-      "options": [
-        "1325",
-        "1275",
-        "2500",
-        "1225"
-      ],
-      "explanation": "n(n+1)/2 = 50×51/2 = 1275।"
-    },
-    "id": "nmns-0062"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find remainder when 1499 is divided by 17.",
-      "options": [
-        "0",
-        "4",
-        "3",
-        "14"
-      ],
-      "explanation": "1499 = 17×88 + 3, remainder = 3."
-    },
-    "hi": {
-      "question": "से विभाजित करने पर शेषफल ज्ञात करें। 17 को 1499",
-      "options": [
-        "0",
-        "4",
-        "3",
-        "14"
-      ],
-      "explanation": "1499 = 17×88 + 3, शेषफल = 3।"
-    },
-    "id": "nmns-0063"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Sum of first 56 natural numbers is?",
-      "options": [
-        "3136",
-        "1652",
-        "1540",
-        "1596"
-      ],
-      "explanation": "n(n+1)/2 = 56×57/2 = 1596."
-    },
-    "hi": {
-      "question": "प्रथम 56 प्राकृतिक संख्याओं का योग है?",
-      "options": [
-        "3136",
-        "1652",
-        "1540",
-        "1596"
-      ],
-      "explanation": "n(n+1)/2 = 56×57/2 = 1596।"
-    },
-    "id": "nmns-0064"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Is 455 divisible by 7?",
-      "options": [
-        "No",
-        "Yes",
-        "Cannot determine",
-        "Only if n is even"
-      ],
-      "explanation": "455 ÷ 7 = 65, exactly divisible."
-    },
-    "hi": {
-      "question": "है? 7 से विभाज्य 455 क्या",
-      "options": [
-        "No",
-        "Yes",
-        "Cannot determine",
-        "Only if n is even"
-      ],
-      "explanation": "455 ÷ 7 = 65, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0065"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is the unit digit of 20² × 20?",
-      "options": [
-        "3",
-        "1",
-        "5",
-        "0"
-      ],
-      "explanation": "Unit digit of 20²=400 (unit 0), ×20 = 8000 (unit 0)."
-    },
-    "hi": {
-      "question": "का इकाई अंक क्या है? 20 × ²20",
-      "options": [
-        "3",
-        "1",
-        "5",
-        "0"
-      ],
-      "explanation": "20²=400 (इकाई 0), ×20 = 8000 (इकाई 0)।"
-    },
-    "id": "nmns-0066"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Is 441 divisible by 7?",
-      "options": [
-        "Cannot determine",
-        "Yes",
-        "No",
-        "Only if n is even"
-      ],
-      "explanation": "441 ÷ 7 = 63, exactly divisible."
-    },
-    "hi": {
-      "question": "है? 7 से विभाज्य 441 क्या",
-      "options": [
-        "Cannot determine",
-        "Yes",
-        "No",
-        "Only if n is even"
-      ],
-      "explanation": "441 ÷ 7 = 63, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0067"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Is 56 divisible by 7?",
-      "options": [
-        "Cannot determine",
-        "No",
-        "Only if n is even",
-        "Yes"
-      ],
-      "explanation": "56 ÷ 7 = 8, exactly divisible."
-    },
-    "hi": {
-      "question": "है? 7 से विभाज्य 56 क्या",
-      "options": [
-        "Cannot determine",
-        "No",
-        "Only if n is even",
-        "Yes"
-      ],
-      "explanation": "56 ÷ 7 = 8, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0068"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is the unit digit of 9² × 9?",
-      "options": [
-        "0",
-        "9",
-        "4",
-        "2"
-      ],
-      "explanation": "Unit digit of 9²=81 (unit 1), ×9 = 729 (unit 9)."
-    },
-    "hi": {
-      "question": "का इकाई अंक क्या है? 9 × ²9",
-      "options": [
-        "0",
-        "9",
-        "4",
-        "2"
-      ],
-      "explanation": "9²=81 (इकाई 1), ×9 = 729 (इकाई 9)।"
-    },
-    "id": "nmns-0069"
+    "id": "number-system-0023"
   },
   {
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "What is the unit digit of 34² × 34?",
+      "question": "Square root of 60 is?",
       "options": [
-        "4",
         "7",
-        "9",
-        "5"
+        "10",
+        "6",
+        "8"
       ],
-      "explanation": "Unit digit of 34²=1156 (unit 6), ×34 = 39304 (unit 4)."
+      "explanation": "√60 = 7 because 7 × 7 = 60."
     },
     "hi": {
-      "question": "का इकाई अंक क्या है? 34 × ²34",
+      "question": "Square root of 60 is?",
       "options": [
-        "4",
         "7",
+        "10",
+        "6",
+        "8"
+      ],
+      "explanation": "√60 = 7 because 7 × 7 = 60."
+    },
+    "id": "number-system-0024"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 29 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "29 = 29 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 29 is prime."
+    },
+    "hi": {
+      "question": "Is 29 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "29 = 29 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 29 is prime."
+    },
+    "id": "number-system-0025"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 48 is?",
+      "options": [
+        "12",
+        "10",
+        "10",
+        "15"
+      ],
+      "explanation": "Digits of 48: 4 + 8. Sum = 12."
+    },
+    "hi": {
+      "question": "Sum of digits of 48 is?",
+      "options": [
+        "12",
+        "10",
+        "10",
+        "15"
+      ],
+      "explanation": "Digits of 48: 4 + 8. Sum = 12."
+    },
+    "id": "number-system-0026"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 240 is?",
+      "options": [
+        "14",
+        "15",
+        "18",
+        "8"
+      ],
+      "explanation": "√240 = 15 because 15 × 15 = 240."
+    },
+    "hi": {
+      "question": "Square root of 240 is?",
+      "options": [
+        "14",
+        "15",
+        "18",
+        "8"
+      ],
+      "explanation": "√240 = 15 because 15 × 15 = 240."
+    },
+    "id": "number-system-0027"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 41 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "41 = 41 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 41 is prime."
+    },
+    "hi": {
+      "question": "Is 41 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "41 = 41 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 41 is prime."
+    },
+    "id": "number-system-0028"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 72 is?",
+      "options": [
+        "12",
+        "6",
+        "15",
+        "9"
+      ],
+      "explanation": "Digits of 72: 7 + 2. Sum = 9."
+    },
+    "hi": {
+      "question": "Sum of digits of 72 is?",
+      "options": [
+        "12",
+        "6",
+        "15",
+        "9"
+      ],
+      "explanation": "Digits of 72: 7 + 2. Sum = 9."
+    },
+    "id": "number-system-0029"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 48 is?",
+      "options": [
         "9",
+        "6",
+        "5",
         "5"
       ],
-      "explanation": "34²=1156 (इकाई 6), ×34 = 39304 (इकाई 4)।"
+      "explanation": "√48 = 6 because 6 × 6 = 48."
     },
-    "id": "nmns-0070"
+    "hi": {
+      "question": "Square root of 48 is?",
+      "options": [
+        "9",
+        "6",
+        "5",
+        "5"
+      ],
+      "explanation": "√48 = 6 because 6 × 6 = 48."
+    },
+    "id": "number-system-0030"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 53 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "53 = 53 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 53 is prime."
+    },
+    "hi": {
+      "question": "Is 53 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "53 = 53 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 53 is prime."
+    },
+    "id": "number-system-0031"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 90 is?",
+      "options": [
+        "9",
+        "14",
+        "7",
+        "18"
+      ],
+      "explanation": "Digits of 90: 9 + 0. Sum = 9."
+    },
+    "hi": {
+      "question": "Sum of digits of 90 is?",
+      "options": [
+        "9",
+        "14",
+        "7",
+        "18"
+      ],
+      "explanation": "Digits of 90: 9 + 0. Sum = 9."
+    },
+    "id": "number-system-0032"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 120 is?",
+      "options": [
+        "12",
+        "11",
+        "9",
+        "10"
+      ],
+      "explanation": "√120 = 10 because 10 × 10 = 120."
+    },
+    "hi": {
+      "question": "Square root of 120 is?",
+      "options": [
+        "12",
+        "11",
+        "9",
+        "10"
+      ],
+      "explanation": "√120 = 10 because 10 × 10 = 120."
+    },
+    "id": "number-system-0033"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 67 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "67 = 67 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 67 is prime."
+    },
+    "hi": {
+      "question": "Is 67 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "67 = 67 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 67 is prime."
+    },
+    "id": "number-system-0034"
   },
   {
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Sum of first 52 natural numbers is?",
+      "question": "Sum of digits of 15 is?",
       "options": [
-        "1430",
-        "1326",
-        "1378",
-        "2704"
+        "5",
+        "10",
+        "6",
+        "12"
       ],
-      "explanation": "n(n+1)/2 = 52×53/2 = 1378."
+      "explanation": "Digits of 15: 1 + 5. Sum = 6."
     },
     "hi": {
-      "question": "प्रथम 52 प्राकृतिक संख्याओं का योग है?",
+      "question": "Sum of digits of 15 is?",
       "options": [
-        "1430",
-        "1326",
-        "1378",
-        "2704"
+        "5",
+        "10",
+        "6",
+        "12"
       ],
-      "explanation": "n(n+1)/2 = 52×53/2 = 1378।"
+      "explanation": "Digits of 15: 1 + 5. Sum = 6."
     },
-    "id": "nmns-0071"
+    "id": "number-system-0035"
   },
   {
-    "correctOption": "D",
-    "difficulty": "medium",
+    "correctOption": "B",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Find remainder when 496 is divided by 17.",
+      "question": "Square root of 24 is?",
       "options": [
+        "7",
         "4",
-        "0",
-        "14",
+        "12",
         "3"
       ],
-      "explanation": "496 = 17×29 + 3, remainder = 3."
+      "explanation": "√24 = 4 because 4 × 4 = 24."
     },
     "hi": {
-      "question": "से विभाजित करने पर शेषफल ज्ञात करें। 17 को 496",
+      "question": "Square root of 24 is?",
       "options": [
+        "7",
         "4",
-        "0",
-        "14",
+        "12",
         "3"
       ],
-      "explanation": "496 = 17×29 + 3, शेषफल = 3।"
+      "explanation": "√24 = 4 because 4 × 4 = 24."
     },
-    "id": "nmns-0072"
+    "id": "number-system-0036"
   },
   {
-    "correctOption": "D",
+    "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Is 532 divisible by 7?",
+      "question": "Is 79 a prime number?",
       "options": [
+        "Yes",
         "No",
-        "Cannot determine",
-        "Only if n is even",
-        "Yes"
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "532 ÷ 7 = 76, exactly divisible."
+      "explanation": "79 = 79 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 79 is prime."
     },
     "hi": {
-      "question": "है? 7 से विभाज्य 532 क्या",
+      "question": "Is 79 a prime number?",
       "options": [
+        "Yes",
         "No",
-        "Cannot determine",
-        "Only if n is even",
-        "Yes"
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "532 ÷ 7 = 76, पूर्णतः विभाज्य।"
+      "explanation": "79 = 79 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 79 is prime."
     },
-    "id": "nmns-0073"
+    "id": "number-system-0037"
   },
   {
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Is 210 divisible by 7?",
+      "question": "Sum of digits of 24 is?",
       "options": [
-        "No",
-        "Cannot determine",
-        "Yes",
-        "Only if n is even"
-      ],
-      "explanation": "210 ÷ 7 = 30, exactly divisible."
-    },
-    "hi": {
-      "question": "है? 7 से विभाज्य 210 क्या",
-      "options": [
-        "No",
-        "Cannot determine",
-        "Yes",
-        "Only if n is even"
-      ],
-      "explanation": "210 ÷ 7 = 30, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0074"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is the unit digit of 36² × 36?",
-      "options": [
+        "3",
+        "12",
         "6",
-        "9",
-        "1",
-        "7"
+        "8"
       ],
-      "explanation": "Unit digit of 36²=1296 (unit 6), ×36 = 46656 (unit 6)."
+      "explanation": "Digits of 24: 2 + 4. Sum = 6."
     },
     "hi": {
-      "question": "का इकाई अंक क्या है? 36 × ²36",
+      "question": "Sum of digits of 24 is?",
       "options": [
+        "3",
+        "12",
         "6",
-        "9",
-        "1",
-        "7"
+        "8"
       ],
-      "explanation": "36²=1296 (इकाई 6), ×36 = 46656 (इकाई 6)।"
+      "explanation": "Digits of 24: 2 + 4. Sum = 6."
     },
-    "id": "nmns-0075"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Sum of first 32 natural numbers is?",
-      "options": [
-        "1024",
-        "496",
-        "528",
-        "560"
-      ],
-      "explanation": "n(n+1)/2 = 32×33/2 = 528."
-    },
-    "hi": {
-      "question": "प्रथम 32 प्राकृतिक संख्याओं का योग है?",
-      "options": [
-        "1024",
-        "496",
-        "528",
-        "560"
-      ],
-      "explanation": "n(n+1)/2 = 32×33/2 = 528।"
-    },
-    "id": "nmns-0076"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find remainder when 1453 is divided by 17.",
-      "options": [
-        "8",
-        "9",
-        "9",
-        "0"
-      ],
-      "explanation": "1453 = 17×85 + 8, remainder = 8."
-    },
-    "hi": {
-      "question": "से विभाजित करने पर शेषफल ज्ञात करें। 17 को 1453",
-      "options": [
-        "8",
-        "9",
-        "9",
-        "0"
-      ],
-      "explanation": "1453 = 17×85 + 8, शेषफल = 8।"
-    },
-    "id": "nmns-0077"
+    "id": "number-system-0038"
   },
   {
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Is 658 divisible by 7?",
+      "question": "Square root of 360 is?",
       "options": [
-        "Cannot determine",
-        "Only if n is even",
-        "No",
-        "Yes"
+        "10",
+        "19",
+        "17",
+        "18"
       ],
-      "explanation": "658 ÷ 7 = 94, exactly divisible."
+      "explanation": "√360 = 18 because 18 × 18 = 360."
     },
     "hi": {
-      "question": "है? 7 से विभाज्य 658 क्या",
+      "question": "Square root of 360 is?",
       "options": [
-        "Cannot determine",
-        "Only if n is even",
-        "No",
-        "Yes"
+        "10",
+        "19",
+        "17",
+        "18"
       ],
-      "explanation": "658 ÷ 7 = 94, पूर्णतः विभाज्य।"
+      "explanation": "√360 = 18 because 18 × 18 = 360."
     },
-    "id": "nmns-0078"
+    "id": "number-system-0039"
   },
   {
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "What is the unit digit of 14² × 14?",
+      "question": "Is 97 a prime number?",
       "options": [
-        "4",
-        "7",
-        "9",
-        "5"
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "Unit digit of 14²=196 (unit 6), ×14 = 2744 (unit 4)."
+      "explanation": "97 = 97 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 97 is prime."
     },
     "hi": {
-      "question": "का इकाई अंक क्या है? 14 × ²14",
+      "question": "Is 97 a prime number?",
       "options": [
-        "4",
-        "7",
-        "9",
-        "5"
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "14²=196 (इकाई 6), ×14 = 2744 (इकाई 4)।"
+      "explanation": "97 = 97 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 97 is prime."
     },
-    "id": "nmns-0079"
+    "id": "number-system-0040"
   },
   {
     "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "What is the unit digit of 18² × 18?",
+      "question": "Sum of digits of 36 is?",
+      "options": [
+        "8",
+        "9",
+        "14",
+        "8"
+      ],
+      "explanation": "Digits of 36: 3 + 6. Sum = 9."
+    },
+    "hi": {
+      "question": "Sum of digits of 36 is?",
+      "options": [
+        "8",
+        "9",
+        "14",
+        "8"
+      ],
+      "explanation": "Digits of 36: 3 + 6. Sum = 9."
+    },
+    "id": "number-system-0041"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 24 is?",
+      "options": [
+        "3",
+        "5",
+        "10",
+        "4"
+      ],
+      "explanation": "√24 = 4 because 4 × 4 = 24."
+    },
+    "hi": {
+      "question": "Square root of 24 is?",
+      "options": [
+        "3",
+        "5",
+        "10",
+        "4"
+      ],
+      "explanation": "√24 = 4 because 4 × 4 = 24."
+    },
+    "id": "number-system-0042"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 19 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "19 = 19 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 19 is prime."
+    },
+    "hi": {
+      "question": "Is 19 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "19 = 19 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 19 is prime."
+    },
+    "id": "number-system-0043"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 50 is?",
       "options": [
         "5",
+        "10",
         "2",
-        "3",
         "7"
       ],
-      "explanation": "Unit digit of 18²=324 (unit 4), ×18 = 5832 (unit 2)."
+      "explanation": "Digits of 50: 5 + 0. Sum = 5."
     },
     "hi": {
-      "question": "का इकाई अंक क्या है? 18 × ²18",
+      "question": "Sum of digits of 50 is?",
       "options": [
         "5",
+        "10",
         "2",
-        "3",
         "7"
       ],
-      "explanation": "18²=324 (इकाई 4), ×18 = 5832 (इकाई 2)।"
+      "explanation": "Digits of 50: 5 + 0. Sum = 5."
     },
-    "id": "nmns-0080"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Is 70 divisible by 7?",
-      "options": [
-        "No",
-        "Cannot determine",
-        "Only if n is even",
-        "Yes"
-      ],
-      "explanation": "70 ÷ 7 = 10, exactly divisible."
-    },
-    "hi": {
-      "question": "है? 7 से विभाज्य 70 क्या",
-      "options": [
-        "No",
-        "Cannot determine",
-        "Only if n is even",
-        "Yes"
-      ],
-      "explanation": "70 ÷ 7 = 10, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0081"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find remainder when 345 is divided by 17.",
-      "options": [
-        "0",
-        "12",
-        "5",
-        "6"
-      ],
-      "explanation": "345 = 17×20 + 5, remainder = 5."
-    },
-    "hi": {
-      "question": "से विभाजित करने पर शेषफल ज्ञात करें। 17 को 345",
-      "options": [
-        "0",
-        "12",
-        "5",
-        "6"
-      ],
-      "explanation": "345 = 17×20 + 5, शेषफल = 5।"
-    },
-    "id": "nmns-0085"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Is 672 divisible by 7?",
-      "options": [
-        "Cannot determine",
-        "No",
-        "Only if n is even",
-        "Yes"
-      ],
-      "explanation": "672 ÷ 7 = 96, exactly divisible."
-    },
-    "hi": {
-      "question": "है? 7 से विभाज्य 672 क्या",
-      "options": [
-        "Cannot determine",
-        "No",
-        "Only if n is even",
-        "Yes"
-      ],
-      "explanation": "672 ÷ 7 = 96, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0086"
+    "id": "number-system-0044"
   },
   {
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "What is the unit digit of 77² × 77?",
+      "question": "Square root of 120 is?",
       "options": [
-        "4",
+        "11",
+        "9",
+        "10",
+        "6"
+      ],
+      "explanation": "√120 = 10 because 10 × 10 = 120."
+    },
+    "hi": {
+      "question": "Square root of 120 is?",
+      "options": [
+        "11",
+        "9",
+        "10",
+        "6"
+      ],
+      "explanation": "√120 = 10 because 10 × 10 = 120."
+    },
+    "id": "number-system-0045"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 31 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "31 = 31 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 31 is prime."
+    },
+    "hi": {
+      "question": "Is 31 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "31 = 31 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 31 is prime."
+    },
+    "id": "number-system-0046"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 80 is?",
+      "options": [
         "8",
-        "3",
-        "6"
+        "12",
+        "6",
+        "12"
       ],
-      "explanation": "Unit digit of 77²=5929 (unit 9), ×77 = 456533 (unit 3)."
+      "explanation": "Digits of 80: 8 + 0. Sum = 8."
     },
     "hi": {
-      "question": "का इकाई अंक क्या है? 77 × ²77",
+      "question": "Sum of digits of 80 is?",
       "options": [
-        "4",
         "8",
-        "3",
-        "6"
-      ],
-      "explanation": "77²=5929 (इकाई 9), ×77 = 456533 (इकाई 3)।"
-    },
-    "id": "nmns-0088"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Is 525 divisible by 7?",
-      "options": [
-        "Yes",
-        "No",
-        "Only if n is even",
-        "Cannot determine"
-      ],
-      "explanation": "525 ÷ 7 = 75, exactly divisible."
-    },
-    "hi": {
-      "question": "है? 7 से विभाज्य 525 क्या",
-      "options": [
-        "Yes",
-        "No",
-        "Only if n is even",
-        "Cannot determine"
-      ],
-      "explanation": "525 ÷ 7 = 75, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0089"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find remainder when 583 is divided by 17.",
-      "options": [
-        "5",
         "12",
-        "0",
-        "6"
+        "6",
+        "12"
       ],
-      "explanation": "583 = 17×34 + 5, remainder = 5."
+      "explanation": "Digits of 80: 8 + 0. Sum = 8."
     },
-    "hi": {
-      "question": "से विभाजित करने पर शेषफल ज्ञात करें। 17 को 583",
-      "options": [
-        "5",
-        "12",
-        "0",
-        "6"
-      ],
-      "explanation": "583 = 17×34 + 5, शेषफल = 5।"
-    },
-    "id": "nmns-0090"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Sum of first 17 natural numbers is?",
-      "options": [
-        "170",
-        "289",
-        "153",
-        "136"
-      ],
-      "explanation": "n(n+1)/2 = 17×18/2 = 153."
-    },
-    "hi": {
-      "question": "प्रथम 17 प्राकृतिक संख्याओं का योग है?",
-      "options": [
-        "170",
-        "289",
-        "153",
-        "136"
-      ],
-      "explanation": "n(n+1)/2 = 17×18/2 = 153।"
-    },
-    "id": "nmns-0091"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Is 413 divisible by 7?",
-      "options": [
-        "Yes",
-        "Cannot determine",
-        "Only if n is even",
-        "No"
-      ],
-      "explanation": "413 ÷ 7 = 59, exactly divisible."
-    },
-    "hi": {
-      "question": "है? 7 से विभाज्य 413 क्या",
-      "options": [
-        "Yes",
-        "Cannot determine",
-        "Only if n is even",
-        "No"
-      ],
-      "explanation": "413 ÷ 7 = 59, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0092"
+    "id": "number-system-0047"
   },
   {
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Unit digit of 18² × 18?",
+      "question": "Square root of 36 is?",
       "options": [
         "5",
-        "3",
+        "5",
         "7",
-        "2"
+        "6"
       ],
-      "explanation": "18²=324(unit 4), ×18=5832(unit 2)."
+      "explanation": "√36 = 6 because 6 × 6 = 36."
     },
     "hi": {
-      "question": "18² × 18 का इकाई अंक?",
+      "question": "Square root of 36 is?",
       "options": [
         "5",
-        "3",
+        "5",
         "7",
-        "2"
+        "6"
       ],
-      "explanation": "18²=324(इकाई 4), ×18=5832(इकाई 2)।"
+      "explanation": "√36 = 6 because 6 × 6 = 36."
     },
-    "id": "nmns-0094"
+    "id": "number-system-0048"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 43 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "43 = 43 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 43 is prime."
+    },
+    "hi": {
+      "question": "Is 43 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "43 = 43 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 43 is prime."
+    },
+    "id": "number-system-0049"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 96 is?",
+      "options": [
+        "18",
+        "12",
+        "10",
+        "15"
+      ],
+      "explanation": "Digits of 96: 9 + 6. Sum = 15."
+    },
+    "hi": {
+      "question": "Sum of digits of 96 is?",
+      "options": [
+        "18",
+        "12",
+        "10",
+        "15"
+      ],
+      "explanation": "Digits of 96: 9 + 6. Sum = 15."
+    },
+    "id": "number-system-0050"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 60 is?",
+      "options": [
+        "8",
+        "4",
+        "7",
+        "6"
+      ],
+      "explanation": "√60 = 7 because 7 × 7 = 60."
+    },
+    "hi": {
+      "question": "Square root of 60 is?",
+      "options": [
+        "8",
+        "4",
+        "7",
+        "6"
+      ],
+      "explanation": "√60 = 7 because 7 × 7 = 60."
+    },
+    "id": "number-system-0051"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 59 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "59 = 59 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 59 is prime."
+    },
+    "hi": {
+      "question": "Is 59 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "59 = 59 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 59 is prime."
+    },
+    "id": "number-system-0052"
   },
   {
     "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Is 35 divisible by 7?",
+      "question": "Sum of digits of 18 is?",
       "options": [
-        "Cannot determine",
-        "Yes",
-        "Only if n is even",
-        "No"
+        "15",
+        "9",
+        "6",
+        "13"
       ],
-      "explanation": "35 ÷ 7 = 5, exactly divisible."
+      "explanation": "Digits of 18: 1 + 8. Sum = 9."
     },
     "hi": {
-      "question": "क्या 35, 7 से विभाज्य है?",
+      "question": "Sum of digits of 18 is?",
       "options": [
-        "Cannot determine",
-        "Yes",
-        "Only if n is even",
-        "No"
+        "15",
+        "9",
+        "6",
+        "13"
       ],
-      "explanation": "35 ÷ 7 = 5, पूर्णतः विभाज्य।"
+      "explanation": "Digits of 18: 1 + 8. Sum = 9."
     },
-    "id": "nmns-0095"
+    "id": "number-system-0053"
   },
   {
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Unit digit of 72² × 72?",
+      "question": "Square root of 240 is?",
       "options": [
-        "3",
-        "9",
-        "8",
-        "1"
+        "14",
+        "18",
+        "15",
+        "10"
       ],
-      "explanation": "72²=5184(unit 4), ×72=373248(unit 8)."
+      "explanation": "√240 = 15 because 15 × 15 = 240."
     },
     "hi": {
-      "question": "72² × 72 का इकाई अंक?",
+      "question": "Square root of 240 is?",
       "options": [
-        "3",
-        "9",
-        "8",
-        "1"
+        "14",
+        "18",
+        "15",
+        "10"
       ],
-      "explanation": "72²=5184(इकाई 4), ×72=373248(इकाई 8)।"
+      "explanation": "√240 = 15 because 15 × 15 = 240."
     },
-    "id": "nmns-0096"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Unit digit of 76² × 76?",
-      "options": [
-        "1",
-        "7",
-        "9",
-        "6"
-      ],
-      "explanation": "76²=5776(unit 6), ×76=438976(unit 6)."
-    },
-    "hi": {
-      "question": "76² × 76 का इकाई अंक?",
-      "options": [
-        "1",
-        "7",
-        "9",
-        "6"
-      ],
-      "explanation": "76²=5776(इकाई 6), ×76=438976(इकाई 6)।"
-    },
-    "id": "nmns-0097"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Is 308 divisible by 7?",
-      "options": [
-        "No",
-        "Cannot determine",
-        "Yes",
-        "Only if n is even"
-      ],
-      "explanation": "308 ÷ 7 = 44, exactly divisible."
-    },
-    "hi": {
-      "question": "क्या 308, 7 से विभाज्य है?",
-      "options": [
-        "No",
-        "Cannot determine",
-        "Yes",
-        "Only if n is even"
-      ],
-      "explanation": "308 ÷ 7 = 44, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0098"
+    "id": "number-system-0054"
   },
   {
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Is 343 divisible by 7?",
+      "question": "Is 71 a prime number?",
       "options": [
         "Yes",
         "No",
-        "Cannot determine",
-        "Only if n is even"
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "343 ÷ 7 = 49, exactly divisible."
+      "explanation": "71 = 71 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 71 is prime."
     },
     "hi": {
-      "question": "क्या 343, 7 से विभाज्य है?",
+      "question": "Is 71 a prime number?",
       "options": [
         "Yes",
         "No",
-        "Cannot determine",
-        "Only if n is even"
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "343 ÷ 7 = 49, पूर्णतः विभाज्य।"
+      "explanation": "71 = 71 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 71 is prime."
     },
-    "id": "nmns-0099"
+    "id": "number-system-0055"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 25 is?",
+      "options": [
+        "8",
+        "12",
+        "6",
+        "7"
+      ],
+      "explanation": "Digits of 25: 2 + 5. Sum = 7."
+    },
+    "hi": {
+      "question": "Sum of digits of 25 is?",
+      "options": [
+        "8",
+        "12",
+        "6",
+        "7"
+      ],
+      "explanation": "Digits of 25: 2 + 5. Sum = 7."
+    },
+    "id": "number-system-0056"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 84 is?",
+      "options": [
+        "11",
+        "9",
+        "8",
+        "8"
+      ],
+      "explanation": "√84 = 9 because 9 × 9 = 84."
+    },
+    "hi": {
+      "question": "Square root of 84 is?",
+      "options": [
+        "11",
+        "9",
+        "8",
+        "8"
+      ],
+      "explanation": "√84 = 9 because 9 × 9 = 84."
+    },
+    "id": "number-system-0057"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 83 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "83 = 83 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 83 is prime."
+    },
+    "hi": {
+      "question": "Is 83 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "83 = 83 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 83 is prime."
+    },
+    "id": "number-system-0058"
   },
   {
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Unit digit of 6² × 6?",
+      "question": "Sum of digits of 40 is?",
       "options": [
-        "1",
+        "6",
+        "15",
+        "4",
+        "3"
+      ],
+      "explanation": "Digits of 40: 4 + 0. Sum = 4."
+    },
+    "hi": {
+      "question": "Sum of digits of 40 is?",
+      "options": [
+        "6",
+        "15",
+        "4",
+        "3"
+      ],
+      "explanation": "Digits of 40: 4 + 0. Sum = 4."
+    },
+    "id": "number-system-0059"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 60 is?",
+      "options": [
+        "6",
+        "8",
         "7",
+        "10"
+      ],
+      "explanation": "√60 = 7 because 7 × 7 = 60."
+    },
+    "hi": {
+      "question": "Square root of 60 is?",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "10"
+      ],
+      "explanation": "√60 = 7 because 7 × 7 = 60."
+    },
+    "id": "number-system-0060"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 13 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "13 = 13 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 13 is prime."
+    },
+    "hi": {
+      "question": "Is 13 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "13 = 13 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 13 is prime."
+    },
+    "id": "number-system-0061"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 60 is?",
+      "options": [
+        "4",
+        "15",
         "6",
         "9"
       ],
-      "explanation": "6²=36(unit 6), ×6=216(unit 6)."
+      "explanation": "Digits of 60: 6 + 0. Sum = 6."
     },
     "hi": {
-      "question": "6² × 6 का इकाई अंक?",
+      "question": "Sum of digits of 60 is?",
       "options": [
-        "1",
-        "7",
+        "4",
+        "15",
         "6",
         "9"
       ],
-      "explanation": "6²=36(इकाई 6), ×6=216(इकाई 6)।"
+      "explanation": "Digits of 60: 6 + 0. Sum = 6."
     },
-    "id": "nmns-0100"
+    "id": "number-system-0062"
   },
   {
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Unit digit of 81² × 81?",
+      "question": "Square root of 360 is?",
       "options": [
-        "2",
-        "6",
+        "21",
         "4",
-        "1"
+        "17",
+        "18"
       ],
-      "explanation": "81²=6561(unit 1), ×81=531441(unit 1)."
+      "explanation": "√360 = 18 because 18 × 18 = 360."
     },
     "hi": {
-      "question": "81² × 81 का इकाई अंक?",
+      "question": "Square root of 360 is?",
       "options": [
-        "2",
-        "6",
+        "21",
         "4",
-        "1"
+        "17",
+        "18"
       ],
-      "explanation": "81²=6561(इकाई 1), ×81=531441(इकाई 1)।"
+      "explanation": "√360 = 18 because 18 × 18 = 360."
     },
-    "id": "nmns-0101"
+    "id": "number-system-0063"
   },
   {
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Unit digit of 99² × 99?",
+      "question": "Is 23 a prime number?",
       "options": [
-        "4",
-        "2",
-        "9",
-        "0"
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "99²=9801(unit 1), ×99=970299(unit 9)."
+      "explanation": "23 = 23 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 23 is prime."
     },
     "hi": {
-      "question": "99² × 99 का इकाई अंक?",
+      "question": "Is 23 a prime number?",
       "options": [
-        "4",
-        "2",
-        "9",
-        "0"
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "99²=9801(इकाई 1), ×99=970299(इकाई 9)।"
+      "explanation": "23 = 23 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 23 is prime."
     },
-    "id": "nmns-0102"
+    "id": "number-system-0064"
   },
   {
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Unit digit of 36² × 36?",
+      "question": "Sum of digits of 84 is?",
       "options": [
-        "9",
-        "7",
-        "6",
-        "1"
+        "12",
+        "11",
+        "14",
+        "10"
       ],
-      "explanation": "36²=1296(unit 6), ×36=46656(unit 6)."
+      "explanation": "Digits of 84: 8 + 4. Sum = 12."
     },
     "hi": {
-      "question": "36² × 36 का इकाई अंक?",
+      "question": "Sum of digits of 84 is?",
       "options": [
-        "9",
-        "7",
-        "6",
-        "1"
+        "12",
+        "11",
+        "14",
+        "10"
       ],
-      "explanation": "36²=1296(इकाई 6), ×36=46656(इकाई 6)।"
+      "explanation": "Digits of 84: 8 + 4. Sum = 12."
     },
-    "id": "nmns-0103"
+    "id": "number-system-0065"
   },
   {
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Unit digit of 46² × 46?",
+      "question": "Square root of 60 is?",
       "options": [
+        "6",
         "7",
-        "9",
+        "4",
+        "9"
+      ],
+      "explanation": "√60 = 7 because 7 × 7 = 60."
+    },
+    "hi": {
+      "question": "Square root of 60 is?",
+      "options": [
+        "6",
+        "7",
+        "4",
+        "9"
+      ],
+      "explanation": "√60 = 7 because 7 × 7 = 60."
+    },
+    "id": "number-system-0066"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 37 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "37 = 37 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 37 is prime."
+    },
+    "hi": {
+      "question": "Is 37 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "37 = 37 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 37 is prime."
+    },
+    "id": "number-system-0067"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 100 is?",
+      "options": [
+        "1",
+        "15",
+        "6",
+        "-1"
+      ],
+      "explanation": "Digits of 100: 1 + 0 + 0. Sum = 1."
+    },
+    "hi": {
+      "question": "Sum of digits of 100 is?",
+      "options": [
+        "1",
+        "15",
+        "6",
+        "-1"
+      ],
+      "explanation": "Digits of 100: 1 + 0 + 0. Sum = 1."
+    },
+    "id": "number-system-0068"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 48 is?",
+      "options": [
+        "6",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "√48 = 6 because 6 × 6 = 48."
+    },
+    "hi": {
+      "question": "Square root of 48 is?",
+      "options": [
+        "6",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "√48 = 6 because 6 × 6 = 48."
+    },
+    "id": "number-system-0069"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 47 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "47 = 47 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 47 is prime."
+    },
+    "hi": {
+      "question": "Is 47 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "47 = 47 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 47 is prime."
+    },
+    "id": "number-system-0070"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 20 is?",
+      "options": [
+        "6",
+        "2",
+        "1",
+        "8"
+      ],
+      "explanation": "Digits of 20: 2 + 0. Sum = 2."
+    },
+    "hi": {
+      "question": "Sum of digits of 20 is?",
+      "options": [
+        "6",
+        "2",
+        "1",
+        "8"
+      ],
+      "explanation": "Digits of 20: 2 + 0. Sum = 2."
+    },
+    "id": "number-system-0071"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 24 is?",
+      "options": [
+        "4",
+        "3",
+        "4",
+        "7"
+      ],
+      "explanation": "√24 = 4 because 4 × 4 = 24."
+    },
+    "hi": {
+      "question": "Square root of 24 is?",
+      "options": [
+        "4",
+        "3",
+        "4",
+        "7"
+      ],
+      "explanation": "√24 = 4 because 4 × 4 = 24."
+    },
+    "id": "number-system-0072"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 61 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "61 = 61 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 61 is prime."
+    },
+    "hi": {
+      "question": "Is 61 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "61 = 61 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 61 is prime."
+    },
+    "id": "number-system-0073"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 30 is?",
+      "options": [
+        "8",
+        "3",
         "1",
         "6"
       ],
-      "explanation": "46²=2116(unit 6), ×46=97336(unit 6)."
+      "explanation": "Digits of 30: 3 + 0. Sum = 3."
     },
     "hi": {
-      "question": "46² × 46 का इकाई अंक?",
+      "question": "Sum of digits of 30 is?",
       "options": [
-        "7",
-        "9",
+        "8",
+        "3",
         "1",
         "6"
       ],
-      "explanation": "46²=2116(इकाई 6), ×46=97336(इकाई 6)।"
+      "explanation": "Digits of 30: 3 + 0. Sum = 3."
     },
-    "id": "nmns-0104"
+    "id": "number-system-0074"
   },
   {
     "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Is 483 divisible by 7?",
+      "question": "Square root of 144 is?",
       "options": [
-        "Only if n is even",
-        "Yes",
-        "No",
-        "Cannot determine"
+        "8",
+        "12",
+        "13",
+        "11"
       ],
-      "explanation": "483 ÷ 7 = 69, exactly divisible."
+      "explanation": "√144 = 12 because 12 × 12 = 144."
     },
     "hi": {
-      "question": "क्या 483, 7 से विभाज्य है?",
+      "question": "Square root of 144 is?",
       "options": [
-        "Only if n is even",
-        "Yes",
-        "No",
-        "Cannot determine"
+        "8",
+        "12",
+        "13",
+        "11"
       ],
-      "explanation": "483 ÷ 7 = 69, पूर्णतः विभाज्य।"
+      "explanation": "√144 = 12 because 12 × 12 = 144."
     },
-    "id": "nmns-0105"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Unit digit of 88² × 88?",
-      "options": [
-        "3",
-        "7",
-        "5",
-        "2"
-      ],
-      "explanation": "88²=7744(unit 4), ×88=681472(unit 2)."
-    },
-    "hi": {
-      "question": "88² × 88 का इकाई अंक?",
-      "options": [
-        "3",
-        "7",
-        "5",
-        "2"
-      ],
-      "explanation": "88²=7744(इकाई 4), ×88=681472(इकाई 2)।"
-    },
-    "id": "nmns-0106"
+    "id": "number-system-0075"
   },
   {
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Is 287 divisible by 7?",
+      "question": "Is 73 a prime number?",
       "options": [
         "Yes",
-        "Cannot determine",
-        "Only if n is even",
-        "No"
-      ],
-      "explanation": "287 ÷ 7 = 41, exactly divisible."
-    },
-    "hi": {
-      "question": "क्या 287, 7 से विभाज्य है?",
-      "options": [
-        "Yes",
-        "Cannot determine",
-        "Only if n is even",
-        "No"
-      ],
-      "explanation": "287 ÷ 7 = 41, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0107"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Unit digit of 12² × 12?",
-      "options": [
-        "1",
-        "8",
-        "3",
-        "9"
-      ],
-      "explanation": "12²=144(unit 4), ×12=1728(unit 8)."
-    },
-    "hi": {
-      "question": "12² × 12 का इकाई अंक?",
-      "options": [
-        "1",
-        "8",
-        "3",
-        "9"
-      ],
-      "explanation": "12²=144(इकाई 4), ×12=1728(इकाई 8)।"
-    },
-    "id": "nmns-0111"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Unit digit of 68² × 68?",
-      "options": [
-        "3",
-        "5",
-        "7",
-        "2"
-      ],
-      "explanation": "68²=4624(unit 4), ×68=314432(unit 2)."
-    },
-    "hi": {
-      "question": "68² × 68 का इकाई अंक?",
-      "options": [
-        "3",
-        "5",
-        "7",
-        "2"
-      ],
-      "explanation": "68²=4624(इकाई 4), ×68=314432(इकाई 2)।"
-    },
-    "id": "nmns-0113"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Is 392 divisible by 7?",
-      "options": [
         "No",
-        "Yes",
-        "Cannot determine",
-        "Only if n is even"
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "392 ÷ 7 = 56, exactly divisible."
+      "explanation": "73 = 73 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 73 is prime."
     },
     "hi": {
-      "question": "क्या 392, 7 से विभाज्य है?",
+      "question": "Is 73 a prime number?",
       "options": [
+        "Yes",
         "No",
-        "Yes",
-        "Cannot determine",
-        "Only if n is even"
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "392 ÷ 7 = 56, पूर्णतः विभाज्य।"
+      "explanation": "73 = 73 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 73 is prime."
     },
-    "id": "nmns-0115"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Unit digit of 65² × 65?",
-      "options": [
-        "6",
-        "5",
-        "8",
-        "0"
-      ],
-      "explanation": "65²=4225(unit 5), ×65=274625(unit 5)."
-    },
-    "hi": {
-      "question": "65² × 65 का इकाई अंक?",
-      "options": [
-        "6",
-        "5",
-        "8",
-        "0"
-      ],
-      "explanation": "65²=4225(इकाई 5), ×65=274625(इकाई 5)।"
-    },
-    "id": "nmns-0116"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Unit digit of 20² × 20?",
-      "options": [
-        "3",
-        "1",
-        "5",
-        "0"
-      ],
-      "explanation": "20²=400(unit 0), ×20=8000(unit 0)."
-    },
-    "hi": {
-      "question": "20² × 20 का इकाई अंक?",
-      "options": [
-        "3",
-        "1",
-        "5",
-        "0"
-      ],
-      "explanation": "20²=400(इकाई 0), ×20=8000(इकाई 0)।"
-    },
-    "id": "nmns-0117"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Unit digit of 8² × 8?",
-      "options": [
-        "7",
-        "3",
-        "5",
-        "2"
-      ],
-      "explanation": "8²=64(unit 4), ×8=512(unit 2)."
-    },
-    "hi": {
-      "question": "8² × 8 का इकाई अंक?",
-      "options": [
-        "7",
-        "3",
-        "5",
-        "2"
-      ],
-      "explanation": "8²=64(इकाई 4), ×8=512(इकाई 2)।"
-    },
-    "id": "nmns-0119"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Is 63 divisible by 7?",
-      "options": [
-        "No",
-        "Yes",
-        "Only if n is even",
-        "Cannot determine"
-      ],
-      "explanation": "63 ÷ 7 = 9, exactly divisible."
-    },
-    "hi": {
-      "question": "क्या 63, 7 से विभाज्य है?",
-      "options": [
-        "No",
-        "Yes",
-        "Only if n is even",
-        "Cannot determine"
-      ],
-      "explanation": "63 ÷ 7 = 9, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0120"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Unit digit of 34² × 34?",
-      "options": [
-        "4",
-        "7",
-        "9",
-        "5"
-      ],
-      "explanation": "34²=1156(unit 6), ×34=39304(unit 4)."
-    },
-    "hi": {
-      "question": "34² × 34 का इकाई अंक?",
-      "options": [
-        "4",
-        "7",
-        "9",
-        "5"
-      ],
-      "explanation": "34²=1156(इकाई 6), ×34=39304(इकाई 4)।"
-    },
-    "id": "nmns-0121"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Is 203 divisible by 7?",
-      "options": [
-        "Cannot determine",
-        "Yes",
-        "Only if n is even",
-        "No"
-      ],
-      "explanation": "203 ÷ 7 = 29, exactly divisible."
-    },
-    "hi": {
-      "question": "क्या 203, 7 से विभाज्य है?",
-      "options": [
-        "Cannot determine",
-        "Yes",
-        "Only if n is even",
-        "No"
-      ],
-      "explanation": "203 ÷ 7 = 29, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0123"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Unit digit of 1² × 1?",
-      "options": [
-        "2",
-        "6",
-        "4",
-        "1"
-      ],
-      "explanation": "1²=1(unit 1), ×1=1(unit 1)."
-    },
-    "hi": {
-      "question": "1² × 1 का इकाई अंक?",
-      "options": [
-        "2",
-        "6",
-        "4",
-        "1"
-      ],
-      "explanation": "1²=1(इकाई 1), ×1=1(इकाई 1)।"
-    },
-    "id": "nmns-0124"
+    "id": "number-system-0076"
   },
   {
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Unit digit of 28² × 28?",
+      "question": "Sum of digits of 48 is?",
       "options": [
-        "7",
-        "3",
-        "2",
-        "5"
+        "11",
+        "16",
+        "12",
+        "12"
       ],
-      "explanation": "28²=784(unit 4), ×28=21952(unit 2)."
+      "explanation": "Digits of 48: 4 + 8. Sum = 12."
     },
     "hi": {
-      "question": "28² × 28 का इकाई अंक?",
+      "question": "Sum of digits of 48 is?",
       "options": [
-        "7",
-        "3",
-        "2",
-        "5"
+        "11",
+        "16",
+        "12",
+        "12"
       ],
-      "explanation": "28²=784(इकाई 4), ×28=21952(इकाई 2)।"
+      "explanation": "Digits of 48: 4 + 8. Sum = 12."
     },
-    "id": "nmns-0126"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Is 371 divisible by 7?",
-      "options": [
-        "Yes",
-        "Only if n is even",
-        "No",
-        "Cannot determine"
-      ],
-      "explanation": "371 ÷ 7 = 53, exactly divisible."
-    },
-    "hi": {
-      "question": "क्या 371, 7 से विभाज्य है?",
-      "options": [
-        "Yes",
-        "Only if n is even",
-        "No",
-        "Cannot determine"
-      ],
-      "explanation": "371 ÷ 7 = 53, पूर्णतः विभाज्य।"
-    },
-    "id": "nmns-0127"
+    "id": "number-system-0077"
   },
   {
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Unit digit of 53² × 53?",
+      "question": "Square root of 108 is?",
       "options": [
-        "8",
-        "0",
-        "2",
-        "7"
+        "9",
+        "4",
+        "12",
+        "10"
       ],
-      "explanation": "53²=2809(unit 9), ×53=148877(unit 7)."
+      "explanation": "√108 = 10 because 10 × 10 = 108."
     },
     "hi": {
-      "question": "53² × 53 का इकाई अंक?",
+      "question": "Square root of 108 is?",
       "options": [
-        "8",
-        "0",
-        "2",
-        "7"
+        "9",
+        "4",
+        "12",
+        "10"
       ],
-      "explanation": "53²=2809(इकाई 9), ×53=148877(इकाई 7)।"
+      "explanation": "√108 = 10 because 10 × 10 = 108."
     },
-    "id": "nmns-0128"
+    "id": "number-system-0078"
   },
   {
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Is 175 divisible by 7?",
+      "question": "Is 89 a prime number?",
       "options": [
         "Yes",
-        "Only if n is even",
-        "Cannot determine",
-        "No"
+        "No",
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "175 ÷ 7 = 25, exactly divisible."
+      "explanation": "89 = 89 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 89 is prime."
     },
     "hi": {
-      "question": "क्या 175, 7 से विभाज्य है?",
+      "question": "Is 89 a prime number?",
       "options": [
         "Yes",
-        "Only if n is even",
-        "Cannot determine",
-        "No"
+        "No",
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "175 ÷ 7 = 25, पूर्णतः विभाज्य।"
+      "explanation": "89 = 89 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 89 is prime."
     },
-    "id": "nmns-0130"
+    "id": "number-system-0079"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 72 is?",
+      "options": [
+        "10",
+        "11",
+        "9",
+        "6"
+      ],
+      "explanation": "Digits of 72: 7 + 2. Sum = 9."
+    },
+    "hi": {
+      "question": "Sum of digits of 72 is?",
+      "options": [
+        "10",
+        "11",
+        "9",
+        "6"
+      ],
+      "explanation": "Digits of 72: 7 + 2. Sum = 9."
+    },
+    "id": "number-system-0080"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 36 is?",
+      "options": [
+        "6",
+        "7",
+        "6",
+        "5"
+      ],
+      "explanation": "√36 = 6 because 6 × 6 = 36."
+    },
+    "hi": {
+      "question": "Square root of 36 is?",
+      "options": [
+        "6",
+        "7",
+        "6",
+        "5"
+      ],
+      "explanation": "√36 = 6 because 6 × 6 = 36."
+    },
+    "id": "number-system-0081"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 17 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "17 = 17 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 17 is prime."
+    },
+    "hi": {
+      "question": "Is 17 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "17 = 17 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 17 is prime."
+    },
+    "id": "number-system-0082"
   },
   {
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Is 224 divisible by 7?",
+      "question": "Sum of digits of 90 is?",
       "options": [
-        "No",
-        "Only if n is even",
-        "Cannot determine",
-        "Yes"
+        "18",
+        "13",
+        "6",
+        "9"
       ],
-      "explanation": "224 ÷ 7 = 32, exactly divisible."
+      "explanation": "Digits of 90: 9 + 0. Sum = 9."
     },
     "hi": {
-      "question": "क्या 224, 7 से विभाज्य है?",
+      "question": "Sum of digits of 90 is?",
       "options": [
-        "No",
-        "Only if n is even",
-        "Cannot determine",
-        "Yes"
+        "18",
+        "13",
+        "6",
+        "9"
       ],
-      "explanation": "224 ÷ 7 = 32, पूर्णतः विभाज्य।"
+      "explanation": "Digits of 90: 9 + 0. Sum = 9."
     },
-    "id": "nmns-0131"
+    "id": "number-system-0083"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 180 is?",
+      "options": [
+        "14",
+        "5",
+        "13",
+        "12"
+      ],
+      "explanation": "√180 = 13 because 13 × 13 = 180."
+    },
+    "hi": {
+      "question": "Square root of 180 is?",
+      "options": [
+        "14",
+        "5",
+        "13",
+        "12"
+      ],
+      "explanation": "√180 = 13 because 13 × 13 = 180."
+    },
+    "id": "number-system-0084"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 29 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "29 = 29 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 29 is prime."
+    },
+    "hi": {
+      "question": "Is 29 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "29 = 29 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 29 is prime."
+    },
+    "id": "number-system-0085"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 15 is?",
+      "options": [
+        "6",
+        "12",
+        "4",
+        "9"
+      ],
+      "explanation": "Digits of 15: 1 + 5. Sum = 6."
+    },
+    "hi": {
+      "question": "Sum of digits of 15 is?",
+      "options": [
+        "6",
+        "12",
+        "4",
+        "9"
+      ],
+      "explanation": "Digits of 15: 1 + 5. Sum = 6."
+    },
+    "id": "number-system-0086"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 60 is?",
+      "options": [
+        "7",
+        "10",
+        "12",
+        "6"
+      ],
+      "explanation": "√60 = 7 because 7 × 7 = 60."
+    },
+    "hi": {
+      "question": "Square root of 60 is?",
+      "options": [
+        "7",
+        "10",
+        "12",
+        "6"
+      ],
+      "explanation": "√60 = 7 because 7 × 7 = 60."
+    },
+    "id": "number-system-0087"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 41 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "41 = 41 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 41 is prime."
+    },
+    "hi": {
+      "question": "Is 41 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "41 = 41 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 41 is prime."
+    },
+    "id": "number-system-0088"
   },
   {
     "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Is 84 divisible by 7?",
+      "question": "Sum of digits of 24 is?",
       "options": [
-        "Only if n is even",
-        "Yes",
-        "No",
-        "Cannot determine"
+        "5",
+        "6",
+        "10",
+        "8"
       ],
-      "explanation": "84 ÷ 7 = 12, exactly divisible."
+      "explanation": "Digits of 24: 2 + 4. Sum = 6."
     },
     "hi": {
-      "question": "क्या 84, 7 से विभाज्य है?",
+      "question": "Sum of digits of 24 is?",
       "options": [
-        "Only if n is even",
+        "5",
+        "6",
+        "10",
+        "8"
+      ],
+      "explanation": "Digits of 24: 2 + 4. Sum = 6."
+    },
+    "id": "number-system-0089"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 24 is?",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "3"
+      ],
+      "explanation": "√24 = 4 because 4 × 4 = 24."
+    },
+    "hi": {
+      "question": "Square root of 24 is?",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "3"
+      ],
+      "explanation": "√24 = 4 because 4 × 4 = 24."
+    },
+    "id": "number-system-0090"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 53 a prime number?",
+      "options": [
         "Yes",
         "No",
-        "Cannot determine"
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "84 ÷ 7 = 12, पूर्णतः विभाज्य।"
+      "explanation": "53 = 53 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 53 is prime."
     },
-    "id": "nmns-0132"
+    "hi": {
+      "question": "Is 53 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "53 = 53 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 53 is prime."
+    },
+    "id": "number-system-0091"
   },
   {
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Unit digit of 38² × 38?",
+      "question": "Sum of digits of 36 is?",
       "options": [
-        "5",
-        "3",
-        "7",
-        "2"
+        "14",
+        "6",
+        "8",
+        "9"
       ],
-      "explanation": "38²=1444(unit 4), ×38=54872(unit 2)."
+      "explanation": "Digits of 36: 3 + 6. Sum = 9."
     },
     "hi": {
-      "question": "38² × 38 का इकाई अंक?",
+      "question": "Sum of digits of 36 is?",
       "options": [
-        "5",
-        "3",
-        "7",
-        "2"
+        "14",
+        "6",
+        "8",
+        "9"
       ],
-      "explanation": "38²=1444(इकाई 4), ×38=54872(इकाई 2)।"
+      "explanation": "Digits of 36: 3 + 6. Sum = 9."
     },
-    "id": "nmns-0135"
+    "id": "number-system-0092"
   },
   {
     "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Unit digit of 24² × 24?",
+      "question": "Square root of 120 is?",
       "options": [
         "9",
-        "4",
-        "7",
-        "5"
+        "10",
+        "6",
+        "11"
       ],
-      "explanation": "24²=576(unit 6), ×24=13824(unit 4)."
+      "explanation": "√120 = 10 because 10 × 10 = 120."
     },
     "hi": {
-      "question": "24² × 24 का इकाई अंक?",
+      "question": "Square root of 120 is?",
       "options": [
         "9",
-        "4",
-        "7",
-        "5"
+        "10",
+        "6",
+        "11"
       ],
-      "explanation": "24²=576(इकाई 6), ×24=13824(इकाई 4)।"
+      "explanation": "√120 = 10 because 10 × 10 = 120."
     },
-    "id": "nmns-0137"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Unit digit of 73² × 73?",
-      "options": [
-        "8",
-        "0",
-        "2",
-        "7"
-      ],
-      "explanation": "73²=5329(unit 9), ×73=389017(unit 7)."
-    },
-    "hi": {
-      "question": "73² × 73 का इकाई अंक?",
-      "options": [
-        "8",
-        "0",
-        "2",
-        "7"
-      ],
-      "explanation": "73²=5329(इकाई 9), ×73=389017(इकाई 7)।"
-    },
-    "id": "nmns-0138"
+    "id": "number-system-0093"
   },
   {
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Unit digit of 54² × 54?",
-      "options": [
-        "4",
-        "7",
-        "9",
-        "5"
-      ],
-      "explanation": "54²=2916(unit 6), ×54=157464(unit 4)."
-    },
-    "hi": {
-      "question": "54² × 54 का इकाई अंक?",
-      "options": [
-        "4",
-        "7",
-        "9",
-        "5"
-      ],
-      "explanation": "54²=2916(इकाई 6), ×54=157464(इकाई 4)।"
-    },
-    "id": "nmns-0139"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Is 217 divisible by 7?",
+      "question": "Is 67 a prime number?",
       "options": [
         "Yes",
-        "Cannot determine",
         "No",
-        "Only if n is even"
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "217 ÷ 7 = 31, exactly divisible."
+      "explanation": "67 = 67 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 67 is prime."
     },
     "hi": {
-      "question": "क्या 217, 7 से विभाज्य है?",
+      "question": "Is 67 a prime number?",
       "options": [
         "Yes",
-        "Cannot determine",
         "No",
-        "Only if n is even"
+        "Maybe",
+        "Cannot say"
       ],
-      "explanation": "217 ÷ 7 = 31, पूर्णतः विभाज्य।"
+      "explanation": "67 = 67 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 67 is prime."
     },
-    "id": "nmns-0140"
+    "id": "number-system-0094"
   },
   {
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Is 679 divisible by 7?",
+      "question": "Sum of digits of 50 is?",
       "options": [
-        "No",
-        "Only if n is even",
-        "Cannot determine",
-        "Yes"
+        "3",
+        "12",
+        "7",
+        "5"
       ],
-      "explanation": "679 ÷ 7 = 97, exactly divisible."
+      "explanation": "Digits of 50: 5 + 0. Sum = 5."
     },
     "hi": {
-      "question": "क्या 679, 7 से विभाज्य है?",
+      "question": "Sum of digits of 50 is?",
       "options": [
-        "No",
-        "Only if n is even",
-        "Cannot determine",
-        "Yes"
+        "3",
+        "12",
+        "7",
+        "5"
       ],
-      "explanation": "679 ÷ 7 = 97, पूर्णतः विभाज्य।"
+      "explanation": "Digits of 50: 5 + 0. Sum = 5."
     },
-    "id": "nmns-0141"
+    "id": "number-system-0095"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 180 is?",
+      "options": [
+        "12",
+        "12",
+        "14",
+        "13"
+      ],
+      "explanation": "√180 = 13 because 13 × 13 = 180."
+    },
+    "hi": {
+      "question": "Square root of 180 is?",
+      "options": [
+        "12",
+        "12",
+        "14",
+        "13"
+      ],
+      "explanation": "√180 = 13 because 13 × 13 = 180."
+    },
+    "id": "number-system-0096"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 79 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "79 = 79 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 79 is prime."
+    },
+    "hi": {
+      "question": "Is 79 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "79 = 79 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 79 is prime."
+    },
+    "id": "number-system-0097"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Sum of digits of 80 is?",
+      "options": [
+        "7",
+        "8",
+        "10",
+        "11"
+      ],
+      "explanation": "Digits of 80: 8 + 0. Sum = 8."
+    },
+    "hi": {
+      "question": "Sum of digits of 80 is?",
+      "options": [
+        "7",
+        "8",
+        "10",
+        "11"
+      ],
+      "explanation": "Digits of 80: 8 + 0. Sum = 8."
+    },
+    "id": "number-system-0098"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Square root of 48 is?",
+      "options": [
+        "9",
+        "6",
+        "5",
+        "6"
+      ],
+      "explanation": "√48 = 6 because 6 × 6 = 48."
+    },
+    "hi": {
+      "question": "Square root of 48 is?",
+      "options": [
+        "9",
+        "6",
+        "5",
+        "6"
+      ],
+      "explanation": "√48 = 6 because 6 × 6 = 48."
+    },
+    "id": "number-system-0099"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Is 97 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "97 = 97 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 97 is prime."
+    },
+    "hi": {
+      "question": "Is 97 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot say"
+      ],
+      "explanation": "97 = 97 × 1 only. A prime number has exactly two factors: 1 and itself. Therefore 97 is prime."
+    },
+    "id": "number-system-0100"
   }
 ]

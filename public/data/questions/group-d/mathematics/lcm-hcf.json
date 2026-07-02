@@ -1,2602 +1,2602 @@
 [
   {
-    "id": "gdmlh-0001",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Find the LCM of 12, 15, and 20.",
-      "options": [
-        "30",
-        "40",
-        "60",
-        "120"
-      ],
-      "explanation": "12 = 2^2 x 3, 15 = 3 x 5, 20 = 2^2 x 5. LCM = 2^2 x 3 x 5 = 60."
-    },
-    "hi": {
-      "question": "12, 15 और 20 का LCM ज्ञात करें।",
-      "options": [
-        "30",
-        "40",
-        "60",
-        "120"
-      ],
-      "explanation": "12 = 2^2 × 3, 15 = 3 × 5, 20 = 2^2 × 5। LCM = 2^2 × 3 × 5 = 60।"
-    }
-  },
-  {
-    "id": "gdmlh-0002",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2023,
-    "en": {
-      "question": "The product of two numbers is 2160 and their HCF is 12. Find their LCM.",
-      "options": [
-        "120",
-        "150",
-        "180",
-        "200"
-      ],
-      "explanation": "Product of numbers = HCF x LCM. So LCM = 2160 / 12 = 180."
-    },
-    "hi": {
-      "question": "दो संख्याओं का गुणनफल 2160 है और उनका HCF 12 है। उनका LCM ज्ञात करें।",
-      "options": [
-        "120",
-        "150",
-        "180",
-        "200"
-      ],
-      "explanation": "संख्याओं का गुणनफल = HCF × LCM। इसलिए LCM = 2160 / 12 = 180।"
-    }
-  },
-  {
-    "id": "gdmlh-0003",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "The HCF of two numbers is 16 and their LCM is 160. If one number is 32, find the other.",
-      "options": [
-        "60",
-        "72",
-        "80",
-        "96"
-      ],
-      "explanation": "Product = HCF x LCM = 16 x 160 = 2560. Other number = 2560 / 32 = 80."
-    },
-    "hi": {
-      "question": "दो संख्याओं का HCF 16 और LCM 160 है। यदि एक संख्या 32 है, तो दूसरी संख्या ज्ञात करें।",
-      "options": [
-        "60",
-        "72",
-        "80",
-        "96"
-      ],
-      "explanation": "गुणनफल = HCF × LCM = 16 × 160 = 2560। दूसरी संख्या = 2560 / 32 = 80।"
-    }
-  },
-  {
-    "id": "gdmlh-0004",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2023,
-    "en": {
-      "question": "Find the HCF of 4/9, 8/18, and 12/27.",
-      "options": [
-        "2/9",
-        "4/9",
-        "12/27",
-        "4/3"
-      ],
-      "explanation": "All three fractions reduce to 4/9. So their HCF is 4/9."
-    },
-    "hi": {
-      "question": "4/9, 8/18 और 12/27 का HCF ज्ञात करें।",
-      "options": [
-        "2/9",
-        "4/9",
-        "12/27",
-        "4/3"
-      ],
-      "explanation": "तीनों भिन्न 4/9 में सरल हो जाती हैं। इसलिए इनका HCF 4/9 है।"
-    }
-  },
-  {
-    "id": "gdmlh-0005",
     "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2024,
+    "difficulty": "easy",
+    "sourceYear": 2025,
     "en": {
-      "question": "What is the greatest number that will divide 43, 91, and 183 leaving the same remainder in each case?",
+      "question": "LCM of 12 and 18 is?",
+      "options": [
+        "36",
+        "12",
+        "35",
+        "38"
+      ],
+      "explanation": "Factors: 12 = 12, 18 = 18. LCM = Product ÷ HCF = (12×18) ÷ 6 = 36."
+    },
+    "hi": {
+      "question": "LCM of 12 and 18 is?",
+      "options": [
+        "36",
+        "12",
+        "35",
+        "38"
+      ],
+      "explanation": "Factors: 12 = 12, 18 = 18. LCM = Product ÷ HCF = (12×18) ÷ 6 = 36."
+    },
+    "id": "lcm-hcf-0001"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 24 and 36 is?",
+      "options": [
+        "20",
+        "12",
+        "20",
+        "11"
+      ],
+      "explanation": "Factors of 24: [1, 2, 3, 4, 6, 8, 12, 24], of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36]. Highest common = 12."
+    },
+    "hi": {
+      "question": "HCF of 24 and 36 is?",
+      "options": [
+        "20",
+        "12",
+        "20",
+        "11"
+      ],
+      "explanation": "Factors of 24: [1, 2, 3, 4, 6, 8, 12, 24], of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36]. Highest common = 12."
+    },
+    "id": "lcm-hcf-0002"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 15 and 25 is?",
+      "options": [
+        "24",
+        "79",
+        "74",
+        "75"
+      ],
+      "explanation": "Factors: 15 = 15, 25 = 25. LCM = Product ÷ HCF = (15×25) ÷ 5 = 75."
+    },
+    "hi": {
+      "question": "LCM of 15 and 25 is?",
+      "options": [
+        "24",
+        "79",
+        "74",
+        "75"
+      ],
+      "explanation": "Factors: 15 = 15, 25 = 25. LCM = Product ÷ HCF = (15×25) ÷ 5 = 75."
+    },
+    "id": "lcm-hcf-0003"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 30 and 45 is?",
+      "options": [
+        "14",
+        "15",
+        "17",
+        "20"
+      ],
+      "explanation": "Factors of 30: [1, 2, 3, 5, 6, 10, 15, 30], of 45: [1, 3, 5, 9, 15, 45]. Highest common = 15."
+    },
+    "hi": {
+      "question": "HCF of 30 and 45 is?",
+      "options": [
+        "14",
+        "15",
+        "17",
+        "20"
+      ],
+      "explanation": "Factors of 30: [1, 2, 3, 5, 6, 10, 15, 30], of 45: [1, 3, 5, 9, 15, 45]. Highest common = 15."
+    },
+    "id": "lcm-hcf-0004"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 20 and 30 is?",
+      "options": [
+        "8",
+        "60",
+        "68",
+        "59"
+      ],
+      "explanation": "Factors: 20 = 20, 30 = 30. LCM = Product ÷ HCF = (20×30) ÷ 10 = 60."
+    },
+    "hi": {
+      "question": "LCM of 20 and 30 is?",
+      "options": [
+        "8",
+        "60",
+        "68",
+        "59"
+      ],
+      "explanation": "Factors: 20 = 20, 30 = 30. LCM = Product ÷ HCF = (20×30) ÷ 10 = 60."
+    },
+    "id": "lcm-hcf-0005"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 48 and 72 is?",
+      "options": [
+        "24",
+        "23",
+        "36",
+        "4"
+      ],
+      "explanation": "Factors of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48], of 72: [1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72]. Highest common = 24."
+    },
+    "hi": {
+      "question": "HCF of 48 and 72 is?",
+      "options": [
+        "24",
+        "23",
+        "36",
+        "4"
+      ],
+      "explanation": "Factors of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48], of 72: [1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72]. Highest common = 24."
+    },
+    "id": "lcm-hcf-0006"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 16 and 40 is?",
+      "options": [
+        "4",
+        "79",
+        "80",
+        "82"
+      ],
+      "explanation": "Factors: 16 = 16, 40 = 40. LCM = Product ÷ HCF = (16×40) ÷ 8 = 80."
+    },
+    "hi": {
+      "question": "LCM of 16 and 40 is?",
+      "options": [
+        "4",
+        "79",
+        "80",
+        "82"
+      ],
+      "explanation": "Factors: 16 = 16, 40 = 40. LCM = Product ÷ HCF = (16×40) ÷ 8 = 80."
+    },
+    "id": "lcm-hcf-0007"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 28 and 42 is?",
+      "options": [
+        "14",
+        "13",
+        "24",
+        "18"
+      ],
+      "explanation": "Factors of 28: [1, 2, 4, 7, 14, 28], of 42: [1, 2, 3, 6, 7, 14, 21, 42]. Highest common = 14."
+    },
+    "hi": {
+      "question": "HCF of 28 and 42 is?",
+      "options": [
+        "14",
+        "13",
+        "24",
+        "18"
+      ],
+      "explanation": "Factors of 28: [1, 2, 4, 7, 14, 28], of 42: [1, 2, 3, 6, 7, 14, 21, 42]. Highest common = 14."
+    },
+    "id": "lcm-hcf-0008"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 60 and 90 is?",
+      "options": [
+        "188",
+        "179",
+        "180",
+        "20"
+      ],
+      "explanation": "Factors: 60 = 60, 90 = 90. LCM = Product ÷ HCF = (60×90) ÷ 30 = 180."
+    },
+    "hi": {
+      "question": "LCM of 60 and 90 is?",
+      "options": [
+        "188",
+        "179",
+        "180",
+        "20"
+      ],
+      "explanation": "Factors: 60 = 60, 90 = 90. LCM = Product ÷ HCF = (60×90) ÷ 30 = 180."
+    },
+    "id": "lcm-hcf-0009"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 36 and 48 is?",
+      "options": [
+        "12",
+        "12",
+        "18",
+        "11"
+      ],
+      "explanation": "Factors of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36], of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48]. Highest common = 12."
+    },
+    "hi": {
+      "question": "HCF of 36 and 48 is?",
+      "options": [
+        "12",
+        "12",
+        "18",
+        "11"
+      ],
+      "explanation": "Factors of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36], of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48]. Highest common = 12."
+    },
+    "id": "lcm-hcf-0010"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 18 and 24 is?",
+      "options": [
+        "20",
+        "74",
+        "71",
+        "72"
+      ],
+      "explanation": "Factors: 18 = 18, 24 = 24. LCM = Product ÷ HCF = (18×24) ÷ 6 = 72."
+    },
+    "hi": {
+      "question": "LCM of 18 and 24 is?",
+      "options": [
+        "20",
+        "74",
+        "71",
+        "72"
+      ],
+      "explanation": "Factors: 18 = 18, 24 = 24. LCM = Product ÷ HCF = (18×24) ÷ 6 = 72."
+    },
+    "id": "lcm-hcf-0011"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 14 and 21 is?",
+      "options": [
+        "6",
+        "12",
+        "11",
+        "7"
+      ],
+      "explanation": "Factors of 14: [1, 2, 7, 14], of 21: [1, 3, 7, 21]. Highest common = 7."
+    },
+    "hi": {
+      "question": "HCF of 14 and 21 is?",
+      "options": [
+        "6",
+        "12",
+        "11",
+        "7"
+      ],
+      "explanation": "Factors of 14: [1, 2, 7, 14], of 21: [1, 3, 7, 21]. Highest common = 7."
+    },
+    "id": "lcm-hcf-0012"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 35 and 70 is?",
+      "options": [
+        "24",
+        "72",
+        "70",
+        "69"
+      ],
+      "explanation": "Factors: 35 = 35, 70 = 70. LCM = Product ÷ HCF = (35×70) ÷ 35 = 70."
+    },
+    "hi": {
+      "question": "LCM of 35 and 70 is?",
+      "options": [
+        "24",
+        "72",
+        "70",
+        "69"
+      ],
+      "explanation": "Factors: 35 = 35, 70 = 70. LCM = Product ÷ HCF = (35×70) ÷ 35 = 70."
+    },
+    "id": "lcm-hcf-0013"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 50 and 100 is?",
+      "options": [
+        "50",
+        "52",
+        "49",
+        "8"
+      ],
+      "explanation": "Factors of 50: [1, 2, 5, 10, 25, 50], of 100: [1, 2, 4, 5, 10, 20, 25, 50, 100]. Highest common = 50."
+    },
+    "hi": {
+      "question": "HCF of 50 and 100 is?",
+      "options": [
+        "50",
+        "52",
+        "49",
+        "8"
+      ],
+      "explanation": "Factors of 50: [1, 2, 5, 10, 25, 50], of 100: [1, 2, 4, 5, 10, 20, 25, 50, 100]. Highest common = 50."
+    },
+    "id": "lcm-hcf-0014"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 54 and 72 is?",
+      "options": [
+        "216",
+        "215",
+        "222",
+        "24"
+      ],
+      "explanation": "Factors: 54 = 54, 72 = 72. LCM = Product ÷ HCF = (54×72) ÷ 18 = 216."
+    },
+    "hi": {
+      "question": "LCM of 54 and 72 is?",
+      "options": [
+        "216",
+        "215",
+        "222",
+        "24"
+      ],
+      "explanation": "Factors: 54 = 54, 72 = 72. LCM = Product ÷ HCF = (54×72) ÷ 18 = 216."
+    },
+    "id": "lcm-hcf-0015"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 63 and 84 is?",
+      "options": [
+        "20",
+        "21",
+        "20",
+        "29"
+      ],
+      "explanation": "Factors of 63: [1, 3, 7, 9, 21, 63], of 84: [1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 84]. Highest common = 21."
+    },
+    "hi": {
+      "question": "HCF of 63 and 84 is?",
+      "options": [
+        "20",
+        "21",
+        "20",
+        "29"
+      ],
+      "explanation": "Factors of 63: [1, 3, 7, 9, 21, 63], of 84: [1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 84]. Highest common = 21."
+    },
+    "id": "lcm-hcf-0016"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 80 and 120 is?",
+      "options": [
+        "240",
+        "8",
+        "239",
+        "248"
+      ],
+      "explanation": "Factors: 80 = 80, 120 = 120. LCM = Product ÷ HCF = (80×120) ÷ 40 = 240."
+    },
+    "hi": {
+      "question": "LCM of 80 and 120 is?",
+      "options": [
+        "240",
+        "8",
+        "239",
+        "248"
+      ],
+      "explanation": "Factors: 80 = 80, 120 = 120. LCM = Product ÷ HCF = (80×120) ÷ 40 = 240."
+    },
+    "id": "lcm-hcf-0017"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 90 and 150 is?",
+      "options": [
+        "29",
+        "30",
+        "16",
+        "36"
+      ],
+      "explanation": "Factors of 90: [1, 2, 3, 5, 6, 9, 10, 15, 18, 30, 45, 90], of 150: [1, 2, 3, 5, 6, 10, 15, 25, 30, 50, 75, 150]. Highest common = 30."
+    },
+    "hi": {
+      "question": "HCF of 90 and 150 is?",
+      "options": [
+        "29",
+        "30",
+        "16",
+        "36"
+      ],
+      "explanation": "Factors of 90: [1, 2, 3, 5, 6, 9, 10, 15, 18, 30, 45, 90], of 150: [1, 2, 3, 5, 6, 10, 15, 25, 30, 50, 75, 150]. Highest common = 30."
+    },
+    "id": "lcm-hcf-0018"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 12 and 18 is?",
+      "options": [
+        "40",
+        "4",
+        "35",
+        "36"
+      ],
+      "explanation": "Factors: 12 = 12, 18 = 18. LCM = Product ÷ HCF = (12×18) ÷ 6 = 36."
+    },
+    "hi": {
+      "question": "LCM of 12 and 18 is?",
+      "options": [
+        "40",
+        "4",
+        "35",
+        "36"
+      ],
+      "explanation": "Factors: 12 = 12, 18 = 18. LCM = Product ÷ HCF = (12×18) ÷ 6 = 36."
+    },
+    "id": "lcm-hcf-0019"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 24 and 36 is?",
+      "options": [
+        "12",
+        "16",
+        "11",
+        "24"
+      ],
+      "explanation": "Factors of 24: [1, 2, 3, 4, 6, 8, 12, 24], of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36]. Highest common = 12."
+    },
+    "hi": {
+      "question": "HCF of 24 and 36 is?",
+      "options": [
+        "12",
+        "16",
+        "11",
+        "24"
+      ],
+      "explanation": "Factors of 24: [1, 2, 3, 4, 6, 8, 12, 24], of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36]. Highest common = 12."
+    },
+    "id": "lcm-hcf-0020"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 15 and 25 is?",
+      "options": [
+        "75",
+        "4",
+        "74",
+        "79"
+      ],
+      "explanation": "Factors: 15 = 15, 25 = 25. LCM = Product ÷ HCF = (15×25) ÷ 5 = 75."
+    },
+    "hi": {
+      "question": "LCM of 15 and 25 is?",
+      "options": [
+        "75",
+        "4",
+        "74",
+        "79"
+      ],
+      "explanation": "Factors: 15 = 15, 25 = 25. LCM = Product ÷ HCF = (15×25) ÷ 5 = 75."
+    },
+    "id": "lcm-hcf-0021"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 30 and 45 is?",
+      "options": [
+        "23",
+        "15",
+        "14",
+        "24"
+      ],
+      "explanation": "Factors of 30: [1, 2, 3, 5, 6, 10, 15, 30], of 45: [1, 3, 5, 9, 15, 45]. Highest common = 15."
+    },
+    "hi": {
+      "question": "HCF of 30 and 45 is?",
+      "options": [
+        "23",
+        "15",
+        "14",
+        "24"
+      ],
+      "explanation": "Factors of 30: [1, 2, 3, 5, 6, 10, 15, 30], of 45: [1, 3, 5, 9, 15, 45]. Highest common = 15."
+    },
+    "id": "lcm-hcf-0022"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 20 and 30 is?",
+      "options": [
+        "60",
+        "68",
+        "59",
+        "20"
+      ],
+      "explanation": "Factors: 20 = 20, 30 = 30. LCM = Product ÷ HCF = (20×30) ÷ 10 = 60."
+    },
+    "hi": {
+      "question": "LCM of 20 and 30 is?",
+      "options": [
+        "60",
+        "68",
+        "59",
+        "20"
+      ],
+      "explanation": "Factors: 20 = 20, 30 = 30. LCM = Product ÷ HCF = (20×30) ÷ 10 = 60."
+    },
+    "id": "lcm-hcf-0023"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 48 and 72 is?",
+      "options": [
+        "23",
+        "12",
+        "24",
+        "32"
+      ],
+      "explanation": "Factors of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48], of 72: [1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72]. Highest common = 24."
+    },
+    "hi": {
+      "question": "HCF of 48 and 72 is?",
+      "options": [
+        "23",
+        "12",
+        "24",
+        "32"
+      ],
+      "explanation": "Factors of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48], of 72: [1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72]. Highest common = 24."
+    },
+    "id": "lcm-hcf-0024"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 16 and 40 is?",
+      "options": [
+        "92",
+        "80",
+        "79",
+        "4"
+      ],
+      "explanation": "Factors: 16 = 16, 40 = 40. LCM = Product ÷ HCF = (16×40) ÷ 8 = 80."
+    },
+    "hi": {
+      "question": "LCM of 16 and 40 is?",
+      "options": [
+        "92",
+        "80",
+        "79",
+        "4"
+      ],
+      "explanation": "Factors: 16 = 16, 40 = 40. LCM = Product ÷ HCF = (16×40) ÷ 8 = 80."
+    },
+    "id": "lcm-hcf-0025"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 28 and 42 is?",
+      "options": [
+        "14",
+        "26",
+        "13",
+        "12"
+      ],
+      "explanation": "Factors of 28: [1, 2, 4, 7, 14, 28], of 42: [1, 2, 3, 6, 7, 14, 21, 42]. Highest common = 14."
+    },
+    "hi": {
+      "question": "HCF of 28 and 42 is?",
+      "options": [
+        "14",
+        "26",
+        "13",
+        "12"
+      ],
+      "explanation": "Factors of 28: [1, 2, 4, 7, 14, 28], of 42: [1, 2, 3, 6, 7, 14, 21, 42]. Highest common = 14."
+    },
+    "id": "lcm-hcf-0026"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 60 and 90 is?",
+      "options": [
+        "180",
+        "182",
+        "179",
+        "4"
+      ],
+      "explanation": "Factors: 60 = 60, 90 = 90. LCM = Product ÷ HCF = (60×90) ÷ 30 = 180."
+    },
+    "hi": {
+      "question": "LCM of 60 and 90 is?",
+      "options": [
+        "180",
+        "182",
+        "179",
+        "4"
+      ],
+      "explanation": "Factors: 60 = 60, 90 = 90. LCM = Product ÷ HCF = (60×90) ÷ 30 = 180."
+    },
+    "id": "lcm-hcf-0027"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 36 and 48 is?",
+      "options": [
+        "14",
+        "12",
+        "11",
+        "20"
+      ],
+      "explanation": "Factors of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36], of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48]. Highest common = 12."
+    },
+    "hi": {
+      "question": "HCF of 36 and 48 is?",
+      "options": [
+        "14",
+        "12",
+        "11",
+        "20"
+      ],
+      "explanation": "Factors of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36], of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48]. Highest common = 12."
+    },
+    "id": "lcm-hcf-0028"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 18 and 24 is?",
+      "options": [
+        "24",
+        "72",
+        "76",
+        "71"
+      ],
+      "explanation": "Factors: 18 = 18, 24 = 24. LCM = Product ÷ HCF = (18×24) ÷ 6 = 72."
+    },
+    "hi": {
+      "question": "LCM of 18 and 24 is?",
+      "options": [
+        "24",
+        "72",
+        "76",
+        "71"
+      ],
+      "explanation": "Factors: 18 = 18, 24 = 24. LCM = Product ÷ HCF = (18×24) ÷ 6 = 72."
+    },
+    "id": "lcm-hcf-0029"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 14 and 21 is?",
+      "options": [
+        "6",
+        "19",
+        "20",
+        "7"
+      ],
+      "explanation": "Factors of 14: [1, 2, 7, 14], of 21: [1, 3, 7, 21]. Highest common = 7."
+    },
+    "hi": {
+      "question": "HCF of 14 and 21 is?",
+      "options": [
+        "6",
+        "19",
+        "20",
+        "7"
+      ],
+      "explanation": "Factors of 14: [1, 2, 7, 14], of 21: [1, 3, 7, 21]. Highest common = 7."
+    },
+    "id": "lcm-hcf-0030"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 35 and 70 is?",
+      "options": [
+        "72",
+        "70",
+        "24",
+        "69"
+      ],
+      "explanation": "Factors: 35 = 35, 70 = 70. LCM = Product ÷ HCF = (35×70) ÷ 35 = 70."
+    },
+    "hi": {
+      "question": "LCM of 35 and 70 is?",
+      "options": [
+        "72",
+        "70",
+        "24",
+        "69"
+      ],
+      "explanation": "Factors: 35 = 35, 70 = 70. LCM = Product ÷ HCF = (35×70) ÷ 35 = 70."
+    },
+    "id": "lcm-hcf-0031"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 50 and 100 is?",
+      "options": [
+        "20",
+        "49",
+        "56",
+        "50"
+      ],
+      "explanation": "Factors of 50: [1, 2, 5, 10, 25, 50], of 100: [1, 2, 4, 5, 10, 20, 25, 50, 100]. Highest common = 50."
+    },
+    "hi": {
+      "question": "HCF of 50 and 100 is?",
+      "options": [
+        "20",
+        "49",
+        "56",
+        "50"
+      ],
+      "explanation": "Factors of 50: [1, 2, 5, 10, 25, 50], of 100: [1, 2, 4, 5, 10, 20, 25, 50, 100]. Highest common = 50."
+    },
+    "id": "lcm-hcf-0032"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 54 and 72 is?",
+      "options": [
+        "216",
+        "16",
+        "228",
+        "215"
+      ],
+      "explanation": "Factors: 54 = 54, 72 = 72. LCM = Product ÷ HCF = (54×72) ÷ 18 = 216."
+    },
+    "hi": {
+      "question": "LCM of 54 and 72 is?",
+      "options": [
+        "216",
+        "16",
+        "228",
+        "215"
+      ],
+      "explanation": "Factors: 54 = 54, 72 = 72. LCM = Product ÷ HCF = (54×72) ÷ 18 = 216."
+    },
+    "id": "lcm-hcf-0033"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 63 and 84 is?",
+      "options": [
+        "20",
+        "12",
+        "21",
+        "27"
+      ],
+      "explanation": "Factors of 63: [1, 3, 7, 9, 21, 63], of 84: [1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 84]. Highest common = 21."
+    },
+    "hi": {
+      "question": "HCF of 63 and 84 is?",
+      "options": [
+        "20",
+        "12",
+        "21",
+        "27"
+      ],
+      "explanation": "Factors of 63: [1, 3, 7, 9, 21, 63], of 84: [1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 84]. Highest common = 21."
+    },
+    "id": "lcm-hcf-0034"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 80 and 120 is?",
+      "options": [
+        "12",
+        "252",
+        "239",
+        "240"
+      ],
+      "explanation": "Factors: 80 = 80, 120 = 120. LCM = Product ÷ HCF = (80×120) ÷ 40 = 240."
+    },
+    "hi": {
+      "question": "LCM of 80 and 120 is?",
+      "options": [
+        "12",
+        "252",
+        "239",
+        "240"
+      ],
+      "explanation": "Factors: 80 = 80, 120 = 120. LCM = Product ÷ HCF = (80×120) ÷ 40 = 240."
+    },
+    "id": "lcm-hcf-0035"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 90 and 150 is?",
+      "options": [
+        "8",
+        "42",
+        "29",
+        "30"
+      ],
+      "explanation": "Factors of 90: [1, 2, 3, 5, 6, 9, 10, 15, 18, 30, 45, 90], of 150: [1, 2, 3, 5, 6, 10, 15, 25, 30, 50, 75, 150]. Highest common = 30."
+    },
+    "hi": {
+      "question": "HCF of 90 and 150 is?",
+      "options": [
+        "8",
+        "42",
+        "29",
+        "30"
+      ],
+      "explanation": "Factors of 90: [1, 2, 3, 5, 6, 9, 10, 15, 18, 30, 45, 90], of 150: [1, 2, 3, 5, 6, 10, 15, 25, 30, 50, 75, 150]. Highest common = 30."
+    },
+    "id": "lcm-hcf-0036"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 12 and 18 is?",
+      "options": [
+        "4",
+        "36",
+        "48",
+        "35"
+      ],
+      "explanation": "Factors: 12 = 12, 18 = 18. LCM = Product ÷ HCF = (12×18) ÷ 6 = 36."
+    },
+    "hi": {
+      "question": "LCM of 12 and 18 is?",
+      "options": [
+        "4",
+        "36",
+        "48",
+        "35"
+      ],
+      "explanation": "Factors: 12 = 12, 18 = 18. LCM = Product ÷ HCF = (12×18) ÷ 6 = 36."
+    },
+    "id": "lcm-hcf-0037"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 24 and 36 is?",
+      "options": [
+        "20",
+        "11",
+        "16",
+        "12"
+      ],
+      "explanation": "Factors of 24: [1, 2, 3, 4, 6, 8, 12, 24], of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36]. Highest common = 12."
+    },
+    "hi": {
+      "question": "HCF of 24 and 36 is?",
+      "options": [
+        "20",
+        "11",
+        "16",
+        "12"
+      ],
+      "explanation": "Factors of 24: [1, 2, 3, 4, 6, 8, 12, 24], of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36]. Highest common = 12."
+    },
+    "id": "lcm-hcf-0038"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 15 and 25 is?",
+      "options": [
+        "75",
+        "20",
+        "79",
+        "74"
+      ],
+      "explanation": "Factors: 15 = 15, 25 = 25. LCM = Product ÷ HCF = (15×25) ÷ 5 = 75."
+    },
+    "hi": {
+      "question": "LCM of 15 and 25 is?",
+      "options": [
+        "75",
+        "20",
+        "79",
+        "74"
+      ],
+      "explanation": "Factors: 15 = 15, 25 = 25. LCM = Product ÷ HCF = (15×25) ÷ 5 = 75."
+    },
+    "id": "lcm-hcf-0039"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 30 and 45 is?",
+      "options": [
+        "17",
+        "24",
+        "14",
+        "15"
+      ],
+      "explanation": "Factors of 30: [1, 2, 3, 5, 6, 10, 15, 30], of 45: [1, 3, 5, 9, 15, 45]. Highest common = 15."
+    },
+    "hi": {
+      "question": "HCF of 30 and 45 is?",
+      "options": [
+        "17",
+        "24",
+        "14",
+        "15"
+      ],
+      "explanation": "Factors of 30: [1, 2, 3, 5, 6, 10, 15, 30], of 45: [1, 3, 5, 9, 15, 45]. Highest common = 15."
+    },
+    "id": "lcm-hcf-0040"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 20 and 30 is?",
+      "options": [
+        "60",
+        "24",
+        "59",
+        "72"
+      ],
+      "explanation": "Factors: 20 = 20, 30 = 30. LCM = Product ÷ HCF = (20×30) ÷ 10 = 60."
+    },
+    "hi": {
+      "question": "LCM of 20 and 30 is?",
+      "options": [
+        "60",
+        "24",
+        "59",
+        "72"
+      ],
+      "explanation": "Factors: 20 = 20, 30 = 30. LCM = Product ÷ HCF = (20×30) ÷ 10 = 60."
+    },
+    "id": "lcm-hcf-0041"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 48 and 72 is?",
+      "options": [
+        "30",
+        "24",
+        "8",
+        "23"
+      ],
+      "explanation": "Factors of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48], of 72: [1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72]. Highest common = 24."
+    },
+    "hi": {
+      "question": "HCF of 48 and 72 is?",
+      "options": [
+        "30",
+        "24",
+        "8",
+        "23"
+      ],
+      "explanation": "Factors of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48], of 72: [1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72]. Highest common = 24."
+    },
+    "id": "lcm-hcf-0042"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 16 and 40 is?",
+      "options": [
+        "79",
+        "8",
+        "88",
+        "80"
+      ],
+      "explanation": "Factors: 16 = 16, 40 = 40. LCM = Product ÷ HCF = (16×40) ÷ 8 = 80."
+    },
+    "hi": {
+      "question": "LCM of 16 and 40 is?",
+      "options": [
+        "79",
+        "8",
+        "88",
+        "80"
+      ],
+      "explanation": "Factors: 16 = 16, 40 = 40. LCM = Product ÷ HCF = (16×40) ÷ 8 = 80."
+    },
+    "id": "lcm-hcf-0043"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 28 and 42 is?",
+      "options": [
+        "14",
+        "13",
+        "20",
+        "18"
+      ],
+      "explanation": "Factors of 28: [1, 2, 4, 7, 14, 28], of 42: [1, 2, 3, 6, 7, 14, 21, 42]. Highest common = 14."
+    },
+    "hi": {
+      "question": "HCF of 28 and 42 is?",
+      "options": [
+        "14",
+        "13",
+        "20",
+        "18"
+      ],
+      "explanation": "Factors of 28: [1, 2, 4, 7, 14, 28], of 42: [1, 2, 3, 6, 7, 14, 21, 42]. Highest common = 14."
+    },
+    "id": "lcm-hcf-0044"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 60 and 90 is?",
+      "options": [
+        "188",
+        "180",
+        "179",
+        "8"
+      ],
+      "explanation": "Factors: 60 = 60, 90 = 90. LCM = Product ÷ HCF = (60×90) ÷ 30 = 180."
+    },
+    "hi": {
+      "question": "LCM of 60 and 90 is?",
+      "options": [
+        "188",
+        "180",
+        "179",
+        "8"
+      ],
+      "explanation": "Factors: 60 = 60, 90 = 90. LCM = Product ÷ HCF = (60×90) ÷ 30 = 180."
+    },
+    "id": "lcm-hcf-0045"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 36 and 48 is?",
+      "options": [
+        "20",
+        "16",
+        "12",
+        "11"
+      ],
+      "explanation": "Factors of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36], of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48]. Highest common = 12."
+    },
+    "hi": {
+      "question": "HCF of 36 and 48 is?",
+      "options": [
+        "20",
+        "16",
+        "12",
+        "11"
+      ],
+      "explanation": "Factors of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36], of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48]. Highest common = 12."
+    },
+    "id": "lcm-hcf-0046"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 18 and 24 is?",
+      "options": [
+        "72",
+        "71",
+        "4",
+        "74"
+      ],
+      "explanation": "Factors: 18 = 18, 24 = 24. LCM = Product ÷ HCF = (18×24) ÷ 6 = 72."
+    },
+    "hi": {
+      "question": "LCM of 18 and 24 is?",
+      "options": [
+        "72",
+        "71",
+        "4",
+        "74"
+      ],
+      "explanation": "Factors: 18 = 18, 24 = 24. LCM = Product ÷ HCF = (18×24) ÷ 6 = 72."
+    },
+    "id": "lcm-hcf-0047"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 14 and 21 is?",
+      "options": [
+        "15",
+        "7",
+        "6",
+        "12"
+      ],
+      "explanation": "Factors of 14: [1, 2, 7, 14], of 21: [1, 3, 7, 21]. Highest common = 7."
+    },
+    "hi": {
+      "question": "HCF of 14 and 21 is?",
+      "options": [
+        "15",
+        "7",
+        "6",
+        "12"
+      ],
+      "explanation": "Factors of 14: [1, 2, 7, 14], of 21: [1, 3, 7, 21]. Highest common = 7."
+    },
+    "id": "lcm-hcf-0048"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 35 and 70 is?",
+      "options": [
+        "70",
+        "69",
+        "78",
+        "24"
+      ],
+      "explanation": "Factors: 35 = 35, 70 = 70. LCM = Product ÷ HCF = (35×70) ÷ 35 = 70."
+    },
+    "hi": {
+      "question": "LCM of 35 and 70 is?",
+      "options": [
+        "70",
+        "69",
+        "78",
+        "24"
+      ],
+      "explanation": "Factors: 35 = 35, 70 = 70. LCM = Product ÷ HCF = (35×70) ÷ 35 = 70."
+    },
+    "id": "lcm-hcf-0049"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 50 and 100 is?",
+      "options": [
+        "49",
+        "54",
+        "50",
+        "20"
+      ],
+      "explanation": "Factors of 50: [1, 2, 5, 10, 25, 50], of 100: [1, 2, 4, 5, 10, 20, 25, 50, 100]. Highest common = 50."
+    },
+    "hi": {
+      "question": "HCF of 50 and 100 is?",
+      "options": [
+        "49",
+        "54",
+        "50",
+        "20"
+      ],
+      "explanation": "Factors of 50: [1, 2, 5, 10, 25, 50], of 100: [1, 2, 4, 5, 10, 20, 25, 50, 100]. Highest common = 50."
+    },
+    "id": "lcm-hcf-0050"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 54 and 72 is?",
+      "options": [
+        "224",
+        "216",
+        "16",
+        "215"
+      ],
+      "explanation": "Factors: 54 = 54, 72 = 72. LCM = Product ÷ HCF = (54×72) ÷ 18 = 216."
+    },
+    "hi": {
+      "question": "LCM of 54 and 72 is?",
+      "options": [
+        "224",
+        "216",
+        "16",
+        "215"
+      ],
+      "explanation": "Factors: 54 = 54, 72 = 72. LCM = Product ÷ HCF = (54×72) ÷ 18 = 216."
+    },
+    "id": "lcm-hcf-0051"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 63 and 84 is?",
+      "options": [
+        "21",
+        "20",
+        "23",
+        "20"
+      ],
+      "explanation": "Factors of 63: [1, 3, 7, 9, 21, 63], of 84: [1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 84]. Highest common = 21."
+    },
+    "hi": {
+      "question": "HCF of 63 and 84 is?",
+      "options": [
+        "21",
+        "20",
+        "23",
+        "20"
+      ],
+      "explanation": "Factors of 63: [1, 3, 7, 9, 21, 63], of 84: [1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 84]. Highest common = 21."
+    },
+    "id": "lcm-hcf-0052"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 80 and 120 is?",
+      "options": [
+        "12",
+        "246",
+        "240",
+        "239"
+      ],
+      "explanation": "Factors: 80 = 80, 120 = 120. LCM = Product ÷ HCF = (80×120) ÷ 40 = 240."
+    },
+    "hi": {
+      "question": "LCM of 80 and 120 is?",
+      "options": [
+        "12",
+        "246",
+        "240",
+        "239"
+      ],
+      "explanation": "Factors: 80 = 80, 120 = 120. LCM = Product ÷ HCF = (80×120) ÷ 40 = 240."
+    },
+    "id": "lcm-hcf-0053"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 90 and 150 is?",
+      "options": [
+        "42",
+        "30",
+        "29",
+        "16"
+      ],
+      "explanation": "Factors of 90: [1, 2, 3, 5, 6, 9, 10, 15, 18, 30, 45, 90], of 150: [1, 2, 3, 5, 6, 10, 15, 25, 30, 50, 75, 150]. Highest common = 30."
+    },
+    "hi": {
+      "question": "HCF of 90 and 150 is?",
+      "options": [
+        "42",
+        "30",
+        "29",
+        "16"
+      ],
+      "explanation": "Factors of 90: [1, 2, 3, 5, 6, 9, 10, 15, 18, 30, 45, 90], of 150: [1, 2, 3, 5, 6, 10, 15, 25, 30, 50, 75, 150]. Highest common = 30."
+    },
+    "id": "lcm-hcf-0054"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 12 and 18 is?",
+      "options": [
+        "48",
+        "36",
+        "8",
+        "35"
+      ],
+      "explanation": "Factors: 12 = 12, 18 = 18. LCM = Product ÷ HCF = (12×18) ÷ 6 = 36."
+    },
+    "hi": {
+      "question": "LCM of 12 and 18 is?",
+      "options": [
+        "48",
+        "36",
+        "8",
+        "35"
+      ],
+      "explanation": "Factors: 12 = 12, 18 = 18. LCM = Product ÷ HCF = (12×18) ÷ 6 = 36."
+    },
+    "id": "lcm-hcf-0055"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 24 and 36 is?",
+      "options": [
+        "18",
+        "20",
+        "11",
+        "12"
+      ],
+      "explanation": "Factors of 24: [1, 2, 3, 4, 6, 8, 12, 24], of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36]. Highest common = 12."
+    },
+    "hi": {
+      "question": "HCF of 24 and 36 is?",
+      "options": [
+        "18",
+        "20",
+        "11",
+        "12"
+      ],
+      "explanation": "Factors of 24: [1, 2, 3, 4, 6, 8, 12, 24], of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36]. Highest common = 12."
+    },
+    "id": "lcm-hcf-0056"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 15 and 25 is?",
+      "options": [
+        "77",
+        "74",
+        "75",
+        "4"
+      ],
+      "explanation": "Factors: 15 = 15, 25 = 25. LCM = Product ÷ HCF = (15×25) ÷ 5 = 75."
+    },
+    "hi": {
+      "question": "LCM of 15 and 25 is?",
+      "options": [
+        "77",
+        "74",
+        "75",
+        "4"
+      ],
+      "explanation": "Factors: 15 = 15, 25 = 25. LCM = Product ÷ HCF = (15×25) ÷ 5 = 75."
+    },
+    "id": "lcm-hcf-0057"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 30 and 45 is?",
+      "options": [
+        "15",
+        "12",
+        "14",
+        "23"
+      ],
+      "explanation": "Factors of 30: [1, 2, 3, 5, 6, 10, 15, 30], of 45: [1, 3, 5, 9, 15, 45]. Highest common = 15."
+    },
+    "hi": {
+      "question": "HCF of 30 and 45 is?",
+      "options": [
+        "15",
+        "12",
+        "14",
+        "23"
+      ],
+      "explanation": "Factors of 30: [1, 2, 3, 5, 6, 10, 15, 30], of 45: [1, 3, 5, 9, 15, 45]. Highest common = 15."
+    },
+    "id": "lcm-hcf-0058"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 20 and 30 is?",
+      "options": [
+        "66",
+        "59",
+        "8",
+        "60"
+      ],
+      "explanation": "Factors: 20 = 20, 30 = 30. LCM = Product ÷ HCF = (20×30) ÷ 10 = 60."
+    },
+    "hi": {
+      "question": "LCM of 20 and 30 is?",
+      "options": [
+        "66",
+        "59",
+        "8",
+        "60"
+      ],
+      "explanation": "Factors: 20 = 20, 30 = 30. LCM = Product ÷ HCF = (20×30) ÷ 10 = 60."
+    },
+    "id": "lcm-hcf-0059"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 48 and 72 is?",
+      "options": [
+        "20",
+        "24",
+        "23",
+        "26"
+      ],
+      "explanation": "Factors of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48], of 72: [1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72]. Highest common = 24."
+    },
+    "hi": {
+      "question": "HCF of 48 and 72 is?",
+      "options": [
+        "20",
+        "24",
+        "23",
+        "26"
+      ],
+      "explanation": "Factors of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48], of 72: [1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72]. Highest common = 24."
+    },
+    "id": "lcm-hcf-0060"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 16 and 40 is?",
+      "options": [
+        "79",
+        "80",
+        "4",
+        "82"
+      ],
+      "explanation": "Factors: 16 = 16, 40 = 40. LCM = Product ÷ HCF = (16×40) ÷ 8 = 80."
+    },
+    "hi": {
+      "question": "LCM of 16 and 40 is?",
+      "options": [
+        "79",
+        "80",
+        "4",
+        "82"
+      ],
+      "explanation": "Factors: 16 = 16, 40 = 40. LCM = Product ÷ HCF = (16×40) ÷ 8 = 80."
+    },
+    "id": "lcm-hcf-0061"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 28 and 42 is?",
+      "options": [
+        "14",
+        "13",
+        "24",
+        "16"
+      ],
+      "explanation": "Factors of 28: [1, 2, 4, 7, 14, 28], of 42: [1, 2, 3, 6, 7, 14, 21, 42]. Highest common = 14."
+    },
+    "hi": {
+      "question": "HCF of 28 and 42 is?",
+      "options": [
+        "14",
+        "13",
+        "24",
+        "16"
+      ],
+      "explanation": "Factors of 28: [1, 2, 4, 7, 14, 28], of 42: [1, 2, 3, 6, 7, 14, 21, 42]. Highest common = 14."
+    },
+    "id": "lcm-hcf-0062"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 60 and 90 is?",
+      "options": [
+        "24",
+        "188",
+        "179",
+        "180"
+      ],
+      "explanation": "Factors: 60 = 60, 90 = 90. LCM = Product ÷ HCF = (60×90) ÷ 30 = 180."
+    },
+    "hi": {
+      "question": "LCM of 60 and 90 is?",
+      "options": [
+        "24",
+        "188",
+        "179",
+        "180"
+      ],
+      "explanation": "Factors: 60 = 60, 90 = 90. LCM = Product ÷ HCF = (60×90) ÷ 30 = 180."
+    },
+    "id": "lcm-hcf-0063"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 36 and 48 is?",
+      "options": [
+        "16",
+        "12",
+        "18",
+        "11"
+      ],
+      "explanation": "Factors of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36], of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48]. Highest common = 12."
+    },
+    "hi": {
+      "question": "HCF of 36 and 48 is?",
+      "options": [
+        "16",
+        "12",
+        "18",
+        "11"
+      ],
+      "explanation": "Factors of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36], of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48]. Highest common = 12."
+    },
+    "id": "lcm-hcf-0064"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 18 and 24 is?",
+      "options": [
+        "12",
+        "71",
+        "74",
+        "72"
+      ],
+      "explanation": "Factors: 18 = 18, 24 = 24. LCM = Product ÷ HCF = (18×24) ÷ 6 = 72."
+    },
+    "hi": {
+      "question": "LCM of 18 and 24 is?",
+      "options": [
+        "12",
+        "71",
+        "74",
+        "72"
+      ],
+      "explanation": "Factors: 18 = 18, 24 = 24. LCM = Product ÷ HCF = (18×24) ÷ 6 = 72."
+    },
+    "id": "lcm-hcf-0065"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 14 and 21 is?",
       "options": [
         "4",
         "7",
         "13",
-        "16"
+        "6"
       ],
-      "explanation": "Required number = HCF of differences. 91-43=48, 183-91=92, 183-43=140. HCF(48,92,140) = 4."
+      "explanation": "Factors of 14: [1, 2, 7, 14], of 21: [1, 3, 7, 21]. Highest common = 7."
     },
     "hi": {
-      "question": "वह सबसे बड़ी संख्या क्या है जो 43, 91 और 183 को विभाजित करने पर प्रत्येक में समान शेषफल देती है?",
+      "question": "HCF of 14 and 21 is?",
       "options": [
         "4",
         "7",
         "13",
+        "6"
+      ],
+      "explanation": "Factors of 14: [1, 2, 7, 14], of 21: [1, 3, 7, 21]. Highest common = 7."
+    },
+    "id": "lcm-hcf-0066"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 35 and 70 is?",
+      "options": [
+        "69",
+        "78",
+        "70",
+        "4"
+      ],
+      "explanation": "Factors: 35 = 35, 70 = 70. LCM = Product ÷ HCF = (35×70) ÷ 35 = 70."
+    },
+    "hi": {
+      "question": "LCM of 35 and 70 is?",
+      "options": [
+        "69",
+        "78",
+        "70",
+        "4"
+      ],
+      "explanation": "Factors: 35 = 35, 70 = 70. LCM = Product ÷ HCF = (35×70) ÷ 35 = 70."
+    },
+    "id": "lcm-hcf-0067"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 50 and 100 is?",
+      "options": [
+        "54",
+        "49",
+        "50",
+        "24"
+      ],
+      "explanation": "Factors of 50: [1, 2, 5, 10, 25, 50], of 100: [1, 2, 4, 5, 10, 20, 25, 50, 100]. Highest common = 50."
+    },
+    "hi": {
+      "question": "HCF of 50 and 100 is?",
+      "options": [
+        "54",
+        "49",
+        "50",
+        "24"
+      ],
+      "explanation": "Factors of 50: [1, 2, 5, 10, 25, 50], of 100: [1, 2, 4, 5, 10, 20, 25, 50, 100]. Highest common = 50."
+    },
+    "id": "lcm-hcf-0068"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 54 and 72 is?",
+      "options": [
+        "16",
+        "216",
+        "215",
+        "228"
+      ],
+      "explanation": "Factors: 54 = 54, 72 = 72. LCM = Product ÷ HCF = (54×72) ÷ 18 = 216."
+    },
+    "hi": {
+      "question": "LCM of 54 and 72 is?",
+      "options": [
+        "16",
+        "216",
+        "215",
+        "228"
+      ],
+      "explanation": "Factors: 54 = 54, 72 = 72. LCM = Product ÷ HCF = (54×72) ÷ 18 = 216."
+    },
+    "id": "lcm-hcf-0069"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 63 and 84 is?",
+      "options": [
+        "29",
+        "24",
+        "21",
+        "20"
+      ],
+      "explanation": "Factors of 63: [1, 3, 7, 9, 21, 63], of 84: [1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 84]. Highest common = 21."
+    },
+    "hi": {
+      "question": "HCF of 63 and 84 is?",
+      "options": [
+        "29",
+        "24",
+        "21",
+        "20"
+      ],
+      "explanation": "Factors of 63: [1, 3, 7, 9, 21, 63], of 84: [1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 84]. Highest common = 21."
+    },
+    "id": "lcm-hcf-0070"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 80 and 120 is?",
+      "options": [
+        "4",
+        "240",
+        "242",
+        "239"
+      ],
+      "explanation": "Factors: 80 = 80, 120 = 120. LCM = Product ÷ HCF = (80×120) ÷ 40 = 240."
+    },
+    "hi": {
+      "question": "LCM of 80 and 120 is?",
+      "options": [
+        "4",
+        "240",
+        "242",
+        "239"
+      ],
+      "explanation": "Factors: 80 = 80, 120 = 120. LCM = Product ÷ HCF = (80×120) ÷ 40 = 240."
+    },
+    "id": "lcm-hcf-0071"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 90 and 150 is?",
+      "options": [
+        "29",
+        "38",
+        "8",
+        "30"
+      ],
+      "explanation": "Factors of 90: [1, 2, 3, 5, 6, 9, 10, 15, 18, 30, 45, 90], of 150: [1, 2, 3, 5, 6, 10, 15, 25, 30, 50, 75, 150]. Highest common = 30."
+    },
+    "hi": {
+      "question": "HCF of 90 and 150 is?",
+      "options": [
+        "29",
+        "38",
+        "8",
+        "30"
+      ],
+      "explanation": "Factors of 90: [1, 2, 3, 5, 6, 9, 10, 15, 18, 30, 45, 90], of 150: [1, 2, 3, 5, 6, 10, 15, 25, 30, 50, 75, 150]. Highest common = 30."
+    },
+    "id": "lcm-hcf-0072"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 12 and 18 is?",
+      "options": [
+        "8",
+        "36",
+        "42",
+        "35"
+      ],
+      "explanation": "Factors: 12 = 12, 18 = 18. LCM = Product ÷ HCF = (12×18) ÷ 6 = 36."
+    },
+    "hi": {
+      "question": "LCM of 12 and 18 is?",
+      "options": [
+        "8",
+        "36",
+        "42",
+        "35"
+      ],
+      "explanation": "Factors: 12 = 12, 18 = 18. LCM = Product ÷ HCF = (12×18) ÷ 6 = 36."
+    },
+    "id": "lcm-hcf-0073"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 24 and 36 is?",
+      "options": [
+        "12",
+        "11",
+        "24",
+        "24"
+      ],
+      "explanation": "Factors of 24: [1, 2, 3, 4, 6, 8, 12, 24], of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36]. Highest common = 12."
+    },
+    "hi": {
+      "question": "HCF of 24 and 36 is?",
+      "options": [
+        "12",
+        "11",
+        "24",
+        "24"
+      ],
+      "explanation": "Factors of 24: [1, 2, 3, 4, 6, 8, 12, 24], of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36]. Highest common = 12."
+    },
+    "id": "lcm-hcf-0074"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 15 and 25 is?",
+      "options": [
+        "83",
+        "24",
+        "74",
+        "75"
+      ],
+      "explanation": "Factors: 15 = 15, 25 = 25. LCM = Product ÷ HCF = (15×25) ÷ 5 = 75."
+    },
+    "hi": {
+      "question": "LCM of 15 and 25 is?",
+      "options": [
+        "83",
+        "24",
+        "74",
+        "75"
+      ],
+      "explanation": "Factors: 15 = 15, 25 = 25. LCM = Product ÷ HCF = (15×25) ÷ 5 = 75."
+    },
+    "id": "lcm-hcf-0075"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 30 and 45 is?",
+      "options": [
+        "14",
+        "17",
+        "15",
         "16"
       ],
-      "explanation": "अभीष्ट संख्या = अंतरों का HCF। 91-43=48, 183-91=92, 183-43=140। HCF(48,92,140) = 4।"
-    }
+      "explanation": "Factors of 30: [1, 2, 3, 5, 6, 10, 15, 30], of 45: [1, 3, 5, 9, 15, 45]. Highest common = 15."
+    },
+    "hi": {
+      "question": "HCF of 30 and 45 is?",
+      "options": [
+        "14",
+        "17",
+        "15",
+        "16"
+      ],
+      "explanation": "Factors of 30: [1, 2, 3, 5, 6, 10, 15, 30], of 45: [1, 3, 5, 9, 15, 45]. Highest common = 15."
+    },
+    "id": "lcm-hcf-0076"
   },
   {
-    "id": "gdmlh-0006",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "easy",
-    "sourceYear": 2024,
+    "sourceYear": 2025,
     "en": {
-      "question": "Three bells ring at intervals of 12, 15, and 18 minutes. If they ring together at 10:00 AM, when will they next ring together?",
+      "question": "LCM of 20 and 30 is?",
       "options": [
-        "10:30 AM",
-        "11:00 AM",
-        "1:00 PM",
-        "1:30 PM"
+        "24",
+        "60",
+        "66",
+        "59"
       ],
-      "explanation": "LCM of 12, 15, 18 = 180 minutes = 3 hours. 10:00 AM + 3 hrs = 1:00 PM."
+      "explanation": "Factors: 20 = 20, 30 = 30. LCM = Product ÷ HCF = (20×30) ÷ 10 = 60."
     },
     "hi": {
-      "question": "तीन घंटियां 12, 15 और 18 मिनट के अंतराल पर बजती हैं। यदि वे सुबह 10:00 बजे एक साथ बजती हैं, तो अगली बार एक साथ कब बजेंगी?",
+      "question": "LCM of 20 and 30 is?",
       "options": [
-        "सुबह 10:30",
-        "सुबह 11:00",
-        "दोपहर 1:00",
-        "दोपहर 1:30"
+        "24",
+        "60",
+        "66",
+        "59"
       ],
-      "explanation": "12, 15, 18 का LCM = 180 मिनट = 3 घंटे। सुबह 10:00 + 3 घंटे = दोपहर 1:00।"
-    }
-  },
-  {
-    "id": "gdmlh-0007",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2023,
-    "en": {
-      "question": "Find the smallest 4-digit number which is divisible by 18, 24, and 32.",
-      "options": [
-        "1008",
-        "1056",
-        "1152",
-        "1184"
-      ],
-      "explanation": "LCM of 18, 24, 32 = 288. Smallest 4-digit multiple = 288 x 4 = 1152."
+      "explanation": "Factors: 20 = 20, 30 = 30. LCM = Product ÷ HCF = (20×30) ÷ 10 = 60."
     },
-    "hi": {
-      "question": "सबसे छोटी 4-अंकीय संख्या ज्ञात करें जो 18, 24 और 32 से विभाज्य हो।",
-      "options": [
-        "1008",
-        "1056",
-        "1152",
-        "1184"
-      ],
-      "explanation": "18, 24, 32 का LCM = 288। सबसे छोटा 4-अंकीय गुणज = 288 × 4 = 1152।"
-    }
+    "id": "lcm-hcf-0077"
   },
   {
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "SI on Rs.33000 at 26% for 17 yrs?",
+      "question": "HCF of 48 and 72 is?",
       "options": [
-        "Rs.72930",
-        "Rs.291720",
-        "Rs.145860",
-        "Rs.33000"
-      ],
-      "explanation": "SI=33000×26×17/100=145860.0."
-    },
-    "hi": {
-      "question": "33000 रु. पर 26% से 17 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.72930",
-        "Rs.291720",
-        "Rs.145860",
-        "Rs.33000"
-      ],
-      "explanation": "सा.ब्याज=33000×26×17/100=145860.0।"
-    },
-    "id": "gdmlh-0008"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 36, 12, 33, 37, 45, 78",
-      "options": [
-        "241",
-        "78",
         "12",
-        "40.2"
+        "26",
+        "24",
+        "23"
       ],
-      "explanation": "Sum=241/6=40.2."
+      "explanation": "Factors of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48], of 72: [1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72]. Highest common = 24."
     },
     "hi": {
-      "question": "औसत: 36, 12, 33, 37, 45, 78",
+      "question": "HCF of 48 and 72 is?",
       "options": [
-        "241",
-        "78",
         "12",
-        "40.2"
+        "26",
+        "24",
+        "23"
       ],
-      "explanation": "योग=241/6=40.2।"
+      "explanation": "Factors of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48], of 72: [1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72]. Highest common = 24."
     },
-    "id": "gdmlh-0009"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 45d, B in 17d. Together?",
-      "options": [
-        "28d",
-        "24.6d",
-        "12.3d",
-        "62d"
-      ],
-      "explanation": "1d: 1/45+1/17. Time=12.3d."
-    },
-    "hi": {
-      "question": "A 45दिन, B 17दिन। साथ?",
-      "options": [
-        "28d",
-        "24.6d",
-        "12.3d",
-        "62d"
-      ],
-      "explanation": "1दिन: 1/45+1/17। समय=12.3दिन।"
-    },
-    "id": "gdmlh-0010"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 46 + 37 × 4",
-      "options": [
-        "332",
-        "157",
-        "87",
-        "6808"
-      ],
-      "explanation": "BODMAS: 37×4=148+46=157."
-    },
-    "hi": {
-      "question": "सरल करें: 46 + 37 × 4",
-      "options": [
-        "332",
-        "157",
-        "87",
-        "6808"
-      ],
-      "explanation": "BODMAS: 37×4+46=157।"
-    },
-    "id": "gdmlh-0011"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.34000 at 23% for 6 yrs?",
-      "options": [
-        "Rs.93840",
-        "Rs.46920",
-        "Rs.23460",
-        "Rs.34000"
-      ],
-      "explanation": "SI=34000×23×6/100=46920.0."
-    },
-    "hi": {
-      "question": "34000 रु. पर 23% से 6 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.93840",
-        "Rs.46920",
-        "Rs.23460",
-        "Rs.34000"
-      ],
-      "explanation": "सा.ब्याज=34000×23×6/100=46920.0।"
-    },
-    "id": "gdmlh-0012"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.23000 at 20% for 40 yrs?",
-      "options": [
-        "Rs.368000",
-        "Rs.23000",
-        "Rs.92000",
-        "Rs.184000"
-      ],
-      "explanation": "SI=23000×20×40/100=184000.0."
-    },
-    "hi": {
-      "question": "23000 रु. पर 20% से 40 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.368000",
-        "Rs.23000",
-        "Rs.92000",
-        "Rs.184000"
-      ],
-      "explanation": "सा.ब्याज=23000×20×40/100=184000.0।"
-    },
-    "id": "gdmlh-0013"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.14000 at 29% for 37 yrs?",
-      "options": [
-        "Rs.150220",
-        "Rs.75110",
-        "Rs.300440",
-        "Rs.14000"
-      ],
-      "explanation": "SI=14000×29×37/100=150220.0."
-    },
-    "hi": {
-      "question": "14000 रु. पर 29% से 37 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.150220",
-        "Rs.75110",
-        "Rs.300440",
-        "Rs.14000"
-      ],
-      "explanation": "सा.ब्याज=14000×29×37/100=150220.0।"
-    },
-    "id": "gdmlh-0014"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 41d, B in 20d. Together?",
-      "options": [
-        "21d",
-        "26.8d",
-        "13.4d",
-        "61d"
-      ],
-      "explanation": "1d: 1/41+1/20. Time=13.4d."
-    },
-    "hi": {
-      "question": "A 41दिन, B 20दिन। साथ?",
-      "options": [
-        "21d",
-        "26.8d",
-        "13.4d",
-        "61d"
-      ],
-      "explanation": "1दिन: 1/41+1/20। समय=13.4दिन।"
-    },
-    "id": "gdmlh-0015"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 31d, B in 37d. Together?",
-      "options": [
-        "16.9d",
-        "6d",
-        "68d",
-        "33.8d"
-      ],
-      "explanation": "1d: 1/31+1/37. Time=16.9d."
-    },
-    "hi": {
-      "question": "A 31दिन, B 37दिन। साथ?",
-      "options": [
-        "16.9d",
-        "6d",
-        "68d",
-        "33.8d"
-      ],
-      "explanation": "1दिन: 1/31+1/37। समय=16.9दिन।"
-    },
-    "id": "gdmlh-0016"
+    "id": "lcm-hcf-0078"
   },
   {
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Buy Rs.250, sell at 24% profit. SP?",
+      "question": "LCM of 16 and 40 is?",
       "options": [
-        "500",
-        "250",
-        "310",
-        "248"
-      ],
-      "explanation": "SP=250×1.24=310.0."
-    },
-    "hi": {
-      "question": "खरीदा 250 रु., 24% लाभ। वि.मू.?",
-      "options": [
-        "500",
-        "250",
-        "310",
-        "248"
-      ],
-      "explanation": "वि.मू.=310.0।"
-    },
-    "id": "gdmlh-0017"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 49 + 30 × 9",
-      "options": [
-        "711",
-        "289",
-        "88",
-        "13230"
-      ],
-      "explanation": "BODMAS: 30×9=270+49=289."
-    },
-    "hi": {
-      "question": "सरल करें: 49 + 30 × 9",
-      "options": [
-        "711",
-        "289",
-        "88",
-        "13230"
-      ],
-      "explanation": "BODMAS: 30×9+49=289।"
-    },
-    "id": "gdmlh-0018"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 29 + 12 × 7",
-      "options": [
-        "89",
-        "48",
-        "2436",
-        "287"
-      ],
-      "explanation": "BODMAS: 12×7=84+29=89."
-    },
-    "hi": {
-      "question": "सरल करें: 29 + 12 × 7",
-      "options": [
-        "89",
-        "48",
-        "2436",
-        "287"
-      ],
-      "explanation": "BODMAS: 12×7+29=89।"
-    },
-    "id": "gdmlh-0019"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.27000 at 10% for 4 yrs?",
-      "options": [
-        "Rs.5400",
-        "Rs.21600",
-        "Rs.10800",
-        "Rs.27000"
-      ],
-      "explanation": "SI=27000×10×4/100=10800.0."
-    },
-    "hi": {
-      "question": "27000 रु. पर 10% से 4 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.5400",
-        "Rs.21600",
-        "Rs.10800",
-        "Rs.27000"
-      ],
-      "explanation": "सा.ब्याज=27000×10×4/100=10800.0।"
-    },
-    "id": "gdmlh-0020"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 48 + 28 × 7",
-      "options": [
-        "532",
-        "83",
-        "216",
-        "9408"
-      ],
-      "explanation": "BODMAS: 28×7=196+48=216."
-    },
-    "hi": {
-      "question": "सरल करें: 48 + 28 × 7",
-      "options": [
-        "532",
-        "83",
-        "216",
-        "9408"
-      ],
-      "explanation": "BODMAS: 28×7+48=216।"
-    },
-    "id": "gdmlh-0021"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "26% of 480?",
-      "options": [
-        "960",
-        "1248",
-        "240",
-        "480"
-      ],
-      "explanation": "480×26/100 = 1248."
-    },
-    "hi": {
-      "question": "480 का 26%?",
-      "options": [
-        "960",
-        "1248",
-        "240",
-        "480"
-      ],
-      "explanation": "480×26/100 = 1248।"
-    },
-    "id": "gdmlh-0022"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.7000 at 22% for 8 yrs?",
-      "options": [
-        "Rs.12320",
-        "Rs.7000",
-        "Rs.6160",
-        "Rs.24640"
-      ],
-      "explanation": "SI=7000×22×8/100=12320.0."
-    },
-    "hi": {
-      "question": "7000 रु. पर 22% से 8 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.12320",
-        "Rs.7000",
-        "Rs.6160",
-        "Rs.24640"
-      ],
-      "explanation": "सा.ब्याज=7000×22×8/100=12320.0।"
-    },
-    "id": "gdmlh-0023"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 40, 49, 65, 29, 53, 57",
-      "options": [
-        "65",
-        "293",
-        "48.8",
-        "29"
-      ],
-      "explanation": "Sum=293/6=48.8."
-    },
-    "hi": {
-      "question": "औसत: 40, 49, 65, 29, 53, 57",
-      "options": [
-        "65",
-        "293",
-        "48.8",
-        "29"
-      ],
-      "explanation": "योग=293/6=48.8।"
-    },
-    "id": "gdmlh-0024"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.34000 at 8% for 13 yrs?",
-      "options": [
-        "Rs.35360",
-        "Rs.70720",
-        "Rs.34000",
-        "Rs.17680"
-      ],
-      "explanation": "SI=34000×8×13/100=35360.0."
-    },
-    "hi": {
-      "question": "34000 रु. पर 8% से 13 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.35360",
-        "Rs.70720",
-        "Rs.34000",
-        "Rs.17680"
-      ],
-      "explanation": "सा.ब्याज=34000×8×13/100=35360.0।"
-    },
-    "id": "gdmlh-0025"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 26d, B in 4d. Together?",
-      "options": [
-        "3.5d",
-        "30d",
-        "7.0d",
-        "22d"
-      ],
-      "explanation": "1d: 1/26+1/4. Time=3.5d."
-    },
-    "hi": {
-      "question": "A 26दिन, B 4दिन। साथ?",
-      "options": [
-        "3.5d",
-        "30d",
-        "7.0d",
-        "22d"
-      ],
-      "explanation": "1दिन: 1/26+1/4। समय=3.5दिन।"
-    },
-    "id": "gdmlh-0026"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 26d, B in 32d. Together?",
-      "options": [
-        "6d",
-        "58d",
-        "28.6d",
-        "14.3d"
-      ],
-      "explanation": "1d: 1/26+1/32. Time=14.3d."
-    },
-    "hi": {
-      "question": "A 26दिन, B 32दिन। साथ?",
-      "options": [
-        "6d",
-        "58d",
-        "28.6d",
-        "14.3d"
-      ],
-      "explanation": "1दिन: 1/26+1/32। समय=14.3दिन।"
-    },
-    "id": "gdmlh-0027"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 46d, B in 3d. Together?",
-      "options": [
-        "2.8d",
-        "5.6d",
-        "49d",
-        "43d"
-      ],
-      "explanation": "1d: 1/46+1/3. Time=2.8d."
-    },
-    "hi": {
-      "question": "A 46दिन, B 3दिन। साथ?",
-      "options": [
-        "2.8d",
-        "5.6d",
-        "49d",
-        "43d"
-      ],
-      "explanation": "1दिन: 1/46+1/3। समय=2.8दिन।"
-    },
-    "id": "gdmlh-0028"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 60, 47, 29, 77, 72, 21",
-      "options": [
-        "21",
-        "306",
-        "77",
-        "51"
-      ],
-      "explanation": "Sum=306/6=51."
-    },
-    "hi": {
-      "question": "औसत: 60, 47, 29, 77, 72, 21",
-      "options": [
-        "21",
-        "306",
-        "77",
-        "51"
-      ],
-      "explanation": "योग=306/6=51।"
-    },
-    "id": "gdmlh-0029"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 25d, B in 21d. Together?",
-      "options": [
-        "4d",
-        "22.8d",
-        "11.4d",
-        "46d"
-      ],
-      "explanation": "1d: 1/25+1/21. Time=11.4d."
-    },
-    "hi": {
-      "question": "A 25दिन, B 21दिन। साथ?",
-      "options": [
-        "4d",
-        "22.8d",
-        "11.4d",
-        "46d"
-      ],
-      "explanation": "1दिन: 1/25+1/21। समय=11.4दिन।"
-    },
-    "id": "gdmlh-0030"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "19% of 460?",
-      "options": [
-        "230",
-        "920",
-        "874",
-        "460"
-      ],
-      "explanation": "460×19/100 = 874."
-    },
-    "hi": {
-      "question": "460 का 19%?",
-      "options": [
-        "230",
-        "920",
-        "874",
-        "460"
-      ],
-      "explanation": "460×19/100 = 874।"
-    },
-    "id": "gdmlh-0031"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 35km/hr for 18hrs. Distance?",
-      "options": [
-        "315 km",
-        "630 km",
-        "53 km",
-        "1260 km"
-      ],
-      "explanation": "Distance=35×18=630km."
-    },
-    "hi": {
-      "question": "35किमी/घंटा, 18घंटे। दूरी?",
-      "options": [
-        "315 km",
-        "630 km",
-        "53 km",
-        "1260 km"
-      ],
-      "explanation": "दूरी=630किमी।"
-    },
-    "id": "gdmlh-0032"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.280, sell at 6% profit. SP?",
-      "options": [
-        "280",
-        "560",
-        "296.8",
-        "237"
-      ],
-      "explanation": "SP=280×1.06=296.8."
-    },
-    "hi": {
-      "question": "खरीदा 280 रु., 6% लाभ। वि.मू.?",
-      "options": [
-        "280",
-        "560",
-        "296.8",
-        "237"
-      ],
-      "explanation": "वि.मू.=296.8।"
-    },
-    "id": "gdmlh-0033"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 28km/hr for 29hrs. Distance?",
-      "options": [
-        "1624 km",
-        "57 km",
-        "812 km",
-        "406 km"
-      ],
-      "explanation": "Distance=28×29=812km."
-    },
-    "hi": {
-      "question": "28किमी/घंटा, 29घंटे। दूरी?",
-      "options": [
-        "1624 km",
-        "57 km",
-        "812 km",
-        "406 km"
-      ],
-      "explanation": "दूरी=812किमी।"
-    },
-    "id": "gdmlh-0034"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 35km/hr for 6hrs. Distance?",
-      "options": [
-        "41 km",
-        "105 km",
-        "210 km",
-        "420 km"
-      ],
-      "explanation": "Distance=35×6=210km."
-    },
-    "hi": {
-      "question": "35किमी/घंटा, 6घंटे। दूरी?",
-      "options": [
-        "41 km",
-        "105 km",
-        "210 km",
-        "420 km"
-      ],
-      "explanation": "दूरी=210किमी।"
-    },
-    "id": "gdmlh-0035"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 48km/hr for 38hrs. Distance?",
-      "options": [
-        "3648 km",
-        "1824 km",
-        "912 km",
-        "86 km"
-      ],
-      "explanation": "Distance=48×38=1824km."
-    },
-    "hi": {
-      "question": "48किमी/घंटा, 38घंटे। दूरी?",
-      "options": [
-        "3648 km",
-        "1824 km",
-        "912 km",
-        "86 km"
-      ],
-      "explanation": "दूरी=1824किमी।"
-    },
-    "id": "gdmlh-0036"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 20, 31, 47, 45, 21, 45",
-      "options": [
-        "47",
-        "209",
-        "20",
-        "34.8"
-      ],
-      "explanation": "Sum=209/6=34.8."
-    },
-    "hi": {
-      "question": "औसत: 20, 31, 47, 45, 21, 45",
-      "options": [
-        "47",
-        "209",
-        "20",
-        "34.8"
-      ],
-      "explanation": "योग=209/6=34.8।"
-    },
-    "id": "gdmlh-0037"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.120, sell at 14% profit. SP?",
-      "options": [
-        "136.8",
-        "109",
-        "240",
-        "120"
-      ],
-      "explanation": "SP=120×1.1400000000000001=136.8."
-    },
-    "hi": {
-      "question": "खरीदा 120 रु., 14% लाभ। वि.मू.?",
-      "options": [
-        "136.8",
-        "109",
-        "240",
-        "120"
-      ],
-      "explanation": "वि.मू.=136.8।"
-    },
-    "id": "gdmlh-0038"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 27, 5, 12, 32, 46, 55",
-      "options": [
-        "177",
-        "55",
-        "29.5",
-        "5"
-      ],
-      "explanation": "Sum=177/6=29.5."
-    },
-    "hi": {
-      "question": "औसत: 27, 5, 12, 32, 46, 55",
-      "options": [
-        "177",
-        "55",
-        "29.5",
-        "5"
-      ],
-      "explanation": "योग=177/6=29.5।"
-    },
-    "id": "gdmlh-0039"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 52, 80, 30, 69, 13, 55",
-      "options": [
-        "49.8",
+        "24",
+        "79",
         "80",
-        "13",
-        "299"
+        "86"
       ],
-      "explanation": "Sum=299/6=49.8."
+      "explanation": "Factors: 16 = 16, 40 = 40. LCM = Product ÷ HCF = (16×40) ÷ 8 = 80."
     },
     "hi": {
-      "question": "औसत: 52, 80, 30, 69, 13, 55",
+      "question": "LCM of 16 and 40 is?",
       "options": [
-        "49.8",
+        "24",
+        "79",
         "80",
+        "86"
+      ],
+      "explanation": "Factors: 16 = 16, 40 = 40. LCM = Product ÷ HCF = (16×40) ÷ 8 = 80."
+    },
+    "id": "lcm-hcf-0079"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 28 and 42 is?",
+      "options": [
+        "14",
         "13",
-        "299"
-      ],
-      "explanation": "योग=299/6=49.8।"
-    },
-    "id": "gdmlh-0040"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.300, sell at 25% profit. SP?",
-      "options": [
-        "300",
-        "375",
-        "600",
-        "300"
-      ],
-      "explanation": "SP=300×1.25=375.0."
-    },
-    "hi": {
-      "question": "खरीदा 300 रु., 25% लाभ। वि.मू.?",
-      "options": [
-        "300",
-        "375",
-        "600",
-        "300"
-      ],
-      "explanation": "वि.मू.=375.0।"
-    },
-    "id": "gdmlh-0041"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 7 and 27?",
-      "options": [
-        "189",
-        "189",
-        "34",
-        "1"
-      ],
-      "explanation": "LCM=7×27/1=189."
-    },
-    "hi": {
-      "question": "7 और 27 का ल.स.?",
-      "options": [
-        "189",
-        "189",
-        "34",
-        "1"
-      ],
-      "explanation": "ल.स.=189।"
-    },
-    "id": "gdmlh-0042"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.70, sell at 24% profit. SP?",
-      "options": [
-        "86.8",
-        "69",
-        "140",
-        "70"
-      ],
-      "explanation": "SP=70×1.24=86.8."
-    },
-    "hi": {
-      "question": "खरीदा 70 रु., 24% लाभ। वि.मू.?",
-      "options": [
-        "86.8",
-        "69",
-        "140",
-        "70"
-      ],
-      "explanation": "वि.मू.=86.8।"
-    },
-    "id": "gdmlh-0043"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.380, sell at 15% profit. SP?",
-      "options": [
-        "349",
-        "760",
-        "437",
-        "380"
-      ],
-      "explanation": "SP=380×1.15=437.0."
-    },
-    "hi": {
-      "question": "खरीदा 380 रु., 15% लाभ। वि.मू.?",
-      "options": [
-        "349",
-        "760",
-        "437",
-        "380"
-      ],
-      "explanation": "वि.मू.=437.0।"
-    },
-    "id": "gdmlh-0044"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 21km/hr for 38hrs. Distance?",
-      "options": [
-        "1596 km",
-        "399 km",
-        "798 km",
-        "59 km"
-      ],
-      "explanation": "Distance=21×38=798km."
-    },
-    "hi": {
-      "question": "21किमी/घंटा, 38घंटे। दूरी?",
-      "options": [
-        "1596 km",
-        "399 km",
-        "798 km",
-        "59 km"
-      ],
-      "explanation": "दूरी=798किमी।"
-    },
-    "id": "gdmlh-0045"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.170, sell at 16% profit. SP?",
-      "options": [
-        "170",
-        "197.2",
-        "157",
-        "340"
-      ],
-      "explanation": "SP=170×1.16=197.2."
-    },
-    "hi": {
-      "question": "खरीदा 170 रु., 16% लाभ। वि.मू.?",
-      "options": [
-        "170",
-        "197.2",
-        "157",
-        "340"
-      ],
-      "explanation": "वि.मू.=197.2।"
-    },
-    "id": "gdmlh-0046"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.49000 at 6% for 15 yrs?",
-      "options": [
-        "Rs.49000",
-        "Rs.88200",
-        "Rs.22050",
-        "Rs.44100"
-      ],
-      "explanation": "SI=49000×6×15/100=44100.0."
-    },
-    "hi": {
-      "question": "49000 रु. पर 6% से 15 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.49000",
-        "Rs.88200",
-        "Rs.22050",
-        "Rs.44100"
-      ],
-      "explanation": "सा.ब्याज=49000×6×15/100=44100.0।"
-    },
-    "id": "gdmlh-0047"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 23 + 6 × 6",
-      "options": [
-        "41",
-        "828",
-        "35",
-        "174"
-      ],
-      "explanation": "BODMAS: 6×6=36+23=41."
-    },
-    "hi": {
-      "question": "सरल करें: 23 + 6 × 6",
-      "options": [
-        "41",
-        "828",
-        "35",
-        "174"
-      ],
-      "explanation": "BODMAS: 6×6+23=41।"
-    },
-    "id": "gdmlh-0048"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 8km/hr for 32hrs. Distance?",
-      "options": [
-        "40 km",
-        "256 km",
-        "512 km",
-        "128 km"
-      ],
-      "explanation": "Distance=8×32=256km."
-    },
-    "hi": {
-      "question": "8किमी/घंटा, 32घंटे। दूरी?",
-      "options": [
-        "40 km",
-        "256 km",
-        "512 km",
-        "128 km"
-      ],
-      "explanation": "दूरी=256किमी।"
-    },
-    "id": "gdmlh-0049"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "14% of 400?",
-      "options": [
-        "800",
-        "560",
-        "400",
-        "200"
-      ],
-      "explanation": "400×14/100 = 560."
-    },
-    "hi": {
-      "question": "400 का 14%?",
-      "options": [
-        "800",
-        "560",
-        "400",
-        "200"
-      ],
-      "explanation": "400×14/100 = 560।"
-    },
-    "id": "gdmlh-0050"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 38km/hr for 32hrs. Distance?",
-      "options": [
-        "1216 km",
-        "608 km",
-        "2432 km",
-        "70 km"
-      ],
-      "explanation": "Distance=38×32=1216km."
-    },
-    "hi": {
-      "question": "38किमी/घंटा, 32घंटे। दूरी?",
-      "options": [
-        "1216 km",
-        "608 km",
-        "2432 km",
-        "70 km"
-      ],
-      "explanation": "दूरी=1216किमी।"
-    },
-    "id": "gdmlh-0051"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 13 + 36 × 2",
-      "options": [
-        "936",
-        "85",
-        "51",
-        "98"
-      ],
-      "explanation": "BODMAS: 36×2=72+13=85."
-    },
-    "hi": {
-      "question": "सरल करें: 13 + 36 × 2",
-      "options": [
-        "936",
-        "85",
-        "51",
-        "98"
-      ],
-      "explanation": "BODMAS: 36×2+13=85।"
-    },
-    "id": "gdmlh-0052"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 31, 72, 53, 9, 26, 68",
-      "options": [
-        "259",
-        "43.2",
-        "9",
-        "72"
-      ],
-      "explanation": "Sum=259/6=43.2."
-    },
-    "hi": {
-      "question": "औसत: 31, 72, 53, 9, 26, 68",
-      "options": [
-        "259",
-        "43.2",
-        "9",
-        "72"
-      ],
-      "explanation": "योग=259/6=43.2।"
-    },
-    "id": "gdmlh-0053"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 7km/hr for 38hrs. Distance?",
-      "options": [
-        "45 km",
-        "266 km",
-        "532 km",
-        "133 km"
-      ],
-      "explanation": "Distance=7×38=266km."
-    },
-    "hi": {
-      "question": "7किमी/घंटा, 38घंटे। दूरी?",
-      "options": [
-        "45 km",
-        "266 km",
-        "532 km",
-        "133 km"
-      ],
-      "explanation": "दूरी=266किमी।"
-    },
-    "id": "gdmlh-0054"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.28000 at 21% for 25 yrs?",
-      "options": [
-        "Rs.147000",
-        "Rs.294000",
-        "Rs.28000",
-        "Rs.73500"
-      ],
-      "explanation": "SI=28000×21×25/100=147000.0."
-    },
-    "hi": {
-      "question": "28000 रु. पर 21% से 25 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.147000",
-        "Rs.294000",
-        "Rs.28000",
-        "Rs.73500"
-      ],
-      "explanation": "सा.ब्याज=28000×21×25/100=147000.0।"
-    },
-    "id": "gdmlh-0055"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 44d, B in 31d. Together?",
-      "options": [
-        "13d",
-        "18.2d",
-        "36.4d",
-        "75d"
-      ],
-      "explanation": "1d: 1/44+1/31. Time=18.2d."
-    },
-    "hi": {
-      "question": "A 44दिन, B 31दिन। साथ?",
-      "options": [
-        "13d",
-        "18.2d",
-        "36.4d",
-        "75d"
-      ],
-      "explanation": "1दिन: 1/44+1/31। समय=18.2दिन।"
-    },
-    "id": "gdmlh-0056"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 14d, B in 18d. Together?",
-      "options": [
-        "32d",
-        "4d",
-        "7.9d",
-        "15.8d"
-      ],
-      "explanation": "1d: 1/14+1/18. Time=7.9d."
-    },
-    "hi": {
-      "question": "A 14दिन, B 18दिन। साथ?",
-      "options": [
-        "32d",
-        "4d",
-        "7.9d",
-        "15.8d"
-      ],
-      "explanation": "1दिन: 1/14+1/18। समय=7.9दिन।"
-    },
-    "id": "gdmlh-0057"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 30000 at 23% for 37yrs?",
-      "options": [
-        "Rs.30000",
-        "Rs.255300",
-        "Rs.510600",
-        "Rs.127650"
-      ],
-      "explanation": "SI=30000×23×37/100=255300.0."
-    },
-    "hi": {
-      "question": "30000रु, 23%, 37वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.30000",
-        "Rs.255300",
-        "Rs.510600",
-        "Rs.127650"
-      ],
-      "explanation": "सा.ब्याज=255300.0।"
-    },
-    "id": "gdmlh-0058"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 9 + 8 × 6",
-      "options": [
-        "23",
-        "57",
-        "102",
-        "432"
-      ],
-      "explanation": "BODMAS: 8×6=48+9=57."
-    },
-    "hi": {
-      "question": "सरल: 9 + 8 × 6",
-      "options": [
-        "23",
-        "57",
-        "102",
-        "432"
-      ],
-      "explanation": "BODMAS: 57।"
-    },
-    "id": "gdmlh-0059"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "25% of 420?",
-      "options": [
-        "210",
-        "420",
-        "1050",
-        "840"
-      ],
-      "explanation": "420×25/100=1050."
-    },
-    "hi": {
-      "question": "420 का 25%?",
-      "options": [
-        "210",
-        "420",
-        "1050",
-        "840"
-      ],
-      "explanation": "420×25/100=1050।"
-    },
-    "id": "gdmlh-0060"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 390 in 8:7. Larger?",
-      "options": [
-        "182",
-        "195",
-        "208",
-        "390"
-      ],
-      "explanation": "Parts=15. Shares: 208, 182. Larger=208."
-    },
-    "hi": {
-      "question": "390 को 8:7 में बांटें। बड़ा?",
-      "options": [
-        "182",
-        "195",
-        "208",
-        "390"
-      ],
-      "explanation": "हिस्से: 208, 182। बड़ा=208।"
-    },
-    "id": "gdmlh-0061"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 50000 at 14% for 13yrs?",
-      "options": [
-        "Rs.182000",
-        "Rs.50000",
-        "Rs.45500",
-        "Rs.91000"
-      ],
-      "explanation": "SI=50000×14×13/100=91000.0."
-    },
-    "hi": {
-      "question": "50000रु, 14%, 13वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.182000",
-        "Rs.50000",
-        "Rs.45500",
-        "Rs.91000"
-      ],
-      "explanation": "सा.ब्याज=91000.0।"
-    },
-    "id": "gdmlh-0062"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 24km/hr, 24hrs. Distance?",
-      "options": [
-        "48km",
-        "576km",
-        "288km",
-        "1152km"
-      ],
-      "explanation": "Dist=24×24=576km."
-    },
-    "hi": {
-      "question": "कार 24किमी/घं, 24घंटे। दूरी?",
-      "options": [
-        "48km",
-        "576km",
-        "288km",
-        "1152km"
-      ],
-      "explanation": "दूरी=576किमी।"
-    },
-    "id": "gdmlh-0063"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 16 and 30?",
-      "options": [
-        "240",
-        "480",
-        "46",
-        "2"
-      ],
-      "explanation": "LCM=480/2=240."
-    },
-    "hi": {
-      "question": "16 और 30 का ल.स.?",
-      "options": [
-        "240",
-        "480",
-        "46",
-        "2"
-      ],
-      "explanation": "ल.स.=240।"
-    },
-    "id": "gdmlh-0064"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 37km/hr, 14hrs. Distance?",
-      "options": [
-        "1036km",
-        "518km",
-        "51km",
-        "259km"
-      ],
-      "explanation": "Dist=37×14=518km."
-    },
-    "hi": {
-      "question": "कार 37किमी/घं, 14घंटे। दूरी?",
-      "options": [
-        "1036km",
-        "518km",
-        "51km",
-        "259km"
-      ],
-      "explanation": "दूरी=518किमी।"
-    },
-    "id": "gdmlh-0065"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A=33d, B=34d. Together?",
-      "options": [
-        "67d",
-        "33.4d",
-        "16.7d",
-        "1d"
-      ],
-      "explanation": "1d: 1/33+1/34. Time=16.7d."
-    },
-    "hi": {
-      "question": "A=33दिन, B=34दिन। साथ?",
-      "options": [
-        "67d",
-        "33.4d",
-        "16.7d",
-        "1d"
-      ],
-      "explanation": "1दिन: 1/33+1/34। समय=16.7दिन।"
-    },
-    "id": "gdmlh-0066"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 41 and 36?",
-      "options": [
-        "77",
-        "1476",
-        "1476",
-        "1"
-      ],
-      "explanation": "LCM=1476/1=1476."
-    },
-    "hi": {
-      "question": "41 और 36 का ल.स.?",
-      "options": [
-        "77",
-        "1476",
-        "1476",
-        "1"
-      ],
-      "explanation": "ल.स.=1476।"
-    },
-    "id": "gdmlh-0067"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 44 + 5 × 8",
-      "options": [
-        "1760",
-        "84",
-        "392",
-        "57"
-      ],
-      "explanation": "BODMAS: 5×8=40+44=84."
-    },
-    "hi": {
-      "question": "सरल: 44 + 5 × 8",
-      "options": [
-        "1760",
-        "84",
-        "392",
-        "57"
-      ],
-      "explanation": "BODMAS: 84।"
-    },
-    "id": "gdmlh-0068"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 33000 at 15% for 18yrs?",
-      "options": [
-        "Rs.178200",
-        "Rs.89100",
-        "Rs.44550",
-        "Rs.33000"
-      ],
-      "explanation": "SI=33000×15×18/100=89100.0."
-    },
-    "hi": {
-      "question": "33000रु, 15%, 18वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.178200",
-        "Rs.89100",
-        "Rs.44550",
-        "Rs.33000"
-      ],
-      "explanation": "सा.ब्याज=89100.0।"
-    },
-    "id": "gdmlh-0069"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 38, 52, 75, 55, 74, 33",
-      "options": [
-        "75",
-        "327",
-        "54.5",
-        "33"
-      ],
-      "explanation": "Sum=327/6=54.5."
-    },
-    "hi": {
-      "question": "औसत: 38, 52, 75, 55, 74, 33",
-      "options": [
-        "75",
-        "327",
-        "54.5",
-        "33"
-      ],
-      "explanation": "योग=327/6=54.5।"
-    },
-    "id": "gdmlh-0070"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 49 + 34 × 6",
-      "options": [
-        "498",
-        "9996",
-        "89",
-        "253"
-      ],
-      "explanation": "BODMAS: 34×6=204+49=253."
-    },
-    "hi": {
-      "question": "सरल: 49 + 34 × 6",
-      "options": [
-        "498",
-        "9996",
-        "89",
-        "253"
-      ],
-      "explanation": "BODMAS: 253।"
-    },
-    "id": "gdmlh-0071"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 10000 at 14% for 3yrs?",
-      "options": [
-        "Rs.2100",
-        "Rs.10000",
-        "Rs.8400",
-        "Rs.4200"
-      ],
-      "explanation": "SI=10000×14×3/100=4200.0."
-    },
-    "hi": {
-      "question": "10000रु, 14%, 3वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.2100",
-        "Rs.10000",
-        "Rs.8400",
-        "Rs.4200"
-      ],
-      "explanation": "सा.ब्याज=4200.0।"
-    },
-    "id": "gdmlh-0072"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A=18d, B=14d. Together?",
-      "options": [
-        "15.8d",
-        "32d",
-        "4d",
-        "7.9d"
-      ],
-      "explanation": "1d: 1/18+1/14. Time=7.9d."
-    },
-    "hi": {
-      "question": "A=18दिन, B=14दिन। साथ?",
-      "options": [
-        "15.8d",
-        "32d",
-        "4d",
-        "7.9d"
-      ],
-      "explanation": "1दिन: 1/18+1/14। समय=7.9दिन।"
-    },
-    "id": "gdmlh-0073"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 864 in 7:9. Larger?",
-      "options": [
-        "432",
-        "486",
-        "864",
-        "378"
-      ],
-      "explanation": "Parts=16. Shares: 378, 486. Larger=486."
-    },
-    "hi": {
-      "question": "864 को 7:9 में बांटें। बड़ा?",
-      "options": [
-        "432",
-        "486",
-        "864",
-        "378"
-      ],
-      "explanation": "हिस्से: 378, 486। बड़ा=486।"
-    },
-    "id": "gdmlh-0074"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 300 in 2:3. Larger?",
-      "options": [
-        "300",
-        "120",
-        "180",
-        "150"
-      ],
-      "explanation": "Parts=5. Shares: 120, 180. Larger=180."
-    },
-    "hi": {
-      "question": "300 को 2:3 में बांटें। बड़ा?",
-      "options": [
-        "300",
-        "120",
-        "180",
-        "150"
-      ],
-      "explanation": "हिस्से: 120, 180। बड़ा=180।"
-    },
-    "id": "gdmlh-0075"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 47km/hr, 5hrs. Distance?",
-      "options": [
-        "470km",
-        "117km",
-        "235km",
-        "52km"
-      ],
-      "explanation": "Dist=47×5=235km."
-    },
-    "hi": {
-      "question": "कार 47किमी/घं, 5घंटे। दूरी?",
-      "options": [
-        "470km",
-        "117km",
-        "235km",
-        "52km"
-      ],
-      "explanation": "दूरी=235किमी।"
-    },
-    "id": "gdmlh-0076"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 624 in 2:6. Larger?",
-      "options": [
-        "468",
-        "312",
-        "156",
-        "624"
-      ],
-      "explanation": "Parts=8. Shares: 156, 468. Larger=468."
-    },
-    "hi": {
-      "question": "624 को 2:6 में बांटें। बड़ा?",
-      "options": [
-        "468",
-        "312",
-        "156",
-        "624"
-      ],
-      "explanation": "हिस्से: 156, 468। बड़ा=468।"
-    },
-    "id": "gdmlh-0077"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "7% of 180?",
-      "options": [
-        "180",
-        "126",
-        "360",
-        "90"
-      ],
-      "explanation": "180×7/100=126."
-    },
-    "hi": {
-      "question": "180 का 7%?",
-      "options": [
-        "180",
-        "126",
-        "360",
-        "90"
-      ],
-      "explanation": "180×7/100=126।"
-    },
-    "id": "gdmlh-0078"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 30 and 24?",
-      "options": [
-        "6",
-        "54",
-        "120",
-        "720"
-      ],
-      "explanation": "LCM=720/6=120."
-    },
-    "hi": {
-      "question": "30 और 24 का ल.स.?",
-      "options": [
-        "6",
-        "54",
-        "120",
-        "720"
-      ],
-      "explanation": "ल.स.=120।"
-    },
-    "id": "gdmlh-0079"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 1170 in 8:7. Larger?",
-      "options": [
-        "1170",
-        "585",
-        "546",
-        "624"
-      ],
-      "explanation": "Parts=15. Shares: 624, 546. Larger=624."
-    },
-    "hi": {
-      "question": "1170 को 8:7 में बांटें। बड़ा?",
-      "options": [
-        "1170",
-        "585",
-        "546",
-        "624"
-      ],
-      "explanation": "हिस्से: 624, 546। बड़ा=624।"
-    },
-    "id": "gdmlh-0080"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 34 and 24?",
-      "options": [
-        "58",
-        "408",
-        "816",
-        "2"
-      ],
-      "explanation": "LCM=816/2=408."
-    },
-    "hi": {
-      "question": "34 और 24 का ल.स.?",
-      "options": [
-        "58",
-        "408",
-        "816",
-        "2"
-      ],
-      "explanation": "ल.स.=408।"
-    },
-    "id": "gdmlh-0081"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 41 + 31 × 2",
-      "options": [
-        "144",
-        "2542",
-        "74",
-        "103"
-      ],
-      "explanation": "BODMAS: 31×2=62+41=103."
-    },
-    "hi": {
-      "question": "सरल: 41 + 31 × 2",
-      "options": [
-        "144",
-        "2542",
-        "74",
-        "103"
-      ],
-      "explanation": "BODMAS: 103।"
-    },
-    "id": "gdmlh-0082"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A=45d, B=13d. Together?",
-      "options": [
-        "58d",
-        "32d",
-        "20.2d",
-        "10.1d"
-      ],
-      "explanation": "1d: 1/45+1/13. Time=10.1d."
-    },
-    "hi": {
-      "question": "A=45दिन, B=13दिन। साथ?",
-      "options": [
-        "58d",
-        "32d",
-        "20.2d",
-        "10.1d"
-      ],
-      "explanation": "1दिन: 1/45+1/13। समय=10.1दिन।"
-    },
-    "id": "gdmlh-0083"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 11 and 27?",
-      "options": [
-        "38",
-        "297",
-        "297",
-        "1"
-      ],
-      "explanation": "LCM=297/1=297."
-    },
-    "hi": {
-      "question": "11 और 27 का ल.स.?",
-      "options": [
-        "38",
-        "297",
-        "297",
-        "1"
-      ],
-      "explanation": "ल.स.=297।"
-    },
-    "id": "gdmlh-0084"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 17 + 39 × 8",
-      "options": [
-        "448",
-        "64",
-        "329",
-        "5304"
-      ],
-      "explanation": "BODMAS: 39×8=312+17=329."
-    },
-    "hi": {
-      "question": "सरल: 17 + 39 × 8",
-      "options": [
-        "448",
-        "64",
-        "329",
-        "5304"
-      ],
-      "explanation": "BODMAS: 329।"
-    },
-    "id": "gdmlh-0085"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 20km/hr, 39hrs. Distance?",
-      "options": [
-        "390km",
-        "1560km",
-        "59km",
-        "780km"
-      ],
-      "explanation": "Dist=20×39=780km."
-    },
-    "hi": {
-      "question": "कार 20किमी/घं, 39घंटे। दूरी?",
-      "options": [
-        "390km",
-        "1560km",
-        "59km",
-        "780km"
-      ],
-      "explanation": "दूरी=780किमी।"
-    },
-    "id": "gdmlh-0086"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 42, 54, 73, 75, 34, 45",
-      "options": [
-        "34",
-        "323",
-        "53.8",
-        "75"
-      ],
-      "explanation": "Sum=323/6=53.8."
-    },
-    "hi": {
-      "question": "औसत: 42, 54, 73, 75, 34, 45",
-      "options": [
-        "34",
-        "323",
-        "53.8",
-        "75"
-      ],
-      "explanation": "योग=323/6=53.8।"
-    },
-    "id": "gdmlh-0087"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.330, 21% profit. SP?",
-      "options": [
-        "319",
-        "330",
-        "660",
-        "399.3"
-      ],
-      "explanation": "SP=330×1.21=399.3."
-    },
-    "hi": {
-      "question": "क्र.मू. 330रु, 21% लाभ। वि.मू.?",
-      "options": [
-        "319",
-        "330",
-        "660",
-        "399.3"
-      ],
-      "explanation": "वि.मू.=399.3।"
-    },
-    "id": "gdmlh-0088"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 19, 48, 74, 32, 23, 47",
-      "options": [
-        "19",
-        "40.5",
-        "74",
-        "243"
-      ],
-      "explanation": "Sum=243/6=40.5."
-    },
-    "hi": {
-      "question": "औसत: 19, 48, 74, 32, 23, 47",
-      "options": [
-        "19",
-        "40.5",
-        "74",
-        "243"
-      ],
-      "explanation": "योग=243/6=40.5।"
-    },
-    "id": "gdmlh-0089"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 36 + 17 × 5",
-      "options": [
-        "3060",
-        "58",
-        "121",
-        "265"
-      ],
-      "explanation": "BODMAS: 17×5=85+36=121."
-    },
-    "hi": {
-      "question": "सरल: 36 + 17 × 5",
-      "options": [
-        "3060",
-        "58",
-        "121",
-        "265"
-      ],
-      "explanation": "BODMAS: 121।"
-    },
-    "id": "gdmlh-0090"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 23 and 19?",
-      "options": [
-        "437",
-        "1",
-        "42",
-        "437"
-      ],
-      "explanation": "LCM=437/1=437."
-    },
-    "hi": {
-      "question": "23 और 19 का ल.स.?",
-      "options": [
-        "437",
-        "1",
-        "42",
-        "437"
-      ],
-      "explanation": "ल.स.=437।"
-    },
-    "id": "gdmlh-0091"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 26×24cm. Area?",
-      "options": [
-        "100 cm²",
-        "50 cm²",
-        "624 cm²",
-        "1248 cm²"
-      ],
-      "explanation": "Area=26×24=624 cm²."
-    },
-    "hi": {
-      "question": "आयत 26×24सेमी। क्षेत्रफल?",
-      "options": [
-        "100 cm²",
-        "50 cm²",
-        "624 cm²",
-        "1248 cm²"
-      ],
-      "explanation": "क्षेत्रफल=26×24=624 वर्ग सेमी।"
-    },
-    "id": "gdmlh-0092"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 288 in 8:8. Larger?",
-      "options": [
-        "144",
-        "288",
-        "144",
-        "144"
-      ],
-      "explanation": "Parts=16. Shares: 144, 144. Larger=144."
-    },
-    "hi": {
-      "question": "288 को 8:8 में बांटें। बड़ा?",
-      "options": [
-        "144",
-        "288",
-        "144",
-        "144"
-      ],
-      "explanation": "हिस्से: 144, 144। बड़ा=144।"
-    },
-    "id": "gdmlh-0093"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 35km/hr, 25hrs. Distance?",
-      "options": [
-        "437km",
-        "1750km",
-        "60km",
-        "875km"
-      ],
-      "explanation": "Dist=35×25=875km."
-    },
-    "hi": {
-      "question": "कार 35किमी/घं, 25घंटे। दूरी?",
-      "options": [
-        "437km",
-        "1750km",
-        "60km",
-        "875km"
-      ],
-      "explanation": "दूरी=875किमी।"
-    },
-    "id": "gdmlh-0094"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 871 in 5:8. Larger?",
-      "options": [
-        "536",
-        "871",
-        "335",
-        "435"
-      ],
-      "explanation": "Parts=13. Shares: 335, 536. Larger=536."
-    },
-    "hi": {
-      "question": "871 को 5:8 में बांटें। बड़ा?",
-      "options": [
-        "536",
-        "871",
-        "335",
-        "435"
-      ],
-      "explanation": "हिस्से: 335, 536। बड़ा=536।"
-    },
-    "id": "gdmlh-0095"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 864 in 2:7. Larger?",
-      "options": [
-        "432",
-        "672",
-        "192",
-        "864"
-      ],
-      "explanation": "Parts=9. Shares: 192, 672. Larger=672."
-    },
-    "hi": {
-      "question": "864 को 2:7 में बांटें। बड़ा?",
-      "options": [
-        "432",
-        "672",
-        "192",
-        "864"
-      ],
-      "explanation": "हिस्से: 192, 672। बड़ा=672।"
-    },
-    "id": "gdmlh-0096"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 40, 51, 59, 51, 22, 45",
-      "options": [
-        "268",
-        "44.7",
-        "59",
+        "24",
         "22"
       ],
-      "explanation": "Sum=268/6=44.7."
+      "explanation": "Factors of 28: [1, 2, 4, 7, 14, 28], of 42: [1, 2, 3, 6, 7, 14, 21, 42]. Highest common = 14."
     },
     "hi": {
-      "question": "औसत: 40, 51, 59, 51, 22, 45",
+      "question": "HCF of 28 and 42 is?",
       "options": [
-        "268",
-        "44.7",
-        "59",
+        "14",
+        "13",
+        "24",
         "22"
       ],
-      "explanation": "योग=268/6=44.7।"
+      "explanation": "Factors of 28: [1, 2, 4, 7, 14, 28], of 42: [1, 2, 3, 6, 7, 14, 21, 42]. Highest common = 14."
     },
-    "id": "gdmlh-0097"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "28% of 290?",
-      "options": [
-        "580",
-        "145",
-        "290",
-        "812"
-      ],
-      "explanation": "290×28/100=812."
-    },
-    "hi": {
-      "question": "290 का 28%?",
-      "options": [
-        "580",
-        "145",
-        "290",
-        "812"
-      ],
-      "explanation": "290×28/100=812।"
-    },
-    "id": "gdmlh-0098"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 18×19cm. Area?",
-      "options": [
-        "684 cm²",
-        "74 cm²",
-        "37 cm²",
-        "342 cm²"
-      ],
-      "explanation": "Area=18×19=342 cm²."
-    },
-    "hi": {
-      "question": "आयत 18×19सेमी। क्षेत्रफल?",
-      "options": [
-        "684 cm²",
-        "74 cm²",
-        "37 cm²",
-        "342 cm²"
-      ],
-      "explanation": "क्षेत्रफल=18×19=342 वर्ग सेमी।"
-    },
-    "id": "gdmlh-0099"
+    "id": "lcm-hcf-0080"
   },
   {
     "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "LCM of 19 and 22?",
+      "question": "LCM of 60 and 90 is?",
       "options": [
-        "1",
-        "418",
-        "41",
-        "418"
+        "24",
+        "180",
+        "182",
+        "179"
       ],
-      "explanation": "LCM=418/1=418."
+      "explanation": "Factors: 60 = 60, 90 = 90. LCM = Product ÷ HCF = (60×90) ÷ 30 = 180."
     },
     "hi": {
-      "question": "19 और 22 का ल.स.?",
+      "question": "LCM of 60 and 90 is?",
       "options": [
-        "1",
-        "418",
-        "41",
-        "418"
+        "24",
+        "180",
+        "182",
+        "179"
       ],
-      "explanation": "ल.स.=418।"
+      "explanation": "Factors: 60 = 60, 90 = 90. LCM = Product ÷ HCF = (60×90) ÷ 30 = 180."
     },
-    "id": "gdmlh-0100"
+    "id": "lcm-hcf-0081"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 36 and 48 is?",
+      "options": [
+        "24",
+        "11",
+        "12",
+        "20"
+      ],
+      "explanation": "Factors of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36], of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48]. Highest common = 12."
+    },
+    "hi": {
+      "question": "HCF of 36 and 48 is?",
+      "options": [
+        "24",
+        "11",
+        "12",
+        "20"
+      ],
+      "explanation": "Factors of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36], of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48]. Highest common = 12."
+    },
+    "id": "lcm-hcf-0082"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 18 and 24 is?",
+      "options": [
+        "72",
+        "71",
+        "4",
+        "76"
+      ],
+      "explanation": "Factors: 18 = 18, 24 = 24. LCM = Product ÷ HCF = (18×24) ÷ 6 = 72."
+    },
+    "hi": {
+      "question": "LCM of 18 and 24 is?",
+      "options": [
+        "72",
+        "71",
+        "4",
+        "76"
+      ],
+      "explanation": "Factors: 18 = 18, 24 = 24. LCM = Product ÷ HCF = (18×24) ÷ 6 = 72."
+    },
+    "id": "lcm-hcf-0083"
+  },
+  {
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 14 and 21 is?",
+      "options": [
+        "7",
+        "20",
+        "9",
+        "6"
+      ],
+      "explanation": "Factors of 14: [1, 2, 7, 14], of 21: [1, 3, 7, 21]. Highest common = 7."
+    },
+    "hi": {
+      "question": "HCF of 14 and 21 is?",
+      "options": [
+        "7",
+        "20",
+        "9",
+        "6"
+      ],
+      "explanation": "Factors of 14: [1, 2, 7, 14], of 21: [1, 3, 7, 21]. Highest common = 7."
+    },
+    "id": "lcm-hcf-0084"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 35 and 70 is?",
+      "options": [
+        "4",
+        "72",
+        "70",
+        "69"
+      ],
+      "explanation": "Factors: 35 = 35, 70 = 70. LCM = Product ÷ HCF = (35×70) ÷ 35 = 70."
+    },
+    "hi": {
+      "question": "LCM of 35 and 70 is?",
+      "options": [
+        "4",
+        "72",
+        "70",
+        "69"
+      ],
+      "explanation": "Factors: 35 = 35, 70 = 70. LCM = Product ÷ HCF = (35×70) ÷ 35 = 70."
+    },
+    "id": "lcm-hcf-0085"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 50 and 100 is?",
+      "options": [
+        "49",
+        "52",
+        "16",
+        "50"
+      ],
+      "explanation": "Factors of 50: [1, 2, 5, 10, 25, 50], of 100: [1, 2, 4, 5, 10, 20, 25, 50, 100]. Highest common = 50."
+    },
+    "hi": {
+      "question": "HCF of 50 and 100 is?",
+      "options": [
+        "49",
+        "52",
+        "16",
+        "50"
+      ],
+      "explanation": "Factors of 50: [1, 2, 5, 10, 25, 50], of 100: [1, 2, 4, 5, 10, 20, 25, 50, 100]. Highest common = 50."
+    },
+    "id": "lcm-hcf-0086"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 54 and 72 is?",
+      "options": [
+        "8",
+        "215",
+        "216",
+        "228"
+      ],
+      "explanation": "Factors: 54 = 54, 72 = 72. LCM = Product ÷ HCF = (54×72) ÷ 18 = 216."
+    },
+    "hi": {
+      "question": "LCM of 54 and 72 is?",
+      "options": [
+        "8",
+        "215",
+        "216",
+        "228"
+      ],
+      "explanation": "Factors: 54 = 54, 72 = 72. LCM = Product ÷ HCF = (54×72) ÷ 18 = 216."
+    },
+    "id": "lcm-hcf-0087"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 63 and 84 is?",
+      "options": [
+        "20",
+        "16",
+        "25",
+        "21"
+      ],
+      "explanation": "Factors of 63: [1, 3, 7, 9, 21, 63], of 84: [1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 84]. Highest common = 21."
+    },
+    "hi": {
+      "question": "HCF of 63 and 84 is?",
+      "options": [
+        "20",
+        "16",
+        "25",
+        "21"
+      ],
+      "explanation": "Factors of 63: [1, 3, 7, 9, 21, 63], of 84: [1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 84]. Highest common = 21."
+    },
+    "id": "lcm-hcf-0088"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 80 and 120 is?",
+      "options": [
+        "24",
+        "239",
+        "240",
+        "244"
+      ],
+      "explanation": "Factors: 80 = 80, 120 = 120. LCM = Product ÷ HCF = (80×120) ÷ 40 = 240."
+    },
+    "hi": {
+      "question": "LCM of 80 and 120 is?",
+      "options": [
+        "24",
+        "239",
+        "240",
+        "244"
+      ],
+      "explanation": "Factors: 80 = 80, 120 = 120. LCM = Product ÷ HCF = (80×120) ÷ 40 = 240."
+    },
+    "id": "lcm-hcf-0089"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 90 and 150 is?",
+      "options": [
+        "29",
+        "12",
+        "32",
+        "30"
+      ],
+      "explanation": "Factors of 90: [1, 2, 3, 5, 6, 9, 10, 15, 18, 30, 45, 90], of 150: [1, 2, 3, 5, 6, 10, 15, 25, 30, 50, 75, 150]. Highest common = 30."
+    },
+    "hi": {
+      "question": "HCF of 90 and 150 is?",
+      "options": [
+        "29",
+        "12",
+        "32",
+        "30"
+      ],
+      "explanation": "Factors of 90: [1, 2, 3, 5, 6, 9, 10, 15, 18, 30, 45, 90], of 150: [1, 2, 3, 5, 6, 10, 15, 25, 30, 50, 75, 150]. Highest common = 30."
+    },
+    "id": "lcm-hcf-0090"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 12 and 18 is?",
+      "options": [
+        "35",
+        "48",
+        "4",
+        "36"
+      ],
+      "explanation": "Factors: 12 = 12, 18 = 18. LCM = Product ÷ HCF = (12×18) ÷ 6 = 36."
+    },
+    "hi": {
+      "question": "LCM of 12 and 18 is?",
+      "options": [
+        "35",
+        "48",
+        "4",
+        "36"
+      ],
+      "explanation": "Factors: 12 = 12, 18 = 18. LCM = Product ÷ HCF = (12×18) ÷ 6 = 36."
+    },
+    "id": "lcm-hcf-0091"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 24 and 36 is?",
+      "options": [
+        "20",
+        "11",
+        "12",
+        "24"
+      ],
+      "explanation": "Factors of 24: [1, 2, 3, 4, 6, 8, 12, 24], of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36]. Highest common = 12."
+    },
+    "hi": {
+      "question": "HCF of 24 and 36 is?",
+      "options": [
+        "20",
+        "11",
+        "12",
+        "24"
+      ],
+      "explanation": "Factors of 24: [1, 2, 3, 4, 6, 8, 12, 24], of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36]. Highest common = 12."
+    },
+    "id": "lcm-hcf-0092"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 15 and 25 is?",
+      "options": [
+        "74",
+        "75",
+        "83",
+        "12"
+      ],
+      "explanation": "Factors: 15 = 15, 25 = 25. LCM = Product ÷ HCF = (15×25) ÷ 5 = 75."
+    },
+    "hi": {
+      "question": "LCM of 15 and 25 is?",
+      "options": [
+        "74",
+        "75",
+        "83",
+        "12"
+      ],
+      "explanation": "Factors: 15 = 15, 25 = 25. LCM = Product ÷ HCF = (15×25) ÷ 5 = 75."
+    },
+    "id": "lcm-hcf-0093"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 30 and 45 is?",
+      "options": [
+        "14",
+        "15",
+        "20",
+        "27"
+      ],
+      "explanation": "Factors of 30: [1, 2, 3, 5, 6, 10, 15, 30], of 45: [1, 3, 5, 9, 15, 45]. Highest common = 15."
+    },
+    "hi": {
+      "question": "HCF of 30 and 45 is?",
+      "options": [
+        "14",
+        "15",
+        "20",
+        "27"
+      ],
+      "explanation": "Factors of 30: [1, 2, 3, 5, 6, 10, 15, 30], of 45: [1, 3, 5, 9, 15, 45]. Highest common = 15."
+    },
+    "id": "lcm-hcf-0094"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 20 and 30 is?",
+      "options": [
+        "59",
+        "60",
+        "20",
+        "62"
+      ],
+      "explanation": "Factors: 20 = 20, 30 = 30. LCM = Product ÷ HCF = (20×30) ÷ 10 = 60."
+    },
+    "hi": {
+      "question": "LCM of 20 and 30 is?",
+      "options": [
+        "59",
+        "60",
+        "20",
+        "62"
+      ],
+      "explanation": "Factors: 20 = 20, 30 = 30. LCM = Product ÷ HCF = (20×30) ÷ 10 = 60."
+    },
+    "id": "lcm-hcf-0095"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 48 and 72 is?",
+      "options": [
+        "23",
+        "24",
+        "12",
+        "26"
+      ],
+      "explanation": "Factors of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48], of 72: [1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72]. Highest common = 24."
+    },
+    "hi": {
+      "question": "HCF of 48 and 72 is?",
+      "options": [
+        "23",
+        "24",
+        "12",
+        "26"
+      ],
+      "explanation": "Factors of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48], of 72: [1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72]. Highest common = 24."
+    },
+    "id": "lcm-hcf-0096"
+  },
+  {
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 16 and 40 is?",
+      "options": [
+        "79",
+        "80",
+        "20",
+        "86"
+      ],
+      "explanation": "Factors: 16 = 16, 40 = 40. LCM = Product ÷ HCF = (16×40) ÷ 8 = 80."
+    },
+    "hi": {
+      "question": "LCM of 16 and 40 is?",
+      "options": [
+        "79",
+        "80",
+        "20",
+        "86"
+      ],
+      "explanation": "Factors: 16 = 16, 40 = 40. LCM = Product ÷ HCF = (16×40) ÷ 8 = 80."
+    },
+    "id": "lcm-hcf-0097"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 28 and 42 is?",
+      "options": [
+        "13",
+        "4",
+        "14",
+        "26"
+      ],
+      "explanation": "Factors of 28: [1, 2, 4, 7, 14, 28], of 42: [1, 2, 3, 6, 7, 14, 21, 42]. Highest common = 14."
+    },
+    "hi": {
+      "question": "HCF of 28 and 42 is?",
+      "options": [
+        "13",
+        "4",
+        "14",
+        "26"
+      ],
+      "explanation": "Factors of 28: [1, 2, 4, 7, 14, 28], of 42: [1, 2, 3, 6, 7, 14, 21, 42]. Highest common = 14."
+    },
+    "id": "lcm-hcf-0098"
+  },
+  {
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "LCM of 60 and 90 is?",
+      "options": [
+        "184",
+        "179",
+        "180",
+        "4"
+      ],
+      "explanation": "Factors: 60 = 60, 90 = 90. LCM = Product ÷ HCF = (60×90) ÷ 30 = 180."
+    },
+    "hi": {
+      "question": "LCM of 60 and 90 is?",
+      "options": [
+        "184",
+        "179",
+        "180",
+        "4"
+      ],
+      "explanation": "Factors: 60 = 60, 90 = 90. LCM = Product ÷ HCF = (60×90) ÷ 30 = 180."
+    },
+    "id": "lcm-hcf-0099"
+  },
+  {
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "HCF of 36 and 48 is?",
+      "options": [
+        "8",
+        "14",
+        "11",
+        "12"
+      ],
+      "explanation": "Factors of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36], of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48]. Highest common = 12."
+    },
+    "hi": {
+      "question": "HCF of 36 and 48 is?",
+      "options": [
+        "8",
+        "14",
+        "11",
+        "12"
+      ],
+      "explanation": "Factors of 36: [1, 2, 3, 4, 6, 9, 12, 18, 36], of 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48]. Highest common = 12."
+    },
+    "id": "lcm-hcf-0100"
   }
 ]
