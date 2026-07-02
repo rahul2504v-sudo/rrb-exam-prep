@@ -108,12 +108,20 @@ export default function HomePage() {
                         <span className="text-red-500">-1/3 negative marking</span>
                       </div>
                       <div className="flex gap-3">
-                        <Link href={`/exam/${exam.slug}`} className="px-4 py-2 bg-indigo-600 text-white rounded-lg text-sm font-medium hover:bg-indigo-700">
-                          Section-wise Practice <ArrowRight className="w-3.5 h-3.5 inline ml-1" />
-                        </Link>
-                        <Link href={`/exam/${exam.slug}/mock`} className="px-4 py-2 bg-emerald-600 text-white rounded-lg text-sm font-medium hover:bg-emerald-700">
-                          Full Length Tests <ArrowRight className="w-3.5 h-3.5 inline ml-1" />
-                        </Link>
+                        {exam.id === 'ssc-cgl' ? (
+                          <Link href={`/exam/${exam.slug}/mock`} className="px-4 py-2 bg-indigo-600 text-white rounded-lg text-sm font-medium hover:bg-indigo-700">
+                            Previous Year Papers (2019-2025) <ArrowRight className="w-3.5 h-3.5 inline ml-1" />
+                          </Link>
+                        ) : (
+                          <>
+                          <Link href={`/exam/${exam.slug}`} className="px-4 py-2 bg-indigo-600 text-white rounded-lg text-sm font-medium hover:bg-indigo-700">
+                            Section-wise Practice <ArrowRight className="w-3.5 h-3.5 inline ml-1" />
+                          </Link>
+                          <Link href={`/exam/${exam.slug}/mock`} className="px-4 py-2 bg-emerald-600 text-white rounded-lg text-sm font-medium hover:bg-emerald-700">
+                            Full Length Tests <ArrowRight className="w-3.5 h-3.5 inline ml-1" />
+                          </Link>
+                          </>
+                        )}
                       </div>
                     </div>
                   )}

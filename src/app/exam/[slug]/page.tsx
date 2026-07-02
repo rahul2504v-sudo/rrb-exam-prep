@@ -67,15 +67,16 @@ export default function ExamPage() {
           <div className="flex items-center gap-1.5 text-sm bg-red-50 text-red-700 px-3 py-1.5 rounded-full">
             {t('negativeMarking')}
           </div>
-          {/* Mock Tests Button — prominent */}
+          {/* Mock/Previous Year Button */}
           <Link href={`/exam/${exam.slug}/mock`}
-            className="flex items-center gap-2 text-sm bg-emerald-600 text-white px-4 py-2 rounded-full hover:bg-emerald-700 font-medium">
-            <Layers className="w-4 h-4" /> Full Length Tests ({mockCount} papers)
+            className={`flex items-center gap-2 text-sm text-white px-4 py-2 rounded-full hover:bg-emerald-700 font-medium ${exam.id === 'ssc-cgl' ? 'bg-indigo-600 hover:bg-indigo-700' : 'bg-emerald-600 hover:bg-emerald-700'}`}>
+            <Layers className="w-4 h-4" /> {exam.id === 'ssc-cgl' ? 'Previous Year Papers' : 'Full Length Tests'} ({mockCount} papers)
           </Link>
         </div>
       </div>
 
       <div className="grid lg:grid-cols-3 gap-8">
+        {exam.id !== 'ssc-cgl' && (
         <div className="lg:col-span-2 space-y-6">
           <h2 className="text-xl font-bold text-gray-900">Section-wise Practice Sets</h2>
 
@@ -109,6 +110,7 @@ export default function ExamPage() {
             </div>
           ))}
         </div>
+        )}
 
         {/* Sectional Test History */}
         <div className="space-y-4">

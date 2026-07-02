@@ -72,8 +72,8 @@ const tg3Pattern: ExamPattern = {
 // ============================================================================
 
 const sscAll: Subject = {
-  id: 'ssc-all', name: 'All Sections', slug: 'all-questions',
-  topics: [{ id: 'ssc-all-real', name: 'SSC CGL Questions', slug: 'all-questions', questionCount: 17235 }],
+  id: 'ssc-all', name: 'SSC CGL Tier 1', slug: 'all-questions',
+  topics: [{ id: 'ssc-all-real', name: 'Previous Year Papers (2019-2025)', slug: 'all-questions', questionCount: 17235 }],
 };
 const sscPattern: ExamPattern = {
   sections: [
