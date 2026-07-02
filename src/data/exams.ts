@@ -32,6 +32,12 @@ const gdPattern: ExamPattern = {
 
 export const examList: Exam[] = [
   {
+    id: 'ssc-cgl', name: 'SSC CGL Tier I', slug: 'ssc-cgl',
+    description: 'Combined Graduate Level — Previous Year Paper 2025',
+    icon: 'BookOpen', color: 'rail-navy', totalVacancies: 0, pattern: sscPattern,
+    subjects: [sscReasoning, sscGA, sscQuant, sscEnglish], status: 'upcoming',
+  },
+  {
     id: 'group-d', name: 'RRB Group D', slug: 'group-d',
     description: 'Level 1 Posts — Track Maintainer, Pointsman, Helper, Assistant & more',
     icon: 'Wrench', color: 'rail-red', totalVacancies: 0, pattern: gdPattern,
@@ -40,5 +46,6 @@ export const examList: Exam[] = [
 ];
 
 export const subjectMap: Record<string, Subject[]> = {
+  'ssc-cgl': [sscReasoning, sscGA, sscQuant, sscEnglish],
   'group-d': [gdMathematics, gdScience, gdReasoning, gdGA],
 };
