@@ -2,6 +2,19 @@ import { TestSession } from '@/types';
 
 const BASE_KEY = 'prepxcore-sessions';
 
+// Cleanup old storage keys on first load
+if (typeof window !== 'undefined' && !localStorage.getItem('prepxcore-cleanup-done')) {
+  try {
+    const keys = Object.keys(localStorage);
+    for (const k of keys) {
+      if (k.startsWith('rrb-exam-prep-')) {
+        localStorage.removeItem(k);
+      }
+    }
+    localStorage.setItem('prepxcore-cleanup-done', '1');
+  } catch {}
+}
+
 function getUserEmail(): string | null {
   if (typeof window === 'undefined') return null;
   const match = document.cookie.match(/session=([^;]+)/);
@@ -14,7 +27,8 @@ function getUserEmail(): string | null {
 
 export function getStorageKey(): string {
   const email = getUserEmail();
-  return email ? `${BASE_KEY}-${email}` : BASE_KEY;
+  if (email) return `${BASE_KEY}-${email}`;
+  return `${BASE_KEY}-guest`;
 }
 
 export function getSessions(): TestSession[] {
@@ -22,9 +36,7 @@ export function getSessions(): TestSession[] {
   try {
     const data = localStorage.getItem(getStorageKey());
     return data ? JSON.parse(data) : [];
-  } catch {
-    return [];
-  }
+  } catch { return []; }
 }
 
 export function saveSession(session: TestSession): void {
@@ -43,22 +55,4 @@ export function saveSession(session: TestSession): void {
 
 export function getSession(id: string): TestSession | undefined {
   return getSessions().find(s => s.id === id);
-}
-
-export function clearAllSessions(): void {
-  if (typeof window === 'undefined') return;
-  localStorage.removeItem(getStorageKey());
-}
-
-export function getAverageScore(): number {
-  const sessions = getSessions();
-  if (sessions.length === 0) return 0;
-  const total = sessions.reduce((sum, s) => sum + s.score, 0);
-  return Math.round((total / sessions.length) * 100) / 100;
-}
-
-export function getBestScore(): number {
-  const sessions = getSessions();
-  if (sessions.length === 0) return 0;
-  return Math.max(...sessions.map(s => s.score));
 }
