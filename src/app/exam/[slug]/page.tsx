@@ -19,10 +19,16 @@ export default function ExamPage() {
   const [sectionalTests, setSectionalTests] = useState<any[]>([]);
   const [topicSetCounts, setTopicSetCounts] = useState<Record<string, number>>({});
   const [mockCount, setMockCount] = useState(0);
+  const [completedMocks, setCompletedMocks] = useState<Set<number>>(new Set());
 
   useEffect(() => {
     const sessions = getSessions();
     setSectionalTests(sessions.filter(s => s.testType === 'sectional' && s.examId === exam?.id));
+    const mocks = new Set<number>();
+    sessions.filter(s => s.testType === 'mock' && s.examId === exam?.id).forEach(s => {
+      if (s.mockIndex !== undefined) mocks.add(s.mockIndex);
+    });
+    setCompletedMocks(mocks);
   }, [exam]);
 
   useEffect(() => {
@@ -115,14 +121,22 @@ export default function ExamPage() {
               <span className="text-sm font-normal text-gray-500">({mockCount} papers)</span>
             </h3>
             <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-10 gap-2">
-              {Array.from({ length: mockCount }, (_, i) => (
-                <Link key={i} href={`/quiz/${exam.slug}/mock/${i}`}
-                  className="flex flex-col items-center justify-center p-3 rounded-lg border border-gray-200 
-                           hover:border-rail-navy hover:bg-blue-50 transition-all">
-                  <span className="text-lg font-bold text-rail-navy">#{i + 1}</span>
-                  <span className="text-xs text-gray-400">100 Q</span>
-                </Link>
-              ))}
+              {Array.from({ length: mockCount }, (_, i) => {
+                const isDone = completedMocks.has(i);
+                return (
+                  <Link key={i} href={`/quiz/${exam.slug}/mock/${i}`}
+                    className={`flex flex-col items-center justify-center p-3 rounded-lg border transition-all ${
+                      isDone
+                        ? 'border-green-400 bg-green-50 hover:bg-green-100'
+                        : 'border-gray-200 hover:border-rail-navy hover:bg-blue-50'
+                    }`}>
+                    <span className={`text-lg font-bold ${isDone ? 'text-green-700' : 'text-rail-navy'}`}>
+                      {isDone ? '✓' : `#${i + 1}`}
+                    </span>
+                    <span className="text-xs text-gray-400">100 Q</span>
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </div>

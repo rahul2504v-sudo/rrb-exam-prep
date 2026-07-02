@@ -101,6 +101,9 @@ export interface TestSession {
   id: string;
   examId: string;
   testType: 'topic' | 'mock' | 'sectional';
+  topicId?: string;
+  setIndex?: number;
+  mockIndex?: number;
   testName: string;
   totalQuestions: number;
   correctAnswers: number;

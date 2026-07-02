@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { examList } from '@/data/exams';
 import { loadTopicQuestions, loadTopicSet, loadMockPaper, getTopicSetCount } from '@/data/questionLoader';
 import { calculateScore, calculateTopicBreakdown } from '@/lib/quiz';
-import { saveSession } from '@/lib/storage';
+import { saveSession, getSessions } from '@/lib/storage';
 import { formatTime, shuffleArray } from '@/lib/utils';
 import { Question, TestSession, AnsweredQuestion } from '@/types';
 import { Clock, ChevronLeft, ChevronRight, CheckCircle, XCircle, AlertCircle, Send, Grid3X3 } from 'lucide-react';
@@ -35,6 +35,8 @@ export default function QuizPage() {
   const [showPalette, setShowPalette] = useState(false);
   const [showSetSelector, setShowSetSelector] = useState(false);
   const [setCount, setSetCount] = useState(0);
+  const [completedSets, setCompletedSets] = useState<Set<number>>(new Set());
+  const [mockCompleted, setMockCompleted] = useState<Set<number>>(new Set());
   const questionStartTimes = useRef<Record<string, number>>({});
 
   const isMock = type === 'mock';
@@ -52,6 +54,26 @@ export default function QuizPage() {
       getTopicSetCount(exam.id, paramId).then(setSetCount);
     }
   }, [needsSetSelector, exam, paramId]);
+
+  // Load completed sets/mocks for styling
+  useEffect(() => {
+    if (!exam) return;
+    const sessions = getSessions();
+    const completed = new Set<number>();
+    const mockDone = new Set<number>();
+    
+    for (const s of sessions) {
+      if (s.examId !== exam.id) continue;
+      if (s.testType === 'sectional' && s.topicId === paramId && s.setIndex !== undefined) {
+        completed.add(s.setIndex);
+      }
+      if (s.testType === 'mock') {
+        mockDone.add(s.mockIndex || 0);
+      }
+    }
+    setCompletedSets(completed);
+    setMockCompleted(mockDone);
+  }, [exam, paramId]);
 
   // Load questions
   useEffect(() => {
@@ -117,7 +139,10 @@ export default function QuizPage() {
     const topicBreakdown = calculateTopicBreakdown(answeredQuestions, questions);
     const newSession: TestSession = {
       id: `session-${Date.now()}`, examId: exam?.id || '',
-      testType: isMock ? 'mock' : 'topic', testName,
+      testType: isMock ? 'mock' : isSetMode ? 'sectional' : 'topic', testName,
+      topicId: paramId,
+      setIndex: isSetMode ? parseInt(setNum!) : undefined,
+      mockIndex: isMock ? parseInt(paramId) : undefined,
       totalQuestions: questions.length, correctAnswers: correct, wrongAnswers: wrong,
       skipped, score: Math.max(0, score),
       timeTaken: Math.round((Date.now() - startTime) / 1000),
@@ -156,14 +181,22 @@ export default function QuizPage() {
           </div>
         ) : (
           <div className="grid grid-cols-4 sm:grid-cols-5 gap-3">
-            {Array.from({ length: setCount }, (_, i) => (
-              <Link key={i} href={`?set=${i}`}
-                className="flex flex-col items-center justify-center p-4 rounded-xl border-2 border-gray-200 
-                         hover:border-rail-navy hover:bg-blue-50 transition-all">
-                <span className="text-2xl font-bold text-rail-navy">#{i + 1}</span>
-                <span className="text-xs text-gray-400 mt-1">10 Qs</span>
-              </Link>
-            ))}
+            {Array.from({ length: setCount }, (_, i) => {
+              const isDone = completedSets.has(i);
+              return (
+                <Link key={i} href={`?set=${i}`}
+                  className={`flex flex-col items-center justify-center p-4 rounded-xl border-2 transition-all ${
+                    isDone 
+                      ? 'border-green-400 bg-green-50 hover:bg-green-100' 
+                      : 'border-gray-200 hover:border-rail-navy hover:bg-blue-50'
+                  }`}>
+                  <span className={`text-2xl font-bold ${isDone ? 'text-green-700' : 'text-rail-navy'}`}>
+                    {isDone ? '✓' : `#${i + 1}`}
+                  </span>
+                  <span className="text-xs text-gray-400 mt-1">10 Qs</span>
+                </Link>
+              );
+            })}
             {setCount === 0 && (
               <p className="col-span-full text-center text-gray-500">No sets available for this topic yet.</p>
             )}
