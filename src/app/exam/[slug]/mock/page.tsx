@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { examList } from '@/data/exams';
 import { getMockPaperCount } from '@/data/questionLoader';
-import { Clock, Target, BookOpen, AlertCircle, Check, Layers, ArrowLeft } from 'lucide-react';
+import { Clock, BookOpen, AlertCircle, Check, Layers, ArrowLeft } from 'lucide-react';
 import { useLanguage } from '@/lib/LanguageContext';
 import { getSessions } from '@/lib/storage';
 
@@ -20,7 +20,6 @@ export default function MockPage() {
   useEffect(() => {
     if (!exam) return;
     getMockPaperCount(exam.id).then(setMockCount);
-    
     const sessions = getSessions();
     const mocks = new Set<number>();
     sessions.filter(s => s.testType === 'mock' && s.examId === exam.id).forEach(s => {
@@ -41,16 +40,15 @@ export default function MockPage() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
-      {/* Header */}
       <div className="mb-8">
         <Link href={`/exam/${exam.slug}`} className="text-sm text-gray-500 hover:text-rail-navy mb-3 inline-flex items-center gap-1">
-          <ArrowLeft className="w-3 h-3" /> Back to Topic Practice
+          <ArrowLeft className="w-3 h-3" /> Back to Section Practice
         </Link>
         <h1 className="text-3xl font-bold text-gray-900">{exam.name} — Full Length Tests</h1>
         <p className="text-gray-600 mt-1">{exam.description}</p>
         <div className="flex flex-wrap gap-4 mt-4">
           <div className="flex items-center gap-1.5 text-sm bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full">
-            <Target className="w-4 h-4" /> {exam.pattern.totalQuestions} Questions
+            100 Questions
           </div>
           <div className="flex items-center gap-1.5 text-sm bg-orange-50 text-orange-700 px-3 py-1.5 rounded-full">
             <Clock className="w-4 h-4" /> {exam.pattern.durationMinutes} Minutes
@@ -61,7 +59,6 @@ export default function MockPage() {
         </div>
       </div>
 
-      {/* Exam Pattern */}
       <div className="card mb-6">
         <h3 className="font-bold text-lg text-gray-900 mb-3 flex items-center gap-2">
           <BookOpen className="w-5 h-5 text-rail-navy" />
@@ -77,7 +74,6 @@ export default function MockPage() {
         </div>
       </div>
 
-      {/* Mock Papers Grid */}
       <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
         <Layers className="w-5 h-5 text-rail-navy" />
         Full Length Tests
@@ -107,7 +103,7 @@ export default function MockPage() {
       {mockCount === 0 && (
         <div className="text-center py-12 text-gray-500">
           <AlertCircle className="w-10 h-10 mx-auto mb-3 text-gray-300" />
-          <p>No mock papers available for this exam yet.</p>
+          <p>No mock papers available yet.</p>
         </div>
       )}
     </div>
