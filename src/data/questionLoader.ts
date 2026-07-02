@@ -75,7 +75,11 @@ export async function getTopicSetCount(examId: string, topicId: string): Promise
   const info = getSubjectForTopic(examId, topicId);
   if (!info) return 0;
   const dir = getSubjectExamDir(info.subjectId);
-  const key = `${dir}-${getSubjectSlug(examId, info.subjectId)}-${getTopicSlug(examId, topicId)}`;
+  const subjSlug = getSubjectSlug(examId, info.subjectId);
+  const topSlug = getTopicSlug(examId, topicId);
+  // Standalone subjects (BSE, Computers): key = dir-topicSlug
+  // Exam-nested subjects: key = dir-subjectSlug-topicSlug
+  const key = dir === subjSlug ? `${dir}-${topSlug}` : `${dir}-${subjSlug}-${topSlug}`;
   return (sets[key] || []).length;
 }
 
@@ -84,7 +88,9 @@ export async function loadTopicSet(examId: string, topicId: string, setIndex: nu
   const info = getSubjectForTopic(examId, topicId);
   if (!info) return [];
   const dir = getSubjectExamDir(info.subjectId);
-  const key = `${dir}-${getSubjectSlug(examId, info.subjectId)}-${getTopicSlug(examId, topicId)}`;
+  const subjSlug = getSubjectSlug(examId, info.subjectId);
+  const topSlug = getTopicSlug(examId, topicId);
+  const key = dir === subjSlug ? `${dir}-${topSlug}` : `${dir}-${subjSlug}-${topSlug}`;
   const ts = sets[key];
   if (!ts || setIndex >= ts.length) return [];
   const raw = ts[setIndex];
