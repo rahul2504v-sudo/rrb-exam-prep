@@ -59,20 +59,20 @@
     "en": {
       "question": "A pipe fills tank in 12 hrs, another in 18 hrs. Both open together fill in?",
       "options": [
-        "6",
+        "10",
         "7",
         "8",
-        "8"
+        "9"
       ],
       "explanation": "1 hr work = 1/12 + 1/18 = 30/216. Time = 216/30 = 7 hrs."
     },
     "hi": {
       "question": "A पाइप fills टंकी in 12 hrs, another in 18 hrs. Both open together fill in?",
       "options": [
-        "6",
+        "10",
         "7",
         "8",
-        "8"
+        "9"
       ],
       "explanation": "1 hr work = 1/12 + 1/18 = 30/216. Time = 216/30 = 7 hrs."
     }
@@ -345,9 +345,9 @@
     "en": {
       "question": "A pipe fills tank in 12 hrs, another in 8 hrs. Both open together fill in?",
       "options": [
-        "3",
         "8",
-        "8",
+        "6",
+        "7",
         "5"
       ],
       "explanation": "1 hr work = 1/12 + 1/8 = 20/96. Time = 96/20 = 5 hrs."
@@ -355,9 +355,9 @@
     "hi": {
       "question": "A पाइप fills टंकी in 12 hrs, another in 8 hrs. Both open together fill in?",
       "options": [
-        "3",
         "8",
-        "8",
+        "6",
+        "7",
         "5"
       ],
       "explanation": "1 hr work = 1/12 + 1/8 = 20/96. Time = 96/20 = 5 hrs."
@@ -397,9 +397,9 @@
     "en": {
       "question": "A pipe fills tank in 24 hrs, another in 12 hrs. Both open together fill in?",
       "options": [
+        "9",
         "10",
-        "10",
-        "7",
+        "11",
         "8"
       ],
       "explanation": "1 hr work = 1/24 + 1/12 = 36/288. Time = 288/36 = 8 hrs."
@@ -407,9 +407,9 @@
     "hi": {
       "question": "A पाइप fills टंकी in 24 hrs, another in 12 hrs. Both open together fill in?",
       "options": [
+        "9",
         "10",
-        "10",
-        "7",
+        "11",
         "8"
       ],
       "explanation": "1 hr work = 1/24 + 1/12 = 36/288. Time = 288/36 = 8 hrs."
@@ -814,9 +814,9 @@
       "question": "A pipe fills tank in 24 hrs, another in 12 hrs. Both open together fill in?",
       "options": [
         "8",
-        "11",
-        "7",
-        "8"
+        "10",
+        "9",
+        "11"
       ],
       "explanation": "1 hr work = 1/24 + 1/12 = 36/288. Time = 288/36 = 8 hrs."
     },
@@ -824,24 +824,24 @@
       "question": "A पाइप fills टंकी in 24 hrs, another in 12 hrs. Both open together fill in?",
       "options": [
         "8",
-        "11",
-        "7",
-        "8"
+        "10",
+        "9",
+        "11"
       ],
       "explanation": "1 hr work = 1/24 + 1/12 = 36/288. Time = 288/36 = 8 hrs."
     }
   },
   {
     "id": "npc-0033",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "A pipe fills tank in 6 hrs, another in 4 hrs. Both open together fill in?",
       "options": [
-        "3",
-        "1",
         "2",
+        "4",
+        "5",
         "3"
       ],
       "explanation": "1 hr work = 1/6 + 1/4 = 10/24. Time = 24/10 = 2 hrs."
@@ -849,9 +849,9 @@
     "hi": {
       "question": "A पाइप fills टंकी in 6 hrs, another in 4 hrs. Both open together fill in?",
       "options": [
-        "3",
-        "1",
         "2",
+        "4",
+        "5",
         "3"
       ],
       "explanation": "1 hr work = 1/6 + 1/4 = 10/24. Time = 24/10 = 2 hrs."
@@ -911,26 +911,26 @@
   },
   {
     "id": "npc-0036",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "A pipe fills tank in 8 hrs, another in 6 hrs. Both open together fill in?",
       "options": [
-        "3",
-        "3",
+        "5",
         "6",
-        "2"
+        "3",
+        "4"
       ],
       "explanation": "1 hr work = 1/8 + 1/6 = 14/48. Time = 48/14 = 3 hrs."
     },
     "hi": {
       "question": "A पाइप fills टंकी in 8 hrs, another in 6 hrs. Both open together fill in?",
       "options": [
-        "3",
-        "3",
+        "5",
         "6",
-        "2"
+        "3",
+        "4"
       ],
       "explanation": "1 hr work = 1/8 + 1/6 = 14/48. Time = 48/14 = 3 hrs."
     }
@@ -963,26 +963,26 @@
   },
   {
     "id": "npc-0038",
-    "correctOption": "A",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "A pipe fills tank in 12 hrs, another in 8 hrs. Both open together fill in?",
       "options": [
-        "5",
         "8",
-        "3",
-        "5"
+        "5",
+        "6",
+        "7"
       ],
       "explanation": "1 hr work = 1/12 + 1/8 = 20/96. Time = 96/20 = 5 hrs."
     },
     "hi": {
       "question": "A पाइप fills टंकी in 12 hrs, another in 8 hrs. Both open together fill in?",
       "options": [
-        "5",
         "8",
-        "3",
-        "5"
+        "5",
+        "6",
+        "7"
       ],
       "explanation": "1 hr work = 1/12 + 1/8 = 20/96. Time = 96/20 = 5 hrs."
     }
@@ -1067,26 +1067,26 @@
   },
   {
     "id": "npc-0042",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "A pipe fills tank in 10 hrs, another in 15 hrs. Both open together fill in?",
       "options": [
-        "5",
-        "8",
+        "9",
         "6",
-        "5"
+        "8",
+        "7"
       ],
       "explanation": "1 hr work = 1/10 + 1/15 = 25/150. Time = 150/25 = 6 hrs."
     },
     "hi": {
       "question": "A पाइप fills टंकी in 10 hrs, another in 15 hrs. Both open together fill in?",
       "options": [
-        "5",
-        "8",
+        "9",
         "6",
-        "5"
+        "8",
+        "7"
       ],
       "explanation": "1 hr work = 1/10 + 1/15 = 25/150. Time = 150/25 = 6 hrs."
     }
@@ -1223,26 +1223,26 @@
   },
   {
     "id": "npc-0048",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "A pipe fills tank in 24 hrs, another in 12 hrs. Both open together fill in?",
       "options": [
-        "7",
-        "10",
         "8",
-        "8"
+        "10",
+        "9",
+        "11"
       ],
       "explanation": "1 hr work = 1/24 + 1/12 = 36/288. Time = 288/36 = 8 hrs."
     },
     "hi": {
       "question": "A पाइप fills टंकी in 24 hrs, another in 12 hrs. Both open together fill in?",
       "options": [
-        "7",
-        "10",
         "8",
-        "8"
+        "10",
+        "9",
+        "11"
       ],
       "explanation": "1 hr work = 1/24 + 1/12 = 36/288. Time = 288/36 = 8 hrs."
     }
@@ -1535,26 +1535,26 @@
   },
   {
     "id": "npc-0060",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "A pipe fills tank in 8 hrs, another in 6 hrs. Both open together fill in?",
       "options": [
-        "3",
-        "3",
         "6",
-        "2"
+        "4",
+        "3",
+        "5"
       ],
       "explanation": "1 hr work = 1/8 + 1/6 = 14/48. Time = 48/14 = 3 hrs."
     },
     "hi": {
       "question": "A पाइप fills टंकी in 8 hrs, another in 6 hrs. Both open together fill in?",
       "options": [
-        "3",
-        "3",
         "6",
-        "2"
+        "4",
+        "3",
+        "5"
       ],
       "explanation": "1 hr work = 1/8 + 1/6 = 14/48. Time = 48/14 = 3 hrs."
     }
@@ -1587,26 +1587,26 @@
   },
   {
     "id": "npc-0062",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "A pipe fills tank in 12 hrs, another in 8 hrs. Both open together fill in?",
       "options": [
-        "3",
+        "7",
+        "8",
         "5",
-        "5",
-        "8"
+        "6"
       ],
       "explanation": "1 hr work = 1/12 + 1/8 = 20/96. Time = 96/20 = 5 hrs."
     },
     "hi": {
       "question": "A पाइप fills टंकी in 12 hrs, another in 8 hrs. Both open together fill in?",
       "options": [
-        "3",
+        "7",
+        "8",
         "5",
-        "5",
-        "8"
+        "6"
       ],
       "explanation": "1 hr work = 1/12 + 1/8 = 20/96. Time = 96/20 = 5 hrs."
     }
@@ -1795,15 +1795,15 @@
   },
   {
     "id": "npc-0070",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "A pipe fills tank in 12 hrs, another in 8 hrs. Both open together fill in?",
       "options": [
-        "3",
-        "3",
         "5",
+        "7",
+        "6",
         "8"
       ],
       "explanation": "1 hr work = 1/12 + 1/8 = 20/96. Time = 96/20 = 5 hrs."
@@ -1811,9 +1811,9 @@
     "hi": {
       "question": "A पाइप fills टंकी in 12 hrs, another in 8 hrs. Both open together fill in?",
       "options": [
-        "3",
-        "3",
         "5",
+        "7",
+        "6",
         "8"
       ],
       "explanation": "1 hr work = 1/12 + 1/8 = 20/96. Time = 96/20 = 5 hrs."
@@ -1853,20 +1853,20 @@
     "en": {
       "question": "A pipe fills tank in 24 hrs, another in 12 hrs. Both open together fill in?",
       "options": [
-        "10",
+        "11",
         "8",
-        "6",
-        "8"
+        "10",
+        "9"
       ],
       "explanation": "1 hr work = 1/24 + 1/12 = 36/288. Time = 288/36 = 8 hrs."
     },
     "hi": {
       "question": "A पाइप fills टंकी in 24 hrs, another in 12 hrs. Both open together fill in?",
       "options": [
-        "10",
+        "11",
         "8",
-        "6",
-        "8"
+        "10",
+        "9"
       ],
       "explanation": "1 hr work = 1/24 + 1/12 = 36/288. Time = 288/36 = 8 hrs."
     }
@@ -1951,15 +1951,15 @@
   },
   {
     "id": "npc-0076",
-    "correctOption": "C",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "A pipe fills tank in 8 hrs, another in 6 hrs. Both open together fill in?",
       "options": [
         "5",
-        "2",
-        "3",
+        "4",
+        "6",
         "3"
       ],
       "explanation": "1 hr work = 1/8 + 1/6 = 14/48. Time = 48/14 = 3 hrs."
@@ -1968,8 +1968,8 @@
       "question": "A पाइप fills टंकी in 8 hrs, another in 6 hrs. Both open together fill in?",
       "options": [
         "5",
-        "2",
-        "3",
+        "4",
+        "6",
         "3"
       ],
       "explanation": "1 hr work = 1/8 + 1/6 = 14/48. Time = 48/14 = 3 hrs."
@@ -2185,26 +2185,26 @@
   },
   {
     "id": "npc-0085",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "A pipe fills tank in 20 hrs, another in 30 hrs. Both open together fill in?",
       "options": [
-        "10",
-        "15",
-        "10",
-        "12"
+        "14",
+        "12",
+        "13",
+        "15"
       ],
       "explanation": "1 hr work = 1/20 + 1/30 = 50/600. Time = 600/50 = 12 hrs."
     },
     "hi": {
       "question": "A पाइप fills टंकी in 20 hrs, another in 30 hrs. Both open together fill in?",
       "options": [
-        "10",
-        "15",
-        "10",
-        "12"
+        "14",
+        "12",
+        "13",
+        "15"
       ],
       "explanation": "1 hr work = 1/20 + 1/30 = 50/600. Time = 600/50 = 12 hrs."
     }
@@ -2218,9 +2218,9 @@
       "question": "A pipe fills tank in 12 hrs, another in 8 hrs. Both open together fill in?",
       "options": [
         "5",
+        "8",
         "7",
-        "3",
-        "3"
+        "6"
       ],
       "explanation": "1 hr work = 1/12 + 1/8 = 20/96. Time = 96/20 = 5 hrs."
     },
@@ -2228,9 +2228,9 @@
       "question": "A पाइप fills टंकी in 12 hrs, another in 8 hrs. Both open together fill in?",
       "options": [
         "5",
+        "8",
         "7",
-        "3",
-        "3"
+        "6"
       ],
       "explanation": "1 hr work = 1/12 + 1/8 = 20/96. Time = 96/20 = 5 hrs."
     }
@@ -2263,26 +2263,26 @@
   },
   {
     "id": "npc-0088",
-    "correctOption": "A",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "A pipe fills tank in 24 hrs, another in 12 hrs. Both open together fill in?",
       "options": [
+        "9",
         "8",
         "10",
-        "10",
-        "6"
+        "11"
       ],
       "explanation": "1 hr work = 1/24 + 1/12 = 36/288. Time = 288/36 = 8 hrs."
     },
     "hi": {
       "question": "A पाइप fills टंकी in 24 hrs, another in 12 hrs. Both open together fill in?",
       "options": [
+        "9",
         "8",
         "10",
-        "10",
-        "6"
+        "11"
       ],
       "explanation": "1 hr work = 1/24 + 1/12 = 36/288. Time = 288/36 = 8 hrs."
     }
@@ -2426,9 +2426,9 @@
       "question": "A pipe fills tank in 12 hrs, another in 8 hrs. Both open together fill in?",
       "options": [
         "5",
-        "3",
+        "7",
         "8",
-        "3"
+        "6"
       ],
       "explanation": "1 hr work = 1/12 + 1/8 = 20/96. Time = 96/20 = 5 hrs."
     },
@@ -2436,9 +2436,9 @@
       "question": "A पाइप fills टंकी in 12 hrs, another in 8 hrs. Both open together fill in?",
       "options": [
         "5",
-        "3",
+        "7",
         "8",
-        "3"
+        "6"
       ],
       "explanation": "1 hr work = 1/12 + 1/8 = 20/96. Time = 96/20 = 5 hrs."
     }
@@ -2575,15 +2575,15 @@
   },
   {
     "id": "npc-0100",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "A pipe fills tank in 8 hrs, another in 6 hrs. Both open together fill in?",
       "options": [
+        "5",
+        "6",
         "3",
-        "3",
-        "1",
         "4"
       ],
       "explanation": "1 hr work = 1/8 + 1/6 = 14/48. Time = 48/14 = 3 hrs."
@@ -2591,9 +2591,9 @@
     "hi": {
       "question": "A पाइप fills टंकी in 8 hrs, another in 6 hrs. Both open together fill in?",
       "options": [
+        "5",
+        "6",
         "3",
-        "3",
-        "1",
         "4"
       ],
       "explanation": "1 hr work = 1/8 + 1/6 = 14/48. Time = 48/14 = 3 hrs."

@@ -506,20 +506,20 @@
     "en": {
       "question": "How many rectangles in a 3×2 grid?",
       "options": [
+        "20",
         "18",
-        "18",
-        "12",
-        "24"
+        "19",
+        "21"
       ],
       "explanation": "Rectangles = 4×3×3×2/4 = 18. Or: C(4,2)×C(3,2) = 6×3 = 18."
     },
     "hi": {
       "question": "3×2 ग्रिड में कितने आयत?",
       "options": [
+        "20",
         "18",
-        "18",
-        "12",
-        "24"
+        "19",
+        "21"
       ],
       "explanation": "C(4,2)×C(3,2) = 6×3 = 18।"
     }
@@ -1281,9 +1281,9 @@
     "en": {
       "question": "A 5×5×5 cube is painted and cut into unit cubes. How many have at least one face painted?",
       "options": [
-        "125",
-        "98",
-        "96",
+        "99",
+        "100",
+        "101",
         "98"
       ],
       "explanation": "Total cubes=125. Unpainted=(5-2)³=27. Painted=125-27=98."
@@ -1291,9 +1291,9 @@
     "hi": {
       "question": "5×5×5 घन रंगकर एकक घनों में काटा। कम से कम एक फलक रंगे?",
       "options": [
-        "125",
-        "98",
-        "96",
+        "99",
+        "100",
+        "101",
         "98"
       ],
       "explanation": "कुल=125, बिना रंग=27, रंगे=98।"
@@ -2126,26 +2126,26 @@
   },
   {
     "id": "nrnv-0086",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "hard",
     "sourceYear": 2025,
     "en": {
       "question": "Complete the figure series: ⬜ → ⬛ → ⬜ → ⬛ → ⬜ → ?",
       "options": [
-        "⬜",
-        "⬜",
-        "○",
-        "⬛"
+        "⬛1",
+        "⬛3",
+        "⬛",
+        "⬛2"
       ],
       "explanation": "Alternating fill/empty"
     },
     "hi": {
       "question": "आकृति श्रेणी पूरी करें: ⬜ → ⬛ → ⬜ → ⬛ → ⬜ → ?",
       "options": [
-        "⬜",
-        "⬜",
-        "○",
-        "⬛"
+        "⬛1",
+        "⬛3",
+        "⬛",
+        "⬛2"
       ],
       "explanation": "Alternating fill/empty"
     }
@@ -2600,20 +2600,20 @@
     "en": {
       "question": "Complete the figure series: ⬆ → ➡ → ⬇ → ⬅ → ⬆ → ?",
       "options": [
-        "⬆",
+        "➡2",
         "➡",
-        "⬆",
-        "⬅"
+        "➡1",
+        "➡3"
       ],
       "explanation": "Arrow rotates 90° clockwise each step"
     },
     "hi": {
       "question": "आकृति श्रेणी पूरी करें: ⬆ → ➡ → ⬇ → ⬅ → ⬆ → ?",
       "options": [
-        "⬆",
+        "➡2",
         "➡",
-        "⬆",
-        "⬅"
+        "➡1",
+        "➡3"
       ],
       "explanation": "Arrow rotates 90° clockwise each step"
     }
@@ -3140,26 +3140,26 @@
   },
   {
     "id": "nrnv-0162",
-    "correctOption": "C",
+    "correctOption": "D",
     "difficulty": "hard",
     "sourceYear": 2025,
     "en": {
       "question": "Complete the figure series: △ → □ → ○ → △ → □ → ?",
       "options": [
-        "△",
-        "□",
-        "○",
-        "□"
+        "○3",
+        "○2",
+        "○1",
+        "○"
       ],
       "explanation": "Pattern repeats: △, □, ○, △, □, ○"
     },
     "hi": {
       "question": "आकृति श्रेणी पूरी करें: △ → □ → ○ → △ → □ → ?",
       "options": [
-        "△",
-        "□",
-        "○",
-        "□"
+        "○3",
+        "○2",
+        "○1",
+        "○"
       ],
       "explanation": "Pattern repeats: △, □, ○, △, □, ○"
     }

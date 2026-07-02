@@ -851,25 +851,25 @@
   },
   {
     "id": "nrp-0035",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "easy",
     "en": {
       "question": "A,B,C,D sitting around circle facing center. A is opposite C. B is immediate right of A. Who is immediate left of C?",
       "options": [
-        "A",
-        "B",
+        "D2",
+        "D1",
         "D",
-        "D"
+        "D3"
       ],
       "explanation": "A at 1, C at 3. B at 2 (right of A). D at 4. Left of C(3)=D(4)."
     },
     "hi": {
       "question": "A-D गोल, केंद्रोन्मुख। A,C विपरीत। B,A के ठीक दाएँ। C के ठीक बाएँ?",
       "options": [
-        "A",
-        "B",
+        "D2",
+        "D1",
         "D",
-        "D"
+        "D3"
       ],
       "explanation": "D, C के बाएँ।"
     }
@@ -2033,26 +2033,26 @@
   },
   {
     "id": "nrp-0082",
-    "correctOption": "A",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "5 persons B, C, D, A, E sit in a row. B is at extreme left, E at extreme right. Position of D?",
       "options": [
-        "3",
         "6",
         "3",
-        "3"
+        "5",
+        "4"
       ],
       "explanation": "Order: B - C - D - A - E. D is at position 3 from left."
     },
     "hi": {
       "question": "5 व्यक्ति B, C, D, A, E एक पंक्ति में बैठे हैं। B बिल्कुल बाएं, E बिल्कुल दाएं। D का स्थान?",
       "options": [
-        "3",
         "6",
         "3",
-        "3"
+        "5",
+        "4"
       ],
       "explanation": "क्रम: B - C - D - A - E। D बाएं से स्थान 3 पर।"
     }
@@ -2293,26 +2293,26 @@
   },
   {
     "id": "nrp-0093",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "8 persons A, H, C, F, D, G, E, B sit in a row. A is at extreme left, B at extreme right. Position of E?",
       "options": [
+        "8",
         "10",
-        "2",
-        "2",
-        "7"
+        "7",
+        "9"
       ],
       "explanation": "Order: A - H - C - F - D - G - E - B. E is at position 7 from left."
     },
     "hi": {
       "question": "8 व्यक्ति A, H, C, F, D, G, E, B एक पंक्ति में बैठे हैं। A बिल्कुल बाएं, B बिल्कुल दाएं। E का स्थान?",
       "options": [
+        "8",
         "10",
-        "2",
-        "2",
-        "7"
+        "7",
+        "9"
       ],
       "explanation": "क्रम: A - H - C - F - D - G - E - B। E बाएं से स्थान 7 पर।"
     }
@@ -2345,16 +2345,16 @@
   },
   {
     "id": "nrp-0095",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "6 persons B, E, D, A, C, F sit in a row. B is at extreme left, F at extreme right. Position of D?",
       "options": [
         "5",
-        "3",
         "4",
-        "5"
+        "3",
+        "6"
       ],
       "explanation": "Order: B - E - D - A - C - F. D is at position 3 from left."
     },
@@ -2362,9 +2362,9 @@
       "question": "6 व्यक्ति B, E, D, A, C, F एक पंक्ति में बैठे हैं। B बिल्कुल बाएं, F बिल्कुल दाएं। D का स्थान?",
       "options": [
         "5",
-        "3",
         "4",
-        "5"
+        "3",
+        "6"
       ],
       "explanation": "क्रम: B - E - D - A - C - F। D बाएं से स्थान 3 पर।"
     }
@@ -2397,52 +2397,52 @@
   },
   {
     "id": "nrp-0097",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "5 persons B, C, E, A, D sit in a row. B is at extreme left, D at extreme right. Position of E?",
       "options": [
-        "5",
-        "5",
+        "4",
         "3",
-        "3"
+        "5",
+        "6"
       ],
       "explanation": "Order: B - C - E - A - D. E is at position 3 from left."
     },
     "hi": {
       "question": "5 व्यक्ति B, C, E, A, D एक पंक्ति में बैठे हैं। B बिल्कुल बाएं, D बिल्कुल दाएं। E का स्थान?",
       "options": [
-        "5",
-        "5",
+        "4",
         "3",
-        "3"
+        "5",
+        "6"
       ],
       "explanation": "क्रम: B - C - E - A - D। E बाएं से स्थान 3 पर।"
     }
   },
   {
     "id": "nrp-0098",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "7 persons A, D, F, E, G, C, B sit in a row. A is at extreme left, B at extreme right. Position of A?",
       "options": [
-        "7",
-        "1",
+        "3",
         "2",
-        "2"
+        "4",
+        "1"
       ],
       "explanation": "Order: A - D - F - E - G - C - B. A is at position 1 from left."
     },
     "hi": {
       "question": "7 व्यक्ति A, D, F, E, G, C, B एक पंक्ति में बैठे हैं। A बिल्कुल बाएं, B बिल्कुल दाएं। A का स्थान?",
       "options": [
-        "7",
-        "1",
+        "3",
         "2",
-        "2"
+        "4",
+        "1"
       ],
       "explanation": "क्रम: A - D - F - E - G - C - B। A बाएं से स्थान 1 पर।"
     }
@@ -2585,20 +2585,20 @@
     "en": {
       "question": "8 persons E, D, C, H, G, A, B, F sit in a row. E is at extreme left, F at extreme right. Position of E?",
       "options": [
-        "8",
+        "3",
         "2",
         "1",
-        "1"
+        "4"
       ],
       "explanation": "Order: E - D - C - H - G - A - B - F. E is at position 1 from left."
     },
     "hi": {
       "question": "8 व्यक्ति E, D, C, H, G, A, B, F एक पंक्ति में बैठे हैं। E बिल्कुल बाएं, F बिल्कुल दाएं। E का स्थान?",
       "options": [
-        "8",
+        "3",
         "2",
         "1",
-        "1"
+        "4"
       ],
       "explanation": "क्रम: E - D - C - H - G - A - B - F। E बाएं से स्थान 1 पर।"
     }
@@ -2767,9 +2767,9 @@
     "en": {
       "question": "5 persons D, E, B, C, A sit in a row. D is at extreme left, A at extreme right. Position of C?",
       "options": [
-        "2",
+        "5",
         "4",
-        "4",
+        "6",
         "7"
       ],
       "explanation": "Order: D - E - B - C - A. C is at position 4 from left."
@@ -2777,9 +2777,9 @@
     "hi": {
       "question": "5 व्यक्ति D, E, B, C, A एक पंक्ति में बैठे हैं। D बिल्कुल बाएं, A बिल्कुल दाएं। C का स्थान?",
       "options": [
-        "2",
+        "5",
         "4",
-        "4",
+        "6",
         "7"
       ],
       "explanation": "क्रम: D - E - B - C - A। C बाएं से स्थान 4 पर।"
@@ -3229,16 +3229,16 @@
   },
   {
     "id": "nrp-0129",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "5 persons E, B, C, D, A sit in a row. E is at extreme left, A at extreme right. Position of B?",
       "options": [
         "4",
-        "2",
-        "2",
-        "4"
+        "3",
+        "5",
+        "2"
       ],
       "explanation": "Order: E - B - C - D - A. B is at position 2 from left."
     },
@@ -3246,9 +3246,9 @@
       "question": "5 व्यक्ति E, B, C, D, A एक पंक्ति में बैठे हैं। E बिल्कुल बाएं, A बिल्कुल दाएं। B का स्थान?",
       "options": [
         "4",
-        "2",
-        "2",
-        "4"
+        "3",
+        "5",
+        "2"
       ],
       "explanation": "क्रम: E - B - C - D - A। B बाएं से स्थान 2 पर।"
     }
@@ -3567,26 +3567,26 @@
   },
   {
     "id": "nrp-0143",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "5 persons B, A, E, D, C sit in a row. B is at extreme left, C at extreme right. Position of C?",
       "options": [
-        "6",
-        "1",
+        "8",
         "5",
-        "1"
+        "6",
+        "7"
       ],
       "explanation": "Order: B - A - E - D - C. C is at position 5 from left."
     },
     "hi": {
       "question": "5 व्यक्ति B, A, E, D, C एक पंक्ति में बैठे हैं। B बिल्कुल बाएं, C बिल्कुल दाएं। C का स्थान?",
       "options": [
-        "6",
-        "1",
+        "8",
         "5",
-        "1"
+        "6",
+        "7"
       ],
       "explanation": "क्रम: B - A - E - D - C। C बाएं से स्थान 5 पर।"
     }

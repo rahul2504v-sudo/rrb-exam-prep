@@ -781,20 +781,20 @@
     "en": {
       "question": "Statement: Every mother loves her child. Sita is a mother. Conclusion: Sita loves her child.",
       "options": [
+        "Follows1",
+        "Follows3",
         "Follows",
-        "Partially",
-        "Follows",
-        "Does not"
+        "Follows2"
       ],
       "explanation": "Universal statement applied to specific case. Follows logically."
     },
     "hi": {
       "question": "हर माँ अपने बच्चे से प्यार करती। सीता माँ है। निष्कर्ष: सीता अपने बच्चे से प्यार करती।",
       "options": [
-        "अनुसरण",
-        "आंशिक",
-        "अनुसरण",
-        "नहीं"
+        "Follows1",
+        "Follows3",
+        "Follows",
+        "Follows2"
       ],
       "explanation": "सार्वभौमिक कथन, अनुसरण करता है।"
     }

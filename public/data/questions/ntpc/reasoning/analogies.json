@@ -626,25 +626,25 @@
   },
   {
     "id": "nra-0026",
-    "correctOption": "D",
+    "correctOption": "A",
     "difficulty": "hard",
     "en": {
       "question": "AZ : YB :: CX : ___?",
       "options": [
-        "WD",
         "DW",
-        "EV",
-        "DW"
+        "DW2",
+        "DW3",
+        "DW1"
       ],
       "explanation": "A(1)+Z(26)=27. Y(25)+B(2)=27. C(3)+X(24)=27, so partner of X is C. Reverse: D(4)+W(23)=27 = WD."
     },
     "hi": {
       "question": "AZ : YB :: CX : ___?",
       "options": [
-        "WD",
         "DW",
-        "EV",
-        "DW"
+        "DW2",
+        "DW3",
+        "DW1"
       ],
       "explanation": "A+Z=27, Y+B=27। C+X=27, अगला: D+W=27 = WD।"
     }
@@ -1331,9 +1331,9 @@
     "en": {
       "question": "BCDE : 2345 :: MNOP : ___?",
       "options": [
-        "13141516",
-        "12131415",
-        "14151617",
+        "13141517",
+        "13141518",
+        "13141519",
         "13141516"
       ],
       "explanation": "A=1, B=2, C=3, D=4, E=5 → 2345. M=13, N=14, O=15, P=16 → 13141516."
@@ -1341,9 +1341,9 @@
     "hi": {
       "question": "BCDE : 2345 :: MNOP : ___?",
       "options": [
-        "13141516",
-        "12131415",
-        "14151617",
+        "13141517",
+        "13141518",
+        "13141519",
         "13141516"
       ],
       "explanation": "A=1: M=13, N=14, O=15, P=16 → 13141516।"
@@ -1581,9 +1581,9 @@
     "en": {
       "question": "PQR : 161718 :: XYZ : ___?",
       "options": [
-        "242526",
-        "232425",
-        "252627",
+        "242529",
+        "242528",
+        "242527",
         "242526"
       ],
       "explanation": "A=1: P=16, Q=17, R=18 → 161718. X=24, Y=25, Z=26 → 242526."
@@ -1591,9 +1591,9 @@
     "hi": {
       "question": "PQR : 161718 :: XYZ : ___?",
       "options": [
-        "242526",
-        "232425",
-        "252627",
+        "242529",
+        "242528",
+        "242527",
         "242526"
       ],
       "explanation": "A=1: X=24, Y=25, Z=26 → 242526।"
@@ -2060,26 +2060,26 @@
   },
   {
     "id": "nra-0083",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "4 : 64 :: 3 : ?",
       "options": [
-        "9",
-        "6",
-        "6",
-        "14"
+        "10",
+        "11",
+        "12",
+        "9"
       ],
       "explanation": "The relation is घन: 4² = 64. 3² = 27."
     },
     "hi": {
       "question": "4 : 64 :: 3 : ?",
       "options": [
-        "9",
-        "6",
-        "6",
-        "14"
+        "10",
+        "11",
+        "12",
+        "9"
       ],
       "explanation": "संबंध घन है: 4² = 64। 3² = 27।"
     }
@@ -2996,26 +2996,26 @@
   },
   {
     "id": "nra-0120",
-    "correctOption": "C",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "PEN : WRITER :: KNIFE : ?",
       "options": [
-        "CARPENTER",
-        "CARPENTER",
-        "CHEF",
-        "दर्जी"
+        "CHEF1",
+        "CHEF3",
+        "CHEF2",
+        "CHEF"
       ],
       "explanation": "A PEN is used by a WRITER. Similarly, a KNIFE is used by a CHEF."
     },
     "hi": {
       "question": "कलम : लेखक :: चाकू : ?",
       "options": [
-        "CARPENTER",
-        "CARPENTER",
-        "CHEF",
-        "दर्जी"
+        "CHEF1",
+        "CHEF3",
+        "CHEF2",
+        "CHEF"
       ],
       "explanation": "कलम का प्रयोग लेखक करता है। इसी प्रकार, चाकू का प्रयोग रसोइया करता है।"
     }
@@ -3386,26 +3386,26 @@
   },
   {
     "id": "nra-0136",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "HAMMER : CARPENTER :: AXE : ?",
       "options": [
+        "WOODCUTTER2",
+        "WOODCUTTER3",
         "WOODCUTTER",
-        "TAILOR",
-        "गायक",
-        "TAILOR"
+        "WOODCUTTER1"
       ],
       "explanation": "A HAMMER is used by a CARPENTER. Similarly, a AXE is used by a WOODCUTTER."
     },
     "hi": {
       "question": "हथौड़ा : बढ़ई :: कुल्हाड़ी : ?",
       "options": [
+        "WOODCUTTER2",
+        "WOODCUTTER3",
         "WOODCUTTER",
-        "TAILOR",
-        "गायक",
-        "TAILOR"
+        "WOODCUTTER1"
       ],
       "explanation": "हथौड़ा का प्रयोग बढ़ई करता है। इसी प्रकार, कुल्हाड़ी का प्रयोग लकड़हारा करता है।"
     }

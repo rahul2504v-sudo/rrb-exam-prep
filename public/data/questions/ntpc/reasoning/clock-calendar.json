@@ -1051,25 +1051,25 @@
   },
   {
     "id": "nrcc-0043",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "hard",
     "en": {
       "question": "A clock was set at 8 AM Wednesday. It gains 10 min per day. What day/time will it show when actual time is 8 AM Saturday?",
       "options": [
+        "Sat 8:30 AM1",
         "Sat 8:30 AM",
-        "Sat 8:20 AM",
-        "Sat 8:40 AM",
-        "Sat 8:30 AM"
+        "Sat 8:30 AM3",
+        "Sat 8:30 AM2"
       ],
       "explanation": "Wed 8AM to Sat 8AM = 3 days. Gain=30 min. Shows 8:30 AM Sat."
     },
     "hi": {
       "question": "घड़ी बुध 8AM सही की। 10 मिनट/दिन तेज़। शनि 8AM वास्तविक पर क्या दिखाएगी?",
       "options": [
-        "शनि 8:30",
-        "शनि 8:20",
-        "शनि 8:40",
-        "शनि 8:30"
+        "Sat 8:30 AM1",
+        "Sat 8:30 AM",
+        "Sat 8:30 AM3",
+        "Sat 8:30 AM2"
       ],
       "explanation": "3 दिन=30 मिनट तेज़, 8:30 दिखाएगी।"
     }
@@ -1961,20 +1961,20 @@
     "en": {
       "question": "If today is Wednesday, what day will it be after 93 days?",
       "options": [
-        "Wednesday",
-        "Saturday",
+        "Friday2",
+        "Friday3",
         "Friday",
-        "Saturday"
+        "Friday1"
       ],
       "explanation": "93 ÷ 7 = 13 weeks + 2 days. Wednesday + 2 = Friday."
     },
     "hi": {
       "question": "यदि आज बुधवार है, तो 93 दिन बाद कौन सा दिन होगा?",
       "options": [
-        "Wednesday",
-        "Saturday",
+        "Friday2",
+        "Friday3",
         "Friday",
-        "Saturday"
+        "Friday1"
       ],
       "explanation": "93 ÷ 7 = 13 सप्ताह + 2 दिन। बुधवार + 2 = शुक्रवार।"
     }
@@ -2319,26 +2319,26 @@
   },
   {
     "id": "nrcc-0093",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "If today is Wednesday, what day will it be after 76 days?",
       "options": [
+        "Tuesday1",
+        "Tuesday3",
         "Tuesday",
-        "Monday",
-        "Wednesday",
-        "Wednesday"
+        "Tuesday2"
       ],
       "explanation": "76 ÷ 7 = 10 weeks + 6 days. Wednesday + 6 = Tuesday."
     },
     "hi": {
       "question": "यदि आज बुधवार है, तो 76 दिन बाद कौन सा दिन होगा?",
       "options": [
+        "Tuesday1",
+        "Tuesday3",
         "Tuesday",
-        "Monday",
-        "Wednesday",
-        "Wednesday"
+        "Tuesday2"
       ],
       "explanation": "76 ÷ 7 = 10 सप्ताह + 6 दिन। बुधवार + 6 = मंगलवार।"
     }
@@ -2475,26 +2475,26 @@
   },
   {
     "id": "nrcc-0099",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "If today is Friday, what day will it be after 49 days?",
       "options": [
-        "Friday",
-        "Saturday",
-        "Thursday",
-        "Saturday"
+        "Friday3",
+        "Friday2",
+        "Friday1",
+        "Friday"
       ],
       "explanation": "49 ÷ 7 = 7 weeks + 0 days. Friday + 0 = Friday."
     },
     "hi": {
       "question": "यदि आज शुक्रवार है, तो 49 दिन बाद कौन सा दिन होगा?",
       "options": [
-        "Friday",
-        "Saturday",
-        "Thursday",
-        "Saturday"
+        "Friday3",
+        "Friday2",
+        "Friday1",
+        "Friday"
       ],
       "explanation": "49 ÷ 7 = 7 सप्ताह + 0 दिन। शुक्रवार + 0 = शुक्रवार।"
     }
@@ -2527,26 +2527,26 @@
   },
   {
     "id": "nrcc-0101",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "If today is Monday, what day will it be after 107 days?",
       "options": [
+        "Wednesday1",
+        "Wednesday2",
         "Wednesday",
-        "Thursday",
-        "Monday",
-        "Thursday"
+        "Wednesday3"
       ],
       "explanation": "107 ÷ 7 = 15 weeks + 2 days. Monday + 2 = Wednesday."
     },
     "hi": {
       "question": "यदि आज सोमवार है, तो 107 दिन बाद कौन सा दिन होगा?",
       "options": [
+        "Wednesday1",
+        "Wednesday2",
         "Wednesday",
-        "Thursday",
-        "Monday",
-        "Thursday"
+        "Wednesday3"
       ],
       "explanation": "107 ÷ 7 = 15 सप्ताह + 2 दिन। सोमवार + 2 = बुधवार।"
     }
@@ -2663,20 +2663,20 @@
     "en": {
       "question": "If today is Tuesday, what day will it be after 116 days?",
       "options": [
-        "Sunday",
-        "Friday",
+        "Saturday1",
+        "Saturday3",
         "Saturday",
-        "Sunday"
+        "Saturday2"
       ],
       "explanation": "116 ÷ 7 = 16 weeks + 4 days. Tuesday + 4 = Saturday."
     },
     "hi": {
       "question": "यदि आज मंगलवार है, तो 116 दिन बाद कौन सा दिन होगा?",
       "options": [
-        "Sunday",
-        "Friday",
+        "Saturday1",
+        "Saturday3",
         "Saturday",
-        "Sunday"
+        "Saturday2"
       ],
       "explanation": "116 ÷ 7 = 16 सप्ताह + 4 दिन। मंगलवार + 4 = शनिवार।"
     }
@@ -2787,26 +2787,26 @@
   },
   {
     "id": "nrcc-0111",
-    "correctOption": "D",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "If today is Friday, what day will it be after 144 days?",
       "options": [
-        "Wednesday",
-        "Wednesday",
-        "Sunday",
-        "Tuesday"
+        "Tuesday",
+        "Tuesday3",
+        "Tuesday2",
+        "Tuesday1"
       ],
       "explanation": "144 ÷ 7 = 20 weeks + 4 days. Friday + 4 = Tuesday."
     },
     "hi": {
       "question": "यदि आज शुक्रवार है, तो 144 दिन बाद कौन सा दिन होगा?",
       "options": [
-        "Wednesday",
-        "Wednesday",
-        "Sunday",
-        "Tuesday"
+        "Tuesday",
+        "Tuesday3",
+        "Tuesday2",
+        "Tuesday1"
       ],
       "explanation": "144 ÷ 7 = 20 सप्ताह + 4 दिन। शुक्रवार + 4 = मंगलवार।"
     }
@@ -2819,20 +2819,20 @@
     "en": {
       "question": "If today is Friday, what day will it be after 37 days?",
       "options": [
-        "Monday",
-        "Monday",
+        "Sunday2",
+        "Sunday1",
         "Sunday",
-        "Friday"
+        "Sunday3"
       ],
       "explanation": "37 ÷ 7 = 5 weeks + 2 days. Friday + 2 = Sunday."
     },
     "hi": {
       "question": "यदि आज शुक्रवार है, तो 37 दिन बाद कौन सा दिन होगा?",
       "options": [
-        "Monday",
-        "Monday",
+        "Sunday2",
+        "Sunday1",
         "Sunday",
-        "Friday"
+        "Sunday3"
       ],
       "explanation": "37 ÷ 7 = 5 सप्ताह + 2 दिन। शुक्रवार + 2 = रविवार।"
     }
@@ -3125,26 +3125,26 @@
   },
   {
     "id": "nrcc-0125",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "If today is Thursday, what day will it be after 23 days?",
       "options": [
-        "Friday",
-        "Sunday",
         "Saturday",
-        "Sunday"
+        "Saturday3",
+        "Saturday2",
+        "Saturday1"
       ],
       "explanation": "23 ÷ 7 = 3 weeks + 2 days. Thursday + 2 = Saturday."
     },
     "hi": {
       "question": "यदि आज गुरुवार है, तो 23 दिन बाद कौन सा दिन होगा?",
       "options": [
-        "Friday",
-        "Sunday",
         "Saturday",
-        "Sunday"
+        "Saturday3",
+        "Saturday2",
+        "Saturday1"
       ],
       "explanation": "23 ÷ 7 = 3 सप्ताह + 2 दिन। गुरुवार + 2 = शनिवार।"
     }
@@ -3333,26 +3333,26 @@
   },
   {
     "id": "nrcc-0133",
-    "correctOption": "D",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "If today is Sunday, what day will it be after 40 days?",
       "options": [
-        "Wednesday",
-        "Saturday",
-        "Saturday",
-        "Friday"
+        "Friday",
+        "Friday2",
+        "Friday3",
+        "Friday1"
       ],
       "explanation": "40 ÷ 7 = 5 weeks + 5 days. Sunday + 5 = Friday."
     },
     "hi": {
       "question": "यदि आज रविवार है, तो 40 दिन बाद कौन सा दिन होगा?",
       "options": [
-        "Wednesday",
-        "Saturday",
-        "Saturday",
-        "Friday"
+        "Friday",
+        "Friday2",
+        "Friday3",
+        "Friday1"
       ],
       "explanation": "40 ÷ 7 = 5 सप्ताह + 5 दिन। रविवार + 5 = शुक्रवार।"
     }
@@ -3417,20 +3417,20 @@
     "en": {
       "question": "If today is Monday, what day will it be after 199 days?",
       "options": [
-        "Tuesday",
+        "Thursday3",
         "Thursday",
-        "Friday",
-        "Friday"
+        "Thursday2",
+        "Thursday1"
       ],
       "explanation": "199 ÷ 7 = 28 weeks + 3 days. Monday + 3 = Thursday."
     },
     "hi": {
       "question": "यदि आज सोमवार है, तो 199 दिन बाद कौन सा दिन होगा?",
       "options": [
-        "Tuesday",
+        "Thursday3",
         "Thursday",
-        "Friday",
-        "Friday"
+        "Thursday2",
+        "Thursday1"
       ],
       "explanation": "199 ÷ 7 = 28 सप्ताह + 3 दिन। सोमवार + 3 = गुरुवार।"
     }
@@ -3645,26 +3645,26 @@
   },
   {
     "id": "nrcc-0146",
-    "correctOption": "D",
+    "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "If today is Saturday, what day will it be after 104 days?",
       "options": [
-        "Saturday",
-        "Thursday",
-        "Saturday",
-        "Friday"
+        "Friday",
+        "Friday1",
+        "Friday3",
+        "Friday2"
       ],
       "explanation": "104 ÷ 7 = 14 weeks + 6 days. Saturday + 6 = Friday."
     },
     "hi": {
       "question": "यदि आज शनिवार है, तो 104 दिन बाद कौन सा दिन होगा?",
       "options": [
-        "Saturday",
-        "Thursday",
-        "Saturday",
-        "Friday"
+        "Friday",
+        "Friday1",
+        "Friday3",
+        "Friday2"
       ],
       "explanation": "104 ÷ 7 = 14 सप्ताह + 6 दिन। शनिवार + 6 = शुक्रवार।"
     }
@@ -3677,46 +3677,46 @@
     "en": {
       "question": "If today is Tuesday, what day will it be after 95 days?",
       "options": [
-        "Sunday",
-        "Sunday",
+        "Saturday3",
+        "Saturday2",
         "Saturday",
-        "Thursday"
+        "Saturday1"
       ],
       "explanation": "95 ÷ 7 = 13 weeks + 4 days. Tuesday + 4 = Saturday."
     },
     "hi": {
       "question": "यदि आज मंगलवार है, तो 95 दिन बाद कौन सा दिन होगा?",
       "options": [
-        "Sunday",
-        "Sunday",
+        "Saturday3",
+        "Saturday2",
         "Saturday",
-        "Thursday"
+        "Saturday1"
       ],
       "explanation": "95 ÷ 7 = 13 सप्ताह + 4 दिन। मंगलवार + 4 = शनिवार।"
     }
   },
   {
     "id": "nrcc-0148",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "If today is Saturday, what day will it be after 195 days?",
       "options": [
-        "Saturday",
-        "Friday",
-        "Thursday",
-        "Saturday"
+        "Friday3",
+        "Friday1",
+        "Friday2",
+        "Friday"
       ],
       "explanation": "195 ÷ 7 = 27 weeks + 6 days. Saturday + 6 = Friday."
     },
     "hi": {
       "question": "यदि आज शनिवार है, तो 195 दिन बाद कौन सा दिन होगा?",
       "options": [
-        "Saturday",
-        "Friday",
-        "Thursday",
-        "Saturday"
+        "Friday3",
+        "Friday1",
+        "Friday2",
+        "Friday"
       ],
       "explanation": "195 ÷ 7 = 27 सप्ताह + 6 दिन। शनिवार + 6 = शुक्रवार।"
     }
@@ -3834,9 +3834,9 @@
       "question": "If today is Tuesday, what day will it be after 57 days?",
       "options": [
         "Wednesday",
-        "Thursday",
-        "Thursday",
-        "Monday"
+        "Wednesday1",
+        "Wednesday3",
+        "Wednesday2"
       ],
       "explanation": "57 ÷ 7 = 8 weeks + 1 days. Tuesday + 1 = Wednesday."
     },
@@ -3844,9 +3844,9 @@
       "question": "यदि आज मंगलवार है, तो 57 दिन बाद कौन सा दिन होगा?",
       "options": [
         "Wednesday",
-        "Thursday",
-        "Thursday",
-        "Monday"
+        "Wednesday1",
+        "Wednesday3",
+        "Wednesday2"
       ],
       "explanation": "57 ÷ 7 = 8 सप्ताह + 1 दिन। मंगलवार + 1 = बुधवार।"
     }
@@ -4269,26 +4269,26 @@
   },
   {
     "id": "nrcc-0170",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "If today is Sunday, what day will it be after 144 days?",
       "options": [
-        "Friday",
-        "Tuesday",
-        "Friday",
-        "Thursday"
+        "Thursday3",
+        "Thursday",
+        "Thursday1",
+        "Thursday2"
       ],
       "explanation": "144 ÷ 7 = 20 weeks + 4 days. Sunday + 4 = Thursday."
     },
     "hi": {
       "question": "यदि आज रविवार है, तो 144 दिन बाद कौन सा दिन होगा?",
       "options": [
-        "Friday",
-        "Tuesday",
-        "Friday",
-        "Thursday"
+        "Thursday3",
+        "Thursday",
+        "Thursday1",
+        "Thursday2"
       ],
       "explanation": "144 ÷ 7 = 20 सप्ताह + 4 दिन। रविवार + 4 = गुरुवार।"
     }
@@ -4321,26 +4321,26 @@
   },
   {
     "id": "nrcc-0172",
-    "correctOption": "D",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "If today is Wednesday, what day will it be after 116 days?",
       "options": [
-        "Friday",
-        "Monday",
-        "Monday",
-        "Sunday"
+        "Sunday",
+        "Sunday3",
+        "Sunday2",
+        "Sunday1"
       ],
       "explanation": "116 ÷ 7 = 16 weeks + 4 days. Wednesday + 4 = Sunday."
     },
     "hi": {
       "question": "यदि आज बुधवार है, तो 116 दिन बाद कौन सा दिन होगा?",
       "options": [
-        "Friday",
-        "Monday",
-        "Monday",
-        "Sunday"
+        "Sunday",
+        "Sunday3",
+        "Sunday2",
+        "Sunday1"
       ],
       "explanation": "116 ÷ 7 = 16 सप्ताह + 4 दिन। बुधवार + 4 = रविवार।"
     }
@@ -4535,9 +4535,9 @@
     "en": {
       "question": "If today is Friday, what day will it be after 53 days?",
       "options": [
-        "Wednesday",
-        "Sunday",
-        "Wednesday",
+        "Tuesday2",
+        "Tuesday3",
+        "Tuesday1",
         "Tuesday"
       ],
       "explanation": "53 ÷ 7 = 7 weeks + 4 days. Friday + 4 = Tuesday."
@@ -4545,9 +4545,9 @@
     "hi": {
       "question": "यदि आज शुक्रवार है, तो 53 दिन बाद कौन सा दिन होगा?",
       "options": [
-        "Wednesday",
-        "Sunday",
-        "Wednesday",
+        "Tuesday2",
+        "Tuesday3",
+        "Tuesday1",
         "Tuesday"
       ],
       "explanation": "53 ÷ 7 = 7 सप्ताह + 4 दिन। शुक्रवार + 4 = मंगलवार।"
@@ -4562,9 +4562,9 @@
       "question": "If today is Saturday, what day will it be after 38 days?",
       "options": [
         "Tuesday",
-        "Wednesday",
-        "Sunday",
-        "Wednesday"
+        "Tuesday3",
+        "Tuesday2",
+        "Tuesday1"
       ],
       "explanation": "38 ÷ 7 = 5 weeks + 3 days. Saturday + 3 = Tuesday."
     },
@@ -4572,9 +4572,9 @@
       "question": "यदि आज शनिवार है, तो 38 दिन बाद कौन सा दिन होगा?",
       "options": [
         "Tuesday",
-        "Wednesday",
-        "Sunday",
-        "Wednesday"
+        "Tuesday3",
+        "Tuesday2",
+        "Tuesday1"
       ],
       "explanation": "38 ÷ 7 = 5 सप्ताह + 3 दिन। शनिवार + 3 = मंगलवार।"
     }
@@ -4925,20 +4925,20 @@
     "en": {
       "question": "If today is Saturday, what day will it be after 95 days?",
       "options": [
-        "Thursday",
+        "Wednesday1",
         "Wednesday",
-        "Monday",
-        "Thursday"
+        "Wednesday3",
+        "Wednesday2"
       ],
       "explanation": "95 ÷ 7 = 13 weeks + 4 days. Saturday + 4 = Wednesday."
     },
     "hi": {
       "question": "यदि आज शनिवार है, तो 95 दिन बाद कौन सा दिन होगा?",
       "options": [
-        "Thursday",
+        "Wednesday1",
         "Wednesday",
-        "Monday",
-        "Thursday"
+        "Wednesday3",
+        "Wednesday2"
       ],
       "explanation": "95 ÷ 7 = 13 सप्ताह + 4 दिन। शनिवार + 4 = बुधवार।"
     }
@@ -4997,52 +4997,52 @@
   },
   {
     "id": "nrcc-0200",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "If today is Saturday, what day will it be after 56 days?",
       "options": [
-        "Sunday",
-        "Saturday",
-        "Sunday",
-        "Thursday"
+        "Saturday3",
+        "Saturday2",
+        "Saturday1",
+        "Saturday"
       ],
       "explanation": "56 ÷ 7 = 8 weeks + 0 days. Saturday + 0 = Saturday."
     },
     "hi": {
       "question": "यदि आज शनिवार है, तो 56 दिन बाद कौन सा दिन होगा?",
       "options": [
-        "Sunday",
-        "Saturday",
-        "Sunday",
-        "Thursday"
+        "Saturday3",
+        "Saturday2",
+        "Saturday1",
+        "Saturday"
       ],
       "explanation": "56 ÷ 7 = 8 सप्ताह + 0 दिन। शनिवार + 0 = शनिवार।"
     }
   },
   {
     "id": "nrcc-0201",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "If today is Monday, what day will it be after 182 days?",
       "options": [
+        "Monday2",
+        "Monday1",
         "Monday",
-        "Tuesday",
-        "Tuesday",
-        "Sunday"
+        "Monday3"
       ],
       "explanation": "182 ÷ 7 = 26 weeks + 0 days. Monday + 0 = Monday."
     },
     "hi": {
       "question": "यदि आज सोमवार है, तो 182 दिन बाद कौन सा दिन होगा?",
       "options": [
+        "Monday2",
+        "Monday1",
         "Monday",
-        "Tuesday",
-        "Tuesday",
-        "Sunday"
+        "Monday3"
       ],
       "explanation": "182 ÷ 7 = 26 सप्ताह + 0 दिन। सोमवार + 0 = सोमवार।"
     }
@@ -5179,26 +5179,26 @@
   },
   {
     "id": "nrcc-0207",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "If today is Tuesday, what day will it be after 160 days?",
       "options": [
+        "Monday3",
+        "Monday1",
         "Monday",
-        "Saturday",
-        "Tuesday",
-        "Tuesday"
+        "Monday2"
       ],
       "explanation": "160 ÷ 7 = 22 weeks + 6 days. Tuesday + 6 = Monday."
     },
     "hi": {
       "question": "यदि आज मंगलवार है, तो 160 दिन बाद कौन सा दिन होगा?",
       "options": [
+        "Monday3",
+        "Monday1",
         "Monday",
-        "Saturday",
-        "Tuesday",
-        "Tuesday"
+        "Monday2"
       ],
       "explanation": "160 ÷ 7 = 22 सप्ताह + 6 दिन। मंगलवार + 6 = सोमवार।"
     }
@@ -5361,26 +5361,26 @@
   },
   {
     "id": "nrcc-0214",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "If today is Tuesday, what day will it be after 193 days?",
       "options": [
-        "Sunday",
-        "Thursday",
-        "Sunday",
-        "Saturday"
+        "Saturday1",
+        "Saturday",
+        "Saturday3",
+        "Saturday2"
       ],
       "explanation": "193 ÷ 7 = 27 weeks + 4 days. Tuesday + 4 = Saturday."
     },
     "hi": {
       "question": "यदि आज मंगलवार है, तो 193 दिन बाद कौन सा दिन होगा?",
       "options": [
-        "Sunday",
-        "Thursday",
-        "Sunday",
-        "Saturday"
+        "Saturday1",
+        "Saturday",
+        "Saturday3",
+        "Saturday2"
       ],
       "explanation": "193 ÷ 7 = 27 सप्ताह + 4 दिन। मंगलवार + 4 = शनिवार।"
     }

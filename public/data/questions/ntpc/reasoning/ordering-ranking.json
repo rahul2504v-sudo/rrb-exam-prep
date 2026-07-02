@@ -1826,15 +1826,15 @@
   },
   {
     "id": "nror-0074",
-    "correctOption": "C",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 40, A is 8th from left, B is 14th from right. If they interchange, A's new position?",
       "options": [
-        "8",
-        "14",
-        "27",
+        "29",
+        "30",
+        "28",
         "27"
       ],
       "explanation": "B is at 27 from left. After swap, A takes B's place = 27 from left."
@@ -1842,9 +1842,9 @@
     "hi": {
       "question": "40 की पंक्ति में A बाएं से 8वां, B दाएं से 14वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "8",
-        "14",
-        "27",
+        "29",
+        "30",
+        "28",
         "27"
       ],
       "explanation": "B बाएं से 27 पर है। स्थान बदलने पर A, B की जगह = 27वां बाएं से।"
@@ -1858,20 +1858,20 @@
     "en": {
       "question": "In row of 30, A is 7th from left, B is 11th from right. If they interchange, A's new position?",
       "options": [
-        "7",
+        "23",
         "20",
-        "20",
-        "11"
+        "22",
+        "21"
       ],
       "explanation": "B is at 20 from left. After swap, A takes B's place = 20 from left."
     },
     "hi": {
       "question": "30 की पंक्ति में A बाएं से 7वां, B दाएं से 11वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "7",
+        "23",
         "20",
-        "20",
-        "11"
+        "22",
+        "21"
       ],
       "explanation": "B बाएं से 20 पर है। स्थान बदलने पर A, B की जगह = 20वां बाएं से।"
     }
@@ -1884,98 +1884,98 @@
     "en": {
       "question": "5 persons: B is taller than E, E is taller than C, C is taller than A, and A is taller than D. Who is tallest?",
       "options": [
-        "B",
-        "E",
+        "A2",
+        "A1",
         "A",
-        "E"
+        "A3"
       ],
       "explanation": "The order from tallest: A > C > E > B. Tallest = A"
     },
     "hi": {
       "question": "5 व्यक्ति: B > E > C > A > D (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
-        "B",
-        "E",
+        "A2",
+        "A1",
         "A",
-        "E"
+        "A3"
       ],
       "explanation": "लंबाई क्रम: A > C > E > B। सबसे लंबा = A"
     }
   },
   {
     "id": "nror-0077",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "5 persons: B is taller than A, A is taller than E, E is taller than D, and D is taller than C. Who is tallest?",
       "options": [
-        "B",
-        "A",
-        "A",
-        "D"
+        "D3",
+        "D2",
+        "D",
+        "D1"
       ],
       "explanation": "The order from tallest: D > E > A > B. Tallest = D"
     },
     "hi": {
       "question": "5 व्यक्ति: B > A > E > D > C (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
-        "B",
-        "A",
-        "A",
-        "D"
+        "D3",
+        "D2",
+        "D",
+        "D1"
       ],
       "explanation": "लंबाई क्रम: D > E > A > B। सबसे लंबा = D"
     }
   },
   {
     "id": "nror-0078",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "5 persons: D is taller than B, B is taller than C, C is taller than A, and A is taller than E. Who is tallest?",
       "options": [
-        "C",
         "E",
-        "D",
-        "D"
+        "E2",
+        "E1",
+        "E3"
       ],
       "explanation": "The order from tallest: E > A > C > B > D. Tallest = E"
     },
     "hi": {
       "question": "5 व्यक्ति: D > B > C > A > E (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
-        "C",
         "E",
-        "D",
-        "D"
+        "E2",
+        "E1",
+        "E3"
       ],
       "explanation": "लंबाई क्रम: E > A > C > B > D। सबसे लंबा = E"
     }
   },
   {
     "id": "nror-0079",
-    "correctOption": "A",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 71, A is 21th from left, B is 13th from right. If they interchange, A's new position?",
       "options": [
+        "61",
         "59",
-        "21",
-        "13",
-        "59"
+        "60",
+        "62"
       ],
       "explanation": "B is at 59 from left. After swap, A takes B's place = 59 from left."
     },
     "hi": {
       "question": "71 की पंक्ति में A बाएं से 21वां, B दाएं से 13वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
+        "61",
         "59",
-        "21",
-        "13",
-        "59"
+        "60",
+        "62"
       ],
       "explanation": "B बाएं से 59 पर है। स्थान बदलने पर A, B की जगह = 59वां बाएं से।"
     }
@@ -1989,9 +1989,9 @@
       "question": "In row of 51, A is 13th from left, B is 11th from right. If they interchange, A's new position?",
       "options": [
         "41",
-        "11",
-        "41",
-        "13"
+        "42",
+        "44",
+        "43"
       ],
       "explanation": "B is at 41 from left. After swap, A takes B's place = 41 from left."
     },
@@ -1999,9 +1999,9 @@
       "question": "51 की पंक्ति में A बाएं से 13वां, B दाएं से 11वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
         "41",
-        "11",
-        "41",
-        "13"
+        "42",
+        "44",
+        "43"
       ],
       "explanation": "B बाएं से 41 पर है। स्थान बदलने पर A, B की जगह = 41वां बाएं से।"
     }
@@ -2014,72 +2014,72 @@
     "en": {
       "question": "In row of 65, A is 8th from left, B is 13th from right. If they interchange, A's new position?",
       "options": [
-        "13",
+        "54",
         "53",
-        "8",
-        "53"
+        "55",
+        "56"
       ],
       "explanation": "B is at 53 from left. After swap, A takes B's place = 53 from left."
     },
     "hi": {
       "question": "65 की पंक्ति में A बाएं से 8वां, B दाएं से 13वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "13",
+        "54",
         "53",
-        "8",
-        "53"
+        "55",
+        "56"
       ],
       "explanation": "B बाएं से 53 पर है। स्थान बदलने पर A, B की जगह = 53वां बाएं से।"
     }
   },
   {
     "id": "nror-0082",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "5 persons: D is taller than C, C is taller than A, A is taller than E, and E is taller than B. Who is tallest?",
       "options": [
-        "D",
+        "A3",
+        "A1",
         "A",
-        "C",
-        "D"
+        "A2"
       ],
       "explanation": "The order from tallest: A > C > D. Tallest = A"
     },
     "hi": {
       "question": "5 व्यक्ति: D > C > A > E > B (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
-        "D",
+        "A3",
+        "A1",
         "A",
-        "C",
-        "D"
+        "A2"
       ],
       "explanation": "लंबाई क्रम: A > C > D। सबसे लंबा = A"
     }
   },
   {
     "id": "nror-0083",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 60, A is 16th from left, B is 8th from right. If they interchange, A's new position?",
       "options": [
-        "16",
-        "8",
+        "56",
         "53",
-        "53"
+        "55",
+        "54"
       ],
       "explanation": "B is at 53 from left. After swap, A takes B's place = 53 from left."
     },
     "hi": {
       "question": "60 की पंक्ति में A बाएं से 16वां, B दाएं से 8वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "16",
-        "8",
+        "56",
         "53",
-        "53"
+        "55",
+        "54"
       ],
       "explanation": "B बाएं से 53 पर है। स्थान बदलने पर A, B की जगह = 53वां बाएं से।"
     }
@@ -2118,20 +2118,20 @@
     "en": {
       "question": "5 persons: C is taller than D, D is taller than E, E is taller than B, and B is taller than A. Who is tallest?",
       "options": [
-        "E",
-        "C",
+        "A3",
+        "A2",
         "A",
-        "E"
+        "A1"
       ],
       "explanation": "The order from tallest: A > B > E > D > C. Tallest = A"
     },
     "hi": {
       "question": "5 व्यक्ति: C > D > E > B > A (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
-        "E",
-        "C",
+        "A3",
+        "A2",
         "A",
-        "E"
+        "A1"
       ],
       "explanation": "लंबाई क्रम: A > B > E > D > C। सबसे लंबा = A"
     }
@@ -2164,52 +2164,52 @@
   },
   {
     "id": "nror-0088",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 76, A is 23th from left, B is 7th from right. If they interchange, A's new position?",
       "options": [
+        "71",
+        "72",
         "70",
-        "7",
-        "70",
-        "23"
+        "73"
       ],
       "explanation": "B is at 70 from left. After swap, A takes B's place = 70 from left."
     },
     "hi": {
       "question": "76 की पंक्ति में A बाएं से 23वां, B दाएं से 7वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
+        "71",
+        "72",
         "70",
-        "7",
-        "70",
-        "23"
+        "73"
       ],
       "explanation": "B बाएं से 70 पर है। स्थान बदलने पर A, B की जगह = 70वां बाएं से।"
     }
   },
   {
     "id": "nror-0089",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "5 persons: A is taller than E, E is taller than D, D is taller than C, and C is taller than B. Who is tallest?",
       "options": [
-        "A",
-        "D",
+        "B3",
         "B",
-        "D"
+        "B1",
+        "B2"
       ],
       "explanation": "The order from tallest: B > C > D > E > A. Tallest = B"
     },
     "hi": {
       "question": "5 व्यक्ति: A > E > D > C > B (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
-        "A",
-        "D",
+        "B3",
         "B",
-        "D"
+        "B1",
+        "B2"
       ],
       "explanation": "लंबाई क्रम: B > C > D > E > A। सबसे लंबा = B"
     }
@@ -2249,9 +2249,9 @@
       "question": "In row of 65, A is 6th from left, B is 22th from right. If they interchange, A's new position?",
       "options": [
         "44",
-        "22",
-        "44",
-        "6"
+        "46",
+        "47",
+        "45"
       ],
       "explanation": "B is at 44 from left. After swap, A takes B's place = 44 from left."
     },
@@ -2259,24 +2259,24 @@
       "question": "65 की पंक्ति में A बाएं से 6वां, B दाएं से 22वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
         "44",
-        "22",
-        "44",
-        "6"
+        "46",
+        "47",
+        "45"
       ],
       "explanation": "B बाएं से 44 पर है। स्थान बदलने पर A, B की जगह = 44वां बाएं से।"
     }
   },
   {
     "id": "nror-0092",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 37, A is 6th from left, B is 6th from right. If they interchange, A's new position?",
       "options": [
-        "6",
-        "32",
-        "6",
+        "33",
+        "34",
+        "35",
         "32"
       ],
       "explanation": "B is at 32 from left. After swap, A takes B's place = 32 from left."
@@ -2284,9 +2284,9 @@
     "hi": {
       "question": "37 की पंक्ति में A बाएं से 6वां, B दाएं से 6वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "6",
-        "32",
-        "6",
+        "33",
+        "34",
+        "35",
         "32"
       ],
       "explanation": "B बाएं से 32 पर है। स्थान बदलने पर A, B की जगह = 32वां बाएं से।"
@@ -2294,15 +2294,15 @@
   },
   {
     "id": "nror-0093",
-    "correctOption": "C",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 53, A is 14th from left, B is 17th from right. If they interchange, A's new position?",
       "options": [
-        "17",
-        "14",
-        "37",
+        "40",
+        "38",
+        "39",
         "37"
       ],
       "explanation": "B is at 37 from left. After swap, A takes B's place = 37 from left."
@@ -2310,9 +2310,9 @@
     "hi": {
       "question": "53 की पंक्ति में A बाएं से 14वां, B दाएं से 17वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "17",
-        "14",
-        "37",
+        "40",
+        "38",
+        "39",
         "37"
       ],
       "explanation": "B बाएं से 37 पर है। स्थान बदलने पर A, B की जगह = 37वां बाएं से।"
@@ -2320,26 +2320,26 @@
   },
   {
     "id": "nror-0094",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 26, A is 8th from left, B is 6th from right. If they interchange, A's new position?",
       "options": [
-        "21",
-        "21",
-        "6",
-        "8"
+        "22",
+        "24",
+        "23",
+        "21"
       ],
       "explanation": "B is at 21 from left. After swap, A takes B's place = 21 from left."
     },
     "hi": {
       "question": "26 की पंक्ति में A बाएं से 8वां, B दाएं से 6वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "21",
-        "21",
-        "6",
-        "8"
+        "22",
+        "24",
+        "23",
+        "21"
       ],
       "explanation": "B बाएं से 21 पर है। स्थान बदलने पर A, B की जगह = 21वां बाएं से।"
     }
@@ -2378,46 +2378,46 @@
     "en": {
       "question": "5 persons: C is taller than B, B is taller than D, D is taller than E, and E is taller than A. Who is tallest?",
       "options": [
-        "C",
-        "D",
+        "A1",
+        "A2",
         "A",
-        "C"
+        "A3"
       ],
       "explanation": "The order from tallest: A > E > D > B > C. Tallest = A"
     },
     "hi": {
       "question": "5 व्यक्ति: C > B > D > E > A (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
-        "C",
-        "D",
+        "A1",
+        "A2",
         "A",
-        "C"
+        "A3"
       ],
       "explanation": "लंबाई क्रम: A > E > D > B > C। सबसे लंबा = A"
     }
   },
   {
     "id": "nror-0097",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 79, A is 15th from left, B is 10th from right. If they interchange, A's new position?",
       "options": [
-        "15",
-        "70",
-        "70",
-        "10"
+        "73",
+        "71",
+        "72",
+        "70"
       ],
       "explanation": "B is at 70 from left. After swap, A takes B's place = 70 from left."
     },
     "hi": {
       "question": "79 की पंक्ति में A बाएं से 15वां, B दाएं से 10वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "15",
-        "70",
-        "70",
-        "10"
+        "73",
+        "71",
+        "72",
+        "70"
       ],
       "explanation": "B बाएं से 70 पर है। स्थान बदलने पर A, B की जगह = 70वां बाएं से।"
     }
@@ -2450,52 +2450,52 @@
   },
   {
     "id": "nror-0099",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "5 persons: A is taller than E, E is taller than D, D is taller than B, and B is taller than C. Who is tallest?",
       "options": [
-        "A",
         "D",
-        "A",
-        "E"
+        "D1",
+        "D3",
+        "D2"
       ],
       "explanation": "The order from tallest: D > E > A. Tallest = D"
     },
     "hi": {
       "question": "5 व्यक्ति: A > E > D > B > C (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
-        "A",
         "D",
-        "A",
-        "E"
+        "D1",
+        "D3",
+        "D2"
       ],
       "explanation": "लंबाई क्रम: D > E > A। सबसे लंबा = D"
     }
   },
   {
     "id": "nror-0100",
-    "correctOption": "A",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 48, A is 8th from left, B is 7th from right. If they interchange, A's new position?",
       "options": [
+        "44",
         "42",
-        "8",
-        "7",
-        "42"
+        "43",
+        "45"
       ],
       "explanation": "B is at 42 from left. After swap, A takes B's place = 42 from left."
     },
     "hi": {
       "question": "48 की पंक्ति में A बाएं से 8वां, B दाएं से 7वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
+        "44",
         "42",
-        "8",
-        "7",
-        "42"
+        "43",
+        "45"
       ],
       "explanation": "B बाएं से 42 पर है। स्थान बदलने पर A, B की जगह = 42वां बाएं से।"
     }
@@ -2554,52 +2554,52 @@
   },
   {
     "id": "nror-0103",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 39, A is 9th from left, B is 13th from right. If they interchange, A's new position?",
       "options": [
+        "30",
+        "29",
         "27",
-        "9",
-        "27",
-        "13"
+        "28"
       ],
       "explanation": "B is at 27 from left. After swap, A takes B's place = 27 from left."
     },
     "hi": {
       "question": "39 की पंक्ति में A बाएं से 9वां, B दाएं से 13वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
+        "30",
+        "29",
         "27",
-        "9",
-        "27",
-        "13"
+        "28"
       ],
       "explanation": "B बाएं से 27 पर है। स्थान बदलने पर A, B की जगह = 27वां बाएं से।"
     }
   },
   {
     "id": "nror-0104",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 43, A is 14th from left, B is 7th from right. If they interchange, A's new position?",
       "options": [
-        "14",
+        "40",
+        "39",
         "37",
-        "37",
-        "7"
+        "38"
       ],
       "explanation": "B is at 37 from left. After swap, A takes B's place = 37 from left."
     },
     "hi": {
       "question": "43 की पंक्ति में A बाएं से 14वां, B दाएं से 7वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "14",
+        "40",
+        "39",
         "37",
-        "37",
-        "7"
+        "38"
       ],
       "explanation": "B बाएं से 37 पर है। स्थान बदलने पर A, B की जगह = 37वां बाएं से।"
     }
@@ -2639,9 +2639,9 @@
       "question": "In row of 62, A is 7th from left, B is 10th from right. If they interchange, A's new position?",
       "options": [
         "53",
-        "7",
-        "10",
-        "53"
+        "55",
+        "56",
+        "54"
       ],
       "explanation": "B is at 53 from left. After swap, A takes B's place = 53 from left."
     },
@@ -2649,35 +2649,35 @@
       "question": "62 की पंक्ति में A बाएं से 7वां, B दाएं से 10वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
         "53",
-        "7",
-        "10",
-        "53"
+        "55",
+        "56",
+        "54"
       ],
       "explanation": "B बाएं से 53 पर है। स्थान बदलने पर A, B की जगह = 53वां बाएं से।"
     }
   },
   {
     "id": "nror-0107",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 44, A is 7th from left, B is 9th from right. If they interchange, A's new position?",
       "options": [
+        "37",
+        "38",
         "36",
-        "36",
-        "7",
-        "9"
+        "39"
       ],
       "explanation": "B is at 36 from left. After swap, A takes B's place = 36 from left."
     },
     "hi": {
       "question": "44 की पंक्ति में A बाएं से 7वां, B दाएं से 9वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
+        "37",
+        "38",
         "36",
-        "36",
-        "7",
-        "9"
+        "39"
       ],
       "explanation": "B बाएं से 36 पर है। स्थान बदलने पर A, B की जगह = 36वां बाएं से।"
     }
@@ -2691,9 +2691,9 @@
       "question": "In row of 58, A is 15th from left, B is 7th from right. If they interchange, A's new position?",
       "options": [
         "52",
-        "52",
-        "15",
-        "7"
+        "55",
+        "53",
+        "54"
       ],
       "explanation": "B is at 52 from left. After swap, A takes B's place = 52 from left."
     },
@@ -2701,87 +2701,87 @@
       "question": "58 की पंक्ति में A बाएं से 15वां, B दाएं से 7वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
         "52",
-        "52",
-        "15",
-        "7"
+        "55",
+        "53",
+        "54"
       ],
       "explanation": "B बाएं से 52 पर है। स्थान बदलने पर A, B की जगह = 52वां बाएं से।"
     }
   },
   {
     "id": "nror-0109",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "5 persons: A is taller than D, D is taller than C, C is taller than E, and E is taller than B. Who is tallest?",
       "options": [
-        "A",
-        "C",
+        "B2",
         "B",
-        "A"
+        "B1",
+        "B3"
       ],
       "explanation": "The order from tallest: B > E > C > D > A. Tallest = B"
     },
     "hi": {
       "question": "5 व्यक्ति: A > D > C > E > B (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
-        "A",
-        "C",
+        "B2",
         "B",
-        "A"
+        "B1",
+        "B3"
       ],
       "explanation": "लंबाई क्रम: B > E > C > D > A। सबसे लंबा = B"
     }
   },
   {
     "id": "nror-0110",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 74, A is 7th from left, B is 15th from right. If they interchange, A's new position?",
       "options": [
-        "7",
+        "61",
+        "63",
         "60",
-        "60",
-        "15"
+        "62"
       ],
       "explanation": "B is at 60 from left. After swap, A takes B's place = 60 from left."
     },
     "hi": {
       "question": "74 की पंक्ति में A बाएं से 7वां, B दाएं से 15वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "7",
+        "61",
+        "63",
         "60",
-        "60",
-        "15"
+        "62"
       ],
       "explanation": "B बाएं से 60 पर है। स्थान बदलने पर A, B की जगह = 60वां बाएं से।"
     }
   },
   {
     "id": "nror-0111",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 57, A is 8th from left, B is 10th from right. If they interchange, A's new position?",
       "options": [
-        "8",
+        "49",
+        "51",
         "48",
-        "10",
-        "48"
+        "50"
       ],
       "explanation": "B is at 48 from left. After swap, A takes B's place = 48 from left."
     },
     "hi": {
       "question": "57 की पंक्ति में A बाएं से 8वां, B दाएं से 10वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "8",
+        "49",
+        "51",
         "48",
-        "10",
-        "48"
+        "50"
       ],
       "explanation": "B बाएं से 48 पर है। स्थान बदलने पर A, B की जगह = 48वां बाएं से।"
     }
@@ -2794,20 +2794,20 @@
     "en": {
       "question": "5 persons: B is taller than C, C is taller than E, E is taller than A, and A is taller than D. Who is tallest?",
       "options": [
-        "E",
+        "D3",
         "D",
-        "E",
-        "B"
+        "D2",
+        "D1"
       ],
       "explanation": "The order from tallest: D > A > E > C > B. Tallest = D"
     },
     "hi": {
       "question": "5 व्यक्ति: B > C > E > A > D (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
-        "E",
+        "D3",
         "D",
-        "E",
-        "B"
+        "D2",
+        "D1"
       ],
       "explanation": "लंबाई क्रम: D > A > E > C > B। सबसे लंबा = D"
     }
@@ -2866,26 +2866,26 @@
   },
   {
     "id": "nror-0115",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 77, A is 25th from left, B is 11th from right. If they interchange, A's new position?",
       "options": [
+        "68",
+        "70",
         "67",
-        "67",
-        "11",
-        "25"
+        "69"
       ],
       "explanation": "B is at 67 from left. After swap, A takes B's place = 67 from left."
     },
     "hi": {
       "question": "77 की पंक्ति में A बाएं से 25वां, B दाएं से 11वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
+        "68",
+        "70",
         "67",
-        "67",
-        "11",
-        "25"
+        "69"
       ],
       "explanation": "B बाएं से 67 पर है। स्थान बदलने पर A, B की जगह = 67वां बाएं से।"
     }
@@ -2898,46 +2898,46 @@
     "en": {
       "question": "In row of 42, A is 5th from left, B is 9th from right. If they interchange, A's new position?",
       "options": [
-        "5",
+        "35",
         "34",
-        "34",
-        "9"
+        "36",
+        "37"
       ],
       "explanation": "B is at 34 from left. After swap, A takes B's place = 34 from left."
     },
     "hi": {
       "question": "42 की पंक्ति में A बाएं से 5वां, B दाएं से 9वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "5",
+        "35",
         "34",
-        "34",
-        "9"
+        "36",
+        "37"
       ],
       "explanation": "B बाएं से 34 पर है। स्थान बदलने पर A, B की जगह = 34वां बाएं से।"
     }
   },
   {
     "id": "nror-0117",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 67, A is 5th from left, B is 6th from right. If they interchange, A's new position?",
       "options": [
-        "62",
-        "62",
-        "6",
-        "5"
+        "63",
+        "64",
+        "65",
+        "62"
       ],
       "explanation": "B is at 62 from left. After swap, A takes B's place = 62 from left."
     },
     "hi": {
       "question": "67 की पंक्ति में A बाएं से 5वां, B दाएं से 6वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "62",
-        "62",
-        "6",
-        "5"
+        "63",
+        "64",
+        "65",
+        "62"
       ],
       "explanation": "B बाएं से 62 पर है। स्थान बदलने पर A, B की जगह = 62वां बाएं से।"
     }
@@ -2970,15 +2970,15 @@
   },
   {
     "id": "nror-0119",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 60, A is 10th from left, B is 13th from right. If they interchange, A's new position?",
       "options": [
-        "10",
-        "48",
-        "13",
+        "51",
+        "50",
+        "49",
         "48"
       ],
       "explanation": "B is at 48 from left. After swap, A takes B's place = 48 from left."
@@ -2986,9 +2986,9 @@
     "hi": {
       "question": "60 की पंक्ति में A बाएं से 10वां, B दाएं से 13वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "10",
-        "48",
-        "13",
+        "51",
+        "50",
+        "49",
         "48"
       ],
       "explanation": "B बाएं से 48 पर है। स्थान बदलने पर A, B की जगह = 48वां बाएं से।"
@@ -2996,26 +2996,26 @@
   },
   {
     "id": "nror-0120",
-    "correctOption": "A",
+    "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "5 persons: B is taller than E, E is taller than D, D is taller than A, and A is taller than C. Who is tallest?",
       "options": [
+        "E2",
         "E",
-        "B",
-        "B",
-        "D"
+        "E3",
+        "E1"
       ],
       "explanation": "The order from tallest: E > B. Tallest = E"
     },
     "hi": {
       "question": "5 व्यक्ति: B > E > D > A > C (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
+        "E2",
         "E",
-        "B",
-        "B",
-        "D"
+        "E3",
+        "E1"
       ],
       "explanation": "लंबाई क्रम: E > B। सबसे लंबा = E"
     }
@@ -3100,52 +3100,52 @@
   },
   {
     "id": "nror-0124",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 60, A is 5th from left, B is 14th from right. If they interchange, A's new position?",
       "options": [
-        "14",
         "47",
-        "5",
-        "47"
+        "50",
+        "49",
+        "48"
       ],
       "explanation": "B is at 47 from left. After swap, A takes B's place = 47 from left."
     },
     "hi": {
       "question": "60 की पंक्ति में A बाएं से 5वां, B दाएं से 14वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "14",
         "47",
-        "5",
-        "47"
+        "50",
+        "49",
+        "48"
       ],
       "explanation": "B बाएं से 47 पर है। स्थान बदलने पर A, B की जगह = 47वां बाएं से।"
     }
   },
   {
     "id": "nror-0125",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 46, A is 12th from left, B is 7th from right. If they interchange, A's new position?",
       "options": [
-        "7",
+        "42",
+        "43",
         "40",
-        "40",
-        "12"
+        "41"
       ],
       "explanation": "B is at 40 from left. After swap, A takes B's place = 40 from left."
     },
     "hi": {
       "question": "46 की पंक्ति में A बाएं से 12वां, B दाएं से 7वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "7",
+        "42",
+        "43",
         "40",
-        "40",
-        "12"
+        "41"
       ],
       "explanation": "B बाएं से 40 पर है। स्थान बदलने पर A, B की जगह = 40वां बाएं से।"
     }
@@ -3178,52 +3178,52 @@
   },
   {
     "id": "nror-0127",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 51, A is 17th from left, B is 15th from right. If they interchange, A's new position?",
       "options": [
-        "15",
+        "38",
+        "40",
         "37",
-        "17",
-        "37"
+        "39"
       ],
       "explanation": "B is at 37 from left. After swap, A takes B's place = 37 from left."
     },
     "hi": {
       "question": "51 की पंक्ति में A बाएं से 17वां, B दाएं से 15वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "15",
+        "38",
+        "40",
         "37",
-        "17",
-        "37"
+        "39"
       ],
       "explanation": "B बाएं से 37 पर है। स्थान बदलने पर A, B की जगह = 37वां बाएं से।"
     }
   },
   {
     "id": "nror-0128",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 57, A is 8th from left, B is 13th from right. If they interchange, A's new position?",
       "options": [
-        "13",
+        "46",
+        "47",
         "45",
-        "8",
-        "45"
+        "48"
       ],
       "explanation": "B is at 45 from left. After swap, A takes B's place = 45 from left."
     },
     "hi": {
       "question": "57 की पंक्ति में A बाएं से 8वां, B दाएं से 13वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "13",
+        "46",
+        "47",
         "45",
-        "8",
-        "45"
+        "48"
       ],
       "explanation": "B बाएं से 45 पर है। स्थान बदलने पर A, B की जगह = 45वां बाएं से।"
     }
@@ -3263,9 +3263,9 @@
       "question": "In row of 61, A is 16th from left, B is 14th from right. If they interchange, A's new position?",
       "options": [
         "48",
-        "14",
-        "16",
-        "48"
+        "49",
+        "51",
+        "50"
       ],
       "explanation": "B is at 48 from left. After swap, A takes B's place = 48 from left."
     },
@@ -3273,9 +3273,9 @@
       "question": "61 की पंक्ति में A बाएं से 16वां, B दाएं से 14वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
         "48",
-        "14",
-        "16",
-        "48"
+        "49",
+        "51",
+        "50"
       ],
       "explanation": "B बाएं से 48 पर है। स्थान बदलने पर A, B की जगह = 48वां बाएं से।"
     }
@@ -3308,52 +3308,52 @@
   },
   {
     "id": "nror-0132",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 80, A is 10th from left, B is 22th from right. If they interchange, A's new position?",
       "options": [
+        "61",
+        "62",
         "59",
-        "10",
-        "59",
-        "22"
+        "60"
       ],
       "explanation": "B is at 59 from left. After swap, A takes B's place = 59 from left."
     },
     "hi": {
       "question": "80 की पंक्ति में A बाएं से 10वां, B दाएं से 22वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
+        "61",
+        "62",
         "59",
-        "10",
-        "59",
-        "22"
+        "60"
       ],
       "explanation": "B बाएं से 59 पर है। स्थान बदलने पर A, B की जगह = 59वां बाएं से।"
     }
   },
   {
     "id": "nror-0135",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "5 persons: D is taller than E, E is taller than A, A is taller than C, and C is taller than B. Who is tallest?",
       "options": [
-        "D",
-        "A",
-        "A",
-        "B"
+        "B2",
+        "B",
+        "B1",
+        "B3"
       ],
       "explanation": "The order from tallest: B > C > A > E > D. Tallest = B"
     },
     "hi": {
       "question": "5 व्यक्ति: D > E > A > C > B (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
-        "D",
-        "A",
-        "A",
-        "B"
+        "B2",
+        "B",
+        "B1",
+        "B3"
       ],
       "explanation": "लंबाई क्रम: B > C > A > E > D। सबसे लंबा = B"
     }
@@ -3386,26 +3386,26 @@
   },
   {
     "id": "nror-0137",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 25, A is 5th from left, B is 8th from right. If they interchange, A's new position?",
       "options": [
+        "21",
+        "20",
         "18",
-        "5",
-        "18",
-        "8"
+        "19"
       ],
       "explanation": "B is at 18 from left. After swap, A takes B's place = 18 from left."
     },
     "hi": {
       "question": "25 की पंक्ति में A बाएं से 5वां, B दाएं से 8वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
+        "21",
+        "20",
         "18",
-        "5",
-        "18",
-        "8"
+        "19"
       ],
       "explanation": "B बाएं से 18 पर है। स्थान बदलने पर A, B की जगह = 18वां बाएं से।"
     }
@@ -3419,9 +3419,9 @@
       "question": "In row of 47, A is 11th from left, B is 11th from right. If they interchange, A's new position?",
       "options": [
         "37",
-        "11",
-        "37",
-        "11"
+        "39",
+        "38",
+        "40"
       ],
       "explanation": "B is at 37 from left. After swap, A takes B's place = 37 from left."
     },
@@ -3429,24 +3429,24 @@
       "question": "47 की पंक्ति में A बाएं से 11वां, B दाएं से 11वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
         "37",
-        "11",
-        "37",
-        "11"
+        "39",
+        "38",
+        "40"
       ],
       "explanation": "B बाएं से 37 पर है। स्थान बदलने पर A, B की जगह = 37वां बाएं से।"
     }
   },
   {
     "id": "nror-0139",
-    "correctOption": "C",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 42, A is 11th from left, B is 13th from right. If they interchange, A's new position?",
       "options": [
-        "11",
-        "13",
-        "30",
+        "31",
+        "33",
+        "32",
         "30"
       ],
       "explanation": "B is at 30 from left. After swap, A takes B's place = 30 from left."
@@ -3454,9 +3454,9 @@
     "hi": {
       "question": "42 की पंक्ति में A बाएं से 11वां, B दाएं से 13वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "11",
-        "13",
-        "30",
+        "31",
+        "33",
+        "32",
         "30"
       ],
       "explanation": "B बाएं से 30 पर है। स्थान बदलने पर A, B की जगह = 30वां बाएं से।"
@@ -3464,26 +3464,26 @@
   },
   {
     "id": "nror-0140",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 36, A is 9th from left, B is 11th from right. If they interchange, A's new position?",
       "options": [
-        "11",
-        "26",
-        "26",
-        "9"
+        "29",
+        "28",
+        "27",
+        "26"
       ],
       "explanation": "B is at 26 from left. After swap, A takes B's place = 26 from left."
     },
     "hi": {
       "question": "36 की पंक्ति में A बाएं से 9वां, B दाएं से 11वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "11",
-        "26",
-        "26",
-        "9"
+        "29",
+        "28",
+        "27",
+        "26"
       ],
       "explanation": "B बाएं से 26 पर है। स्थान बदलने पर A, B की जगह = 26वां बाएं से।"
     }
@@ -3522,35 +3522,35 @@
     "en": {
       "question": "In row of 58, A is 15th from left, B is 11th from right. If they interchange, A's new position?",
       "options": [
-        "11",
-        "15",
+        "50",
+        "51",
         "48",
-        "48"
+        "49"
       ],
       "explanation": "B is at 48 from left. After swap, A takes B's place = 48 from left."
     },
     "hi": {
       "question": "58 की पंक्ति में A बाएं से 15वां, B दाएं से 11वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "11",
-        "15",
+        "50",
+        "51",
         "48",
-        "48"
+        "49"
       ],
       "explanation": "B बाएं से 48 पर है। स्थान बदलने पर A, B की जगह = 48वां बाएं से।"
     }
   },
   {
     "id": "nror-0143",
-    "correctOption": "C",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 38, A is 5th from left, B is 9th from right. If they interchange, A's new position?",
       "options": [
-        "9",
-        "5",
-        "30",
+        "33",
+        "32",
+        "31",
         "30"
       ],
       "explanation": "B is at 30 from left. After swap, A takes B's place = 30 from left."
@@ -3558,9 +3558,9 @@
     "hi": {
       "question": "38 की पंक्ति में A बाएं से 5वां, B दाएं से 9वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "9",
-        "5",
-        "30",
+        "33",
+        "32",
+        "31",
         "30"
       ],
       "explanation": "B बाएं से 30 पर है। स्थान बदलने पर A, B की जगह = 30वां बाएं से।"
@@ -3601,9 +3601,9 @@
       "question": "In row of 61, A is 7th from left, B is 6th from right. If they interchange, A's new position?",
       "options": [
         "56",
-        "7",
-        "6",
-        "56"
+        "59",
+        "57",
+        "58"
       ],
       "explanation": "B is at 56 from left. After swap, A takes B's place = 56 from left."
     },
@@ -3611,24 +3611,24 @@
       "question": "61 की पंक्ति में A बाएं से 7वां, B दाएं से 6वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
         "56",
-        "7",
-        "6",
-        "56"
+        "59",
+        "57",
+        "58"
       ],
       "explanation": "B बाएं से 56 पर है। स्थान बदलने पर A, B की जगह = 56वां बाएं से।"
     }
   },
   {
     "id": "nror-0146",
-    "correctOption": "C",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 39, A is 11th from left, B is 12th from right. If they interchange, A's new position?",
       "options": [
-        "12",
-        "11",
-        "28",
+        "30",
+        "29",
+        "31",
         "28"
       ],
       "explanation": "B is at 28 from left. After swap, A takes B's place = 28 from left."
@@ -3636,9 +3636,9 @@
     "hi": {
       "question": "39 की पंक्ति में A बाएं से 11वां, B दाएं से 12वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "12",
-        "11",
-        "28",
+        "30",
+        "29",
+        "31",
         "28"
       ],
       "explanation": "B बाएं से 28 पर है। स्थान बदलने पर A, B की जगह = 28वां बाएं से।"
@@ -3698,104 +3698,104 @@
   },
   {
     "id": "nror-0149",
-    "correctOption": "C",
+    "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "5 persons: C is taller than D, D is taller than A, A is taller than E, and E is taller than B. Who is tallest?",
       "options": [
-        "C",
-        "A",
-        "B",
-        "C"
+        "B2",
+        "B3",
+        "B1",
+        "B"
       ],
       "explanation": "The order from tallest: B > E > A > D > C. Tallest = B"
     },
     "hi": {
       "question": "5 व्यक्ति: C > D > A > E > B (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
-        "C",
-        "A",
-        "B",
-        "C"
+        "B2",
+        "B3",
+        "B1",
+        "B"
       ],
       "explanation": "लंबाई क्रम: B > E > A > D > C। सबसे लंबा = B"
     }
   },
   {
     "id": "nror-0150",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 42, A is 9th from left, B is 9th from right. If they interchange, A's new position?",
       "options": [
-        "9",
-        "9",
         "34",
-        "34"
+        "36",
+        "37",
+        "35"
       ],
       "explanation": "B is at 34 from left. After swap, A takes B's place = 34 from left."
     },
     "hi": {
       "question": "42 की पंक्ति में A बाएं से 9वां, B दाएं से 9वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "9",
-        "9",
         "34",
-        "34"
+        "36",
+        "37",
+        "35"
       ],
       "explanation": "B बाएं से 34 पर है। स्थान बदलने पर A, B की जगह = 34वां बाएं से।"
     }
   },
   {
     "id": "nror-0151",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "5 persons: D is taller than C, C is taller than E, E is taller than A, and A is taller than B. Who is tallest?",
       "options": [
-        "B",
         "D",
-        "D",
-        "D"
+        "D1",
+        "D3",
+        "D2"
       ],
       "explanation": "The order from tallest: D > . Tallest = D"
     },
     "hi": {
       "question": "5 व्यक्ति: D > C > E > A > B (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
-        "B",
         "D",
-        "D",
-        "D"
+        "D1",
+        "D3",
+        "D2"
       ],
       "explanation": "लंबाई क्रम: D > । सबसे लंबा = D"
     }
   },
   {
     "id": "nror-0152",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 72, A is 13th from left, B is 13th from right. If they interchange, A's new position?",
       "options": [
-        "13",
         "60",
-        "60",
-        "13"
+        "63",
+        "62",
+        "61"
       ],
       "explanation": "B is at 60 from left. After swap, A takes B's place = 60 from left."
     },
     "hi": {
       "question": "72 की पंक्ति में A बाएं से 13वां, B दाएं से 13वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "13",
         "60",
-        "60",
-        "13"
+        "63",
+        "62",
+        "61"
       ],
       "explanation": "B बाएं से 60 पर है। स्थान बदलने पर A, B की जगह = 60वां बाएं से।"
     }
@@ -3854,26 +3854,26 @@
   },
   {
     "id": "nror-0155",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 66, A is 9th from left, B is 22th from right. If they interchange, A's new position?",
       "options": [
-        "45",
-        "45",
-        "9",
-        "22"
+        "48",
+        "47",
+        "46",
+        "45"
       ],
       "explanation": "B is at 45 from left. After swap, A takes B's place = 45 from left."
     },
     "hi": {
       "question": "66 की पंक्ति में A बाएं से 9वां, B दाएं से 22वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "45",
-        "45",
-        "9",
-        "22"
+        "48",
+        "47",
+        "46",
+        "45"
       ],
       "explanation": "B बाएं से 45 पर है। स्थान बदलने पर A, B की जगह = 45वां बाएं से।"
     }
@@ -3887,9 +3887,9 @@
       "question": "In row of 35, A is 10th from left, B is 12th from right. If they interchange, A's new position?",
       "options": [
         "24",
-        "10",
-        "24",
-        "12"
+        "26",
+        "25",
+        "27"
       ],
       "explanation": "B is at 24 from left. After swap, A takes B's place = 24 from left."
     },
@@ -3897,61 +3897,61 @@
       "question": "35 की पंक्ति में A बाएं से 10वां, B दाएं से 12वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
         "24",
-        "10",
-        "24",
-        "12"
+        "26",
+        "25",
+        "27"
       ],
       "explanation": "B बाएं से 24 पर है। स्थान बदलने पर A, B की जगह = 24वां बाएं से।"
     }
   },
   {
     "id": "nror-0157",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 71, A is 10th from left, B is 10th from right. If they interchange, A's new position?",
       "options": [
-        "10",
+        "63",
+        "65",
         "62",
-        "62",
-        "10"
+        "64"
       ],
       "explanation": "B is at 62 from left. After swap, A takes B's place = 62 from left."
     },
     "hi": {
       "question": "71 की पंक्ति में A बाएं से 10वां, B दाएं से 10वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "10",
+        "63",
+        "65",
         "62",
-        "62",
-        "10"
+        "64"
       ],
       "explanation": "B बाएं से 62 पर है। स्थान बदलने पर A, B की जगह = 62वां बाएं से।"
     }
   },
   {
     "id": "nror-0158",
-    "correctOption": "D",
+    "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "5 persons: D is taller than E, E is taller than C, C is taller than A, and A is taller than B. Who is tallest?",
       "options": [
-        "C",
-        "D",
-        "C",
-        "B"
+        "B",
+        "B1",
+        "B3",
+        "B2"
       ],
       "explanation": "The order from tallest: B > A > C > E > D. Tallest = B"
     },
     "hi": {
       "question": "5 व्यक्ति: D > E > C > A > B (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
-        "C",
-        "D",
-        "C",
-        "B"
+        "B",
+        "B1",
+        "B3",
+        "B2"
       ],
       "explanation": "लंबाई क्रम: B > A > C > E > D। सबसे लंबा = B"
     }
@@ -3984,52 +3984,52 @@
   },
   {
     "id": "nror-0160",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 29, A is 6th from left, B is 7th from right. If they interchange, A's new position?",
       "options": [
-        "7",
         "23",
-        "23",
-        "6"
+        "26",
+        "24",
+        "25"
       ],
       "explanation": "B is at 23 from left. After swap, A takes B's place = 23 from left."
     },
     "hi": {
       "question": "29 की पंक्ति में A बाएं से 6वां, B दाएं से 7वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "7",
         "23",
-        "23",
-        "6"
+        "26",
+        "24",
+        "25"
       ],
       "explanation": "B बाएं से 23 पर है। स्थान बदलने पर A, B की जगह = 23वां बाएं से।"
     }
   },
   {
     "id": "nror-0161",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 80, A is 17th from left, B is 23th from right. If they interchange, A's new position?",
       "options": [
-        "23",
+        "60",
+        "61",
         "58",
-        "17",
-        "58"
+        "59"
       ],
       "explanation": "B is at 58 from left. After swap, A takes B's place = 58 from left."
     },
     "hi": {
       "question": "80 की पंक्ति में A बाएं से 17वां, B दाएं से 23वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "23",
+        "60",
+        "61",
         "58",
-        "17",
-        "58"
+        "59"
       ],
       "explanation": "B बाएं से 58 पर है। स्थान बदलने पर A, B की जगह = 58वां बाएं से।"
     }
@@ -4042,46 +4042,46 @@
     "en": {
       "question": "In row of 71, A is 11th from left, B is 23th from right. If they interchange, A's new position?",
       "options": [
-        "23",
+        "51",
         "49",
-        "49",
-        "11"
+        "52",
+        "50"
       ],
       "explanation": "B is at 49 from left. After swap, A takes B's place = 49 from left."
     },
     "hi": {
       "question": "71 की पंक्ति में A बाएं से 11वां, B दाएं से 23वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "23",
+        "51",
         "49",
-        "49",
-        "11"
+        "52",
+        "50"
       ],
       "explanation": "B बाएं से 49 पर है। स्थान बदलने पर A, B की जगह = 49वां बाएं से।"
     }
   },
   {
     "id": "nror-0163",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 39, A is 8th from left, B is 12th from right. If they interchange, A's new position?",
       "options": [
-        "8",
-        "12",
         "28",
-        "28"
+        "31",
+        "30",
+        "29"
       ],
       "explanation": "B is at 28 from left. After swap, A takes B's place = 28 from left."
     },
     "hi": {
       "question": "39 की पंक्ति में A बाएं से 8वां, B दाएं से 12वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "8",
-        "12",
         "28",
-        "28"
+        "31",
+        "30",
+        "29"
       ],
       "explanation": "B बाएं से 28 पर है। स्थान बदलने पर A, B की जगह = 28वां बाएं से।"
     }
@@ -4166,156 +4166,156 @@
   },
   {
     "id": "nror-0168",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 61, A is 5th from left, B is 17th from right. If they interchange, A's new position?",
       "options": [
+        "47",
+        "46",
         "45",
-        "17",
-        "5",
-        "45"
+        "48"
       ],
       "explanation": "B is at 45 from left. After swap, A takes B's place = 45 from left."
     },
     "hi": {
       "question": "61 की पंक्ति में A बाएं से 5वां, B दाएं से 17वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
+        "47",
+        "46",
         "45",
-        "17",
-        "5",
-        "45"
+        "48"
       ],
       "explanation": "B बाएं से 45 पर है। स्थान बदलने पर A, B की जगह = 45वां बाएं से।"
     }
   },
   {
     "id": "nror-0169",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 35, A is 8th from left, B is 8th from right. If they interchange, A's new position?",
       "options": [
-        "8",
         "28",
-        "28",
-        "8"
+        "31",
+        "29",
+        "30"
       ],
       "explanation": "B is at 28 from left. After swap, A takes B's place = 28 from left."
     },
     "hi": {
       "question": "35 की पंक्ति में A बाएं से 8वां, B दाएं से 8वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "8",
         "28",
-        "28",
-        "8"
+        "31",
+        "29",
+        "30"
       ],
       "explanation": "B बाएं से 28 पर है। स्थान बदलने पर A, B की जगह = 28वां बाएं से।"
     }
   },
   {
     "id": "nror-0170",
-    "correctOption": "A",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 74, A is 17th from left, B is 10th from right. If they interchange, A's new position?",
       "options": [
+        "66",
         "65",
-        "17",
-        "10",
-        "65"
+        "68",
+        "67"
       ],
       "explanation": "B is at 65 from left. After swap, A takes B's place = 65 from left."
     },
     "hi": {
       "question": "74 की पंक्ति में A बाएं से 17वां, B दाएं से 10वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
+        "66",
         "65",
-        "17",
-        "10",
-        "65"
+        "68",
+        "67"
       ],
       "explanation": "B बाएं से 65 पर है। स्थान बदलने पर A, B की जगह = 65वां बाएं से।"
     }
   },
   {
     "id": "nror-0171",
-    "correctOption": "A",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 37, A is 5th from left, B is 6th from right. If they interchange, A's new position?",
       "options": [
+        "33",
         "32",
-        "5",
-        "6",
-        "32"
+        "34",
+        "35"
       ],
       "explanation": "B is at 32 from left. After swap, A takes B's place = 32 from left."
     },
     "hi": {
       "question": "37 की पंक्ति में A बाएं से 5वां, B दाएं से 6वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
+        "33",
         "32",
-        "5",
-        "6",
-        "32"
+        "34",
+        "35"
       ],
       "explanation": "B बाएं से 32 पर है। स्थान बदलने पर A, B की जगह = 32वां बाएं से।"
     }
   },
   {
     "id": "nror-0172",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 27, A is 6th from left, B is 9th from right. If they interchange, A's new position?",
       "options": [
-        "6",
-        "9",
+        "22",
         "19",
-        "19"
+        "21",
+        "20"
       ],
       "explanation": "B is at 19 from left. After swap, A takes B's place = 19 from left."
     },
     "hi": {
       "question": "27 की पंक्ति में A बाएं से 6वां, B दाएं से 9वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "6",
-        "9",
+        "22",
         "19",
-        "19"
+        "21",
+        "20"
       ],
       "explanation": "B बाएं से 19 पर है। स्थान बदलने पर A, B की जगह = 19वां बाएं से।"
     }
   },
   {
     "id": "nror-0173",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 71, A is 17th from left, B is 15th from right. If they interchange, A's new position?",
       "options": [
-        "57",
-        "15",
-        "57",
-        "17"
+        "58",
+        "59",
+        "60",
+        "57"
       ],
       "explanation": "B is at 57 from left. After swap, A takes B's place = 57 from left."
     },
     "hi": {
       "question": "71 की पंक्ति में A बाएं से 17वां, B दाएं से 15वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "57",
-        "15",
-        "57",
-        "17"
+        "58",
+        "59",
+        "60",
+        "57"
       ],
       "explanation": "B बाएं से 57 पर है। स्थान बदलने पर A, B की जगह = 57वां बाएं से।"
     }
@@ -4329,9 +4329,9 @@
       "question": "In row of 40, A is 12th from left, B is 12th from right. If they interchange, A's new position?",
       "options": [
         "29",
-        "29",
-        "12",
-        "12"
+        "32",
+        "31",
+        "30"
       ],
       "explanation": "B is at 29 from left. After swap, A takes B's place = 29 from left."
     },
@@ -4339,87 +4339,87 @@
       "question": "40 की पंक्ति में A बाएं से 12वां, B दाएं से 12वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
         "29",
-        "29",
-        "12",
-        "12"
+        "32",
+        "31",
+        "30"
       ],
       "explanation": "B बाएं से 29 पर है। स्थान बदलने पर A, B की जगह = 29वां बाएं से।"
     }
   },
   {
     "id": "nror-0175",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 39, A is 8th from left, B is 10th from right. If they interchange, A's new position?",
       "options": [
-        "10",
         "30",
-        "8",
-        "30"
+        "31",
+        "33",
+        "32"
       ],
       "explanation": "B is at 30 from left. After swap, A takes B's place = 30 from left."
     },
     "hi": {
       "question": "39 की पंक्ति में A बाएं से 8वां, B दाएं से 10वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "10",
         "30",
-        "8",
-        "30"
+        "31",
+        "33",
+        "32"
       ],
       "explanation": "B बाएं से 30 पर है। स्थान बदलने पर A, B की जगह = 30वां बाएं से।"
     }
   },
   {
     "id": "nror-0176",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 54, A is 14th from left, B is 8th from right. If they interchange, A's new position?",
       "options": [
-        "14",
-        "8",
         "47",
-        "47"
+        "49",
+        "48",
+        "50"
       ],
       "explanation": "B is at 47 from left. After swap, A takes B's place = 47 from left."
     },
     "hi": {
       "question": "54 की पंक्ति में A बाएं से 14वां, B दाएं से 8वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "14",
-        "8",
         "47",
-        "47"
+        "49",
+        "48",
+        "50"
       ],
       "explanation": "B बाएं से 47 पर है। स्थान बदलने पर A, B की जगह = 47वां बाएं से।"
     }
   },
   {
     "id": "nror-0177",
-    "correctOption": "A",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 48, A is 15th from left, B is 12th from right. If they interchange, A's new position?",
       "options": [
+        "39",
         "37",
-        "15",
-        "37",
-        "12"
+        "38",
+        "40"
       ],
       "explanation": "B is at 37 from left. After swap, A takes B's place = 37 from left."
     },
     "hi": {
       "question": "48 की पंक्ति में A बाएं से 15वां, B दाएं से 12वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
+        "39",
         "37",
-        "15",
-        "37",
-        "12"
+        "38",
+        "40"
       ],
       "explanation": "B बाएं से 37 पर है। स्थान बदलने पर A, B की जगह = 37वां बाएं से।"
     }
@@ -4458,20 +4458,20 @@
     "en": {
       "question": "In row of 25, A is 6th from left, B is 6th from right. If they interchange, A's new position?",
       "options": [
-        "6",
-        "6",
+        "22",
+        "21",
         "20",
-        "20"
+        "23"
       ],
       "explanation": "B is at 20 from left. After swap, A takes B's place = 20 from left."
     },
     "hi": {
       "question": "25 की पंक्ति में A बाएं से 6वां, B दाएं से 6वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "6",
-        "6",
+        "22",
+        "21",
         "20",
-        "20"
+        "23"
       ],
       "explanation": "B बाएं से 20 पर है। स्थान बदलने पर A, B की जगह = 20वां बाएं से।"
     }
@@ -4504,52 +4504,52 @@
   },
   {
     "id": "nror-0181",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 61, A is 17th from left, B is 18th from right. If they interchange, A's new position?",
       "options": [
-        "18",
+        "45",
+        "46",
         "44",
-        "44",
-        "17"
+        "47"
       ],
       "explanation": "B is at 44 from left. After swap, A takes B's place = 44 from left."
     },
     "hi": {
       "question": "61 की पंक्ति में A बाएं से 17वां, B दाएं से 18वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "18",
+        "45",
+        "46",
         "44",
-        "44",
-        "17"
+        "47"
       ],
       "explanation": "B बाएं से 44 पर है। स्थान बदलने पर A, B की जगह = 44वां बाएं से।"
     }
   },
   {
     "id": "nror-0182",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 52, A is 17th from left, B is 18th from right. If they interchange, A's new position?",
       "options": [
+        "36",
+        "38",
         "35",
-        "17",
-        "18",
-        "35"
+        "37"
       ],
       "explanation": "B is at 35 from left. After swap, A takes B's place = 35 from left."
     },
     "hi": {
       "question": "52 की पंक्ति में A बाएं से 17वां, B दाएं से 18वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
+        "36",
+        "38",
         "35",
-        "17",
-        "18",
-        "35"
+        "37"
       ],
       "explanation": "B बाएं से 35 पर है। स्थान बदलने पर A, B की जगह = 35वां बाएं से।"
     }
@@ -4562,9 +4562,9 @@
     "en": {
       "question": "5 persons: C is taller than D, D is taller than E, E is taller than A, and A is taller than B. Who is tallest?",
       "options": [
-        "D",
-        "C",
-        "D",
+        "A2",
+        "A1",
+        "A3",
         "A"
       ],
       "explanation": "The order from tallest: A > E > D > C. Tallest = A"
@@ -4572,9 +4572,9 @@
     "hi": {
       "question": "5 व्यक्ति: C > D > E > A > B (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
-        "D",
-        "C",
-        "D",
+        "A2",
+        "A1",
+        "A3",
         "A"
       ],
       "explanation": "लंबाई क्रम: A > E > D > C। सबसे लंबा = A"
@@ -4582,26 +4582,26 @@
   },
   {
     "id": "nror-0184",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 65, A is 8th from left, B is 16th from right. If they interchange, A's new position?",
       "options": [
-        "8",
         "50",
-        "16",
-        "50"
+        "53",
+        "52",
+        "51"
       ],
       "explanation": "B is at 50 from left. After swap, A takes B's place = 50 from left."
     },
     "hi": {
       "question": "65 की पंक्ति में A बाएं से 8वां, B दाएं से 16वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "8",
         "50",
-        "16",
-        "50"
+        "53",
+        "52",
+        "51"
       ],
       "explanation": "B बाएं से 50 पर है। स्थान बदलने पर A, B की जगह = 50वां बाएं से।"
     }
@@ -4660,41 +4660,41 @@
   },
   {
     "id": "nror-0187",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 69, A is 18th from left, B is 20th from right. If they interchange, A's new position?",
       "options": [
-        "18",
         "50",
-        "20",
-        "50"
+        "52",
+        "53",
+        "51"
       ],
       "explanation": "B is at 50 from left. After swap, A takes B's place = 50 from left."
     },
     "hi": {
       "question": "69 की पंक्ति में A बाएं से 18वां, B दाएं से 20वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "18",
         "50",
-        "20",
-        "50"
+        "52",
+        "53",
+        "51"
       ],
       "explanation": "B बाएं से 50 पर है। स्थान बदलने पर A, B की जगह = 50वां बाएं से।"
     }
   },
   {
     "id": "nror-0188",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 34, A is 9th from left, B is 12th from right. If they interchange, A's new position?",
       "options": [
-        "9",
-        "23",
-        "12",
+        "25",
+        "26",
+        "24",
         "23"
       ],
       "explanation": "B is at 23 from left. After swap, A takes B's place = 23 from left."
@@ -4702,9 +4702,9 @@
     "hi": {
       "question": "34 की पंक्ति में A बाएं से 9वां, B दाएं से 12वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "9",
-        "23",
-        "12",
+        "25",
+        "26",
+        "24",
         "23"
       ],
       "explanation": "B बाएं से 23 पर है। स्थान बदलने पर A, B की जगह = 23वां बाएं से।"
@@ -4712,26 +4712,26 @@
   },
   {
     "id": "nror-0189",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 63, A is 15th from left, B is 13th from right. If they interchange, A's new position?",
       "options": [
-        "15",
         "51",
-        "51",
-        "13"
+        "52",
+        "54",
+        "53"
       ],
       "explanation": "B is at 51 from left. After swap, A takes B's place = 51 from left."
     },
     "hi": {
       "question": "63 की पंक्ति में A बाएं से 15वां, B दाएं से 13वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "15",
         "51",
-        "51",
-        "13"
+        "52",
+        "54",
+        "53"
       ],
       "explanation": "B बाएं से 51 पर है। स्थान बदलने पर A, B की जगह = 51वां बाएं से।"
     }
@@ -4771,9 +4771,9 @@
       "question": "In row of 73, A is 9th from left, B is 7th from right. If they interchange, A's new position?",
       "options": [
         "67",
-        "9",
-        "7",
-        "67"
+        "69",
+        "68",
+        "70"
       ],
       "explanation": "B is at 67 from left. After swap, A takes B's place = 67 from left."
     },
@@ -4781,50 +4781,50 @@
       "question": "73 की पंक्ति में A बाएं से 9वां, B दाएं से 7वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
         "67",
-        "9",
-        "7",
-        "67"
+        "69",
+        "68",
+        "70"
       ],
       "explanation": "B बाएं से 67 पर है। स्थान बदलने पर A, B की जगह = 67वां बाएं से।"
     }
   },
   {
     "id": "nror-0192",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 63, A is 8th from left, B is 22th from right. If they interchange, A's new position?",
       "options": [
-        "22",
-        "8",
         "42",
-        "42"
+        "45",
+        "44",
+        "43"
       ],
       "explanation": "B is at 42 from left. After swap, A takes B's place = 42 from left."
     },
     "hi": {
       "question": "63 की पंक्ति में A बाएं से 8वां, B दाएं से 22वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "22",
-        "8",
         "42",
-        "42"
+        "45",
+        "44",
+        "43"
       ],
       "explanation": "B बाएं से 42 पर है। स्थान बदलने पर A, B की जगह = 42वां बाएं से।"
     }
   },
   {
     "id": "nror-0194",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 28, A is 9th from left, B is 6th from right. If they interchange, A's new position?",
       "options": [
-        "23",
-        "9",
-        "6",
+        "26",
+        "25",
+        "24",
         "23"
       ],
       "explanation": "B is at 23 from left. After swap, A takes B's place = 23 from left."
@@ -4832,9 +4832,9 @@
     "hi": {
       "question": "28 की पंक्ति में A बाएं से 9वां, B दाएं से 6वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "23",
-        "9",
-        "6",
+        "26",
+        "25",
+        "24",
         "23"
       ],
       "explanation": "B बाएं से 23 पर है। स्थान बदलने पर A, B की जगह = 23वां बाएं से।"
@@ -4868,26 +4868,26 @@
   },
   {
     "id": "nror-0196",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 76, A is 12th from left, B is 7th from right. If they interchange, A's new position?",
       "options": [
-        "12",
+        "72",
+        "73",
         "70",
-        "70",
-        "7"
+        "71"
       ],
       "explanation": "B is at 70 from left. After swap, A takes B's place = 70 from left."
     },
     "hi": {
       "question": "76 की पंक्ति में A बाएं से 12वां, B दाएं से 7वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "12",
+        "72",
+        "73",
         "70",
-        "70",
-        "7"
+        "71"
       ],
       "explanation": "B बाएं से 70 पर है। स्थान बदलने पर A, B की जगह = 70वां बाएं से।"
     }
@@ -4900,20 +4900,20 @@
     "en": {
       "question": "In row of 36, A is 8th from left, B is 9th from right. If they interchange, A's new position?",
       "options": [
-        "8",
+        "30",
         "28",
-        "28",
-        "9"
+        "31",
+        "29"
       ],
       "explanation": "B is at 28 from left. After swap, A takes B's place = 28 from left."
     },
     "hi": {
       "question": "36 की पंक्ति में A बाएं से 8वां, B दाएं से 9वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "8",
+        "30",
         "28",
-        "28",
-        "9"
+        "31",
+        "29"
       ],
       "explanation": "B बाएं से 28 पर है। स्थान बदलने पर A, B की जगह = 28वां बाएं से।"
     }
@@ -4952,72 +4952,72 @@
     "en": {
       "question": "5 persons: D is taller than E, E is taller than C, C is taller than B, and B is taller than A. Who is tallest?",
       "options": [
-        "A",
+        "E1",
         "E",
-        "D",
-        "D"
+        "E2",
+        "E3"
       ],
       "explanation": "The order from tallest: E > D. Tallest = E"
     },
     "hi": {
       "question": "5 व्यक्ति: D > E > C > B > A (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
-        "A",
+        "E1",
         "E",
-        "D",
-        "D"
+        "E2",
+        "E3"
       ],
       "explanation": "लंबाई क्रम: E > D। सबसे लंबा = E"
     }
   },
   {
     "id": "nror-0201",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 42, A is 6th from left, B is 8th from right. If they interchange, A's new position?",
       "options": [
-        "6",
-        "8",
         "35",
-        "35"
+        "36",
+        "37",
+        "38"
       ],
       "explanation": "B is at 35 from left. After swap, A takes B's place = 35 from left."
     },
     "hi": {
       "question": "42 की पंक्ति में A बाएं से 6वां, B दाएं से 8वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "6",
-        "8",
         "35",
-        "35"
+        "36",
+        "37",
+        "38"
       ],
       "explanation": "B बाएं से 35 पर है। स्थान बदलने पर A, B की जगह = 35वां बाएं से।"
     }
   },
   {
     "id": "nror-0202",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 74, A is 10th from left, B is 22th from right. If they interchange, A's new position?",
       "options": [
-        "10",
-        "22",
         "53",
-        "53"
+        "54",
+        "55",
+        "56"
       ],
       "explanation": "B is at 53 from left. After swap, A takes B's place = 53 from left."
     },
     "hi": {
       "question": "74 की पंक्ति में A बाएं से 10वां, B दाएं से 22वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "10",
-        "22",
         "53",
-        "53"
+        "54",
+        "55",
+        "56"
       ],
       "explanation": "B बाएं से 53 पर है। स्थान बदलने पर A, B की जगह = 53वां बाएं से।"
     }
@@ -5030,72 +5030,72 @@
     "en": {
       "question": "In row of 38, A is 9th from left, B is 7th from right. If they interchange, A's new position?",
       "options": [
-        "9",
+        "34",
         "32",
-        "32",
-        "7"
+        "33",
+        "35"
       ],
       "explanation": "B is at 32 from left. After swap, A takes B's place = 32 from left."
     },
     "hi": {
       "question": "38 की पंक्ति में A बाएं से 9वां, B दाएं से 7वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "9",
+        "34",
         "32",
-        "32",
-        "7"
+        "33",
+        "35"
       ],
       "explanation": "B बाएं से 32 पर है। स्थान बदलने पर A, B की जगह = 32वां बाएं से।"
     }
   },
   {
     "id": "nror-0204",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 76, A is 15th from left, B is 26th from right. If they interchange, A's new position?",
       "options": [
-        "26",
-        "15",
+        "54",
         "51",
-        "51"
+        "52",
+        "53"
       ],
       "explanation": "B is at 51 from left. After swap, A takes B's place = 51 from left."
     },
     "hi": {
       "question": "76 की पंक्ति में A बाएं से 15वां, B दाएं से 26वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "26",
-        "15",
+        "54",
         "51",
-        "51"
+        "52",
+        "53"
       ],
       "explanation": "B बाएं से 51 पर है। स्थान बदलने पर A, B की जगह = 51वां बाएं से।"
     }
   },
   {
     "id": "nror-0205",
-    "correctOption": "A",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 49, A is 15th from left, B is 12th from right. If they interchange, A's new position?",
       "options": [
+        "40",
         "38",
-        "38",
-        "15",
-        "12"
+        "39",
+        "41"
       ],
       "explanation": "B is at 38 from left. After swap, A takes B's place = 38 from left."
     },
     "hi": {
       "question": "49 की पंक्ति में A बाएं से 15वां, B दाएं से 12वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
+        "40",
         "38",
-        "38",
-        "15",
-        "12"
+        "39",
+        "41"
       ],
       "explanation": "B बाएं से 38 पर है। स्थान बदलने पर A, B की जगह = 38वां बाएं से।"
     }
@@ -5135,9 +5135,9 @@
       "question": "In row of 79, A is 9th from left, B is 19th from right. If they interchange, A's new position?",
       "options": [
         "61",
-        "9",
-        "19",
-        "61"
+        "64",
+        "62",
+        "63"
       ],
       "explanation": "B is at 61 from left. After swap, A takes B's place = 61 from left."
     },
@@ -5145,50 +5145,50 @@
       "question": "79 की पंक्ति में A बाएं से 9वां, B दाएं से 19वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
         "61",
-        "9",
-        "19",
-        "61"
+        "64",
+        "62",
+        "63"
       ],
       "explanation": "B बाएं से 61 पर है। स्थान बदलने पर A, B की जगह = 61वां बाएं से।"
     }
   },
   {
     "id": "nror-0208",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 78, A is 11th from left, B is 15th from right. If they interchange, A's new position?",
       "options": [
-        "11",
+        "65",
+        "67",
         "64",
-        "15",
-        "64"
+        "66"
       ],
       "explanation": "B is at 64 from left. After swap, A takes B's place = 64 from left."
     },
     "hi": {
       "question": "78 की पंक्ति में A बाएं से 11वां, B दाएं से 15वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "11",
+        "65",
+        "67",
         "64",
-        "15",
-        "64"
+        "66"
       ],
       "explanation": "B बाएं से 64 पर है। स्थान बदलने पर A, B की जगह = 64वां बाएं से।"
     }
   },
   {
     "id": "nror-0209",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "In row of 53, A is 16th from left, B is 9th from right. If they interchange, A's new position?",
       "options": [
-        "16",
-        "45",
-        "9",
+        "47",
+        "48",
+        "46",
         "45"
       ],
       "explanation": "B is at 45 from left. After swap, A takes B's place = 45 from left."
@@ -5196,9 +5196,9 @@
     "hi": {
       "question": "53 की पंक्ति में A बाएं से 16वां, B दाएं से 9वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
-        "16",
-        "45",
-        "9",
+        "47",
+        "48",
+        "46",
         "45"
       ],
       "explanation": "B बाएं से 45 पर है। स्थान बदलने पर A, B की जगह = 45वां बाएं से।"
@@ -5239,9 +5239,9 @@
       "question": "In row of 58, A is 17th from left, B is 9th from right. If they interchange, A's new position?",
       "options": [
         "50",
-        "50",
-        "17",
-        "9"
+        "53",
+        "52",
+        "51"
       ],
       "explanation": "B is at 50 from left. After swap, A takes B's place = 50 from left."
     },
@@ -5249,9 +5249,9 @@
       "question": "58 की पंक्ति में A बाएं से 17वां, B दाएं से 9वां। यदि वे स्थान बदलें तो A का नया स्थान?",
       "options": [
         "50",
-        "50",
-        "17",
-        "9"
+        "53",
+        "52",
+        "51"
       ],
       "explanation": "B बाएं से 50 पर है। स्थान बदलने पर A, B की जगह = 50वां बाएं से।"
     }
@@ -5284,26 +5284,26 @@
   },
   {
     "id": "nror-0213",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
       "question": "5 persons: B is taller than D, D is taller than E, E is taller than A, and A is taller than C. Who is tallest?",
       "options": [
-        "E",
-        "B",
-        "B",
-        "C"
+        "C2",
+        "C",
+        "C1",
+        "C3"
       ],
       "explanation": "The order from tallest: C > A > E > D > B. Tallest = C"
     },
     "hi": {
       "question": "5 व्यक्ति: B > D > E > A > C (ऊंचाई में)। सबसे लंबा कौन?",
       "options": [
-        "E",
-        "B",
-        "B",
-        "C"
+        "C2",
+        "C",
+        "C1",
+        "C3"
       ],
       "explanation": "लंबाई क्रम: C > A > E > D > B। सबसे लंबा = C"
     }

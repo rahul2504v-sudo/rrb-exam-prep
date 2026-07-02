@@ -495,26 +495,26 @@
   },
   {
     "id": "gdrs-0020",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "Next term: 10, 30, 90, ?, 810",
       "options": [
-        "271",
-        "266",
         "270",
-        "271"
+        "273",
+        "271",
+        "272"
       ],
       "explanation": "Geometric series with ratio 3. Term 4 = 10×3^3 = 270"
     },
     "hi": {
       "question": "अगला पद: 10, 30, 90, ?, 810",
       "options": [
-        "271",
-        "266",
         "270",
-        "271"
+        "273",
+        "271",
+        "272"
       ],
       "explanation": "गुणोत्तर श्रेणी, अनुपात 3। पद 4 = 270"
     }
@@ -937,26 +937,26 @@
   },
   {
     "id": "gdrs-0039",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "Complete the series: 4, 8, 16, ?, 64",
       "options": [
-        "27",
-        "32",
+        "35",
+        "33",
         "34",
-        "34"
+        "32"
       ],
       "explanation": "Pattern: ×2. 4 × 2 = 8, ... The ? is 32"
     },
     "hi": {
       "question": "श्रेणी पूरी करें: 4, 8, 16, ?, 64",
       "options": [
-        "27",
-        "32",
+        "35",
+        "33",
         "34",
-        "34"
+        "32"
       ],
       "explanation": "पैटर्न: ×2। ? = 32"
     }
@@ -1145,26 +1145,26 @@
   },
   {
     "id": "gdrs-0047",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "hard",
     "sourceYear": 2025,
     "en": {
       "question": "Next term: 9, ?, 81, 243, 729",
       "options": [
-        "25",
-        "27",
+        "30",
+        "28",
         "29",
-        "29"
+        "27"
       ],
       "explanation": "Geometric series with ratio 3. Term 2 = 9×3^1 = 27"
     },
     "hi": {
       "question": "अगला पद: 9, ?, 81, 243, 729",
       "options": [
-        "25",
-        "27",
+        "30",
+        "28",
         "29",
-        "29"
+        "27"
       ],
       "explanation": "गुणोत्तर श्रेणी, अनुपात 3। पद 2 = 27"
     }
@@ -1177,20 +1177,20 @@
     "en": {
       "question": "Next term: 8, 16, 32, ?, 128",
       "options": [
-        "65",
-        "65",
+        "67",
+        "66",
         "64",
-        "62"
+        "65"
       ],
       "explanation": "Geometric series with ratio 2. Term 4 = 8×2^3 = 64"
     },
     "hi": {
       "question": "अगला पद: 8, 16, 32, ?, 128",
       "options": [
-        "65",
-        "65",
+        "67",
+        "66",
         "64",
-        "62"
+        "65"
       ],
       "explanation": "गुणोत्तर श्रेणी, अनुपात 2। पद 4 = 64"
     }
@@ -1431,26 +1431,26 @@
   },
   {
     "id": "gdrs-0059",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "Complete the series: ?, 12, 36, 108, 324",
       "options": [
-        "9",
-        "4",
-        "3",
-        "9"
+        "6",
+        "5",
+        "7",
+        "4"
       ],
       "explanation": "Pattern: ×3. 4 × 3 = 12, ... The ? is 4"
     },
     "hi": {
       "question": "श्रेणी पूरी करें: ?, 12, 36, 108, 324",
       "options": [
-        "9",
-        "4",
-        "3",
-        "9"
+        "6",
+        "5",
+        "7",
+        "4"
       ],
       "explanation": "पैटर्न: ×3। ? = 4"
     }
@@ -1483,15 +1483,15 @@
   },
   {
     "id": "gdrs-0061",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "hard",
     "sourceYear": 2025,
     "en": {
       "question": "Complete the series: 4, 12, 36, 108, ?",
       "options": [
-        "327",
-        "322",
         "324",
+        "326",
+        "325",
         "327"
       ],
       "explanation": "Pattern: ×3. 4 × 3 = 12, ... The ? is 324"
@@ -1499,9 +1499,9 @@
     "hi": {
       "question": "श्रेणी पूरी करें: 4, 12, 36, 108, ?",
       "options": [
-        "327",
-        "322",
         "324",
+        "326",
+        "325",
         "327"
       ],
       "explanation": "पैटर्न: ×3। ? = 324"
@@ -2080,26 +2080,26 @@
     "id": "gdrs-0083"
   },
   {
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
       "question": "If + means ×, - means +, × means ÷, then 26 + 2 - 13 = ?",
       "options": [
+        "67",
+        "66",
         "65",
-        "39",
-        "13",
-        "39"
+        "68"
       ],
       "explanation": "After substitution: 26×2+13 = 65."
     },
     "hi": {
       "question": "यदि + का अर्थ ×, - का अर्थ +, तो 26 + 2 - 13 = ?",
       "options": [
+        "67",
+        "66",
         "65",
-        "39",
-        "13",
-        "39"
+        "68"
       ],
       "explanation": "प्रतिस्थापन के बाद: 26×2+13 = 65।"
     },
