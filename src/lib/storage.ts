@@ -56,3 +56,20 @@ export function saveSession(session: TestSession): void {
 export function getSession(id: string): TestSession | undefined {
   return getSessions().find(s => s.id === id);
 }
+
+export function clearAllSessions(): void {
+  if (typeof window === 'undefined') return;
+  localStorage.removeItem(getStorageKey());
+}
+
+export function getAverageScore(): number {
+  const sessions = getSessions();
+  if (sessions.length === 0) return 0;
+  return Math.round(sessions.reduce((sum, s) => sum + s.score, 0) / sessions.length);
+}
+
+export function getBestScore(): number {
+  const sessions = getSessions();
+  if (sessions.length === 0) return 0;
+  return Math.max(...sessions.map(s => s.score));
+}
