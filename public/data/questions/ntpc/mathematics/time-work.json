@@ -1,236 +1,236 @@
 [
   {
     "id": "tw-0001",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 12d, B in 6d. Together?",
+      "question": "A can do work in 12 days, B in 6 days. Together they finish in?",
       "options": [
-        "6",
         "5",
-        "5",
-        "4"
+        "15",
+        "4",
+        "3"
       ],
-      "explanation": "1d work = 1/12+1/6 = 18/72. Time = 72/18 = 4 days."
+      "explanation": "1 day work = 1/12 + 1/6 = 18/72. Together = 72/18 = 4 days."
     },
     "hi": {
-      "question": "A in 12d, B in 6d. Together?",
+      "question": "A can do work in 12 days, B in 6 days. Together they finish in?",
       "options": [
-        "6",
         "5",
-        "5",
-        "4"
+        "15",
+        "4",
+        "3"
       ],
-      "explanation": "1d work = 1/12+1/6 = 18/72. Time = 72/18 = 4 days."
+      "explanation": "1 day work = 1/12 + 1/6 = 18/72. Together = 72/18 = 4 days."
     }
   },
   {
     "id": "tw-0002",
-    "correctOption": "C",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 12d, A alone 20d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 20 days. B alone takes?",
       "options": [
-        "5",
+        "15",
         "32",
-        "30",
-        "31"
+        "29",
+        "30"
       ],
-      "explanation": "B = 1/(1/12-1/20) = 240/8 = 30 days."
+      "explanation": "B alone = 1/(1/12 - 1/20) = 1/(8/240) = 240/8 = 30 days."
     },
     "hi": {
-      "question": "A+B in 12d, A alone 20d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 20 days. B alone takes?",
       "options": [
-        "5",
+        "15",
         "32",
-        "30",
-        "31"
+        "29",
+        "30"
       ],
-      "explanation": "B = 1/(1/12-1/20) = 240/8 = 30 days."
+      "explanation": "B alone = 1/(1/12 - 1/20) = 1/(8/240) = 240/8 = 30 days."
     }
   },
   {
     "id": "tw-0003",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 15d, B in 10d. Together?",
+      "question": "A can do work in 15 days, B in 10 days. Together they finish in?",
       "options": [
-        "7",
         "5",
-        "8",
-        "6"
+        "5",
+        "6",
+        "7"
       ],
-      "explanation": "1d work = 1/15+1/10 = 25/150. Time = 150/25 = 6 days."
+      "explanation": "1 day work = 1/15 + 1/10 = 25/150. Together = 150/25 = 6 days."
     },
     "hi": {
-      "question": "A in 15d, B in 10d. Together?",
+      "question": "A can do work in 15 days, B in 10 days. Together they finish in?",
       "options": [
-        "7",
         "5",
-        "8",
-        "6"
+        "5",
+        "6",
+        "7"
       ],
-      "explanation": "1d work = 1/15+1/10 = 25/150. Time = 150/25 = 6 days."
+      "explanation": "1 day work = 1/15 + 1/10 = 25/150. Together = 150/25 = 6 days."
     }
   },
   {
     "id": "tw-0004",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A+B in 6d, A alone 24d. B alone?",
-      "options": [
-        "9",
-        "10",
-        "8",
-        "5"
-      ],
-      "explanation": "B = 1/(1/6-1/24) = 144/18 = 8 days."
-    },
-    "hi": {
-      "question": "A+B in 6d, A alone 24d. B alone?",
-      "options": [
-        "9",
-        "10",
-        "8",
-        "5"
-      ],
-      "explanation": "B = 1/(1/6-1/24) = 144/18 = 8 days."
-    }
-  },
-  {
-    "id": "tw-0005",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A in 30d, B in 20d. Together?",
-      "options": [
-        "13",
-        "14",
-        "5",
-        "12"
-      ],
-      "explanation": "1d work = 1/30+1/20 = 50/600. Time = 600/50 = 12 days."
-    },
-    "hi": {
-      "question": "A in 30d, B in 20d. Together?",
-      "options": [
-        "13",
-        "14",
-        "5",
-        "12"
-      ],
-      "explanation": "1d work = 1/30+1/20 = 50/600. Time = 600/50 = 12 days."
-    }
-  },
-  {
-    "id": "tw-0006",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A+B in 24d, A alone 40d. B alone?",
-      "options": [
-        "61",
-        "5",
-        "62",
-        "60"
-      ],
-      "explanation": "B = 1/(1/24-1/40) = 960/16 = 60 days."
-    },
-    "hi": {
-      "question": "A+B in 24d, A alone 40d. B alone?",
-      "options": [
-        "61",
-        "5",
-        "62",
-        "60"
-      ],
-      "explanation": "B = 1/(1/24-1/40) = 960/16 = 60 days."
-    }
-  },
-  {
-    "id": "tw-0007",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A in 18d, B in 9d. Together?",
-      "options": [
-        "8",
-        "7",
-        "6",
-        "5"
-      ],
-      "explanation": "1d work = 1/18+1/9 = 27/162. Time = 162/27 = 6 days."
-    },
-    "hi": {
-      "question": "A in 18d, B in 9d. Together?",
-      "options": [
-        "8",
-        "7",
-        "6",
-        "5"
-      ],
-      "explanation": "1d work = 1/18+1/9 = 27/162. Time = 162/27 = 6 days."
-    }
-  },
-  {
-    "id": "tw-0008",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A+B in 15d, A alone 25d. B alone?",
-      "options": [
-        "76",
-        "5",
-        "75",
-        "77"
-      ],
-      "explanation": "B = 1/(1/15-1/25) = 375/10 = 75 days."
-    },
-    "hi": {
-      "question": "A+B in 15d, A alone 25d. B alone?",
-      "options": [
-        "76",
-        "5",
-        "75",
-        "77"
-      ],
-      "explanation": "B = 1/(1/15-1/25) = 375/10 = 75 days."
-    }
-  },
-  {
-    "id": "tw-0009",
     "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 36d, B in 18d. Together?",
+      "question": "A and B together finish work in 6 days. A alone takes 24 days. B alone takes?",
       "options": [
-        "12",
-        "14",
-        "13",
-        "5"
+        "8",
+        "10",
+        "6",
+        "6"
       ],
-      "explanation": "1d work = 1/36+1/18 = 54/648. Time = 648/54 = 12 days."
+      "explanation": "B alone = 1/(1/6 - 1/24) = 1/(18/144) = 144/18 = 8 days."
     },
     "hi": {
-      "question": "A in 36d, B in 18d. Together?",
+      "question": "A and B together finish work in 6 days. A alone takes 24 days. B alone takes?",
+      "options": [
+        "8",
+        "10",
+        "6",
+        "6"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/24) = 1/(18/144) = 144/18 = 8 days."
+    }
+  },
+  {
+    "id": "tw-0005",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 30 days, B in 20 days. Together they finish in?",
       "options": [
         "12",
-        "14",
+        "11",
         "13",
+        "15"
+      ],
+      "explanation": "1 day work = 1/30 + 1/20 = 50/600. Together = 600/50 = 12 days."
+    },
+    "hi": {
+      "question": "A can do work in 30 days, B in 20 days. Together they finish in?",
+      "options": [
+        "12",
+        "11",
+        "13",
+        "15"
+      ],
+      "explanation": "1 day work = 1/30 + 1/20 = 50/600. Together = 600/50 = 12 days."
+    }
+  },
+  {
+    "id": "tw-0006",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish work in 24 days. A alone takes 40 days. B alone takes?",
+      "options": [
+        "62",
+        "20",
+        "60",
+        "59"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/40) = 1/(16/960) = 960/16 = 60 days."
+    },
+    "hi": {
+      "question": "A and B together finish work in 24 days. A alone takes 40 days. B alone takes?",
+      "options": [
+        "62",
+        "20",
+        "60",
+        "59"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/40) = 1/(16/960) = 960/16 = 60 days."
+    }
+  },
+  {
+    "id": "tw-0007",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 18 days, B in 9 days. Together they finish in?",
+      "options": [
+        "6",
+        "10",
+        "8",
         "5"
       ],
-      "explanation": "1d work = 1/36+1/18 = 54/648. Time = 648/54 = 12 days."
+      "explanation": "1 day work = 1/18 + 1/9 = 27/162. Together = 162/27 = 6 days."
+    },
+    "hi": {
+      "question": "A can do work in 18 days, B in 9 days. Together they finish in?",
+      "options": [
+        "6",
+        "10",
+        "8",
+        "5"
+      ],
+      "explanation": "1 day work = 1/18 + 1/9 = 27/162. Together = 162/27 = 6 days."
+    }
+  },
+  {
+    "id": "tw-0008",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish work in 12 days. A alone takes 36 days. B alone takes?",
+      "options": [
+        "16",
+        "12",
+        "19",
+        "18"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/36) = 1/(24/432) = 432/24 = 18 days."
+    },
+    "hi": {
+      "question": "A and B together finish work in 12 days. A alone takes 36 days. B alone takes?",
+      "options": [
+        "16",
+        "12",
+        "19",
+        "18"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/36) = 1/(24/432) = 432/24 = 18 days."
+    }
+  },
+  {
+    "id": "tw-0009",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 45 days, B in 30 days. Together they finish in?",
+      "options": [
+        "12",
+        "18",
+        "16",
+        "21"
+      ],
+      "explanation": "1 day work = 1/45 + 1/30 = 75/1350. Together = 1350/75 = 18 days."
+    },
+    "hi": {
+      "question": "A can do work in 45 days, B in 30 days. Together they finish in?",
+      "options": [
+        "12",
+        "18",
+        "16",
+        "21"
+      ],
+      "explanation": "1 day work = 1/45 + 1/30 = 75/1350. Together = 1350/75 = 18 days."
     }
   },
   {
@@ -239,76 +239,76 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 18d, A alone 45d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 60 days. B alone takes?",
       "options": [
-        "32",
-        "5",
-        "30",
-        "31"
+        "16",
+        "20",
+        "15",
+        "14"
       ],
-      "explanation": "B = 1/(1/18-1/45) = 810/27 = 30 days."
+      "explanation": "B alone = 1/(1/12 - 1/60) = 1/(48/720) = 720/48 = 15 days."
     },
     "hi": {
-      "question": "A+B in 18d, A alone 45d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 60 days. B alone takes?",
       "options": [
-        "32",
-        "5",
-        "30",
-        "31"
+        "16",
+        "20",
+        "15",
+        "14"
       ],
-      "explanation": "B = 1/(1/18-1/45) = 810/27 = 30 days."
+      "explanation": "B alone = 1/(1/12 - 1/60) = 1/(48/720) = 720/48 = 15 days."
     }
   },
   {
     "id": "tw-0011",
-    "correctOption": "D",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 60d, B in 15d. Together?",
+      "question": "A can do work in 21 days, B in 28 days. Together they finish in?",
       "options": [
-        "14",
+        "12",
         "13",
-        "5",
-        "12"
+        "10",
+        "8"
       ],
-      "explanation": "1d work = 1/60+1/15 = 75/900. Time = 900/75 = 12 days."
+      "explanation": "1 day work = 1/21 + 1/28 = 49/588. Together = 588/49 = 12 days."
     },
     "hi": {
-      "question": "A in 60d, B in 15d. Together?",
+      "question": "A can do work in 21 days, B in 28 days. Together they finish in?",
       "options": [
-        "14",
+        "12",
         "13",
-        "5",
-        "12"
+        "10",
+        "8"
       ],
-      "explanation": "1d work = 1/60+1/15 = 75/900. Time = 900/75 = 12 days."
+      "explanation": "1 day work = 1/21 + 1/28 = 49/588. Together = 588/49 = 12 days."
     }
   },
   {
     "id": "tw-0012",
-    "correctOption": "D",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 12d, A alone 21d. B alone?",
+      "question": "A and B together finish work in 24 days. A alone takes 32 days. B alone takes?",
       "options": [
-        "5",
-        "30",
-        "29",
-        "28"
+        "96",
+        "8",
+        "94",
+        "98"
       ],
-      "explanation": "B = 1/(1/12-1/21) = 252/9 = 28 days."
+      "explanation": "B alone = 1/(1/24 - 1/32) = 1/(8/768) = 768/8 = 96 days."
     },
     "hi": {
-      "question": "A+B in 12d, A alone 21d. B alone?",
+      "question": "A and B together finish work in 24 days. A alone takes 32 days. B alone takes?",
       "options": [
-        "5",
-        "30",
-        "29",
-        "28"
+        "96",
+        "8",
+        "94",
+        "98"
       ],
-      "explanation": "B = 1/(1/12-1/21) = 252/9 = 28 days."
+      "explanation": "B alone = 1/(1/24 - 1/32) = 1/(8/768) = 768/8 = 96 days."
     }
   },
   {
@@ -317,154 +317,154 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 32d, B in 96d. Together?",
+      "question": "A can do work in 48 days, B in 16 days. Together they finish in?",
       "options": [
-        "5",
-        "25",
-        "24",
-        "26"
+        "11",
+        "747",
+        "12",
+        "13"
       ],
-      "explanation": "1d work = 1/32+1/96 = 128/3072. Time = 3072/128 = 24 days."
+      "explanation": "1 day work = 1/48 + 1/16 = 64/768. Together = 768/64 = 12 days."
     },
     "hi": {
-      "question": "A in 32d, B in 96d. Together?",
+      "question": "A can do work in 48 days, B in 16 days. Together they finish in?",
       "options": [
-        "5",
-        "25",
-        "24",
-        "26"
+        "11",
+        "747",
+        "12",
+        "13"
       ],
-      "explanation": "1d work = 1/32+1/96 = 128/3072. Time = 3072/128 = 24 days."
+      "explanation": "1 day work = 1/48 + 1/16 = 64/768. Together = 768/64 = 12 days."
     }
   },
   {
     "id": "tw-0014",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A+B in 12d, A alone 48d. B alone?",
-      "options": [
-        "18",
-        "5",
-        "17",
-        "16"
-      ],
-      "explanation": "B = 1/(1/12-1/48) = 576/36 = 16 days."
-    },
-    "hi": {
-      "question": "A+B in 12d, A alone 48d. B alone?",
-      "options": [
-        "18",
-        "5",
-        "17",
-        "16"
-      ],
-      "explanation": "B = 1/(1/12-1/48) = 576/36 = 16 days."
-    }
-  },
-  {
-    "id": "tw-0015",
     "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 50d, B in 25d. Together?",
+      "question": "A and B together finish work in 12 days. A alone takes 16 days. B alone takes?",
       "options": [
-        "16",
-        "17",
-        "5",
-        "18"
+        "48",
+        "15",
+        "46",
+        "52"
       ],
-      "explanation": "1d work = 1/50+1/25 = 75/1250. Time = 1250/75 = 16 days."
+      "explanation": "B alone = 1/(1/12 - 1/16) = 1/(4/192) = 192/4 = 48 days."
     },
     "hi": {
-      "question": "A in 50d, B in 25d. Together?",
+      "question": "A and B together finish work in 12 days. A alone takes 16 days. B alone takes?",
       "options": [
-        "16",
-        "17",
-        "5",
-        "18"
+        "48",
+        "15",
+        "46",
+        "52"
       ],
-      "explanation": "1d work = 1/50+1/25 = 75/1250. Time = 1250/75 = 16 days."
+      "explanation": "B alone = 1/(1/12 - 1/16) = 1/(4/192) = 192/4 = 48 days."
     }
   },
   {
-    "id": "tw-0016",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A+B in 4d, A alone 12d. B alone?",
-      "options": [
-        "5",
-        "6",
-        "8",
-        "7"
-      ],
-      "explanation": "B = 1/(1/4-1/12) = 48/8 = 6 days."
-    },
-    "hi": {
-      "question": "A+B in 4d, A alone 12d. B alone?",
-      "options": [
-        "5",
-        "6",
-        "8",
-        "7"
-      ],
-      "explanation": "B = 1/(1/4-1/12) = 48/8 = 6 days."
-    }
-  },
-  {
-    "id": "tw-0017",
+    "id": "tw-0015",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 20d, B in 30d. Together?",
+      "question": "A can do work in 10 days, B in 15 days. Together they finish in?",
       "options": [
-        "13",
+        "20",
         "5",
-        "14",
-        "12"
+        "7",
+        "6"
       ],
-      "explanation": "1d work = 1/20+1/30 = 50/600. Time = 600/50 = 12 days."
+      "explanation": "1 day work = 1/10 + 1/15 = 25/150. Together = 150/25 = 6 days."
     },
     "hi": {
-      "question": "A in 20d, B in 30d. Together?",
+      "question": "A can do work in 10 days, B in 15 days. Together they finish in?",
       "options": [
-        "13",
+        "20",
         "5",
-        "14",
-        "12"
+        "7",
+        "6"
       ],
-      "explanation": "1d work = 1/20+1/30 = 50/600. Time = 600/50 = 12 days."
+      "explanation": "1 day work = 1/10 + 1/15 = 25/150. Together = 150/25 = 6 days."
     }
   },
   {
-    "id": "tw-0018",
+    "id": "tw-0016",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 6d, A alone 15d. B alone?",
+      "question": "A and B together finish work in 6 days. A alone takes 8 days. B alone takes?",
       "options": [
-        "11",
-        "5",
-        "10",
-        "12"
+        "6",
+        "27",
+        "24",
+        "23"
       ],
-      "explanation": "B = 1/(1/6-1/15) = 90/9 = 10 days."
+      "explanation": "B alone = 1/(1/6 - 1/8) = 1/(2/48) = 48/2 = 24 days."
     },
     "hi": {
-      "question": "A+B in 6d, A alone 15d. B alone?",
+      "question": "A and B together finish work in 6 days. A alone takes 8 days. B alone takes?",
       "options": [
-        "11",
-        "5",
-        "10",
+        "6",
+        "27",
+        "24",
+        "23"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/8) = 1/(2/48) = 48/2 = 24 days."
+    }
+  },
+  {
+    "id": "tw-0017",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 14 days, B in 21 days. Together they finish in?",
+      "options": [
+        "12",
+        "6",
+        "8",
+        "6"
+      ],
+      "explanation": "1 day work = 1/14 + 1/21 = 35/294. Together = 294/35 = 8 days."
+    },
+    "hi": {
+      "question": "A can do work in 14 days, B in 21 days. Together they finish in?",
+      "options": [
+        "12",
+        "6",
+        "8",
+        "6"
+      ],
+      "explanation": "1 day work = 1/14 + 1/21 = 35/294. Together = 294/35 = 8 days."
+    }
+  },
+  {
+    "id": "tw-0018",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish work in 24 days. A alone takes 42 days. B alone takes?",
+      "options": [
+        "54",
+        "56",
+        "59",
         "12"
       ],
-      "explanation": "B = 1/(1/6-1/15) = 90/9 = 10 days."
+      "explanation": "B alone = 1/(1/24 - 1/42) = 1/(18/1008) = 1008/18 = 56 days."
+    },
+    "hi": {
+      "question": "A and B together finish work in 24 days. A alone takes 42 days. B alone takes?",
+      "options": [
+        "54",
+        "56",
+        "59",
+        "12"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/42) = 1/(18/1008) = 1008/18 = 56 days."
     }
   },
   {
@@ -473,128 +473,128 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 24d, B in 8d. Together?",
+      "question": "A can do work in 12 days, B in 6 days. Together they finish in?",
       "options": [
+        "6",
+        "2",
         "5",
-        "8",
-        "7",
-        "6"
+        "4"
       ],
-      "explanation": "1d work = 1/24+1/8 = 32/192. Time = 192/32 = 6 days."
+      "explanation": "1 day work = 1/12 + 1/6 = 18/72. Together = 72/18 = 4 days."
     },
     "hi": {
-      "question": "A in 24d, B in 8d. Together?",
+      "question": "A can do work in 12 days, B in 6 days. Together they finish in?",
       "options": [
+        "6",
+        "2",
         "5",
-        "8",
-        "7",
-        "6"
+        "4"
       ],
-      "explanation": "1d work = 1/24+1/8 = 32/192. Time = 192/32 = 6 days."
+      "explanation": "1 day work = 1/12 + 1/6 = 18/72. Together = 72/18 = 4 days."
     }
   },
   {
     "id": "tw-0020",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A+B in 12d, A alone 30d. B alone?",
-      "options": [
-        "20",
-        "21",
-        "22",
-        "5"
-      ],
-      "explanation": "B = 1/(1/12-1/30) = 360/18 = 20 days."
-    },
-    "hi": {
-      "question": "A+B in 12d, A alone 30d. B alone?",
-      "options": [
-        "20",
-        "21",
-        "22",
-        "5"
-      ],
-      "explanation": "B = 1/(1/12-1/30) = 360/18 = 20 days."
-    }
-  },
-  {
-    "id": "tw-0021",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A in 40d, B in 60d. Together?",
-      "options": [
-        "24",
-        "26",
-        "5",
-        "25"
-      ],
-      "explanation": "1d work = 1/40+1/60 = 100/2400. Time = 2400/100 = 24 days."
-    },
-    "hi": {
-      "question": "A in 40d, B in 60d. Together?",
-      "options": [
-        "24",
-        "26",
-        "5",
-        "25"
-      ],
-      "explanation": "1d work = 1/40+1/60 = 100/2400. Time = 2400/100 = 24 days."
-    }
-  },
-  {
-    "id": "tw-0022",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A+B in 6d, A alone 18d. B alone?",
-      "options": [
-        "9",
-        "5",
-        "11",
-        "10"
-      ],
-      "explanation": "B = 1/(1/6-1/18) = 108/12 = 9 days."
-    },
-    "hi": {
-      "question": "A+B in 6d, A alone 18d. B alone?",
-      "options": [
-        "9",
-        "5",
-        "11",
-        "10"
-      ],
-      "explanation": "B = 1/(1/6-1/18) = 108/12 = 9 days."
-    }
-  },
-  {
-    "id": "tw-0023",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 25d, B in 75d. Together?",
+      "question": "A and B together finish work in 12 days. A alone takes 20 days. B alone takes?",
       "options": [
-        "16",
-        "5",
-        "17",
-        "15"
+        "12",
+        "28",
+        "32",
+        "30"
       ],
-      "explanation": "1d work = 1/25+1/75 = 100/1875. Time = 1875/100 = 15 days."
+      "explanation": "B alone = 1/(1/12 - 1/20) = 1/(8/240) = 240/8 = 30 days."
     },
     "hi": {
-      "question": "A in 25d, B in 75d. Together?",
+      "question": "A and B together finish work in 12 days. A alone takes 20 days. B alone takes?",
+      "options": [
+        "12",
+        "28",
+        "32",
+        "30"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/20) = 1/(8/240) = 240/8 = 30 days."
+    }
+  },
+  {
+    "id": "tw-0021",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 15 days, B in 10 days. Together they finish in?",
+      "options": [
+        "10",
+        "12",
+        "4",
+        "6"
+      ],
+      "explanation": "1 day work = 1/15 + 1/10 = 25/150. Together = 150/25 = 6 days."
+    },
+    "hi": {
+      "question": "A can do work in 15 days, B in 10 days. Together they finish in?",
+      "options": [
+        "10",
+        "12",
+        "4",
+        "6"
+      ],
+      "explanation": "1 day work = 1/15 + 1/10 = 25/150. Together = 150/25 = 6 days."
+    }
+  },
+  {
+    "id": "tw-0022",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish work in 6 days. A alone takes 24 days. B alone takes?",
+      "options": [
+        "5",
+        "8",
+        "11",
+        "6"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/24) = 1/(18/144) = 144/18 = 8 days."
+    },
+    "hi": {
+      "question": "A and B together finish work in 6 days. A alone takes 24 days. B alone takes?",
+      "options": [
+        "5",
+        "8",
+        "11",
+        "6"
+      ],
+      "explanation": "B alone = 1/(1/6 - 1/24) = 1/(18/144) = 144/18 = 8 days."
+    }
+  },
+  {
+    "id": "tw-0023",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 30 days, B in 20 days. Together they finish in?",
       "options": [
         "16",
-        "5",
-        "17",
-        "15"
+        "12",
+        "15",
+        "11"
       ],
-      "explanation": "1d work = 1/25+1/75 = 100/1875. Time = 1875/100 = 15 days."
+      "explanation": "1 day work = 1/30 + 1/20 = 50/600. Together = 600/50 = 12 days."
+    },
+    "hi": {
+      "question": "A can do work in 30 days, B in 20 days. Together they finish in?",
+      "options": [
+        "16",
+        "12",
+        "15",
+        "11"
+      ],
+      "explanation": "1 day work = 1/30 + 1/20 = 50/600. Together = 600/50 = 12 days."
     }
   },
   {
@@ -603,24 +603,24 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 12d, A alone 36d. B alone?",
+      "question": "A and B together finish work in 24 days. A alone takes 40 days. B alone takes?",
       "options": [
+        "58",
         "20",
-        "5",
-        "18",
-        "19"
+        "60",
+        "61"
       ],
-      "explanation": "B = 1/(1/12-1/36) = 432/24 = 18 days."
+      "explanation": "B alone = 1/(1/24 - 1/40) = 1/(16/960) = 960/16 = 60 days."
     },
     "hi": {
-      "question": "A+B in 12d, A alone 36d. B alone?",
+      "question": "A and B together finish work in 24 days. A alone takes 40 days. B alone takes?",
       "options": [
+        "58",
         "20",
-        "5",
-        "18",
-        "19"
+        "60",
+        "61"
       ],
-      "explanation": "B = 1/(1/12-1/36) = 432/24 = 18 days."
+      "explanation": "B alone = 1/(1/24 - 1/40) = 1/(16/960) = 960/16 = 60 days."
     }
   },
   {
@@ -629,24 +629,24 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 45d, B in 30d. Together?",
+      "question": "A can do work in 18 days, B in 9 days. Together they finish in?",
       "options": [
-        "20",
-        "18",
-        "19",
+        "12",
+        "6",
+        "8",
         "5"
       ],
-      "explanation": "1d work = 1/45+1/30 = 75/1350. Time = 1350/75 = 18 days."
+      "explanation": "1 day work = 1/18 + 1/9 = 27/162. Together = 162/27 = 6 days."
     },
     "hi": {
-      "question": "A in 45d, B in 30d. Together?",
+      "question": "A can do work in 18 days, B in 9 days. Together they finish in?",
       "options": [
-        "20",
-        "18",
-        "19",
+        "12",
+        "6",
+        "8",
         "5"
       ],
-      "explanation": "1d work = 1/45+1/30 = 75/1350. Time = 1350/75 = 18 days."
+      "explanation": "1 day work = 1/18 + 1/9 = 27/162. Together = 162/27 = 6 days."
     }
   },
   {
@@ -655,128 +655,128 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 12d, A alone 60d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 36 days. B alone takes?",
       "options": [
-        "16",
-        "5",
-        "15",
-        "17"
+        "19",
+        "20",
+        "18",
+        "16"
       ],
-      "explanation": "B = 1/(1/12-1/60) = 720/48 = 15 days."
+      "explanation": "B alone = 1/(1/12 - 1/36) = 1/(24/432) = 432/24 = 18 days."
     },
     "hi": {
-      "question": "A+B in 12d, A alone 60d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 36 days. B alone takes?",
       "options": [
-        "16",
-        "5",
-        "15",
-        "17"
+        "19",
+        "20",
+        "18",
+        "16"
       ],
-      "explanation": "B = 1/(1/12-1/60) = 720/48 = 15 days."
+      "explanation": "B alone = 1/(1/12 - 1/36) = 1/(24/432) = 432/24 = 18 days."
     }
   },
   {
     "id": "tw-0027",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 21d, B in 28d. Together?",
+      "question": "A can do work in 45 days, B in 30 days. Together they finish in?",
       "options": [
-        "5",
-        "14",
-        "13",
-        "12"
+        "20",
+        "17",
+        "18",
+        "5"
       ],
-      "explanation": "1d work = 1/21+1/28 = 49/588. Time = 588/49 = 12 days."
+      "explanation": "1 day work = 1/45 + 1/30 = 75/1350. Together = 1350/75 = 18 days."
     },
     "hi": {
-      "question": "A in 21d, B in 28d. Together?",
+      "question": "A can do work in 45 days, B in 30 days. Together they finish in?",
       "options": [
-        "5",
-        "14",
-        "13",
-        "12"
+        "20",
+        "17",
+        "18",
+        "5"
       ],
-      "explanation": "1d work = 1/21+1/28 = 49/588. Time = 588/49 = 12 days."
+      "explanation": "1 day work = 1/45 + 1/30 = 75/1350. Together = 1350/75 = 18 days."
     }
   },
   {
     "id": "tw-0028",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A+B in 24d, A alone 32d. B alone?",
-      "options": [
-        "97",
-        "5",
-        "96",
-        "98"
-      ],
-      "explanation": "B = 1/(1/24-1/32) = 768/8 = 96 days."
-    },
-    "hi": {
-      "question": "A+B in 24d, A alone 32d. B alone?",
-      "options": [
-        "97",
-        "5",
-        "96",
-        "98"
-      ],
-      "explanation": "B = 1/(1/24-1/32) = 768/8 = 96 days."
-    }
-  },
-  {
-    "id": "tw-0029",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A in 48d, B in 16d. Together?",
-      "options": [
-        "5",
-        "13",
-        "12",
-        "14"
-      ],
-      "explanation": "1d work = 1/48+1/16 = 64/768. Time = 768/64 = 12 days."
-    },
-    "hi": {
-      "question": "A in 48d, B in 16d. Together?",
-      "options": [
-        "5",
-        "13",
-        "12",
-        "14"
-      ],
-      "explanation": "1d work = 1/48+1/16 = 64/768. Time = 768/64 = 12 days."
-    }
-  },
-  {
-    "id": "tw-0030",
     "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 16d, A alone 50d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 60 days. B alone takes?",
       "options": [
-        "25",
-        "26",
-        "27",
-        "5"
+        "15",
+        "13",
+        "12",
+        "17"
       ],
-      "explanation": "B = 1/(1/16-1/50) = 800/34 = 25 days."
+      "explanation": "B alone = 1/(1/12 - 1/60) = 1/(48/720) = 720/48 = 15 days."
     },
     "hi": {
-      "question": "A+B in 16d, A alone 50d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 60 days. B alone takes?",
       "options": [
-        "25",
-        "26",
-        "27",
-        "5"
+        "15",
+        "13",
+        "12",
+        "17"
       ],
-      "explanation": "B = 1/(1/16-1/50) = 800/34 = 25 days."
+      "explanation": "B alone = 1/(1/12 - 1/60) = 1/(48/720) = 720/48 = 15 days."
+    }
+  },
+  {
+    "id": "tw-0029",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 21 days, B in 28 days. Together they finish in?",
+      "options": [
+        "12",
+        "15",
+        "14",
+        "11"
+      ],
+      "explanation": "1 day work = 1/21 + 1/28 = 49/588. Together = 588/49 = 12 days."
+    },
+    "hi": {
+      "question": "A can do work in 21 days, B in 28 days. Together they finish in?",
+      "options": [
+        "12",
+        "15",
+        "14",
+        "11"
+      ],
+      "explanation": "1 day work = 1/21 + 1/28 = 49/588. Together = 588/49 = 12 days."
+    }
+  },
+  {
+    "id": "tw-0030",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish work in 24 days. A alone takes 32 days. B alone takes?",
+      "options": [
+        "5",
+        "94",
+        "96",
+        "100"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/32) = 1/(8/768) = 768/8 = 96 days."
+    },
+    "hi": {
+      "question": "A and B together finish work in 24 days. A alone takes 32 days. B alone takes?",
+      "options": [
+        "5",
+        "94",
+        "96",
+        "100"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/32) = 1/(8/768) = 768/8 = 96 days."
     }
   },
   {
@@ -785,50 +785,50 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 12d, B in 6d. Together?",
+      "question": "A can do work in 48 days, B in 16 days. Together they finish in?",
       "options": [
-        "6",
-        "4",
-        "5",
-        "5"
+        "568",
+        "12",
+        "11",
+        "15"
       ],
-      "explanation": "1d work = 1/12+1/6 = 18/72. Time = 72/18 = 4 days."
+      "explanation": "1 day work = 1/48 + 1/16 = 64/768. Together = 768/64 = 12 days."
     },
     "hi": {
-      "question": "A in 12d, B in 6d. Together?",
+      "question": "A can do work in 48 days, B in 16 days. Together they finish in?",
       "options": [
-        "6",
-        "4",
-        "5",
-        "5"
+        "568",
+        "12",
+        "11",
+        "15"
       ],
-      "explanation": "1d work = 1/12+1/6 = 18/72. Time = 72/18 = 4 days."
+      "explanation": "1 day work = 1/48 + 1/16 = 64/768. Together = 768/64 = 12 days."
     }
   },
   {
     "id": "tw-0032",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 12d, A alone 20d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 16 days. B alone takes?",
       "options": [
-        "30",
-        "5",
-        "32",
-        "31"
+        "49",
+        "47",
+        "15",
+        "48"
       ],
-      "explanation": "B = 1/(1/12-1/20) = 240/8 = 30 days."
+      "explanation": "B alone = 1/(1/12 - 1/16) = 1/(4/192) = 192/4 = 48 days."
     },
     "hi": {
-      "question": "A+B in 12d, A alone 20d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 16 days. B alone takes?",
       "options": [
-        "30",
-        "5",
-        "32",
-        "31"
+        "49",
+        "47",
+        "15",
+        "48"
       ],
-      "explanation": "B = 1/(1/12-1/20) = 240/8 = 30 days."
+      "explanation": "B alone = 1/(1/12 - 1/16) = 1/(4/192) = 192/4 = 48 days."
     }
   },
   {
@@ -837,24 +837,24 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 15d, B in 10d. Together?",
+      "question": "A can do work in 10 days, B in 15 days. Together they finish in?",
       "options": [
         "6",
-        "7",
-        "8",
-        "5"
+        "4",
+        "5",
+        "7"
       ],
-      "explanation": "1d work = 1/15+1/10 = 25/150. Time = 150/25 = 6 days."
+      "explanation": "1 day work = 1/10 + 1/15 = 25/150. Together = 150/25 = 6 days."
     },
     "hi": {
-      "question": "A in 15d, B in 10d. Together?",
+      "question": "A can do work in 10 days, B in 15 days. Together they finish in?",
       "options": [
         "6",
-        "7",
-        "8",
-        "5"
+        "4",
+        "5",
+        "7"
       ],
-      "explanation": "1d work = 1/15+1/10 = 25/150. Time = 150/25 = 6 days."
+      "explanation": "1 day work = 1/10 + 1/15 = 25/150. Together = 150/25 = 6 days."
     }
   },
   {
@@ -863,154 +863,154 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 6d, A alone 24d. B alone?",
+      "question": "A and B together finish work in 6 days. A alone takes 8 days. B alone takes?",
       "options": [
-        "9",
-        "5",
-        "8",
-        "10"
+        "23",
+        "26",
+        "24",
+        "15"
       ],
-      "explanation": "B = 1/(1/6-1/24) = 144/18 = 8 days."
+      "explanation": "B alone = 1/(1/6 - 1/8) = 1/(2/48) = 48/2 = 24 days."
     },
     "hi": {
-      "question": "A+B in 6d, A alone 24d. B alone?",
+      "question": "A and B together finish work in 6 days. A alone takes 8 days. B alone takes?",
       "options": [
-        "9",
-        "5",
-        "8",
-        "10"
+        "23",
+        "26",
+        "24",
+        "15"
       ],
-      "explanation": "B = 1/(1/6-1/24) = 144/18 = 8 days."
+      "explanation": "B alone = 1/(1/6 - 1/8) = 1/(2/48) = 48/2 = 24 days."
     }
   },
   {
     "id": "tw-0035",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A in 30d, B in 20d. Together?",
-      "options": [
-        "13",
-        "14",
-        "12",
-        "5"
-      ],
-      "explanation": "1d work = 1/30+1/20 = 50/600. Time = 600/50 = 12 days."
-    },
-    "hi": {
-      "question": "A in 30d, B in 20d. Together?",
-      "options": [
-        "13",
-        "14",
-        "12",
-        "5"
-      ],
-      "explanation": "1d work = 1/30+1/20 = 50/600. Time = 600/50 = 12 days."
-    }
-  },
-  {
-    "id": "tw-0036",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 24d, A alone 40d. B alone?",
+      "question": "A can do work in 14 days, B in 21 days. Together they finish in?",
       "options": [
-        "61",
-        "62",
         "5",
-        "60"
+        "12",
+        "7",
+        "8"
       ],
-      "explanation": "B = 1/(1/24-1/40) = 960/16 = 60 days."
+      "explanation": "1 day work = 1/14 + 1/21 = 35/294. Together = 294/35 = 8 days."
     },
     "hi": {
-      "question": "A+B in 24d, A alone 40d. B alone?",
+      "question": "A can do work in 14 days, B in 21 days. Together they finish in?",
       "options": [
-        "61",
-        "62",
         "5",
-        "60"
+        "12",
+        "7",
+        "8"
       ],
-      "explanation": "B = 1/(1/24-1/40) = 960/16 = 60 days."
+      "explanation": "1 day work = 1/14 + 1/21 = 35/294. Together = 294/35 = 8 days."
+    }
+  },
+  {
+    "id": "tw-0036",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish work in 24 days. A alone takes 42 days. B alone takes?",
+      "options": [
+        "59",
+        "56",
+        "54",
+        "10"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/42) = 1/(18/1008) = 1008/18 = 56 days."
+    },
+    "hi": {
+      "question": "A and B together finish work in 24 days. A alone takes 42 days. B alone takes?",
+      "options": [
+        "59",
+        "56",
+        "54",
+        "10"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/42) = 1/(18/1008) = 1008/18 = 56 days."
     }
   },
   {
     "id": "tw-0037",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 18d, B in 9d. Together?",
+      "question": "A can do work in 12 days, B in 6 days. Together they finish in?",
       "options": [
-        "7",
-        "6",
-        "8",
-        "5"
+        "5",
+        "10",
+        "4",
+        "3"
       ],
-      "explanation": "1d work = 1/18+1/9 = 27/162. Time = 162/27 = 6 days."
+      "explanation": "1 day work = 1/12 + 1/6 = 18/72. Together = 72/18 = 4 days."
     },
     "hi": {
-      "question": "A in 18d, B in 9d. Together?",
+      "question": "A can do work in 12 days, B in 6 days. Together they finish in?",
       "options": [
-        "7",
-        "6",
-        "8",
-        "5"
+        "5",
+        "10",
+        "4",
+        "3"
       ],
-      "explanation": "1d work = 1/18+1/9 = 27/162. Time = 162/27 = 6 days."
+      "explanation": "1 day work = 1/12 + 1/6 = 18/72. Together = 72/18 = 4 days."
     }
   },
   {
     "id": "tw-0038",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 15d, A alone 25d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 20 days. B alone takes?",
       "options": [
-        "75",
-        "77",
-        "76",
-        "5"
+        "29",
+        "32",
+        "30",
+        "12"
       ],
-      "explanation": "B = 1/(1/15-1/25) = 375/10 = 75 days."
+      "explanation": "B alone = 1/(1/12 - 1/20) = 1/(8/240) = 240/8 = 30 days."
     },
     "hi": {
-      "question": "A+B in 15d, A alone 25d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 20 days. B alone takes?",
       "options": [
-        "75",
-        "77",
-        "76",
-        "5"
+        "29",
+        "32",
+        "30",
+        "12"
       ],
-      "explanation": "B = 1/(1/15-1/25) = 375/10 = 75 days."
+      "explanation": "B alone = 1/(1/12 - 1/20) = 1/(8/240) = 240/8 = 30 days."
     }
   },
   {
     "id": "tw-0039",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 36d, B in 18d. Together?",
+      "question": "A can do work in 15 days, B in 10 days. Together they finish in?",
       "options": [
-        "13",
-        "12",
-        "5",
-        "14"
+        "4",
+        "10",
+        "6",
+        "8"
       ],
-      "explanation": "1d work = 1/36+1/18 = 54/648. Time = 648/54 = 12 days."
+      "explanation": "1 day work = 1/15 + 1/10 = 25/150. Together = 150/25 = 6 days."
     },
     "hi": {
-      "question": "A in 36d, B in 18d. Together?",
+      "question": "A can do work in 15 days, B in 10 days. Together they finish in?",
       "options": [
-        "13",
-        "12",
-        "5",
-        "14"
+        "4",
+        "10",
+        "6",
+        "8"
       ],
-      "explanation": "1d work = 1/36+1/18 = 54/648. Time = 648/54 = 12 days."
+      "explanation": "1 day work = 1/15 + 1/10 = 25/150. Together = 150/25 = 6 days."
     }
   },
   {
@@ -1019,24 +1019,24 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 18d, A alone 45d. B alone?",
+      "question": "A and B together finish work in 6 days. A alone takes 24 days. B alone takes?",
       "options": [
-        "5",
-        "31",
-        "32",
-        "30"
+        "9",
+        "7",
+        "15",
+        "8"
       ],
-      "explanation": "B = 1/(1/18-1/45) = 810/27 = 30 days."
+      "explanation": "B alone = 1/(1/6 - 1/24) = 1/(18/144) = 144/18 = 8 days."
     },
     "hi": {
-      "question": "A+B in 18d, A alone 45d. B alone?",
+      "question": "A and B together finish work in 6 days. A alone takes 24 days. B alone takes?",
       "options": [
-        "5",
-        "31",
-        "32",
-        "30"
+        "9",
+        "7",
+        "15",
+        "8"
       ],
-      "explanation": "B = 1/(1/18-1/45) = 810/27 = 30 days."
+      "explanation": "B alone = 1/(1/6 - 1/24) = 1/(18/144) = 144/18 = 8 days."
     }
   },
   {
@@ -1045,102 +1045,102 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 60d, B in 15d. Together?",
+      "question": "A can do work in 30 days, B in 20 days. Together they finish in?",
       "options": [
-        "5",
-        "13",
+        "10",
+        "14",
         "12",
-        "14"
+        "10"
       ],
-      "explanation": "1d work = 1/60+1/15 = 75/900. Time = 900/75 = 12 days."
+      "explanation": "1 day work = 1/30 + 1/20 = 50/600. Together = 600/50 = 12 days."
     },
     "hi": {
-      "question": "A in 60d, B in 15d. Together?",
+      "question": "A can do work in 30 days, B in 20 days. Together they finish in?",
       "options": [
-        "5",
-        "13",
+        "10",
+        "14",
         "12",
-        "14"
+        "10"
       ],
-      "explanation": "1d work = 1/60+1/15 = 75/900. Time = 900/75 = 12 days."
+      "explanation": "1 day work = 1/30 + 1/20 = 50/600. Together = 600/50 = 12 days."
     }
   },
   {
     "id": "tw-0042",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A+B in 12d, A alone 21d. B alone?",
-      "options": [
-        "30",
-        "29",
-        "28",
-        "5"
-      ],
-      "explanation": "B = 1/(1/12-1/21) = 252/9 = 28 days."
-    },
-    "hi": {
-      "question": "A+B in 12d, A alone 21d. B alone?",
-      "options": [
-        "30",
-        "29",
-        "28",
-        "5"
-      ],
-      "explanation": "B = 1/(1/12-1/21) = 252/9 = 28 days."
-    }
-  },
-  {
-    "id": "tw-0043",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 32d, B in 96d. Together?",
+      "question": "A and B together finish work in 24 days. A alone takes 40 days. B alone takes?",
       "options": [
-        "5",
-        "25",
-        "26",
-        "24"
+        "10",
+        "59",
+        "61",
+        "60"
       ],
-      "explanation": "1d work = 1/32+1/96 = 128/3072. Time = 3072/128 = 24 days."
+      "explanation": "B alone = 1/(1/24 - 1/40) = 1/(16/960) = 960/16 = 60 days."
     },
     "hi": {
-      "question": "A in 32d, B in 96d. Together?",
+      "question": "A and B together finish work in 24 days. A alone takes 40 days. B alone takes?",
       "options": [
-        "5",
-        "25",
-        "26",
-        "24"
+        "10",
+        "59",
+        "61",
+        "60"
       ],
-      "explanation": "1d work = 1/32+1/96 = 128/3072. Time = 3072/128 = 24 days."
+      "explanation": "B alone = 1/(1/24 - 1/40) = 1/(16/960) = 960/16 = 60 days."
+    }
+  },
+  {
+    "id": "tw-0043",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 18 days, B in 9 days. Together they finish in?",
+      "options": [
+        "10",
+        "4",
+        "6",
+        "10"
+      ],
+      "explanation": "1 day work = 1/18 + 1/9 = 27/162. Together = 162/27 = 6 days."
+    },
+    "hi": {
+      "question": "A can do work in 18 days, B in 9 days. Together they finish in?",
+      "options": [
+        "10",
+        "4",
+        "6",
+        "10"
+      ],
+      "explanation": "1 day work = 1/18 + 1/9 = 27/162. Together = 162/27 = 6 days."
     }
   },
   {
     "id": "tw-0044",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 12d, A alone 48d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 36 days. B alone takes?",
       "options": [
         "5",
-        "16",
-        "18",
-        "17"
+        "21",
+        "17",
+        "18"
       ],
-      "explanation": "B = 1/(1/12-1/48) = 576/36 = 16 days."
+      "explanation": "B alone = 1/(1/12 - 1/36) = 1/(24/432) = 432/24 = 18 days."
     },
     "hi": {
-      "question": "A+B in 12d, A alone 48d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 36 days. B alone takes?",
       "options": [
         "5",
-        "16",
-        "18",
-        "17"
+        "21",
+        "17",
+        "18"
       ],
-      "explanation": "B = 1/(1/12-1/48) = 576/36 = 16 days."
+      "explanation": "B alone = 1/(1/12 - 1/36) = 1/(24/432) = 432/24 = 18 days."
     }
   },
   {
@@ -1149,128 +1149,128 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 50d, B in 25d. Together?",
+      "question": "A can do work in 45 days, B in 30 days. Together they finish in?",
       "options": [
+        "19",
+        "18",
         "17",
-        "16",
-        "5",
-        "18"
+        "12"
       ],
-      "explanation": "1d work = 1/50+1/25 = 75/1250. Time = 1250/75 = 16 days."
+      "explanation": "1 day work = 1/45 + 1/30 = 75/1350. Together = 1350/75 = 18 days."
     },
     "hi": {
-      "question": "A in 50d, B in 25d. Together?",
+      "question": "A can do work in 45 days, B in 30 days. Together they finish in?",
       "options": [
+        "19",
+        "18",
         "17",
-        "16",
-        "5",
-        "18"
+        "12"
       ],
-      "explanation": "1d work = 1/50+1/25 = 75/1250. Time = 1250/75 = 16 days."
+      "explanation": "1 day work = 1/45 + 1/30 = 75/1350. Together = 1350/75 = 18 days."
     }
   },
   {
     "id": "tw-0046",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A+B in 4d, A alone 12d. B alone?",
-      "options": [
-        "8",
-        "6",
-        "5",
-        "7"
-      ],
-      "explanation": "B = 1/(1/4-1/12) = 48/8 = 6 days."
-    },
-    "hi": {
-      "question": "A+B in 4d, A alone 12d. B alone?",
-      "options": [
-        "8",
-        "6",
-        "5",
-        "7"
-      ],
-      "explanation": "B = 1/(1/4-1/12) = 48/8 = 6 days."
-    }
-  },
-  {
-    "id": "tw-0047",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A in 20d, B in 30d. Together?",
-      "options": [
-        "5",
-        "13",
-        "14",
-        "12"
-      ],
-      "explanation": "1d work = 1/20+1/30 = 50/600. Time = 600/50 = 12 days."
-    },
-    "hi": {
-      "question": "A in 20d, B in 30d. Together?",
-      "options": [
-        "5",
-        "13",
-        "14",
-        "12"
-      ],
-      "explanation": "1d work = 1/20+1/30 = 50/600. Time = 600/50 = 12 days."
-    }
-  },
-  {
-    "id": "tw-0048",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 6d, A alone 15d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 60 days. B alone takes?",
       "options": [
-        "11",
-        "12",
-        "10",
-        "5"
+        "20",
+        "14",
+        "15",
+        "16"
       ],
-      "explanation": "B = 1/(1/6-1/15) = 90/9 = 10 days."
+      "explanation": "B alone = 1/(1/12 - 1/60) = 1/(48/720) = 720/48 = 15 days."
     },
     "hi": {
-      "question": "A+B in 6d, A alone 15d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 60 days. B alone takes?",
       "options": [
-        "11",
-        "12",
-        "10",
-        "5"
+        "20",
+        "14",
+        "15",
+        "16"
       ],
-      "explanation": "B = 1/(1/6-1/15) = 90/9 = 10 days."
+      "explanation": "B alone = 1/(1/12 - 1/60) = 1/(48/720) = 720/48 = 15 days."
     }
   },
   {
-    "id": "tw-0049",
+    "id": "tw-0047",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 24d, B in 8d. Together?",
+      "question": "A can do work in 21 days, B in 28 days. Together they finish in?",
       "options": [
         "5",
-        "6",
-        "7",
-        "8"
+        "12",
+        "10",
+        "14"
       ],
-      "explanation": "1d work = 1/24+1/8 = 32/192. Time = 192/32 = 6 days."
+      "explanation": "1 day work = 1/21 + 1/28 = 49/588. Together = 588/49 = 12 days."
     },
     "hi": {
-      "question": "A in 24d, B in 8d. Together?",
+      "question": "A can do work in 21 days, B in 28 days. Together they finish in?",
       "options": [
         "5",
-        "6",
-        "7",
+        "12",
+        "10",
+        "14"
+      ],
+      "explanation": "1 day work = 1/21 + 1/28 = 49/588. Together = 588/49 = 12 days."
+    }
+  },
+  {
+    "id": "tw-0048",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish work in 24 days. A alone takes 32 days. B alone takes?",
+      "options": [
+        "15",
+        "96",
+        "97",
+        "94"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/32) = 1/(8/768) = 768/8 = 96 days."
+    },
+    "hi": {
+      "question": "A and B together finish work in 24 days. A alone takes 32 days. B alone takes?",
+      "options": [
+        "15",
+        "96",
+        "97",
+        "94"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/32) = 1/(8/768) = 768/8 = 96 days."
+    }
+  },
+  {
+    "id": "tw-0049",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 48 days, B in 16 days. Together they finish in?",
+      "options": [
+        "11",
+        "15",
+        "12",
         "8"
       ],
-      "explanation": "1d work = 1/24+1/8 = 32/192. Time = 192/32 = 6 days."
+      "explanation": "1 day work = 1/48 + 1/16 = 64/768. Together = 768/64 = 12 days."
+    },
+    "hi": {
+      "question": "A can do work in 48 days, B in 16 days. Together they finish in?",
+      "options": [
+        "11",
+        "15",
+        "12",
+        "8"
+      ],
+      "explanation": "1 day work = 1/48 + 1/16 = 64/768. Together = 768/64 = 12 days."
     }
   },
   {
@@ -1279,232 +1279,232 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 12d, A alone 30d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 16 days. B alone takes?",
       "options": [
-        "21",
-        "22",
-        "5",
-        "20"
+        "46",
+        "52",
+        "20",
+        "48"
       ],
-      "explanation": "B = 1/(1/12-1/30) = 360/18 = 20 days."
+      "explanation": "B alone = 1/(1/12 - 1/16) = 1/(4/192) = 192/4 = 48 days."
     },
     "hi": {
-      "question": "A+B in 12d, A alone 30d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 16 days. B alone takes?",
       "options": [
-        "21",
-        "22",
-        "5",
-        "20"
+        "46",
+        "52",
+        "20",
+        "48"
       ],
-      "explanation": "B = 1/(1/12-1/30) = 360/18 = 20 days."
+      "explanation": "B alone = 1/(1/12 - 1/16) = 1/(4/192) = 192/4 = 48 days."
     }
   },
   {
     "id": "tw-0051",
-    "correctOption": "D",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 40d, B in 60d. Together?",
+      "question": "A can do work in 10 days, B in 15 days. Together they finish in?",
       "options": [
+        "6",
+        "12",
         "5",
-        "25",
-        "26",
-        "24"
+        "7"
       ],
-      "explanation": "1d work = 1/40+1/60 = 100/2400. Time = 2400/100 = 24 days."
+      "explanation": "1 day work = 1/10 + 1/15 = 25/150. Together = 150/25 = 6 days."
     },
     "hi": {
-      "question": "A in 40d, B in 60d. Together?",
+      "question": "A can do work in 10 days, B in 15 days. Together they finish in?",
       "options": [
+        "6",
+        "12",
         "5",
-        "25",
-        "26",
-        "24"
+        "7"
       ],
-      "explanation": "1d work = 1/40+1/60 = 100/2400. Time = 2400/100 = 24 days."
+      "explanation": "1 day work = 1/10 + 1/15 = 25/150. Together = 150/25 = 6 days."
     }
   },
   {
     "id": "tw-0052",
-    "correctOption": "D",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 6d, A alone 18d. B alone?",
+      "question": "A and B together finish work in 6 days. A alone takes 8 days. B alone takes?",
       "options": [
-        "10",
+        "24",
+        "22",
         "5",
-        "11",
-        "9"
+        "26"
       ],
-      "explanation": "B = 1/(1/6-1/18) = 108/12 = 9 days."
+      "explanation": "B alone = 1/(1/6 - 1/8) = 1/(2/48) = 48/2 = 24 days."
     },
     "hi": {
-      "question": "A+B in 6d, A alone 18d. B alone?",
+      "question": "A and B together finish work in 6 days. A alone takes 8 days. B alone takes?",
       "options": [
-        "10",
+        "24",
+        "22",
         "5",
-        "11",
-        "9"
+        "26"
       ],
-      "explanation": "B = 1/(1/6-1/18) = 108/12 = 9 days."
+      "explanation": "B alone = 1/(1/6 - 1/8) = 1/(2/48) = 48/2 = 24 days."
     }
   },
   {
     "id": "tw-0053",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A in 25d, B in 75d. Together?",
-      "options": [
-        "15",
-        "5",
-        "17",
-        "16"
-      ],
-      "explanation": "1d work = 1/25+1/75 = 100/1875. Time = 1875/100 = 15 days."
-    },
-    "hi": {
-      "question": "A in 25d, B in 75d. Together?",
-      "options": [
-        "15",
-        "5",
-        "17",
-        "16"
-      ],
-      "explanation": "1d work = 1/25+1/75 = 100/1875. Time = 1875/100 = 15 days."
-    }
-  },
-  {
-    "id": "tw-0054",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A+B in 12d, A alone 36d. B alone?",
-      "options": [
-        "18",
-        "20",
-        "5",
-        "19"
-      ],
-      "explanation": "B = 1/(1/12-1/36) = 432/24 = 18 days."
-    },
-    "hi": {
-      "question": "A+B in 12d, A alone 36d. B alone?",
-      "options": [
-        "18",
-        "20",
-        "5",
-        "19"
-      ],
-      "explanation": "B = 1/(1/12-1/36) = 432/24 = 18 days."
-    }
-  },
-  {
-    "id": "tw-0055",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 45d, B in 30d. Together?",
+      "question": "A can do work in 14 days, B in 21 days. Together they finish in?",
       "options": [
-        "5",
-        "18",
+        "10",
+        "8",
         "20",
-        "19"
+        "6"
       ],
-      "explanation": "1d work = 1/45+1/30 = 75/1350. Time = 1350/75 = 18 days."
+      "explanation": "1 day work = 1/14 + 1/21 = 35/294. Together = 294/35 = 8 days."
     },
     "hi": {
-      "question": "A in 45d, B in 30d. Together?",
+      "question": "A can do work in 14 days, B in 21 days. Together they finish in?",
       "options": [
-        "5",
-        "18",
+        "10",
+        "8",
         "20",
-        "19"
+        "6"
       ],
-      "explanation": "1d work = 1/45+1/30 = 75/1350. Time = 1350/75 = 18 days."
+      "explanation": "1 day work = 1/14 + 1/21 = 35/294. Together = 294/35 = 8 days."
+    }
+  },
+  {
+    "id": "tw-0054",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish work in 24 days. A alone takes 42 days. B alone takes?",
+      "options": [
+        "59",
+        "6",
+        "56",
+        "55"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/42) = 1/(18/1008) = 1008/18 = 56 days."
+    },
+    "hi": {
+      "question": "A and B together finish work in 24 days. A alone takes 42 days. B alone takes?",
+      "options": [
+        "59",
+        "6",
+        "56",
+        "55"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/42) = 1/(18/1008) = 1008/18 = 56 days."
+    }
+  },
+  {
+    "id": "tw-0055",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 12 days, B in 6 days. Together they finish in?",
+      "options": [
+        "4",
+        "8",
+        "2",
+        "6"
+      ],
+      "explanation": "1 day work = 1/12 + 1/6 = 18/72. Together = 72/18 = 4 days."
+    },
+    "hi": {
+      "question": "A can do work in 12 days, B in 6 days. Together they finish in?",
+      "options": [
+        "4",
+        "8",
+        "2",
+        "6"
+      ],
+      "explanation": "1 day work = 1/12 + 1/6 = 18/72. Together = 72/18 = 4 days."
     }
   },
   {
     "id": "tw-0056",
-    "correctOption": "A",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 12d, A alone 60d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 20 days. B alone takes?",
       "options": [
-        "15",
-        "5",
-        "16",
-        "17"
+        "28",
+        "30",
+        "32",
+        "12"
       ],
-      "explanation": "B = 1/(1/12-1/60) = 720/48 = 15 days."
+      "explanation": "B alone = 1/(1/12 - 1/20) = 1/(8/240) = 240/8 = 30 days."
     },
     "hi": {
-      "question": "A+B in 12d, A alone 60d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 20 days. B alone takes?",
       "options": [
-        "15",
-        "5",
-        "16",
-        "17"
+        "28",
+        "30",
+        "32",
+        "12"
       ],
-      "explanation": "B = 1/(1/12-1/60) = 720/48 = 15 days."
+      "explanation": "B alone = 1/(1/12 - 1/20) = 1/(8/240) = 240/8 = 30 days."
     }
   },
   {
     "id": "tw-0057",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 21d, B in 28d. Together?",
+      "question": "A can do work in 15 days, B in 10 days. Together they finish in?",
       "options": [
-        "12",
-        "13",
-        "14",
-        "5"
+        "7",
+        "20",
+        "6",
+        "4"
       ],
-      "explanation": "1d work = 1/21+1/28 = 49/588. Time = 588/49 = 12 days."
+      "explanation": "1 day work = 1/15 + 1/10 = 25/150. Together = 150/25 = 6 days."
     },
     "hi": {
-      "question": "A in 21d, B in 28d. Together?",
+      "question": "A can do work in 15 days, B in 10 days. Together they finish in?",
       "options": [
-        "12",
-        "13",
-        "14",
-        "5"
+        "7",
+        "20",
+        "6",
+        "4"
       ],
-      "explanation": "1d work = 1/21+1/28 = 49/588. Time = 588/49 = 12 days."
+      "explanation": "1 day work = 1/15 + 1/10 = 25/150. Together = 150/25 = 6 days."
     }
   },
   {
     "id": "tw-0058",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 24d, A alone 32d. B alone?",
+      "question": "A and B together finish work in 6 days. A alone takes 24 days. B alone takes?",
       "options": [
-        "97",
-        "98",
-        "5",
-        "96"
+        "15",
+        "11",
+        "8",
+        "7"
       ],
-      "explanation": "B = 1/(1/24-1/32) = 768/8 = 96 days."
+      "explanation": "B alone = 1/(1/6 - 1/24) = 1/(18/144) = 144/18 = 8 days."
     },
     "hi": {
-      "question": "A+B in 24d, A alone 32d. B alone?",
+      "question": "A and B together finish work in 6 days. A alone takes 24 days. B alone takes?",
       "options": [
-        "97",
-        "98",
-        "5",
-        "96"
+        "15",
+        "11",
+        "8",
+        "7"
       ],
-      "explanation": "B = 1/(1/24-1/32) = 768/8 = 96 days."
+      "explanation": "B alone = 1/(1/6 - 1/24) = 1/(18/144) = 144/18 = 8 days."
     }
   },
   {
@@ -1513,24 +1513,24 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 48d, B in 16d. Together?",
+      "question": "A can do work in 30 days, B in 20 days. Together they finish in?",
       "options": [
-        "14",
+        "16",
         "5",
-        "13",
+        "11",
         "12"
       ],
-      "explanation": "1d work = 1/48+1/16 = 64/768. Time = 768/64 = 12 days."
+      "explanation": "1 day work = 1/30 + 1/20 = 50/600. Together = 600/50 = 12 days."
     },
     "hi": {
-      "question": "A in 48d, B in 16d. Together?",
+      "question": "A can do work in 30 days, B in 20 days. Together they finish in?",
       "options": [
-        "14",
+        "16",
         "5",
-        "13",
+        "11",
         "12"
       ],
-      "explanation": "1d work = 1/48+1/16 = 64/768. Time = 768/64 = 12 days."
+      "explanation": "1 day work = 1/30 + 1/20 = 50/600. Together = 600/50 = 12 days."
     }
   },
   {
@@ -1539,24 +1539,24 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 16d, A alone 50d. B alone?",
+      "question": "A and B together finish work in 24 days. A alone takes 40 days. B alone takes?",
       "options": [
-        "5",
-        "25",
-        "27",
-        "26"
+        "58",
+        "60",
+        "12",
+        "61"
       ],
-      "explanation": "B = 1/(1/16-1/50) = 800/34 = 25 days."
+      "explanation": "B alone = 1/(1/24 - 1/40) = 1/(16/960) = 960/16 = 60 days."
     },
     "hi": {
-      "question": "A+B in 16d, A alone 50d. B alone?",
+      "question": "A and B together finish work in 24 days. A alone takes 40 days. B alone takes?",
       "options": [
-        "5",
-        "25",
-        "27",
-        "26"
+        "58",
+        "60",
+        "12",
+        "61"
       ],
-      "explanation": "B = 1/(1/16-1/50) = 800/34 = 25 days."
+      "explanation": "B alone = 1/(1/24 - 1/40) = 1/(16/960) = 960/16 = 60 days."
     }
   },
   {
@@ -1565,362 +1565,362 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 12d, B in 6d. Together?",
+      "question": "A can do work in 18 days, B in 9 days. Together they finish in?",
       "options": [
-        "5",
-        "6",
-        "5",
-        "4"
+        "4",
+        "8",
+        "7",
+        "6"
       ],
-      "explanation": "1d work = 1/12+1/6 = 18/72. Time = 72/18 = 4 days."
+      "explanation": "1 day work = 1/18 + 1/9 = 27/162. Together = 162/27 = 6 days."
     },
     "hi": {
-      "question": "A in 12d, B in 6d. Together?",
+      "question": "A can do work in 18 days, B in 9 days. Together they finish in?",
       "options": [
-        "5",
-        "6",
-        "5",
-        "4"
+        "4",
+        "8",
+        "7",
+        "6"
       ],
-      "explanation": "1d work = 1/12+1/6 = 18/72. Time = 72/18 = 4 days."
+      "explanation": "1 day work = 1/18 + 1/9 = 27/162. Together = 162/27 = 6 days."
     }
   },
   {
     "id": "tw-0062",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 12d, A alone 20d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 36 days. B alone takes?",
       "options": [
-        "5",
-        "32",
-        "30",
-        "31"
+        "20",
+        "18",
+        "17",
+        "8"
       ],
-      "explanation": "B = 1/(1/12-1/20) = 240/8 = 30 days."
+      "explanation": "B alone = 1/(1/12 - 1/36) = 1/(24/432) = 432/24 = 18 days."
     },
     "hi": {
-      "question": "A+B in 12d, A alone 20d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 36 days. B alone takes?",
       "options": [
-        "5",
-        "32",
-        "30",
-        "31"
+        "20",
+        "18",
+        "17",
+        "8"
       ],
-      "explanation": "B = 1/(1/12-1/20) = 240/8 = 30 days."
+      "explanation": "B alone = 1/(1/12 - 1/36) = 1/(24/432) = 432/24 = 18 days."
     }
   },
   {
     "id": "tw-0063",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 15d, B in 10d. Together?",
+      "question": "A can do work in 45 days, B in 30 days. Together they finish in?",
       "options": [
-        "7",
-        "5",
-        "6",
-        "8"
+        "17",
+        "18",
+        "20",
+        "20"
       ],
-      "explanation": "1d work = 1/15+1/10 = 25/150. Time = 150/25 = 6 days."
+      "explanation": "1 day work = 1/45 + 1/30 = 75/1350. Together = 1350/75 = 18 days."
     },
     "hi": {
-      "question": "A in 15d, B in 10d. Together?",
+      "question": "A can do work in 45 days, B in 30 days. Together they finish in?",
       "options": [
-        "7",
-        "5",
-        "6",
-        "8"
+        "17",
+        "18",
+        "20",
+        "20"
       ],
-      "explanation": "1d work = 1/15+1/10 = 25/150. Time = 150/25 = 6 days."
+      "explanation": "1 day work = 1/45 + 1/30 = 75/1350. Together = 1350/75 = 18 days."
     }
   },
   {
     "id": "tw-0064",
-    "correctOption": "A",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 6d, A alone 24d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 60 days. B alone takes?",
       "options": [
-        "8",
-        "9",
-        "5",
-        "10"
+        "17",
+        "15",
+        "13",
+        "20"
       ],
-      "explanation": "B = 1/(1/6-1/24) = 144/18 = 8 days."
+      "explanation": "B alone = 1/(1/12 - 1/60) = 1/(48/720) = 720/48 = 15 days."
     },
     "hi": {
-      "question": "A+B in 6d, A alone 24d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 60 days. B alone takes?",
       "options": [
-        "8",
-        "9",
-        "5",
-        "10"
+        "17",
+        "15",
+        "13",
+        "20"
       ],
-      "explanation": "B = 1/(1/6-1/24) = 144/18 = 8 days."
+      "explanation": "B alone = 1/(1/12 - 1/60) = 1/(48/720) = 720/48 = 15 days."
     }
   },
   {
     "id": "tw-0065",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 30d, B in 20d. Together?",
+      "question": "A can do work in 21 days, B in 28 days. Together they finish in?",
       "options": [
-        "5",
-        "12",
-        "14",
-        "13"
+        "11",
+        "20",
+        "15",
+        "12"
       ],
-      "explanation": "1d work = 1/30+1/20 = 50/600. Time = 600/50 = 12 days."
+      "explanation": "1 day work = 1/21 + 1/28 = 49/588. Together = 588/49 = 12 days."
     },
     "hi": {
-      "question": "A in 30d, B in 20d. Together?",
+      "question": "A can do work in 21 days, B in 28 days. Together they finish in?",
       "options": [
-        "5",
-        "12",
-        "14",
-        "13"
+        "11",
+        "20",
+        "15",
+        "12"
       ],
-      "explanation": "1d work = 1/30+1/20 = 50/600. Time = 600/50 = 12 days."
+      "explanation": "1 day work = 1/21 + 1/28 = 49/588. Together = 588/49 = 12 days."
     }
   },
   {
     "id": "tw-0066",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A+B in 24d, A alone 40d. B alone?",
-      "options": [
-        "62",
-        "61",
-        "60",
-        "5"
-      ],
-      "explanation": "B = 1/(1/24-1/40) = 960/16 = 60 days."
-    },
-    "hi": {
-      "question": "A+B in 24d, A alone 40d. B alone?",
-      "options": [
-        "62",
-        "61",
-        "60",
-        "5"
-      ],
-      "explanation": "B = 1/(1/24-1/40) = 960/16 = 60 days."
-    }
-  },
-  {
-    "id": "tw-0067",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A in 18d, B in 9d. Together?",
-      "options": [
-        "7",
-        "8",
-        "6",
-        "5"
-      ],
-      "explanation": "1d work = 1/18+1/9 = 27/162. Time = 162/27 = 6 days."
-    },
-    "hi": {
-      "question": "A in 18d, B in 9d. Together?",
-      "options": [
-        "7",
-        "8",
-        "6",
-        "5"
-      ],
-      "explanation": "1d work = 1/18+1/9 = 27/162. Time = 162/27 = 6 days."
-    }
-  },
-  {
-    "id": "tw-0068",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A+B in 15d, A alone 25d. B alone?",
-      "options": [
-        "5",
-        "76",
-        "77",
-        "75"
-      ],
-      "explanation": "B = 1/(1/15-1/25) = 375/10 = 75 days."
-    },
-    "hi": {
-      "question": "A+B in 15d, A alone 25d. B alone?",
-      "options": [
-        "5",
-        "76",
-        "77",
-        "75"
-      ],
-      "explanation": "B = 1/(1/15-1/25) = 375/10 = 75 days."
-    }
-  },
-  {
-    "id": "tw-0069",
     "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 36d, B in 18d. Together?",
+      "question": "A and B together finish work in 24 days. A alone takes 32 days. B alone takes?",
       "options": [
-        "12",
-        "5",
-        "13",
-        "14"
+        "96",
+        "95",
+        "100",
+        "6"
       ],
-      "explanation": "1d work = 1/36+1/18 = 54/648. Time = 648/54 = 12 days."
+      "explanation": "B alone = 1/(1/24 - 1/32) = 1/(8/768) = 768/8 = 96 days."
     },
     "hi": {
-      "question": "A in 36d, B in 18d. Together?",
+      "question": "A and B together finish work in 24 days. A alone takes 32 days. B alone takes?",
+      "options": [
+        "96",
+        "95",
+        "100",
+        "6"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/32) = 1/(8/768) = 768/8 = 96 days."
+    }
+  },
+  {
+    "id": "tw-0067",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 48 days, B in 16 days. Together they finish in?",
       "options": [
         "12",
+        "11",
         "5",
-        "13",
         "14"
       ],
-      "explanation": "1d work = 1/36+1/18 = 54/648. Time = 648/54 = 12 days."
+      "explanation": "1 day work = 1/48 + 1/16 = 64/768. Together = 768/64 = 12 days."
+    },
+    "hi": {
+      "question": "A can do work in 48 days, B in 16 days. Together they finish in?",
+      "options": [
+        "12",
+        "11",
+        "5",
+        "14"
+      ],
+      "explanation": "1 day work = 1/48 + 1/16 = 64/768. Together = 768/64 = 12 days."
+    }
+  },
+  {
+    "id": "tw-0068",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish work in 12 days. A alone takes 16 days. B alone takes?",
+      "options": [
+        "48",
+        "20",
+        "51",
+        "47"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/16) = 1/(4/192) = 192/4 = 48 days."
+    },
+    "hi": {
+      "question": "A and B together finish work in 12 days. A alone takes 16 days. B alone takes?",
+      "options": [
+        "48",
+        "20",
+        "51",
+        "47"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/16) = 1/(4/192) = 192/4 = 48 days."
+    }
+  },
+  {
+    "id": "tw-0069",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 10 days, B in 15 days. Together they finish in?",
+      "options": [
+        "5",
+        "9",
+        "6",
+        "5"
+      ],
+      "explanation": "1 day work = 1/10 + 1/15 = 25/150. Together = 150/25 = 6 days."
+    },
+    "hi": {
+      "question": "A can do work in 10 days, B in 15 days. Together they finish in?",
+      "options": [
+        "5",
+        "9",
+        "6",
+        "5"
+      ],
+      "explanation": "1 day work = 1/10 + 1/15 = 25/150. Together = 150/25 = 6 days."
     }
   },
   {
     "id": "tw-0070",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 18d, A alone 45d. B alone?",
+      "question": "A and B together finish work in 6 days. A alone takes 8 days. B alone takes?",
       "options": [
-        "31",
-        "30",
-        "32",
-        "5"
+        "24",
+        "23",
+        "25",
+        "12"
       ],
-      "explanation": "B = 1/(1/18-1/45) = 810/27 = 30 days."
+      "explanation": "B alone = 1/(1/6 - 1/8) = 1/(2/48) = 48/2 = 24 days."
     },
     "hi": {
-      "question": "A+B in 18d, A alone 45d. B alone?",
+      "question": "A and B together finish work in 6 days. A alone takes 8 days. B alone takes?",
       "options": [
-        "31",
-        "30",
-        "32",
-        "5"
+        "24",
+        "23",
+        "25",
+        "12"
       ],
-      "explanation": "B = 1/(1/18-1/45) = 810/27 = 30 days."
+      "explanation": "B alone = 1/(1/6 - 1/8) = 1/(2/48) = 48/2 = 24 days."
     }
   },
   {
     "id": "tw-0071",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A in 60d, B in 15d. Together?",
-      "options": [
-        "14",
-        "13",
-        "5",
-        "12"
-      ],
-      "explanation": "1d work = 1/60+1/15 = 75/900. Time = 900/75 = 12 days."
-    },
-    "hi": {
-      "question": "A in 60d, B in 15d. Together?",
-      "options": [
-        "14",
-        "13",
-        "5",
-        "12"
-      ],
-      "explanation": "1d work = 1/60+1/15 = 75/900. Time = 900/75 = 12 days."
-    }
-  },
-  {
-    "id": "tw-0072",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A+B in 12d, A alone 21d. B alone?",
-      "options": [
-        "29",
-        "5",
-        "28",
-        "30"
-      ],
-      "explanation": "B = 1/(1/12-1/21) = 252/9 = 28 days."
-    },
-    "hi": {
-      "question": "A+B in 12d, A alone 21d. B alone?",
-      "options": [
-        "29",
-        "5",
-        "28",
-        "30"
-      ],
-      "explanation": "B = 1/(1/12-1/21) = 252/9 = 28 days."
-    }
-  },
-  {
-    "id": "tw-0073",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A in 32d, B in 96d. Together?",
-      "options": [
-        "26",
-        "5",
-        "24",
-        "25"
-      ],
-      "explanation": "1d work = 1/32+1/96 = 128/3072. Time = 3072/128 = 24 days."
-    },
-    "hi": {
-      "question": "A in 32d, B in 96d. Together?",
-      "options": [
-        "26",
-        "5",
-        "24",
-        "25"
-      ],
-      "explanation": "1d work = 1/32+1/96 = 128/3072. Time = 3072/128 = 24 days."
-    }
-  },
-  {
-    "id": "tw-0074",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 12d, A alone 48d. B alone?",
+      "question": "A can do work in 14 days, B in 21 days. Together they finish in?",
       "options": [
-        "18",
-        "16",
-        "5",
-        "17"
+        "7",
+        "8",
+        "10",
+        "12"
       ],
-      "explanation": "B = 1/(1/12-1/48) = 576/36 = 16 days."
+      "explanation": "1 day work = 1/14 + 1/21 = 35/294. Together = 294/35 = 8 days."
     },
     "hi": {
-      "question": "A+B in 12d, A alone 48d. B alone?",
+      "question": "A can do work in 14 days, B in 21 days. Together they finish in?",
       "options": [
-        "18",
-        "16",
-        "5",
-        "17"
+        "7",
+        "8",
+        "10",
+        "12"
       ],
-      "explanation": "B = 1/(1/12-1/48) = 576/36 = 16 days."
+      "explanation": "1 day work = 1/14 + 1/21 = 35/294. Together = 294/35 = 8 days."
+    }
+  },
+  {
+    "id": "tw-0072",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish work in 24 days. A alone takes 42 days. B alone takes?",
+      "options": [
+        "56",
+        "55",
+        "12",
+        "60"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/42) = 1/(18/1008) = 1008/18 = 56 days."
+    },
+    "hi": {
+      "question": "A and B together finish work in 24 days. A alone takes 42 days. B alone takes?",
+      "options": [
+        "56",
+        "55",
+        "12",
+        "60"
+      ],
+      "explanation": "B alone = 1/(1/24 - 1/42) = 1/(18/1008) = 1008/18 = 56 days."
+    }
+  },
+  {
+    "id": "tw-0073",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 12 days, B in 6 days. Together they finish in?",
+      "options": [
+        "5",
+        "4",
+        "12",
+        "2"
+      ],
+      "explanation": "1 day work = 1/12 + 1/6 = 18/72. Together = 72/18 = 4 days."
+    },
+    "hi": {
+      "question": "A can do work in 12 days, B in 6 days. Together they finish in?",
+      "options": [
+        "5",
+        "4",
+        "12",
+        "2"
+      ],
+      "explanation": "1 day work = 1/12 + 1/6 = 18/72. Together = 72/18 = 4 days."
+    }
+  },
+  {
+    "id": "tw-0074",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish work in 12 days. A alone takes 20 days. B alone takes?",
+      "options": [
+        "30",
+        "28",
+        "33",
+        "15"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/20) = 1/(8/240) = 240/8 = 30 days."
+    },
+    "hi": {
+      "question": "A and B together finish work in 12 days. A alone takes 20 days. B alone takes?",
+      "options": [
+        "30",
+        "28",
+        "33",
+        "15"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/20) = 1/(8/240) = 240/8 = 30 days."
     }
   },
   {
@@ -1929,24 +1929,24 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 50d, B in 25d. Together?",
+      "question": "A can do work in 15 days, B in 10 days. Together they finish in?",
       "options": [
+        "9",
+        "6",
         "5",
-        "16",
-        "17",
-        "18"
+        "431"
       ],
-      "explanation": "1d work = 1/50+1/25 = 75/1250. Time = 1250/75 = 16 days."
+      "explanation": "1 day work = 1/15 + 1/10 = 25/150. Together = 150/25 = 6 days."
     },
     "hi": {
-      "question": "A in 50d, B in 25d. Together?",
+      "question": "A can do work in 15 days, B in 10 days. Together they finish in?",
       "options": [
+        "9",
+        "6",
         "5",
-        "16",
-        "17",
-        "18"
+        "431"
       ],
-      "explanation": "1d work = 1/50+1/25 = 75/1250. Time = 1250/75 = 16 days."
+      "explanation": "1 day work = 1/15 + 1/10 = 25/150. Together = 150/25 = 6 days."
     }
   },
   {
@@ -1955,206 +1955,206 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 4d, A alone 12d. B alone?",
+      "question": "A and B together finish work in 6 days. A alone takes 24 days. B alone takes?",
       "options": [
-        "8",
-        "5",
-        "7",
-        "6"
+        "12",
+        "6",
+        "11",
+        "8"
       ],
-      "explanation": "B = 1/(1/4-1/12) = 48/8 = 6 days."
+      "explanation": "B alone = 1/(1/6 - 1/24) = 1/(18/144) = 144/18 = 8 days."
     },
     "hi": {
-      "question": "A+B in 4d, A alone 12d. B alone?",
+      "question": "A and B together finish work in 6 days. A alone takes 24 days. B alone takes?",
       "options": [
-        "8",
-        "5",
-        "7",
-        "6"
+        "12",
+        "6",
+        "11",
+        "8"
       ],
-      "explanation": "B = 1/(1/4-1/12) = 48/8 = 6 days."
+      "explanation": "B alone = 1/(1/6 - 1/24) = 1/(18/144) = 144/18 = 8 days."
     }
   },
   {
     "id": "tw-0077",
-    "correctOption": "D",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 20d, B in 30d. Together?",
+      "question": "A can do work in 30 days, B in 20 days. Together they finish in?",
       "options": [
-        "13",
-        "5",
+        "12",
+        "20",
         "14",
-        "12"
+        "10"
       ],
-      "explanation": "1d work = 1/20+1/30 = 50/600. Time = 600/50 = 12 days."
+      "explanation": "1 day work = 1/30 + 1/20 = 50/600. Together = 600/50 = 12 days."
     },
     "hi": {
-      "question": "A in 20d, B in 30d. Together?",
+      "question": "A can do work in 30 days, B in 20 days. Together they finish in?",
       "options": [
-        "13",
-        "5",
+        "12",
+        "20",
         "14",
-        "12"
+        "10"
       ],
-      "explanation": "1d work = 1/20+1/30 = 50/600. Time = 600/50 = 12 days."
+      "explanation": "1 day work = 1/30 + 1/20 = 50/600. Together = 600/50 = 12 days."
     }
   },
   {
     "id": "tw-0078",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 6d, A alone 15d. B alone?",
+      "question": "A and B together finish work in 24 days. A alone takes 40 days. B alone takes?",
       "options": [
-        "11",
-        "12",
-        "5",
-        "10"
+        "64",
+        "60",
+        "59",
+        "12"
       ],
-      "explanation": "B = 1/(1/6-1/15) = 90/9 = 10 days."
+      "explanation": "B alone = 1/(1/24 - 1/40) = 1/(16/960) = 960/16 = 60 days."
     },
     "hi": {
-      "question": "A+B in 6d, A alone 15d. B alone?",
+      "question": "A and B together finish work in 24 days. A alone takes 40 days. B alone takes?",
       "options": [
-        "11",
-        "12",
-        "5",
-        "10"
+        "64",
+        "60",
+        "59",
+        "12"
       ],
-      "explanation": "B = 1/(1/6-1/15) = 90/9 = 10 days."
+      "explanation": "B alone = 1/(1/24 - 1/40) = 1/(16/960) = 960/16 = 60 days."
     }
   },
   {
     "id": "tw-0079",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 24d, B in 8d. Together?",
+      "question": "A can do work in 18 days, B in 9 days. Together they finish in?",
       "options": [
-        "6",
-        "8",
         "7",
-        "5"
+        "12",
+        "6",
+        "4"
       ],
-      "explanation": "1d work = 1/24+1/8 = 32/192. Time = 192/32 = 6 days."
+      "explanation": "1 day work = 1/18 + 1/9 = 27/162. Together = 162/27 = 6 days."
     },
     "hi": {
-      "question": "A in 24d, B in 8d. Together?",
+      "question": "A can do work in 18 days, B in 9 days. Together they finish in?",
       "options": [
-        "6",
-        "8",
         "7",
-        "5"
+        "12",
+        "6",
+        "4"
       ],
-      "explanation": "1d work = 1/24+1/8 = 32/192. Time = 192/32 = 6 days."
+      "explanation": "1 day work = 1/18 + 1/9 = 27/162. Together = 162/27 = 6 days."
     }
   },
   {
     "id": "tw-0080",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 12d, A alone 30d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 36 days. B alone takes?",
       "options": [
-        "22",
         "20",
-        "5",
+        "17",
+        "18",
         "21"
       ],
-      "explanation": "B = 1/(1/12-1/30) = 360/18 = 20 days."
+      "explanation": "B alone = 1/(1/12 - 1/36) = 1/(24/432) = 432/24 = 18 days."
     },
     "hi": {
-      "question": "A+B in 12d, A alone 30d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 36 days. B alone takes?",
       "options": [
-        "22",
         "20",
-        "5",
+        "17",
+        "18",
         "21"
       ],
-      "explanation": "B = 1/(1/12-1/30) = 360/18 = 20 days."
+      "explanation": "B alone = 1/(1/12 - 1/36) = 1/(24/432) = 432/24 = 18 days."
     }
   },
   {
     "id": "tw-0081",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 40d, B in 60d. Together?",
+      "question": "A can do work in 45 days, B in 30 days. Together they finish in?",
       "options": [
-        "26",
-        "24",
-        "5",
-        "25"
+        "10",
+        "17",
+        "19",
+        "18"
       ],
-      "explanation": "1d work = 1/40+1/60 = 100/2400. Time = 2400/100 = 24 days."
+      "explanation": "1 day work = 1/45 + 1/30 = 75/1350. Together = 1350/75 = 18 days."
     },
     "hi": {
-      "question": "A in 40d, B in 60d. Together?",
+      "question": "A can do work in 45 days, B in 30 days. Together they finish in?",
       "options": [
-        "26",
-        "24",
-        "5",
-        "25"
+        "10",
+        "17",
+        "19",
+        "18"
       ],
-      "explanation": "1d work = 1/40+1/60 = 100/2400. Time = 2400/100 = 24 days."
+      "explanation": "1 day work = 1/45 + 1/30 = 75/1350. Together = 1350/75 = 18 days."
     }
   },
   {
     "id": "tw-0082",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 6d, A alone 18d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 60 days. B alone takes?",
       "options": [
-        "9",
-        "11",
-        "10",
-        "5"
+        "17",
+        "13",
+        "15",
+        "10"
       ],
-      "explanation": "B = 1/(1/6-1/18) = 108/12 = 9 days."
+      "explanation": "B alone = 1/(1/12 - 1/60) = 1/(48/720) = 720/48 = 15 days."
     },
     "hi": {
-      "question": "A+B in 6d, A alone 18d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 60 days. B alone takes?",
       "options": [
-        "9",
-        "11",
-        "10",
-        "5"
+        "17",
+        "13",
+        "15",
+        "10"
       ],
-      "explanation": "B = 1/(1/6-1/18) = 108/12 = 9 days."
+      "explanation": "B alone = 1/(1/12 - 1/60) = 1/(48/720) = 720/48 = 15 days."
     }
   },
   {
     "id": "tw-0083",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 25d, B in 75d. Together?",
+      "question": "A can do work in 21 days, B in 28 days. Together they finish in?",
       "options": [
-        "15",
-        "5",
-        "16",
-        "17"
+        "13",
+        "11",
+        "12",
+        "20"
       ],
-      "explanation": "1d work = 1/25+1/75 = 100/1875. Time = 1875/100 = 15 days."
+      "explanation": "1 day work = 1/21 + 1/28 = 49/588. Together = 588/49 = 12 days."
     },
     "hi": {
-      "question": "A in 25d, B in 75d. Together?",
+      "question": "A can do work in 21 days, B in 28 days. Together they finish in?",
       "options": [
-        "15",
-        "5",
-        "16",
-        "17"
+        "13",
+        "11",
+        "12",
+        "20"
       ],
-      "explanation": "1d work = 1/25+1/75 = 100/1875. Time = 1875/100 = 15 days."
+      "explanation": "1 day work = 1/21 + 1/28 = 49/588. Together = 588/49 = 12 days."
     }
   },
   {
@@ -2163,76 +2163,76 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 12d, A alone 36d. B alone?",
+      "question": "A and B together finish work in 24 days. A alone takes 32 days. B alone takes?",
       "options": [
-        "20",
-        "5",
-        "18",
-        "19"
+        "95",
+        "12",
+        "96",
+        "100"
       ],
-      "explanation": "B = 1/(1/12-1/36) = 432/24 = 18 days."
+      "explanation": "B alone = 1/(1/24 - 1/32) = 1/(8/768) = 768/8 = 96 days."
     },
     "hi": {
-      "question": "A+B in 12d, A alone 36d. B alone?",
+      "question": "A and B together finish work in 24 days. A alone takes 32 days. B alone takes?",
       "options": [
-        "20",
-        "5",
-        "18",
-        "19"
+        "95",
+        "12",
+        "96",
+        "100"
       ],
-      "explanation": "B = 1/(1/12-1/36) = 432/24 = 18 days."
+      "explanation": "B alone = 1/(1/24 - 1/32) = 1/(8/768) = 768/8 = 96 days."
     }
   },
   {
     "id": "tw-0085",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 45d, B in 30d. Together?",
+      "question": "A can do work in 48 days, B in 16 days. Together they finish in?",
       "options": [
-        "5",
-        "20",
-        "18",
-        "19"
+        "12",
+        "15",
+        "14",
+        "10"
       ],
-      "explanation": "1d work = 1/45+1/30 = 75/1350. Time = 1350/75 = 18 days."
+      "explanation": "1 day work = 1/48 + 1/16 = 64/768. Together = 768/64 = 12 days."
     },
     "hi": {
-      "question": "A in 45d, B in 30d. Together?",
+      "question": "A can do work in 48 days, B in 16 days. Together they finish in?",
       "options": [
-        "5",
-        "20",
-        "18",
-        "19"
+        "12",
+        "15",
+        "14",
+        "10"
       ],
-      "explanation": "1d work = 1/45+1/30 = 75/1350. Time = 1350/75 = 18 days."
+      "explanation": "1 day work = 1/48 + 1/16 = 64/768. Together = 768/64 = 12 days."
     }
   },
   {
     "id": "tw-0086",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 12d, A alone 60d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 16 days. B alone takes?",
       "options": [
-        "16",
-        "5",
-        "15",
-        "17"
+        "48",
+        "47",
+        "52",
+        "15"
       ],
-      "explanation": "B = 1/(1/12-1/60) = 720/48 = 15 days."
+      "explanation": "B alone = 1/(1/12 - 1/16) = 1/(4/192) = 192/4 = 48 days."
     },
     "hi": {
-      "question": "A+B in 12d, A alone 60d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 16 days. B alone takes?",
       "options": [
-        "16",
-        "5",
-        "15",
-        "17"
+        "48",
+        "47",
+        "52",
+        "15"
       ],
-      "explanation": "B = 1/(1/12-1/60) = 720/48 = 15 days."
+      "explanation": "B alone = 1/(1/12 - 1/16) = 1/(4/192) = 192/4 = 48 days."
     }
   },
   {
@@ -2241,76 +2241,76 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 21d, B in 28d. Together?",
+      "question": "A can do work in 10 days, B in 15 days. Together they finish in?",
       "options": [
-        "13",
-        "12",
-        "14",
-        "5"
+        "8",
+        "6",
+        "4",
+        "20"
       ],
-      "explanation": "1d work = 1/21+1/28 = 49/588. Time = 588/49 = 12 days."
+      "explanation": "1 day work = 1/10 + 1/15 = 25/150. Together = 150/25 = 6 days."
     },
     "hi": {
-      "question": "A in 21d, B in 28d. Together?",
+      "question": "A can do work in 10 days, B in 15 days. Together they finish in?",
       "options": [
-        "13",
-        "12",
-        "14",
-        "5"
+        "8",
+        "6",
+        "4",
+        "20"
       ],
-      "explanation": "1d work = 1/21+1/28 = 49/588. Time = 588/49 = 12 days."
+      "explanation": "1 day work = 1/10 + 1/15 = 25/150. Together = 150/25 = 6 days."
     }
   },
   {
     "id": "tw-0088",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A+B in 24d, A alone 32d. B alone?",
-      "options": [
-        "97",
-        "5",
-        "98",
-        "96"
-      ],
-      "explanation": "B = 1/(1/24-1/32) = 768/8 = 96 days."
-    },
-    "hi": {
-      "question": "A+B in 24d, A alone 32d. B alone?",
-      "options": [
-        "97",
-        "5",
-        "98",
-        "96"
-      ],
-      "explanation": "B = 1/(1/24-1/32) = 768/8 = 96 days."
-    }
-  },
-  {
-    "id": "tw-0089",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 48d, B in 16d. Together?",
+      "question": "A and B together finish work in 6 days. A alone takes 8 days. B alone takes?",
       "options": [
         "5",
-        "14",
-        "12",
-        "13"
+        "27",
+        "24",
+        "22"
       ],
-      "explanation": "1d work = 1/48+1/16 = 64/768. Time = 768/64 = 12 days."
+      "explanation": "B alone = 1/(1/6 - 1/8) = 1/(2/48) = 48/2 = 24 days."
     },
     "hi": {
-      "question": "A in 48d, B in 16d. Together?",
+      "question": "A and B together finish work in 6 days. A alone takes 8 days. B alone takes?",
       "options": [
         "5",
-        "14",
-        "12",
-        "13"
+        "27",
+        "24",
+        "22"
       ],
-      "explanation": "1d work = 1/48+1/16 = 64/768. Time = 768/64 = 12 days."
+      "explanation": "B alone = 1/(1/6 - 1/8) = 1/(2/48) = 48/2 = 24 days."
+    }
+  },
+  {
+    "id": "tw-0089",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 14 days, B in 21 days. Together they finish in?",
+      "options": [
+        "11",
+        "6",
+        "12",
+        "8"
+      ],
+      "explanation": "1 day work = 1/14 + 1/21 = 35/294. Together = 294/35 = 8 days."
+    },
+    "hi": {
+      "question": "A can do work in 14 days, B in 21 days. Together they finish in?",
+      "options": [
+        "11",
+        "6",
+        "12",
+        "8"
+      ],
+      "explanation": "1 day work = 1/14 + 1/21 = 35/294. Together = 294/35 = 8 days."
     }
   },
   {
@@ -2319,102 +2319,102 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 16d, A alone 50d. B alone?",
+      "question": "A and B together finish work in 24 days. A alone takes 42 days. B alone takes?",
       "options": [
-        "27",
-        "25",
-        "5",
-        "26"
+        "15",
+        "56",
+        "54",
+        "58"
       ],
-      "explanation": "B = 1/(1/16-1/50) = 800/34 = 25 days."
+      "explanation": "B alone = 1/(1/24 - 1/42) = 1/(18/1008) = 1008/18 = 56 days."
     },
     "hi": {
-      "question": "A+B in 16d, A alone 50d. B alone?",
+      "question": "A and B together finish work in 24 days. A alone takes 42 days. B alone takes?",
       "options": [
-        "27",
-        "25",
-        "5",
-        "26"
+        "15",
+        "56",
+        "54",
+        "58"
       ],
-      "explanation": "B = 1/(1/16-1/50) = 800/34 = 25 days."
+      "explanation": "B alone = 1/(1/24 - 1/42) = 1/(18/1008) = 1008/18 = 56 days."
     }
   },
   {
     "id": "tw-0091",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 12d, B in 6d. Together?",
+      "question": "A can do work in 12 days, B in 6 days. Together they finish in?",
       "options": [
-        "5",
         "4",
-        "6",
-        "5"
+        "5",
+        "10",
+        "2"
       ],
-      "explanation": "1d work = 1/12+1/6 = 18/72. Time = 72/18 = 4 days."
+      "explanation": "1 day work = 1/12 + 1/6 = 18/72. Together = 72/18 = 4 days."
     },
     "hi": {
-      "question": "A in 12d, B in 6d. Together?",
+      "question": "A can do work in 12 days, B in 6 days. Together they finish in?",
       "options": [
-        "5",
         "4",
-        "6",
-        "5"
+        "5",
+        "10",
+        "2"
       ],
-      "explanation": "1d work = 1/12+1/6 = 18/72. Time = 72/18 = 4 days."
+      "explanation": "1 day work = 1/12 + 1/6 = 18/72. Together = 72/18 = 4 days."
     }
   },
   {
     "id": "tw-0092",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 12d, A alone 20d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 20 days. B alone takes?",
       "options": [
-        "5",
-        "32",
-        "31",
-        "30"
+        "29",
+        "30",
+        "34",
+        "6"
       ],
-      "explanation": "B = 1/(1/12-1/20) = 240/8 = 30 days."
+      "explanation": "B alone = 1/(1/12 - 1/20) = 1/(8/240) = 240/8 = 30 days."
     },
     "hi": {
-      "question": "A+B in 12d, A alone 20d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 20 days. B alone takes?",
       "options": [
-        "5",
-        "32",
-        "31",
-        "30"
+        "29",
+        "30",
+        "34",
+        "6"
       ],
-      "explanation": "B = 1/(1/12-1/20) = 240/8 = 30 days."
+      "explanation": "B alone = 1/(1/12 - 1/20) = 1/(8/240) = 240/8 = 30 days."
     }
   },
   {
     "id": "tw-0093",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 15d, B in 10d. Together?",
+      "question": "A can do work in 15 days, B in 10 days. Together they finish in?",
       "options": [
-        "5",
-        "7",
         "6",
-        "8"
+        "5",
+        "10",
+        "4"
       ],
-      "explanation": "1d work = 1/15+1/10 = 25/150. Time = 150/25 = 6 days."
+      "explanation": "1 day work = 1/15 + 1/10 = 25/150. Together = 150/25 = 6 days."
     },
     "hi": {
-      "question": "A in 15d, B in 10d. Together?",
+      "question": "A can do work in 15 days, B in 10 days. Together they finish in?",
       "options": [
-        "5",
-        "7",
         "6",
-        "8"
+        "5",
+        "10",
+        "4"
       ],
-      "explanation": "1d work = 1/15+1/10 = 25/150. Time = 150/25 = 6 days."
+      "explanation": "1 day work = 1/15 + 1/10 = 25/150. Together = 150/25 = 6 days."
     }
   },
   {
@@ -2423,24 +2423,24 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 6d, A alone 24d. B alone?",
+      "question": "A and B together finish work in 6 days. A alone takes 24 days. B alone takes?",
       "options": [
         "8",
+        "7",
         "10",
-        "5",
-        "9"
+        "12"
       ],
-      "explanation": "B = 1/(1/6-1/24) = 144/18 = 8 days."
+      "explanation": "B alone = 1/(1/6 - 1/24) = 1/(18/144) = 144/18 = 8 days."
     },
     "hi": {
-      "question": "A+B in 6d, A alone 24d. B alone?",
+      "question": "A and B together finish work in 6 days. A alone takes 24 days. B alone takes?",
       "options": [
         "8",
+        "7",
         "10",
-        "5",
-        "9"
+        "12"
       ],
-      "explanation": "B = 1/(1/6-1/24) = 144/18 = 8 days."
+      "explanation": "B alone = 1/(1/6 - 1/24) = 1/(18/144) = 144/18 = 8 days."
     }
   },
   {
@@ -2449,128 +2449,128 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 30d, B in 20d. Together?",
+      "question": "A can do work in 30 days, B in 20 days. Together they finish in?",
       "options": [
         "12",
-        "5",
-        "14",
-        "13"
+        "16",
+        "10",
+        "11"
       ],
-      "explanation": "1d work = 1/30+1/20 = 50/600. Time = 600/50 = 12 days."
+      "explanation": "1 day work = 1/30 + 1/20 = 50/600. Together = 600/50 = 12 days."
     },
     "hi": {
-      "question": "A in 30d, B in 20d. Together?",
+      "question": "A can do work in 30 days, B in 20 days. Together they finish in?",
       "options": [
         "12",
-        "5",
-        "14",
-        "13"
+        "16",
+        "10",
+        "11"
       ],
-      "explanation": "1d work = 1/30+1/20 = 50/600. Time = 600/50 = 12 days."
+      "explanation": "1 day work = 1/30 + 1/20 = 50/600. Together = 600/50 = 12 days."
     }
   },
   {
     "id": "tw-0096",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 24d, A alone 40d. B alone?",
+      "question": "A and B together finish work in 24 days. A alone takes 40 days. B alone takes?",
       "options": [
+        "58",
+        "6",
         "62",
-        "60",
-        "61",
-        "5"
+        "60"
       ],
-      "explanation": "B = 1/(1/24-1/40) = 960/16 = 60 days."
+      "explanation": "B alone = 1/(1/24 - 1/40) = 1/(16/960) = 960/16 = 60 days."
     },
     "hi": {
-      "question": "A+B in 24d, A alone 40d. B alone?",
+      "question": "A and B together finish work in 24 days. A alone takes 40 days. B alone takes?",
       "options": [
+        "58",
+        "6",
         "62",
-        "60",
-        "61",
-        "5"
+        "60"
       ],
-      "explanation": "B = 1/(1/24-1/40) = 960/16 = 60 days."
+      "explanation": "B alone = 1/(1/24 - 1/40) = 1/(16/960) = 960/16 = 60 days."
     }
   },
   {
     "id": "tw-0097",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A in 18d, B in 9d. Together?",
-      "options": [
-        "8",
-        "5",
-        "7",
-        "6"
-      ],
-      "explanation": "1d work = 1/18+1/9 = 27/162. Time = 162/27 = 6 days."
-    },
-    "hi": {
-      "question": "A in 18d, B in 9d. Together?",
-      "options": [
-        "8",
-        "5",
-        "7",
-        "6"
-      ],
-      "explanation": "1d work = 1/18+1/9 = 27/162. Time = 162/27 = 6 days."
-    }
-  },
-  {
-    "id": "tw-0098",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A+B in 15d, A alone 25d. B alone?",
-      "options": [
-        "76",
-        "5",
-        "77",
-        "75"
-      ],
-      "explanation": "B = 1/(1/15-1/25) = 375/10 = 75 days."
-    },
-    "hi": {
-      "question": "A+B in 15d, A alone 25d. B alone?",
-      "options": [
-        "76",
-        "5",
-        "77",
-        "75"
-      ],
-      "explanation": "B = 1/(1/15-1/25) = 375/10 = 75 days."
-    }
-  },
-  {
-    "id": "tw-0099",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A in 36d, B in 18d. Together?",
+      "question": "A can do work in 18 days, B in 9 days. Together they finish in?",
       "options": [
-        "5",
-        "13",
-        "12",
-        "14"
+        "7",
+        "4",
+        "6",
+        "888"
       ],
-      "explanation": "1d work = 1/36+1/18 = 54/648. Time = 648/54 = 12 days."
+      "explanation": "1 day work = 1/18 + 1/9 = 27/162. Together = 162/27 = 6 days."
     },
     "hi": {
-      "question": "A in 36d, B in 18d. Together?",
+      "question": "A can do work in 18 days, B in 9 days. Together they finish in?",
       "options": [
-        "5",
-        "13",
-        "12",
-        "14"
+        "7",
+        "4",
+        "6",
+        "888"
       ],
-      "explanation": "1d work = 1/36+1/18 = 54/648. Time = 648/54 = 12 days."
+      "explanation": "1 day work = 1/18 + 1/9 = 27/162. Together = 162/27 = 6 days."
+    }
+  },
+  {
+    "id": "tw-0098",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A and B together finish work in 12 days. A alone takes 36 days. B alone takes?",
+      "options": [
+        "18",
+        "16",
+        "8",
+        "21"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/36) = 1/(24/432) = 432/24 = 18 days."
+    },
+    "hi": {
+      "question": "A and B together finish work in 12 days. A alone takes 36 days. B alone takes?",
+      "options": [
+        "18",
+        "16",
+        "8",
+        "21"
+      ],
+      "explanation": "B alone = 1/(1/12 - 1/36) = 1/(24/432) = 432/24 = 18 days."
+    }
+  },
+  {
+    "id": "tw-0099",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A can do work in 45 days, B in 30 days. Together they finish in?",
+      "options": [
+        "16",
+        "18",
+        "21",
+        "8"
+      ],
+      "explanation": "1 day work = 1/45 + 1/30 = 75/1350. Together = 1350/75 = 18 days."
+    },
+    "hi": {
+      "question": "A can do work in 45 days, B in 30 days. Together they finish in?",
+      "options": [
+        "16",
+        "18",
+        "21",
+        "8"
+      ],
+      "explanation": "1 day work = 1/45 + 1/30 = 75/1350. Together = 1350/75 = 18 days."
     }
   },
   {
@@ -2579,24 +2579,24 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A+B in 18d, A alone 45d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 60 days. B alone takes?",
       "options": [
-        "32",
-        "31",
-        "5",
-        "30"
+        "14",
+        "553",
+        "19",
+        "15"
       ],
-      "explanation": "B = 1/(1/18-1/45) = 810/27 = 30 days."
+      "explanation": "B alone = 1/(1/12 - 1/60) = 1/(48/720) = 720/48 = 15 days."
     },
     "hi": {
-      "question": "A+B in 18d, A alone 45d. B alone?",
+      "question": "A and B together finish work in 12 days. A alone takes 60 days. B alone takes?",
       "options": [
-        "32",
-        "31",
-        "5",
-        "30"
+        "14",
+        "553",
+        "19",
+        "15"
       ],
-      "explanation": "B = 1/(1/18-1/45) = 810/27 = 30 days."
+      "explanation": "B alone = 1/(1/12 - 1/60) = 1/(48/720) = 720/48 = 15 days."
     }
   }
 ]

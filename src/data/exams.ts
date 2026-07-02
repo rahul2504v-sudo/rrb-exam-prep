@@ -87,34 +87,14 @@ const gdMathematics: Subject = {
   name: 'Mathematics',
   slug: 'mathematics',
   topics: [
-    { id: 'group-d-mathematics-number-system',      name: 'Number System',         slug: 'number-system',      questionCount: 0 },
-    { id: 'group-d-mathematics-lcm-hcf',             name: 'LCM & HCF',             slug: 'lcm-hcf',             questionCount: 0 },
-    { id: 'group-d-mathematics-simplification',      name: 'Simplification',        slug: 'simplification',      questionCount: 0 },
-    { id: 'group-d-mathematics-ratio-proportion',    name: 'Ratio & Proportion',    slug: 'ratio-proportion',    questionCount: 0 },
-    { id: 'group-d-mathematics-percentage',          name: 'Percentage',            slug: 'percentage',          questionCount: 0 },
-    { id: 'group-d-mathematics-profit-loss',         name: 'Profit & Loss',         slug: 'profit-loss',         questionCount: 0 },
-    { id: 'group-d-mathematics-simple-compound-interest', name: 'Simple & Compound Interest', slug: 'simple-compound-interest', questionCount: 0 },
-    { id: 'group-d-mathematics-time-work',           name: 'Time & Work',           slug: 'time-work',           questionCount: 0 },
-    { id: 'group-d-mathematics-time-speed-distance', name: 'Time Speed Distance',   slug: 'time-speed-distance', questionCount: 0 },
-    { id: 'group-d-mathematics-average',             name: 'Average',               slug: 'average',             questionCount: 0 },
-    { id: 'group-d-mathematics-mensuration',         name: 'Mensuration',           slug: 'mensuration',         questionCount: 0 },
-    { id: 'group-d-mathematics-algebra',             name: 'Algebra',               slug: 'algebra',             questionCount: 0 },
-    { id: 'group-d-mathematics-geometry',            name: 'Geometry',              slug: 'geometry',            questionCount: 0 },
-    { id: 'group-d-mathematics-age-problems',        name: 'Age Problems',          slug: 'age-problems',        questionCount: 0 },
-    { id: 'group-d-mathematics-pipes-cisterns',      name: 'Pipes & Cisterns',      slug: 'pipes-cisterns',      questionCount: 0 },
-    { id: 'group-d-mathematics-boats-streams',       name: 'Boats & Streams',       slug: 'boats-streams',       questionCount: 0 },
-    { id: 'group-d-mathematics-partnership',         name: 'Partnership',           slug: 'partnership',         questionCount: 0 },
+    { id: 'group-d-mathematics-real', name: 'Real Exam Questions (Dec 2025)', slug: 'real-exam-math', questionCount: 2309 },
   ],
-};
-
-const gdScience: Subject = {
+};\n\nconst gdScience: Subject = {
   id: 'group-d-science',
   name: 'General Science',
   slug: 'general-science',
   topics: [
-    { id: 'group-d-science-physics',   name: 'Physics',   slug: 'physics',   questionCount: 0 },
-    { id: 'group-d-science-chemistry', name: 'Chemistry', slug: 'chemistry', questionCount: 0 },
-    { id: 'group-d-science-biology',   name: 'Biology',   slug: 'biology',   questionCount: 0 },
+    { id: 'group-d-science-real', name: 'Real Exam Questions (Dec 2025)', slug: 'real-exam-physics', questionCount: 2393 },
   ],
 };
 
@@ -123,22 +103,7 @@ const gdReasoning: Subject = {
   name: 'General Intelligence & Reasoning',
   slug: 'reasoning',
   topics: [
-    { id: 'group-d-reasoning-analogies',              name: 'Analogies',               slug: 'analogies',              questionCount: 0 },
-    { id: 'group-d-reasoning-coding-decoding',        name: 'Coding-Decoding',         slug: 'coding-decoding',        questionCount: 0 },
-    { id: 'group-d-reasoning-series',                 name: 'Series',                  slug: 'series',                 questionCount: 0 },
-    { id: 'group-d-reasoning-blood-relations',        name: 'Blood Relations',         slug: 'blood-relations',        questionCount: 0 },
-    { id: 'group-d-reasoning-syllogism',              name: 'Syllogism',               slug: 'syllogism',              questionCount: 0 },
-    { id: 'group-d-reasoning-venn-diagrams',          name: 'Venn Diagrams',           slug: 'venn-diagrams',          questionCount: 0 },
-    { id: 'group-d-reasoning-direction-sense',        name: 'Direction Sense',         slug: 'direction-sense',        questionCount: 0 },
-    { id: 'group-d-reasoning-ordering-ranking',       name: 'Ordering & Ranking',      slug: 'ordering-ranking',       questionCount: 0 },
-    { id: 'group-d-reasoning-clock-calendar',         name: 'Clock & Calendar',        slug: 'clock-calendar',         questionCount: 0 },
-    { id: 'group-d-reasoning-puzzles',                name: 'Puzzles',                 slug: 'puzzles',                questionCount: 0 },
-    { id: 'group-d-reasoning-data-sufficiency',       name: 'Data Sufficiency',        slug: 'data-sufficiency',       questionCount: 0 },
-    { id: 'group-d-reasoning-mathematical-operations', name: 'Mathematical Operations', slug: 'mathematical-operations', questionCount: 0 },
-    { id: 'group-d-reasoning-statement-conclusion',   name: 'Statement & Conclusion',  slug: 'statement-conclusion',   questionCount: 0 },
-    { id: 'group-d-reasoning-classification',         name: 'Classification',          slug: 'classification',         questionCount: 0 },
-    { id: 'group-d-reasoning-missing-numbers',        name: 'Missing Numbers',         slug: 'missing-numbers',        questionCount: 0 },
-    { id: 'group-d-reasoning-non-verbal',             name: 'Non-Verbal Reasoning',    slug: 'non-verbal',             questionCount: 0 },
+    { id: 'group-d-reasoning-real', name: 'Real Exam Questions (Dec 2025)', slug: 'real-exam-reasoning', questionCount: 2472 },
   ],
 };
 
@@ -147,20 +112,9 @@ const gdGeneralAwareness: Subject = {
   name: 'General Awareness',
   slug: 'general-awareness',
   topics: [
-    { id: 'group-d-gk-indian-history',       name: 'Indian History',        slug: 'indian-history',       questionCount: 0 },
-    { id: 'group-d-gk-geography',            name: 'Geography',             slug: 'geography',            questionCount: 0 },
-    { id: 'group-d-gk-indian-polity',        name: 'Indian Polity',         slug: 'indian-polity',        questionCount: 0 },
-    { id: 'group-d-gk-economics',            name: 'Economics',             slug: 'economics',            questionCount: 0 },
-    { id: 'group-d-gk-current-affairs',      name: 'Current Affairs',       slug: 'current-affairs',      questionCount: 0 },
-    { id: 'group-d-gk-sports',               name: 'Sports',                slug: 'sports',               questionCount: 0 },
-    { id: 'group-d-gk-art-culture',          name: 'Art & Culture',         slug: 'art-culture',          questionCount: 0 },
-    { id: 'group-d-gk-government-schemes',   name: 'Government Schemes',    slug: 'government-schemes',   questionCount: 0 },
-    { id: 'group-d-gk-important-days',       name: 'Important Days',        slug: 'important-days',       questionCount: 0 },
-    { id: 'group-d-gk-general-knowledge',    name: 'General Knowledge',     slug: 'general-knowledge',    questionCount: 0 },
+    { id: 'group-d-ga-real', name: 'Real Exam Questions (Dec 2025)', slug: 'real-exam-ga', questionCount: 2395 },
   ],
-};
-
-// ============================================================================
+};\n\n// ============================================================================
 // Exam Patterns
 // ============================================================================
 

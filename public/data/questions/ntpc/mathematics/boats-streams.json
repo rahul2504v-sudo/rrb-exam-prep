@@ -1,80 +1,80 @@
 [
   {
     "id": "bs-0001",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
-      "options": [
-        "10",
-        "5",
-        "8",
-        "9"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
-    },
-    "hi": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
-      "options": [
-        "10",
-        "5",
-        "8",
-        "9"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
-    }
-  },
-  {
-    "id": "bs-0002",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
-      "options": [
-        "5",
-        "7",
-        "6",
-        "8"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
-    },
-    "hi": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
-      "options": [
-        "5",
-        "7",
-        "6",
-        "8"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
-    }
-  },
-  {
-    "id": "bs-0003",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
+        "15",
+        "7",
         "11",
-        "5",
-        "10",
-        "9"
+        "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     },
     "hi": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
+        "15",
+        "7",
         "11",
-        "5",
-        "10",
-        "9"
+        "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
+    }
+  },
+  {
+    "id": "bs-0002",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
+      "options": [
+        "7",
+        "6",
+        "13",
+        "5"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
+      "options": [
+        "7",
+        "6",
+        "13",
+        "5"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
+    }
+  },
+  {
+    "id": "bs-0003",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
+      "options": [
+        "10",
+        "8",
+        "9",
+        "335"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
+      "options": [
+        "10",
+        "8",
+        "9",
+        "335"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     }
   },
   {
@@ -83,24 +83,24 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
         "5",
-        "7",
         "6",
-        "7"
+        "13",
+        "4"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     },
     "hi": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
         "5",
-        "7",
         "6",
-        "7"
+        "13",
+        "4"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     }
   },
   {
@@ -109,24 +109,24 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
         "12",
+        "11",
         "13",
-        "14",
-        "5"
+        "9"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
         "12",
+        "11",
         "13",
-        "14",
-        "5"
+        "9"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     }
   },
   {
@@ -135,76 +135,76 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
         "16",
-        "5",
-        "17",
+        "14",
+        "11",
         "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     },
     "hi": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
         "16",
-        "5",
-        "17",
+        "14",
+        "11",
         "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     }
   },
   {
     "id": "bs-0007",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "12",
-        "11",
         "10",
-        "5"
+        "13",
+        "9",
+        "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
     },
     "hi": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "12",
-        "11",
         "10",
-        "5"
+        "13",
+        "9",
+        "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
     }
   },
   {
     "id": "bs-0008",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "12",
-        "14",
-        "13"
+        "11",
+        "11",
+        "13",
+        "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "12",
-        "14",
-        "13"
+        "11",
+        "11",
+        "13",
+        "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     }
   },
   {
@@ -213,180 +213,180 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
         "8",
-        "9",
         "10",
-        "5"
+        "9",
+        "7"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     },
     "hi": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
         "8",
-        "9",
         "10",
-        "5"
+        "9",
+        "7"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     }
   },
   {
     "id": "bs-0010",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
-      "options": [
-        "7",
-        "8",
-        "6",
-        "5"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
-    },
-    "hi": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
-      "options": [
-        "7",
-        "8",
-        "6",
-        "5"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
-    }
-  },
-  {
-    "id": "bs-0011",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "11",
-        "10",
+        "9",
+        "9",
         "5",
-        "9"
+        "6"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     },
     "hi": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
+      "options": [
+        "9",
+        "9",
+        "5",
+        "6"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
+    }
+  },
+  {
+    "id": "bs-0011",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
         "11",
-        "10",
+        "9",
         "5",
-        "9"
+        "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
+      "options": [
+        "11",
+        "9",
+        "5",
+        "8"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     }
   },
   {
     "id": "bs-0012",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
-      "options": [
-        "6",
-        "7",
-        "5",
-        "7"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
-    },
-    "hi": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
-      "options": [
-        "6",
-        "7",
-        "5",
-        "7"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
-    }
-  },
-  {
-    "id": "bs-0013",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
-      "options": [
-        "5",
-        "12",
-        "14",
-        "13"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
-    },
-    "hi": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
-      "options": [
-        "5",
-        "12",
-        "14",
-        "13"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
-    }
-  },
-  {
-    "id": "bs-0014",
     "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "15",
-        "17",
-        "16",
-        "5"
+        "5",
+        "8",
+        "4",
+        "651"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     },
     "hi": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
+      "options": [
+        "5",
+        "8",
+        "4",
+        "651"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
+    }
+  },
+  {
+    "id": "bs-0013",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
         "15",
-        "17",
-        "16",
-        "5"
+        "11",
+        "11",
+        "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
+      "options": [
+        "15",
+        "11",
+        "11",
+        "12"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0014",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
+      "options": [
+        "16",
+        "14",
+        "15",
+        "9"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
+      "options": [
+        "16",
+        "14",
+        "15",
+        "9"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     }
   },
   {
     "id": "bs-0015",
-    "correctOption": "B",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "11",
         "10",
-        "12",
-        "5"
+        "9",
+        "13",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
     },
     "hi": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "11",
         "10",
-        "12",
-        "5"
+        "9",
+        "13",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
     }
   },
   {
@@ -395,50 +395,50 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "13",
-        "12",
         "14",
-        "5"
+        "12",
+        "11",
+        "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "13",
-        "12",
         "14",
-        "5"
+        "12",
+        "11",
+        "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     }
   },
   {
     "id": "bs-0017",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "8",
-        "9",
+        "15",
+        "7",
         "10",
-        "5"
+        "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     },
     "hi": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "8",
-        "9",
+        "15",
+        "7",
         "10",
-        "5"
+        "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     }
   },
   {
@@ -447,102 +447,102 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
         "5",
-        "7",
+        "8",
         "6",
-        "8"
+        "5"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     },
     "hi": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
         "5",
-        "7",
+        "8",
         "6",
-        "8"
+        "5"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     }
   },
   {
     "id": "bs-0019",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
-        "9",
+        "7",
         "11",
-        "5",
-        "10"
+        "9",
+        "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     },
     "hi": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
-        "9",
+        "7",
         "11",
-        "5",
-        "10"
+        "9",
+        "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     }
   },
   {
     "id": "bs-0020",
-    "correctOption": "B",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "7",
+        "15",
+        "8",
         "5",
-        "7",
-        "6"
+        "4"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     },
     "hi": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "7",
+        "15",
+        "8",
         "5",
-        "7",
-        "6"
+        "4"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     }
   },
   {
     "id": "bs-0021",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "12",
-        "13",
-        "5",
-        "14"
+        "11",
+        "7",
+        "14",
+        "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "12",
-        "13",
-        "5",
-        "14"
+        "11",
+        "7",
+        "14",
+        "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     }
   },
   {
@@ -551,24 +551,24 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "17",
-        "16",
+        "14",
+        "18",
+        "7",
         "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     },
     "hi": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "17",
-        "16",
+        "14",
+        "18",
+        "7",
         "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     }
   },
   {
@@ -577,76 +577,76 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "12",
-        "5",
+        "7",
+        "9",
         "10",
         "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
     },
     "hi": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "12",
-        "5",
+        "7",
+        "9",
         "10",
         "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
     }
   },
   {
     "id": "bs-0024",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "13",
-        "5",
-        "14",
-        "12"
+        "11",
+        "12",
+        "7",
+        "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "13",
-        "5",
-        "14",
-        "12"
+        "11",
+        "12",
+        "7",
+        "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     }
   },
   {
     "id": "bs-0025",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "10",
-        "9",
+        "11",
         "5",
-        "8"
+        "8",
+        "7"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     },
     "hi": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "10",
-        "9",
+        "11",
         "5",
-        "8"
+        "8",
+        "7"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     }
   },
   {
@@ -655,50 +655,50 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
+        "9",
         "5",
-        "8",
         "6",
-        "7"
+        "9"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     },
     "hi": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
+        "9",
         "5",
-        "8",
         "6",
-        "7"
+        "9"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     }
   },
   {
     "id": "bs-0027",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
-        "10",
         "5",
-        "11",
-        "9"
+        "10",
+        "9",
+        "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     },
     "hi": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
-        "10",
         "5",
-        "11",
-        "9"
+        "10",
+        "9",
+        "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     }
   },
   {
@@ -707,414 +707,414 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "7",
+        "6",
         "7",
         "5",
-        "6"
+        "4"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     },
     "hi": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "7",
+        "6",
         "7",
         "5",
-        "6"
+        "4"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     }
   },
   {
     "id": "bs-0029",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "12",
-        "14",
-        "13"
+        "15",
+        "11",
+        "11",
+        "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "12",
-        "14",
-        "13"
+        "15",
+        "11",
+        "11",
+        "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     }
   },
   {
     "id": "bs-0030",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "16",
-        "5",
+        "17",
         "15",
-        "17"
+        "11",
+        "14"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     },
     "hi": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "16",
-        "5",
+        "17",
         "15",
-        "17"
+        "11",
+        "14"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     }
   },
   {
     "id": "bs-0031",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "11",
-        "5",
+        "13",
         "10",
+        "9",
         "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
     },
     "hi": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "11",
-        "5",
+        "13",
         "10",
+        "9",
         "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
     }
   },
   {
     "id": "bs-0032",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "13",
-        "14",
-        "5",
-        "12"
+        "15",
+        "12",
+        "15",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "13",
-        "14",
-        "5",
-        "12"
+        "15",
+        "12",
+        "15",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     }
   },
   {
     "id": "bs-0033",
-    "correctOption": "C",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "9",
+        "7",
         "8",
-        "10"
+        "9",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     },
     "hi": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "9",
+        "7",
         "8",
-        "10"
+        "9",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     }
   },
   {
     "id": "bs-0034",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
         "8",
-        "7",
         "5",
-        "6"
+        "6",
+        "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     },
     "hi": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
         "8",
-        "7",
         "5",
-        "6"
+        "6",
+        "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     }
   },
   {
     "id": "bs-0035",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
-        "11",
-        "10",
-        "5",
-        "9"
+        "13",
+        "8",
+        "9",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     },
     "hi": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
-        "11",
-        "10",
-        "5",
-        "9"
+        "13",
+        "8",
+        "9",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     }
   },
   {
     "id": "bs-0036",
-    "correctOption": "D",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "6",
+        "5",
+        "13",
         "7",
-        "7",
-        "5"
+        "4"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     },
     "hi": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "6",
+        "5",
+        "13",
         "7",
-        "7",
-        "5"
+        "4"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     }
   },
   {
     "id": "bs-0037",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "12",
         "14",
-        "13",
-        "5"
+        "11",
+        "12",
+        "13"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "12",
         "14",
-        "13",
-        "5"
+        "11",
+        "12",
+        "13"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     }
   },
   {
     "id": "bs-0038",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
-      "options": [
-        "17",
-        "5",
-        "16",
-        "15"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
-    },
-    "hi": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
-      "options": [
-        "17",
-        "5",
-        "16",
-        "15"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
-    }
-  },
-  {
-    "id": "bs-0039",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
-      "options": [
-        "5",
-        "11",
-        "12",
-        "10"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
-    },
-    "hi": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
-      "options": [
-        "5",
-        "11",
-        "12",
-        "10"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
-    }
-  },
-  {
-    "id": "bs-0040",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
-      "options": [
-        "13",
-        "12",
-        "14",
-        "5"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
-    },
-    "hi": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
-      "options": [
-        "13",
-        "12",
-        "14",
-        "5"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
-    }
-  },
-  {
-    "id": "bs-0041",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
-      "options": [
-        "5",
-        "10",
-        "9",
-        "8"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
-    },
-    "hi": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
-      "options": [
-        "5",
-        "10",
-        "9",
-        "8"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
-    }
-  },
-  {
-    "id": "bs-0042",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
-      "options": [
-        "7",
-        "6",
-        "8",
-        "5"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
-    },
-    "hi": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
-      "options": [
-        "7",
-        "6",
-        "8",
-        "5"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
-    }
-  },
-  {
-    "id": "bs-0043",
     "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "5"
+        "15",
+        "14",
+        "899",
+        "18"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     },
     "hi": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "9",
+        "15",
+        "14",
+        "899",
+        "18"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
+    }
+  },
+  {
+    "id": "bs-0039",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
+      "options": [
         "10",
         "11",
-        "5"
+        "11",
+        "9"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
+      "options": [
+        "10",
+        "11",
+        "11",
+        "9"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
+    }
+  },
+  {
+    "id": "bs-0040",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
+      "options": [
+        "15",
+        "11",
+        "14",
+        "12"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
+      "options": [
+        "15",
+        "11",
+        "14",
+        "12"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0041",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
+      "options": [
+        "15",
+        "8",
+        "10",
+        "7"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
+      "options": [
+        "15",
+        "8",
+        "10",
+        "7"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
+    }
+  },
+  {
+    "id": "bs-0042",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
+      "options": [
+        "9",
+        "5",
+        "11",
+        "6"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
+      "options": [
+        "9",
+        "5",
+        "11",
+        "6"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
+    }
+  },
+  {
+    "id": "bs-0043",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
+      "options": [
+        "11",
+        "10",
+        "8",
+        "9"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
+      "options": [
+        "11",
+        "10",
+        "8",
+        "9"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     }
   },
   {
@@ -1123,50 +1123,50 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "7",
+        "13",
         "6",
-        "7",
+        "4",
         "5"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     },
     "hi": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "7",
+        "13",
         "6",
-        "7",
+        "4",
         "5"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     }
   },
   {
     "id": "bs-0045",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "14",
         "12",
-        "13"
+        "11",
+        "15",
+        "5"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "14",
         "12",
-        "13"
+        "11",
+        "15",
+        "5"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     }
   },
   {
@@ -1175,50 +1175,50 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
         "15",
-        "16",
+        "18",
         "5",
-        "17"
+        "14"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     },
     "hi": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
         "15",
-        "16",
+        "18",
         "5",
-        "17"
+        "14"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     }
   },
   {
     "id": "bs-0047",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
+        "9",
+        "5",
         "10",
-        "11",
-        "12",
-        "5"
+        "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
     },
     "hi": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
+        "9",
+        "5",
         "10",
-        "11",
-        "12",
-        "5"
+        "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
     }
   },
   {
@@ -1227,76 +1227,76 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
         "12",
         "13",
-        "14",
-        "5"
+        "5",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
         "12",
         "13",
-        "14",
-        "5"
+        "5",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     }
   },
   {
     "id": "bs-0049",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
+        "7",
+        "8",
         "9",
-        "5",
-        "10",
-        "8"
+        "9"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     },
     "hi": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
+        "7",
+        "8",
         "9",
-        "5",
-        "10",
-        "8"
+        "9"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     }
   },
   {
     "id": "bs-0050",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
+        "9",
+        "15",
         "6",
-        "8",
-        "5",
-        "7"
+        "5"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     },
     "hi": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
+        "9",
+        "15",
         "6",
-        "8",
-        "5",
-        "7"
+        "5"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     }
   },
   {
@@ -1305,24 +1305,24 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
         "9",
+        "15",
         "11",
-        "5",
-        "10"
+        "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     },
     "hi": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
         "9",
+        "15",
         "11",
-        "5",
-        "10"
+        "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     }
   },
   {
@@ -1331,24 +1331,24 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
         "5",
         "7",
-        "6",
-        "7"
+        "4",
+        "6"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     },
     "hi": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
         "5",
         "7",
-        "6",
-        "7"
+        "4",
+        "6"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     }
   },
   {
@@ -1357,180 +1357,180 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "14",
         "13",
+        "11",
+        "7",
         "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "14",
         "13",
+        "11",
+        "7",
         "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     }
   },
   {
     "id": "bs-0054",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
-      "options": [
-        "15",
-        "16",
-        "5",
-        "17"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
-    },
-    "hi": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
-      "options": [
-        "15",
-        "16",
-        "5",
-        "17"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
-    }
-  },
-  {
-    "id": "bs-0055",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
-      "options": [
-        "5",
-        "11",
-        "10",
-        "12"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
-    },
-    "hi": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
-      "options": [
-        "5",
-        "11",
-        "10",
-        "12"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
-    }
-  },
-  {
-    "id": "bs-0056",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
-      "options": [
-        "13",
-        "14",
-        "5",
-        "12"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
-    },
-    "hi": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
-      "options": [
-        "13",
-        "14",
-        "5",
-        "12"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
-    }
-  },
-  {
-    "id": "bs-0057",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
-      "options": [
-        "10",
-        "5",
-        "9",
-        "8"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
-    },
-    "hi": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
-      "options": [
-        "10",
-        "5",
-        "9",
-        "8"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
-    }
-  },
-  {
-    "id": "bs-0058",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
-      "options": [
-        "7",
-        "5",
-        "6",
-        "8"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
-    },
-    "hi": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
-      "options": [
-        "7",
-        "5",
-        "6",
-        "8"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
-    }
-  },
-  {
-    "id": "bs-0059",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "10",
-        "9",
-        "5",
+        "14",
+        "15",
+        "17",
         "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     },
     "hi": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "10",
-        "9",
-        "5",
+        "14",
+        "15",
+        "17",
         "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
+    }
+  },
+  {
+    "id": "bs-0055",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
+      "options": [
+        "12",
+        "10",
+        "9",
+        "9"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
+      "options": [
+        "12",
+        "10",
+        "9",
+        "9"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
+    }
+  },
+  {
+    "id": "bs-0056",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
+      "options": [
+        "7",
+        "12",
+        "11",
+        "13"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
+      "options": [
+        "7",
+        "12",
+        "11",
+        "13"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0057",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
+      "options": [
+        "8",
+        "5",
+        "11",
+        "7"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
+      "options": [
+        "8",
+        "5",
+        "11",
+        "7"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
+    }
+  },
+  {
+    "id": "bs-0058",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
+      "options": [
+        "6",
+        "5",
+        "8",
+        "13"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
+      "options": [
+        "6",
+        "5",
+        "8",
+        "13"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
+    }
+  },
+  {
+    "id": "bs-0059",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
+      "options": [
+        "13",
+        "8",
+        "10",
+        "9"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
+      "options": [
+        "13",
+        "8",
+        "10",
+        "9"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     }
   },
   {
@@ -1539,50 +1539,50 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
         "5",
-        "7",
         "6",
-        "7"
+        "4",
+        "9"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     },
     "hi": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
         "5",
-        "7",
         "6",
-        "7"
+        "4",
+        "9"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     }
   },
   {
     "id": "bs-0061",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "14",
         "13",
-        "12"
+        "12",
+        "11",
+        "7"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "14",
         "13",
-        "12"
+        "12",
+        "11",
+        "7"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     }
   },
   {
@@ -1591,50 +1591,50 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
         "16",
-        "5",
+        "7",
         "15",
-        "17"
+        "14"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     },
     "hi": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
         "16",
-        "5",
+        "7",
         "15",
-        "17"
+        "14"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     }
   },
   {
     "id": "bs-0063",
-    "correctOption": "A",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "10",
-        "5",
         "12",
-        "11"
+        "9",
+        "10",
+        "9"
       ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
     },
     "hi": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "10",
-        "5",
         "12",
-        "11"
+        "9",
+        "10",
+        "9"
       ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
     }
   },
   {
@@ -1643,258 +1643,258 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
         "14",
-        "5",
+        "11",
         "12",
-        "13"
+        "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
         "14",
-        "5",
+        "11",
         "12",
-        "13"
+        "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     }
   },
   {
     "id": "bs-0065",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "9",
         "8",
+        "13",
+        "7",
         "10"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     },
     "hi": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "9",
         "8",
+        "13",
+        "7",
         "10"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     }
   },
   {
     "id": "bs-0066",
-    "correctOption": "B",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "8",
-        "6",
         "5",
-        "7"
+        "11",
+        "7",
+        "6"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     },
     "hi": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "8",
-        "6",
         "5",
-        "7"
+        "11",
+        "7",
+        "6"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     }
   },
   {
     "id": "bs-0067",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
-        "10",
-        "5",
         "9",
-        "11"
+        "11",
+        "5",
+        "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     },
     "hi": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
-        "10",
-        "5",
         "9",
-        "11"
+        "11",
+        "5",
+        "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     }
   },
   {
     "id": "bs-0068",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
-      "options": [
-        "5",
-        "6",
-        "7",
-        "7"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
-    },
-    "hi": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
-      "options": [
-        "5",
-        "6",
-        "7",
-        "7"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
-    }
-  },
-  {
-    "id": "bs-0069",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
+        "4",
         "5",
-        "12",
-        "13",
-        "14"
+        "8",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     },
     "hi": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
+        "4",
         "5",
-        "12",
-        "13",
-        "14"
+        "8",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     }
   },
   {
-    "id": "bs-0070",
+    "id": "bs-0069",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "17",
         "5",
-        "15",
-        "16"
+        "14",
+        "12",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "17",
         "5",
-        "15",
-        "16"
+        "14",
+        "12",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0070",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
+      "options": [
+        "14",
+        "9",
+        "18",
+        "15"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
+      "options": [
+        "14",
+        "9",
+        "18",
+        "15"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     }
   },
   {
     "id": "bs-0071",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
         "11",
-        "12",
-        "5",
-        "10"
+        "10",
+        "9",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
     },
     "hi": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
         "11",
-        "12",
-        "5",
-        "10"
+        "10",
+        "9",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
     }
   },
   {
     "id": "bs-0072",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "13",
-        "5",
+        "9",
         "14",
-        "12"
+        "12",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "13",
-        "5",
+        "9",
         "14",
-        "12"
+        "12",
+        "11"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     }
   },
   {
     "id": "bs-0073",
-    "correctOption": "A",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "8",
-        "10",
         "9",
-        "5"
+        "5",
+        "7",
+        "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     },
     "hi": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "8",
-        "10",
         "9",
-        "5"
+        "5",
+        "7",
+        "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     }
   },
   {
@@ -1903,102 +1903,102 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
+        "9",
         "5",
-        "7",
         "6",
         "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     },
     "hi": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
+        "9",
         "5",
-        "7",
         "6",
         "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     }
   },
   {
     "id": "bs-0075",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
-      "options": [
-        "9",
-        "10",
-        "5",
-        "11"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
-    },
-    "hi": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
-      "options": [
-        "9",
-        "10",
-        "5",
-        "11"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
-    }
-  },
-  {
-    "id": "bs-0076",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
-      "options": [
-        "6",
-        "7",
-        "7",
-        "5"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
-    },
-    "hi": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
-      "options": [
-        "6",
-        "7",
-        "7",
-        "5"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
-    }
-  },
-  {
-    "id": "bs-0077",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "12",
-        "14",
-        "13"
+        "203",
+        "9",
+        "8",
+        "10"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     },
     "hi": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
+      "options": [
+        "203",
+        "9",
+        "8",
+        "10"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
+    }
+  },
+  {
+    "id": "bs-0076",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
         "5",
-        "12",
-        "14",
-        "13"
+        "4",
+        "8",
+        "182"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
+      "options": [
+        "5",
+        "4",
+        "8",
+        "182"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
+    }
+  },
+  {
+    "id": "bs-0077",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
+      "options": [
+        "12",
+        "15",
+        "13",
+        "11"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
+      "options": [
+        "12",
+        "15",
+        "13",
+        "11"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     }
   },
   {
@@ -2007,76 +2007,76 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "17",
+        "11",
+        "14",
         "16",
         "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     },
     "hi": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "17",
+        "11",
+        "14",
         "16",
         "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     }
   },
   {
     "id": "bs-0079",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
-      "options": [
-        "10",
-        "12",
-        "11",
-        "5"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
-    },
-    "hi": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
-      "options": [
-        "10",
-        "12",
-        "11",
-        "5"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
-    }
-  },
-  {
-    "id": "bs-0080",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "14",
-        "12",
         "13",
-        "5"
+        "10",
+        "9",
+        "9"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
     },
     "hi": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "14",
-        "12",
         "13",
-        "5"
+        "10",
+        "9",
+        "9"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
+    }
+  },
+  {
+    "id": "bs-0080",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
+      "options": [
+        "13",
+        "11",
+        "14",
+        "12"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
+      "options": [
+        "13",
+        "11",
+        "14",
+        "12"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     }
   },
   {
@@ -2085,24 +2085,24 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
         "5",
+        "7",
         "10",
-        "9",
         "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     },
     "hi": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
         "5",
+        "7",
         "10",
-        "9",
         "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     }
   },
   {
@@ -2111,50 +2111,50 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "8",
+        "15",
         "7",
+        "5",
         "6"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     },
     "hi": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "8",
+        "15",
         "7",
+        "5",
         "6"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     }
   },
   {
     "id": "bs-0083",
-    "correctOption": "C",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
-        "10",
-        "5",
-        "9",
-        "11"
+        "8",
+        "13",
+        "11",
+        "9"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     },
     "hi": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
-        "10",
-        "5",
-        "9",
-        "11"
+        "8",
+        "13",
+        "11",
+        "9"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     }
   },
   {
@@ -2163,24 +2163,24 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "6",
-        "5",
         "7",
-        "7"
+        "5",
+        "4",
+        "13"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     },
     "hi": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "6",
-        "5",
         "7",
-        "7"
+        "5",
+        "4",
+        "13"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     }
   },
   {
@@ -2189,102 +2189,102 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "14",
+        "11",
+        "11",
         "13",
-        "5",
         "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "14",
+        "11",
+        "11",
         "13",
-        "5",
         "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     }
   },
   {
     "id": "bs-0086",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
-      "options": [
-        "17",
-        "5",
-        "15",
-        "16"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
-    },
-    "hi": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
-      "options": [
-        "17",
-        "5",
-        "15",
-        "16"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
-    }
-  },
-  {
-    "id": "bs-0087",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
-      "options": [
-        "5",
-        "10",
-        "11",
-        "12"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
-    },
-    "hi": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
-      "options": [
-        "5",
-        "10",
-        "11",
-        "12"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
-    }
-  },
-  {
-    "id": "bs-0088",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "5",
         "14",
-        "13",
-        "12"
+        "18",
+        "177",
+        "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     },
     "hi": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "5",
         "14",
+        "18",
+        "177",
+        "15"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
+    }
+  },
+  {
+    "id": "bs-0087",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
+      "options": [
+        "10",
+        "9",
         "13",
         "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
+      "options": [
+        "10",
+        "9",
+        "13",
+        "12"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
+    }
+  },
+  {
+    "id": "bs-0088",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
+      "options": [
+        "11",
+        "12",
+        "14",
+        "11"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
+      "options": [
+        "11",
+        "12",
+        "14",
+        "11"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     }
   },
   {
@@ -2293,24 +2293,24 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "10",
-        "5",
+        "15",
+        "11",
         "8",
-        "9"
+        "7"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     },
     "hi": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "10",
-        "5",
+        "15",
+        "11",
         "8",
-        "9"
+        "7"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     }
   },
   {
@@ -2319,102 +2319,102 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
         "6",
         "5",
-        "8",
-        "7"
+        "7",
+        "13"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     },
     "hi": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
         "6",
         "5",
-        "8",
-        "7"
+        "7",
+        "13"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     }
   },
   {
     "id": "bs-0091",
-    "correctOption": "D",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
-        "11",
-        "5",
-        "10",
-        "9"
+        "8",
+        "9",
+        "15",
+        "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     },
     "hi": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
-        "11",
-        "5",
-        "10",
-        "9"
+        "8",
+        "9",
+        "15",
+        "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     }
   },
   {
     "id": "bs-0092",
-    "correctOption": "C",
+    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "7",
-        "6",
         "5",
-        "7"
+        "4",
+        "15",
+        "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     },
     "hi": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "7",
-        "6",
         "5",
-        "7"
+        "4",
+        "15",
+        "8"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     }
   },
   {
     "id": "bs-0093",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "14",
-        "13",
-        "12"
+        "15",
+        "11",
+        "12",
+        "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 20 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "5",
-        "14",
-        "13",
-        "12"
+        "15",
+        "11",
+        "12",
+        "15"
       ],
-      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (20 + 4)/2 = 12 km/hr."
     }
   },
   {
@@ -2423,50 +2423,50 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
         "15",
-        "16",
         "17",
-        "5"
+        "14",
+        "13"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     },
     "hi": {
-      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 24 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
         "15",
-        "16",
         "17",
-        "5"
+        "14",
+        "13"
       ],
-      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (24 + 6)/2 = 15 km/hr."
     }
   },
   {
     "id": "bs-0095",
-    "correctOption": "C",
+    "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "5",
+        "15",
         "11",
-        "10",
-        "12"
+        "9",
+        "10"
       ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
     },
     "hi": {
-      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 16 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
-        "5",
+        "15",
         "11",
-        "10",
-        "12"
+        "9",
+        "10"
       ],
-      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (16 + 4)/2 = 10 km/hr."
     }
   },
   {
@@ -2475,128 +2475,128 @@
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "14",
-        "5",
-        "13",
+        "9",
+        "11",
+        "15",
         "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "question": "Downstream speed 18 km/hr, upstream 6 km/hr. Boat speed in still water?",
       "options": [
-        "14",
-        "5",
-        "13",
+        "9",
+        "11",
+        "15",
         "12"
       ],
-      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (18 + 6)/2 = 12 km/hr."
     }
   },
   {
     "id": "bs-0097",
-    "correctOption": "A",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
+        "7",
         "8",
         "9",
-        "10",
-        "5"
+        "7"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     },
     "hi": {
-      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "question": "Downstream speed 12 km/hr, upstream 4 km/hr. Boat speed in still water?",
       "options": [
+        "7",
         "8",
         "9",
-        "10",
-        "5"
+        "7"
       ],
-      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (12 + 4)/2 = 8 km/hr."
     }
   },
   {
     "id": "bs-0098",
-    "correctOption": "D",
+    "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "8",
         "5",
         "7",
-        "6"
+        "6",
+        "7"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     },
     "hi": {
-      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 10 km/hr, upstream 2 km/hr. Boat speed in still water?",
       "options": [
-        "8",
         "5",
         "7",
-        "6"
+        "6",
+        "7"
       ],
-      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (10 + 2)/2 = 6 km/hr."
     }
   },
   {
     "id": "bs-0099",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
-      "options": [
-        "9",
-        "11",
-        "5",
-        "10"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
-    },
-    "hi": {
-      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
-      "options": [
-        "9",
-        "11",
-        "5",
-        "10"
-      ],
-      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
-    }
-  },
-  {
-    "id": "bs-0100",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
-        "7",
-        "7",
-        "6",
-        "5"
+        "13",
+        "10",
+        "8",
+        "9"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
     },
     "hi": {
-      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "question": "Downstream speed 15 km/hr, upstream 3 km/hr. Boat speed in still water?",
       "options": [
-        "7",
-        "7",
-        "6",
-        "5"
+        "13",
+        "10",
+        "8",
+        "9"
       ],
-      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+      "explanation": "Boat speed = (DS + US)/2 = (15 + 3)/2 = 9 km/hr."
+    }
+  },
+  {
+    "id": "bs-0100",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
+      "options": [
+        "8",
+        "4",
+        "5",
+        "7"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
+    },
+    "hi": {
+      "question": "Downstream speed 8 km/hr, upstream 2 km/hr. Boat speed in still water?",
+      "options": [
+        "8",
+        "4",
+        "5",
+        "7"
+      ],
+      "explanation": "Boat speed = (DS + US)/2 = (8 + 2)/2 = 5 km/hr."
     }
   }
 ]
