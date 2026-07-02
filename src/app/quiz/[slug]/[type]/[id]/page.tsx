@@ -289,7 +289,11 @@ export default function QuizPage() {
                 <button key={option} onClick={() => handleSelectOption(currentQuestion.id, option)} disabled={isSubmitted}
                   className={getOptionStyle(currentQuestion, option)}>
                   <span className="font-semibold mr-3 text-gray-400">({option})</span>
-                  {currentQuestion[`option${option}` as keyof Question] as string}
+                  {currentQuestion.optionImages?.[option] ? (
+                    <img src={currentQuestion.optionImages[option]} alt={`Option ${option}`} className="max-w-full h-auto max-h-32" />
+                  ) : (
+                    currentQuestion[`option${option}` as keyof Question] as string
+                  )}
                 </button>
               ))}
             </div>
@@ -410,7 +414,7 @@ function ResultsView({ session, questions, examId }: { session: TestSession; que
                         const isCorrectOpt = q.correctOption === opt;
                         return (
                           <div key={opt} className={`text-sm pl-4 ${isCorrectOpt ? 'text-green-700 font-medium' : (isSelected && !isCorrectOpt) ? 'text-red-600' : 'text-gray-600'}`}>
-                            ({opt}) {q[`option${opt}` as keyof Question] as string}{isCorrectOpt && ' ✓'}{isSelected && !isCorrectOpt && ' ✗'}
+                            ({opt}) {q.optionImages?.[opt] ? <img src={q.optionImages[opt]} alt={`Option ${opt}`} className="max-w-full h-auto max-h-24 inline" /> : q[`option${opt}` as keyof Question] as string}{isCorrectOpt && ' ✓'}{isSelected && !isCorrectOpt && ' ✗'}
                           </div>
                         );
                       })}
