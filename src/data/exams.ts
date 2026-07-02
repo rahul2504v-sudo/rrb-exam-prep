@@ -89,7 +89,9 @@ const gdMathematics: Subject = {
   topics: [
     { id: 'group-d-mathematics-real', name: 'Real Exam Questions (Dec 2025)', slug: 'real-exam-math', questionCount: 2309 },
   ],
-};\n\nconst gdScience: Subject = {
+};
+
+const gdScience: Subject = {
   id: 'group-d-science',
   name: 'General Science',
   slug: 'general-science',
@@ -114,7 +116,9 @@ const gdGeneralAwareness: Subject = {
   topics: [
     { id: 'group-d-ga-real', name: 'Real Exam Questions (Dec 2025)', slug: 'real-exam-ga', questionCount: 2395 },
   ],
-};\n\n// ============================================================================
+};
+
+// ============================================================================
 // Exam Patterns
 // ============================================================================
 
