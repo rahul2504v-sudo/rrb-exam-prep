@@ -1,2602 +1,2602 @@
 [
   {
-    "id": "nms-0099",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Mode of: 5,7,8,5,9,7,10,5,7,5?",
-      "options": [
-        "5",
-        "7",
-        "8",
-        "9"
-      ],
-      "explanation": "5 appears 4 times, most frequent."
-    },
-    "hi": {
-      "question": "5,7,8,5,9,7,10,5,7,5 का बहुलक?",
-      "options": [
-        "5",
-        "7",
-        "8",
-        "9"
-      ],
-      "explanation": "5 चार बार, बहुलक=5।"
-    }
-  },
-  {
-    "id": "nms-0100",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Median of 12,18,24,x,36,40,48 is 30. x=?",
-      "options": [
-        "28",
-        "30",
-        "32",
-        "34"
-      ],
-      "explanation": "7 terms, 4th is median. x=30."
-    },
-    "hi": {
-      "question": "माध्यिका 30, x=?",
-      "options": [
-        "28",
-        "30",
-        "32",
-        "34"
-      ],
-      "explanation": "30।"
-    }
-  },
-  {
-    "id": "nms-0101",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Mean of 20 observations=45. Each increased by 5. New mean?",
-      "options": [
-        "45",
-        "50",
-        "40",
-        "55"
-      ],
-      "explanation": "Mean also increases by 5. New=50."
-    },
-    "hi": {
-      "question": "20 प्रेक्षण माध्य 45, प्रत्येक +5। नया?",
-      "options": [
-        "45",
-        "50",
-        "40",
-        "55"
-      ],
-      "explanation": "50।"
-    }
-  },
-  {
-    "id": "nms-0102",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Median of: 12,15,8,22,10,18,25?",
-      "options": [
-        "15",
-        "12",
-        "18",
-        "22"
-      ],
-      "explanation": "Sorted: 8,10,12,15,18,22,25. 4th=15."
-    },
-    "hi": {
-      "question": "12,15,8,22,10,18,25 की माध्यिका?",
-      "options": [
-        "15",
-        "12",
-        "18",
-        "22"
-      ],
-      "explanation": "15।"
-    }
-  },
-  {
-    "id": "nms-0103",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Mean of 5 numbers=30. Four: 28,32,25,35. Fifth?",
-      "options": [
-        "30",
-        "28",
-        "32",
-        "26"
-      ],
-      "explanation": "150-120=30."
-    },
-    "hi": {
-      "question": "5 संख्याओं का माध्य 30, चार:28,32,25,35। पाँचवीं?",
-      "options": [
-        "30",
-        "28",
-        "32",
-        "26"
-      ],
-      "explanation": "30।"
-    }
-  },
-  {
-    "id": "nms-0104",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Range of: 45,52,48,55,60,58,42,50,56,44?",
-      "options": [
-        "18",
-        "16",
-        "20",
-        "15"
-      ],
-      "explanation": "60-42=18."
-    },
-    "hi": {
-      "question": "परिसर: 45,52,48,55,60,58,42,50,56,44?",
-      "options": [
-        "18",
-        "16",
-        "20",
-        "15"
-      ],
-      "explanation": "18।"
-    }
-  },
-  {
-    "id": "nms-0105",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Mean 20, each ×2. New mean?",
-      "options": [
-        "40",
-        "20",
-        "30",
-        "50"
-      ],
-      "explanation": "Mean×2=40."
-    },
-    "hi": {
-      "question": "माध्य 20, प्रत्येक×2। नया?",
-      "options": [
-        "40",
-        "20",
-        "30",
-        "50"
-      ],
-      "explanation": "40।"
-    }
-  },
-  {
-    "id": "nms-0106",
+    "id": "stat-0001",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Mean of 8,12,15,20,25?",
+      "question": "Median of 47, 68, 76, 86, 77...?",
       "options": [
-        "14",
-        "15",
-        "16",
-        "18"
+        "78",
+        "60",
+        "76",
+        "71"
       ],
-      "explanation": "Sum=80/5=16."
+      "explanation": "Ordered: [47, 53, 65, 68, 76, 77, 86, 97]. Median = 76."
     },
     "hi": {
-      "question": "8,12,15,20,25 का माध्य?",
+      "question": "Median of 47, 68, 76, 86, 77...?",
       "options": [
-        "14",
-        "15",
-        "16",
-        "18"
+        "78",
+        "60",
+        "76",
+        "71"
       ],
-      "explanation": "16।"
+      "explanation": "Ordered: [47, 53, 65, 68, 76, 77, 86, 97]. Median = 76."
     }
   },
   {
-    "id": "nms-0107",
+    "id": "stat-0002",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Median of 3,7,1,9,5,11,2?",
+      "question": "Median of 61, 12, 39, 38, 26...?",
       "options": [
-        "2",
-        "5",
-        "7",
-        "3"
+        "48",
+        "38",
+        "30",
+        "36"
       ],
-      "explanation": "Sorted:1,2,3,5,7,9,11. 4th=5."
+      "explanation": "Ordered: [12, 12, 26, 37, 38, 39, 61, 85]. Median = 38."
     },
     "hi": {
-      "question": "3,7,1,9,5,11,2 की माध्यिका?",
+      "question": "Median of 61, 12, 39, 38, 26...?",
       "options": [
-        "2",
-        "5",
-        "7",
-        "3"
+        "48",
+        "38",
+        "30",
+        "36"
       ],
-      "explanation": "5।"
+      "explanation": "Ordered: [12, 12, 26, 37, 38, 39, 61, 85]. Median = 38."
     }
   },
   {
-    "id": "nms-0108",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mode of 2,3,3,4,4,4,5,5,6?",
-      "options": [
-        "4",
-        "3",
-        "5",
-        "6"
-      ],
-      "explanation": "4 appears 3 times."
-    },
-    "hi": {
-      "question": "2,3,3,4,4,4,5,5,6 का बहुलक?",
-      "options": [
-        "4",
-        "3",
-        "5",
-        "6"
-      ],
-      "explanation": "4।"
-    }
-  },
-  {
-    "id": "nms-0109",
+    "id": "stat-0003",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Find median of first 9 prime numbers.",
+      "question": "Median of 58, 91, 42, 78, 89...?",
       "options": [
-        "7",
-        "13",
-        "17",
-        "11"
-      ],
-      "explanation": "Primes:2,3,5,7,11,13,17,19,23. 5th=11."
-    },
-    "hi": {
-      "question": "प्रथम 9 अभाज्यों की माध्यिका?",
-      "options": [
-        "7",
-        "13",
-        "17",
-        "11"
-      ],
-      "explanation": "11।"
-    }
-  },
-  {
-    "id": "nms-0110",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of 10 numbers=25. Sum of 9 numbers=220. 10th?",
-      "options": [
-        "25",
-        "35",
+        "88",
         "30",
-        "20"
+        "76",
+        "78"
       ],
-      "explanation": "250-220=30."
+      "explanation": "Ordered: [16, 16, 42, 58, 78, 86, 89, 91]. Median = 78."
     },
     "hi": {
-      "question": "10 का माध्य 25, 9 का योग 220। 10वीं?",
+      "question": "Median of 58, 91, 42, 78, 89...?",
       "options": [
-        "25",
-        "35",
+        "88",
         "30",
-        "20"
+        "76",
+        "78"
       ],
-      "explanation": "30।"
+      "explanation": "Ordered: [16, 16, 42, 58, 78, 86, 89, 91]. Median = 78."
     }
   },
   {
-    "id": "nms-0111",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of 30 observations=18. Each observation multiplied by 3 then 5 added. New mean?",
-      "options": [
-        "59",
-        "54",
-        "60",
-        "55"
-      ],
-      "explanation": "New mean=3×18+5=59."
-    },
-    "hi": {
-      "question": "30 प्रेक्षण माध्य 18, ×3+5। नया माध्य?",
-      "options": [
-        "59",
-        "54",
-        "60",
-        "55"
-      ],
-      "explanation": "59।"
-    }
-  },
-  {
-    "id": "nms-0112",
+    "id": "stat-0004",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Find the range of: 23,18,45,12,67,34,29.",
+      "question": "Median of 63, 66, 58, 25, 80...?",
+      "options": [
+        "30",
+        "66",
+        "68",
+        "64"
+      ],
+      "explanation": "Ordered: [25, 42, 58, 63, 66, 70, 80, 99]. Median = 66."
+    },
+    "hi": {
+      "question": "Median of 63, 66, 58, 25, 80...?",
+      "options": [
+        "30",
+        "66",
+        "68",
+        "64"
+      ],
+      "explanation": "Ordered: [25, 42, 58, 63, 66, 70, 80, 99]. Median = 66."
+    }
+  },
+  {
+    "id": "stat-0005",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 94, 76, 44, 89, 87...?",
+      "options": [
+        "77",
+        "70",
+        "89",
+        "87"
+      ],
+      "explanation": "Ordered: [27, 44, 63, 76, 87, 89, 94, 99]. Median = 87."
+    },
+    "hi": {
+      "question": "Median of 94, 76, 44, 89, 87...?",
+      "options": [
+        "77",
+        "70",
+        "89",
+        "87"
+      ],
+      "explanation": "Ordered: [27, 44, 63, 76, 87, 89, 94, 99]. Median = 87."
+    }
+  },
+  {
+    "id": "stat-0006",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 23, 73, 35, 87, 35...?",
+      "options": [
+        "48",
+        "60",
+        "43",
+        "33"
+      ],
+      "explanation": "Ordered: [23, 35, 35, 35, 43, 73, 76, 87]. Median = 43."
+    },
+    "hi": {
+      "question": "Median of 23, 73, 35, 87, 35...?",
+      "options": [
+        "48",
+        "60",
+        "43",
+        "33"
+      ],
+      "explanation": "Ordered: [23, 35, 35, 35, 43, 73, 76, 87]. Median = 43."
+    }
+  },
+  {
+    "id": "stat-0007",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 80, 73, 36, 98, 71...?",
+      "options": [
+        "30",
+        "73",
+        "61",
+        "71"
+      ],
+      "explanation": "Ordered: [10, 36, 40, 52, 71, 73, 80, 98]. Median = 71."
+    },
+    "hi": {
+      "question": "Median of 80, 73, 36, 98, 71...?",
+      "options": [
+        "30",
+        "73",
+        "61",
+        "71"
+      ],
+      "explanation": "Ordered: [10, 36, 40, 52, 71, 73, 80, 98]. Median = 71."
+    }
+  },
+  {
+    "id": "stat-0008",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 29, 21, 75, 19, 22...?",
+      "options": [
+        "44",
+        "34",
+        "39",
+        "50"
+      ],
+      "explanation": "Ordered: [19, 21, 22, 29, 39, 42, 75, 92]. Median = 39."
+    },
+    "hi": {
+      "question": "Median of 29, 21, 75, 19, 22...?",
+      "options": [
+        "44",
+        "34",
+        "39",
+        "50"
+      ],
+      "explanation": "Ordered: [19, 21, 22, 29, 39, 42, 75, 92]. Median = 39."
+    }
+  },
+  {
+    "id": "stat-0009",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 32, 15, 47, 56, 96...?",
+      "options": [
+        "30",
+        "50",
+        "48",
+        "52"
+      ],
+      "explanation": "Ordered: [15, 24, 32, 47, 50, 56, 64, 96]. Median = 50."
+    },
+    "hi": {
+      "question": "Median of 32, 15, 47, 56, 96...?",
+      "options": [
+        "30",
+        "50",
+        "48",
+        "52"
+      ],
+      "explanation": "Ordered: [15, 24, 32, 47, 50, 56, 64, 96]. Median = 50."
+    }
+  },
+  {
+    "id": "stat-0010",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 52, 55, 66, 89, 44...?",
+      "options": [
+        "55",
+        "53",
+        "57",
+        "60"
+      ],
+      "explanation": "Ordered: [21, 44, 52, 53, 55, 57, 66, 89]. Median = 55."
+    },
+    "hi": {
+      "question": "Median of 52, 55, 66, 89, 44...?",
+      "options": [
+        "55",
+        "53",
+        "57",
+        "60"
+      ],
+      "explanation": "Ordered: [21, 44, 52, 53, 55, 57, 66, 89]. Median = 55."
+    }
+  },
+  {
+    "id": "stat-0011",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 59, 98, 71, 63, 93...?",
+      "options": [
+        "53",
+        "30",
+        "63",
+        "73"
+      ],
+      "explanation": "Ordered: [24, 26, 31, 59, 63, 71, 93, 98]. Median = 63."
+    },
+    "hi": {
+      "question": "Median of 59, 98, 71, 63, 93...?",
+      "options": [
+        "53",
+        "30",
+        "63",
+        "73"
+      ],
+      "explanation": "Ordered: [24, 26, 31, 59, 63, 71, 93, 98]. Median = 63."
+    }
+  },
+  {
+    "id": "stat-0012",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 85, 71, 82, 96, 66...?",
+      "options": [
+        "82",
+        "72",
+        "30",
+        "87"
+      ],
+      "explanation": "Ordered: [33, 58, 66, 71, 82, 85, 88, 96]. Median = 82."
+    },
+    "hi": {
+      "question": "Median of 85, 71, 82, 96, 66...?",
+      "options": [
+        "82",
+        "72",
+        "30",
+        "87"
+      ],
+      "explanation": "Ordered: [33, 58, 66, 71, 82, 85, 88, 96]. Median = 82."
+    }
+  },
+  {
+    "id": "stat-0013",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 24, 62, 66, 15, 18...?",
+      "options": [
+        "50",
+        "70",
+        "40",
+        "52"
+      ],
+      "explanation": "Ordered: [15, 18, 24, 43, 50, 62, 66, 93]. Median = 50."
+    },
+    "hi": {
+      "question": "Median of 24, 62, 66, 15, 18...?",
+      "options": [
+        "50",
+        "70",
+        "40",
+        "52"
+      ],
+      "explanation": "Ordered: [15, 18, 24, 43, 50, 62, 66, 93]. Median = 50."
+    }
+  },
+  {
+    "id": "stat-0014",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 76, 76, 98, 99, 89...?",
+      "options": [
+        "89",
+        "99",
+        "60",
+        "87"
+      ],
+      "explanation": "Ordered: [22, 65, 76, 76, 89, 94, 98, 99]. Median = 89."
+    },
+    "hi": {
+      "question": "Median of 76, 76, 98, 99, 89...?",
+      "options": [
+        "89",
+        "99",
+        "60",
+        "87"
+      ],
+      "explanation": "Ordered: [22, 65, 76, 76, 89, 94, 98, 99]. Median = 89."
+    }
+  },
+  {
+    "id": "stat-0015",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 29, 81, 88, 16, 11...?",
+      "options": [
+        "40",
+        "69",
+        "79",
+        "74"
+      ],
+      "explanation": "Ordered: [11, 16, 29, 30, 74, 81, 88, 92]. Median = 74."
+    },
+    "hi": {
+      "question": "Median of 29, 81, 88, 16, 11...?",
+      "options": [
+        "40",
+        "69",
+        "79",
+        "74"
+      ],
+      "explanation": "Ordered: [11, 16, 29, 30, 74, 81, 88, 92]. Median = 74."
+    }
+  },
+  {
+    "id": "stat-0016",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 40, 52, 45, 16, 74...?",
+      "options": [
+        "40",
+        "47",
+        "57",
+        "52"
+      ],
+      "explanation": "Ordered: [16, 38, 40, 45, 52, 74, 80, 92]. Median = 52."
+    },
+    "hi": {
+      "question": "Median of 40, 52, 45, 16, 74...?",
+      "options": [
+        "40",
+        "47",
+        "57",
+        "52"
+      ],
+      "explanation": "Ordered: [16, 38, 40, 45, 52, 74, 80, 92]. Median = 52."
+    }
+  },
+  {
+    "id": "stat-0017",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 83, 67, 21, 73, 67...?",
+      "options": [
+        "30",
+        "57",
+        "77",
+        "67"
+      ],
+      "explanation": "Ordered: [21, 25, 50, 67, 67, 73, 73, 83]. Median = 67."
+    },
+    "hi": {
+      "question": "Median of 83, 67, 21, 73, 67...?",
+      "options": [
+        "30",
+        "57",
+        "77",
+        "67"
+      ],
+      "explanation": "Ordered: [21, 25, 50, 67, 67, 73, 73, 83]. Median = 67."
+    }
+  },
+  {
+    "id": "stat-0018",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 14, 81, 80, 10, 21...?",
+      "options": [
+        "81",
+        "70",
+        "71",
+        "86"
+      ],
+      "explanation": "Ordered: [10, 14, 21, 80, 81, 87, 89, 91]. Median = 81."
+    },
+    "hi": {
+      "question": "Median of 14, 81, 80, 10, 21...?",
+      "options": [
+        "81",
+        "70",
+        "71",
+        "86"
+      ],
+      "explanation": "Ordered: [10, 14, 21, 80, 81, 87, 89, 91]. Median = 81."
+    }
+  },
+  {
+    "id": "stat-0019",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 53, 56, 16, 38, 68...?",
+      "options": [
+        "66",
+        "51",
+        "56",
+        "50"
+      ],
+      "explanation": "Ordered: [16, 38, 52, 53, 56, 68, 81, 89]. Median = 56."
+    },
+    "hi": {
+      "question": "Median of 53, 56, 16, 38, 68...?",
+      "options": [
+        "66",
+        "51",
+        "56",
+        "50"
+      ],
+      "explanation": "Ordered: [16, 38, 52, 53, 56, 68, 81, 89]. Median = 56."
+    }
+  },
+  {
+    "id": "stat-0020",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 94, 38, 10, 53, 55...?",
+      "options": [
+        "50",
+        "65",
+        "30",
+        "55"
+      ],
+      "explanation": "Ordered: [10, 38, 47, 53, 55, 80, 91, 94]. Median = 55."
+    },
+    "hi": {
+      "question": "Median of 94, 38, 10, 53, 55...?",
+      "options": [
+        "50",
+        "65",
+        "30",
+        "55"
+      ],
+      "explanation": "Ordered: [10, 38, 47, 53, 55, 80, 91, 94]. Median = 55."
+    }
+  },
+  {
+    "id": "stat-0021",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 27, 62, 23, 42, 88...?",
+      "options": [
+        "35",
+        "60",
+        "33",
+        "40"
+      ],
+      "explanation": "Ordered: [23, 25, 27, 34, 35, 42, 62, 88]. Median = 35."
+    },
+    "hi": {
+      "question": "Median of 27, 62, 23, 42, 88...?",
+      "options": [
+        "35",
+        "60",
+        "33",
+        "40"
+      ],
+      "explanation": "Ordered: [23, 25, 27, 34, 35, 42, 62, 88]. Median = 35."
+    }
+  },
+  {
+    "id": "stat-0022",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 23, 63, 15, 91, 96...?",
+      "options": [
+        "57",
+        "67",
+        "70",
+        "72"
+      ],
+      "explanation": "Ordered: [15, 23, 25, 63, 67, 85, 91, 96]. Median = 67."
+    },
+    "hi": {
+      "question": "Median of 23, 63, 15, 91, 96...?",
+      "options": [
+        "57",
+        "67",
+        "70",
+        "72"
+      ],
+      "explanation": "Ordered: [15, 23, 25, 63, 67, 85, 91, 96]. Median = 67."
+    }
+  },
+  {
+    "id": "stat-0023",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 77, 16, 80, 65, 84...?",
+      "options": [
+        "65",
+        "40",
+        "75",
+        "85"
+      ],
+      "explanation": "Ordered: [16, 32, 65, 71, 75, 77, 80, 84]. Median = 75."
+    },
+    "hi": {
+      "question": "Median of 77, 16, 80, 65, 84...?",
+      "options": [
+        "65",
+        "40",
+        "75",
+        "85"
+      ],
+      "explanation": "Ordered: [16, 32, 65, 71, 75, 77, 80, 84]. Median = 75."
+    }
+  },
+  {
+    "id": "stat-0024",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 94, 86, 87, 51, 74...?",
+      "options": [
+        "86",
+        "84",
+        "96",
+        "50"
+      ],
+      "explanation": "Ordered: [51, 59, 63, 74, 86, 87, 87, 94]. Median = 86."
+    },
+    "hi": {
+      "question": "Median of 94, 86, 87, 51, 74...?",
+      "options": [
+        "86",
+        "84",
+        "96",
+        "50"
+      ],
+      "explanation": "Ordered: [51, 59, 63, 74, 86, 87, 87, 94]. Median = 86."
+    }
+  },
+  {
+    "id": "stat-0025",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 67, 27, 27, 62, 87...?",
+      "options": [
+        "50",
+        "57",
+        "67",
+        "77"
+      ],
+      "explanation": "Ordered: [27, 27, 48, 62, 67, 75, 87, 99]. Median = 67."
+    },
+    "hi": {
+      "question": "Median of 67, 27, 27, 62, 87...?",
+      "options": [
+        "50",
+        "57",
+        "67",
+        "77"
+      ],
+      "explanation": "Ordered: [27, 27, 48, 62, 67, 75, 87, 99]. Median = 67."
+    }
+  },
+  {
+    "id": "stat-0026",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 89, 47, 97, 54, 96...?",
+      "options": [
+        "95",
+        "93",
+        "70",
+        "83"
+      ],
+      "explanation": "Ordered: [26, 47, 54, 89, 93, 96, 97, 100]. Median = 93."
+    },
+    "hi": {
+      "question": "Median of 89, 47, 97, 54, 96...?",
+      "options": [
+        "95",
+        "93",
+        "70",
+        "83"
+      ],
+      "explanation": "Ordered: [26, 47, 54, 89, 93, 96, 97, 100]. Median = 93."
+    }
+  },
+  {
+    "id": "stat-0027",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 55, 81, 71, 84, 83...?",
+      "options": [
+        "70",
+        "83",
+        "93",
+        "73"
+      ],
+      "explanation": "Ordered: [55, 63, 71, 81, 83, 84, 95, 100]. Median = 83."
+    },
+    "hi": {
+      "question": "Median of 55, 81, 71, 84, 83...?",
+      "options": [
+        "70",
+        "83",
+        "93",
+        "73"
+      ],
+      "explanation": "Ordered: [55, 63, 71, 81, 83, 84, 95, 100]. Median = 83."
+    }
+  },
+  {
+    "id": "stat-0028",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 76, 23, 13, 58, 28...?",
+      "options": [
+        "28",
+        "30",
+        "40",
+        "23"
+      ],
+      "explanation": "Ordered: [13, 16, 17, 23, 28, 58, 76, 95]. Median = 28."
+    },
+    "hi": {
+      "question": "Median of 76, 23, 13, 58, 28...?",
+      "options": [
+        "28",
+        "30",
+        "40",
+        "23"
+      ],
+      "explanation": "Ordered: [13, 16, 17, 23, 28, 58, 76, 95]. Median = 28."
+    }
+  },
+  {
+    "id": "stat-0029",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 28, 17, 98, 47, 36...?",
+      "options": [
+        "47",
+        "70",
+        "45",
+        "52"
+      ],
+      "explanation": "Ordered: [14, 17, 28, 36, 47, 55, 79, 98]. Median = 47."
+    },
+    "hi": {
+      "question": "Median of 28, 17, 98, 47, 36...?",
+      "options": [
+        "47",
+        "70",
+        "45",
+        "52"
+      ],
+      "explanation": "Ordered: [14, 17, 28, 36, 47, 55, 79, 98]. Median = 47."
+    }
+  },
+  {
+    "id": "stat-0030",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 40, 75, 99, 46, 98...?",
+      "options": [
+        "70",
+        "80",
+        "50",
+        "75"
+      ],
+      "explanation": "Ordered: [16, 40, 46, 58, 75, 95, 98, 99]. Median = 75."
+    },
+    "hi": {
+      "question": "Median of 40, 75, 99, 46, 98...?",
+      "options": [
+        "70",
+        "80",
+        "50",
+        "75"
+      ],
+      "explanation": "Ordered: [16, 40, 46, 58, 75, 95, 98, 99]. Median = 75."
+    }
+  },
+  {
+    "id": "stat-0031",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 35, 89, 66, 38, 91...?",
+      "options": [
+        "70",
+        "91",
+        "81",
+        "96"
+      ],
+      "explanation": "Ordered: [35, 38, 66, 89, 91, 92, 100, 100]. Median = 91."
+    },
+    "hi": {
+      "question": "Median of 35, 89, 66, 38, 91...?",
+      "options": [
+        "70",
+        "91",
+        "81",
+        "96"
+      ],
+      "explanation": "Ordered: [35, 38, 66, 89, 91, 92, 100, 100]. Median = 91."
+    }
+  },
+  {
+    "id": "stat-0032",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 47, 67, 32, 97, 19...?",
+      "options": [
+        "47",
+        "42",
+        "49",
+        "30"
+      ],
+      "explanation": "Ordered: [19, 32, 32, 33, 47, 67, 75, 97]. Median = 47."
+    },
+    "hi": {
+      "question": "Median of 47, 67, 32, 97, 19...?",
+      "options": [
+        "47",
+        "42",
+        "49",
+        "30"
+      ],
+      "explanation": "Ordered: [19, 32, 32, 33, 47, 67, 75, 97]. Median = 47."
+    }
+  },
+  {
+    "id": "stat-0033",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 26, 30, 84, 42, 10...?",
+      "options": [
+        "54",
+        "52",
+        "40",
+        "50"
+      ],
+      "explanation": "Ordered: [10, 26, 30, 42, 52, 69, 84, 100]. Median = 52."
+    },
+    "hi": {
+      "question": "Median of 26, 30, 84, 42, 10...?",
+      "options": [
+        "54",
+        "52",
+        "40",
+        "50"
+      ],
+      "explanation": "Ordered: [10, 26, 30, 42, 52, 69, 84, 100]. Median = 52."
+    }
+  },
+  {
+    "id": "stat-0034",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 90, 88, 94, 48, 72...?",
+      "options": [
+        "50",
+        "73",
+        "83",
+        "85"
+      ],
+      "explanation": "Ordered: [48, 55, 72, 80, 83, 88, 90, 94]. Median = 83."
+    },
+    "hi": {
+      "question": "Median of 90, 88, 94, 48, 72...?",
+      "options": [
+        "50",
+        "73",
+        "83",
+        "85"
+      ],
+      "explanation": "Ordered: [48, 55, 72, 80, 83, 88, 90, 94]. Median = 83."
+    }
+  },
+  {
+    "id": "stat-0035",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 74, 30, 63, 79, 78...?",
+      "options": [
+        "63",
+        "50",
+        "65",
+        "61"
+      ],
+      "explanation": "Ordered: [21, 30, 54, 61, 63, 74, 78, 79]. Median = 63."
+    },
+    "hi": {
+      "question": "Median of 74, 30, 63, 79, 78...?",
+      "options": [
+        "63",
+        "50",
+        "65",
+        "61"
+      ],
+      "explanation": "Ordered: [21, 30, 54, 61, 63, 74, 78, 79]. Median = 63."
+    }
+  },
+  {
+    "id": "stat-0036",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 37, 89, 77, 70, 81...?",
+      "options": [
+        "60",
+        "77",
+        "72",
+        "87"
+      ],
+      "explanation": "Ordered: [11, 24, 37, 70, 77, 81, 89, 93]. Median = 77."
+    },
+    "hi": {
+      "question": "Median of 37, 89, 77, 70, 81...?",
+      "options": [
+        "60",
+        "77",
+        "72",
+        "87"
+      ],
+      "explanation": "Ordered: [11, 24, 37, 70, 77, 81, 89, 93]. Median = 77."
+    }
+  },
+  {
+    "id": "stat-0037",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 15, 97, 51, 58, 24...?",
+      "options": [
+        "58",
+        "68",
+        "30",
+        "53"
+      ],
+      "explanation": "Ordered: [15, 24, 42, 51, 58, 59, 79, 97]. Median = 58."
+    },
+    "hi": {
+      "question": "Median of 15, 97, 51, 58, 24...?",
+      "options": [
+        "58",
+        "68",
+        "30",
+        "53"
+      ],
+      "explanation": "Ordered: [15, 24, 42, 51, 58, 59, 79, 97]. Median = 58."
+    }
+  },
+  {
+    "id": "stat-0038",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 72, 15, 47, 93, 34...?",
+      "options": [
+        "53",
+        "70",
+        "49",
+        "51"
+      ],
+      "explanation": "Ordered: [15, 20, 34, 47, 51, 72, 75, 93]. Median = 51."
+    },
+    "hi": {
+      "question": "Median of 72, 15, 47, 93, 34...?",
+      "options": [
+        "53",
+        "70",
+        "49",
+        "51"
+      ],
+      "explanation": "Ordered: [15, 20, 34, 47, 51, 72, 75, 93]. Median = 51."
+    }
+  },
+  {
+    "id": "stat-0039",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 36, 95, 90, 37, 97...?",
+      "options": [
+        "74",
+        "60",
+        "54",
+        "64"
+      ],
+      "explanation": "Ordered: [23, 36, 36, 37, 64, 90, 95, 97]. Median = 64."
+    },
+    "hi": {
+      "question": "Median of 36, 95, 90, 37, 97...?",
+      "options": [
+        "74",
+        "60",
+        "54",
+        "64"
+      ],
+      "explanation": "Ordered: [23, 36, 36, 37, 64, 90, 95, 97]. Median = 64."
+    }
+  },
+  {
+    "id": "stat-0040",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 13, 68, 52, 14, 21...?",
+      "options": [
+        "21",
+        "11",
+        "30",
+        "26"
+      ],
+      "explanation": "Ordered: [13, 14, 16, 19, 21, 32, 52, 68]. Median = 21."
+    },
+    "hi": {
+      "question": "Median of 13, 68, 52, 14, 21...?",
+      "options": [
+        "21",
+        "11",
+        "30",
+        "26"
+      ],
+      "explanation": "Ordered: [13, 14, 16, 19, 21, 32, 52, 68]. Median = 21."
+    }
+  },
+  {
+    "id": "stat-0041",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 59, 67, 90, 61, 65...?",
+      "options": [
+        "71",
+        "70",
+        "59",
+        "61"
+      ],
+      "explanation": "Ordered: [12, 50, 59, 59, 61, 65, 67, 90]. Median = 61."
+    },
+    "hi": {
+      "question": "Median of 59, 67, 90, 61, 65...?",
+      "options": [
+        "71",
+        "70",
+        "59",
+        "61"
+      ],
+      "explanation": "Ordered: [12, 50, 59, 59, 61, 65, 67, 90]. Median = 61."
+    }
+  },
+  {
+    "id": "stat-0042",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 84, 15, 99, 19, 55...?",
+      "options": [
+        "70",
+        "50",
+        "65",
+        "55"
+      ],
+      "explanation": "Ordered: [15, 19, 23, 47, 55, 74, 84, 99]. Median = 55."
+    },
+    "hi": {
+      "question": "Median of 84, 15, 99, 19, 55...?",
+      "options": [
+        "70",
+        "50",
+        "65",
+        "55"
+      ],
+      "explanation": "Ordered: [15, 19, 23, 47, 55, 74, 84, 99]. Median = 55."
+    }
+  },
+  {
+    "id": "stat-0043",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 58, 60, 94, 13, 70...?",
+      "options": [
+        "62",
+        "60",
+        "816",
+        "50"
+      ],
+      "explanation": "Ordered: [13, 30, 38, 58, 60, 70, 78, 94]. Median = 60."
+    },
+    "hi": {
+      "question": "Median of 58, 60, 94, 13, 70...?",
+      "options": [
+        "62",
+        "60",
+        "816",
+        "50"
+      ],
+      "explanation": "Ordered: [13, 30, 38, 58, 60, 70, 78, 94]. Median = 60."
+    }
+  },
+  {
+    "id": "stat-0044",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 48, 96, 92, 57, 11...?",
+      "options": [
+        "82",
+        "80",
+        "78",
+        "30"
+      ],
+      "explanation": "Ordered: [11, 28, 48, 57, 80, 81, 92, 96]. Median = 80."
+    },
+    "hi": {
+      "question": "Median of 48, 96, 92, 57, 11...?",
+      "options": [
+        "82",
+        "80",
+        "78",
+        "30"
+      ],
+      "explanation": "Ordered: [11, 28, 48, 57, 80, 81, 92, 96]. Median = 80."
+    }
+  },
+  {
+    "id": "stat-0045",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 49, 36, 54, 37, 62...?",
+      "options": [
+        "56",
+        "40",
+        "54",
+        "52"
+      ],
+      "explanation": "Ordered: [28, 36, 37, 49, 54, 62, 75, 92]. Median = 54."
+    },
+    "hi": {
+      "question": "Median of 49, 36, 54, 37, 62...?",
+      "options": [
+        "56",
+        "40",
+        "54",
+        "52"
+      ],
+      "explanation": "Ordered: [28, 36, 37, 49, 54, 62, 75, 92]. Median = 54."
+    }
+  },
+  {
+    "id": "stat-0046",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 33, 95, 82, 16, 80...?",
+      "options": [
+        "82",
+        "30",
+        "80",
+        "75"
+      ],
+      "explanation": "Ordered: [16, 33, 69, 80, 80, 82, 92, 95]. Median = 80."
+    },
+    "hi": {
+      "question": "Median of 33, 95, 82, 16, 80...?",
+      "options": [
+        "82",
+        "30",
+        "80",
+        "75"
+      ],
+      "explanation": "Ordered: [16, 33, 69, 80, 80, 82, 92, 95]. Median = 80."
+    }
+  },
+  {
+    "id": "stat-0047",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 84, 72, 52, 55, 26...?",
+      "options": [
+        "67",
+        "74",
+        "70",
+        "72"
+      ],
+      "explanation": "Ordered: [26, 40, 52, 55, 72, 84, 93, 95]. Median = 72."
+    },
+    "hi": {
+      "question": "Median of 84, 72, 52, 55, 26...?",
+      "options": [
+        "67",
+        "74",
+        "70",
+        "72"
+      ],
+      "explanation": "Ordered: [26, 40, 52, 55, 72, 84, 93, 95]. Median = 72."
+    }
+  },
+  {
+    "id": "stat-0048",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 72, 67, 52, 88, 94...?",
+      "options": [
+        "84",
+        "70",
+        "86",
+        "74"
+      ],
+      "explanation": "Ordered: [49, 52, 67, 72, 84, 88, 94, 98]. Median = 84."
+    },
+    "hi": {
+      "question": "Median of 72, 67, 52, 88, 94...?",
+      "options": [
+        "84",
+        "70",
+        "86",
+        "74"
+      ],
+      "explanation": "Ordered: [49, 52, 67, 72, 84, 88, 94, 98]. Median = 84."
+    }
+  },
+  {
+    "id": "stat-0049",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 31, 10, 50, 41, 38...?",
+      "options": [
+        "45",
+        "43",
+        "50",
+        "50"
+      ],
+      "explanation": "Ordered: [10, 31, 38, 41, 45, 50, 65, 92]. Median = 45."
+    },
+    "hi": {
+      "question": "Median of 31, 10, 50, 41, 38...?",
+      "options": [
+        "45",
+        "43",
+        "50",
+        "50"
+      ],
+      "explanation": "Ordered: [10, 31, 38, 41, 45, 50, 65, 92]. Median = 45."
+    }
+  },
+  {
+    "id": "stat-0050",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 55, 49, 72, 80, 23...?",
+      "options": [
+        "67",
+        "72",
+        "40",
+        "74"
+      ],
+      "explanation": "Ordered: [23, 32, 49, 55, 72, 80, 87, 92]. Median = 72."
+    },
+    "hi": {
+      "question": "Median of 55, 49, 72, 80, 23...?",
+      "options": [
+        "67",
+        "72",
+        "40",
+        "74"
+      ],
+      "explanation": "Ordered: [23, 32, 49, 55, 72, 80, 87, 92]. Median = 72."
+    }
+  },
+  {
+    "id": "stat-0051",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 19, 12, 74, 90, 13...?",
+      "options": [
+        "74",
+        "84",
+        "30",
+        "72"
+      ],
+      "explanation": "Ordered: [12, 13, 19, 61, 74, 84, 84, 90]. Median = 74."
+    },
+    "hi": {
+      "question": "Median of 19, 12, 74, 90, 13...?",
+      "options": [
+        "74",
+        "84",
+        "30",
+        "72"
+      ],
+      "explanation": "Ordered: [12, 13, 19, 61, 74, 84, 84, 90]. Median = 74."
+    }
+  },
+  {
+    "id": "stat-0052",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 93, 29, 56, 60, 38...?",
+      "options": [
+        "70",
+        "46",
+        "61",
+        "56"
+      ],
+      "explanation": "Ordered: [27, 29, 38, 47, 56, 60, 85, 93]. Median = 56."
+    },
+    "hi": {
+      "question": "Median of 93, 29, 56, 60, 38...?",
+      "options": [
+        "70",
+        "46",
+        "61",
+        "56"
+      ],
+      "explanation": "Ordered: [27, 29, 38, 47, 56, 60, 85, 93]. Median = 56."
+    }
+  },
+  {
+    "id": "stat-0053",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 74, 11, 94, 40, 88...?",
+      "options": [
+        "40",
+        "75",
+        "70",
+        "77"
+      ],
+      "explanation": "Ordered: [11, 31, 40, 74, 75, 88, 94, 97]. Median = 75."
+    },
+    "hi": {
+      "question": "Median of 74, 11, 94, 40, 88...?",
+      "options": [
+        "40",
+        "75",
+        "70",
+        "77"
+      ],
+      "explanation": "Ordered: [11, 31, 40, 74, 75, 88, 94, 97]. Median = 75."
+    }
+  },
+  {
+    "id": "stat-0054",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 71, 55, 15, 38, 72...?",
+      "options": [
+        "43",
+        "30",
+        "41",
+        "48"
+      ],
+      "explanation": "Ordered: [15, 18, 38, 39, 43, 55, 71, 72]. Median = 43."
+    },
+    "hi": {
+      "question": "Median of 71, 55, 15, 38, 72...?",
+      "options": [
+        "43",
+        "30",
+        "41",
+        "48"
+      ],
+      "explanation": "Ordered: [15, 18, 38, 39, 43, 55, 71, 72]. Median = 43."
+    }
+  },
+  {
+    "id": "stat-0055",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 59, 70, 68, 15, 15...?",
+      "options": [
+        "69",
+        "59",
+        "50",
+        "49"
+      ],
+      "explanation": "Ordered: [15, 15, 23, 51, 59, 68, 70, 93]. Median = 59."
+    },
+    "hi": {
+      "question": "Median of 59, 70, 68, 15, 15...?",
+      "options": [
+        "69",
+        "59",
+        "50",
+        "49"
+      ],
+      "explanation": "Ordered: [15, 15, 23, 51, 59, 68, 70, 93]. Median = 59."
+    }
+  },
+  {
+    "id": "stat-0056",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 58, 93, 58, 56, 85...?",
+      "options": [
+        "76",
+        "71",
+        "81",
+        "40"
+      ],
+      "explanation": "Ordered: [19, 56, 58, 58, 76, 85, 93, 93]. Median = 76."
+    },
+    "hi": {
+      "question": "Median of 58, 93, 58, 56, 85...?",
+      "options": [
+        "76",
+        "71",
+        "81",
+        "40"
+      ],
+      "explanation": "Ordered: [19, 56, 58, 58, 76, 85, 93, 93]. Median = 76."
+    }
+  },
+  {
+    "id": "stat-0057",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 72, 71, 87, 10, 74...?",
+      "options": [
+        "73",
+        "70",
+        "71",
+        "69"
+      ],
+      "explanation": "Ordered: [10, 27, 31, 66, 71, 72, 74, 87]. Median = 71."
+    },
+    "hi": {
+      "question": "Median of 72, 71, 87, 10, 74...?",
+      "options": [
+        "73",
+        "70",
+        "71",
+        "69"
+      ],
+      "explanation": "Ordered: [10, 27, 31, 66, 71, 72, 74, 87]. Median = 71."
+    }
+  },
+  {
+    "id": "stat-0058",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 33, 30, 56, 87, 25...?",
+      "options": [
+        "56",
+        "61",
+        "46",
+        "30"
+      ],
+      "explanation": "Ordered: [25, 30, 33, 39, 56, 63, 87, 94]. Median = 56."
+    },
+    "hi": {
+      "question": "Median of 33, 30, 56, 87, 25...?",
+      "options": [
+        "56",
+        "61",
+        "46",
+        "30"
+      ],
+      "explanation": "Ordered: [25, 30, 33, 39, 56, 63, 87, 94]. Median = 56."
+    }
+  },
+  {
+    "id": "stat-0059",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 71, 36, 85, 30, 92...?",
+      "options": [
+        "70",
+        "60",
+        "62",
+        "64"
+      ],
+      "explanation": "Ordered: [12, 30, 36, 41, 62, 71, 85, 92]. Median = 62."
+    },
+    "hi": {
+      "question": "Median of 71, 36, 85, 30, 92...?",
+      "options": [
+        "70",
+        "60",
+        "62",
+        "64"
+      ],
+      "explanation": "Ordered: [12, 30, 36, 41, 62, 71, 85, 92]. Median = 62."
+    }
+  },
+  {
+    "id": "stat-0060",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 83, 28, 17, 31, 43...?",
+      "options": [
+        "53",
+        "30",
+        "43",
+        "33"
+      ],
+      "explanation": "Ordered: [17, 28, 31, 33, 43, 61, 76, 83]. Median = 43."
+    },
+    "hi": {
+      "question": "Median of 83, 28, 17, 31, 43...?",
+      "options": [
+        "53",
+        "30",
+        "43",
+        "33"
+      ],
+      "explanation": "Ordered: [17, 28, 31, 33, 43, 61, 76, 83]. Median = 43."
+    }
+  },
+  {
+    "id": "stat-0061",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 67, 87, 70, 71, 31...?",
+      "options": [
+        "40",
+        "72",
+        "70",
+        "60"
+      ],
+      "explanation": "Ordered: [31, 38, 62, 67, 70, 71, 86, 87]. Median = 70."
+    },
+    "hi": {
+      "question": "Median of 67, 87, 70, 71, 31...?",
+      "options": [
+        "40",
+        "72",
+        "70",
+        "60"
+      ],
+      "explanation": "Ordered: [31, 38, 62, 67, 70, 71, 86, 87]. Median = 70."
+    }
+  },
+  {
+    "id": "stat-0062",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 68, 86, 85, 18, 39...?",
+      "options": [
+        "61",
+        "57",
+        "59",
+        "40"
+      ],
+      "explanation": "Ordered: [18, 26, 39, 58, 59, 68, 85, 86]. Median = 59."
+    },
+    "hi": {
+      "question": "Median of 68, 86, 85, 18, 39...?",
+      "options": [
+        "61",
+        "57",
+        "59",
+        "40"
+      ],
+      "explanation": "Ordered: [18, 26, 39, 58, 59, 68, 85, 86]. Median = 59."
+    }
+  },
+  {
+    "id": "stat-0063",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 32, 70, 88, 86, 14...?",
+      "options": [
+        "40",
+        "76",
+        "69",
+        "74"
+      ],
+      "explanation": "Ordered: [14, 25, 32, 70, 74, 78, 86, 88]. Median = 74."
+    },
+    "hi": {
+      "question": "Median of 32, 70, 88, 86, 14...?",
+      "options": [
+        "40",
+        "76",
+        "69",
+        "74"
+      ],
+      "explanation": "Ordered: [14, 25, 32, 70, 74, 78, 86, 88]. Median = 74."
+    }
+  },
+  {
+    "id": "stat-0064",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 76, 63, 57, 15, 99...?",
+      "options": [
+        "59",
+        "50",
+        "69",
+        "64"
+      ],
+      "explanation": "Ordered: [15, 39, 57, 63, 64, 76, 77, 99]. Median = 64."
+    },
+    "hi": {
+      "question": "Median of 76, 63, 57, 15, 99...?",
+      "options": [
+        "59",
+        "50",
+        "69",
+        "64"
+      ],
+      "explanation": "Ordered: [15, 39, 57, 63, 64, 76, 77, 99]. Median = 64."
+    }
+  },
+  {
+    "id": "stat-0065",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 42, 71, 39, 20, 46...?",
+      "options": [
+        "67",
+        "30",
+        "60",
+        "62"
+      ],
+      "explanation": "Ordered: [20, 39, 42, 46, 62, 71, 79, 86]. Median = 62."
+    },
+    "hi": {
+      "question": "Median of 42, 71, 39, 20, 46...?",
+      "options": [
+        "67",
+        "30",
+        "60",
+        "62"
+      ],
+      "explanation": "Ordered: [20, 39, 42, 46, 62, 71, 79, 86]. Median = 62."
+    }
+  },
+  {
+    "id": "stat-0066",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 76, 10, 58, 93, 36...?",
+      "options": [
+        "62",
+        "67",
+        "60",
+        "40"
+      ],
+      "explanation": "Ordered: [10, 36, 50, 58, 62, 76, 93, 98]. Median = 62."
+    },
+    "hi": {
+      "question": "Median of 76, 10, 58, 93, 36...?",
+      "options": [
+        "62",
+        "67",
+        "60",
+        "40"
+      ],
+      "explanation": "Ordered: [10, 36, 50, 58, 62, 76, 93, 98]. Median = 62."
+    }
+  },
+  {
+    "id": "stat-0067",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 43, 78, 64, 82, 56...?",
+      "options": [
+        "76",
+        "83",
+        "78",
+        "60"
+      ],
+      "explanation": "Ordered: [43, 45, 56, 64, 78, 82, 88, 97]. Median = 78."
+    },
+    "hi": {
+      "question": "Median of 43, 78, 64, 82, 56...?",
+      "options": [
+        "76",
+        "83",
+        "78",
+        "60"
+      ],
+      "explanation": "Ordered: [43, 45, 56, 64, 78, 82, 88, 97]. Median = 78."
+    }
+  },
+  {
+    "id": "stat-0068",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 81, 81, 71, 42, 49...?",
+      "options": [
+        "86",
+        "40",
+        "71",
+        "81"
+      ],
+      "explanation": "Ordered: [42, 49, 54, 71, 81, 81, 83, 100]. Median = 81."
+    },
+    "hi": {
+      "question": "Median of 81, 81, 71, 42, 49...?",
+      "options": [
+        "86",
+        "40",
+        "71",
+        "81"
+      ],
+      "explanation": "Ordered: [42, 49, 54, 71, 81, 81, 83, 100]. Median = 81."
+    }
+  },
+  {
+    "id": "stat-0069",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 67, 99, 30, 22, 37...?",
+      "options": [
+        "51",
+        "61",
+        "30",
+        "71"
+      ],
+      "explanation": "Ordered: [22, 30, 37, 53, 61, 67, 75, 99]. Median = 61."
+    },
+    "hi": {
+      "question": "Median of 67, 99, 30, 22, 37...?",
+      "options": [
+        "51",
+        "61",
+        "30",
+        "71"
+      ],
+      "explanation": "Ordered: [22, 30, 37, 53, 61, 67, 75, 99]. Median = 61."
+    }
+  },
+  {
+    "id": "stat-0070",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 21, 28, 70, 86, 65...?",
+      "options": [
+        "30",
+        "45",
+        "38",
+        "43"
+      ],
+      "explanation": "Ordered: [18, 21, 21, 28, 43, 65, 70, 86]. Median = 43."
+    },
+    "hi": {
+      "question": "Median of 21, 28, 70, 86, 65...?",
+      "options": [
+        "30",
+        "45",
+        "38",
+        "43"
+      ],
+      "explanation": "Ordered: [18, 21, 21, 28, 43, 65, 70, 86]. Median = 43."
+    }
+  },
+  {
+    "id": "stat-0071",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 61, 88, 93, 76, 46...?",
+      "options": [
+        "71",
+        "86",
+        "60",
+        "76"
+      ],
+      "explanation": "Ordered: [17, 32, 46, 61, 76, 86, 88, 93]. Median = 76."
+    },
+    "hi": {
+      "question": "Median of 61, 88, 93, 76, 46...?",
+      "options": [
+        "71",
+        "86",
+        "60",
+        "76"
+      ],
+      "explanation": "Ordered: [17, 32, 46, 61, 76, 86, 88, 93]. Median = 76."
+    }
+  },
+  {
+    "id": "stat-0072",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 34, 14, 86, 75, 76...?",
+      "options": [
+        "78",
+        "30",
+        "76",
+        "66"
+      ],
+      "explanation": "Ordered: [14, 34, 39, 75, 76, 86, 88, 99]. Median = 76."
+    },
+    "hi": {
+      "question": "Median of 34, 14, 86, 75, 76...?",
+      "options": [
+        "78",
+        "30",
+        "76",
+        "66"
+      ],
+      "explanation": "Ordered: [14, 34, 39, 75, 76, 86, 88, 99]. Median = 76."
+    }
+  },
+  {
+    "id": "stat-0073",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 30, 21, 45, 61, 55...?",
+      "options": [
+        "70",
+        "70",
+        "58",
+        "60"
+      ],
+      "explanation": "Ordered: [21, 30, 45, 55, 60, 61, 61, 95]. Median = 60."
+    },
+    "hi": {
+      "question": "Median of 30, 21, 45, 61, 55...?",
+      "options": [
+        "70",
+        "70",
+        "58",
+        "60"
+      ],
+      "explanation": "Ordered: [21, 30, 45, 55, 60, 61, 61, 95]. Median = 60."
+    }
+  },
+  {
+    "id": "stat-0074",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 21, 80, 46, 81, 84...?",
+      "options": [
+        "44",
+        "54",
+        "56",
+        "40"
+      ],
+      "explanation": "Ordered: [21, 45, 46, 54, 54, 80, 81, 84]. Median = 54."
+    },
+    "hi": {
+      "question": "Median of 21, 80, 46, 81, 84...?",
+      "options": [
+        "44",
+        "54",
+        "56",
+        "40"
+      ],
+      "explanation": "Ordered: [21, 45, 46, 54, 54, 80, 81, 84]. Median = 54."
+    }
+  },
+  {
+    "id": "stat-0075",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 43, 32, 62, 74, 23...?",
+      "options": [
+        "62",
+        "67",
+        "30",
+        "57"
+      ],
+      "explanation": "Ordered: [19, 23, 32, 43, 62, 74, 74, 81]. Median = 62."
+    },
+    "hi": {
+      "question": "Median of 43, 32, 62, 74, 23...?",
+      "options": [
+        "62",
+        "67",
+        "30",
+        "57"
+      ],
+      "explanation": "Ordered: [19, 23, 32, 43, 62, 74, 74, 81]. Median = 62."
+    }
+  },
+  {
+    "id": "stat-0076",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 98, 66, 58, 82, 71...?",
+      "options": [
+        "63",
+        "70",
+        "78",
+        "68"
+      ],
+      "explanation": "Ordered: [41, 53, 58, 66, 68, 71, 82, 98]. Median = 68."
+    },
+    "hi": {
+      "question": "Median of 98, 66, 58, 82, 71...?",
+      "options": [
+        "63",
+        "70",
+        "78",
+        "68"
+      ],
+      "explanation": "Ordered: [41, 53, 58, 66, 68, 71, 82, 98]. Median = 68."
+    }
+  },
+  {
+    "id": "stat-0077",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 43, 18, 58, 91, 38...?",
+      "options": [
+        "50",
+        "63",
+        "53",
+        "58"
+      ],
+      "explanation": "Ordered: [18, 38, 39, 43, 58, 91, 96, 99]. Median = 58."
+    },
+    "hi": {
+      "question": "Median of 43, 18, 58, 91, 38...?",
+      "options": [
+        "50",
+        "63",
+        "53",
+        "58"
+      ],
+      "explanation": "Ordered: [18, 38, 39, 43, 58, 91, 96, 99]. Median = 58."
+    }
+  },
+  {
+    "id": "stat-0078",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 41, 46, 21, 61, 96...?",
       "options": [
         "50",
         "55",
-        "60",
-        "45"
+        "53",
+        "48"
       ],
-      "explanation": "67-12=55."
+      "explanation": "Ordered: [19, 21, 41, 46, 53, 61, 80, 96]. Median = 53."
     },
     "hi": {
-      "question": "23,18,45,12,67,34,29 का परिसर?",
+      "question": "Median of 41, 46, 21, 61, 96...?",
       "options": [
         "50",
         "55",
+        "53",
+        "48"
+      ],
+      "explanation": "Ordered: [19, 21, 41, 46, 53, 61, 80, 96]. Median = 53."
+    }
+  },
+  {
+    "id": "stat-0079",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 33, 97, 34, 73, 35...?",
+      "options": [
+        "40",
+        "855",
+        "38",
+        "42"
+      ],
+      "explanation": "Ordered: [33, 34, 35, 40, 40, 43, 73, 97]. Median = 40."
+    },
+    "hi": {
+      "question": "Median of 33, 97, 34, 73, 35...?",
+      "options": [
+        "40",
+        "855",
+        "38",
+        "42"
+      ],
+      "explanation": "Ordered: [33, 34, 35, 40, 40, 43, 73, 97]. Median = 40."
+    }
+  },
+  {
+    "id": "stat-0080",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 29, 23, 25, 20, 96...?",
+      "options": [
+        "73",
+        "63",
+        "75",
+        "30"
+      ],
+      "explanation": "Ordered: [20, 23, 25, 29, 73, 88, 94, 96]. Median = 73."
+    },
+    "hi": {
+      "question": "Median of 29, 23, 25, 20, 96...?",
+      "options": [
+        "73",
+        "63",
+        "75",
+        "30"
+      ],
+      "explanation": "Ordered: [20, 23, 25, 29, 73, 88, 94, 96]. Median = 73."
+    }
+  },
+  {
+    "id": "stat-0081",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 73, 83, 45, 72, 33...?",
+      "options": [
+        "40",
+        "74",
+        "62",
+        "72"
+      ],
+      "explanation": "Ordered: [33, 45, 45, 60, 72, 73, 75, 83]. Median = 72."
+    },
+    "hi": {
+      "question": "Median of 73, 83, 45, 72, 33...?",
+      "options": [
+        "40",
+        "74",
+        "62",
+        "72"
+      ],
+      "explanation": "Ordered: [33, 45, 45, 60, 72, 73, 75, 83]. Median = 72."
+    }
+  },
+  {
+    "id": "stat-0082",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 71, 79, 14, 74, 54...?",
+      "options": [
+        "69",
+        "71",
+        "76",
+        "70"
+      ],
+      "explanation": "Ordered: [14, 32, 54, 60, 71, 74, 79, 97]. Median = 71."
+    },
+    "hi": {
+      "question": "Median of 71, 79, 14, 74, 54...?",
+      "options": [
+        "69",
+        "71",
+        "76",
+        "70"
+      ],
+      "explanation": "Ordered: [14, 32, 54, 60, 71, 74, 79, 97]. Median = 71."
+    }
+  },
+  {
+    "id": "stat-0083",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 11, 96, 36, 58, 84...?",
+      "options": [
+        "40",
+        "66",
+        "56",
+        "51"
+      ],
+      "explanation": "Ordered: [11, 22, 36, 51, 56, 58, 84, 96]. Median = 56."
+    },
+    "hi": {
+      "question": "Median of 11, 96, 36, 58, 84...?",
+      "options": [
+        "40",
+        "66",
+        "56",
+        "51"
+      ],
+      "explanation": "Ordered: [11, 22, 36, 51, 56, 58, 84, 96]. Median = 56."
+    }
+  },
+  {
+    "id": "stat-0084",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 70, 88, 53, 56, 33...?",
+      "options": [
+        "64",
+        "50",
+        "69",
+        "54"
+      ],
+      "explanation": "Ordered: [33, 36, 53, 56, 64, 70, 73, 88]. Median = 64."
+    },
+    "hi": {
+      "question": "Median of 70, 88, 53, 56, 33...?",
+      "options": [
+        "64",
+        "50",
+        "69",
+        "54"
+      ],
+      "explanation": "Ordered: [33, 36, 53, 56, 64, 70, 73, 88]. Median = 64."
+    }
+  },
+  {
+    "id": "stat-0085",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 67, 33, 83, 26, 83...?",
+      "options": [
+        "62",
+        "67",
+        "77",
+        "40"
+      ],
+      "explanation": "Ordered: [22, 26, 33, 39, 67, 83, 83, 97]. Median = 67."
+    },
+    "hi": {
+      "question": "Median of 67, 33, 83, 26, 83...?",
+      "options": [
+        "62",
+        "67",
+        "77",
+        "40"
+      ],
+      "explanation": "Ordered: [22, 26, 33, 39, 67, 83, 83, 97]. Median = 67."
+    }
+  },
+  {
+    "id": "stat-0086",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 28, 29, 70, 11, 32...?",
+      "options": [
+        "32",
+        "70",
+        "42",
+        "22"
+      ],
+      "explanation": "Ordered: [11, 27, 28, 29, 32, 63, 70, 73]. Median = 32."
+    },
+    "hi": {
+      "question": "Median of 28, 29, 70, 11, 32...?",
+      "options": [
+        "32",
+        "70",
+        "42",
+        "22"
+      ],
+      "explanation": "Ordered: [11, 27, 28, 29, 32, 63, 70, 73]. Median = 32."
+    }
+  },
+  {
+    "id": "stat-0087",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 42, 81, 82, 16, 60...?",
+      "options": [
+        "62",
         "60",
-        "45"
-      ],
-      "explanation": "55।"
-    }
-  },
-  {
-    "id": "nms-0113",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of 50 numbers=38. Two numbers 40 and 50 discarded. New mean?",
-      "options": [
-        "38",
-        "37",
-        "37.5",
-        "36"
-      ],
-      "explanation": "Sum=1900-90=1810/48=37.708≈37.7. Not clean. Let me: 50×38=1900-90=1810. 1810/48=37.71. Not matching 37.5. Let me check: 1900-40-50=1810. 1810/48=37.708."
-    },
-    "hi": {
-      "question": "50 का माध्य 38, 40,50 हटाए। नया?",
-      "options": [
-        "38",
-        "37",
-        "37.71",
-        "36"
-      ],
-      "explanation": "37.71।"
-    }
-  },
-  {
-    "id": "nms-0114",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If mode is 15 and median is 12, mean using empirical formula?",
-      "options": [
-        "10.5",
-        "9",
-        "13.5",
-        "15"
-      ],
-      "explanation": "Mode=3Median-2Mean. 15=36-2Mean. 2Mean=21. Mean=10.5."
-    },
-    "hi": {
-      "question": "बहुलक 15, माध्यिका 12। माध्य?",
-      "options": [
-        "10.5",
-        "9",
-        "13.5",
-        "15"
-      ],
-      "explanation": "10.5।"
-    }
-  },
-  {
-    "id": "nms-0115",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Variance of 5 numbers is 16. Standard deviation?",
-      "options": [
-        "6",
-        "4",
-        "5",
-        "7"
-      ],
-      "explanation": "SD=√16=4."
-    },
-    "hi": {
-      "question": "5 संख्याओं का प्रसरण 16। मानक विचलन?",
-      "options": [
-        "6",
-        "4",
-        "5",
-        "7"
-      ],
-      "explanation": "4।"
-    }
-  },
-  {
-    "id": "nms-0116",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of first 5 multiples of 4?",
-      "options": [
-        "10",
-        "12",
-        "14",
-        "16"
-      ],
-      "explanation": "4,8,12,16,20. Sum=60/5=12."
-    },
-    "hi": {
-      "question": "4 के प्रथम 5 गुणजों का माध्य?",
-      "options": [
-        "10",
-        "12",
-        "14",
-        "16"
-      ],
-      "explanation": "12।"
-    }
-  },
-  {
-    "id": "nms-0117",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If mean of a,b,c is M and a+b=40, c=?",
-      "options": [
-        "3M",
-        "3M+40",
-        "3M-40",
-        "M-40"
-      ],
-      "explanation": "a+b+c=3M. 40+c=3M. c=3M-40."
-    },
-    "hi": {
-      "question": "a,b,c माध्य M, a+b=40, c=?",
-      "options": [
-        "3M",
-        "3M+40",
-        "3M-40",
-        "M-40"
-      ],
-      "explanation": "3M-40।"
-    }
-  },
-  {
-    "id": "nms-0118",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of squares of first 5 natural numbers?",
-      "options": [
-        "11",
-        "9",
-        "13",
-        "15"
-      ],
-      "explanation": "1+4+9+16+25=55/5=11."
-    },
-    "hi": {
-      "question": "प्रथम 5 प्राकृतिक संख्याओं के वर्गों का माध्य?",
-      "options": [
-        "11",
-        "9",
-        "13",
-        "15"
-      ],
-      "explanation": "11।"
-    }
-  },
-  {
-    "id": "nms-0119",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If each observation in data set is reduced by 20%, mean reduces by?",
-      "options": [
-        "80%",
-        "40%",
-        "10%",
-        "20%"
-      ],
-      "explanation": "New mean=0.8×original. Reduction=20%."
-    },
-    "hi": {
-      "question": "प्रत्येक प्रेक्षण 20% घटाएँ, माध्य में कमी?",
-      "options": [
-        "80%",
-        "40%",
-        "10%",
-        "20%"
-      ],
-      "explanation": "20%।"
-    }
-  },
-  {
-    "id": "nms-0120",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find mean of: 0,5,10,15,20.",
-      "options": [
-        "8",
-        "10",
-        "12",
-        "15"
-      ],
-      "explanation": "50/5=10."
-    },
-    "hi": {
-      "question": "0,5,10,15,20 का माध्य?",
-      "options": [
-        "8",
-        "10",
-        "12",
-        "15"
-      ],
-      "explanation": "10।"
-    }
-  },
-  {
-    "id": "nms-0121",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Median of even number of observations is?",
-      "options": [
-        "Mean of two middle values",
-        "Middle value",
-        "Sum/2",
-        "Mode"
-      ],
-      "explanation": "For even n, median = avg of n/2 and n/2+1 terms."
-    },
-    "hi": {
-      "question": "सम प्रेक्षणों की माध्यिका?",
-      "options": [
-        "दो मध्य मानों का माध्य",
-        "मध्य मान",
-        "योग/2",
-        "बहुलक"
-      ],
-      "explanation": "दो मध्य मानों का माध्य।"
-    }
-  },
-  {
-    "id": "nms-0122",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find median of: 15,22,18,30,25,20,28.",
-      "options": [
-        "23",
-        "22",
-        "24",
-        "25"
-      ],
-      "explanation": "Sorted:15,18,20,22,25,28,30. 4th=22."
-    },
-    "hi": {
-      "question": "15,22,18,30,25,20,28 की माध्यिका?",
-      "options": [
-        "23",
-        "22",
-        "24",
-        "25"
-      ],
-      "explanation": "22।"
-    }
-  },
-  {
-    "id": "nms-0123",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "The standard deviation of a constant set is?",
-      "options": [
-        "1",
-        "-1",
-        "undefined",
-        "0"
-      ],
-      "explanation": "If all values same, SD=0."
-    },
-    "hi": {
-      "question": "अचर समुच्चय का मानक विचलन?",
-      "options": [
-        "1",
-        "-1",
-        "अपरिभाषित",
-        "0"
-      ],
-      "explanation": "0।"
-    }
-  },
-  {
-    "id": "nms-0124",
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of 20 observations is 15. Sum of squared deviations from mean is 2000. Variance?",
-      "options": [
-        "10",
-        "100",
-        "50",
-        "200"
-      ],
-      "explanation": "Variance=2000/20=100."
-    },
-    "hi": {
-      "question": "20 प्रेक्षण माध्य 15, वर्ग विचलन योग 2000। प्रसरण?",
-      "options": [
-        "10",
-        "100",
-        "50",
-        "200"
-      ],
-      "explanation": "100।"
-    }
-  },
-  {
-    "id": "nms-0125",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Find mode: 2,3,3,5,3,7,3,9.",
-      "options": [
-        "3",
-        "2",
-        "5",
-        "7"
-      ],
-      "explanation": "3 appears 4 times."
-    },
-    "hi": {
-      "question": "2,3,3,5,3,7,3,9 का बहुलक?",
-      "options": [
-        "3",
-        "2",
-        "5",
-        "7"
-      ],
-      "explanation": "3।"
-    }
-  },
-  {
-    "id": "nms-0126",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of a and b is 10. Mean of b and c is 14. Mean of a and c is?",
-      "options": [
-        "12",
-        "8",
-        "6",
-        "10"
-      ],
-      "explanation": "a+b=20, b+c=28. a+c=(a+b)+(b+c)-2b. Not enough info. If given all three means symmetric: a+b=20, b+c=28, c+a=2x. Add:2(a+b+c)=48+2x. Not solvable uniquely. I'll change: mean a,b=10→a+b=20; mean b,c=14→b+c=28; mean c,a=12→c+a=24. Then 2(a+b+c)=72. a+b+c=36. c=36-20=16. a=36-28=8. Mean a,c=24/2=12."
-    },
-    "hi": {
-      "question": "a,b माध्य 10, b,c=14, c,a=?",
-      "options": [
-        "12",
-        "8",
-        "6",
-        "10"
-      ],
-      "explanation": "c+a=24, माध्य=12।"
-    }
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 10, 12, 15, 24, 28, 37, 42, 44",
-      "options": [
-        "35.9",
-        "44",
-        "30.9",
-        "25.9"
-      ],
-      "explanation": "Sum=212. Count=8. Mean=26.5."
-    },
-    "hi": {
-      "question": "माध्य: 10, 12, 15, 24, 28, 37, 42, 44",
-      "options": [
-        "35.9",
-        "44",
-        "30.9",
-        "25.9"
-      ],
-      "explanation": "योग=212। माध्य=26.5।"
-    },
-    "id": "nms-0127"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 10, 17, 21, 24, 28, 35, 37, 42",
-      "options": [
-        "32.8",
-        "42",
-        "27.8",
-        "37.8"
-      ],
-      "explanation": "Sum=214. Count=8. Mean=26.8."
-    },
-    "hi": {
-      "question": "माध्य: 10, 17, 21, 24, 28, 35, 37, 42",
-      "options": [
-        "32.8",
-        "42",
-        "27.8",
-        "37.8"
-      ],
-      "explanation": "योग=214। माध्य=26.8।"
-    },
-    "id": "nms-0128"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 8, 10, 13, 13, 30, 33, 34, 35",
-      "options": [
-        "35",
-        "23.4",
-        "28.4",
-        "18.4"
-      ],
-      "explanation": "Sum=176. Count=8. Mean=22.0."
-    },
-    "hi": {
-      "question": "माध्य: 8, 10, 13, 13, 30, 33, 34, 35",
-      "options": [
-        "35",
-        "23.4",
-        "28.4",
-        "18.4"
-      ],
-      "explanation": "योग=176। माध्य=22.0।"
-    },
-    "id": "nms-0129"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 6, 10, 12, 16, 17, 22, 26, 28",
-      "options": [
-        "28",
-        "22.9",
-        "27.9",
-        "32.9"
-      ],
-      "explanation": "Sum=137. Count=8. Mean=17.1."
-    },
-    "hi": {
-      "question": "माध्य: 6, 10, 12, 16, 17, 22, 26, 28",
-      "options": [
-        "28",
-        "22.9",
-        "27.9",
-        "32.9"
-      ],
-      "explanation": "योग=137। माध्य=17.1।"
-    },
-    "id": "nms-0130"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 6, 12, 27, 32, 34, 34, 35, 38",
-      "options": [
-        "36.7",
-        "38",
-        "31.7",
-        "26.7"
-      ],
-      "explanation": "Sum=218. Count=8. Mean=27.2."
-    },
-    "hi": {
-      "question": "माध्य: 6, 12, 27, 32, 34, 34, 35, 38",
-      "options": [
-        "36.7",
-        "38",
-        "31.7",
-        "26.7"
-      ],
-      "explanation": "योग=218। माध्य=27.2।"
-    },
-    "id": "nms-0131"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 5, 8, 9, 11, 15, 26, 28, 28",
-      "options": [
-        "28",
-        "21.6",
-        "26.6",
-        "31.6"
-      ],
-      "explanation": "Sum=130. Count=8. Mean=16.2."
-    },
-    "hi": {
-      "question": "माध्य: 5, 8, 9, 11, 15, 26, 28, 28",
-      "options": [
-        "28",
-        "21.6",
-        "26.6",
-        "31.6"
-      ],
-      "explanation": "योग=130। माध्य=16.2।"
-    },
-    "id": "nms-0132"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 12, 18, 21, 23, 24, 33, 34, 41",
-      "options": [
-        "28.4",
-        "41",
-        "23.4",
-        "33.4"
-      ],
-      "explanation": "Sum=206. Count=8. Mean=25.8."
-    },
-    "hi": {
-      "question": "माध्य: 12, 18, 21, 23, 24, 33, 34, 41",
-      "options": [
-        "28.4",
-        "41",
-        "23.4",
-        "33.4"
-      ],
-      "explanation": "योग=206। माध्य=25.8।"
-    },
-    "id": "nms-0133"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 11, 12, 12, 19, 25, 28, 31, 50",
-      "options": [
-        "21.4",
-        "26.4",
-        "31.4",
+        "58",
         "50"
       ],
-      "explanation": "Sum=188. Count=8. Mean=23.5."
+      "explanation": "Ordered: [16, 22, 30, 42, 60, 81, 82, 98]. Median = 60."
     },
     "hi": {
-      "question": "माध्य: 11, 12, 12, 19, 25, 28, 31, 50",
+      "question": "Median of 42, 81, 82, 16, 60...?",
       "options": [
-        "21.4",
-        "26.4",
-        "31.4",
+        "62",
+        "60",
+        "58",
         "50"
       ],
-      "explanation": "योग=188। माध्य=23.5।"
-    },
-    "id": "nms-0134"
+      "explanation": "Ordered: [16, 22, 30, 42, 60, 81, 82, 98]. Median = 60."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 6, 6, 8, 9, 19, 21, 21, 22",
-      "options": [
-        "19.3",
-        "22",
-        "24.3",
-        "29.3"
-      ],
-      "explanation": "Sum=112. Count=8. Mean=14.0."
-    },
-    "hi": {
-      "question": "माध्य: 6, 6, 8, 9, 19, 21, 21, 22",
-      "options": [
-        "19.3",
-        "22",
-        "24.3",
-        "29.3"
-      ],
-      "explanation": "योग=112। माध्य=14.0।"
-    },
-    "id": "nms-0135"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 10, 13, 17, 18, 21, 21, 23, 28",
-      "options": [
-        "16.7",
-        "21.7",
-        "28",
-        "26.7"
-      ],
-      "explanation": "Sum=151. Count=8. Mean=18.9."
-    },
-    "hi": {
-      "question": "माध्य: 10, 13, 17, 18, 21, 21, 23, 28",
-      "options": [
-        "16.7",
-        "21.7",
-        "28",
-        "26.7"
-      ],
-      "explanation": "योग=151। माध्य=18.9।"
-    },
-    "id": "nms-0136"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 10, 16, 16, 18, 23, 24, 30, 33",
-      "options": [
-        "26.8",
-        "31.8",
-        "21.8",
-        "33"
-      ],
-      "explanation": "Sum=170. Count=8. Mean=21.2."
-    },
-    "hi": {
-      "question": "माध्य: 10, 16, 16, 18, 23, 24, 30, 33",
-      "options": [
-        "26.8",
-        "31.8",
-        "21.8",
-        "33"
-      ],
-      "explanation": "योग=170। माध्य=21.2।"
-    },
-    "id": "nms-0137"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 5, 6, 7, 7, 11, 33, 34, 41",
-      "options": [
-        "23.0",
-        "18",
-        "41",
-        "13.0"
-      ],
-      "explanation": "Sum=144. Count=8. Mean=18.0."
-    },
-    "hi": {
-      "question": "माध्य: 5, 6, 7, 7, 11, 33, 34, 41",
-      "options": [
-        "23.0",
-        "18",
-        "41",
-        "13.0"
-      ],
-      "explanation": "योग=144। माध्य=18.0।"
-    },
-    "id": "nms-0138"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 7, 9, 12, 13, 18, 22, 23, 26",
-      "options": [
-        "26",
-        "25.7",
-        "30.7",
-        "20.7"
-      ],
-      "explanation": "Sum=130. Count=8. Mean=16.2."
-    },
-    "hi": {
-      "question": "माध्य: 7, 9, 12, 13, 18, 22, 23, 26",
-      "options": [
-        "26",
-        "25.7",
-        "30.7",
-        "20.7"
-      ],
-      "explanation": "योग=130। माध्य=16.2।"
-    },
-    "id": "nms-0139"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 7, 10, 15, 21, 26, 29, 33, 40",
-      "options": [
-        "35.4",
-        "30.4",
-        "25.4",
-        "40"
-      ],
-      "explanation": "Sum=181. Count=8. Mean=22.6."
-    },
-    "hi": {
-      "question": "माध्य: 7, 10, 15, 21, 26, 29, 33, 40",
-      "options": [
-        "35.4",
-        "30.4",
-        "25.4",
-        "40"
-      ],
-      "explanation": "योग=181। माध्य=22.6।"
-    },
-    "id": "nms-0140"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 9, 11, 13, 14, 18, 20, 21, 38",
-      "options": [
-        "23.0",
-        "38",
-        "13.0",
-        "18"
-      ],
-      "explanation": "Sum=144. Count=8. Mean=18.0."
-    },
-    "hi": {
-      "question": "माध्य: 9, 11, 13, 14, 18, 20, 21, 38",
-      "options": [
-        "23.0",
-        "38",
-        "13.0",
-        "18"
-      ],
-      "explanation": "योग=144। माध्य=18.0।"
-    },
-    "id": "nms-0141"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 5, 8, 13, 18, 20, 26, 29, 35",
-      "options": [
-        "31.9",
-        "21.9",
-        "35",
-        "26.9"
-      ],
-      "explanation": "Sum=154. Count=8. Mean=19.2."
-    },
-    "hi": {
-      "question": "माध्य: 5, 8, 13, 18, 20, 26, 29, 35",
-      "options": [
-        "31.9",
-        "21.9",
-        "35",
-        "26.9"
-      ],
-      "explanation": "योग=154। माध्य=19.2।"
-    },
-    "id": "nms-0142"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 8, 8, 12, 13, 17, 25, 26, 29",
-      "options": [
-        "31.5",
-        "21.5",
-        "29",
-        "26.5"
-      ],
-      "explanation": "Sum=138. Count=8. Mean=17.2."
-    },
-    "hi": {
-      "question": "माध्य: 8, 8, 12, 13, 17, 25, 26, 29",
-      "options": [
-        "31.5",
-        "21.5",
-        "29",
-        "26.5"
-      ],
-      "explanation": "योग=138। माध्य=17.2।"
-    },
-    "id": "nms-0143"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 5, 17, 23, 25, 26, 34, 36, 36",
-      "options": [
-        "22.2",
-        "27.2",
-        "36",
-        "32.2"
-      ],
-      "explanation": "Sum=202. Count=8. Mean=25.2."
-    },
-    "hi": {
-      "question": "माध्य: 5, 17, 23, 25, 26, 34, 36, 36",
-      "options": [
-        "22.2",
-        "27.2",
-        "36",
-        "32.2"
-      ],
-      "explanation": "योग=202। माध्य=25.2।"
-    },
-    "id": "nms-0144"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 9, 11, 13, 24, 32, 33, 37, 41",
-      "options": [
-        "31.1",
-        "26.1",
-        "41",
-        "36.1"
-      ],
-      "explanation": "Sum=200. Count=8. Mean=25.0."
-    },
-    "hi": {
-      "question": "माध्य: 9, 11, 13, 24, 32, 33, 37, 41",
-      "options": [
-        "31.1",
-        "26.1",
-        "41",
-        "36.1"
-      ],
-      "explanation": "योग=200। माध्य=25.0।"
-    },
-    "id": "nms-0145"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 11, 15, 23, 27, 32, 32, 34, 36",
-      "options": [
-        "36",
-        "36.6",
-        "26.6",
-        "31.6"
-      ],
-      "explanation": "Sum=210. Count=8. Mean=26.2."
-    },
-    "hi": {
-      "question": "माध्य: 11, 15, 23, 27, 32, 32, 34, 36",
-      "options": [
-        "36",
-        "36.6",
-        "26.6",
-        "31.6"
-      ],
-      "explanation": "योग=210। माध्य=26.2।"
-    },
-    "id": "nms-0146"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 10, 10, 19, 19, 19, 32, 37, 41",
-      "options": [
-        "25.4",
-        "41",
-        "35.4",
-        "30.4"
-      ],
-      "explanation": "Sum=187. Count=8. Mean=23.4."
-    },
-    "hi": {
-      "question": "माध्य: 10, 10, 19, 19, 19, 32, 37, 41",
-      "options": [
-        "25.4",
-        "41",
-        "35.4",
-        "30.4"
-      ],
-      "explanation": "योग=187। माध्य=23.4।"
-    },
-    "id": "nms-0147"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 7, 9, 11, 11, 13, 23, 24, 26",
-      "options": [
-        "26",
-        "17.9",
-        "27.9",
-        "22.9"
-      ],
-      "explanation": "Sum=124. Count=8. Mean=15.5."
-    },
-    "hi": {
-      "question": "माध्य: 7, 9, 11, 11, 13, 23, 24, 26",
-      "options": [
-        "26",
-        "17.9",
-        "27.9",
-        "22.9"
-      ],
-      "explanation": "योग=124। माध्य=15.5।"
-    },
-    "id": "nms-0148"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 14, 15, 19, 27, 38, 46, 46, 50",
-      "options": [
-        "31.9",
-        "26.9",
-        "50",
-        "36.9"
-      ],
-      "explanation": "Sum=255. Count=8. Mean=31.9."
-    },
-    "hi": {
-      "question": "माध्य: 14, 15, 19, 27, 38, 46, 46, 50",
-      "options": [
-        "31.9",
-        "26.9",
-        "50",
-        "36.9"
-      ],
-      "explanation": "योग=255। माध्य=31.9।"
-    },
-    "id": "nms-0149"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 6, 15, 18, 19, 19, 20, 21, 29",
-      "options": [
-        "26.5",
-        "31.5",
-        "29",
-        "21.5"
-      ],
-      "explanation": "Sum=147. Count=8. Mean=18.4."
-    },
-    "hi": {
-      "question": "माध्य: 6, 15, 18, 19, 19, 20, 21, 29",
-      "options": [
-        "26.5",
-        "31.5",
-        "29",
-        "21.5"
-      ],
-      "explanation": "योग=147। माध्य=18.4।"
-    },
-    "id": "nms-0150"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 5, 8, 14, 15, 17, 20, 25, 25",
-      "options": [
-        "25",
-        "24.4",
-        "14.4",
-        "19.4"
-      ],
-      "explanation": "Sum=129. Count=8. Mean=16.1."
-    },
-    "hi": {
-      "question": "माध्य: 5, 8, 14, 15, 17, 20, 25, 25",
-      "options": [
-        "25",
-        "24.4",
-        "14.4",
-        "19.4"
-      ],
-      "explanation": "योग=129। माध्य=16.1।"
-    },
-    "id": "nms-0151"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 9, 16, 22, 24, 26, 28, 34, 40",
-      "options": [
-        "34.0",
-        "40",
-        "29",
-        "24.0"
-      ],
-      "explanation": "Sum=199. Count=8. Mean=24.9."
-    },
-    "hi": {
-      "question": "माध्य: 9, 16, 22, 24, 26, 28, 34, 40",
-      "options": [
-        "34.0",
-        "40",
-        "29",
-        "24.0"
-      ],
-      "explanation": "योग=199। माध्य=24.9।"
-    },
-    "id": "nms-0152"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 10, 12, 13, 13, 14, 16, 18, 28",
-      "options": [
-        "26.6",
-        "21.6",
-        "16.6",
-        "28"
-      ],
-      "explanation": "Sum=124. Count=8. Mean=15.5."
-    },
-    "hi": {
-      "question": "माध्य: 10, 12, 13, 13, 14, 16, 18, 28",
-      "options": [
-        "26.6",
-        "21.6",
-        "16.6",
-        "28"
-      ],
-      "explanation": "योग=124। माध्य=15.5।"
-    },
-    "id": "nms-0153"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 13, 16, 16, 23, 26, 38, 41, 50",
-      "options": [
-        "50",
-        "32.9",
-        "27.9",
-        "22.9"
-      ],
-      "explanation": "Sum=223. Count=8. Mean=27.9."
-    },
-    "hi": {
-      "question": "माध्य: 13, 16, 16, 23, 26, 38, 41, 50",
-      "options": [
-        "50",
-        "32.9",
-        "27.9",
-        "22.9"
-      ],
-      "explanation": "योग=223। माध्य=27.9।"
-    },
-    "id": "nms-0154"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 8, 12, 14, 26, 31, 34, 39, 44",
-      "options": [
-        "31.8",
-        "44",
-        "36.8",
-        "26.8"
-      ],
-      "explanation": "Sum=208. Count=8. Mean=26.0."
-    },
-    "hi": {
-      "question": "माध्य: 8, 12, 14, 26, 31, 34, 39, 44",
-      "options": [
-        "31.8",
-        "44",
-        "36.8",
-        "26.8"
-      ],
-      "explanation": "योग=208। माध्य=26.0।"
-    },
-    "id": "nms-0155"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 9, 11, 12, 12, 14, 15, 16, 18",
-      "options": [
-        "25.2",
-        "30.2",
-        "20.2",
-        "18"
-      ],
-      "explanation": "Sum=107. Count=8. Mean=13.4."
-    },
-    "hi": {
-      "question": "माध्य: 9, 11, 12, 12, 14, 15, 16, 18",
-      "options": [
-        "25.2",
-        "30.2",
-        "20.2",
-        "18"
-      ],
-      "explanation": "योग=107। माध्य=13.4।"
-    },
-    "id": "nms-0156"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 6, 18, 19, 20, 25, 32, 32, 37",
-      "options": [
-        "18.6",
-        "37",
-        "23.6",
-        "28.6"
-      ],
-      "explanation": "Sum=189. Count=8. Mean=23.6."
-    },
-    "hi": {
-      "question": "माध्य: 6, 18, 19, 20, 25, 32, 32, 37",
-      "options": [
-        "18.6",
-        "37",
-        "23.6",
-        "28.6"
-      ],
-      "explanation": "योग=189। माध्य=23.6।"
-    },
-    "id": "nms-0157"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 8, 10, 20, 22, 24, 24, 24, 30",
-      "options": [
-        "22.3",
-        "30",
-        "27.3",
-        "32.3"
-      ],
-      "explanation": "Sum=162. Count=8. Mean=20.2."
-    },
-    "hi": {
-      "question": "माध्य: 8, 10, 20, 22, 24, 24, 24, 30",
-      "options": [
-        "22.3",
-        "30",
-        "27.3",
-        "32.3"
-      ],
-      "explanation": "योग=162। माध्य=20.2।"
-    },
-    "id": "nms-0158"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 5, 6, 7, 15, 17, 19, 27, 32",
-      "options": [
-        "31.8",
-        "21.8",
-        "32",
-        "26.8"
-      ],
-      "explanation": "Sum=128. Count=8. Mean=16.0."
-    },
-    "hi": {
-      "question": "माध्य: 5, 6, 7, 15, 17, 19, 27, 32",
-      "options": [
-        "31.8",
-        "21.8",
-        "32",
-        "26.8"
-      ],
-      "explanation": "योग=128। माध्य=16.0।"
-    },
-    "id": "nms-0159"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 9, 12, 13, 22, 27, 31, 35, 36",
-      "options": [
-        "22.8",
-        "27.8",
-        "36",
-        "32.8"
-      ],
-      "explanation": "Sum=185. Count=8. Mean=23.1."
-    },
-    "hi": {
-      "question": "माध्य: 9, 12, 13, 22, 27, 31, 35, 36",
-      "options": [
-        "22.8",
-        "27.8",
-        "36",
-        "32.8"
-      ],
-      "explanation": "योग=185। माध्य=23.1।"
-    },
-    "id": "nms-0160"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 6, 6, 7, 10, 11, 12, 13, 21",
-      "options": [
-        "21",
-        "17.4",
-        "27.4",
-        "22.4"
-      ],
-      "explanation": "Sum=86. Count=8. Mean=10.8."
-    },
-    "hi": {
-      "question": "माध्य: 6, 6, 7, 10, 11, 12, 13, 21",
-      "options": [
-        "21",
-        "17.4",
-        "27.4",
-        "22.4"
-      ],
-      "explanation": "योग=86। माध्य=10.8।"
-    },
-    "id": "nms-0161"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 11, 12, 16, 16, 22, 30, 43, 47",
-      "options": [
-        "24.6",
-        "47",
-        "29.6",
-        "19.6"
-      ],
-      "explanation": "Sum=197. Count=8. Mean=24.6."
-    },
-    "hi": {
-      "question": "माध्य: 11, 12, 16, 16, 22, 30, 43, 47",
-      "options": [
-        "24.6",
-        "47",
-        "29.6",
-        "19.6"
-      ],
-      "explanation": "योग=197। माध्य=24.6।"
-    },
-    "id": "nms-0162"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 9, 12, 15, 17, 21, 22, 23, 25",
-      "options": [
-        "26.9",
-        "31.9",
-        "21.9",
-        "25"
-      ],
-      "explanation": "Sum=144. Count=8. Mean=18.0."
-    },
-    "hi": {
-      "question": "माध्य: 9, 12, 15, 17, 21, 22, 23, 25",
-      "options": [
-        "26.9",
-        "31.9",
-        "21.9",
-        "25"
-      ],
-      "explanation": "योग=144। माध्य=18.0।"
-    },
-    "id": "nms-0163"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 10, 12, 22, 38, 41, 45, 46, 50",
-      "options": [
-        "50",
-        "38.0",
-        "33",
-        "28.0"
-      ],
-      "explanation": "Sum=264. Count=8. Mean=33.0."
-    },
-    "hi": {
-      "question": "माध्य: 10, 12, 22, 38, 41, 45, 46, 50",
-      "options": [
-        "50",
-        "38.0",
-        "33",
-        "28.0"
-      ],
-      "explanation": "योग=264। माध्य=33.0।"
-    },
-    "id": "nms-0164"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 7, 10, 14, 14, 20, 21, 23, 25",
-      "options": [
-        "18.7",
-        "23.7",
-        "28.7",
-        "25"
-      ],
-      "explanation": "Sum=134. Count=8. Mean=16.8."
-    },
-    "hi": {
-      "question": "माध्य: 7, 10, 14, 14, 20, 21, 23, 25",
-      "options": [
-        "18.7",
-        "23.7",
-        "28.7",
-        "25"
-      ],
-      "explanation": "योग=134। माध्य=16.8।"
-    },
-    "id": "nms-0165"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 9, 13, 18, 23, 23, 26, 29, 33",
-      "options": [
-        "23.3",
-        "33",
-        "33.3",
-        "28.3"
-      ],
-      "explanation": "Sum=174. Count=8. Mean=21.8."
-    },
-    "hi": {
-      "question": "माध्य: 9, 13, 18, 23, 23, 26, 29, 33",
-      "options": [
-        "23.3",
-        "33",
-        "33.3",
-        "28.3"
-      ],
-      "explanation": "योग=174। माध्य=21.8।"
-    },
-    "id": "nms-0166"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 9, 12, 14, 15, 20, 25, 26, 30",
-      "options": [
-        "20.9",
-        "25.9",
-        "30",
-        "30.9"
-      ],
-      "explanation": "Sum=151. Count=8. Mean=18.9."
-    },
-    "hi": {
-      "question": "माध्य: 9, 12, 14, 15, 20, 25, 26, 30",
-      "options": [
-        "20.9",
-        "25.9",
-        "30",
-        "30.9"
-      ],
-      "explanation": "योग=151। माध्य=18.9।"
-    },
-    "id": "nms-0167"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 5, 5, 8, 10, 22, 23, 25, 31",
-      "options": [
-        "31.7",
-        "21.7",
-        "31",
-        "26.7"
-      ],
-      "explanation": "Sum=129. Count=8. Mean=16.1."
-    },
-    "hi": {
-      "question": "माध्य: 5, 5, 8, 10, 22, 23, 25, 31",
-      "options": [
-        "31.7",
-        "21.7",
-        "31",
-        "26.7"
-      ],
-      "explanation": "योग=129। माध्य=16.1।"
-    },
-    "id": "nms-0168"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 9, 10, 11, 17, 17, 19, 19, 20",
-      "options": [
-        "16.4",
-        "26.4",
-        "20",
-        "21.4"
-      ],
-      "explanation": "Sum=122. Count=8. Mean=15.2."
-    },
-    "hi": {
-      "question": "माध्य: 9, 10, 11, 17, 17, 19, 19, 20",
-      "options": [
-        "16.4",
-        "26.4",
-        "20",
-        "21.4"
-      ],
-      "explanation": "योग=122। माध्य=15.2।"
-    },
-    "id": "nms-0169"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 7, 16, 26, 28, 37, 41, 42, 42",
-      "options": [
-        "29.9",
-        "24.9",
-        "34.9",
-        "42"
-      ],
-      "explanation": "Sum=239. Count=8. Mean=29.9."
-    },
-    "hi": {
-      "question": "माध्य: 7, 16, 26, 28, 37, 41, 42, 42",
-      "options": [
-        "29.9",
-        "24.9",
-        "34.9",
-        "42"
-      ],
-      "explanation": "योग=239। माध्य=29.9।"
-    },
-    "id": "nms-0170"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 6, 6, 27, 35, 45, 46, 47, 48",
-      "options": [
-        "37.5",
-        "32.5",
-        "27.5",
-        "48"
-      ],
-      "explanation": "Sum=260. Count=8. Mean=32.5."
-    },
-    "hi": {
-      "question": "माध्य: 6, 6, 27, 35, 45, 46, 47, 48",
-      "options": [
-        "37.5",
-        "32.5",
-        "27.5",
-        "48"
-      ],
-      "explanation": "योग=260। माध्य=32.5।"
-    },
-    "id": "nms-0171"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 11, 16, 17, 18, 29, 29, 31, 33",
-      "options": [
-        "20.4",
-        "30.4",
-        "25.4",
-        "33"
-      ],
-      "explanation": "Sum=184. Count=8. Mean=23.0."
-    },
-    "hi": {
-      "question": "माध्य: 11, 16, 17, 18, 29, 29, 31, 33",
-      "options": [
-        "20.4",
-        "30.4",
-        "25.4",
-        "33"
-      ],
-      "explanation": "योग=184। माध्य=23.0।"
-    },
-    "id": "nms-0172"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 5, 6, 8, 32, 40, 42, 45, 47",
-      "options": [
-        "25.4",
-        "47",
-        "35.4",
-        "30.4"
-      ],
-      "explanation": "Sum=225. Count=8. Mean=28.1."
-    },
-    "hi": {
-      "question": "माध्य: 5, 6, 8, 32, 40, 42, 45, 47",
-      "options": [
-        "25.4",
-        "47",
-        "35.4",
-        "30.4"
-      ],
-      "explanation": "योग=225। माध्य=28.1।"
-    },
-    "id": "nms-0173"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 7, 15, 17, 17, 20, 29, 37, 40",
-      "options": [
-        "25.3",
-        "20.3",
-        "30.3",
-        "40"
-      ],
-      "explanation": "Sum=182. Count=8. Mean=22.8."
-    },
-    "hi": {
-      "question": "माध्य: 7, 15, 17, 17, 20, 29, 37, 40",
-      "options": [
-        "25.3",
-        "20.3",
-        "30.3",
-        "40"
-      ],
-      "explanation": "योग=182। माध्य=22.8।"
-    },
-    "id": "nms-0174"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 12, 22, 25, 38, 39, 40, 40, 42",
-      "options": [
-        "32.2",
-        "37.2",
-        "27.2",
-        "42"
-      ],
-      "explanation": "Sum=258. Count=8. Mean=32.2."
-    },
-    "hi": {
-      "question": "माध्य: 12, 22, 25, 38, 39, 40, 40, 42",
-      "options": [
-        "32.2",
-        "37.2",
-        "27.2",
-        "42"
-      ],
-      "explanation": "योग=258। माध्य=32.2।"
-    },
-    "id": "nms-0175"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Mean of: 5, 8, 9, 12, 27, 33, 36, 38",
-      "options": [
-        "35.4",
-        "38",
-        "25.4",
-        "30.4"
-      ],
-      "explanation": "Sum=168. Count=8. Mean=21.0."
-    },
-    "hi": {
-      "question": "माध्य: 5, 8, 9, 12, 27, 33, 36, 38",
-      "options": [
-        "35.4",
-        "38",
-        "25.4",
-        "30.4"
-      ],
-      "explanation": "योग=168। माध्य=21.0।"
-    },
-    "id": "nms-0176"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 858 in 5:8. Larger?",
-      "options": [
-        "528",
-        "858",
-        "330",
-        "429"
-      ],
-      "explanation": "Parts=13. Shares: 330, 528. Larger=528."
-    },
-    "hi": {
-      "question": "858 को 5:8 में बांटें। बड़ा?",
-      "options": [
-        "528",
-        "858",
-        "330",
-        "429"
-      ],
-      "explanation": "हिस्से: 330, 528। बड़ा=528।"
-    },
-    "id": "nms-0177"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 16 and 12?",
-      "options": [
-        "48",
-        "28",
-        "4",
-        "192"
-      ],
-      "explanation": "LCM=192/4=48."
-    },
-    "hi": {
-      "question": "16 और 12 का ल.स.?",
-      "options": [
-        "48",
-        "28",
-        "4",
-        "192"
-      ],
-      "explanation": "ल.स.=48।"
-    },
-    "id": "nms-0178"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 612 in 7:10. Larger?",
-      "options": [
-        "612",
-        "306",
-        "252",
-        "360"
-      ],
-      "explanation": "Parts=17. Shares: 252, 360. Larger=360."
-    },
-    "hi": {
-      "question": "612 को 7:10 में बांटें। बड़ा?",
-      "options": [
-        "612",
-        "306",
-        "252",
-        "360"
-      ],
-      "explanation": "हिस्से: 252, 360। बड़ा=360।"
-    },
-    "id": "nms-0179"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 23×15cm. Area?",
-      "options": [
-        "345 cm²",
-        "76 cm²",
-        "690 cm²",
-        "38 cm²"
-      ],
-      "explanation": "Area=23×15=345 cm²."
-    },
-    "hi": {
-      "question": "आयत 23×15सेमी। क्षेत्रफल?",
-      "options": [
-        "345 cm²",
-        "76 cm²",
-        "690 cm²",
-        "38 cm²"
-      ],
-      "explanation": "क्षेत्रफल=23×15=345 वर्ग सेमी।"
-    },
-    "id": "nms-0180"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 40 and 19?",
-      "options": [
-        "762",
-        "763",
-        "760",
-        "761"
-      ],
-      "explanation": "LCM=760/1=760."
-    },
-    "hi": {
-      "question": "40 और 19 का ल.स.?",
-      "options": [
-        "762",
-        "763",
-        "760",
-        "761"
-      ],
-      "explanation": "ल.स.=760।"
-    },
-    "id": "nms-0181"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 16 and 24?",
-      "options": [
-        "384",
-        "40",
-        "48",
-        "8"
-      ],
-      "explanation": "LCM=384/8=48."
-    },
-    "hi": {
-      "question": "16 और 24 का ल.स.?",
-      "options": [
-        "384",
-        "40",
-        "48",
-        "8"
-      ],
-      "explanation": "ल.स.=48।"
-    },
-    "id": "nms-0182"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 10×6cm. Area?",
-      "options": [
-        "16 cm²",
-        "60 cm²",
-        "120 cm²",
-        "32 cm²"
-      ],
-      "explanation": "Area=10×6=60 cm²."
-    },
-    "hi": {
-      "question": "आयत 10×6सेमी। क्षेत्रफल?",
-      "options": [
-        "16 cm²",
-        "60 cm²",
-        "120 cm²",
-        "32 cm²"
-      ],
-      "explanation": "क्षेत्रफल=10×6=60 वर्ग सेमी।"
-    },
-    "id": "nms-0183"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A=28d, B=18d. Together?",
-      "options": [
-        "46d",
-        "10d",
-        "11d",
-        "22.0d"
-      ],
-      "explanation": "1d: 1/28+1/18. Time=11d."
-    },
-    "hi": {
-      "question": "A=28दिन, B=18दिन। साथ?",
-      "options": [
-        "46d",
-        "10d",
-        "11d",
-        "22.0d"
-      ],
-      "explanation": "1दिन: 1/28+1/18। समय=11दिन।"
-    },
-    "id": "nms-0184"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 13000 at 17% for 11yrs?",
-      "options": [
-        "Rs.13000",
-        "Rs.48620",
-        "Rs.24310",
-        "Rs.12155"
-      ],
-      "explanation": "SI=13000×17×11/100=24310.0."
-    },
-    "hi": {
-      "question": "13000रु, 17%, 11वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.13000",
-        "Rs.48620",
-        "Rs.24310",
-        "Rs.12155"
-      ],
-      "explanation": "सा.ब्याज=24310.0।"
-    },
-    "id": "nms-0185"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 5 and 20?",
-      "options": [
-        "25",
-        "20",
-        "100",
-        "5"
-      ],
-      "explanation": "LCM=100/5=20."
-    },
-    "hi": {
-      "question": "5 और 20 का ल.स.?",
-      "options": [
-        "25",
-        "20",
-        "100",
-        "5"
-      ],
-      "explanation": "ल.स.=20।"
-    },
-    "id": "nms-0186"
-  },
-  {
+    "id": "stat-0088",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A=29d, B=16d. Together?",
+      "question": "Median of 67, 52, 43, 56, 56...?",
       "options": [
-        "20.6d",
-        "45d",
-        "13d",
-        "10.3d"
+        "54",
+        "60",
+        "61",
+        "56"
       ],
-      "explanation": "1d: 1/29+1/16. Time=10.3d."
+      "explanation": "Ordered: [42, 43, 52, 56, 56, 67, 81, 81]. Median = 56."
     },
     "hi": {
-      "question": "A=29दिन, B=16दिन। साथ?",
+      "question": "Median of 67, 52, 43, 56, 56...?",
       "options": [
-        "20.6d",
-        "45d",
-        "13d",
-        "10.3d"
+        "54",
+        "60",
+        "61",
+        "56"
       ],
-      "explanation": "1दिन: 1/29+1/16। समय=10.3दिन।"
-    },
-    "id": "nms-0187"
+      "explanation": "Ordered: [42, 43, 52, 56, 56, 67, 81, 81]. Median = 56."
+    }
   },
   {
+    "id": "stat-0089",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 83, 83, 93, 93, 78...?",
+      "options": [
+        "83",
+        "88",
+        "73",
+        "70"
+      ],
+      "explanation": "Ordered: [32, 46, 55, 78, 83, 83, 93, 93]. Median = 83."
+    },
+    "hi": {
+      "question": "Median of 83, 83, 93, 93, 78...?",
+      "options": [
+        "83",
+        "88",
+        "73",
+        "70"
+      ],
+      "explanation": "Ordered: [32, 46, 55, 78, 83, 83, 93, 93]. Median = 83."
+    }
+  },
+  {
+    "id": "stat-0090",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 20, 58, 88, 46, 69...?",
+      "options": [
+        "68",
+        "53",
+        "58",
+        "60"
+      ],
+      "explanation": "Ordered: [20, 28, 31, 46, 58, 69, 88, 90]. Median = 58."
+    },
+    "hi": {
+      "question": "Median of 20, 58, 88, 46, 69...?",
+      "options": [
+        "68",
+        "53",
+        "58",
+        "60"
+      ],
+      "explanation": "Ordered: [20, 28, 31, 46, 58, 69, 88, 90]. Median = 58."
+    }
+  },
+  {
+    "id": "stat-0091",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 30, 53, 39, 50, 50...?",
+      "options": [
+        "50",
+        "60",
+        "55",
+        "40"
+      ],
+      "explanation": "Ordered: [30, 39, 47, 50, 50, 53, 93, 100]. Median = 50."
+    },
+    "hi": {
+      "question": "Median of 30, 53, 39, 50, 50...?",
+      "options": [
+        "50",
+        "60",
+        "55",
+        "40"
+      ],
+      "explanation": "Ordered: [30, 39, 47, 50, 50, 53, 93, 100]. Median = 50."
+    }
+  },
+  {
+    "id": "stat-0092",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A=13d, B=32d. Together?",
+      "question": "Median of 85, 76, 67, 62, 31...?",
       "options": [
-        "18.4d",
-        "19d",
-        "45d",
-        "9.2d"
+        "72",
+        "60",
+        "50",
+        "62"
       ],
-      "explanation": "1d: 1/13+1/32. Time=9.2d."
+      "explanation": "Ordered: [12, 26, 31, 33, 62, 67, 76, 85]. Median = 62."
     },
     "hi": {
-      "question": "A=13दिन, B=32दिन। साथ?",
+      "question": "Median of 85, 76, 67, 62, 31...?",
       "options": [
-        "18.4d",
-        "19d",
-        "45d",
-        "9.2d"
+        "72",
+        "60",
+        "50",
+        "62"
       ],
-      "explanation": "1दिन: 1/13+1/32। समय=9.2दिन।"
-    },
-    "id": "nms-0188"
+      "explanation": "Ordered: [12, 26, 31, 33, 62, 67, 76, 85]. Median = 62."
+    }
   },
   {
+    "id": "stat-0093",
     "correctOption": "D",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Rectangle 20×18cm. Area?",
+      "question": "Median of 60, 23, 22, 18, 70...?",
       "options": [
-        "38 cm²",
-        "720 cm²",
-        "76 cm²",
-        "360 cm²"
+        "13",
+        "30",
+        "28",
+        "23"
       ],
-      "explanation": "Area=20×18=360 cm²."
+      "explanation": "Ordered: [13, 16, 18, 22, 23, 60, 70, 80]. Median = 23."
     },
     "hi": {
-      "question": "आयत 20×18सेमी। क्षेत्रफल?",
+      "question": "Median of 60, 23, 22, 18, 70...?",
       "options": [
-        "38 cm²",
-        "720 cm²",
-        "76 cm²",
-        "360 cm²"
+        "13",
+        "30",
+        "28",
+        "23"
       ],
-      "explanation": "क्षेत्रफल=20×18=360 वर्ग सेमी।"
-    },
-    "id": "nms-0189"
+      "explanation": "Ordered: [13, 16, 18, 22, 23, 60, 70, 80]. Median = 23."
+    }
   },
   {
+    "id": "stat-0094",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Rectangle 24×13cm. Area?",
+      "question": "Median of 20, 93, 59, 49, 39...?",
       "options": [
-        "74 cm²",
-        "624 cm²",
-        "312 cm²",
-        "37 cm²"
+        "40",
+        "47",
+        "49",
+        "59"
       ],
-      "explanation": "Area=24×13=312 cm²."
+      "explanation": "Ordered: [20, 39, 41, 46, 49, 59, 66, 93]. Median = 49."
     },
     "hi": {
-      "question": "आयत 24×13सेमी। क्षेत्रफल?",
+      "question": "Median of 20, 93, 59, 49, 39...?",
       "options": [
-        "74 cm²",
-        "624 cm²",
-        "312 cm²",
-        "37 cm²"
+        "40",
+        "47",
+        "49",
+        "59"
       ],
-      "explanation": "क्षेत्रफल=24×13=312 वर्ग सेमी।"
-    },
-    "id": "nms-0190"
+      "explanation": "Ordered: [20, 39, 41, 46, 49, 59, 66, 93]. Median = 49."
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 37 + 9 × 10",
-      "options": [
-        "56",
-        "3330",
-        "460",
-        "127"
-      ],
-      "explanation": "BODMAS: 9×10=90+37=127."
-    },
-    "hi": {
-      "question": "सरल: 37 + 9 × 10",
-      "options": [
-        "56",
-        "3330",
-        "460",
-        "127"
-      ],
-      "explanation": "BODMAS: 127।"
-    },
-    "id": "nms-0191"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 18000 at 21% for 34yrs?",
-      "options": [
-        "Rs.257040",
-        "Rs.18000",
-        "Rs.64260",
-        "Rs.128520"
-      ],
-      "explanation": "SI=18000×21×34/100=128520.0."
-    },
-    "hi": {
-      "question": "18000रु, 21%, 34वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.257040",
-        "Rs.18000",
-        "Rs.64260",
-        "Rs.128520"
-      ],
-      "explanation": "सा.ब्याज=128520.0।"
-    },
-    "id": "nms-0192"
-  },
-  {
+    "id": "stat-0095",
     "correctOption": "A",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "LCM of 35 and 8?",
-      "options": [
-        "280",
-        "281",
-        "282",
-        "283"
-      ],
-      "explanation": "LCM=280/1=280."
-    },
-    "hi": {
-      "question": "35 और 8 का ल.स.?",
-      "options": [
-        "280",
-        "281",
-        "282",
-        "283"
-      ],
-      "explanation": "ल.स.=280।"
-    },
-    "id": "nms-0193"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "9% of 140?",
+      "question": "Median of 94, 55, 51, 70, 69...?",
       "options": [
         "70",
-        "140",
-        "280",
-        "126"
+        "75",
+        "68",
+        "182"
       ],
-      "explanation": "140×9/100=126."
+      "explanation": "Ordered: [44, 51, 55, 69, 70, 79, 80, 94]. Median = 70."
     },
     "hi": {
-      "question": "140 का 9%?",
+      "question": "Median of 94, 55, 51, 70, 69...?",
       "options": [
         "70",
-        "140",
-        "280",
-        "126"
+        "75",
+        "68",
+        "182"
       ],
-      "explanation": "140×9/100=126।"
-    },
-    "id": "nms-0194"
+      "explanation": "Ordered: [44, 51, 55, 69, 70, 79, 80, 94]. Median = 70."
+    }
   },
   {
+    "id": "stat-0096",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Median of 77, 91, 91, 78, 49...?",
+      "options": [
+        "78",
+        "60",
+        "80",
+        "76"
+      ],
+      "explanation": "Ordered: [49, 54, 71, 77, 78, 79, 91, 91]. Median = 78."
+    },
+    "hi": {
+      "question": "Median of 77, 91, 91, 78, 49...?",
+      "options": [
+        "78",
+        "60",
+        "80",
+        "76"
+      ],
+      "explanation": "Ordered: [49, 54, 71, 77, 78, 79, 91, 91]. Median = 78."
+    }
+  },
+  {
+    "id": "stat-0097",
     "correctOption": "D",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "SI on 37000 at 22% for 18yrs?",
+      "question": "Median of 43, 29, 48, 11, 10...?",
       "options": [
-        "Rs.73260",
-        "Rs.37000",
-        "Rs.293040",
-        "Rs.146520"
+        "70",
+        "48",
+        "38",
+        "43"
       ],
-      "explanation": "SI=37000×22×18/100=146520.0."
+      "explanation": "Ordered: [10, 11, 27, 29, 43, 48, 54, 76]. Median = 43."
     },
     "hi": {
-      "question": "37000रु, 22%, 18वर्ष का सा.ब्याज?",
+      "question": "Median of 43, 29, 48, 11, 10...?",
       "options": [
-        "Rs.73260",
-        "Rs.37000",
-        "Rs.293040",
-        "Rs.146520"
+        "70",
+        "48",
+        "38",
+        "43"
       ],
-      "explanation": "सा.ब्याज=146520.0।"
-    },
-    "id": "nms-0195"
+      "explanation": "Ordered: [10, 11, 27, 29, 43, 48, 54, 76]. Median = 43."
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
+    "id": "stat-0098",
+    "correctOption": "A",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "5% of 310?",
+      "question": "Median of 71, 48, 11, 65, 47...?",
       "options": [
-        "158",
-        "155",
-        "156",
-        "157"
+        "48",
+        "58",
+        "43",
+        "40"
       ],
-      "explanation": "310×5/100=155."
+      "explanation": "Ordered: [10, 11, 39, 47, 48, 65, 71, 86]. Median = 48."
     },
     "hi": {
-      "question": "310 का 5%?",
+      "question": "Median of 71, 48, 11, 65, 47...?",
       "options": [
-        "158",
-        "155",
-        "156",
-        "157"
+        "48",
+        "58",
+        "43",
+        "40"
       ],
-      "explanation": "310×5/100=155।"
-    },
-    "id": "nms-0196"
+      "explanation": "Ordered: [10, 11, 39, 47, 48, 65, 71, 86]. Median = 48."
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "easy",
+    "id": "stat-0099",
+    "correctOption": "A",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "SI on 47000 at 10% for 36yrs?",
+      "question": "Median of 60, 41, 30, 92, 59...?",
       "options": [
-        "Rs.47000",
-        "Rs.84600",
-        "Rs.338400",
-        "Rs.169200"
+        "58",
+        "40",
+        "60",
+        "53"
       ],
-      "explanation": "SI=47000×10×36/100=169200.0."
+      "explanation": "Ordered: [30, 38, 41, 43, 58, 59, 60, 92]. Median = 58."
     },
     "hi": {
-      "question": "47000रु, 10%, 36वर्ष का सा.ब्याज?",
+      "question": "Median of 60, 41, 30, 92, 59...?",
       "options": [
-        "Rs.47000",
-        "Rs.84600",
-        "Rs.338400",
-        "Rs.169200"
+        "58",
+        "40",
+        "60",
+        "53"
       ],
-      "explanation": "सा.ब्याज=169200.0।"
-    },
-    "id": "nms-0197"
+      "explanation": "Ordered: [30, 38, 41, 43, 58, 59, 60, 92]. Median = 58."
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "easy",
+    "id": "stat-0100",
+    "correctOption": "A",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Divide 320 in 7:9. Larger?",
+      "question": "Median of 62, 34, 18, 33, 27...?",
       "options": [
-        "160",
-        "320",
-        "140",
-        "180"
+        "34",
+        "39",
+        "60",
+        "24"
       ],
-      "explanation": "Parts=16. Shares: 140, 180. Larger=180."
+      "explanation": "Ordered: [18, 24, 27, 33, 34, 47, 62, 91]. Median = 34."
     },
     "hi": {
-      "question": "320 को 7:9 में बांटें। बड़ा?",
+      "question": "Median of 62, 34, 18, 33, 27...?",
       "options": [
-        "160",
-        "320",
-        "140",
-        "180"
+        "34",
+        "39",
+        "60",
+        "24"
       ],
-      "explanation": "हिस्से: 140, 180। बड़ा=180।"
-    },
-    "id": "nms-0198"
+      "explanation": "Ordered: [18, 24, 27, 33, 34, 47, 62, 91]. Median = 34."
+    }
   }
 ]

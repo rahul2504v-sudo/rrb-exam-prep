@@ -1,2602 +1,2602 @@
 [
   {
-    "id": "gdmbs-0001",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "A boat can go 30 km downstream in 2 hours and return upstream in 3 hours. Find the speed of the stream.",
-      "options": [
-        "2 km/h",
-        "2.5 km/h",
-        "3 km/h",
-        "5 km/h"
-      ],
-      "explanation": "Downstream speed = 30/2 = 15 km/h. Upstream speed = 30/3 = 10 km/h. Stream speed = (15-10)/2 = 2.5 km/h."
-    },
-    "hi": {
-      "question": "एक नाव धारा के अनुकूल 30 km 2 घंटे में और धारा के प्रतिकूल 3 घंटे में जाती है। धारा की गति ज्ञात करें।",
-      "options": [
-        "2 km/h",
-        "2.5 km/h",
-        "3 km/h",
-        "5 km/h"
-      ],
-      "explanation": "अनुकूल गति = 30/2 = 15 km/h। प्रतिकूल गति = 30/3 = 10 km/h। धारा की गति = (15-10)/2 = 2.5 km/h।"
-    }
-  },
-  {
-    "id": "gdmbs-0002",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2023,
-    "en": {
-      "question": "The speed of a boat in still water is 12 km/h. If it goes downstream at 15 km/h, what is the speed of the stream?",
-      "options": [
-        "2 km/h",
-        "3 km/h",
-        "4 km/h",
-        "5 km/h"
-      ],
-      "explanation": "Downstream = boat speed + stream speed. 15 = 12 + stream. Stream = 3 km/h."
-    },
-    "hi": {
-      "question": "शांत जल में एक नाव की गति 12 km/h है। यदि यह धारा के अनुकूल 15 km/h जाती है, तो धारा की गति क्या है?",
-      "options": [
-        "2 km/h",
-        "3 km/h",
-        "4 km/h",
-        "5 km/h"
-      ],
-      "explanation": "अनुकूल गति = नाव की गति + धारा की गति। 15 = 12 + धारा। धारा = 3 km/h।"
-    }
-  },
-  {
-    "id": "gdmbs-0003",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "A man rows 30 km downstream in 5 hours and the same distance upstream in 6 hours. Find his speed in still water.",
-      "options": [
-        "5 km/h",
-        "5.5 km/h",
-        "6 km/h",
-        "6.5 km/h"
-      ],
-      "explanation": "DS = 30/5 = 6 km/h, US = 30/6 = 5 km/h. Speed in still water = (6+5)/2 = 5.5 km/h."
-    },
-    "hi": {
-      "question": "एक व्यक्ति धारा के अनुकूल 30 km, 5 घंटे में और धारा के प्रतिकूल इतनी ही दूरी 6 घंटे में तय करता है। शांत जल में उसकी गति ज्ञात करें।",
-      "options": [
-        "5 km/h",
-        "5.5 km/h",
-        "6 km/h",
-        "6.5 km/h"
-      ],
-      "explanation": "अनुकूल गति = 30/5 = 6 km/h, प्रतिकूल गति = 30/6 = 5 km/h। शांत जल में गति = (6+5)/2 = 5.5 km/h।"
-    }
-  },
-  {
-    "id": "gdmbs-0004",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2023,
-    "en": {
-      "question": "A boat covers 16 km upstream and 24 km downstream in 6 hours. It covers 12 km upstream and 36 km downstream in the same time. Find the speed of the stream.",
-      "options": [
-        "4 km/h",
-        "3 km/h",
-        "2 km/h",
-        "5 km/h"
-      ],
-      "explanation": "Let US speed = x, DS speed = y. From equations: 16/x + 24/y = 6 and 12/x + 36/y = 6. Solving: y = 12, x = 4. Stream speed = (y-x)/2 = (12-4)/2 = 4 km/h."
-    },
-    "hi": {
-      "question": "एक नाव 16 km धारा के प्रतिकूल और 24 km धारा के अनुकूल 6 घंटे में तय करती है। वह 12 km प्रतिकूल और 36 km अनुकूल समान समय में तय करती है। धारा की गति ज्ञात करें।",
-      "options": [
-        "4 km/h",
-        "3 km/h",
-        "2 km/h",
-        "5 km/h"
-      ],
-      "explanation": "माना प्रतिकूल गति = x, अनुकूल गति = y। 16/x + 24/y = 6 और 12/x + 36/y = 6। हल करने पर: y = 12, x = 4। धारा की गति = (y-x)/2 = (12-4)/2 = 4 km/h।"
-    }
-  },
-  {
-    "id": "gdmbs-0005",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "A man can row at 6 km/h in still water. If the stream flows at 2 km/h, how long will he take to go 16 km upstream and return?",
-      "options": [
-        "5 hours",
-        "6 hours",
-        "7 hours",
-        "8 hours"
-      ],
-      "explanation": "US speed = 6-2=4 km/h, DS speed = 6+2=8 km/h. US time = 16/4=4 hr, DS time=16/8=2 hr. Total = 6 hours."
-    },
-    "hi": {
-      "question": "एक व्यक्ति शांत जल में 6 km/h की गति से नाव चला सकता है। यदि धारा 2 km/h बहती है, तो 16 km प्रतिकूल जाने और वापस आने में कितना समय लगेगा?",
-      "options": [
-        "5 घंटे",
-        "6 घंटे",
-        "7 घंटे",
-        "8 घंटे"
-      ],
-      "explanation": "प्रतिकूल गति = 6-2=4 km/h, अनुकूल गति = 6+2=8 km/h। प्रतिकूल समय = 16/4=4 घंटे, अनुकूल समय=16/8=2 घंटे। कुल = 6 घंटे।"
-    }
-  },
-  {
-    "id": "gdmbs-0006",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2023,
-    "en": {
-      "question": "The speed of a boat downstream is 15 km/h and upstream is 9 km/h. Find the speed of the boat in still water.",
-      "options": [
-        "10 km/h",
-        "11 km/h",
-        "12 km/h",
-        "13 km/h"
-      ],
-      "explanation": "Speed in still water = (DS + US)/2 = (15+9)/2 = 12 km/h."
-    },
-    "hi": {
-      "question": "एक नाव की धारा के अनुकूल गति 15 km/h और प्रतिकूल गति 9 km/h है। शांत जल में नाव की गति ज्ञात करें।",
-      "options": [
-        "10 km/h",
-        "11 km/h",
-        "12 km/h",
-        "13 km/h"
-      ],
-      "explanation": "शांत जल में गति = (अनुकूल गति + प्रतिकूल गति)/2 = (15+9)/2 = 12 km/h।"
-    }
-  },
-  {
-    "id": "gdmbs-0007",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "A boat takes 2 hours more to go 45 km upstream than to return downstream. If the speed of the stream is 3 km/h, find the speed of the boat in still water.",
-      "options": [
-        "10 km/h",
-        "12 km/h",
-        "14 km/h",
-        "15 km/h"
-      ],
-      "explanation": "Let boat speed = x. 45/(x-3) - 45/(x+3) = 2. 45(x+3-x+3)/(x^2-9) = 2. 45x6/(x^2-9) = 2. 270 = 2x^2 - 18. 2x^2 = 288. x = 12 km/h."
-    },
-    "hi": {
-      "question": "एक नाव को धारा के प्रतिकूल 45 km जाने में, अनुकूल लौटने की तुलना में 2 घंटे अधिक लगते हैं। यदि धारा की गति 3 km/h है, तो शांत जल में नाव की गति ज्ञात करें।",
-      "options": [
-        "10 km/h",
-        "12 km/h",
-        "14 km/h",
-        "15 km/h"
-      ],
-      "explanation": "माना नाव की गति = x। 45/(x-3) - 45/(x+3) = 2। 45(x+3-x+3)/(x^2-9) = 2। 45×6/(x^2-9) = 2। 270 = 2x^2 - 18। 2x^2 = 288। x = 12 km/h।"
-    }
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 15 + 23 × 5",
-      "options": [
-        "1725",
-        "43",
-        "130",
-        "190"
-      ],
-      "explanation": "BODMAS: 23×5=115+15=130."
-    },
-    "hi": {
-      "question": "सरल करें: 15 + 23 × 5",
-      "options": [
-        "1725",
-        "43",
-        "130",
-        "190"
-      ],
-      "explanation": "BODMAS: 23×5+15=130।"
-    },
-    "id": "gdmbs-0008"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.190, sell at 12% profit. SP?",
-      "options": [
-        "380",
-        "170",
-        "190",
-        "212.8"
-      ],
-      "explanation": "SP=190×1.12=212.8."
-    },
-    "hi": {
-      "question": "खरीदा 190 रु., 12% लाभ। वि.मू.?",
-      "options": [
-        "380",
-        "170",
-        "190",
-        "212.8"
-      ],
-      "explanation": "वि.मू.=212.8।"
-    },
-    "id": "gdmbs-0009"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.36000 at 5% for 37 yrs?",
-      "options": [
-        "Rs.133200",
-        "Rs.66600",
-        "Rs.33300",
-        "Rs.36000"
-      ],
-      "explanation": "SI=36000×5×37/100=66600.0."
-    },
-    "hi": {
-      "question": "36000 रु. पर 5% से 37 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.133200",
-        "Rs.66600",
-        "Rs.33300",
-        "Rs.36000"
-      ],
-      "explanation": "सा.ब्याज=36000×5×37/100=66600.0।"
-    },
-    "id": "gdmbs-0010"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.50, sell at 27% profit. SP?",
-      "options": [
-        "66",
-        "64",
-        "65",
-        "63.5"
-      ],
-      "explanation": "SP=50×1.27=63.5."
-    },
-    "hi": {
-      "question": "खरीदा 50 रु., 27% लाभ। वि.मू.?",
-      "options": [
-        "66",
-        "64",
-        "65",
-        "63.5"
-      ],
-      "explanation": "वि.मू.=63.5।"
-    },
-    "id": "gdmbs-0011"
-  },
-  {
+    "id": "bs-0001",
     "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A does work in 9d, B in 13d. Together?",
-      "options": [
-        "5.3d",
-        "10.6d",
-        "4d",
-        "22d"
-      ],
-      "explanation": "1d: 1/9+1/13. Time=5.3d."
-    },
-    "hi": {
-      "question": "A 9दिन, B 13दिन। साथ?",
-      "options": [
-        "5.3d",
-        "10.6d",
-        "4d",
-        "22d"
-      ],
-      "explanation": "1दिन: 1/9+1/13। समय=5.3दिन।"
-    },
-    "id": "gdmbs-0012"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.480, sell at 22% profit. SP?",
-      "options": [
-        "480",
-        "960",
-        "468",
-        "585.6"
-      ],
-      "explanation": "SP=480×1.22=585.6."
-    },
-    "hi": {
-      "question": "खरीदा 480 रु., 22% लाभ। वि.मू.?",
-      "options": [
-        "480",
-        "960",
-        "468",
-        "585.6"
-      ],
-      "explanation": "वि.मू.=585.6।"
-    },
-    "id": "gdmbs-0013"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 13km/hr for 30hrs. Distance?",
-      "options": [
-        "780 km",
-        "390 km",
-        "43 km",
-        "195 km"
-      ],
-      "explanation": "Distance=13×30=390km."
-    },
-    "hi": {
-      "question": "13किमी/घंटा, 30घंटे। दूरी?",
-      "options": [
-        "780 km",
-        "390 km",
-        "43 km",
-        "195 km"
-      ],
-      "explanation": "दूरी=390किमी।"
-    },
-    "id": "gdmbs-0014"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.17000 at 30% for 10 yrs?",
-      "options": [
-        "Rs.25500",
-        "Rs.51000",
-        "Rs.102000",
-        "Rs.17000"
-      ],
-      "explanation": "SI=17000×30×10/100=51000.0."
-    },
-    "hi": {
-      "question": "17000 रु. पर 30% से 10 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.25500",
-        "Rs.51000",
-        "Rs.102000",
-        "Rs.17000"
-      ],
-      "explanation": "सा.ब्याज=17000×30×10/100=51000.0।"
-    },
-    "id": "gdmbs-0015"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 37 and 34?",
-      "options": [
-        "1260",
-        "1261",
-        "1259",
-        "1258"
-      ],
-      "explanation": "LCM=37×34/1=1258."
-    },
-    "hi": {
-      "question": "37 और 34 का ल.स.?",
-      "options": [
-        "1260",
-        "1261",
-        "1259",
-        "1258"
-      ],
-      "explanation": "ल.स.=1258।"
-    },
-    "id": "gdmbs-0016"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 32km/hr for 37hrs. Distance?",
-      "options": [
-        "2368 km",
-        "69 km",
-        "1184 km",
-        "592 km"
-      ],
-      "explanation": "Distance=32×37=1184km."
-    },
-    "hi": {
-      "question": "32किमी/घंटा, 37घंटे। दूरी?",
-      "options": [
-        "2368 km",
-        "69 km",
-        "1184 km",
-        "592 km"
-      ],
-      "explanation": "दूरी=1184किमी।"
-    },
-    "id": "gdmbs-0017"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 18 + 5 × 6",
-      "options": [
-        "29",
-        "138",
-        "33",
-        "540"
-      ],
-      "explanation": "BODMAS: 5×6=30+18=33."
-    },
-    "hi": {
-      "question": "सरल करें: 18 + 5 × 6",
-      "options": [
-        "29",
-        "138",
-        "33",
-        "540"
-      ],
-      "explanation": "BODMAS: 5×6+18=33।"
-    },
-    "id": "gdmbs-0018"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 22d, B in 20d. Together?",
-      "options": [
-        "10.5d",
-        "21.0d",
-        "42d",
-        "2d"
-      ],
-      "explanation": "1d: 1/22+1/20. Time=10.5d."
-    },
-    "hi": {
-      "question": "A 22दिन, B 20दिन। साथ?",
-      "options": [
-        "10.5d",
-        "21.0d",
-        "42d",
-        "2d"
-      ],
-      "explanation": "1दिन: 1/22+1/20। समय=10.5दिन।"
-    },
-    "id": "gdmbs-0019"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 41 + 20 × 12",
-      "options": [
-        "241",
-        "73",
-        "732",
-        "9840"
-      ],
-      "explanation": "BODMAS: 20×12=240+41=241."
-    },
-    "hi": {
-      "question": "सरल करें: 41 + 20 × 12",
-      "options": [
-        "241",
-        "73",
-        "732",
-        "9840"
-      ],
-      "explanation": "BODMAS: 20×12+41=241।"
-    },
-    "id": "gdmbs-0020"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 12km/hr for 29hrs. Distance?",
-      "options": [
-        "348 km",
-        "174 km",
-        "41 km",
-        "696 km"
-      ],
-      "explanation": "Distance=12×29=348km."
-    },
-    "hi": {
-      "question": "12किमी/घंटा, 29घंटे। दूरी?",
-      "options": [
-        "348 km",
-        "174 km",
-        "41 km",
-        "696 km"
-      ],
-      "explanation": "दूरी=348किमी।"
-    },
-    "id": "gdmbs-0021"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 7 + 18 × 4",
-      "options": [
-        "79",
-        "29",
-        "504",
-        "100"
-      ],
-      "explanation": "BODMAS: 18×4=72+7=79."
-    },
-    "hi": {
-      "question": "सरल करें: 7 + 18 × 4",
-      "options": [
-        "79",
-        "29",
-        "504",
-        "100"
-      ],
-      "explanation": "BODMAS: 18×4+7=79।"
-    },
-    "id": "gdmbs-0022"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.29000 at 30% for 10 yrs?",
-      "options": [
-        "Rs.29000",
-        "Rs.174000",
-        "Rs.43500",
-        "Rs.87000"
-      ],
-      "explanation": "SI=29000×30×10/100=87000.0."
-    },
-    "hi": {
-      "question": "29000 रु. पर 30% से 10 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.29000",
-        "Rs.174000",
-        "Rs.43500",
-        "Rs.87000"
-      ],
-      "explanation": "सा.ब्याज=29000×30×10/100=87000.0।"
-    },
-    "id": "gdmbs-0023"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 17km/hr for 35hrs. Distance?",
-      "options": [
-        "52 km",
-        "297 km",
-        "595 km",
-        "1190 km"
-      ],
-      "explanation": "Distance=17×35=595km."
-    },
-    "hi": {
-      "question": "17किमी/घंटा, 35घंटे। दूरी?",
-      "options": [
-        "52 km",
-        "297 km",
-        "595 km",
-        "1190 km"
-      ],
-      "explanation": "दूरी=595किमी।"
-    },
-    "id": "gdmbs-0024"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 19km/hr for 25hrs. Distance?",
-      "options": [
-        "950 km",
-        "237 km",
-        "475 km",
-        "44 km"
-      ],
-      "explanation": "Distance=19×25=475km."
-    },
-    "hi": {
-      "question": "19किमी/घंटा, 25घंटे। दूरी?",
-      "options": [
-        "950 km",
-        "237 km",
-        "475 km",
-        "44 km"
-      ],
-      "explanation": "दूरी=475किमी।"
-    },
-    "id": "gdmbs-0025"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "9% of 270?",
-      "options": [
-        "243",
-        "135",
-        "540",
-        "270"
-      ],
-      "explanation": "270×9/100 = 243."
-    },
-    "hi": {
-      "question": "270 का 9%?",
-      "options": [
-        "243",
-        "135",
-        "540",
-        "270"
-      ],
-      "explanation": "270×9/100 = 243।"
-    },
-    "id": "gdmbs-0026"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.380, sell at 18% profit. SP?",
-      "options": [
-        "380",
-        "448.4",
-        "358",
-        "760"
-      ],
-      "explanation": "SP=380×1.18=448.4."
-    },
-    "hi": {
-      "question": "खरीदा 380 रु., 18% लाभ। वि.मू.?",
-      "options": [
-        "380",
-        "448.4",
-        "358",
-        "760"
-      ],
-      "explanation": "वि.मू.=448.4।"
-    },
-    "id": "gdmbs-0027"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 26d, B in 3d. Together?",
-      "options": [
-        "2.7d",
-        "29d",
-        "5.4d",
-        "23d"
-      ],
-      "explanation": "1d: 1/26+1/3. Time=2.7d."
-    },
-    "hi": {
-      "question": "A 26दिन, B 3दिन। साथ?",
-      "options": [
-        "2.7d",
-        "29d",
-        "5.4d",
-        "23d"
-      ],
-      "explanation": "1दिन: 1/26+1/3। समय=2.7दिन।"
-    },
-    "id": "gdmbs-0028"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 21, 28, 79, 10, 57, 32",
-      "options": [
-        "227",
-        "37.8",
-        "79",
-        "10"
-      ],
-      "explanation": "Sum=227/6=37.8."
-    },
-    "hi": {
-      "question": "औसत: 21, 28, 79, 10, 57, 32",
-      "options": [
-        "227",
-        "37.8",
-        "79",
-        "10"
-      ],
-      "explanation": "योग=227/6=37.8।"
-    },
-    "id": "gdmbs-0029"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 59, 44, 46, 11, 13, 26",
-      "options": [
-        "59",
-        "33.2",
-        "199",
-        "11"
-      ],
-      "explanation": "Sum=199/6=33.2."
-    },
-    "hi": {
-      "question": "औसत: 59, 44, 46, 11, 13, 26",
-      "options": [
-        "59",
-        "33.2",
-        "199",
-        "11"
-      ],
-      "explanation": "योग=199/6=33.2।"
-    },
-    "id": "gdmbs-0030"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.200, sell at 11% profit. SP?",
-      "options": [
-        "222",
-        "200",
-        "400",
-        "177"
-      ],
-      "explanation": "SP=200×1.11=222.0."
-    },
-    "hi": {
-      "question": "खरीदा 200 रु., 11% लाभ। वि.मू.?",
-      "options": [
-        "222",
-        "200",
-        "400",
-        "177"
-      ],
-      "explanation": "वि.मू.=222.0।"
-    },
-    "id": "gdmbs-0031"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 11d, B in 38d. Together?",
-      "options": [
-        "8.5d",
-        "17.0d",
-        "49d",
-        "27d"
-      ],
-      "explanation": "1d: 1/11+1/38. Time=8.5d."
-    },
-    "hi": {
-      "question": "A 11दिन, B 38दिन। साथ?",
-      "options": [
-        "8.5d",
-        "17.0d",
-        "49d",
-        "27d"
-      ],
-      "explanation": "1दिन: 1/11+1/38। समय=8.5दिन।"
-    },
-    "id": "gdmbs-0032"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "20% of 400?",
-      "options": [
-        "800",
-        "803",
-        "801",
-        "802"
-      ],
-      "explanation": "400×20/100 = 800."
-    },
-    "hi": {
-      "question": "400 का 20%?",
-      "options": [
-        "800",
-        "803",
-        "801",
-        "802"
-      ],
-      "explanation": "400×20/100 = 800।"
-    },
-    "id": "gdmbs-0033"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 15km/hr for 16hrs. Distance?",
-      "options": [
-        "240 km",
-        "480 km",
-        "120 km",
-        "31 km"
-      ],
-      "explanation": "Distance=15×16=240km."
-    },
-    "hi": {
-      "question": "15किमी/घंटा, 16घंटे। दूरी?",
-      "options": [
-        "240 km",
-        "480 km",
-        "120 km",
-        "31 km"
-      ],
-      "explanation": "दूरी=240किमी।"
-    },
-    "id": "gdmbs-0034"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 16km/hr for 37hrs. Distance?",
-      "options": [
-        "53 km",
-        "1184 km",
-        "296 km",
-        "592 km"
-      ],
-      "explanation": "Distance=16×37=592km."
-    },
-    "hi": {
-      "question": "16किमी/घंटा, 37घंटे। दूरी?",
-      "options": [
-        "53 km",
-        "1184 km",
-        "296 km",
-        "592 km"
-      ],
-      "explanation": "दूरी=592किमी।"
-    },
-    "id": "gdmbs-0035"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 15 and 17?",
-      "options": [
-        "257",
-        "256",
-        "258",
-        "255"
-      ],
-      "explanation": "LCM=15×17/1=255."
-    },
-    "hi": {
-      "question": "15 और 17 का ल.स.?",
-      "options": [
-        "257",
-        "256",
-        "258",
-        "255"
-      ],
-      "explanation": "ल.स.=255।"
-    },
-    "id": "gdmbs-0036"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 36km/hr for 6hrs. Distance?",
-      "options": [
-        "432 km",
-        "216 km",
-        "108 km",
-        "42 km"
-      ],
-      "explanation": "Distance=36×6=216km."
-    },
-    "hi": {
-      "question": "36किमी/घंटा, 6घंटे। दूरी?",
-      "options": [
-        "432 km",
-        "216 km",
-        "108 km",
-        "42 km"
-      ],
-      "explanation": "दूरी=216किमी।"
-    },
-    "id": "gdmbs-0037"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 47 + 17 × 10",
-      "options": [
-        "74",
-        "183",
-        "7990",
-        "640"
-      ],
-      "explanation": "BODMAS: 17×10=170+47=183."
-    },
-    "hi": {
-      "question": "सरल करें: 47 + 17 × 10",
-      "options": [
-        "74",
-        "183",
-        "7990",
-        "640"
-      ],
-      "explanation": "BODMAS: 17×10+47=183।"
-    },
-    "id": "gdmbs-0038"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.310, sell at 24% profit. SP?",
-      "options": [
-        "307",
-        "620",
-        "384.4",
-        "310"
-      ],
-      "explanation": "SP=310×1.24=384.4."
-    },
-    "hi": {
-      "question": "खरीदा 310 रु., 24% लाभ। वि.मू.?",
-      "options": [
-        "307",
-        "620",
-        "384.4",
-        "310"
-      ],
-      "explanation": "वि.मू.=384.4।"
-    },
-    "id": "gdmbs-0039"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 19 and 19?",
-      "options": [
-        "20",
-        "22",
-        "21",
-        "19"
-      ],
-      "explanation": "LCM=19×19/19=19."
-    },
-    "hi": {
-      "question": "19 और 19 का ल.स.?",
-      "options": [
-        "20",
-        "22",
-        "21",
-        "19"
-      ],
-      "explanation": "ल.स.=19।"
-    },
-    "id": "gdmbs-0040"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 39 + 23 × 9",
-      "options": [
-        "558",
-        "223",
-        "8073",
-        "71"
-      ],
-      "explanation": "BODMAS: 23×9=207+39=223."
-    },
-    "hi": {
-      "question": "सरल करें: 39 + 23 × 9",
-      "options": [
-        "558",
-        "223",
-        "8073",
-        "71"
-      ],
-      "explanation": "BODMAS: 23×9+39=223।"
-    },
-    "id": "gdmbs-0041"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.5000 at 30% for 26 yrs?",
-      "options": [
-        "Rs.39000",
-        "Rs.5000",
-        "Rs.78000",
-        "Rs.19500"
-      ],
-      "explanation": "SI=5000×30×26/100=39000.0."
-    },
-    "hi": {
-      "question": "5000 रु. पर 30% से 26 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.39000",
-        "Rs.5000",
-        "Rs.78000",
-        "Rs.19500"
-      ],
-      "explanation": "सा.ब्याज=5000×30×26/100=39000.0।"
-    },
-    "id": "gdmbs-0042"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "17% of 480?",
-      "options": [
-        "816",
-        "240",
-        "960",
-        "480"
-      ],
-      "explanation": "480×17/100 = 816."
-    },
-    "hi": {
-      "question": "480 का 17%?",
-      "options": [
-        "816",
-        "240",
-        "960",
-        "480"
-      ],
-      "explanation": "480×17/100 = 816।"
-    },
-    "id": "gdmbs-0043"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 20, 19, 43, 23, 14, 27",
-      "options": [
-        "14",
-        "43",
-        "146",
-        "24.3"
-      ],
-      "explanation": "Sum=146/6=24.3."
-    },
-    "hi": {
-      "question": "औसत: 20, 19, 43, 23, 14, 27",
-      "options": [
-        "14",
-        "43",
-        "146",
-        "24.3"
-      ],
-      "explanation": "योग=146/6=24.3।"
-    },
-    "id": "gdmbs-0044"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.42000 at 30% for 37 yrs?",
-      "options": [
-        "Rs.466200",
-        "Rs.233100",
-        "Rs.42000",
-        "Rs.932400"
-      ],
-      "explanation": "SI=42000×30×37/100=466200.0."
-    },
-    "hi": {
-      "question": "42000 रु. पर 30% से 37 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.466200",
-        "Rs.233100",
-        "Rs.42000",
-        "Rs.932400"
-      ],
-      "explanation": "सा.ब्याज=42000×30×37/100=466200.0।"
-    },
-    "id": "gdmbs-0045"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 5 and 39?",
-      "options": [
-        "198",
-        "196",
-        "197",
-        "195"
-      ],
-      "explanation": "LCM=5×39/1=195."
-    },
-    "hi": {
-      "question": "5 और 39 का ल.स.?",
-      "options": [
-        "198",
-        "196",
-        "197",
-        "195"
-      ],
-      "explanation": "ल.स.=195।"
-    },
-    "id": "gdmbs-0046"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 19 + 13 × 8",
-      "options": [
-        "256",
-        "110",
-        "1976",
-        "40"
-      ],
-      "explanation": "BODMAS: 13×8=104+19=110."
-    },
-    "hi": {
-      "question": "सरल करें: 19 + 13 × 8",
-      "options": [
-        "256",
-        "110",
-        "1976",
-        "40"
-      ],
-      "explanation": "BODMAS: 13×8+19=110।"
-    },
-    "id": "gdmbs-0047"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.290, sell at 18% profit. SP?",
-      "options": [
-        "273",
-        "290",
-        "342.2",
-        "580"
-      ],
-      "explanation": "SP=290×1.18=342.2."
-    },
-    "hi": {
-      "question": "खरीदा 290 रु., 18% लाभ। वि.मू.?",
-      "options": [
-        "273",
-        "290",
-        "342.2",
-        "580"
-      ],
-      "explanation": "वि.मू.=342.2।"
-    },
-    "id": "gdmbs-0048"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.8000 at 13% for 25 yrs?",
-      "options": [
-        "Rs.8000",
-        "Rs.52000",
-        "Rs.13000",
-        "Rs.26000"
-      ],
-      "explanation": "SI=8000×13×25/100=26000.0."
-    },
-    "hi": {
-      "question": "8000 रु. पर 13% से 25 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.8000",
-        "Rs.52000",
-        "Rs.13000",
-        "Rs.26000"
-      ],
-      "explanation": "सा.ब्याज=8000×13×25/100=26000.0।"
-    },
-    "id": "gdmbs-0049"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 35km/hr for 40hrs. Distance?",
-      "options": [
-        "700 km",
-        "2800 km",
-        "1400 km",
-        "75 km"
-      ],
-      "explanation": "Distance=35×40=1400km."
-    },
-    "hi": {
-      "question": "35किमी/घंटा, 40घंटे। दूरी?",
-      "options": [
-        "700 km",
-        "2800 km",
-        "1400 km",
-        "75 km"
-      ],
-      "explanation": "दूरी=1400किमी।"
-    },
-    "id": "gdmbs-0050"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 30 and 20?",
-      "options": [
-        "60",
-        "50",
-        "600",
-        "10"
-      ],
-      "explanation": "LCM=30×20/10=60."
-    },
-    "hi": {
-      "question": "30 और 20 का ल.स.?",
-      "options": [
-        "60",
-        "50",
-        "600",
-        "10"
-      ],
-      "explanation": "ल.स.=60।"
-    },
-    "id": "gdmbs-0051"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 36 + 40 × 7",
-      "options": [
-        "532",
-        "10080",
-        "316",
-        "83"
-      ],
-      "explanation": "BODMAS: 40×7=280+36=316."
-    },
-    "hi": {
-      "question": "सरल करें: 36 + 40 × 7",
-      "options": [
-        "532",
-        "10080",
-        "316",
-        "83"
-      ],
-      "explanation": "BODMAS: 40×7+36=316।"
-    },
-    "id": "gdmbs-0052"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.39000 at 7% for 3 yrs?",
-      "options": [
-        "Rs.8190",
-        "Rs.4095",
-        "Rs.39000",
-        "Rs.16380"
-      ],
-      "explanation": "SI=39000×7×3/100=8190.0."
-    },
-    "hi": {
-      "question": "39000 रु. पर 7% से 3 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.8190",
-        "Rs.4095",
-        "Rs.39000",
-        "Rs.16380"
-      ],
-      "explanation": "सा.ब्याज=39000×7×3/100=8190.0।"
-    },
-    "id": "gdmbs-0053"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 39 + 17 × 5",
-      "options": [
-        "61",
-        "90",
-        "280",
-        "3315"
-      ],
-      "explanation": "BODMAS: 17×5=85+39=90."
-    },
-    "hi": {
-      "question": "सरल करें: 39 + 17 × 5",
-      "options": [
-        "61",
-        "90",
-        "280",
-        "3315"
-      ],
-      "explanation": "BODMAS: 17×5+39=90।"
-    },
-    "id": "gdmbs-0054"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.380, sell at 30% profit. SP?",
-      "options": [
-        "760",
-        "494",
-        "380",
-        "395"
-      ],
-      "explanation": "SP=380×1.3=494.0."
-    },
-    "hi": {
-      "question": "खरीदा 380 रु., 30% लाभ। वि.मू.?",
-      "options": [
-        "760",
-        "494",
-        "380",
-        "395"
-      ],
-      "explanation": "वि.मू.=494.0।"
-    },
-    "id": "gdmbs-0055"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 37d, B in 17d. Together?",
-      "options": [
-        "11.6d",
-        "54d",
-        "20d",
-        "23.2d"
-      ],
-      "explanation": "1d: 1/37+1/17. Time=11.6d."
-    },
-    "hi": {
-      "question": "A 37दिन, B 17दिन। साथ?",
-      "options": [
-        "11.6d",
-        "54d",
-        "20d",
-        "23.2d"
-      ],
-      "explanation": "1दिन: 1/37+1/17। समय=11.6दिन।"
-    },
-    "id": "gdmbs-0056"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "16% of 350?",
-      "options": [
-        "350",
-        "560",
-        "700",
-        "175"
-      ],
-      "explanation": "350×16/100 = 560."
-    },
-    "hi": {
-      "question": "350 का 16%?",
-      "options": [
-        "350",
-        "560",
-        "700",
-        "175"
-      ],
-      "explanation": "350×16/100 = 560।"
-    },
-    "id": "gdmbs-0057"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A=33d, B=33d. Together?",
-      "options": [
-        "16.5d",
-        "33.0d",
-        "0d",
-        "66d"
-      ],
-      "explanation": "1d: 1/33+1/33. Time=16.5d."
-    },
-    "hi": {
-      "question": "A=33दिन, B=33दिन। साथ?",
-      "options": [
-        "16.5d",
-        "33.0d",
-        "0d",
-        "66d"
-      ],
-      "explanation": "1दिन: 1/33+1/33। समय=16.5दिन।"
-    },
-    "id": "gdmbs-0058"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A=29d, B=12d. Together?",
-      "options": [
-        "17.0d",
-        "17d",
-        "41d",
-        "8.5d"
-      ],
-      "explanation": "1d: 1/29+1/12. Time=8.5d."
-    },
-    "hi": {
-      "question": "A=29दिन, B=12दिन। साथ?",
-      "options": [
-        "17.0d",
-        "17d",
-        "41d",
-        "8.5d"
-      ],
-      "explanation": "1दिन: 1/29+1/12। समय=8.5दिन।"
-    },
-    "id": "gdmbs-0059"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 12 and 31?",
-      "options": [
-        "375",
-        "373",
-        "374",
-        "372"
-      ],
-      "explanation": "LCM=372/1=372."
-    },
-    "hi": {
-      "question": "12 और 31 का ल.स.?",
-      "options": [
-        "375",
-        "373",
-        "374",
-        "372"
-      ],
-      "explanation": "ल.स.=372।"
-    },
-    "id": "gdmbs-0060"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 14×4cm. Area?",
-      "options": [
-        "112 cm²",
-        "56 cm²",
-        "18 cm²",
-        "36 cm²"
-      ],
-      "explanation": "Area=14×4=56 cm²."
-    },
-    "hi": {
-      "question": "आयत 14×4सेमी। क्षेत्रफल?",
-      "options": [
-        "112 cm²",
-        "56 cm²",
-        "18 cm²",
-        "36 cm²"
-      ],
-      "explanation": "क्षेत्रफल=14×4=56 वर्ग सेमी।"
-    },
-    "id": "gdmbs-0061"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 820 in 3:7. Larger?",
-      "options": [
-        "246",
-        "820",
-        "574",
-        "410"
-      ],
-      "explanation": "Parts=10. Shares: 246, 574. Larger=574."
-    },
-    "hi": {
-      "question": "820 को 3:7 में बांटें। बड़ा?",
-      "options": [
-        "246",
-        "820",
-        "574",
-        "410"
-      ],
-      "explanation": "हिस्से: 246, 574। बड़ा=574।"
-    },
-    "id": "gdmbs-0062"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A=28d, B=28d. Together?",
-      "options": [
-        "28.0d",
-        "56d",
-        "0d",
-        "14d"
-      ],
-      "explanation": "1d: 1/28+1/28. Time=14d."
-    },
-    "hi": {
-      "question": "A=28दिन, B=28दिन। साथ?",
-      "options": [
-        "28.0d",
-        "56d",
-        "0d",
-        "14d"
-      ],
-      "explanation": "1दिन: 1/28+1/28। समय=14दिन।"
-    },
-    "id": "gdmbs-0063"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 34 and 21?",
-      "options": [
-        "717",
-        "714",
-        "715",
-        "716"
-      ],
-      "explanation": "LCM=714/1=714."
-    },
-    "hi": {
-      "question": "34 और 21 का ल.स.?",
-      "options": [
-        "717",
-        "714",
-        "715",
-        "716"
-      ],
-      "explanation": "ल.स.=714।"
-    },
-    "id": "gdmbs-0064"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 9km/hr, 19hrs. Distance?",
-      "options": [
-        "342km",
-        "85km",
-        "28km",
-        "171km"
-      ],
-      "explanation": "Dist=9×19=171km."
-    },
-    "hi": {
-      "question": "कार 9किमी/घं, 19घंटे। दूरी?",
-      "options": [
-        "342km",
-        "85km",
-        "28km",
-        "171km"
-      ],
-      "explanation": "दूरी=171किमी।"
-    },
-    "id": "gdmbs-0065"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 35km/hr, 30hrs. Distance?",
-      "options": [
-        "525km",
-        "1050km",
-        "2100km",
-        "65km"
-      ],
-      "explanation": "Dist=35×30=1050km."
-    },
-    "hi": {
-      "question": "कार 35किमी/घं, 30घंटे। दूरी?",
-      "options": [
-        "525km",
-        "1050km",
-        "2100km",
-        "65km"
-      ],
-      "explanation": "दूरी=1050किमी।"
-    },
-    "id": "gdmbs-0066"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 33 + 28 × 2",
-      "options": [
-        "122",
-        "63",
-        "1848",
-        "89"
-      ],
-      "explanation": "BODMAS: 28×2=56+33=89."
-    },
-    "hi": {
-      "question": "सरल: 33 + 28 × 2",
-      "options": [
-        "122",
-        "63",
-        "1848",
-        "89"
-      ],
-      "explanation": "BODMAS: 89।"
-    },
-    "id": "gdmbs-0067"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 948 in 7:5. Larger?",
-      "options": [
-        "553",
-        "474",
-        "395",
-        "948"
-      ],
-      "explanation": "Parts=12. Shares: 553, 395. Larger=553."
-    },
-    "hi": {
-      "question": "948 को 7:5 में बांटें। बड़ा?",
-      "options": [
-        "553",
-        "474",
-        "395",
-        "948"
-      ],
-      "explanation": "हिस्से: 553, 395। बड़ा=553।"
-    },
-    "id": "gdmbs-0068"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 10×25cm. Area?",
-      "options": [
-        "500 cm²",
-        "35 cm²",
-        "70 cm²",
-        "250 cm²"
-      ],
-      "explanation": "Area=10×25=250 cm²."
-    },
-    "hi": {
-      "question": "आयत 10×25सेमी। क्षेत्रफल?",
-      "options": [
-        "500 cm²",
-        "35 cm²",
-        "70 cm²",
-        "250 cm²"
-      ],
-      "explanation": "क्षेत्रफल=10×25=250 वर्ग सेमी।"
-    },
-    "id": "gdmbs-0069"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 16 and 24?",
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
       "options": [
         "8",
-        "40",
-        "48",
-        "384"
+        "10",
+        "9",
+        "5"
       ],
-      "explanation": "LCM=384/8=48."
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
     },
     "hi": {
-      "question": "16 और 24 का ल.स.?",
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
       "options": [
         "8",
-        "40",
-        "48",
-        "384"
+        "10",
+        "9",
+        "5"
       ],
-      "explanation": "ल.स.=48।"
-    },
-    "id": "gdmbs-0070"
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    }
   },
   {
+    "id": "bs-0002",
     "correctOption": "A",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Simplify: 32 + 4 × 8",
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
       "options": [
-        "64",
-        "288",
-        "44",
-        "1024"
+        "6",
+        "5",
+        "8",
+        "7"
       ],
-      "explanation": "BODMAS: 4×8=32+32=64."
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
     },
     "hi": {
-      "question": "सरल: 32 + 4 × 8",
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
       "options": [
-        "64",
-        "288",
-        "44",
-        "1024"
+        "6",
+        "5",
+        "8",
+        "7"
       ],
-      "explanation": "BODMAS: 64।"
-    },
-    "id": "gdmbs-0071"
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 10 + 23 × 6",
-      "options": [
-        "1380",
-        "39",
-        "198",
-        "148"
-      ],
-      "explanation": "BODMAS: 23×6=138+10=148."
-    },
-    "hi": {
-      "question": "सरल: 10 + 23 × 6",
-      "options": [
-        "1380",
-        "39",
-        "198",
-        "148"
-      ],
-      "explanation": "BODMAS: 148।"
-    },
-    "id": "gdmbs-0072"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 100 in 2:3. Larger?",
-      "options": [
-        "60",
-        "50",
-        "40",
-        "100"
-      ],
-      "explanation": "Parts=5. Shares: 40, 60. Larger=60."
-    },
-    "hi": {
-      "question": "100 को 2:3 में बांटें। बड़ा?",
-      "options": [
-        "60",
-        "50",
-        "40",
-        "100"
-      ],
-      "explanation": "हिस्से: 40, 60। बड़ा=60।"
-    },
-    "id": "gdmbs-0073"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 420 in 7:5. Larger?",
-      "options": [
-        "210",
-        "420",
-        "175",
-        "245"
-      ],
-      "explanation": "Parts=12. Shares: 245, 175. Larger=245."
-    },
-    "hi": {
-      "question": "420 को 7:5 में बांटें। बड़ा?",
-      "options": [
-        "210",
-        "420",
-        "175",
-        "245"
-      ],
-      "explanation": "हिस्से: 245, 175। बड़ा=245।"
-    },
-    "id": "gdmbs-0074"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 23000 at 22% for 19yrs?",
-      "options": [
-        "Rs.23000",
-        "Rs.96140",
-        "Rs.192280",
-        "Rs.48070"
-      ],
-      "explanation": "SI=23000×22×19/100=96140.0."
-    },
-    "hi": {
-      "question": "23000रु, 22%, 19वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.23000",
-        "Rs.96140",
-        "Rs.192280",
-        "Rs.48070"
-      ],
-      "explanation": "सा.ब्याज=96140.0।"
-    },
-    "id": "gdmbs-0075"
-  },
-  {
+    "id": "bs-0003",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A=13d, B=22d. Together?",
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
       "options": [
-        "35d",
-        "16.4d",
-        "8.2d",
-        "9d"
+        "10",
+        "11",
+        "9",
+        "5"
       ],
-      "explanation": "1d: 1/13+1/22. Time=8.2d."
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
     },
     "hi": {
-      "question": "A=13दिन, B=22दिन। साथ?",
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
       "options": [
-        "35d",
-        "16.4d",
-        "8.2d",
-        "9d"
+        "10",
+        "11",
+        "9",
+        "5"
       ],
-      "explanation": "1दिन: 1/13+1/22। समय=8.2दिन।"
-    },
-    "id": "gdmbs-0076"
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 10000 at 27% for 40yrs?",
-      "options": [
-        "Rs.54000",
-        "Rs.10000",
-        "Rs.108000",
-        "Rs.216000"
-      ],
-      "explanation": "SI=10000×27×40/100=108000.0."
-    },
-    "hi": {
-      "question": "10000रु, 27%, 40वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.54000",
-        "Rs.10000",
-        "Rs.108000",
-        "Rs.216000"
-      ],
-      "explanation": "सा.ब्याज=108000.0।"
-    },
-    "id": "gdmbs-0077"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 31 + 27 × 6",
-      "options": [
-        "348",
-        "193",
-        "5022",
-        "64"
-      ],
-      "explanation": "BODMAS: 27×6=162+31=193."
-    },
-    "hi": {
-      "question": "सरल: 31 + 27 × 6",
-      "options": [
-        "348",
-        "193",
-        "5022",
-        "64"
-      ],
-      "explanation": "BODMAS: 193।"
-    },
-    "id": "gdmbs-0078"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 27 + 20 × 7",
-      "options": [
-        "3780",
-        "329",
-        "54",
-        "167"
-      ],
-      "explanation": "BODMAS: 20×7=140+27=167."
-    },
-    "hi": {
-      "question": "सरल: 27 + 20 × 7",
-      "options": [
-        "3780",
-        "329",
-        "54",
-        "167"
-      ],
-      "explanation": "BODMAS: 167।"
-    },
-    "id": "gdmbs-0079"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 49000 at 16% for 26yrs?",
-      "options": [
-        "Rs.49000",
-        "Rs.407680",
-        "Rs.101920",
-        "Rs.203840"
-      ],
-      "explanation": "SI=49000×16×26/100=203840.0."
-    },
-    "hi": {
-      "question": "49000रु, 16%, 26वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.49000",
-        "Rs.407680",
-        "Rs.101920",
-        "Rs.203840"
-      ],
-      "explanation": "सा.ब्याज=203840.0।"
-    },
-    "id": "gdmbs-0080"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 12×4cm. Area?",
-      "options": [
-        "96 cm²",
-        "32 cm²",
-        "48 cm²",
-        "16 cm²"
-      ],
-      "explanation": "Area=12×4=48 cm²."
-    },
-    "hi": {
-      "question": "आयत 12×4सेमी। क्षेत्रफल?",
-      "options": [
-        "96 cm²",
-        "32 cm²",
-        "48 cm²",
-        "16 cm²"
-      ],
-      "explanation": "क्षेत्रफल=12×4=48 वर्ग सेमी।"
-    },
-    "id": "gdmbs-0081"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 50 + 11 × 8",
-      "options": [
-        "138",
-        "4400",
-        "69",
-        "488"
-      ],
-      "explanation": "BODMAS: 11×8=88+50=138."
-    },
-    "hi": {
-      "question": "सरल: 50 + 11 × 8",
-      "options": [
-        "138",
-        "4400",
-        "69",
-        "488"
-      ],
-      "explanation": "BODMAS: 138।"
-    },
-    "id": "gdmbs-0082"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "22% of 110?",
-      "options": [
-        "242",
-        "220",
-        "55",
-        "110"
-      ],
-      "explanation": "110×22/100=242."
-    },
-    "hi": {
-      "question": "110 का 22%?",
-      "options": [
-        "242",
-        "220",
-        "55",
-        "110"
-      ],
-      "explanation": "110×22/100=242।"
-    },
-    "id": "gdmbs-0083"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 21×9cm. Area?",
-      "options": [
-        "378 cm²",
-        "30 cm²",
-        "189 cm²",
-        "60 cm²"
-      ],
-      "explanation": "Area=21×9=189 cm²."
-    },
-    "hi": {
-      "question": "आयत 21×9सेमी। क्षेत्रफल?",
-      "options": [
-        "378 cm²",
-        "30 cm²",
-        "189 cm²",
-        "60 cm²"
-      ],
-      "explanation": "क्षेत्रफल=21×9=189 वर्ग सेमी।"
-    },
-    "id": "gdmbs-0084"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 37000 at 25% for 18yrs?",
-      "options": [
-        "Rs.333000",
-        "Rs.166500",
-        "Rs.37000",
-        "Rs.83250"
-      ],
-      "explanation": "SI=37000×25×18/100=166500.0."
-    },
-    "hi": {
-      "question": "37000रु, 25%, 18वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.333000",
-        "Rs.166500",
-        "Rs.37000",
-        "Rs.83250"
-      ],
-      "explanation": "सा.ब्याज=166500.0।"
-    },
-    "id": "gdmbs-0085"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 6 + 9 × 2",
-      "options": [
-        "108",
-        "30",
-        "24",
-        "17"
-      ],
-      "explanation": "BODMAS: 9×2=18+6=24."
-    },
-    "hi": {
-      "question": "सरल: 6 + 9 × 2",
-      "options": [
-        "108",
-        "30",
-        "24",
-        "17"
-      ],
-      "explanation": "BODMAS: 24।"
-    },
-    "id": "gdmbs-0086"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "14% of 320?",
-      "options": [
-        "320",
-        "640",
-        "160",
-        "448"
-      ],
-      "explanation": "320×14/100=448."
-    },
-    "hi": {
-      "question": "320 का 14%?",
-      "options": [
-        "320",
-        "640",
-        "160",
-        "448"
-      ],
-      "explanation": "320×14/100=448।"
-    },
-    "id": "gdmbs-0087"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 47 + 23 × 4",
-      "options": [
-        "4324",
-        "74",
-        "139",
-        "280"
-      ],
-      "explanation": "BODMAS: 23×4=92+47=139."
-    },
-    "hi": {
-      "question": "सरल: 47 + 23 × 4",
-      "options": [
-        "4324",
-        "74",
-        "139",
-        "280"
-      ],
-      "explanation": "BODMAS: 139।"
-    },
-    "id": "gdmbs-0088"
-  },
-  {
+    "id": "bs-0004",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A=22d, B=12d. Together?",
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
       "options": [
-        "34d",
-        "15.6d",
-        "7.8d",
-        "10d"
+        "7",
+        "7",
+        "5",
+        "6"
       ],
-      "explanation": "1d: 1/22+1/12. Time=7.8d."
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
     },
     "hi": {
-      "question": "A=22दिन, B=12दिन। साथ?",
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
       "options": [
-        "34d",
-        "15.6d",
-        "7.8d",
-        "10d"
+        "7",
+        "7",
+        "5",
+        "6"
       ],
-      "explanation": "1दिन: 1/22+1/12। समय=7.8दिन।"
-    },
-    "id": "gdmbs-0089"
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "easy",
+    "id": "bs-0005",
+    "correctOption": "A",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Divide 490 in 2:5. Larger?",
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
       "options": [
-        "140",
-        "490",
-        "350",
-        "245"
+        "12",
+        "13",
+        "14",
+        "5"
       ],
-      "explanation": "Parts=7. Shares: 140, 350. Larger=350."
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "490 को 2:5 में बांटें। बड़ा?",
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
       "options": [
-        "140",
-        "490",
-        "350",
-        "245"
+        "12",
+        "13",
+        "14",
+        "5"
       ],
-      "explanation": "हिस्से: 140, 350। बड़ा=350।"
-    },
-    "id": "gdmbs-0090"
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    }
   },
   {
+    "id": "bs-0006",
     "correctOption": "D",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Divide 1372 in 4:10. Larger?",
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
       "options": [
-        "392",
-        "686",
-        "1372",
-        "980"
+        "5",
+        "16",
+        "17",
+        "15"
       ],
-      "explanation": "Parts=14. Shares: 392, 980. Larger=980."
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
     },
     "hi": {
-      "question": "1372 को 4:10 में बांटें। बड़ा?",
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
       "options": [
-        "392",
-        "686",
-        "1372",
-        "980"
+        "5",
+        "16",
+        "17",
+        "15"
       ],
-      "explanation": "हिस्से: 392, 980। बड़ा=980।"
-    },
-    "id": "gdmbs-0091"
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    }
   },
   {
+    "id": "bs-0007",
     "correctOption": "D",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "SI on 8000 at 9% for 28yrs?",
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
       "options": [
-        "Rs.10080",
-        "Rs.40320",
-        "Rs.8000",
-        "Rs.20160"
+        "12",
+        "11",
+        "5",
+        "10"
       ],
-      "explanation": "SI=8000×9×28/100=20160.0."
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
     },
     "hi": {
-      "question": "8000रु, 9%, 28वर्ष का सा.ब्याज?",
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
       "options": [
-        "Rs.10080",
-        "Rs.40320",
-        "Rs.8000",
-        "Rs.20160"
+        "12",
+        "11",
+        "5",
+        "10"
       ],
-      "explanation": "सा.ब्याज=20160.0।"
-    },
-    "id": "gdmbs-0092"
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 7000 at 17% for 19yrs?",
-      "options": [
-        "Rs.7000",
-        "Rs.45220",
-        "Rs.22610",
-        "Rs.11305"
-      ],
-      "explanation": "SI=7000×17×19/100=22610.0."
-    },
-    "hi": {
-      "question": "7000रु, 17%, 19वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.7000",
-        "Rs.45220",
-        "Rs.22610",
-        "Rs.11305"
-      ],
-      "explanation": "सा.ब्याज=22610.0।"
-    },
-    "id": "gdmbs-0093"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 21×14cm. Area?",
-      "options": [
-        "70 cm²",
-        "588 cm²",
-        "35 cm²",
-        "294 cm²"
-      ],
-      "explanation": "Area=21×14=294 cm²."
-    },
-    "hi": {
-      "question": "आयत 21×14सेमी। क्षेत्रफल?",
-      "options": [
-        "70 cm²",
-        "588 cm²",
-        "35 cm²",
-        "294 cm²"
-      ],
-      "explanation": "क्षेत्रफल=21×14=294 वर्ग सेमी।"
-    },
-    "id": "gdmbs-0094"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 29×15cm. Area?",
-      "options": [
-        "88 cm²",
-        "44 cm²",
-        "870 cm²",
-        "435 cm²"
-      ],
-      "explanation": "Area=29×15=435 cm²."
-    },
-    "hi": {
-      "question": "आयत 29×15सेमी। क्षेत्रफल?",
-      "options": [
-        "88 cm²",
-        "44 cm²",
-        "870 cm²",
-        "435 cm²"
-      ],
-      "explanation": "क्षेत्रफल=29×15=435 वर्ग सेमी।"
-    },
-    "id": "gdmbs-0095"
-  },
-  {
+    "id": "bs-0008",
     "correctOption": "B",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Simplify: 12 + 25 × 4",
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
       "options": [
-        "1200",
-        "112",
-        "41",
-        "148"
+        "5",
+        "12",
+        "13",
+        "14"
       ],
-      "explanation": "BODMAS: 25×4=100+12=112."
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
     },
     "hi": {
-      "question": "सरल: 12 + 25 × 4",
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
       "options": [
-        "1200",
-        "112",
-        "41",
-        "148"
+        "5",
+        "12",
+        "13",
+        "14"
       ],
-      "explanation": "BODMAS: 112।"
-    },
-    "id": "gdmbs-0096"
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    }
   },
   {
+    "id": "bs-0009",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    },
+    "hi": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    }
+  },
+  {
+    "id": "bs-0010",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A=42d, B=8d. Together?",
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
       "options": [
-        "34d",
-        "13.4d",
-        "6.7d",
-        "50d"
+        "8",
+        "5",
+        "6",
+        "7"
       ],
-      "explanation": "1d: 1/42+1/8. Time=6.7d."
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
     },
     "hi": {
-      "question": "A=42दिन, B=8दिन। साथ?",
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
       "options": [
-        "34d",
-        "13.4d",
-        "6.7d",
-        "50d"
+        "8",
+        "5",
+        "6",
+        "7"
       ],
-      "explanation": "1दिन: 1/42+1/8। समय=6.7दिन।"
-    },
-    "id": "gdmbs-0097"
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "easy",
+    "id": "bs-0011",
+    "correctOption": "A",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Average: 27, 38, 56, 41, 67, 17",
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "9",
+        "10",
+        "5",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    },
+    "hi": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "9",
+        "10",
+        "5",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    }
+  },
+  {
+    "id": "bs-0012",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "7",
+        "7",
+        "6",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    },
+    "hi": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "7",
+        "7",
+        "6",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    }
+  },
+  {
+    "id": "bs-0013",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0014",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "5",
+        "17",
+        "15",
+        "16"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    },
+    "hi": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "5",
+        "17",
+        "15",
+        "16"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    }
+  },
+  {
+    "id": "bs-0015",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "12",
+        "5",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    },
+    "hi": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "12",
+        "5",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    }
+  },
+  {
+    "id": "bs-0016",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "14",
+        "13",
+        "12",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "14",
+        "13",
+        "12",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0017",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "9",
+        "8",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    },
+    "hi": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "9",
+        "8",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    }
+  },
+  {
+    "id": "bs-0018",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "5",
+        "8",
+        "6",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    },
+    "hi": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "5",
+        "8",
+        "6",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    }
+  },
+  {
+    "id": "bs-0019",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "5",
+        "9",
+        "10",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    },
+    "hi": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "5",
+        "9",
+        "10",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    }
+  },
+  {
+    "id": "bs-0020",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    },
+    "hi": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    }
+  },
+  {
+    "id": "bs-0021",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "12",
+        "14",
+        "13",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "12",
+        "14",
+        "13",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0022",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
       "options": [
         "17",
-        "67",
-        "41",
-        "246"
+        "5",
+        "16",
+        "15"
       ],
-      "explanation": "Sum=246/6=41."
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
     },
     "hi": {
-      "question": "औसत: 27, 38, 56, 41, 67, 17",
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
       "options": [
         "17",
-        "67",
-        "41",
-        "246"
+        "5",
+        "16",
+        "15"
       ],
-      "explanation": "योग=246/6=41।"
-    },
-    "id": "gdmbs-0098"
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 13, 65, 46, 56, 34, 61",
-      "options": [
-        "275",
-        "45.8",
-        "65",
-        "13"
-      ],
-      "explanation": "Sum=275/6=45.8."
-    },
-    "hi": {
-      "question": "औसत: 13, 65, 46, 56, 34, 61",
-      "options": [
-        "275",
-        "45.8",
-        "65",
-        "13"
-      ],
-      "explanation": "योग=275/6=45.8।"
-    },
-    "id": "gdmbs-0099"
-  },
-  {
+    "id": "bs-0023",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "SI on 29000 at 6% for 19yrs?",
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
       "options": [
-        "Rs.16530",
-        "Rs.66120",
-        "Rs.33060",
-        "Rs.29000"
+        "11",
+        "5",
+        "10",
+        "12"
       ],
-      "explanation": "SI=29000×6×19/100=33060.0."
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
     },
     "hi": {
-      "question": "29000रु, 6%, 19वर्ष का सा.ब्याज?",
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
       "options": [
-        "Rs.16530",
-        "Rs.66120",
-        "Rs.33060",
-        "Rs.29000"
+        "11",
+        "5",
+        "10",
+        "12"
       ],
-      "explanation": "सा.ब्याज=33060.0।"
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    }
+  },
+  {
+    "id": "bs-0024",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "12",
+        "14",
+        "5",
+        "13"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
     },
-    "id": "gdmbs-0100"
+    "hi": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "12",
+        "14",
+        "5",
+        "13"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0025",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "8",
+        "5",
+        "9"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    },
+    "hi": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "8",
+        "5",
+        "9"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    }
+  },
+  {
+    "id": "bs-0026",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "5",
+        "8",
+        "7",
+        "6"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    },
+    "hi": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "5",
+        "8",
+        "7",
+        "6"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    }
+  },
+  {
+    "id": "bs-0027",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    },
+    "hi": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    }
+  },
+  {
+    "id": "bs-0028",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "7",
+        "7",
+        "6",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    },
+    "hi": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "7",
+        "7",
+        "6",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    }
+  },
+  {
+    "id": "bs-0029",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "13",
+        "5",
+        "14",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "13",
+        "5",
+        "14",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0030",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "5",
+        "17",
+        "15",
+        "16"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    },
+    "hi": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "5",
+        "17",
+        "15",
+        "16"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    }
+  },
+  {
+    "id": "bs-0031",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "5",
+        "11",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    },
+    "hi": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "5",
+        "11",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    }
+  },
+  {
+    "id": "bs-0032",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "12",
+        "13",
+        "5",
+        "14"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "12",
+        "13",
+        "5",
+        "14"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0033",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "5",
+        "9",
+        "10",
+        "8"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    },
+    "hi": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "5",
+        "9",
+        "10",
+        "8"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    }
+  },
+  {
+    "id": "bs-0034",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "5",
+        "8",
+        "6",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    },
+    "hi": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "5",
+        "8",
+        "6",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    }
+  },
+  {
+    "id": "bs-0035",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "9",
+        "5",
+        "10",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    },
+    "hi": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "9",
+        "5",
+        "10",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    }
+  },
+  {
+    "id": "bs-0036",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "7",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    },
+    "hi": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "7",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    }
+  },
+  {
+    "id": "bs-0037",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "13",
+        "14",
+        "5",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "13",
+        "14",
+        "5",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0038",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "5",
+        "17",
+        "15",
+        "16"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    },
+    "hi": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "5",
+        "17",
+        "15",
+        "16"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    }
+  },
+  {
+    "id": "bs-0039",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "12",
+        "10",
+        "11",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    },
+    "hi": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "12",
+        "10",
+        "11",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    }
+  },
+  {
+    "id": "bs-0040",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "13",
+        "14",
+        "5",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "13",
+        "14",
+        "5",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0041",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "8",
+        "10",
+        "9",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    },
+    "hi": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "8",
+        "10",
+        "9",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    }
+  },
+  {
+    "id": "bs-0042",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "5",
+        "7",
+        "6",
+        "8"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    },
+    "hi": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "5",
+        "7",
+        "6",
+        "8"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    }
+  },
+  {
+    "id": "bs-0043",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "5",
+        "10",
+        "9",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    },
+    "hi": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "5",
+        "10",
+        "9",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    }
+  },
+  {
+    "id": "bs-0044",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "6",
+        "7",
+        "7",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    },
+    "hi": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "6",
+        "7",
+        "7",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    }
+  },
+  {
+    "id": "bs-0045",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "5",
+        "14",
+        "12",
+        "13"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "5",
+        "14",
+        "12",
+        "13"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0046",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "17",
+        "15",
+        "5",
+        "16"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    },
+    "hi": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "17",
+        "15",
+        "5",
+        "16"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    }
+  },
+  {
+    "id": "bs-0047",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "5",
+        "12",
+        "10",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    },
+    "hi": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "5",
+        "12",
+        "10",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    }
+  },
+  {
+    "id": "bs-0048",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "13",
+        "12",
+        "14",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "13",
+        "12",
+        "14",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0049",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "9",
+        "5",
+        "8"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    },
+    "hi": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "9",
+        "5",
+        "8"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    }
+  },
+  {
+    "id": "bs-0050",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "7",
+        "8",
+        "6",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    },
+    "hi": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "7",
+        "8",
+        "6",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    }
+  },
+  {
+    "id": "bs-0051",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "10",
+        "11",
+        "5",
+        "9"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    },
+    "hi": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "10",
+        "11",
+        "5",
+        "9"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    }
+  },
+  {
+    "id": "bs-0052",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    },
+    "hi": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    }
+  },
+  {
+    "id": "bs-0053",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "14",
+        "13",
+        "5",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "14",
+        "13",
+        "5",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0054",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "16",
+        "17",
+        "5",
+        "15"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    },
+    "hi": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "16",
+        "17",
+        "5",
+        "15"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    }
+  },
+  {
+    "id": "bs-0055",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "5",
+        "10",
+        "12",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    },
+    "hi": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "5",
+        "10",
+        "12",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    }
+  },
+  {
+    "id": "bs-0056",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "12",
+        "5",
+        "14",
+        "13"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "12",
+        "5",
+        "14",
+        "13"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0057",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "9",
+        "10",
+        "5",
+        "8"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    },
+    "hi": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "9",
+        "10",
+        "5",
+        "8"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    }
+  },
+  {
+    "id": "bs-0058",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    },
+    "hi": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    }
+  },
+  {
+    "id": "bs-0059",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "10",
+        "5",
+        "9",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    },
+    "hi": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "10",
+        "5",
+        "9",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    }
+  },
+  {
+    "id": "bs-0060",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "6",
+        "7",
+        "7",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    },
+    "hi": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "6",
+        "7",
+        "7",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    }
+  },
+  {
+    "id": "bs-0061",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "5",
+        "12",
+        "14",
+        "13"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "5",
+        "12",
+        "14",
+        "13"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0062",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "16",
+        "5",
+        "15",
+        "17"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    },
+    "hi": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "16",
+        "5",
+        "15",
+        "17"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    }
+  },
+  {
+    "id": "bs-0063",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "12",
+        "11",
+        "5",
+        "10"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    },
+    "hi": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "12",
+        "11",
+        "5",
+        "10"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    }
+  },
+  {
+    "id": "bs-0064",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "13",
+        "12",
+        "5",
+        "14"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "13",
+        "12",
+        "5",
+        "14"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0065",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    },
+    "hi": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    }
+  },
+  {
+    "id": "bs-0066",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "6",
+        "8",
+        "5",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    },
+    "hi": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "6",
+        "8",
+        "5",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    }
+  },
+  {
+    "id": "bs-0067",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "10",
+        "11",
+        "9",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    },
+    "hi": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "10",
+        "11",
+        "9",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    }
+  },
+  {
+    "id": "bs-0068",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    },
+    "hi": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    }
+  },
+  {
+    "id": "bs-0069",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "14",
+        "5",
+        "13",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "14",
+        "5",
+        "13",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0070",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "15",
+        "17",
+        "5",
+        "16"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    },
+    "hi": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "15",
+        "17",
+        "5",
+        "16"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    }
+  },
+  {
+    "id": "bs-0071",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "11",
+        "10",
+        "5",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    },
+    "hi": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "11",
+        "10",
+        "5",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    }
+  },
+  {
+    "id": "bs-0072",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "5",
+        "14",
+        "13",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "5",
+        "14",
+        "13",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0073",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "5",
+        "10",
+        "9",
+        "8"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    },
+    "hi": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "5",
+        "10",
+        "9",
+        "8"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    }
+  },
+  {
+    "id": "bs-0074",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    },
+    "hi": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    }
+  },
+  {
+    "id": "bs-0075",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "11",
+        "10",
+        "9",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    },
+    "hi": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "11",
+        "10",
+        "9",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    }
+  },
+  {
+    "id": "bs-0076",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "7",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    },
+    "hi": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "7",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    }
+  },
+  {
+    "id": "bs-0077",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "5",
+        "14",
+        "13",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "5",
+        "14",
+        "13",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0078",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "17",
+        "5",
+        "15",
+        "16"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    },
+    "hi": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "17",
+        "5",
+        "15",
+        "16"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    }
+  },
+  {
+    "id": "bs-0079",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "5",
+        "12",
+        "11",
+        "10"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    },
+    "hi": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "5",
+        "12",
+        "11",
+        "10"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    }
+  },
+  {
+    "id": "bs-0080",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "13",
+        "14",
+        "5",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "13",
+        "14",
+        "5",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0081",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "8",
+        "9",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    },
+    "hi": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "8",
+        "9",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    }
+  },
+  {
+    "id": "bs-0082",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "8",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    },
+    "hi": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "8",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    }
+  },
+  {
+    "id": "bs-0083",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "11",
+        "9",
+        "5",
+        "10"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    },
+    "hi": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "11",
+        "9",
+        "5",
+        "10"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    }
+  },
+  {
+    "id": "bs-0084",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "6",
+        "7",
+        "5",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    },
+    "hi": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "6",
+        "7",
+        "5",
+        "7"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    }
+  },
+  {
+    "id": "bs-0085",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0086",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "15",
+        "16",
+        "5",
+        "17"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    },
+    "hi": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "15",
+        "16",
+        "5",
+        "17"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    }
+  },
+  {
+    "id": "bs-0087",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "12",
+        "11",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    },
+    "hi": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "12",
+        "11",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    }
+  },
+  {
+    "id": "bs-0088",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "12",
+        "14",
+        "13",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "12",
+        "14",
+        "13",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0089",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "8",
+        "5",
+        "9"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    },
+    "hi": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "8",
+        "5",
+        "9"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    }
+  },
+  {
+    "id": "bs-0090",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "5",
+        "8",
+        "7",
+        "6"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    },
+    "hi": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "5",
+        "8",
+        "7",
+        "6"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    }
+  },
+  {
+    "id": "bs-0091",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "10",
+        "11",
+        "9",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    },
+    "hi": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "10",
+        "11",
+        "9",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    }
+  },
+  {
+    "id": "bs-0092",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "6",
+        "7",
+        "7",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    },
+    "hi": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "6",
+        "7",
+        "7",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    }
+  },
+  {
+    "id": "bs-0093",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "14",
+        "5",
+        "13",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=20km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "14",
+        "5",
+        "13",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (20+4)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0094",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "15",
+        "17",
+        "5",
+        "16"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    },
+    "hi": {
+      "question": "DS=24km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "15",
+        "17",
+        "5",
+        "16"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (24+6)/2 = 15 km/hr."
+    }
+  },
+  {
+    "id": "bs-0095",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "12",
+        "10",
+        "5",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    },
+    "hi": {
+      "question": "DS=16km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "12",
+        "10",
+        "5",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (16+4)/2 = 10 km/hr."
+    }
+  },
+  {
+    "id": "bs-0096",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "5",
+        "13",
+        "14",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    },
+    "hi": {
+      "question": "DS=18km/hr, US=6km/hr. Boat speed?",
+      "options": [
+        "5",
+        "13",
+        "14",
+        "12"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (18+6)/2 = 12 km/hr."
+    }
+  },
+  {
+    "id": "bs-0097",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "9",
+        "8",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    },
+    "hi": {
+      "question": "DS=12km/hr, US=4km/hr. Boat speed?",
+      "options": [
+        "10",
+        "9",
+        "8",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (12+4)/2 = 8 km/hr."
+    }
+  },
+  {
+    "id": "bs-0098",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    },
+    "hi": {
+      "question": "DS=10km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (10+2)/2 = 6 km/hr."
+    }
+  },
+  {
+    "id": "bs-0099",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "10",
+        "9",
+        "5",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    },
+    "hi": {
+      "question": "DS=15km/hr, US=3km/hr. Boat speed?",
+      "options": [
+        "10",
+        "9",
+        "5",
+        "11"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (15+3)/2 = 9 km/hr."
+    }
+  },
+  {
+    "id": "bs-0100",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "7",
+        "7",
+        "6",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    },
+    "hi": {
+      "question": "DS=8km/hr, US=2km/hr. Boat speed?",
+      "options": [
+        "7",
+        "7",
+        "6",
+        "5"
+      ],
+      "explanation": "Boat = (DS+US)/2 = (8+2)/2 = 5 km/hr."
+    }
   }
 ]

@@ -1,2602 +1,2602 @@
 [
   {
-    "id": "nmt-0001",
+    "id": "trig-0001",
     "correctOption": "A",
     "difficulty": "easy",
-    "sourceYear": 2024,
+    "sourceYear": 2025,
     "en": {
-      "question": "sin θ=3/5, cos θ=?",
+      "question": "sin 45° = ?",
       "options": [
-        "4/5",
-        "3/4",
-        "2/5",
-        "1/5"
+        "1/√2",
+        "√3/2",
+        "0",
+        "1/2"
       ],
-      "explanation": "cos θ=√(1-9/25)=4/5."
+      "explanation": "sin 45° = 1/√2 (standard value)."
     },
     "hi": {
-      "question": "sin θ=3/5, cos θ=?",
+      "question": "sin 45° = ?",
       "options": [
-        "4/5",
-        "3/4",
-        "2/5",
-        "1/5"
+        "1/√2",
+        "√3/2",
+        "0",
+        "1/2"
       ],
-      "explanation": "4/5।"
+      "explanation": "sin 45° = 1/√2 (standard value)."
     }
   },
   {
-    "id": "nmt-0002",
-    "correctOption": "B",
+    "id": "trig-0002",
+    "correctOption": "C",
     "difficulty": "easy",
-    "sourceYear": 2024,
+    "sourceYear": 2025,
     "en": {
-      "question": "sin60°×cos30°+sin30°×cos60°=?",
+      "question": "sin 60° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "√3/2",
+        "1/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "√3/2",
+        "1/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0003",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 90° = ?",
+      "options": [
+        "1/√2",
+        "√3/2",
+        "1",
+        "0"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    },
+    "hi": {
+      "question": "sin 90° = ?",
+      "options": [
+        "1/√2",
+        "√3/2",
+        "1",
+        "0"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0004",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "√3/2",
+        "0",
+        "1/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "√3/2",
+        "0",
+        "1/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0005",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
       "options": [
         "0",
+        "1/2",
+        "√3/2",
+        "1/√2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "0",
+        "1/2",
+        "√3/2",
+        "1/√2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0006",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "1/√2",
+        "√3/2",
+        "1/2",
+        "0"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "1/√2",
+        "√3/2",
+        "1/2",
+        "0"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0007",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "√3/2",
+        "1/√2",
+        "0",
+        "1/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "√3/2",
+        "1/√2",
+        "0",
+        "1/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0008",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "0",
+        "1/2",
+        "1/√2",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "0",
+        "1/2",
+        "1/√2",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0009",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 90° = ?",
+      "options": [
+        "0",
+        "1/√2",
         "1",
+        "√3/2"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    },
+    "hi": {
+      "question": "sin 90° = ?",
+      "options": [
+        "0",
+        "1/√2",
+        "1",
+        "√3/2"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0010",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/2",
+        "1/√2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/2",
+        "1/√2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0011",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 0° = ?",
+      "options": [
+        "0",
+        "1/√2",
         "1/2",
         "√3/2"
       ],
-      "explanation": "sin(60+30)=sin90=1."
+      "explanation": "sin 0° = 0 (standard value)."
     },
     "hi": {
-      "question": "sin60cos30+sin30cos60=?",
+      "question": "sin 0° = ?",
       "options": [
         "0",
-        "1",
+        "1/√2",
         "1/2",
         "√3/2"
       ],
-      "explanation": "1।"
+      "explanation": "sin 0° = 0 (standard value)."
     }
   },
   {
-    "id": "nmt-0003",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2023,
-    "en": {
-      "question": "100m tower, depression angle 30° to car. Distance?",
-      "options": [
-        "173.2m",
-        "57.73",
-        "100",
-        "200"
-      ],
-      "explanation": "tan30=100/d, d=100√3=173.2m."
-    },
-    "hi": {
-      "question": "100m मीनार, 30° अवनमन। दूरी?",
-      "options": [
-        "173.2",
-        "57.73",
-        "100",
-        "200"
-      ],
-      "explanation": "173.2 मी।"
-    }
-  },
-  {
-    "id": "nmt-0004",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "tan θ=1, sin θ+cos θ=?",
-      "options": [
-        "√2",
-        "1",
-        "2",
-        "1/√2"
-      ],
-      "explanation": "θ=45°, sin45+cos45=√2."
-    },
-    "hi": {
-      "question": "tan θ=1, sinθ+cosθ=?",
-      "options": [
-        "√2",
-        "1",
-        "2",
-        "1/√2"
-      ],
-      "explanation": "√2।"
-    }
-  },
-  {
-    "id": "nmt-0005",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2023,
-    "en": {
-      "question": "25m ladder, 60° to ground. Height on wall?",
-      "options": [
-        "21.65m",
-        "12.5",
-        "25",
-        "18.75"
-      ],
-      "explanation": "25×sin60=25×√3/2=21.65m."
-    },
-    "hi": {
-      "question": "25m सीढ़ी 60° पर। दीवार पर ऊँचाई?",
-      "options": [
-        "21.65",
-        "12.5",
-        "25",
-        "18.75"
-      ],
-      "explanation": "21.65 मी।"
-    }
-  },
-  {
-    "id": "nmt-0006",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2022,
-    "en": {
-      "question": "Elevation 30°, walk 30m, elevation 60°. Height?",
-      "options": [
-        "15√3 m",
-        "30√3",
-        "20√3",
-        "10√3"
-      ],
-      "explanation": "h=15√3 m."
-    },
-    "hi": {
-      "question": "30° उन्नयन, 30m चलकर 60°। ऊँचाई?",
-      "options": [
-        "15√3",
-        "30√3",
-        "20√3",
-        "10√3"
-      ],
-      "explanation": "15√3 मी।"
-    }
-  },
-  {
-    "id": "nmt-0007",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "sin θ=3/5 (acute). sec θ+tan θ=?",
-      "options": [
-        "2",
-        "3",
-        "4",
-        "5/3"
-      ],
-      "explanation": "5/4+3/4=2."
-    },
-    "hi": {
-      "question": "sinθ=3/5 (न्यून), secθ+tanθ=?",
-      "options": [
-        "2",
-        "3",
-        "4",
-        "5/3"
-      ],
-      "explanation": "2।"
-    }
-  },
-  {
-    "id": "nmt-0008",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2023,
-    "en": {
-      "question": "100m lighthouse, ships at 30°,45° depression (same side). Distance between?",
-      "options": [
-        "100(√3-1)",
-        "100",
-        "100√3",
-        "100(√3+1)"
-      ],
-      "explanation": "100√3-100=100(√3-1)."
-    },
-    "hi": {
-      "question": "100m प्रकाशस्तंभ, 30°,45° अवनमन। जहाजों के बीच दूरी?",
-      "options": [
-        "100(√3-1)",
-        "100",
-        "100√3",
-        "100(√3+1)"
-      ],
-      "explanation": "100(√3-1) मी।"
-    }
-  },
-  {
-    "id": "nmt-0009",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "sin²θ+cos²θ=?",
-      "options": [
-        "0",
-        "1",
-        "-1",
-        "2"
-      ],
-      "explanation": "Fundamental identity: sin²θ+cos²θ=1."
-    },
-    "hi": {
-      "question": "sin²θ+cos²θ=?",
-      "options": [
-        "0",
-        "1",
-        "-1",
-        "2"
-      ],
-      "explanation": "1।"
-    }
-  },
-  {
-    "id": "nmt-0010",
+    "id": "trig-0012",
     "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "sin30°=?",
+      "question": "sin 60° = ?",
       "options": [
-        "√3/2",
+        "1/2",
         "1/√2",
-        "1/2",
-        "1"
-      ],
-      "explanation": "sin30°=1/2."
-    },
-    "hi": {
-      "question": "sin30°=?",
-      "options": [
         "√3/2",
-        "1/√2",
-        "1/2",
-        "1"
-      ],
-      "explanation": "1/2।"
-    }
-  },
-  {
-    "id": "nmt-0011",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "cos0°=?",
-      "options": [
-        "0",
-        "1/2",
-        "√3/2",
-        "1"
-      ],
-      "explanation": "cos0°=1."
-    },
-    "hi": {
-      "question": "cos0°=?",
-      "options": [
-        "0",
-        "1/2",
-        "√3/2",
-        "1"
-      ],
-      "explanation": "1।"
-    }
-  },
-  {
-    "id": "nmt-0012",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "1+tan²θ=?",
-      "options": [
-        "sec²θ",
-        "cosec²θ",
-        "cot²θ",
-        "sin²θ"
-      ],
-      "explanation": "1+tan²θ=sec²θ."
-    },
-    "hi": {
-      "question": "1+tan²θ=?",
-      "options": [
-        "sec²θ",
-        "cosec²θ",
-        "cot²θ",
-        "sin²θ"
-      ],
-      "explanation": "sec²θ।"
-    }
-  },
-  {
-    "id": "nmt-0013",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If sinθ=cosθ, then θ=? (0°≤θ≤90°)",
-      "options": [
-        "30°",
-        "45°",
-        "60°",
-        "90°"
-      ],
-      "explanation": "sin45°=cos45°, so θ=45°."
-    },
-    "hi": {
-      "question": "sinθ=cosθ, θ=?",
-      "options": [
-        "30°",
-        "45°",
-        "60°",
-        "90°"
-      ],
-      "explanation": "45°।"
-    }
-  },
-  {
-    "id": "nmt-0014",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "tan60°=?",
-      "options": [
-        "1",
-        "√3/2",
-        "√3",
-        "1/√3"
-      ],
-      "explanation": "tan60°=√3."
-    },
-    "hi": {
-      "question": "tan60°=?",
-      "options": [
-        "1",
-        "√3/2",
-        "√3",
-        "1/√3"
-      ],
-      "explanation": "√3।"
-    }
-  },
-  {
-    "id": "nmt-0015",
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "cos(90°-θ)=?",
-      "options": [
-        "cosθ",
-        "-cosθ",
-        "tanθ",
-        "sinθ"
-      ],
-      "explanation": "cos(90°-θ)=sinθ."
-    },
-    "hi": {
-      "question": "cos(90°-θ)=?",
-      "options": [
-        "cosθ",
-        "-cosθ",
-        "tanθ",
-        "sinθ"
-      ],
-      "explanation": "sinθ।"
-    }
-  },
-  {
-    "id": "nmt-0016",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "From a point on ground, top of 20m building at 60°. Distance of point from building?",
-      "options": [
-        "20/√3 m",
-        "20√3 m",
-        "10 m",
-        "40 m"
-      ],
-      "explanation": "tan60=20/d, d=20/√3 m."
-    },
-    "hi": {
-      "question": "20m भवन का शीर्ष 60° उन्नयन पर। दूरी?",
-      "options": [
-        "20/√3",
-        "20√3",
-        "10",
-        "40"
-      ],
-      "explanation": "20/√3 मी।"
-    }
-  },
-  {
-    "id": "nmt-0017",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "cosec²θ-cot²θ=?",
-      "options": [
-        "0",
-        "1",
-        "-1",
-        "sec²θ"
-      ],
-      "explanation": "cosec²θ-cot²θ=1."
-    },
-    "hi": {
-      "question": "cosec²θ-cot²θ=?",
-      "options": [
-        "0",
-        "1",
-        "-1",
-        "sec²θ"
-      ],
-      "explanation": "1।"
-    }
-  },
-  {
-    "id": "nmt-0018",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If tanθ=1/√3, θ=?",
-      "options": [
-        "60°",
-        "45°",
-        "30°",
-        "90°"
-      ],
-      "explanation": "tan30°=1/√3."
-    },
-    "hi": {
-      "question": "tanθ=1/√3, θ=?",
-      "options": [
-        "60°",
-        "45°",
-        "30°",
-        "90°"
-      ],
-      "explanation": "30°।"
-    }
-  },
-  {
-    "id": "nmt-0019",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Shadow of 10m pole is 10√3 m. Sun's elevation?",
-      "options": [
-        "30°",
-        "45°",
-        "60°",
-        "15°"
-      ],
-      "explanation": "tanθ=10/(10√3)=1/√3, θ=30°."
-    },
-    "hi": {
-      "question": "10m खंभे की छाया 10√3m। सूर्य का उन्नयन?",
-      "options": [
-        "30°",
-        "45°",
-        "60°",
-        "15°"
-      ],
-      "explanation": "30°।"
-    }
-  },
-  {
-    "id": "nmt-0020",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "sec²θ-1=?",
-      "options": [
-        "cos²θ",
-        "tan²θ",
-        "cot²θ",
-        "cosec²θ"
-      ],
-      "explanation": "sec²θ-1=tan²θ."
-    },
-    "hi": {
-      "question": "sec²θ-1=?",
-      "options": [
-        "cos²θ",
-        "tan²θ",
-        "cot²θ",
-        "cosec²θ"
-      ],
-      "explanation": "tan²θ।"
-    }
-  },
-  {
-    "id": "nmt-0021",
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "cos60°=?",
-      "options": [
-        "√3/2",
-        "1/√2",
-        "1",
-        "1/2"
-      ],
-      "explanation": "cos60°=1/2."
-    },
-    "hi": {
-      "question": "cos60°=?",
-      "options": [
-        "√3/2",
-        "1/√2",
-        "1",
-        "1/2"
-      ],
-      "explanation": "1/2।"
-    }
-  },
-  {
-    "id": "nmt-0022",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If 5sinθ=3, find secθ-tanθ.",
-      "options": [
-        "1",
-        "1/2",
-        "2",
         "0"
       ],
-      "explanation": "sin=3/5, cos=4/5. sec=5/4, tan=3/4. sec-tan=2/4=1/2."
+      "explanation": "sin 60° = √3/2 (standard value)."
     },
     "hi": {
-      "question": "5sinθ=3, secθ-tanθ=?",
+      "question": "sin 60° = ?",
       "options": [
-        "1",
         "1/2",
-        "2",
+        "1/√2",
+        "√3/2",
         "0"
       ],
-      "explanation": "1/2।"
+      "explanation": "sin 60° = √3/2 (standard value)."
     }
   },
   {
-    "id": "nmt-0023",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Value of tan1°×tan2°×...×tan89°?",
-      "options": [
-        "1",
-        "0",
-        "∞",
-        "√3"
-      ],
-      "explanation": "tan1°×tan89°=tan1°×cot1°=1. All pairs multiply to 1."
-    },
-    "hi": {
-      "question": "tan1°×tan2°×...×tan89°=?",
-      "options": [
-        "1",
-        "0",
-        "∞",
-        "√3"
-      ],
-      "explanation": "1।"
-    }
-  },
-  {
-    "id": "nmt-0024",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "If sin(A+B)=1 and cos(A-B)=1/2, find A and B (acute).",
-      "options": [
-        "45°,45°",
-        "60°,30°",
-        "30°,60°",
-        "50°,40°"
-      ],
-      "explanation": "A+B=90°, A-B=60°. Solving: A=75°, not acute pair. Wait, cos(A-B)=1/2→A-B=60°. A+B=90°. A=75°, B=15°. Both acute. But not in options. Let me use: sin(A+B)=1→A+B=90°. cos(A-B)=√3/2→A-B=30°. A=60°, B=30°."
-    },
-    "hi": {
-      "question": "sin(A+B)=1, cos(A-B)=√3/2, A,B न्यून। A,B?",
-      "options": [
-        "45,45",
-        "60,30",
-        "30,60",
-        "50,40"
-      ],
-      "explanation": "A=60°,B=30°।"
-    }
-  },
-  {
-    "id": "nmt-0025",
-    "correctOption": "A",
+    "id": "trig-0013",
+    "correctOption": "C",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "sin45°=?",
+      "question": "sin 0° = ?",
+      "options": [
+        "1/√2",
+        "√3/2",
+        "0",
+        "1/2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    },
+    "hi": {
+      "question": "sin 0° = ?",
+      "options": [
+        "1/√2",
+        "√3/2",
+        "0",
+        "1/2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0014",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0015",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "0",
+        "1/√2",
+        "√3/2",
+        "1/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "0",
+        "1/√2",
+        "√3/2",
+        "1/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0016",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
       "options": [
         "1/√2",
         "√3/2",
         "1/2",
-        "1"
+        "0"
       ],
-      "explanation": "sin45°=1/√2."
+      "explanation": "sin 30° = 1/2 (standard value)."
     },
     "hi": {
-      "question": "sin45°=?",
+      "question": "sin 30° = ?",
       "options": [
         "1/√2",
         "√3/2",
         "1/2",
+        "0"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0017",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "1/2",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "1/2",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0018",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 0° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/√2",
+        "1/2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    },
+    "hi": {
+      "question": "sin 0° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/√2",
+        "1/2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0019",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "1/2",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "1/2",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0020",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 0° = ?",
+      "options": [
+        "1/2",
+        "1/√2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    },
+    "hi": {
+      "question": "sin 0° = ?",
+      "options": [
+        "1/2",
+        "1/√2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0021",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/2",
+        "√3/2",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/2",
+        "√3/2",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0022",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "1/√2",
+        "√3/2",
+        "1/2",
+        "0"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "1/√2",
+        "√3/2",
+        "1/2",
+        "0"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0023",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 45° = ?",
+      "options": [
+        "√3/2",
+        "0",
+        "1/2",
+        "1/√2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 45° = ?",
+      "options": [
+        "√3/2",
+        "0",
+        "1/2",
+        "1/√2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0024",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 90° = ?",
+      "options": [
+        "0",
+        "1",
+        "1/√2",
+        "√3/2"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    },
+    "hi": {
+      "question": "sin 90° = ?",
+      "options": [
+        "0",
+        "1",
+        "1/√2",
+        "√3/2"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0025",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 90° = ?",
+      "options": [
+        "√3/2",
+        "1/√2",
+        "0",
         "1"
       ],
-      "explanation": "1/√2।"
+      "explanation": "sin 90° = 1 (standard value)."
+    },
+    "hi": {
+      "question": "sin 90° = ?",
+      "options": [
+        "√3/2",
+        "1/√2",
+        "0",
+        "1"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
     }
   },
   {
-    "id": "nmt-0026",
+    "id": "trig-0026",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 90° = ?",
+      "options": [
+        "0",
+        "1",
+        "1/√2",
+        "√3/2"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    },
+    "hi": {
+      "question": "sin 90° = ?",
+      "options": [
+        "0",
+        "1",
+        "1/√2",
+        "√3/2"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0027",
     "correctOption": "C",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Two poles 15m and 30m high, 20m apart. Angle of elevation of taller top from shorter top?",
+      "question": "sin 0° = ?",
       "options": [
-        "45°",
-        "30°",
-        "≈37°",
-        "60°"
+        "1/2",
+        "1/√2",
+        "0",
+        "√3/2"
       ],
-      "explanation": "Height diff=15m. tanθ=15/20=0.75. θ=arctan(0.75). Using 3-4-5: tan=0.75=3/4, θ≈37°."
+      "explanation": "sin 0° = 0 (standard value)."
     },
     "hi": {
-      "question": "15m,30m खंभे 20m दूर। छोटे से बड़े शीर्ष का उन्नयन?",
+      "question": "sin 0° = ?",
       "options": [
-        "45°",
-        "30°",
-        "≈37°",
-        "60°"
+        "1/2",
+        "1/√2",
+        "0",
+        "√3/2"
       ],
-      "explanation": "≈37°।"
+      "explanation": "sin 0° = 0 (standard value)."
     }
   },
   {
-    "id": "nmt-0027",
+    "id": "trig-0028",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "√3/2",
+        "1/2",
+        "0"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "√3/2",
+        "1/2",
+        "0"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0029",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 45° = ?",
+      "options": [
+        "1/2",
+        "√3/2",
+        "1/√2",
+        "0"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 45° = ?",
+      "options": [
+        "1/2",
+        "√3/2",
+        "1/√2",
+        "0"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0030",
     "correctOption": "D",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "1-cos²θ=?",
+      "question": "sin 45° = ?",
       "options": [
-        "cos²θ",
-        "sec²θ",
-        "tan²θ",
-        "sin²θ"
+        "√3/2",
+        "1/2",
+        "0",
+        "1/√2"
       ],
-      "explanation": "1-cos²θ=sin²θ."
+      "explanation": "sin 45° = 1/√2 (standard value)."
     },
     "hi": {
-      "question": "1-cos²θ=?",
+      "question": "sin 45° = ?",
       "options": [
-        "cos²θ",
-        "sec²θ",
-        "tan²θ",
-        "sin²θ"
+        "√3/2",
+        "1/2",
+        "0",
+        "1/√2"
       ],
-      "explanation": "sin²θ।"
+      "explanation": "sin 45° = 1/√2 (standard value)."
     }
   },
   {
-    "id": "nmt-0028",
+    "id": "trig-0031",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 0° = ?",
+      "options": [
+        "1/2",
+        "0",
+        "√3/2",
+        "1/√2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    },
+    "hi": {
+      "question": "sin 0° = ?",
+      "options": [
+        "1/2",
+        "0",
+        "√3/2",
+        "1/√2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0032",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 90° = ?",
+      "options": [
+        "√3/2",
+        "1",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    },
+    "hi": {
+      "question": "sin 90° = ?",
+      "options": [
+        "√3/2",
+        "1",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0033",
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "tan45°=?",
+      "question": "sin 30° = ?",
+      "options": [
+        "1/2",
+        "0",
+        "1/√2",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/2",
+        "0",
+        "1/√2",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0034",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 90° = ?",
+      "options": [
+        "1",
+        "√3/2",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    },
+    "hi": {
+      "question": "sin 90° = ?",
+      "options": [
+        "1",
+        "√3/2",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0035",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "1/2",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "1/2",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0036",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 45° = ?",
+      "options": [
+        "1/2",
+        "1/√2",
+        "√3/2",
+        "0"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 45° = ?",
+      "options": [
+        "1/2",
+        "1/√2",
+        "√3/2",
+        "0"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0037",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "√3/2",
+        "1/√2",
+        "0",
+        "1/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "√3/2",
+        "1/√2",
+        "0",
+        "1/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0038",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 0° = ?",
+      "options": [
+        "0",
+        "1/2",
+        "1/√2",
+        "√3/2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    },
+    "hi": {
+      "question": "sin 0° = ?",
+      "options": [
+        "0",
+        "1/2",
+        "1/√2",
+        "√3/2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0039",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 90° = ?",
+      "options": [
+        "0",
+        "1/√2",
+        "1",
+        "√3/2"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    },
+    "hi": {
+      "question": "sin 90° = ?",
+      "options": [
+        "0",
+        "1/√2",
+        "1",
+        "√3/2"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0040",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "√3/2",
+        "1/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "√3/2",
+        "1/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0041",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0042",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/2",
+        "1/√2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/2",
+        "1/√2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0043",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/2",
+        "√3/2",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/2",
+        "√3/2",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0044",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/√2",
+        "1/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/√2",
+        "1/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0045",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 45° = ?",
+      "options": [
+        "1/√2",
+        "√3/2",
+        "1/2",
+        "0"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 45° = ?",
+      "options": [
+        "1/√2",
+        "√3/2",
+        "1/2",
+        "0"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0046",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "√3/2",
+        "0",
+        "1/2",
+        "1/√2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "√3/2",
+        "0",
+        "1/2",
+        "1/√2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0047",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 90° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "√3/2",
+        "1"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    },
+    "hi": {
+      "question": "sin 90° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "√3/2",
+        "1"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0048",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 45° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "√3/2",
+        "1/2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 45° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "√3/2",
+        "1/2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0049",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 90° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1",
+        "1/√2"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    },
+    "hi": {
+      "question": "sin 90° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1",
+        "1/√2"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0050",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/2",
+        "0",
+        "√3/2",
+        "1/√2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/2",
+        "0",
+        "√3/2",
+        "1/√2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0051",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 45° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/2",
+        "1/√2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 45° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/2",
+        "1/√2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0052",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 45° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/2",
+        "1/√2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 45° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/2",
+        "1/√2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0053",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 0° = ?",
+      "options": [
+        "√3/2",
+        "1/2",
+        "1/√2",
+        "0"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    },
+    "hi": {
+      "question": "sin 0° = ?",
+      "options": [
+        "√3/2",
+        "1/2",
+        "1/√2",
+        "0"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0054",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "√3/2",
+        "1/2",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "√3/2",
+        "1/2",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0055",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "√3/2",
+        "1/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "√3/2",
+        "1/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0056",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 0° = ?",
+      "options": [
+        "√3/2",
+        "1/√2",
+        "0",
+        "1/2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    },
+    "hi": {
+      "question": "sin 0° = ?",
+      "options": [
+        "√3/2",
+        "1/√2",
+        "0",
+        "1/2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0057",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 90° = ?",
+      "options": [
+        "√3/2",
+        "1",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    },
+    "hi": {
+      "question": "sin 90° = ?",
+      "options": [
+        "√3/2",
+        "1",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0058",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0059",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 0° = ?",
+      "options": [
+        "1/√2",
+        "√3/2",
+        "1/2",
+        "0"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    },
+    "hi": {
+      "question": "sin 0° = ?",
+      "options": [
+        "1/√2",
+        "√3/2",
+        "1/2",
+        "0"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0060",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 45° = ?",
+      "options": [
+        "1/2",
+        "1/√2",
+        "√3/2",
+        "0"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 45° = ?",
+      "options": [
+        "1/2",
+        "1/√2",
+        "√3/2",
+        "0"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0061",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/√2",
+        "1/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/√2",
+        "1/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0062",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "0",
+        "1/√2",
+        "1/2",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "0",
+        "1/√2",
+        "1/2",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0063",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 90° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "√3/2",
+        "1"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    },
+    "hi": {
+      "question": "sin 90° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "√3/2",
+        "1"
+      ],
+      "explanation": "sin 90° = 1 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0064",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 90° = ?",
       "options": [
         "1",
         "0",
-        "√3",
-        "∞"
+        "√3/2",
+        "1/√2"
       ],
-      "explanation": "tan45°=1."
+      "explanation": "sin 90° = 1 (standard value)."
     },
     "hi": {
-      "question": "tan45°=?",
+      "question": "sin 90° = ?",
       "options": [
         "1",
         "0",
-        "√3",
-        "∞"
+        "√3/2",
+        "1/√2"
       ],
-      "explanation": "1।"
+      "explanation": "sin 90° = 1 (standard value)."
     }
   },
   {
-    "id": "nmt-0029",
-    "correctOption": "B",
-    "difficulty": "medium",
+    "id": "trig-0065",
+    "correctOption": "A",
+    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "sin(90°-θ)=?",
+      "question": "sin 0° = ?",
       "options": [
-        "sinθ",
-        "cosθ",
-        "tanθ",
-        "-sinθ"
+        "0",
+        "√3/2",
+        "1/√2",
+        "1/2"
       ],
-      "explanation": "sin(90°-θ)=cosθ."
+      "explanation": "sin 0° = 0 (standard value)."
     },
     "hi": {
-      "question": "sin(90°-θ)=?",
+      "question": "sin 0° = ?",
       "options": [
-        "sinθ",
-        "cosθ",
-        "tanθ",
-        "-sinθ"
+        "0",
+        "√3/2",
+        "1/√2",
+        "1/2"
       ],
-      "explanation": "cosθ।"
+      "explanation": "sin 0° = 0 (standard value)."
     }
   },
   {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 28m, sun elevation 45°. Shadow length?",
-      "options": [
-        "28 m2",
-        "28 m",
-        "28 m1",
-        "28 m3"
-      ],
-      "explanation": "tan45°=28/shadow. Shadow=28/1.0=28m."
-    },
-    "hi": {
-      "question": "28मी ऊंची मीनार, सूर्य उन्नयन कोण 45°। छाया?",
-      "options": [
-        "28 m2",
-        "28 m",
-        "28 m1",
-        "28 m3"
-      ],
-      "explanation": "tan45°=28/छाया। छाया=28मी।"
-    },
-    "id": "nmt-0030"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 31m, sun elevation 60°. Shadow length?",
-      "options": [
-        "17.9 m",
-        "15.5 m",
-        "62 m",
-        "31 m"
-      ],
-      "explanation": "tan60°=31/shadow. Shadow=31/1.732=17.9m."
-    },
-    "hi": {
-      "question": "31मी ऊंची मीनार, सूर्य उन्नयन कोण 60°। छाया?",
-      "options": [
-        "17.9 m",
-        "15.5 m",
-        "62 m",
-        "31 m"
-      ],
-      "explanation": "tan60°=31/छाया। छाया=17.9मी।"
-    },
-    "id": "nmt-0031"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 47m, sun elevation 30°. Shadow length?",
-      "options": [
-        "94 m",
-        "47 m",
-        "81.4 m",
-        "23.5 m"
-      ],
-      "explanation": "tan30°=47/shadow. Shadow=47/0.577=81.4m."
-    },
-    "hi": {
-      "question": "47मी ऊंची मीनार, सूर्य उन्नयन कोण 30°। छाया?",
-      "options": [
-        "94 m",
-        "47 m",
-        "81.4 m",
-        "23.5 m"
-      ],
-      "explanation": "tan30°=47/छाया। छाया=81.4मी।"
-    },
-    "id": "nmt-0032"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 41m, sun elevation 45°. Shadow length?",
-      "options": [
-        "41 m3",
-        "41 m2",
-        "41 m",
-        "41 m1"
-      ],
-      "explanation": "tan45°=41/shadow. Shadow=41/1.0=41m."
-    },
-    "hi": {
-      "question": "41मी ऊंची मीनार, सूर्य उन्नयन कोण 45°। छाया?",
-      "options": [
-        "41 m3",
-        "41 m2",
-        "41 m",
-        "41 m1"
-      ],
-      "explanation": "tan45°=41/छाया। छाया=41मी।"
-    },
-    "id": "nmt-0033"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 29m, sun elevation 60°. Shadow length?",
-      "options": [
-        "16.7 m",
-        "29 m",
-        "14.5 m",
-        "58 m"
-      ],
-      "explanation": "tan60°=29/shadow. Shadow=29/1.732=16.7m."
-    },
-    "hi": {
-      "question": "29मी ऊंची मीनार, सूर्य उन्नयन कोण 60°। छाया?",
-      "options": [
-        "16.7 m",
-        "29 m",
-        "14.5 m",
-        "58 m"
-      ],
-      "explanation": "tan60°=29/छाया। छाया=16.7मी।"
-    },
-    "id": "nmt-0034"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 13m, sun elevation 60°. Shadow length?",
-      "options": [
-        "7.5 m",
-        "6.5 m",
-        "26 m",
-        "13 m"
-      ],
-      "explanation": "tan60°=13/shadow. Shadow=13/1.732=7.5m."
-    },
-    "hi": {
-      "question": "13मी ऊंची मीनार, सूर्य उन्नयन कोण 60°। छाया?",
-      "options": [
-        "7.5 m",
-        "6.5 m",
-        "26 m",
-        "13 m"
-      ],
-      "explanation": "tan60°=13/छाया। छाया=7.5मी।"
-    },
-    "id": "nmt-0035"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 48m, sun elevation 45°. Shadow length?",
-      "options": [
-        "48 m",
-        "48 m1",
-        "48 m2",
-        "48 m3"
-      ],
-      "explanation": "tan45°=48/shadow. Shadow=48/1.0=48m."
-    },
-    "hi": {
-      "question": "48मी ऊंची मीनार, सूर्य उन्नयन कोण 45°। छाया?",
-      "options": [
-        "48 m",
-        "48 m1",
-        "48 m2",
-        "48 m3"
-      ],
-      "explanation": "tan45°=48/छाया। छाया=48मी।"
-    },
-    "id": "nmt-0036"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 34m, sun elevation 45°. Shadow length?",
-      "options": [
-        "34 m3",
-        "34 m2",
-        "34 m1",
-        "34 m"
-      ],
-      "explanation": "tan45°=34/shadow. Shadow=34/1.0=34m."
-    },
-    "hi": {
-      "question": "34मी ऊंची मीनार, सूर्य उन्नयन कोण 45°। छाया?",
-      "options": [
-        "34 m3",
-        "34 m2",
-        "34 m1",
-        "34 m"
-      ],
-      "explanation": "tan45°=34/छाया। छाया=34मी।"
-    },
-    "id": "nmt-0037"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 44m, sun elevation 60°. Shadow length?",
-      "options": [
-        "88 m",
-        "25.4 m",
-        "44 m",
-        "22.0 m"
-      ],
-      "explanation": "tan60°=44/shadow. Shadow=44/1.732=25.4m."
-    },
-    "hi": {
-      "question": "44मी ऊंची मीनार, सूर्य उन्नयन कोण 60°। छाया?",
-      "options": [
-        "88 m",
-        "25.4 m",
-        "44 m",
-        "22.0 m"
-      ],
-      "explanation": "tan60°=44/छाया। छाया=25.4मी।"
-    },
-    "id": "nmt-0038"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 44m, sun elevation 45°. Shadow length?",
-      "options": [
-        "44 m",
-        "44 m2",
-        "44 m3",
-        "44 m1"
-      ],
-      "explanation": "tan45°=44/shadow. Shadow=44/1.0=44m."
-    },
-    "hi": {
-      "question": "44मी ऊंची मीनार, सूर्य उन्नयन कोण 45°। छाया?",
-      "options": [
-        "44 m",
-        "44 m2",
-        "44 m3",
-        "44 m1"
-      ],
-      "explanation": "tan45°=44/छाया। छाया=44मी।"
-    },
-    "id": "nmt-0039"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 14m, sun elevation 30°. Shadow length?",
-      "options": [
-        "14 m",
-        "7.0 m",
-        "28 m",
-        "24.2 m"
-      ],
-      "explanation": "tan30°=14/shadow. Shadow=14/0.577=24.2m."
-    },
-    "hi": {
-      "question": "14मी ऊंची मीनार, सूर्य उन्नयन कोण 30°। छाया?",
-      "options": [
-        "14 m",
-        "7.0 m",
-        "28 m",
-        "24.2 m"
-      ],
-      "explanation": "tan30°=14/छाया। छाया=24.2मी।"
-    },
-    "id": "nmt-0040"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 33m, sun elevation 60°. Shadow length?",
-      "options": [
-        "16.5 m",
-        "19.1 m",
-        "33 m",
-        "66 m"
-      ],
-      "explanation": "tan60°=33/shadow. Shadow=33/1.732=19.1m."
-    },
-    "hi": {
-      "question": "33मी ऊंची मीनार, सूर्य उन्नयन कोण 60°। छाया?",
-      "options": [
-        "16.5 m",
-        "19.1 m",
-        "33 m",
-        "66 m"
-      ],
-      "explanation": "tan60°=33/छाया। छाया=19.1मी।"
-    },
-    "id": "nmt-0041"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 15m, sun elevation 45°. Shadow length?",
-      "options": [
-        "15 m1",
-        "15 m2",
-        "15 m",
-        "15 m3"
-      ],
-      "explanation": "tan45°=15/shadow. Shadow=15/1.0=15m."
-    },
-    "hi": {
-      "question": "15मी ऊंची मीनार, सूर्य उन्नयन कोण 45°। छाया?",
-      "options": [
-        "15 m1",
-        "15 m2",
-        "15 m",
-        "15 m3"
-      ],
-      "explanation": "tan45°=15/छाया। छाया=15मी।"
-    },
-    "id": "nmt-0042"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 26m, sun elevation 30°. Shadow length?",
-      "options": [
-        "13.0 m",
-        "45 m",
-        "26 m",
-        "52 m"
-      ],
-      "explanation": "tan30°=26/shadow. Shadow=26/0.577=45m."
-    },
-    "hi": {
-      "question": "26मी ऊंची मीनार, सूर्य उन्नयन कोण 30°। छाया?",
-      "options": [
-        "13.0 m",
-        "45 m",
-        "26 m",
-        "52 m"
-      ],
-      "explanation": "tan30°=26/छाया। छाया=45मी।"
-    },
-    "id": "nmt-0043"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 25m, sun elevation 45°. Shadow length?",
-      "options": [
-        "25 m",
-        "25 m2",
-        "25 m3",
-        "25 m1"
-      ],
-      "explanation": "tan45°=25/shadow. Shadow=25/1.0=25m."
-    },
-    "hi": {
-      "question": "25मी ऊंची मीनार, सूर्य उन्नयन कोण 45°। छाया?",
-      "options": [
-        "25 m",
-        "25 m2",
-        "25 m3",
-        "25 m1"
-      ],
-      "explanation": "tan45°=25/छाया। छाया=25मी।"
-    },
-    "id": "nmt-0044"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 38m, sun elevation 60°. Shadow length?",
-      "options": [
-        "21.9 m",
-        "38 m",
-        "76 m",
-        "19.0 m"
-      ],
-      "explanation": "tan60°=38/shadow. Shadow=38/1.732=21.9m."
-    },
-    "hi": {
-      "question": "38मी ऊंची मीनार, सूर्य उन्नयन कोण 60°। छाया?",
-      "options": [
-        "21.9 m",
-        "38 m",
-        "76 m",
-        "19.0 m"
-      ],
-      "explanation": "tan60°=38/छाया। छाया=21.9मी।"
-    },
-    "id": "nmt-0045"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 18m, sun elevation 60°. Shadow length?",
-      "options": [
-        "18 m",
-        "9.0 m",
-        "36 m",
-        "10.4 m"
-      ],
-      "explanation": "tan60°=18/shadow. Shadow=18/1.732=10.4m."
-    },
-    "hi": {
-      "question": "18मी ऊंची मीनार, सूर्य उन्नयन कोण 60°। छाया?",
-      "options": [
-        "18 m",
-        "9.0 m",
-        "36 m",
-        "10.4 m"
-      ],
-      "explanation": "tan60°=18/छाया। छाया=10.4मी।"
-    },
-    "id": "nmt-0046"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 31m, sun elevation 30°. Shadow length?",
-      "options": [
-        "15.5 m",
-        "31 m",
-        "53.7 m",
-        "62 m"
-      ],
-      "explanation": "tan30°=31/shadow. Shadow=31/0.577=53.7m."
-    },
-    "hi": {
-      "question": "31मी ऊंची मीनार, सूर्य उन्नयन कोण 30°। छाया?",
-      "options": [
-        "15.5 m",
-        "31 m",
-        "53.7 m",
-        "62 m"
-      ],
-      "explanation": "tan30°=31/छाया। छाया=53.7मी।"
-    },
-    "id": "nmt-0047"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 38m, sun elevation 45°. Shadow length?",
-      "options": [
-        "38 m3",
-        "38 m2",
-        "38 m1",
-        "38 m"
-      ],
-      "explanation": "tan45°=38/shadow. Shadow=38/1.0=38m."
-    },
-    "hi": {
-      "question": "38मी ऊंची मीनार, सूर्य उन्नयन कोण 45°। छाया?",
-      "options": [
-        "38 m3",
-        "38 m2",
-        "38 m1",
-        "38 m"
-      ],
-      "explanation": "tan45°=38/छाया। छाया=38मी।"
-    },
-    "id": "nmt-0049"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 24m, sun elevation 45°. Shadow length?",
-      "options": [
-        "24 m",
-        "24 m3",
-        "24 m1",
-        "24 m2"
-      ],
-      "explanation": "tan45°=24/shadow. Shadow=24/1.0=24m."
-    },
-    "hi": {
-      "question": "24मी ऊंची मीनार, सूर्य उन्नयन कोण 45°। छाया?",
-      "options": [
-        "24 m",
-        "24 m3",
-        "24 m1",
-        "24 m2"
-      ],
-      "explanation": "tan45°=24/छाया। छाया=24मी।"
-    },
-    "id": "nmt-0050"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 14m, sun elevation 45°. Shadow length?",
-      "options": [
-        "14 m",
-        "14 m2",
-        "14 m1",
-        "14 m3"
-      ],
-      "explanation": "tan45°=14/shadow. Shadow=14/1.0=14m."
-    },
-    "hi": {
-      "question": "14मी ऊंची मीनार, सूर्य उन्नयन कोण 45°। छाया?",
-      "options": [
-        "14 m",
-        "14 m2",
-        "14 m1",
-        "14 m3"
-      ],
-      "explanation": "tan45°=14/छाया। छाया=14मी।"
-    },
-    "id": "nmt-0051"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 39m, sun elevation 60°. Shadow length?",
-      "options": [
-        "78 m",
-        "22.5 m",
-        "39 m",
-        "19.5 m"
-      ],
-      "explanation": "tan60°=39/shadow. Shadow=39/1.732=22.5m."
-    },
-    "hi": {
-      "question": "39मी ऊंची मीनार, सूर्य उन्नयन कोण 60°। छाया?",
-      "options": [
-        "78 m",
-        "22.5 m",
-        "39 m",
-        "19.5 m"
-      ],
-      "explanation": "tan60°=39/छाया। छाया=22.5मी।"
-    },
-    "id": "nmt-0053"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 21m, sun elevation 60°. Shadow length?",
-      "options": [
-        "21 m",
-        "12.1 m",
-        "10.5 m",
-        "42 m"
-      ],
-      "explanation": "tan60°=21/shadow. Shadow=21/1.732=12.1m."
-    },
-    "hi": {
-      "question": "21मी ऊंची मीनार, सूर्य उन्नयन कोण 60°। छाया?",
-      "options": [
-        "21 m",
-        "12.1 m",
-        "10.5 m",
-        "42 m"
-      ],
-      "explanation": "tan60°=21/छाया। छाया=12.1मी।"
-    },
-    "id": "nmt-0054"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 46m, sun elevation 30°. Shadow length?",
-      "options": [
-        "79.7 m",
-        "23.0 m",
-        "46 m",
-        "92 m"
-      ],
-      "explanation": "tan30°=46/shadow. Shadow=46/0.577=79.7m."
-    },
-    "hi": {
-      "question": "46मी ऊंची मीनार, सूर्य उन्नयन कोण 30°। छाया?",
-      "options": [
-        "79.7 m",
-        "23.0 m",
-        "46 m",
-        "92 m"
-      ],
-      "explanation": "tan30°=46/छाया। छाया=79.7मी।"
-    },
-    "id": "nmt-0055"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 42m, sun elevation 30°. Shadow length?",
-      "options": [
-        "72.7 m",
-        "42 m",
-        "84 m",
-        "21.0 m"
-      ],
-      "explanation": "tan30°=42/shadow. Shadow=42/0.577=72.7m."
-    },
-    "hi": {
-      "question": "42मी ऊंची मीनार, सूर्य उन्नयन कोण 30°। छाया?",
-      "options": [
-        "72.7 m",
-        "42 m",
-        "84 m",
-        "21.0 m"
-      ],
-      "explanation": "tan30°=42/छाया। छाया=72.7मी।"
-    },
-    "id": "nmt-0056"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 10m, sun elevation 30°. Shadow length?",
-      "options": [
-        "10 m",
-        "20 m",
-        "17.3 m",
-        "5.0 m"
-      ],
-      "explanation": "tan30°=10/shadow. Shadow=10/0.577=17.3m."
-    },
-    "hi": {
-      "question": "10मी ऊंची मीनार, सूर्य उन्नयन कोण 30°। छाया?",
-      "options": [
-        "10 m",
-        "20 m",
-        "17.3 m",
-        "5.0 m"
-      ],
-      "explanation": "tan30°=10/छाया। छाया=17.3मी।"
-    },
-    "id": "nmt-0057"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 43m, sun elevation 45°. Shadow length?",
-      "options": [
-        "43 m1",
-        "43 m",
-        "43 m3",
-        "43 m2"
-      ],
-      "explanation": "tan45°=43/shadow. Shadow=43/1.0=43m."
-    },
-    "hi": {
-      "question": "43मी ऊंची मीनार, सूर्य उन्नयन कोण 45°। छाया?",
-      "options": [
-        "43 m1",
-        "43 m",
-        "43 m3",
-        "43 m2"
-      ],
-      "explanation": "tan45°=43/छाया। छाया=43मी।"
-    },
-    "id": "nmt-0058"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 35m, sun elevation 45°. Shadow length?",
-      "options": [
-        "35 m1",
-        "35 m2",
-        "35 m",
-        "35 m3"
-      ],
-      "explanation": "tan45°=35/shadow. Shadow=35/1.0=35m."
-    },
-    "hi": {
-      "question": "35मी ऊंची मीनार, सूर्य उन्नयन कोण 45°। छाया?",
-      "options": [
-        "35 m1",
-        "35 m2",
-        "35 m",
-        "35 m3"
-      ],
-      "explanation": "tan45°=35/छाया। छाया=35मी।"
-    },
-    "id": "nmt-0059"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 20m, sun elevation 45°. Shadow length?",
-      "options": [
-        "20 m2",
-        "20 m",
-        "20 m3",
-        "20 m1"
-      ],
-      "explanation": "tan45°=20/shadow. Shadow=20/1.0=20m."
-    },
-    "hi": {
-      "question": "20मी ऊंची मीनार, सूर्य उन्नयन कोण 45°। छाया?",
-      "options": [
-        "20 m2",
-        "20 m",
-        "20 m3",
-        "20 m1"
-      ],
-      "explanation": "tan45°=20/छाया। छाया=20मी।"
-    },
-    "id": "nmt-0063"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 44m, sun elevation 30°. Shadow length?",
-      "options": [
-        "76.2 m",
-        "88 m",
-        "44 m",
-        "22.0 m"
-      ],
-      "explanation": "tan30°=44/shadow. Shadow=44/0.577=76.2m."
-    },
-    "hi": {
-      "question": "44मी ऊंची मीनार, सूर्य उन्नयन कोण 30°। छाया?",
-      "options": [
-        "76.2 m",
-        "88 m",
-        "44 m",
-        "22.0 m"
-      ],
-      "explanation": "tan30°=44/छाया। छाया=76.2मी।"
-    },
-    "id": "nmt-0064"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 34m, sun elevation 60°. Shadow length?",
-      "options": [
-        "17.0 m",
-        "68 m",
-        "19.6 m",
-        "34 m"
-      ],
-      "explanation": "tan60°=34/shadow. Shadow=34/1.732=19.6m."
-    },
-    "hi": {
-      "question": "34मी ऊंची मीनार, सूर्य उन्नयन कोण 60°। छाया?",
-      "options": [
-        "17.0 m",
-        "68 m",
-        "19.6 m",
-        "34 m"
-      ],
-      "explanation": "tan60°=34/छाया। छाया=19.6मी।"
-    },
-    "id": "nmt-0065"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 24m, sun elevation 60°. Shadow length?",
-      "options": [
-        "24 m",
-        "13.9 m",
-        "48 m",
-        "12.0 m"
-      ],
-      "explanation": "tan60°=24/shadow. Shadow=24/1.732=13.9m."
-    },
-    "hi": {
-      "question": "24मी ऊंची मीनार, सूर्य उन्नयन कोण 60°। छाया?",
-      "options": [
-        "24 m",
-        "13.9 m",
-        "48 m",
-        "12.0 m"
-      ],
-      "explanation": "tan60°=24/छाया। छाया=13.9मी।"
-    },
-    "id": "nmt-0066"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 22m, sun elevation 45°. Shadow length?",
-      "options": [
-        "22 m3",
-        "22 m",
-        "22 m1",
-        "22 m2"
-      ],
-      "explanation": "tan45°=22/shadow. Shadow=22/1.0=22m."
-    },
-    "hi": {
-      "question": "22मी ऊंची मीनार, सूर्य उन्नयन कोण 45°। छाया?",
-      "options": [
-        "22 m3",
-        "22 m",
-        "22 m1",
-        "22 m2"
-      ],
-      "explanation": "tan45°=22/छाया। छाया=22मी।"
-    },
-    "id": "nmt-0067"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 49m, sun elevation 30°. Shadow length?",
-      "options": [
-        "84.9 m",
-        "49 m",
-        "24.5 m",
-        "98 m"
-      ],
-      "explanation": "tan30°=49/shadow. Shadow=49/0.577=84.9m."
-    },
-    "hi": {
-      "question": "49मी ऊंची मीनार, सूर्य उन्नयन कोण 30°। छाया?",
-      "options": [
-        "84.9 m",
-        "49 m",
-        "24.5 m",
-        "98 m"
-      ],
-      "explanation": "tan30°=49/छाया। छाया=84.9मी।"
-    },
-    "id": "nmt-0069"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 32m, sun elevation 30°. Shadow length?",
-      "options": [
-        "55.4 m",
-        "32 m",
-        "16.0 m",
-        "64 m"
-      ],
-      "explanation": "tan30°=32/shadow. Shadow=32/0.577=55.4m."
-    },
-    "hi": {
-      "question": "32मी ऊंची मीनार, सूर्य उन्नयन कोण 30°। छाया?",
-      "options": [
-        "55.4 m",
-        "32 m",
-        "16.0 m",
-        "64 m"
-      ],
-      "explanation": "tan30°=32/छाया। छाया=55.4मी।"
-    },
-    "id": "nmt-0071"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 21m, sun elevation 45°. Shadow length?",
-      "options": [
-        "21 m2",
-        "21 m",
-        "21 m3",
-        "21 m1"
-      ],
-      "explanation": "tan45°=21/shadow. Shadow=21/1.0=21m."
-    },
-    "hi": {
-      "question": "21मी ऊंची मीनार, सूर्य उन्नयन कोण 45°। छाया?",
-      "options": [
-        "21 m2",
-        "21 m",
-        "21 m3",
-        "21 m1"
-      ],
-      "explanation": "tan45°=21/छाया। छाया=21मी।"
-    },
-    "id": "nmt-0072"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 50m, sun elevation 60°. Shadow length?",
-      "options": [
-        "50 m",
-        "28.9 m",
-        "100 m",
-        "25.0 m"
-      ],
-      "explanation": "tan60°=50/shadow. Shadow=50/1.732=28.9m."
-    },
-    "hi": {
-      "question": "50मी ऊंची मीनार, सूर्य उन्नयन कोण 60°। छाया?",
-      "options": [
-        "50 m",
-        "28.9 m",
-        "100 m",
-        "25.0 m"
-      ],
-      "explanation": "tan60°=50/छाया। छाया=28.9मी।"
-    },
-    "id": "nmt-0074"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 11m, sun elevation 60°. Shadow length?",
-      "options": [
-        "6.4 m",
-        "5.5 m",
-        "11 m",
-        "22 m"
-      ],
-      "explanation": "tan60°=11/shadow. Shadow=11/1.732=6.4m."
-    },
-    "hi": {
-      "question": "11मी ऊंची मीनार, सूर्य उन्नयन कोण 60°। छाया?",
-      "options": [
-        "6.4 m",
-        "5.5 m",
-        "11 m",
-        "22 m"
-      ],
-      "explanation": "tan60°=11/छाया। छाया=6.4मी।"
-    },
-    "id": "nmt-0075"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 37m, sun elevation 45°. Shadow length?",
-      "options": [
-        "37 m",
-        "37 m1",
-        "37 m2",
-        "37 m3"
-      ],
-      "explanation": "tan45°=37/shadow. Shadow=37/1.0=37m."
-    },
-    "hi": {
-      "question": "37मी ऊंची मीनार, सूर्य उन्नयन कोण 45°। छाया?",
-      "options": [
-        "37 m",
-        "37 m1",
-        "37 m2",
-        "37 m3"
-      ],
-      "explanation": "tan45°=37/छाया। छाया=37मी।"
-    },
-    "id": "nmt-0076"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 16m, sun elevation 60°. Shadow length?",
-      "options": [
-        "32 m",
-        "9.2 m",
-        "8.0 m",
-        "16 m"
-      ],
-      "explanation": "tan60°=16/shadow. Shadow=16/1.732=9.2m."
-    },
-    "hi": {
-      "question": "16मी ऊंची मीनार, सूर्य उन्नयन कोण 60°। छाया?",
-      "options": [
-        "32 m",
-        "9.2 m",
-        "8.0 m",
-        "16 m"
-      ],
-      "explanation": "tan60°=16/छाया। छाया=9.2मी।"
-    },
-    "id": "nmt-0078"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Tower height 14m, sun elevation 60°. Shadow length?",
-      "options": [
-        "8.1 m",
-        "7.0 m",
-        "14 m",
-        "28 m"
-      ],
-      "explanation": "tan60°=14/shadow. Shadow=14/1.732=8.1m."
-    },
-    "hi": {
-      "question": "14मी ऊंची मीनार, सूर्य उन्नयन कोण 60°। छाया?",
-      "options": [
-        "8.1 m",
-        "7.0 m",
-        "14 m",
-        "28 m"
-      ],
-      "explanation": "tan60°=14/छाया। छाया=8.1मी।"
-    },
-    "id": "nmt-0079"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 33 + 26 × 3",
-      "options": [
-        "177",
-        "111",
-        "62",
-        "2574"
-      ],
-      "explanation": "BODMAS: 26×3=78+33=111."
-    },
-    "hi": {
-      "question": "सरल: 33 + 26 × 3",
-      "options": [
-        "177",
-        "111",
-        "62",
-        "2574"
-      ],
-      "explanation": "BODMAS: 111।"
-    },
-    "id": "nmt-0080"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 9×5cm. Area?",
-      "options": [
-        "28 cm²",
-        "45 cm²",
-        "90 cm²",
-        "14 cm²"
-      ],
-      "explanation": "Area=9×5=45 cm²."
-    },
-    "hi": {
-      "question": "आयत 9×5सेमी। क्षेत्रफल?",
-      "options": [
-        "28 cm²",
-        "45 cm²",
-        "90 cm²",
-        "14 cm²"
-      ],
-      "explanation": "क्षेत्रफल=9×5=45 वर्ग सेमी।"
-    },
-    "id": "nmt-0081"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 35 and 38?",
-      "options": [
-        "1331",
-        "1330",
-        "1332",
-        "1333"
-      ],
-      "explanation": "LCM=1330/1=1330."
-    },
-    "hi": {
-      "question": "35 और 38 का ल.स.?",
-      "options": [
-        "1331",
-        "1330",
-        "1332",
-        "1333"
-      ],
-      "explanation": "ल.स.=1330।"
-    },
-    "id": "nmt-0082"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A=47d, B=9d. Together?",
-      "options": [
-        "7.6d",
-        "56d",
-        "38d",
-        "15.2d"
-      ],
-      "explanation": "1d: 1/47+1/9. Time=7.6d."
-    },
-    "hi": {
-      "question": "A=47दिन, B=9दिन। साथ?",
-      "options": [
-        "7.6d",
-        "56d",
-        "38d",
-        "15.2d"
-      ],
-      "explanation": "1दिन: 1/47+1/9। समय=7.6दिन।"
-    },
-    "id": "nmt-0083"
-  },
-  {
+    "id": "trig-0066",
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Rectangle 15×7cm. Area?",
+      "question": "sin 60° = ?",
       "options": [
-        "105 cm²",
-        "210 cm²",
-        "22 cm²",
-        "44 cm²"
+        "√3/2",
+        "1/√2",
+        "1/2",
+        "0"
       ],
-      "explanation": "Area=15×7=105 cm²."
+      "explanation": "sin 60° = √3/2 (standard value)."
     },
     "hi": {
-      "question": "आयत 15×7सेमी। क्षेत्रफल?",
+      "question": "sin 60° = ?",
       "options": [
-        "105 cm²",
-        "210 cm²",
-        "22 cm²",
-        "44 cm²"
+        "√3/2",
+        "1/√2",
+        "1/2",
+        "0"
       ],
-      "explanation": "क्षेत्रफल=15×7=105 वर्ग सेमी।"
-    },
-    "id": "nmt-0084"
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
   },
   {
+    "id": "trig-0067",
     "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "CP Rs.270, 6% profit. SP?",
+      "question": "sin 90° = ?",
       "options": [
-        "228",
-        "286.2",
-        "540",
-        "270"
+        "0",
+        "1",
+        "1/√2",
+        "√3/2"
       ],
-      "explanation": "SP=270×1.06=286.2."
+      "explanation": "sin 90° = 1 (standard value)."
     },
     "hi": {
-      "question": "क्र.मू. 270रु, 6% लाभ। वि.मू.?",
+      "question": "sin 90° = ?",
       "options": [
-        "228",
-        "286.2",
-        "540",
-        "270"
+        "0",
+        "1",
+        "1/√2",
+        "√3/2"
       ],
-      "explanation": "वि.मू.=286.2।"
-    },
-    "id": "nmt-0085"
+      "explanation": "sin 90° = 1 (standard value)."
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A=12d, B=23d. Together?",
-      "options": [
-        "11d",
-        "15.8d",
-        "35d",
-        "7.9d"
-      ],
-      "explanation": "1d: 1/12+1/23. Time=7.9d."
-    },
-    "hi": {
-      "question": "A=12दिन, B=23दिन। साथ?",
-      "options": [
-        "11d",
-        "15.8d",
-        "35d",
-        "7.9d"
-      ],
-      "explanation": "1दिन: 1/12+1/23। समय=7.9दिन।"
-    },
-    "id": "nmt-0086"
-  },
-  {
+    "id": "trig-0068",
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "CP Rs.130, 23% profit. SP?",
+      "question": "sin 30° = ?",
       "options": [
-        "159.9",
-        "127",
-        "260",
-        "130"
+        "1/2",
+        "0",
+        "√3/2",
+        "1/√2"
       ],
-      "explanation": "SP=130×1.23=159.9."
+      "explanation": "sin 30° = 1/2 (standard value)."
     },
     "hi": {
-      "question": "क्र.मू. 130रु, 23% लाभ। वि.मू.?",
+      "question": "sin 30° = ?",
       "options": [
-        "159.9",
-        "127",
-        "260",
-        "130"
+        "1/2",
+        "0",
+        "√3/2",
+        "1/√2"
       ],
-      "explanation": "वि.मू.=159.9।"
-    },
-    "id": "nmt-0087"
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 42, 5, 35, 20, 51, 37",
-      "options": [
-        "51",
-        "5",
-        "31.7",
-        "190"
-      ],
-      "explanation": "Sum=190/6=31.7."
-    },
-    "hi": {
-      "question": "औसत: 42, 5, 35, 20, 51, 37",
-      "options": [
-        "51",
-        "5",
-        "31.7",
-        "190"
-      ],
-      "explanation": "योग=190/6=31.7।"
-    },
-    "id": "nmt-0088"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 46km/hr, 18hrs. Distance?",
-      "options": [
-        "828km",
-        "64km",
-        "414km",
-        "1656km"
-      ],
-      "explanation": "Dist=46×18=828km."
-    },
-    "hi": {
-      "question": "कार 46किमी/घं, 18घंटे। दूरी?",
-      "options": [
-        "828km",
-        "64km",
-        "414km",
-        "1656km"
-      ],
-      "explanation": "दूरी=828किमी।"
-    },
-    "id": "nmt-0089"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 18×6cm. Area?",
-      "options": [
-        "108 cm²",
-        "48 cm²",
-        "24 cm²",
-        "216 cm²"
-      ],
-      "explanation": "Area=18×6=108 cm²."
-    },
-    "hi": {
-      "question": "आयत 18×6सेमी। क्षेत्रफल?",
-      "options": [
-        "108 cm²",
-        "48 cm²",
-        "24 cm²",
-        "216 cm²"
-      ],
-      "explanation": "क्षेत्रफल=18×6=108 वर्ग सेमी।"
-    },
-    "id": "nmt-0090"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 36km/hr, 10hrs. Distance?",
-      "options": [
-        "360km",
-        "720km",
-        "46km",
-        "180km"
-      ],
-      "explanation": "Dist=36×10=360km."
-    },
-    "hi": {
-      "question": "कार 36किमी/घं, 10घंटे। दूरी?",
-      "options": [
-        "360km",
-        "720km",
-        "46km",
-        "180km"
-      ],
-      "explanation": "दूरी=360किमी।"
-    },
-    "id": "nmt-0091"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 11, 31, 47, 26, 29, 52",
-      "options": [
-        "32.7",
-        "11",
-        "52",
-        "196"
-      ],
-      "explanation": "Sum=196/6=32.7."
-    },
-    "hi": {
-      "question": "औसत: 11, 31, 47, 26, 29, 52",
-      "options": [
-        "32.7",
-        "11",
-        "52",
-        "196"
-      ],
-      "explanation": "योग=196/6=32.7।"
-    },
-    "id": "nmt-0092"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 23 and 8?",
-      "options": [
-        "184",
-        "187",
-        "186",
-        "185"
-      ],
-      "explanation": "LCM=184/1=184."
-    },
-    "hi": {
-      "question": "23 और 8 का ल.स.?",
-      "options": [
-        "184",
-        "187",
-        "186",
-        "185"
-      ],
-      "explanation": "ल.स.=184।"
-    },
-    "id": "nmt-0093"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 15 and 8?",
-      "options": [
-        "120",
-        "122",
-        "123",
-        "121"
-      ],
-      "explanation": "LCM=120/1=120."
-    },
-    "hi": {
-      "question": "15 और 8 का ल.स.?",
-      "options": [
-        "120",
-        "122",
-        "123",
-        "121"
-      ],
-      "explanation": "ल.स.=120।"
-    },
-    "id": "nmt-0094"
-  },
-  {
+    "id": "trig-0069",
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "CP Rs.150, 13% profit. SP?",
+      "question": "sin 60° = ?",
       "options": [
-        "150",
-        "135",
-        "300",
-        "169.5"
+        "1/√2",
+        "1/2",
+        "0",
+        "√3/2"
       ],
-      "explanation": "SP=150×1.13=169.5."
+      "explanation": "sin 60° = √3/2 (standard value)."
     },
     "hi": {
-      "question": "क्र.मू. 150रु, 13% लाभ। वि.मू.?",
+      "question": "sin 60° = ?",
       "options": [
-        "150",
-        "135",
-        "300",
-        "169.5"
+        "1/√2",
+        "1/2",
+        "0",
+        "√3/2"
       ],
-      "explanation": "वि.मू.=169.5।"
-    },
-    "id": "nmt-0095"
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
   },
   {
+    "id": "trig-0070",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "√3/2",
+        "0",
+        "1/2",
+        "1/√2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "√3/2",
+        "0",
+        "1/2",
+        "1/√2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0071",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "√3/2",
+        "0",
+        "1/2",
+        "1/√2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "√3/2",
+        "0",
+        "1/2",
+        "1/√2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0072",
     "correctOption": "B",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "LCM of 20 and 32?",
+      "question": "sin 45° = ?",
       "options": [
-        "640",
-        "160",
-        "4",
-        "52"
+        "1/2",
+        "1/√2",
+        "√3/2",
+        "0"
       ],
-      "explanation": "LCM=640/4=160."
+      "explanation": "sin 45° = 1/√2 (standard value)."
     },
     "hi": {
-      "question": "20 और 32 का ल.स.?",
+      "question": "sin 45° = ?",
       "options": [
-        "640",
-        "160",
-        "4",
-        "52"
+        "1/2",
+        "1/√2",
+        "√3/2",
+        "0"
       ],
-      "explanation": "ल.स.=160।"
-    },
-    "id": "nmt-0096"
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    }
   },
   {
+    "id": "trig-0073",
     "correctOption": "A",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "Car 50km/hr, 5hrs. Distance?",
+      "question": "sin 30° = ?",
       "options": [
-        "250km",
-        "125km",
-        "55km",
-        "500km"
+        "1/2",
+        "0",
+        "1/√2",
+        "√3/2"
       ],
-      "explanation": "Dist=50×5=250km."
+      "explanation": "sin 30° = 1/2 (standard value)."
     },
     "hi": {
-      "question": "कार 50किमी/घं, 5घंटे। दूरी?",
+      "question": "sin 30° = ?",
       "options": [
-        "250km",
-        "125km",
-        "55km",
-        "500km"
+        "1/2",
+        "0",
+        "1/√2",
+        "√3/2"
       ],
-      "explanation": "दूरी=250किमी।"
-    },
-    "id": "nmt-0097"
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
   },
   {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 12, 41, 9, 28, 37, 46",
-      "options": [
-        "28.8",
-        "173",
-        "9",
-        "46"
-      ],
-      "explanation": "Sum=173/6=28.8."
-    },
-    "hi": {
-      "question": "औसत: 12, 41, 9, 28, 37, 46",
-      "options": [
-        "28.8",
-        "173",
-        "9",
-        "46"
-      ],
-      "explanation": "योग=173/6=28.8।"
-    },
-    "id": "nmt-0098"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A=8d, B=37d. Together?",
-      "options": [
-        "29d",
-        "6.6d",
-        "45d",
-        "13.2d"
-      ],
-      "explanation": "1d: 1/8+1/37. Time=6.6d."
-    },
-    "hi": {
-      "question": "A=8दिन, B=37दिन। साथ?",
-      "options": [
-        "29d",
-        "6.6d",
-        "45d",
-        "13.2d"
-      ],
-      "explanation": "1दिन: 1/8+1/37। समय=6.6दिन।"
-    },
-    "id": "nmt-0099"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 48 + 8 × 6",
-      "options": [
-        "96",
-        "2304",
-        "336",
-        "62"
-      ],
-      "explanation": "BODMAS: 8×6=48+48=96."
-    },
-    "hi": {
-      "question": "सरल: 48 + 8 × 6",
-      "options": [
-        "96",
-        "2304",
-        "336",
-        "62"
-      ],
-      "explanation": "BODMAS: 96।"
-    },
-    "id": "nmt-0100"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 9 × 24?",
-      "options": [
-        "216",
-        "233",
-        "33",
-        "202"
-      ],
-      "explanation": "9×24 = 216."
-    },
-    "hi": {
-      "question": "9 × 24 = ?",
-      "options": [
-        "216",
-        "233",
-        "33",
-        "202"
-      ],
-      "explanation": "9×24 = 216।"
-    },
-    "id": "nmt-0101"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 30 × 26?",
-      "options": [
-        "784",
-        "56",
-        "780",
-        "765"
-      ],
-      "explanation": "30×26 = 780."
-    },
-    "hi": {
-      "question": "30 × 26 = ?",
-      "options": [
-        "784",
-        "56",
-        "780",
-        "765"
-      ],
-      "explanation": "30×26 = 780।"
-    },
-    "id": "nmt-0102"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 40 × 39?",
-      "options": [
-        "1560",
-        "1559",
-        "1580",
-        "79"
-      ],
-      "explanation": "40×39 = 1560."
-    },
-    "hi": {
-      "question": "40 × 39 = ?",
-      "options": [
-        "1560",
-        "1559",
-        "1580",
-        "79"
-      ],
-      "explanation": "40×39 = 1560।"
-    },
-    "id": "nmt-0103"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 27 × 36?",
-      "options": [
-        "63",
-        "958",
-        "972",
-        "982"
-      ],
-      "explanation": "27×36 = 972."
-    },
-    "hi": {
-      "question": "27 × 36 = ?",
-      "options": [
-        "63",
-        "958",
-        "972",
-        "982"
-      ],
-      "explanation": "27×36 = 972।"
-    },
-    "id": "nmt-0104"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 6 × 24?",
-      "options": [
-        "144",
-        "135",
-        "163",
-        "30"
-      ],
-      "explanation": "6×24 = 144."
-    },
-    "hi": {
-      "question": "6 × 24 = ?",
-      "options": [
-        "144",
-        "135",
-        "163",
-        "30"
-      ],
-      "explanation": "6×24 = 144।"
-    },
-    "id": "nmt-0105"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 14 × 14?",
-      "options": [
-        "187",
-        "211",
-        "196",
-        "28"
-      ],
-      "explanation": "14×14 = 196."
-    },
-    "hi": {
-      "question": "14 × 14 = ?",
-      "options": [
-        "187",
-        "211",
-        "196",
-        "28"
-      ],
-      "explanation": "14×14 = 196।"
-    },
-    "id": "nmt-0106"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 46 × 8?",
-      "options": [
-        "369",
-        "360",
-        "368",
-        "54"
-      ],
-      "explanation": "46×8 = 368."
-    },
-    "hi": {
-      "question": "46 × 8 = ?",
-      "options": [
-        "369",
-        "360",
-        "368",
-        "54"
-      ],
-      "explanation": "46×8 = 368।"
-    },
-    "id": "nmt-0107"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "What is 8 × 3?",
-      "options": [
-        "18",
-        "11",
-        "24",
-        "37"
-      ],
-      "explanation": "8×3 = 24."
-    },
-    "hi": {
-      "question": "8 × 3 = ?",
-      "options": [
-        "18",
-        "11",
-        "24",
-        "37"
-      ],
-      "explanation": "8×3 = 24।"
-    },
-    "id": "nmt-0108"
-  },
-  {
+    "id": "trig-0074",
     "correctOption": "D",
     "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "What is 27 × 34?",
+      "question": "sin 45° = ?",
       "options": [
-        "935",
-        "913",
-        "61",
-        "918"
+        "1/2",
+        "0",
+        "√3/2",
+        "1/√2"
       ],
-      "explanation": "27×34 = 918."
+      "explanation": "sin 45° = 1/√2 (standard value)."
     },
     "hi": {
-      "question": "27 × 34 = ?",
+      "question": "sin 45° = ?",
       "options": [
-        "935",
-        "913",
-        "61",
-        "918"
+        "1/2",
+        "0",
+        "√3/2",
+        "1/√2"
       ],
-      "explanation": "27×34 = 918।"
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0075",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "√3/2",
+        "1/2",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
     },
-    "id": "nmt-0109"
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "√3/2",
+        "1/2",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0076",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 0° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "√3/2",
+        "0"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    },
+    "hi": {
+      "question": "sin 0° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "√3/2",
+        "0"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0077",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "√3/2",
+        "1/2",
+        "1/√2",
+        "0"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "√3/2",
+        "1/2",
+        "1/√2",
+        "0"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0078",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "0",
+        "1/2",
+        "√3/2",
+        "1/√2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "0",
+        "1/2",
+        "√3/2",
+        "1/√2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0079",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0080",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "√3/2",
+        "1/2",
+        "1/√2",
+        "0"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "√3/2",
+        "1/2",
+        "1/√2",
+        "0"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0081",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "√3/2",
+        "0"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "√3/2",
+        "0"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0082",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "√3/2",
+        "1/√2",
+        "0",
+        "1/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "√3/2",
+        "1/√2",
+        "0",
+        "1/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0083",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "1/2",
+        "√3/2",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "1/2",
+        "√3/2",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0084",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 0° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "√3/2",
+        "0"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    },
+    "hi": {
+      "question": "sin 0° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "√3/2",
+        "0"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0085",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 0° = ?",
+      "options": [
+        "1/2",
+        "0",
+        "√3/2",
+        "1/√2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    },
+    "hi": {
+      "question": "sin 0° = ?",
+      "options": [
+        "1/2",
+        "0",
+        "√3/2",
+        "1/√2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0086",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 0° = ?",
+      "options": [
+        "1/2",
+        "0",
+        "1/√2",
+        "√3/2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    },
+    "hi": {
+      "question": "sin 0° = ?",
+      "options": [
+        "1/2",
+        "0",
+        "1/√2",
+        "√3/2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0087",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 45° = ?",
+      "options": [
+        "√3/2",
+        "1/2",
+        "1/√2",
+        "0"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 45° = ?",
+      "options": [
+        "√3/2",
+        "1/2",
+        "1/√2",
+        "0"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0088",
+    "correctOption": "C",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 0° = ?",
+      "options": [
+        "√3/2",
+        "1/√2",
+        "0",
+        "1/2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    },
+    "hi": {
+      "question": "sin 0° = ?",
+      "options": [
+        "√3/2",
+        "1/√2",
+        "0",
+        "1/2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0089",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 45° = ?",
+      "options": [
+        "1/2",
+        "√3/2",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 45° = ?",
+      "options": [
+        "1/2",
+        "√3/2",
+        "0",
+        "1/√2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0090",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 45° = ?",
+      "options": [
+        "0",
+        "1/√2",
+        "1/2",
+        "√3/2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 45° = ?",
+      "options": [
+        "0",
+        "1/√2",
+        "1/2",
+        "√3/2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0091",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0092",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 45° = ?",
+      "options": [
+        "√3/2",
+        "1/√2",
+        "1/2",
+        "0"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 45° = ?",
+      "options": [
+        "√3/2",
+        "1/√2",
+        "1/2",
+        "0"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0093",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 45° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "√3/2",
+        "1/2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 45° = ?",
+      "options": [
+        "1/√2",
+        "0",
+        "√3/2",
+        "1/2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0094",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 0° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/√2",
+        "1/2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    },
+    "hi": {
+      "question": "sin 0° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/√2",
+        "1/2"
+      ],
+      "explanation": "sin 0° = 0 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0095",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/√2",
+        "1/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/√2",
+        "1/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0096",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 60° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 60° = ?",
+      "options": [
+        "1/√2",
+        "1/2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 60° = √3/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0097",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/√2",
+        "1/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "0",
+        "√3/2",
+        "1/√2",
+        "1/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0098",
+    "correctOption": "B",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 45° = ?",
+      "options": [
+        "1/2",
+        "1/√2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 45° = ?",
+      "options": [
+        "1/2",
+        "1/√2",
+        "0",
+        "√3/2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0099",
+    "correctOption": "A",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/2",
+        "0",
+        "1/√2",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 30° = ?",
+      "options": [
+        "1/2",
+        "0",
+        "1/√2",
+        "√3/2"
+      ],
+      "explanation": "sin 30° = 1/2 (standard value)."
+    }
+  },
+  {
+    "id": "trig-0100",
+    "correctOption": "D",
+    "difficulty": "easy",
+    "sourceYear": 2025,
+    "en": {
+      "question": "sin 45° = ?",
+      "options": [
+        "√3/2",
+        "0",
+        "1/2",
+        "1/√2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    },
+    "hi": {
+      "question": "sin 45° = ?",
+      "options": [
+        "√3/2",
+        "0",
+        "1/2",
+        "1/√2"
+      ],
+      "explanation": "sin 45° = 1/√2 (standard value)."
+    }
   }
 ]

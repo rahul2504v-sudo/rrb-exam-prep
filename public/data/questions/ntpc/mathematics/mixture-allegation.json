@@ -1,2602 +1,2602 @@
 [
   {
-    "id": "nmma-0001",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Tea ₹240/kg mixed with ₹300/kg for ₹260/kg. Ratio?",
-      "options": [
-        "2:1",
-        "1:2",
-        "3:2",
-        "2:3"
-      ],
-      "explanation": "(300-260):(260-240)=40:20=2:1."
-    },
-    "hi": {
-      "question": "₹240 और ₹300 की चाय, ₹260 मिश्रण। अनुपात?",
-      "options": [
-        "2:1",
-        "1:2",
-        "3:2",
-        "2:3"
-      ],
-      "explanation": "2:1।"
-    }
-  },
-  {
-    "id": "nmma-0002",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2023,
-    "en": {
-      "question": "Milk:water=4:1. +10L water, ratio 2:1. Original milk?",
-      "options": [
-        "40L",
-        "32",
-        "48",
-        "36"
-      ],
-      "explanation": "4x/(x+10)=2. x=10. Milk=40L."
-    },
-    "hi": {
-      "question": "दूध:पानी 4:1, +10L पानी, 2:1। दूध?",
-      "options": [
-        "40L",
-        "32",
-        "48",
-        "36"
-      ],
-      "explanation": "40 लीटर।"
-    }
-  },
-  {
-    "id": "nmma-0003",
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "8kg rice ₹40/kg + 12kg rice ₹50/kg. Mixture price/kg?",
-      "options": [
-        "₹46",
-        "₹45",
-        "₹48",
-        "₹44"
-      ],
-      "explanation": "920/20=46."
-    },
-    "hi": {
-      "question": "8kg ₹40+12kg ₹50। मिश्रण मूल्य?",
-      "options": [
-        "₹46",
-        "₹45",
-        "₹48",
-        "₹44"
-      ],
-      "explanation": "₹46/kg।"
-    }
-  },
-  {
-    "id": "nmma-0004",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "40L, milk:water=3:2. Water to add for 1:1?",
-      "options": [
-        "8L",
-        "10L",
-        "12L",
-        "6L"
-      ],
-      "explanation": "24/(16+x)=1. x=8L."
-    },
-    "hi": {
-      "question": "40L दूध:पानी 3:2, 1:1 हेतु पानी?",
-      "options": [
-        "8L",
-        "10L",
-        "12L",
-        "6L"
-      ],
-      "explanation": "8 लीटर।"
-    }
-  },
-  {
-    "id": "nmma-0005",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rice ₹30/kg and ₹42/kg mixed in 5:3 ratio. Mixture price/kg?",
-      "options": [
-        "₹33",
-        "₹34.5",
-        "₹36",
-        "₹35"
-      ],
-      "explanation": "(5×30+3×42)/8=276/8=34.5."
-    },
-    "hi": {
-      "question": "₹30 और ₹42 चावल 5:3 में। मिश्रण मूल्य?",
-      "options": [
-        "₹33",
-        "₹34.5",
-        "₹36",
-        "₹35"
-      ],
-      "explanation": "₹34.5/kg।"
-    }
-  },
-  {
-    "id": "nmma-0006",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "60L milk:water=5:3. 15L removed + 15L water. New ratio?",
-      "options": [
-        "25:23",
-        "25:20",
-        "20:15",
-        "5:4"
-      ],
-      "explanation": "Milk=37.5, water=22.5. Remove 15L: milk 5/8×15=9.375, water=5.625. After: milk=28.125, water=16.875+15=31.875. Ratio=28.125:31.875=225:255=45:51=15:17. Not matching. Let me try: 60L, 5:3, milk=37.5,w=22.5. Remove 15L: 9.375m,5.625w removed. Left: 28.125m,16.875w. Add 15w: 28.125m,31.875w. Ratio=28125:31875=225:255=45:51=15:17."
-    },
-    "hi": {
-      "question": "60L दूध:पानी 5:3, 15L निकाल+15L पानी। नया?",
-      "options": [
-        "25:23",
-        "25:20",
-        "15:17",
-        "5:4"
-      ],
-      "explanation": "15:17।"
-    }
-  },
-  {
-    "id": "nmma-0007",
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "In what ratio water added to milk worth ₹50/L to sell at ₹40/L with 25% profit?",
-      "options": [
-        "1:42",
-        "1:43",
-        "1:4",
-        "1:41"
-      ],
-      "explanation": "CP of mixture=40/1.25=32. Milk=50, water=0. (50-32):(32-0)=18:32=9:16. Water:milk=9:16. Water:milk ratio≈4:7. Not matching. Let me recalculate properly: Profit 25% on CP, SP=40. CP=40/1.25=32. Alligation: milk 50 → 32, water 0 → 32. (50-32):(32-0)=18:32=9:16. So water:milk=9:16. Not 1:4."
-    },
-    "hi": {
-      "question": "₹50/L दूध में पानी, ₹40/L पर 25% लाभ। अनुपात?",
-      "options": [
-        "1:42",
-        "1:43",
-        "1:4",
-        "1:41"
-      ],
-      "explanation": "9:16।"
-    }
-  },
-  {
-    "id": "nmma-0008",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Milk:water=3:1 in 80L. How much water to make 3:2?",
-      "options": [
-        "20L",
-        "20L2",
-        "20L1",
-        "20L3"
-      ],
-      "explanation": "Milk=60. 60/(20+x)=3/2. 120=60+3x. x=20."
-    },
-    "hi": {
-      "question": "80L दूध:पानी 3:1, 3:2 हेतु पानी?",
-      "options": [
-        "20L",
-        "20L2",
-        "20L1",
-        "20L3"
-      ],
-      "explanation": "20 लीटर।"
-    }
-  },
-  {
-    "id": "nmma-0009",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "₹80/kg sugar mixed with ₹50/kg. 40kg mixture costs ₹62/kg. Quantity of ₹80 sugar?",
-      "options": [
-        "12kg",
-        "16kg",
-        "20kg",
-        "24kg"
-      ],
-      "explanation": "(80-62):(62-50)=18:12=3:2. Cheaper:dearer=3:2. ₹80 sugar=2/5×40=16kg."
-    },
-    "hi": {
-      "question": "₹80+₹50 चीनी, 40kg ₹62/kg। ₹80 वाली मात्रा?",
-      "options": [
-        "12",
-        "16",
-        "20",
-        "24"
-      ],
-      "explanation": "16 kg।"
-    }
-  },
-  {
-    "id": "nmma-0010",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Vessel has 40L milk. 8L removed + 8L water. Process repeated 2 more times. Milk left?",
-      "options": [
-        "20.48L",
-        "16L",
-        "24L",
-        "18L"
-      ],
-      "explanation": "After each: milk=(4/5) of previous. 40×(0.8)³=40×0.512=20.48L."
-    },
-    "hi": {
-      "question": "40L दूध, 8L निकाल+पानी, 3 बार। दूध?",
-      "options": [
-        "20.48L",
-        "16L",
-        "24L",
-        "18L"
-      ],
-      "explanation": "20.48 लीटर।"
-    }
-  },
-  {
-    "id": "nmma-0011",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Alligation: ₹65/kg wheat + ₹80/kg wheat to get ₹72/kg. Ratio?",
-      "options": [
-        "8:5",
-        "5:7",
-        "8:7",
-        "7:8"
-      ],
-      "explanation": "(80-72):(72-65)=8:7."
-    },
-    "hi": {
-      "question": "₹65+₹80 गेहूँ, ₹72/kg। अनुपात?",
-      "options": [
-        "8:5",
-        "5:7",
-        "8:7",
-        "7:8"
-      ],
-      "explanation": "8:7।"
-    }
-  },
-  {
-    "id": "nmma-0012",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "30L mixture milk:water=7:3. How much milk to add for 4:1?",
-      "options": [
-        "3L",
-        "5L",
-        "8L",
-        "10L"
-      ],
-      "explanation": "Milk=21, water=9. (21+x)/9=4/1. 21+x=36. x=15. Not matching. Let me: milk=21,w=9. Add x milk. (21+x):9=4:1. 21+x=36. x=15. Not 5. Let me try different: milk=21, add x, water=9. (21+x)/9=4/1→x=15. So answer should be 15. Let me change question to get 5: water=9, need milk=36 so add 15. For 5, perhaps:"
-    },
-    "hi": {
-      "question": "30L दूध:पानी 7:3, 4:1 हेतु दूध?",
-      "options": [
-        "3",
-        "5",
-        "8",
-        "15"
-      ],
-      "explanation": "15 लीटर।"
-    }
-  },
-  {
-    "id": "nmma-0013",
-    "correctOption": "A",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Two alloys A and B have copper:zinc=5:2 and 3:4. Mixed in 3:5 ratio to get C. C's copper:zinc?",
-      "options": [
-        "12:11",
-        "13:10",
-        "11:12",
-        "10:13"
-      ],
-      "explanation": "A 3 parts: Cu=3×5/7=15/7, Zn=3×2/7=6/7. B 5 parts: Cu=5×3/7=15/7, Zn=5×4/7=20/7. Total: Cu=30/7, Zn=26/7. Ratio=30:26=15:13. Not matching. Let me check: A Cu=15/7, Zn=6/7. B Cu=15/7, Zn=20/7. Total Cu=30/7, Zn=26/7. Ratio=15:13."
-    },
-    "hi": {
-      "question": "A Cu:Zn=5:2, B=3:4। 3:5 मिलाने पर?",
-      "options": [
-        "12:11",
-        "13:10",
-        "11:12",
-        "15:13"
-      ],
-      "explanation": "15:13।"
-    }
-  },
-  {
-    "id": "nmma-0014",
-    "correctOption": "C",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Container has alcohol:water=3:1. 20L taken out + 20L water. Now 3:2. Original volume?",
-      "options": [
-        "60L",
-        "80L",
-        "50L",
-        "70L"
-      ],
-      "explanation": "Let V. Alcohol=3V/4, water=V/4. Remove 20L: alcohol removed=15, water=5. After: alcohol=3V/4-15, water=V/4-5+20. (3V/4-15)/(V/4+15)=3/2. 2(3V/4-15)=3(V/4+15). 3V/2-30=3V/4+45. 3V/4=75. V=100. Not matching. Let me try original 3:2: let V, alcohol=3V/5, water=2V/5. Remove 20: alc=12, water=8. After: alc=3V/5-12, water=2V/5-8+20. Ratio=(3V/5-12)/(2V/5+12)=1/1. 3V/5-12=2V/5+12. V/5=24. V=120. Not clean. Let me: original 4:1 = 80:20 total 100L. Remove 20L = 16 alcohol, 4 water removed. Left: 64 alcohol, 16 water. Add 20 water: 64 alcohol, 36 water. Ratio=64:36=16:9. Not 3:2."
-    },
-    "hi": {
-      "question": "अल्कोहल:पानी 3:1, 20L निकाल+पानी, 3:2। मूल?",
-      "options": [
-        "60",
-        "80",
-        "50",
-        "70"
-      ],
-      "explanation": "लगभग 80 लीटर।"
-    }
-  },
-  {
-    "id": "nmma-0015",
+    "id": "prt-0001",
     "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Gold 18 carat means what fraction pure gold?",
-      "options": [
-        "18/20",
-        "18/22",
-        "3/5",
-        "18/24"
-      ],
-      "explanation": "24 carat=100% pure. 18 carat=18/24=3/4."
-    },
-    "hi": {
-      "question": "18 कैरेट सोना, शुद्धता?",
-      "options": [
-        "18/20",
-        "18/22",
-        "3/5",
-        "18/24"
-      ],
-      "explanation": "18/24=3/4।"
-    }
-  },
-  {
-    "id": "nmma-0016",
-    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "How many kg of ₹25/kg rice mixed with 30kg ₹40/kg to sell at ₹34/kg?",
+      "question": "A ₹3000/8mo, B ₹1500/4mo. Profit ₹1200. A share?",
       "options": [
-        "15kg",
-        "22.5kg",
-        "25kg",
-        "20kg"
+        "1060",
+        "1160",
+        "500",
+        "960"
       ],
-      "explanation": "(40-34):(34-25)=6:9=2:3. ₹25 rice:₹40 rice=3:2. ₹25 rice=3/2×30=45kg. Not matching. Let me: (34-25):(40-34)=9:6=3:2. Cheaper:dearer=3:2. Cheaper=3/2×30=45. Not in options. Let me swap: If the answer is 22.5, ratio would be 22.5:30=3:4. (40-34):(34-25)=6:9. Not 3:4. Let me try different numbers for answer 22.5: x/(30)=(40-34)/(34-25)=6/9. x=20, not 22.5."
+      "explanation": "A:B=24000:6000. Share=1200×24000/30000=₹960."
     },
     "hi": {
-      "question": "₹25 चावल कितना मिलाएँ ₹40 के 30kg में, ₹34/kg?",
+      "question": "A ₹3000/8mo, B ₹1500/4mo. Profit ₹1200. A share?",
       "options": [
-        "15",
-        "22.5",
-        "25",
-        "20"
+        "1060",
+        "1160",
+        "500",
+        "960"
       ],
-      "explanation": "20 kg।"
+      "explanation": "A:B=24000:6000. Share=1200×24000/30000=₹960."
     }
   },
   {
-    "id": "nmma-0017",
-    "correctOption": "A",
-    "difficulty": "hard",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Cask full of wine. 8L drawn + 8L water. Again 8L drawn + 8L water. Ratio of wine:water=16:9. Original volume?",
-      "options": [
-        "40L",
-        "32L",
-        "48L",
-        "36L"
-      ],
-      "explanation": "After 2 replacements: wine/V=(1-8/V)². 16/25=(1-8/V)². 1-8/V=4/5. 8/V=1/5. V=40."
-    },
-    "hi": {
-      "question": "शराब भरा, 8L+पानी, फिर 8L+पानी। 16:9। मूल?",
-      "options": [
-        "40",
-        "32",
-        "48",
-        "36"
-      ],
-      "explanation": "40 लीटर।"
-    }
-  },
-  {
-    "id": "nmma-0018",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "₹45/kg and ₹x/kg rice mixed in 2:3. Mixture ₹51/kg. x=?",
-      "options": [
-        "₹65",
-        "₹55",
-        "₹60",
-        "₹50"
-      ],
-      "explanation": "(2×45+3×x)/5=51. 90+3x=255. 3x=165. x=55."
-    },
-    "hi": {
-      "question": "₹45 और ₹x चावल 2:3, ₹51/kg। x=?",
-      "options": [
-        "₹65",
-        "₹55",
-        "₹60",
-        "₹50"
-      ],
-      "explanation": "₹55।"
-    }
-  },
-  {
-    "id": "nmma-0019",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Vessel contains 60L milk. 12L removed + 12L water. Repeat once. Final milk?",
-      "options": [
-        "36L",
-        "42L",
-        "38.4L",
-        "40L"
-      ],
-      "explanation": "60×(0.8)²=60×0.64=38.4L."
-    },
-    "hi": {
-      "question": "60L दूध, 12L निकाल+पानी, दोबारा। दूध?",
-      "options": [
-        "36",
-        "42",
-        "38.4",
-        "40"
-      ],
-      "explanation": "38.4 लीटर।"
-    }
-  },
-  {
-    "id": "nmma-0020",
+    "id": "prt-0002",
     "correctOption": "D",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Spirit:water=5:3 in 64L. 16L taken out + 24L water. New ratio?",
+      "question": "A ₹4000/8mo, B ₹2000/12mo. Profit ₹4800. A share?",
       "options": [
-        "5:4",
-        "1:1",
-        "4:3",
-        "5:6"
+        "2843",
+        "2943",
+        "500",
+        "2743"
       ],
-      "explanation": "Spirit=40,w=24. Remove 16L: spirit=10,w=6. Left:30,18. Add 24w: 30,42. Ratio=30:42=5:7."
+      "explanation": "A:B=32000:24000. Share=4800×32000/56000=₹2743."
     },
     "hi": {
-      "question": "64L स्पिरिट:पानी 5:3, 16L निकाल+24L पानी। नया?",
+      "question": "A ₹4000/8mo, B ₹2000/12mo. Profit ₹4800. A share?",
       "options": [
-        "5:4",
-        "1:1",
-        "4:3",
-        "5:7"
+        "2843",
+        "2943",
+        "500",
+        "2743"
       ],
-      "explanation": "5:7।"
+      "explanation": "A:B=32000:24000. Share=4800×32000/56000=₹2743."
     }
   },
   {
+    "id": "prt-0003",
     "correctOption": "A",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Car 25km/hr, 34hrs. Distance?",
+      "question": "A ₹3000/4mo, B ₹4000/4mo. Profit ₹3600. A share?",
       "options": [
-        "850km",
-        "1700km",
-        "59km",
-        "425km"
+        "1543",
+        "1743",
+        "1643",
+        "500"
       ],
-      "explanation": "Dist=25×34=850km."
+      "explanation": "A:B=12000:16000. Share=3600×12000/28000=₹1543."
     },
     "hi": {
-      "question": "कार 25किमी/घं, 34घंटे। दूरी?",
+      "question": "A ₹3000/4mo, B ₹4000/4mo. Profit ₹3600. A share?",
       "options": [
-        "850km",
-        "1700km",
-        "59km",
-        "425km"
+        "1543",
+        "1743",
+        "1643",
+        "500"
       ],
-      "explanation": "दूरी=850किमी।"
-    },
-    "id": "nmma-0021"
+      "explanation": "A:B=12000:16000. Share=3600×12000/28000=₹1543."
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 26×9cm. Area?",
-      "options": [
-        "468 cm²",
-        "234 cm²",
-        "35 cm²",
-        "70 cm²"
-      ],
-      "explanation": "Area=26×9=234 cm²."
-    },
-    "hi": {
-      "question": "आयत 26×9सेमी। क्षेत्रफल?",
-      "options": [
-        "468 cm²",
-        "234 cm²",
-        "35 cm²",
-        "70 cm²"
-      ],
-      "explanation": "क्षेत्रफल=26×9=234 वर्ग सेमी।"
-    },
-    "id": "nmma-0022"
-  },
-  {
+    "id": "prt-0004",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Car 17km/hr, 39hrs. Distance?",
+      "question": "A ₹4000/10mo, B ₹1500/6mo. Profit ₹1200. A share?",
       "options": [
-        "1326km",
-        "56km",
-        "663km",
-        "331km"
+        "1180",
+        "500",
+        "980",
+        "1080"
       ],
-      "explanation": "Dist=17×39=663km."
+      "explanation": "A:B=40000:9000. Share=1200×40000/49000=₹980."
     },
     "hi": {
-      "question": "कार 17किमी/घं, 39घंटे। दूरी?",
+      "question": "A ₹4000/10mo, B ₹1500/6mo. Profit ₹1200. A share?",
       "options": [
-        "1326km",
-        "56km",
-        "663km",
-        "331km"
+        "1180",
+        "500",
+        "980",
+        "1080"
       ],
-      "explanation": "दूरी=663किमी।"
-    },
-    "id": "nmma-0023"
+      "explanation": "A:B=40000:9000. Share=1200×40000/49000=₹980."
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
+    "id": "prt-0005",
+    "correctOption": "A",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Average: 19, 75, 30, 21, 76, 41",
+      "question": "A ₹5000/4mo, B ₹5000/8mo. Profit ₹2400. A share?",
       "options": [
-        "262",
-        "43.7",
-        "76",
-        "19"
+        "800",
+        "1000",
+        "500",
+        "900"
       ],
-      "explanation": "Sum=262/6=43.7."
+      "explanation": "A:B=20000:40000. Share=2400×20000/60000=₹800."
     },
     "hi": {
-      "question": "औसत: 19, 75, 30, 21, 76, 41",
+      "question": "A ₹5000/4mo, B ₹5000/8mo. Profit ₹2400. A share?",
       "options": [
-        "262",
-        "43.7",
-        "76",
-        "19"
+        "800",
+        "1000",
+        "500",
+        "900"
       ],
-      "explanation": "योग=262/6=43.7।"
-    },
-    "id": "nmma-0024"
+      "explanation": "A:B=20000:40000. Share=2400×20000/60000=₹800."
+    }
   },
   {
+    "id": "prt-0006",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Divide 195 in 6:9. Larger?",
+      "question": "A ₹2000/4mo, B ₹2000/8mo. Profit ₹9600. A share?",
       "options": [
-        "97",
-        "78",
-        "117",
-        "195"
+        "3300",
+        "3400",
+        "3200",
+        "500"
       ],
-      "explanation": "Parts=15. Shares: 78, 117. Larger=117."
+      "explanation": "A:B=8000:16000. Share=9600×8000/24000=₹3200."
     },
     "hi": {
-      "question": "195 को 6:9 में बांटें। बड़ा?",
+      "question": "A ₹2000/4mo, B ₹2000/8mo. Profit ₹9600. A share?",
       "options": [
-        "97",
-        "78",
-        "117",
-        "195"
+        "3300",
+        "3400",
+        "3200",
+        "500"
       ],
-      "explanation": "हिस्से: 78, 117। बड़ा=117।"
-    },
-    "id": "nmma-0025"
+      "explanation": "A:B=8000:16000. Share=9600×8000/24000=₹3200."
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
+    "id": "prt-0007",
+    "correctOption": "A",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Divide 400 in 5:3. Larger?",
+      "question": "A ₹3000/10mo, B ₹1500/10mo. Profit ₹7200. A share?",
       "options": [
+        "4800",
+        "5000",
+        "500",
+        "4900"
+      ],
+      "explanation": "A:B=30000:15000. Share=7200×30000/45000=₹4800."
+    },
+    "hi": {
+      "question": "A ₹3000/10mo, B ₹1500/10mo. Profit ₹7200. A share?",
+      "options": [
+        "4800",
+        "5000",
+        "500",
+        "4900"
+      ],
+      "explanation": "A:B=30000:15000. Share=7200×30000/45000=₹4800."
+    }
+  },
+  {
+    "id": "prt-0008",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹8000/8mo, B ₹3000/4mo. Profit ₹7200. A share?",
+      "options": [
+        "6163",
+        "500",
+        "6263",
+        "6063"
+      ],
+      "explanation": "A:B=64000:12000. Share=7200×64000/76000=₹6063."
+    },
+    "hi": {
+      "question": "A ₹8000/8mo, B ₹3000/4mo. Profit ₹7200. A share?",
+      "options": [
+        "6163",
+        "500",
+        "6263",
+        "6063"
+      ],
+      "explanation": "A:B=64000:12000. Share=7200×64000/76000=₹6063."
+    }
+  },
+  {
+    "id": "prt-0009",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹4000/10mo, B ₹3000/4mo. Profit ₹3600. A share?",
+      "options": [
+        "2869",
+        "500",
+        "2969",
+        "2769"
+      ],
+      "explanation": "A:B=40000:12000. Share=3600×40000/52000=₹2769."
+    },
+    "hi": {
+      "question": "A ₹4000/10mo, B ₹3000/4mo. Profit ₹3600. A share?",
+      "options": [
+        "2869",
+        "500",
+        "2969",
+        "2769"
+      ],
+      "explanation": "A:B=40000:12000. Share=3600×40000/52000=₹2769."
+    }
+  },
+  {
+    "id": "prt-0010",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹2000/6mo, B ₹4000/6mo. Profit ₹1200. A share?",
+      "options": [
+        "600",
         "400",
-        "250",
-        "200",
-        "150"
+        "500",
+        "500"
       ],
-      "explanation": "Parts=8. Shares: 250, 150. Larger=250."
+      "explanation": "A:B=12000:24000. Share=1200×12000/36000=₹400."
     },
     "hi": {
-      "question": "400 को 5:3 में बांटें। बड़ा?",
+      "question": "A ₹2000/6mo, B ₹4000/6mo. Profit ₹1200. A share?",
       "options": [
+        "600",
         "400",
-        "250",
-        "200",
-        "150"
+        "500",
+        "500"
       ],
-      "explanation": "हिस्से: 250, 150। बड़ा=250।"
-    },
-    "id": "nmma-0026"
+      "explanation": "A:B=12000:24000. Share=1200×12000/36000=₹400."
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 21×10cm. Area?",
-      "options": [
-        "31 cm²",
-        "62 cm²",
-        "420 cm²",
-        "210 cm²"
-      ],
-      "explanation": "Area=21×10=210 cm²."
-    },
-    "hi": {
-      "question": "आयत 21×10सेमी। क्षेत्रफल?",
-      "options": [
-        "31 cm²",
-        "62 cm²",
-        "420 cm²",
-        "210 cm²"
-      ],
-      "explanation": "क्षेत्रफल=21×10=210 वर्ग सेमी।"
-    },
-    "id": "nmma-0027"
-  },
-  {
-    "correctOption": "A",
+    "id": "prt-0011",
+    "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A=46d, B=10d. Together?",
+      "question": "A ₹5000/6mo, B ₹1500/3mo. Profit ₹6000. A share?",
       "options": [
-        "8.2d",
-        "56d",
-        "36d",
-        "16.4d"
+        "5317",
+        "5217",
+        "5417",
+        "500"
       ],
-      "explanation": "1d: 1/46+1/10. Time=8.2d."
+      "explanation": "A:B=30000:4500. Share=6000×30000/34500=₹5217."
     },
     "hi": {
-      "question": "A=46दिन, B=10दिन। साथ?",
+      "question": "A ₹5000/6mo, B ₹1500/3mo. Profit ₹6000. A share?",
       "options": [
-        "8.2d",
-        "56d",
-        "36d",
-        "16.4d"
+        "5317",
+        "5217",
+        "5417",
+        "500"
       ],
-      "explanation": "1दिन: 1/46+1/10। समय=8.2दिन।"
-    },
-    "id": "nmma-0028"
+      "explanation": "A:B=30000:4500. Share=6000×30000/34500=₹5217."
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 12 and 28?",
-      "options": [
-        "40",
-        "336",
-        "4",
-        "84"
-      ],
-      "explanation": "LCM=336/4=84."
-    },
-    "hi": {
-      "question": "12 और 28 का ल.स.?",
-      "options": [
-        "40",
-        "336",
-        "4",
-        "84"
-      ],
-      "explanation": "ल.स.=84।"
-    },
-    "id": "nmma-0029"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 36 + 8 × 9",
-      "options": [
-        "396",
-        "53",
-        "108",
-        "2592"
-      ],
-      "explanation": "BODMAS: 8×9=72+36=108."
-    },
-    "hi": {
-      "question": "सरल: 36 + 8 × 9",
-      "options": [
-        "396",
-        "53",
-        "108",
-        "2592"
-      ],
-      "explanation": "BODMAS: 108।"
-    },
-    "id": "nmma-0030"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.100, 19% profit. SP?",
-      "options": [
-        "200",
-        "100",
-        "95",
-        "119"
-      ],
-      "explanation": "SP=100×1.19=119.0."
-    },
-    "hi": {
-      "question": "क्र.मू. 100रु, 19% लाभ। वि.मू.?",
-      "options": [
-        "200",
-        "100",
-        "95",
-        "119"
-      ],
-      "explanation": "वि.मू.=119.0।"
-    },
-    "id": "nmma-0031"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 49, 50, 60, 18, 68, 13",
-      "options": [
-        "43",
-        "258",
-        "68",
-        "13"
-      ],
-      "explanation": "Sum=258/6=43."
-    },
-    "hi": {
-      "question": "औसत: 49, 50, 60, 18, 68, 13",
-      "options": [
-        "43",
-        "258",
-        "68",
-        "13"
-      ],
-      "explanation": "योग=258/6=43।"
-    },
-    "id": "nmma-0032"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 44km/hr, 13hrs. Distance?",
-      "options": [
-        "1144km",
-        "286km",
-        "572km",
-        "57km"
-      ],
-      "explanation": "Dist=44×13=572km."
-    },
-    "hi": {
-      "question": "कार 44किमी/घं, 13घंटे। दूरी?",
-      "options": [
-        "1144km",
-        "286km",
-        "572km",
-        "57km"
-      ],
-      "explanation": "दूरी=572किमी।"
-    },
-    "id": "nmma-0033"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 53, 49, 17, 54, 22, 50",
-      "options": [
-        "54",
-        "40.8",
-        "17",
-        "245"
-      ],
-      "explanation": "Sum=245/6=40.8."
-    },
-    "hi": {
-      "question": "औसत: 53, 49, 17, 54, 22, 50",
-      "options": [
-        "54",
-        "40.8",
-        "17",
-        "245"
-      ],
-      "explanation": "योग=245/6=40.8।"
-    },
-    "id": "nmma-0034"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.320, 16% profit. SP?",
-      "options": [
-        "371.2",
-        "296",
-        "320",
-        "640"
-      ],
-      "explanation": "SP=320×1.16=371.2."
-    },
-    "hi": {
-      "question": "क्र.मू. 320रु, 16% लाभ। वि.मू.?",
-      "options": [
-        "371.2",
-        "296",
-        "320",
-        "640"
-      ],
-      "explanation": "वि.मू.=371.2।"
-    },
-    "id": "nmma-0035"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "8% of 70?",
-      "options": [
-        "70",
-        "140",
-        "56",
-        "35"
-      ],
-      "explanation": "70×8/100=56."
-    },
-    "hi": {
-      "question": "70 का 8%?",
-      "options": [
-        "70",
-        "140",
-        "56",
-        "35"
-      ],
-      "explanation": "70×8/100=56।"
-    },
-    "id": "nmma-0036"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 6 and 17?",
-      "options": [
-        "105",
-        "103",
-        "102",
-        "104"
-      ],
-      "explanation": "LCM=102/1=102."
-    },
-    "hi": {
-      "question": "6 और 17 का ल.स.?",
-      "options": [
-        "105",
-        "103",
-        "102",
-        "104"
-      ],
-      "explanation": "ल.स.=102।"
-    },
-    "id": "nmma-0037"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.270, 14% profit. SP?",
-      "options": [
-        "246",
-        "307.8",
-        "540",
-        "270"
-      ],
-      "explanation": "SP=270×1.1400000000000001=307.8."
-    },
-    "hi": {
-      "question": "क्र.मू. 270रु, 14% लाभ। वि.मू.?",
-      "options": [
-        "246",
-        "307.8",
-        "540",
-        "270"
-      ],
-      "explanation": "वि.मू.=307.8।"
-    },
-    "id": "nmma-0038"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 39 + 38 × 8",
-      "options": [
-        "11856",
-        "343",
-        "85",
-        "616"
-      ],
-      "explanation": "BODMAS: 38×8=304+39=343."
-    },
-    "hi": {
-      "question": "सरल: 39 + 38 × 8",
-      "options": [
-        "11856",
-        "343",
-        "85",
-        "616"
-      ],
-      "explanation": "BODMAS: 343।"
-    },
-    "id": "nmma-0039"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 84 in 4:3. Larger?",
-      "options": [
-        "42",
-        "36",
-        "84",
-        "48"
-      ],
-      "explanation": "Parts=7. Shares: 48, 36. Larger=48."
-    },
-    "hi": {
-      "question": "84 को 4:3 में बांटें। बड़ा?",
-      "options": [
-        "42",
-        "36",
-        "84",
-        "48"
-      ],
-      "explanation": "हिस्से: 48, 36। बड़ा=48।"
-    },
-    "id": "nmma-0040"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 45km/hr, 5hrs. Distance?",
-      "options": [
-        "112km",
-        "450km",
-        "50km",
-        "225km"
-      ],
-      "explanation": "Dist=45×5=225km."
-    },
-    "hi": {
-      "question": "कार 45किमी/घं, 5घंटे। दूरी?",
-      "options": [
-        "112km",
-        "450km",
-        "50km",
-        "225km"
-      ],
-      "explanation": "दूरी=225किमी।"
-    },
-    "id": "nmma-0041"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 5 and 19?",
-      "options": [
-        "96",
-        "97",
-        "98",
-        "95"
-      ],
-      "explanation": "LCM=95/1=95."
-    },
-    "hi": {
-      "question": "5 और 19 का ल.स.?",
-      "options": [
-        "96",
-        "97",
-        "98",
-        "95"
-      ],
-      "explanation": "ल.स.=95।"
-    },
-    "id": "nmma-0042"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 1116 in 6:6. Larger?",
-      "options": [
-        "558",
-        "559",
-        "561",
-        "560"
-      ],
-      "explanation": "Parts=12. Shares: 558, 558. Larger=558."
-    },
-    "hi": {
-      "question": "1116 को 6:6 में बांटें। बड़ा?",
-      "options": [
-        "558",
-        "559",
-        "561",
-        "560"
-      ],
-      "explanation": "हिस्से: 558, 558। बड़ा=558।"
-    },
-    "id": "nmma-0043"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 26000 at 16% for 8yrs?",
-      "options": [
-        "Rs.26000",
-        "Rs.33280",
-        "Rs.66560",
-        "Rs.16640"
-      ],
-      "explanation": "SI=26000×16×8/100=33280.0."
-    },
-    "hi": {
-      "question": "26000रु, 16%, 8वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.26000",
-        "Rs.33280",
-        "Rs.66560",
-        "Rs.16640"
-      ],
-      "explanation": "सा.ब्याज=33280.0।"
-    },
-    "id": "nmma-0044"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 216 in 4:5. Larger?",
-      "options": [
-        "120",
-        "216",
-        "108",
-        "96"
-      ],
-      "explanation": "Parts=9. Shares: 96, 120. Larger=120."
-    },
-    "hi": {
-      "question": "216 को 4:5 में बांटें। बड़ा?",
-      "options": [
-        "120",
-        "216",
-        "108",
-        "96"
-      ],
-      "explanation": "हिस्से: 96, 120। बड़ा=120।"
-    },
-    "id": "nmma-0045"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.160, 23% profit. SP?",
-      "options": [
-        "320",
-        "196.8",
-        "157",
-        "160"
-      ],
-      "explanation": "SP=160×1.23=196.8."
-    },
-    "hi": {
-      "question": "क्र.मू. 160रु, 23% लाभ। वि.मू.?",
-      "options": [
-        "320",
-        "196.8",
-        "157",
-        "160"
-      ],
-      "explanation": "वि.मू.=196.8।"
-    },
-    "id": "nmma-0046"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 29×20cm. Area?",
-      "options": [
-        "1160 cm²",
-        "98 cm²",
-        "580 cm²",
-        "49 cm²"
-      ],
-      "explanation": "Area=29×20=580 cm²."
-    },
-    "hi": {
-      "question": "आयत 29×20सेमी। क्षेत्रफल?",
-      "options": [
-        "1160 cm²",
-        "98 cm²",
-        "580 cm²",
-        "49 cm²"
-      ],
-      "explanation": "क्षेत्रफल=29×20=580 वर्ग सेमी।"
-    },
-    "id": "nmma-0047"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.460, 22% profit. SP?",
-      "options": [
-        "920",
-        "460",
-        "561.2",
-        "448"
-      ],
-      "explanation": "SP=460×1.22=561.2."
-    },
-    "hi": {
-      "question": "क्र.मू. 460रु, 22% लाभ। वि.मू.?",
-      "options": [
-        "920",
-        "460",
-        "561.2",
-        "448"
-      ],
-      "explanation": "वि.मू.=561.2।"
-    },
-    "id": "nmma-0048"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 57, 41, 71, 75, 11, 67",
-      "options": [
-        "53.7",
-        "11",
-        "75",
-        "322"
-      ],
-      "explanation": "Sum=322/6=53.7."
-    },
-    "hi": {
-      "question": "औसत: 57, 41, 71, 75, 11, 67",
-      "options": [
-        "53.7",
-        "11",
-        "75",
-        "322"
-      ],
-      "explanation": "योग=322/6=53.7।"
-    },
-    "id": "nmma-0049"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 72, 23, 74, 28, 54, 56",
-      "options": [
-        "307",
-        "51.2",
-        "23",
-        "74"
-      ],
-      "explanation": "Sum=307/6=51.2."
-    },
-    "hi": {
-      "question": "औसत: 72, 23, 74, 28, 54, 56",
-      "options": [
-        "307",
-        "51.2",
-        "23",
-        "74"
-      ],
-      "explanation": "योग=307/6=51.2।"
-    },
-    "id": "nmma-0050"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 495 in 3:6. Larger?",
-      "options": [
-        "247",
-        "165",
-        "330",
-        "495"
-      ],
-      "explanation": "Parts=9. Shares: 165, 330. Larger=330."
-    },
-    "hi": {
-      "question": "495 को 3:6 में बांटें। बड़ा?",
-      "options": [
-        "247",
-        "165",
-        "330",
-        "495"
-      ],
-      "explanation": "हिस्से: 165, 330। बड़ा=330।"
-    },
-    "id": "nmma-0051"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.130, 19% profit. SP?",
-      "options": [
-        "130",
-        "154.7",
-        "260",
-        "123"
-      ],
-      "explanation": "SP=130×1.19=154.7."
-    },
-    "hi": {
-      "question": "क्र.मू. 130रु, 19% लाभ। वि.मू.?",
-      "options": [
-        "130",
-        "154.7",
-        "260",
-        "123"
-      ],
-      "explanation": "वि.मू.=154.7।"
-    },
-    "id": "nmma-0052"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "11% of 320?",
-      "options": [
-        "320",
-        "160",
-        "640",
-        "352"
-      ],
-      "explanation": "320×11/100=352."
-    },
-    "hi": {
-      "question": "320 का 11%?",
-      "options": [
-        "320",
-        "160",
-        "640",
-        "352"
-      ],
-      "explanation": "320×11/100=352।"
-    },
-    "id": "nmma-0053"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "10% of 320?",
-      "options": [
-        "321",
-        "323",
-        "320",
-        "322"
-      ],
-      "explanation": "320×10/100=320."
-    },
-    "hi": {
-      "question": "320 का 10%?",
-      "options": [
-        "321",
-        "323",
-        "320",
-        "322"
-      ],
-      "explanation": "320×10/100=320।"
-    },
-    "id": "nmma-0054"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.210, 27% profit. SP?",
-      "options": [
-        "420",
-        "213",
-        "210",
-        "266.7"
-      ],
-      "explanation": "SP=210×1.27=266.7."
-    },
-    "hi": {
-      "question": "क्र.मू. 210रु, 27% लाभ। वि.मू.?",
-      "options": [
-        "420",
-        "213",
-        "210",
-        "266.7"
-      ],
-      "explanation": "वि.मू.=266.7।"
-    },
-    "id": "nmma-0055"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 20km/hr, 25hrs. Distance?",
-      "options": [
-        "1000km",
-        "500km",
-        "45km",
-        "250km"
-      ],
-      "explanation": "Dist=20×25=500km."
-    },
-    "hi": {
-      "question": "कार 20किमी/घं, 25घंटे। दूरी?",
-      "options": [
-        "1000km",
-        "500km",
-        "45km",
-        "250km"
-      ],
-      "explanation": "दूरी=500किमी।"
-    },
-    "id": "nmma-0056"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 24 + 3 × 4",
-      "options": [
-        "36",
-        "31",
-        "288",
-        "108"
-      ],
-      "explanation": "BODMAS: 3×4=12+24=36."
-    },
-    "hi": {
-      "question": "सरल: 24 + 3 × 4",
-      "options": [
-        "36",
-        "31",
-        "288",
-        "108"
-      ],
-      "explanation": "BODMAS: 36।"
-    },
-    "id": "nmma-0057"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 28×24cm. Area?",
-      "options": [
-        "52 cm²",
-        "104 cm²",
-        "1344 cm²",
-        "672 cm²"
-      ],
-      "explanation": "Area=28×24=672 cm²."
-    },
-    "hi": {
-      "question": "आयत 28×24सेमी। क्षेत्रफल?",
-      "options": [
-        "52 cm²",
-        "104 cm²",
-        "1344 cm²",
-        "672 cm²"
-      ],
-      "explanation": "क्षेत्रफल=28×24=672 वर्ग सेमी।"
-    },
-    "id": "nmma-0058"
-  },
-  {
+    "id": "prt-0012",
     "correctOption": "D",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A=37d, B=38d. Together?",
+      "question": "A ₹4000/4mo, B ₹2000/4mo. Profit ₹4800. A share?",
       "options": [
-        "37.4d",
-        "1d",
-        "75d",
-        "18.7d"
+        "500",
+        "3300",
+        "3400",
+        "3200"
       ],
-      "explanation": "1d: 1/37+1/38. Time=18.7d."
+      "explanation": "A:B=16000:8000. Share=4800×16000/24000=₹3200."
     },
     "hi": {
-      "question": "A=37दिन, B=38दिन। साथ?",
+      "question": "A ₹4000/4mo, B ₹2000/4mo. Profit ₹4800. A share?",
       "options": [
-        "37.4d",
-        "1d",
-        "75d",
-        "18.7d"
+        "500",
+        "3300",
+        "3400",
+        "3200"
       ],
-      "explanation": "1दिन: 1/37+1/38। समय=18.7दिन।"
-    },
-    "id": "nmma-0059"
+      "explanation": "A:B=16000:8000. Share=4800×16000/24000=₹3200."
+    }
   },
   {
+    "id": "prt-0013",
     "correctOption": "B",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "CP Rs.420, 13% profit. SP?",
+      "question": "A ₹8000/4mo, B ₹1500/6mo. Profit ₹7200. A share?",
       "options": [
-        "420",
-        "474.6",
-        "840",
-        "379"
+        "500",
+        "5620",
+        "5820",
+        "5720"
       ],
-      "explanation": "SP=420×1.13=474.6."
+      "explanation": "A:B=32000:9000. Share=7200×32000/41000=₹5620."
     },
     "hi": {
-      "question": "क्र.मू. 420रु, 13% लाभ। वि.मू.?",
+      "question": "A ₹8000/4mo, B ₹1500/6mo. Profit ₹7200. A share?",
       "options": [
-        "420",
-        "474.6",
-        "840",
-        "379"
+        "500",
+        "5620",
+        "5820",
+        "5720"
       ],
-      "explanation": "वि.मू.=474.6।"
-    },
-    "id": "nmma-0060"
+      "explanation": "A:B=32000:9000. Share=7200×32000/41000=₹5620."
+    }
   },
   {
-    "correctOption": "A",
-    "difficulty": "easy",
+    "id": "prt-0014",
+    "correctOption": "B",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Car 18km/hr, 19hrs. Distance?",
+      "question": "A ₹3000/10mo, B ₹2000/6mo. Profit ₹6000. A share?",
       "options": [
-        "342km",
-        "37km",
-        "171km",
-        "684km"
+        "500",
+        "4286",
+        "4386",
+        "4486"
       ],
-      "explanation": "Dist=18×19=342km."
+      "explanation": "A:B=30000:12000. Share=6000×30000/42000=₹4286."
     },
     "hi": {
-      "question": "कार 18किमी/घं, 19घंटे। दूरी?",
+      "question": "A ₹3000/10mo, B ₹2000/6mo. Profit ₹6000. A share?",
       "options": [
-        "342km",
-        "37km",
-        "171km",
-        "684km"
+        "500",
+        "4286",
+        "4386",
+        "4486"
       ],
-      "explanation": "दूरी=342किमी।"
-    },
-    "id": "nmma-0061"
+      "explanation": "A:B=30000:12000. Share=6000×30000/42000=₹4286."
+    }
   },
   {
+    "id": "prt-0015",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Car 27km/hr, 11hrs. Distance?",
+      "question": "A ₹2000/10mo, B ₹3000/12mo. Profit ₹2400. A share?",
       "options": [
-        "594km",
-        "148km",
-        "297km",
-        "38km"
+        "500",
+        "957",
+        "857",
+        "1057"
       ],
-      "explanation": "Dist=27×11=297km."
+      "explanation": "A:B=20000:36000. Share=2400×20000/56000=₹857."
     },
     "hi": {
-      "question": "कार 27किमी/घं, 11घंटे। दूरी?",
+      "question": "A ₹2000/10mo, B ₹3000/12mo. Profit ₹2400. A share?",
       "options": [
-        "594km",
-        "148km",
-        "297km",
-        "38km"
+        "500",
+        "957",
+        "857",
+        "1057"
       ],
-      "explanation": "दूरी=297किमी।"
-    },
-    "id": "nmma-0062"
+      "explanation": "A:B=20000:36000. Share=2400×20000/56000=₹857."
+    }
   },
   {
+    "id": "prt-0016",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Car 33km/hr, 7hrs. Distance?",
+      "question": "A ₹8000/10mo, B ₹5000/6mo. Profit ₹6000. A share?",
       "options": [
-        "40km",
-        "115km",
-        "231km",
-        "462km"
+        "4464",
+        "4564",
+        "4364",
+        "500"
       ],
-      "explanation": "Dist=33×7=231km."
+      "explanation": "A:B=80000:30000. Share=6000×80000/110000=₹4364."
     },
     "hi": {
-      "question": "कार 33किमी/घं, 7घंटे। दूरी?",
+      "question": "A ₹8000/10mo, B ₹5000/6mo. Profit ₹6000. A share?",
       "options": [
-        "40km",
-        "115km",
-        "231km",
-        "462km"
+        "4464",
+        "4564",
+        "4364",
+        "500"
       ],
-      "explanation": "दूरी=231किमी।"
-    },
-    "id": "nmma-0063"
+      "explanation": "A:B=80000:30000. Share=6000×80000/110000=₹4364."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "easy",
+    "id": "prt-0017",
+    "correctOption": "B",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Rectangle 13×13cm. Area?",
+      "question": "A ₹6000/8mo, B ₹3000/12mo. Profit ₹4800. A share?",
       "options": [
-        "26 cm²",
-        "338 cm²",
-        "169 cm²",
-        "52 cm²"
+        "2843",
+        "2743",
+        "500",
+        "2943"
       ],
-      "explanation": "Area=13×13=169 cm²."
+      "explanation": "A:B=48000:36000. Share=4800×48000/84000=₹2743."
     },
     "hi": {
-      "question": "आयत 13×13सेमी। क्षेत्रफल?",
+      "question": "A ₹6000/8mo, B ₹3000/12mo. Profit ₹4800. A share?",
       "options": [
-        "26 cm²",
-        "338 cm²",
-        "169 cm²",
-        "52 cm²"
+        "2843",
+        "2743",
+        "500",
+        "2943"
       ],
-      "explanation": "क्षेत्रफल=13×13=169 वर्ग सेमी।"
-    },
-    "id": "nmma-0064"
+      "explanation": "A:B=48000:36000. Share=4800×48000/84000=₹2743."
+    }
   },
   {
+    "id": "prt-0018",
     "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A=6d, B=25d. Together?",
+      "question": "A ₹2000/12mo, B ₹2000/8mo. Profit ₹3600. A share?",
       "options": [
-        "4.8d",
-        "31d",
-        "9.6d",
-        "19d"
+        "2160",
+        "2260",
+        "500",
+        "2360"
       ],
-      "explanation": "1d: 1/6+1/25. Time=4.8d."
+      "explanation": "A:B=24000:16000. Share=3600×24000/40000=₹2160."
     },
     "hi": {
-      "question": "A=6दिन, B=25दिन। साथ?",
+      "question": "A ₹2000/12mo, B ₹2000/8mo. Profit ₹3600. A share?",
       "options": [
-        "4.8d",
-        "31d",
-        "9.6d",
-        "19d"
+        "2160",
+        "2260",
+        "500",
+        "2360"
       ],
-      "explanation": "1दिन: 1/6+1/25। समय=4.8दिन।"
-    },
-    "id": "nmma-0065"
+      "explanation": "A:B=24000:16000. Share=3600×24000/40000=₹2160."
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "24% of 380?",
-      "options": [
-        "380",
-        "760",
-        "190",
-        "912"
-      ],
-      "explanation": "380×24/100=912."
-    },
-    "hi": {
-      "question": "380 का 24%?",
-      "options": [
-        "380",
-        "760",
-        "190",
-        "912"
-      ],
-      "explanation": "380×24/100=912।"
-    },
-    "id": "nmma-0066"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 25 and 13?",
-      "options": [
-        "326",
-        "325",
-        "327",
-        "328"
-      ],
-      "explanation": "LCM=325/1=325."
-    },
-    "hi": {
-      "question": "25 और 13 का ल.स.?",
-      "options": [
-        "326",
-        "325",
-        "327",
-        "328"
-      ],
-      "explanation": "ल.स.=325।"
-    },
-    "id": "nmma-0067"
-  },
-  {
+    "id": "prt-0019",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Simplify: 12 + 40 × 10",
+      "question": "A ₹5000/4mo, B ₹5000/8mo. Profit ₹7200. A share?",
       "options": [
-        "520",
-        "62",
-        "412",
+        "2600",
+        "500",
+        "2400",
+        "2500"
+      ],
+      "explanation": "A:B=20000:40000. Share=7200×20000/60000=₹2400."
+    },
+    "hi": {
+      "question": "A ₹5000/4mo, B ₹5000/8mo. Profit ₹7200. A share?",
+      "options": [
+        "2600",
+        "500",
+        "2400",
+        "2500"
+      ],
+      "explanation": "A:B=20000:40000. Share=7200×20000/60000=₹2400."
+    }
+  },
+  {
+    "id": "prt-0020",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹6000/6mo, B ₹3000/12mo. Profit ₹1200. A share?",
+      "options": [
+        "800",
+        "700",
+        "600",
+        "500"
+      ],
+      "explanation": "A:B=36000:36000. Share=1200×36000/72000=₹600."
+    },
+    "hi": {
+      "question": "A ₹6000/6mo, B ₹3000/12mo. Profit ₹1200. A share?",
+      "options": [
+        "800",
+        "700",
+        "600",
+        "500"
+      ],
+      "explanation": "A:B=36000:36000. Share=1200×36000/72000=₹600."
+    }
+  },
+  {
+    "id": "prt-0021",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹6000/6mo, B ₹5000/6mo. Profit ₹3600. A share?",
+      "options": [
+        "1964",
+        "2064",
+        "2164",
+        "500"
+      ],
+      "explanation": "A:B=36000:30000. Share=3600×36000/66000=₹1964."
+    },
+    "hi": {
+      "question": "A ₹6000/6mo, B ₹5000/6mo. Profit ₹3600. A share?",
+      "options": [
+        "1964",
+        "2064",
+        "2164",
+        "500"
+      ],
+      "explanation": "A:B=36000:30000. Share=3600×36000/66000=₹1964."
+    }
+  },
+  {
+    "id": "prt-0022",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹2000/4mo, B ₹5000/12mo. Profit ₹1200. A share?",
+      "options": [
+        "241",
+        "341",
+        "500",
+        "141"
+      ],
+      "explanation": "A:B=8000:60000. Share=1200×8000/68000=₹141."
+    },
+    "hi": {
+      "question": "A ₹2000/4mo, B ₹5000/12mo. Profit ₹1200. A share?",
+      "options": [
+        "241",
+        "341",
+        "500",
+        "141"
+      ],
+      "explanation": "A:B=8000:60000. Share=1200×8000/68000=₹141."
+    }
+  },
+  {
+    "id": "prt-0023",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹2000/6mo, B ₹1500/8mo. Profit ₹2400. A share?",
+      "options": [
+        "1400",
+        "1300",
+        "500",
+        "1200"
+      ],
+      "explanation": "A:B=12000:12000. Share=2400×12000/24000=₹1200."
+    },
+    "hi": {
+      "question": "A ₹2000/6mo, B ₹1500/8mo. Profit ₹2400. A share?",
+      "options": [
+        "1400",
+        "1300",
+        "500",
+        "1200"
+      ],
+      "explanation": "A:B=12000:12000. Share=2400×12000/24000=₹1200."
+    }
+  },
+  {
+    "id": "prt-0024",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹8000/10mo, B ₹5000/10mo. Profit ₹7200. A share?",
+      "options": [
+        "500",
+        "4531",
+        "4431",
+        "4631"
+      ],
+      "explanation": "A:B=80000:50000. Share=7200×80000/130000=₹4431."
+    },
+    "hi": {
+      "question": "A ₹8000/10mo, B ₹5000/10mo. Profit ₹7200. A share?",
+      "options": [
+        "500",
+        "4531",
+        "4431",
+        "4631"
+      ],
+      "explanation": "A:B=80000:50000. Share=7200×80000/130000=₹4431."
+    }
+  },
+  {
+    "id": "prt-0025",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹3000/12mo, B ₹1500/3mo. Profit ₹2400. A share?",
+      "options": [
+        "2333",
+        "2233",
+        "2133",
+        "500"
+      ],
+      "explanation": "A:B=36000:4500. Share=2400×36000/40500=₹2133."
+    },
+    "hi": {
+      "question": "A ₹3000/12mo, B ₹1500/3mo. Profit ₹2400. A share?",
+      "options": [
+        "2333",
+        "2233",
+        "2133",
+        "500"
+      ],
+      "explanation": "A:B=36000:4500. Share=2400×36000/40500=₹2133."
+    }
+  },
+  {
+    "id": "prt-0026",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹8000/4mo, B ₹3000/10mo. Profit ₹7200. A share?",
+      "options": [
+        "3916",
+        "3716",
+        "3816",
+        "500"
+      ],
+      "explanation": "A:B=32000:30000. Share=7200×32000/62000=₹3716."
+    },
+    "hi": {
+      "question": "A ₹8000/4mo, B ₹3000/10mo. Profit ₹7200. A share?",
+      "options": [
+        "3916",
+        "3716",
+        "3816",
+        "500"
+      ],
+      "explanation": "A:B=32000:30000. Share=7200×32000/62000=₹3716."
+    }
+  },
+  {
+    "id": "prt-0027",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹6000/8mo, B ₹5000/3mo. Profit ₹7200. A share?",
+      "options": [
+        "5686",
+        "500",
+        "5586",
+        "5486"
+      ],
+      "explanation": "A:B=48000:15000. Share=7200×48000/63000=₹5486."
+    },
+    "hi": {
+      "question": "A ₹6000/8mo, B ₹5000/3mo. Profit ₹7200. A share?",
+      "options": [
+        "5686",
+        "500",
+        "5586",
+        "5486"
+      ],
+      "explanation": "A:B=48000:15000. Share=7200×48000/63000=₹5486."
+    }
+  },
+  {
+    "id": "prt-0028",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹3000/12mo, B ₹1500/3mo. Profit ₹7200. A share?",
+      "options": [
+        "6400",
+        "500",
+        "6600",
+        "6500"
+      ],
+      "explanation": "A:B=36000:4500. Share=7200×36000/40500=₹6400."
+    },
+    "hi": {
+      "question": "A ₹3000/12mo, B ₹1500/3mo. Profit ₹7200. A share?",
+      "options": [
+        "6400",
+        "500",
+        "6600",
+        "6500"
+      ],
+      "explanation": "A:B=36000:4500. Share=7200×36000/40500=₹6400."
+    }
+  },
+  {
+    "id": "prt-0029",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹3000/6mo, B ₹5000/12mo. Profit ₹2400. A share?",
+      "options": [
+        "554",
+        "500",
+        "754",
+        "654"
+      ],
+      "explanation": "A:B=18000:60000. Share=2400×18000/78000=₹554."
+    },
+    "hi": {
+      "question": "A ₹3000/6mo, B ₹5000/12mo. Profit ₹2400. A share?",
+      "options": [
+        "554",
+        "500",
+        "754",
+        "654"
+      ],
+      "explanation": "A:B=18000:60000. Share=2400×18000/78000=₹554."
+    }
+  },
+  {
+    "id": "prt-0030",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹8000/4mo, B ₹5000/6mo. Profit ₹7200. A share?",
+      "options": [
+        "3716",
+        "3816",
+        "3916",
+        "500"
+      ],
+      "explanation": "A:B=32000:30000. Share=7200×32000/62000=₹3716."
+    },
+    "hi": {
+      "question": "A ₹8000/4mo, B ₹5000/6mo. Profit ₹7200. A share?",
+      "options": [
+        "3716",
+        "3816",
+        "3916",
+        "500"
+      ],
+      "explanation": "A:B=32000:30000. Share=7200×32000/62000=₹3716."
+    }
+  },
+  {
+    "id": "prt-0031",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹2000/6mo, B ₹2000/10mo. Profit ₹4800. A share?",
+      "options": [
+        "1900",
+        "1800",
+        "500",
+        "2000"
+      ],
+      "explanation": "A:B=12000:20000. Share=4800×12000/32000=₹1800."
+    },
+    "hi": {
+      "question": "A ₹2000/6mo, B ₹2000/10mo. Profit ₹4800. A share?",
+      "options": [
+        "1900",
+        "1800",
+        "500",
+        "2000"
+      ],
+      "explanation": "A:B=12000:20000. Share=4800×12000/32000=₹1800."
+    }
+  },
+  {
+    "id": "prt-0032",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹6000/12mo, B ₹4000/6mo. Profit ₹3600. A share?",
+      "options": [
+        "2700",
+        "500",
+        "2800",
+        "2900"
+      ],
+      "explanation": "A:B=72000:24000. Share=3600×72000/96000=₹2700."
+    },
+    "hi": {
+      "question": "A ₹6000/12mo, B ₹4000/6mo. Profit ₹3600. A share?",
+      "options": [
+        "2700",
+        "500",
+        "2800",
+        "2900"
+      ],
+      "explanation": "A:B=72000:24000. Share=3600×72000/96000=₹2700."
+    }
+  },
+  {
+    "id": "prt-0033",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹8000/10mo, B ₹3000/10mo. Profit ₹2400. A share?",
+      "options": [
+        "1745",
+        "1945",
+        "500",
+        "1845"
+      ],
+      "explanation": "A:B=80000:30000. Share=2400×80000/110000=₹1745."
+    },
+    "hi": {
+      "question": "A ₹8000/10mo, B ₹3000/10mo. Profit ₹2400. A share?",
+      "options": [
+        "1745",
+        "1945",
+        "500",
+        "1845"
+      ],
+      "explanation": "A:B=80000:30000. Share=2400×80000/110000=₹1745."
+    }
+  },
+  {
+    "id": "prt-0034",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹4000/10mo, B ₹4000/8mo. Profit ₹1200. A share?",
+      "options": [
+        "867",
+        "500",
+        "767",
+        "667"
+      ],
+      "explanation": "A:B=40000:32000. Share=1200×40000/72000=₹667."
+    },
+    "hi": {
+      "question": "A ₹4000/10mo, B ₹4000/8mo. Profit ₹1200. A share?",
+      "options": [
+        "867",
+        "500",
+        "767",
+        "667"
+      ],
+      "explanation": "A:B=40000:32000. Share=1200×40000/72000=₹667."
+    }
+  },
+  {
+    "id": "prt-0035",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹6000/6mo, B ₹3000/3mo. Profit ₹3600. A share?",
+      "options": [
+        "3080",
+        "500",
+        "2880",
+        "2980"
+      ],
+      "explanation": "A:B=36000:9000. Share=3600×36000/45000=₹2880."
+    },
+    "hi": {
+      "question": "A ₹6000/6mo, B ₹3000/3mo. Profit ₹3600. A share?",
+      "options": [
+        "3080",
+        "500",
+        "2880",
+        "2980"
+      ],
+      "explanation": "A:B=36000:9000. Share=3600×36000/45000=₹2880."
+    }
+  },
+  {
+    "id": "prt-0036",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹2000/8mo, B ₹5000/10mo. Profit ₹6000. A share?",
+      "options": [
+        "500",
+        "1655",
+        "1455",
+        "1555"
+      ],
+      "explanation": "A:B=16000:50000. Share=6000×16000/66000=₹1455."
+    },
+    "hi": {
+      "question": "A ₹2000/8mo, B ₹5000/10mo. Profit ₹6000. A share?",
+      "options": [
+        "500",
+        "1655",
+        "1455",
+        "1555"
+      ],
+      "explanation": "A:B=16000:50000. Share=6000×16000/66000=₹1455."
+    }
+  },
+  {
+    "id": "prt-0037",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹5000/8mo, B ₹2000/4mo. Profit ₹3600. A share?",
+      "options": [
+        "3100",
+        "3000",
+        "500",
+        "3200"
+      ],
+      "explanation": "A:B=40000:8000. Share=3600×40000/48000=₹3000."
+    },
+    "hi": {
+      "question": "A ₹5000/8mo, B ₹2000/4mo. Profit ₹3600. A share?",
+      "options": [
+        "3100",
+        "3000",
+        "500",
+        "3200"
+      ],
+      "explanation": "A:B=40000:8000. Share=3600×40000/48000=₹3000."
+    }
+  },
+  {
+    "id": "prt-0038",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹3000/8mo, B ₹3000/3mo. Profit ₹6000. A share?",
+      "options": [
+        "4464",
+        "4364",
+        "4564",
+        "500"
+      ],
+      "explanation": "A:B=24000:9000. Share=6000×24000/33000=₹4364."
+    },
+    "hi": {
+      "question": "A ₹3000/8mo, B ₹3000/3mo. Profit ₹6000. A share?",
+      "options": [
+        "4464",
+        "4364",
+        "4564",
+        "500"
+      ],
+      "explanation": "A:B=24000:9000. Share=6000×24000/33000=₹4364."
+    }
+  },
+  {
+    "id": "prt-0039",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹8000/4mo, B ₹3000/8mo. Profit ₹2400. A share?",
+      "options": [
+        "1471",
+        "1371",
+        "1571",
+        "500"
+      ],
+      "explanation": "A:B=32000:24000. Share=2400×32000/56000=₹1371."
+    },
+    "hi": {
+      "question": "A ₹8000/4mo, B ₹3000/8mo. Profit ₹2400. A share?",
+      "options": [
+        "1471",
+        "1371",
+        "1571",
+        "500"
+      ],
+      "explanation": "A:B=32000:24000. Share=2400×32000/56000=₹1371."
+    }
+  },
+  {
+    "id": "prt-0040",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹6000/8mo, B ₹1500/12mo. Profit ₹9600. A share?",
+      "options": [
+        "7082",
+        "7182",
+        "6982",
+        "500"
+      ],
+      "explanation": "A:B=48000:18000. Share=9600×48000/66000=₹6982."
+    },
+    "hi": {
+      "question": "A ₹6000/8mo, B ₹1500/12mo. Profit ₹9600. A share?",
+      "options": [
+        "7082",
+        "7182",
+        "6982",
+        "500"
+      ],
+      "explanation": "A:B=48000:18000. Share=9600×48000/66000=₹6982."
+    }
+  },
+  {
+    "id": "prt-0041",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹4000/8mo, B ₹4000/8mo. Profit ₹9600. A share?",
+      "options": [
+        "4900",
+        "5000",
+        "500",
         "4800"
       ],
-      "explanation": "BODMAS: 40×10=400+12=412."
+      "explanation": "A:B=32000:32000. Share=9600×32000/64000=₹4800."
     },
     "hi": {
-      "question": "सरल: 12 + 40 × 10",
+      "question": "A ₹4000/8mo, B ₹4000/8mo. Profit ₹9600. A share?",
       "options": [
-        "520",
-        "62",
-        "412",
+        "4900",
+        "5000",
+        "500",
         "4800"
       ],
-      "explanation": "BODMAS: 412।"
-    },
-    "id": "nmma-0068"
+      "explanation": "A:B=32000:32000. Share=9600×32000/64000=₹4800."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.460, 21% profit. SP?",
-      "options": [
-        "920",
-        "445",
-        "556.6",
-        "460"
-      ],
-      "explanation": "SP=460×1.21=556.6."
-    },
-    "hi": {
-      "question": "क्र.मू. 460रु, 21% लाभ। वि.मू.?",
-      "options": [
-        "920",
-        "445",
-        "556.6",
-        "460"
-      ],
-      "explanation": "वि.मू.=556.6।"
-    },
-    "id": "nmma-0069"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 18×9cm. Area?",
-      "options": [
-        "162 cm²",
-        "324 cm²",
-        "27 cm²",
-        "54 cm²"
-      ],
-      "explanation": "Area=18×9=162 cm²."
-    },
-    "hi": {
-      "question": "आयत 18×9सेमी। क्षेत्रफल?",
-      "options": [
-        "162 cm²",
-        "324 cm²",
-        "27 cm²",
-        "54 cm²"
-      ],
-      "explanation": "क्षेत्रफल=18×9=162 वर्ग सेमी।"
-    },
-    "id": "nmma-0070"
-  },
-  {
+    "id": "prt-0042",
     "correctOption": "D",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "LCM of 16 and 17?",
+      "question": "A ₹8000/10mo, B ₹1500/6mo. Profit ₹6000. A share?",
       "options": [
-        "274",
-        "273",
-        "275",
-        "272"
+        "5593",
+        "500",
+        "5493",
+        "5393"
       ],
-      "explanation": "LCM=272/1=272."
+      "explanation": "A:B=80000:9000. Share=6000×80000/89000=₹5393."
     },
     "hi": {
-      "question": "16 और 17 का ल.स.?",
+      "question": "A ₹8000/10mo, B ₹1500/6mo. Profit ₹6000. A share?",
       "options": [
-        "274",
-        "273",
-        "275",
-        "272"
+        "5593",
+        "500",
+        "5493",
+        "5393"
       ],
-      "explanation": "ल.स.=272।"
-    },
-    "id": "nmma-0071"
+      "explanation": "A:B=80000:9000. Share=6000×80000/89000=₹5393."
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.470, 21% profit. SP?",
-      "options": [
-        "470",
-        "454",
-        "940",
-        "568.7"
-      ],
-      "explanation": "SP=470×1.21=568.7."
-    },
-    "hi": {
-      "question": "क्र.मू. 470रु, 21% लाभ। वि.मू.?",
-      "options": [
-        "470",
-        "454",
-        "940",
-        "568.7"
-      ],
-      "explanation": "वि.मू.=568.7।"
-    },
-    "id": "nmma-0072"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 37000 at 17% for 30yrs?",
-      "options": [
-        "Rs.377400",
-        "Rs.94350",
-        "Rs.188700",
-        "Rs.37000"
-      ],
-      "explanation": "SI=37000×17×30/100=188700.0."
-    },
-    "hi": {
-      "question": "37000रु, 17%, 30वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.377400",
-        "Rs.94350",
-        "Rs.188700",
-        "Rs.37000"
-      ],
-      "explanation": "सा.ब्याज=188700.0।"
-    },
-    "id": "nmma-0073"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 21, 21, 39, 9, 80, 48",
-      "options": [
-        "218",
-        "36.3",
-        "9",
-        "80"
-      ],
-      "explanation": "Sum=218/6=36.3."
-    },
-    "hi": {
-      "question": "औसत: 21, 21, 39, 9, 80, 48",
-      "options": [
-        "218",
-        "36.3",
-        "9",
-        "80"
-      ],
-      "explanation": "योग=218/6=36.3।"
-    },
-    "id": "nmma-0074"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 23km/hr, 23hrs. Distance?",
-      "options": [
-        "264km",
-        "529km",
-        "1058km",
-        "46km"
-      ],
-      "explanation": "Dist=23×23=529km."
-    },
-    "hi": {
-      "question": "कार 23किमी/घं, 23घंटे। दूरी?",
-      "options": [
-        "264km",
-        "529km",
-        "1058km",
-        "46km"
-      ],
-      "explanation": "दूरी=529किमी।"
-    },
-    "id": "nmma-0075"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 43 and 4?",
-      "options": [
-        "173",
-        "172",
-        "174",
-        "175"
-      ],
-      "explanation": "LCM=172/1=172."
-    },
-    "hi": {
-      "question": "43 और 4 का ल.स.?",
-      "options": [
-        "173",
-        "172",
-        "174",
-        "175"
-      ],
-      "explanation": "ल.स.=172।"
-    },
-    "id": "nmma-0076"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.130, 28% profit. SP?",
-      "options": [
-        "260",
-        "130",
-        "133",
-        "166.4"
-      ],
-      "explanation": "SP=130×1.28=166.4."
-    },
-    "hi": {
-      "question": "क्र.मू. 130रु, 28% लाभ। वि.मू.?",
-      "options": [
-        "260",
-        "130",
-        "133",
-        "166.4"
-      ],
-      "explanation": "वि.मू.=166.4।"
-    },
-    "id": "nmma-0077"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 25×18cm. Area?",
-      "options": [
-        "86 cm²",
-        "43 cm²",
-        "450 cm²",
-        "900 cm²"
-      ],
-      "explanation": "Area=25×18=450 cm²."
-    },
-    "hi": {
-      "question": "आयत 25×18सेमी। क्षेत्रफल?",
-      "options": [
-        "86 cm²",
-        "43 cm²",
-        "450 cm²",
-        "900 cm²"
-      ],
-      "explanation": "क्षेत्रफल=25×18=450 वर्ग सेमी।"
-    },
-    "id": "nmma-0078"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 29, 16, 61, 72, 28, 9",
-      "options": [
-        "215",
-        "35.8",
-        "72",
-        "9"
-      ],
-      "explanation": "Sum=215/6=35.8."
-    },
-    "hi": {
-      "question": "औसत: 29, 16, 61, 72, 28, 9",
-      "options": [
-        "215",
-        "35.8",
-        "72",
-        "9"
-      ],
-      "explanation": "योग=215/6=35.8।"
-    },
-    "id": "nmma-0079"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 1014 in 5:8. Larger?",
-      "options": [
-        "1014",
-        "507",
-        "624",
-        "390"
-      ],
-      "explanation": "Parts=13. Shares: 390, 624. Larger=624."
-    },
-    "hi": {
-      "question": "1014 को 5:8 में बांटें। बड़ा?",
-      "options": [
-        "1014",
-        "507",
-        "624",
-        "390"
-      ],
-      "explanation": "हिस्से: 390, 624। बड़ा=624।"
-    },
-    "id": "nmma-0080"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 46, 43, 44, 79, 35, 52",
-      "options": [
-        "35",
-        "49.8",
-        "79",
-        "299"
-      ],
-      "explanation": "Sum=299/6=49.8."
-    },
-    "hi": {
-      "question": "औसत: 46, 43, 44, 79, 35, 52",
-      "options": [
-        "35",
-        "49.8",
-        "79",
-        "299"
-      ],
-      "explanation": "योग=299/6=49.8।"
-    },
-    "id": "nmma-0081"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 18×17cm. Area?",
-      "options": [
-        "306 cm²",
-        "612 cm²",
-        "70 cm²",
-        "35 cm²"
-      ],
-      "explanation": "Area=18×17=306 cm²."
-    },
-    "hi": {
-      "question": "आयत 18×17सेमी। क्षेत्रफल?",
-      "options": [
-        "306 cm²",
-        "612 cm²",
-        "70 cm²",
-        "35 cm²"
-      ],
-      "explanation": "क्षेत्रफल=18×17=306 वर्ग सेमी।"
-    },
-    "id": "nmma-0082"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 41 and 11?",
-      "options": [
-        "451",
-        "452",
-        "453",
-        "454"
-      ],
-      "explanation": "LCM=451/1=451."
-    },
-    "hi": {
-      "question": "41 और 11 का ल.स.?",
-      "options": [
-        "451",
-        "452",
-        "453",
-        "454"
-      ],
-      "explanation": "ल.स.=451।"
-    },
-    "id": "nmma-0083"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 7km/hr, 35hrs. Distance?",
-      "options": [
-        "42km",
-        "122km",
-        "490km",
-        "245km"
-      ],
-      "explanation": "Dist=7×35=245km."
-    },
-    "hi": {
-      "question": "कार 7किमी/घं, 35घंटे। दूरी?",
-      "options": [
-        "42km",
-        "122km",
-        "490km",
-        "245km"
-      ],
-      "explanation": "दूरी=245किमी।"
-    },
-    "id": "nmma-0084"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 37km/hr, 34hrs. Distance?",
-      "options": [
-        "1258km",
-        "629km",
-        "71km",
-        "2516km"
-      ],
-      "explanation": "Dist=37×34=1258km."
-    },
-    "hi": {
-      "question": "कार 37किमी/घं, 34घंटे। दूरी?",
-      "options": [
-        "1258km",
-        "629km",
-        "71km",
-        "2516km"
-      ],
-      "explanation": "दूरी=1258किमी।"
-    },
-    "id": "nmma-0085"
-  },
-  {
+    "id": "prt-0043",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A=20d, B=10d. Together?",
+      "question": "A ₹4000/12mo, B ₹2000/4mo. Profit ₹1200. A share?",
       "options": [
-        "30d",
-        "6.7d",
-        "10d",
-        "13.4d"
+        "1229",
+        "1029",
+        "1129",
+        "500"
       ],
-      "explanation": "1d: 1/20+1/10. Time=6.7d."
+      "explanation": "A:B=48000:8000. Share=1200×48000/56000=₹1029."
     },
     "hi": {
-      "question": "A=20दिन, B=10दिन। साथ?",
+      "question": "A ₹4000/12mo, B ₹2000/4mo. Profit ₹1200. A share?",
       "options": [
-        "30d",
-        "6.7d",
-        "10d",
-        "13.4d"
+        "1229",
+        "1029",
+        "1129",
+        "500"
       ],
-      "explanation": "1दिन: 1/20+1/10। समय=6.7दिन।"
-    },
-    "id": "nmma-0086"
+      "explanation": "A:B=48000:8000. Share=1200×48000/56000=₹1029."
+    }
   },
   {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 34000 at 25% for 40yrs?",
-      "options": [
-        "Rs.170000",
-        "Rs.680000",
-        "Rs.340000",
-        "Rs.34000"
-      ],
-      "explanation": "SI=34000×25×40/100=340000.0."
-    },
-    "hi": {
-      "question": "34000रु, 25%, 40वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.170000",
-        "Rs.680000",
-        "Rs.340000",
-        "Rs.34000"
-      ],
-      "explanation": "सा.ब्याज=340000.0।"
-    },
-    "id": "nmma-0087"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 38, 38, 37, 49, 52, 66",
-      "options": [
-        "46.7",
-        "66",
-        "37",
-        "280"
-      ],
-      "explanation": "Sum=280/6=46.7."
-    },
-    "hi": {
-      "question": "औसत: 38, 38, 37, 49, 52, 66",
-      "options": [
-        "46.7",
-        "66",
-        "37",
-        "280"
-      ],
-      "explanation": "योग=280/6=46.7।"
-    },
-    "id": "nmma-0088"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 9×25cm. Area?",
-      "options": [
-        "34 cm²",
-        "68 cm²",
-        "450 cm²",
-        "225 cm²"
-      ],
-      "explanation": "Area=9×25=225 cm²."
-    },
-    "hi": {
-      "question": "आयत 9×25सेमी। क्षेत्रफल?",
-      "options": [
-        "34 cm²",
-        "68 cm²",
-        "450 cm²",
-        "225 cm²"
-      ],
-      "explanation": "क्षेत्रफल=9×25=225 वर्ग सेमी।"
-    },
-    "id": "nmma-0089"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 47000 at 13% for 14yrs?",
-      "options": [
-        "Rs.85540",
-        "Rs.47000",
-        "Rs.42770",
-        "Rs.171080"
-      ],
-      "explanation": "SI=47000×13×14/100=85540.0."
-    },
-    "hi": {
-      "question": "47000रु, 13%, 14वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.85540",
-        "Rs.47000",
-        "Rs.42770",
-        "Rs.171080"
-      ],
-      "explanation": "सा.ब्याज=85540.0।"
-    },
-    "id": "nmma-0090"
-  },
-  {
+    "id": "prt-0044",
     "correctOption": "B",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Average: 28, 61, 50, 7, 18, 44",
+      "question": "A ₹3000/10mo, B ₹3000/8mo. Profit ₹2400. A share?",
       "options": [
-        "7",
-        "34.7",
-        "208",
-        "61"
+        "1533",
+        "1333",
+        "500",
+        "1433"
       ],
-      "explanation": "Sum=208/6=34.7."
+      "explanation": "A:B=30000:24000. Share=2400×30000/54000=₹1333."
     },
     "hi": {
-      "question": "औसत: 28, 61, 50, 7, 18, 44",
+      "question": "A ₹3000/10mo, B ₹3000/8mo. Profit ₹2400. A share?",
       "options": [
-        "7",
-        "34.7",
-        "208",
-        "61"
+        "1533",
+        "1333",
+        "500",
+        "1433"
       ],
-      "explanation": "योग=208/6=34.7।"
-    },
-    "id": "nmma-0091"
+      "explanation": "A:B=30000:24000. Share=2400×30000/54000=₹1333."
+    }
   },
   {
+    "id": "prt-0045",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "7% of 340?",
+      "question": "A ₹5000/12mo, B ₹1500/10mo. Profit ₹4800. A share?",
       "options": [
-        "170",
-        "680",
-        "238",
-        "340"
+        "500",
+        "3940",
+        "3840",
+        "4040"
       ],
-      "explanation": "340×7/100=238."
+      "explanation": "A:B=60000:15000. Share=4800×60000/75000=₹3840."
     },
     "hi": {
-      "question": "340 का 7%?",
+      "question": "A ₹5000/12mo, B ₹1500/10mo. Profit ₹4800. A share?",
       "options": [
-        "170",
-        "680",
-        "238",
-        "340"
+        "500",
+        "3940",
+        "3840",
+        "4040"
       ],
-      "explanation": "340×7/100=238।"
-    },
-    "id": "nmma-0092"
+      "explanation": "A:B=60000:15000. Share=4800×60000/75000=₹3840."
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "easy",
+    "id": "prt-0046",
+    "correctOption": "A",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "LCM of 24 and 25?",
+      "question": "A ₹6000/10mo, B ₹2000/4mo. Profit ₹4800. A share?",
       "options": [
-        "601",
-        "602",
-        "603",
+        "4235",
+        "4435",
+        "500",
+        "4335"
+      ],
+      "explanation": "A:B=60000:8000. Share=4800×60000/68000=₹4235."
+    },
+    "hi": {
+      "question": "A ₹6000/10mo, B ₹2000/4mo. Profit ₹4800. A share?",
+      "options": [
+        "4235",
+        "4435",
+        "500",
+        "4335"
+      ],
+      "explanation": "A:B=60000:8000. Share=4800×60000/68000=₹4235."
+    }
+  },
+  {
+    "id": "prt-0047",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹8000/12mo, B ₹2000/10mo. Profit ₹6000. A share?",
+      "options": [
+        "500",
+        "5166",
+        "4966",
+        "5066"
+      ],
+      "explanation": "A:B=96000:20000. Share=6000×96000/116000=₹4966."
+    },
+    "hi": {
+      "question": "A ₹8000/12mo, B ₹2000/10mo. Profit ₹6000. A share?",
+      "options": [
+        "500",
+        "5166",
+        "4966",
+        "5066"
+      ],
+      "explanation": "A:B=96000:20000. Share=6000×96000/116000=₹4966."
+    }
+  },
+  {
+    "id": "prt-0048",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹4000/10mo, B ₹3000/12mo. Profit ₹6000. A share?",
+      "options": [
+        "3358",
+        "3258",
+        "500",
+        "3158"
+      ],
+      "explanation": "A:B=40000:36000. Share=6000×40000/76000=₹3158."
+    },
+    "hi": {
+      "question": "A ₹4000/10mo, B ₹3000/12mo. Profit ₹6000. A share?",
+      "options": [
+        "3358",
+        "3258",
+        "500",
+        "3158"
+      ],
+      "explanation": "A:B=40000:36000. Share=6000×40000/76000=₹3158."
+    }
+  },
+  {
+    "id": "prt-0049",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹5000/8mo, B ₹3000/4mo. Profit ₹3600. A share?",
+      "options": [
+        "2869",
+        "2769",
+        "500",
+        "2969"
+      ],
+      "explanation": "A:B=40000:12000. Share=3600×40000/52000=₹2769."
+    },
+    "hi": {
+      "question": "A ₹5000/8mo, B ₹3000/4mo. Profit ₹3600. A share?",
+      "options": [
+        "2869",
+        "2769",
+        "500",
+        "2969"
+      ],
+      "explanation": "A:B=40000:12000. Share=3600×40000/52000=₹2769."
+    }
+  },
+  {
+    "id": "prt-0050",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹4000/6mo, B ₹3000/10mo. Profit ₹9600. A share?",
+      "options": [
+        "4367",
+        "4267",
+        "4467",
+        "500"
+      ],
+      "explanation": "A:B=24000:30000. Share=9600×24000/54000=₹4267."
+    },
+    "hi": {
+      "question": "A ₹4000/6mo, B ₹3000/10mo. Profit ₹9600. A share?",
+      "options": [
+        "4367",
+        "4267",
+        "4467",
+        "500"
+      ],
+      "explanation": "A:B=24000:30000. Share=9600×24000/54000=₹4267."
+    }
+  },
+  {
+    "id": "prt-0051",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹5000/4mo, B ₹2000/4mo. Profit ₹7200. A share?",
+      "options": [
+        "5243",
+        "500",
+        "5143",
+        "5343"
+      ],
+      "explanation": "A:B=20000:8000. Share=7200×20000/28000=₹5143."
+    },
+    "hi": {
+      "question": "A ₹5000/4mo, B ₹2000/4mo. Profit ₹7200. A share?",
+      "options": [
+        "5243",
+        "500",
+        "5143",
+        "5343"
+      ],
+      "explanation": "A:B=20000:8000. Share=7200×20000/28000=₹5143."
+    }
+  },
+  {
+    "id": "prt-0052",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹2000/4mo, B ₹2000/10mo. Profit ₹2400. A share?",
+      "options": [
+        "500",
+        "786",
+        "686",
+        "886"
+      ],
+      "explanation": "A:B=8000:20000. Share=2400×8000/28000=₹686."
+    },
+    "hi": {
+      "question": "A ₹2000/4mo, B ₹2000/10mo. Profit ₹2400. A share?",
+      "options": [
+        "500",
+        "786",
+        "686",
+        "886"
+      ],
+      "explanation": "A:B=8000:20000. Share=2400×8000/28000=₹686."
+    }
+  },
+  {
+    "id": "prt-0053",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹8000/4mo, B ₹3000/8mo. Profit ₹4800. A share?",
+      "options": [
+        "2943",
+        "500",
+        "2843",
+        "2743"
+      ],
+      "explanation": "A:B=32000:24000. Share=4800×32000/56000=₹2743."
+    },
+    "hi": {
+      "question": "A ₹8000/4mo, B ₹3000/8mo. Profit ₹4800. A share?",
+      "options": [
+        "2943",
+        "500",
+        "2843",
+        "2743"
+      ],
+      "explanation": "A:B=32000:24000. Share=4800×32000/56000=₹2743."
+    }
+  },
+  {
+    "id": "prt-0054",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹8000/12mo, B ₹2000/4mo. Profit ₹6000. A share?",
+      "options": [
+        "5538",
+        "5638",
+        "500",
+        "5738"
+      ],
+      "explanation": "A:B=96000:8000. Share=6000×96000/104000=₹5538."
+    },
+    "hi": {
+      "question": "A ₹8000/12mo, B ₹2000/4mo. Profit ₹6000. A share?",
+      "options": [
+        "5538",
+        "5638",
+        "500",
+        "5738"
+      ],
+      "explanation": "A:B=96000:8000. Share=6000×96000/104000=₹5538."
+    }
+  },
+  {
+    "id": "prt-0055",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹6000/6mo, B ₹1500/8mo. Profit ₹6000. A share?",
+      "options": [
+        "4700",
+        "500",
+        "4600",
+        "4500"
+      ],
+      "explanation": "A:B=36000:12000. Share=6000×36000/48000=₹4500."
+    },
+    "hi": {
+      "question": "A ₹6000/6mo, B ₹1500/8mo. Profit ₹6000. A share?",
+      "options": [
+        "4700",
+        "500",
+        "4600",
+        "4500"
+      ],
+      "explanation": "A:B=36000:12000. Share=6000×36000/48000=₹4500."
+    }
+  },
+  {
+    "id": "prt-0056",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹2000/8mo, B ₹2000/12mo. Profit ₹6000. A share?",
+      "options": [
+        "500",
+        "2500",
+        "2400",
+        "2600"
+      ],
+      "explanation": "A:B=16000:24000. Share=6000×16000/40000=₹2400."
+    },
+    "hi": {
+      "question": "A ₹2000/8mo, B ₹2000/12mo. Profit ₹6000. A share?",
+      "options": [
+        "500",
+        "2500",
+        "2400",
+        "2600"
+      ],
+      "explanation": "A:B=16000:24000. Share=6000×16000/40000=₹2400."
+    }
+  },
+  {
+    "id": "prt-0057",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹8000/4mo, B ₹1500/8mo. Profit ₹7200. A share?",
+      "options": [
+        "5236",
+        "5336",
+        "500",
+        "5436"
+      ],
+      "explanation": "A:B=32000:12000. Share=7200×32000/44000=₹5236."
+    },
+    "hi": {
+      "question": "A ₹8000/4mo, B ₹1500/8mo. Profit ₹7200. A share?",
+      "options": [
+        "5236",
+        "5336",
+        "500",
+        "5436"
+      ],
+      "explanation": "A:B=32000:12000. Share=7200×32000/44000=₹5236."
+    }
+  },
+  {
+    "id": "prt-0058",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹2000/4mo, B ₹3000/12mo. Profit ₹4800. A share?",
+      "options": [
+        "1073",
+        "873",
+        "500",
+        "973"
+      ],
+      "explanation": "A:B=8000:36000. Share=4800×8000/44000=₹873."
+    },
+    "hi": {
+      "question": "A ₹2000/4mo, B ₹3000/12mo. Profit ₹4800. A share?",
+      "options": [
+        "1073",
+        "873",
+        "500",
+        "973"
+      ],
+      "explanation": "A:B=8000:36000. Share=4800×8000/44000=₹873."
+    }
+  },
+  {
+    "id": "prt-0059",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹4000/10mo, B ₹5000/10mo. Profit ₹1200. A share?",
+      "options": [
+        "733",
+        "500",
+        "533",
+        "633"
+      ],
+      "explanation": "A:B=40000:50000. Share=1200×40000/90000=₹533."
+    },
+    "hi": {
+      "question": "A ₹4000/10mo, B ₹5000/10mo. Profit ₹1200. A share?",
+      "options": [
+        "733",
+        "500",
+        "533",
+        "633"
+      ],
+      "explanation": "A:B=40000:50000. Share=1200×40000/90000=₹533."
+    }
+  },
+  {
+    "id": "prt-0060",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹6000/4mo, B ₹1500/4mo. Profit ₹6000. A share?",
+      "options": [
+        "4800",
+        "500",
+        "4900",
+        "5000"
+      ],
+      "explanation": "A:B=24000:6000. Share=6000×24000/30000=₹4800."
+    },
+    "hi": {
+      "question": "A ₹6000/4mo, B ₹1500/4mo. Profit ₹6000. A share?",
+      "options": [
+        "4800",
+        "500",
+        "4900",
+        "5000"
+      ],
+      "explanation": "A:B=24000:6000. Share=6000×24000/30000=₹4800."
+    }
+  },
+  {
+    "id": "prt-0061",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹5000/6mo, B ₹1500/6mo. Profit ₹7200. A share?",
+      "options": [
+        "5538",
+        "500",
+        "5638",
+        "5738"
+      ],
+      "explanation": "A:B=30000:9000. Share=7200×30000/39000=₹5538."
+    },
+    "hi": {
+      "question": "A ₹5000/6mo, B ₹1500/6mo. Profit ₹7200. A share?",
+      "options": [
+        "5538",
+        "500",
+        "5638",
+        "5738"
+      ],
+      "explanation": "A:B=30000:9000. Share=7200×30000/39000=₹5538."
+    }
+  },
+  {
+    "id": "prt-0062",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹3000/12mo, B ₹3000/3mo. Profit ₹7200. A share?",
+      "options": [
+        "500",
+        "5760",
+        "5860",
+        "5960"
+      ],
+      "explanation": "A:B=36000:9000. Share=7200×36000/45000=₹5760."
+    },
+    "hi": {
+      "question": "A ₹3000/12mo, B ₹3000/3mo. Profit ₹7200. A share?",
+      "options": [
+        "500",
+        "5760",
+        "5860",
+        "5960"
+      ],
+      "explanation": "A:B=36000:9000. Share=7200×36000/45000=₹5760."
+    }
+  },
+  {
+    "id": "prt-0063",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹6000/8mo, B ₹2000/4mo. Profit ₹3600. A share?",
+      "options": [
+        "3186",
+        "3086",
+        "3286",
+        "500"
+      ],
+      "explanation": "A:B=48000:8000. Share=3600×48000/56000=₹3086."
+    },
+    "hi": {
+      "question": "A ₹6000/8mo, B ₹2000/4mo. Profit ₹3600. A share?",
+      "options": [
+        "3186",
+        "3086",
+        "3286",
+        "500"
+      ],
+      "explanation": "A:B=48000:8000. Share=3600×48000/56000=₹3086."
+    }
+  },
+  {
+    "id": "prt-0064",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹2000/10mo, B ₹5000/12mo. Profit ₹6000. A share?",
+      "options": [
+        "1700",
+        "1500",
+        "500",
+        "1600"
+      ],
+      "explanation": "A:B=20000:60000. Share=6000×20000/80000=₹1500."
+    },
+    "hi": {
+      "question": "A ₹2000/10mo, B ₹5000/12mo. Profit ₹6000. A share?",
+      "options": [
+        "1700",
+        "1500",
+        "500",
+        "1600"
+      ],
+      "explanation": "A:B=20000:60000. Share=6000×20000/80000=₹1500."
+    }
+  },
+  {
+    "id": "prt-0065",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹6000/6mo, B ₹4000/6mo. Profit ₹6000. A share?",
+      "options": [
+        "500",
+        "3600",
+        "3700",
+        "3800"
+      ],
+      "explanation": "A:B=36000:24000. Share=6000×36000/60000=₹3600."
+    },
+    "hi": {
+      "question": "A ₹6000/6mo, B ₹4000/6mo. Profit ₹6000. A share?",
+      "options": [
+        "500",
+        "3600",
+        "3700",
+        "3800"
+      ],
+      "explanation": "A:B=36000:24000. Share=6000×36000/60000=₹3600."
+    }
+  },
+  {
+    "id": "prt-0066",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹3000/6mo, B ₹5000/10mo. Profit ₹7200. A share?",
+      "options": [
+        "2106",
+        "500",
+        "1906",
+        "2006"
+      ],
+      "explanation": "A:B=18000:50000. Share=7200×18000/68000=₹1906."
+    },
+    "hi": {
+      "question": "A ₹3000/6mo, B ₹5000/10mo. Profit ₹7200. A share?",
+      "options": [
+        "2106",
+        "500",
+        "1906",
+        "2006"
+      ],
+      "explanation": "A:B=18000:50000. Share=7200×18000/68000=₹1906."
+    }
+  },
+  {
+    "id": "prt-0067",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹8000/12mo, B ₹2000/8mo. Profit ₹9600. A share?",
+      "options": [
+        "500",
+        "8229",
+        "8429",
+        "8329"
+      ],
+      "explanation": "A:B=96000:16000. Share=9600×96000/112000=₹8229."
+    },
+    "hi": {
+      "question": "A ₹8000/12mo, B ₹2000/8mo. Profit ₹9600. A share?",
+      "options": [
+        "500",
+        "8229",
+        "8429",
+        "8329"
+      ],
+      "explanation": "A:B=96000:16000. Share=9600×96000/112000=₹8229."
+    }
+  },
+  {
+    "id": "prt-0068",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹4000/4mo, B ₹5000/10mo. Profit ₹7200. A share?",
+      "options": [
+        "1945",
+        "1845",
+        "500",
+        "1745"
+      ],
+      "explanation": "A:B=16000:50000. Share=7200×16000/66000=₹1745."
+    },
+    "hi": {
+      "question": "A ₹4000/4mo, B ₹5000/10mo. Profit ₹7200. A share?",
+      "options": [
+        "1945",
+        "1845",
+        "500",
+        "1745"
+      ],
+      "explanation": "A:B=16000:50000. Share=7200×16000/66000=₹1745."
+    }
+  },
+  {
+    "id": "prt-0069",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹3000/4mo, B ₹3000/8mo. Profit ₹4800. A share?",
+      "options": [
+        "1600",
+        "500",
+        "1700",
+        "1800"
+      ],
+      "explanation": "A:B=12000:24000. Share=4800×12000/36000=₹1600."
+    },
+    "hi": {
+      "question": "A ₹3000/4mo, B ₹3000/8mo. Profit ₹4800. A share?",
+      "options": [
+        "1600",
+        "500",
+        "1700",
+        "1800"
+      ],
+      "explanation": "A:B=12000:24000. Share=4800×12000/36000=₹1600."
+    }
+  },
+  {
+    "id": "prt-0070",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹3000/6mo, B ₹1500/4mo. Profit ₹2400. A share?",
+      "options": [
+        "500",
+        "1900",
+        "2000",
+        "1800"
+      ],
+      "explanation": "A:B=18000:6000. Share=2400×18000/24000=₹1800."
+    },
+    "hi": {
+      "question": "A ₹3000/6mo, B ₹1500/4mo. Profit ₹2400. A share?",
+      "options": [
+        "500",
+        "1900",
+        "2000",
+        "1800"
+      ],
+      "explanation": "A:B=18000:6000. Share=2400×18000/24000=₹1800."
+    }
+  },
+  {
+    "id": "prt-0071",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹6000/12mo, B ₹5000/4mo. Profit ₹6000. A share?",
+      "options": [
+        "500",
+        "4896",
+        "4696",
+        "4796"
+      ],
+      "explanation": "A:B=72000:20000. Share=6000×72000/92000=₹4696."
+    },
+    "hi": {
+      "question": "A ₹6000/12mo, B ₹5000/4mo. Profit ₹6000. A share?",
+      "options": [
+        "500",
+        "4896",
+        "4696",
+        "4796"
+      ],
+      "explanation": "A:B=72000:20000. Share=6000×72000/92000=₹4696."
+    }
+  },
+  {
+    "id": "prt-0072",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹4000/4mo, B ₹4000/4mo. Profit ₹6000. A share?",
+      "options": [
+        "3000",
+        "3100",
+        "3200",
+        "500"
+      ],
+      "explanation": "A:B=16000:16000. Share=6000×16000/32000=₹3000."
+    },
+    "hi": {
+      "question": "A ₹4000/4mo, B ₹4000/4mo. Profit ₹6000. A share?",
+      "options": [
+        "3000",
+        "3100",
+        "3200",
+        "500"
+      ],
+      "explanation": "A:B=16000:16000. Share=6000×16000/32000=₹3000."
+    }
+  },
+  {
+    "id": "prt-0073",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹3000/10mo, B ₹4000/8mo. Profit ₹2400. A share?",
+      "options": [
+        "500",
+        "1361",
+        "1161",
+        "1261"
+      ],
+      "explanation": "A:B=30000:32000. Share=2400×30000/62000=₹1161."
+    },
+    "hi": {
+      "question": "A ₹3000/10mo, B ₹4000/8mo. Profit ₹2400. A share?",
+      "options": [
+        "500",
+        "1361",
+        "1161",
+        "1261"
+      ],
+      "explanation": "A:B=30000:32000. Share=2400×30000/62000=₹1161."
+    }
+  },
+  {
+    "id": "prt-0074",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹2000/10mo, B ₹1500/6mo. Profit ₹4800. A share?",
+      "options": [
+        "500",
+        "3310",
+        "3510",
+        "3410"
+      ],
+      "explanation": "A:B=20000:9000. Share=4800×20000/29000=₹3310."
+    },
+    "hi": {
+      "question": "A ₹2000/10mo, B ₹1500/6mo. Profit ₹4800. A share?",
+      "options": [
+        "500",
+        "3310",
+        "3510",
+        "3410"
+      ],
+      "explanation": "A:B=20000:9000. Share=4800×20000/29000=₹3310."
+    }
+  },
+  {
+    "id": "prt-0075",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹3000/4mo, B ₹2000/8mo. Profit ₹9600. A share?",
+      "options": [
+        "4114",
+        "4214",
+        "4314",
+        "500"
+      ],
+      "explanation": "A:B=12000:16000. Share=9600×12000/28000=₹4114."
+    },
+    "hi": {
+      "question": "A ₹3000/4mo, B ₹2000/8mo. Profit ₹9600. A share?",
+      "options": [
+        "4114",
+        "4214",
+        "4314",
+        "500"
+      ],
+      "explanation": "A:B=12000:16000. Share=9600×12000/28000=₹4114."
+    }
+  },
+  {
+    "id": "prt-0076",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹5000/6mo, B ₹4000/8mo. Profit ₹9600. A share?",
+      "options": [
+        "500",
+        "4745",
+        "4845",
+        "4645"
+      ],
+      "explanation": "A:B=30000:32000. Share=9600×30000/62000=₹4645."
+    },
+    "hi": {
+      "question": "A ₹5000/6mo, B ₹4000/8mo. Profit ₹9600. A share?",
+      "options": [
+        "500",
+        "4745",
+        "4845",
+        "4645"
+      ],
+      "explanation": "A:B=30000:32000. Share=9600×30000/62000=₹4645."
+    }
+  },
+  {
+    "id": "prt-0077",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹8000/8mo, B ₹4000/10mo. Profit ₹7200. A share?",
+      "options": [
+        "4531",
+        "500",
+        "4631",
+        "4431"
+      ],
+      "explanation": "A:B=64000:40000. Share=7200×64000/104000=₹4431."
+    },
+    "hi": {
+      "question": "A ₹8000/8mo, B ₹4000/10mo. Profit ₹7200. A share?",
+      "options": [
+        "4531",
+        "500",
+        "4631",
+        "4431"
+      ],
+      "explanation": "A:B=64000:40000. Share=7200×64000/104000=₹4431."
+    }
+  },
+  {
+    "id": "prt-0078",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹5000/10mo, B ₹1500/4mo. Profit ₹6000. A share?",
+      "options": [
+        "5457",
+        "5357",
+        "5557",
+        "500"
+      ],
+      "explanation": "A:B=50000:6000. Share=6000×50000/56000=₹5357."
+    },
+    "hi": {
+      "question": "A ₹5000/10mo, B ₹1500/4mo. Profit ₹6000. A share?",
+      "options": [
+        "5457",
+        "5357",
+        "5557",
+        "500"
+      ],
+      "explanation": "A:B=50000:6000. Share=6000×50000/56000=₹5357."
+    }
+  },
+  {
+    "id": "prt-0079",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹6000/10mo, B ₹5000/12mo. Profit ₹1200. A share?",
+      "options": [
+        "600",
+        "800",
+        "500",
+        "700"
+      ],
+      "explanation": "A:B=60000:60000. Share=1200×60000/120000=₹600."
+    },
+    "hi": {
+      "question": "A ₹6000/10mo, B ₹5000/12mo. Profit ₹1200. A share?",
+      "options": [
+        "600",
+        "800",
+        "500",
+        "700"
+      ],
+      "explanation": "A:B=60000:60000. Share=1200×60000/120000=₹600."
+    }
+  },
+  {
+    "id": "prt-0080",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹5000/8mo, B ₹3000/8mo. Profit ₹2400. A share?",
+      "options": [
+        "1700",
+        "1500",
+        "1600",
+        "500"
+      ],
+      "explanation": "A:B=40000:24000. Share=2400×40000/64000=₹1500."
+    },
+    "hi": {
+      "question": "A ₹5000/8mo, B ₹3000/8mo. Profit ₹2400. A share?",
+      "options": [
+        "1700",
+        "1500",
+        "1600",
+        "500"
+      ],
+      "explanation": "A:B=40000:24000. Share=2400×40000/64000=₹1500."
+    }
+  },
+  {
+    "id": "prt-0081",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹8000/12mo, B ₹2000/8mo. Profit ₹9600. A share?",
+      "options": [
+        "8329",
+        "8429",
+        "8229",
+        "500"
+      ],
+      "explanation": "A:B=96000:16000. Share=9600×96000/112000=₹8229."
+    },
+    "hi": {
+      "question": "A ₹8000/12mo, B ₹2000/8mo. Profit ₹9600. A share?",
+      "options": [
+        "8329",
+        "8429",
+        "8229",
+        "500"
+      ],
+      "explanation": "A:B=96000:16000. Share=9600×96000/112000=₹8229."
+    }
+  },
+  {
+    "id": "prt-0082",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹3000/12mo, B ₹5000/4mo. Profit ₹4800. A share?",
+      "options": [
+        "3086",
+        "3286",
+        "3186",
+        "500"
+      ],
+      "explanation": "A:B=36000:20000. Share=4800×36000/56000=₹3086."
+    },
+    "hi": {
+      "question": "A ₹3000/12mo, B ₹5000/4mo. Profit ₹4800. A share?",
+      "options": [
+        "3086",
+        "3286",
+        "3186",
+        "500"
+      ],
+      "explanation": "A:B=36000:20000. Share=4800×36000/56000=₹3086."
+    }
+  },
+  {
+    "id": "prt-0083",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹2000/6mo, B ₹4000/10mo. Profit ₹7200. A share?",
+      "options": [
+        "1862",
+        "1662",
+        "500",
+        "1762"
+      ],
+      "explanation": "A:B=12000:40000. Share=7200×12000/52000=₹1662."
+    },
+    "hi": {
+      "question": "A ₹2000/6mo, B ₹4000/10mo. Profit ₹7200. A share?",
+      "options": [
+        "1862",
+        "1662",
+        "500",
+        "1762"
+      ],
+      "explanation": "A:B=12000:40000. Share=7200×12000/52000=₹1662."
+    }
+  },
+  {
+    "id": "prt-0084",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹4000/8mo, B ₹2000/12mo. Profit ₹7200. A share?",
+      "options": [
+        "4214",
+        "4314",
+        "500",
+        "4114"
+      ],
+      "explanation": "A:B=32000:24000. Share=7200×32000/56000=₹4114."
+    },
+    "hi": {
+      "question": "A ₹4000/8mo, B ₹2000/12mo. Profit ₹7200. A share?",
+      "options": [
+        "4214",
+        "4314",
+        "500",
+        "4114"
+      ],
+      "explanation": "A:B=32000:24000. Share=7200×32000/56000=₹4114."
+    }
+  },
+  {
+    "id": "prt-0085",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹8000/10mo, B ₹3000/3mo. Profit ₹6000. A share?",
+      "options": [
+        "5493",
+        "5393",
+        "5593",
+        "500"
+      ],
+      "explanation": "A:B=80000:9000. Share=6000×80000/89000=₹5393."
+    },
+    "hi": {
+      "question": "A ₹8000/10mo, B ₹3000/3mo. Profit ₹6000. A share?",
+      "options": [
+        "5493",
+        "5393",
+        "5593",
+        "500"
+      ],
+      "explanation": "A:B=80000:9000. Share=6000×80000/89000=₹5393."
+    }
+  },
+  {
+    "id": "prt-0086",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹5000/12mo, B ₹4000/3mo. Profit ₹9600. A share?",
+      "options": [
+        "8200",
+        "8000",
+        "500",
+        "8100"
+      ],
+      "explanation": "A:B=60000:12000. Share=9600×60000/72000=₹8000."
+    },
+    "hi": {
+      "question": "A ₹5000/12mo, B ₹4000/3mo. Profit ₹9600. A share?",
+      "options": [
+        "8200",
+        "8000",
+        "500",
+        "8100"
+      ],
+      "explanation": "A:B=60000:12000. Share=9600×60000/72000=₹8000."
+    }
+  },
+  {
+    "id": "prt-0087",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹3000/6mo, B ₹2000/12mo. Profit ₹1200. A share?",
+      "options": [
+        "514",
+        "714",
+        "614",
+        "500"
+      ],
+      "explanation": "A:B=18000:24000. Share=1200×18000/42000=₹514."
+    },
+    "hi": {
+      "question": "A ₹3000/6mo, B ₹2000/12mo. Profit ₹1200. A share?",
+      "options": [
+        "514",
+        "714",
+        "614",
+        "500"
+      ],
+      "explanation": "A:B=18000:24000. Share=1200×18000/42000=₹514."
+    }
+  },
+  {
+    "id": "prt-0088",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹8000/10mo, B ₹3000/12mo. Profit ₹2400. A share?",
+      "options": [
+        "1755",
+        "1855",
+        "500",
+        "1655"
+      ],
+      "explanation": "A:B=80000:36000. Share=2400×80000/116000=₹1655."
+    },
+    "hi": {
+      "question": "A ₹8000/10mo, B ₹3000/12mo. Profit ₹2400. A share?",
+      "options": [
+        "1755",
+        "1855",
+        "500",
+        "1655"
+      ],
+      "explanation": "A:B=80000:36000. Share=2400×80000/116000=₹1655."
+    }
+  },
+  {
+    "id": "prt-0089",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹2000/12mo, B ₹3000/3mo. Profit ₹4800. A share?",
+      "options": [
+        "3691",
+        "3491",
+        "3591",
+        "500"
+      ],
+      "explanation": "A:B=24000:9000. Share=4800×24000/33000=₹3491."
+    },
+    "hi": {
+      "question": "A ₹2000/12mo, B ₹3000/3mo. Profit ₹4800. A share?",
+      "options": [
+        "3691",
+        "3491",
+        "3591",
+        "500"
+      ],
+      "explanation": "A:B=24000:9000. Share=4800×24000/33000=₹3491."
+    }
+  },
+  {
+    "id": "prt-0090",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹6000/10mo, B ₹2000/4mo. Profit ₹6000. A share?",
+      "options": [
+        "5294",
+        "5494",
+        "5394",
+        "500"
+      ],
+      "explanation": "A:B=60000:8000. Share=6000×60000/68000=₹5294."
+    },
+    "hi": {
+      "question": "A ₹6000/10mo, B ₹2000/4mo. Profit ₹6000. A share?",
+      "options": [
+        "5294",
+        "5494",
+        "5394",
+        "500"
+      ],
+      "explanation": "A:B=60000:8000. Share=6000×60000/68000=₹5294."
+    }
+  },
+  {
+    "id": "prt-0091",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹5000/4mo, B ₹5000/10mo. Profit ₹1200. A share?",
+      "options": [
+        "343",
+        "500",
+        "543",
+        "443"
+      ],
+      "explanation": "A:B=20000:50000. Share=1200×20000/70000=₹343."
+    },
+    "hi": {
+      "question": "A ₹5000/4mo, B ₹5000/10mo. Profit ₹1200. A share?",
+      "options": [
+        "343",
+        "500",
+        "543",
+        "443"
+      ],
+      "explanation": "A:B=20000:50000. Share=1200×20000/70000=₹343."
+    }
+  },
+  {
+    "id": "prt-0092",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹6000/12mo, B ₹2000/3mo. Profit ₹2400. A share?",
+      "options": [
+        "2415",
+        "500",
+        "2215",
+        "2315"
+      ],
+      "explanation": "A:B=72000:6000. Share=2400×72000/78000=₹2215."
+    },
+    "hi": {
+      "question": "A ₹6000/12mo, B ₹2000/3mo. Profit ₹2400. A share?",
+      "options": [
+        "2415",
+        "500",
+        "2215",
+        "2315"
+      ],
+      "explanation": "A:B=72000:6000. Share=2400×72000/78000=₹2215."
+    }
+  },
+  {
+    "id": "prt-0093",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹2000/6mo, B ₹1500/12mo. Profit ₹6000. A share?",
+      "options": [
+        "500",
+        "2400",
+        "2500",
+        "2600"
+      ],
+      "explanation": "A:B=12000:18000. Share=6000×12000/30000=₹2400."
+    },
+    "hi": {
+      "question": "A ₹2000/6mo, B ₹1500/12mo. Profit ₹6000. A share?",
+      "options": [
+        "500",
+        "2400",
+        "2500",
+        "2600"
+      ],
+      "explanation": "A:B=12000:18000. Share=6000×12000/30000=₹2400."
+    }
+  },
+  {
+    "id": "prt-0094",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹2000/4mo, B ₹4000/4mo. Profit ₹2400. A share?",
+      "options": [
+        "900",
+        "800",
+        "500",
+        "1000"
+      ],
+      "explanation": "A:B=8000:16000. Share=2400×8000/24000=₹800."
+    },
+    "hi": {
+      "question": "A ₹2000/4mo, B ₹4000/4mo. Profit ₹2400. A share?",
+      "options": [
+        "900",
+        "800",
+        "500",
+        "1000"
+      ],
+      "explanation": "A:B=8000:16000. Share=2400×8000/24000=₹800."
+    }
+  },
+  {
+    "id": "prt-0095",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹5000/12mo, B ₹3000/3mo. Profit ₹1200. A share?",
+      "options": [
+        "1043",
+        "500",
+        "1143",
+        "1243"
+      ],
+      "explanation": "A:B=60000:9000. Share=1200×60000/69000=₹1043."
+    },
+    "hi": {
+      "question": "A ₹5000/12mo, B ₹3000/3mo. Profit ₹1200. A share?",
+      "options": [
+        "1043",
+        "500",
+        "1143",
+        "1243"
+      ],
+      "explanation": "A:B=60000:9000. Share=1200×60000/69000=₹1043."
+    }
+  },
+  {
+    "id": "prt-0096",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹5000/4mo, B ₹4000/10mo. Profit ₹1200. A share?",
+      "options": [
+        "500",
+        "400",
+        "500",
         "600"
       ],
-      "explanation": "LCM=600/1=600."
+      "explanation": "A:B=20000:40000. Share=1200×20000/60000=₹400."
     },
     "hi": {
-      "question": "24 और 25 का ल.स.?",
+      "question": "A ₹5000/4mo, B ₹4000/10mo. Profit ₹1200. A share?",
       "options": [
-        "601",
-        "602",
-        "603",
+        "500",
+        "400",
+        "500",
         "600"
       ],
-      "explanation": "ल.स.=600।"
-    },
-    "id": "nmma-0093"
+      "explanation": "A:B=20000:40000. Share=1200×20000/60000=₹400."
+    }
   },
   {
+    "id": "prt-0097",
     "correctOption": "B",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "28% of 420?",
+      "question": "A ₹2000/8mo, B ₹3000/10mo. Profit ₹4800. A share?",
       "options": [
-        "420",
-        "1176",
-        "840",
-        "210"
+        "500",
+        "1670",
+        "1870",
+        "1770"
       ],
-      "explanation": "420×28/100=1176."
+      "explanation": "A:B=16000:30000. Share=4800×16000/46000=₹1670."
     },
     "hi": {
-      "question": "420 का 28%?",
+      "question": "A ₹2000/8mo, B ₹3000/10mo. Profit ₹4800. A share?",
       "options": [
-        "420",
-        "1176",
-        "840",
-        "210"
+        "500",
+        "1670",
+        "1870",
+        "1770"
       ],
-      "explanation": "420×28/100=1176।"
-    },
-    "id": "nmma-0094"
+      "explanation": "A:B=16000:30000. Share=4800×16000/46000=₹1670."
+    }
   },
   {
+    "id": "prt-0098",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹6000/4mo, B ₹1500/10mo. Profit ₹7200. A share?",
+      "options": [
+        "500",
+        "4631",
+        "4531",
+        "4431"
+      ],
+      "explanation": "A:B=24000:15000. Share=7200×24000/39000=₹4431."
+    },
+    "hi": {
+      "question": "A ₹6000/4mo, B ₹1500/10mo. Profit ₹7200. A share?",
+      "options": [
+        "500",
+        "4631",
+        "4531",
+        "4431"
+      ],
+      "explanation": "A:B=24000:15000. Share=7200×24000/39000=₹4431."
+    }
+  },
+  {
+    "id": "prt-0099",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "A ₹5000/12mo, B ₹3000/6mo. Profit ₹6000. A share?",
+      "options": [
+        "500",
+        "4715",
+        "4615",
+        "4815"
+      ],
+      "explanation": "A:B=60000:18000. Share=6000×60000/78000=₹4615."
+    },
+    "hi": {
+      "question": "A ₹5000/12mo, B ₹3000/6mo. Profit ₹6000. A share?",
+      "options": [
+        "500",
+        "4715",
+        "4615",
+        "4815"
+      ],
+      "explanation": "A:B=60000:18000. Share=6000×60000/78000=₹4615."
+    }
+  },
+  {
+    "id": "prt-0100",
     "correctOption": "A",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Divide 340 in 7:10. Larger?",
+      "question": "A ₹6000/10mo, B ₹4000/4mo. Profit ₹6000. A share?",
       "options": [
-        "200",
-        "140",
-        "170",
-        "340"
+        "4737",
+        "500",
+        "4937",
+        "4837"
       ],
-      "explanation": "Parts=17. Shares: 140, 200. Larger=200."
+      "explanation": "A:B=60000:16000. Share=6000×60000/76000=₹4737."
     },
     "hi": {
-      "question": "340 को 7:10 में बांटें। बड़ा?",
+      "question": "A ₹6000/10mo, B ₹4000/4mo. Profit ₹6000. A share?",
       "options": [
-        "200",
-        "140",
-        "170",
-        "340"
+        "4737",
+        "500",
+        "4937",
+        "4837"
       ],
-      "explanation": "हिस्से: 140, 200। बड़ा=200।"
-    },
-    "id": "nmma-0095"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 42000 at 7% for 26yrs?",
-      "options": [
-        "Rs.42000",
-        "Rs.152880",
-        "Rs.38220",
-        "Rs.76440"
-      ],
-      "explanation": "SI=42000×7×26/100=76440.0."
-    },
-    "hi": {
-      "question": "42000रु, 7%, 26वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.42000",
-        "Rs.152880",
-        "Rs.38220",
-        "Rs.76440"
-      ],
-      "explanation": "सा.ब्याज=76440.0।"
-    },
-    "id": "nmma-0096"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "15% of 380?",
-      "options": [
-        "380",
-        "760",
-        "190",
-        "570"
-      ],
-      "explanation": "380×15/100=570."
-    },
-    "hi": {
-      "question": "380 का 15%?",
-      "options": [
-        "380",
-        "760",
-        "190",
-        "570"
-      ],
-      "explanation": "380×15/100=570।"
-    },
-    "id": "nmma-0097"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 56, 16, 62, 12, 25, 51",
-      "options": [
-        "62",
-        "12",
-        "37",
-        "222"
-      ],
-      "explanation": "Sum=222/6=37."
-    },
-    "hi": {
-      "question": "औसत: 56, 16, 62, 12, 25, 51",
-      "options": [
-        "62",
-        "12",
-        "37",
-        "222"
-      ],
-      "explanation": "योग=222/6=37।"
-    },
-    "id": "nmma-0098"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 15×4cm. Area?",
-      "options": [
-        "19 cm²",
-        "38 cm²",
-        "60 cm²",
-        "120 cm²"
-      ],
-      "explanation": "Area=15×4=60 cm²."
-    },
-    "hi": {
-      "question": "आयत 15×4सेमी। क्षेत्रफल?",
-      "options": [
-        "19 cm²",
-        "38 cm²",
-        "60 cm²",
-        "120 cm²"
-      ],
-      "explanation": "क्षेत्रफल=15×4=60 वर्ग सेमी।"
-    },
-    "id": "nmma-0099"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "CP Rs.200, 13% profit. SP?",
-      "options": [
-        "180",
-        "400",
-        "226",
-        "200"
-      ],
-      "explanation": "SP=200×1.13=226.0."
-    },
-    "hi": {
-      "question": "क्र.मू. 200रु, 13% लाभ। वि.मू.?",
-      "options": [
-        "180",
-        "400",
-        "226",
-        "200"
-      ],
-      "explanation": "वि.मू.=226.0।"
-    },
-    "id": "nmma-0100"
+      "explanation": "A:B=60000:16000. Share=6000×60000/76000=₹4737."
+    }
   }
 ]

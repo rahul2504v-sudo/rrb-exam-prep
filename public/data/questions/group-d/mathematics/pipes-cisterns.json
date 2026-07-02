@@ -1,2602 +1,2602 @@
 [
   {
-    "id": "gdmpc-0001",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "A pipe can fill a tank in 6 hours. Another pipe can empty it in 8 hours. If both pipes are opened together, how long will it take to fill the tank?",
-      "options": [
-        "12 hours",
-        "18 hours",
-        "24 hours",
-        "30 hours"
-      ],
-      "explanation": "Net fill per hour = 1/6 - 1/8 = 4/24 - 3/24 = 1/24. Time = 24 hours."
-    },
-    "hi": {
-      "question": "एक पाइप एक टंकी को 6 घंटे में भर सकता है। दूसरा पाइप इसे 8 घंटे में खाली कर सकता है। यदि दोनों पाइप एक साथ खोले जाएं, तो टंकी भरने में कितना समय लगेगा?",
-      "options": [
-        "12 घंटे",
-        "18 घंटे",
-        "24 घंटे",
-        "30 घंटे"
-      ],
-      "explanation": "प्रति घंटा शुद्ध भराव = 1/6 - 1/8 = 4/24 - 3/24 = 1/24। समय = 24 घंटे।"
-    }
-  },
-  {
-    "id": "gdmpc-0002",
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2023,
-    "en": {
-      "question": "Two pipes A and B can fill a tank in 12 and 16 minutes respectively. Both are opened together but after 4 minutes, A is turned off. How long will B take to fill the remaining tank?",
-      "options": [
-        "4 min 40 sec",
-        "5 min 20 sec",
-        "6 min 40 sec",
-        "8 min"
-      ],
-      "explanation": "In 4 min, both fill: 4 x (1/12 + 1/16) = 4 x (7/48) = 28/48 = 7/12. Remaining = 5/12. B fills at 1/16 per min. Time = (5/12) / (1/16) = 80/12 = 20/3 = 6 min 40 sec."
-    },
-    "hi": {
-      "question": "दो पाइप A और B एक टंकी को क्रमशः 12 और 16 मिनट में भर सकते हैं। दोनों एक साथ खोले जाते हैं लेकिन 4 मिनट बाद A बंद कर दिया जाता है। शेष टंकी भरने में B को कितना समय लगेगा?",
-      "options": [
-        "4 मिनट 40 सेकंड",
-        "5 मिनट 20 सेकंड",
-        "6 मिनट 40 सेकंड",
-        "8 मिनट"
-      ],
-      "explanation": "4 मिनट में दोनों का भराव: 4 × (1/12 + 1/16) = 4 × (7/48) = 28/48 = 7/12। शेष = 5/12। B 1/16 प्रति मिनट भरता है। समय = (5/12) / (1/16) = 80/12 = 20/3 = 6 मिनट 40 सेकंड।"
-    }
-  },
-  {
-    "id": "gdmpc-0003",
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Three pipes A, B, and C can fill a tank in 6, 8, and 12 hours respectively. If all three are opened together, how long will it take to fill the tank?",
-      "options": [
-        "2 hours",
-        "2 hours 40 min",
-        "3 hours",
-        "3 hours 20 min"
-      ],
-      "explanation": "Per hour: A=1/6, B=1/8, C=1/12. Together = 4/24+3/24+2/24 = 9/24 = 3/8. Time = 8/3 = 2 hr 40 min."
-    },
-    "hi": {
-      "question": "तीन पाइप A, B और C एक टंकी को क्रमशः 6, 8 और 12 घंटे में भर सकते हैं। यदि तीनों एक साथ खोले जाएं, तो टंकी भरने में कितना समय लगेगा?",
-      "options": [
-        "2 घंटे",
-        "2 घंटे 40 मिनट",
-        "3 घंटे",
-        "3 घंटे 20 मिनट"
-      ],
-      "explanation": "प्रति घंटा: A=1/6, B=1/8, C=1/12। मिलकर = 4/24+3/24+2/24 = 9/24 = 3/8। समय = 8/3 = 2 घंटे 40 मिनट।"
-    }
-  },
-  {
-    "id": "gdmpc-0004",
+    "id": "pc-0001",
     "correctOption": "B",
     "difficulty": "medium",
-    "sourceYear": 2023,
+    "sourceYear": 2025,
     "en": {
-      "question": "Pipe A fills a tank in 5 hours. Due to a leak at the bottom, it takes 6 hours. How long will the leak alone take to empty the full tank?",
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
       "options": [
-        "25 hours",
-        "30 hours",
-        "35 hours",
-        "40 hours"
+        "4",
+        "2",
+        "3",
+        "3"
       ],
-      "explanation": "A fills at 1/5 per hour. Net with leak = 1/6. Leak empties at 1/5 - 1/6 = 1/30 per hour. Leak alone = 30 hours."
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
     },
     "hi": {
-      "question": "पाइप A एक टंकी को 5 घंटे में भरता है। तली में रिसाव के कारण, 6 घंटे लगते हैं। रिसाव अकेला भरी टंकी को कितने घंटे में खाली करेगा?",
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
       "options": [
-        "25 घंटे",
-        "30 घंटे",
-        "35 घंटे",
-        "40 घंटे"
+        "4",
+        "2",
+        "3",
+        "3"
       ],
-      "explanation": "A प्रति घंटा 1/5 भरता है। रिसाव के साथ शुद्ध = 1/6। रिसाव प्रति घंटा खाली करता है = 1/5 - 1/6 = 1/30। रिसाव अकेला = 30 घंटे।"
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
     }
   },
   {
-    "id": "gdmpc-0005",
+    "id": "pc-0002",
     "correctOption": "D",
     "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "Two pipes can fill a tank in 10 and 12 minutes. A third pipe can empty it in 6 minutes. If all three are open, how long to fill?",
-      "options": [
-        "45 min",
-        "50 min",
-        "55 min",
-        "60 min"
-      ],
-      "explanation": "Net per minute = 1/10 + 1/12 - 1/6 = 6/60 + 5/60 - 10/60 = 1/60. Time = 60 minutes."
-    },
-    "hi": {
-      "question": "दो पाइप एक टंकी को 10 और 12 मिनट में भर सकते हैं। तीसरा पाइप इसे 6 मिनट में खाली कर सकता है। यदि तीनों खुले हों, तो भरने में कितना समय लगेगा?",
-      "options": [
-        "45 मिनट",
-        "50 मिनट",
-        "55 मिनट",
-        "60 मिनट"
-      ],
-      "explanation": "प्रति मिनट शुद्ध = 1/10 + 1/12 - 1/6 = 6/60 + 5/60 - 10/60 = 1/60। समय = 60 मिनट।"
-    }
-  },
-  {
-    "id": "gdmpc-0006",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2023,
-    "en": {
-      "question": "Pipe A is 3 times as fast as pipe B. Together they fill a tank in 15 minutes. How long will A alone take?",
-      "options": [
-        "18 min",
-        "20 min",
-        "22 min",
-        "24 min"
-      ],
-      "explanation": "Let B rate = x, A rate = 3x. Together = 4x per min. Total work = 4x x 15 = 60x. A alone = 60x/3x = 20 min."
-    },
-    "hi": {
-      "question": "पाइप A, पाइप B से 3 गुना तेज है। दोनों मिलकर एक टंकी 15 मिनट में भरते हैं। A अकेला कितने मिनट में भरेगा?",
-      "options": [
-        "18 मिनट",
-        "20 मिनट",
-        "22 मिनट",
-        "24 मिनट"
-      ],
-      "explanation": "माना B की दर = x, A की दर = 3x। मिलकर = 4x प्रति मिनट। कुल कार्य = 4x × 15 = 60x। A अकेला = 60x/3x = 20 मिनट।"
-    }
-  },
-  {
-    "id": "gdmpc-0007",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2024,
-    "en": {
-      "question": "A tank is filled by 3 pipes in 4 hours. If the first pipe alone takes 10 hours and the second alone takes 12 hours, how long will the third alone take?",
-      "options": [
-        "12 hours",
-        "15 hours",
-        "18 hours",
-        "20 hours"
-      ],
-      "explanation": "Together rate = 1/4 per hour. 1/10 + 1/12 + 1/x = 1/4. 6/60 + 5/60 + 1/x = 15/60. 11/60 + 1/x = 15/60. 1/x = 4/60 = 1/15. x = 15 hours."
-    },
-    "hi": {
-      "question": "एक टंकी 3 पाइपों से 4 घंटे में भरती है। यदि पहला पाइप अकेला 10 घंटे और दूसरा अकेला 12 घंटे लेता है, तो तीसरा पाइप अकेला कितने घंटे में भरेगा?",
-      "options": [
-        "12 घंटे",
-        "15 घंटे",
-        "18 घंटे",
-        "20 घंटे"
-      ],
-      "explanation": "मिलकर दर = 1/4 प्रति घंटा। 1/10 + 1/12 + 1/x = 1/4। 6/60 + 5/60 + 1/x = 15/60। 11/60 + 1/x = 15/60। 1/x = 4/60 = 1/15। x = 15 घंटे।"
-    }
-  },
-  {
-    "id": "gdmpc-0008",
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2023,
-    "en": {
-      "question": "A pipe can fill a tank in 15 hours. After 5 hours, 2 more pipes of the same capacity are opened. How much more time is needed to fill the tank?",
-      "options": [
-        "2 hr 30 min",
-        "3 hr 20 min",
-        "4 hr",
-        "5 hr"
-      ],
-      "explanation": "One pipe fills 1/15 per hour. In 5 hours: 5/15 = 1/3 done. Remaining = 2/3. With 3 pipes, rate = 3/15 = 1/5. Time = (2/3)/(1/5) = 10/3 = 3 hr 20 min."
-    },
-    "hi": {
-      "question": "एक पाइप टंकी को 15 घंटे में भर सकता है। 5 घंटे बाद, समान क्षमता के 2 और पाइप खोले जाते हैं। टंकी भरने में और कितना समय लगेगा?",
-      "options": [
-        "2 घंटे 30 मिनट",
-        "3 घंटे 20 मिनट",
-        "4 घंटे",
-        "5 घंटे"
-      ],
-      "explanation": "एक पाइप प्रति घंटा 1/15 भरता है। 5 घंटे में: 5/15 = 1/3 भरा। शेष = 2/3। 3 पाइपों से दर = 3/15 = 1/5 प्रति घंटा। समय = (2/3)/(1/5) = 10/3 = 3 घंटे 20 मिनट।"
-    }
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
     "sourceYear": 2025,
     "en": {
-      "question": "LCM of 31 and 19?",
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
       "options": [
-        "591",
-        "589",
-        "592",
-        "590"
+        "3",
+        "8",
+        "7",
+        "6"
       ],
-      "explanation": "LCM=31×19/1=589."
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
     },
     "hi": {
-      "question": "31 और 19 का ल.स.?",
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
       "options": [
-        "591",
-        "589",
-        "592",
-        "590"
+        "3",
+        "8",
+        "7",
+        "6"
       ],
-      "explanation": "ल.स.=589।"
-    },
-    "id": "gdmpc-0009"
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 34km/hr for 3hrs. Distance?",
-      "options": [
-        "204 km",
-        "102 km",
-        "51 km",
-        "37 km"
-      ],
-      "explanation": "Distance=34×3=102km."
-    },
-    "hi": {
-      "question": "34किमी/घंटा, 3घंटे। दूरी?",
-      "options": [
-        "204 km",
-        "102 km",
-        "51 km",
-        "37 km"
-      ],
-      "explanation": "दूरी=102किमी।"
-    },
-    "id": "gdmpc-0010"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 11 and 22?",
-      "options": [
-        "11",
-        "22",
-        "33",
-        "242"
-      ],
-      "explanation": "LCM=11×22/11=22."
-    },
-    "hi": {
-      "question": "11 और 22 का ल.स.?",
-      "options": [
-        "11",
-        "22",
-        "33",
-        "242"
-      ],
-      "explanation": "ल.स.=22।"
-    },
-    "id": "gdmpc-0011"
-  },
-  {
+    "id": "pc-0003",
     "correctOption": "D",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "SI on Rs.32000 at 19% for 6 yrs?",
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
       "options": [
-        "Rs.18240",
-        "Rs.32000",
-        "Rs.72960",
-        "Rs.36480"
+        "9",
+        "3",
+        "8",
+        "7"
       ],
-      "explanation": "SI=32000×19×6/100=36480.0."
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
     },
     "hi": {
-      "question": "32000 रु. पर 19% से 6 वर्ष सा.ब्याज?",
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
       "options": [
-        "Rs.18240",
-        "Rs.32000",
-        "Rs.72960",
-        "Rs.36480"
+        "9",
+        "3",
+        "8",
+        "7"
       ],
-      "explanation": "सा.ब्याज=32000×19×6/100=36480.0।"
-    },
-    "id": "gdmpc-0012"
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    }
   },
   {
+    "id": "pc-0004",
     "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A does work in 18d, B in 5d. Together?",
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
       "options": [
-        "3.9d",
-        "7.8d",
-        "23d",
-        "13d"
+        "3",
+        "8",
+        "5",
+        "4"
       ],
-      "explanation": "1d: 1/18+1/5. Time=3.9d."
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
     },
     "hi": {
-      "question": "A 18दिन, B 5दिन। साथ?",
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
       "options": [
-        "3.9d",
-        "7.8d",
-        "23d",
-        "13d"
+        "3",
+        "8",
+        "5",
+        "4"
       ],
-      "explanation": "1दिन: 1/18+1/5। समय=3.9दिन।"
-    },
-    "id": "gdmpc-0013"
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
+    "id": "pc-0005",
+    "correctOption": "A",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "LCM of 47 and 22?",
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
       "options": [
-        "1037",
-        "1034",
-        "1036",
-        "1035"
+        "12",
+        "14",
+        "3",
+        "13"
       ],
-      "explanation": "LCM=47×22/1=1034."
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
     },
     "hi": {
-      "question": "47 और 22 का ल.स.?",
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
       "options": [
-        "1037",
-        "1034",
-        "1036",
-        "1035"
+        "12",
+        "14",
+        "3",
+        "13"
       ],
-      "explanation": "ल.स.=1034।"
-    },
-    "id": "gdmpc-0014"
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    }
   },
   {
+    "id": "pc-0006",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "7",
+        "5",
+        "3",
+        "6"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "7",
+        "5",
+        "3",
+        "6"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    }
+  },
+  {
+    "id": "pc-0007",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "3",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "3",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0008",
     "correctOption": "C",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A does work in 5d, B in 15d. Together?",
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
       "options": [
-        "20d",
-        "7.6d",
-        "3.8d",
-        "10d"
+        "3",
+        "3",
+        "2",
+        "4"
       ],
-      "explanation": "1d: 1/5+1/15. Time=3.8d."
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
     },
     "hi": {
-      "question": "A 5दिन, B 15दिन। साथ?",
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
       "options": [
-        "20d",
-        "7.6d",
-        "3.8d",
-        "10d"
+        "3",
+        "3",
+        "2",
+        "4"
       ],
-      "explanation": "1दिन: 1/5+1/15। समय=3.8दिन।"
-    },
-    "id": "gdmpc-0015"
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
+    "id": "pc-0009",
+    "correctOption": "D",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "LCM of 38 and 37?",
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
       "options": [
-        "1409",
-        "1406",
-        "1408",
-        "1407"
+        "8",
+        "3",
+        "7",
+        "6"
       ],
-      "explanation": "LCM=38×37/1=1406."
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
     },
     "hi": {
-      "question": "38 और 37 का ल.स.?",
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
       "options": [
-        "1409",
-        "1406",
-        "1408",
-        "1407"
+        "8",
+        "3",
+        "7",
+        "6"
       ],
-      "explanation": "ल.स.=1406।"
-    },
-    "id": "gdmpc-0016"
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    }
   },
   {
-    "correctOption": "A",
-    "difficulty": "easy",
+    "id": "pc-0010",
+    "correctOption": "D",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "SI on Rs.11000 at 9% for 29 yrs?",
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
       "options": [
-        "Rs.28710",
-        "Rs.57420",
-        "Rs.14355",
-        "Rs.11000"
+        "3",
+        "9",
+        "8",
+        "7"
       ],
-      "explanation": "SI=11000×9×29/100=28710.0."
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
     },
     "hi": {
-      "question": "11000 रु. पर 9% से 29 वर्ष सा.ब्याज?",
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
       "options": [
-        "Rs.28710",
-        "Rs.57420",
-        "Rs.14355",
-        "Rs.11000"
+        "3",
+        "9",
+        "8",
+        "7"
       ],
-      "explanation": "सा.ब्याज=11000×9×29/100=28710.0।"
-    },
-    "id": "gdmpc-0017"
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    }
   },
   {
+    "id": "pc-0011",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Average: 30, 32, 32, 33, 5, 13",
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
       "options": [
         "5",
-        "145",
-        "24.2",
-        "33"
+        "4",
+        "3",
+        "8"
       ],
-      "explanation": "Sum=145/6=24.2."
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
     },
     "hi": {
-      "question": "औसत: 30, 32, 32, 33, 5, 13",
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
       "options": [
         "5",
-        "145",
-        "24.2",
-        "33"
+        "4",
+        "3",
+        "8"
       ],
-      "explanation": "योग=145/6=24.2।"
-    },
-    "id": "gdmpc-0018"
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    }
   },
   {
-    "correctOption": "A",
-    "difficulty": "easy",
+    "id": "pc-0012",
+    "correctOption": "B",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Car at 12km/hr for 25hrs. Distance?",
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
       "options": [
-        "300 km",
-        "37 km",
-        "150 km",
-        "600 km"
+        "14",
+        "12",
+        "3",
+        "13"
       ],
-      "explanation": "Distance=12×25=300km."
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
     },
     "hi": {
-      "question": "12किमी/घंटा, 25घंटे। दूरी?",
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
       "options": [
-        "300 km",
-        "37 km",
-        "150 km",
-        "600 km"
+        "14",
+        "12",
+        "3",
+        "13"
       ],
-      "explanation": "दूरी=300किमी।"
-    },
-    "id": "gdmpc-0019"
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    }
   },
   {
+    "id": "pc-0013",
     "correctOption": "B",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Average: 16, 20, 69, 8, 12, 28",
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "6"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "6"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    }
+  },
+  {
+    "id": "pc-0014",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "3",
+        "8",
+        "7",
+        "6"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "3",
+        "8",
+        "7",
+        "6"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0015",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "3"
+      ],
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "3"
+      ],
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    }
+  },
+  {
+    "id": "pc-0016",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
       "options": [
         "8",
-        "25.5",
-        "153",
-        "69"
+        "6",
+        "7",
+        "3"
       ],
-      "explanation": "Sum=153/6=25.5."
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
     },
     "hi": {
-      "question": "औसत: 16, 20, 69, 8, 12, 28",
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
       "options": [
         "8",
-        "25.5",
-        "153",
-        "69"
+        "6",
+        "7",
+        "3"
       ],
-      "explanation": "योग=153/6=25.5।"
-    },
-    "id": "gdmpc-0020"
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.480, sell at 26% profit. SP?",
-      "options": [
-        "960",
-        "604.8",
-        "483",
-        "480"
-      ],
-      "explanation": "SP=480×1.26=604.8."
-    },
-    "hi": {
-      "question": "खरीदा 480 रु., 26% लाभ। वि.मू.?",
-      "options": [
-        "960",
-        "604.8",
-        "483",
-        "480"
-      ],
-      "explanation": "वि.मू.=604.8।"
-    },
-    "id": "gdmpc-0021"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 5km/hr for 35hrs. Distance?",
-      "options": [
-        "350 km",
-        "40 km",
-        "87 km",
-        "175 km"
-      ],
-      "explanation": "Distance=5×35=175km."
-    },
-    "hi": {
-      "question": "5किमी/घंटा, 35घंटे। दूरी?",
-      "options": [
-        "350 km",
-        "40 km",
-        "87 km",
-        "175 km"
-      ],
-      "explanation": "दूरी=175किमी।"
-    },
-    "id": "gdmpc-0022"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.25000 at 11% for 31 yrs?",
-      "options": [
-        "Rs.85250",
-        "Rs.42625",
-        "Rs.25000",
-        "Rs.170500"
-      ],
-      "explanation": "SI=25000×11×31/100=85250.0."
-    },
-    "hi": {
-      "question": "25000 रु. पर 11% से 31 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.85250",
-        "Rs.42625",
-        "Rs.25000",
-        "Rs.170500"
-      ],
-      "explanation": "सा.ब्याज=25000×11×31/100=85250.0।"
-    },
-    "id": "gdmpc-0023"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.410, sell at 10% profit. SP?",
-      "options": [
-        "360",
-        "451",
-        "820",
-        "410"
-      ],
-      "explanation": "SP=410×1.1=451.0."
-    },
-    "hi": {
-      "question": "खरीदा 410 रु., 10% लाभ। वि.मू.?",
-      "options": [
-        "360",
-        "451",
-        "820",
-        "410"
-      ],
-      "explanation": "वि.मू.=451.0।"
-    },
-    "id": "gdmpc-0024"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "27% of 290?",
-      "options": [
-        "783",
-        "580",
-        "145",
-        "290"
-      ],
-      "explanation": "290×27/100 = 783."
-    },
-    "hi": {
-      "question": "290 का 27%?",
-      "options": [
-        "783",
-        "580",
-        "145",
-        "290"
-      ],
-      "explanation": "290×27/100 = 783।"
-    },
-    "id": "gdmpc-0025"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 49 + 25 × 11",
-      "options": [
-        "814",
-        "299",
-        "13475",
-        "85"
-      ],
-      "explanation": "BODMAS: 25×11=275+49=299."
-    },
-    "hi": {
-      "question": "सरल करें: 49 + 25 × 11",
-      "options": [
-        "814",
-        "299",
-        "13475",
-        "85"
-      ],
-      "explanation": "BODMAS: 25×11+49=299।"
-    },
-    "id": "gdmpc-0026"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "22% of 120?",
-      "options": [
-        "264",
-        "60",
-        "120",
-        "240"
-      ],
-      "explanation": "120×22/100 = 264."
-    },
-    "hi": {
-      "question": "120 का 22%?",
-      "options": [
-        "264",
-        "60",
-        "120",
-        "240"
-      ],
-      "explanation": "120×22/100 = 264।"
-    },
-    "id": "gdmpc-0027"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 79, 65, 45, 24, 19, 42",
-      "options": [
-        "19",
-        "274",
-        "45.7",
-        "79"
-      ],
-      "explanation": "Sum=274/6=45.7."
-    },
-    "hi": {
-      "question": "औसत: 79, 65, 45, 24, 19, 42",
-      "options": [
-        "19",
-        "274",
-        "45.7",
-        "79"
-      ],
-      "explanation": "योग=274/6=45.7।"
-    },
-    "id": "gdmpc-0028"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 28d, B in 14d. Together?",
-      "options": [
-        "18.6d",
-        "42d",
-        "14d",
-        "9.3d"
-      ],
-      "explanation": "1d: 1/28+1/14. Time=9.3d."
-    },
-    "hi": {
-      "question": "A 28दिन, B 14दिन। साथ?",
-      "options": [
-        "18.6d",
-        "42d",
-        "14d",
-        "9.3d"
-      ],
-      "explanation": "1दिन: 1/28+1/14। समय=9.3दिन।"
-    },
-    "id": "gdmpc-0029"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 10km/hr for 29hrs. Distance?",
-      "options": [
-        "145 km",
-        "290 km",
-        "580 km",
-        "39 km"
-      ],
-      "explanation": "Distance=10×29=290km."
-    },
-    "hi": {
-      "question": "10किमी/घंटा, 29घंटे। दूरी?",
-      "options": [
-        "145 km",
-        "290 km",
-        "580 km",
-        "39 km"
-      ],
-      "explanation": "दूरी=290किमी।"
-    },
-    "id": "gdmpc-0030"
-  },
-  {
+    "id": "pc-0017",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A does work in 27d, B in 24d. Together?",
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
       "options": [
-        "3d",
-        "12.7d",
-        "51d",
-        "25.4d"
+        "8",
+        "7",
+        "9",
+        "3"
       ],
-      "explanation": "1d: 1/27+1/24. Time=12.7d."
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
     },
     "hi": {
-      "question": "A 27दिन, B 24दिन। साथ?",
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
       "options": [
-        "3d",
-        "12.7d",
-        "51d",
-        "25.4d"
+        "8",
+        "7",
+        "9",
+        "3"
       ],
-      "explanation": "1दिन: 1/27+1/24। समय=12.7दिन।"
-    },
-    "id": "gdmpc-0031"
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 31d, B in 39d. Together?",
-      "options": [
-        "70d",
-        "17.3d",
-        "34.6d",
-        "8d"
-      ],
-      "explanation": "1d: 1/31+1/39. Time=17.3d."
-    },
-    "hi": {
-      "question": "A 31दिन, B 39दिन। साथ?",
-      "options": [
-        "70d",
-        "17.3d",
-        "34.6d",
-        "8d"
-      ],
-      "explanation": "1दिन: 1/31+1/39। समय=17.3दिन।"
-    },
-    "id": "gdmpc-0032"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.30000 at 18% for 17 yrs?",
-      "options": [
-        "Rs.91800",
-        "Rs.30000",
-        "Rs.183600",
-        "Rs.45900"
-      ],
-      "explanation": "SI=30000×18×17/100=91800.0."
-    },
-    "hi": {
-      "question": "30000 रु. पर 18% से 17 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.91800",
-        "Rs.30000",
-        "Rs.183600",
-        "Rs.45900"
-      ],
-      "explanation": "सा.ब्याज=30000×18×17/100=91800.0।"
-    },
-    "id": "gdmpc-0033"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 36 + 19 × 5",
-      "options": [
-        "3420",
-        "112",
-        "60",
-        "275"
-      ],
-      "explanation": "BODMAS: 19×5=95+36=112."
-    },
-    "hi": {
-      "question": "सरल करें: 36 + 19 × 5",
-      "options": [
-        "3420",
-        "112",
-        "60",
-        "275"
-      ],
-      "explanation": "BODMAS: 19×5+36=112।"
-    },
-    "id": "gdmpc-0034"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 7d, B in 17d. Together?",
-      "options": [
-        "24d",
-        "10d",
-        "5d",
-        "10.0d"
-      ],
-      "explanation": "1d: 1/7+1/17. Time=5d."
-    },
-    "hi": {
-      "question": "A 7दिन, B 17दिन। साथ?",
-      "options": [
-        "24d",
-        "10d",
-        "5d",
-        "10.0d"
-      ],
-      "explanation": "1दिन: 1/7+1/17। समय=5दिन।"
-    },
-    "id": "gdmpc-0035"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.180, sell at 12% profit. SP?",
-      "options": [
-        "180",
-        "161",
-        "201.6",
-        "360"
-      ],
-      "explanation": "SP=180×1.12=201.6."
-    },
-    "hi": {
-      "question": "खरीदा 180 रु., 12% लाभ। वि.मू.?",
-      "options": [
-        "180",
-        "161",
-        "201.6",
-        "360"
-      ],
-      "explanation": "वि.मू.=201.6।"
-    },
-    "id": "gdmpc-0036"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car at 30km/hr for 15hrs. Distance?",
-      "options": [
-        "450 km",
-        "45 km",
-        "225 km",
-        "900 km"
-      ],
-      "explanation": "Distance=30×15=450km."
-    },
-    "hi": {
-      "question": "30किमी/घंटा, 15घंटे। दूरी?",
-      "options": [
-        "450 km",
-        "45 km",
-        "225 km",
-        "900 km"
-      ],
-      "explanation": "दूरी=450किमी।"
-    },
-    "id": "gdmpc-0037"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.430, sell at 19% profit. SP?",
-      "options": [
-        "860",
-        "430",
-        "409",
-        "511.7"
-      ],
-      "explanation": "SP=430×1.19=511.7."
-    },
-    "hi": {
-      "question": "खरीदा 430 रु., 19% लाभ। वि.मू.?",
-      "options": [
-        "860",
-        "430",
-        "409",
-        "511.7"
-      ],
-      "explanation": "वि.मू.=511.7।"
-    },
-    "id": "gdmpc-0038"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "medium",
-    "sourceYear": 2025,
-    "en": {
-      "question": "A does work in 31d, B in 23d. Together?",
-      "options": [
-        "26.4d",
-        "54d",
-        "13.2d",
-        "8d"
-      ],
-      "explanation": "1d: 1/31+1/23. Time=13.2d."
-    },
-    "hi": {
-      "question": "A 31दिन, B 23दिन। साथ?",
-      "options": [
-        "26.4d",
-        "54d",
-        "13.2d",
-        "8d"
-      ],
-      "explanation": "1दिन: 1/31+1/23। समय=13.2दिन।"
-    },
-    "id": "gdmpc-0039"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 25 and 23?",
-      "options": [
-        "576",
-        "575",
-        "577",
-        "578"
-      ],
-      "explanation": "LCM=25×23/1=575."
-    },
-    "hi": {
-      "question": "25 और 23 का ल.स.?",
-      "options": [
-        "576",
-        "575",
-        "577",
-        "578"
-      ],
-      "explanation": "ल.स.=575।"
-    },
-    "id": "gdmpc-0040"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 19, 22, 32, 74, 20, 32",
-      "options": [
-        "199",
-        "19",
-        "74",
-        "33.2"
-      ],
-      "explanation": "Sum=199/6=33.2."
-    },
-    "hi": {
-      "question": "औसत: 19, 22, 32, 74, 20, 32",
-      "options": [
-        "199",
-        "19",
-        "74",
-        "33.2"
-      ],
-      "explanation": "योग=199/6=33.2।"
-    },
-    "id": "gdmpc-0041"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 47 and 25?",
-      "options": [
-        "1175",
-        "1178",
-        "1177",
-        "1176"
-      ],
-      "explanation": "LCM=47×25/1=1175."
-    },
-    "hi": {
-      "question": "47 और 25 का ल.स.?",
-      "options": [
-        "1175",
-        "1178",
-        "1177",
-        "1176"
-      ],
-      "explanation": "ल.स.=1175।"
-    },
-    "id": "gdmpc-0042"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on Rs.32000 at 19% for 37 yrs?",
-      "options": [
-        "Rs.32000",
-        "Rs.224960",
-        "Rs.449920",
-        "Rs.112480"
-      ],
-      "explanation": "SI=32000×19×37/100=224960.0."
-    },
-    "hi": {
-      "question": "32000 रु. पर 19% से 37 वर्ष सा.ब्याज?",
-      "options": [
-        "Rs.32000",
-        "Rs.224960",
-        "Rs.449920",
-        "Rs.112480"
-      ],
-      "explanation": "सा.ब्याज=32000×19×37/100=224960.0।"
-    },
-    "id": "gdmpc-0043"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 6 + 18 × 8",
-      "options": [
-        "864",
-        "150",
-        "192",
-        "32"
-      ],
-      "explanation": "BODMAS: 18×8=144+6=150."
-    },
-    "hi": {
-      "question": "सरल करें: 6 + 18 × 8",
-      "options": [
-        "864",
-        "150",
-        "192",
-        "32"
-      ],
-      "explanation": "BODMAS: 18×8+6=150।"
-    },
-    "id": "gdmpc-0044"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "13% of 120?",
-      "options": [
-        "156",
-        "60",
-        "240",
-        "120"
-      ],
-      "explanation": "120×13/100 = 156."
-    },
-    "hi": {
-      "question": "120 का 13%?",
-      "options": [
-        "156",
-        "60",
-        "240",
-        "120"
-      ],
-      "explanation": "120×13/100 = 156।"
-    },
-    "id": "gdmpc-0045"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 23 and 17?",
-      "options": [
-        "391",
-        "394",
-        "393",
-        "392"
-      ],
-      "explanation": "LCM=23×17/1=391."
-    },
-    "hi": {
-      "question": "23 और 17 का ल.स.?",
-      "options": [
-        "391",
-        "394",
-        "393",
-        "392"
-      ],
-      "explanation": "ल.स.=391।"
-    },
-    "id": "gdmpc-0046"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 21 and 13?",
-      "options": [
-        "273",
-        "275",
-        "276",
-        "274"
-      ],
-      "explanation": "LCM=21×13/1=273."
-    },
-    "hi": {
-      "question": "21 और 13 का ल.स.?",
-      "options": [
-        "273",
-        "275",
-        "276",
-        "274"
-      ],
-      "explanation": "ल.स.=273।"
-    },
-    "id": "gdmpc-0047"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 16, 54, 71, 19, 63, 15",
-      "options": [
-        "15",
-        "39.7",
-        "238",
-        "71"
-      ],
-      "explanation": "Sum=238/6=39.7."
-    },
-    "hi": {
-      "question": "औसत: 16, 54, 71, 19, 63, 15",
-      "options": [
-        "15",
-        "39.7",
-        "238",
-        "71"
-      ],
-      "explanation": "योग=238/6=39.7।"
-    },
-    "id": "gdmpc-0048"
-  },
-  {
+    "id": "pc-0018",
     "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A does work in 35d, B in 37d. Together?",
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
       "options": [
-        "18d",
-        "72d",
-        "2d",
-        "36.0d"
+        "3",
+        "5",
+        "8",
+        "4"
       ],
-      "explanation": "1d: 1/35+1/37. Time=18d."
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
     },
     "hi": {
-      "question": "A 35दिन, B 37दिन। साथ?",
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
       "options": [
-        "18d",
-        "72d",
-        "2d",
-        "36.0d"
+        "3",
+        "5",
+        "8",
+        "4"
       ],
-      "explanation": "1दिन: 1/35+1/37। समय=18दिन।"
-    },
-    "id": "gdmpc-0049"
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    }
   },
   {
+    "id": "pc-0019",
     "correctOption": "B",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "SI on Rs.29000 at 24% for 19 yrs?",
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
       "options": [
-        "Rs.264480",
-        "Rs.132240",
-        "Rs.66120",
-        "Rs.29000"
+        "3",
+        "12",
+        "14",
+        "13"
       ],
-      "explanation": "SI=29000×24×19/100=132240.0."
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
     },
     "hi": {
-      "question": "29000 रु. पर 24% से 19 वर्ष सा.ब्याज?",
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
       "options": [
-        "Rs.264480",
-        "Rs.132240",
-        "Rs.66120",
-        "Rs.29000"
+        "3",
+        "12",
+        "14",
+        "13"
       ],
-      "explanation": "सा.ब्याज=29000×24×19/100=132240.0।"
-    },
-    "id": "gdmpc-0051"
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    }
   },
   {
+    "id": "pc-0020",
     "correctOption": "D",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Simplify: 21 + 8 × 8",
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
       "options": [
-        "1344",
-        "37",
-        "232",
-        "69"
+        "7",
+        "3",
+        "6",
+        "5"
       ],
-      "explanation": "BODMAS: 8×8=64+21=69."
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
     },
     "hi": {
-      "question": "सरल करें: 21 + 8 × 8",
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
       "options": [
-        "1344",
-        "37",
-        "232",
-        "69"
+        "7",
+        "3",
+        "6",
+        "5"
       ],
-      "explanation": "BODMAS: 8×8+21=69।"
-    },
-    "id": "gdmpc-0052"
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.220, sell at 8% profit. SP?",
-      "options": [
-        "440",
-        "237.6",
-        "220",
-        "190"
-      ],
-      "explanation": "SP=220×1.08=237.6."
-    },
-    "hi": {
-      "question": "खरीदा 220 रु., 8% लाभ। वि.मू.?",
-      "options": [
-        "440",
-        "237.6",
-        "220",
-        "190"
-      ],
-      "explanation": "वि.मू.=237.6।"
-    },
-    "id": "gdmpc-0053"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.450, sell at 29% profit. SP?",
-      "options": [
-        "450",
-        "464",
-        "580.5",
-        "900"
-      ],
-      "explanation": "SP=450×1.29=580.5."
-    },
-    "hi": {
-      "question": "खरीदा 450 रु., 29% लाभ। वि.मू.?",
-      "options": [
-        "450",
-        "464",
-        "580.5",
-        "900"
-      ],
-      "explanation": "वि.मू.=580.5।"
-    },
-    "id": "gdmpc-0054"
-  },
-  {
+    "id": "pc-0021",
     "correctOption": "D",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "LCM of 34 and 36?",
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
       "options": [
-        "1224",
-        "70",
+        "8",
+        "3",
+        "7",
+        "6"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "8",
+        "3",
+        "7",
+        "6"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0022",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
+      "options": [
         "2",
-        "612"
+        "3",
+        "4",
+        "3"
       ],
-      "explanation": "LCM=34×36/2=612."
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
     },
     "hi": {
-      "question": "34 और 36 का ल.स.?",
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
       "options": [
-        "1224",
-        "70",
         "2",
-        "612"
+        "3",
+        "4",
+        "3"
       ],
-      "explanation": "ल.स.=612।"
-    },
-    "id": "gdmpc-0055"
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    }
   },
   {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Buy Rs.450, sell at 5% profit. SP?",
-      "options": [
-        "472.5",
-        "378",
-        "450",
-        "900"
-      ],
-      "explanation": "SP=450×1.05=472.5."
-    },
-    "hi": {
-      "question": "खरीदा 450 रु., 5% लाभ। वि.मू.?",
-      "options": [
-        "472.5",
-        "378",
-        "450",
-        "900"
-      ],
-      "explanation": "वि.मू.=472.5।"
-    },
-    "id": "gdmpc-0056"
-  },
-  {
+    "id": "pc-0023",
     "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "15% of 320?",
-      "options": [
-        "160",
-        "480",
-        "320",
-        "640"
-      ],
-      "explanation": "320×15/100 = 480."
-    },
-    "hi": {
-      "question": "320 का 15%?",
-      "options": [
-        "160",
-        "480",
-        "320",
-        "640"
-      ],
-      "explanation": "320×15/100 = 480।"
-    },
-    "id": "gdmpc-0057"
-  },
-  {
-    "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A does work in 41d, B in 22d. Together?",
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
       "options": [
-        "14.3d",
-        "28.6d",
-        "19d",
-        "63d"
+        "7",
+        "6",
+        "8",
+        "3"
       ],
-      "explanation": "1d: 1/41+1/22. Time=14.3d."
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
     },
     "hi": {
-      "question": "A 41दिन, B 22दिन। साथ?",
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
       "options": [
-        "14.3d",
-        "28.6d",
-        "19d",
-        "63d"
+        "7",
+        "6",
+        "8",
+        "3"
       ],
-      "explanation": "1दिन: 1/41+1/22। समय=14.3दिन।"
-    },
-    "id": "gdmpc-0058"
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    }
   },
   {
-    "correctOption": "D",
-    "difficulty": "easy",
+    "id": "pc-0024",
+    "correctOption": "B",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Divide 1530 in 7:10. Larger?",
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
       "options": [
-        "765",
-        "630",
-        "1530",
-        "900"
+        "9",
+        "7",
+        "8",
+        "3"
       ],
-      "explanation": "Parts=17. Shares: 630, 900. Larger=900."
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
     },
     "hi": {
-      "question": "1530 को 7:10 में बांटें। बड़ा?",
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
       "options": [
-        "765",
-        "630",
-        "1530",
-        "900"
+        "9",
+        "7",
+        "8",
+        "3"
       ],
-      "explanation": "हिस्से: 630, 900। बड़ा=900।"
-    },
-    "id": "gdmpc-0059"
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    }
   },
   {
+    "id": "pc-0025",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "4",
+        "8",
+        "5",
+        "3"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "4",
+        "8",
+        "5",
+        "3"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    }
+  },
+  {
+    "id": "pc-0026",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "CP Rs.470, 19% profit. SP?",
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
       "options": [
-        "940",
-        "470",
-        "559.3",
-        "447"
+        "13",
+        "14",
+        "12",
+        "3"
       ],
-      "explanation": "SP=470×1.19=559.3."
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
     },
     "hi": {
-      "question": "क्र.मू. 470रु, 19% लाभ। वि.मू.?",
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
       "options": [
-        "940",
-        "470",
-        "559.3",
-        "447"
+        "13",
+        "14",
+        "12",
+        "3"
       ],
-      "explanation": "वि.मू.=559.3।"
-    },
-    "id": "gdmpc-0060"
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    }
   },
   {
+    "id": "pc-0027",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    }
+  },
+  {
+    "id": "pc-0028",
     "correctOption": "D",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Car 37km/hr, 35hrs. Distance?",
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
       "options": [
-        "72km",
-        "647km",
-        "2590km",
-        "1295km"
+        "8",
+        "7",
+        "3",
+        "6"
       ],
-      "explanation": "Dist=37×35=1295km."
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
     },
     "hi": {
-      "question": "कार 37किमी/घं, 35घंटे। दूरी?",
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
       "options": [
-        "72km",
-        "647km",
-        "2590km",
-        "1295km"
+        "8",
+        "7",
+        "3",
+        "6"
       ],
-      "explanation": "दूरी=1295किमी।"
-    },
-    "id": "gdmpc-0061"
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    }
   },
   {
+    "id": "pc-0029",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
+      "options": [
+        "3",
+        "3",
+        "2",
+        "4"
+      ],
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
+      "options": [
+        "3",
+        "3",
+        "2",
+        "4"
+      ],
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    }
+  },
+  {
+    "id": "pc-0030",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
+      "options": [
+        "3",
+        "8",
+        "7",
+        "6"
+      ],
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
+      "options": [
+        "3",
+        "8",
+        "7",
+        "6"
+      ],
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0031",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
+      "options": [
+        "7",
+        "3",
+        "9",
+        "8"
+      ],
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
+      "options": [
+        "7",
+        "3",
+        "9",
+        "8"
+      ],
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    }
+  },
+  {
+    "id": "pc-0032",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "3",
+        "5",
+        "8",
+        "4"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "3",
+        "5",
+        "8",
+        "4"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    }
+  },
+  {
+    "id": "pc-0033",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
+      "options": [
+        "13",
+        "3",
+        "14",
+        "12"
+      ],
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
+      "options": [
+        "13",
+        "3",
+        "14",
+        "12"
+      ],
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    }
+  },
+  {
+    "id": "pc-0034",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "3"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "3"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    }
+  },
+  {
+    "id": "pc-0035",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "3",
+        "8",
+        "7",
+        "6"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "3",
+        "8",
+        "7",
+        "6"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0036",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A=35d, B=29d. Together?",
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
       "options": [
-        "6d",
-        "15.9d",
-        "31.8d",
-        "64d"
+        "3",
+        "2",
+        "3",
+        "4"
       ],
-      "explanation": "1d: 1/35+1/29. Time=15.9d."
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
     },
     "hi": {
-      "question": "A=35दिन, B=29दिन। साथ?",
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
       "options": [
-        "6d",
-        "15.9d",
-        "31.8d",
-        "64d"
+        "3",
+        "2",
+        "3",
+        "4"
       ],
-      "explanation": "1दिन: 1/35+1/29। समय=15.9दिन।"
-    },
-    "id": "gdmpc-0062"
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
+    "id": "pc-0037",
+    "correctOption": "D",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Divide 335 in 2:3. Larger?",
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
       "options": [
-        "167",
-        "201",
-        "335",
-        "134"
+        "3",
+        "7",
+        "8",
+        "6"
       ],
-      "explanation": "Parts=5. Shares: 134, 201. Larger=201."
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
     },
     "hi": {
-      "question": "335 को 2:3 में बांटें। बड़ा?",
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
       "options": [
-        "167",
-        "201",
-        "335",
-        "134"
+        "3",
+        "7",
+        "8",
+        "6"
       ],
-      "explanation": "हिस्से: 134, 201। बड़ा=201।"
-    },
-    "id": "gdmpc-0063"
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    }
   },
   {
+    "id": "pc-0038",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
+      "options": [
+        "3",
+        "8",
+        "9",
+        "7"
+      ],
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
+      "options": [
+        "3",
+        "8",
+        "9",
+        "7"
+      ],
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    }
+  },
+  {
+    "id": "pc-0039",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "5",
+        "4",
+        "8",
+        "3"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "5",
+        "4",
+        "8",
+        "3"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    }
+  },
+  {
+    "id": "pc-0040",
     "correctOption": "B",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A=13d, B=12d. Together?",
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
       "options": [
-        "1d",
-        "6.2d",
-        "25d",
-        "12.4d"
+        "3",
+        "12",
+        "13",
+        "14"
       ],
-      "explanation": "1d: 1/13+1/12. Time=6.2d."
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
     },
     "hi": {
-      "question": "A=13दिन, B=12दिन। साथ?",
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
       "options": [
-        "1d",
-        "6.2d",
-        "25d",
-        "12.4d"
+        "3",
+        "12",
+        "13",
+        "14"
       ],
-      "explanation": "1दिन: 1/13+1/12। समय=6.2दिन।"
-    },
-    "id": "gdmpc-0064"
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    }
   },
   {
-    "correctOption": "A",
-    "difficulty": "easy",
+    "id": "pc-0041",
+    "correctOption": "B",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "LCM of 37 and 14?",
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
       "options": [
-        "518",
-        "521",
-        "519",
-        "520"
+        "3",
+        "5",
+        "6",
+        "7"
       ],
-      "explanation": "LCM=518/1=518."
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
     },
     "hi": {
-      "question": "37 और 14 का ल.स.?",
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
       "options": [
-        "518",
-        "521",
-        "519",
-        "520"
+        "3",
+        "5",
+        "6",
+        "7"
       ],
-      "explanation": "ल.स.=518।"
-    },
-    "id": "gdmpc-0065"
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    }
   },
   {
-    "correctOption": "A",
-    "difficulty": "easy",
+    "id": "pc-0042",
+    "correctOption": "D",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Rectangle 13×9cm. Area?",
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
       "options": [
-        "117 cm²",
-        "234 cm²",
-        "22 cm²",
-        "44 cm²"
+        "7",
+        "3",
+        "8",
+        "6"
       ],
-      "explanation": "Area=13×9=117 cm²."
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
     },
     "hi": {
-      "question": "आयत 13×9सेमी। क्षेत्रफल?",
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
       "options": [
-        "117 cm²",
-        "234 cm²",
-        "22 cm²",
-        "44 cm²"
+        "7",
+        "3",
+        "8",
+        "6"
       ],
-      "explanation": "क्षेत्रफल=13×9=117 वर्ग सेमी।"
-    },
-    "id": "gdmpc-0066"
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    }
   },
   {
-    "correctOption": "A",
-    "difficulty": "easy",
+    "id": "pc-0043",
+    "correctOption": "B",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Average: 72, 64, 9, 75, 77, 17",
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
       "options": [
-        "52.3",
-        "77",
-        "314",
+        "4",
+        "2",
+        "3",
+        "3"
+      ],
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "3"
+      ],
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    }
+  },
+  {
+    "id": "pc-0044",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
+      "options": [
+        "3",
+        "7",
+        "8",
+        "6"
+      ],
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
+      "options": [
+        "3",
+        "7",
+        "8",
+        "6"
+      ],
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0045",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
+      "options": [
+        "3",
+        "7",
+        "9",
+        "8"
+      ],
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
+      "options": [
+        "3",
+        "7",
+        "9",
+        "8"
+      ],
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    }
+  },
+  {
+    "id": "pc-0046",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "3",
+        "8",
+        "4",
+        "5"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "3",
+        "8",
+        "4",
+        "5"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    }
+  },
+  {
+    "id": "pc-0047",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
+      "options": [
+        "14",
+        "12",
+        "13",
+        "3"
+      ],
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
+      "options": [
+        "14",
+        "12",
+        "13",
+        "3"
+      ],
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    }
+  },
+  {
+    "id": "pc-0048",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "3",
+        "7",
+        "6",
+        "5"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "3",
+        "7",
+        "6",
+        "5"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    }
+  },
+  {
+    "id": "pc-0049",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "8",
+        "6",
+        "7",
+        "3"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "8",
+        "6",
+        "7",
+        "3"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0050",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "3"
+      ],
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "3"
+      ],
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    }
+  },
+  {
+    "id": "pc-0051",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "3"
+      ],
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "3"
+      ],
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0052",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
+      "options": [
+        "9",
+        "8",
+        "3",
+        "7"
+      ],
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
+      "options": [
+        "9",
+        "8",
+        "3",
+        "7"
+      ],
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    }
+  },
+  {
+    "id": "pc-0053",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "5",
+        "4",
+        "8",
+        "3"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "5",
+        "4",
+        "8",
+        "3"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    }
+  },
+  {
+    "id": "pc-0054",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
+      "options": [
+        "14",
+        "12",
+        "3",
+        "13"
+      ],
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
+      "options": [
+        "14",
+        "12",
+        "3",
+        "13"
+      ],
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    }
+  },
+  {
+    "id": "pc-0055",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "7",
+        "6",
+        "3",
+        "5"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "7",
+        "6",
+        "3",
+        "5"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    }
+  },
+  {
+    "id": "pc-0056",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "7",
+        "3",
+        "8",
+        "6"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "7",
+        "3",
+        "8",
+        "6"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0057",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "3"
+      ],
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "3"
+      ],
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    }
+  },
+  {
+    "id": "pc-0058",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
+      "options": [
+        "3",
+        "8",
+        "7",
+        "6"
+      ],
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
+      "options": [
+        "3",
+        "8",
+        "7",
+        "6"
+      ],
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0059",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
+      "options": [
+        "7",
+        "9",
+        "3",
+        "8"
+      ],
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
+      "options": [
+        "7",
+        "9",
+        "3",
+        "8"
+      ],
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    }
+  },
+  {
+    "id": "pc-0060",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "8"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "8"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    }
+  },
+  {
+    "id": "pc-0061",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
+      "options": [
+        "13",
+        "3",
+        "12",
+        "14"
+      ],
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
+      "options": [
+        "13",
+        "3",
+        "12",
+        "14"
+      ],
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    }
+  },
+  {
+    "id": "pc-0062",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "7",
+        "6",
+        "3",
+        "5"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "7",
+        "6",
+        "3",
+        "5"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    }
+  },
+  {
+    "id": "pc-0063",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "3"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "3"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0064",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
+      "options": [
+        "2",
+        "3",
+        "3",
+        "4"
+      ],
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
+      "options": [
+        "2",
+        "3",
+        "3",
+        "4"
+      ],
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    }
+  },
+  {
+    "id": "pc-0065",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
+      "options": [
+        "8",
+        "6",
+        "7",
+        "3"
+      ],
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
+      "options": [
+        "8",
+        "6",
+        "7",
+        "3"
+      ],
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0066",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
+      "options": [
+        "3",
+        "8",
+        "7",
         "9"
       ],
-      "explanation": "Sum=314/6=52.3."
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
     },
     "hi": {
-      "question": "औसत: 72, 64, 9, 75, 77, 17",
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
       "options": [
-        "52.3",
-        "77",
-        "314",
+        "3",
+        "8",
+        "7",
         "9"
       ],
-      "explanation": "योग=314/6=52.3।"
-    },
-    "id": "gdmpc-0067"
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 15 + 22 × 3",
-      "options": [
-        "990",
-        "81",
-        "40",
-        "111"
-      ],
-      "explanation": "BODMAS: 22×3=66+15=81."
-    },
-    "hi": {
-      "question": "सरल: 15 + 22 × 3",
-      "options": [
-        "990",
-        "81",
-        "40",
-        "111"
-      ],
-      "explanation": "BODMAS: 81।"
-    },
-    "id": "gdmpc-0068"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Rectangle 10×21cm. Area?",
-      "options": [
-        "31 cm²",
-        "420 cm²",
-        "62 cm²",
-        "210 cm²"
-      ],
-      "explanation": "Area=10×21=210 cm²."
-    },
-    "hi": {
-      "question": "आयत 10×21सेमी। क्षेत्रफल?",
-      "options": [
-        "31 cm²",
-        "420 cm²",
-        "62 cm²",
-        "210 cm²"
-      ],
-      "explanation": "क्षेत्रफल=10×21=210 वर्ग सेमी।"
-    },
-    "id": "gdmpc-0069"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 42km/hr, 12hrs. Distance?",
-      "options": [
-        "252km",
-        "54km",
-        "504km",
-        "1008km"
-      ],
-      "explanation": "Dist=42×12=504km."
-    },
-    "hi": {
-      "question": "कार 42किमी/घं, 12घंटे। दूरी?",
-      "options": [
-        "252km",
-        "54km",
-        "504km",
-        "1008km"
-      ],
-      "explanation": "दूरी=504किमी।"
-    },
-    "id": "gdmpc-0070"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 32 and 8?",
-      "options": [
-        "256",
-        "40",
-        "8",
-        "32"
-      ],
-      "explanation": "LCM=256/8=32."
-    },
-    "hi": {
-      "question": "32 और 8 का ल.स.?",
-      "options": [
-        "256",
-        "40",
-        "8",
-        "32"
-      ],
-      "explanation": "ल.स.=32।"
-    },
-    "id": "gdmpc-0071"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "30% of 330?",
-      "options": [
-        "330",
-        "660",
-        "990",
-        "165"
-      ],
-      "explanation": "330×30/100=990."
-    },
-    "hi": {
-      "question": "330 का 30%?",
-      "options": [
-        "330",
-        "660",
-        "990",
-        "165"
-      ],
-      "explanation": "330×30/100=990।"
-    },
-    "id": "gdmpc-0072"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 9000 at 14% for 28yrs?",
-      "options": [
-        "Rs.17640",
-        "Rs.70560",
-        "Rs.9000",
-        "Rs.35280"
-      ],
-      "explanation": "SI=9000×14×28/100=35280.0."
-    },
-    "hi": {
-      "question": "9000रु, 14%, 28वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.17640",
-        "Rs.70560",
-        "Rs.9000",
-        "Rs.35280"
-      ],
-      "explanation": "सा.ब्याज=35280.0।"
-    },
-    "id": "gdmpc-0073"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 756 in 2:7. Larger?",
-      "options": [
-        "168",
-        "378",
-        "588",
-        "756"
-      ],
-      "explanation": "Parts=9. Shares: 168, 588. Larger=588."
-    },
-    "hi": {
-      "question": "756 को 2:7 में बांटें। बड़ा?",
-      "options": [
-        "168",
-        "378",
-        "588",
-        "756"
-      ],
-      "explanation": "हिस्से: 168, 588। बड़ा=588।"
-    },
-    "id": "gdmpc-0074"
-  },
-  {
+    "id": "pc-0067",
     "correctOption": "A",
     "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "A=26d, B=9d. Together?",
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
       "options": [
-        "6.7d",
-        "13.4d",
-        "35d",
-        "17d"
-      ],
-      "explanation": "1d: 1/26+1/9. Time=6.7d."
-    },
-    "hi": {
-      "question": "A=26दिन, B=9दिन। साथ?",
-      "options": [
-        "6.7d",
-        "13.4d",
-        "35d",
-        "17d"
-      ],
-      "explanation": "1दिन: 1/26+1/9। समय=6.7दिन।"
-    },
-    "id": "gdmpc-0075"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Car 37km/hr, 27hrs. Distance?",
-      "options": [
-        "499km",
-        "1998km",
-        "64km",
-        "999km"
-      ],
-      "explanation": "Dist=37×27=999km."
-    },
-    "hi": {
-      "question": "कार 37किमी/घं, 27घंटे। दूरी?",
-      "options": [
-        "499km",
-        "1998km",
-        "64km",
-        "999km"
-      ],
-      "explanation": "दूरी=999किमी।"
-    },
-    "id": "gdmpc-0076"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 396 in 4:7. Larger?",
-      "options": [
-        "252",
-        "396",
-        "144",
-        "198"
-      ],
-      "explanation": "Parts=11. Shares: 144, 252. Larger=252."
-    },
-    "hi": {
-      "question": "396 को 4:7 में बांटें। बड़ा?",
-      "options": [
-        "252",
-        "396",
-        "144",
-        "198"
-      ],
-      "explanation": "हिस्से: 144, 252। बड़ा=252।"
-    },
-    "id": "gdmpc-0077"
-  },
-  {
-    "correctOption": "D",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 50 + 34 × 9",
-      "options": [
-        "93",
-        "756",
-        "15300",
-        "356"
-      ],
-      "explanation": "BODMAS: 34×9=306+50=356."
-    },
-    "hi": {
-      "question": "सरल: 50 + 34 × 9",
-      "options": [
-        "93",
-        "756",
-        "15300",
-        "356"
-      ],
-      "explanation": "BODMAS: 356।"
-    },
-    "id": "gdmpc-0078"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 67, 18, 34, 74, 65, 24",
-      "options": [
-        "282",
-        "47",
-        "74",
-        "18"
-      ],
-      "explanation": "Sum=282/6=47."
-    },
-    "hi": {
-      "question": "औसत: 67, 18, 34, 74, 65, 24",
-      "options": [
-        "282",
-        "47",
-        "74",
-        "18"
-      ],
-      "explanation": "योग=282/6=47।"
-    },
-    "id": "gdmpc-0079"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 550 in 4:7. Larger?",
-      "options": [
-        "200",
-        "350",
-        "275",
-        "550"
-      ],
-      "explanation": "Parts=11. Shares: 200, 350. Larger=350."
-    },
-    "hi": {
-      "question": "550 को 4:7 में बांटें। बड़ा?",
-      "options": [
-        "200",
-        "350",
-        "275",
-        "550"
-      ],
-      "explanation": "हिस्से: 200, 350। बड़ा=350।"
-    },
-    "id": "gdmpc-0080"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Simplify: 37 + 36 × 2",
-      "options": [
-        "109",
-        "146",
-        "75",
-        "2664"
-      ],
-      "explanation": "BODMAS: 36×2=72+37=109."
-    },
-    "hi": {
-      "question": "सरल: 37 + 36 × 2",
-      "options": [
-        "109",
-        "146",
-        "75",
-        "2664"
-      ],
-      "explanation": "BODMAS: 109।"
-    },
-    "id": "gdmpc-0081"
-  },
-  {
-    "correctOption": "C",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "LCM of 39 and 27?",
-      "options": [
-        "66",
         "3",
-        "351",
-        "1053"
+        "5",
+        "8",
+        "4"
       ],
-      "explanation": "LCM=1053/3=351."
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
     },
     "hi": {
-      "question": "39 और 27 का ल.स.?",
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
       "options": [
-        "66",
         "3",
-        "351",
-        "1053"
+        "5",
+        "8",
+        "4"
       ],
-      "explanation": "ल.स.=351।"
-    },
-    "id": "gdmpc-0082"
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    }
   },
   {
+    "id": "pc-0068",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Car 11km/hr, 14hrs. Distance?",
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
       "options": [
-        "77km",
-        "25km",
-        "154km",
-        "308km"
+        "13",
+        "3",
+        "12",
+        "14"
       ],
-      "explanation": "Dist=11×14=154km."
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
     },
     "hi": {
-      "question": "कार 11किमी/घं, 14घंटे। दूरी?",
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
       "options": [
-        "77km",
-        "25km",
-        "154km",
-        "308km"
+        "13",
+        "3",
+        "12",
+        "14"
       ],
-      "explanation": "दूरी=154किमी।"
-    },
-    "id": "gdmpc-0083"
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    }
   },
   {
+    "id": "pc-0069",
     "correctOption": "A",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Simplify: 5 + 27 × 7",
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
       "options": [
-        "194",
-        "224",
-        "39",
-        "945"
+        "5",
+        "3",
+        "6",
+        "7"
       ],
-      "explanation": "BODMAS: 27×7=189+5=194."
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
     },
     "hi": {
-      "question": "सरल: 5 + 27 × 7",
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
       "options": [
-        "194",
-        "224",
-        "39",
-        "945"
+        "5",
+        "3",
+        "6",
+        "7"
       ],
-      "explanation": "BODMAS: 194।"
-    },
-    "id": "gdmpc-0084"
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    }
   },
   {
+    "id": "pc-0070",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "3",
+        "6",
+        "8",
+        "7"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "3",
+        "6",
+        "8",
+        "7"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0071",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Rectangle 20×7cm. Area?",
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
       "options": [
-        "280 cm²",
-        "54 cm²",
-        "140 cm²",
-        "27 cm²"
+        "3",
+        "3",
+        "2",
+        "4"
       ],
-      "explanation": "Area=20×7=140 cm²."
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
     },
     "hi": {
-      "question": "आयत 20×7सेमी। क्षेत्रफल?",
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
       "options": [
-        "280 cm²",
-        "54 cm²",
-        "140 cm²",
-        "27 cm²"
+        "3",
+        "3",
+        "2",
+        "4"
       ],
-      "explanation": "क्षेत्रफल=20×7=140 वर्ग सेमी।"
-    },
-    "id": "gdmpc-0085"
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    }
   },
   {
+    "id": "pc-0072",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
+      "options": [
+        "3",
+        "8",
+        "6",
+        "7"
+      ],
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
+      "options": [
+        "3",
+        "8",
+        "6",
+        "7"
+      ],
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0073",
     "correctOption": "D",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "12% of 420?",
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
       "options": [
-        "210",
-        "420",
-        "840",
-        "504"
+        "9",
+        "8",
+        "3",
+        "7"
       ],
-      "explanation": "420×12/100=504."
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
     },
     "hi": {
-      "question": "420 का 12%?",
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
       "options": [
-        "210",
-        "420",
-        "840",
-        "504"
+        "9",
+        "8",
+        "3",
+        "7"
       ],
-      "explanation": "420×12/100=504।"
-    },
-    "id": "gdmpc-0086"
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    }
   },
   {
+    "id": "pc-0074",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "3",
+        "5",
+        "8",
+        "4"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "3",
+        "5",
+        "8",
+        "4"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    }
+  },
+  {
+    "id": "pc-0075",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
+      "options": [
+        "13",
+        "3",
+        "12",
+        "14"
+      ],
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
+      "options": [
+        "13",
+        "3",
+        "12",
+        "14"
+      ],
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    }
+  },
+  {
+    "id": "pc-0076",
     "correctOption": "D",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Divide 747 in 5:4. Larger?",
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
       "options": [
-        "373",
-        "747",
-        "332",
-        "415"
+        "3",
+        "6",
+        "7",
+        "5"
       ],
-      "explanation": "Parts=9. Shares: 415, 332. Larger=415."
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
     },
     "hi": {
-      "question": "747 को 5:4 में बांटें। बड़ा?",
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
       "options": [
-        "373",
-        "747",
-        "332",
-        "415"
+        "3",
+        "6",
+        "7",
+        "5"
       ],
-      "explanation": "हिस्से: 415, 332। बड़ा=415।"
-    },
-    "id": "gdmpc-0087"
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    }
   },
   {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 61, 67, 25, 35, 67, 74",
-      "options": [
-        "54.8",
-        "329",
-        "74",
-        "25"
-      ],
-      "explanation": "Sum=329/6=54.8."
-    },
-    "hi": {
-      "question": "औसत: 61, 67, 25, 35, 67, 74",
-      "options": [
-        "54.8",
-        "329",
-        "74",
-        "25"
-      ],
-      "explanation": "योग=329/6=54.8।"
-    },
-    "id": "gdmpc-0088"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "9% of 180?",
-      "options": [
-        "162",
-        "360",
-        "180",
-        "90"
-      ],
-      "explanation": "180×9/100=162."
-    },
-    "hi": {
-      "question": "180 का 9%?",
-      "options": [
-        "162",
-        "360",
-        "180",
-        "90"
-      ],
-      "explanation": "180×9/100=162।"
-    },
-    "id": "gdmpc-0089"
-  },
-  {
-    "correctOption": "B",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Divide 308 in 6:5. Larger?",
-      "options": [
-        "154",
-        "168",
-        "308",
-        "140"
-      ],
-      "explanation": "Parts=11. Shares: 168, 140. Larger=168."
-    },
-    "hi": {
-      "question": "308 को 6:5 में बांटें। बड़ा?",
-      "options": [
-        "154",
-        "168",
-        "308",
-        "140"
-      ],
-      "explanation": "हिस्से: 168, 140। बड़ा=168।"
-    },
-    "id": "gdmpc-0090"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "24% of 120?",
-      "options": [
-        "288",
-        "240",
-        "120",
-        "60"
-      ],
-      "explanation": "120×24/100=288."
-    },
-    "hi": {
-      "question": "120 का 24%?",
-      "options": [
-        "288",
-        "240",
-        "120",
-        "60"
-      ],
-      "explanation": "120×24/100=288।"
-    },
-    "id": "gdmpc-0091"
-  },
-  {
+    "id": "pc-0077",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "7% of 460?",
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
       "options": [
-        "920",
-        "230",
-        "322",
-        "460"
+        "3",
+        "7",
+        "6",
+        "8"
       ],
-      "explanation": "460×7/100=322."
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
     },
     "hi": {
-      "question": "460 का 7%?",
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
       "options": [
-        "920",
-        "230",
-        "322",
-        "460"
+        "3",
+        "7",
+        "6",
+        "8"
       ],
-      "explanation": "460×7/100=322।"
-    },
-    "id": "gdmpc-0092"
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    }
   },
   {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "Average: 23, 56, 56, 41, 61, 40",
-      "options": [
-        "46.2",
-        "61",
-        "23",
-        "277"
-      ],
-      "explanation": "Sum=277/6=46.2."
-    },
-    "hi": {
-      "question": "औसत: 23, 56, 56, 41, 61, 40",
-      "options": [
-        "46.2",
-        "61",
-        "23",
-        "277"
-      ],
-      "explanation": "योग=277/6=46.2।"
-    },
-    "id": "gdmpc-0093"
-  },
-  {
-    "correctOption": "A",
-    "difficulty": "easy",
-    "sourceYear": 2025,
-    "en": {
-      "question": "SI on 20000 at 30% for 17yrs?",
-      "options": [
-        "Rs.102000",
-        "Rs.51000",
-        "Rs.20000",
-        "Rs.204000"
-      ],
-      "explanation": "SI=20000×30×17/100=102000.0."
-    },
-    "hi": {
-      "question": "20000रु, 30%, 17वर्ष का सा.ब्याज?",
-      "options": [
-        "Rs.102000",
-        "Rs.51000",
-        "Rs.20000",
-        "Rs.204000"
-      ],
-      "explanation": "सा.ब्याज=102000.0।"
-    },
-    "id": "gdmpc-0094"
-  },
-  {
+    "id": "pc-0078",
     "correctOption": "B",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "13% of 60?",
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
       "options": [
-        "60",
-        "78",
-        "120",
-        "30"
+        "3",
+        "2",
+        "4",
+        "3"
       ],
-      "explanation": "60×13/100=78."
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
     },
     "hi": {
-      "question": "60 का 13%?",
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
       "options": [
-        "60",
-        "78",
-        "120",
-        "30"
+        "3",
+        "2",
+        "4",
+        "3"
       ],
-      "explanation": "60×13/100=78।"
-    },
-    "id": "gdmpc-0095"
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    }
   },
   {
+    "id": "pc-0079",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "CP Rs.130, 16% profit. SP?",
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
       "options": [
-        "130",
-        "260",
-        "150.8",
-        "120"
+        "7",
+        "3",
+        "6",
+        "8"
       ],
-      "explanation": "SP=130×1.16=150.8."
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
     },
     "hi": {
-      "question": "क्र.मू. 130रु, 16% लाभ। वि.मू.?",
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
       "options": [
-        "130",
-        "260",
-        "150.8",
-        "120"
+        "7",
+        "3",
+        "6",
+        "8"
       ],
-      "explanation": "वि.मू.=150.8।"
-    },
-    "id": "gdmpc-0096"
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    }
   },
   {
+    "id": "pc-0080",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
+      "options": [
+        "9",
+        "7",
+        "8",
+        "3"
+      ],
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
+      "options": [
+        "9",
+        "7",
+        "8",
+        "3"
+      ],
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    }
+  },
+  {
+    "id": "pc-0081",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "8"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "8"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    }
+  },
+  {
+    "id": "pc-0082",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
+      "options": [
+        "3",
+        "13",
+        "14",
+        "12"
+      ],
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
+      "options": [
+        "3",
+        "13",
+        "14",
+        "12"
+      ],
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    }
+  },
+  {
+    "id": "pc-0083",
     "correctOption": "A",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Simplify: 18 + 22 × 3",
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
       "options": [
-        "84",
-        "43",
-        "120",
-        "1188"
+        "5",
+        "3",
+        "6",
+        "7"
       ],
-      "explanation": "BODMAS: 22×3=66+18=84."
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
     },
     "hi": {
-      "question": "सरल: 18 + 22 × 3",
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
       "options": [
-        "84",
-        "43",
-        "120",
-        "1188"
+        "5",
+        "3",
+        "6",
+        "7"
       ],
-      "explanation": "BODMAS: 84।"
-    },
-    "id": "gdmpc-0097"
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    }
   },
   {
+    "id": "pc-0084",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "6",
+        "3",
+        "8",
+        "7"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "6",
+        "3",
+        "8",
+        "7"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0085",
     "correctOption": "B",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "LCM of 14 and 15?",
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
       "options": [
-        "212",
-        "210",
-        "211",
-        "213"
+        "3",
+        "2",
+        "3",
+        "4"
       ],
-      "explanation": "LCM=210/1=210."
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
     },
     "hi": {
-      "question": "14 और 15 का ल.स.?",
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
       "options": [
-        "212",
-        "210",
-        "211",
-        "213"
+        "3",
+        "2",
+        "3",
+        "4"
       ],
-      "explanation": "ल.स.=210।"
-    },
-    "id": "gdmpc-0098"
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    }
   },
   {
+    "id": "pc-0086",
     "correctOption": "C",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "Rectangle 7×8cm. Area?",
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
       "options": [
-        "112 cm²",
-        "30 cm²",
-        "56 cm²",
-        "15 cm²"
+        "7",
+        "8",
+        "6",
+        "3"
       ],
-      "explanation": "Area=7×8=56 cm²."
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
     },
     "hi": {
-      "question": "आयत 7×8सेमी। क्षेत्रफल?",
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
       "options": [
-        "112 cm²",
-        "30 cm²",
-        "56 cm²",
-        "15 cm²"
+        "7",
+        "8",
+        "6",
+        "3"
       ],
-      "explanation": "क्षेत्रफल=7×8=56 वर्ग सेमी।"
-    },
-    "id": "gdmpc-0099"
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    }
   },
   {
-    "correctOption": "B",
-    "difficulty": "easy",
+    "id": "pc-0087",
+    "correctOption": "D",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "SI on 7000 at 24% for 20yrs?",
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
       "options": [
-        "Rs.7000",
-        "Rs.33600",
-        "Rs.67200",
-        "Rs.16800"
+        "9",
+        "3",
+        "8",
+        "7"
       ],
-      "explanation": "SI=7000×24×20/100=33600.0."
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
     },
     "hi": {
-      "question": "7000रु, 24%, 20वर्ष का सा.ब्याज?",
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
       "options": [
-        "Rs.7000",
-        "Rs.33600",
-        "Rs.67200",
-        "Rs.16800"
+        "9",
+        "3",
+        "8",
+        "7"
       ],
-      "explanation": "सा.ब्याज=33600.0।"
-    },
-    "id": "gdmpc-0100"
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    }
   },
   {
+    "id": "pc-0088",
     "correctOption": "B",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceYear": 2025,
     "en": {
-      "question": "What is 47 × 36?",
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
       "options": [
-        "1710",
-        "1692",
-        "83",
-        "1683"
+        "4",
+        "3",
+        "5",
+        "8"
       ],
-      "explanation": "47×36 = 1692."
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
     },
     "hi": {
-      "question": "47 × 36 = ?",
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
       "options": [
-        "1710",
-        "1692",
-        "83",
-        "1683"
+        "4",
+        "3",
+        "5",
+        "8"
       ],
-      "explanation": "47×36 = 1692।"
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    }
+  },
+  {
+    "id": "pc-0089",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
+      "options": [
+        "14",
+        "12",
+        "13",
+        "3"
+      ],
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
     },
-    "id": "gdmpc-0101"
+    "hi": {
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
+      "options": [
+        "14",
+        "12",
+        "13",
+        "3"
+      ],
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    }
+  },
+  {
+    "id": "pc-0090",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "6",
+        "3",
+        "5",
+        "7"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "6",
+        "3",
+        "5",
+        "7"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    }
+  },
+  {
+    "id": "pc-0091",
+    "correctOption": "B",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "8",
+        "6",
+        "3",
+        "7"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "8",
+        "6",
+        "3",
+        "7"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0092",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
+      "options": [
+        "4",
+        "3",
+        "3",
+        "2"
+      ],
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
+      "options": [
+        "4",
+        "3",
+        "3",
+        "2"
+      ],
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    }
+  },
+  {
+    "id": "pc-0093",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
+      "options": [
+        "3",
+        "7",
+        "8",
+        "6"
+      ],
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
+      "options": [
+        "3",
+        "7",
+        "8",
+        "6"
+      ],
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0094",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
+      "options": [
+        "7",
+        "9",
+        "3",
+        "8"
+      ],
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 12hr, B in 18hr. Both?",
+      "options": [
+        "7",
+        "9",
+        "3",
+        "8"
+      ],
+      "explanation": "1hr = 1/12+1/18 = 30/216. Time = 216/30 = 7 hrs."
+    }
+  },
+  {
+    "id": "pc-0095",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "8",
+        "4",
+        "5",
+        "3"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 8hr, B in 6hr. Both?",
+      "options": [
+        "8",
+        "4",
+        "5",
+        "3"
+      ],
+      "explanation": "1hr = 1/8+1/6 = 14/48. Time = 48/14 = 3 hrs."
+    }
+  },
+  {
+    "id": "pc-0096",
+    "correctOption": "C",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
+      "options": [
+        "14",
+        "13",
+        "12",
+        "3"
+      ],
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 20hr, B in 30hr. Both?",
+      "options": [
+        "14",
+        "13",
+        "12",
+        "3"
+      ],
+      "explanation": "1hr = 1/20+1/30 = 50/600. Time = 600/50 = 12 hrs."
+    }
+  },
+  {
+    "id": "pc-0097",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "5",
+        "3",
+        "6",
+        "7"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 12hr, B in 8hr. Both?",
+      "options": [
+        "5",
+        "3",
+        "6",
+        "7"
+      ],
+      "explanation": "1hr = 1/12+1/8 = 20/96. Time = 96/20 = 5 hrs."
+    }
+  },
+  {
+    "id": "pc-0098",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "3",
+        "8",
+        "7",
+        "6"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 15hr, B in 10hr. Both?",
+      "options": [
+        "3",
+        "8",
+        "7",
+        "6"
+      ],
+      "explanation": "1hr = 1/15+1/10 = 25/150. Time = 150/25 = 6 hrs."
+    }
+  },
+  {
+    "id": "pc-0099",
+    "correctOption": "A",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
+      "options": [
+        "2",
+        "3",
+        "3",
+        "4"
+      ],
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 6hr, B in 4hr. Both?",
+      "options": [
+        "2",
+        "3",
+        "3",
+        "4"
+      ],
+      "explanation": "1hr = 1/6+1/4 = 10/24. Time = 24/10 = 2 hrs."
+    }
+  },
+  {
+    "id": "pc-0100",
+    "correctOption": "D",
+    "difficulty": "medium",
+    "sourceYear": 2025,
+    "en": {
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
+      "options": [
+        "8",
+        "7",
+        "3",
+        "6"
+      ],
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    },
+    "hi": {
+      "question": "Pipe A fills in 10hr, B in 15hr. Both?",
+      "options": [
+        "8",
+        "7",
+        "3",
+        "6"
+      ],
+      "explanation": "1hr = 1/10+1/15 = 25/150. Time = 150/25 = 6 hrs."
+    }
   }
 ]
