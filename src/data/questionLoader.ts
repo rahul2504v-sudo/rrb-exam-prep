@@ -74,7 +74,8 @@ export async function getTopicSetCount(examId: string, topicId: string): Promise
   const sets = await loadSetsIndex();
   const info = getSubjectForTopic(examId, topicId);
   if (!info) return 0;
-  const key = `${examId}-${getSubjectSlug(examId, info.subjectId)}-${getTopicSlug(examId, topicId)}`;
+  const dir = getSubjectExamDir(info.subjectId);
+  const key = `${dir}-${getSubjectSlug(examId, info.subjectId)}-${getTopicSlug(examId, topicId)}`;
   return (sets[key] || []).length;
 }
 
@@ -82,7 +83,8 @@ export async function loadTopicSet(examId: string, topicId: string, setIndex: nu
   const sets = await loadSetsIndex();
   const info = getSubjectForTopic(examId, topicId);
   if (!info) return [];
-  const key = `${examId}-${getSubjectSlug(examId, info.subjectId)}-${getTopicSlug(examId, topicId)}`;
+  const dir = getSubjectExamDir(info.subjectId);
+  const key = `${dir}-${getSubjectSlug(examId, info.subjectId)}-${getTopicSlug(examId, topicId)}`;
   const ts = sets[key];
   if (!ts || setIndex >= ts.length) return [];
   const raw = ts[setIndex];
