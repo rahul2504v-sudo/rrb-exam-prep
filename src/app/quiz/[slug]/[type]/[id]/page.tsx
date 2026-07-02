@@ -278,10 +278,10 @@ export default function QuizPage() {
               </span>
               {currentQuestion.sourceYear && <span className="text-xs text-gray-400">Source: {currentQuestion.sourceYear}</span>}
             </div>
-            <p className="text-lg font-medium text-gray-900 mb-6 leading-relaxed">{currentQuestion.questionText}</p>
+            <p className="text-lg font-medium text-gray-900 mb-6 leading-relaxed whitespace-pre-line">{currentQuestion.questionText}</p>
             {currentQuestion.questionImage && (
-              <div className="mb-4">
-                <img src={currentQuestion.questionImage} alt="Question figure" className="max-w-full h-auto rounded-lg border border-gray-200" />
+              <div className="mb-4 flex justify-center">
+                <img src={currentQuestion.questionImage} alt="Question figure" className="max-w-full max-h-80 h-auto rounded-lg border border-gray-200 object-contain" />
               </div>
             )}
             <div className="space-y-3">
@@ -405,9 +405,9 @@ function ResultsView({ session, questions, examId }: { session: TestSession; que
                   </div>
                   <div className="flex-1">
                     {q.questionImage && (
-                      <img src={q.questionImage} alt="Question figure" className="max-w-full h-auto rounded-lg border border-gray-200 mb-2" />
+                      <img src={q.questionImage} alt="Question figure" className="max-w-full max-h-48 h-auto rounded-lg border border-gray-200 mb-2 object-contain" />
                     )}
-                    <p className="font-medium text-gray-900"><span className="text-gray-400 mr-2">Q{idx + 1}.</span>{q.questionText}</p>
+                    <p className="font-medium text-gray-900 whitespace-pre-line"><span className="text-gray-400 mr-2">Q{idx + 1}.</span>{q.questionText}</p>
                     <div className="mt-2 space-y-1">
                       {(['A', 'B', 'C', 'D'] as const).map(opt => {
                         const isSelected = answer?.selectedOption === opt;
