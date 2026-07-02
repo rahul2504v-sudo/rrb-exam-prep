@@ -46,7 +46,7 @@ export default function MockPage() {
         <Link href={`/exam/${exam.slug}`} className="text-sm text-gray-500 hover:text-rail-navy mb-3 inline-flex items-center gap-1">
           <ArrowLeft className="w-3 h-3" /> Back to Topic Practice
         </Link>
-        <h1 className="text-3xl font-bold text-gray-900">{exam.name} — Mock Tests</h1>
+        <h1 className="text-3xl font-bold text-gray-900">{exam.name} — Full Length Tests</h1>
         <p className="text-gray-600 mt-1">{exam.description}</p>
         <div className="flex flex-wrap gap-4 mt-4">
           <div className="flex items-center gap-1.5 text-sm bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full">
@@ -80,7 +80,7 @@ export default function MockPage() {
       {/* Mock Papers Grid */}
       <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
         <Layers className="w-5 h-5 text-rail-navy" />
-        Full-Length Mock Papers
+        Full Length Tests
         <span className="text-sm font-normal text-gray-500">({mockCount} papers)</span>
       </h2>
       

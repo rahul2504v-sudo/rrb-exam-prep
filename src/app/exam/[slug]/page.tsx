@@ -59,8 +59,6 @@ export default function ExamPage() {
         <p className="text-gray-600 mt-1">{exam.description}</p>
         <div className="flex flex-wrap gap-4 mt-4">
           <div className="flex items-center gap-1.5 text-sm bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full">
-            <Target className="w-4 h-4" /> {exam.totalVacancies.toLocaleString()} {t('vacancies')}
-          </div>
           <div className="flex items-center gap-1.5 text-sm bg-green-50 text-green-700 px-3 py-1.5 rounded-full">
             <BookOpen className="w-4 h-4" /> {exam.pattern.totalQuestions} {t('questions')}
           </div>
@@ -72,15 +70,15 @@ export default function ExamPage() {
           </div>
           {/* Mock Tests Button — prominent */}
           <Link href={`/exam/${exam.slug}/mock`}
-            className="flex items-center gap-2 text-sm bg-indigo-600 text-white px-4 py-2 rounded-full hover:bg-indigo-700 font-medium">
-            <Layers className="w-4 h-4" /> Full Mock Tests ({mockCount} papers)
+            className="flex items-center gap-2 text-sm bg-emerald-600 text-white px-4 py-2 rounded-full hover:bg-emerald-700 font-medium">
+            <Layers className="w-4 h-4" /> Full Length Tests ({mockCount} papers)
           </Link>
         </div>
       </div>
 
       <div className="grid lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2 space-y-6">
-          <h2 className="text-xl font-bold text-gray-900">Topic-wise Sets</h2>
+          <h2 className="text-xl font-bold text-gray-900">Section-wise Practice Sets</h2>
 
           {exam.subjects.map((subject: Subject) => (
             <div key={subject.id} className="card">

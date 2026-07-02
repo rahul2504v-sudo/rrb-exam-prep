@@ -3,22 +3,39 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { examList } from '@/data/exams';
-import { Clock, ChevronDown, Megaphone, Calendar, ExternalLink, ArrowRight } from 'lucide-react';
+import { getTopicSetCount, getMockPaperCount } from '@/data/questionLoader';
+import { Clock, ChevronDown, Megaphone, Calendar, ArrowRight, BookOpen, Layers } from 'lucide-react';
 
 export default function HomePage() {
   const [openExam, setOpenExam] = useState<string | null>(null);
   const [bulletin, setBulletin] = useState<any[]>([]);
+  const [examStats, setExamStats] = useState<Record<string, {sets: number, mocks: number}>>({});
 
   useEffect(() => {
     fetch('/data/bulletin.json').then(r => r.json()).then(setBulletin).catch(() => {});
+    // Load stats for each exam
+    (async () => {
+      const stats: Record<string, {sets: number, mocks: number}> = {};
+      for (const exam of examList) {
+        let sets = 0;
+        for (const subj of exam.subjects) {
+          for (const topic of subj.topics) {
+            sets += await getTopicSetCount(exam.id, topic.id);
+          }
+        }
+        const mocks = await getMockPaperCount(exam.id);
+        stats[exam.id] = {sets, mocks};
+      }
+      setExamStats(stats);
+    })();
   }, []);
 
   const displayBulletin = bulletin.length > 0 ? bulletin : [
+    { name: 'RRB Group D 2026-27', date: 'Notification Expected', vacancies: '22,082', status: 'Expected' },
+    { name: 'RRB NTPC CBT 2 (UG)', date: 'September 2026', vacancies: '3,058', status: 'Upcoming' },
     { name: 'RRB ALP CBT 2', date: 'July 28, 2026', vacancies: '11,127', status: 'Ongoing' },
-    { name: 'RRB NTPC CBT 2 (UG)', date: 'September 17, 2026', vacancies: '3,058', status: 'Upcoming' },
-    { name: 'RRB Technician 2026-27', date: 'Notification Out', vacancies: '6,557', status: 'Notified' },
     { name: 'SSC CGL Tier 2', date: 'October 2026', vacancies: '~8,000', status: 'Upcoming' },
-    { name: 'RRB Group D (New)', date: 'Notification Expected', vacancies: '22,082', status: 'Expected' },
+    { name: 'RRB Technician', date: 'Notification Out', vacancies: '6,557', status: 'Notified' },
   ];
 
   return (
@@ -30,10 +47,10 @@ export default function HomePage() {
             <span className="text-white">prepXcore</span>
           </h1>
           <p className="text-xl sm:text-2xl text-indigo-100 font-light mb-3">
-            India's Smartest Exam Preparation Platform
+            Practice with Real Exam Questions
           </p>
           <p className="text-indigo-200/80 max-w-xl mx-auto">
-            10,000+ questions, full-length mocks, detailed analytics. Practice for RRB NTPC, ALP, Technician, Group D & more.
+            9,569 authentic questions extracted from actual RRB Group D papers, organized in 959 practice sets + 20 full-length mock tests.
           </p>
           <div className="flex flex-wrap justify-center gap-3 mt-8">
             <Link href="#exams" className="px-6 py-3 bg-white text-indigo-700 font-semibold rounded-xl hover:bg-indigo-50 transition-all shadow-lg hover:shadow-xl">
@@ -50,33 +67,26 @@ export default function HomePage() {
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Available Exams</h2>
             
             <div className="space-y-4">
-              {examList.map(exam => (
+              {examList.map(exam => {
+                const stats = examStats[exam.id] || {sets: 0, mocks: 0};
+                return (
                 <div key={exam.id} className="border border-gray-200 rounded-2xl overflow-hidden hover:border-indigo-300 transition-all">
                   <button onClick={() => setOpenExam(openExam === exam.id ? null : exam.id)}
                     className="w-full flex items-center justify-between p-5 hover:bg-gray-50 transition-colors">
                     <div className="flex items-center gap-4">
-                      <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-xl ${exam.id === 'ntpc' ? 'bg-blue-100' : 'bg-green-100'}`}>
-                        {exam.id === 'ntpc' || exam.id === 'alp' ? '🚂' : '🔧'}
+                      <div className="w-12 h-12 rounded-xl flex items-center justify-center text-xl bg-green-100">
+                        🔧
                       </div>
                       <div className="text-left">
-                        <h3 className="font-bold text-lg text-gray-900">
-                          {exam.name}
-                          {exam.status && (
-                            <span className={`ml-2 text-[10px] px-2 py-0.5 rounded-full font-medium ${
-                              exam.status === 'ongoing' ? 'bg-green-100 text-green-700' :
-                              exam.status === 'upcoming' ? 'bg-amber-100 text-amber-700' :
-                              exam.status === 'notified' ? 'bg-blue-100 text-blue-700' : 'bg-gray-100 text-gray-600'
-                            }`}>
-                              {exam.status === 'ongoing' ? 'Active' : exam.status === 'notified' ? 'New' : 'Upcoming'}
-                            </span>
-                          )}
+                        <h3 className="font-bold text-lg text-gray-900">{exam.name}
+                          <span className="ml-2 text-[10px] px-2 py-0.5 rounded-full bg-amber-100 text-amber-700 font-medium">Upcoming</span>
                         </h3>
                         <p className="text-sm text-gray-500">{exam.description}</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
-                      <span className="hidden sm:inline text-xs bg-blue-50 text-blue-700 px-2 py-1 rounded-full">{exam.totalVacancies.toLocaleString()} Posts</span>
-                      <span className="hidden sm:inline text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full">{exam.pattern.totalQuestions} Qs</span>
+                      <span className="hidden sm:inline text-xs bg-green-50 text-green-700 px-2 py-1 rounded-full font-medium">{exam.pattern.totalQuestions} Qs</span>
+                      <span className="hidden sm:inline text-xs bg-indigo-50 text-indigo-700 px-2 py-1 rounded-full">{stats.sets} Sets</span>
                       <ChevronDown className={`w-5 h-5 text-gray-400 transition-transform ${openExam === exam.id ? 'rotate-180' : ''}`} />
                     </div>
                   </button>
@@ -91,21 +101,25 @@ export default function HomePage() {
                           </div>
                         ))}
                       </div>
-                      <div className="text-sm text-gray-500 mb-3">
-                        <Clock className="w-4 h-4 inline mr-1" />{exam.pattern.durationMinutes} min · -1/3 negative marking
+                      <div className="mb-3 flex flex-wrap gap-3 text-sm text-gray-500">
+                        <span className="flex items-center gap-1"><Clock className="w-4 h-4" />{exam.pattern.durationMinutes} min</span>
+                        <span className="flex items-center gap-1"><BookOpen className="w-4 h-4" />{stats.sets} practice sets</span>
+                        <span className="flex items-center gap-1"><Layers className="w-4 h-4" />{stats.mocks} full-length tests</span>
+                        <span className="text-red-500">-1/3 negative marking</span>
                       </div>
                       <div className="flex gap-3">
                         <Link href={`/exam/${exam.slug}`} className="px-4 py-2 bg-indigo-600 text-white rounded-lg text-sm font-medium hover:bg-indigo-700">
-                          Topic-wise Practice <ArrowRight className="w-3.5 h-3.5 inline ml-1" />
+                          Section-wise Practice <ArrowRight className="w-3.5 h-3.5 inline ml-1" />
                         </Link>
-                        <Link href={`/exam/${exam.slug}/mock`} className="px-4 py-2 border border-gray-300 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-100">
-                          View Mock Papers
+                        <Link href={`/exam/${exam.slug}/mock`} className="px-4 py-2 bg-emerald-600 text-white rounded-lg text-sm font-medium hover:bg-emerald-700">
+                          Full Length Tests <ArrowRight className="w-3.5 h-3.5 inline ml-1" />
                         </Link>
                       </div>
                     </div>
                   )}
                 </div>
-              ))}
+                );
+              })}
             </div>
           </div>
 
@@ -133,7 +147,7 @@ export default function HomePage() {
                   </a>
                 ))}
               </div>
-              <p className="text-[10px] text-gray-400 mt-3 text-center">Auto-updated daily from official sources</p>
+              <p className="text-[10px] text-gray-400 mt-3 text-center">Auto-updated daily</p>
             </div>
           </div>
         </div>
@@ -142,7 +156,7 @@ export default function HomePage() {
       {/* Stats */}
       <section className="bg-indigo-600 text-white py-12">
         <div className="max-w-5xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-          {[['10,000+', 'Questions'], ['1,400+', 'Topic Sets'], ['80', 'Mock Papers'], ['15', 'Languages']].map(([val, label], i) => (
+          {[['9,569', 'Questions'], ['959', 'Practice Sets'], ['20', 'Full-Length Tests'], ['101', 'Exam Papers']].map(([val, label], i) => (
             <div key={i}>
               <div className="text-2xl font-bold">{val}</div>
               <div className="text-indigo-200 text-sm">{label}</div>
@@ -153,7 +167,7 @@ export default function HomePage() {
 
       <footer className="bg-gray-900 text-gray-400 text-xs text-center py-8">
         <div className="max-w-6xl mx-auto px-4">
-          <span className="font-bold text-white">prepXcore</span> — Competitive Exam Preparation Platform
+          <span className="font-bold text-white">prepXcore</span> — RRB Group D Exam Preparation
           <div className="mt-2">© 2026 prepXcore. All rights reserved.</div>
         </div>
       </footer>

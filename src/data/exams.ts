@@ -1,7 +1,7 @@
 import { Exam, Subject, ExamPattern } from '@/types';
 
 // ============================================================================
-// RRB Group D — Real Exam Questions (Dec 2025 CBT Papers)
+// RRB Group D
 // ============================================================================
 
 const gdMathematics: Subject = {
@@ -9,7 +9,7 @@ const gdMathematics: Subject = {
   name: 'Mathematics',
   slug: 'mathematics',
   topics: [
-    { id: 'group-d-mathematics-real', name: 'Real Exam Questions (Dec 2025)', slug: 'real-exam-math', questionCount: 2309 },
+    { id: 'group-d-mathematics-real', name: 'Mathematics Practice Sets', slug: 'real-exam-math', questionCount: 2309 },
   ],
 };
 
@@ -18,7 +18,7 @@ const gdScience: Subject = {
   name: 'General Science',
   slug: 'general-science',
   topics: [
-    { id: 'group-d-science-real', name: 'Real Exam Questions (Dec 2025)', slug: 'real-exam-physics', questionCount: 2393 },
+    { id: 'group-d-science-real', name: 'General Science Practice Sets', slug: 'real-exam-physics', questionCount: 2393 },
   ],
 };
 
@@ -27,7 +27,7 @@ const gdReasoning: Subject = {
   name: 'General Intelligence & Reasoning',
   slug: 'reasoning',
   topics: [
-    { id: 'group-d-reasoning-real', name: 'Real Exam Questions (Dec 2025)', slug: 'real-exam-reasoning', questionCount: 2472 },
+    { id: 'group-d-reasoning-real', name: 'Reasoning Practice Sets', slug: 'real-exam-reasoning', questionCount: 2472 },
   ],
 };
 
@@ -36,13 +36,9 @@ const gdGeneralAwareness: Subject = {
   name: 'General Awareness & Current Affairs',
   slug: 'general-awareness',
   topics: [
-    { id: 'group-d-ga-real', name: 'Real Exam Questions (Dec 2025)', slug: 'real-exam-ga', questionCount: 2395 },
+    { id: 'group-d-ga-real', name: 'General Awareness Practice Sets', slug: 'real-exam-ga', questionCount: 2395 },
   ],
 };
-
-// ============================================================================
-// Exam Pattern
-// ============================================================================
 
 const gdPattern: ExamPattern = {
   sections: [
@@ -57,28 +53,20 @@ const gdPattern: ExamPattern = {
   negativeMarking: -1 / 3,
 };
 
-// ============================================================================
-// Exam List
-// ============================================================================
-
 export const examList: Exam[] = [
   {
     id: 'group-d',
     name: 'RRB Group D',
     slug: 'group-d',
-    description: 'Level 1 Posts — Track Maintainer, Pointsman, Assistant & more',
+    description: 'Level 1 Posts — Track Maintainer, Pointsman, Helper, Assistant & more',
     icon: 'Wrench',
     color: 'rail-red',
-    totalVacancies: 22082,
+    totalVacancies: 0,
     pattern: gdPattern,
     subjects: [gdMathematics, gdScience, gdReasoning, gdGeneralAwareness],
     status: 'upcoming',
   },
 ];
-
-// ============================================================================
-// Subject Map
-// ============================================================================
 
 export const subjectMap: Record<string, Subject[]> = {
   'group-d': [gdMathematics, gdScience, gdReasoning, gdGeneralAwareness],
