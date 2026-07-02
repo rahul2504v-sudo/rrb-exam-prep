@@ -1,19 +1,27 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
-export async function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl
-  const pp = ['/', '/login', '/api/auth', '/api/payment']
-  if (pp.some(p => pathname.startsWith(p))) return NextResponse.next()
-  if (pathname.startsWith('/_next') || pathname.startsWith('/data/') ||
-      pathname.startsWith('/favicon') || pathname.startsWith('/icon') ||
-      pathname.startsWith('/manifest') || pathname.startsWith('/sw.js')) return NextResponse.next()
-  const token = request.cookies.get('session')?.value
-  if (!token) {
-    const u = new URL('/login', request.url)
-    u.searchParams.set('callbackUrl', pathname)
-    return NextResponse.redirect(u)
+export function middleware(request: NextRequest) {
+  const pathname = request.nextUrl.pathname
+  
+  // Allow public routes
+  if (pathname === '/' || pathname === '/login' || pathname.startsWith('/api/') ||
+      pathname.startsWith('/_next') || pathname.startsWith('/data/') ||
+      pathname.startsWith('/favicon') || pathname.startsWith('/manifest')) {
+    return NextResponse.next()
   }
+  
+  // Check session cookie
+  if (!request.cookies.has('session')) {
+    const url = request.nextUrl.clone()
+    url.pathname = '/login'
+    url.searchParams.set('callbackUrl', pathname)
+    return NextResponse.redirect(url)
+  }
+  
   return NextResponse.next()
 }
-export const config = { matcher: ['/((?!_next/static|_next/image|favicon.svg|icon-.*\.svg).*)'] }
+
+export const config = {
+  matcher: ['/((?!_next/static|_next/image|favicon.svg|icon-.*\\.svg).*)'],
+}
