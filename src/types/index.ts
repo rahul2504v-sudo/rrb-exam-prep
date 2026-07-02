@@ -65,6 +65,7 @@ export interface Question {
   subjectId: string;
   topicId: string;
   questionText: string;
+  questionImage?: string;
   optionA: string;
   optionB: string;
   optionC: string;
@@ -141,6 +142,7 @@ export function questionFromJSON(
     subjectId,
     topicId,
     questionText: content.question,
+    questionImage: (q as any).imageUrl,
     optionA: content.options[0],
     optionB: content.options[1],
     optionC: content.options[2],

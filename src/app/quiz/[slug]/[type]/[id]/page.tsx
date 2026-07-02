@@ -278,6 +278,11 @@ export default function QuizPage() {
               </span>
               {currentQuestion.sourceYear && <span className="text-xs text-gray-400">Source: {currentQuestion.sourceYear}</span>}
             </div>
+            {currentQuestion.questionImage && (
+              <div className="mb-4">
+                <img src={currentQuestion.questionImage} alt="Question figure" className="max-w-full h-auto rounded-lg border border-gray-200" />
+              </div>
+            )}
             <p className="text-lg font-medium text-gray-900 mb-6 leading-relaxed">{currentQuestion.questionText}</p>
             <div className="space-y-3">
               {(['A', 'B', 'C', 'D'] as const).map(option => (
@@ -395,6 +400,9 @@ function ResultsView({ session, questions, examId }: { session: TestSession; que
                     {isCorrect ? <CheckCircle className="w-5 h-5 text-green-600" /> : isSkipped ? <AlertCircle className="w-5 h-5 text-gray-400" /> : <XCircle className="w-5 h-5 text-red-600" />}
                   </div>
                   <div className="flex-1">
+                    {q.questionImage && (
+                      <img src={q.questionImage} alt="Question figure" className="max-w-full h-auto rounded-lg border border-gray-200 mb-2" />
+                    )}
                     <p className="font-medium text-gray-900"><span className="text-gray-400 mr-2">Q{idx + 1}.</span>{q.questionText}</p>
                     <div className="mt-2 space-y-1">
                       {(['A', 'B', 'C', 'D'] as const).map(opt => {
