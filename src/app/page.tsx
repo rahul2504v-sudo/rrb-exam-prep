@@ -98,8 +98,8 @@ export default function HomePage() {
                         <Link href={`/exam/${exam.slug}`} className="px-4 py-2 bg-indigo-600 text-white rounded-lg text-sm font-medium hover:bg-indigo-700">
                           Topic-wise Practice <ArrowRight className="w-3.5 h-3.5 inline ml-1" />
                         </Link>
-                        <Link href={`/quiz/${exam.slug}/mock/0`} className="px-4 py-2 border border-gray-300 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-100">
-                          Full Mock Test
+                        <Link href={`/exam/${exam.slug}`} className="px-4 py-2 border border-gray-300 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-100">
+                          View Mock Papers
                         </Link>
                       </div>
                     </div>
