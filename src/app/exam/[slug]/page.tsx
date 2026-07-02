@@ -58,7 +58,6 @@ export default function ExamPage() {
         <h1 className="text-3xl font-bold text-gray-900">{exam.name} — Topic Practice</h1>
         <p className="text-gray-600 mt-1">{exam.description}</p>
         <div className="flex flex-wrap gap-4 mt-4">
-          <div className="flex items-center gap-1.5 text-sm bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full">
           <div className="flex items-center gap-1.5 text-sm bg-green-50 text-green-700 px-3 py-1.5 rounded-full">
             <BookOpen className="w-4 h-4" /> {exam.pattern.totalQuestions} {t('questions')}
           </div>
